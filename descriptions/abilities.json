@@ -89,6 +89,12 @@
             "en": "You may pay {count} {ink} to play this on top of one of your characters named {family}."
         }
     },
+    "shift_3": {
+        "reference": "shift",
+        "values": {
+            "count": 3
+        }
+    },
     "shift_4": {
         "reference": "shift",
         "values": {
@@ -200,6 +206,18 @@
         },
         "text": {
             "en": "When you play this character, if you have {count} or more other characters in play, you may draw {draw} cards."
+        }
+    },
+    "adoring_fans": {
+        "logic": "adoring_fans",
+        "values": {
+            "cost": 2
+        },
+        "title": {
+            "en": "Adoring Fans"
+        },
+        "text": {
+            "en": "Whenever you play a character with cost {cost} or less, you may exert them to draw a card."
         }
     },
     "tastes_like_chicken": {
@@ -617,13 +635,13 @@
             "en": "Look at the top {cards} cards of your deck. Put them back on the top of your deck in any order."
         }
     },
-    "magic_mirror": {
-        "logic": "magic_mirror",
+    "speak": {
+        "logic": "speak",
         "values": {
             "cost": 4
         },
         "title": {
-            "en": "Magic Mirror"
+            "en": "Speak"
         },
         "text": {
             "en": "{flip}, {cost} {ink} - Draw a card."
@@ -662,7 +680,7 @@
             "en": "Opponents can't choose this character except to challenge."
         }
     },
-    "road": {
+    "roar": {
         "logic": "exert_all_opposing_when_play",
         "title": {
             "en": "Roar"
@@ -773,7 +791,7 @@
             "en": "Whenever this character is challenged, you may draw a card."
         }
     },
-    "wonder_body": {
+    "wonder_boy": {
         "logic": "wonder_body",
         "values": {
             "count": 2
@@ -845,7 +863,7 @@
             "en": "Deal {count} damage to chosen damaged character."
         }
     },
-    "steal_from_righ": {
+    "steal_from_the_rich": {
         "logic": "opponent_lose_lore_when_quest",
         "values": {
             "count": 1
@@ -1123,10 +1141,10 @@
             "en": "When you play this character, chosen character gets {count} {strength} for the rest of the turn."
         }
     },
-    "protectrive_embrace": {
+    "protective_embrace": {
         "logic": "characters_gain_ward",
         "title": {
-            "en": "Protectrive Embrace"
+            "en": "Protective Embrace"
         },
         "text": {
             "en": "Your other characters gain Ward. (Opponents can't choose them except to challenge.)"
@@ -1256,10 +1274,10 @@
             "en": "When you play this character, chosen opposing character gets {count} {strength} this turn."
         }
     },
-    "what_we_have_here": {
-        "logic": "what_we_have_here",
+    "what_have_we_here": {
+        "logic": "what_have_we_here",
         "title": {
-            "en": "What We Have Here?"
+            "en": "What Have We Here?"
         },
         "text": {
             "en": "When you play this character and whenever he quests, you may return an item card from your discard to your hand."
@@ -1301,10 +1319,10 @@
             "en": "Look at the top {cards} cards of your deck. Put one into your hand and the other on the bottom of the deck."
         }
     },
-    "dont_fix_it": {
-        "logic": "dont_fix_it",
+    "if_its_not_baroque": {
+        "logic": "if_its_not_baroque",
         "title": {
-            "en": "... Don't Fix It"
+            "en": "If It's Not Baroque"
         },
         "text": {
             "en": "Return an item card from your discard to your hand."

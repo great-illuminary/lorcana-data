@@ -52,6 +52,8 @@ function mapCard(card: any) {
     delete card.updated_at;
     delete card.blurhash;
     delete card.spoiler;
+    delete card.language;
+
     if(!card.actions) {
         card.actions = [];
     }
@@ -70,6 +72,14 @@ function mapCard(card: any) {
         })();
         delete card.card_set_id;
     }
+
+    if (card.edition) {
+        card.edition.forEach((edition: any) => delete edition.id);
+    }
+
+    delete card.name;
+    delete card.title;
+    delete card.flavour;
 
     if (card.languages) {
         Object.keys(card.languages).forEach(key => {
@@ -98,4 +108,41 @@ function cleanUp(set: string, content: string) {
     return cleaned;
 }
 
-[ "d23", "tfc" ].map( key => cleanUp(key, fs.readFileSync(`../raw/${key}.json`, "utf-8")));
+
+
+var attacks = JSON.parse(fs.readFileSync(`../descriptions/abilities.json`, "utf-8"));
+
+function check(set: string, content: string) {
+    const json = JSON.parse(content);
+
+    json.forEach((card: any) => {
+        if (!card.actions) return;
+
+        delete card.name;
+        delete card.title;
+        delete card.flavour;
+
+        delete card.separator;
+        delete card.stars;
+        delete card.language;
+        delete card.pack;
+        delete card.final;
+        card.set_code = card.setCode;
+        delete card.setCode;
+
+        const invalid = card.actions.find((key: string) => !attacks[key]);
+        if (!!invalid) {
+            console.log(`unknown ${invalid} for ${card.number}`);
+            throw "stopping due to an unexpected invalid ability"
+        }
+    });
+
+
+    const output = JSON.stringify(json, null, 2);
+    fs.writeFileSync(`../sets/${set}_filtered.json`, output);
+}
+
+
+// TODO redefine here :
+// [ "d23", "tfc" ].map( key => cleanUp(key, fs.readFileSync(`../raw/${key}.json`, "utf-8")));
+// [ "tfc" ].map( key => check(key, fs.readFileSync(`../sets/${key}.json`, "utf-8")));

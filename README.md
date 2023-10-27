@@ -13,7 +13,13 @@ name:
     - _optional_
     - song_cost: int?, the cost of the song
     - cost: int?
+    - count: int?
     - damages: int?
+  title:
+    - _optional_
+    - en: the english translation
+    - fr: the french translation
+    - de: the german translation
   text:
     - en: the english translation
     - fr: the french translation
