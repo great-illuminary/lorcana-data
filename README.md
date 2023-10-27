@@ -1,6 +1,36 @@
 # lorcana-data
 Holding lorcana data only
 
+# Cards
+
+The cards are defined in the [sets folder](./sets/)
+
+The model is as the following :
+
+```
+- cost: int
+- inkwell: int
+- attack: 3
+- defence: 5,
+- color: int
+- type: string
+- illustrator: string
+- number: int
+- rarity: string
+- image: string
+- languages:
+  - key:
+    - name: string
+    - title: string?
+    - flavour: string?
+    - image: string?
+- edition: []
+  - name: string
+  - code: string
+- actions: string[], it can be mapped to the following abilities list
+- set_code: string
+```
+
 # Abilities
 
 Abilities are set in the [abilities.json file](./descriptions/abilities.json)
