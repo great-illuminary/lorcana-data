@@ -997,6 +997,704 @@
             "en": "When you play this character, you may banish chosen character named Te Ka."
         }
     },
+    "lead_by_example": {
+        "logic": "lead_by_example",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Lead By Example"
+        },
+        "text": {
+            "en": "During your turn, whenever this character banishes another character in a challenge, your other characters get +{count} {lore} this turn."
+        }
+    },
+    "tangle": {
+        "logic": "opponent_lose_lore_when_played",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Tangle"
+        },
+        "text": {
+            "en": "When you play this character, each opponent loses {count} {lore}."
+        }
+    },
+    "rousing_speech": {
+        "logic": "rousing_speech",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": "Rousing Speech"
+        },
+        "text": {
+            "en": "When you play this character, ready your characters with cost {cost} or less. They can't quest for the rest of this turn."
+        }
+    },
+    "be_prepared": {
+        "logic": "banish_all",
+        "values": {
+            "song_cost": 7
+        },
+        "title": {
+            "en": "Be Prepared"
+        },
+        "text": {
+            "en": "Banish all characters."
+        }
+    },
+    "dragon_fire_action": {
+        "logic": "banish_chosen_character",
+        "title": {
+            "en": "Dragon Fire"
+        },
+        "text": {
+            "en": "Banish chosen character."
+        }
+    },
+    "fan_the_flames_action": {
+        "logic": "ready_chosen_character_cant_quest",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": "Fan The Flames"
+        },
+        "text": {
+            "en": "Ready chosen character. They can't quest for the rest of this turn."
+        }
+    },
+    "hes_got_sword": {
+        "logic": "chosen_character_strength",
+        "values": {
+            "count": 0
+        },
+        "title": {
+            "en": "He's Got A Sword"
+        },
+        "text": {
+            "en": "Chosen character gets +{count} {strength} this turn."
+        }
+    },
+    "tangle_action": {
+        "logic": "opponents_lose_lore",
+        "title": {
+            "en": "Tangle"
+        },
+        "text": {
+            "en": "Each opponent loses 1 lore."
+        }
+    },
+    "take_bite": {
+        "logic": "exert_chosen_character_if_princess_banish",
+        "values": {
+            "cost": 1
+        },
+        "title": {
+            "en": "Take A Bite..."
+        },
+        "text": {
+            "en": "{cost} {ink}, Banish this item - Exert chosen character. If a Princess character is chosen, banish her instead."
+        }
+    },
+    "fireproof": {
+        "logic": "fireproof",
+        "values": {
+            "cost": 3
+        },
+        "title": {
+            "en": "Fireproof"
+        },
+        "text": {
+            "en": "{flip}, {cost} {ink} - Ready chosen character. They can't quest for the rest of this turn."
+        }
+    },
+    "final_enchantment": {
+        "logic": "final_enchantment",
+        "title": {
+            "en": "Final Enchantment"
+        },
+        "text": {
+            "en": "Banish this item - Banish chosen Villain character."
+        }
+    },
+    "look_at_this_stuff": {
+        "logic": "look_at_this_stuff",
+        "title": {
+            "en": "Look At This Stuff"
+        },
+        "text": {
+            "en": "Whenever you play an item, you may ready this character."
+        }
+    },
+    "disturbing_beauty": {
+        "logic": "disturbing_beauty",
+        "values": {
+            "count": -2
+        },
+        "title": {
+            "en": "Disturbing Beauty"
+        },
+        "text": {
+            "en": "When you play this character, chosen character gets {count} {strength} for the rest of the turn."
+        }
+    },
+    "protectrive_embrace": {
+        "logic": "characters_gain_ward",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": "Protectrive Embrace"
+        },
+        "text": {
+            "en": "Your other characters gain Ward. (Opponents can't choose them except to challenge.)"
+        }
+    },
+    "tinker": {
+        "logic": "tinker",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Tinker"
+        },
+        "text": {
+            "en": "Whenever this character quests, you pay {count} {ink} less for the next item you play this turn."
+        }
+    },
+    "read_book": {
+        "logic": "read_book",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": "Read A Book"
+        },
+        "text": {
+            "en": "During your turn, you may put an additional card from your hand into your inkwell facedown."
+        }
+    },
+    "my_favorite_part": {
+        "logic": "",
+        "values": {
+            "cards": 10,
+            "count": 4
+        },
+        "title": {
+            "en": "My Favorite Part!"
+        },
+        "text": {
+            "en": "While you have {cards} or more cards in your inkwell, this character gets +{count} {lore}."
+        }
+    },
+    "ill_be_with_you": {
+        "logic": "ill_be_with_you",
+        "title": {
+            "en": "I Will Be With You"
+        },
+        "text": {
+            "en": "When this character is banished, you may put this card into your inkwell facedown and exerted."
+        }
+    },
+    "is_there_downside_to_this": {
+        "logic": "is_there_downside_to_this",
+        "title": {
+            "en": "Is There A Downside To This?"
+        },
+        "text": {
+            "en": "When you play this character, you may put chosen opposing character into their player's inkwell facedown."
+        }
+    },
+    "caretaker": {
+        "logic": "caretaker",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Caretaker"
+        },
+        "text": {
+            "en": "When you play this character and whenever she quests, you may remove up to 2 damage from each of your characters."
+        }
+    },
+    "give_it_try": {
+        "logic": "give_it_try",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Give It A Try"
+        },
+        "text": {
+            "en": "Whenever this character quests, you pay {count} {ink} less for the next item you play this turn."
+        }
+    },
+    "it_works": {
+        "logic": "it_works",
+        "title": {
+            "en": "It Works!"
+        },
+        "text": {
+            "en": "Whenever you play an item, you may draw a card."
+        }
+    },
+    "get_clue": {
+        "logic": "get_clue",
+        "title": {
+            "en": "Get A Clue"
+        },
+        "text": {
+            "en": "When you play this character, you may put the top card of your deck into your inkwell facedown and exerted."
+        }
+    },
+    "feed_the_poor": {
+        "logic": "feed_the_poor",
+        "title": {
+            "en": "Feed The Poor"
+        },
+        "text": {
+            "en": "When you play this character, if an opponent has more cards in their hand than you, draw a card."
+        }
+    },
+    "good_shot": {
+        "logic": "",
+        "title": {
+            "en": "Good Shot"
+        },
+        "text": {
+            "en": "During your turn, this character gains Evasive. (They can challenge characters with Evasive.)"
+        }
+    },
+    "mastermind": {
+        "logic": "mastermind",
+        "values": {
+            "count": -5
+        },
+        "title": {
+            "en": "Mastermind"
+        },
+        "text": {
+            "en": "When you play this character, chosen opposing character gets {count} {strength} this turn."
+        }
+    },
+    "what_we_have_here": {
+        "logic": "what_we_have_here",
+        "title": {
+            "en": "What We Have Here?"
+        },
+        "text": {
+            "en": "When you play this character and whenever he quests, you may return an item card from your discard to your hand."
+        }
+    },
+    "glam": {
+        "logic": "glam",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Glam"
+        },
+        "text": {
+            "en": "This character gets +{count} {lore} for each item you have in play."
+        }
+    },
+    "insidious_plot": {
+        "logic": "insidious_plot",
+        "values": {
+            "count": 5
+        },
+        "title": {
+            "en": "Insidious plot"
+        },
+        "text": {
+            "en": "When you play this character, chosen opposing character gets -{count} {strength} this turn."
+        }
+    },
+    "develop_your_brain": {
+        "logic": "develop_your_brain",
+        "values": {
+            "cards": 2
+        },
+        "title": {
+            "en": "Develop Your Brain"
+        },
+        "text": {
+            "en": "Look at the top {cards} cards of your deck. Put one into your hand and the other on the bottom of the deck."
+        }
+    },
+    "dont_fix_it": {
+        "logic": "dont_fix_it",
+        "title": {
+            "en": "... Don't Fix It"
+        },
+        "text": {
+            "en": "Return an item card from your discard to your hand."
+        }
+    },
+    "let_it_go": {
+        "logic": "",
+        "values": {
+            "song_cost": 5
+        },
+        "title": {
+            "en": "Let It Go"
+        },
+        "text": {
+            "en": "Put chosen character into their player's inkwell facedown and exerted."
+        }
+    },
+    "one_jump_ahead": {
+        "logic": "one_jump_ahead",
+        "title": {
+            "en": "One Jump Ahead"
+        },
+        "text": {
+            "en": "Put the top card of your deck into your inkwell facedown and exerted."
+        }
+    },
+    "consider_the_coconut": {
+        "logic": "consider_the_coconut",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Consider The Coconut"
+        },
+        "text": {
+            "en": "Whenever you play a character, you may remove up to {count} damage from chosen character."
+        }
+    },
+    "see_the_future": {
+        "logic": "see_the_future",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "See The Future"
+        },
+        "text": {
+            "en": "{flip} - Chosen character gets +1{count} {lore} this turn."
+        }
+    },
+    "go_ahead_and_sign": {
+        "logic": "go_ahead_and_sign",
+        "title": {
+            "en": "Go Ahead And Sign"
+        },
+        "text": {
+            "en": "{flip} - Put any card from your hand into your inkwell facedown."
+        }
+    },
+    "healing_pollen": {
+        "logic": "healing_pollen",
+        "values": {
+            "count": 3
+        },
+        "title": {
+            "en": "Healing Pollen"
+        },
+        "text": {
+            "en": "Banish this item - Remove up to {count} damage from chosen character."
+        }
+    },
+    "command": {
+        "logic": "command",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": "Command"
+        },
+        "text": {
+            "en": "{flip} - Chosen character gains Support this turn. (Whenever they quest, you may add their {strength} to another chosen character's {strength} this turn.)"
+        }
+    },
+    "destruction": {
+        "logic": "destruction",
+        "title": {
+            "en": "Destruction"
+        },
+        "text": {
+            "en": "When you play this character, you may banish chosen item card."
+        }
+    },
+    "double_the_powder": {
+        "logic": "double_the_powder",
+        "title": {
+            "en": "Double The Powder!"
+        },
+        "text": {
+            "en": "When you play this character, you may return an action card named Fire the Cannons! from your discard to your hand."
+        }
+    },
+    "stolen_dust": {
+        "logic": "stolen_dust",
+        "values": {
+            "cost": 3
+        },
+        "title": {
+            "en": "Stolen Dust"
+        },
+        "text": {
+            "en": "Characters with cost {cost} or less can't challenge this character."
+        }
+    },
+    "stay_alert": {
+        "logic": "stay_alert",
+        "title": {
+            "en": "Stay Alert!"
+        },
+        "text": {
+            "en": "During your turn, your Musketeer characters gain Evasive. (They can challenge characters with Evasive.)"
+        }
+    },
+    "under_arrest": {
+        "logic": "under_arrest",
+        "values": {
+            "cost": 2
+        },
+        "title": {
+            "en": "Under Arrest"
+        },
+        "text": {
+            "en": "Characters with cost {cost} or less can't challenge your characters."
+        }
+    },
+    "stage_little_accident": {
+        "logic": "stage_little_accident",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Stage Little Accident"
+        },
+        "text": {
+            "en": "Whenever this character quests, you may deal {count} damage to chosen character."
+        }
+    },
+    "all_for_one": {
+        "logic": "all_for_one",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "All For One"
+        },
+        "text": {
+            "en": "Your other Musketeer characters get +{count} {strength}"
+        }
+    },
+    "guess_what": {
+        "logic": "guess_what",
+        "title": {
+            "en": "Guesst What?"
+        },
+        "text": {
+            "en": "When you play this character, you may draw a card, then choose and discard a card."
+        }
+    },
+    "pounce": {
+        "logic": "pounce",
+        "title": {
+            "en": "Pounce"
+        },
+        "text": {
+            "en": "During your turn, this character gains Evasive. (They can challenge characters with Evasive.)"
+        }
+    },
+    "i_know_what_i_have_to_do": {
+        "logic": "i_know_what_i_have_to_do",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "I Know What I Have To Do"
+        },
+        "text": {
+            "en": "During your turn, whenever this character banishes another character in a challenge, you gain {count} {lore}."
+        }
+    },
+    "aye_aye_captain": {
+        "logic": "aye_aye_captain",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Aye Aye, Captain"
+        },
+        "text": {
+            "en": "While you have a Captain character in play, this character gets +{count} {lore}."
+        }
+    },
+    "seek_the_heart": {
+        "logic": "seek_the_heart",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Seek The Heart"
+        },
+        "text": {
+            "en": "During your turn, whenever this character banishes another character in a challenge, you gain {count} {lore}."
+        }
+    },
+    "rock_the_boat": {
+        "logic": "rock_the_boat",
+        "values": {
+            "cost": 1
+        },
+        "title": {
+            "en": "Rock The Boat"
+        },
+        "text": {
+            "en": "When you play this character, deal {count} damage to each opposing character."
+        }
+    },
+    "puny_pirate": {
+        "logic": "",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Puny Pirate!"
+        },
+        "text": {
+            "en": "During your turn, whenever this character banishes another character in a challenge, you may deal {count} damage to chosen opposing character."
+        }
+    },
+    "battle_plans": {
+        "logic": "battle_plans",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": "Battle Plans"
+        },
+        "text": {
+            "en": "{flip} - Draw a card, then choose and discard a card."
+        }
+    },
+    "a_whole_new_world": {
+        "logic": "a_whole_new_world",
+        "values": {
+            "count": 7
+        },
+        "title": {
+            "en": "A Whole New World"
+        },
+        "text": {
+            "en": "Each player discards their hand and draws {count} cards."
+        }
+    },
+    "break": {
+        "logic": "break",
+        "title": {
+            "en": "Break"
+        },
+        "text": {
+            "en": "Banish chosen item."
+        }
+    },
+    "fire_the_cannons": {
+        "logic": "fire_the_cannons",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Fire The Cannons!"
+        },
+        "text": {
+            "en": "Deal {count} damage to chosen character."
+        }
+    },
+    "grab_your_sword": {
+        "logic": "grab_your_sword",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Grab Your Sword"
+        },
+        "text": {
+            "en": "Deal {count} damage to each opposing character."
+        }
+    },
+    "ransack": {
+        "logic": "ransack",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Ransack"
+        },
+        "text": {
+            "en": "Draw {count} cards, then choose and discard {count} cards."
+        }
+    },
+    "smash": {
+        "logic": "smash",
+        "values": {
+            "count": 3
+        },
+        "title": {
+            "en": "Smash"
+        },
+        "text": {
+            "en": "Deal {count} damage to the chosen character."
+        }
+    },
+    "show_me": {
+        "logic": "show_me",
+        "values": {
+            "count": 3
+        },
+        "title": {
+            "en": "Show Me"
+        },
+        "text": {
+            "en": "{flip}, {count} {ink} - If you have no cards in your hand, draw a card."
+        }
+    },
+    "clang": {
+        "logic": "clang",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": "Clang"
+        },
+        "text": {
+            "en": "Banish this item - Chosen character can't challenge during their next turn."
+        }
+    },
+    "all_for_one_and_one_for_all": {
+        "logic": "all_for_one_and_one_for_all",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": "All For One And One For All"
+        },
+        "text": {
+            "en": "Whenever one of your characters with Bodyguard is banished, you may draw a card."
+        }
+    },
+    "quick_shot": {
+        "logic": "quick_shot",
+        "values": {
+            "cost": 2,
+            "count": 1
+        },
+        "title": {
+            "en": "Quick Shot"
+        },
+        "text": {
+            "en": "{flip}, {cost} ⬡ - Deal {count} damage to chosen character."
+        }
+    },
     "name": {
         "logic": "",
         "values": {
