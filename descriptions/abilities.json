@@ -1,0 +1,1012 @@
+{
+    "voiceless": {
+        "logic": "no_song",
+        "text": {
+            "en": "This character can't {flip} to sing songs.",
+            "fr": "Ce personnage ne peut pas être {flip} pour chanter des chansons.",
+            "de": "Dieser Charakter kann nicht {flip}, um Lieder zu singen."
+        }
+    },
+    "singer": {
+        "logic": "cost_to_sing",
+        "values": {
+            "cost": 5
+        },
+        "title": {
+            "en": "Singer"
+        },
+        "text": {
+            "en": "{cost}",
+            "fr": "{cost}",
+            "de": "{cost}"
+        },
+        "note": {
+            "en": "This character counts as cost {cost} to sing songs."
+        }
+    },
+    "singer_4": {
+        "reference": "singer",
+        "values": {
+            "cost": 4
+        }
+    },
+    "musical_debut": {
+        "logic": "take_deck_keep_one_song_other_bottom_deck",
+        "values": {
+            "count": 4
+        },
+        "title": {
+            "en": "Musical Debut"
+        },
+        "text": {
+            "en": "When you play this character, look at the top {count} cards of your deck. You may reveal a song card and put it into your hand. Put the rest on the bottom of your deck in any order."
+        }
+    },
+    "wonderful_dream": {
+        "logic": "remove_damages_one_princess",
+        "values": {
+            "count": 3
+        },
+        "title": {
+            "en": "Wonderful Dream"
+        },
+        "text": {
+            "en": "{flip}- Remove up to {count} damage from chosen Princess character.",
+            "fr": "",
+            "de": ""
+        }
+    },
+    "bodyguard": {
+        "logic": "bodyguard",
+        "title": {
+            "en": "Bodyguard"
+        },
+        "text": {
+            "en": "This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able."
+        }
+    },
+    "and_two_for_tea": {
+        "logic": "remove_damages_from_musketeers",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "And Two For Tea!"
+        },
+        "text": {
+            "en": "When you play this character, you may remove up to {count} damage from each of your Musketeer characters."
+        }
+    },
+    "shift": {
+        "logic": "shift",
+        "values": {
+            "count": 6
+        },
+        "title": {
+            "en": "Shift"
+        },
+        "text": {
+            "en": "You may pay {count} {ink} to play this on top of one of your characters named {family}."
+        }
+    },
+    "shift_4": {
+        "reference": "shift",
+        "values": {
+            "count": 4
+        }
+    },
+    "shift_5": {
+        "reference": "shift",
+        "values": {
+            "count": 5
+        }
+    },
+    "shift_6": {
+        "reference": "shift",
+        "values": {
+            "count": 6
+        }
+    },
+    "sinister_plot": {
+        "logic": "lore_for_every_villain",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Sinister Plot"
+        },
+        "text": {
+            "en": "This character gets +{count} {lore} for every other Villain character you have in play."
+        }
+    },
+    "well_of_souls": {
+        "logic": "return_one_character_from_discard",
+        "title": {
+            "en": "Well Of Souls"
+        },
+        "text": {
+            "en": "When you play this character, return a character card from your discard to your hand."
+        }
+    },
+    "support": {
+        "logic": "support",
+        "text": {
+            "en": "Whenever this character quests, you may add their {strength} to another chosen character's {strength} this turn."
+        }
+    },
+    "loyal": {
+        "logic": "loyal_gaston",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Loyal"
+        },
+        "text": {
+            "en": "If you have a character named Gaston in play, you pay {count} {ink} less to play this character."
+        }
+    },
+    "horse_kick": {
+        "logic": "horse_kick",
+        "values": {
+            "count": -2
+        },
+        "title": {
+            "en": "Horse Kick"
+        },
+        "text": {
+            "en": "When you play this character, chosen character gets {count} {strength} this turn."
+        }
+    },
+    "we_can_fix_it": {
+        "logic": "when_quest_ready_princesses",
+        "title": {
+            "en": "We Can Fix It"
+        },
+        "text": {
+            "en": "Whenever this character quests, you may ready your other Princess characters. They can't quest for the rest of this turn."
+        }
+    },
+    "heroism": {
+        "logic": "banish_when_banished_optional",
+        "title": {
+            "en": "Heroism"
+        },
+        "text": {
+            "en": "When this character challenges and is banished, you may banish the challenged character."
+        }
+    },
+    "gleam_and_glow": {
+        "logic": "gleam_and_glow",
+        "values": {
+            "damages": 3,
+            "damage": 1
+        },
+        "title": {
+            "en": "Gleam And Glow"
+        },
+        "text": {
+            "en": "When you play this character, remove up to {damages} damage from one of your characters. Draw a card for each {damage} damage removed this way."
+        }
+    },
+    "ohana": {
+        "logic": "draw_as_much_count",
+        "values": {
+            "count": 2,
+            "draw": 2
+        },
+        "title": {
+            "en": ""
+        },
+        "text": {
+            "en": "When you play this character, if you have {count} or more other characters in play, you may draw {draw} cards."
+        }
+    },
+    "tastes_like_chicken": {
+        "logic": "remove_up_to_damages",
+        "values": {
+            "damages": 1
+        },
+        "title": {
+            "en": "Tastes Like Chicken"
+        },
+        "text": {
+            "en": "When you play this character, remove up to {damages} damage from one of your characters."
+        }
+    },
+    "be_our_guest": {
+        "logic": "",
+        "values": {
+            "song_cost": 2,
+            "cards": 4
+        },
+        "title": {
+            "en": "Be Our Guest"
+        },
+        "text": {
+            "en": "Look at the top {cards} cards of your deck. You may reveal a character card and put it into your hand. Put the rest on the bottom of your deck in any order."
+        }
+    },
+    "control_your_temper": {
+        "logic": "control_your_temper",
+        "values": {
+            "strength": -2
+        },
+        "title": {
+            "en": "Control Your Temper"
+        },
+        "text": {
+            "en": "Chosen character gets {cost} {strength} this turn."
+        }
+    },
+    "hakuna_matata": {
+        "logic": "remove_damages_from_characters",
+        "values": {
+            "count": 3,
+            "song_cost": 4
+        },
+        "title": {
+            "en": "Hakuna Matata"
+        },
+        "text": {
+            "en": "Remove up to {count} damage from each of your characters."
+        }
+    },
+    "healing_glow": {
+        "logic": "remove_damages_from_character",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Healing Glow"
+        },
+        "text": {
+            "en": "Remove up to {count} damage from chosen character."
+        }
+    },
+    "just_in_time": {
+        "logic": "play_character_free_with_cost_less_than",
+        "values": {
+            "cost": 5
+        },
+        "title": {
+            "en": "Just In Time"
+        },
+        "text": {
+            "en": "You may play a character with cost {cost} or less for free."
+        }
+    },
+    "part_of_your_world": {
+        "logic": "return_character_from_discard",
+        "values": {
+            "song_cost": 3
+        },
+        "title": {
+            "en": "Part of Your World"
+        },
+        "text": {
+            "en": "Return a character card from your discard to your hand."
+        }
+    },
+    "you_have_forgotten_me": {
+        "logic": "everyone_discard",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "You Have Forgotten Me"
+        },
+        "text": {
+            "en": "Each opponent chooses and discards {count} cards."
+        }
+    },
+    "straighten_hair": {
+        "logic": "remove_damages_from_character",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Straighten Hair"
+        },
+        "text": {
+            "en": "{flip} - Remove up to {count} damage from chosen character."
+        }
+    },
+    "birthday_lights": {
+        "logic": "less_ink_next_character",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Birthday Lights"
+        },
+        "text": {
+            "en": "{flip} - You pay {count} {ink} less for the next character you play this turn."
+        }
+    },
+    "now_sing": {
+        "logic": "on_song_then_pay_to_draw",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Now, Sing!"
+        },
+        "text": {
+            "en": "Whenever you play a song, you may pay {count} {ink} to draw a card."
+        }
+    },
+    "loving_heart": {
+        "logic": "prevent_readiness_if_else_in_play",
+        "title": {
+            "en": "Loving Heart"
+        },
+        "text": {
+            "en": "When you play this character, if you have a character named Elsa in play, choose an opposing character. The chosen character doesn't ready at the start of their next turn."
+        }
+    },
+    "into_the_shadows": {
+        "logic": "return_characters_in_hand_when_banished",
+        "values": {
+            "new_cost": 0
+        },
+        "title": {
+            "en": "Into The Shadows"
+        },
+        "text": {
+            "en": "Whenever one of your other characters is banished in a challenge, you may return that card to your hand."
+        }
+    },
+    "challenger": {
+        "logic": "",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Challenger"
+        },
+        "text": {
+            "en": "When challenging, this character get +{count} {strength}"
+        }
+    },
+    "challenger_3": {
+        "reference": "challenger",
+        "values": {
+            "count": 3
+        }
+    },
+    "challenger_4": {
+        "reference": "challenger",
+        "values": {
+            "count": 4
+        }
+    },
+    "dreams_made_real": {
+        "logic": "look_cards_deck_put_above_bottom",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Dreams Made Real"
+        },
+        "text": {
+            "en": "Whenever you play a song, you may look at the top {count} cards of your deck. Put one on the top of your deck and the other on the bottom."
+        }
+    },
+    "freeze": {
+        "logic": "exert_opposing_on_flip",
+        "values": {
+            "new_cost": 0
+        },
+        "title": {
+            "en": "Freeze"
+        },
+        "text": {
+            "en": "{flip} - Exert chosen opposing character."
+        }
+    },
+    "freeze_action": {
+        "logic": "exert_opposing",
+        "title": {
+            "en": "Freeze"
+        },
+        "text": {
+            "en": "Exert chosen opposing character."
+        }
+    },
+    "deep_freeze": {
+        "logic": "freeze_opposing_on_play",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Deep Freeze"
+        },
+        "text": {
+            "en": "When you play this character, exert up to {count} chosen characters. They can't ready at the start of their next turn."
+        }
+    },
+    "rush": {
+        "logic": "",
+        "values": {
+            "new_cost": 0
+        },
+        "title": {
+            "en": "Rush"
+        },
+        "text": {
+            "en": "This character can challenge the turn they're played."
+        }
+    },
+    "dexterous_lunge": {
+        "logic": "dexterous_lunge",
+        "values": {
+            "new_cost": 0
+        },
+        "title": {
+            "en": "Dexterous Lunge"
+        },
+        "text": {
+            "en": "Your characters named Jetsam gain Rush."
+        }
+    },
+    "hidden_wonders": {
+        "logic": "strength_for_each_cards_hand",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Hidden Wonders"
+        },
+        "text": {
+            "en": "This character gets +{count} {strength} for each card in your hand."
+        }
+    },
+    "evasive": {
+        "logic": "evasive",
+        "title": {
+            "en": "Evasive"
+        },
+        "text": {
+            "en": "Only characters with Evasive can challenge this character."
+        }
+    },
+    "sinister_slither": {
+        "logic": "sinister_slither",
+        "title": {
+            "en": "Sinister Slither"
+        },
+        "text": {
+            "en": "Your characters named Flotsam gain Evasive."
+        }
+    },
+    "sweep": {
+        "logic": "shuffle_card_from_discard_to_deck",
+        "title": {
+            "en": "Sweep"
+        },
+        "text": {
+            "en": "When you play this character, you may shuffle a card from any discard into its player's deck."
+        }
+    },
+    "cast_my_spell": {
+        "logic": "draw_card_when_play",
+        "title": {
+            "en": "Cast My Spell"
+        },
+        "text": {
+            "en": "When you play this character, you may draw a card."
+        }
+    },
+    "durable": {
+        "logic": "when_this_banished_return_hand",
+        "title": {
+            "en": "Durable"
+        },
+        "text": {
+            "en": "When this character is banished in a challenge, you may return this card to your hand."
+        }
+    },
+    "animate_broom": {
+        "logic": "animate_broom",
+        "values": {
+            "cost": 1
+        },
+        "title": {
+            "en": "Animate Broom"
+        },
+        "text": {
+            "en": "You pay {count} {ink} less to play Broom characters."
+        }
+    },
+    "ceaseless_worker": {
+        "logic": "ceaseless_worker",
+        "title": {
+            "en": "Ceaseless Worker"
+        },
+        "text": {
+            "en": "Whenever one of your Broom characters is banished in a challenge, you may return that card to your hand."
+        }
+    },
+    "camouflage": {
+        "logic": "camouflage",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": "Camouflage"
+        },
+        "text": {
+            "en": "While you have another character"
+        }
+    },
+    "i_summon_thee": {
+        "logic": "draw_card_when_flip",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": "I Summon Thee"
+        },
+        "text": {
+            "en": "{flip} - Draw a card."
+        }
+    },
+    "loyal_and_devoted": {
+        "logic": "loyal_and_devoted",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Loyal And Devoted"
+        },
+        "text": {
+            "en": "Your characters named Peter Pan gain Challenger +{count}. They get +{count} {strength} while challenging.)"
+        }
+    },
+    "its_too_easy": {
+        "logic": "draw_card_for_each_lore_lost_when_play",
+        "values": {
+            "count": 0
+        },
+        "title": {
+            "en": "It's Too Easy"
+        },
+        "text": {
+            "en": "When you play this character, each opponent loses {count} {lore}. You may draw a card for each {count} {lore} lost this way."
+        }
+    },
+    "youre_excused": {
+        "logic": "put_first_deck_top_bottom_when_quest",
+        "title": {
+            "en": "You're Excused"
+        },
+        "text": {
+            "en": "Whenever this character quests, look at the top card of your deck. Put it on either the top or the bottom of your deck."
+        }
+    },
+    "befuddle": {
+        "logic": "",
+        "values": {
+            "cost": 2
+        },
+        "title": {
+            "en": "Befuddle"
+        },
+        "text": {
+            "en": "Return a character or item with cost {cost} or less to their player's hand."
+        }
+    },
+    "friends_on_the_other_side": {
+        "logic": "draw_cards",
+        "values": {
+            "count": 2,
+            "song_cost": 3
+        },
+        "title": {
+            "en": "Friends On The Other Side"
+        },
+        "text": {
+            "en": "Draw 2 cards."
+        }
+    },
+    "reflection": {
+        "logic": "reorder_top_cards",
+        "values": {
+            "song_cost": 1,
+            "cards": 3
+        },
+        "title": {
+            "en": "Reflection"
+        },
+        "text": {
+            "en": "Look at the top {cards} cards of your deck. Put them back on the top of your deck in any order."
+        }
+    },
+    "magic_mirror": {
+        "logic": "magic_mirror",
+        "values": {
+            "cost": 4
+        },
+        "title": {
+            "en": "Magic Mirror"
+        },
+        "text": {
+            "en": "{flip}, {cost} {ink} - Draw a card."
+        }
+    },
+    "peer_into_the_depths": {
+        "logic": "peer_into_the_depths",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Peer Into The Depths"
+        },
+        "text": {
+            "en": "{flip} - Look at the top {count} cards of your deck. Put one on the top of your deck and the other on the bottom."
+        }
+    },
+    "im_late": {
+        "logic": "im_late",
+        "values": {
+            "cost": 1
+        },
+        "title": {
+            "en": "I'm late!"
+        },
+        "text": {
+            "en": "{flip}, {cost} {ink} - Chosen character gains Rush this turn. (They can challenge the turn they're played.)"
+        }
+    },
+    "ward": {
+        "logic": "ward",
+        "title": {
+            "en": "Ward"
+        },
+        "text": {
+            "en": "Opponents can't choose this character except to challenge."
+        }
+    },
+    "road": {
+        "logic": "exert_all_opposing_when_play",
+        "title": {
+            "en": "Roar"
+        },
+        "text": {
+            "en": "When you play this character, exert all opposing damaged characters."
+        }
+    },
+    "lose_something": {
+        "logic": "banish_when_banished",
+        "title": {
+            "en": "Lose something?"
+        },
+        "text": {
+            "en": "When this character is challenged and banished, banish the challenging character."
+        }
+    },
+    "youll_be_sorry": {
+        "logic": "return_chosen_character_in_hand_when_banished_optional",
+        "title": {
+            "en": "You'll Be Sorry"
+        },
+        "text": {
+            "en": "When this character is challenged and banished, you may return chosen character to their player's hand."
+        }
+    },
+    "here_comes_the_smolder": {
+        "logic": "discard_card_when_challenged",
+        "title": {
+            "en": "Here Comes the Smolder"
+        },
+        "text": {
+            "en": "Whenever this character is challenged, the challenging player chooses and discards a card."
+        }
+    },
+    "disappear": {
+        "logic": "disappear",
+        "title": {
+            "en": "Disappear"
+        },
+        "text": {
+            "en": "When you play this character, you may return chosen character to their player's hand."
+        }
+    },
+    "phenomenal_cosmic_power": {
+        "logic": "play_action_with_cost_when_quest",
+        "values": {
+            "cost": 5
+        },
+        "title": {
+            "en": "Phenomenal Cosmic Power"
+        },
+        "text": {
+            "en": "Whenever this character quests, you may play an action with cost {cost} or less for free."
+        }
+    },
+    "you_got_problem": {
+        "logic": "you_got_problem",
+        "title": {
+            "en": "You Got A Problem"
+        },
+        "text": {
+            "en": "{flip} - Chosen character gains Reckless during their next turn. (They can't quest and must challenge if able.)"
+        }
+    },
+    "puppynapping": {
+        "logic": "chosen_opposing_character_cant_quest_when_quest",
+        "title": {
+            "en": "Puppynapping"
+        },
+        "text": {
+            "en": "Whenever this character quests, chosen opposing character can't quest during their next turn."
+        }
+    },
+    "pick_your_fights": {
+        "logic": "pick_your_fights",
+        "title": {
+            "en": ""
+        },
+        "text": {
+            "en": "When you play this character and whenever he quests, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)"
+        }
+    },
+    "no_touchy": {
+        "logic": "banish_when_banished_optional",
+        "title": {
+            "en": "No Touchy!"
+        },
+        "text": {
+            "en": "When this character is challenged and banished, you may banish the challenging character."
+        }
+    },
+    "do_it_again": {
+        "logic": "return_action_from_discard_optional",
+        "title": {
+            "en": "Do It Again!"
+        },
+        "text": {
+            "en": "When you play this character, you may return an action card from your discard to your hand."
+        }
+    },
+    "tea_party": {
+        "logic": "draw_card_when_challenged",
+        "title": {
+            "en": "Tea Party"
+        },
+        "text": {
+            "en": "Whenever this character is challenged, you may draw a card."
+        }
+    },
+    "wonder_body": {
+        "logic": "wonder_body",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Wonder Boy"
+        },
+        "text": {
+            "en": "When you play this character, chosen character gets +{count} {strength} this turn."
+        }
+    },
+    "misdirection": {
+        "logic": "chosen_opposing_character_cant_quest_when_action",
+        "title": {
+            "en": "Misdirection"
+        },
+        "text": {
+            "en": "Whenever you play an action, chosen opposing character can't quest during their next turn."
+        }
+    },
+    "skip_drama_stay_with_mama": {
+        "logic": "opposing_character_cant_quest_when_exerted",
+        "title": {
+            "en": "Skip The Drama, Stay With Mama"
+        },
+        "text": {
+            "en": "While this character is exerted, opposing character can't quest."
+        }
+    },
+    "pixie_dust": {
+        "logic": "chosen_character_evasive_when_played",
+        "title": {
+            "en": "Pixie Dust"
+        },
+        "text": {
+            "en": "When you play this character, chosen character gains Evasive this turn."
+        }
+    },
+    "do_it_again_action": {
+        "logic": "return_action_from_discard",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": "Do It Again!"
+        },
+        "text": {
+            "en": "Return an action card from your discard to your hand."
+        }
+    },
+    "mother_knows_best": {
+        "logic": "return_chosen_character_in_hand",
+        "values": {
+            "song_cost": 3
+        },
+        "title": {
+            "en": "Mother Knows best"
+        },
+        "text": {
+            "en": "Return chosen character to their player's hand."
+        }
+    },
+    "stampede": {
+        "logic": "deal_damages_chosen_damaged_character",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Stampede"
+        },
+        "text": {
+            "en": "Deal {count} damage to chosen damaged character."
+        }
+    },
+    "steal_from_righ": {
+        "logic": "opponent_lose_lore_when_quest",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Steal from the Rich"
+        },
+        "text": {
+            "en": "Whenever one of your characters quests this turn, each opponent loses {count} {lore}."
+        }
+    },
+    "sudden_chill": {
+        "logic": "each_opponen_chooses_and_discard_card",
+        "values": {
+            "song_cost": 2
+        },
+        "title": {
+            "en": "Sudden Chill"
+        },
+        "text": {
+            "en": "Each opponent chooses and discards a card."
+        }
+    },
+    "reckless": {
+        "logic": "reckless",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": "Reckless"
+        },
+        "text": {
+            "en": "They can't quest and must challenge if able."
+        }
+    },
+    "vicious_betrayal": {
+        "logic": "",
+        "values": {
+            "count": 2,
+            "count_villain": 3
+        },
+        "title": {
+            "en": "Vicious Betrayal"
+        },
+        "text": {
+            "en": "Chosen character gets +{count} {strength} this turn. If a Villain character is chosen, they get +{count_villain} {strength} instead."
+        }
+    },
+    "the_cards_will_tell": {
+        "logic": "less_ink_next_action",
+        "values": {
+            "cost": 1
+        },
+        "title": {
+            "en": "The Cards Will Tell"
+        },
+        "text": {
+            "en": "{flip} - You pay {count} {ink} less for the next action you play this turn."
+        }
+    },
+    "slash": {
+        "logic": "chosen_character_strength_if_aladdin_more_when_flip",
+        "values": {
+            "count": 1,
+            "count_aladdin": 2
+        },
+        "title": {
+            "en": "Slash"
+        },
+        "text": {
+            "en": "{flip} - Chosen character get +{count} {strength} this turn. If a character named Aladdin is chosen, he gets +{count} {strength} instead."
+        }
+    },
+    "daring_exploit": {
+        "logic": "daring_exploit",
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "Daring Exploit"
+        },
+        "text": {
+            "en": "During your turn, whenever this character banishes another character in a challenge, you gain {count} {lore} and each opponent loses {count} {lore}."
+        }
+    },
+    "improvise": {
+        "logic": "each_opponent_lose_lore",
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "Improvise"
+        },
+        "text": {
+            "en": "When you play this character each opponent loses {count} lore."
+        }
+    },
+    "you_coward": {
+        "logic": "opposing_evasive_character_gain_reckless_when_exerted",
+        "title": {
+            "en": "You Coward!"
+        },
+        "text": {
+            "en": "While this character is exerted, opposing characters with Evasive gain Reckless. (They can't quest and must challenge if able.)"
+        }
+    },
+    "thats_no_blizzard": {
+        "logic": "thats_no_blizzard",
+        "title": {
+            "en": "That's No Blizzard"
+        },
+        "text": {
+            "en": "Whenever you play a character named Anna, ready this character. This character can't quest for the rest of this turn."
+        }
+    },
+    "fan_the_flames": {
+        "logic": "fan_the_flames",
+        "title": {
+            "en": "Fan The Flames"
+        },
+        "text": {
+            "en": "When you play this character, ready chosen character. They can't quest for the rest of this turn."
+        }
+    },
+    "dragon_fire": {
+        "logic": "dragon_fire",
+        "title": {
+            "en": "Dragon Fire"
+        },
+        "text": {
+            "en": "When you play this character, you may banish chosen character."
+        }
+    },
+    "this_is_not_who_you_are": {
+        "logic": "this_is_not_who_you_are",
+        "title": {
+            "en": "This Is Not Who You Are"
+        },
+        "text": {
+            "en": "When you play this character, you may banish chosen character named Te Ka."
+        }
+    },
+    "name": {
+        "logic": "",
+        "values": {
+            "cost": 0
+        },
+        "title": {
+            "en": ""
+        },
+        "text": {
+            "en": ""
+        }
+    }
+}
