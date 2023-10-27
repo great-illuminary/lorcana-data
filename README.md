@@ -8,27 +8,28 @@ The cards are defined in the [sets folder](./sets/)
 The model is as the following :
 
 ```
-- cost: int
-- inkwell: int
-- attack: 3
-- defence: 5,
-- color: int
-- type: string
-- illustrator: string
-- number: int
-- rarity: string
-- image: string
-- languages:
-  - key:
-    - name: string
-    - title: string?
-    - flavour: string?
-    - image: string?
-- edition: []
-  - name: string
-  - code: string
-- actions: string[], it can be mapped to the following abilities list
-- set_code: string
+card:
+  cost: int
+  inkwell: int
+  attack: 3
+  defence: 5,
+  color: int
+  type: string
+  illustrator: string
+  number: int
+  rarity: string
+  image: string
+  languages:
+  key:
+    name: string
+    title: string?
+    flavour: string?
+    image: string?
+edition: []
+  name: string
+  code: string
+actions: string[], it can be mapped to the following abilities list
+set_code: string
 ```
 
 # Abilities
@@ -40,25 +41,20 @@ And follow the below structure :
 name:
   logic: string, the logic that can be used to automate the effects
   values:
-    - _optional_
-    - song_cost: int?, the cost of the song
-    - cost: int?
-    - count: int?
-    - damages: int?
+    _optional_
+    song_cost: int?, the cost of the song
+    cost: int?
+    count: int?
+    damages: int?
   title:
-    - _optional_
-    - en: the english translation
-    - fr: the french translation
-    - de: the german translation
+    _optional_
+    en: the english translation
+    fr: the french translation
+    de: the german translation
   text:
-    - en: the english translation
-    - fr: the french translation
-    - de: the german translation
-  note:
-    - _optional_
-    - en: the english translation of the annotation
-    - fr: the french translation of the annotation
-    - de: the german translation of the annotation
+    en: the english translation
+    fr: the french translation
+    de: the german translation
 ```
 
 or as json
@@ -88,9 +84,7 @@ It consists of a map of placeholder and their representations. Currently only fo
 
 ```
 {
-  "name": {
-    "utf": "",
-  }
+  "name": "value"
 }
 ```
 
