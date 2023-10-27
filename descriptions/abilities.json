@@ -530,9 +530,6 @@
     },
     "camouflage": {
         "logic": "camouflage",
-        "values": {
-            "cost": 0
-        },
         "title": {
             "en": "Camouflage"
         },
@@ -542,9 +539,6 @@
     },
     "i_summon_thee": {
         "logic": "draw_card_when_flip",
-        "values": {
-            "cost": 0
-        },
         "title": {
             "en": "I Summon Thee"
         },
@@ -820,9 +814,6 @@
     },
     "do_it_again_action": {
         "logic": "return_action_from_discard",
-        "values": {
-            "cost": 0
-        },
         "title": {
             "en": "Do It Again!"
         },
@@ -880,9 +871,6 @@
     },
     "reckless": {
         "logic": "reckless",
-        "values": {
-            "cost": 0
-        },
         "title": {
             "en": "Reckless"
         },
@@ -1023,9 +1011,6 @@
     },
     "rousing_speech": {
         "logic": "rousing_speech",
-        "values": {
-            "cost": 0
-        },
         "title": {
             "en": "Rousing Speech"
         },
@@ -1056,9 +1041,6 @@
     },
     "fan_the_flames_action": {
         "logic": "ready_chosen_character_cant_quest",
-        "values": {
-            "cost": 0
-        },
         "title": {
             "en": "Fan The Flames"
         },
@@ -1143,9 +1125,6 @@
     },
     "protectrive_embrace": {
         "logic": "characters_gain_ward",
-        "values": {
-            "cost": 0
-        },
         "title": {
             "en": "Protectrive Embrace"
         },
@@ -1167,9 +1146,6 @@
     },
     "read_book": {
         "logic": "read_book",
-        "values": {
-            "cost": 0
-        },
         "title": {
             "en": "Read A Book"
         },
@@ -1402,9 +1378,6 @@
     },
     "command": {
         "logic": "command",
-        "values": {
-            "cost": 0
-        },
         "title": {
             "en": "Command"
         },
@@ -1567,9 +1540,6 @@
     },
     "battle_plans": {
         "logic": "battle_plans",
-        "values": {
-            "cost": 0
-        },
         "title": {
             "en": "Battle Plans"
         },
@@ -1660,9 +1630,6 @@
     },
     "clang": {
         "logic": "clang",
-        "values": {
-            "cost": 0
-        },
         "title": {
             "en": "Clang"
         },
@@ -1672,9 +1639,6 @@
     },
     "all_for_one_and_one_for_all": {
         "logic": "all_for_one_and_one_for_all",
-        "values": {
-            "cost": 0
-        },
         "title": {
             "en": "All For One And One For All"
         },
@@ -1696,7 +1660,6 @@
         }
     },
     "name": {
-        "logic": "",
         "values": {
             "cost": 0
         },
