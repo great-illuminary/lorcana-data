@@ -16,5 +16,4 @@ jobs:
       - name: Build
         id: build
         run: |
-          cd sample/
           ./gradlew check
