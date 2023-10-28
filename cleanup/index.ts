@@ -131,6 +131,18 @@ function check(set: string, content: string) {
         if (card.setCode) card.set_code = card.setCode;
         delete card.setCode;
 
+        if (!!card.inkwell) {
+            card.inkwell = true
+        } else {
+            delete card.inkwell
+        }
+
+        if (!!card.dummy) {
+            card.dummy = true
+        } else {
+            delete card.dummy
+        }
+
         const invalid = card.actions.find((key: string) => !attacks[key]);
         if (!!invalid) {
             console.log(`unknown ${invalid} for ${card.number}`);

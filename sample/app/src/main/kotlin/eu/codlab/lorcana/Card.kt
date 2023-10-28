@@ -2,27 +2,27 @@ package eu.codlab.lorcana
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 
 @Serializable
 data class Card(
-    val cost: Int,
-    val inkwell: Int,
+    val cost: Int = 0,
+    val inkwell: Boolean = false,
     val attack: Int? = null,
     val defence: Int? = null,
-    val color: Int,
-    val type: String,
-    val illustrator: String,
+    val color: Int = -1,
+    val type: String = "",
+    val illustrator: String = "",
     val number: Int,
-    val rarity: String,
+    val rarity: String = "",
     val languages: Map<String, CardTranslation>,
-    val edition: List<Edition>,
+    val edition: List<Edition> = emptyList(),
     val actions: List<String>,
     @SerialName("set_code")
-    val setCode: String,
+    val setCode: String = "",
     @SerialName("franchise_id")
-    val franchiseId: Int? = null
+    val franchiseId: Int? = null,
+    val dummy: Boolean = false
 ) {
     companion object {
         fun readFromArray(array: String): List<Card> {

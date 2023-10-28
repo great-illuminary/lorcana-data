@@ -18,12 +18,13 @@ illustrator: string
 number: int
 rarity: string
 image: string
+dummy: boolean?
 languages:
-key:
-  name: string
-  title: string?
-  flavour: string?
-  image: string?
+  key:
+    name: string
+    title: string?
+    flavour: string?
+    image: string?
 edition: []
   name: string
   code: string

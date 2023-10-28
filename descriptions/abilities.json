@@ -1672,6 +1672,18 @@
             "en": "{flip}, {cost} ⬡ - Deal {count} damage to chosen character."
         }
     },
+    "glad_youre_here": {
+        "logic": "glad_youre_here",
+        "values": {
+            "count": 3
+        },
+        "title": {
+            "en": "Glad You're Here"
+        },
+        "text": {
+            "en": "Whenever this character quests, you pay {count} {ink} less for the next character you play this turn."
+        }
+    },
     "name": {
         "values": {
             "cost": 0
