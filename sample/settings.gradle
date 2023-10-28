@@ -1,0 +1,28 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+//ext.DOLBYIO_GRADLE_VERSION_USED = "v1.3.0"
+ext.DOLBYIO_GRADLE_VERSION_USED = "61337cc10c84e368a9ec5b3fa130090511d67e4b"
+
+apply from: "https://raw.githubusercontent.com/voxeet/voxeet-sdk-android-gradle/${ext.DOLBYIO_GRADLE_VERSION_USED}/dolbyio.gradle"
+
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url("https://androidx.dev/storage/compose-compiler/repository/") }
+    }
+    versionCatalogs {
+        dolbyio {
+            from(files(gradle.dolbyio.files.catalog))
+        }
+    }
+}
+
+include(":app")
+includeBuild "gradle/dolbyio/${ext.DOLBYIO_GRADLE_VERSION_USED}/kt-plugins"

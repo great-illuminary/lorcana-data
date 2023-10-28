@@ -1,0 +1,29 @@
+buildscript {
+    apply from: gradle.dolbyio.files.modules
+
+    dependencies {
+        classpath dolbyio.nexus.gradlePlugin
+        classpath dolbyio.sonarqube.gradlePlugin
+        classpath dolbyio.license.gradlePlugin
+    }
+}
+
+plugins {
+    alias(dolbyio.plugins.kotlin.jvm) apply false
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        mavenLocal()
+    }
+}
+
+subprojects {
+    task allDeps(type: DependencyReportTask) {}
+
+    if (isSourcesModule(it)) {
+        apply from: gradle.dolbyio.files.moduleSetup
+    }
+}

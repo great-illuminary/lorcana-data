@@ -127,7 +127,8 @@ function check(set: string, content: string) {
         delete card.language;
         delete card.pack;
         delete card.final;
-        card.set_code = card.setCode;
+        delete card.image;
+        if (card.setCode) card.set_code = card.setCode;
         delete card.setCode;
 
         const invalid = card.actions.find((key: string) => !attacks[key]);

@@ -1,0 +1,20 @@
+name: Build
+
+on: [ push ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'adopt'
+          java-version: '17'
+
+      - name: Build
+        id: build
+        run: |
+          cd sample/
+          ./gradlew check
