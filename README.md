@@ -1,5 +1,34 @@
 # lorcana-data
+
+![CI](https://github.com/codlab/lorcana-data/actions/workflows/build.yml/badge.svg)
+![License](https://img.shields.io/github/license/codlab/lorcana-data)
+![Last Release](https://img.shields.io/github/v/release/codlab/lorcana-data)
+
+[
+![Discord](https://img.shields.io/badge/Discord-Lorcana_Manager-blue)
+](https://discord.gg/cd4hRF2PXm)
+
 Holding lorcana data only
+
+# Integration
+
+**Raw JSON**
+
+You can access to the raw jsons inside [data](./data).
+
+**Gradle**
+
+A Kotlin Multiplatform library is available using
+
+```gradle
+implementation("eu.codlab:lorcana-data:$version")
+```
+
+This will work on the following platforms :
+- Mobile (Android/iOS)
+- Web (js)
+- Native (MacOS/Linux/Windows)
+- JVM (MacOS/Linux/Windows)
 
 # Cards
 
