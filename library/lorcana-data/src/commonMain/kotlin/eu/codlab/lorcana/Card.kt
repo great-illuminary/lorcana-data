@@ -22,7 +22,9 @@ data class Card(
     val setCode: String = "",
     @SerialName("franchise_id")
     val franchiseId: Int? = null,
-    val dummy: Boolean = false
+    val dummy: Boolean = false,
+    @SerialName("third_party")
+    val thirdParty: CardThirdParty? = null
 ) {
     companion object {
         fun readFromArray(array: String): List<Card> {
@@ -43,4 +45,10 @@ data class CardTranslation(
 data class Edition(
     val name: String,
     val code: String
+)
+
+@Serializable
+data class CardThirdParty(
+    @SerialName("card_market")
+    val cardMarket: String? = null
 )
