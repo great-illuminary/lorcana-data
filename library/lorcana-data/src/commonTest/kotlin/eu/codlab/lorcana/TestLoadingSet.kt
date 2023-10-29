@@ -1,7 +1,5 @@
 package eu.codlab.lorcana
 
-import eu.codlab.lorcana.resources.Resources
-import eu.codlab.moko.ext.safelyReadContent
 import eu.codlab.platform.Platform
 import eu.codlab.platform.currentPlatform
 import kotlinx.coroutines.test.runTest
@@ -14,7 +12,7 @@ class TestLoadingSet {
 
     @Test
     fun testSets() = runTest {
-        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform ==  it }) {
+        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform == it }) {
             println("this test is disabled on android or js")
             return@runTest
         }
@@ -25,7 +23,7 @@ class TestLoadingSet {
 
                 assertNotNull(content)
                 assertTrue(content.isNotEmpty())
-            } catch(err: Throwable) {
+            } catch (err: Throwable) {
                 println("$currentPlatform")
                 throw NullPointerException("$currentPlatform")
             }
@@ -34,18 +32,30 @@ class TestLoadingSet {
 
     @Test
     fun testLoadingSetsFromResources() = runTest {
-        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform ==  it }) {
+        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform == it }) {
             println("it's not possible to test against android or js with files at that time")
             return@runTest
         }
 
         listOf(
-            Resources.files.d23 to 23,
-            Resources.files.tfc to 216
-        ).forEach { set ->
-            val (file, count) = set
-            val content = file.safelyReadContent()
-            val cards = Card.readFromArray(content)
+            Set.D23 to 23,
+            Set.TFC to 216
+        ).forEach { pair ->
+            val (set, count) = pair
+            val cards = set.loadFromResource()
+
+            assertEquals(count, cards.size)
+        }
+    }
+
+    @Test
+    fun testLoadingSetsFromGithub() = runTest {
+        listOf(
+            Set.D23 to 23,
+            Set.TFC to 216
+        ).forEach { pair ->
+            val (set, count) = pair
+            val cards = set.loadFromGithub("main")
 
             assertEquals(count, cards.size)
         }

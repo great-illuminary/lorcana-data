@@ -1,0 +1,35 @@
+String[] listEmulators() {
+    def list = new String[]{}
+    try {
+        new ByteArrayOutputStream().withStream { os ->
+            exec {
+                commandLine("xcrun", "simctl", "list")
+
+                standardOutput = os
+            }
+            list = os.toString().split("\n")
+        }
+
+        def from = list.findIndexOf { it == "== Devices ==" }
+        def to = list.findIndexOf { it == "== Device Pairs ==" }
+
+        if (from > 0 && to > 0) {
+            // otherwise we would have a range issue
+            list = (from + 1..to - 1).collect { list[it] }
+                    .findAll { it.indexOf("--") < 0 }
+        }
+    } catch (Throwable ignored) {
+
+    }
+
+    return list
+}
+
+ext.emulators = listEmulators()
+
+if (ext.emulators.length > 0) {
+    def matches = (ext.emulators[0] =~ /.{8}-.{4}-.{4}-.{4}-.{12}/).findAll()
+    if (matches.size() > 0) {
+        ext.iOSSimulatorUuid = matches[0]
+    }
+}

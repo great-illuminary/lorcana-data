@@ -1,5 +1,7 @@
 package eu.codlab.lorcana
 
+import eu.codlab.lorcana.cards.CardThirdParty
+import eu.codlab.lorcana.cards.CardTranslation
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
@@ -34,21 +36,7 @@ data class Card(
 }
 
 @Serializable
-data class CardTranslation(
-    val name: String,
-    val title: String?,
-    val flavour: String?,
-    val image: String?
-)
-
-@Serializable
 data class Edition(
     val name: String,
     val code: String
-)
-
-@Serializable
-data class CardThirdParty(
-    @SerialName("card_market")
-    val cardMarket: String? = null
 )

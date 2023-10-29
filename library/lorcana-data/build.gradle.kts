@@ -37,6 +37,7 @@ kotlin {
                 api(dolbyio.kotlinx.coroutines)
                 api(dolbyio.kotlinx.serialization.json)
                 api(dolbyio.multiplatform.file.access)
+                api(dolbyio.multiplatform.http.client)
             }
         }
         val commonTest by getting {
