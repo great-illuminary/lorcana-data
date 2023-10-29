@@ -55,7 +55,6 @@ kotlin {
         val jsMain by getting
 
         listOf(
-            commonTest,
             androidMain,
             iosX64Main,
             iosArm64Main,
@@ -89,7 +88,7 @@ tasks.register("generateMR") {
     tasks.matching { it.name.startsWith("generateMR") && it.name.endsWith("Main") }
         .forEach { this.dependsOn(it) }
 
-    tasks.withType<KotlinCompile>().forEach { it.mustRunAfter(this) }
+    tasks.withType<KotlinCompile>().forEach { it.dependsOn(this) }
     tasks.matching { it.name.endsWith("SourcesJar") }.forEach {
         it.mustRunAfter(this)
     }

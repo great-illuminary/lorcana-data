@@ -16,4 +16,4 @@ jobs:
       - name: Build
         id: build
         run: |
-          ./gradlew check
+          ./gradlew generateMR check
