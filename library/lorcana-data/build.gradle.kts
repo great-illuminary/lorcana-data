@@ -96,9 +96,13 @@ tasks.register("generateMR") {
 
 // also configure the sub tasks
 afterEvaluate {
+    val toRunAfter = tasks.matching { task ->
+        null != listOf("SourcesJar", "ProcessResources").find { task.name.endsWith(it) }
+    }
+
     tasks.matching { it.name.startsWith("generateMR") && it.name.endsWith("Main") }
         .forEach { mokoResource ->
-            tasks.matching { it.name.endsWith("SourcesJar") }.forEach {
+            toRunAfter.forEach {
                 it.mustRunAfter(mokoResource)
             }
         }
