@@ -14,7 +14,8 @@ class TestLoadingSet {
 
     @Test
     fun testSets() = runTest {
-        if (currentPlatform == Platform.ANDROID) {
+        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform ==  it }) {
+            println("this test is disabled on android or js")
             return@runTest
         }
 
@@ -33,8 +34,8 @@ class TestLoadingSet {
 
     @Test
     fun testLoadingSetsFromResources() = runTest {
-        if (currentPlatform == Platform.ANDROID) {
-            println("it's not possible to test against android with files at that time")
+        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform ==  it }) {
+            println("it's not possible to test against android or js with files at that time")
             return@runTest
         }
 

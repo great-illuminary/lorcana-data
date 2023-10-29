@@ -32,8 +32,8 @@ class TestLoadingCards {
 
     @Test
     fun testLoadingSetsFromResources() = runTest {
-        if (currentPlatform == Platform.ANDROID) {
-            println("it's not possible to test against android with files at that time")
+        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform ==  it }) {
+            println("it's not possible to test against android or js with files at that time")
             return@runTest
         }
 
