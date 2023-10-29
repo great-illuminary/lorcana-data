@@ -9,6 +9,7 @@ buildscript {
 }
 
 plugins {
+    alias(dolbyio.plugins.publish.nexus)
     alias(dolbyio.plugins.kotlin.multiplatform) apply false
     alias(dolbyio.plugins.android.library) apply false
     alias(dolbyio.plugins.kotlin.jvm) apply false
@@ -26,5 +27,22 @@ subprojects {
 
     if (isSourcesModule(it)) {
         apply from: gradle.dolbyio.files.moduleSetup
+    }
+}
+
+/**
+ * Definitions for the publication only
+ */
+def getExtraString = {String name ->
+    if (rootProject.ext.has(name)) return rootProject.ext[name]?.toString()
+    else return null
+}
+
+nexusPublishing {
+    repositories {
+        sonatype {
+            username = getExtraString("sonatypeUsername") ?: ""
+            password = getExtraString("sonatypePassword") ?: ""
+        }
     }
 }
