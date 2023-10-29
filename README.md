@@ -3,7 +3,7 @@ Holding lorcana data only
 
 # Cards
 
-The cards are defined in the [sets folder](./sets/)
+The cards are defined in the [data folder](./data/)
 
 The model is as the following :
 
@@ -34,7 +34,7 @@ set_code: string
 
 # Abilities
 
-Abilities are set in the [abilities.json file](./descriptions/abilities.json)
+Abilities are set in the [abilities.json file](./data/abilities.json)
 And follow the below structure :
 
 ```
@@ -77,7 +77,7 @@ or as json
 
 # Placeholders
 
-Each card, description, annotations can use placeholders, those are described in the [placeholders.json](./descriptions/placeholders.json).
+Each card, description, annotations can use placeholders, those are described in the [placeholders.json](./data/placeholders.json).
 
 It consists of a map of placeholder and their representations. Currently only for utf
 

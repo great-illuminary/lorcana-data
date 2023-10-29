@@ -6,8 +6,7 @@ pluginManagement {
     }
 }
 
-//ext.DOLBYIO_GRADLE_VERSION_USED = "v1.3.0"
-ext.DOLBYIO_GRADLE_VERSION_USED = "61337cc10c84e368a9ec5b3fa130090511d67e4b"
+ext.DOLBYIO_GRADLE_VERSION_USED = "v1.4.0"
 
 apply from: "https://raw.githubusercontent.com/voxeet/voxeet-sdk-android-gradle/${ext.DOLBYIO_GRADLE_VERSION_USED}/dolbyio.gradle"
 
@@ -16,6 +15,8 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven { url("https://androidx.dev/storage/compose-compiler/repository/") }
+        maven { url("https://maven.pkg.jetbrains.space/public/p/compose/dev") }
+        mavenLocal()
     }
     versionCatalogs {
         dolbyio {
@@ -24,5 +25,7 @@ dependencyResolutionManagement {
     }
 }
 
-include(":sample")
+include(":lorcana-data")
+project(":lorcana-data").projectDir = file("library/lorcana-data")
+
 includeBuild "gradle/dolbyio/${ext.DOLBYIO_GRADLE_VERSION_USED}/kt-plugins"

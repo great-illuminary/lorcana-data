@@ -9,18 +9,19 @@ buildscript {
 }
 
 plugins {
+    alias(dolbyio.plugins.kotlin.multiplatform) apply false
+    alias(dolbyio.plugins.android.library) apply false
     alias(dolbyio.plugins.kotlin.jvm) apply false
+    alias(dolbyio.plugins.multiplatform.moko.resources.generator) apply false
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        mavenLocal()
-    }
-}
+group = "eu.codlab"
+version = property("version")
 
 subprojects {
+    group = "eu.codlab"
+    version = property("version")
+
     task allDeps(type: DependencyReportTask) {}
 
     if (isSourcesModule(it)) {
