@@ -360,9 +360,6 @@
     },
     "into_the_shadows": {
         "logic": "return_characters_in_hand_when_banished",
-        "values": {
-            "new_cost": 0
-        },
         "title": {
             "en": "Into The Shadows"
         },
@@ -408,9 +405,6 @@
     },
     "freeze": {
         "logic": "exert_opposing_on_flip",
-        "values": {
-            "new_cost": 0
-        },
         "title": {
             "en": "Freeze"
         },
@@ -441,9 +435,6 @@
     },
     "rush": {
         "logic": "",
-        "values": {
-            "new_cost": 0
-        },
         "title": {
             "en": "Rush"
         },
@@ -453,9 +444,6 @@
     },
     "dexterous_lunge": {
         "logic": "dexterous_lunge",
-        "values": {
-            "new_cost": 0
-        },
         "title": {
             "en": "Dexterous Lunge"
         },
