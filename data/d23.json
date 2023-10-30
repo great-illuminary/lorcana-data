@@ -27,7 +27,11 @@
     "actions": [
       "evasive"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Mickey-Mouse-Brave-Little-Tailor",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 6,
@@ -58,7 +62,11 @@
       "shift_4",
       "adoring_fans"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Stitch-Rock-Star",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 3,
@@ -88,7 +96,11 @@
     "actions": [
       "freeze"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Elsa-Snow-Queen",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 2,
@@ -118,7 +130,11 @@
     "actions": [
       "youll_be_sorry"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Cruella-De-Vil-Miserable-As-Usual",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 9,
@@ -148,7 +164,11 @@
     "actions": [
       "dragon_fire"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Maleficent-Monstrous-Dragon",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 6,
@@ -179,7 +199,11 @@
       "feed_the_poor",
       "good_shot"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Robin-Hood-Unrivaled-Archer",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 1,
@@ -209,7 +233,11 @@
     "actions": [
       "challenger"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Captain-Hook-Forceful-Duelist",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 3,
@@ -238,7 +266,11 @@
     "actions": [
       "get_clue"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Mickey-Mouse-Detective",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 1,
@@ -268,7 +300,11 @@
     "actions": [
       "support"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Heihei-Boat-Snack",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 2,
@@ -298,7 +334,11 @@
     "actions": [
       "youre_excused"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Yzma-Alchemist",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 6,
@@ -333,7 +373,11 @@
       "bodyguard",
       "all_for_one"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Mickey-Mouse-Musketeer",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 5,
@@ -374,32 +418,62 @@
       "bodyguard",
       "and_two_for_tea"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Goofy-Musketeer",
+      "tcg_player": ""
+    }
   },
   {
-    "dummy": true,
+    "cost": 4,
+    "inkwell": true,
+    "attack": 2,
+    "defence": 5,
+    "color": 6,
+    "type": "glimmer",
+    "illustrator": "Dav Augereau / Guykua Ruva",
     "number": 13,
+    "rarity": "uncommon",
+    "franchise_id": 1,
     "languages": {
       "en": {
-        "name": "Unknown",
-        "title": null,
+        "name": "Donald Duck",
+        "title": "Musketeer",
         "flavour": null,
-        "image": null
-      },
-      "fr": {
-        "name": "Unknown",
-        "title": null,
-        "flavour": null,
-        "image": null
+        "image": "https://images.lorcania.com/cards/tfc/177_en_donald_duck-716.webp"
       },
       "de": {
-        "name": "Unknown",
-        "title": null,
+        "name": "Donald Duck",
+        "title": "Musketier",
         "flavour": null,
-        "image": null
+        "image": "https://images.lorcania.com/cards/tfc/177_de_donald_duck-716.webp"
+      },
+      "fr": {
+        "name": "Donald Duck",
+        "title": "Mousquetaire",
+        "flavour": null,
+        "image": "https://images.lorcania.com/cards/tfc/177_fr_donald_duck-716.webp"
       }
     },
-    "actions": []
+    "edition": [
+      {
+        "name": "GamesCon 23",
+        "code": "gamecon23"
+      },
+      {
+        "name": "Promo",
+        "code": "promo"
+      }
+    ],
+    "actions": [
+      "bodyguard",
+      "stay_alert"
+    ],
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Donald-Duck-Musketeer",
+      "tcg_player": ""
+    }
   },
   {
     "dummy": true,
@@ -529,7 +603,11 @@
     "actions": [
       "glad_youre_here"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Mickey-Mouse-Friendly-Face",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 4,
@@ -559,7 +637,11 @@
     "actions": [
       "challenger_3"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Elsa-Gloves-Off",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 8,
@@ -590,7 +672,11 @@
       "evasive",
       "phenomenal_cosmic_power"
     ],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Genie-Powers-Unleashed",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 6,
@@ -618,7 +704,11 @@
       }
     ],
     "actions": [],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Stitch-Abomination",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 5,
@@ -646,7 +736,11 @@
       }
     ],
     "actions": [],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Maleficent-Uninvited",
+      "tcg_player": ""
+    }
   },
   {
     "cost": 8,
@@ -674,6 +768,51 @@
       }
     ],
     "actions": [],
-    "set_code": "d23"
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Maui-Demigod",
+      "tcg_player": ""
+    }
+  },
+  {
+    "cost": 2,
+    "inkwell": true,
+    "attack": 4,
+    "defence": 2,
+    "color": 1,
+    "type": "glimmer",
+    "illustrator": "Matthew Robert Davies",
+    "number": 24,
+    "rarity": "common",
+    "franchise_id": 14,
+    "languages": {
+      "en": {
+        "name": "Gaston",
+        "title": "Arrogant Hunter",
+        "flavour": "It's not arrogance when you really <b>are</b> the best.",
+        "image": "https://images.lorcania.com/cards/tfc/110_en_gaston-716.webp"
+      },
+      "de": {
+        "name": "Gaston",
+        "title": "Arroganter Jäger",
+        "flavour": "Es ist keine Arroganz, wenn du </b>wirklich</b> der Beste bist.",
+        "image": "https://images.lorcania.com/cards/tfc/110_de_gaston-716.webp"
+      },
+      "fr": {
+        "name": "Gaston",
+        "title": "Chasseur Arrogant",
+        "flavour": "Quand on est vraiment le meilleur, ça n'est plus de l'arrogance.",
+        "image": "https://images.lorcania.com/cards/tfc/110_fr_gaston-716.webp"
+      }
+    },
+    "edition": [],
+    "actions": [
+      "reckless"
+    ],
+    "set_code": "d23",
+    "third_party": {
+      "card_market": "https://www.cardmarket.com/Lorcana/Products/Singles/Promos/Gaston-Arrogant-Hunter",
+      "tcg_player": ""
+    }
   }
 ]
