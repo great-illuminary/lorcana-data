@@ -14,11 +14,11 @@ enum class Set(private val fileResource: FileResource, private val fileName: Str
         return fileResource.safelyReadContent()
     }
 
-    suspend fun loadFromGithub(tag: String = "main"): List<Card> {
+    suspend fun loadFromGithub(tag: String = "main"): List<RawCard> {
         return Provider.json.decodeFromString(dataFileContent(tag, fileName))
     }
 
-    suspend fun loadFromResource(): List<Card> {
+    suspend fun loadFromResource(): List<RawCard> {
         return Provider.json.decodeFromString(getStringList())
     }
 }

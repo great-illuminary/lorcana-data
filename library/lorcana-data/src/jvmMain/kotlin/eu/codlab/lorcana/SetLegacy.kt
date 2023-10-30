@@ -11,7 +11,7 @@ enum class SetLegacy(private val set: Set) {
     TFC(Set.TFC);
 
     @OptIn(DelicateCoroutinesApi::class, KorioExperimentalApi::class)
-    suspend fun loadFromGithub(tag: String = "main"): Promise<List<Card>> {
+    suspend fun loadFromGithub(tag: String = "main"): Promise<List<RawCard>> {
         return Promise { resolve, reject ->
             GlobalScope.launch {
                 try {
@@ -24,7 +24,7 @@ enum class SetLegacy(private val set: Set) {
     }
 
     @OptIn(DelicateCoroutinesApi::class, KorioExperimentalApi::class)
-    suspend fun loadFromResource(): Promise<List<Card>> {
+    suspend fun loadFromResource(): Promise<List<RawCard>> {
         return Promise { resolve, reject ->
             GlobalScope.launch {
                 try {

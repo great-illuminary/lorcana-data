@@ -8,7 +8,7 @@ import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
 import kotlin.test.assertTrue
 
-class TestLoadingSet {
+class TestLoadingCompiledSet {
 
     @Test
     fun testSets() = runTest {
@@ -17,12 +17,19 @@ class TestLoadingSet {
             return@runTest
         }
 
+        val abilities = Abilities.loadFromResource()
+
         Set.entries.forEach {
             try {
-                val content = it.loadFromResource()
+                val originalContent = it.loadFromResource()
+
+                val set = CompiledSet(abilities, it)
+
+                val content = set.loadFromResource()
 
                 assertNotNull(content)
                 assertTrue(content.isNotEmpty())
+                assertEquals(originalContent.size, content.size)
             } catch (err: Throwable) {
                 println("$currentPlatform")
                 throw NullPointerException("$currentPlatform")

@@ -6,6 +6,7 @@ import eu.codlab.moko.ext.safelyReadContent
 import eu.codlab.platform.Platform
 import eu.codlab.platform.currentPlatform
 import kotlinx.coroutines.test.runTest
+import kotlinx.serialization.json.Json
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -23,7 +24,7 @@ class TestLoadingCards {
         ).forEach { set ->
             val (name, count) = set
             val file = VirtualFile(VirtualFile.Root, "../../data/$name.json")
-            val cards = Card.readFromArray(file.readString())
+            val cards: List<RawCard> = Json.decodeFromString(file.readString())
 
             assertTrue(file.exists())
             assertEquals(count, cards.size)
@@ -32,7 +33,7 @@ class TestLoadingCards {
 
     @Test
     fun testLoadingSetsFromResources() = runTest {
-        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform ==  it }) {
+        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform == it }) {
             println("it's not possible to test against android or js with files at that time")
             return@runTest
         }
@@ -43,7 +44,7 @@ class TestLoadingCards {
         ).forEach { set ->
             val (file, count) = set
             val content = file.safelyReadContent()
-            val cards = Card.readFromArray(content)
+            val cards: List<RawCard> = Json.decodeFromString(content)
 
             assertEquals(count, cards.size)
         }
