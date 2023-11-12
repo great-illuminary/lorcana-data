@@ -51,7 +51,7 @@ class TestLoadingSet {
 
     private suspend fun runTestList(provider: suspend (set: Set) -> List<RawCard>) {
         listOf(
-            Set.D23 to 23,
+            Set.D23 to 24,
             Set.TFC to 216
         ).forEach { pair ->
             val (set, count) = pair
