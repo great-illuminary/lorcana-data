@@ -2,6 +2,7 @@ package eu.codlab.lorcana.utils
 
 import io.ktor.client.request.get
 import io.ktor.client.statement.bodyAsText
+import io.ktor.http.isSuccess
 import korlibs.io.lang.FileNotFoundException
 
 internal object GithubDefinitions {
@@ -9,7 +10,7 @@ internal object GithubDefinitions {
         val url = "https://raw.githubusercontent.com/codlab/lorcana-data/$version/data/$file.json"
         val request = Provider.client.get(url)
 
-        if (request.status.value !in 200..299) {
+        if (request.status.isSuccess()) {
             throw FileNotFoundException("Impossible to find the file $file for version $version")
         }
 

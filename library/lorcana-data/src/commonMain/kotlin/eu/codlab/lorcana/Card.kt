@@ -6,7 +6,6 @@ import eu.codlab.lorcana.cards.CardTranslation
 import eu.codlab.lorcana.franchises.Franchise
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.json.Json
 
 @Serializable
 data class GenericCard<A, F>(

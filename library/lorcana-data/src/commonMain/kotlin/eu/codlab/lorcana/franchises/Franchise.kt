@@ -5,5 +5,5 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Franchise(
-    val translations: TranslationHolder,
+    val translations: TranslationHolder
 )

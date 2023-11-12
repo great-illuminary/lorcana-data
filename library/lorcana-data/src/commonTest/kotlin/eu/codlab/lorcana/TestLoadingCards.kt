@@ -20,7 +20,8 @@ class TestLoadingCards {
         }
 
         listOf(
-            "d23" to 23, "tfc" to 216
+            "d23" to 23,
+            "tfc" to 216
         ).forEach { set ->
             val (name, count) = set
             val file = VirtualFile(VirtualFile.Root, "../../data/$name.json")

@@ -26,12 +26,12 @@ class CompiledSet(
             setCode = card.setCode,
             franchiseId = franchises[card.franchiseId]!!,
             dummy = card.dummy,
-            thirdParty = card.thirdParty,
+            thirdParty = card.thirdParty
         )
     }
 
     suspend fun loadFromGithub(tag: String = "main"): List<Card> {
-        val cards = set.loadFromGithub("main")
+        val cards = set.loadFromGithub(tag)
         return cards.map { mapCard(it) }
     }
 

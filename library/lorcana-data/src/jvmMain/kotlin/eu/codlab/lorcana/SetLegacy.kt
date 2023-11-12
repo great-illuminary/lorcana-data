@@ -16,7 +16,7 @@ enum class SetLegacy(private val set: Set) {
             GlobalScope.launch {
                 try {
                     resolve(set.loadFromGithub(tag))
-                } catch (err: Throwable) {
+                } catch (@Suppress("TooGenericExceptionCaught") err: Throwable) {
                     reject(err)
                 }
             }
@@ -29,7 +29,7 @@ enum class SetLegacy(private val set: Set) {
             GlobalScope.launch {
                 try {
                     resolve(set.loadFromResource())
-                } catch (err: Throwable) {
+                } catch (@Suppress("TooGenericExceptionCaught") err: Throwable) {
                     reject(err)
                 }
             }

@@ -31,7 +31,7 @@ class TestLoadingCompiledSet {
                 assertNotNull(content)
                 assertTrue(content.isNotEmpty())
                 assertEquals(originalContent.size, content.size)
-            } catch (err: Throwable) {
+            } catch (@Suppress("SwallowedException") err: Throwable) {
                 println("$currentPlatform")
                 throw NullPointerException("$currentPlatform")
             }
