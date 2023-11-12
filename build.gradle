@@ -15,10 +15,13 @@ plugins {
     alias(dolbyio.plugins.android.library) apply false
     alias(dolbyio.plugins.kotlin.jvm) apply false
     alias(dolbyio.plugins.multiplatform.moko.resources.generator) apply false
+    alias(dolbyio.plugins.multiplatform.buildkonfig) apply false
 }
 
 group = "eu.codlab"
 version = property("version")
+
+ext.commit = 'git rev-parse --verify --short HEAD'.execute().text.trim()
 
 subprojects {
     group = "eu.codlab"

@@ -20,7 +20,7 @@ class TestLoadingCards {
         }
 
         listOf(
-            "d23" to 23,
+            "d23" to 24,
             "tfc" to 216
         ).forEach { set ->
             val (name, count) = set

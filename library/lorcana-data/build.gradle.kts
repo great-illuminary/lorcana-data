@@ -1,3 +1,4 @@
+import com.codingfeline.buildkonfig.compiler.FieldSpec
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import java.nio.file.Files
 
@@ -7,6 +8,7 @@ plugins {
     alias(dolbyio.plugins.kotlin.multiplatform)
     alias(dolbyio.plugins.kotlin.serialization)
     alias(dolbyio.plugins.multiplatform.moko.resources.generator)
+    alias(dolbyio.plugins.multiplatform.buildkonfig)
     id("iosSimulatorConfiguration")
     id("jvmCompat")
     id("publication")
@@ -74,6 +76,14 @@ multiplatformResources {
     multiplatformResourcesPackage = "eu.codlab.lorcana.resources"
     multiplatformResourcesClassName = "Resources"
     multiplatformResourcesVisibility = dev.icerock.gradle.MRVisibility.Public
+}
+
+buildkonfig {
+    packageName = "eu.codlab.lorcana.buildconfig"
+
+    defaultConfigs {
+        buildConfigField(FieldSpec.Type.STRING, "commit", rootProject.extra["commit"] as String)
+    }
 }
 
 val original = file("${rootProject.projectDir.absolutePath}/data")

@@ -1,5 +1,6 @@
 package eu.codlab.lorcana
 
+import eu.codlab.lorcana.buildconfig.BuildKonfig
 import eu.codlab.platform.Platform
 import eu.codlab.platform.currentPlatform
 import kotlinx.coroutines.test.runTest
@@ -45,7 +46,7 @@ class TestLoadingSet {
     @Test
     fun testLoadingSetsFromGithub() = runTest {
         runTestList {
-            it.loadFromGithub("main")
+            it.loadFromGithub(BuildKonfig.commit)
         }
     }
 

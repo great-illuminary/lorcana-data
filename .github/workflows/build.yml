@@ -16,8 +16,4 @@ jobs:
       - name: Build
         id: build
         run: |
-          ./gradlew generateMR check
-#     - name: publish
-#       id: publish
-#       run: |
-#         ./gradlew publishToMavenLocal && ./gradlew publishToSonatype closeSonatypeStagingRepository
+          bash ./scripts/check.sh
