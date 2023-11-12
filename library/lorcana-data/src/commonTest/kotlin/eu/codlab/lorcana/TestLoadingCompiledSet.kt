@@ -18,12 +18,13 @@ class TestLoadingCompiledSet {
         }
 
         val abilities = Abilities.loadFromResource()
+        val franchises = Franchises.loadFromResource()
 
         Set.entries.forEach {
             try {
                 val originalContent = it.loadFromResource()
 
-                val set = CompiledSet(abilities, it)
+                val set = CompiledSet(abilities, franchises, it)
 
                 val content = set.loadFromResource()
 

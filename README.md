@@ -68,6 +68,7 @@ edition: []
   code: string
 actions: string[], it can be mapped to the following abilities list
 set_code: string
+franchise_id: string
 ```
 
 # Abilities
@@ -105,6 +106,33 @@ or as json
       "new_cost": 0
     },
     "text": {
+      "en": "",
+      "fr": "",
+      "de": "",
+    }
+  }
+}
+```
+
+# Franchises
+
+Franchises are set in the [franchises.json file](./data/franchises.json)
+And follow the below structure :
+
+```
+name:
+  translations:
+    en: the english translation
+    fr: the french translation
+    de: the german translation
+```
+
+or as json
+
+```
+{
+  "name": {
+    "translations": {
       "en": "",
       "fr": "",
       "de": "",

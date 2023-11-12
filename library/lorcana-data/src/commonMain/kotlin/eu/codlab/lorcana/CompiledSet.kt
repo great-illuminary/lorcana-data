@@ -1,8 +1,13 @@
 package eu.codlab.lorcana
 
 import eu.codlab.lorcana.abilities.Ability
+import eu.codlab.lorcana.franchises.Franchise
 
-class CompiledSet(private val abilities: Map<String, Ability>, private val set: Set) {
+class CompiledSet(
+    private val abilities: Map<String, Ability>,
+    private val franchises: Map<String, Franchise>,
+    private val set: Set
+) {
 
     private fun mapCard(card: RawCard): Card {
         return Card(
@@ -19,7 +24,7 @@ class CompiledSet(private val abilities: Map<String, Ability>, private val set: 
             edition = card.edition,
             actions = card.actions.mapNotNull { abilities[it] },
             setCode = card.setCode,
-            franchiseId = card.franchiseId,
+            franchiseId = franchises[card.franchiseId]!!,
             dummy = card.dummy,
             thirdParty = card.thirdParty,
         )

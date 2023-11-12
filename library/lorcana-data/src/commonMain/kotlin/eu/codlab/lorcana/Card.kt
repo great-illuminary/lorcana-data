@@ -3,12 +3,13 @@ package eu.codlab.lorcana
 import eu.codlab.lorcana.abilities.Ability
 import eu.codlab.lorcana.cards.CardThirdParty
 import eu.codlab.lorcana.cards.CardTranslation
+import eu.codlab.lorcana.franchises.Franchise
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 
 @Serializable
-data class GenericCard<A>(
+data class GenericCard<A, F>(
     val cost: Int = 0,
     val inkwell: Boolean = false,
     val attack: Int? = null,
@@ -24,14 +25,14 @@ data class GenericCard<A>(
     @SerialName("set_code")
     val setCode: String = "",
     @SerialName("franchise_id")
-    val franchiseId: Int? = null,
+    val franchiseId: F,
     val dummy: Boolean = false,
     @SerialName("third_party")
     val thirdParty: CardThirdParty? = null
 )
 
-typealias RawCard = GenericCard<String>
-typealias Card = GenericCard<Ability>
+typealias RawCard = GenericCard<String, String>
+typealias Card = GenericCard<Ability, Franchise>
 
 @Serializable
 data class Edition(
