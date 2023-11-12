@@ -10,7 +10,7 @@ internal object GithubDefinitions {
         val url = "https://raw.githubusercontent.com/codlab/lorcana-data/$version/data/$file.json"
         val request = Provider.client.get(url)
 
-        if (request.status.isSuccess()) {
+        if (!request.status.isSuccess()) {
             throw FileNotFoundException("Impossible to find the file $file for version $version")
         }
 

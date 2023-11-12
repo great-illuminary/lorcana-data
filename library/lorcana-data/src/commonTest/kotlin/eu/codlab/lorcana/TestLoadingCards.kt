@@ -40,7 +40,7 @@ class TestLoadingCards {
         }
 
         listOf(
-            Resources.files.d23 to 23,
+            Resources.files.d23 to 24,
             Resources.files.tfc to 216
         ).forEach { set ->
             val (file, count) = set
