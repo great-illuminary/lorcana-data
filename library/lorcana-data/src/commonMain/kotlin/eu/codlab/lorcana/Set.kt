@@ -8,7 +8,8 @@ import eu.codlab.moko.ext.safelyReadContent
 
 enum class Set(private val fileResource: FileResource, private val fileName: String) {
     D23(Resources.files.d23, "d23"),
-    TFC(Resources.files.tfc, "tfc");
+    TFC(Resources.files.tfc, "tfc"),
+    ROTF(Resources.files.rotf, "rotf");
 
     private suspend fun getStringList(): String {
         return fileResource.safelyReadContent()
