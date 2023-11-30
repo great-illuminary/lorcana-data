@@ -50,7 +50,7 @@ cost: int
 inkwell: int
 attack: 3
 defence: 5,
-color: int
+color: amber|amethyst|emerald|ruby|sapphire|steel
 type: string
 illustrator: string
 number: int
@@ -63,9 +63,7 @@ languages:
     title: string?
     flavour: string?
     image: string?
-edition: []
-  name: string
-  code: string
+edition: (foil|regular|enchanted)[]
 actions: string[], it can be mapped to the following abilities list
 set_code: string
 franchise_id: string

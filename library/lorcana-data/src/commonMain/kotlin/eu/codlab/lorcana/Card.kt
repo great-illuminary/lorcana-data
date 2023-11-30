@@ -13,7 +13,7 @@ data class GenericCard<A, F>(
     val inkwell: Boolean = false,
     val attack: Int? = null,
     val defence: Int? = null,
-    val color: Int = -1,
+    val color: InkColor = InkColor.Amber,
     val type: String = "",
     val illustrator: String = "",
     val number: Int,
@@ -33,8 +33,51 @@ data class GenericCard<A, F>(
 typealias RawCard = GenericCard<String, String>
 typealias Card = GenericCard<Ability, Franchise>
 
-@Serializable
-data class Edition(
-    val name: String,
-    val code: String
-)
+enum class InkColor {
+    @SerialName("amber")
+    Amber,
+
+    @SerialName("amethyst")
+    Amethyst,
+
+    @SerialName("emerald")
+    Emerald,
+
+    @SerialName("ruby")
+    Ruby,
+
+    @SerialName("sapphire")
+    Sapphire,
+
+    @SerialName("steel")
+    Steel
+}
+
+enum class Edition {
+    @SerialName("foil")
+    Foil,
+
+    @SerialName("regular")
+    Regular,
+
+    @SerialName("enchanted")
+    Enchanted,
+
+    @SerialName("d23")
+    D23,
+
+    @SerialName("gencon23")
+    Gencon23,
+
+    @SerialName("gamecon23")
+    Gamecon23,
+
+    @SerialName("disney100")
+    Disney100,
+
+    @SerialName("organized_play")
+    OrganizedPlay,
+
+    @SerialName("oversized")
+    Oversized
+}

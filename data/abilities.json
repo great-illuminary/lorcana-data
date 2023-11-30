@@ -1672,6 +1672,32 @@
             "en": "Whenever this character quests, you pay {count} {ink} less for the next character you play this turn."
         }
     },
+    "oh_gosh": {
+        "title": {
+            "en": "Oh Gosh",
+            "fr": "Oh...",
+            "de": "OH, JA!"
+        },
+        "text": {
+            "en": "This character can't quest unless you have another Seven Dwarfs character in play.",
+            "fr": "Vous devez avoir un autre personnage Sept Nains en jeu pour pouvoir envoyer ce personnage à l'aventure",
+            "de": "Dieser Charakter kann nicht erkunden, au\\\\u00dfer du hast mindestens einen weiteren der Sieben Zwerge im Spiel."
+        }
+    },
+    "we_will_always_be_together": {
+        "values": {
+            "characters": 2,
+            "count": 2
+        },
+        "title": {
+            "en": "We'll Always Be Together",
+            "fr": "Nous Serons Toujours Ensemble"
+        },
+        "text": {
+            "en": "Whenever you ready this character, if you have {characters} or more other characters in play, gain {count} lore.",
+            "fr": "Si vous avez au moins {characters} autres personnages en jeu lorsque vous redressez ce personnage, gagnez {count} éclats de Lore."
+        }
+    },
     "name": {
         "values": {
             "cost": 0

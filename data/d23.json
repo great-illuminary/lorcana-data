@@ -4,7 +4,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 1,
@@ -18,12 +18,7 @@
         "image": "https://images.lorcania.com/cards/d23/1_en_mickey-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "D23 & 1st edition",
-        "code": "d23"
-      }
-    ],
+    "edition": ["regular"],
     "actions": [
       "evasive"
     ],
@@ -38,7 +33,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 5,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Simangaliso Sibaya",
     "number": 2,
@@ -52,12 +47,7 @@
         "image": "https://images.lorcania.com/cards/d23/2_en_stitch-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "D23 & 1st edition (Foil)",
-        "code": "d23_foil"
-      }
-    ],
+    "edition": ["foil"],
     "actions": [
       "shift_4",
       "adoring_fans"
@@ -73,7 +63,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 3,
@@ -87,12 +77,7 @@
         "image": "https://images.lorcania.com/cards/d23/3_en_elsa-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "D23 & 1st edition (Foil)",
-        "code": "d23_foil"
-      }
-    ],
+    "edition": ["foil"],
     "actions": [
       "freeze"
     ],
@@ -107,7 +92,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 4,
@@ -121,12 +106,7 @@
         "image": "https://images.lorcania.com/cards/d23/4_en_cruella-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "D23 & 1st edition (Foil)",
-        "code": "d23_foil"
-      }
-    ],
+    "edition": ["foil"],
     "actions": [
       "youll_be_sorry"
     ],
@@ -141,7 +121,7 @@
     "inkwell": true,
     "attack": 7,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Luis Huerta",
     "number": 5,
@@ -155,12 +135,7 @@
         "image": "https://images.lorcania.com/cards/d23/5_en_maleficent-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "D23 & 1st edition (Foil)",
-        "code": "d23_foil"
-      }
-    ],
+    "edition": ["foil"],
     "actions": [
       "dragon_fire"
     ],
@@ -175,7 +150,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "John Loren",
     "number": 6,
@@ -189,12 +164,7 @@
         "image": "https://images.lorcania.com/cards/d23/6_en_robin-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "D23 & 1st edition (Foil)",
-        "code": "d23_foil"
-      }
-    ],
+    "edition": ["foil"],
     "actions": [
       "feed_the_poor",
       "good_shot"
@@ -210,7 +180,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Marcel Berg",
     "number": 7,
@@ -224,12 +194,7 @@
         "image": "https://images.lorcania.com/cards/d23/7_en_hook-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "D23 & 1st edition (Foil)",
-        "code": "d23_foil"
-      }
-    ],
+    "edition": ["foil"],
     "actions": [
       "challenger"
     ],
@@ -243,7 +208,7 @@
     "cost": 3,
     "attack": 1,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Jared Nickerl",
     "number": 8,
@@ -257,12 +222,7 @@
         "image": "https://images.lorcania.com/cards/p1/8_en_mickey_mouse_detective-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Organized Play",
-        "code": "op"
-      }
-    ],
+    "edition": ["organized_play"],
     "actions": [
       "get_clue"
     ],
@@ -277,7 +237,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Jenna Gray",
     "number": 9,
@@ -291,12 +251,7 @@
         "image": "https://images.lorcania.com/cards/p1/9_en_heihei-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Organized Play",
-        "code": "op"
-      }
-    ],
+    "edition": ["organized_play"],
     "actions": [
       "support"
     ],
@@ -311,7 +266,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Hadjie Joos",
     "number": 10,
@@ -325,12 +280,7 @@
         "image": "https://images.lorcania.com/cards/p1/10_en_yzma-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Organized Play",
-        "code": "op"
-      }
-    ],
+    "edition": ["organized_play"],
     "actions": [
       "youre_excused"
     ],
@@ -345,7 +295,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 7,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Jochem Van Gool",
     "number": 11,
@@ -359,16 +309,7 @@
         "image": "https://images.lorcania.com/cards/p1/11_en_mickey_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "GenCon 23",
-        "code": "gencon23"
-      },
-      {
-        "name": "Promo",
-        "code": "promo"
-      }
-    ],
+    "edition": ["gencon23"],
     "actions": [
       "bodyguard",
       "all_for_one"
@@ -384,7 +325,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 6,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Jochem van Gool",
     "number": 12,
@@ -404,16 +345,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "GamesCon 23",
-        "code": "gamecon23"
-      },
-      {
-        "name": "Promo",
-        "code": "promo"
-      }
-    ],
+    "edition": ["gamecon23"],
     "actions": [
       "bodyguard",
       "and_two_for_tea"
@@ -429,7 +361,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Dav Augereau / Guykua Ruva",
     "number": 13,
@@ -455,16 +387,7 @@
         "image": "https://images.lorcania.com/cards/tfc/177_fr_donald_duck-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "GamesCon 23",
-        "code": "gamecon23"
-      },
-      {
-        "name": "Promo",
-        "code": "promo"
-      }
-    ],
+    "edition": ["gamecon23"],
     "actions": [
       "bodyguard",
       "stay_alert"
@@ -545,10 +468,10 @@
         "image": null
       },
       "fr": {
-        "name": "Mickey Mouse",
-        "title": "Sorcier renégat",
-        "flavour": "Les problèmes ? Il les balaie !",
-        "image": "https://images.lorcania.com/cards/tfc/51_fr_mickey_mouse-716.webp"
+        "name": "Unknown",
+        "title": null,
+        "flavour": null,
+        "image": null
       }
     },
     "actions": []
@@ -584,7 +507,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 6,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Mark Henn",
     "number": 18,
@@ -598,12 +521,7 @@
         "image": "https://images.lorcania.com/cards/p1/18_en_mickey_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Disney 100",
-        "code": "disney100"
-      }
-    ],
+    "edition": ["disney100"],
     "actions": [
       "glad_youre_here"
     ],
@@ -618,7 +536,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 2,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Brittney Lee",
     "number": 19,
@@ -632,12 +550,7 @@
         "image": "https://images.lorcania.com/cards/p1/19_en_elsa-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Disney 100",
-        "code": "disney100"
-      }
-    ],
+    "edition": ["disney100"],
     "actions": [
       "challenger_3"
     ],
@@ -651,7 +564,7 @@
     "cost": 8,
     "attack": 3,
     "defence": 5,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Eric Goldberg",
     "number": 20,
@@ -665,12 +578,7 @@
         "image": "https://images.lorcania.com/cards/p1/20_en_genie-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Disney 100",
-        "code": "disney100"
-      }
-    ],
+    "edition": ["disney100"],
     "actions": [
       "shift_6",
       "evasive",
@@ -687,7 +595,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 6,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Alex Kupershmidt",
     "number": 21,
@@ -701,12 +609,7 @@
         "image": "https://images.lorcania.com/cards/p1/21_en_stitch-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Disney 100",
-        "code": "disney100"
-      }
-    ],
+    "edition": ["disney100"],
     "actions": [],
     "set_code": "d23",
     "third_party": {
@@ -719,7 +622,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 6,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Lorelay Bove",
     "number": 22,
@@ -733,12 +636,7 @@
         "image": "https://images.lorcania.com/cards/p1/22_en_maleficent-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Disney 100",
-        "code": "disney100"
-      }
-    ],
+    "edition": ["disney100"],
     "actions": [],
     "set_code": "d23",
     "third_party": {
@@ -751,7 +649,7 @@
     "inkwell": true,
     "attack": 8,
     "defence": 8,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Bill Schwab",
     "number": 23,
@@ -765,12 +663,7 @@
         "image": "https://images.lorcania.com/cards/p1/23_en_maui-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Disney 100",
-        "code": "disney100"
-      }
-    ],
+    "edition": ["disney100"],
     "actions": [],
     "set_code": "d23",
     "third_party": {
@@ -783,7 +676,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 2,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 24,

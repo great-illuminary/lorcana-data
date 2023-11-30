@@ -9,6 +9,7 @@ data class AbilityValues(
     val songCost: Int? = 0,
     val cost: Int? = 0,
     val count: Int? = 0,
+    val characters: Int? = 0,
     val damages: Int? = 0,
     val draw: Int? = 0,
     val cards: Int? = 0,

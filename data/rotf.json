@@ -1,10 +1,10 @@
 [
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 5,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 1,
@@ -24,25 +24,18 @@
         "image": "https://images.lorcania.com/cards/rotf/1_fr_bashful-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
+    "edition": ["regular", "foil"],
+    "actions": [
+      "oh_gosh"
     ],
-    "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 6,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 6,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Eri Welli",
     "number": 2,
@@ -62,25 +55,18 @@
         "image": "https://images.lorcania.com/cards/rotf/2_fr_christopher_robin-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
+    "edition": ["regular", "foil"],
+    "actions": [
+      "we_will_always_be_together"
     ],
-    "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Casey Robin",
     "number": 3,
@@ -100,25 +86,16 @@
         "image": "https://images.lorcania.com/cards/rotf/3_fr_cinderella-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 7,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 5,
     "defence": 9,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Jake Parker",
     "number": 4,
@@ -144,25 +121,16 @@
         "image": "https://images.lorcania.com/cards/rotf/4_fr_cobra_bubbles-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 5,
@@ -182,25 +150,16 @@
         "image": "https://images.lorcania.com/cards/rotf/5_fr_doc-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 6,
@@ -220,25 +179,16 @@
         "image": "https://images.lorcania.com/cards/rotf/6_fr_dopey-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 9,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Lissette Carrera",
     "number": 7,
@@ -258,25 +208,16 @@
         "image": "https://images.lorcania.com/cards/rotf/7_fr_eudora-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Jochem Van Gool",
     "number": 8,
@@ -296,25 +237,16 @@
         "image": "https://images.lorcania.com/cards/rotf/8_fr_gaston-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Javi Salas",
     "number": 9,
@@ -340,25 +272,16 @@
         "image": "https://images.lorcania.com/cards/rotf/9_fr_grand_duke-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 10,
@@ -378,25 +301,16 @@
         "image": "https://images.lorcania.com/cards/rotf/10_fr_grumpy-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 5,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 11,
@@ -416,25 +330,16 @@
         "image": "https://images.lorcania.com/cards/rotf/11_fr_happy-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 7,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 8,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Hadjie Joos",
     "number": 12,
@@ -454,25 +359,16 @@
         "image": "https://images.lorcania.com/cards/rotf/12_fr_king_louie-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 6,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 6,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Veronica Di Lorenzo \\/ Livio Cacciatore",
     "number": 13,
@@ -498,25 +394,16 @@
         "image": "https://images.lorcania.com/cards/rotf/13_fr_mickey_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Stefano Zanchi",
     "number": 14,
@@ -536,25 +423,16 @@
         "image": "https://images.lorcania.com/cards/rotf/14_fr_mufasa-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Amber Kommavongsa",
     "number": 15,
@@ -574,25 +452,16 @@
         "image": "https://images.lorcania.com/cards/rotf/15_fr_mulan-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Lissette Carrera",
     "number": 16,
@@ -612,25 +481,16 @@
         "image": "https://images.lorcania.com/cards/rotf/16_fr_mulan-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Filipe Laurentino",
     "number": 17,
@@ -650,25 +510,16 @@
         "image": "https://images.lorcania.com/cards/rotf/17_fr_nana-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 4,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Kiersten Hale",
     "number": 18,
@@ -688,25 +539,16 @@
         "image": "https://images.lorcania.com/cards/rotf/18_fr_piglet-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 0,
     "defence": 6,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Aubrey Archer",
     "number": 19,
@@ -732,25 +574,16 @@
         "image": "https://images.lorcania.com/cards/rotf/19_fr_rapunzel-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 4,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Aubrey Archer",
     "number": 20,
@@ -770,25 +603,16 @@
         "image": "https://images.lorcania.com/cards/rotf/20_fr_rapunzel-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 21,
@@ -808,25 +632,16 @@
         "image": "https://images.lorcania.com/cards/rotf/21_fr_sleepy-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 4,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 22,
@@ -846,25 +661,16 @@
         "image": "https://images.lorcania.com/cards/rotf/22_fr_sneezy-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "LadyShalirin",
     "number": 23,
@@ -884,16 +690,7 @@
         "image": "https://images.lorcania.com/cards/rotf/23_fr_snow_white-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -902,7 +699,7 @@
     "inkwell": false,
     "attack": 1,
     "defence": 2,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Samanta Erdini",
     "number": 24,
@@ -922,16 +719,7 @@
         "image": "https://images.lorcania.com/cards/rotf/24_fr_snow_white-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -940,7 +728,7 @@
     "inkwell": false,
     "attack": 3,
     "defence": 5,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Javi Salas",
     "number": 25,
@@ -960,25 +748,16 @@
         "image": "https://images.lorcania.com/cards/rotf/25_fr_snow_white-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies \\/ LadyShalirin",
     "number": 26,
@@ -1004,25 +783,16 @@
         "image": "https://images.lorcania.com/cards/rotf/26_fr_the_queen-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Eva Windermann",
     "number": 27,
@@ -1042,25 +812,16 @@
         "image": "https://images.lorcania.com/cards/rotf/27_fr_the_queen-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "action",
     "illustrator": "Connie Kang \\/ Jackie Droujko",
     "number": 28,
@@ -1080,16 +841,7 @@
         "image": "https://images.lorcania.com/cards/rotf/28_fr_hold_still-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -1098,7 +850,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "action",
     "illustrator": "Aisha Durmagambetova",
     "number": 29,
@@ -1124,25 +876,16 @@
         "image": "https://images.lorcania.com/cards/rotf/29_fr_last_stand-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "song",
     "illustrator": "Matt Chapman",
     "number": 30,
@@ -1162,25 +905,16 @@
         "image": "https://images.lorcania.com/cards/rotf/30_fr_painting_the_roses_red-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "song",
     "illustrator": "Giulia Riva",
     "number": 31,
@@ -1206,16 +940,7 @@
         "image": "https://images.lorcania.com/cards/rotf/31_fr_worlds_greatest_criminal_mind-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -1224,7 +949,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "song",
     "illustrator": "Rob Di Salvo",
     "number": 32,
@@ -1250,16 +975,7 @@
         "image": "https://images.lorcania.com/cards/rotf/32_fr_zero_to_hero-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -1268,7 +984,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "item",
     "illustrator": "Andrew Trabbold",
     "number": 33,
@@ -1294,16 +1010,7 @@
         "image": "https://images.lorcania.com/cards/rotf/33_fr_dragon_gem-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -1312,7 +1019,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "item",
     "illustrator": "Antonia Flechsig",
     "number": 34,
@@ -1332,16 +1039,7 @@
         "image": "https://images.lorcania.com/cards/rotf/34_fr_sleepys_flute-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -1350,7 +1048,7 @@
     "inkwell": false,
     "attack": 1,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Jake Parker",
     "number": 35,
@@ -1376,25 +1074,16 @@
         "image": "https://images.lorcania.com/cards/rotf/35_fr_arthur-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 1,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Kiersten Hale",
     "number": 36,
@@ -1414,25 +1103,16 @@
         "image": "https://images.lorcania.com/cards/rotf/36_fr_blue_fairy-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Aubrey Archer",
     "number": 37,
@@ -1458,25 +1138,16 @@
         "image": "https://images.lorcania.com/cards/rotf/37_fr_chip-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 2,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Leonardo Giammichele",
     "number": 38,
@@ -1496,25 +1167,16 @@
         "image": "https://images.lorcania.com/cards/rotf/38_fr_dr_facilier-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Cristian Romero",
     "number": 39,
@@ -1540,25 +1202,16 @@
         "image": "https://images.lorcania.com/cards/rotf/39_fr_elsa-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 7,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Hedvig H\\u00e4ggman-Sund",
     "number": 40,
@@ -1578,25 +1231,16 @@
         "image": "https://images.lorcania.com/cards/rotf/40_fr_fairy_godmother-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Filipe Laurentino",
     "number": 41,
@@ -1616,25 +1260,16 @@
         "image": "https://images.lorcania.com/cards/rotf/41_fr_fairy_godmother-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Matt Chapman",
     "number": 42,
@@ -1654,25 +1289,16 @@
         "image": "https://images.lorcania.com/cards/rotf/42_fr_fairy_godmother-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 1,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Ellie Horie",
     "number": 43,
@@ -1692,25 +1318,16 @@
         "image": "https://images.lorcania.com/cards/rotf/43_fr_heihei-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Isaiah Mesq",
     "number": 44,
@@ -1730,25 +1347,16 @@
         "image": "https://images.lorcania.com/cards/rotf/44_fr_jiminy_cricket-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Michaela Martin",
     "number": 45,
@@ -1768,25 +1376,16 @@
         "image": "https://images.lorcania.com/cards/rotf/45_fr_kuzco-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Alice Pisoni",
     "number": 46,
@@ -1812,25 +1411,16 @@
         "image": "https://images.lorcania.com/cards/rotf/46_fr_madam_mim-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 7,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 5,
     "defence": 7,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Ally Zermeno",
     "number": 47,
@@ -1856,25 +1446,16 @@
         "image": "https://images.lorcania.com/cards/rotf/47_fr_madam_mim-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 5,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Mane Kandalyan \\/ Pix Smith",
     "number": 48,
@@ -1888,25 +1469,16 @@
         "image": "https://images.lorcania.com/cards/rotf/48_en_madam_mim-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Brian Weisz",
     "number": 49,
@@ -1932,25 +1504,16 @@
         "image": "https://images.lorcania.com/cards/tfc/49_fr_madam_mim-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "",
     "number": 50,
@@ -1976,25 +1539,16 @@
         "image": "https://images.lorcania.com/cards/tfc/50_fr_merlin-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "S. Shaw \\/ L. Giammichele",
     "number": 51,
@@ -2020,16 +1574,7 @@
         "image": "https://images.lorcania.com/cards/rotf/51_fr_merlin-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -2038,7 +1583,7 @@
     "inkwell": false,
     "attack": 2,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Michaela Martin",
     "number": 52,
@@ -2064,25 +1609,16 @@
         "image": "https://images.lorcania.com/cards/rotf/52_fr_merlin-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 5,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 53,
@@ -2108,25 +1644,16 @@
         "image": "https://images.lorcania.com/cards/rotf/53_fr_merlin-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 1,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Brian Weisz",
     "number": 54,
@@ -2152,16 +1679,7 @@
         "image": "https://images.lorcania.com/cards/rotf/54_fr_merlin-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -2170,7 +1688,7 @@
     "inkwell": false,
     "attack": 2,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Giulia Riva",
     "number": 55,
@@ -2184,16 +1702,7 @@
         "image": "https://images.lorcania.com/cards/rotf/55_en_peter_pans_shadow-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -2202,7 +1711,7 @@
     "inkwell": false,
     "attack": 1,
     "defence": 1,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Kapik",
     "number": 56,
@@ -2222,16 +1731,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -2240,7 +1740,7 @@
     "inkwell": false,
     "attack": 3,
     "defence": 13,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Isaiah Mesq",
     "number": 57,
@@ -2254,16 +1754,7 @@
         "image": "https://images.lorcania.com/cards/rotf/57_en_pinocchio-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -2272,7 +1763,7 @@
     "inkwell": false,
     "attack": 1,
     "defence": 1,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Juan Diego Leon",
     "number": 58,
@@ -2298,25 +1789,16 @@
         "image": "https://images.lorcania.com/cards/rotf/58_fr_pinocchio-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 5,
     "defence": 5,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "John Loren",
     "number": 59,
@@ -2342,25 +1824,16 @@
         "image": "https://images.lorcania.com/cards/rotf/59_fr_winnie_the_pooh-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 6,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Casey Robin",
     "number": 60,
@@ -2380,25 +1853,16 @@
         "image": "https://images.lorcania.com/cards/rotf/60_fr_yzma-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Pablo Hidalgo",
     "number": 61,
@@ -2424,16 +1888,7 @@
         "image": "https://images.lorcania.com/cards/rotf/61_fr_yzma-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -2442,7 +1897,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "song",
     "illustrator": "Mariana Moreno",
     "number": 62,
@@ -2462,25 +1917,16 @@
         "image": "https://images.lorcania.com/cards/rotf/62_fr_gruesome_and_grim-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "action",
     "illustrator": "Rob Di Salve",
     "number": 63,
@@ -2506,25 +1952,16 @@
         "image": "https://images.lorcania.com/cards/rotf/63_fr_im_stuck-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "song",
     "illustrator": "Kuya Jaypi",
     "number": 64,
@@ -2550,16 +1987,7 @@
         "image": "https://images.lorcania.com/cards/rotf/64_fr_legend_of_the_sword_in_the_stone-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -2568,7 +1996,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "item",
     "illustrator": "Kasia Brzezinska",
     "number": 65,
@@ -2588,16 +2016,7 @@
         "image": "https://images.lorcania.com/cards/rotf/65_fr_binding_contract-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -2606,7 +2025,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "item",
     "illustrator": "Matt Chapman",
     "number": 66,
@@ -2626,16 +2045,7 @@
         "image": "https://images.lorcania.com/cards/rotf/66_fr_croquet_mallet-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -2644,7 +2054,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "item",
     "illustrator": "Andrew Trabbold",
     "number": 67,
@@ -2670,16 +2080,7 @@
         "image": "https://images.lorcania.com/cards/rotf/67_fr_perplexing_signposts-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -2688,7 +2089,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "item",
     "illustrator": "Julie Vu",
     "number": 68,
@@ -2714,25 +2115,16 @@
         "image": "https://images.lorcania.com/cards/rotf/68_fr_the_sorcerers_spellbook-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Mario Oscar Gabriele",
     "number": 69,
@@ -2752,25 +2144,16 @@
         "image": "https://images.lorcania.com/cards/rotf/69_fr_arthur-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 6,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 5,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Eri Welli",
     "number": 70,
@@ -2796,16 +2179,7 @@
         "image": "https://images.lorcania.com/cards/rotf/70_fr_beast-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -2814,7 +2188,7 @@
     "inkwell": false,
     "attack": 2,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Jenna Gray",
     "number": 71,
@@ -2840,16 +2214,7 @@
         "image": "https://images.lorcania.com/cards/rotf/71_fr_belle-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -2858,7 +2223,7 @@
     "inkwell": false,
     "attack": 3,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Aisha Durmagambetova",
     "number": 72,
@@ -2884,25 +2249,16 @@
         "image": "https://images.lorcania.com/cards/rotf/72_fr_belle-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 1,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Alex Accorsi",
     "number": 73,
@@ -2928,25 +2284,16 @@
         "image": "https://images.lorcania.com/cards/rotf/73_fr_bucky-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 2,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Alex Accorsi",
     "number": 74,
@@ -2972,25 +2319,16 @@
         "image": "https://images.lorcania.com/cards/rotf/74_fr_cheshire_cat-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 8,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 5,
     "defence": 6,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Jeff Murchie",
     "number": 75,
@@ -3010,25 +2348,16 @@
         "image": "https://images.lorcania.com/cards/rotf/75_fr_cheshire_cat-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Lissette Carrera",
     "number": 76,
@@ -3054,25 +2383,16 @@
         "image": "https://images.lorcania.com/cards/rotf/76_fr_daisy_duck-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 5,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Ron Baird",
     "number": 77,
@@ -3092,25 +2412,16 @@
         "image": "https://images.lorcania.com/cards/rotf/77_fr_donald_duck-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 0,
     "defence": 5,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Leonardo Giammichele",
     "number": 78,
@@ -3130,25 +2441,16 @@
         "image": "https://images.lorcania.com/cards/rotf/78_fr_donald_duck-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 7,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Ron Baird",
     "number": 79,
@@ -3168,25 +2470,16 @@
         "image": "https://images.lorcania.com/cards/rotf/79_fr_dr_facilier-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 1,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Isaiah Mesq",
     "number": 80,
@@ -3212,25 +2505,16 @@
         "image": "https://images.lorcania.com/cards/rotf/80_fr_enchantress-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Ron Baird",
     "number": 81,
@@ -3256,16 +2540,7 @@
         "image": "https://images.lorcania.com/cards/rotf/81_fr_flynn_rider-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -3274,7 +2549,7 @@
     "inkwell": false,
     "attack": 2,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "E. Meleranci \\/ L. Giammichele",
     "number": 82,
@@ -3294,25 +2569,16 @@
         "image": "https://images.lorcania.com/cards/rotf/82_fr_flynn_rider-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Valerio Buonfantino",
     "number": 83,
@@ -3332,25 +2598,16 @@
         "image": "https://images.lorcania.com/cards/rotf/83_fr_gaston-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 6,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 6,
     "defence": 6,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Cristian Romero",
     "number": 84,
@@ -3370,16 +2627,7 @@
         "image": "https://images.lorcania.com/cards/rotf/84_fr_little_john-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -3388,7 +2636,7 @@
     "inkwell": false,
     "attack": 2,
     "defence": 2,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Isabella Ceravolo",
     "number": 85,
@@ -3414,25 +2662,16 @@
         "image": "https://images.lorcania.com/cards/rotf/85_fr_lucifer-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Kristina Chouri \\/ Mariana Moreno",
     "number": 86,
@@ -3446,16 +2685,7 @@
         "image": "https://images.lorcania.com/cards/rotf/86_en_pain-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -3464,7 +2694,7 @@
     "inkwell": false,
     "attack": 2,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Kristina Chouri \\/ Mariana Moreno",
     "number": 87,
@@ -3490,25 +2720,16 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Hedvig H\\u00e4ggman-Sund",
     "number": 88,
@@ -3522,16 +2743,7 @@
         "image": "https://images.lorcania.com/cards/rotf/88_en_pete-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -3540,7 +2752,7 @@
     "inkwell": false,
     "attack": 1,
     "defence": 2,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Koni",
     "number": 89,
@@ -3566,16 +2778,7 @@
         "image": "https://images.lorcania.com/cards/rotf/89_fr_prince_john-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -3584,7 +2787,7 @@
     "inkwell": false,
     "attack": 1,
     "defence": 2,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 90,
@@ -3610,25 +2813,16 @@
         "image": "https://images.lorcania.com/cards/rotf/90_fr_queen_of_hearts-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 1,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Michaela Martin",
     "number": 91,
@@ -3642,25 +2836,16 @@
         "image": "https://images.lorcania.com/cards/rotf/91_en_ratigan-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Filipe Laurentino",
     "number": 92,
@@ -3686,16 +2871,7 @@
         "image": "https://images.lorcania.com/cards/rotf/92_fr_ray-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -3704,7 +2880,7 @@
     "inkwell": false,
     "attack": 2,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Leonardo Giammichele",
     "number": 93,
@@ -3730,25 +2906,16 @@
         "image": "https://images.lorcania.com/cards/rotf/93_fr_the_queen-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 5,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Casey Robin",
     "number": 94,
@@ -3768,25 +2935,16 @@
         "image": "https://images.lorcania.com/cards/rotf/94_fr_tiana-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 5,
     "defence": 5,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Mane Kandalyan \\/ Luca Pinelli",
     "number": 95,
@@ -3806,16 +2964,7 @@
         "image": "https://images.lorcania.com/cards/rotf/95_fr_virana-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -3824,7 +2973,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "song",
     "illustrator": "LadyShalirin",
     "number": 96,
@@ -3850,16 +2999,7 @@
         "image": "https://images.lorcania.com/cards/rotf/96_fr_bibbidi_bobbidi_boo-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -3868,7 +3008,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "action",
     "illustrator": "Bill Robinson",
     "number": 97,
@@ -3894,25 +3034,16 @@
         "image": "https://images.lorcania.com/cards/rotf/97_fr_bounce-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "action",
     "illustrator": "Lauren Levering",
     "number": 98,
@@ -3938,25 +3069,16 @@
         "image": "https://images.lorcania.com/cards/rotf/98_fr_hypnotize-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "action",
     "illustrator": "Mane Kandalyan",
     "number": 99,
@@ -3982,25 +3104,16 @@
         "image": "https://images.lorcania.com/cards/rotf/99_fr_improvise-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "action",
     "illustrator": "Don Aguillo",
     "number": 100,
@@ -4014,25 +3127,16 @@
         "image": "https://images.lorcania.com/cards/rotf/100_en_pack_tactics-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "action",
     "illustrator": "Brian Weisz",
     "number": 101,
@@ -4058,16 +3162,7 @@
         "image": "https://images.lorcania.com/cards/rotf/101_fr_ring_the_bell-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -4076,7 +3171,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "item",
     "illustrator": "Leonardo Giammichele",
     "number": 102,
@@ -4090,25 +3185,16 @@
         "image": "https://images.lorcania.com/cards/rotf/102_en_ratigans_marvelous_trap-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "R. la Barbera \\/ L. Giammichele",
     "number": 103,
@@ -4134,25 +3220,16 @@
         "image": "https://images.lorcania.com/cards/rotf/103_fr_baloo-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Alice Pisoni",
     "number": 104,
@@ -4172,25 +3249,16 @@
         "image": "https://images.lorcania.com/cards/rotf/104_fr_boun-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 5,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Bill Robinson",
     "number": 105,
@@ -4216,25 +3284,16 @@
         "image": "https://images.lorcania.com/cards/rotf/105_fr_card_soldiers-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Carmine Pucci \\/ Leonardo Giammichele",
     "number": 106,
@@ -4254,25 +3313,16 @@
         "image": "https://images.lorcania.com/cards/rotf/106_fr_donald_duck-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 1,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Michael \\u201cCookie\\u201d Niewiadomy",
     "number": 107,
@@ -4292,25 +3342,16 @@
         "image": "https://images.lorcania.com/cards/rotf/107_fr_felicia-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 2,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Giulia Riva",
     "number": 108,
@@ -4336,16 +3377,7 @@
         "image": "https://images.lorcania.com/cards/rotf/108_fr_fidget-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -4354,7 +3386,7 @@
     "inkwell": false,
     "attack": 2,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Sandra Rios",
     "number": 109,
@@ -4380,16 +3412,7 @@
         "image": "https://images.lorcania.com/cards/rotf/109_fr_honest_john-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -4398,7 +3421,7 @@
     "inkwell": false,
     "attack": 3,
     "defence": 4,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Arianna Rea",
     "number": 110,
@@ -4418,16 +3441,7 @@
         "image": "https://images.lorcania.com/cards/rotf/110_fr_lady_tremaine-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -4436,7 +3450,7 @@
     "inkwell": false,
     "attack": 2,
     "defence": 2,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Samanta Erdini",
     "number": 111,
@@ -4462,25 +3476,16 @@
         "image": "https://images.lorcania.com/cards/rotf/111_fr_lady_tremaine-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 7,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 7,
     "defence": 7,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Giulia Riva",
     "number": 112,
@@ -4506,25 +3511,16 @@
         "image": "https://images.lorcania.com/cards/rotf/112_fr_lumiere-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Mario Oscar Gabriele",
     "number": 113,
@@ -4538,25 +3534,16 @@
         "image": "https://images.lorcania.com/cards/rotf/113_en_minnie_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Adam Fenton",
     "number": 114,
@@ -4582,25 +3569,16 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 2,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Ellie Horie",
     "number": 115,
@@ -4626,25 +3604,16 @@
         "image": "https://images.lorcania.com/cards/rotf/115_fr_minnie_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Koni",
     "number": 116,
@@ -4658,16 +3627,7 @@
         "image": "https://images.lorcania.com/cards/rotf/116_en_mother_gothel-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -4676,7 +3636,7 @@
     "inkwell": false,
     "attack": 4,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Michael \\u201cCookie\\u201d Niewiadomy",
     "number": 117,
@@ -4702,16 +3662,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -4720,7 +3671,7 @@
     "inkwell": false,
     "attack": 3,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Hedvig H\\u00e4ggman-Sund",
     "number": 118,
@@ -4734,25 +3685,16 @@
         "image": "https://images.lorcania.com/cards/rotf/118_en_namaari-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Valerio Buonfantino",
     "number": 119,
@@ -4766,25 +3708,16 @@
         "image": "https://images.lorcania.com/cards/rotf/119_en_queen_of_hearts-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Isaiah Mesq",
     "number": 120,
@@ -4798,16 +3731,7 @@
         "image": "https://images.lorcania.com/cards/rotf/120_en_queen_of_hearts-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -4816,7 +3740,7 @@
     "inkwell": false,
     "attack": 3,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Valerio Buonfantino",
     "number": 121,
@@ -4830,25 +3754,16 @@
         "image": "https://images.lorcania.com/cards/rotf/121_en_ratigan-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Amber Kommavongsa",
     "number": 122,
@@ -4862,25 +3777,16 @@
         "image": "https://images.lorcania.com/cards/rotf/122_en_raya-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 6,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 5,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Amber Kommavongsa",
     "number": 123,
@@ -4894,25 +3800,16 @@
         "image": "https://images.lorcania.com/cards/rotf/123_en_raya-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 5,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 124,
@@ -4938,16 +3835,7 @@
         "image": "https://images.lorcania.com/cards/rotf/124_fr_raya-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -4956,7 +3844,7 @@
     "inkwell": false,
     "attack": 6,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 125,
@@ -4982,25 +3870,16 @@
         "image": "https://images.lorcania.com/cards/rotf/125_fr_scar-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "M. Robert Davies \\/ L. Giammichele",
     "number": 126,
@@ -5020,25 +3899,16 @@
         "image": "https://images.lorcania.com/cards/rotf/126_de_shere_khan-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "P. Gaylord \\/ L. Giammichele",
     "number": 127,
@@ -5058,16 +3928,7 @@
         "image": "https://images.lorcania.com/cards/rotf/127_fr_tigger-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -5076,7 +3937,7 @@
     "inkwell": false,
     "attack": 4,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Brian Weisz",
     "number": 128,
@@ -5096,25 +3957,16 @@
         "image": "https://images.lorcania.com/cards/rotf/128_fr_tuk_tuk-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "song",
     "illustrator": "Gaku Kumatori",
     "number": 129,
@@ -5134,25 +3986,16 @@
         "image": "https://images.lorcania.com/cards/rotf/129_fr_go_the_distance-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "song",
     "illustrator": "Jake Parker",
     "number": 130,
@@ -5166,16 +4009,7 @@
         "image": "https://images.lorcania.com/cards/rotf/130_en_teeth_and_ambitions-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -5184,7 +4018,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "song",
     "illustrator": "Carlos Ruiz",
     "number": 131,
@@ -5198,25 +4032,16 @@
         "image": "https://images.lorcania.com/cards/rotf/131_en_the_most_diabolical_scheme-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "action",
     "illustrator": "Luis Huerta",
     "number": 132,
@@ -5236,25 +4061,16 @@
         "image": "https://images.lorcania.com/cards/rotf/132_fr_what_did_you_call_me-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "song",
     "illustrator": "Eva Widermann",
     "number": 133,
@@ -5274,16 +4090,7 @@
         "image": "https://images.lorcania.com/cards/rotf/133_fr_you_can_fly-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -5292,7 +4099,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "item",
     "illustrator": "Peter Brockhammer",
     "number": 134,
@@ -5318,16 +4125,7 @@
         "image": "https://images.lorcania.com/cards/rotf/134_fr_dinner_bell-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -5336,7 +4134,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "item",
     "illustrator": "Leonardo Giammichele",
     "number": 135,
@@ -5350,16 +4148,7 @@
         "image": "https://images.lorcania.com/cards/rotf/135_en_peter_pans_dagger-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -5368,7 +4157,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "item",
     "illustrator": "Gaku Kumatori",
     "number": 136,
@@ -5394,25 +4183,16 @@
         "image": "https://images.lorcania.com/cards/rotf/136_fr_sword_in_the_stone-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Alice Pisoni",
     "number": 137,
@@ -5432,25 +4212,16 @@
         "image": "https://images.lorcania.com/cards/rotf/137_fr_alice-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 6,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Bill Robinson",
     "number": 138,
@@ -5476,25 +4247,16 @@
         "image": "https://images.lorcania.com/cards/rotf/138_fr_basil-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Jake Parker",
     "number": 139,
@@ -5520,25 +4282,16 @@
         "image": "https://images.lorcania.com/cards/rotf/139_fr_basil-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Roger Perez",
     "number": 140,
@@ -5564,25 +4317,16 @@
         "image": "https://images.lorcania.com/cards/rotf/140_fr_basil-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Cory Godbey",
     "number": 141,
@@ -5602,25 +4346,16 @@
         "image": "https://images.lorcania.com/cards/rotf/141_fr_caterpillar-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 5,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Isaiah Mesq",
     "number": 142,
@@ -5646,25 +4381,16 @@
         "image": "https://images.lorcania.com/cards/rotf/142_fr_cogsworth-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Leonardo Giammichele",
     "number": 143,
@@ -5690,25 +4416,16 @@
         "image": "https://images.lorcania.com/cards/rotf/143_fr_cogsworth-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 2,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Aisha Durmagambetova",
     "number": 144,
@@ -5734,25 +4451,16 @@
         "image": "https://images.lorcania.com/cards/rotf/144_fr_cruella_de_vil-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "GusGadget \\/ Leonardo Giammichele",
     "number": 145,
@@ -5772,25 +4480,16 @@
         "image": "https://images.lorcania.com/cards/rotf/145_fr_cruella_de_vil-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Rosa la Barbera \\/ Leonardo Giammichele",
     "number": 146,
@@ -5810,16 +4509,7 @@
         "image": "https://images.lorcania.com/cards/rotf/146_fr_duke_weaselton-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -5828,7 +4518,7 @@
     "inkwell": false,
     "attack": 4,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 147,
@@ -5854,16 +4544,7 @@
         "image": "https://images.lorcania.com/cards/rotf/147_fr_gaston-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -5872,7 +4553,7 @@
     "inkwell": false,
     "attack": 3,
     "defence": 6,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Juan Diego Leon",
     "number": 148,
@@ -5898,25 +4579,16 @@
         "image": "https://images.lorcania.com/cards/rotf/148_fr_grand_pabbie-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 6,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Leonardo Giammichele",
     "number": 149,
@@ -5942,16 +4614,7 @@
         "image": "https://images.lorcania.com/cards/rotf/149_fr_hiram_flaversham-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -5960,7 +4623,7 @@
     "inkwell": false,
     "attack": 3,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Kevin Hong",
     "number": 150,
@@ -5980,25 +4643,16 @@
         "image": "https://images.lorcania.com/cards/rotf/150_fr_james-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "R. la Barbera \\/ L. Giammichele",
     "number": 151,
@@ -6018,25 +4672,16 @@
         "image": "https://images.lorcania.com/cards/rotf/151_fr_jasmine-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Arianna Rea",
     "number": 152,
@@ -6056,16 +4701,7 @@
         "image": "https://images.lorcania.com/cards/rotf/152_fr_judy_hopps-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -6074,7 +4710,7 @@
     "inkwell": false,
     "attack": 1,
     "defence": 5,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Michaela Martin",
     "number": 153,
@@ -6100,25 +4736,16 @@
         "image": "https://images.lorcania.com/cards/rotf/153_fr_mrs_judson-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Brian Weisz",
     "number": 154,
@@ -6132,25 +4759,16 @@
         "image": "https://images.lorcania.com/cards/rotf/154_en_nick_wilde-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "",
     "number": 155,
@@ -6164,25 +4782,16 @@
         "image": "https://images.lorcania.com/cards/rotf/155_en_noi-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Agnes Christianson",
     "number": 156,
@@ -6208,25 +4817,16 @@
         "image": "https://images.lorcania.com/cards/rotf/156_fr_owl-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Vicky Xie \\/ Mariana Moreno",
     "number": 157,
@@ -6252,25 +4852,16 @@
         "image": "https://images.lorcania.com/cards/rotf/157_fr_prince_charming-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 6,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Giulia Riva",
     "number": 158,
@@ -6284,16 +4875,7 @@
         "image": "https://images.lorcania.com/cards/rotf/158_en_rabbit-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -6302,7 +4884,7 @@
     "inkwell": false,
     "attack": 2,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Grace Tran",
     "number": 159,
@@ -6316,25 +4898,16 @@
         "image": "https://images.lorcania.com/cards/rotf/159_en_sisu-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Hadjie Joos",
     "number": 160,
@@ -6354,25 +4927,16 @@
         "image": "https://images.lorcania.com/cards/rotf/160_fr_the_nokk-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Rianti Hidayat",
     "number": 161,
@@ -6392,16 +4956,7 @@
         "image": "https://images.lorcania.com/cards/rotf/161_fr_winnie_the_pooh-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -6410,7 +4965,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "action",
     "illustrator": "Lissette Carrera",
     "number": 162,
@@ -6430,25 +4985,16 @@
         "image": "https://images.lorcania.com/cards/rotf/162_fr_falling_down_the_rabbit_hole-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "song",
     "illustrator": "Jochem Van Gool",
     "number": 163,
@@ -6474,16 +5020,7 @@
         "image": "https://images.lorcania.com/cards/rotf/163_fr_four_dozen_eggs-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -6492,7 +5029,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "action",
     "illustrator": "Juan Diego Leon",
     "number": 164,
@@ -6512,25 +5049,16 @@
         "image": "https://images.lorcania.com/cards/rotf/164_fr_launch-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "action",
     "illustrator": "Mane Kandalyan \\/ Jochem Van Gool",
     "number": 165,
@@ -6544,25 +5072,16 @@
         "image": "https://images.lorcania.com/cards/rotf/165_en_nothing_to_hide-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "item",
     "illustrator": "Antonia Flechsig",
     "number": 166,
@@ -6588,25 +5107,16 @@
         "image": "https://images.lorcania.com/cards/rotf/166_fr_fang_crossbow-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "item",
     "illustrator": "Tanisha Cherislin",
     "number": 167,
@@ -6632,16 +5142,7 @@
         "image": "https://images.lorcania.com/cards/rotf/167_fr_gumbo_pot-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -6650,7 +5151,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "item",
     "illustrator": "Antonia Flechsig",
     "number": 168,
@@ -6664,25 +5165,16 @@
         "image": "https://images.lorcania.com/cards/rotf/168_en_maurices_workshop-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "item",
     "illustrator": "Isaiah Mesq",
     "number": 169,
@@ -6696,25 +5188,16 @@
         "image": "https://images.lorcania.com/cards/rotf/169_en_pawpsicle-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "item",
     "illustrator": "Peter Brockhammer",
     "number": 170,
@@ -6728,25 +5211,16 @@
         "image": "https://images.lorcania.com/cards/rotf/170_en_sardine_can-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Alice Pisoni",
     "number": 171,
@@ -6766,25 +5240,16 @@
         "image": "https://images.lorcania.com/cards/rotf/171_fr_beast-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 6,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 8,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 172,
@@ -6804,25 +5269,16 @@
         "image": "https://images.lorcania.com/cards/rotf/172_fr_beast-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Evana Kisa",
     "number": 173,
@@ -6842,25 +5298,16 @@
         "image": "https://images.lorcania.com/cards/rotf/173_fr_beast-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Grace Tran",
     "number": 174,
@@ -6880,25 +5327,16 @@
         "image": "https://images.lorcania.com/cards/rotf/174_fr_benja-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 4,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Adam Banch",
     "number": 175,
@@ -6918,25 +5356,16 @@
         "image": "https://images.lorcania.com/cards/rotf/175_fr_chief_bogo-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Grace Tran",
     "number": 176,
@@ -6962,25 +5391,16 @@
         "image": "https://images.lorcania.com/cards/rotf/176_fr_cinderella-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 7,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 5,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Grace Tran",
     "number": 177,
@@ -7006,25 +5426,16 @@
         "image": "https://images.lorcania.com/cards/rotf/177_fr_cinderella-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 6,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 178,
@@ -7044,25 +5455,16 @@
         "image": "https://images.lorcania.com/cards/rotf/178_fr_donald_duck-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Isaiah Mesq",
     "number": 179,
@@ -7088,25 +5490,16 @@
         "image": "https://images.lorcania.com/cards/rotf/179_fr_eli_la_bouff-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 9,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 10,
     "defence": 10,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Marco Giorgianni",
     "number": 180,
@@ -7132,25 +5525,16 @@
         "image": "https://images.lorcania.com/cards/rotf/180_fr_goofy-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 6,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 6,
     "defence": 3,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Grace Tran",
     "number": 181,
@@ -7170,25 +5554,16 @@
         "image": "https://images.lorcania.com/cards/rotf/181_fr_hercules-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Eva Widermann",
     "number": 182,
@@ -7208,25 +5583,16 @@
         "image": "https://images.lorcania.com/cards/rotf/182_fr_hercules-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 4,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Cam Kendell",
     "number": 183,
@@ -7246,25 +5612,16 @@
         "image": "https://images.lorcania.com/cards/rotf/183_fr_jafar-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 2,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Rob Di Salvo",
     "number": 184,
@@ -7284,25 +5641,16 @@
         "image": "https://images.lorcania.com/cards/rotf/184_fr_jafar-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 6,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Brian Weisz",
     "number": 185,
@@ -7322,25 +5670,16 @@
         "image": "https://images.lorcania.com/cards/rotf/185_fr_kronk-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 0,
     "defence": 4,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Luis Huerta",
     "number": 186,
@@ -7360,25 +5699,16 @@
         "image": "https://images.lorcania.com/cards/rotf/186_fr_lawrence-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 5,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 3,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Cristian Romero",
     "number": 187,
@@ -7404,25 +5734,16 @@
         "image": "https://images.lorcania.com/cards/rotf/187_fr_li_shang-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Cristian Romero",
     "number": 188,
@@ -7436,16 +5757,7 @@
         "image": "https://images.lorcania.com/cards/rotf/188_en_magic_broom-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -7454,7 +5766,7 @@
     "inkwell": false,
     "attack": 2,
     "defence": 4,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Jenna Gray",
     "number": 189,
@@ -7468,25 +5780,16 @@
         "image": "https://images.lorcania.com/cards/rotf/189_en_namaari-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 6,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 8,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Koni",
     "number": 190,
@@ -7500,25 +5803,16 @@
         "image": "https://images.lorcania.com/cards/rotf/190_en_pacha-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 3,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Gaku Kumatori",
     "number": 191,
@@ -7544,25 +5838,16 @@
         "image": "https://images.lorcania.com/cards/rotf/191_fr_prince_naveen-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 7,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 5,
     "defence": 6,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Jenna Gray",
     "number": 192,
@@ -7588,16 +5873,7 @@
         "image": "https://images.lorcania.com/cards/rotf/192_fr_queen_of_hearts-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -7606,7 +5882,7 @@
     "inkwell": false,
     "attack": 1,
     "defence": 3,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Noukah",
     "number": 193,
@@ -7632,25 +5908,16 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 1,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Gaku Kumatori",
     "number": 194,
@@ -7676,25 +5943,16 @@
         "image": "https://images.lorcania.com/cards/rotf/194_fr_the_huntsman-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 3,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Eri Welli",
     "number": 195,
@@ -7720,16 +5978,7 @@
         "image": "https://images.lorcania.com/cards/rotf/195_fr_the_prince-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -7738,7 +5987,7 @@
     "inkwell": false,
     "attack": 1,
     "defence": 4,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 196,
@@ -7764,25 +6013,16 @@
         "image": "https://images.lorcania.com/cards/rotf/196_fr_tiana-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 1,
     "defence": 3,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Samanta Erdini",
     "number": 197,
@@ -7802,25 +6042,16 @@
         "image": "https://images.lorcania.com/cards/rotf/197_fr_tiana-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 2,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "action",
     "illustrator": "Hedvig H\\u00e4ggman-Sund",
     "number": 198,
@@ -7840,16 +6071,7 @@
         "image": "https://images.lorcania.com/cards/rotf/198_fr_charge-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -7858,7 +6080,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "song",
     "illustrator": "R. la Barbera \\/ L. Giammichele",
     "number": 199,
@@ -7878,16 +6100,7 @@
         "image": "https://images.lorcania.com/cards/rotf/199_fr_let_the_storm_rage_on-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -7896,7 +6109,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "action",
     "illustrator": "Pablo Hidalgo \\/ Jeff Merghart",
     "number": 200,
@@ -7910,25 +6123,16 @@
         "image": "https://images.lorcania.com/cards/rotf/200_en_pick_a_fight-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "song",
     "illustrator": "Jared Nickerl \\/ Alex Accorsi",
     "number": 201,
@@ -7942,25 +6146,16 @@
         "image": "https://images.lorcania.com/cards/rotf/201_en_strength_of_a_raging_fire-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 1,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "item",
     "illustrator": "Jared Nickerl",
     "number": 202,
@@ -7980,16 +6175,7 @@
         "image": "https://images.lorcania.com/cards/rotf/202_fr_last_cannon-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
@@ -7998,7 +6184,7 @@
     "inkwell": false,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "item",
     "illustrator": "Gaku Kumatori",
     "number": 203,
@@ -8024,25 +6210,16 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 3,
-    "inkwell": false,
+    "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "item",
     "illustrator": "Antonia Flechsig",
     "number": 204,
@@ -8062,16 +6239,36 @@
         "image": "https://images.lorcania.com/cards/rotf/204_fr_weight_set-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
+    "edition": ["regular", "foil"],
+    "actions": [],
+    "set_code": "rotf"
+  },
+  {
+    "cost": 1,
+    "inkwell": true,
+    "attack": 1,
+    "defence": 2,
+    "color": "amber",
+    "type": "glimmer",
+    "illustrator": "Casey Robin",
+    "number": 205,
+    "rarity": "enchanted",
+    "franchise_id": "unknown",
+    "languages": {
+      "en": {
+        "name": "Cinderella",
+        "title": "Ballroom Sensation",
+        "flavour": "With a magical dress and a song in her heart, she dazzled everyone at the ball.",
+        "image": "https://images.lorcania.com/cards/rotf/3_en_cinerella-716.webp"
       },
-      {
-        "name": "Foil",
-        "code": "foil"
+      "fr": {
+        "name": "Cendrillon",
+        "title": "Fait sensation au bal",
+        "flavour": "Avec une robe magique et une chanson dans le coeur, elle a \\u00e9bloui tout le monde au bal.",
+        "image": "https://images.lorcania.com/cards/rotf/3_fr_cinderella-716.webp"
       }
-    ],
+    },
+    "edition": [ "enchanted" ],
     "actions": [],
     "set_code": "rotf"
   },
@@ -8080,7 +6277,7 @@
     "inkwell": false,
     "attack": 3,
     "defence": 5,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Javi Salas",
     "number": 206,
@@ -8100,12 +6297,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": [ "enchanted" ],
     "actions": [],
     "set_code": "rotf"
   },
@@ -8114,7 +6306,7 @@
     "inkwell": false,
     "attack": 1,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Jake Parker",
     "number": 207,
@@ -8134,21 +6326,74 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
+    "edition": [ "enchanted" ],
+    "actions": [],
+    "set_code": "rotf"
+  },
+  {
+    "cost": 7,
+    "inkwell": true,
+    "attack": 5,
+    "defence": 7,
+    "color": "amethyst",
+    "type": "glimmer",
+    "illustrator": "Ally Zermeno",
+    "number": 208,
+    "rarity": "enchanted",
+    "franchise_id": "unknown",
+    "languages": {
+      "en": {
+        "name": "Madam Mim",
+        "title": "Purple Dragon",
+        "flavour": "\\u201cDid I say no purple dragons? Did I?\\u201d",
+        "image": "https://images.lorcania.com/cards/rotf/47_en_madam_mim-716.webp"
+      },
+      "de": {
+        "name": "Madame Mim",
+        "title": "Lila Drache",
+        "flavour": "\\u201eHab ich was gesagt von keine lila Drachen? Nein!\\u201c",
+        "image": "https://images.lorcania.com/cards/rotf/47_de_madam_mim-716.webp"
+      },
+      "fr": {
+        "name": "Madam Mime",
+        "title": "En dragon",
+        "flavour": "\"Est-ce que j'ai dit : pas de dragon ?\"",
+        "image": "https://images.lorcania.com/cards/rotf/47_fr_madam_mim-716.webp"
       }
-    ],
+    },
+    "edition": [ "enchanted" ],
+    "actions": [],
+    "set_code": "rotf"
+  },
+  {
+    "cost": 5,
+    "inkwell": true,
+    "attack": 3,
+    "defence": 4,
+    "color": "emerald",
+    "type": "glimmer",
+    "illustrator": "Hedvig H\\u00e4ggman-Sund",
+    "number": 209,
+    "rarity": "enchanted",
+    "franchise_id": "unknown",
+    "languages": {
+      "en": {
+        "name": "Pete",
+        "title": "Bad Guy",
+        "flavour": null,
+        "image": "https://images.lorcania.com/cards/rotf/88_en_pete-716.webp"
+      }
+    },
+    "edition": [ "enchanted" ],
     "actions": [],
     "set_code": "rotf"
   },
   {
     "cost": 6,
-    "inkwell": false,
+    "inkwell": true,
     "attack": 4,
     "defence": 5,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Eri Welli",
     "number": 210,
@@ -8168,12 +6413,94 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
+    "edition": [ "enchanted" ],
+    "actions": [],
+    "set_code": "rotf"
+  },
+  {
+    "cost": 6,
+    "inkwell": false,
+    "attack": 3,
+    "defence": 4,
+    "color": "ruby",
+    "type": "glimmer",
+    "illustrator": "Arianna Rea",
+    "number": 211,
+    "rarity": "enchanted",
+    "franchise_id": "unknown",
+    "languages": {
+      "en": {
+        "name": "Lady Tremaine",
+        "title": "Imperious Queen",
+        "flavour": "The twelfth Rule of Villainy: If you don't have a throne, take one.",
+        "image": "https://images.lorcania.com/cards/rotf/110_en_lady_tremaine-716.webp"
+      },
+      "fr": {
+        "name": "Madame de Tr\\u00e9maine",
+        "title": "Reine imp\\u00e9rieuse",
+        "flavour": "Douzi\\u00e8me r\\u00e8gle de la m\\u00e9chancet\\u00e9 : si tu n'as pas de tr\\u00f4ne, prends-en-un.",
+        "image": "https://images.lorcania.com/cards/rotf/110_fr_lady_tremaine-716.webp"
       }
-    ],
+    },
+    "edition": ["regular", "foil"],
+    "actions": [],
+    "set_code": "rotf"
+  },
+  {
+    "cost": 3,
+    "inkwell": true,
+    "attack": 3,
+    "defence": 3,
+    "color": "ruby",
+    "type": "glimmer",
+    "illustrator": "M. Robert Davies \\/ L. Giammichele",
+    "number": 212,
+    "rarity": "enchanted",
+    "franchise_id": "unknown",
+    "languages": {
+      "en": {
+        "name": "Shere Khan",
+        "title": "Menacing Predator",
+        "flavour": "The sixth Rule of Villainy: Keep your mind sharp and your claws sharper.",
+        "image": "https://images.lorcania.com/cards/rotf/126_en_shere_khan-716.webp"
+      },
+      "de": {
+        "name": "",
+        "title": "",
+        "flavour": null,
+        "image": "https://images.lorcania.com/cards/rotf/126_de_shere_khan-716.webp"
+      }
+    },
+    "edition": [ "enchanted" ],
+    "actions": [],
+    "set_code": "rotf"
+  },
+  {
+    "cost": 3,
+    "inkwell": true,
+    "attack": 1,
+    "defence": 4,
+    "color": "sapphire",
+    "type": "glimmer",
+    "illustrator": "Alice Pisoni",
+    "number": 213,
+    "rarity": "enchanted",
+    "franchise_id": "unknown",
+    "languages": {
+      "en": {
+        "name": "Alice",
+        "title": "Growing Girl",
+        "flavour": null,
+        "image": "https://images.lorcania.com/cards/rotf/137_en_alice-716.webp"
+      },
+      "fr": {
+        "name": "Alice",
+        "title": "En pleine croissance",
+        "flavour": null,
+        "image": "https://images.lorcania.com/cards/rotf/137_fr_alice-716.webp"
+      }
+    },
+    "edition": [ "enchanted" ],
     "actions": [],
     "set_code": "rotf"
   },
@@ -8182,7 +6509,59 @@
     "inkwell": false,
     "attack": 2,
     "defence": 4,
-    "color": 6,
+    "color": "sapphire",
+    "type": "glimmer",
+    "illustrator": "Grace Tran",
+    "number": 214,
+    "rarity": "enchanted",
+    "franchise_id": "unknown",
+    "languages": {
+      "en": {
+        "name": "Sisu",
+        "title": "Divine Water Dragon",
+        "flavour": "No matter her shape, you can\\u2019t mistake her heart.",
+        "image": "https://images.lorcania.com/cards/rotf/159_en_sisu-716.webp"
+      }
+    },
+    "edition": [ "enchanted" ],
+    "actions": [],
+    "set_code": "rotf"
+  },
+  {
+    "cost": 6,
+    "inkwell": true,
+    "attack": 6,
+    "defence": 3,
+    "color": "steel",
+    "type": "glimmer",
+    "illustrator": "Grace Tran",
+    "number": 215,
+    "rarity": "enchanted",
+    "franchise_id": "unknown",
+    "languages": {
+      "en": {
+        "name": "Hercules",
+        "title": "Divine Hero",
+        "flavour": "A good guy to have around when something wrecks your inkworks.",
+        "image": "https://images.lorcania.com/cards/rotf/181_en_hercules-716.webp"
+      },
+      "fr": {
+        "name": "Hercule",
+        "title": "H\\u00e9ros divin",
+        "flavour": "Un bon gars \\u00e0 avoir \\u00e0 port\\u00e9e de main quand quelque chose ruine vos cr\\u00e9ations d'encre.",
+        "image": "https://images.lorcania.com/cards/rotf/181_fr_hercules-716.webp"
+      }
+    },
+    "edition": [ "enchanted" ],
+    "actions": [],
+    "set_code": "rotf"
+  },
+  {
+    "cost": 4,
+    "inkwell": false,
+    "attack": 2,
+    "defence": 4,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Jenna Gray",
     "number": 216,
@@ -8202,12 +6581,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": [ "enchanted" ],
     "actions": [],
     "set_code": "rotf"
   }

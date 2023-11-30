@@ -33,6 +33,8 @@ class TestLoadingCompiledSet {
                 assertTrue(content.isNotEmpty())
                 assertEquals(originalContent.size, content.size)
             } catch (@Suppress("SwallowedException") err: Throwable) {
+                err.printStackTrace()
+
                 println("$currentPlatform")
                 throw NullPointerException("$currentPlatform")
             }
@@ -62,7 +64,7 @@ class TestLoadingCompiledSet {
         listOf(
             Set.D23 to 24,
             Set.TFC to 216,
-            Set.ROTF to 208
+            Set.ROTF to 216
         ).forEach { pair ->
             val (set, count) = pair
             val cards = provider(set)

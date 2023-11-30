@@ -4,7 +4,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 1,
@@ -30,16 +30,7 @@
         "image": "https://images.lorcania.com/cards/tfc/1_fr_ariel-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "voiceless"
     ],
@@ -54,7 +45,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Alice Pisoni",
     "number": 2,
@@ -80,16 +71,7 @@
         "image": "https://images.lorcania.com/cards/tfc/2_fr_ariel-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "singer",
       "musical_debut"
@@ -105,7 +87,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 5,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Javier Salas",
     "number": 3,
@@ -131,16 +113,7 @@
         "image": "https://images.lorcania.com/cards/tfc/3_fr_cinderella-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "singer",
       "wonderful_dream"
@@ -156,7 +129,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 6,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Jochem Van Gool",
     "number": 4,
@@ -182,16 +155,7 @@
         "image": "https://images.lorcania.com/cards/tfc/4_fr_goofy-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "bodyguard",
       "and_two_for_tea"
@@ -206,7 +170,7 @@
     "cost": 8,
     "attack": 6,
     "defence": 7,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Alex Accorsi",
     "number": 5,
@@ -232,20 +196,7 @@
         "image": "https://images.lorcania.com/cards/tfc/5_fr_hades-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Oversized",
-        "code": "oversized"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "oversized", "foil"],
     "actions": [
       "shift",
       "sinister_plot"
@@ -260,7 +211,7 @@
     "cost": 4,
     "attack": 3,
     "defence": 2,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Randy Bishop",
     "number": 6,
@@ -286,16 +237,7 @@
         "image": "https://images.lorcania.com/cards/tfc/6_fr_hades-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "well_of_souls"
     ],
@@ -310,7 +252,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Jenna Gray",
     "number": 7,
@@ -336,16 +278,7 @@
         "image": "https://images.lorcania.com/cards/tfc/7_fr_heihei-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "support"
     ],
@@ -360,7 +293,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Andrey Chomak",
     "number": 8,
@@ -386,16 +319,7 @@
         "image": "https://images.lorcania.com/cards/tfc/8_fr_lefou-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "loyal"
     ],
@@ -409,7 +333,7 @@
     "cost": 1,
     "attack": 1,
     "defence": 1,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Dave Beauchene",
     "number": 9,
@@ -435,16 +359,7 @@
         "image": "https://images.lorcania.com/cards/tfc/9_fr_lilo-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -457,7 +372,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 5,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Brian Weisz",
     "number": 10,
@@ -483,16 +398,7 @@
         "image": "https://images.lorcania.com/cards/tfc/10_fr_maximus-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "bodyguard",
       "support"
@@ -508,7 +414,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 11,
@@ -534,16 +440,7 @@
         "image": "https://images.lorcania.com/cards/tfc/11_fr_maximus-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "horse_kick"
     ],
@@ -558,7 +455,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Dave Beauchene",
     "number": 12,
@@ -584,16 +481,7 @@
         "image": "https://images.lorcania.com/cards/tfc/12_fr_mickey_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -606,7 +494,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 13,
@@ -632,16 +520,7 @@
         "image": "https://images.lorcania.com/cards/tfc/13_fr_minnie_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -654,7 +533,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 6,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 14,
@@ -680,16 +559,7 @@
         "image": "https://images.lorcania.com/cards/tfc/14_fr_moana-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "we_can_fix_it"
     ],
@@ -704,7 +574,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 5,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Kamil Murzyn / Eri Welli",
     "number": 15,
@@ -730,16 +600,7 @@
         "image": "https://images.lorcania.com/cards/tfc/15_fr_mr_smee-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -751,7 +612,7 @@
     "cost": 4,
     "attack": 3,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Philipp Kruse",
     "number": 16,
@@ -777,16 +638,7 @@
         "image": "https://images.lorcania.com/cards/tfc/16_fr_prince_phillip-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "heroism"
     ],
@@ -801,7 +653,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 5,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Jenna Gray",
     "number": 17,
@@ -827,16 +679,7 @@
         "image": "https://images.lorcania.com/cards/tfc/17_fr_pumbaa-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -849,7 +692,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 5,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Jochem Van Gool",
     "number": 18,
@@ -875,16 +718,7 @@
         "image": "https://images.lorcania.com/cards/tfc/18_fr_rapunzel-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "gleam_and_glow"
     ],
@@ -899,7 +733,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Isaiah Mesq",
     "number": 19,
@@ -925,16 +759,7 @@
         "image": "https://images.lorcania.com/cards/tfc/19_fr_sebastian-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "singer_4"
     ],
@@ -949,7 +774,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Filipe Laurentino",
     "number": 20,
@@ -975,16 +800,7 @@
         "image": "https://images.lorcania.com/cards/tfc/20_fr_simba-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "bodyguard"
     ],
@@ -999,7 +815,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 8,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Marcel Berg",
     "number": 21,
@@ -1025,16 +841,7 @@
         "image": "https://images.lorcania.com/cards/tfc/21_fr_stitch-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "ohana"
     ],
@@ -1049,7 +856,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Alex Accorsi",
     "number": 22,
@@ -1075,16 +882,7 @@
         "image": "https://images.lorcania.com/cards/tfc/22_fr_stitch-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -1097,7 +895,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 5,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Simangaliso Sibaya",
     "number": 23,
@@ -1123,16 +921,7 @@
         "image": "https://images.lorcania.com/cards/tfc/23_fr_stitch-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "shift_4",
       "adoring_fans"
@@ -1148,7 +937,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Juan Diego Leon",
     "number": 24,
@@ -1174,16 +963,7 @@
         "image": "https://images.lorcania.com/cards/tfc/24_fr_timon-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "tastes_like_chicken"
     ],
@@ -1198,7 +978,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "song",
     "illustrator": "R. La Barbera / L. Giammichele",
     "number": 25,
@@ -1224,16 +1004,7 @@
         "image": "https://images.lorcania.com/cards/tfc/25_fr_be_our_guest-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "be_our_guest"
     ],
@@ -1248,7 +1019,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "action",
     "illustrator": "Amber Kommavongsa",
     "number": 26,
@@ -1274,16 +1045,7 @@
         "image": "https://images.lorcania.com/cards/tfc/26_fr_control_your_temper-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "control_your_temper"
     ],
@@ -1298,7 +1060,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "song",
     "illustrator": "Juan Diego Leon",
     "number": 27,
@@ -1324,16 +1086,7 @@
         "image": "https://images.lorcania.com/cards/tfc/27_fr_hakuna_matata-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "hakuna_matata"
     ],
@@ -1348,7 +1101,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "action",
     "illustrator": "Philipp Kruse",
     "number": 28,
@@ -1374,16 +1127,7 @@
         "image": "https://images.lorcania.com/cards/tfc/28_fr_healing_glow-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "healing_glow"
     ],
@@ -1397,7 +1141,7 @@
     "cost": 3,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "action",
     "illustrator": "Leonardo Giammichele",
     "number": 29,
@@ -1423,16 +1167,7 @@
         "image": "https://images.lorcania.com/cards/tfc/29_fr_just_in_time-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "just_in_time"
     ],
@@ -1446,7 +1181,7 @@
     "cost": 3,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "song",
     "illustrator": "Samanta Erdini",
     "number": 30,
@@ -1472,16 +1207,7 @@
         "image": "https://images.lorcania.com/cards/tfc/30_fr_part_of_your_world-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "part_of_your_world"
     ],
@@ -1496,7 +1222,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "action",
     "illustrator": "Alice Pisoni",
     "number": 31,
@@ -1522,16 +1248,7 @@
         "image": "https://images.lorcania.com/cards/tfc/31_fr_you_have_forgotten_me-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "you_have_forgotten_me"
     ],
@@ -1546,7 +1263,7 @@
     "inkwell": true,
     "attack": 0,
     "defence": 0,
-    "color": 4,
+    "color": "amber",
     "type": "item",
     "illustrator": "Eri Welli",
     "number": 32,
@@ -1572,16 +1289,7 @@
         "image": "https://images.lorcania.com/cards/tfc/32_fr_dinglehopper-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "straighten_hair"
     ],
@@ -1595,7 +1303,7 @@
     "cost": 2,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "item",
     "illustrator": "Eri Welli",
     "number": 33,
@@ -1621,16 +1329,7 @@
         "image": "https://images.lorcania.com/cards/tfc/33_fr_lantern-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "birthday_lights"
     ],
@@ -1644,7 +1343,7 @@
     "cost": 3,
     "attack": null,
     "defence": null,
-    "color": 4,
+    "color": "amber",
     "type": "item",
     "illustrator": "Jenna Gray",
     "number": 34,
@@ -1670,16 +1369,7 @@
         "image": "https://images.lorcania.com/cards/tfc/34_fr_ursulas_shell_necklace-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "now_sing"
     ],
@@ -1694,7 +1384,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Valerio Buonfantino",
     "number": 35,
@@ -1720,16 +1410,7 @@
         "image": "https://images.lorcania.com/cards/tfc/35_fr_anna-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "loving_heart"
     ],
@@ -1744,7 +1425,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 36,
@@ -1770,16 +1451,7 @@
         "image": "https://images.lorcania.com/cards/tfc/36_fr_archimedes-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -1791,7 +1463,7 @@
     "cost": 7,
     "attack": 4,
     "defence": 5,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Isaiah Mesq",
     "number": 37,
@@ -1817,16 +1489,7 @@
         "image": "https://images.lorcania.com/cards/tfc/37_fr_dr_facilier-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "shift_5",
       "into_the_shadows"
@@ -1842,7 +1505,7 @@
     "inkwell": true,
     "attack": 0,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Grace Tran",
     "number": 38,
@@ -1868,16 +1531,7 @@
         "image": "https://images.lorcania.com/cards/tfc/38_fr_dr_facilier-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "challenger"
     ],
@@ -1892,7 +1546,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Cam Kendell",
     "number": 39,
@@ -1918,16 +1572,7 @@
         "image": "https://images.lorcania.com/cards/tfc/39_fr_dr_facilier-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "dreams_made_real"
     ],
@@ -1942,7 +1587,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Duyen Nguyen / Aubrey Archer",
     "number": 40,
@@ -1968,16 +1613,7 @@
         "image": "https://images.lorcania.com/cards/tfc/40_fr_elsa-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -1990,7 +1626,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 41,
@@ -2016,16 +1652,7 @@
         "image": "https://images.lorcania.com/cards/tfc/41_fr_elsa-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "freeze"
     ],
@@ -2039,7 +1666,7 @@
     "cost": 8,
     "attack": 4,
     "defence": 6,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 42,
@@ -2065,16 +1692,7 @@
         "image": "https://images.lorcania.com/cards/tfc/42_fr_elsa-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "shift_6",
       "deep_freeze"
@@ -2089,7 +1707,7 @@
     "cost": 5,
     "attack": 3,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Luis Huerta",
     "number": 43,
@@ -2115,16 +1733,7 @@
         "image": "https://images.lorcania.com/cards/tfc/43_fr_flotsam-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "rush",
       "dexterous_lunge"
@@ -2140,7 +1749,7 @@
     "inkwell": true,
     "attack": 0,
     "defence": 5,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Marcel Berg",
     "number": 44,
@@ -2166,16 +1775,7 @@
         "image": "https://images.lorcania.com/cards/tfc/44_fr_jafar-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "hidden_wonders"
     ],
@@ -2190,7 +1790,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 5,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Jake Parker",
     "number": 45,
@@ -2216,16 +1816,7 @@
         "image": "https://images.lorcania.com/cards/tfc/45_fr_jafar-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "challenger_3"
     ],
@@ -2240,7 +1831,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Brian Weisz",
     "number": 46,
@@ -2266,16 +1857,7 @@
         "image": "https://images.lorcania.com/cards/tfc/46_fr_jetsam-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "evasive",
       "sinister_slither"
@@ -2291,7 +1873,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Dav Augereau / Giulia Riva",
     "number": 47,
@@ -2317,16 +1899,7 @@
         "image": "https://images.lorcania.com/cards/tfc/47_fr_magic_broom-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "sweep"
     ],
@@ -2340,7 +1913,7 @@
     "cost": 1,
     "attack": 1,
     "defence": 1,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Grace Tran",
     "number": 48,
@@ -2366,16 +1939,7 @@
         "image": "https://images.lorcania.com/cards/tfc/48_fr_maleficent-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -2388,7 +1952,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Valerio Buonfantino",
     "number": 49,
@@ -2414,16 +1978,7 @@
         "image": "https://images.lorcania.com/cards/tfc/49_fr_maleficent-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "cast_my_spell"
     ],
@@ -2437,7 +1992,7 @@
     "cost": 6,
     "attack": 5,
     "defence": 5,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 50,
@@ -2463,16 +2018,7 @@
         "image": "https://images.lorcania.com/cards/tfc/50_fr_marshmallow-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "durable"
     ],
@@ -2487,7 +2033,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 51,
@@ -2513,16 +2059,7 @@
         "image": "https://images.lorcania.com/cards/tfc/51_fr_mickey_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "animate_broom",
       "ceaseless_worker"
@@ -2538,7 +2075,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Giulia Riva",
     "number": 52,
@@ -2564,16 +2101,7 @@
         "image": "https://images.lorcania.com/cards/tfc/61_fr_olaf-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -2586,7 +2114,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 1,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Brian Weisz",
     "number": 53,
@@ -2612,16 +2140,7 @@
         "image": "https://images.lorcania.com/cards/tfc/53_fr_pascal-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "camouflage"
     ],
@@ -2635,7 +2154,7 @@
     "cost": 3,
     "attack": 3,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Giulia Riva",
     "number": 54,
@@ -2661,16 +2180,7 @@
         "image": "https://images.lorcania.com/cards/tfc/54_fr_rafiki-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "rush"
     ],
@@ -2685,7 +2195,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 7,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Jared Nickerl",
     "number": 55,
@@ -2711,16 +2221,7 @@
         "image": "https://images.lorcania.com/cards/tfc/55_fr_sven-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -2733,7 +2234,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 5,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 56,
@@ -2759,16 +2260,7 @@
         "image": "https://images.lorcania.com/cards/tfc/56_fr_the_queen-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "i_summon_thee"
     ],
@@ -2783,7 +2275,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Giulia Riva",
     "number": 57,
@@ -2809,16 +2301,7 @@
         "image": "https://images.lorcania.com/cards/tfc/57_fr_the_wardrobe-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -2830,7 +2313,7 @@
     "cost": 5,
     "attack": 3,
     "defence": 3,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Adrianne Gumaya",
     "number": 58,
@@ -2856,16 +2339,7 @@
         "image": "https://images.lorcania.com/cards/tfc/58_fr_tinker_bell-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "evasive",
       "loyal_and_devoted"
@@ -2880,7 +2354,7 @@
     "cost": 7,
     "attack": 2,
     "defence": 8,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Simangaliso Sibaya",
     "number": 59,
@@ -2906,16 +2380,7 @@
         "image": "https://images.lorcania.com/cards/tfc/59_fr_ursula-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "its_too_easy"
     ],
@@ -2930,7 +2395,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Hadjie Joos",
     "number": 60,
@@ -2956,16 +2421,7 @@
         "image": "https://images.lorcania.com/cards/tfc/60_fr_yzma-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "youre_excused"
     ],
@@ -2979,7 +2435,7 @@
     "cost": 4,
     "attack": 0,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Koni",
     "number": 61,
@@ -3005,16 +2461,7 @@
         "image": "https://images.lorcania.com/cards/tfc/61_fr_zeus-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "rush",
       "challenger_4"
@@ -3030,7 +2477,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "action",
     "illustrator": "Kendall Hale",
     "number": 62,
@@ -3056,16 +2503,7 @@
         "image": "https://images.lorcania.com/cards/tfc/62_fr_befuddle-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "befuddle"
     ],
@@ -3079,7 +2517,7 @@
     "cost": 2,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "action",
     "illustrator": "Cristian Romero",
     "number": 63,
@@ -3105,16 +2543,7 @@
         "image": "https://images.lorcania.com/cards/tfc/63_fr_freeze-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "freeze_action"
     ],
@@ -3129,7 +2558,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "song",
     "illustrator": "Amber Kommavongsa",
     "number": 64,
@@ -3155,16 +2584,7 @@
         "image": "https://images.lorcania.com/cards/tfc/64_fr_friends_on_the_other_side-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "friends_on_the_other_side"
     ],
@@ -3179,7 +2599,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "song",
     "illustrator": "Kevin Hong",
     "number": 65,
@@ -3205,16 +2625,7 @@
         "image": "https://images.lorcania.com/cards/tfc/65_fr_reflection-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "reflection"
     ],
@@ -3228,7 +2639,7 @@
     "cost": 2,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "item",
     "illustrator": "Andrew Trabbold",
     "number": 66,
@@ -3254,16 +2665,7 @@
         "image": "https://images.lorcania.com/cards/tfc/66_fr_magic_mirror-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "speak"
     ],
@@ -3277,7 +2679,7 @@
     "cost": 2,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "item",
     "illustrator": "Oleg Yurkov",
     "number": 67,
@@ -3303,16 +2705,7 @@
         "image": "https://images.lorcania.com/cards/tfc/67_fr_ursulas_cauldron-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "peer_into_the_depths"
     ],
@@ -3327,7 +2720,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 5,
+    "color": "amethyst",
     "type": "item",
     "illustrator": "Kamil Murzyn",
     "number": 68,
@@ -3353,16 +2746,7 @@
         "image": "https://images.lorcania.com/cards/tfc/68_fr_white_rabbits_pocket_watch-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "im_late"
     ],
@@ -3377,7 +2761,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Lauren Walsh",
     "number": 69,
@@ -3403,16 +2787,7 @@
         "image": "https://images.lorcania.com/cards/tfc/69_fr_aladdin-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "ward"
     ],
@@ -3426,7 +2801,7 @@
     "cost": 5,
     "attack": 4,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Jeff Murchie",
     "number": 70,
@@ -3452,16 +2827,7 @@
         "image": "https://images.lorcania.com/cards/tfc/70_fr_beast-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "rush",
       "roar"
@@ -3477,7 +2843,7 @@
     "inkwell": true,
     "attack": 0,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Caner Soylu",
     "number": 71,
@@ -3503,16 +2869,7 @@
         "image": "https://images.lorcania.com/cards/tfc/71_fr_cheshire_cat-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "lose_something"
     ],
@@ -3527,7 +2884,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 72,
@@ -3553,16 +2910,7 @@
         "image": "https://images.lorcania.com/cards/tfc/72_fr_cruella_de_vil-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "youll_be_sorry"
     ],
@@ -3577,7 +2925,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "R. La Barbera / L. Giammichele",
     "number": 73,
@@ -3603,16 +2951,7 @@
         "image": "https://images.lorcania.com/cards/tfc/73_fr_duke_of_weselton-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -3625,7 +2964,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Leonardo Giammichele",
     "number": 74,
@@ -3651,16 +2990,7 @@
         "image": "https://images.lorcania.com/cards/tfc/74_fr_flynn_rider-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "here_comes_the_smolder"
     ],
@@ -3674,7 +3004,7 @@
     "cost": 6,
     "attack": 3,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Giulia Riva",
     "number": 75,
@@ -3700,16 +3030,7 @@
         "image": "https://images.lorcania.com/cards/tfc/75_fr_genie-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "evasive",
       "disappear"
@@ -3724,7 +3045,7 @@
     "cost": 8,
     "attack": 3,
     "defence": 5,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Javier Salas",
     "number": 76,
@@ -3750,16 +3071,7 @@
         "image": "https://images.lorcania.com/cards/tfc/76_fr_genie-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "shift_6",
       "evasive",
@@ -3776,7 +3088,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Matt Chapman",
     "number": 77,
@@ -3802,16 +3114,7 @@
         "image": "https://images.lorcania.com/cards/tfc/77_fr_genie-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -3824,7 +3127,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Massimiliano Narciso",
     "number": 78,
@@ -3850,16 +3153,7 @@
         "image": "https://images.lorcania.com/cards/tfc/78_fr_hans-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -3872,7 +3166,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Isaiah Mesq",
     "number": 79,
@@ -3898,16 +3192,7 @@
         "image": "https://images.lorcania.com/cards/tfc/79_fr_horace-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -3920,7 +3205,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Brian Weisz",
     "number": 80,
@@ -3946,16 +3231,7 @@
         "image": "https://images.lorcania.com/cards/tfc/80_fr_iago-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "you_got_problem"
     ],
@@ -3970,7 +3246,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Jochem Van Gool",
     "number": 81,
@@ -3996,16 +3272,7 @@
         "image": "https://images.lorcania.com/cards/tfc/81_fr_jasper-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "puppynapping"
     ],
@@ -4020,7 +3287,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 5,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Jared Nickerl",
     "number": 82,
@@ -4046,16 +3313,7 @@
         "image": "https://images.lorcania.com/cards/tfc/82_fr_john_silver-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "pick_your_fights"
     ],
@@ -4070,7 +3328,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 5,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Milica Celikovic",
     "number": 83,
@@ -4096,16 +3354,7 @@
         "image": "https://images.lorcania.com/cards/tfc/83_fr_jumba_jookiba-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -4117,7 +3366,7 @@
     "cost": 5,
     "attack": 2,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Grace Tran",
     "number": 84,
@@ -4143,16 +3392,7 @@
         "image": "https://images.lorcania.com/cards/tfc/84_fr_kuzco-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "ward",
       "no_touchy"
@@ -4167,7 +3407,7 @@
     "cost": 6,
     "attack": 1,
     "defence": 5,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Leonardo Giammichele",
     "number": 85,
@@ -4193,16 +3433,7 @@
         "image": "https://images.lorcania.com/cards/tfc/85_fr_lady_tremaine-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "do_it_again"
     ],
@@ -4217,7 +3448,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Rosa La Barbera",
     "number": 86,
@@ -4243,16 +3474,7 @@
         "image": "https://images.lorcania.com/cards/tfc/86_fr_mad_hatter-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "tea_party"
     ],
@@ -4267,7 +3489,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 1,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Aubrey Archer",
     "number": 87,
@@ -4293,16 +3515,7 @@
         "image": "https://images.lorcania.com/cards/tfc/87_fr_megara-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "wonder_boy"
     ],
@@ -4316,7 +3529,7 @@
     "cost": 7,
     "attack": 6,
     "defence": 5,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Alex Accorsi",
     "number": 88,
@@ -4342,16 +3555,7 @@
         "image": "https://images.lorcania.com/cards/tfc/88_fr_mickey_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "shift_5",
       "misdirection"
@@ -4367,7 +3571,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Juan Diego Leon",
     "number": 89,
@@ -4393,16 +3597,7 @@
         "image": "https://images.lorcania.com/cards/tfc/89_fr_mickey_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -4415,7 +3610,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 6,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Javier Salas",
     "number": 90,
@@ -4441,16 +3636,7 @@
         "image": "https://images.lorcania.com/cards/tfc/90_fr_mother_gothel-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "skip_drama_stay_with_mama"
     ],
@@ -4465,7 +3651,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 2,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Koni",
     "number": 91,
@@ -4491,16 +3677,7 @@
         "image": "https://images.lorcania.com/cards/tfc/91_fr_peter_pan-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "evasive"
     ],
@@ -4515,7 +3692,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Jeff Murchie",
     "number": 92,
@@ -4541,16 +3718,7 @@
         "image": "https://images.lorcania.com/cards/tfc/92_fr_tamatoa-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -4563,7 +3731,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Caner Soylu",
     "number": 93,
@@ -4589,16 +3757,7 @@
         "image": "https://images.lorcania.com/cards/tfc/93_fr_tinker_bell-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "evasive",
       "pixie_dust"
@@ -4613,7 +3772,7 @@
     "cost": 3,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "action",
     "illustrator": "Ellie Horie",
     "number": 94,
@@ -4639,16 +3798,7 @@
         "image": "https://images.lorcania.com/cards/tfc/94_fr_do_it_again-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "do_it_again_action"
     ],
@@ -4662,7 +3812,7 @@
     "cost": 3,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "song",
     "illustrator": "R. La Barbera / L. Giammichele",
     "number": 95,
@@ -4688,16 +3838,7 @@
         "image": "https://images.lorcania.com/cards/tfc/95_fr_mother_knows_best-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "mother_knows_best"
     ],
@@ -4711,7 +3852,7 @@
     "cost": 1,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "action",
     "illustrator": "Matt Chapman",
     "number": 96,
@@ -4737,16 +3878,7 @@
         "image": "https://images.lorcania.com/cards/tfc/96_fr_stampede-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "stampede"
     ],
@@ -4760,7 +3892,7 @@
     "cost": 5,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "action",
     "illustrator": "Hedvig Häggman-Sund",
     "number": 97,
@@ -4786,16 +3918,7 @@
         "image": "https://images.lorcania.com/cards/tfc/97_fr_steal_from_the_rich-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "steal_from_the_rich"
     ],
@@ -4810,7 +3933,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "song",
     "illustrator": "Giulia Riva",
     "number": 98,
@@ -4836,16 +3959,7 @@
         "image": "https://images.lorcania.com/cards/tfc/98_fr_sudden_chill-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "sudden_chill"
     ],
@@ -4860,7 +3974,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "action",
     "illustrator": "Matthew Robert Davies",
     "number": 99,
@@ -4886,16 +4000,7 @@
         "image": "https://images.lorcania.com/cards/tfc/99_fr_the_beast_is_mine-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "reckless"
     ],
@@ -4910,7 +4015,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "action",
     "illustrator": "Michaela Martin",
     "number": 100,
@@ -4936,16 +4041,7 @@
         "image": "https://images.lorcania.com/cards/tfc/100_fr_vicious_betrayal-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "vicious_betrayal"
     ],
@@ -4959,7 +4055,7 @@
     "cost": 2,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "item",
     "illustrator": "Koni",
     "number": 101,
@@ -4985,16 +4081,7 @@
         "image": "https://images.lorcania.com/cards/tfc/101_fr_dr_faciliers_cards-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "the_cards_will_tell"
     ],
@@ -5009,7 +4096,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 3,
+    "color": "emerald",
     "type": "item",
     "illustrator": "Kendall Hale",
     "number": 102,
@@ -5035,16 +4122,7 @@
         "image": "https://images.lorcania.com/cards/tfc/102_fr_stolen_scimitar-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "slash"
     ],
@@ -5059,7 +4137,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 2,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Oleg Yurkov",
     "number": 103,
@@ -5085,16 +4163,7 @@
         "image": "https://images.lorcania.com/cards/tfc/103_fr_abu-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -5107,7 +4176,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 104,
@@ -5133,16 +4202,7 @@
         "image": "https://images.lorcania.com/cards/tfc/104_fr_aladdin-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "shift_5",
       "daring_exploit"
@@ -5158,7 +4218,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Peter Brockhammer",
     "number": 105,
@@ -5184,16 +4244,7 @@
         "image": "https://images.lorcania.com/cards/tfc/105_fr_aladdin-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "improvise"
     ],
@@ -5208,7 +4259,7 @@
     "inkwell": true,
     "attack": 6,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Brian Weisz",
     "number": 106,
@@ -5234,16 +4285,7 @@
         "image": "https://images.lorcania.com/cards/tfc/106_fr_captain-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -5255,7 +4297,7 @@
     "cost": 7,
     "attack": 5,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Cam Kendell",
     "number": 107,
@@ -5281,16 +4323,7 @@
         "image": "https://images.lorcania.com/cards/tfc/107_fr_captain_hook-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "rush",
       "you_coward"
@@ -5306,7 +4339,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Kenneth Anderson",
     "number": 108,
@@ -5332,16 +4365,7 @@
         "image": "https://images.lorcania.com/cards/tfc/108_fr_donald_duck-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -5354,7 +4378,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Alice Pisoni",
     "number": 109,
@@ -5380,16 +4404,7 @@
         "image": "https://images.lorcania.com/cards/tfc/109_fr_elsa-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "thats_no_blizzard"
     ],
@@ -5404,7 +4419,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 2,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 110,
@@ -5430,16 +4445,7 @@
         "image": "https://images.lorcania.com/cards/tfc/110_fr_gaston-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "reckless"
     ],
@@ -5454,7 +4460,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Kenneth Anderson",
     "number": 111,
@@ -5480,16 +4486,7 @@
         "image": "https://images.lorcania.com/cards/tfc/111_fr_goofy-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "evasive"
     ],
@@ -5504,7 +4501,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Gaku Kumatori",
     "number": 112,
@@ -5530,16 +4527,7 @@
         "image": "https://images.lorcania.com/cards/tfc/112_fr_lefou-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "fan_the_flames"
     ],
@@ -5554,7 +4542,7 @@
     "inkwell": true,
     "attack": 7,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Luis Huerta",
     "number": 113,
@@ -5580,16 +4568,7 @@
         "image": "https://images.lorcania.com/cards/tfc/113_fr_maleficent-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "dragon_fire"
     ],
@@ -5604,7 +4583,7 @@
     "inkwell": true,
     "attack": 6,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Pirel / Marco Giorgianni",
     "number": 114,
@@ -5630,16 +4609,7 @@
         "image": "https://images.lorcania.com/cards/tfc/114_fr_maui-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "rush",
       "reckless"
@@ -5655,7 +4625,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 115,
@@ -5681,16 +4651,7 @@
         "image": "https://images.lorcania.com/cards/tfc/115_fr_mickey_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "evasive"
     ],
@@ -5705,7 +4666,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Kenneth Anderson",
     "number": 116,
@@ -5731,16 +4692,7 @@
         "image": "https://images.lorcania.com/cards/tfc/116_fr_minnie_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -5753,7 +4705,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 6,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Tanisha Cherislin",
     "number": 117,
@@ -5779,16 +4731,7 @@
         "image": "https://images.lorcania.com/cards/tfc/117_fr_moana-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "this_is_not_who_you_are"
     ],
@@ -5803,7 +4746,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Mel Milton",
     "number": 118,
@@ -5829,20 +4772,7 @@
         "image": "https://images.lorcania.com/cards/tfc/118_fr_mulan-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Oversized",
-        "code": "oversized"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "oversized", "foil"],
     "actions": [
       "lead_by_example"
     ],
@@ -5856,7 +4786,7 @@
     "cost": 3,
     "attack": 3,
     "defence": 2,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Anh Dang",
     "number": 119,
@@ -5882,16 +4812,7 @@
         "image": "https://images.lorcania.com/cards/tfc/119_fr_peter_pan-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "rush"
     ],
@@ -5906,7 +4827,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Brian Weisz",
     "number": 120,
@@ -5932,16 +4853,7 @@
         "image": "https://images.lorcania.com/cards/tfc/120_fr_pongo-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "evasive"
     ],
@@ -5955,7 +4867,7 @@
     "cost": 6,
     "attack": 5,
     "defence": 4,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Clio Wolfensberger",
     "number": 121,
@@ -5981,16 +4893,7 @@
         "image": "https://images.lorcania.com/cards/tfc/121_fr_rapunzel-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "tangle"
     ],
@@ -6005,7 +4908,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 3,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Amber Kommavongsa",
     "number": 122,
@@ -6031,16 +4934,7 @@
         "image": "https://images.lorcania.com/cards/tfc/122_fr_scar-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -6052,7 +4946,7 @@
     "cost": 8,
     "attack": 6,
     "defence": 6,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Jenna Gray",
     "number": 123,
@@ -6078,16 +4972,7 @@
         "image": "https://images.lorcania.com/cards/tfc/123_fr_scar-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "shift_6",
       "rousing_speech"
@@ -6103,7 +4988,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Cory Godbey",
     "number": 124,
@@ -6129,16 +5014,7 @@
         "image": "https://images.lorcania.com/cards/tfc/124_fr_sergeant_tibbs-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -6151,7 +5027,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 6,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Bill Robinson",
     "number": 125,
@@ -6177,16 +5053,7 @@
         "image": "https://images.lorcania.com/cards/tfc/125_fr_stitch-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -6198,7 +5065,7 @@
     "cost": 6,
     "attack": 8,
     "defence": 6,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Kamil Murzyn",
     "number": 126,
@@ -6224,16 +5091,7 @@
         "image": "https://images.lorcania.com/cards/tfc/126_fr_te_ka-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "reckless"
     ],
@@ -6248,7 +5106,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 4,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Kenneth Anderson",
     "number": 127,
@@ -6274,16 +5132,7 @@
         "image": "https://images.lorcania.com/cards/tfc/127_fr_tigger-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "evasive"
     ],
@@ -6297,7 +5146,7 @@
     "cost": 7,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "song",
     "illustrator": "Jared Nickerl",
     "number": 128,
@@ -6323,16 +5172,7 @@
         "image": "https://images.lorcania.com/cards/tfc/128_fr_be_prepared-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "be_prepared"
     ],
@@ -6347,7 +5187,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "action",
     "illustrator": "Ellie Horie",
     "number": 129,
@@ -6373,16 +5213,7 @@
         "image": "https://images.lorcania.com/cards/tfc/129_fr_cut_to_the_chase-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "rush"
     ],
@@ -6396,7 +5227,7 @@
     "cost": 5,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "action",
     "illustrator": "Luis Huerta",
     "number": 130,
@@ -6422,16 +5253,7 @@
         "image": "https://images.lorcania.com/cards/tfc/130_fr_dragon_fire-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "dragon_fire_action"
     ],
@@ -6446,7 +5268,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "action",
     "illustrator": "Jenna Gray",
     "number": 131,
@@ -6472,16 +5294,7 @@
         "image": "https://images.lorcania.com/cards/tfc/131_fr_fan_the_flames-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "fan_the_flames_action"
     ],
@@ -6496,7 +5309,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "action",
     "illustrator": "Koni",
     "number": 132,
@@ -6522,16 +5335,7 @@
         "image": "https://images.lorcania.com/cards/tfc/132_fr_hes_got_a_sword-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "hes_got_sword"
     ],
@@ -6546,7 +5350,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "action",
     "illustrator": "Eri Welli",
     "number": 133,
@@ -6572,16 +5376,7 @@
         "image": "https://images.lorcania.com/cards/tfc/133_fr_tangle-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "tangle_action"
     ],
@@ -6595,7 +5390,7 @@
     "cost": 3,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "item",
     "illustrator": "Andrew Trabbold",
     "number": 134,
@@ -6621,16 +5416,7 @@
         "image": "https://images.lorcania.com/cards/tfc/134_fr_poisoned_apple-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "take_bite"
     ],
@@ -6645,7 +5431,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "item",
     "illustrator": "Eri Welli",
     "number": 135,
@@ -6671,16 +5457,7 @@
         "image": "https://images.lorcania.com/cards/tfc/135_fr_shield_of_virtue-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "fireproof"
     ],
@@ -6694,7 +5471,7 @@
     "cost": 4,
     "attack": null,
     "defence": null,
-    "color": 1,
+    "color": "ruby",
     "type": "item",
     "illustrator": "Andrew Trabbold",
     "number": 136,
@@ -6720,16 +5497,7 @@
         "image": "https://images.lorcania.com/cards/tfc/136_fr_sword_of_truth-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "final_enchantment"
     ],
@@ -6743,7 +5511,7 @@
     "cost": 4,
     "attack": 3,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Hedvig Häggman-Sund",
     "number": 137,
@@ -6769,16 +5537,7 @@
         "image": "https://images.lorcania.com/cards/tfc/137_fr_ariel-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "look_at_this_stuff"
     ],
@@ -6793,7 +5552,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 5,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Rosalia Radosti",
     "number": 138,
@@ -6819,16 +5578,7 @@
         "image": "https://images.lorcania.com/cards/tfc/138_fr_aurora-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "disturbing_beauty"
     ],
@@ -6843,7 +5593,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 5,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 139,
@@ -6869,16 +5619,7 @@
         "image": "https://images.lorcania.com/cards/tfc/139_fr_aurora-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "shift_3",
       "protective_embrace"
@@ -6894,7 +5635,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Samanta Erdini",
     "number": 140,
@@ -6920,16 +5661,7 @@
         "image": "https://images.lorcania.com/cards/tfc/140_fr_aurora-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -6942,7 +5674,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Gabriel Romero / Pix Smith",
     "number": 141,
@@ -6968,16 +5700,7 @@
         "image": "https://images.lorcania.com/cards/tfc/141_fr_belle-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "tinker"
     ],
@@ -6992,7 +5715,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Alice Pisoni",
     "number": 142,
@@ -7018,16 +5741,7 @@
         "image": "https://images.lorcania.com/cards/tfc/142_fr_belle-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "read_book",
       "my_favorite_part"
@@ -7043,7 +5757,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 6,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Pirel",
     "number": 143,
@@ -7069,16 +5783,7 @@
         "image": "https://images.lorcania.com/cards/tfc/143_fr_chief_tui-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "support"
     ],
@@ -7093,7 +5798,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Cam Kendell",
     "number": 144,
@@ -7119,16 +5824,7 @@
         "image": "https://images.lorcania.com/cards/tfc/144_fr_donald_duck-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "ward"
     ],
@@ -7143,7 +5839,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Brian Weisz",
     "number": 145,
@@ -7169,16 +5865,7 @@
         "image": "https://images.lorcania.com/cards/tfc/145_fr_flounder-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -7191,7 +5878,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 1,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Filipe Laurentino",
     "number": 146,
@@ -7217,16 +5904,7 @@
         "image": "https://images.lorcania.com/cards/tfc/146_fr_gramma_tala-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "ill_be_with_you"
     ],
@@ -7240,7 +5918,7 @@
     "cost": 7,
     "attack": 3,
     "defence": 6,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 147,
@@ -7266,16 +5944,7 @@
         "image": "https://images.lorcania.com/cards/tfc/147_fr_hades-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "is_there_downside_to_this"
     ],
@@ -7290,7 +5959,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "R. La Barbera / L. Giammichele",
     "number": 148,
@@ -7316,16 +5985,7 @@
         "image": "https://images.lorcania.com/cards/tfc/148_fr_jasmine-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -7338,7 +5998,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 5,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Filipe Laurentino",
     "number": 149,
@@ -7364,16 +6024,7 @@
         "image": "https://images.lorcania.com/cards/tfc/149_fr_jasmine-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "shift_3",
       "caretaker"
@@ -7389,7 +6040,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 150,
@@ -7415,16 +6066,7 @@
         "image": "https://images.lorcania.com/cards/tfc/150_fr_maleficent-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -7437,7 +6079,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 6,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Gaku Kumatori",
     "number": 151,
@@ -7463,16 +6105,7 @@
         "image": "https://images.lorcania.com/cards/tfc/151_fr_maleficent-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -7485,7 +6118,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 7,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Alex Accorsi",
     "number": 152,
@@ -7511,16 +6144,7 @@
         "image": "https://images.lorcania.com/cards/tfc/152_fr_maurice-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "give_it_try",
       "it_works"
@@ -7536,7 +6160,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Dave Beauchene",
     "number": 153,
@@ -7562,16 +6186,7 @@
         "image": "https://images.lorcania.com/cards/tfc/153_fr_merlin-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "support"
     ],
@@ -7585,7 +6200,7 @@
     "cost": 3,
     "attack": 1,
     "defence": 3,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Jared Nickerl",
     "number": 154,
@@ -7611,16 +6226,7 @@
         "image": "https://images.lorcania.com/cards/tfc/154_fr_mickey_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "get_clue"
     ],
@@ -7635,7 +6241,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 6,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Luis Huerta",
     "number": 155,
@@ -7661,16 +6267,7 @@
         "image": "https://images.lorcania.com/cards/tfc/155_fr_mufasa-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -7683,7 +6280,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 1,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Leonardo Giammichele",
     "number": 156,
@@ -7709,16 +6306,7 @@
         "image": "https://images.lorcania.com/cards/tfc/156_fr_philoctetes-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "support"
     ],
@@ -7733,7 +6321,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "John Loren",
     "number": 157,
@@ -7759,16 +6347,7 @@
         "image": "https://images.lorcania.com/cards/tfc/157_fr_robin_hood-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "feed_the_poor",
       "good_shot"
@@ -7784,7 +6363,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Bill Robinson",
     "number": 158,
@@ -7810,16 +6389,7 @@
         "image": "https://images.lorcania.com/cards/tfc/158_fr_scar-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "insidious_plot"
     ],
@@ -7834,7 +6404,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 8,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Leonardo Giammichele",
     "number": 159,
@@ -7860,16 +6430,7 @@
         "image": "https://images.lorcania.com/cards/tfc/159_fr_tamatoa-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "what_have_we_here",
       "glam"
@@ -7885,7 +6446,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 9,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Cristian Romero",
     "number": 160,
@@ -7911,16 +6472,7 @@
         "image": "https://images.lorcania.com/cards/tfc/160_fr_triton-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -7933,7 +6485,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "action",
     "illustrator": "Pao Yong",
     "number": 161,
@@ -7959,16 +6511,7 @@
         "image": "https://images.lorcania.com/cards/tfc/161_fr_develop_your_brain-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "develop_your_brain"
     ],
@@ -7982,7 +6525,7 @@
     "cost": 3,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "action",
     "illustrator": "Kenneth Anderson",
     "number": 162,
@@ -8008,16 +6551,7 @@
         "image": "https://images.lorcania.com/cards/tfc/162_fr_if_its_not_baroque-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "if_its_not_baroque"
     ],
@@ -8032,7 +6566,7 @@
     "inkwell": true,
     "attack": 0,
     "defence": 0,
-    "color": 2,
+    "color": "sapphire",
     "type": "song",
     "illustrator": "Milica Celikovic",
     "number": 163,
@@ -8058,16 +6592,7 @@
         "image": "https://images.lorcania.com/cards/tfc/163_fr_let_it_go-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "let_it_go"
     ],
@@ -8081,7 +6606,7 @@
     "cost": 2,
     "attack": 0,
     "defence": 0,
-    "color": 2,
+    "color": "sapphire",
     "type": "song",
     "illustrator": "Bill Robinson",
     "number": 164,
@@ -8107,16 +6632,7 @@
         "image": "https://images.lorcania.com/cards/tfc/164_fr_one_jump_ahead-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "one_jump_ahead"
     ],
@@ -8131,7 +6647,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "action",
     "illustrator": "Bill Robinson",
     "number": 165,
@@ -8157,16 +6673,7 @@
         "image": "https://images.lorcania.com/cards/tfc/165_fr_work_together-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "support"
     ],
@@ -8181,7 +6688,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "item",
     "illustrator": "Milica Celikovic",
     "number": 166,
@@ -8207,16 +6714,7 @@
         "image": "https://images.lorcania.com/cards/tfc/166_fr_coconut_basket-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "consider_the_coconut"
     ],
@@ -8231,7 +6729,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "item",
     "illustrator": "Ron Baird",
     "number": 167,
@@ -8257,16 +6755,7 @@
         "image": "https://images.lorcania.com/cards/tfc/167_fr_eye_of_the_fates-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "see_the_future"
     ],
@@ -8281,7 +6770,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "item",
     "illustrator": "Tanisha Cherislin",
     "number": 168,
@@ -8307,16 +6796,7 @@
         "image": "https://images.lorcania.com/cards/tfc/168_fr_fishbone_quill-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "go_ahead_and_sign"
     ],
@@ -8331,7 +6811,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "item",
     "illustrator": "Cory Godbey",
     "number": 169,
@@ -8357,16 +6837,7 @@
         "image": "https://images.lorcania.com/cards/tfc/169_fr_magic_golden_flower-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "healing_pollen"
     ],
@@ -8381,7 +6852,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 2,
+    "color": "sapphire",
     "type": "item",
     "illustrator": "Grace Tran",
     "number": 170,
@@ -8407,16 +6878,7 @@
         "image": "https://images.lorcania.com/cards/tfc/170_fr_scepter_of_arendelle-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "command"
     ],
@@ -8431,7 +6893,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 1,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Randy Bishop",
     "number": 171,
@@ -8457,16 +6919,7 @@
         "image": "https://images.lorcania.com/cards/tfc/171_fr_aladdin-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -8479,7 +6932,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 4,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Cookie",
     "number": 172,
@@ -8505,16 +6958,7 @@
         "image": "https://images.lorcania.com/cards/tfc/172_fr_beast-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "destruction"
     ],
@@ -8528,7 +6972,7 @@
     "cost": 4,
     "attack": 3,
     "defence": 4,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Adrianne Gumaya",
     "number": 173,
@@ -8554,16 +6998,7 @@
         "image": "https://images.lorcania.com/cards/tfc/173_fr_captain_hook-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "double_the_powder"
     ],
@@ -8578,7 +7013,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Marcel Berg",
     "number": 174,
@@ -8604,16 +7039,7 @@
         "image": "https://images.lorcania.com/cards/tfc/174_fr_captain_hook-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "challenger"
     ],
@@ -8627,7 +7053,7 @@
     "cost": 5,
     "attack": 2,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Elliot Bocxtaele",
     "number": 175,
@@ -8653,16 +7079,7 @@
         "image": "https://images.lorcania.com/cards/tfc/175_fr_captain_hook-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "shift_3",
       "challenger_3",
@@ -8679,7 +7096,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 6,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Oleg Yurkov",
     "number": 176,
@@ -8705,16 +7122,7 @@
         "image": "https://images.lorcania.com/cards/tfc/176_fr_cerberus-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -8727,7 +7135,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Dav Augereau / Guykua Ruva",
     "number": 177,
@@ -8753,16 +7161,7 @@
         "image": "https://images.lorcania.com/cards/tfc/177_fr_donald_duck-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "bodyguard",
       "stay_alert"
@@ -8778,7 +7177,7 @@
     "inkwell": true,
     "attack": 6,
     "defence": 6,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Luis Huerta",
     "number": 178,
@@ -8804,16 +7203,7 @@
         "image": "https://images.lorcania.com/cards/tfc/178_fr_gantu-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "under_arrest"
     ],
@@ -8828,7 +7218,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 2,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Cam Kendell",
     "number": 179,
@@ -8854,16 +7244,7 @@
         "image": "https://images.lorcania.com/cards/tfc/179_fr_goons-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -8876,7 +7257,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 180,
@@ -8902,16 +7283,7 @@
         "image": "https://images.lorcania.com/cards/tfc/180_fr_hans-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "stage_little_accident"
     ],
@@ -8926,7 +7298,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Marcel Berg",
     "number": 181,
@@ -8952,16 +7324,7 @@
         "image": "https://images.lorcania.com/cards/tfc/181_fr_hercules-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "bodyguard"
     ],
@@ -8976,7 +7339,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 3,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Ron Baird",
     "number": 182,
@@ -9002,16 +7365,7 @@
         "image": "https://images.lorcania.com/cards/tfc/182_fr_kristoff-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -9024,7 +7378,7 @@
     "inkwell": true,
     "attack": 6,
     "defence": 6,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Jake Parker",
     "number": 183,
@@ -9050,16 +7404,7 @@
         "image": "https://images.lorcania.com/cards/tfc/183_fr_kronk-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -9072,7 +7417,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 2,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Jared Nickerl",
     "number": 184,
@@ -9098,16 +7443,7 @@
         "image": "https://images.lorcania.com/cards/tfc/184_fr_lilo-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -9120,7 +7456,7 @@
     "inkwell": true,
     "attack": 8,
     "defence": 8,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Isaiah Mesq",
     "number": 185,
@@ -9146,16 +7482,7 @@
         "image": "https://images.lorcania.com/cards/tfc/185_fr_maui-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [],
     "set_code": "tfc",
     "third_party": {
@@ -9168,7 +7495,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 7,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Jochem Van Gool",
     "number": 186,
@@ -9194,16 +7521,7 @@
         "image": "https://images.lorcania.com/cards/tfc/186_fr_mickey_mouse-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "bodyguard",
       "all_for_one"
@@ -9219,7 +7537,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 3,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Cristian Romero",
     "number": 187,
@@ -9245,16 +7563,7 @@
         "image": "https://images.lorcania.com/cards/tfc/187_fr_prince_eric-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "challenger"
     ],
@@ -9269,7 +7578,7 @@
     "inkwell": true,
     "attack": 1,
     "defence": 2,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 188,
@@ -9295,16 +7604,7 @@
         "image": "https://images.lorcania.com/cards/tfc/188_fr_simba-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "guess_what"
     ],
@@ -9319,7 +7619,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 6,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Nicholas Kole",
     "number": 189,
@@ -9345,16 +7645,7 @@
         "image": "https://images.lorcania.com/cards/tfc/189_fr_simba-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "challenger_4",
       "pounce"
@@ -9369,7 +7660,7 @@
     "cost": 5,
     "attack": 3,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Cookie",
     "number": 190,
@@ -9395,16 +7686,7 @@
         "image": "https://images.lorcania.com/cards/tfc/190_fr_simba-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "i_know_what_i_have_to_do"
     ],
@@ -9419,7 +7701,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 4,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Leonardo Giammichele",
     "number": 191,
@@ -9445,16 +7727,7 @@
         "image": "https://images.lorcania.com/cards/tfc/191_fr_starkey-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "aye_aye_captain"
     ],
@@ -9469,7 +7742,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Andrew Trabbold",
     "number": 192,
@@ -9495,16 +7768,7 @@
         "image": "https://images.lorcania.com/cards/tfc/192_fr_te_ka-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "seek_the_heart"
     ],
@@ -9519,7 +7783,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Cookie",
     "number": 193,
@@ -9545,16 +7809,7 @@
         "image": "https://images.lorcania.com/cards/tfc/193_fr_tinker_bell-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "shift_4",
       "rock_the_boat",
@@ -9571,7 +7826,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 4,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Grace Tran",
     "number": 194,
@@ -9597,16 +7852,7 @@
         "image": "https://images.lorcania.com/cards/tfc/194_fr_tinker_bell-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "battle_plans"
     ],
@@ -9620,7 +7866,7 @@
     "cost": 5,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "song",
     "illustrator": "Koni",
     "number": 195,
@@ -9646,16 +7892,7 @@
         "image": "https://images.lorcania.com/cards/tfc/195_fr_a_whole_new_world-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "a_whole_new_world"
     ],
@@ -9670,7 +7907,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "action",
     "illustrator": "Grace Tran",
     "number": 196,
@@ -9696,16 +7933,7 @@
         "image": "https://images.lorcania.com/cards/tfc/196_fr_break-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "break"
     ],
@@ -9719,7 +7947,7 @@
     "cost": 1,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "action",
     "illustrator": "Matt Chapman",
     "number": 197,
@@ -9745,16 +7973,7 @@
         "image": "https://images.lorcania.com/cards/tfc/197_fr_fire_the_cannons-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "fire_the_cannons"
     ],
@@ -9768,7 +7987,7 @@
     "cost": 5,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "song",
     "illustrator": "Peter Brockhammer",
     "number": 198,
@@ -9794,16 +8013,7 @@
         "image": "https://images.lorcania.com/cards/tfc/198_fr_grab_your_sword-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "grab_your_sword"
     ],
@@ -9818,7 +8028,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "action",
     "illustrator": "Amber Kommavongsa",
     "number": 199,
@@ -9844,16 +8054,7 @@
         "image": "https://images.lorcania.com/cards/tfc/199_fr_ransack-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "ransack"
     ],
@@ -9868,7 +8069,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "action",
     "illustrator": "Simangaliso Sibaya",
     "number": 200,
@@ -9894,16 +8095,7 @@
         "image": "https://images.lorcania.com/cards/tfc/200_fr_smash-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "smash"
     ],
@@ -9918,7 +8110,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "item",
     "illustrator": "Samanta Erdini",
     "number": 201,
@@ -9944,16 +8136,7 @@
         "image": "https://images.lorcania.com/cards/tfc/201_fr_beasts_mirror-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "show_me"
     ],
@@ -9968,7 +8151,7 @@
     "inkwell": true,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "item",
     "illustrator": "Kamil Murzyn",
     "number": 202,
@@ -9994,16 +8177,7 @@
         "image": "https://images.lorcania.com/cards/tfc/202_fr_frying_pan-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Regular",
-        "code": "regular"
-      },
-      {
-        "name": "Foil",
-        "code": "foil"
-      }
-    ],
+    "edition": ["regular", "foil"],
     "actions": [
       "clang"
     ],
@@ -10017,7 +8191,7 @@
     "cost": 4,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "item",
     "illustrator": "Dav Augereau / Guykua Ruva",
     "number": 203,
@@ -10043,16 +8217,7 @@
         "image": "https://images.lorcania.com/cards/tfc/203_fr_musketeer_tabard-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "all_for_one_and_one_for_all"
     ],
@@ -10066,7 +8231,7 @@
     "cost": 3,
     "attack": null,
     "defence": null,
-    "color": 6,
+    "color": "steel",
     "type": "item",
     "illustrator": "Oleg Yurkov",
     "number": 204,
@@ -10092,16 +8257,7 @@
         "image": "https://images.lorcania.com/cards/tfc/204_fr_plasma_blaster-716.webp"
       }
     },
-    "edition": [
-      {
-        "name": "Foil",
-        "code": "foil"
-      },
-      {
-        "name": "Regular",
-        "code": "regular"
-      }
-    ],
+    "edition": ["foil", "regular"],
     "actions": [
       "quick_shot"
     ],
@@ -10115,7 +8271,7 @@
     "cost": 8,
     "attack": 6,
     "defence": 7,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Juan Diego Leon",
     "number": 205,
@@ -10141,12 +8297,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": ["enchanted"],
     "actions": [
       "shift_6",
       "sinister_plot"
@@ -10162,7 +8313,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 8,
-    "color": 4,
+    "color": "amber",
     "type": "glimmer",
     "illustrator": "Milica Celikovic",
     "number": 206,
@@ -10188,12 +8339,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": ["enchanted"],
     "actions": [
       "ohana"
     ],
@@ -10207,7 +8353,7 @@
     "cost": 8,
     "attack": 4,
     "defence": 6,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Matthew Robert Davies",
     "number": 207,
@@ -10227,12 +8373,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": ["enchanted"],
     "actions": [
       "shift_6",
       "deep_freeze"
@@ -10248,7 +8389,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 4,
-    "color": 5,
+    "color": "amethyst",
     "type": "glimmer",
     "illustrator": "Cam Kendell",
     "number": 208,
@@ -10274,12 +8415,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": ["enchanted"],
     "actions": [
       "animate_broom",
       "ceaseless_worker"
@@ -10294,7 +8430,7 @@
     "cost": 6,
     "attack": 3,
     "defence": 4,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Cristian Romero",
     "number": 209,
@@ -10320,12 +8456,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": ["enchanted"],
     "actions": [
       "evasive",
       "disappear"
@@ -10340,7 +8471,7 @@
     "cost": 7,
     "attack": 6,
     "defence": 5,
-    "color": 3,
+    "color": "emerald",
     "type": "glimmer",
     "illustrator": "Kendall Hale",
     "number": 210,
@@ -10366,12 +8497,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": ["enchanted"],
     "actions": [
       "shift_5",
       "misdirection"
@@ -10387,7 +8513,7 @@
     "inkwell": true,
     "attack": 5,
     "defence": 7,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Massimiliano Narciso",
     "number": 211,
@@ -10413,12 +8539,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": ["enchanted"],
     "actions": [
       "shift_5",
       "daring_exploit"
@@ -10434,7 +8555,7 @@
     "inkwell": true,
     "attack": 6,
     "defence": 5,
-    "color": 1,
+    "color": "ruby",
     "type": "glimmer",
     "illustrator": "Stefano Zanchi",
     "number": 212,
@@ -10460,12 +8581,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": ["enchanted"],
     "actions": [
       "rush",
       "reckless"
@@ -10481,7 +8597,7 @@
     "inkwell": true,
     "attack": 3,
     "defence": 5,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Clio Wolfensberger",
     "number": 213,
@@ -10507,12 +8623,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": ["enchanted"],
     "actions": [
       "shift_3",
       "protective_embrace"
@@ -10528,7 +8639,7 @@
     "inkwell": true,
     "attack": 2,
     "defence": 4,
-    "color": 2,
+    "color": "sapphire",
     "type": "glimmer",
     "illustrator": "Valerio Buonfantino",
     "number": 214,
@@ -10554,12 +8665,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": ["enchanted"],
     "actions": [
       "read_book",
       "my_favorite_part"
@@ -10575,7 +8681,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 6,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Hedvig Häggman-Sund",
     "number": 215,
@@ -10601,12 +8707,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": ["enchanted"],
     "actions": [
       "challenger_4",
       "pounce"
@@ -10622,7 +8723,7 @@
     "inkwell": true,
     "attack": 4,
     "defence": 5,
-    "color": 6,
+    "color": "steel",
     "type": "glimmer",
     "illustrator": "Cookie",
     "number": 216,
@@ -10648,12 +8749,7 @@
         "image": null
       }
     },
-    "edition": [
-      {
-        "name": "Enchanted",
-        "code": "enchanted"
-      }
-    ],
+    "edition": ["enchanted"],
     "actions": [
       "shift_4",
       "rock_the_boat",

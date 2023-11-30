@@ -54,7 +54,7 @@ class TestLoadingSet {
         listOf(
             Set.D23 to 24,
             Set.TFC to 216,
-            Set.ROTF to 208
+            Set.ROTF to 216
         ).forEach { pair ->
             val (set, count) = pair
             val cards = provider(set)
