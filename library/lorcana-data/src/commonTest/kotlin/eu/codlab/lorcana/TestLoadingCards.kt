@@ -41,9 +41,9 @@ class TestLoadingCards {
         }
 
         listOf(
-            Resources.files.d23 to 24,
-            Resources.files.tfc to 216,
-            Resources.files.rotf to 216
+            Resources.files.d23_json to 24,
+            Resources.files.tfc_json to 216,
+            Resources.files.rotf_json to 216
         ).forEach { set ->
             val (file, count) = set
             val content = file.safelyReadContent()

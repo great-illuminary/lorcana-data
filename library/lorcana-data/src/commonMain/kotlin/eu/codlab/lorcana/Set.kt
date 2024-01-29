@@ -2,24 +2,28 @@ package eu.codlab.lorcana
 
 import dev.icerock.moko.resources.FileResource
 import eu.codlab.lorcana.resources.Resources
-import eu.codlab.lorcana.utils.GithubDefinitions.dataFileContent
+import eu.codlab.lorcana.utils.AbstractLoader
 import eu.codlab.lorcana.utils.Provider
-import eu.codlab.moko.ext.safelyReadContent
+import kotlinx.serialization.builtins.ListSerializer
+import kotlinx.serialization.builtins.serializer
 
 enum class Set(private val fileResource: FileResource, private val fileName: String) {
-    D23(Resources.files.d23, "d23"),
-    TFC(Resources.files.tfc, "tfc"),
-    ROTF(Resources.files.rotf, "rotf");
+    D23(Resources.files.d23_json, "d23_json"),
+    TFC(Resources.files.tfc_json, "tfc_json"),
+    ROTF(Resources.files.rotf_json, "rotf_json");
 
-    private suspend fun getStringList(): String {
-        return fileResource.safelyReadContent()
-    }
+    private val loader = AbstractLoader(
+        Provider.json,
+        fileResource,
+        fileName,
+        ListSerializer(RawCard.serializer(String.serializer(), String.serializer()))
+    )
 
     suspend fun loadFromGithub(tag: String = "main"): List<RawCard> {
-        return Provider.json.decodeFromString(dataFileContent(tag, fileName))
+        return loader.loadFromGithub(tag)
     }
 
     suspend fun loadFromResource(): List<RawCard> {
-        return Provider.json.decodeFromString(getStringList())
+        return loader.loadFromResource()
     }
 }

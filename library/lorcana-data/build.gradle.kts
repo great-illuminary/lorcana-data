@@ -40,6 +40,8 @@ kotlin {
                 api(dolbyio.kotlinx.serialization.json)
                 api(dolbyio.multiplatform.file.access)
                 api(dolbyio.multiplatform.http.client)
+
+                api("net.mamoe.yamlkt:yamlkt:0.13.0")
             }
         }
         val commonTest by getting {

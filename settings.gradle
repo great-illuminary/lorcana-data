@@ -25,7 +25,9 @@ dependencyResolutionManagement {
     }
 }
 
-include(":lorcana-data")
-project(":lorcana-data").projectDir = file("library/lorcana-data")
+["lorcana-data", "quick_map"].collect {
+    include(":${it}")
+    project(":${it}").projectDir = file("library/${it}")
+}
 
 includeBuild "gradle/dolbyio/${ext.DOLBYIO_GRADLE_VERSION_USED}/kt-plugins"
