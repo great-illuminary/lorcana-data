@@ -9,11 +9,11 @@ data class AbilityValues(
     val songCost: Int? = 0,
     val cost: Int? = 0,
     val count: Int? = 0,
+    val count2: Int? = 0,
     val characters: Int? = 0,
     val damages: Int? = 0,
     val draw: Int? = 0,
     val cards: Int? = 0,
-    val strength: Int? = 0,
     @SerialName("count_villain")
     val countVillain: Int? = 0,
     @SerialName("count_aladdin")

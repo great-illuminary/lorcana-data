@@ -1,11 +1,6 @@
 {
     "voiceless": {
         "logic": "no_song",
-        "text": {
-            "en": "This character can't {flip} to sing songs.",
-            "fr": "Ce personnage ne peut pas être {flip} pour chanter des chansons.",
-            "de": "Dieser Charakter kann nicht {flip}, um Lieder zu singen."
-        }
     },
     "singer": {
         "logic": "cost_to_sing",
@@ -82,6 +77,12 @@
         },
         "text": {
             "en": "You may pay {count} {ink} to play this on top of one of your characters named {family}."
+        }
+    },
+    "shift_2": {
+        "reference": "shift",
+        "values": {
+            "count": 2
         }
     },
     "shift_3": {
@@ -243,7 +244,7 @@
     "control_your_temper": {
         "logic": "control_your_temper",
         "values": {
-            "strength": -2
+            "cost": -2
         },
         "title": {
             "en": "Control Your Temper"
@@ -1696,6 +1697,1386 @@
         "text": {
             "en": "Whenever you ready this character, if you have {characters} or more other characters in play, gain {count} lore.",
             "fr": "Si vous avez au moins {characters} autres personnages en jeu lorsque vous redressez ce personnage, gagnez {count} éclats de Lore."
+        }
+    },
+
+
+    "shared_and_share_alike": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "SHARE AND SHARE ALIKE"
+        },
+        "text": {
+            "en": "Whenever this character quests, you pay {count} {ink} less for the next character you play this turn."
+        }
+    },
+    "odd_one_out": {
+        "values": {
+        "count": 2
+        },
+        "title": {
+        "en": "ODD ONE OUT"
+        },
+        "text": {
+        "en": "When this character is banished,\nyour other Seven Dwarfs characters get +{count} {strength} until the start of your next turn."
+        }
+    },
+    "yes_your_majesty": {
+        "values": {
+        "count": 1
+        },
+        "title": {
+        "en": "YES, YOUR MAJESTY"
+        },
+        "text": {
+        "en": "Your Prince, Princess, King, and Queen characters get +{count} {strength}"
+        }
+    },
+    "theres_trouble_a_brewin": {
+        "values": {
+        "count": 1
+        },
+        "title": {
+        "en": "THERE'S TROUBLE A-BREWIN'"
+        },
+        "text": {
+        "en": "Your other Seven Dwarfs characters get +{count} {strength}"
+        }
+    },
+    "lay_it_on_the_line": {
+        "values": {
+        "damages": 2
+        },
+        "title": {
+        "en": "LAY IT ON THE LINE"
+        },
+        "text": {
+        "en": "Whenever another character is banished, you may remove up to {damages} damage from this character."
+        }
+    },
+    "the_sun_will_sunset": {
+        "title": {
+        "en": "THE SUN WILL SET"
+        },
+        "text": {
+        "en": "When this character is\nbanished, you may reveal the top card of your deck. Ifit's a character card, you may play that character for free and they enter play exerted.\nOtherwise, put it on the top of your deck."
+        }
+    },
+    "honor_to_the_ancestors": {
+        "title": {
+            "en": "HONOR TO THE ANCESTORS"
+        },
+        "text": {
+            "en": "Whenever this\ncharacter quests, you may reveal the top card of your deck. If it's a song card, you may play it for free. Otherwise, put it on the top of your deck."
+        }
+    },
+    "nursemaid": {
+        "title": {
+            "en": "NURSEMAID"
+        },
+        "text": {
+            "en": "Whenever you play a Floodborn character, you may remove all damage from chosen character."
+        }
+    },
+    "let_your_power_shine": {
+        "values": {
+            "damages": 1
+        },
+        "title": {
+            "en": "LET YOUR POWER SHINE"
+        },
+        "text": {
+            "en": "Whenever you remove {damages} or more damage from one of your characters, you may draw a card."
+        }
+    },
+    "magic_hair": {
+        "values": {
+            "damages": 2
+        },
+        "title": {
+            "en": "MAGIC HAIR"
+        },
+        "text": {
+            "en": "{flip} - Remove up to {damages} damage from chosen character."
+        }
+    },
+    "yawn": {
+        "title": {
+            "en": "YAWN!"
+        },
+        "text": {
+            "en": "This character enters play exerted."
+        }
+    },
+    "ah_choo": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "AH-CHOO!"
+        },
+        "text": {
+            "en": "Whenever you play this character or another Seven Dwarfs character, you may give chosen character -{count} {strength} this turn."
+        }
+    },
+    "wont_hurt_you": {
+        "values": {
+            "damages": 2
+        },
+        "title": {
+            "en": "WON'T HURT YOU"
+        },
+        "text": {
+            "en": "When you play this character, you may remove up to {damages} damage from chosen character."
+        }
+    },
+    "how_do_you_do": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "HOW DO YOU DO?"
+        },
+        "text": {
+            "en": "You pay {count} {ink} less to play Seven\nDwarfs characters."
+        }
+    },
+    "wishes_come_true": {
+        "title": {
+            "en": "WISHES COME TRUE"
+        },
+        "text": {
+            "en": "Whenever this character quests, you may return a character card from your discard to your hand."
+        }
+    },
+
+    "who_is_the_fairest": {
+        "values": {
+            "count": 4
+        },
+        "title": {
+            "en": "WHO IS THE FAIREST?"
+        },
+        "text": {
+            "en": "Whenever this character\nquests, chosen opposing character gets -{count} {strength} this turn and chosen character gets +{count} {strength} this turn."
+        }
+    },
+    "zero_to_hero": {
+        "title": {
+            "en": ""
+        },
+        "text": {
+            "en": "Count the number of characters you have in play. You pay that amount of {ink} less for the next character you play this turn."
+        }
+    },
+    "bring_back_to_life": {
+        "values": {
+            "count": 3
+        },
+        "title": {
+            "en": "BRING BACK TO LIFE"
+        },
+        "text": {
+            "en": "{flip}, {count} {ink} - Return a character card with Support from your discard to your hand."
+        }
+    },
+    "a_silly_song": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "A SILLY SONG"
+        },
+        "text": {
+            "en": "{flip} - If you played a song this turn, gain {count} lore."
+        }
+    },
+    "student": {
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "STUDENT"
+        },
+        "text": {
+            "en": "Whenever this character quests, you may return another chosen character of yours to your hand to gain {count} lore."
+        }
+    },
+    "ethereal_glow": {
+        "title": {
+            "en": "ETHEREAL GLOW"
+        },
+        "text": {
+            "en": "Whenever you play a Floodborn character, you may draw a card."
+        }
+    },
+    "forget_the_coach_heres_a_sword": {
+        "values": {
+            "count": 3
+        },
+        "title": {
+            "en": "FORGET THE COACH, HERE'S A SWORD"
+        },
+        "text": {
+            "en": "Whenever this character quests, your characters gain Challenger +{count} and\n\"When this character is banished in a challenge, return this card to your hand\" this turn. (They get +{count} {strength} while challenging.)"
+        }
+    },
+    "just_leave_it_to_me": {
+        "title": {
+            "en": "JUST LEAVE IT TO ME"
+        },
+        "text": {
+            "en": "Whenever you play a character named Cinderella, you may exert chosen character."
+        }
+    },
+    "hes_back": {
+        "title": {
+            "en": "HE'S BACK!"
+        },
+        "text": {
+            "en": "When this character is banished in a challenge, return this card to your hand."
+        }
+    },
+    "that_still_small_voice": {
+        "title": {
+            "en": "THAT STILL, SMALL VOICE"
+        },
+        "text": {
+            "en": "When you play this character, if you have a character named Pinocchio in play, you may draw a card."
+        }
+    },
+    "ok_where_am_i": {
+        "title": {
+            "en": "OK, WHERE AM I?"
+        },
+        "text": {
+            "en": "When this character is banished, you may draw a card."
+        }
+    },
+    "chasing_the_rabbit": {
+        "title": {
+            "en": "CHASING THE RABBIT"
+        },
+        "text": {
+            "en": "When you play this character, banish her or return another chosen character of yours to your hand."
+        }
+    },
+    "i_win_i_win": {
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "I WIN, I WIN!"
+        },
+        "text": {
+            "en": "When you play this character, banish her or return another {count} chosen characters of yours to your hand."
+        }
+    },
+    "gruesome_and_grim": {
+        "values": {
+            "cost": 4
+        },
+        "title": {
+            "en": "GRUESOME AND GRIM"
+        },
+        "text": {
+            "en": "{flip} - Play a character with\ncost {cost} or less for free. They gain Rush. At the end of the turn, banish them. (They can challenge the turn they're played.)"
+        }
+    },
+    "just_you_wait": {
+        "title": {
+            "en": "JUST YOU WAIT"
+        },
+        "text": {
+            "en": "When you play this character, banish her or return another chosen character of yours to your hand."
+        }
+    },
+    "ready_or_not": {
+        "values": {
+            "count": 3
+        },
+        "title": {
+            "en": "READY OR NOT!"
+        },
+        "text": {
+            "en": "When you play this character and when he leaves play, chosen character gains Challenger +{count} this turn. (They get +{count} {strength} while challenging.)"
+        }
+    },
+    "here_i_come": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "HERE I COME!"
+        },
+        "text": {
+            "en": "When you play this character and when he leaves play, gain {count} lore."
+        }
+    },
+    "hoppity_hip": {
+        "title": {
+            "en": "HOPPITY HIP!"
+        },
+        "text": {
+            "en": "When you play this character and\nwhen he leaves play, you may draw a card."
+        }
+    },
+    "battle_of_wits": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "BATTLE OF WITS"
+        },
+        "text": {
+            "en": "Whenever one of your other characters is returned to your hand from play, this character gets +{count} {lore} this turn."
+        }
+    },
+    "look_before_you_leap": {
+        "title": {
+            "en": "LOOK BEFORE YOU LEAP"
+        },
+        "text": {
+            "en": "When you play this character and when he leaves play, look at the top card of your deck. Put it on either the top or the bottom of your deck."
+        }
+    },
+    "tiptoe": {
+        "title": {
+            "en": "TIPTOE"
+        },
+        "text": {
+            "en": "Your other characters with Rush gain\nEvasive."
+        }
+    },
+    "listen_to_your_conscience": {
+        "values": {
+            "cost": 3
+        },
+        "title": {
+            "en": "LISTEN TO YOUR CONSCIENCE"
+        },
+        "text": {
+            "en": "When you play this character, you may return chosen character or item with cost {cost} or less to their player's hand."
+        }
+    },
+    "telling_lies": {
+        "title": {
+            "en": "TELLING LIES"
+        },
+        "text": {
+            "en": "When you play this character, you may exert chosen opposing character."
+        }
+    },
+    "cruel_irony": {
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "CRUEL IRONY"
+        },
+        "text": {
+            "en": "When you play this character, shuffle another chosen character card into their player's deck. That player draws {count} cards."
+        }
+    },
+
+
+
+
+
+    "ring_the_bell": {
+        "title": {
+            "en": ""
+        },
+        "text": {
+            "en": "Banish chosen damaged character."
+        }
+    },
+    "for_all_eternity": {
+        "title": {
+            "en": "FOR ALL ETERNITY"
+        },
+        "text": {
+            "en": "{flip}, {flip} one of your characters - Exert chosen character."
+        }
+    },
+    "hurtling_hedgehog": {
+        "title": {
+            "en": "HURTLING HEDGEHOG"
+        },
+        "text": {
+            "en": "Banish this item - Chosen character gains Rush this turn. (They can challenge the turn they're played.)"
+        }
+    },
+    "to_wonderland": {
+        "title": {
+            "en": "TO WONDERLAND"
+        },
+        "text": {
+            "en": "Banish this item - Return chosen character of yours to your hand."
+        }
+    },
+    "knowledge": {
+        "values": {
+            "cost": 1,
+            "count": 1
+        },
+        "title": {
+            "en": "KNOWLEDGE"
+        },
+        "text": {
+            "en": "{flip}, {cost} {ink} - Gain {count} {lore}"
+        }
+    },
+    "second_wind": {
+        "title": {
+            "en": "SECOND WIND"
+        },
+        "text": {
+            "en": "Whenever an opposing character is damaged, you may ready this character."
+        }
+    },
+    "use_your_imagination": {
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "USE YOUR IMAGINATION"
+        },
+        "text": {
+            "en": "While an opponent has no cards in their hand, this character gets +{count} {lore}."
+        }
+    },
+    "thorny_arrows": {
+        "title": {
+            "en": "THORNY ARROWS"
+        },
+        "text": {
+            "en": "Whenever this character is challenged, the challenging character's player discards all cards in their hand."
+        }
+    },
+    "squeak": {
+        "title": {
+            "en": "SQUEAK"
+        },
+        "text": {
+            "en": "Whenever you play a Floodborn character, each opponent chooses and discards a card."
+        }
+    },
+    "wicked_smile": {
+        "title": {
+            "en": "WICKED SMILE"
+        },
+        "text": {
+            "en": "{flip} - Banish chosen damaged character."
+        }
+    },
+    "thwart": {
+        "title": {
+            "en": "THWART"
+        },
+        "text": {
+            "en": "Whenever this character quests, each opponent chooses and discards a card."
+        }
+    },
+    "allow_me": {
+        "title": {
+            "en": "ALLOW ME"
+        },
+        "text": {
+            "en": "At the start of your turn, each player may draw a card."
+        }
+    },
+    "startled_awake": {
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "STARTLED AWAKE"
+        },
+        "text": {
+            "en": "Whenever you play an action,\nthis character gets +{count} {strength} this turn."
+        }
+    },
+    "youre_in_my_world": {
+        "title": {
+            "en": "YOU'RE IN MY WORLD"
+        },
+        "text": {
+            "en": "Whenever this character quests, chosen opposing character can't quest during their next turn."
+        }
+    },
+    "true_form": {
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "TRUE FORM"
+        },
+        "text": {
+            "en": "While being challenged, this character gets +{count} {strength}."
+        }
+    },
+    "one_last_big_score": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "ONE LAST, BIG SCORE"
+        },
+        "text": {
+            "en": "This character gets -{count} {lore} for each card in your opponents' hands."
+        }
+    },
+    "yes_im_intimidating": {
+        "values": {
+            "count": 3
+        },
+        "title": {
+            "en": "YES, I'M INTIMIDATING"
+        },
+        "text": {
+            "en": "While one or more\nopponents have no cards in their hands, this character gets +{count} {strength}."
+        }
+    },
+    "mouse_catcher": {
+        "values": {
+            "count": 1,
+            "cards": 2
+        },
+        "title": {
+            "en": "MOUSE CATCHER"
+        },
+        "text": {
+            "en": "When you play this character,\neach opponent chooses and discards either {cards} cards or {count} action card."
+        }
+    },
+    "coming_your_most_lugubriousness": {
+        "values": {
+            "count": 5,
+            "count2": 2
+        },
+        "title": {
+            "en": "COMING, YOUR MOST LUGUBRIOUSNESS"
+        },
+        "text": {
+            "en": "While this character has {count} {strength} or more, he gets +{count2} {lore}."
+        }
+    },
+    "i_can_handle_it": {
+        "values": {
+            "count": 2,
+            "count2": 4
+        },
+        "title": {
+            "en": "I CAN HANDLE IT"
+        },
+        "text": {
+            "en": "When you play this character, chosen character gets +{count} {strength} this turn. If the chosen character is named Pain, he gets +{count2} {strength} instead."
+        }
+    },
+    "take_that": {
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "TAKE THAT!"
+        },
+        "text": {
+            "en": "Whenever you play an action, this character gets +{count} {strength}} this turn."
+        }
+    },
+    "whos_next": {
+        "values": {
+            "count": 7,
+            "count2": 2
+        },
+        "title": {
+            "en": "WHO'S NEXT?"
+        },
+        "text": {
+            "en": "While this character has {count} {strength} or\nmore, he gets +{count2} {lore}."
+        }
+    },
+    "i_sentence_you": {
+        "values": {
+            "cards": 1
+        },
+        "title": {
+            "en": "I SENTENCE YOU"
+        },
+        "text": {
+            "en": "Whenever your opponent discards {cards} or more cards, you may draw a card for each card discarded."
+        }
+    },
+    "royal_rage": {
+        "values": {
+            "damages": 1
+        },
+        "title": {
+            "en": "ROYAL RAGE"
+        },
+        "text": {
+            "en": "When you play this character, deal {damages} damage to chosen damaged opposing character."
+        }
+    },
+    "a_perfect_disguise": {
+        "title": {
+            "en": "A PERFECT DISGUISE,"
+        },
+        "text": {
+            "en": "{flip} - Choose and discard a character card - Gain lore equal to the discarded character's {lore}."
+        }
+    },
+    "snap_boom_twang": {
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "SNAP! BOOM! TWANG!"
+        },
+        "text": {
+            "en": "Banish this item - Each opponent loses {count} {lore}."
+        }
+    },
+
+
+    "phooey": {
+        "values": {
+            "count": 1,
+            "damages": 1
+        },
+        "title": {
+            "en": "PHOOEY!"
+        },
+        "text": {
+            "en": "This character gets +{count} {lore} for each {damages} damage on him."
+        }
+    },
+    "easy_street": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "EASY STREET"
+        },
+        "text": {
+            "en": "Whenever you play a Floodborn\ncharacter, each opponent loses {count} {lore}."
+        }
+    },
+    "power_to_rule_at_last": {
+        "title": {
+            "en": "POWER TO RULE AT LAST"
+        },
+        "text": {
+            "en": "When you play this character, each opponent chooses and banishes one of their characters."
+        }
+    },
+    "not_for_you": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "NOT FOR YOU"
+        },
+        "text": {
+            "en": "When you play this character, each opponent with more lore than you loses {count} {lore}}."
+        }
+    },
+    "undersea_adventure": {
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "UNDERSEA ADVENTURE"
+        },
+        "text": {
+            "en": "Whenever you play a second action in a turn, this character gets +{count} {lore}} this turn."
+        }
+    },
+    "what_have_you_done": {
+        "values": {
+            "damages": 3
+        },
+        "title": {
+            "en": "WHAT HAVE YOU DONE?!"
+        },
+        "text": {
+            "en": "This character enters\nplay with {damages} damage."
+        }
+    },
+    "this_shouldnt_take_long": {
+        "title": {
+            "en": "THIS SHOULDN'T TAKE LONG"
+        },
+        "text": {
+            "en": "{flip}, Banish this character - Banish chosen character."
+        }
+    },
+    "let_the_game_begin": {
+        "title": {
+            "en": "LET THE GAME BEGIN"
+        },
+        "text": {
+            "en": "Whenever one of your\ncharacters challenges another character, you may draw a card."
+        }
+    },
+    "this_is_my_kingdom": {
+        "values": {
+            "count": 3
+        },
+        "title": {
+            "en": "THIS IS MY KINGDOM"
+        },
+        "text": {
+            "en": "When you play this character, exert chosen opposing character with {count} {strength} or less.\nChoose one of your characters and ready them. They can't quest for the rest of this turn."
+        }
+    },
+    "note_to_self_dont_die": {
+        "title": {
+            "en": "NOTE TO SELF, DON'T DIE"
+        },
+        "text": {
+            "en": "During your turn, whenever\nthis character banishes another character in a challenge, you may ready this character. She can't quest for the rest of this turn."
+        }
+    },
+    "champion_of_kumandra": {
+        "title": {
+            "en": "CHAMPION OF KUMANDRA"
+        },
+        "text": {
+            "en": "Whenever this character challenges a damaged character, she takes no damage from the challenge."
+        }
+    },
+    "daddy_isnt_here_to_save_you": {
+        "title": {
+            "en": "DADDY ISN'T HERE TO SAVE YOU"
+        },
+        "text": {
+            "en": "During your turn, whenever this character banishes another character in a challenge, you may ready this character. He can't quest for the rest of this turn."
+        }
+    },
+    "dont_insult_my_intelligence": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "DON'T INSULT MY INTELLIGENCE"
+        },
+        "text": {
+            "en": "Whenever one\nof your characters challenges another character, gain {count} {lore}."
+        }
+    },
+    "energetic": {
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "ENERGETIC"
+        },
+        "text": {
+            "en": "Whenever you play an action, this character gets +{count} {strength} this turn."
+        }
+    },
+    "go_the_distance": {
+        "text": {
+            "en": "Ready chosen damaged character of yours. They can't quest for the rest of this turn. Draw a card."
+        }
+    },
+    "teeth_and_ambitions": {
+        "values": {
+            "damages": 2
+        },
+        "title": {
+            "en": "TEETH AND AMBITIONS"
+        },
+        "text": {
+            "en": "Deal {damages} damage to chosen character of yours to deal {damages} damage to another chosen character."
+        }
+    },
+    "the_most_diabolical_scheme": {
+        "title": {
+            "en": "THE MOST DIABOLICAL SCHEME"
+        },
+        "text": {
+            "en": "Banish chosen Villain of yours to banish chosen character."
+        }
+    },
+    "what_did_you_call_me": {
+        "values": {
+            "count": 3
+        },
+        "title": {
+            "en": "WHAT DID YOU CALL ME?"
+        },
+        "text": {
+            "en": "Chosen damaged character gets +{count} {strength} this turn."
+        }
+    },
+    "you_can_fly": {
+        "title": {
+            "en": "YOU CAN FLY!"
+        },
+        "text": {
+            "en": "Chosen character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)"
+        }
+    },
+    "you_know_what_happens": {
+        "values": {
+            "cost": 2
+        },
+        "title": {
+            "en": "YOU KNOW WHAT HAPPENS"
+        },
+        "text": {
+            "en": "{flip}, {cost} {ink} - Draw cards equal to the damage on chosen character of yours, then banish them."
+        }
+    },
+    "peter_pans_dagger": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "PETER PAN'S DAGGER"
+        },
+        "text": {
+            "en": "Your characters with Evasive get +{count} {strength}."
+        }
+    },
+    "sword_in_the_stone": {
+        "values": {
+            "cost": 2,
+            "count": 1,
+            "damages": 1
+        },
+        "title": {
+            "en": "SWORD IN THE STONE"
+        },
+        "text": {
+            "en": "{flip}, {cost} {ink} - Chosen character gets +{count} {strength}} this turn for each {damages} damage on them."
+        }
+    },
+
+
+    "good_advice": {
+        "title": {
+            "en": "GOOD ADVICE"
+        },
+        "text": {
+            "en": "Your other characters gain\nSupport. (Whenever they quest, you may add their © to another chosen character's O this turn.)"
+        }
+    },
+    "what_did_i_do": {
+        "values": {
+            "count": 10,
+            "count2": 4
+        },
+        "title": {
+            "en": "WHAT DID I DO?"
+        },
+        "text": {
+            "en": "While this character has {count} or more, she gets +{count2} (strength}."
+        }
+    },
+    "theres_always_a_chance": {
+        "title": {
+            "en": "THERE'S ALWAYS A CHANCE"
+        },
+        "text": {
+            "en": "If you used Shift to play this character, you may draw 2 cards when he enters play."
+        }
+    },
+    "unwind": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "UNWIND"
+        },
+        "text": {
+            "en": "Your other characters gain Resist +{count} (Damage dealt to them is reduced by {count}.)"
+        }
+    },
+    "wait_a_minute": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "WAIT A MINUTE"
+        },
+        "text": {
+            "en": "Your characters with Reckless gain \"{flip}- Gain {count} {lore}.\""
+        }
+    },
+    "now_get_going": {
+        "title": {
+            "en": "NOW GET GOING"
+        },
+        "text": {
+            "en": "During your turn, this character gains Evasive. (They can challenge characters with Evasive.)"
+        }
+    },
+    "oh_no_you_dont": {
+        "values": {
+            "count": 2
+        },
+        "title": {
+            "en": "OH, NO YOU DON'T"
+        },
+        "text": {
+            "en": "Whenever this character quests, chosen opposing character gets -{count} {strength} this turn."
+        }
+    },
+    "developed_brain": {
+        "values": {
+            "cards": 3
+        },
+        "title": {
+            "en": "DEVELOPED BRAIN"
+        },
+        "text": {
+            "en": "When you play this character, look at the top {cards} cards of your deck. You may put one into your hand. Put the rest on the bottom of your deck in any order."
+        }
+    },
+    "ancient_insight": {
+        "values": {
+            "count": 2,
+            "damages": 1
+        },
+        "title": {
+            "en": "ANCIENT INSIGHT"
+        },
+        "text": {
+            "en": "Whenever you remove {damages} or\nmore damage from one of your characters, gain\n{count} {lore}."
+        }
+    },
+    "artificer": {
+        "values": {
+            "cards": 2
+        },
+        "title": {
+            "en": "ARTIFICER"
+        },
+        "text": {
+            "en": "When you play this character and\nwhenever he quests, you may banish one of your items to draw {cards} cards."
+        }
+    },
+    "never_ever_lose_sight": {
+        "title": {
+            "en": "NEVER, EVER LOSE SIGHT"
+        },
+        "text": {
+            "en": "When this character is banished, you may put this card into your inkwell facedown and exerted."
+        }
+    },
+    "im_a_fast_learner": {
+        "values": {
+            "damages": 1
+        },
+        "title": {
+            "en": "I'M A FAST LEARNER"
+        },
+        "text": {
+            "en": "When you play this character, remove up to {damages} damage from chosen character of yours."
+        }
+    },
+    "dont_call_me_cute": {
+        "title": {
+            "en": "DON'T CALL ME CUTE"
+        },
+        "text": {
+            "en": "When you play this\ncharacter, you may banish chosen item. Its player draws a card."
+        }
+    },
+    "tidy_up": {
+        "title": {
+            "en": "TIDY UP"
+        },
+        "text": {
+            "en": "Whenever you play a Floodborn\ncharacter, you may put the top card of your deck into your inkwell facedown and exerted."
+        }
+    },
+    "its_called_a_hustle": {
+        "title": {
+            "en": "IT'S CALLED A HUSTLE"
+        },
+        "text": {
+            "en": "When you play this character, you may return an item card named Pawpsicle from your discard to your hand."
+        }
+    },
+    "hide_and_seek": {
+        "values": {
+            "damages": 1
+        },
+        "title": {
+            "en": "HIDE AND SEEK"
+        },
+        "text": {
+            "en": "While you have an item in play, this character gains Resist +{damages} and Ward. (Damage dealt to this character is reduced by {damages}. Opponents can't choose this character except to challenge.)"
+        }
+    },
+    "i_trust_you": {
+        "values": {
+            "cards": 2
+        },
+        "title": {
+            "en": "I TRUST YOU"
+        },
+        "text": {
+            "en": "Whenever this character quests, look at the top {cards} cards of your deck. You may put one into your hand. Put the rest on the bottom of your deck in any order."
+        }
+    },
+    "hunny_pot": {
+        "title": {
+            "en": "HUNNY POT"
+        },
+        "text": {
+            "en": "Whenever this character quests, you may put a card from your hand into your inkwell facedown."
+        }
+    },
+    "falling_down_the_rabbit_hole": {
+        "title": {
+            "en": "FALLING DOWN THE RABBIT HOLE"
+        },
+        "text": {
+            "en": "Each player chooses one of their characters and puts them into their inkwell facedown and exerted."
+        }
+    },
+    "four_dozen_eggs": {
+        "values": {
+            "damages": 2
+        },
+        "title": {
+            "en": "FOUR DOZEN EGGS"
+        },
+        "text": {
+            "en": "Your characters gain Resist +{damages} until the start of your next turn. (Damage dealt to them is reduced by {damages}.)"
+        }
+    },
+    "launch": {
+        "values": {
+            "damages": 5
+        },
+        "title": {
+            "en": "LAUNCH"
+        },
+        "text": {
+            "en": "Banish chosen item of yours to deal {damages} damage to chosen character."
+        }
+    },
+    "nothing_to_hide": {
+        "title": {
+            "en": "NOTHING TO HIDE"
+        },
+        "text": {
+            "en": "Each opponent reveals their hand. Draw a card."
+        }
+    },
+    "carefulaim": {
+        "values": {
+            "cost": 2,
+            "count": 2
+        },
+        "title": {
+            "en": "CAREFULAIM"
+        },
+        "text": {
+            "en": "{flip}, {cost} {ink} - Chosen character gets -{count} {strength} this turn."
+        }
+    },
+    "stay_back": {
+        "title": {
+            "en": "STAY BACK!"
+        },
+        "text": {
+            "en": "{flip}, Banish this item - Banish chosen\nDragon character."
+        }
+    },
+    "the_best_ive_ever_tasted": {
+        "values": {
+            "count": 2,
+            "damages": 1
+        },
+        "title": {
+            "en": "THE BEST I'VE EVER TASTED"
+        },
+        "text": {
+            "en": "{flip} - Remove {damages} damage each from up to {count} chosen characters."
+        }
+    },
+    "looking_for_this": {
+        "values": {
+            "cost": 1
+        },
+        "title": {
+            "en": "LOOKING FOR THIS?"
+        },
+        "text": {
+            "en": "Whenever you play another item, you may pay {cost}} {ink} to draw a card."
+        }
+    },
+    "jumbo_pop": {
+        "title": {
+            "en": "JUMBO POP"
+        },
+        "text": {
+            "en": "When you play this item, you may draw a card."
+        }
+    },
+    "thats_redwood": {
+        "values": {
+            "damages": 2
+        },
+        "title": {
+            "en": "THAT'S REDWOOD"
+        },
+        "text": {
+            "en": "Banish this item - Remove up to {damages} damage\nfrom chosen character."
+        }
+    },
+    "flight_cabin": {
+        "title": {
+            "en": "FLIGHT CABIN"
+        },
+        "text": {
+            "en": "Your exerted characters gain Ward.\n(Opponents can't choose them except to challenge.)"
+        }
+    },
+
+    "youre_not_welcome_here": {
+        "values": {
+            "damages": 1
+        },
+        "title": {
+            "en": "YOU'RE NOT WELCOME HERE"
+        },
+        "text": {
+            "en": "When you play this character, you may deal {damages} damage to chosen character."
+        }
+    },
+    "shield_another": {
+        "title": {
+            "en": "SHIELD ANOTHER"
+        },
+        "text": {
+            "en": "Whenever one of your other characters would be dealt damage, put that many damage counters on this character instead."
+        }
+    },
+    "its_better_this_way": {
+        "values": {
+            "count": 4
+        },
+        "title": {
+            "en": "IT'S BETTER THIS WAY"
+        },
+        "text": {
+            "en": "At the start of your turn, if this character has no damage, draw a card. Otherwise, he gets +{count} {strength} this turn."
+        }
+    },
+    "we_have_a_choice": {
+        "title": {
+            "en": "WE HAVE A CHOICE"
+        },
+        "text": {
+            "en": "When you play this character, you may banish chosen item."
+        }
+    },
+    "insubordination": {
+        "values": {
+            "damages": 1
+        },
+        "title": {
+            "en": "INSUBORDINATION!"
+        },
+        "text": {
+            "en": "Whenever you play a Floodborn character, deal {damages} damage to each opposing character."
+        }
+    },
+    "have_courage": {
+        "title": {
+            "en": "HAVE COURAGE"
+        },
+        "text": {
+            "en": "When you play this character, you may draw a card, then choose and discard a card."
+        }
+    },
+    "the_singing_sword": {
+        "title": {
+            "en": "THE SINGING SWORD"
+        },
+        "text": {
+            "en": "Whenever you play a song, this character may challenge ready characters this turn."
+        }
+    },
+    "now_where_were_we": {
+        "title": {
+            "en": "NOW WHERE WERE WE?"
+        },
+        "text": {
+            "en": "During your turn,\nwhenever this character banishes another character in a challenge, you may draw a card."
+        }
+    },
+    "i_dont_trust_him_sire": {
+        "title": {
+            "en": "I DON'T TRUST HIM, SIRE"
+        },
+        "text": {
+            "en": "During your turn, this character gains Evasive. (They can challenge characters with Evasive.)"
+        }
+    },
+    "scout_leader": {
+        "values": {
+            "damages": 2
+        },
+        "title": {
+            "en": "SCOUT LEADER"
+        },
+        "text": {
+            "en": "During your turn, whenever this character banishes another character in a challenge, you may deal {damages} damage to chosen character."
+        }
+    },
+    "payback": {
+        "values": {
+            "count": 4
+        },
+        "title": {
+            "en": "PAYBACK"
+        },
+        "text": {
+            "en": "While this character has no damage, he gets +{count} {strength}"
+        }
+    },
+    "archery_lesson": {
+        "title": {
+            "en": "ARCHERY LESSON"
+        },
+        "text": {
+            "en": "Whenever this character quests, your characters gain Evasive this turn.\n(They can challenge characters with Evasive.)"
+        }
+    },
+    "make_it_shine": {
+        "values": {
+            "damages": 1
+        },
+        "title": {
+            "en": "MAKE IT SHINE"
+        },
+        "text": {
+            "en": "When you play this character, chosen character gains Resist +{damages} until the start of your next turn. (Damage dealt to them is reduced by {damages}.)"
+        }
+    },
+    "blades": {
+        "title": {
+            "en": "BLADES"
+        },
+        "text": {
+            "en": "This character can challenge ready characters."
+        }
+    },
+    "off_with_their_heads": {
+        "title": {
+            "en": "OFF WITH THEIR HEADS!"
+        },
+        "text": {
+            "en": "Whenever an opposing character is banished, you may ready this character."
+        }
+    },
+    "skirmish": {
+        "values": {
+            "damages": 1
+        },
+        "title": {
+            "en": "SKIRMISH"
+        },
+        "text": {
+            "en": "{flip} - Deal {damages} damage to chosen\nSKIRMISH character."
+        }
+    },
+    "change_of_heart": {
+        "title": {
+            "en": "CHANGE OF HEART"
+        },
+        "text": {
+            "en": "Whenever this character\nquests, you may draw a card, then choose and discard a card."
+        }
+    },
+    "what_you_give_is_what_you_get": {
+        "title": {
+            "en": "WHAT YOU GIVE IS WHAT YOU GET"
+        },
+        "text": {
+            "en": "While this\ncharacter is exerted and you have no cards in your hand, opponents can't play actions."
+        }
+    },
+    "charge": {
+        "title": {
+            "en": "CHARGE!"
+        },
+        "text": {
+            "en": "Chosen character gains Challenger +{damages} and Resist +{damages} this turn. (They get +{damages} {strength} while challenging. Damage dealt to them is reduced by {damages}.)"
+        }
+    },
+    "let_the_storm_rage_on": {
+        "values": {
+            "damages": 2
+        },
+        "title": {
+            "en": "LET THE STORM RAGE ON"
+        },
+        "text": {
+            "en": "Deal {damages} damage to chosen character. Draw a card."
+        }
+    },
+    "pick_a_fight": {
+        "title": {
+            "en": "PICK A FIGHT"
+        },
+        "text": {
+            "en": "Chosen character can challenge ready characters this turn."
+        }
+    },
+    "strength_of_a_raging_fire": {
+        "title": {
+            "en": "STRENGTH OF A RAGING FIRE"
+        },
+        "text": {
+            "en": "Deal damage to chosen character equal to the number of characters you have in play."
+        }
+    },
+    "arm_yourself": {
+        "values": {
+            "cost": 1,
+            "count": 3
+        },
+        "title": {
+            "en": "ARM YOURSELF"
+        },
+        "text": {
+            "en": "{cost} {ink}, Banish this item - Chosen character gains Challenger +{count} this turn. (They get +{count} {strength} while challenging.)"
+        }
+    },
+    "protection": {
+        "values": {
+            "count": 1
+        },
+        "title": {
+            "en": "PROTECTION"
+        },
+        "text": {
+            "en": "{flip} - Chosen character gains Resist +{count} until the start of your next turn. (Damage dealt to them is reduced by {count}.)"
+        }
+    },
+    "training": {
+        "values": {
+            "cost": 1,
+            "count": 4
+        },
+        "title": {
+            "en": "TRAINING"
+        },
+        "text": {
+            "en": "Whenever you play a character with {count} {strength} or more, you may pay {cost} {ink} to draw a card."
         }
     },
     "name": {
