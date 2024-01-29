@@ -1,6 +1,11 @@
 {
     "voiceless": {
         "logic": "no_song",
+        "text": {
+            "en": "This character can't {flip} to sing songs.",
+            "fr": "Ce personnage ne peut pas être {flip} pour chanter des chansons.",
+            "de": "Dieser Charakter kann nicht {flip}, um Lieder zu singen."
+        }
     },
     "singer": {
         "logic": "cost_to_sing",
