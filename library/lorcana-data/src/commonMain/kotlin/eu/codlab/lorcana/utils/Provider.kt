@@ -5,7 +5,7 @@ import kotlinx.serialization.json.Json
 import net.mamoe.yamlkt.Yaml
 
 object Provider {
-    val client = createClient { }
+    internal val client = createClient { }
 
     val json = Json
 

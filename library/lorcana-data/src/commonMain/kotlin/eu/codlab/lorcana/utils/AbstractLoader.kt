@@ -7,7 +7,6 @@ import kotlinx.serialization.KSerializer
 import kotlinx.serialization.StringFormat
 
 open class AbstractLoader<T>(
-    private val stringFormat: StringFormat,
     private val fileResource: FileResource,
     private val file: String,
     private val serializer: KSerializer<T>
@@ -17,11 +16,15 @@ open class AbstractLoader<T>(
         return fileResource.safelyReadContent()
     }
 
-    suspend fun loadFromGithub(tag: String = "main"): T {
-        return stringFormat.decodeFromString(serializer, dataFileContent(tag, file))
+    suspend fun loadFromGithub(tag: String = "main", decoder: StringFormat = Provider.json): T {
+        return decoder.decodeFromString(serializer, dataFileContent(tag, file))
     }
 
-    suspend fun loadFromResource(): T {
-        return stringFormat.decodeFromString(serializer, getStringList())
+    suspend fun loadFromResource(decoder: StringFormat = Provider.json): T {
+        return decoder.decodeFromString(serializer, getStringList())
+    }
+
+    fun to(values: T, encoder: StringFormat = Provider.json): String {
+        return encoder.encodeToString(serializer, values)
     }
 }

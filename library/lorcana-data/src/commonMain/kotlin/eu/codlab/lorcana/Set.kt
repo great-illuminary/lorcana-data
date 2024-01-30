@@ -4,6 +4,7 @@ import dev.icerock.moko.resources.FileResource
 import eu.codlab.lorcana.resources.Resources
 import eu.codlab.lorcana.utils.AbstractLoader
 import eu.codlab.lorcana.utils.Provider
+import kotlinx.serialization.StringFormat
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.serializer
 
@@ -13,7 +14,6 @@ enum class Set(private val fileResource: FileResource, private val fileName: Str
     ROTF(Resources.files.rotf_json, "rotf_json");
 
     private val loader = AbstractLoader(
-        Provider.json,
         fileResource,
         fileName,
         ListSerializer(RawCard.serializer(String.serializer(), String.serializer()))
@@ -25,5 +25,9 @@ enum class Set(private val fileResource: FileResource, private val fileName: Str
 
     suspend fun loadFromResource(): List<RawCard> {
         return loader.loadFromResource()
+    }
+
+    fun to(values: List<RawCard>, encoder: StringFormat = Provider.json): String {
+        return loader.to(values, encoder)
     }
 }

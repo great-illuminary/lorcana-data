@@ -2,6 +2,9 @@ package eu.codlab.lorcana
 
 import eu.codlab.lorcana.abilities.Ability
 import eu.codlab.lorcana.franchises.Franchise
+import eu.codlab.lorcana.utils.Provider
+import kotlinx.serialization.StringFormat
+import kotlinx.serialization.builtins.ListSerializer
 
 class CompiledSet(
     private val abilities: Map<String, Ability>,
@@ -38,5 +41,10 @@ class CompiledSet(
     suspend fun loadFromResource(): List<Card> {
         val cards = set.loadFromResource()
         return cards.map { mapCard(it) }
+    }
+
+    fun to(values: List<Card>, encoder: StringFormat = Provider.json): String {
+        val serializer = Card.serializer(Ability.serializer(), Franchise.serializer())
+        return encoder.encodeToString(ListSerializer(serializer), values)
     }
 }
