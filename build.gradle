@@ -6,10 +6,12 @@ buildscript {
         classpath dolbyio.nexus.gradlePlugin
         classpath dolbyio.sonarqube.gradlePlugin
         classpath dolbyio.license.gradlePlugin
+        classpath dolbyio.dokka.gradlePlugin
     }
 }
 
 plugins {
+    alias(dolbyio.plugins.dokka)
     alias(dolbyio.plugins.publish.nexus)
     alias(dolbyio.plugins.kotlin.multiplatform) apply false
     alias(dolbyio.plugins.android.library) apply false
@@ -48,5 +50,17 @@ nexusPublishing {
             username = getExtraString("sonatypeUsername") ?: ""
             password = getExtraString("sonatypePassword") ?: ""
         }
+    }
+}
+
+tasks.register("quality") { qualityTask ->
+    group = "verification"
+
+    subprojects.each { project ->
+        def tasks = ["ktlint", "detekt"].collect {
+            project.tasks.named(it)
+        }.findAll { it != null }
+
+        qualityTask.dependsOn(tasks)
     }
 }

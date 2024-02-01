@@ -12,16 +12,12 @@ open class AbstractLoader<T>(
     private val serializer: KSerializer<T>
 ) {
 
-    private suspend fun getStringList(): String {
-        return fileResource.safelyReadContent()
-    }
-
     suspend fun loadFromGithub(tag: String = "main", decoder: StringFormat = Provider.json): T {
         return decoder.decodeFromString(serializer, dataFileContent(tag, file))
     }
 
     suspend fun loadFromResource(decoder: StringFormat = Provider.json): T {
-        return decoder.decodeFromString(serializer, getStringList())
+        return decoder.decodeFromString(serializer, fileResource.safelyReadContent())
     }
 
     fun to(values: T, encoder: StringFormat = Provider.json): String {
