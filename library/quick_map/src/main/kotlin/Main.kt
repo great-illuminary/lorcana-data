@@ -4,6 +4,7 @@ import eu.codlab.lorcana.Franchises
 import eu.codlab.lorcana.GenericCard
 import eu.codlab.lorcana.Placeholders
 import eu.codlab.lorcana.Set
+import eu.codlab.lorcana.utils.Provider
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.serializer
@@ -19,9 +20,6 @@ import net.mamoe.yamlkt.Yaml
  */
 fun main() {
     runBlocking {
-        val encoder = Yaml {
-            encodeDefaultValues = false
-        }
 
         val file = VirtualFile.Root
         val yamls = VirtualFile(file, "../../data")
@@ -33,8 +31,13 @@ fun main() {
             "placeholders_yaml.yml" to Placeholders.loadFromResource()
         ).forEach { (file, content) ->
             val vfile = VirtualFile(yamls, file)
-            vfile.write(encoder.encodeToString(content).toByteArray())
+            vfile.write(Provider.yaml.encodeToString(content).toByteArray())
+
         }
+
+        val abilities = Abilities.loadFromResource(Provider.json)
+        println(abilities)
+
 
         val serializer =
             ListSerializer(GenericCard.serializer(String.serializer(), String.serializer()))
@@ -44,7 +47,7 @@ fun main() {
             Triple("tfc_yaml.yml", Set.TFC.loadFromResource(), serializer)
         ).forEach { (file, content, serializer) ->
             val vfile = VirtualFile(yamls, file)
-            vfile.write(encoder.encodeToString(serializer, content).toByteArray())
+            vfile.write(Provider.yaml.encodeToString(serializer, content).toByteArray())
         }
     }
 }

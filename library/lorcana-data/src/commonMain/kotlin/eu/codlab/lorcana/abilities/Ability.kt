@@ -9,18 +9,4 @@ data class Ability(
     val title: TranslationHolder? = null,
     val text: TranslationHolder? = null,
     val reference: String? = null
-) {
-    constructor(
-        logic: String? = null, // unused for now, provided for future versions
-        values: AbilityValues? = null,
-        title: String,
-        text: String,
-        reference: String? = null
-    ) : this(
-        logic,
-        values,
-        TranslationHolder(en = title),
-        TranslationHolder(en = text),
-        reference
-    )
-}
+)

@@ -43,7 +43,7 @@ class CompiledSet(
         return cards.map { mapCard(it) }
     }
 
-    fun to(values: List<Card>, encoder: StringFormat = Provider.json): String {
+    fun to(values: List<Card>, encoder: StringFormat = Provider.yaml): String {
         val serializer = Card.serializer(Ability.serializer(), Franchise.serializer())
         return encoder.encodeToString(ListSerializer(serializer), values)
     }

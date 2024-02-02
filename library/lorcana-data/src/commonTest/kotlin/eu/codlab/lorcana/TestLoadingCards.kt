@@ -2,11 +2,13 @@ package eu.codlab.lorcana
 
 import eu.codlab.files.VirtualFile
 import eu.codlab.lorcana.resources.Resources
+import eu.codlab.lorcana.utils.Provider
 import eu.codlab.moko.ext.safelyReadContent
 import eu.codlab.platform.Platform
 import eu.codlab.platform.currentPlatform
 import kotlinx.coroutines.test.runTest
-import kotlinx.serialization.json.Json
+import kotlinx.serialization.builtins.ListSerializer
+import kotlinx.serialization.builtins.serializer
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -20,13 +22,16 @@ class TestLoadingCards {
         }
 
         listOf(
-            "d23_json" to 24,
-            "tfc_json" to 216,
-            "rotf_json" to 216
+            "d23_yaml" to 24,
+            "tfc_yaml" to 216,
+            "rotf_yaml" to 216
         ).forEach { set ->
             val (name, count) = set
-            val file = VirtualFile(VirtualFile.Root, "../../data/$name.json")
-            val cards: List<RawCard> = Json.decodeFromString(file.readString())
+            val file = VirtualFile(VirtualFile.Root, "../../data/$name.yml")
+            val cards: List<RawCard> = Provider.yaml.decodeFromString(
+                ListSerializer(RawCard.serializer(String.serializer(), String.serializer())),
+                file.readString()
+            )
 
             assertTrue(file.exists())
             assertEquals(count, cards.size)
@@ -41,13 +46,16 @@ class TestLoadingCards {
         }
 
         listOf(
-            Resources.files.d23_json to 24,
-            Resources.files.tfc_json to 216,
-            Resources.files.rotf_json to 216
+            Resources.files.d23_yaml to 24,
+            Resources.files.tfc_yaml to 216,
+            Resources.files.rotf_yaml to 216
         ).forEach { set ->
             val (file, count) = set
             val content = file.safelyReadContent()
-            val cards: List<RawCard> = Json.decodeFromString(content)
+            val cards: List<RawCard> = Provider.yaml.decodeFromString(
+                ListSerializer(RawCard.serializer(String.serializer(), String.serializer())),
+                content
+            )
 
             assertEquals(count, cards.size)
         }

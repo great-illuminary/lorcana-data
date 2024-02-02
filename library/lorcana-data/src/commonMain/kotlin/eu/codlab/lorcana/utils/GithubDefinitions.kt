@@ -7,7 +7,7 @@ import korlibs.io.lang.FileNotFoundException
 
 internal object GithubDefinitions {
     suspend fun dataFileContent(version: String, file: String): String {
-        val url = "https://raw.githubusercontent.com/codlab/lorcana-data/$version/data/$file.json"
+        val url = "https://raw.githubusercontent.com/codlab/lorcana-data/$version/data/$file.yml"
         val request = Provider.client.get(url)
 
         if (!request.status.isSuccess()) {

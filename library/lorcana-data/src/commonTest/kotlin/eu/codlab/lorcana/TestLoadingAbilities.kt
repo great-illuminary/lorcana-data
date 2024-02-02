@@ -5,6 +5,7 @@ import eu.codlab.platform.currentPlatform
 import kotlinx.coroutines.test.runTest
 import kotlin.test.Test
 import kotlin.test.assertNotNull
+import kotlin.test.assertNull
 import kotlin.test.assertTrue
 
 class TestLoadingAbilities {
