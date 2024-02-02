@@ -63,8 +63,8 @@ enum class Edition {
     @SerialName("enchanted")
     Enchanted,
 
-    @SerialName("d23")
-    D23,
+    @SerialName("promos")
+    PROMOS,
 
     @SerialName("gencon23")
     Gencon23,

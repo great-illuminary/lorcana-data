@@ -6,7 +6,7 @@ import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
 
 object Placeholders : AbstractLoader<Map<String, String>>(
-    Resources.files.placeholders_yaml,
-    "placeholders_yaml",
+    Resources.files.placeholders,
+    "placeholders",
     MapSerializer(String.serializer(), String.serializer())
 )

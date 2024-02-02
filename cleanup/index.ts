@@ -66,7 +66,7 @@ function mapCard(card: any) {
         card.setCode = (() => {
             switch(card.card_set_id) {
                 case 2: return "tfc";
-                case 1: return "d23";
+                case 1: return "promos";
                 default: return "rotf"
             }
         })();
@@ -157,5 +157,5 @@ function check(set: string, content: string) {
 
 
 // TODO redefine here :
-// [ "d23", "tfc" ].map( key => cleanUp(key, fs.readFileSync(`../raw/${key}.json`, "utf-8")));
+// [ "promos", "tfc" ].map( key => cleanUp(key, fs.readFileSync(`../raw/${key}.json`, "utf-8")));
 // [ "tfc" ].map( key => check(key, fs.readFileSync(`../sets/${key}.json`, "utf-8")));

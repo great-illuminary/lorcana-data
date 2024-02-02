@@ -7,8 +7,9 @@ import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 
 enum class SetLegacy(private val set: Set) {
-    D23(Set.D23),
-    TFC(Set.TFC);
+    PROMOS(Set.PROMOS),
+    TFC(Set.TFC),
+    ROTF(Set.ROTF);
 
     @OptIn(DelicateCoroutinesApi::class, KorioExperimentalApi::class)
     suspend fun loadFromGithub(tag: String = "main"): Promise<List<RawCard>> {

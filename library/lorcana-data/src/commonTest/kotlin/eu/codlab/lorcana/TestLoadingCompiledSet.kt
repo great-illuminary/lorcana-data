@@ -62,7 +62,7 @@ class TestLoadingCompiledSet {
 
     private suspend fun runTestList(provider: suspend (set: Set) -> List<RawCard>) {
         listOf(
-            Set.D23 to 24,
+            Set.PROMOS to 28,
             Set.TFC to 216,
             Set.ROTF to 216
         ).forEach { pair ->

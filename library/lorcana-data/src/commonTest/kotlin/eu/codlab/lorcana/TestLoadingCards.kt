@@ -22,9 +22,9 @@ class TestLoadingCards {
         }
 
         listOf(
-            "d23_yaml" to 24,
-            "tfc_yaml" to 216,
-            "rotf_yaml" to 216
+            "promos" to 28,
+            "tfc" to 216,
+            "rotf" to 216
         ).forEach { set ->
             val (name, count) = set
             val file = VirtualFile(VirtualFile.Root, "../../data/$name.yml")
@@ -46,9 +46,9 @@ class TestLoadingCards {
         }
 
         listOf(
-            Resources.files.d23_yaml to 24,
-            Resources.files.tfc_yaml to 216,
-            Resources.files.rotf_yaml to 216
+            Resources.files.promos to 28,
+            Resources.files.tfc to 216,
+            Resources.files.rotf to 216
         ).forEach { set ->
             val (file, count) = set
             val content = file.safelyReadContent()

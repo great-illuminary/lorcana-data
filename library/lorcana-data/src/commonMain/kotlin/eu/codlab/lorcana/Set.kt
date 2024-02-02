@@ -9,9 +9,9 @@ import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.serializer
 
 enum class Set(private val fileResource: FileResource, private val fileName: String) {
-    D23(Resources.files.d23_yaml, "d23_yaml"),
-    TFC(Resources.files.tfc_yaml, "tfc_yaml"),
-    ROTF(Resources.files.rotf_yaml, "rotf_yaml");
+    PROMOS(Resources.files.promos, "promos"),
+    TFC(Resources.files.tfc, "tfc"),
+    ROTF(Resources.files.rotf, "rotf");
 
     private val loader = AbstractLoader(
         fileResource,
