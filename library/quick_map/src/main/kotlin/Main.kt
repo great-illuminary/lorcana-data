@@ -8,7 +8,6 @@ import eu.codlab.lorcana.utils.Provider
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.serializer
-import net.mamoe.yamlkt.Yaml
 
 /**
  * Prepare the possible future of the predefined data
@@ -20,7 +19,6 @@ import net.mamoe.yamlkt.Yaml
  */
 fun main() {
     runBlocking {
-
         val file = VirtualFile.Root
         val yamls = VirtualFile(file, "../../data")
         yamls.mkdirs()
@@ -32,12 +30,7 @@ fun main() {
         ).forEach { (file, content) ->
             val vfile = VirtualFile(yamls, file)
             vfile.write(Provider.yaml.encodeToString(content).toByteArray())
-
         }
-
-        val abilities = Abilities.loadFromResource(Provider.json)
-        println(abilities)
-
 
         val serializer =
             ListSerializer(GenericCard.serializer(String.serializer(), String.serializer()))
