@@ -1,1512 +1,1457 @@
-- cost: 4
+- sets:
+    rotf:
+      - id: 1
+        rarity: uncommon
+  cost: 4
   inkwell: true
   attack: 2
   defence: 5
   type: glimmer
   illustrator: Kendall Hale
-  number: 1
-  rarity: uncommon
   languages: 
     en: 
       name: Bashful
       title: Hopeless Romantic
       flavour: Life is sweeter with friends.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/1.webp'
     fr: 
       name: TIMIDE
       title: Grand sentimental
       flavour: La vie est plus douce quand on a des amis.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/1.webp'
   edition: 
     - regular
     - foil
   actions: 
     - oh_gosh
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 2
+        rarity: rare
+  cost: 6
   inkwell: true
   attack: 2
   defence: 6
   type: glimmer
   illustrator: Eri Welli
-  number: 2
-  rarity: rare
   languages: 
     en: 
       name: Christopher Robin
       title: Adventurer
       flavour: "\\u201cLook, Pooh! Have you ever seen anything so grand?\\u201d \n\\u2212Christopher Robin"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/2.webp'
     fr: 
       name: 'Jean-Christophe'
       title: Aventurier
       flavour: "\"Regarde, Winnie ! As-tu d\\u00e9j\\u00e0 vu quelque chose d'aussi magnifique ?\"\n\\u2212 Jean-Christophe"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/2.webp'
   edition: 
     - regular
     - foil
   actions: 
     - we_will_always_be_together
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 3
+        rarity: rare
+      - id: 205
+        rarity: enchanted
+  cost: 1
   inkwell: true
   attack: 1
   defence: 2
   type: glimmer
   illustrator: Casey Robin
-  number: 3
-  rarity: rare
   languages: 
     en: 
       name: Cinderella
       title: Ballroom Sensation
       flavour: With a magical dress and a song in her heart, she dazzled everyone at the ball.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/3.webp'
     fr: 
       name: Cendrillon
       title: Fait sensation au bal
       flavour: Avec une robe magique et une chanson dans le coeur, elle a \u00e9bloui tout le monde au bal.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/3.webp'
   edition: 
     - regular
     - foil
   actions: 
     - singer_3
-  set_code: rotf
   franchise_id: unknown
-- cost: 7
+- sets:
+    rotf:
+      - id: 7
+        rarity: rare
+  cost: 7
   inkwell: true
   attack: 5
   defence: 9
   type: glimmer
   illustrator: Jake Parker
-  number: 4
-  rarity: rare
   languages: 
     en: 
       name: Cobra Bubbles
       title: Simple Educator
       flavour: 'So if I understand correctly, your \u201cmagic\u201d grimoire was washed away by a flood of \u201cmagic\u201d ink?'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/4.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/4.webp'
     fr: 
       name: Cobra Bubbles
       title: Simple \u00e9ducateur
       flavour: "\"Donc si je comprends bien, votre grimoire \"magique\" a \\u00e9t\\u00e9 emport\\u00e9 par une inondation d'encre \"magique\" ?"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/4.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 5
+        rarity: uncommon
+  cost: 3
   inkwell: true
   attack: 2
   defence: 3
   type: glimmer
   illustrator: Kendall Hale
-  number: 5
-  rarity: uncommon
   languages: 
     en: 
       name: Doc
       title: Leader of the Seven Dwarfs
       flavour: He\u2019s in charge of this outfit.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/5.webp'
     fr: 
       name: Prof
       title: Chef des Sept Nains
       flavour: "C'est lui le chef ici."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/5.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shared_and_share_alike
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 6
+        rarity: uncommon
+  cost: 3
   inkwell: true
   attack: 2
   defence: 2
   type: glimmer
   illustrator: Kendall Hale
-  number: 6
-  rarity: uncommon
   languages: 
     en: 
       name: Dopey
       title: Always Playful
       flavour: "He's a real gem."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/6.webp'
     fr: 
       name: Simplet
       title: Toujours enjou\u00e9
       flavour: "C'est une v\\u00e9ritable gemme."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/6.webp'
   edition: 
     - regular
     - foil
   actions: 
     - odd_one_out
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 7
+        rarity: common
+  cost: 5
   inkwell: true
   attack: 1
   defence: 9
   type: glimmer
   illustrator: Lissette Carrera
-  number: 7
-  rarity: common
   languages: 
     en: 
       name: Eudora
       title: Accomplished Seamstress
       flavour: Love holds everything together.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/7.webp'
     fr: 
       name: Eudora
       title: Couturi\u00e8re accomplie
       flavour: "L'amour est le v\\u00e9ritable lien."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/7.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 8
+        rarity: uncommon
+  cost: 3
   inkwell: true
   attack: 3
   defence: 3
   type: glimmer
   illustrator: Jochem Van Gool
-  number: 8
-  rarity: uncommon
   languages: 
     en: 
       name: Gaston
       title: Baritone Bully
       flavour: No one . . . sings like Gaston!
-      image: 'https://lorcana.codlab.eu/images/rotf/en/8.webp'
     fr: 
       name: Gaston
       title: Brute et baryton
       flavour: 'Personne... chante comme Gaston :'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/8.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 9
+        rarity: rare
+  cost: 2
   inkwell: true
   attack: 2
   defence: 2
   type: glimmer
   illustrator: Javi Salas
-  number: 9
-  rarity: rare
   languages: 
     en: 
       name: Grand Duke
       title: Advisor to the King
       flavour: He takes being opinionated to a higher level.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/9.webp'
     de: 
       name: Gro\u00dfherzog
       title: Berater des K\u00f6nigs
       flavour: Er macht Starrsinn zur K\u00f6nigsdisziplin.
-      image: 'https://lorcana.codlab.eu/images/rotf/de/9.webp'
     fr: 
       name: Grand Duke
       title: Conseiller du roi
       flavour: Il pourrait \u00eatre le roi des opini\u00e2tres.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/9.webp'
   edition: 
     - regular
     - foil
   actions: 
     - yes_your_majesty
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 10
+        rarity: common
+  cost: 4
   inkwell: true
   attack: 3
   defence: 4
   type: glimmer
   illustrator: Kendall Hale
-  number: 10
-  rarity: common
   languages: 
     en: 
       name: Grumpy
       title: 'Bad-Tempered'
       flavour: Sour as a green gooseberry!
-      image: 'https://lorcana.codlab.eu/images/rotf/en/10.webp'
     fr: 
       name: Grincheux
       title: Sale caract\u00e8re
       flavour: "Aussi aigre qu'une prune g\\u00e2t\\u00e9e !"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/10.webp'
   edition: 
     - regular
     - foil
   actions: 
     - theres_trouble_a_brewin
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 11
+        rarity: common
+  cost: 5
   inkwell: true
   attack: 3
   defence: 5
   type: glimmer
   illustrator: Kendall Hale
-  number: 11
-  rarity: common
   languages: 
     en: 
       name: Happy
       title: 'Good-Natured'
       flavour: "You couldn't pick a better friend."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/11.webp'
     fr: 
       name: Joyeux
       title: De nature joviale
       flavour: "Vous n'auriez pas pu piocher un meilleur ami."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/11.webp'
   edition: 
     - regular
     - foil
   actions: 
     - support
-  set_code: rotf
   franchise_id: unknown
-- cost: 7
+- sets:
+    rotf:
+      - id: 12
+        rarity: super_rare
+  cost: 7
   inkwell: true
   attack: 3
   defence: 8
   type: glimmer
   illustrator: Hadjie Joos
-  number: 12
-  rarity: super_rare
   languages: 
     en: 
       name: King Louie
       title: Jungle VIP
       flavour: \u201cCool it, boy. Unwind yourself.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/12.webp'
     fr: 
       name: Roi Louie
       title: La jungle est \u00e0 ses pieds
       flavour: "\"Du calme, petit. Tu n'as aucune raison de t'\\u00e9nerver.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/12.webp'
   edition: 
     - regular
     - foil
   actions: 
     - lay_it_on_the_line
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 13
+        rarity: super_rare
+    promos:
+      - id: 18
+        rarity: d100
+  cost: 6
   inkwell: true
   attack: 1
   defence: 6
   type: glimmer
   illustrator: 'Veronica Di Lorenzo \/ Livio Cacciatore'
-  number: 13
-  rarity: super_rare
   languages: 
     en: 
       name: Mickey Mouse
       title: Friendly Face
       flavour: \u201cCome on in\u2212there\u2019s lots to explore.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/13.webp'
     de: 
       name: Mickey Maus
       title: Freundliches Gesicht
       flavour: \u201eKomm herein, hier gibt es viel zu entdecken!\u201c
-      image: 'https://lorcana.codlab.eu/images/rotf/de/13.webp'
     fr: 
       name: Mickey Mouse
       title: Visage amical
       flavour: \u201cEntrez, il y a beaucoup de choses \u00e0 d\u00e9couvrir.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/13.webp'
   edition: 
     - regular
     - foil
   actions: 
     - glad_youre_here
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 14
+        rarity: legendary
+  cost: 5
   inkwell: true
   attack: 3
   defence: 3
   type: glimmer
   illustrator: Stefano Zanchi
-  number: 14
-  rarity: legendary
   languages: 
     en: 
       name: Mufasa
       title: Betrayed Leader
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/14.webp'
     fr: 
       name: Mufasa
       title: Roi trahi
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/14.webp'
   edition: 
     - regular
     - foil
   actions: 
     - the_sun_will_sunset
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 15
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 2
   defence: 3
   type: glimmer
   illustrator: Amber Kommavongsa
-  number: 15
-  rarity: common
   languages: 
     en: 
       name: Mulan
       title: Free Spirit
       flavour: "Everything looks better when you're free to be yourself."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/15.webp'
     fr: 
       name: Mulan
       title: Esprit libre
       flavour: "Tout \\u00e0 l'air plus beau lorsque tu es libre d'\\u00eatre toi-m\\u00eame."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/15.webp'
   edition: 
     - regular
     - foil
   actions: 
     - support
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 16
+        rarity: rare
+  cost: 4
   inkwell: true
   attack: 3
   defence: 3
   type: glimmer
   illustrator: Lissette Carrera
-  number: 16
-  rarity: rare
   languages: 
     en: 
       name: Mulan
       title: Reflecting
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/16.webp'
     fr: 
       name: Mulan
       title: R\u00e9flexion
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/16.webp'
   edition: 
     - regular
     - foil
   actions: 
     - support_2
     - honor_to_the_ancestors
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 17
+        rarity: uncommon
+  cost: 2
   inkwell: true
   attack: 1
   defence: 3
   type: glimmer
   illustrator: Filipe Laurentino
-  number: 17
-  rarity: uncommon
   languages: 
     en: 
       name: Nana
       title: Darling Family Pet
       flavour: "Children are a dog's best friend."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/17.webp'
     fr: 
       name: Nana
       title: Chienne de la famille Darling
       flavour: "L'enfant est le meilleur ami du chien."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/17.webp'
   edition: 
     - regular
     - foil
   actions: 
     - nursemaid
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 18
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 2
   defence: 4
   type: glimmer
   illustrator: Kiersten Hale
-  number: 18
-  rarity: common
   languages: 
     en: 
       name: Piglet
       title: Very Small Animal
       flavour: For a very small animal, he has an awfully big heart.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/18.webp'
     fr: 
       name: Porcinet
       title: Si petit animal
       flavour: Pour un si petit animal, il a un tr\u00e8s grand coeur.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/18.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 19
+        rarity: uncommon
+    promos:
+      - id: 31
+        rarity: pax_unplugged2023
+  cost: 5
   inkwell: true
   attack: 0
   defence: 6
   type: glimmer
   illustrator: Aubrey Archer
-  number: 19
-  rarity: uncommon
   languages: 
     en: 
       name: Rapunzel
       title: Gifted Artist
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/19.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/19.webp'
     fr: 
       name: Raiponce
       title: Artiste dou\u00e9e
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/19.webp'
   edition: 
     - regular
     - foil
   actions: 
     - support_3
     - let_your_power_shine
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 20
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 1
   defence: 4
   type: glimmer
   illustrator: Aubrey Archer
-  number: 20
-  rarity: common
   languages: 
     en: 
       name: Rapunzel
       title: Sunshine
       flavour: \u201cWe can all make the world a little brighter in our own way.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/20.webp'
     fr: 
       name: Raiponce
       title: Solaire
       flavour: '"Nous pouvons tous rendre le monde un peu plus lumineux \u00e0 notre mani\u00e8re."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/20.webp'
   edition: 
     - regular
     - foil
   actions: 
     - magic_hair
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 21
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 2
   defence: 3
   type: glimmer
   illustrator: Kendall Hale
-  number: 21
-  rarity: common
   languages: 
     en: 
       name: Sleepy
       title: Nodding Off
       flavour: He never gets tired of naps.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/21.webp'
     fr: 
       name: Dormeur
       title: Tombe de fatigue
       flavour: "Il n'est jamais fatigu\\u00e9 de faire la sieste."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/21.webp'
   edition: 
     - regular
     - foil
   actions: 
     - yawn
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 22
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 1
   defence: 4
   type: glimmer
   illustrator: Kendall Hale
-  number: 22
-  rarity: common
   languages: 
     en: 
       name: Sneezy
       title: Very Allergic
       flavour: "Look out! He's gonna blow!"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/22.webp'
     fr: 
       name: Atchoum
       title: Tr\u00e8s allergique
       flavour: Attention ! Il va \u00e9ternuer !
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/22.webp'
   edition: 
     - regular
     - foil
   actions: 
     - ah_choo
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 23
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 2
   defence: 3
   type: glimmer
   illustrator: LadyShalirin
-  number: 23
-  rarity: common
   languages: 
     en: 
       name: Snow White
       title: Lost in the Forest
       flavour: "\\u201cWhy, you're all alone, just like me.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/23.webp'
     fr: 
       name: 'Blanche-Neige'
       title: Perdue dans la for\u00eat
       flavour: "\"Et bien, tu as l'air seul, tout comme moi.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/23.webp'
   edition: 
     - regular
     - foil
   actions: 
     - wont_hurt_you
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 24
+        rarity: uncommon
+  cost: 2
   attack: 1
   defence: 2
   type: glimmer
   illustrator: Samanta Erdini
-  number: 24
-  rarity: uncommon
   languages: 
     en: 
       name: Snow White
       title: Unexpected Houseguest
       flavour: '\u201cNothing says \u2018hello\u2019 better than a fresh-baked pie.\u201d'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/24.webp'
     fr: 
       name: 'Blanche-Neige'
       title: Invit\u00e9e inattendue
       flavour: "\"Il n'ya pas meilleure salutations qu'une bonne tarte sortie du four.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/24.webp'
   edition: 
     - regular
     - foil
   actions: 
     - how_do_you_do
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 25
+        rarity: legendary
+      - id: 206
+        rarity: enchanted
+  cost: 6
   attack: 3
   defence: 5
   type: glimmer
   illustrator: Javi Salas
-  number: 25
-  rarity: legendary
   languages: 
     en: 
       name: Snow White
       title: Well Wisher
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/25.webp'
     fr: 
       name: 'Blanche-Neige'
       title: Fait un voeu
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/25.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_4
     - wishes_come_true
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 26
+        rarity: super_rare
+  cost: 5
   inkwell: true
   attack: 4
   defence: 3
   type: glimmer
   illustrator: 'Matthew Robert Davies \/ LadyShalirin'
-  number: 26
-  rarity: super_rare
   languages: 
     en: 
       name: The Queen
       title: Commanding Presence
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/26.webp'
     de: 
       name: Die K\u00f6nigin
       title: Imposantes Auftreten
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/26.webp'
     fr: 
       name: La Reine
       title: Autorit\u00e9 naturelle
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/26.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_2
     - who_is_the_fairest
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 27
+        rarity: common
+  cost: 1
   inkwell: true
   attack: 2
   defence: 2
   type: glimmer
   illustrator: Eva Windermann
-  number: 27
-  rarity: common
   languages: 
     en: 
       name: The Queen
       title: Regal Monarch
       flavour: "Don't question her. Don't doubt her. And above all, don't disobey her."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/27.webp'
     fr: 
       name: La Reine
       title: Monarque absolue
       flavour: "Ne lui posez pas de question. Ne doutez pas d'elle. Et surtout, ne lui d\\u00e9sob\\u00e9issez jamais."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/27.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 28
+        rarity: common
+  cost: 2
   inkwell: true
   type: action
   illustrator: 'Connie Kang \/ Jackie Droujko'
-  number: 28
-  rarity: common
   languages: 
     en: 
       name: Hold Still
       title: ''
       flavour: \u201cThis might sting a little.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/28.webp'
     fr: 
       name: Ne bougez pas
       title: ''
       flavour: '"Restez tranquille, \u00e7a pique"'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/28.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 29
+        rarity: uncommon
+  cost: 2
   type: action
   illustrator: Aisha Durmagambetova
-  number: 29
-  rarity: uncommon
   languages: 
     en: 
       name: Last Stand
       title: ''
       flavour: "\\u201cLet\\u2019s finish this, binturi.\\u201d\n\\u2013Namaari"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/29.webp'
     de: 
       name: Letztes Gefecht
       title: ''
       flavour: "\\u201eBringen wir's zuende, Binturi.\\u201c - Namaari"
-      image: 'https://lorcana.codlab.eu/images/rotf/de/29.webp'
     fr: 
       name: Ultime Combat
       title: ''
       flavour: "\"Oui, finissons-en, Binturi.\"\n\\u2212Namaari"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/29.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 30
+        rarity: common
+  cost: 2
   inkwell: true
   type: song
   illustrator: Matt Chapman
-  number: 30
-  rarity: common
   languages: 
     en: 
       name: Painting the Roses Red
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/30.webp'
     fr: 
       name: Peignons les roses en rouge
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/30.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 31
+        rarity: rare
+  cost: 3
   inkwell: true
   type: song
   illustrator: Giulia Riva
-  number: 31
-  rarity: rare
   languages: 
     en: 
       name: "World's Greatest Criminal Mind"
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/31.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/31.webp'
     fr: 
       name: Le Grand G\u00e9nie Du Mal
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/31.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 32
+        rarity: uncommon
+  cost: 2
   type: song
   illustrator: Rob Di Salvo
-  number: 32
-  rarity: uncommon
   languages: 
     en: 
       name: Zero To Hero
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/32.webp'
     de: 
       name: In Sekunden auf Hundert
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/32.webp'
     fr: 
       name: De Z\u00e9ro en H\u00e9ros
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/32.webp'
   edition: 
     - regular
     - foil
   actions: 
     - zero_to_hero
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 33
+        rarity: rare
+  cost: 3
   type: item
   illustrator: Andrew Trabbold
-  number: 33
-  rarity: rare
   languages: 
     en: 
       name: Dragon Gem
       title: ''
       flavour: Hope shines in even the darkest situations.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/33.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/33.webp'
     fr: 
       name: Pierre de Dragon
       title: ''
       flavour: "Il y a toujours une lueur d'espoir, m\\u00eame dans les situations les plus sombres."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/33.webp'
   edition: 
     - regular
     - foil
   actions: 
     - bring_back_to_life
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 34
+        rarity: rare
+  cost: 2
   type: item
   illustrator: Antonia Flechsig
-  number: 34
-  rarity: rare
   languages: 
     en: 
       name: "Sleepy's Flute"
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/34.webp'
     fr: 
       name: Fl\u00fbte de Dormeur
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/34.webp'
   edition: 
     - regular
     - foil
   actions: 
     - a_silly_song
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 35
+        rarity: super_rare
+      - id: 207
+        rarity: enchanted
+  cost: 3
   attack: 1
   defence: 3
   color: amethyst
   type: glimmer
   illustrator: Jake Parker
-  number: 35
-  rarity: super_rare
   languages: 
     en: 
       name: Arthur
       title: "Wizard's Apprentice"
       flavour: '\u201cHmm . . what spell should I try next?\u201d'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/35.webp'
     de: 
       name: Arthur
       title: Zauberlehrling
       flavour: '\u201eHmm... Welchen Zauberspruch versuche ihc als n\u00e4chstes?\u201c'
-      image: 'https://lorcana.codlab.eu/images/rotf/de/35.webp'
     fr: 
       name: Arthur
       title: "Apprenti de l'Enchanteur"
       flavour: '"Hmm \u2026 quel sort devrais-je essayer ensuite ?"'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/35.webp'
   edition: 
     - regular
     - foil
   actions: 
     - student
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 36
+        rarity: uncommon
+  cost: 2
   inkwell: true
   attack: 1
   defence: 1
   color: amethyst
   type: glimmer
   illustrator: Kiersten Hale
-  number: 36
-  rarity: uncommon
   languages: 
     en: 
       name: Blue Fairy
       title: Rewarding Good Deeds
       flavour: \u201cTo make Geppetto\u2019s wish come true will be entirely up to you.\u201d \u2013Blue Fairy
-      image: 'https://lorcana.codlab.eu/images/rotf/en/36.webp'
     fr: 
       name: La F\u00e9e Bleue
       title: R\u00e9compense les bonnes actions
       flavour: '"La r\u00e9alisation du voeu de Geppetto va d\u00e9pendre enti\u00e8rement de toi" - La F\u00e9e Bleue'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/36.webp'
   edition: 
     - regular
     - foil
   actions: 
     - ethereal_glow
     - evasive
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 37
+        rarity: common
+  cost: 1
   inkwell: true
   attack: 2
   defence: 2
   color: amethyst
   type: glimmer
   illustrator: Aubrey Archer
-  number: 37
-  rarity: common
   languages: 
     en: 
       name: Chip the Teacup
       title: Gentle Soul
       flavour: '\u201cWanna see me do a trick?\u201d'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/37.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/37.webp'
     fr: 
       name: Zip
       title: Ame innocente
       flavour: '"Tu veux que je te fasse une blague ?"'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/37.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 38
+        rarity: common
+  cost: 4
   inkwell: true
   attack: 4
   defence: 2
   color: amethyst
   type: glimmer
   illustrator: Leonardo Giammichele
-  number: 38
-  rarity: common
   languages: 
     en: 
       name: Dr. Facilier
       title: Savvy Opportunist
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/38.webp'
     fr: 
       name: Dr. Facilier
       title: Opportuniste bien renseign\u00e9
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/38.webp'
   edition: 
     - regular
     - foil
   actions: 
     - evasive
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 39
+        rarity: common
+    promos:
+      - id: 19
+        rarity: d100
+  cost: 4
   inkwell: true
   attack: 3
   defence: 4
   color: amethyst
   type: glimmer
   illustrator: Cristian Romero
-  number: 39
-  rarity: common
   languages: 
     en: 
       name: Elsa
       title: Gloves Off
       flavour: The power of ice may not stop the flood, but it will help protect Lorcana.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/39.webp'
     de: 
       name: Elsa
       title: Ohne Handschuhe
       flavour: Das Eis kann die Flut vielleicht nicht aufhalten, aber es wird dabei helfen, Lorcana zu besch\u00fctzen.
-      image: 'https://lorcana.codlab.eu/images/rotf/de/39.webp'
     fr: 
       name: Elsa
       title: Sans gants
       flavour: "Le pouvoir de la glace n'arr\\u00eatera peut-\\u00eatre pas\nl'inondation, mais il aidera \\u00e0 prot\\u00e9ger Lorcana."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/39.webp'
   edition: 
     - regular
     - foil
   actions: 
     - challenger_3
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 40
+        rarity: uncommon
+  cost: 5
   inkwell: true
   attack: 3
   defence: 7
   color: amethyst
   type: glimmer
   illustrator: 'Hedvig H\u00e4ggman-Sund'
-  number: 40
-  rarity: uncommon
   languages: 
     en: 
       name: Fairy Godmother
       title: Here to Help
       flavour: "\\u201cUse a humdrum spell, and you'll end up with humdrum magic. I like my magic to have something special!\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/40.webp'
     fr: 
       name: La Bonne F\u00e9e
       title: L\u00e0 pour aider
       flavour: "\"Un sort banal ne donne qu'une magie banale. Et j'aime que ma magie ait une touche sp\\u00e9ciale !\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/40.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 41
+        rarity: legendary
+  cost: 5
   inkwell: true
   attack: 3
   defence: 4
   color: amethyst
   type: glimmer
   illustrator: Filipe Laurentino
-  number: 41
-  rarity: legendary
   languages: 
     en: 
       name: Fairy Godmother
       title: Mystic Armorer
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/41.webp'
     fr: 
       name: La Bonne F\u00e9e
       title: Armuri\u00e8re mystique
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/41.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_2
     - forget_the_coach_heres_a_sword
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 42
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 3
   defence: 4
   color: amethyst
   type: glimmer
   illustrator: Matt Chapman
-  number: 42
-  rarity: common
   languages: 
     en: 
       name: Fairy Godmother
       title: Pure Heart
       flavour: "\\u201cWe'll have to hurry, because even miracles take a little time.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/42.webp'
     fr: 
       name: La Bonne F\u00e9e
       title: Au coeur pur
       flavour: '"D\u00e9p\u00eachons-nous car m\u00eame les miracles prennent un peu de temps."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/42.webp'
   edition: 
     - regular
     - foil
   actions: 
     - just_leave_it_to_me
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 43
+        rarity: uncommon
+  cost: 2
   inkwell: true
   attack: 2
   defence: 1
   color: amethyst
   type: glimmer
   illustrator: Ellie Horie
-  number: 43
-  rarity: uncommon
   languages: 
     en: 
       name: HeiHei
       title: Persistent Presence
       flavour: Power. Beauty. HeiHei.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/43.webp'
     fr: 
       name: Heihei
       title: Volatile tenace
       flavour: Puissance. Beaut\u00e9; Heihei.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/43.webp'
   edition: 
     - regular
     - foil
   actions: 
     - hes_back
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 44
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 1
   defence: 2
   color: amethyst
   type: glimmer
   illustrator: Isaiah Mesq
-  number: 44
-  rarity: common
   languages: 
     en: 
       name: Jiminy Cricket
       title: "Pinocchio's Conscience"
       flavour: "\\u201cSay, that's pretty swell.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/44.webp'
     fr: 
       name: Jiminy Cricket
       title: Conscience de Pinocchio
       flavour: "\"Dites, c'est plut\\u00f4t flatteur !\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/44.webp'
   edition: 
     - regular
     - foil
   actions: 
     - evasive
     - that_still_small_voice
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 45
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 1
   defence: 2
   color: amethyst
   type: glimmer
   illustrator: Michaela Martin
-  number: 45
-  rarity: common
   languages: 
     en: 
       name: Kuzco
       title: Wanted Llama
       flavour: \u201cSo there I was. Perfectly in control of the situation.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/45.webp'
     fr: 
       name: Kuzco
       title: Lama recherch\u00e9
       flavour: '"Me voil\u00e0, contr\u00f4lant parfaitement la situation."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/45.webp'
   edition: 
     - regular
     - foil
   actions: 
     - ok_where_am_i
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 46
+        rarity: rare
+  cost: 3
   inkwell: true
   attack: 4
   defence: 3
   color: amethyst
   type: glimmer
   illustrator: Alice Pisoni
-  number: 46
-  rarity: rare
   languages: 
     en: 
       name: Madam Mim
       title: Fox
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/46.webp'
     de: 
       name: Madame Mim
       title: Fuchs
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/46.webp'
     fr: 
       name: Madam Mime
       title: En renard
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/46.webp'
   edition: 
     - regular
     - foil
   actions: 
     - chasing_the_rabbit
     - rush
-  set_code: rotf
   franchise_id: unknown
-- cost: 7
+- sets:
+    rotf:
+      - id: 47
+        rarity: legendary
+      - id: 208
+        rarity: enchanted
+  cost: 7
   inkwell: true
   attack: 5
   defence: 7
   color: amethyst
   type: glimmer
   illustrator: Ally Zermeno
-  number: 47
-  rarity: legendary
   languages: 
     en: 
       name: Madam Mim
       title: Purple Dragon
       flavour: '\u201cDid I say no purple dragons? Did I?\u201d'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/47.webp'
     de: 
       name: Madame Mim
       title: Lila Drache
       flavour: '\u201eHab ich was gesagt von keine lila Drachen? Nein!\u201c'
-      image: 'https://lorcana.codlab.eu/images/rotf/de/47.webp'
     fr: 
       name: Madam Mime
       title: En dragon
       flavour: "\"Est-ce que j'ai dit : pas de dragon ?\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/47.webp'
   edition: 
     - regular
     - foil
   actions: 
     - evasive
     - i_win_i_win
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 48
+        rarity: rare
+  cost: 3
   inkwell: true
   attack: 2
   defence: 5
   color: amethyst
   type: glimmer
   illustrator: 'Mane Kandalyan \/ Pix Smith'
-  number: 48
-  rarity: rare
   languages: 
     en: 
       name: Madam Mim
       title: Rival of Merlin
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/48.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_3
     - gruesome_and_grim
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 49
+        rarity: uncommon
+  cost: 2
   inkwell: true
   attack: 3
   defence: 3
   color: amethyst
   type: glimmer
   illustrator: Brian Weisz
-  number: 49
-  rarity: uncommon
   languages: 
     en: 
       name: Madam Mim
       title: Snake
       flavour: \u201cI\u2019ve got you rattled now!\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/49.webp'
     de: 
       name: Madame Mim
       title: Schlange
       flavour: \u201eJetzt habe ich dich am Wickel!\u201c
-      image: 'https://lorcana.codlab.eu/images/rotf/de/49.webp'
     fr: 
       name: Madam Mime
       title: En serpent
       flavour: '"Je te tiens par la queue, maintenant !"'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/49.webp'
   edition: 
     - regular
     - foil
   actions: 
     - just_you_wait
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 50
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 3
   defence: 3
   color: amethyst
   type: glimmer
-  number: 50
-  rarity: common
   languages: 
     en: 
       name: Merlin
       title: Crab
       flavour: He\u2019ll be out of this in a snap!
-      image: 'https://lorcana.codlab.eu/images/rotf/en/50.webp'
     de: 
       name: Merlin
       title: Krabbe
       flavour: \u201eGleich steckst du in der Klemme!\u201c
-      image: 'https://lorcana.codlab.eu/images/rotf/de/50.webp'
     fr: 
       name: Merlin
       title: En crabe
       flavour: "\"Il va s'en sortir d'un claquement de pince !\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/50.webp'
   edition: 
     - regular
     - foil
   actions: 
     - ready_or_not
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 51
+        rarity: uncommon
+  cost: 4
   inkwell: true
   attack: 4
   defence: 3
   color: amethyst
   type: glimmer
   illustrator: 'S. Shaw \/ L. Giammichele'
-  number: 51
-  rarity: uncommon
   languages: 
     en: 
       name: Merlin
       title: Goat
       flavour: "\\u201cHe always was a stubborn old goat.\\u201d\n\\u2013Madam Mim"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/51.webp'
     de: 
       name: Merlin
       title: Ziege
       flavour: '\u201eEr war schon immer ein st\u00f6rrischer alter Ziegenbock.\u201c - Madame Mim'
-      image: 'https://lorcana.codlab.eu/images/rotf/de/51.webp'
     fr: 
       name: Merlin
       title: En ch\u00e8vre
       flavour: "\"\\u00c7a a toujours \\u00e9t\\u00e9 un vieux bouc obstin\\u00e9 !\"\n\\u2013Madame Mime"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/51.webp'
   edition: 
     - regular
     - foil
   actions: 
     - here_i_come
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 52
+        rarity: rare
+  cost: 4
   attack: 2
   defence: 3
   color: amethyst
   type: glimmer
   illustrator: Michaela Martin
-  number: 52
-  rarity: rare
   languages: 
     en: 
       name: Merlin
       title: Rabbit
       flavour: It was turning out to be a bad hare day.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/52.webp'
     de: 
       name: Merlin
       title: Hase
       flavour: Dieser Tag war wirklich zum Davonhoppeln.
-      image: 'https://lorcana.codlab.eu/images/rotf/de/52.webp'
     fr: 
       name: Merlin
       title: En lapin
       flavour: Pire journ\u00e9e pour se faire poser un lapin.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/52.webp'
   edition: 
     - regular
     - foil
   actions: 
     - hoppity_hip
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 53
+        rarity: rare
+  cost: 4
   inkwell: true
   attack: 1
   defence: 5
   color: amethyst
   type: glimmer
   illustrator: Matthew Robert Davies
-  number: 53
-  rarity: rare
   languages: 
     en: 
       name: Merlin
       title: Shapeshifter
       flavour: \u201cOh, blast it all\u2212I can\u2019t make up my mind.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/53.webp'
     de: 
       name: Merlin
       title: Formwandler
       flavour: '\u201eVerflixt nochmal - ich kann mich nicht entscheiden.\u201c'
-      image: 'https://lorcana.codlab.eu/images/rotf/de/53.webp'
     fr: 
       name: Merlin
       title: M\u00e9tamorphe
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/53.webp'
   edition: 
     - regular
     - foil
   actions: 
     - battle_of_wits
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 54
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 2
   defence: 1
   color: amethyst
   type: glimmer
   illustrator: Brian Weisz
-  number: 54
-  rarity: common
   languages: 
     en: 
       name: Merlin
       title: Squirrel
       flavour: \u201cYou can\u2019t always trust to luck, boy.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/54.webp'
     de: 
       name: Merlin
       title: Eichh\u00f6rnchen
       flavour: \u201eDu kannst dich nicht immer nur auf dein Gl\u00fcck verlassen, Junge.\u201c
-      image: 'https://lorcana.codlab.eu/images/rotf/de/54.webp'
     fr: 
       name: Merlin
       title: En \u00e9cureuil
       flavour: "\"N'aies pas toujours confiance en ta bonne \\u00e9toile.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/54.webp'
   edition: 
     - regular
     - foil
   actions: 
     - look_before_you_leap
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 55
+        rarity: super_rare
+  cost: 4
   attack: 2
   defence: 3
   color: amethyst
   type: glimmer
   illustrator: Giulia Riva
-  number: 55
-  rarity: super_rare
   languages: 
     en: 
       name: "Peter Pan's Shadow"
       title: Not Sewn On
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/55.webp'
   edition: 
     - regular
     - foil
@@ -1514,568 +1459,545 @@
     - evasive
     - rush
     - tiptoe
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 56
+        rarity: rare
+  cost: 2
   attack: 1
   defence: 1
   color: amethyst
   type: glimmer
   illustrator: Kapik
-  number: 56
-  rarity: rare
   languages: 
     en: 
       name: Pinocchio
       title: Star Attraction
       flavour: "\\u201cWith that personality, that profile, that physique . . . \nWhy, I can see your name in lights, lights six feet high.\\u201d \n\\u2212Honest John"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/56.webp'
     fr: 
       name: Pinocchio
       title: Attraction Vedette
       flavour: '"Avec cette personnalit\u00e9, ce profil, cette silhouette\u2026 Pourquoi, je peux voir votre nom en lumi\u00e8res, des lumi\u00e8res de six pieds de haut. "'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/56.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 57
+        rarity: uncommon
+  cost: 5
   attack: 3
   defence: 13
   color: amethyst
   type: glimmer
   illustrator: Isaiah Mesq
-  number: 57
-  rarity: uncommon
   languages: 
     en: 
       name: Pinocchio
       title: On the Run
       flavour: He raced into the Inklands without a thought.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/57.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_3
     - listen_to_your_conscience
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 58
+        rarity: uncommon
+    promos:
+      - id: 32
+        rarity: pax_unplugged2023
+  cost: 2
   attack: 1
   defence: 1
   color: amethyst
   type: glimmer
   illustrator: Juan Diego Leon
-  number: 58
-  rarity: uncommon
   languages: 
     en: 
       name: Pinocchio
       title: Talkative Puppet
       flavour: "\\u201cA lie keeps growing and growing until it's as plain as the nose on your face.\\u201d \n\\u2212Blue Fairy"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/58.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/58.webp'
     fr: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/58.webp'
   edition: 
     - regular
     - foil
   actions: 
     - telling_lies
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 59
+        rarity: common
+  cost: 5
   inkwell: true
   attack: 5
   defence: 5
   color: amethyst
   type: glimmer
   illustrator: John Loren
-  number: 59
-  rarity: common
   languages: 
     en: 
       name: Winnie The Pooh
       title: Hunny Wizard
       flavour: He\u2019d always felt a kinship with honey. They were both golden, and sweet, and likely to end up in sticky situations.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/59.webp'
     de: 
       name: Winnie Puuh
       title: Honigzauberer
       flavour: Er f\u00fchlte sich schon immer dem Honig verbunden. Sie waren beide gelb, s\u00fc\u00df und gerieten h\u00e4ufig in klebrige Lagen.
-      image: 'https://lorcana.codlab.eu/images/rotf/de/59.webp'
     fr: 
       name: "Winnie L'Ourson"
       title: Magicien mellifique
       flavour: 'Il a toujours senti un lien fort avec le miel : tous deux jaunes, doux et\u2026 souvent coll\u00e9s ensemble.'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/59.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 60
+        rarity: super_rare
+  cost: 6
   inkwell: true
   attack: 4
   defence: 4
   color: amethyst
   type: glimmer
   illustrator: Casey Robin
-  number: 60
-  rarity: super_rare
   languages: 
     en: 
       name: Yzma
       title: Scary Beyond All Reason
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/60.webp'
     fr: 
       name: Yzma
       title: Fait peur sans faire expr\u00e8s
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/60.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_4
     - cruel_irony
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 61
+        rarity: uncommon
+  cost: 3
   inkwell: true
   attack: 3
   defence: 4
   color: amethyst
   type: glimmer
   illustrator: Pablo Hidalgo
-  number: 61
-  rarity: uncommon
   languages: 
     en: 
       name: Yzma
       title: Without Beauty Sleep
       flavour: "Yzma: \\u201cLlamas! All I see when I close my eyes is llamas!\\u201d \nKronk: \\u201cWeird. I just saw one in the flood. Poor little guy.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/61.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/61.webp'
     fr: 
       name: Yzma
       title: Manque de sommeil
       flavour: "Yzma : \"Des lamas ! Tout ce que je vois d\\u00e8s que je ferme les yeux, ce sont des lamas !\" \nKronk : \"Bizarre. Je viens d'en voir un emport\\u00e9 dans l'inondation. Pauvre petit gars"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/61.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 62
+        rarity: rare
+  cost: 3
   color: amethyst
   type: song
   illustrator: Mariana Moreno
-  number: 62
-  rarity: rare
   languages: 
     en: 
       name: Gruesome And Grim
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/62.webp'
     fr: 
       name: Le Macabre et la Terreur
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/62.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 63
+        rarity: common
+  cost: 1
   inkwell: true
   color: amethyst
   type: action
   illustrator: Rob Di Salve
-  number: 63
-  rarity: common
   languages: 
     en: 
       name: "I'm Stuck!"
       title: ''
       flavour: \u201cOh, bother\u2212not again.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/63.webp'
     de: 
       name: Ich sitze fest!
       title: ''
       flavour: \u201eAch herrje, nicht schon wieder.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/de/63.webp'
     fr: 
       name: Je suis Coinc\u00e9 !
       title: ''
       flavour: '"Oh, mis\u00e8re - \u00c7a ne va pas recommencer."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/63.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 64
+        rarity: common
+  cost: 2
   inkwell: true
   color: amethyst
   type: song
   illustrator: Kuya Jaypi
-  number: 64
-  rarity: common
   languages: 
     en: 
       name: Legend of the Sword in the Stone
       title: ''
       flavour: "A legend is sung of when England was young \nAnd knights were brave and bold"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/64.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/64.webp'
     fr: 
       name: "La L\\u00e9gende de l'\\u00c9p\\u00e9e dans l'enclume"
       title: ''
       flavour: "\"D'apr\\u00e8s la l\\u00e9gende, l'Angleterre autrefois,\navait un si bon roi.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/64.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 65
+        rarity: uncommon
+  cost: 4
   color: amethyst
   type: item
   illustrator: Kasia Brzezinska
-  number: 65
-  rarity: uncommon
   languages: 
     en: 
       name: Binding Contract
       title: ''
       flavour: Just a standard form, nothing to worry about.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/65.webp'
     fr: 
       name: Contrat irr\u00e9vocable
       title: ''
       flavour: "Juste un formulaire standard, rien d'inqui\\u00e9tant."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/65.webp'
   edition: 
     - regular
     - foil
   actions: 
     - for_all_eternity
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 66
+        rarity: common
+  cost: 1
   color: amethyst
   type: item
   illustrator: Matt Chapman
-  number: 66
-  rarity: common
   languages: 
     en: 
       name: Croquet Mallet
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/66.webp'
     fr: 
       name: Maillet de Croquet
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/66.webp'
   edition: 
     - regular
     - foil
   actions: 
     - hurtling_hedgehog
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 67
+        rarity: rare
+  cost: 2
   color: amethyst
   type: item
   illustrator: Andrew Trabbold
-  number: 67
-  rarity: rare
   languages: 
     en: 
       name: Perplexing Signposts
       title: ''
       flavour: "Alice: \\u201cI just wanted to ask you which way I ought to go.\\u201d \nCheshire Cat: \\u201cWell, that depends on where you want to get to.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/67.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/67.webp'
     fr: 
       name: PANNEAUX CONFUS
       title: ''
       flavour: "Alice : \"Je voulais juste vous demander quelle direction prendre.\"\nChat du Cheshire : \"Cela d\\u00e9pend de l'endroit o\\u00f9 tu veux aller.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/67.webp'
   edition: 
     - regular
     - foil
   actions: 
     - to_wonderland
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 68
+        rarity: rare
+  cost: 3
   color: amethyst
   type: item
   illustrator: Julie Vu
-  number: 68
-  rarity: rare
   languages: 
     en: 
       name: "The Sorcerer's Spellbook"
       title: ''
       flavour: Illumineers seek the power of knowledge\u2212but must be aware of the price.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/68.webp'
     de: 
       name: Das Buch der Zauberspr\u00fcche
       title: ''
       flavour: 'Luminari streben nach Wissen und Macht - doch sie sollten den Preis daf\u00fcr kennen.'
-      image: 'https://lorcana.codlab.eu/images/rotf/de/68.webp'
     fr: 
       name: Grimoire du Sorcier
       title: ''
       flavour: Les Illumineuses et Illumineurs qui recherchent le pouvoir de la connaissance doivent \u00eatre conscients du prix \u00e0 payer.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/68.webp'
   edition: 
     - regular
     - foil
   actions: 
     - knowledge
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 69
+        rarity: common
+  cost: 4
   inkwell: true
   attack: 4
   defence: 3
   color: emerald
   type: glimmer
   illustrator: Mario Oscar Gabriele
-  number: 69
-  rarity: common
   languages: 
     en: 
       name: Arthur
       title: Trained Swordsman
       flavour: "\\u201cIt's not just fancy horses and swinging a sword around, you know! A true master must use his brain as well as his blade.\\u201d \n\\u2212Merlin"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/69.webp'
     fr: 
       name: Arthur
       title: Devenu fine lame
       flavour: "\"Tu sais, il ne s'agit pas seulement de monter de beaux chevaux ou de faire habilement tournoyer une \\u00e9p\\u00e9e ! Un vrai ma\\u00eetre doit savoir utiliser son cerveau tout autant que sa lame.\"\n- Merlin"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/69.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 70
+        rarity: legendary
+      - id: 210
+        rarity: enchanted
+  cost: 6
   inkwell: true
   attack: 4
   defence: 5
   color: emerald
   type: glimmer
   illustrator: Eri Welli
-  number: 70
-  rarity: legendary
   languages: 
     en: 
       name: Beast
       title: Relentless
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/70.webp'
     de: 
       name: Biest
       title: Unerbittlich
       flavour: \u201eIch werde denjenigen finden, der aus dem versiegelten buch der Legenden entkommen ist. Komm mir dabei nicht in die Quere!\u201c
-      image: 'https://lorcana.codlab.eu/images/rotf/de/70.webp'
     fr: 
       name: La B\u00eate
       title: Implacable
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/70.webp'
   edition: 
     - regular
     - foil
   actions: 
     - second_wind
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 71
+        rarity: uncommon
+  cost: 3
   attack: 2
   defence: 4
   color: emerald
   type: glimmer
   illustrator: Jenna Gray
-  number: 71
-  rarity: uncommon
   languages: 
     en: 
       name: Belle
       title: Bookworm
       flavour: "There's nothing more tempting than a pile of unread books."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/71.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/71.webp'
     fr: 
       name: Belle
       title: Rat de biblioth\u00e8que
       flavour: "Il n'y a rien de plus irr\\u00e9sistible qu'une pile de livres non lus."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/71.webp'
   edition: 
     - regular
     - foil
   actions: 
     - use_your_imagination
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 72
+        rarity: legendary
+  cost: 5
   attack: 3
   defence: 3
   color: emerald
   type: glimmer
   illustrator: Aisha Durmagambetova
-  number: 72
-  rarity: legendary
   languages: 
     en: 
       name: Belle
       title: Hidden Archer
       flavour: She slips through the trees as easily as shadow.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/72.webp'
     de: 
       name: Belle
       title: Versteckte Bogensch\u00fctzin
       flavour: Wie ein Schatten huscht sie durch die B\u00e4ume.
-      image: 'https://lorcana.codlab.eu/images/rotf/de/72.webp'
     fr: 
       name: Belle
       title: Arch\u00e8re dissimul\u00e9e
       flavour: Elle se faufile entre les arbres comme une ombre.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/72.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_3
     - thorny_arrows
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 73
+        rarity: uncommon
+    promos:
+      - id: 15
+        rarity: organized_play
+  cost: 2
   inkwell: true
   attack: 1
   defence: 1
   color: emerald
   type: glimmer
   illustrator: Alex Accorsi
-  number: 73
-  rarity: uncommon
   languages: 
     en: 
       name: Bucky
       title: Squirrel Squeak Tutor
       flavour: "\\u201cThere\\u2019s a lot of nuance to squirrel.\\u201d\n\\u2212Kronk"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/73.webp'
     de: 
       name: Bucky
       title: Lehrer f\u00fcr H\u00f6rnchensprache
       flavour: '\u201eIn der H\u00f6rnchensprache existieren sehr subtile Begriffsunterschiede.\u201c - Kronk'
-      image: 'https://lorcana.codlab.eu/images/rotf/de/73.webp'
     fr: 
       name: Bucky
       title: Professeur de Squeak
       flavour: "\"La langue \\u00e9cureuil est pleine de nuance.\"\n\\u2212Kronk"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/73.webp'
   edition: 
     - regular
     - foil
   actions: 
     - ward
     - squeak
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 74
+        rarity: uncommon
+  cost: 2
   inkwell: true
   attack: 3
   defence: 2
   color: emerald
   type: glimmer
   illustrator: Alex Accorsi
-  number: 74
-  rarity: uncommon
   languages: 
     en: 
       name: Cheshire Cat
       title: Always Grinning
       flavour: "Alice felt quite confused. \\u201cBut I don\\u2019t see much ink here at all. How can the flood still be changing the Inklands?\\u201d \n\n\\u201cThings are always changing, you know,\\u201d said the Cat. \\u201cIt would be quite a change if they didn't.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/74.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/74.webp'
     fr: 
       name: Chat du Cheshire
       title: Toujours ce sourire...
       flavour: "Alice \\u00e9tait confuse. \" Je ne vois pas pourtant beaucoup d'encre ici... comment l'inondation peut-elle encore changer les Terres d'Encres ?\"\n\n\"Les choses changent toujours, tu sais\" dit le Chat. \"Ce serait un sacr\\u00e9 changement si elles ne changeaient pas.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/74.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 8
+- sets:
+    rotf:
+      - id: 75
+        rarity: super_rare
+  cost: 8
   inkwell: true
   attack: 5
   defence: 6
   color: emerald
   type: glimmer
   illustrator: Jeff Murchie
-  number: 75
-  rarity: super_rare
   languages: 
     en: 
       name: Cheshire Cat
       title: From the Shadows
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/75.webp'
     fr: 
       name: Chat du Cheshire
       title: "Sorti de l'ombre"
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/75.webp'
   edition: 
     - regular
     - foil
@@ -2083,205 +2005,195 @@
     - shift_5
     - evasive
     - wicked_smile
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 76
+        rarity: uncommon
+  cost: 4
   inkwell: true
   attack: 2
   defence: 3
   color: emerald
   type: glimmer
   illustrator: Lissette Carrera
-  number: 76
-  rarity: uncommon
   languages: 
     en: 
       name: Daisy Duck
       title: Secret Agent
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/76.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/76.webp'
     fr: 
       name: Daisy
       title: Agente secr\u00e8te
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/76.webp'
   edition: 
     - regular
     - foil
   actions: 
     - thwart
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 77
+        rarity: uncommon
+  cost: 4
   inkwell: true
   attack: 2
   defence: 5
   color: emerald
   type: glimmer
   illustrator: Ron Baird
-  number: 77
-  rarity: uncommon
   languages: 
     en: 
       name: Donald Duck
       title: Perfect Gentleman
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/77.webp'
     fr: 
       name: Donald
       title: Parfait gentleman
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/77.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_3
     - allow_me
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 78
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 0
   defence: 5
   color: emerald
   type: glimmer
   illustrator: Leonardo Giammichele
-  number: 78
-  rarity: common
   languages: 
     en: 
       name: Donald Duck
       title: Sleepwalker
       flavour: Heading toward a rude awekening!
-      image: 'https://lorcana.codlab.eu/images/rotf/en/78.webp'
     fr: 
       name: Donald
       title: Somnambule
       flavour: Marche vers un r\u00e9veil difficile !
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/78.webp'
   edition: 
     - regular
     - foil
   actions: 
     - startled_awake
-  set_code: rotf
   franchise_id: unknown
-- cost: 7
+- sets:
+    rotf:
+      - id: 79
+        rarity: super_rare
+  cost: 7
   inkwell: true
   attack: 4
   defence: 4
   color: emerald
   type: glimmer
   illustrator: Ron Baird
-  number: 79
-  rarity: super_rare
   languages: 
     en: 
       name: Dr. Facilier
       title: Fortune Teller
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/79.webp'
     fr: 
       name: Dr. Facilier
       title: Lit dans les cartes
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/79.webp'
   edition: 
     - regular
     - foil
   actions: 
     - evasive
     - youre_in_my_world
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 80
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 1
   defence: 1
   color: emerald
   type: glimmer
   illustrator: Isaiah Mesq
-  number: 80
-  rarity: common
   languages: 
     en: 
       name: Enchantress
       title: Unexpected Judge
       flavour: Appearances can be deceiving.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/80.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/80.webp'
     fr: 
       name: "L'Enchanteresse"
       title: Juge inattendue
       flavour: Les apparences peuvent \u00eatre trompeuses.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/80.webp'
   edition: 
     - regular
     - foil
   actions: 
     - true_form
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 81
+        rarity: common
+  cost: 1
   inkwell: true
   attack: 1
   defence: 3
   color: emerald
   type: glimmer
   illustrator: Ron Baird
-  number: 81
-  rarity: common
   languages: 
     en: 
       name: Flynn Rider
       title: Confident Vagabond
       flavour: '\u201cI love a good fan club, but they could at least <b>try<\/b> to get the nose right!\u201d'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/81.webp'
     de: 
       name: Flynn Rider
       title: Selbstbewusster Vagabund
       flavour: \u201eIch liebe treue Fans, aber sie k\u00f6nnten wenigstens versuchen, meine Nase richtig hinzukriegen!\u201c
-      image: 'https://lorcana.codlab.eu/images/rotf/de/81.webp'
     fr: 
       name: Flynn Rider
       title: Vagabond s\u00fbr de lui
       flavour: "\"J'adore avoir un fan-club, mais ils pourraient au moins essayer de reproduire mon nez correctement !\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/81.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 82
+        rarity: rare
+  cost: 4
   attack: 2
   defence: 3
   color: emerald
   type: glimmer
   illustrator: 'E. Meleranci \/ L. Giammichele'
-  number: 82
-  rarity: rare
   languages: 
     en: 
       name: Flynn Rider
       title: His Own Biggest Fan
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/82.webp'
     fr: 
       name: Flynn Rider
       title: Son plus grand fan
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/82.webp'
   edition: 
     - regular
     - foil
@@ -2289,160 +2201,156 @@
     - shift_2
     - evasive
     - one_last_big_score
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 83
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 1
   defence: 3
   color: emerald
   type: glimmer
   illustrator: Valerio Buonfantino
-  number: 83
-  rarity: common
   languages: 
     en: 
       name: Gaston
       title: Scheming Suitor
       flavour: "\\u201cDon't I deserve the best?\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/83.webp'
     fr: 
       name: Gaston
       title: Pr\u00e9tendant fourbe
       flavour: "\"Et qui a la chance d'\\u00eatre choisie par moi.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/83.webp'
   edition: 
     - regular
     - foil
   actions: 
     - yes_im_intimidating
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 84
+        rarity: rare
+  cost: 6
   inkwell: true
   attack: 6
   defence: 6
   color: emerald
   type: glimmer
   illustrator: Cristian Romero
-  number: 84
-  rarity: rare
   languages: 
     en: 
       name: Little John
       title: Loyal Friend
       flavour: "\\u201cWhat's the rush, Rob? Take a load off! There's plenty of time to go lookin' for lore lost in that crazy ink.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/84.webp'
     fr: 
       name: Petit Jean
       title: Ami loyal
       flavour: '"Pourquoi se presser, Robin ? Relax ! On a tout le temps de chercher des \u00e9clats de Lore dans toute cette encre."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/84.webp'
   edition: 
     - regular
     - foil
   actions: 
     - mouse_catcher
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 85
+        rarity: rare
+  cost: 5
   attack: 2
   defence: 2
   color: emerald
   type: glimmer
   illustrator: Isabella Ceravolo
-  number: 85
-  rarity: rare
   languages: 
     en: 
       name: Lucifer
       title: Cunning Cat
       flavour: "\\u201cThere must be <b>something<\\/b> good about him.\\u201d \n\\u2013Cinderella"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/85.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/85.webp'
     fr: 
       name: Lucifer
       title: Chat sournois
       flavour: "\"Il ne peut pas \\u00eatre que m\\u00e9chant et hypocrite.\"\n\\u2013 Cendrillon."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/85.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 86
+        rarity: uncommon
+  cost: 2
   inkwell: true
   attack: 1
   defence: 4
   color: emerald
   type: glimmer
   illustrator: 'Kristina Chouri \/ Mariana Moreno'
-  number: 86
-  rarity: uncommon
   languages: 
     en: 
       name: Pain
       title: Underworld Imp
       flavour: "\\u201cGet a move on! I'm a busy god, lots to do\\u2212meetings, curses, a little light scheming.\\u201d \n\\u2212Hades"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/86.webp'
   edition: 
     - regular
     - foil
   actions: 
     - coming_your_most_lugubriousness
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 87
+        rarity: common
+  cost: 3
   attack: 2
   defence: 3
   color: emerald
   type: glimmer
   illustrator: 'Kristina Chouri \/ Mariana Moreno'
-  number: 87
-  rarity: common
   languages: 
     en: 
       name: Panic
       title: Underworld Imp
       flavour: "\\u201cWho says it's hard to find good help these days? \nOh, yeah . . . ME!\\u201d \n\\u2212Hades"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/87.webp'
     de: 
       name: Schwefel
       title: Schelm der Unterwelt
       flavour: '\u201eWer behauptet, dass es heutzutage schwierig ist, gute Helfer zu finden? Ach ja ... ICH!\u201c - Hades'
-      image: 'https://lorcana.codlab.eu/images/rotf/de/87.webp'
     fr: 
       name: Panique
       title: Lutin Infernal
       flavour: "\"Qui a dit qu'il \\u00e9tait difficile de trouver du bon personnel de nos jours? Ah oui \\u2026 MOI!\"\n\\u2212 Had\\u00e8s"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/87.webp'
   edition: 
     - regular
     - foil
   actions: 
     - i_can_handle_it
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 88
+        rarity: rare
+      - id: 209
+        rarity: enchanted
+  cost: 5
   inkwell: true
   attack: 3
   defence: 4
   color: emerald
   type: glimmer
   illustrator: 'Hedvig H\u00e4ggman-Sund'
-  number: 88
-  rarity: rare
   languages: 
     en: 
       name: Pete
       title: Bad Guy
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/88.webp'
   edition: 
     - regular
     - foil
@@ -2450,732 +2358,699 @@
     - ward
     - take_that
     - whos_next
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 89
+        rarity: rare
+  cost: 3
   attack: 1
   defence: 2
   color: emerald
   type: glimmer
   illustrator: Koni
-  number: 89
-  rarity: rare
   languages: 
     en: 
       name: Prince John
       title: Greediest of All
       flavour: \u201cTaxes! Taxes! Beautiful, lovely taxes!\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/89.webp'
     de: 
       name: Prinz John
       title: Der Gierigste
       flavour: \u201eSteuern! Steuern! Massenhaft liebliche Steuern!\u201c
-      image: 'https://lorcana.codlab.eu/images/rotf/de/89.webp'
     fr: 
       name: Prince Jean
       title: Le plus cupide de tous
       flavour: '"Les taxes ! Les taxes ! Magnifiques taxes !"'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/89.webp'
   edition: 
     - regular
     - foil
   actions: 
     - ward
     - i_sentence_you
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 90
+        rarity: common
+  cost: 2
   attack: 1
   defence: 2
   color: emerald
   type: glimmer
   illustrator: Matthew Robert Davies
-  number: 90
-  rarity: common
   languages: 
     en: 
       name: Queen of Hearts
       title: 'Quick-Tempered'
       flavour: "\\u201cYou know, we could make her really angry. Shall we try?\\u201d \n\\u2212Cheshire Cat"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/90.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/90.webp'
     fr: 
       name: Reine de Coeur
       title: Col\u00e9rique
       flavour: "\"Tu sais, on pourrait la mettre vraiment en col\\u00e8re. On essaie ? \"\n\\u2212 Le Chat du Cheshire"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/90.webp'
   edition: 
     - regular
     - foil
   actions: 
     - royal_rage
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 91
+        rarity: common
+  cost: 4
   inkwell: true
   attack: 4
   defence: 1
   color: emerald
   type: glimmer
   illustrator: Michaela Martin
-  number: 91
-  rarity: common
   languages: 
     en: 
       name: Ratigan
       title: Criminal Mastermind
       flavour: "\\u201cI've outdone myself this time! Soon I will have everything I deserve. Riches . . . power . . . an entire kingdom at my feet!\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/91.webp'
   edition: 
     - regular
     - foil
   actions: 
     - evasive
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 92
+        rarity: common
+  cost: 5
   inkwell: true
   attack: 3
   defence: 3
   color: emerald
   type: glimmer
   illustrator: Filipe Laurentino
-  number: 92
-  rarity: common
   languages: 
     en: 
       name: Ray
       title: Easygoing Firefly
       flavour: "He may be hard to follow, but his heart isn't."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/92.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/92.webp'
     fr: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/92.webp'
   edition: 
     - regular
     - foil
   actions: 
     - evasive
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 93
+        rarity: super_rare
+  cost: 3
   attack: 2
   defence: 3
   color: emerald
   type: glimmer
   illustrator: Leonardo Giammichele
-  number: 93
-  rarity: super_rare
   languages: 
     en: 
       name: The Queen
       title: Disguised Peddler
       flavour: \u201cThis is no ordinary apple . . .\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/93.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/93.webp'
     fr: 
       name: La Reine
       title: D\u00e9guis\u00e9e en mendiante
       flavour: "\"Ce n'est pas une pomme ordinaire ... \""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/93.webp'
   edition: 
     - regular
     - foil
   actions: 
     - a_perfect_disguise
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 94
+        rarity: uncommon
+  cost: 5
   inkwell: true
   attack: 5
   defence: 3
   color: emerald
   type: glimmer
   illustrator: Casey Robin
-  number: 94
-  rarity: uncommon
   languages: 
     en: 
       name: Tiana
       title: True Princess
       flavour: Finding your true self will set your heart aglow.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/94.webp'
     fr: 
       name: Tiana
       title: V\u00e9ritable princesse
       flavour: D\u00e9couvrir qui vous \u00eates vraiment illuminera votre coeur.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/94.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 95
+        rarity: common
+  cost: 5
   inkwell: true
   attack: 5
   defence: 5
   color: emerald
   type: glimmer
   illustrator: 'Mane Kandalyan \/ Luca Pinelli'
-  number: 95
-  rarity: common
   languages: 
     en: 
       name: Virana
       title: Fang Chief
       flavour: \u201cI must make the hard decisions to protect my daughter, especially in this unfamiliar world.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/95.webp'
     fr: 
       name: Virana
       title: Cheffe de Croc du Dragon
       flavour: '"Je dois prendre des d\u00e9cisions difficiles pour prot\u00e9ger ma fille, surtout dans ce monde inconnu"'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/95.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 96
+        rarity: rare
+  cost: 3
   color: emerald
   type: song
   illustrator: LadyShalirin
-  number: 96
-  rarity: rare
   languages: 
     en: 
       name: Bibbidi Bobbidi Boo
       title: ''
       flavour: "It'll do magic, believe it or not"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/96.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/96.webp'
     fr: 
       name: Bibbidi Bobbidi Boo
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/96.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 97
+        rarity: uncommon
+  cost: 2
   color: emerald
   type: action
   illustrator: Bill Robinson
-  number: 97
-  rarity: uncommon
   languages: 
     en: 
       name: Bounce
       title: ''
       flavour: "\\u201cAre you ready for some bouncing?\\u201d\n\\u2212Tigger"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/97.webp'
     de: 
       name: Herumspringen
       title: ''
       flavour: "\\u201eHast du Lust zu ein paar Spr\\u00fcngen?\\u201c\n- Tigger"
-      image: 'https://lorcana.codlab.eu/images/rotf/de/97.webp'
     fr: 
       name: Rebondir
       title: ''
       flavour: "\\u201cTu as envie de venir faire des bonds?\\u201d\n\\u2212Tigrou"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/97.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 98
+        rarity: common
+  cost: 3
   inkwell: true
   color: emerald
   type: action
   illustrator: Lauren Levering
-  number: 98
-  rarity: common
   languages: 
     en: 
       name: Hypnotize
       title: ''
       flavour: \u201cLook me in the eye when I\u2019m speaking to you.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/98.webp'
     de: 
       name: Hypnose
       title: ''
       flavour: \u201eH\u00f6r auf mich ... glaube mir ...\u201c
-      image: 'https://lorcana.codlab.eu/images/rotf/de/98.webp'
     fr: 
       name: Hypnotiser
       title: ''
       flavour: '"Regarde-moi dans les yeux quand je te parle"'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/98.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 99
+        rarity: common
+  cost: 1
   inkwell: true
   color: emerald
   type: action
   illustrator: Mane Kandalyan
-  number: 99
-  rarity: common
   languages: 
     en: 
       name: Improvise
       title: ''
       flavour: "Shan-Yu: \\u201cIt looks like you\\u2019re out of ideas.\\u201d \nMulan: \\u201cNot quite!\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/99.webp'
     de: 
       name: Improvisieren
       title: ''
       flavour: "Shan-Yu: \\u201eJetzt f\\u00e4llt dir wohl nichts mehr ein.\\u201c\nMulan: \\u201eNicht so voreilig!\\u201c"
-      image: 'https://lorcana.codlab.eu/images/rotf/de/99.webp'
     fr: 
       name: Improviser
       title: ''
       flavour: "Shan Yu : \"On dirait que tu es \\u00e0 court d'id\\u00e9es.\"\nMulan : \"Pas tout \\u00e0 fait.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/99.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 100
+        rarity: rare
+  cost: 4
   inkwell: true
   color: emerald
   type: action
   illustrator: Don Aguillo
-  number: 100
-  rarity: rare
   languages: 
     en: 
       name: Pack Tactics
       title: ''
       flavour: "Pacha: \\u201cYou want to survive the jungle? Start thinking like you belong here.\\u201d \nKuzco: \\u201cNo problem . . . Grrr, look at me, I'm a jaguar.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/100.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 101
+        rarity: uncommon
+  cost: 3
   inkwell: true
   color: emerald
   type: action
   illustrator: Brian Weisz
-  number: 101
-  rarity: uncommon
   languages: 
     en: 
       name: Ring The Bell
       title: ''
       flavour: "\\u201cI\\u2019m afraid that you\\u2019ve gone and upset me.\\u201c \n\\u2013 Ratigan"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/101.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/101.webp'
     fr: 
       name: Sonner la cloche
       title: ''
       flavour: "\"J'ai bien peur que tu m'aies contrari\\u00e9.\"\n\\u2212 Ratigan"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/101.webp'
   edition: 
     - regular
     - foil
   actions: 
     - ring_the_bell
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 102
+        rarity: rare
+  cost: 3
   color: emerald
   type: item
   illustrator: Leonardo Giammichele
-  number: 102
-  rarity: rare
   languages: 
     en: 
       name: "Ratigan's Marvelous Trap"
       title: ''
       flavour: Simple in purpose, elaborate in execution\u2212just like Ratigan.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/102.webp'
   edition: 
     - regular
     - foil
   actions: 
     - snap_boom_twang
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 103
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 4
   defence: 3
   color: ruby
   type: glimmer
   illustrator: 'R. la Barbera \/ L. Giammichele'
-  number: 103
-  rarity: common
   languages: 
     en: 
       name: Baloo
       title: 'Fun-Loving Bear'
       flavour: \u201cThe bees are buzzin\u2019 in the tree to make some honey just for me!\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/103.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/103.webp'
     fr: 
       name: Baloo
       title: Ours \u00e9picurien
       flavour: '"Toutes les abeilles de la for\u00eat butinent pour moi dans les bosquets !"'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/103.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 104
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 2
   defence: 3
   color: ruby
   type: glimmer
   illustrator: Alice Pisoni
-  number: 104
-  rarity: common
   languages: 
     en: 
       name: Boun
       title: Precocious Entrepreneur
       flavour: \u201cIf you see any hungry faces, send \u2019em my way.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/104.webp'
     fr: 
       name: Boun
       title: Entrepreneur pr\u00e9coce
       flavour: '"Si vous croisez des estomacs vides, envoyez-les moi."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/104.webp'
   edition: 
     - regular
     - foil
   actions: 
     - evasive
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 105
+        rarity: uncommon
+  cost: 5
   inkwell: true
   attack: 5
   defence: 5
   color: ruby
   type: glimmer
   illustrator: Bill Robinson
-  number: 105
-  rarity: uncommon
   languages: 
     en: 
       name: Card Soldiers
       title: Full Deck
       flavour: "You'll have to deal with them sooner or later."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/105.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/105.webp'
     fr: 
       name: Gardes Cartes
       title: Jeu complet
       flavour: '"T\u00f4t ou tard, il te faudra les battre."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/105.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 106
+        rarity: legendary
+  cost: 5
   inkwell: true
   attack: 1
   defence: 5
   color: ruby
   type: glimmer
   illustrator: 'Carmine Pucci \/ Leonardo Giammichele'
-  number: 106
-  rarity: legendary
   languages: 
     en: 
       name: Donald Duck
       title: Not Again!
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/106.webp'
     fr: 
       name: Donald
       title: Pas encore !
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/106.webp'
   edition: 
     - regular
     - foil
   actions: 
     - phooey
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 107
+        rarity: common
+  cost: 1
   inkwell: true
   attack: 3
   defence: 1
   color: ruby
   type: glimmer
   illustrator: Michael \u201cCookie\u201d Niewiadomy
-  number: 107
-  rarity: common
   languages: 
     en: 
       name: Felicia
       title: Always Hungry
       flavour: "\\u201cThis isn't how most cat-and-mouse games go, is it, Dr. Dawson?\\u201d \n\\u2212Basil"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/107.webp'
     fr: 
       name: F\u00e9licia
       title: Toujours affam\u00e9e
       flavour: "\"Ce n'est pas ainsi que se d\\u00e9roule habituellement le jeu du chat et de la souris, n'est-il pas, Dr Dawson ?\" \n\\u2212 Basil"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/107.webp'
   edition: 
     - regular
     - foil
   actions: 
     - reckless
     - easy_street
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 108
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 3
   defence: 2
   color: ruby
   type: glimmer
   illustrator: Giulia Riva
-  number: 108
-  rarity: common
   languages: 
     en: 
       name: Fidget
       title: Ratigan\u2019s Henchman
       flavour: "When a normal henchman just won't cut it."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/108.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/108.webp'
     fr: 
       name: Fidget
       title: Homme de main de Ratigan
       flavour: L\u00e0 ou un acolyte quelconque serait incapable de couper dans le vif.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/108.webp'
   edition: 
     - regular
     - foil
   actions: 
     - evasive
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 109
+        rarity: rare
+  cost: 3
   attack: 2
   defence: 3
   color: ruby
   type: glimmer
   illustrator: Sandra Rios
-  number: 109
-  rarity: rare
   languages: 
     en: 
       name: Honest John
       title: Not That Honest
       flavour: \u201cA thing like that ought to be worth a fortune to someone!\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/109.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/109.webp'
     fr: 
       name: Grand Coquin
       title: Porte bien son nom
       flavour: '"Une telle curiosit\u00e9 rapporterait fortune !"'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/109.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 110
+        rarity: super_rare
+      - id: 211
+        rarity: enchanted
+  cost: 6
   attack: 3
   defence: 4
   color: ruby
   type: glimmer
   illustrator: Arianna Rea
-  number: 110
-  rarity: super_rare
   languages: 
     en: 
       name: Lady Tremaine
       title: Imperious Queen
       flavour: "The twelfth Rule of Villainy: If you don't have a throne, take one."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/110.webp'
     fr: 
       name: Madame de Tr\u00e9maine
       title: Reine imp\u00e9rieuse
       flavour: "Douzi\\u00e8me r\\u00e8gle de la m\\u00e9chancet\\u00e9 : si tu n'as pas de tr\\u00f4ne, prends-en-un."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/110.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_4
     - power_to_rule_at_last
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 111
+        rarity: common
+  cost: 2
   attack: 2
   defence: 2
   color: ruby
   type: glimmer
   illustrator: Samanta Erdini
-  number: 111
-  rarity: common
   languages: 
     en: 
       name: Lady Tremaine
       title: Overbearing Matriarch
       flavour: '\u201cMake no mistake: this time I will make certain the key remains safe!\u201d'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/111.webp'
     de: 
       name: Gr\u00e4fin Tremaine
       title: \u00dcberhebliches Familienoberhaupt
       flavour: '\u201eGlaube mir: Diesmal werde ich den Schl\u00fcssel diebstahlsicher verwahren.\u201c'
-      image: 'https://lorcana.codlab.eu/images/rotf/de/111.webp'
     fr: 
       name: Madame de Tremaine
       title: Matriarche Arrogante
       flavour: '"Crois-moi, cette fois-ci je vais garder la cl\u00e9 bien prot\u00e9g\u00e9e."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/111.webp'
   edition: 
     - regular
     - foil
   actions: 
     - not_for_you
-  set_code: rotf
   franchise_id: unknown
-- cost: 7
+- sets:
+    rotf:
+      - id: 112
+        rarity: rare
+  cost: 7
   inkwell: true
   attack: 7
   defence: 7
   color: ruby
   type: glimmer
   illustrator: Giulia Riva
-  number: 112
-  rarity: rare
   languages: 
     en: 
       name: Lumiere
       title: Hotheaded Candelabra
       flavour: When things heat up, no one can hold a candle to him.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/112.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/112.webp'
     fr: 
       name: Lumi\u00e8re
       title: V\u00e9ritable t\u00eate br\u00fbl\u00e9e
       flavour: "Quand la situation s'embrase, personne n'est plus chaud que lui."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/112.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 113
+        rarity: uncommon
+  cost: 3
   inkwell: true
   attack: 1
   defence: 3
   color: ruby
   type: glimmer
   illustrator: Mario Oscar Gabriele
-  number: 113
-  rarity: uncommon
   languages: 
     en: 
       name: Minnie Mouse
       title: Stylish Surfer
       flavour: \u201cThis goes into my top ten most fun things!\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/113.webp'
   edition: 
     - regular
     - foil
   actions: 
     - evasive
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 114
+        rarity: rare
+    promos:
+      - id: 16
+        rarity: organized_play
+  cost: 4
   inkwell: true
   attack: 2
   defence: 3
   color: ruby
   type: glimmer
   illustrator: Adam Fenton
-  number: 114
-  rarity: rare
   languages: 
     en: 
       name: Minnie Mouse
       title: 'Wide-Eyed Diver'
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/114.webp'
     de: 
       name: Minnie Maus
       title: Staunende Taucherin
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/114.webp'
     fr: 
       name: Minnie
       title: Plongeuse \u00e9merveill\u00e9e
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/114.webp'
   edition: 
     - regular
     - foil
@@ -3183,733 +3058,709 @@
     - shift_2
     - evasive
     - undersea_adventure
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 115
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 3
   defence: 2
   color: ruby
   type: glimmer
   illustrator: Ellie Horie
-  number: 115
-  rarity: common
   languages: 
     en: 
       name: Minnie Mouse
       title: Zipping Around
       flavour: Zero to fun in under three seconds!
-      image: 'https://lorcana.codlab.eu/images/rotf/en/115.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/115.webp'
     fr: 
       name: Minnie
       title: "N'arr\\u00eate jamais"
       flavour: De z\u00e9ro \u00e0 cent kilorires en moins de trois secondes !
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/115.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 116
+        rarity: uncommon
+  cost: 2
   inkwell: true
   attack: 3
   defence: 4
   color: ruby
   type: glimmer
   illustrator: Koni
-  number: 116
-  rarity: uncommon
   languages: 
     en: 
       name: Mother Gothel
       title: Withered and Wicked
       flavour: Her feelings are written all over her face.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/116.webp'
   edition: 
     - regular
     - foil
   actions: 
     - what_have_you_done
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 117
+        rarity: common
+  cost: 4
   attack: 4
   defence: 3
   color: ruby
   type: glimmer
   illustrator: Michael \u201cCookie\u201d Niewiadomy
-  number: 117
-  rarity: common
   languages: 
     en: 
       name: Mulan
       title: Soldier in Training
       flavour: \u201cI have to do something!\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/117.webp'
     de: 
       name: Mulan
       title: Soldatin in R\u00fcstung
       flavour: \u201eIch muss irgendetwas unternehmen!\u201c
-      image: 'https://lorcana.codlab.eu/images/rotf/de/117.webp'
     fr: 
       name: Mulan
       title: Soldat en Formation
       flavour: '"Je dois faire quelque chose"'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/117.webp'
   edition: 
     - regular
     - foil
   actions: 
     - rush
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 118
+        rarity: super_rare
+  cost: 4
   attack: 3
   defence: 3
   color: ruby
   type: glimmer
   illustrator: 'Hedvig H\u00e4ggman-Sund'
-  number: 118
-  rarity: super_rare
   languages: 
     en: 
       name: Namaari
       title: Nemesis
       flavour: "\\u201cI don't need swords to beat you. They just make it more fun.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/118.webp'
   edition: 
     - regular
     - foil
   actions: 
     - this_shouldnt_take_long
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 119
+        rarity: uncommon
+  cost: 2
   inkwell: true
   attack: 2
   defence: 2
   color: ruby
   type: glimmer
   illustrator: Valerio Buonfantino
-  number: 119
-  rarity: uncommon
   languages: 
     en: 
       name: Queen of Hearts
       title: Impulsive Rules
       flavour: "The glow of lore in the flood cought her eye. \\u201cThe spellbook!\\u201d she cried. \\u201cDon't let it get away!\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/119.webp'
   edition: 
     - regular
     - foil
   actions: 
     - rush
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 120
+        rarity: uncommon
+  cost: 5
   inkwell: true
   attack: 4
   defence: 3
   color: ruby
   type: glimmer
   illustrator: Isaiah Mesq
-  number: 120
-  rarity: uncommon
   languages: 
     en: 
       name: Queen of Hearts
       title: Sensing Weakness
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/120.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_2
     - let_the_game_begin
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 121
+        rarity: rare
+  cost: 5
   attack: 3
   defence: 3
   color: ruby
   type: glimmer
   illustrator: Valerio Buonfantino
-  number: 121
-  rarity: rare
   languages: 
     en: 
       name: Ratigan
       title: Very Large Mouse
       flavour: \u201cThis time, nothing, not even Basil, can stand in my way!\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/121.webp'
   edition: 
     - regular
     - foil
   actions: 
     - this_is_my_kingdom
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 122
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 2
   defence: 3
   color: ruby
   type: glimmer
   illustrator: Amber Kommavongsa
-  number: 122
-  rarity: common
   languages: 
     en: 
       name: Raya
       title: Headstrong
       flavour: Two parts bravery, one part cleverness, and a whole lot of determination.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/122.webp'
   edition: 
     - regular
     - foil
   actions: 
     - note_to_self_dont_die
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 123
+        rarity: super_rare
+  cost: 6
   inkwell: true
   attack: 5
   defence: 3
   color: ruby
   type: glimmer
   illustrator: Amber Kommavongsa
-  number: 123
-  rarity: super_rare
   languages: 
     en: 
       name: Raya
       title: Leader of Heart
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/123.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_4
     - champion_of_kumandra
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 124
+        rarity: uncommon
+  cost: 4
   inkwell: true
   attack: 5
   defence: 3
   color: ruby
   type: glimmer
   illustrator: Matthew Robert Davies
-  number: 124
-  rarity: uncommon
   languages: 
     en: 
       name: Raya
       title: Warrior of Kumandra
       flavour: \u201cMy ba dreams of a united Kumandra. I fight to honor that dream.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/124.webp'
     de: 
       name: Raya
       title: Kriegerin von Kumandra
       flavour: \u201eMein B\u00e0 tr\u00e4umt von einem vereinten Kumandra. Ich k\u00e4mpfe f\u00fcr seinen Traum\u201c
-      image: 'https://lorcana.codlab.eu/images/rotf/de/124.webp'
     fr: 
       name: Raya
       title: Combattante de Kumandra
       flavour: "\\u201cJe r\\u00eave d'un Kumandra uni. Je me bats pour r\\u00e9aliser ce r\\u00eave.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/124.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 7
+- sets:
+    rotf:
+      - id: 125
+        rarity: legendary
+  cost: 7
   attack: 6
   defence: 5
   color: ruby
   type: glimmer
   illustrator: Nicholas Kole
-  number: 125
-  rarity: legendary
   languages: 
     en: 
       name: Scar
       title: Vicious Cheater
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/125.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/125.webp'
     fr: 
       name: Scar
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/125.webp'
   edition: 
     - regular
     - foil
   actions: 
     - rush
     - daddy_isnt_here_to_save_you
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 126
+        rarity: rare
+      - id: 212
+        rarity: enchanted
+  cost: 3
   inkwell: true
   attack: 3
   defence: 3
   color: ruby
   type: glimmer
   illustrator: 'M. Robert Davies \/ L. Giammichele'
-  number: 126
-  rarity: rare
   languages: 
     en: 
       name: Shere Khan
       title: Menacing Predator
       flavour: 'The sixth Rule of Villainy: Keep your mind sharp and your claws sharper.'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/126.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/126.webp'
   edition: 
     - regular
     - foil
   actions: 
     - dont_insult_my_intelligence
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 127
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 3
   defence: 3
   color: ruby
   type: glimmer
   illustrator: 'P. Gaylord \/ L. Giammichele'
-  number: 127
-  rarity: common
   languages: 
     en: 
       name: Tigger
       title: One of a Kind
       flavour: Bouncing in to save the day!
-      image: 'https://lorcana.codlab.eu/images/rotf/en/127.webp'
     fr: 
       name: Tigrou
       title: Unique en son Genre
       flavour: Rebondit pour sauver la situation !
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/127.webp'
   edition: 
     - regular
     - foil
   actions: 
     - energetic
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 128
+        rarity: rare
+  cost: 4
   attack: 4
   defence: 5
   color: ruby
   type: glimmer
   illustrator: Brian Weisz
-  number: 128
-  rarity: rare
   languages: 
     en: 
       name: Tuk Tuk
       title: Wrecking Ball
       flavour: A good friend is always ready to roll.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/128.webp'
     fr: 
       name: Tuk Tuk
       title: Boule de d\u00e9molition
       flavour: Avec un bon ami \u00e7a roule toujours.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/128.webp'
   edition: 
     - regular
     - foil
   actions: 
     - reckless
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 129
+        rarity: common
+  cost: 2
   inkwell: true
   color: ruby
   type: song
   illustrator: Gaku Kumatori
-  number: 129
-  rarity: common
   languages: 
     en: 
       name: Go the Distance
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/129.webp'
     fr: 
       name: Le monde qui est le mien
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/129.webp'
   edition: 
     - regular
     - foil
   actions: 
     - go_the_distance
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 130
+        rarity: rare
+  cost: 2
   inkwell: true
   color: ruby
   type: song
   illustrator: Jake Parker
-  number: 130
-  rarity: rare
   languages: 
     en: 
       name: Teeth and Ambitions
       title: ''
       flavour: "Of course, quid pro quo, you\\u2019re expected \nTo take certain duties on board"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/130.webp'
   edition: 
     - regular
     - foil
   actions: 
     - teeth_and_ambitions
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 131
+        rarity: uncommon
+  cost: 3
   color: ruby
   type: song
   illustrator: Carlos Ruiz
-  number: 131
-  rarity: uncommon
   languages: 
     en: 
       name: The Most Diabolical Scheme
       title: ''
       flavour: "New comes the real tour de force \nTricky and wicked, of course"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/131.webp'
   edition: 
     - regular
     - foil
   actions: 
     - the_most_diabolical_scheme
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 132
+        rarity: common
+  cost: 1
   inkwell: true
   color: ruby
   type: action
   illustrator: Luis Huerta
-  number: 132
-  rarity: common
   languages: 
     en: 
       name: 'What did you call me?'
       title: ''
       flavour: "\\u201cNo one can have a higher opinion of you than I have, and I think you\\u2019re a slimy, contemptible sewer rat!\\u201d \n\\u2212Basil"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/132.webp'
     fr: 
       name: "Comment M'as Tu Nomm\\u00e9 ?"
       title: ''
       flavour: "\"Ratignan, nul n'a une aussi haute opinion de vous que moi-m\\u00eame. Je vous d\\u00e9clare le rat d'\\u00e9gouts le plus visqueux et le plus m\\u00e9prisable qui soit !\" - Basil"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/132.webp'
   edition: 
     - regular
     - foil
   actions: 
     - what_did_you_call_me
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 133
+        rarity: uncommon
+  cost: 2
   inkwell: true
   color: ruby
   type: song
   illustrator: Eva Widermann
-  number: 133
-  rarity: uncommon
   languages: 
     en: 
       name: You Can Fly!
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/133.webp'
     fr: 
       name: "Tu t'Envoles"
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/133.webp'
   edition: 
     - regular
     - foil
   actions: 
     - you_can_fly
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 134
+        rarity: rare
+  cost: 4
   color: ruby
   type: item
   illustrator: Peter Brockhammer
-  number: 134
-  rarity: rare
   languages: 
     en: 
       name: Dinner Bell
       title: ''
       flavour: The delicate sound of impending doom.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/134.webp'
     de: 
       name: Tischglocke
       title: ''
       flavour: Der zarte Klang des bevorstehenden Verh\u00e4ngnisses.
-      image: 'https://lorcana.codlab.eu/images/rotf/de/134.webp'
     fr: 
       name: Clochette Du D\u00eener
       title: ''
       flavour: "Le doux son d'un destin funeste."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/134.webp'
   edition: 
     - regular
     - foil
   actions: 
     - you_know_what_happens
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 135
+        rarity: common
+  cost: 2
   color: ruby
   type: item
   illustrator: Leonardo Giammichele
-  number: 135
-  rarity: common
   languages: 
     en: 
       name: "Peter Pan's Dagger"
       title: ''
       flavour: "Like so much other lore, Peter Pan's dagger was safe in the Great Illuminary until the flood."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/135.webp'
   edition: 
     - regular
     - foil
   actions: 
     - peter_pans_dagger
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 136
+        rarity: uncommon
+  cost: 1
   color: ruby
   type: item
   illustrator: Gaku Kumatori
-  number: 136
-  rarity: uncommon
   languages: 
     en: 
       name: Sword In The Stone
       title: ''
       flavour: \u201cWhoso pulleth out this sword of this stone and anvil is rightwise king born of England.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/136.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/136.webp'
     fr: 
       name: "L'\\u00c9p\\u00e9e dans l'enclume"
       title: ''
       flavour: "\"Celui qui pourra arracher cette \\u00e9p\\u00e9e de l'enclume\nscell\\u00e9e dans la pierre sera digne d'\\u00eatre roi, souverain\nma\\u00eetre de l'Angleterre.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/136.webp'
   edition: 
     - regular
     - foil
   actions: 
     - sword_in_the_stone
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 137
+        rarity: legendary
+      - id: 213
+        rarity: enchanted
+  cost: 3
   inkwell: true
   attack: 1
   defence: 4
   color: sapphire
   type: glimmer
   illustrator: Alice Pisoni
-  number: 137
-  rarity: legendary
   languages: 
     en: 
       name: Alice
       title: Growing Girl
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/137.webp'
     fr: 
       name: Alice
       title: En pleine croissance
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/137.webp'
   edition: 
     - regular
     - foil
   actions: 
     - good_advice
     - what_did_i_do
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 138
+        rarity: super_rare
+  cost: 6
   inkwell: true
   attack: 3
   defence: 4
   color: sapphire
   type: glimmer
   illustrator: Bill Robinson
-  number: 138
-  rarity: super_rare
   languages: 
     en: 
       name: Basil
       title: Great Mouse Detective
       flavour: A solution always presents itself.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/138.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/138.webp'
     fr: 
       name: Basil
       title: D\u00e9tective Priv\u00e9
       flavour: "Une solution se pr\\u00e9sente toujours d'elle-m\\u00eame."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/138.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_5
     - theres_always_a_chance
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 139
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 2
   defence: 2
   color: sapphire
   type: glimmer
   illustrator: Jake Parker
-  number: 139
-  rarity: common
   languages: 
     en: 
       name: Basil
       title: Of Baker Street
       flavour: \u201cWhat an ingenious device! If its light is refracted through these, then its images must resolve somewhere below.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/139.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/139.webp'
     fr: 
       name: Basil
       title: De Baker Street
       flavour: '"Quel dispositifing\u00e9nieux ! Si sa lumi\u00e8re est r\u00e9fract\u00e9e \u00e0 travers ceux-ci, alors ses images doivent se r\u00e9soudre quelque part en dessous."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/139.webp'
   edition: 
     - regular
     - foil
   actions: 
     - support
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 140
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 3
   defence: 4
   color: sapphire
   type: glimmer
   illustrator: Roger Perez
-  number: 140
-  rarity: common
   languages: 
     en: 
       name: Basil
       title: Perceptive Investigator
       flavour: '\u201cThere is no question: something is afoot in the Great Illuminary.\u201d'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/140.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/140.webp'
     fr: 
       name: Basil
       title: Enqu\u00eateur Perspicace
       flavour: "\"Il n'y a pas de doute : quelque chose se trame dans le Grand Illuminarium.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/140.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 141
+        rarity: uncommon
+  cost: 3
   inkwell: true
   attack: 1
   defence: 3
   color: sapphire
   type: glimmer
   illustrator: Cory Godbey
-  number: 141
-  rarity: uncommon
   languages: 
     en: 
       name: Caterpillar
       title: Calm and Collected
       flavour: \u201cKeep your tempo.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/141.webp'
     fr: 
       name: La Chenille
       title: Chill et vaporeux
       flavour: '"Vas-y \u00e0 ton rythme."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/141.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 142
+        rarity: super_rare
+  cost: 5
   inkwell: true
   attack: 2
   defence: 5
   color: sapphire
   type: glimmer
   illustrator: Isaiah Mesq
-  number: 142
-  rarity: super_rare
   languages: 
     en: 
       name: Cogsworth
       title: Grandfather Clock
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/142.webp'
     de: 
       name: Von Unruh
       title: Standuhr
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/142.webp'
     fr: 
       name: BIG BEN
       title: 'Horloge de Grand-P\u00e8re'
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/142.webp'
   edition: 
     - regular
     - foil
@@ -3917,944 +3768,912 @@
     - shift_3
     - ward
     - unwind
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 143
+        rarity: uncommon
+  cost: 2
   inkwell: true
   attack: 2
   defence: 3
   color: sapphire
   type: glimmer
   illustrator: Leonardo Giammichele
-  number: 143
-  rarity: uncommon
   languages: 
     en: 
       name: Cogsworth
       title: Talking Clock
       flavour: "\\u201cThis has gone far enough. I'm charge here.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/143.webp'
     de: 
       name: Von Unruh
       title: Sprechende Uhr
       flavour: \u201eAlso jetzt reicht es aber. Ich trage hier die Verantwortung\u201c
-      image: 'https://lorcana.codlab.eu/images/rotf/de/143.webp'
     fr: 
       name: BIG BEN
       title: Horloge Parlante
       flavour: "\\u201cCa suffit. C'est moi qui suis en charge ici.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/143.webp'
   edition: 
     - regular
     - foil
   actions: 
     - wait_a_minute
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 144
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 3
   defence: 2
   color: sapphire
   type: glimmer
   illustrator: Aisha Durmagambetova
-  number: 144
-  rarity: common
   languages: 
     en: 
       name: Cruella De Vil
       title: Fashionable Cruiser
       flavour: "\\u201cIsn't it just gorgeous, darling? And just as stylish as I am.\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/144.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/144.webp'
     fr: 
       name: "Cruella D'enfer"
       title: Collection croisi\u00e8re
       flavour: "\"N'est-ce pas magnifique, ma ch\\u00e9rie ? Et tout aussi \\u00e9l\\u00e9gant que moi.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/144.webp'
   edition: 
     - regular
     - foil
   actions: 
     - now_get_going
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 145
+        rarity: uncommon
+  cost: 5
   inkwell: true
   attack: 4
   defence: 3
   color: sapphire
   type: glimmer
   illustrator: 'GusGadget \/ Leonardo Giammichele'
-  number: 145
-  rarity: uncommon
   languages: 
     en: 
       name: Cruella De Vil
       title: Perfectly Wretched
       flavour: "\\u201cIt's ink couture, darling. I wear only the best!\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/145.webp'
     fr: 
       name: "Cruella d'enfer"
       title: Cruellement infecte
       flavour: "\"C'est de la couture d'encre,ch\\u00e9rie. Je ne porte que le meilleur !\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/145.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_3
     - oh_no_you_dont
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 146
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 1
   defence: 2
   color: sapphire
   type: glimmer
   illustrator: 'Rosa la Barbera \/ Leonardo Giammichele'
-  number: 146
-  rarity: common
   languages: 
     en: 
       name: Duke Weaselton
       title: 'Small-Time Crook'
       flavour: '\u201cIt\u2019s Wee-sel-ton.\u201d'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/146.webp'
     fr: 
       name: Duke Weaselton
       title: Escroc \u00e0 la petite semaine
       flavour: "\"C'est Weo-sel-ton.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/146.webp'
   edition: 
     - regular
     - foil
   actions: 
     - ward
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 147
+        rarity: rare
+  cost: 6
   attack: 4
   defence: 4
   color: sapphire
   type: glimmer
   illustrator: Matthew Robert Davies
-  number: 147
-  rarity: rare
   languages: 
     en: 
       name: Gaston
       title: Intellectual Powerhouse
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/147.webp'
     de: 
       name: Gaston
       title: Intellektuelles Kraftpaket
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/147.webp'
     fr: 
       name: Gaston
       title: Fort du cerveau
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/147.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_4
     - developed_brain
-  set_code: rotf
   franchise_id: unknown
-- cost: 7
+- sets:
+    rotf:
+      - id: 148
+        rarity: super_rare
+  cost: 7
   attack: 3
   defence: 6
   color: sapphire
   type: glimmer
   illustrator: Juan Diego Leon
-  number: 148
-  rarity: super_rare
   languages: 
     en: 
       name: Grand Pabbie
       title: Oldest and Wisest
       flavour: When he talks, even sky listens.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/148.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/148.webp'
     fr: 
       name: Grand Pabbie
       title: Le plus vieux et le plus sage
       flavour: "Lorsqu'il parle m\\u00eame le ciel \\u00e9coute."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/148.webp'
   edition: 
     - regular
     - foil
   actions: 
     - ancient_insight
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 149
+        rarity: rare
+  cost: 4
   inkwell: true
   attack: 1
   defence: 6
   color: sapphire
   type: glimmer
   illustrator: Leonardo Giammichele
-  number: 149
-  rarity: rare
   languages: 
     en: 
       name: Hiram Flaversham
       title: Toymaker
       flavour: "His creations are even more wondrous with the Illuminary's resources at his fingertips."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/149.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/149.webp'
     fr: 
       name: Flaversham
       title: Fabricant de jouets
       flavour: "Ses cr\\u00e9atures sont encore plus merveilleuses avec les ressources de l'Illuminarium \\u00e0 port\\u00e9e de main."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/149.webp'
   edition: 
     - regular
     - foil
   actions: 
     - artificer
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 150
+        rarity: common
+  cost: 4
   attack: 3
   defence: 3
   color: sapphire
   type: glimmer
   illustrator: Kevin Hong
-  number: 150
-  rarity: common
   languages: 
     en: 
       name: James
       title: Role Model
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/150.webp'
     fr: 
       name: James
       title: Parent mod\u00e8le
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/150.webp'
   edition: 
     - regular
     - foil
   actions: 
     - never_ever_lose_sight
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 151
+        rarity: common
+  cost: 1
   inkwell: true
   attack: 1
   defence: 2
   color: sapphire
   type: glimmer
   illustrator: 'R. la Barbera \/ L. Giammichele'
-  number: 151
-  rarity: common
   languages: 
     en: 
       name: Jasmine
       title: Heir of Agrabah
       flavour: She may be young, but she\u2019s got the spirit of a true leader.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/151.webp'
     fr: 
       name: Jasmine
       title: "H\\u00e9riti\\u00e8re d'Agrabah"
       flavour: "Elle est peut-\\u00eatre jeune, mais elle a l'\\u00e2me d'une v\\u00e9ritable cheffe."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/151.webp'
   edition: 
     - regular
     - foil
   actions: 
     - im_a_fast_learner
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 152
+        rarity: uncommon
+  cost: 3
   inkwell: true
   attack: 2
   defence: 3
   color: sapphire
   type: glimmer
   illustrator: Arianna Rea
-  number: 152
-  rarity: uncommon
   languages: 
     en: 
       name: Judy Hopps
       title: Optimistic Officer
       flavour: "\\u201cI'll get to the bottom of what happened with that locked lorebook. You can count on me!\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/152.webp'
     fr: 
       name: Judy Hopps
       title: Polici\u00e8re optimiste
       flavour: "\"Je vais faire toute la lumi\\u00e8re sur ce qui s'est pass\\u00e9 avec ce livre de Lore. Vous pouvez compter sur moi !\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/152.webp'
   edition: 
     - regular
     - foil
   actions: 
     - dont_call_me_cute
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 153
+        rarity: rare
+  cost: 4
   attack: 1
   defence: 5
   color: sapphire
   type: glimmer
   illustrator: Michaela Martin
-  number: 153
-  rarity: rare
   languages: 
     en: 
       name: Mrs. Judson
       title: Housekeeper
       flavour: \u201cI know just the thing. Let me fetch you a pot of tea and some of my fresh cheese crumpets.\u201c
-      image: 'https://lorcana.codlab.eu/images/rotf/en/153.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/153.webp'
     fr: 
       name: Mrs. Judson
       title: Gouvernante
       flavour: "\"Je sais exactement ce qu'il vous faut. Laissez-moi vous\nchercher une th\\u00e9i\\u00e8re et quelques-uns de mes crumpets au\nfromage frais."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/153.webp'
   edition: 
     - regular
     - foil
   actions: 
     - tidy_up
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 154
+        rarity: uncommon
+  cost: 4
   inkwell: true
   attack: 2
   defence: 4
   color: sapphire
   type: glimmer
   illustrator: Brian Weisz
-  number: 154
-  rarity: uncommon
   languages: 
     en: 
       name: Nick Wilde
       title: Wily Fox
       flavour: "\\u201cIt's criminal how good these things taste!\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/154.webp'
   edition: 
     - regular
     - foil
   actions: 
     - its_called_a_hustle
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 155
+        rarity: rare
+  cost: 2
   inkwell: true
   color: sapphire
   type: glimmer
-  number: 155
-  rarity: rare
   languages: 
     en: 
       name: Noi
       title: Orphaned Thief
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/155.webp'
   edition: 
     - regular
     - foil
   actions: 
     - hide_and_seek
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 156
+        rarity: common
+  cost: 1
   inkwell: true
   attack: 2
   defence: 2
   color: sapphire
   type: glimmer
   illustrator: Agnes Christianson
-  number: 156
-  rarity: common
   languages: 
     en: 
       name: Owl
       title: Logical Lecturer
       flavour: \u201cFor instance, based on the quality of the light and the subtle change in wind direction, I can safely say that it is time for tea.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/156.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/156.webp'
     fr: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/156.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 157
+        rarity: rare
+  cost: 4
   inkwell: true
   attack: 3
   defence: 3
   color: sapphire
   type: glimmer
   illustrator: 'Vicky Xie \/ Mariana Moreno'
-  number: 157
-  rarity: rare
   languages: 
     en: 
       name: Prince Charming
       title: Heir to the Throne
       flavour: "He'd searched across the Inklands for the young woman who'd stolen his heart at the ball, only to find more mysteries."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/157.webp'
     de: 
       name: Prinz Charming
       title: Thronerbe
       flavour: Er suchte im ganzen Tintenreich nach der jungen Frau, die auf dem Ball sein Herz gestohlen hatte. Doch er fand nur weitere Mysterien.
-      image: 'https://lorcana.codlab.eu/images/rotf/de/157.webp'
     fr: 
       name: Prince Charmant
       title: H\u00e9ritier du tr\u00f4ne
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/157.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 158
+        rarity: common
+  cost: 5
   inkwell: true
   attack: 4
   defence: 6
   color: sapphire
   type: glimmer
   illustrator: Giulia Riva
-  number: 158
-  rarity: common
   languages: 
     en: 
       name: Rabbit
       title: Reluctant Host
       flavour: "Pooh: \\u201cIsn\\u2019t there anybody here at all?\\u201d \nRabbit: \\u201cNobody!\\u201d \nPooh: \\u201cSomebody's there . . . because somebody must have said \\u2018Nobody.\\u2019\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/158.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 159
+        rarity: legendary
+      - id: 214
+        rarity: enchanted
+  cost: 4
   attack: 2
   defence: 4
   color: sapphire
   type: glimmer
   illustrator: Grace Tran
-  number: 159
-  rarity: legendary
   languages: 
     en: 
       name: Sisu
       title: Divine Water Dragon
       flavour: No matter her shape, you can\u2019t mistake her heart.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/159.webp'
   edition: 
     - regular
     - foil
   actions: 
     - i_trust_you
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 160
+        rarity: common
+  cost: 4
   inkwell: true
   attack: 4
   defence: 3
   color: sapphire
   type: glimmer
   illustrator: Hadjie Joos
-  number: 160
-  rarity: common
   languages: 
     en: 
       name: The Nokk
       title: Water Spirit
       flavour: As elusive as water.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/160.webp'
     fr: 
       name: Nokk
       title: "Esprit de l'Eau"
       flavour: "Telle l'eau, il vous glissera toujours entre les doigts."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/160.webp'
   edition: 
     - regular
     - foil
   actions: 
     - ward
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 161
+        rarity: rare
+  cost: 3
   inkwell: true
   attack: 2
   defence: 3
   color: sapphire
   type: glimmer
   illustrator: Rianti Hidayat
-  number: 161
-  rarity: rare
   languages: 
     en: 
       name: Winnie the Pooh
       title: Having a Think
       flavour: When he thought, he thought in the most thoughtful way he could think.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/161.webp'
     fr: 
       name: "Winnie L'Ourson"
       title: Pense pense pense
       flavour: "Aussi, quand il r\\u00e9fl\\u00e9chissait, il r\\u00e9fl\\u00e9chissait de la mani\\u00e8re la plus r\\u00e9fl\\u00e9chie qu'il pouvait."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/161.webp'
   edition: 
     - regular
     - foil
   actions: 
     - hunny_pot
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 162
+        rarity: rare
+  cost: 4
   color: sapphire
   type: action
   illustrator: Lissette Carrera
-  number: 162
-  rarity: rare
   languages: 
     en: 
       name: Falling Down the Rabbit Hole
       title: ''
       flavour: Down, down, down she went, floating in a swirl of ink. How curious!
-      image: 'https://lorcana.codlab.eu/images/rotf/en/162.webp'
     fr: 
       name: Chute dans le terrier du lapin
       title: ''
       flavour: "Tombe, tombe, tombe, flottant dans un tourbillon d'encre. Comme c'\\u00e9tait curieux !"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/162.webp'
   edition: 
     - regular
     - foil
   actions: 
     - falling_down_the_rabbit_hole
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 163
+        rarity: uncommon
+    promos:
+      - id: 33
+        rarity: pax_unplugged2023
+  cost: 4
   inkwell: true
   color: sapphire
   type: song
   illustrator: Jochem Van Gool
-  number: 163
-  rarity: uncommon
   languages: 
     en: 
       name: Four Dozen Eggs
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/163.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/163.webp'
     fr: 
       name: "Quatre douzaines d'oeufs"
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/163.webp'
   edition: 
     - regular
     - foil
   actions: 
     - four_dozen_eggs
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 164
+        rarity: uncommon
+  cost: 3
   color: sapphire
   type: action
   illustrator: Juan Diego Leon
-  number: 164
-  rarity: uncommon
   languages: 
     en: 
       name: Launch
       title: ''
       flavour: 'Ready . . . aim . . . coconut?'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/164.webp'
     fr: 
       name: Projectil de fortune
       title: ''
       flavour: 'Armez...Visez...Noix de coco ?'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/164.webp'
   edition: 
     - regular
     - foil
   actions: 
     - launch
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 165
+        rarity: common
+  cost: 1
   inkwell: true
   color: sapphire
   type: action
   illustrator: 'Mane Kandalyan \/ Jochem Van Gool'
-  number: 165
-  rarity: common
   languages: 
     en: 
       name: Nothing to Hide
       title: ''
       flavour: Helps you avoid unpleasant surprises.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/165.webp'
   edition: 
     - regular
     - foil
   actions: 
     - nothing_to_hide
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 166
+        rarity: uncommon
+  cost: 3
   inkwell: true
   color: sapphire
   type: item
   illustrator: Antonia Flechsig
-  number: 166
-  rarity: uncommon
   languages: 
     en: 
       name: Fang Crossbow
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/166.webp'
     de: 
       name: Armbrust aus Zahn
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/166.webp'
     fr: 
       name: Arbal\u00e8te \u00e0 Crocs
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/166.webp'
   edition: 
     - regular
     - foil
   actions: 
     - carefulaim
     - stay_back
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 167
+        rarity: common
+  cost: 2
   inkwell: true
   color: sapphire
   type: item
   illustrator: Tanisha Cherislin
-  number: 167
-  rarity: common
   languages: 
     en: 
       name: Gumbo Pot
       title: ''
       flavour: "\\u201cA gift this special just got to be shared.\\u201d \n\\u2212James"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/167.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/167.webp'
     fr: 
       name: Marmite de Gumbo
       title: ''
       flavour: "\"C'est merveilleux. Il faut que tout le monde en profite.\"\n\\u2212 James"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/167.webp'
   edition: 
     - regular
     - foil
   actions: 
     - the_best_ive_ever_tasted
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 168
+        rarity: rare
+  cost: 3
   color: sapphire
   type: item
   illustrator: Antonia Flechsig
-  number: 168
-  rarity: rare
   languages: 
     en: 
       name: "Maurice's Workshop"
       title: ''
       flavour: The solution you need could be just a few adjustments away.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/168.webp'
   edition: 
     - regular
     - foil
   actions: 
     - looking_for_this
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 169
+        rarity: common
+  cost: 1
   inkwell: true
   color: sapphire
   type: item
   illustrator: Isaiah Mesq
-  number: 169
-  rarity: common
   languages: 
     en: 
       name: Pawpsicle
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/169.webp'
   edition: 
     - regular
     - foil
   actions: 
     - jumbo_pop
     - thats_redwood
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 170
+        rarity: uncommon
+  cost: 4
   inkwell: true
   color: sapphire
   type: item
   illustrator: Peter Brockhammer
-  number: 170
-  rarity: uncommon
   languages: 
     en: 
       name: Sardine Can
       title: ''
       flavour: "\\u201cFlight 3759 boarding now! Let\\u2019s go get that lore!\\u201d \n\\u2013Orville"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/170.webp'
   edition: 
     - regular
     - foil
   actions: 
     - flight_cabin
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 171
+        rarity: common
+  cost: 4
   inkwell: true
   attack: 3
   defence: 4
   color: steel
   type: glimmer
   illustrator: Alice Pisoni
-  number: 171
-  rarity: common
   languages: 
     en: 
       name: Beast
       title: Forbidding Recluse
       flavour: Woe to the one who draws his gaze.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/171.webp'
     fr: 
       name: La B\u00eate
       title: Reclus inhospitalier
       flavour: Malheur \u00e0 celui qui croisera son regard.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/171.webp'
   edition: 
     - regular
     - foil
   actions: 
     - youre_not_welcome_here
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 172
+        rarity: super_rare
+  cost: 6
   inkwell: true
   attack: 2
   defence: 8
   color: steel
   type: glimmer
   illustrator: Matthew Robert Davies
-  number: 172
-  rarity: super_rare
   languages: 
     en: 
       name: Beast
       title: Selfless Protector
       flavour: \u201cYou\u2019ll have to go through me first.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/172.webp'
     fr: 
       name: La B\u00eate
       title: Pr\u00eat \u00e0 se sacrifier
       flavour: "\"Il faudra d'abord me passer sur le corps.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/172.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shield_another
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 173
+        rarity: legendary
+  cost: 5
   inkwell: true
   attack: 3
   defence: 5
   color: steel
   type: glimmer
   illustrator: Evana Kisa
-  number: 173
-  rarity: legendary
   languages: 
     en: 
       name: Beast
       title: Tragic Hero
       flavour: \u201cIt must be my destiny\u2212to remain a beast forever.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/173.webp'
     fr: 
       name: La B\u00eate
       title: H\u00e9ros tragique
       flavour: '"Rester une B\u00eate \u00e0 tout jamais, tel est mon destin."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/173.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_3
     - its_better_this_way
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 174
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 2
   defence: 3
   color: steel
   type: glimmer
   illustrator: Grace Tran
-  number: 174
-  rarity: common
   languages: 
     en: 
       name: Benja
       title: Guardian of the Dragon Gem
       flavour: \u201cDon\u2019t mistake spirit for skill.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/174.webp'
     fr: 
       name: Benja
       title: Gardien de la Pierre de Dragon
       flavour: '"Ne confondez pas courage et comp\u00e9tence."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/174.webp'
   edition: 
     - regular
     - foil
   actions: 
     - we_have_a_choice
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 175
+        rarity: rare
+  cost: 4
   inkwell: true
   attack: 2
   defence: 4
   color: steel
   type: glimmer
   illustrator: Adam Banch
-  number: 175
-  rarity: rare
   languages: 
     en: 
       name: Chief Bogo
       title: Respected Officer
       flavour: \u201cWe can confirm the ink flood was caused by an explosion. We have it under control\u2212now clear the area.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/175.webp'
     fr: 
       name: Chef Bogo
       title: Officier respect\u00e9
       flavour: "\"Nous pouvons confirmer que l'inondation d'encre a \\u00e9t\\u00e9 caus\\u00e9e par une explosion. Nous avons la situation en main, maintenant \\u00e9vacuez la zone.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/175.webp'
   edition: 
     - regular
     - foil
   actions: 
     - insubordination
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 176
+        rarity: common
+    promos:
+      - id: 14
+        rarity: organized_play
+  cost: 2
   inkwell: true
   attack: 2
   defence: 2
   color: steel
   type: glimmer
   illustrator: Grace Tran
-  number: 176
-  rarity: common
   languages: 
     en: 
       name: Cinderella
       title: Knight in Training
       flavour: "She's always had the heart of a champion - now she'll have the skills, too."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/176.webp'
     de: 
       name: Cinderella
       title: Ritterin in Ausbildung
       flavour: 'Sie hatte stets das Zeug zur Spitzenreiterin - bald w\u00fcrde sie ihre Fertigkeiten unter Beweis stellen.'
-      image: 'https://lorcana.codlab.eu/images/rotf/de/176.webp'
     fr: 
       name: Cendrillon
       title: "Chevalier \\u00e0 l'entra\\u00eenement"
       flavour: "Elle a toujours eu le c\\u0153ur d'une championne, bient\\u00f4t elle\nen aura aussi les comp\\u00e9tences."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/176.webp'
   edition: 
     - regular
     - foil
   actions: 
     - have_courage
-  set_code: rotf
   franchise_id: unknown
-- cost: 7
+- sets:
+    rotf:
+      - id: 177
+        rarity: super_rare
+  cost: 7
   inkwell: true
   attack: 5
   defence: 5
   color: steel
   type: glimmer
   illustrator: Grace Tran
-  number: 177
-  rarity: super_rare
   languages: 
     en: 
       name: Cinderella
       title: Stouthearted
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/177.webp'
     de: 
       name: Cinderella
       title: Beherzt
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/177.webp'
     fr: 
       name: Cendrillon
       title: C\u0153ur vaillant
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/177.webp'
   edition: 
     - regular
     - foil
@@ -4862,1040 +4681,712 @@
     - shift_5
     - resist_2
     - the_singing_sword
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 178
+        rarity: common
+  cost: 5
   inkwell: true
   attack: 6
   defence: 5
   color: steel
   type: glimmer
   illustrator: Nicholas Kole
-  number: 178
-  rarity: common
   languages: 
     en: 
       name: Donald Duck
       title: 'Deep-Sea Diver'
       flavour: "\"You go ahead, Minnie! I'm going to see if there's any lore over here.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/en/178.webp'
     fr: 
       name: Donald
       title: Plongeur en eau profonde
       flavour: "\"Continue, Minnie ! Je vais voir s'il y a des \\u00e9clats de Lore par ici.\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/178.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 179
+        rarity: uncommon
+  cost: 4
   inkwell: true
   attack: 2
   defence: 5
   color: steel
   type: glimmer
   illustrator: Isaiah Mesq
-  number: 179
-  rarity: uncommon
   languages: 
     en: 
       name: Eli La Bouff
       title: Big Daddy
       flavour: "\\u201cI don't suppose y'all could whip up some more magical beignets with them inkcasters?\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/179.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/179.webp'
     fr: 
       name: Eli Le Boeuf
       title: Big Daddy
       flavour: "\"Tu ne peux pas simplement invoquer al\\u00e9atoirement des beignets avec tes cr\\u00e9ateurs d'encre ?\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/179.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 9
+- sets:
+    rotf:
+      - id: 180
+        rarity: rare
+  cost: 9
   inkwell: true
   attack: 10
   defence: 10
   color: steel
   type: glimmer
   illustrator: Marco Giorgianni
-  number: 180
-  rarity: rare
   languages: 
     en: 
       name: Goofy
       title: Knight for a Day
       flavour: It\u2019s a banner day for Sir Goofy, who is steeled to prove his mettle against anyone courting trouble\u2212joust in case.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/180.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/180.webp'
     fr: 
       name: Dingo
       title: Chevalier pour un jour
       flavour: "C'est une glorieuse journ\\u00e9e pour Sir Dingo, qui est acier vaillant pour d\\u00e9fier quiconque souhaitant conter fleurette aux ennuis. Joute au cas o\\u00f9."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/180.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 181
+        rarity: rare
+      - id: 215
+        rarity: enchanted
+  cost: 6
   inkwell: true
   attack: 6
   defence: 3
   color: steel
   type: glimmer
   illustrator: Grace Tran
-  number: 181
-  rarity: rare
   languages: 
     en: 
       name: Hercules
       title: Divine Hero
       flavour: A good guy to have around when something wrecks your inkworks.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/181.webp'
     fr: 
       name: Hercule
       title: H\u00e9ros divin
       flavour: "Un bon gars \\u00e0 avoir \\u00e0 port\\u00e9e de main quand quelque chose ruine vos cr\\u00e9ations d'encre."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/181.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_4
     - resist_2
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 182
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 2
   defence: 3
   color: steel
   type: glimmer
   illustrator: Eva Widermann
-  number: 182
-  rarity: common
   languages: 
     en: 
       name: Hercules
       title: Hero in Training
       flavour: 'No need to call IX-I-I!'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/182.webp'
     fr: 
       name: Hercule
       title: "H\\u00e9ros \\u00e0 l'entrainement"
       flavour: "Inutile d'appeler IX-I-I!"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/182.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 183
+        rarity: uncommon
+  cost: 4
   inkwell: true
   attack: 3
   defence: 4
   color: steel
   type: glimmer
   illustrator: Cam Kendell
-  number: 183
-  rarity: uncommon
   languages: 
     en: 
       name: Jafar
       title: Dreadnought
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/183.webp'
     fr: 
       name: Jafar
       title: Serpent cuirass\u00e9
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/183.webp'
   edition: 
     - regular
     - foil
   actions: 
     - shift_2
     - now_where_were_we
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 184
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 3
   defence: 2
   color: steel
   type: glimmer
   illustrator: Rob Di Salvo
-  number: 184
-  rarity: common
   languages: 
     en: 
       name: Jafar
       title: Royal Vizier
       flavour: \u201cSoon you\u2019ll learn who holds the real power!\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/184.webp'
     fr: 
       name: Jafar
       title: Grand Vizir
       flavour: '"Bient\u00f4t, vous apprendrez qui d\u00e9tient le vrai pouvoir !"'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/184.webp'
   edition: 
     - regular
     - foil
   actions: 
     - i_dont_trust_him_sire
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 185
+        rarity: rare
+  cost: 6
   inkwell: true
   attack: 4
   defence: 5
   color: steel
   type: glimmer
   illustrator: Brian Weisz
-  number: 185
-  rarity: rare
   languages: 
     en: 
       name: Kronk
       title: Junior Chipmunk
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/185.webp'
     fr: 
       name: Kronk
       title: Ragondin junior
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/185.webp'
   edition: 
     - regular
     - foil
   actions: 
     - resist_1
     - scout_leader
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 185
+        rarity: uncommon
+  cost: 3
   inkwell: true
   attack: 0
   defence: 4
   color: steel
   type: glimmer
   illustrator: Luis Huerta
-  number: 186
-  rarity: uncommon
   languages: 
     en: 
       name: Lawrence
       title: Jealous Manservant
       flavour: In this new world, the crown could finally be his.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/186.webp'
     fr: 
       name: Lawrence
       title: Valet jaloux
       flavour: Dans ce nouveau monde, la couronne pourrait enfin \u00eatre \u00e0 lui.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/186.webp'
   edition: 
     - regular
     - foil
   actions: 
     - payback
-  set_code: rotf
   franchise_id: unknown
-- cost: 5
+- sets:
+    rotf:
+      - id: 187
+        rarity: uncommon
+  cost: 5
   inkwell: true
   attack: 3
   defence: 5
   color: steel
   type: glimmer
   illustrator: Cristian Romero
-  number: 187
-  rarity: uncommon
   languages: 
     en: 
       name: Li Shang
       title: Archery Instructor
       flavour: \u201cLearn what to do, then learn to do it without thought.\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/187.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/187.webp'
     fr: 
       name: Li Shang
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/187.webp'
   edition: 
     - regular
     - foil
   actions: 
     - archery_lesson
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 188
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 2
   defence: 3
   color: steel
   type: glimmer
   illustrator: Cristian Romero
-  number: 188
-  rarity: common
   languages: 
     en: 
       name: Magic Broom
       title: Industrial Model
       flavour: Even with a hauling weight of \u201cseriously, a lot,\u201d it can only do so much in a magical flood.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/188.webp'
   edition: 
     - regular
     - foil
   actions: 
     - make_it_shine
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 189
+        rarity: legendary
+      - id: 216
+        rarity: enchanted
+  cost: 4
   attack: 2
   defence: 4
   color: steel
   type: glimmer
   illustrator: Jenna Gray
-  number: 189
-  rarity: legendary
   languages: 
     en: 
       name: Namaari
       title: Morning Mist
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/189.webp'
   edition: 
     - regular
     - foil
   actions: 
     - bodyguard
     - blades
-  set_code: rotf
   franchise_id: unknown
-- cost: 6
+- sets:
+    rotf:
+      - id: 190
+        rarity: uncommon
+  cost: 6
   inkwell: true
   attack: 4
   defence: 8
   color: steel
   type: glimmer
   illustrator: Koni
-  number: 190
-  rarity: uncommon
   languages: 
     en: 
       name: Pacha
       title: Village Leader
       flavour: "\\u201cDon't be fooled by the folksy peasant look.\\u201d \n\\u2212Kuzco"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/190.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 191
+        rarity: common
+  cost: 3
   inkwell: true
   attack: 4
   defence: 3
   color: steel
   type: glimmer
   illustrator: Gaku Kumatori
-  number: 191
-  rarity: common
   languages: 
     en: 
       name: Prince Naveen
       title: Penniless Royal
       flavour: "All he's got is his charm."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/191.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/191.webp'
     fr: 
       name: Prince Naveen
       title: Prince sans moyens
       flavour: "Tout ce qu'il poss\\u00e8de, c'est son charme"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/191.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 7
+- sets:
+    rotf:
+      - id: 192
+        rarity: rare
+  cost: 7
   inkwell: true
   attack: 5
   defence: 6
   color: steel
   type: glimmer
   illustrator: Jenna Gray
-  number: 192
-  rarity: rare
   languages: 
     en: 
       name: Queen of Hearts
       title: Capricious Monarch
       flavour: 'The fourth Rule of Villainy: Do whatever it takes to get ahead.'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/192.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/192.webp'
     fr: 
       name: Reine de Coeur
       title: Monarque Capricieux
       flavour: 'La quatri\u00e8me r\u00e8gle de la vie de bandit : Pour \u00eatre toujours en t\u00eate, parfois tu dois risquer ta vie.'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/192.webp'
   edition: 
     - regular
     - foil
   actions: 
     - off_with_their_heads
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 193
+        rarity: uncommon
+    promos:
+      - id: 17
+        rarity: organized_play
+  cost: 2
   attack: 1
   defence: 3
   color: steel
   type: glimmer
   illustrator: Noukah
-  number: 193
-  rarity: uncommon
   languages: 
     en: 
       name: Robin Hood
       title: Capable Fighter
       flavour: "\\u201cCapable? You don't know the half of it.\\u201d\n\\u2212Little John"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/193.webp'
     de: 
       name: Robin Hood
       title: Kompetenter K\u00e4mpfer
       flavour: '\u201eKompetent? Das beschreibt ihn nicht mal zur H\u00e4lfte.\u201c - Little John'
-      image: 'https://lorcana.codlab.eu/images/rotf/de/193.webp'
     fr: 
       name: Robin des Bois
       title: Habile combattant
       flavour: "\"Habile ? Vous n'avez m\\u00eame pas id\\u00e9e !\"\n\\u2212Petit Jean"
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/193.webp'
   edition: 
     - regular
     - foil
   actions: 
     - skirmish
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 194
+        rarity: common
+  cost: 2
   inkwell: true
   attack: 1
   defence: 1
   color: steel
   type: glimmer
   illustrator: Gaku Kumatori
-  number: 194
-  rarity: common
   languages: 
     en: 
       name: The Huntsman
       title: Reluctant Enforcer
       flavour: \u201cRun away, hide! In the woods, anywhere!\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/194.webp'
     de: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/194.webp'
     fr: 
       name: ''
       title: ''
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/194.webp'
   edition: 
     - regular
     - foil
   actions: 
     - change_of_heart
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 195
+        rarity: uncommon
+  cost: 3
   inkwell: true
   attack: 1
   defence: 3
   color: steel
   type: glimmer
   illustrator: Eri Welli
-  number: 195
-  rarity: uncommon
   languages: 
     en: 
       name: The Prince
       title: Never Gives Up
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/195.webp'
     de: 
       name: Der Prinz
       title: Gibt niemals auf
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/195.webp'
     fr: 
       name: Prince
       title: "N'abandonne jamais"
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/195.webp'
   edition: 
     - regular
     - foil
   actions: 
     - bodyguard
     - resist_1
-  set_code: rotf
   franchise_id: unknown
-- cost: 4
+- sets:
+    rotf:
+      - id: 196
+        rarity: super_rare
+  cost: 4
   attack: 1
   defence: 4
   color: steel
   type: glimmer
   illustrator: Matthew Robert Davies
-  number: 196
-  rarity: super_rare
   languages: 
     en: 
       name: Tiana
       title: Celebrating Princess
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/196.webp'
     de: 
       name: Tiana
       title: Festliche Prinzessin
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/196.webp'
     fr: 
       name: Tiana
       title: Princesse en f\u00eate
       flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/196.webp'
   edition: 
     - regular
     - foil
   actions: 
     - resist_2
     - what_you_give_is_what_you_get
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 197
+        rarity: common
+  cost: 1
   inkwell: true
   attack: 1
   defence: 3
   color: steel
   type: glimmer
   illustrator: Samanta Erdini
-  number: 197
-  rarity: common
   languages: 
     en: 
       name: Tiana
       title: Diligent Waitress
       flavour: \u201cMy place is going to be special, with great food to fill people\u2019s bellies an hot jazz to feed their souls!\u201d
-      image: 'https://lorcana.codlab.eu/images/rotf/en/197.webp'
     fr: 
       name: Tiana
       title: Serveuse consciencieuse
       flavour: '"Ce sera un endroit tr\u00e8s sp\u00e9cial, avec de la bonne nourriture pour remplir les estomacs des gens et du jazz pour nourrir leurs \u00e2mes."'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/197.webp'
   edition: 
     - regular
     - foil
   actions: []
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 198
+        rarity: common
+  cost: 2
   inkwell: true
   color: steel
   type: action
   illustrator: 'Hedvig H\u00e4ggman-Sund'
-  number: 198
-  rarity: common
   languages: 
     en: 
       name: Charge
       title: ''
       flavour: Sometimes subtlety is required. This is not one of those times.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/198.webp'
     fr: 
       name: Fonce !
       title: ''
       flavour: 'Il faut parfois faire preuve de finesse... mais pas cette fois-ci.'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/198.webp'
   edition: 
     - regular
     - foil
   actions: 
     - charge
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 199
+        rarity: common
+  cost: 3
   color: steel
   type: song
   illustrator: 'R. la Barbera \/ L. Giammichele'
-  number: 199
-  rarity: common
   languages: 
     en: 
       name: Let the Storm Rage On
       title: ''
       flavour: The cold never bothered me anyway
-      image: 'https://lorcana.codlab.eu/images/rotf/en/199.webp'
     fr: 
       name: "Perdue dans l'hiver"
       title: ''
       flavour: Le froid est pour moi le prix de la libert\u00e9.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/199.webp'
   edition: 
     - regular
     - foil
   actions: 
     - let_the_storm_rage_on
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 200
+        rarity: uncommon
+  cost: 2
   color: steel
   type: action
   illustrator: 'Pablo Hidalgo \/ Jeff Merghart'
-  number: 200
-  rarity: uncommon
   languages: 
     en: 
       name: Pick a Fight
       title: ''
       flavour: "\\u201cI'm gonna wreck it!\\u201d"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/200.webp'
   edition: 
     - regular
     - foil
   actions: 
     - pick_a_fight
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 201
+        rarity: rare
+  cost: 3
   inkwell: true
   color: steel
   type: song
   illustrator: 'Jared Nickerl \/ Alex Accorsi'
-  number: 201
-  rarity: rare
   languages: 
     en: 
       name: Strength of a Raging Fire
       title: ''
       flavour: "Tranquil as a forest \nBut on fire within"
-      image: 'https://lorcana.codlab.eu/images/rotf/en/201.webp'
   edition: 
     - regular
     - foil
   actions: 
     - strength_of_a_raging_fire
-  set_code: rotf
   franchise_id: unknown
-- cost: 1
+- sets:
+    rotf:
+      - id: 202
+        rarity: common
+  cost: 1
   inkwell: true
   color: steel
   type: item
   illustrator: Jared Nickerl
-  number: 202
-  rarity: common
   languages: 
     en: 
       name: Last Cannon
       title: ''
       flavour: One shot can change everything.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/202.webp'
     fr: 
       name: Dernier canon
       title: ''
       flavour: "Il suffit d'un seul tir pour tout changer."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/202.webp'
   edition: 
     - regular
     - foil
   actions: 
     - arm_yourself
-  set_code: rotf
   franchise_id: unknown
-- cost: 2
+- sets:
+    rotf:
+      - id: 203
+        rarity: uncommon
+  cost: 2
   color: steel
   type: item
   illustrator: Gaku Kumatori
-  number: 203
-  rarity: uncommon
   languages: 
     en: 
       name: Mouse Armor
       title: ''
       flavour: Built by the tiniest of hands for the bravest of hearts.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/203.webp'
     de: 
       name: M\u00e4user\u00fcstung
       title: ''
       flavour: Von den kleinsten H\u00e4nden f\u00fcr die gr\u00f6\u00dften Herzen gefertigt.
-      image: 'https://lorcana.codlab.eu/images/rotf/de/203.webp'
     fr: 
       name: ARMURE DE SOURIS
       title: ''
       flavour: Construites par les mains les plus petites pour les c\u0153urs les plus courageux.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/203.webp'
   edition: 
     - regular
     - foil
   actions: 
     - protection
-  set_code: rotf
   franchise_id: unknown
-- cost: 3
+- sets:
+    rotf:
+      - id: 204
+        rarity: rare
+  cost: 3
   inkwell: true
   color: steel
   type: item
   illustrator: Antonia Flechsig
-  number: 204
-  rarity: rare
   languages: 
     en: 
       name: Weight Set
       title: ''
       flavour: Personally endorsed by Hercules himself!
-      image: 'https://lorcana.codlab.eu/images/rotf/en/204.webp'
     fr: 
       name: Halt\u00e8res
       title: ''
       flavour: 'Recommand\u00e9es par Hercule lui-m\u00eame !'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/204.webp'
   edition: 
     - regular
     - foil
   actions: 
     - training
-  set_code: rotf
-  franchise_id: unknown
-- cost: 1
-  inkwell: true
-  attack: 1
-  defence: 2
-  type: glimmer
-  illustrator: Casey Robin
-  number: 205
-  rarity: enchanted
-  languages: 
-    en: 
-      name: Cinderella
-      title: Ballroom Sensation
-      flavour: With a magical dress and a song in her heart, she dazzled everyone at the ball.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/205.webp'
-    fr: 
-      name: Cendrillon
-      title: Fait sensation au bal
-      flavour: Avec une robe magique et une chanson dans le coeur, elle a \u00e9bloui tout le monde au bal.
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/205.webp'
-  edition: 
-    - enchanted
-  actions: 
-    - singer_3
-  set_code: rotf
-  franchise_id: unknown
-- cost: 5
-  attack: 3
-  defence: 5
-  type: glimmer
-  illustrator: Javi Salas
-  number: 206
-  rarity: enchanted
-  languages: 
-    en: 
-      name: Snow White
-      title: Well Wisher
-      flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/206.webp'
-    fr: 
-      name: 'Blanche-Neige'
-      title: Fait un voeu
-      flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/206.webp'
-  edition: 
-    - enchanted
-  actions: 
-    - wishes_come_true
-  set_code: rotf
-  franchise_id: unknown
-- cost: 3
-  attack: 1
-  defence: 3
-  color: amethyst
-  type: glimmer
-  illustrator: Jake Parker
-  number: 207
-  rarity: enchanted
-  languages: 
-    en: 
-      name: Arthur
-      title: "Wizard's Apprentice"
-      flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/207.webp'
-    fr: 
-      name: Arthur
-      title: "Apprenti de l'Enchanteur"
-      flavour: '"Hmm \u2026 quel sort devrais-je essayer ensuite ?"'
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/207.webp'
-  edition: 
-    - enchanted
-  actions: 
-    - student
-  set_code: rotf
-  franchise_id: unknown
-- cost: 7
-  inkwell: true
-  attack: 5
-  defence: 7
-  color: amethyst
-  type: glimmer
-  illustrator: Ally Zermeno
-  number: 208
-  rarity: enchanted
-  languages: 
-    en: 
-      name: Madam Mim
-      title: Purple Dragon
-      flavour: '\u201cDid I say no purple dragons? Did I?\u201d'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/208.webp'
-    de: 
-      name: Madame Mim
-      title: Lila Drache
-      flavour: '\u201eHab ich was gesagt von keine lila Drachen? Nein!\u201c'
-      image: 'https://lorcana.codlab.eu/images/rotf/de/208.webp'
-    fr: 
-      name: Madam Mime
-      title: En dragon
-      flavour: "\"Est-ce que j'ai dit : pas de dragon ?\""
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/208.webp'
-  edition: 
-    - enchanted
-  actions: 
-    - i_win_i_win
-  set_code: rotf
-  franchise_id: unknown
-- cost: 5
-  inkwell: true
-  attack: 3
-  defence: 4
-  color: emerald
-  type: glimmer
-  illustrator: 'Hedvig H\u00e4ggman-Sund'
-  number: 209
-  rarity: enchanted
-  languages: 
-    en: 
-      name: Pete
-      title: Bad Guy
-      flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/209.webp'
-  edition: 
-    - enchanted
-  actions: 
-    - take_that
-    - whos_next
-  set_code: rotf
-  franchise_id: unknown
-- cost: 6
-  inkwell: true
-  attack: 4
-  defence: 5
-  color: emerald
-  type: glimmer
-  illustrator: Eri Welli
-  number: 210
-  rarity: enchanted
-  languages: 
-    en: 
-      name: Beast
-      title: Relentless
-      flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/210.webp'
-    fr: 
-      name: La B\u00eate
-      title: Implacable
-      flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/210.webp'
-  edition: 
-    - enchanted
-  actions: 
-    - second_wind
-  set_code: rotf
-  franchise_id: unknown
-- cost: 6
-  attack: 3
-  defence: 4
-  color: ruby
-  type: glimmer
-  illustrator: Arianna Rea
-  number: 211
-  rarity: enchanted
-  languages: 
-    en: 
-      name: Lady Tremaine
-      title: Imperious Queen
-      flavour: "The twelfth Rule of Villainy: If you don't have a throne, take one."
-      image: 'https://lorcana.codlab.eu/images/rotf/en/211.webp'
-    fr: 
-      name: Madame de Tr\u00e9maine
-      title: Reine imp\u00e9rieuse
-      flavour: "Douzi\\u00e8me r\\u00e8gle de la m\\u00e9chancet\\u00e9 : si tu n'as pas de tr\\u00f4ne, prends-en-un."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/211.webp'
-  edition: 
-    - regular
-    - foil
-  actions: 
-    - power_to_rule_at_last
-  set_code: rotf
-  franchise_id: unknown
-- cost: 3
-  inkwell: true
-  attack: 3
-  defence: 3
-  color: ruby
-  type: glimmer
-  illustrator: 'M. Robert Davies \/ L. Giammichele'
-  number: 212
-  rarity: enchanted
-  languages: 
-    en: 
-      name: Shere Khan
-      title: Menacing Predator
-      flavour: 'The sixth Rule of Villainy: Keep your mind sharp and your claws sharper.'
-      image: 'https://lorcana.codlab.eu/images/rotf/en/212.webp'
-    de: 
-      name: ''
-      title: ''
-      flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/de/212.webp'
-  edition: 
-    - enchanted
-  actions: 
-    - dont_insult_my_intelligence
-  set_code: rotf
-  franchise_id: unknown
-- cost: 3
-  inkwell: true
-  attack: 1
-  defence: 4
-  color: sapphire
-  type: glimmer
-  illustrator: Alice Pisoni
-  number: 213
-  rarity: enchanted
-  languages: 
-    en: 
-      name: Alice
-      title: Growing Girl
-      flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/213.webp'
-    fr: 
-      name: Alice
-      title: En pleine croissance
-      flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/213.webp'
-  edition: 
-    - enchanted
-  actions: 
-    - good_advice
-    - what_did_i_do
-  set_code: rotf
-  franchise_id: unknown
-- cost: 4
-  attack: 2
-  defence: 4
-  color: sapphire
-  type: glimmer
-  illustrator: Grace Tran
-  number: 214
-  rarity: enchanted
-  languages: 
-    en: 
-      name: Sisu
-      title: Divine Water Dragon
-      flavour: No matter her shape, you can\u2019t mistake her heart.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/214.webp'
-  edition: 
-    - enchanted
-  actions: 
-    - i_trust_you
-  set_code: rotf
-  franchise_id: unknown
-- cost: 6
-  inkwell: true
-  attack: 6
-  defence: 3
-  color: steel
-  type: glimmer
-  illustrator: Grace Tran
-  number: 215
-  rarity: enchanted
-  languages: 
-    en: 
-      name: Hercules
-      title: Divine Hero
-      flavour: A good guy to have around when something wrecks your inkworks.
-      image: 'https://lorcana.codlab.eu/images/rotf/en/215.webp'
-    fr: 
-      name: Hercule
-      title: H\u00e9ros divin
-      flavour: "Un bon gars \\u00e0 avoir \\u00e0 port\\u00e9e de main quand quelque chose ruine vos cr\\u00e9ations d'encre."
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/215.webp'
-  edition: 
-    - enchanted
-  actions: []
-  set_code: rotf
-  franchise_id: unknown
-- cost: 4
-  attack: 2
-  defence: 4
-  color: steel
-  type: glimmer
-  illustrator: Jenna Gray
-  number: 216
-  rarity: enchanted
-  languages: 
-    en: 
-      name: Namaari
-      title: Morning Mist
-      flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/en/216.webp'
-    fr: 
-      name: Namaari
-      title: Brume matinale
-      flavour: null
-      image: 'https://lorcana.codlab.eu/images/rotf/fr/216.webp'
-  edition: 
-    - enchanted
-  actions: 
-    - blades
-  set_code: rotf
   franchise_id: unknown

@@ -1,5 +1,7 @@
 package eu.codlab.lorcana
 
+import eu.codlab.lorcana.abilities.Ability
+import eu.codlab.lorcana.abilities.TranslationHolder
 import eu.codlab.platform.Platform
 import eu.codlab.platform.currentPlatform
 import kotlinx.coroutines.test.runTest
@@ -19,6 +21,7 @@ class TestLoadingAbilities {
         val content = Abilities.loadFromResource()
         assertNotNull(content)
         assertTrue(content.isNotEmpty())
+        content.values.forEach { checkAbility(it) }
     }
 
     @Test
@@ -26,5 +29,22 @@ class TestLoadingAbilities {
         val content = Abilities.loadFromGithub()
         assertNotNull(content)
         assertTrue(content.isNotEmpty())
+        content.values.forEach { checkAbility(it) }
+    }
+
+    private fun checkAbility(ability: Ability) = try {
+        checkTranslation(ability.text)
+        checkTranslation(ability.title)
+    } catch (err: Throwable) {
+        println("exception with ${ability}")
+        throw err
+    }
+
+    private fun checkTranslation(translationHolder: TranslationHolder?) {
+        translationHolder?.let {
+            //assertNotNull(it.de)
+            //assertNotNull(it.fr)
+            assertNotNull(it.en)
+        }
     }
 }

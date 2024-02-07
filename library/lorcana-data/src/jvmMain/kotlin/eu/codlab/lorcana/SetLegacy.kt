@@ -6,17 +6,18 @@ import korlibs.io.experimental.KorioExperimentalApi
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 
-enum class SetLegacy(private val set: Set) {
-    PROMOS(Set.PROMOS),
-    TFC(Set.TFC),
-    ROTF(Set.ROTF);
+enum class SetLegacy(private val set: SetDescription) {
+    TFC(SetDescription.TFC),
+    ROTF(SetDescription.RotF),
+    PROMOS(SetDescription.Promos);
 
     @OptIn(DelicateCoroutinesApi::class, KorioExperimentalApi::class)
-    suspend fun loadFromGithub(tag: String = "main"): Promise<List<RawCard>> {
+    suspend fun loadFromGithub(tag: String = "main"): Promise<Set> {
         return Promise { resolve, reject ->
             GlobalScope.launch {
+                val lorcana = Lorcana().loadFromGithub(tag)
                 try {
-                    resolve(set.loadFromGithub(tag))
+                    resolve(lorcana.set(set)!!)
                 } catch (@Suppress("TooGenericExceptionCaught") err: Throwable) {
                     reject(err)
                 }
@@ -25,11 +26,12 @@ enum class SetLegacy(private val set: Set) {
     }
 
     @OptIn(DelicateCoroutinesApi::class, KorioExperimentalApi::class)
-    suspend fun loadFromResource(): Promise<List<RawCard>> {
+    suspend fun loadFromResource(): Promise<Set> {
         return Promise { resolve, reject ->
             GlobalScope.launch {
+                val lorcana = Lorcana().loadFromResources()
                 try {
-                    resolve(set.loadFromResource())
+                    resolve(lorcana.set(set)!!)
                 } catch (@Suppress("TooGenericExceptionCaught") err: Throwable) {
                     reject(err)
                 }

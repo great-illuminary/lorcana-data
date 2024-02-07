@@ -1,6 +1,7 @@
 package eu.codlab.lorcana
 
 import eu.codlab.files.VirtualFile
+import eu.codlab.lorcana.raw.RawVirtualCard
 import eu.codlab.lorcana.resources.Resources
 import eu.codlab.lorcana.utils.Provider
 import eu.codlab.moko.ext.safelyReadContent
@@ -22,14 +23,14 @@ class TestLoadingCards {
         }
 
         listOf(
-            "promos" to 28,
-            "tfc" to 216,
-            "rotf" to 216
+            "tfc" to 204,
+            "rotf" to 204
         ).forEach { set ->
             val (name, count) = set
             val file = VirtualFile(VirtualFile.Root, "../../data/$name.yml")
-            val cards: List<RawCard> = Provider.yaml.decodeFromString(
-                ListSerializer(RawCard.serializer(String.serializer(), String.serializer())),
+
+            val cards: List<RawVirtualCard> = Provider.yaml.decodeFromString(
+                ListSerializer(RawVirtualCard.serializer(String.serializer(), String.serializer())),
                 file.readString()
             )
 
@@ -46,14 +47,13 @@ class TestLoadingCards {
         }
 
         listOf(
-            Resources.files.promos to 28,
-            Resources.files.tfc to 216,
-            Resources.files.rotf to 216
+            Resources.files.tfc to 204,
+            Resources.files.rotf to 204
         ).forEach { set ->
             val (file, count) = set
             val content = file.safelyReadContent()
-            val cards: List<RawCard> = Provider.yaml.decodeFromString(
-                ListSerializer(RawCard.serializer(String.serializer(), String.serializer())),
+            val cards: List<RawVirtualCard> = Provider.yaml.decodeFromString(
+                ListSerializer(RawVirtualCard.serializer(String.serializer(), String.serializer())),
                 content
             )
 

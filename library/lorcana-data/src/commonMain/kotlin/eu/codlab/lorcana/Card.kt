@@ -3,12 +3,15 @@ package eu.codlab.lorcana
 import eu.codlab.lorcana.abilities.Ability
 import eu.codlab.lorcana.cards.CardThirdParty
 import eu.codlab.lorcana.cards.CardTranslation
+import eu.codlab.lorcana.cards.InkColor
 import eu.codlab.lorcana.franchises.Franchise
+import eu.codlab.lorcana.raw.SetItemRarity
+import eu.codlab.lorcana.raw.VirtualCard
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class GenericCard<A, F>(
+data class Card(
     val cost: Int = 0,
     val inkwell: Boolean = false,
     val attack: Int? = null,
@@ -17,67 +20,36 @@ data class GenericCard<A, F>(
     val type: String = "",
     val illustrator: String = "",
     val number: Int,
-    val rarity: String = "",
+    val rarity: SetItemRarity,
     val languages: Map<String, CardTranslation>,
-    val edition: List<Edition> = emptyList(),
-    val actions: List<A>,
+    val actions: List<Ability>,
     @SerialName("set_code")
-    val setCode: String = "",
+    val setCode: SetDescription,
     @SerialName("franchise_id")
-    val franchiseId: F,
-    val dummy: Boolean = false,
+    val franchiseId: Franchise,
     @SerialName("third_party")
     val thirdParty: CardThirdParty? = null
 )
 
-typealias RawCard = GenericCard<String, String>
-typealias Card = GenericCard<Ability, Franchise>
+fun VirtualCard.toCard(set: SetDescription): List<Card>? {
+    val variations = sets[set] ?: return null
 
-enum class InkColor {
-    @SerialName("amber")
-    Amber,
-
-    @SerialName("amethyst")
-    Amethyst,
-
-    @SerialName("emerald")
-    Emerald,
-
-    @SerialName("ruby")
-    Ruby,
-
-    @SerialName("sapphire")
-    Sapphire,
-
-    @SerialName("steel")
-    Steel
-}
-
-enum class Edition {
-    @SerialName("foil")
-    Foil,
-
-    @SerialName("regular")
-    Regular,
-
-    @SerialName("enchanted")
-    Enchanted,
-
-    @SerialName("promos")
-    PROMOS,
-
-    @SerialName("gencon23")
-    Gencon23,
-
-    @SerialName("gamecon23")
-    Gamecon23,
-
-    @SerialName("disney100")
-    Disney100,
-
-    @SerialName("organized_play")
-    OrganizedPlay,
-
-    @SerialName("oversized")
-    Oversized
+    return variations.map {
+        Card(
+            cost = cost,
+            inkwell = inkwell,
+            attack = attack,
+            defence = defence,
+            color = color,
+            type = type,
+            illustrator = illustrator,
+            number = it.id,
+            rarity = it.rarity,
+            languages = languages,
+            actions = actions,
+            setCode = set,
+            franchiseId = franchiseId,
+            thirdParty = thirdParty
+        )
+    }
 }

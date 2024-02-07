@@ -18,12 +18,15 @@ class TestLoadingSet {
             return@runTest
         }
 
-        Set.entries.forEach {
+        val lorcana = Lorcana().loadFromResources()
+
+        SetDescription.entries.forEach {
             try {
-                val content = it.loadFromResource()
+                val content = lorcana.set(it)
 
                 assertNotNull(content)
-                assertTrue(content.isNotEmpty())
+                assertTrue(content.cards.isNotEmpty())
+                assertTrue(content.virtualCards.isNotEmpty())
             } catch (@Suppress("SwallowedException") err: Throwable) {
                 println("$currentPlatform")
                 throw NullPointerException("$currentPlatform")
@@ -39,27 +42,31 @@ class TestLoadingSet {
         }
 
         runTestList {
-            it.loadFromResource()
+            val lorcana = Lorcana().loadFromResources()
+
+            lorcana.set(it)!!
         }
     }
 
     @Test
     fun testLoadingSetsFromGithub() = runTest {
         runTestList {
-            it.loadFromGithub(BuildKonfig.commit)
+            val lorcana = Lorcana().loadFromGithub(BuildKonfig.commit)
+
+            lorcana.set(it)!!
         }
     }
 
-    private suspend fun runTestList(provider: suspend (set: Set) -> List<RawCard>) {
+    private suspend fun runTestList(provider: suspend (set: SetDescription) -> Set) {
         listOf(
-            Set.PROMOS to 28,
-            Set.TFC to 216,
-            Set.ROTF to 216
+            SetDescription.Promos to 28,
+            SetDescription.TFC to 216,
+            SetDescription.RotF to 216
         ).forEach { pair ->
             val (set, count) = pair
             val cards = provider(set)
 
-            assertEquals(count, cards.size)
+            assertEquals(count, cards.cards.size)
         }
     }
 }
