@@ -13,8 +13,9 @@ class Lorcana {
         val franchises = Franchises.loadFromResource()
         val rotf = RawSet.ROTF.loadFromResource()
         val tfc = RawSet.TFC.loadFromResource()
+        val iti = RawSet.ITI.loadFromResource()
 
-        val result = loadLorcana(abilities, franchises, tfc + rotf)
+        val result = loadLorcana(abilities, franchises, tfc + rotf + iti)
         return LorcanaLoaded(result)
     }
 
@@ -23,8 +24,9 @@ class Lorcana {
         val franchises = Franchises.loadFromGithub(tag)
         val rotf = RawSet.ROTF.loadFromGithub(tag)
         val tfc = RawSet.TFC.loadFromGithub(tag)
+        val iti = RawSet.ITI.loadFromGithub(tag)
 
-        val result = loadLorcana(abilities, franchises, tfc + rotf)
+        val result = loadLorcana(abilities, franchises, tfc + rotf + iti)
         return LorcanaLoaded(result)
     }
 
@@ -35,7 +37,8 @@ class Lorcana {
     ): Map<SetDescription, Set> = listOf(
         SetDescription.TFC,
         SetDescription.RotF,
-        SetDescription.Promos
+        SetDescription.Promos,
+        SetDescription.ItI
     ).map {
         it to loadCards(it, abilities, franchises, cards)
     }.toMap()

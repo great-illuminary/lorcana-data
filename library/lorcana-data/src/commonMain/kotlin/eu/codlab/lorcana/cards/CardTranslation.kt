@@ -5,7 +5,6 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class CardTranslation(
     val name: String,
-    val title: String?,
-    val flavour: String?,
-    //val image: String?
+    val title: String? = null,
+    val flavour: String? = null
 )

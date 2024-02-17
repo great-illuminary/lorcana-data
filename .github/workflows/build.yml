@@ -5,6 +5,9 @@ on: [ push ]
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      checks: write
+      pull-requests: write
 
     steps:
       - uses: actions/checkout@v3
@@ -17,3 +20,10 @@ jobs:
         id: build
         run: |
           bash ./scripts/check.sh
+          
+      - name: Publish Test Results
+        uses: EnricoMi/publish-unit-test-result-action/composite@v2
+        if: ${{ success() || failure() }}
+        with:
+          files: |
+            library/lorcana-data/build/test-results/**/*.xml

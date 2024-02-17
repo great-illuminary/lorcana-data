@@ -1,4 +1,4 @@
-package eu.codlab.lorcana
+package eu.codlab.lorcana.raw
 
 import kotlinx.serialization.SerialName
 

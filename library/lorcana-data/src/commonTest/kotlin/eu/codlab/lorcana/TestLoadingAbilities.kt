@@ -36,14 +36,14 @@ class TestLoadingAbilities {
         checkTranslation(ability.text)
         checkTranslation(ability.title)
     } catch (err: Throwable) {
-        println("exception with ${ability}")
+        println("exception with $ability")
         throw err
     }
 
     private fun checkTranslation(translationHolder: TranslationHolder?) {
         translationHolder?.let {
-            //assertNotNull(it.de)
-            //assertNotNull(it.fr)
+            // assertNotNull(it.de)
+            // assertNotNull(it.fr)
             assertNotNull(it.en)
         }
     }

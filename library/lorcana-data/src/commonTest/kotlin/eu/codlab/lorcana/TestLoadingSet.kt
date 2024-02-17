@@ -28,7 +28,8 @@ class TestLoadingSet {
                 assertTrue(content.cards.isNotEmpty())
                 assertTrue(content.virtualCards.isNotEmpty())
             } catch (@Suppress("SwallowedException") err: Throwable) {
-                println("$currentPlatform")
+                println("$it -> $currentPlatform")
+                err.printStackTrace()
                 throw NullPointerException("$currentPlatform")
             }
         }
@@ -62,10 +63,11 @@ class TestLoadingSet {
             SetDescription.Promos to 28,
             SetDescription.TFC to 216,
             SetDescription.RotF to 216
-        ).forEach { pair ->
-            val (set, count) = pair
+        ).forEach { (set, count) ->
             val cards = provider(set)
 
+            println("managing $set")
+            cards.cards.sortedBy { it.number }.forEach { println(it.number) }
             assertEquals(count, cards.cards.size)
         }
     }
