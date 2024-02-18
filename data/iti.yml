@@ -10,9 +10,31 @@
   type: glimmer
   illustrator: Cam Kendell
   languages:
-    en: 
+    en:
       name: Baloo
       title: von Bruinwald XIII
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 2
+        rarity: rare
+  cost: 4
+  inkwell: true
+  attack: 1
+  defence: 5
+  color: amber
+  type: glimmer
+  illustrator: Jacob McAlister
+  languages:
+    en: 
+      name: Bernard
+      title: Brand-New Agent
   edition:
     - regular
     - foil
@@ -79,6 +101,28 @@
     tcg_player: ''
 - sets:
     iti:
+      - id: 5
+        rarity: common
+  cost: 4
+  inkwell: true
+  attack: 1
+  defence: 5
+  color: amber
+  type: glimmer
+  illustrator: Jeanne Plounevez
+  languages:
+    en:
+      name: JOSHUA SWEET
+      title: The Doctor
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
       - id: 6
         rarity: common
   cost: 1
@@ -92,6 +136,28 @@
     en:
       name: KIDA
       title: Atlantean
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 7
+        rarity: legendary
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 5
+  color: amber
+  type: glimmer
+  illustrator: Adam Fenton
+  languages:
+    en:
+      name: Kida
+      title: Protector of Atlantis
   edition:
     - regular
     - foil
@@ -647,6 +713,28 @@
   third_party:
     card_market: ''
     tcg_player: ''
+- sets:
+    iti:
+      - id: 34
+        rarity: uncommon
+  cost: 3
+  defence: 8
+  move_cost: 2
+  inkwell: false
+  color: amber
+  type: glimmer
+  illustrator: Valerio Buonfantino
+  languages:
+    en:
+      name: Tiana's Palace
+      title: Jazz Restaurant
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
 
 - sets:
     iti:
@@ -1046,6 +1134,28 @@
     tcg_player: ''
 - sets:
     iti:
+      - id: 53
+        rarity: uncommon
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: amethyst
+  type: glimmer
+  illustrator: Denny Minonne
+  languages:
+    en:
+      name: Pua
+      title: Potbellied Buddy
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
       - id: 54
         rarity: rare
   cost: 1
@@ -1081,6 +1191,28 @@
     en:
       name: Stratos
       title: Tornado Titan
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 56
+        rarity: common
+  cost: 4
+  inkwell: true
+  attack: 6
+  defence: 2
+  color: amethyst
+  type: glimmer
+  illustrator: Hedvig Häggman-Sund
+  languages:
+    en:
+      name: The Firebird
+      title: Force Of Destruction
   edition:
     - regular
     - foil
