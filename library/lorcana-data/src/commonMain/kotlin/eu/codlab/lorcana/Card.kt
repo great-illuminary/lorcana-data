@@ -42,7 +42,7 @@ fun VirtualCard.toCard(set: SetDescription): List<Card>? {
             defence = defence,
             color = color,
             type = type,
-            illustrator = illustrator,
+            illustrator = it.illustrator ?: illustrator,
             number = it.id,
             rarity = it.rarity,
             languages = languages,

@@ -46,6 +46,9 @@
     iti:
       - id: 3
         rarity: rare
+      - id: 205
+        rarity: enchanted
+        illustrator: Thomas Brissot
   cost: 10
   inkwell: false
   attack: 9
@@ -147,6 +150,9 @@
     iti:
       - id: 7
         rarity: legendary
+      - id: 206
+        rarity: enchanted
+        illustrator: Grzegorz Krysinski
   cost: 5
   inkwell: true
   attack: 3
@@ -695,6 +701,9 @@
     iti:
       - id: 33
         rarity: rare
+      - id: 207
+        rarity: enchanted
+        illustrator: Jonathan Livslyst
   cost: 2
   defence: 7
   move_cost: 2
@@ -894,6 +903,9 @@
     iti:
       - id: 42
         rarity: legendary
+      - id: 208
+        rarity: enchanted
+        illustrator: Ivan Shavrin
   cost: 7
   inkwell: true
   attack: 4
@@ -1092,6 +1104,9 @@
     iti:
       - id: 51
         rarity: legendary
+      - id: 209
+        rarity: enchanted
+        illustrator: Javi Salas
   cost: 5
   inkwell: true
   attack: 2
@@ -1385,6 +1400,9 @@
     iti:
       - id: 65
         rarity: rare
+      - id: 210
+        rarity: enchanted
+        illustrator: Luis Huerta
   cost: 2
   inkwell: true
   color: amethyst
@@ -1437,6 +1455,2987 @@
     en:
       name: The Queen's Castle
       title: Mirror Chamber
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 68
+        rarity: uncommon
+  cost: 3
+  inkwell: true
+  color: amethyst
+  type: location
+  defence: 7
+  move_cost: 2
+  illustrator: Wietse Treurniet
+  languages:
+    en:
+      name: The Sorcerer's Tower
+      title: Wondrous Workspace
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 69
+        rarity: common
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 5
+  color: emerald
+  type: glimmer
+  illustrator: Wouter Bruneel
+  languages:
+    en:
+      name: Cubby
+      title: Mighty Lost Boy
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 70
+        rarity: rare
+  cost: 1
+  inkwell: false
+  attack: 0
+  defence: 1
+  color: emerald
+  type: glimmer
+  illustrator: Massimiliano Narcisso / Marieke Ferrari
+  languages:
+    en:
+      name: Cursed Merfolk
+      title: Ursula's Handiwork
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 71
+        rarity: common
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 4
+  color: emerald
+  type: glimmer
+  illustrator: Luis Huerta
+  languages:
+    en:
+      name: Don Karnage
+      title: Prince Of Pirates
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 72
+        rarity: common
+  cost: 3
+  inkwell: true
+  attack: 5
+  defence: 2
+  color: emerald
+  type: glimmer
+  illustrator: Brian Kesinger
+  languages:
+    en:
+      name: Flotsam
+      title: Riffraff
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 73
+        rarity: uncommon
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 4
+  color: emerald
+  type: glimmer
+  illustrator: Denny Minonne
+  languages:
+    en:
+      name: Friar Tuck
+      title: Priest Of Nottingham
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 74
+        rarity: super_rare
+  cost: 5
+  inkwell: false
+  attack: 4
+  defence: 4
+  color: emerald
+  type: glimmer
+  illustrator: Alice Pisoni
+  languages:
+    en:
+      name: Helga Sinclair
+      title: Femme Fatale
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 75
+        rarity: rare
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 1
+  color: emerald
+  type: glimmer
+  illustrator: Kasia Brzezinska
+  languages:
+    en:
+      name: Helga Sinclair
+      title: Vengeful Partner
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 76
+        rarity: common
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: emerald
+  type: glimmer
+  illustrator: Brian Kesinger
+  languages:
+    en:
+      name: Jetsam
+      title: Riffraff
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 77
+        rarity: uncommon
+    promos:
+      - id: 26
+        rarity: organized_plays
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: emerald
+  type: glimmer
+  illustrator: Jake Parker
+  languages:
+    en:
+      name: Kit Cloudkicker
+      title: Tough Guy
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 78
+        rarity: super_rare
+  cost: 3
+  inkwell: false
+  attack: 2
+  defence: 4
+  color: emerald
+  type: glimmer
+  illustrator: Mike Parker
+  languages:
+    en:
+      name: Lyle Tiberius Rourke
+      title: Cunning Mercenary
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 79
+        rarity: common
+  cost: 1
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: emerald
+  type: glimmer
+  illustrator: Giuseppe Di Maio
+  languages:
+    en:
+      name: Milo Thatch
+      title: Clever Cartographer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 80
+        rarity: legendary
+  cost: 7
+  inkwell: false
+  attack: 4
+  defence: 4
+  color: emerald
+  type: glimmer
+  illustrator: Valerio Buonfantino
+  languages:
+    en:
+      name: Mil Thatch
+      title: King Of Atlantis
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 81
+        rarity: rare
+      - id: 211
+        rarity: enchanted
+        illustrator: Diogo Saito
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 1
+  color: emerald
+  type: glimmer
+  illustrator: Alan Batson
+  languages:
+    en:
+      name: Morph
+      title: Space Goo
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 82
+        rarity: rare
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Grace Tran
+  languages:
+    en:
+      name: Peter Pan
+      title: Lost Boy Leader
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 83
+        rarity: uncommon
+  cost: 5
+  inkwell: false
+  attack: 2
+  defence: 4
+  color: emerald
+  type: glimmer
+  illustrator: Koni
+  languages:
+    en:
+      name: Prince John
+      title: Phony King
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 84
+        rarity: common
+  cost: 6
+  inkwell: true
+  attack: 4
+  defence: 5
+  color: emerald
+  type: glimmer
+  illustrator: John Loren
+  languages:
+    en:
+      name: Robin Hood
+      title: Daydreamer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 85
+        rarity: super_rare
+  cost: 4
+  inkwell: true
+  attack: 0
+  defence: 6
+  color: emerald
+  type: glimmer
+  illustrator: Jockem Van Gool
+  languages:
+    en:
+      name: Shenzi
+      title: Hyena Pack Leader
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 86
+        rarity: common
+  cost: 2
+  inkwell: true
+  attack: 3
+  defence: 1
+  color: emerald
+  type: glimmer
+  illustrator: Alan Baston
+  languages:
+    en:
+      name: Sir Hiss
+      title: Aggravating Asp
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 87
+        rarity: common
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: emerald
+  type: glimmer
+  illustrator: Jeanne Plounevez
+  languages:
+    en:
+      name: Skippy
+      title: Energetic Rabbit
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 88
+        rarity: uncommon
+  cost: 7
+  inkwell: true
+  attack: 6
+  defence: 6
+  color: emerald
+  type: glimmer
+  illustrator: Adam Ford
+  languages:
+    en:
+      name: Starkey
+      title: Devious Pirate
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 89
+        rarity: rare
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Grace Tran
+  languages:
+    en:
+      name: Stitch
+      title: Covert Agent
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 90
+        rarity: uncommon
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Lisanne Koeteeuw
+  languages:
+    en:
+      name: Ursula
+      title: Deceiver
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 90
+        rarity: legendary
+      - id: 212
+        rarity: enchanted
+        illustrator: John Loren / Nicholas Kole
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Matthew Robert Davies
+  languages:
+    en:
+      name: Ursula
+      title: Deceiver Of All
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 92
+        rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Valentina Graziuso
+  languages:
+    en:
+      name: Wildcat
+      title: Mechanic
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 93
+        rarity: common
+  cost: 1
+  inkwell: true
+  attack: 2
+  defence: 1
+  color: emerald
+  type: glimmer
+  illustrator: Ron Baird
+  languages:
+    en:
+      name: Zazu
+      title: Steward Of The Pride Lands
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 94
+        rarity: uncommon
+  cost: 2
+  inkwell: true
+  color: emerald
+  type: song
+  illustrator: Hyuna Lee
+  languages:
+    en:
+      name: Has Set My Heaaaaaaart . . .
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 95
+        rarity: common
+  cost: 1
+  inkwell: true
+  color: emerald
+  type: song
+  illustrator: Carmine Pucci
+  languages:
+    en:
+      name: I Will Find My Way
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 96
+        rarity: common
+  cost: 2
+  inkwell: true
+  color: emerald
+  type: song
+  illustrator: Maxine Vee
+  languages:
+    en:
+      name: Strike A Good Match
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 97
+        rarity: common
+  cost: 2
+  inkwell: true
+  color: emerald
+  type: item
+  illustrator: Jenna Gray
+  languages:
+    en:
+      name: Airfol
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 98
+        rarity: uncommon
+  cost: 3
+  inkwell: false
+  color: emerald
+  type: item
+  illustrator: McKay Anderson
+  languages:
+    en:
+      name: Robin's Bow
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 99
+        rarity: rare
+  cost: 4
+  inkwell: false
+  color: emerald
+  type: item
+  illustrator: Billy Wimblett
+  languages:
+    en:
+      name: Starlight Vial
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 100
+        rarity: common
+  cost: 1
+  inkwell: true
+  defence: 4
+  move_cost: 1
+  color: emerald
+  type: location
+  illustrator: Ryan Moeck
+  languages:
+    en:
+      name: De Vil Manor
+      title: Cruella's Estate
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 101
+        rarity: rare
+  cost: 4
+  inkwell: true
+  defence: 6
+  move_cost: 2
+  color: emerald
+  type: location
+  illustrator: Michael Guimont
+  languages:
+    en:
+      name: Fang
+      title: River City
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 102
+        rarity: uncommon
+      - id: 213
+        rarity: enchanted
+        illustrator: Roberto Gatto
+  cost: 3
+  inkwell: true
+  defence: 7
+  move_cost: 3
+  color: emerald
+  type: location
+  illustrator: Andreas Rocha
+  languages:
+    en:
+      name: Kuzco's Palace
+      title: Home Of The Emperor
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 103
+        rarity: super_rare
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Javi Salas
+  languages:
+    en:
+      name: Ariel
+      title: Adventurous Collector
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 104
+        rarity: Billy Bones
+  cost: 4
+  inkwell: true
+  attack: 6
+  defence: 5
+  color: ruby
+  type: glimmer
+  illustrator: Roger Pérez
+  languages:
+    en:
+      name: Billy Bones
+      title: Keeper Of The Map
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 105
+        rarity: rare
+      - id: 214
+        rarity: enchanted
+        illustrator: Kuya Jaypi
+  cost: 5
+  inkwell: true
+  attack: 5
+  defence: 4
+  color: ruby
+  type: glimmer
+  illustrator: Simone Buonfantino
+  languages:
+    en:
+      name: Captain Hook
+      title: Master Swordsman
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 106
+        rarity: common
+  cost: 2
+  inkwell: false
+  attack: 3
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Rudy Hill
+  languages:
+    en:
+      name: Della Duck
+      title: Unstoppable Mom
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 107
+        rarity: uncommon
+  cost: 2
+  inkwell: true
+  attack: 3
+  defence: 2
+  color: ruby
+  type: glimmer
+  illustrator: Jiahui Eva Gao
+  languages:
+    en:
+      name: Heihei
+      title: Accidental Explorer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 108
+        rarity: legendary
+  cost: 6
+  inkwell: false
+  attack: 6
+  defence: 5
+  color: ruby
+  type: glimmer
+  illustrator: Jochem Van Gool
+  languages:
+    en:
+      name: Hydra
+      title: Deadly Serpent
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 109
+        rarity: legendary
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 4
+  color: ruby
+  type: glimmer
+  illustrator: Veronica Di Lorenzo / Livio Cacciatore
+  languages:
+    en:
+      name: Jim Hawkins
+      title: Space Traveler
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 110
+        rarity: common
+  cost: 2
+  inkwell: true
+  attack: 3
+  defence: 2
+  color: ruby
+  type: glimmer
+  illustrator: Marcel Berg
+  languages:
+    en:
+      name: Jim Hawkins
+      title: Thrill Seeker
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 111
+        rarity: common
+  cost: 3
+  inkwell: false
+  attack: 3
+  defence: 2
+  color: ruby
+  type: glimmer
+  illustrator: Brian Kesinger
+  languages:
+    en:
+      name: Kakamora
+      title: Menacing Sailor
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 112
+        rarity: super_rare
+  cost: 6
+  inkwell: false
+  attack: 4
+  defence: 4
+  color: ruby
+  type: glimmer
+  illustrator: Jackie Droujko
+  languages:
+    en:
+      name: Madame Medusa
+      title: The Boss
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 113
+        rarity: uncommon
+  cost: 3
+  inkwell: false
+  attack: 5
+  defence: 2
+  color: ruby
+  type: glimmer
+  illustrator: Rob Di Salvo
+  languages:
+    en:
+      name: Maui
+      title: Soaring Demigod
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 114
+        rarity: rare
+  cost: 7
+  inkwell: true
+  attack: 8
+  defence: 8
+  color: ruby
+  type: glimmer
+  illustrator: Sandara Tang
+  languages:
+    en:
+      name: Maui
+      title: Whale
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 115
+        rarity: common
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: ruby
+  type: glimmer
+  illustrator: Massimiliano Narcisso
+  languages:
+    en:
+      name: Milo Thatch
+      title: Spirited Scholar
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 116
+        rarity: rare
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 4
+  color: ruby
+  type: glimmer
+  illustrator: Grace Tran
+  languages:
+    en:
+      name: Moana
+      title: Born Leader
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 117
+        rarity: common
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: ruby
+  type: glimmer
+  illustrator: Mila Useche
+  languages:
+    en:
+      name: Moana
+      title: Undeterred Voyager
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 118
+        rarity: common
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Denny Minonne
+  languages:
+    en:
+      name: Nutsy
+      title: Vulture Henchman
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 119
+        rarity: common
+  cost: 3
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Aubrey Archer
+  languages:
+    en:
+      name: Peter Pan
+      title: Never Land Hero
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 120
+        rarity: rare
+      - id: 215
+        rarity: enchanted
+        illustrator: Kuya Jaypi
+  cost: 6
+  inkwell: true
+  attack: 4
+  defence: 5
+  color: ruby
+  type: glimmer
+  illustrator: Simone Buonfantino
+  languages:
+    en:
+      name: Peter Pan
+      title: Pirate's Bane
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 121
+        rarity: super_rare
+  cost: 4
+  inkwell: false
+  attack: 2
+  defence: 2
+  color: ruby
+  type: glimmer
+  illustrator: Randy Bishop
+  languages:
+    en:
+      name: Prince Eric
+      title: Expert Helmsman
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 122
+        rarity: uncommon
+  cost: 5
+  inkwell: true
+  attack: 2
+  defence: 5
+  color: ruby
+  type: glimmer
+  illustrator: Carmine Pucci
+  languages:
+    en:
+      name: Scroop
+      title: Backstabber
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 123
+        rarity: rare
+  cost: 2
+  inkwell: false
+  attack: 1
+  defence: 1
+  color: ruby
+  type: glimmer
+  illustrator: Agnes Christianson
+  languages:
+    en:
+      name: Simba
+      title: Scrappy Cub
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 124
+        rarity: uncommon
+  cost: 4
+  inkwell: true
+  attack: 4
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Luca Pinelli
+  languages:
+    en:
+      name: Slightly
+      title: Lost Boy
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 125
+        rarity: common
+  cost: 2
+  inkwell: false
+  attack: 3
+  defence: 1
+  color: ruby
+  type: glimmer
+  illustrator: Nicola Saviori
+  languages:
+    en:
+      name: Stitch
+      title: Little Rocket
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 126
+        rarity: uncommon
+  cost: 2
+  inkwell: true
+  attack: 3
+  defence: 1
+  color: ruby
+  type: glimmer
+  illustrator: Denny Minonne
+  languages:
+    en:
+      name: Trigger
+      title: Not-So-Sharp Shooter
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 127
+        rarity: common
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: ruby
+  type: glimmer
+  illustrator: Louis Jones
+  languages:
+    en:
+      name: Webby vanderquack
+      title: Enthusiastic Duck
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 128
+        rarity: uncommon
+  cost: 3
+  inkwell: true
+  color: ruby
+  type: action
+  illustrator: Lisanne Koeteeuw
+  languages:
+    en:
+      name: Divebomb
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 129
+        rarity: uncommon
+  cost: 2
+  inkwell: true
+  color: ruby
+  type: song
+  illustrator: Michela Cacciatore
+  languages:
+    en:
+      name: I've Got A Dream
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 130
+        rarity: rare
+  cost: 4
+  inkwell: false
+  color: ruby
+  type: action
+  illustrator: Lisanne Koeteeuw
+  languages:
+    en:
+      name: On Your Feet! Now!
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 131
+        rarity: common
+  cost: 1
+  inkwell: true
+  color: ruby
+  type: action
+  illustrator: Alex Shin
+  languages:
+    en:
+      name: Voyage
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 132
+        rarity: rare
+  cost: 3
+  inkwell: true
+  color: ruby
+  type: item
+  illustrator: Peter Brockhammer
+  languages:
+    en:
+      name: Maui's Fish Hook
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 133
+        rarity: uncommon
+  cost: 3
+  inkwell: true
+  color: ruby
+  type: item
+  illustrator: Adam Bunch
+  languages:
+    en:
+      name: Sumerian Talisman
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 134
+        rarity: common
+  cost: 3
+  inkwell: true
+  defence: 5
+  move_cost: 1
+  color: ruby
+  type: location
+  illustrator: Kaitlin Cuthbertson
+  languages:
+    en:
+      name: Agrabah
+      title: Marketplace
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 135
+        rarity: uncommon
+    promos:
+      - id: 27
+        rarity: organized_plays
+  cost: 1
+  inkwell: false
+  defence: 5
+  move_cost: 2
+  color: ruby
+  type: location
+  illustrator: Nicolas Ky
+  languages:
+    en:
+      name: Jolly Roger
+      title: Hook's Ship
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 136
+        rarity: rare
+      - id: 216
+        rarity: enchanted
+        illustrator: Matt Gaser
+  cost: 4
+  inkwell: false
+  defence: 8
+  move_cost: 3
+  color: ruby
+  type: glimmer
+  illustrator: Wietse Treurniet
+  languages:
+    en:
+      name: RLS Legacy
+      title: Solar Galleon
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 137
+        rarity: rare
+  cost: 5
+  inkwell: true
+  attack: 2
+  defence: 5
+  color: sapphire
+  type: glimmer
+  illustrator: Richelle Canto
+  languages:
+    en:
+      name: Audrey Ramirez
+      title: The Engineer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 138
+        rarity: common
+  cost: 3
+  inkwell: true
+  attack: 1
+  defence: 5
+  color: sapphire
+  type: glimmer
+  illustrator: Amber Kommavongsa
+  languages:
+    en:
+      name: Captain Amelia
+      title: First In Command
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 139
+        rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Federico M. Cugliari
+  languages:
+    en:
+      name: Dewey
+      title: Showy Nephew
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 140
+        rarity: uncommon
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: sapphire
+  type: glimmer
+  illustrator: Federico M. Cugliari
+  languages:
+    en:
+      name: Flintheart Glomgold
+      title: Lone Cheater
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 141
+        rarity: uncommon
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: sapphire
+  type: glimmer
+  illustrator: Ally Zermeno
+  languages:
+    en:
+      name: Genie
+      title: Cramped In The Lamp
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 142
+        rarity: common
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Cécile Carre / Anna Stosik
+  languages:
+    en:
+      name: Gramma Tala
+      title: Keeper Of Ancient Stories
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 143
+        rarity: legendary
+      - id: 217
+        rarity: enchanted
+        illustrator: Alan Batson
+  cost: 7
+  inkwell: true
+  attack: 4
+  defence: 8
+  color: sapphire
+  type: glimmer
+  illustrator: Jennifer Park / Ellie Horie
+  languages:
+    en:
+      name: Gramma Tala
+      title: Spirit Of The Ocean
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 144
+        rarity: rare
+  cost: 3
+  inkwell: true
+  attack: 1
+  defence: 4
+  color: sapphire
+  type: glimmer
+  illustrator: Mario Oscar Gabriele
+  languages:
+    en:
+      name: Gyro Gearloose
+      title: Gadget Whiz
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 145
+        rarity: rare
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: sapphire
+  type: glimmer
+  illustrator: Federico M. Cugliari
+  languages:
+    en:
+      name: Huey
+      title: Savvy Nephew
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 146
+        rarity: common
+  cost: 7
+  inkwell: true
+  attack: 7
+  defence: 7
+  color: sapphire
+  type: glimmer
+  illustrator: Kenneth Anderson
+  languages:
+    en:
+      name: King Louie
+      title: Bandleader
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 147
+        rarity: uncommon
+  cost: 6
+  inkwell: true
+  attack: 2
+  defence: 5
+  color: sapphire
+  type: glimmer
+  illustrator: Roger Pérez
+  languages:
+    en:
+      name: Kit Cloudkicker
+      title: Navigator
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 148
+        rarity: common
+  cost: 1
+  inkwell: true
+  attack: 0
+  defence: 1
+  color: sapphire
+  type: glimmer
+  illustrator: Valentin Palombo
+  languages:
+    en:
+      name: Kit Cloudkicker
+      title: Spunky Bear Cub
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 149
+        rarity: common
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: sapphire
+  type: glimmer
+  illustrator: Federico M. Cugliari
+  languages:
+    en:
+      name: Louie
+      title: Chill Nephew
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 150
+        rarity: common
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 4
+  color: sapphire
+  type: glimmer
+  illustrator: Jenna Gray
+  languages:
+    en:
+      name: Maid Marian
+      title: Delightful Dreamer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 151
+        rarity: rare
+  cost: 3
+  inkwell: false
+  attack: 1
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Rogie Custodio / Erin Shin
+  languages:
+    en:
+      name: Mama Odie
+      title: Mystical Maven
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 152
+        rarity: common
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: sapphire
+  type: glimmer
+  illustrator: Rianti Hidayat
+  languages:
+    en:
+      name: Pluto
+      title: Mickey's Clever Friend
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 153
+        rarity: common
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 5
+  color: sapphire
+  type: glimmer
+  illustrator: Hadjie Joos
+  languages:
+    en:
+      name: Rufus
+      title: Orphanage Cat
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 154
+        rarity: super_rare
+      - id: 218
+        rarity: enchanted
+        illustrator: Gonzalo Kenny
+  cost: 5
+  inkwell: false
+  attack: 3
+  defence: 5
+  color: sapphire
+  type: glimmer
+  illustrator: Grace Tran
+  languages:
+    en:
+      name: Scrooge McDuck
+      title: Richest Duck In The World
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 155
+        rarity: uncommon
+    promos:
+      - id: 39
+        rarity: organized_plays
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Stefano Zanchi
+  languages:
+    en:
+      name: Scrooge McDuck
+      title: Uncle Moneybags
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 156
+        rarity: uncommon
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 5
+  color: sapphire
+  type: glimmer
+  illustrator: Jennifer Gheduzzi / Livio Cacciatore
+  languages:
+    en:
+      name: The Queen
+      title: Mirror Seeker
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 157
+        rarity: super_rare
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: sapphire
+  type: glimmer
+  illustrator: Grace Tran
+  languages:
+    en:
+      name: Tinker Bell
+      title: Very Clever Fairy
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 158
+        rarity: super_rare
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 1
+  color: sapphire
+  type: glimmer
+  illustrator: Julie Vu
+  languages:
+    en:
+      name: Wendy Darling
+      title: Authority On Peter Pan
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 159
+        rarity: common
+  cost: 2
+  inkwell: true
+  color: sapphire
+  type: action
+  illustrator: Giuseppe Di Maio
+  languages:
+    en:
+      name: Distract
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 160
+        rarity: rare
+  cost: 5
+  inkwell: true
+  color: sapphire
+  type: song
+  illustrator: Emily Abeydeera
+  languages:
+    en:
+      name: Friend Like Me
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 161
+        rarity: uncommon
+    promos:
+      - id: 28
+        rarity: organized_plays
+  cost: 4
+  inkwell: false
+  color: sapphire
+  type: song
+  illustrator: Anna Rud / Anna Stosik
+  languages:
+    en:
+      name: How Far I'll Go
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 162
+        rarity: common
+  cost: 2
+  inkwell: true
+  color: sapphire
+  type: action
+  illustrator: Denny Minonne
+  languages:
+    en:
+      name: Repair
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 163
+        rarity: rare
+  cost: 2
+  inkwell: true
+  color: sapphire
+  type: item
+  illustrator: Mario Oscar Gabriele
+  languages:
+    en:
+      name: Aurelian Gyrosensor
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 164
+        rarity: rare
+  cost: 3
+  inkwell: true
+  color: sapphire
+  type: item
+  illustrator: Kamil Murzyn
+  languages:
+    en:
+      name: Heart Of Te Fiti
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 165
+        rarity: legendary
+  cost: 7
+  inkwell: false
+  color: sapphire
+  type: item
+  illustrator: Leonardo Giammichele
+  languages:
+    en:
+      name: Lucky Dime
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 166
+        rarity: uncommon
+  cost: 2
+  inkwell: false
+  color: sapphire
+  type: item
+  illustrator: Gabriel Angelo
+  languages:
+    en:
+      name: Scrooge's Top Hat
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 167
+        rarity: common
+  cost: 4
+  inkwell: true
+  color: sapphire
+  type: item
+  illustrator: Nicolas Ky
+  languages:
+    en:
+      name: Vault Door
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 168
+        rarity: rare
+      - id: 219
+        rarity: enchanted
+        illustrator: Pablo J. Rivera
+  cost: 1
+  inkwell: true
+  defence: 6
+  move_cost: 2
+  color: sapphire
+  type: location
+  illustrator: Alex Shin
+  languages:
+    en:
+      name: Belle's House
+      title: Maurice's Workshop
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 169
+        rarity: common
+  cost: 4
+  inkwell: true
+  defence: 9
+  move_cost: 1
+  color: sapphire
+  type: location
+  illustrator: Alex Accorsi
+  languages:
+    en:
+      name: McDuck Manor
+      title: Scrooge's Mansion
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 170
+        rarity: uncommon
+  cost: 2
+  inkwell: true
+  defence: 5
+  move_cost: 1
+  color: sapphire
+  type: location
+  illustrator: Etienne Savoie
+  languages:
+    en:
+      name: Motunui
+      title: Island Paradise
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 171
+        rarity: common
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: steel
+  type: glimmer
+  illustrator: Eri Welli
+  languages:
+    en:
+      name: Chef Tui
+      title: Proud Of Motunui
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 172
+        rarity: common
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 5
+  color: steel
+  type: glimmer
+  illustrator: Mariana Moreno
+  languages:
+    en:
+      name: Eeyore
+      title: Overstuffed Donkey
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 173
+        rarity: rare
+  cost: 3
+  inkwell: true
+  attack: 6
+  defence: 6
+  color: steel
+  type: glimmer
+  illustrator: Giuseppe Di Maio
+  languages:
+    en:
+      name: Gustav The Giant
+      title: Terror Of The Kingdom
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 174
+        rarity: rare
+  cost: 6
+  inkwell: true
+  attack: 5
+  defence: 5
+  color: steel
+  type: glimmer
+  illustrator: Brian Kesinger
+  languages:
+    en:
+      name: Hades
+      title: Hotheaded Ruler
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 175
+        rarity: common
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  color: steel
+  type: glimmer
+  illustrator: Kasia Brzezinska
+  languages:
+    en:
+      name: Helga Sinclair
+      title: Right-Hand Woman
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 176
+        rarity: rare
+    promos:
+      - id: 29
+        rarity: organized_plays
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Kumatori Gaku
+  languages:
+    en:
+      name: John Silver
+      title: Greedy Treasure Seeker
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 177
+        rarity: common
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Carlos Ruiz
+  languages:
+    en:
+      name: Kida
+      title: Royal Warrior
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 178
+        rarity: super_rare
+  cost: 6
+  inkwell: true
+  attack: 4
+  defence: 5
+  color: steel
+  type: glimmer
+  illustrator: Filipe Laurentino
+  languages:
+    en:
+      name: Little John
+      title: Resourceful Outlaw
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 179
+        rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  color: steel
+  type: glimmer
+  illustrator: Jacob McAlister
+  languages:
+    en:
+      name: Little John
+      title: Robin's Pal
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 180
+        rarity: Lythos
+  cost: 4
+  inkwell: true
+  attack: 4
+  defence: 1
+  color: steel
+  type: glimmer
+  illustrator: Alice Pisoni
+  languages:
+    en:
+      name: Lythos
+      title: Rock Titan
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 181
+        rarity: common
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Louis Jones
+  languages:
+    en:
+      name: Mickey Mouse
+      title: Stalwart Explorer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 182
+        rarity: legendary
+      - id: 220
+        rarity: enchanted
+        illustrator: Luigi Aimé
+  cost: 4
+  inkwell: false
+  attack: 0
+  defence: 1
+  color: steel
+  type: glimmer
+  illustrator: Gonzalo Kenny
+  languages:
+    en:
+      name: Mickey Mouse
+      title: Trumpeteer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 183
+        rarity: common
+  cost: 1
+  inkwell: true
+  attack: 0
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Grace Tran
+  languages:
+    en:
+      name: Minnie Mouse
+      title: Funky Spelunker
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 184
+        rarity: uncommon
+  cost: 2
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Ally Zermeno
+  languages:
+    en:
+      name: Mr. Smee
+      title: Bumbling Mate
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 185
+        rarity: rare
+  cost: 7
+  inkwell: true
+  attack: 3
+  defence: 10
+  color: steel
+  type: glimmer
+  illustrator: Evana Kisa / Livio Cacciatore
+  languages:
+    en:
+      name: Mufasa
+      title: Champion Of The Pride Lands
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 186
+        rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  color: steel
+  type: glimmer
+  illustrator: Brian Weisz
+  languages:
+    en:
+      name: Nala
+      title: Fierce Friend
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 187
+        rarity: rare
+  cost: 5
+  inkwell: true
+  attack: 5
+  defence: 4
+  color: steel
+  type: glimmer
+  illustrator: Eva Widermann
+  languages:
+    en:
+      name: Pyros
+      title: Lava Titan
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 188
+        rarity: common
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Kuya Jaypi
+  languages:
+    en:
+      name: Razoul
+      title: Palace Guard
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 189
+        rarity: common
+  cost: 1
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: steel
+  type: glimmer
+  illustrator: Valerio Buonfantino
+  languages:
+    en:
+      name: Robin Hood
+      title: Beloved Outlaw
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 190
+        rarity: legendary
+      - id: 221
+        rarity: enchanted
+        illustrator: Noukah
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 6
+  color: steel
+  type: glimmer
+  illustrator: Rudy Hill
+  languages:
+    en:
+      name: Robin Hood
+      title: Champion Of Sherwood
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 191
+        rarity: super_rare
+  cost: 4
+  inkwell: false
+  attack: 2
+  defence: 4
+  color: steel
+  type: glimmer
+  illustrator: Alice Pisoni
+  languages:
+    en:
+      name: Sheriff Of Nottingham
+      title: Corrupt Official
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 192
+        rarity: super_rare
+  cost: 7
+  inkwell: true
+  attack: 5
+  defence: 7
+  color: steel
+  type: glimmer
+  illustrator: Noukah
+  languages:
+    en:
+      name: Simba
+      title: Fighting Prince
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 193
+        rarity: uncommon
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 6
+  color: steel
+  type: glimmer
+  illustrator: Mariana Moreno
+  languages:
+    en:
+      name: Simba
+      title: Rightful King
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 194
+        rarity: uncommon
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 5
+  color: steel
+  type: glimmer
+  illustrator: Juan Diego Leon
+  languages:
+    en:
+      name: Thaddeus E. Klang
+      title: Metallic Leader
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 195
+        rarity: rare
+      - id: 222
+        rarity: enchanted
+        illustrator: Leonardo Giammichele
+  cost: 4
+  inkwell: false
+  color: steel
+  type: song
+  illustrator: Isabella Ceravolo
+  languages:
+    en:
+      name: And Then Along Came Zeus
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 196
+        rarity: common
+  cost: 2
+  inkwell: true
+  color: steel
+  type: item
+  illustrator: Heidi Neunhoffer
+  languages:
+    en:
+      name: Ba-Boom!
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 197
+        rarity: common
+  cost: 1
+  inkwell: true
+  color: steel
+  type: action
+  illustrator: Michaela Martin
+  languages:
+    en:
+      name: Olympus Would Be That Way
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 198
+        rarity: uncommon
+  cost: 3
+  inkwell: true
+  color: steel
+  type: glimmer
+  illustrator: Nicola Saviori
+  languages:
+    en:
+      name: Rise Of The Titans
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 199
+        rarity: uncommon
+  cost: 3
+  inkwell: false
+  color: steel
+  type: item
+  illustrator: Jeremy Adams
+  languages:
+    en:
+      name: Captain Hook's Rapier
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 200
+        rarity: common
+  cost: 3
+  inkwell: true
+  color: steel
+  type: item
+  illustrator: Dustin Panzino
+  languages:
+    en:
+      name: Gizmosuit
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 201
+        rarity: rare
+  cost: 3
+  inkwell: true
+  color: steel
+  type: item
+  illustrator: Gabriel Angelo
+  languages:
+    en:
+      name: Map Of The Treasure Planet
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 202
+        rarity: rare
+  cost: 2
+  inkwell: true
+  defence: 5
+  move_cost: 1
+  color: steel
+  type: location
+  illustrator: Jeremy Adams
+  languages:
+    en:
+      name: Maui's Place Of Exile
+      title: Hidden Island
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 203
+        rarity: common
+  cost: 2
+  inkwell: true
+  defence: 6
+  move_cost: 1
+  color: steel
+  type: location
+  illustrator: Bryn Jones
+  languages:
+    en:
+      name: Nottingham
+      title: Prince John's Castle
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 204
+        rarity: uncommon
+  cost: 1
+  inkwell: true
+  defence: 3
+  move_cost: 1
+  color: steel
+  type: location
+  illustrator: Ryan Moeck
+  languages:
+    en:
+      name: The Bayou
+      title: Mysterious Swamp
   edition:
     - regular
     - foil

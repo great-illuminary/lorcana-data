@@ -6,7 +6,8 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class SetItem(
     val id: Int,
-    val rarity: SetItemRarity
+    val rarity: SetItemRarity,
+    val illustrator: String?
 )
 
 enum class SetItemRarity {
