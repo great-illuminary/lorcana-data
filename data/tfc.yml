@@ -6,6 +6,7 @@
   inkwell: true
   attack: 3
   defence: 4
+  color: amber
   type: glimmer
   illustrator: Matthew Robert Davies
   languages: 
@@ -38,6 +39,7 @@
   inkwell: true
   attack: 2
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Alice Pisoni
   languages: 
@@ -71,6 +73,7 @@
   inkwell: true
   attack: 2
   defence: 5
+  color: amber
   type: glimmer
   illustrator: Javier Salas
   languages: 
@@ -107,6 +110,7 @@
   inkwell: true
   attack: 3
   defence: 6
+  color: amber
   type: glimmer
   illustrator: Jochem Van Gool
   languages: 
@@ -141,6 +145,7 @@
   cost: 8
   attack: 6
   defence: 7
+  color: amber
   type: glimmer
   illustrator: Alex Accorsi
   languages: 
@@ -174,6 +179,7 @@
   cost: 4
   attack: 3
   defence: 2
+  color: amber
   type: glimmer
   illustrator: Randy Bishop
   languages: 
@@ -209,6 +215,7 @@
   inkwell: true
   attack: 1
   defence: 2
+  color: amber
   type: glimmer
   illustrator: Jenna Gray
   languages: 
@@ -241,6 +248,7 @@
   inkwell: true
   attack: 1
   defence: 2
+  color: amber
   type: glimmer
   illustrator: Andrey Chomak
   languages: 
@@ -272,6 +280,7 @@
   cost: 1
   attack: 1
   defence: 1
+  color: amber
   type: glimmer
   illustrator: Dave Beauchene
   languages: 
@@ -303,6 +312,7 @@
   inkwell: true
   attack: 4
   defence: 5
+  color: amber
   type: glimmer
   illustrator: Brian Weisz
   languages: 
@@ -336,6 +346,7 @@
   inkwell: true
   attack: 3
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Kendall Hale
   languages: 
@@ -368,6 +379,7 @@
   inkwell: true
   attack: 3
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Dave Beauchene
   languages: 
@@ -399,6 +411,7 @@
   inkwell: true
   attack: 2
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Kendall Hale
   languages: 
@@ -430,6 +443,7 @@
   inkwell: true
   attack: 1
   defence: 6
+  color: amber
   type: glimmer
   illustrator: Nicholas Kole
   languages: 
@@ -462,6 +476,7 @@
   inkwell: true
   attack: 2
   defence: 5
+  color: amber
   type: glimmer
   illustrator: 'Kamil Murzyn / Eri Welli'
   languages: 
@@ -492,6 +507,7 @@
   cost: 4
   attack: 3
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Philipp Kruse
   languages: 
@@ -524,6 +540,7 @@
   inkwell: true
   attack: 3
   defence: 5
+  color: amber
   type: glimmer
   illustrator: Jenna Gray
   languages: 
@@ -555,6 +572,7 @@
   inkwell: true
   attack: 1
   defence: 5
+  color: amber
   type: glimmer
   illustrator: Jochem Van Gool
   languages: 
@@ -587,6 +605,7 @@
   inkwell: true
   attack: 2
   defence: 2
+  color: amber
   type: glimmer
   illustrator: Isaiah Mesq
   languages: 
@@ -619,6 +638,7 @@
   inkwell: true
   attack: 2
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Filipe Laurentino
   languages: 
@@ -653,6 +673,7 @@
   inkwell: true
   attack: 4
   defence: 8
+  color: amber
   type: glimmer
   illustrator: Marcel Berg
   languages: 
@@ -685,6 +706,7 @@
   inkwell: true
   attack: 2
   defence: 2
+  color: amber
   type: glimmer
   illustrator: Alex Accorsi
   languages: 
@@ -721,6 +743,7 @@
   inkwell: true
   attack: 3
   defence: 5
+  color: amber
   type: glimmer
   illustrator: Simangaliso Sibaya
   languages: 
@@ -754,6 +777,7 @@
   inkwell: true
   attack: 1
   defence: 2
+  color: amber
   type: glimmer
   illustrator: Juan Diego Leon
   languages: 
@@ -784,6 +808,7 @@
         rarity: uncommon
   cost: 2
   inkwell: true
+  color: amber
   type: song
   illustrator: 'R. La Barbera / L. Giammichele'
   languages: 
@@ -814,6 +839,7 @@
         rarity: common
   cost: 1
   inkwell: true
+  color: amber
   type: action
   illustrator: Amber Kommavongsa
   languages: 
@@ -844,6 +870,7 @@
         rarity: common
   cost: 4
   inkwell: true
+  color: amber
   type: song
   illustrator: Juan Diego Leon
   languages: 
@@ -874,6 +901,7 @@
         rarity: common
   cost: 1
   inkwell: true
+  color: amber
   type: action
   illustrator: Philipp Kruse
   languages: 
@@ -903,6 +931,7 @@
       - id: 29
         rarity: rare
   cost: 3
+  color: amber
   type: action
   illustrator: Leonardo Giammichele
   languages: 
@@ -932,6 +961,7 @@
       - id: 30
         rarity: rare
   cost: 3
+  color: amber
   type: song
   illustrator: Samanta Erdini
   languages: 
@@ -962,6 +992,7 @@
         rarity: uncommon
   cost: 4
   inkwell: true
+  color: amber
   type: action
   illustrator: Alice Pisoni
   languages: 
@@ -992,8 +1023,7 @@
         rarity: common
   cost: 1
   inkwell: true
-  attack: 0
-  defence: 0
+  color: amber
   type: item
   illustrator: Eri Welli
   languages: 
@@ -1023,6 +1053,7 @@
       - id: 33
         rarity: rare
   cost: 2
+  color: amber
   type: item
   illustrator: Eri Welli
   languages: 
@@ -1052,6 +1083,7 @@
       - id: 34
         rarity: rare
   cost: 3
+  color: amber
   type: item
   illustrator: Jenna Gray
   languages: 

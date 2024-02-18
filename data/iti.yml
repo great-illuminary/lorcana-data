@@ -6,6 +6,7 @@
   inkwell: false
   attack: 0
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Cam Kendell
   languages:
@@ -27,6 +28,7 @@
   inkwell: false
   attack: 9
   defence: 9
+  color: amber
   type: glimmer
   illustrator: Evana Kisa / Jochem van Gool
   languages:
@@ -61,6 +63,7 @@
   inkwell: true
   attack: 2
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Kapik
   languages:
@@ -82,6 +85,7 @@
   inkwell: true
   attack: 2
   defence: 2
+  color: amber
   type: glimmer
   illustrator: Nicoletta Baldari
   languages:
@@ -103,6 +107,7 @@
   inkwell: false
   attack: 2
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Brian Weisz
   languages:
@@ -124,6 +129,7 @@
   inkwell: true
   attack: 1
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Erika Wiseman
   languages:
@@ -145,6 +151,7 @@
   inkwell: true
   attack: 2
   defence: 2
+  color: amber
   type: glimmer
   illustrator: Jeff Merghart
   languages:
@@ -166,6 +173,7 @@
   inkwell: true
   attack: 4
   defence: 8
+  color: amber
   type: glimmer
   illustrator: Alexandria Neonakis
   languages:
@@ -187,6 +195,7 @@
   inkwell: true
   attack: 3
   defence: 6
+  color: amber
   type: glimmer
   illustrator: Shannon Hallstein
   languages:
@@ -208,6 +217,7 @@
   inkwell: true
   attack: 1
   defence: 4
+  color: amber
   type: glimmer
   illustrator: Isaiah Mesq
   languages:
@@ -229,6 +239,7 @@
   inkwell: true
   attack: 3
   defence: 4
+  color: amber
   type: glimmer
   illustrator: Ellie Horie
   languages:
@@ -250,6 +261,7 @@
   inkwell: false
   attack: 1
   defence: 6
+  color: amber
   type: glimmer
   illustrator: Defne Tözüm / Livio Cacciatore
   languages:
@@ -271,6 +283,7 @@
   inkwell: true
   attack: 2
   defence: 2
+  color: amber
   type: glimmer
   illustrator: Grace Tran
   languages:
@@ -292,6 +305,7 @@
   inkwell: true
   attack: 3
   defence: 8
+  color: amber
   type: glimmer
   illustrator: Dave Alvarez / Alice Pisoni
   languages:
@@ -313,6 +327,7 @@
   inkwell: false
   attack: 0
   defence: 2
+  color: amber
   type: glimmer
   illustrator: Jiahui Eva Gao
   languages:
@@ -334,6 +349,7 @@
   inkwell: true
   attack: 3
   defence: 2
+  color: amber
   type: glimmer
   illustrator: Grace Tran
   languages:
@@ -355,6 +371,7 @@
   inkwell: true
   attack: 3
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Brianna Garcia
   languages:
@@ -376,6 +393,7 @@
   inkwell: true
   attack: 3
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Defne Tözüm / Denny Minonne
   languages:
@@ -397,6 +415,7 @@
   inkwell: false
   attack: 1
   defence: 4
+  color: amber
   type: glimmer
   illustrator: Aisha Durmagambetova
   languages:
@@ -418,6 +437,7 @@
   inkwell: true
   attack: 1
   defence: 3
+  color: amber
   type: glimmer
   illustrator: Aubrey Archer
   languages:
@@ -437,6 +457,7 @@
         rarity: uncommon
   cost: 5
   inkwell: false
+  color: amber
   type: action
   illustrator: Agnes Christianson
   languages:
@@ -455,6 +476,7 @@
         rarity: common
   cost: 1
   inkwell: true
+  color: amber
   type: action
   illustrator: Zuzana Sokolova / Livio Cacciatore
   languages:
@@ -473,6 +495,7 @@
         rarity: common
   cost: 3
   inkwell: true
+  color: amber
   type: song
   illustrator: Monica Catalano
   languages:
@@ -491,6 +514,7 @@
         rarity: common
   cost: 1
   inkwell: true
+  color: amber
   type: action
   illustrator: Brian Weisz
   languages:
@@ -509,6 +533,7 @@
         rarity: rare
   cost: 2
   inkwell: true
+  color: amber
   type: song
   illustrator: Maxine Vee / David Navarro Arenas
   languages:
@@ -527,6 +552,7 @@
         rarity: common
   cost: 2
   inkwell: true
+  color: amber
   type: item
   illustrator: 'Michael "Cookie" Niewiadomy'
   languages:
@@ -545,6 +571,7 @@
         rarity: rare
   cost: 4
   inkwell: false
+  color: amber
   type: glimmer
   illustrator: Elliot Baum / Viv Tanner
   languages:
@@ -563,6 +590,7 @@
         rarity: uncommon
   cost: 2
   inkwell: true
+  color: amber
   type: item
   illustrator: Ellie Horie
   languages:
@@ -581,7 +609,10 @@
         rarity: common
   cost: 1
   inkwell: true
+  color: amber
   type: location
+  defence: 4
+  move_cost: 1
   illustrator: Cécile Carre
   languages:
     en:
@@ -599,13 +630,681 @@
       - id: 33
         rarity: rare
   cost: 2
+  defence: 7
+  move_cost: 2
   inkwell: false
+  color: amber
   type: glimmer
   illustrator: Beverly Arce / Jonathan Livslyst
   languages:
     en:
       name: Pride Land
       title: Pride Rock
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+
+- sets:
+    iti:
+      - id: 35
+        rarity: super_rare
+  cost: 6
+  inkwell: true
+  attack: 4
+  defence: 4
+  color: amethyst
+  type: glimmer
+  illustrator: Nicola Saviori / Raquel Villanueva
+  languages:
+    en:
+      name: Alice
+      title: Tea Alchemist
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 36
+        rarity: super_rare
+  cost: 1
+  inkwell: true
+  attack: 2
+  defence: 1
+  color: amethyst
+  type: glimmer
+  illustrator: Monica Catalano
+  languages:
+    en:
+      name: Chernabog's Followers
+      title: Creatures of Evil
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 37
+        rarity: common
+  cost: 1
+  inkwell: true
+  attack: 2
+  defence: 1
+  color: amethyst
+  type: glimmer
+  illustrator: Agnes Christianson
+  languages:
+    en:
+      name: Diablo
+      title: Faithful Pet
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 38
+        rarity: super_rare
+  cost: 4
+  inkwell: false
+  attack: 3
+  defence: 5
+  color: amethyst
+  type: glimmer
+  illustrator: Koni
+  languages:
+    en:
+      name: Genie
+      title: Supportive Friend
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 39
+        rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: amethyst
+  type: glimmer
+  illustrator: Alice Pisoni
+  languages:
+    en:
+      name: Hydros
+      title: Ice Titan
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 40
+        rarity: common
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 2
+  color: amethyst
+  type: glimmer
+  illustrator: Giulia Riva
+  languages:
+    en:
+      name: Iago
+      title: Pretty Polly
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 41
+        rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: amethyst
+  type: glimmer
+  illustrator: Veronica Di Lorenzo / Livio Cacciatore
+  languages:
+    en:
+      name: Jafar
+      title: Lamp Thief
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 42
+        rarity: legendary
+  cost: 7
+  inkwell: true
+  attack: 4
+  defence: 5
+  color: amethyst
+  type: glimmer
+  illustrator: Nicola Saviori
+  languages:
+    en:
+      name: Jafar
+      title: Striking Illusionist
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 43
+        rarity: common
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: amethyst
+  type: glimmer
+  illustrator: Heidi Neunhoffer
+  languages:
+    en:
+      name: Lena Sabrewing
+      title: Rebellious Teenager
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 44
+        rarity: uncommon
+  cost: 6
+  inkwell: false
+  attack: 3
+  defence: 3
+  color: amethyst
+  type: glimmer
+  illustrator: Giulia Riva
+  languages:
+    en:
+      name: MAGIC BROOM
+      title: Dancing Duster
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 45
+        rarity: common
+  cost: 5
+  inkwell: false
+  attack: 4
+  defence: 4
+  color: amethyst
+  type: glimmer
+  illustrator: Cristian Romero
+  languages:
+    en:
+      name: MAGIC BROOM
+      title: Swift Cleaner
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 46
+        rarity: common
+  cost: 3
+  inkwell: true
+  attack: 1
+  defence: 5
+  color: amethyst
+  type: glimmer
+  illustrator: Eri Welli
+  languages:
+    en:
+      name: MAGIC BROOM
+      title: The Big Sweeper
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 47
+        rarity: common
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 1
+  color: amethyst
+  type: glimmer
+  illustrator: Cory Godbey
+  languages:
+    en:
+      name: Magic Carpet
+      title: Flying Rug
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 48
+        rarity: common
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 1
+  color: amethyst
+  type: glimmer
+  illustrator: Lissette Carrera
+  languages:
+    en:
+      name: Magica De Spell
+      title: Ambitious Witch
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 49
+        rarity: super_rare
+  cost: 7
+  inkwell: false
+  attack: 4
+  defence: 6
+  color: amethyst
+  type: glimmer
+  illustrator: Lauren Levering
+  languages:
+    en:
+      name: Magica De Spell
+      title: The Midas Touch
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 50
+        rarity: uncommon
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: amethyst
+  type: glimmer
+  illustrator: Giulia Riva
+  languages:
+    en:
+      name: Magica De Spell
+      title: Thieving Sorceress
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 51
+        rarity: legendary
+  cost: 5
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: amethyst
+  type: glimmer
+  illustrator: Grace Tran
+  languages:
+    en:
+      name: Maleficent
+      title: Mistress Of All Evil
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 52
+        rarity: uncommon
+  cost: 6
+  inkwell: false
+  attack: 3
+  defence: 6
+  color: amethyst
+  type: glimmer
+  illustrator: Grace Tran
+  languages:
+    en:
+      name: Mama Odie
+      title: Voice Of Wisdom
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 54
+        rarity: rare
+  cost: 1
+  inkwell: true
+  attack: 0
+  defence: 2
+  color: amethyst
+  type: glimmer
+  illustrator: Otto Paredes
+  languages:
+    en:
+      name: Rafiki
+      title: Mystical Fighter
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 55
+        rarity: rare
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 4
+  color: amethyst
+  type: glimmer
+  illustrator: Jared Nickerl / Alice Pisoni
+  languages:
+    en:
+      name: Stratos
+      title: Tornado Titan
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 57
+        rarity: common
+  cost: 3
+  inkwell: true
+  attack: 4
+  defence: 3
+  color: amethyst
+  type: glimmer
+  illustrator: Anna Rud / Livio Cacciatore
+  languages:
+    en:
+      name: The Queen
+      title: Hateful Rival
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 58
+        rarity: rare
+  cost: 4
+  inkwell: false
+  attack: 6
+  defence: 6
+  color: amethyst
+  type: glimmer
+  illustrator: Hedvig Häggman-Sund
+  languages:
+    en:
+      name: Treasure Guardian
+      title: Protector Of The Cave
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 59
+        rarity: rare
+  cost: 3
+  inkwell: false
+  attack: 3
+  defence: 3
+  color: amethyst
+  type: glimmer
+  illustrator: John Loren
+  languages:
+    en:
+      name: Ursula
+      title: Sea Witch
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 60
+        rarity: common
+  cost: 1
+  inkwell: true
+  color: amethyst
+  type: action
+  illustrator: Dylan Bonner
+  languages:
+    en:
+      name: Bestow A Gift
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 61
+        rarity: uncommon
+  cost: 1
+  inkwell: true
+  color: amethyst
+  type: song
+  illustrator: Luis Huerta
+  languages:
+    en:
+      name: It Calls Me
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 62
+        rarity: uncommon
+  cost: 3
+  inkwell: false
+  color: amethyst
+  type: action
+  illustrator: Ian MacDonald
+  languages:
+    en:
+      name: Last-Ditch Effort
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 63
+        rarity: rare
+  cost: 3
+  inkwell: true
+  color: amethyst
+  type: song
+  illustrator: Koni
+  languages:
+    en:
+      name: The Boss Is On A Roll
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 64
+        rarity: rare
+  cost: 2
+  inkwell: false
+  color: amethyst
+  type: item
+  illustrator: Ever Galvez / Anna Stosik
+  languages:
+    en:
+      name: The Lamp
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 65
+        rarity: rare
+  cost: 2
+  inkwell: true
+  color: amethyst
+  type: item
+  illustrator: Jiahui Eva Gao
+  languages:
+    en:
+      name: The Sorcerer's hat
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 66
+        rarity: common
+  cost: 2
+  inkwell: true
+  color: amethyst
+  type: location
+  defence: 6
+  move_cost: 1
+  illustrator: Dylan Bonner
+  languages:
+    en:
+      name: Forbidden Mountain
+      title: "Maleficient's Castle"
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- sets:
+    iti:
+      - id: 67
+        rarity: rare
+  cost: 4
+  inkwell: true
+  color: amethyst
+  type: location
+  defence: 7
+  move_cost: 1
+  illustrator: Matthew Oates
+  languages:
+    en:
+      name: The Queen's Castle
+      title: Mirror Chamber
   edition:
     - regular
     - foil

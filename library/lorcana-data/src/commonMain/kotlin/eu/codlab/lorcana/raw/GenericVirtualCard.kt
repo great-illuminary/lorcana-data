@@ -16,7 +16,7 @@ data class GenericVirtualCard<A, F>(
     val attack: Int? = null,
     val defence: Int? = null,
     val sets: Map<SetDescription, List<SetItem>> = emptyMap(),
-    val color: InkColor = InkColor.Amber,
+    val color: InkColor,
     val type: String = "",
     val illustrator: String = "",
     val languages: Map<String, CardTranslation>,
