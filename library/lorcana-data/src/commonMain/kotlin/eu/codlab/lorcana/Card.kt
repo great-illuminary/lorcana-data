@@ -5,6 +5,7 @@ import eu.codlab.lorcana.cards.CardThirdParty
 import eu.codlab.lorcana.cards.CardTranslation
 import eu.codlab.lorcana.cards.InkColor
 import eu.codlab.lorcana.franchises.Franchise
+import eu.codlab.lorcana.raw.SetDescription
 import eu.codlab.lorcana.raw.SetItemRarity
 import eu.codlab.lorcana.raw.VirtualCard
 import kotlinx.serialization.SerialName

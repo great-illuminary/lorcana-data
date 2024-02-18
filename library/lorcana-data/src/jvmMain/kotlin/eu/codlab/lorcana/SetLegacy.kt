@@ -1,5 +1,6 @@
 package eu.codlab.lorcana
 
+import eu.codlab.lorcana.raw.SetDescription
 import korlibs.io.async.Promise
 import korlibs.io.async.launch
 import korlibs.io.experimental.KorioExperimentalApi

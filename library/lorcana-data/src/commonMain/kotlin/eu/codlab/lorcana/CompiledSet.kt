@@ -1,5 +1,6 @@
 package eu.codlab.lorcana
 
+import eu.codlab.lorcana.raw.SetDescription
 import eu.codlab.lorcana.raw.VirtualCard
 import eu.codlab.lorcana.utils.Provider
 import korlibs.datastructure.iterators.parallelMap

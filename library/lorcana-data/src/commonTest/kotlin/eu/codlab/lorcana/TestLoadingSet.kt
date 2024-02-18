@@ -1,6 +1,7 @@
 package eu.codlab.lorcana
 
 import eu.codlab.lorcana.buildconfig.BuildKonfig
+import eu.codlab.lorcana.raw.SetDescription
 import eu.codlab.platform.Platform
 import eu.codlab.platform.currentPlatform
 import kotlinx.coroutines.test.runTest
@@ -60,7 +61,7 @@ class TestLoadingSet {
 
     private suspend fun runTestList(provider: suspend (set: SetDescription) -> Set) {
         listOf(
-            SetDescription.Promos to 28,
+            SetDescription.Promos to 33,
             SetDescription.TFC to 216,
             SetDescription.RotF to 216
         ).forEach { (set, count) ->

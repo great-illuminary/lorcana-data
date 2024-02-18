@@ -1,6 +1,5 @@
 package eu.codlab.lorcana.raw
 
-import eu.codlab.lorcana.SetDescription
 import eu.codlab.lorcana.abilities.Ability
 import eu.codlab.lorcana.cards.CardThirdParty
 import eu.codlab.lorcana.cards.CardTranslation

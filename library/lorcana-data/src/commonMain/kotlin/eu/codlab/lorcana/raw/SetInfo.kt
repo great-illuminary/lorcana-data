@@ -7,7 +7,7 @@ import kotlinx.serialization.Serializable
 data class SetItem(
     val id: Int,
     val rarity: SetItemRarity,
-    val illustrator: String?
+    val illustrator: String? = null
 )
 
 enum class SetItemRarity {
@@ -45,5 +45,8 @@ enum class SetItemRarity {
     MCMComicCon2023,
 
     @SerialName("pax_unplugged2023")
-    PaxUplugged2023
+    PaxUplugged2023,
+
+    @SerialName("worlds24")
+    Worlds24
 }

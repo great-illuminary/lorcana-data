@@ -2,6 +2,7 @@
     rotf:
       - id: 1
         rarity: uncommon
+  color: amber
   cost: 4
   inkwell: true
   attack: 2
@@ -27,6 +28,7 @@
     rotf:
       - id: 2
         rarity: rare
+  color: amber
   cost: 6
   inkwell: true
   attack: 2
@@ -54,6 +56,7 @@
         rarity: rare
       - id: 205
         rarity: enchanted
+  color: amber
   cost: 1
   inkwell: true
   attack: 1
@@ -79,6 +82,7 @@
     rotf:
       - id: 7
         rarity: rare
+  color: amber
   cost: 7
   inkwell: true
   attack: 5
@@ -107,6 +111,7 @@
     rotf:
       - id: 5
         rarity: uncommon
+  color: amber
   cost: 3
   inkwell: true
   attack: 2
@@ -132,6 +137,7 @@
     rotf:
       - id: 6
         rarity: uncommon
+  color: amber
   cost: 3
   inkwell: true
   attack: 2
@@ -157,6 +163,7 @@
     rotf:
       - id: 7
         rarity: common
+  color: amber
   cost: 5
   inkwell: true
   attack: 1
@@ -181,6 +188,7 @@
     rotf:
       - id: 8
         rarity: uncommon
+  color: amber
   cost: 3
   inkwell: true
   attack: 3
@@ -205,6 +213,7 @@
     rotf:
       - id: 9
         rarity: rare
+  color: amber
   cost: 2
   inkwell: true
   attack: 2
@@ -234,6 +243,7 @@
     rotf:
       - id: 10
         rarity: common
+  color: amber
   cost: 4
   inkwell: true
   attack: 3
@@ -259,6 +269,7 @@
     rotf:
       - id: 11
         rarity: common
+  color: amber
   cost: 5
   inkwell: true
   attack: 3
@@ -284,6 +295,7 @@
     rotf:
       - id: 12
         rarity: super_rare
+  color: amber
   cost: 7
   inkwell: true
   attack: 3
@@ -313,6 +325,7 @@
       - id: 18
         rarity: d100
         illustrator: Mark Henn
+  color: amber
   cost: 6
   inkwell: true
   attack: 1
@@ -342,6 +355,7 @@
     rotf:
       - id: 14
         rarity: legendary
+  color: amber
   cost: 5
   inkwell: true
   attack: 3
@@ -367,6 +381,7 @@
     rotf:
       - id: 15
         rarity: common
+  color: amber
   cost: 3
   inkwell: true
   attack: 2
@@ -392,6 +407,7 @@
     rotf:
       - id: 16
         rarity: rare
+  color: amber
   cost: 4
   inkwell: true
   attack: 3
@@ -418,6 +434,7 @@
     rotf:
       - id: 17
         rarity: uncommon
+  color: amber
   cost: 2
   inkwell: true
   attack: 1
@@ -443,6 +460,7 @@
     rotf:
       - id: 18
         rarity: common
+  color: amber
   cost: 3
   inkwell: true
   attack: 2
@@ -470,6 +488,7 @@
     promos:
       - id: 31
         rarity: pax_unplugged2023
+  color: amber
   cost: 5
   inkwell: true
   attack: 0
@@ -500,124 +519,129 @@
     rotf:
       - id: 20
         rarity: common
+  color: amber
   cost: 2
   inkwell: true
   attack: 1
   defence: 4
   type: glimmer
   illustrator: Aubrey Archer
-  languages: 
-    en: 
+  languages:
+    en:
       name: Rapunzel
       title: Sunshine
       flavour: \u201cWe can all make the world a little brighter in our own way.\u201d
-    fr: 
+    fr:
       name: Raiponce
       title: Solaire
       flavour: '"Nous pouvons tous rendre le monde un peu plus lumineux \u00e0 notre mani\u00e8re."'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - magic_hair
   franchise_id: unknown
 - sets:
     rotf:
       - id: 21
         rarity: common
+  color: amber
   cost: 2
   inkwell: true
   attack: 2
   defence: 3
   type: glimmer
   illustrator: Kendall Hale
-  languages: 
-    en: 
+  languages:
+    en:
       name: Sleepy
       title: Nodding Off
       flavour: He never gets tired of naps.
-    fr: 
+    fr:
       name: Dormeur
       title: Tombe de fatigue
       flavour: "Il n'est jamais fatigu\\u00e9 de faire la sieste."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - yawn
   franchise_id: unknown
 - sets:
     rotf:
       - id: 22
         rarity: common
+  color: amber
   cost: 2
   inkwell: true
   attack: 1
   defence: 4
   type: glimmer
   illustrator: Kendall Hale
-  languages: 
-    en: 
+  languages:
+    en:
       name: Sneezy
       title: Very Allergic
       flavour: "Look out! He's gonna blow!"
-    fr: 
+    fr:
       name: Atchoum
       title: Tr\u00e8s allergique
       flavour: Attention ! Il va \u00e9ternuer !
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - ah_choo
   franchise_id: unknown
 - sets:
     rotf:
       - id: 23
         rarity: common
+  color: amber
   cost: 2
   inkwell: true
   attack: 2
   defence: 3
   type: glimmer
   illustrator: LadyShalirin
-  languages: 
-    en: 
+  languages:
+    en:
       name: Snow White
       title: Lost in the Forest
       flavour: "\\u201cWhy, you're all alone, just like me.\\u201d"
-    fr: 
+    fr:
       name: 'Blanche-Neige'
       title: Perdue dans la for\u00eat
       flavour: "\"Et bien, tu as l'air seul, tout comme moi.\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - wont_hurt_you
   franchise_id: unknown
 - sets:
     rotf:
       - id: 24
         rarity: uncommon
+  color: amber
   cost: 2
   attack: 1
   defence: 2
   type: glimmer
   illustrator: Samanta Erdini
-  languages: 
-    en: 
+  languages:
+    en:
       name: Snow White
       title: Unexpected Houseguest
       flavour: '\u201cNothing says \u2018hello\u2019 better than a fresh-baked pie.\u201d'
-    fr: 
+    fr:
       name: 'Blanche-Neige'
       title: Invit\u00e9e inattendue
       flavour: "\"Il n'ya pas meilleure salutations qu'une bonne tarte sortie du four.\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - how_do_you_do
   franchise_id: unknown
 - sets:
@@ -626,24 +650,25 @@
         rarity: legendary
       - id: 206
         rarity: enchanted
+  color: amber
   cost: 6
   attack: 3
   defence: 5
   type: glimmer
   illustrator: Javi Salas
-  languages: 
-    en: 
+  languages:
+    en:
       name: Snow White
       title: Well Wisher
       flavour: null
-    fr: 
+    fr:
       name: 'Blanche-Neige'
       title: Fait un voeu
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_4
     - wishes_come_true
   franchise_id: unknown
@@ -651,29 +676,30 @@
     rotf:
       - id: 26
         rarity: super_rare
+  color: amber
   cost: 5
   inkwell: true
   attack: 4
   defence: 3
   type: glimmer
   illustrator: 'Matthew Robert Davies \/ LadyShalirin'
-  languages: 
-    en: 
+  languages:
+    en:
       name: The Queen
       title: Commanding Presence
       flavour: null
-    de: 
+    de:
       name: Die K\u00f6nigin
       title: Imposantes Auftreten
       flavour: null
-    fr: 
+    fr:
       name: La Reine
       title: Autorit\u00e9 naturelle
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_2
     - who_is_the_fairest
   franchise_id: unknown
@@ -681,22 +707,23 @@
     rotf:
       - id: 27
         rarity: common
+  color: amber
   cost: 1
   inkwell: true
   attack: 2
   defence: 2
   type: glimmer
   illustrator: Eva Windermann
-  languages: 
-    en: 
+  languages:
+    en:
       name: The Queen
       title: Regal Monarch
       flavour: "Don't question her. Don't doubt her. And above all, don't disobey her."
-    fr: 
+    fr:
       name: La Reine
       title: Monarque absolue
       flavour: "Ne lui posez pas de question. Ne doutez pas d'elle. Et surtout, ne lui d\\u00e9sob\\u00e9issez jamais."
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -705,20 +732,21 @@
     rotf:
       - id: 28
         rarity: common
+  color: amber
   cost: 2
   inkwell: true
   type: action
   illustrator: 'Connie Kang \/ Jackie Droujko'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Hold Still
       title: ''
       flavour: \u201cThis might sting a little.\u201d
-    fr: 
+    fr:
       name: Ne bougez pas
       title: ''
       flavour: '"Restez tranquille, \u00e7a pique"'
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -727,23 +755,24 @@
     rotf:
       - id: 29
         rarity: uncommon
+  color: amber
   cost: 2
   type: action
   illustrator: Aisha Durmagambetova
-  languages: 
-    en: 
+  languages:
+    en:
       name: Last Stand
       title: ''
       flavour: "\\u201cLet\\u2019s finish this, binturi.\\u201d\n\\u2013Namaari"
-    de: 
+    de:
       name: Letztes Gefecht
       title: ''
       flavour: "\\u201eBringen wir's zuende, Binturi.\\u201c - Namaari"
-    fr: 
+    fr:
       name: Ultime Combat
       title: ''
       flavour: "\"Oui, finissons-en, Binturi.\"\n\\u2212Namaari"
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -752,20 +781,21 @@
     rotf:
       - id: 30
         rarity: common
+  color: amber
   cost: 2
   inkwell: true
   type: song
   illustrator: Matt Chapman
-  languages: 
-    en: 
+  languages:
+    en:
       name: Painting the Roses Red
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Peignons les roses en rouge
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -774,24 +804,25 @@
     rotf:
       - id: 31
         rarity: rare
+  color: amber
   cost: 3
   inkwell: true
   type: song
   illustrator: Giulia Riva
-  languages: 
-    en: 
+  languages:
+    en:
       name: "World's Greatest Criminal Mind"
       title: ''
       flavour: null
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Le Grand G\u00e9nie Du Mal
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -800,74 +831,77 @@
     rotf:
       - id: 32
         rarity: uncommon
+  color: amber
   cost: 2
   type: song
   illustrator: Rob Di Salvo
-  languages: 
-    en: 
+  languages:
+    en:
       name: Zero To Hero
       title: ''
       flavour: null
-    de: 
+    de:
       name: In Sekunden auf Hundert
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: De Z\u00e9ro en H\u00e9ros
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - zero_to_hero
   franchise_id: unknown
 - sets:
     rotf:
       - id: 33
         rarity: rare
+  color: amber
   cost: 3
   type: item
   illustrator: Andrew Trabbold
-  languages: 
-    en: 
+  languages:
+    en:
       name: Dragon Gem
       title: ''
       flavour: Hope shines in even the darkest situations.
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Pierre de Dragon
       title: ''
       flavour: "Il y a toujours une lueur d'espoir, m\\u00eame dans les situations les plus sombres."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - bring_back_to_life
   franchise_id: unknown
 - sets:
     rotf:
       - id: 34
         rarity: rare
+  color: amber
   cost: 2
   type: item
   illustrator: Antonia Flechsig
-  languages: 
-    en: 
+  languages:
+    en:
       name: "Sleepy's Flute"
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Fl\u00fbte de Dormeur
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - a_silly_song
   franchise_id: unknown
 - sets:
@@ -882,23 +916,23 @@
   color: amethyst
   type: glimmer
   illustrator: Jake Parker
-  languages: 
-    en: 
+  languages:
+    en:
       name: Arthur
       title: "Wizard's Apprentice"
       flavour: '\u201cHmm . . what spell should I try next?\u201d'
-    de: 
+    de:
       name: Arthur
       title: Zauberlehrling
       flavour: '\u201eHmm... Welchen Zauberspruch versuche ihc als n\u00e4chstes?\u201c'
-    fr: 
+    fr:
       name: Arthur
       title: "Apprenti de l'Enchanteur"
       flavour: '"Hmm \u2026 quel sort devrais-je essayer ensuite ?"'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - student
   franchise_id: unknown
 - sets:
@@ -912,19 +946,19 @@
   color: amethyst
   type: glimmer
   illustrator: Kiersten Hale
-  languages: 
-    en: 
+  languages:
+    en:
       name: Blue Fairy
       title: Rewarding Good Deeds
       flavour: \u201cTo make Geppetto\u2019s wish come true will be entirely up to you.\u201d \u2013Blue Fairy
-    fr: 
+    fr:
       name: La F\u00e9e Bleue
       title: R\u00e9compense les bonnes actions
       flavour: '"La r\u00e9alisation du voeu de Geppetto va d\u00e9pendre enti\u00e8rement de toi" - La F\u00e9e Bleue'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - ethereal_glow
     - evasive
   franchise_id: unknown
@@ -939,20 +973,20 @@
   color: amethyst
   type: glimmer
   illustrator: Aubrey Archer
-  languages: 
-    en: 
+  languages:
+    en:
       name: Chip the Teacup
       title: Gentle Soul
       flavour: '\u201cWanna see me do a trick?\u201d'
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Zip
       title: Ame innocente
       flavour: '"Tu veux que je te fasse une blague ?"'
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -968,19 +1002,19 @@
   color: amethyst
   type: glimmer
   illustrator: Leonardo Giammichele
-  languages: 
-    en: 
+  languages:
+    en:
       name: Dr. Facilier
       title: Savvy Opportunist
       flavour: null
-    fr: 
+    fr:
       name: Dr. Facilier
       title: Opportuniste bien renseign\u00e9
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - evasive
   franchise_id: unknown
 - sets:
@@ -998,23 +1032,23 @@
   color: amethyst
   type: glimmer
   illustrator: Cristian Romero
-  languages: 
-    en: 
+  languages:
+    en:
       name: Elsa
       title: Gloves Off
       flavour: The power of ice may not stop the flood, but it will help protect Lorcana.
-    de: 
+    de:
       name: Elsa
       title: Ohne Handschuhe
       flavour: Das Eis kann die Flut vielleicht nicht aufhalten, aber es wird dabei helfen, Lorcana zu besch\u00fctzen.
-    fr: 
+    fr:
       name: Elsa
       title: Sans gants
       flavour: "Le pouvoir de la glace n'arr\\u00eatera peut-\\u00eatre pas\nl'inondation, mais il aidera \\u00e0 prot\\u00e9ger Lorcana."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - challenger_3
   franchise_id: unknown
 - sets:
@@ -1028,16 +1062,16 @@
   color: amethyst
   type: glimmer
   illustrator: 'Hedvig H\u00e4ggman-Sund'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Fairy Godmother
       title: Here to Help
       flavour: "\\u201cUse a humdrum spell, and you'll end up with humdrum magic. I like my magic to have something special!\\u201d"
-    fr: 
+    fr:
       name: La Bonne F\u00e9e
       title: L\u00e0 pour aider
       flavour: "\"Un sort banal ne donne qu'une magie banale. Et j'aime que ma magie ait une touche sp\\u00e9ciale !\""
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -1053,19 +1087,19 @@
   color: amethyst
   type: glimmer
   illustrator: Filipe Laurentino
-  languages: 
-    en: 
+  languages:
+    en:
       name: Fairy Godmother
       title: Mystic Armorer
       flavour: null
-    fr: 
+    fr:
       name: La Bonne F\u00e9e
       title: Armuri\u00e8re mystique
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_2
     - forget_the_coach_heres_a_sword
   franchise_id: unknown
@@ -1080,19 +1114,19 @@
   color: amethyst
   type: glimmer
   illustrator: Matt Chapman
-  languages: 
-    en: 
+  languages:
+    en:
       name: Fairy Godmother
       title: Pure Heart
       flavour: "\\u201cWe'll have to hurry, because even miracles take a little time.\\u201d"
-    fr: 
+    fr:
       name: La Bonne F\u00e9e
       title: Au coeur pur
       flavour: '"D\u00e9p\u00eachons-nous car m\u00eame les miracles prennent un peu de temps."'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - just_leave_it_to_me
   franchise_id: unknown
 - sets:
@@ -1106,19 +1140,19 @@
   color: amethyst
   type: glimmer
   illustrator: Ellie Horie
-  languages: 
-    en: 
+  languages:
+    en:
       name: HeiHei
       title: Persistent Presence
       flavour: Power. Beauty. HeiHei.
-    fr: 
+    fr:
       name: Heihei
       title: Volatile tenace
       flavour: Puissance. Beaut\u00e9; Heihei.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - hes_back
   franchise_id: unknown
 - sets:
@@ -1132,19 +1166,19 @@
   color: amethyst
   type: glimmer
   illustrator: Isaiah Mesq
-  languages: 
-    en: 
+  languages:
+    en:
       name: Jiminy Cricket
       title: "Pinocchio's Conscience"
       flavour: "\\u201cSay, that's pretty swell.\\u201d"
-    fr: 
+    fr:
       name: Jiminy Cricket
       title: Conscience de Pinocchio
       flavour: "\"Dites, c'est plut\\u00f4t flatteur !\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - evasive
     - that_still_small_voice
   franchise_id: unknown
@@ -1159,19 +1193,19 @@
   color: amethyst
   type: glimmer
   illustrator: Michaela Martin
-  languages: 
-    en: 
+  languages:
+    en:
       name: Kuzco
       title: Wanted Llama
       flavour: \u201cSo there I was. Perfectly in control of the situation.\u201d
-    fr: 
+    fr:
       name: Kuzco
       title: Lama recherch\u00e9
       flavour: '"Me voil\u00e0, contr\u00f4lant parfaitement la situation."'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - ok_where_am_i
   franchise_id: unknown
 - sets:
@@ -1185,23 +1219,23 @@
   color: amethyst
   type: glimmer
   illustrator: Alice Pisoni
-  languages: 
-    en: 
+  languages:
+    en:
       name: Madam Mim
       title: Fox
       flavour: null
-    de: 
+    de:
       name: Madame Mim
       title: Fuchs
       flavour: null
-    fr: 
+    fr:
       name: Madam Mime
       title: En renard
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - chasing_the_rabbit
     - rush
   franchise_id: unknown
@@ -1219,23 +1253,23 @@
   color: amethyst
   type: glimmer
   illustrator: Ally Zermeno
-  languages: 
-    en: 
+  languages:
+    en:
       name: Madam Mim
       title: Purple Dragon
       flavour: '\u201cDid I say no purple dragons? Did I?\u201d'
-    de: 
+    de:
       name: Madame Mim
       title: Lila Drache
       flavour: '\u201eHab ich was gesagt von keine lila Drachen? Nein!\u201c'
-    fr: 
+    fr:
       name: Madam Mime
       title: En dragon
       flavour: "\"Est-ce que j'ai dit : pas de dragon ?\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - evasive
     - i_win_i_win
   franchise_id: unknown
@@ -1250,15 +1284,15 @@
   color: amethyst
   type: glimmer
   illustrator: 'Mane Kandalyan \/ Pix Smith'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Madam Mim
       title: Rival of Merlin
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_3
     - gruesome_and_grim
   franchise_id: unknown
@@ -1273,23 +1307,23 @@
   color: amethyst
   type: glimmer
   illustrator: Brian Weisz
-  languages: 
-    en: 
+  languages:
+    en:
       name: Madam Mim
       title: Snake
       flavour: \u201cI\u2019ve got you rattled now!\u201d
-    de: 
+    de:
       name: Madame Mim
       title: Schlange
       flavour: \u201eJetzt habe ich dich am Wickel!\u201c
-    fr: 
+    fr:
       name: Madam Mime
       title: En serpent
       flavour: '"Je te tiens par la queue, maintenant !"'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - just_you_wait
   franchise_id: unknown
 - sets:
@@ -1302,23 +1336,23 @@
   defence: 3
   color: amethyst
   type: glimmer
-  languages: 
-    en: 
+  languages:
+    en:
       name: Merlin
       title: Crab
       flavour: He\u2019ll be out of this in a snap!
-    de: 
+    de:
       name: Merlin
       title: Krabbe
       flavour: \u201eGleich steckst du in der Klemme!\u201c
-    fr: 
+    fr:
       name: Merlin
       title: En crabe
       flavour: "\"Il va s'en sortir d'un claquement de pince !\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - ready_or_not
   franchise_id: unknown
 - sets:
@@ -1332,23 +1366,23 @@
   color: amethyst
   type: glimmer
   illustrator: 'S. Shaw \/ L. Giammichele'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Merlin
       title: Goat
       flavour: "\\u201cHe always was a stubborn old goat.\\u201d\n\\u2013Madam Mim"
-    de: 
+    de:
       name: Merlin
       title: Ziege
       flavour: '\u201eEr war schon immer ein st\u00f6rrischer alter Ziegenbock.\u201c - Madame Mim'
-    fr: 
+    fr:
       name: Merlin
       title: En ch\u00e8vre
       flavour: "\"\\u00c7a a toujours \\u00e9t\\u00e9 un vieux bouc obstin\\u00e9 !\"\n\\u2013Madame Mime"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - here_i_come
   franchise_id: unknown
 - sets:
@@ -1361,23 +1395,23 @@
   color: amethyst
   type: glimmer
   illustrator: Michaela Martin
-  languages: 
-    en: 
+  languages:
+    en:
       name: Merlin
       title: Rabbit
       flavour: It was turning out to be a bad hare day.
-    de: 
+    de:
       name: Merlin
       title: Hase
       flavour: Dieser Tag war wirklich zum Davonhoppeln.
-    fr: 
+    fr:
       name: Merlin
       title: En lapin
       flavour: Pire journ\u00e9e pour se faire poser un lapin.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - hoppity_hip
   franchise_id: unknown
 - sets:
@@ -1391,23 +1425,23 @@
   color: amethyst
   type: glimmer
   illustrator: Matthew Robert Davies
-  languages: 
-    en: 
+  languages:
+    en:
       name: Merlin
       title: Shapeshifter
       flavour: \u201cOh, blast it all\u2212I can\u2019t make up my mind.\u201d
-    de: 
+    de:
       name: Merlin
       title: Formwandler
       flavour: '\u201eVerflixt nochmal - ich kann mich nicht entscheiden.\u201c'
-    fr: 
+    fr:
       name: Merlin
       title: M\u00e9tamorphe
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - battle_of_wits
   franchise_id: unknown
 - sets:
@@ -1421,23 +1455,23 @@
   color: amethyst
   type: glimmer
   illustrator: Brian Weisz
-  languages: 
-    en: 
+  languages:
+    en:
       name: Merlin
       title: Squirrel
       flavour: \u201cYou can\u2019t always trust to luck, boy.\u201d
-    de: 
+    de:
       name: Merlin
       title: Eichh\u00f6rnchen
       flavour: \u201eDu kannst dich nicht immer nur auf dein Gl\u00fcck verlassen, Junge.\u201c
-    fr: 
+    fr:
       name: Merlin
       title: En \u00e9cureuil
       flavour: "\"N'aies pas toujours confiance en ta bonne \\u00e9toile.\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - look_before_you_leap
   franchise_id: unknown
 - sets:
@@ -1450,15 +1484,15 @@
   color: amethyst
   type: glimmer
   illustrator: Giulia Riva
-  languages: 
-    en: 
+  languages:
+    en:
       name: "Peter Pan's Shadow"
       title: Not Sewn On
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - evasive
     - rush
     - tiptoe
@@ -1473,16 +1507,16 @@
   color: amethyst
   type: glimmer
   illustrator: Kapik
-  languages: 
-    en: 
+  languages:
+    en:
       name: Pinocchio
       title: Star Attraction
       flavour: "\\u201cWith that personality, that profile, that physique . . . \nWhy, I can see your name in lights, lights six feet high.\\u201d \n\\u2212Honest John"
-    fr: 
+    fr:
       name: Pinocchio
       title: Attraction Vedette
       flavour: '"Avec cette personnalit\u00e9, ce profil, cette silhouette\u2026 Pourquoi, je peux voir votre nom en lumi\u00e8res, des lumi\u00e8res de six pieds de haut. "'
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -1497,15 +1531,15 @@
   color: amethyst
   type: glimmer
   illustrator: Isaiah Mesq
-  languages: 
-    en: 
+  languages:
+    en:
       name: Pinocchio
       title: On the Run
       flavour: He raced into the Inklands without a thought.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_3
     - listen_to_your_conscience
   franchise_id: unknown
@@ -1522,23 +1556,23 @@
   color: amethyst
   type: glimmer
   illustrator: Juan Diego Leon
-  languages: 
-    en: 
+  languages:
+    en:
       name: Pinocchio
       title: Talkative Puppet
       flavour: "\\u201cA lie keeps growing and growing until it's as plain as the nose on your face.\\u201d \n\\u2212Blue Fairy"
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: ''
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - telling_lies
   franchise_id: unknown
 - sets:
@@ -1552,20 +1586,20 @@
   color: amethyst
   type: glimmer
   illustrator: John Loren
-  languages: 
-    en: 
+  languages:
+    en:
       name: Winnie The Pooh
       title: Hunny Wizard
       flavour: He\u2019d always felt a kinship with honey. They were both golden, and sweet, and likely to end up in sticky situations.
-    de: 
+    de:
       name: Winnie Puuh
       title: Honigzauberer
       flavour: Er f\u00fchlte sich schon immer dem Honig verbunden. Sie waren beide gelb, s\u00fc\u00df und gerieten h\u00e4ufig in klebrige Lagen.
-    fr: 
+    fr:
       name: "Winnie L'Ourson"
       title: Magicien mellifique
       flavour: 'Il a toujours senti un lien fort avec le miel : tous deux jaunes, doux et\u2026 souvent coll\u00e9s ensemble.'
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -1581,19 +1615,19 @@
   color: amethyst
   type: glimmer
   illustrator: Casey Robin
-  languages: 
-    en: 
+  languages:
+    en:
       name: Yzma
       title: Scary Beyond All Reason
       flavour: null
-    fr: 
+    fr:
       name: Yzma
       title: Fait peur sans faire expr\u00e8s
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_4
     - cruel_irony
   franchise_id: unknown
@@ -1608,20 +1642,20 @@
   color: amethyst
   type: glimmer
   illustrator: Pablo Hidalgo
-  languages: 
-    en: 
+  languages:
+    en:
       name: Yzma
       title: Without Beauty Sleep
       flavour: "Yzma: \\u201cLlamas! All I see when I close my eyes is llamas!\\u201d \nKronk: \\u201cWeird. I just saw one in the flood. Poor little guy.\\u201d"
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Yzma
       title: Manque de sommeil
       flavour: "Yzma : \"Des lamas ! Tout ce que je vois d\\u00e8s que je ferme les yeux, ce sont des lamas !\" \nKronk : \"Bizarre. Je viens d'en voir un emport\\u00e9 dans l'inondation. Pauvre petit gars"
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -1634,16 +1668,16 @@
   color: amethyst
   type: song
   illustrator: Mariana Moreno
-  languages: 
-    en: 
+  languages:
+    en:
       name: Gruesome And Grim
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Le Macabre et la Terreur
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -1657,20 +1691,20 @@
   color: amethyst
   type: action
   illustrator: Rob Di Salve
-  languages: 
-    en: 
+  languages:
+    en:
       name: "I'm Stuck!"
       title: ''
       flavour: \u201cOh, bother\u2212not again.\u201d
-    de: 
+    de:
       name: Ich sitze fest!
       title: ''
       flavour: \u201eAch herrje, nicht schon wieder.\u201d
-    fr: 
+    fr:
       name: Je suis Coinc\u00e9 !
       title: ''
       flavour: '"Oh, mis\u00e8re - \u00c7a ne va pas recommencer."'
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -1684,20 +1718,20 @@
   color: amethyst
   type: song
   illustrator: Kuya Jaypi
-  languages: 
-    en: 
+  languages:
+    en:
       name: Legend of the Sword in the Stone
       title: ''
       flavour: "A legend is sung of when England was young \nAnd knights were brave and bold"
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: "La L\\u00e9gende de l'\\u00c9p\\u00e9e dans l'enclume"
       title: ''
       flavour: "\"D'apr\\u00e8s la l\\u00e9gende, l'Angleterre autrefois,\navait un si bon roi.\""
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -1710,19 +1744,19 @@
   color: amethyst
   type: item
   illustrator: Kasia Brzezinska
-  languages: 
-    en: 
+  languages:
+    en:
       name: Binding Contract
       title: ''
       flavour: Just a standard form, nothing to worry about.
-    fr: 
+    fr:
       name: Contrat irr\u00e9vocable
       title: ''
       flavour: "Juste un formulaire standard, rien d'inqui\\u00e9tant."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - for_all_eternity
   franchise_id: unknown
 - sets:
@@ -1733,19 +1767,19 @@
   color: amethyst
   type: item
   illustrator: Matt Chapman
-  languages: 
-    en: 
+  languages:
+    en:
       name: Croquet Mallet
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Maillet de Croquet
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - hurtling_hedgehog
   franchise_id: unknown
 - sets:
@@ -1756,23 +1790,23 @@
   color: amethyst
   type: item
   illustrator: Andrew Trabbold
-  languages: 
-    en: 
+  languages:
+    en:
       name: Perplexing Signposts
       title: ''
       flavour: "Alice: \\u201cI just wanted to ask you which way I ought to go.\\u201d \nCheshire Cat: \\u201cWell, that depends on where you want to get to.\\u201d"
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: PANNEAUX CONFUS
       title: ''
       flavour: "Alice : \"Je voulais juste vous demander quelle direction prendre.\"\nChat du Cheshire : \"Cela d\\u00e9pend de l'endroit o\\u00f9 tu veux aller.\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - to_wonderland
   franchise_id: unknown
 - sets:
@@ -1783,23 +1817,23 @@
   color: amethyst
   type: item
   illustrator: Julie Vu
-  languages: 
-    en: 
+  languages:
+    en:
       name: "The Sorcerer's Spellbook"
       title: ''
       flavour: Illumineers seek the power of knowledge\u2212but must be aware of the price.
-    de: 
+    de:
       name: Das Buch der Zauberspr\u00fcche
       title: ''
       flavour: 'Luminari streben nach Wissen und Macht - doch sie sollten den Preis daf\u00fcr kennen.'
-    fr: 
+    fr:
       name: Grimoire du Sorcier
       title: ''
       flavour: Les Illumineuses et Illumineurs qui recherchent le pouvoir de la connaissance doivent \u00eatre conscients du prix \u00e0 payer.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - knowledge
   franchise_id: unknown
 - sets:
@@ -1813,16 +1847,16 @@
   color: emerald
   type: glimmer
   illustrator: Mario Oscar Gabriele
-  languages: 
-    en: 
+  languages:
+    en:
       name: Arthur
       title: Trained Swordsman
       flavour: "\\u201cIt's not just fancy horses and swinging a sword around, you know! A true master must use his brain as well as his blade.\\u201d \n\\u2212Merlin"
-    fr: 
+    fr:
       name: Arthur
       title: Devenu fine lame
       flavour: "\"Tu sais, il ne s'agit pas seulement de monter de beaux chevaux ou de faire habilement tournoyer une \\u00e9p\\u00e9e ! Un vrai ma\\u00eetre doit savoir utiliser son cerveau tout autant que sa lame.\"\n- Merlin"
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -1840,23 +1874,23 @@
   color: emerald
   type: glimmer
   illustrator: Eri Welli
-  languages: 
-    en: 
+  languages:
+    en:
       name: Beast
       title: Relentless
       flavour: null
-    de: 
+    de:
       name: Biest
       title: Unerbittlich
       flavour: \u201eIch werde denjenigen finden, der aus dem versiegelten buch der Legenden entkommen ist. Komm mir dabei nicht in die Quere!\u201c
-    fr: 
+    fr:
       name: La B\u00eate
       title: Implacable
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - second_wind
   franchise_id: unknown
 - sets:
@@ -1869,23 +1903,23 @@
   color: emerald
   type: glimmer
   illustrator: Jenna Gray
-  languages: 
-    en: 
+  languages:
+    en:
       name: Belle
       title: Bookworm
       flavour: "There's nothing more tempting than a pile of unread books."
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Belle
       title: Rat de biblioth\u00e8que
       flavour: "Il n'y a rien de plus irr\\u00e9sistible qu'une pile de livres non lus."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - use_your_imagination
   franchise_id: unknown
 - sets:
@@ -1898,23 +1932,23 @@
   color: emerald
   type: glimmer
   illustrator: Aisha Durmagambetova
-  languages: 
-    en: 
+  languages:
+    en:
       name: Belle
       title: Hidden Archer
       flavour: She slips through the trees as easily as shadow.
-    de: 
+    de:
       name: Belle
       title: Versteckte Bogensch\u00fctzin
       flavour: Wie ein Schatten huscht sie durch die B\u00e4ume.
-    fr: 
+    fr:
       name: Belle
       title: Arch\u00e8re dissimul\u00e9e
       flavour: Elle se faufile entre les arbres comme une ombre.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_3
     - thorny_arrows
   franchise_id: unknown
@@ -1932,23 +1966,23 @@
   color: emerald
   type: glimmer
   illustrator: Alex Accorsi
-  languages: 
-    en: 
+  languages:
+    en:
       name: Bucky
       title: Squirrel Squeak Tutor
       flavour: "\\u201cThere\\u2019s a lot of nuance to squirrel.\\u201d\n\\u2212Kronk"
-    de: 
+    de:
       name: Bucky
       title: Lehrer f\u00fcr H\u00f6rnchensprache
       flavour: '\u201eIn der H\u00f6rnchensprache existieren sehr subtile Begriffsunterschiede.\u201c - Kronk'
-    fr: 
+    fr:
       name: Bucky
       title: Professeur de Squeak
       flavour: "\"La langue \\u00e9cureuil est pleine de nuance.\"\n\\u2212Kronk"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - ward
     - squeak
   franchise_id: unknown
@@ -1963,20 +1997,20 @@
   color: emerald
   type: glimmer
   illustrator: Alex Accorsi
-  languages: 
-    en: 
+  languages:
+    en:
       name: Cheshire Cat
       title: Always Grinning
       flavour: "Alice felt quite confused. \\u201cBut I don\\u2019t see much ink here at all. How can the flood still be changing the Inklands?\\u201d \n\n\\u201cThings are always changing, you know,\\u201d said the Cat. \\u201cIt would be quite a change if they didn't.\\u201d"
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Chat du Cheshire
       title: Toujours ce sourire...
       flavour: "Alice \\u00e9tait confuse. \" Je ne vois pas pourtant beaucoup d'encre ici... comment l'inondation peut-elle encore changer les Terres d'Encres ?\"\n\n\"Les choses changent toujours, tu sais\" dit le Chat. \"Ce serait un sacr\\u00e9 changement si elles ne changeaient pas.\""
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -1992,19 +2026,19 @@
   color: emerald
   type: glimmer
   illustrator: Jeff Murchie
-  languages: 
-    en: 
+  languages:
+    en:
       name: Cheshire Cat
       title: From the Shadows
       flavour: null
-    fr: 
+    fr:
       name: Chat du Cheshire
       title: "Sorti de l'ombre"
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_5
     - evasive
     - wicked_smile
@@ -2020,23 +2054,23 @@
   color: emerald
   type: glimmer
   illustrator: Lissette Carrera
-  languages: 
-    en: 
+  languages:
+    en:
       name: Daisy Duck
       title: Secret Agent
       flavour: null
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Daisy
       title: Agente secr\u00e8te
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - thwart
   franchise_id: unknown
 - sets:
@@ -2050,19 +2084,19 @@
   color: emerald
   type: glimmer
   illustrator: Ron Baird
-  languages: 
-    en: 
+  languages:
+    en:
       name: Donald Duck
       title: Perfect Gentleman
       flavour: null
-    fr: 
+    fr:
       name: Donald
       title: Parfait gentleman
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_3
     - allow_me
   franchise_id: unknown
@@ -2077,19 +2111,19 @@
   color: emerald
   type: glimmer
   illustrator: Leonardo Giammichele
-  languages: 
-    en: 
+  languages:
+    en:
       name: Donald Duck
       title: Sleepwalker
       flavour: Heading toward a rude awekening!
-    fr: 
+    fr:
       name: Donald
       title: Somnambule
       flavour: Marche vers un r\u00e9veil difficile !
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - startled_awake
   franchise_id: unknown
 - sets:
@@ -2103,19 +2137,19 @@
   color: emerald
   type: glimmer
   illustrator: Ron Baird
-  languages: 
-    en: 
+  languages:
+    en:
       name: Dr. Facilier
       title: Fortune Teller
       flavour: null
-    fr: 
+    fr:
       name: Dr. Facilier
       title: Lit dans les cartes
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - evasive
     - youre_in_my_world
   franchise_id: unknown
@@ -2130,23 +2164,23 @@
   color: emerald
   type: glimmer
   illustrator: Isaiah Mesq
-  languages: 
-    en: 
+  languages:
+    en:
       name: Enchantress
       title: Unexpected Judge
       flavour: Appearances can be deceiving.
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: "L'Enchanteresse"
       title: Juge inattendue
       flavour: Les apparences peuvent \u00eatre trompeuses.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - true_form
   franchise_id: unknown
 - sets:
@@ -2160,20 +2194,20 @@
   color: emerald
   type: glimmer
   illustrator: Ron Baird
-  languages: 
-    en: 
+  languages:
+    en:
       name: Flynn Rider
       title: Confident Vagabond
       flavour: '\u201cI love a good fan club, but they could at least <b>try<\/b> to get the nose right!\u201d'
-    de: 
+    de:
       name: Flynn Rider
       title: Selbstbewusster Vagabund
       flavour: \u201eIch liebe treue Fans, aber sie k\u00f6nnten wenigstens versuchen, meine Nase richtig hinzukriegen!\u201c
-    fr: 
+    fr:
       name: Flynn Rider
       title: Vagabond s\u00fbr de lui
       flavour: "\"J'adore avoir un fan-club, mais ils pourraient au moins essayer de reproduire mon nez correctement !\""
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -2188,19 +2222,19 @@
   color: emerald
   type: glimmer
   illustrator: 'E. Meleranci \/ L. Giammichele'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Flynn Rider
       title: His Own Biggest Fan
       flavour: null
-    fr: 
+    fr:
       name: Flynn Rider
       title: Son plus grand fan
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_2
     - evasive
     - one_last_big_score
@@ -2216,19 +2250,19 @@
   color: emerald
   type: glimmer
   illustrator: Valerio Buonfantino
-  languages: 
-    en: 
+  languages:
+    en:
       name: Gaston
       title: Scheming Suitor
       flavour: "\\u201cDon't I deserve the best?\\u201d"
-    fr: 
+    fr:
       name: Gaston
       title: Pr\u00e9tendant fourbe
       flavour: "\"Et qui a la chance d'\\u00eatre choisie par moi.\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - yes_im_intimidating
   franchise_id: unknown
 - sets:
@@ -2242,19 +2276,19 @@
   color: emerald
   type: glimmer
   illustrator: Cristian Romero
-  languages: 
-    en: 
+  languages:
+    en:
       name: Little John
       title: Loyal Friend
       flavour: "\\u201cWhat's the rush, Rob? Take a load off! There's plenty of time to go lookin' for lore lost in that crazy ink.\\u201d"
-    fr: 
+    fr:
       name: Petit Jean
       title: Ami loyal
       flavour: '"Pourquoi se presser, Robin ? Relax ! On a tout le temps de chercher des \u00e9clats de Lore dans toute cette encre."'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - mouse_catcher
   franchise_id: unknown
 - sets:
@@ -2267,20 +2301,20 @@
   color: emerald
   type: glimmer
   illustrator: Isabella Ceravolo
-  languages: 
-    en: 
+  languages:
+    en:
       name: Lucifer
       title: Cunning Cat
       flavour: "\\u201cThere must be <b>something<\\/b> good about him.\\u201d \n\\u2013Cinderella"
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Lucifer
       title: Chat sournois
       flavour: "\"Il ne peut pas \\u00eatre que m\\u00e9chant et hypocrite.\"\n\\u2013 Cendrillon."
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -2296,15 +2330,15 @@
   color: emerald
   type: glimmer
   illustrator: 'Kristina Chouri \/ Mariana Moreno'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Pain
       title: Underworld Imp
       flavour: "\\u201cGet a move on! I'm a busy god, lots to do\\u2212meetings, curses, a little light scheming.\\u201d \n\\u2212Hades"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - coming_your_most_lugubriousness
   franchise_id: unknown
 - sets:
@@ -2317,23 +2351,23 @@
   color: emerald
   type: glimmer
   illustrator: 'Kristina Chouri \/ Mariana Moreno'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Panic
       title: Underworld Imp
       flavour: "\\u201cWho says it's hard to find good help these days? \nOh, yeah . . . ME!\\u201d \n\\u2212Hades"
-    de: 
+    de:
       name: Schwefel
       title: Schelm der Unterwelt
       flavour: '\u201eWer behauptet, dass es heutzutage schwierig ist, gute Helfer zu finden? Ach ja ... ICH!\u201c - Hades'
-    fr: 
+    fr:
       name: Panique
       title: Lutin Infernal
       flavour: "\"Qui a dit qu'il \\u00e9tait difficile de trouver du bon personnel de nos jours? Ah oui \\u2026 MOI!\"\n\\u2212 Had\\u00e8s"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - i_can_handle_it
   franchise_id: unknown
 - sets:
@@ -2349,15 +2383,15 @@
   color: emerald
   type: glimmer
   illustrator: Hedvig Häggman-Sund
-  languages: 
-    en: 
+  languages:
+    en:
       name: Pete
       title: Bad Guy
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - ward
     - take_that
     - whos_next
@@ -2372,23 +2406,23 @@
   color: emerald
   type: glimmer
   illustrator: Koni
-  languages: 
-    en: 
+  languages:
+    en:
       name: Prince John
       title: Greediest of All
       flavour: \u201cTaxes! Taxes! Beautiful, lovely taxes!\u201d
-    de: 
+    de:
       name: Prinz John
       title: Der Gierigste
       flavour: \u201eSteuern! Steuern! Massenhaft liebliche Steuern!\u201c
-    fr: 
+    fr:
       name: Prince Jean
       title: Le plus cupide de tous
       flavour: '"Les taxes ! Les taxes ! Magnifiques taxes !"'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - ward
     - i_sentence_you
   franchise_id: unknown
@@ -2402,23 +2436,23 @@
   color: emerald
   type: glimmer
   illustrator: Matthew Robert Davies
-  languages: 
-    en: 
+  languages:
+    en:
       name: Queen of Hearts
       title: 'Quick-Tempered'
       flavour: "\\u201cYou know, we could make her really angry. Shall we try?\\u201d \n\\u2212Cheshire Cat"
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Reine de Coeur
       title: Col\u00e9rique
       flavour: "\"Tu sais, on pourrait la mettre vraiment en col\\u00e8re. On essaie ? \"\n\\u2212 Le Chat du Cheshire"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - royal_rage
   franchise_id: unknown
 - sets:
@@ -2432,15 +2466,15 @@
   color: emerald
   type: glimmer
   illustrator: Michaela Martin
-  languages: 
-    en: 
+  languages:
+    en:
       name: Ratigan
       title: Criminal Mastermind
       flavour: "\\u201cI've outdone myself this time! Soon I will have everything I deserve. Riches . . . power . . . an entire kingdom at my feet!\\u201d"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - evasive
   franchise_id: unknown
 - sets:
@@ -2454,23 +2488,23 @@
   color: emerald
   type: glimmer
   illustrator: Filipe Laurentino
-  languages: 
-    en: 
+  languages:
+    en:
       name: Ray
       title: Easygoing Firefly
       flavour: "He may be hard to follow, but his heart isn't."
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: ''
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - evasive
   franchise_id: unknown
 - sets:
@@ -2483,23 +2517,23 @@
   color: emerald
   type: glimmer
   illustrator: Leonardo Giammichele
-  languages: 
-    en: 
+  languages:
+    en:
       name: The Queen
       title: Disguised Peddler
       flavour: \u201cThis is no ordinary apple . . .\u201d
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: La Reine
       title: D\u00e9guis\u00e9e en mendiante
       flavour: "\"Ce n'est pas une pomme ordinaire ... \""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - a_perfect_disguise
   franchise_id: unknown
 - sets:
@@ -2513,16 +2547,16 @@
   color: emerald
   type: glimmer
   illustrator: Casey Robin
-  languages: 
-    en: 
+  languages:
+    en:
       name: Tiana
       title: True Princess
       flavour: Finding your true self will set your heart aglow.
-    fr: 
+    fr:
       name: Tiana
       title: V\u00e9ritable princesse
       flavour: D\u00e9couvrir qui vous \u00eates vraiment illuminera votre coeur.
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -2538,16 +2572,16 @@
   color: emerald
   type: glimmer
   illustrator: 'Mane Kandalyan \/ Luca Pinelli'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Virana
       title: Fang Chief
       flavour: \u201cI must make the hard decisions to protect my daughter, especially in this unfamiliar world.\u201d
-    fr: 
+    fr:
       name: Virana
       title: Cheffe de Croc du Dragon
       flavour: '"Je dois prendre des d\u00e9cisions difficiles pour prot\u00e9ger ma fille, surtout dans ce monde inconnu"'
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -2560,20 +2594,20 @@
   color: emerald
   type: song
   illustrator: LadyShalirin
-  languages: 
-    en: 
+  languages:
+    en:
       name: Bibbidi Bobbidi Boo
       title: ''
       flavour: "It'll do magic, believe it or not"
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Bibbidi Bobbidi Boo
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -2586,20 +2620,20 @@
   color: emerald
   type: action
   illustrator: Bill Robinson
-  languages: 
-    en: 
+  languages:
+    en:
       name: Bounce
       title: ''
       flavour: "\\u201cAre you ready for some bouncing?\\u201d\n\\u2212Tigger"
-    de: 
+    de:
       name: Herumspringen
       title: ''
       flavour: "\\u201eHast du Lust zu ein paar Spr\\u00fcngen?\\u201c\n- Tigger"
-    fr: 
+    fr:
       name: Rebondir
       title: ''
       flavour: "\\u201cTu as envie de venir faire des bonds?\\u201d\n\\u2212Tigrou"
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -2613,20 +2647,20 @@
   color: emerald
   type: action
   illustrator: Lauren Levering
-  languages: 
-    en: 
+  languages:
+    en:
       name: Hypnotize
       title: ''
       flavour: \u201cLook me in the eye when I\u2019m speaking to you.\u201d
-    de: 
+    de:
       name: Hypnose
       title: ''
       flavour: \u201eH\u00f6r auf mich ... glaube mir ...\u201c
-    fr: 
+    fr:
       name: Hypnotiser
       title: ''
       flavour: '"Regarde-moi dans les yeux quand je te parle"'
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -2640,20 +2674,20 @@
   color: emerald
   type: action
   illustrator: Mane Kandalyan
-  languages: 
-    en: 
+  languages:
+    en:
       name: Improvise
       title: ''
       flavour: "Shan-Yu: \\u201cIt looks like you\\u2019re out of ideas.\\u201d \nMulan: \\u201cNot quite!\\u201d"
-    de: 
+    de:
       name: Improvisieren
       title: ''
       flavour: "Shan-Yu: \\u201eJetzt f\\u00e4llt dir wohl nichts mehr ein.\\u201c\nMulan: \\u201eNicht so voreilig!\\u201c"
-    fr: 
+    fr:
       name: Improviser
       title: ''
       flavour: "Shan Yu : \"On dirait que tu es \\u00e0 court d'id\\u00e9es.\"\nMulan : \"Pas tout \\u00e0 fait.\""
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -2667,12 +2701,12 @@
   color: emerald
   type: action
   illustrator: Don Aguillo
-  languages: 
-    en: 
+  languages:
+    en:
       name: Pack Tactics
       title: ''
       flavour: "Pacha: \\u201cYou want to survive the jungle? Start thinking like you belong here.\\u201d \nKuzco: \\u201cNo problem . . . Grrr, look at me, I'm a jaguar.\\u201d"
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -2686,23 +2720,23 @@
   color: emerald
   type: action
   illustrator: Brian Weisz
-  languages: 
-    en: 
+  languages:
+    en:
       name: Ring The Bell
       title: ''
       flavour: "\\u201cI\\u2019m afraid that you\\u2019ve gone and upset me.\\u201c \n\\u2013 Ratigan"
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Sonner la cloche
       title: ''
       flavour: "\"J'ai bien peur que tu m'aies contrari\\u00e9.\"\n\\u2212 Ratigan"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - ring_the_bell
   franchise_id: unknown
 - sets:
@@ -2713,15 +2747,15 @@
   color: emerald
   type: item
   illustrator: Leonardo Giammichele
-  languages: 
-    en: 
+  languages:
+    en:
       name: "Ratigan's Marvelous Trap"
       title: ''
       flavour: Simple in purpose, elaborate in execution\u2212just like Ratigan.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - snap_boom_twang
   franchise_id: unknown
 - sets:
@@ -2735,20 +2769,20 @@
   color: ruby
   type: glimmer
   illustrator: 'R. la Barbera \/ L. Giammichele'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Baloo
       title: 'Fun-Loving Bear'
       flavour: \u201cThe bees are buzzin\u2019 in the tree to make some honey just for me!\u201d
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Baloo
       title: Ours \u00e9picurien
       flavour: '"Toutes les abeilles de la for\u00eat butinent pour moi dans les bosquets !"'
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -2764,19 +2798,19 @@
   color: ruby
   type: glimmer
   illustrator: Alice Pisoni
-  languages: 
-    en: 
+  languages:
+    en:
       name: Boun
       title: Precocious Entrepreneur
       flavour: \u201cIf you see any hungry faces, send \u2019em my way.\u201d
-    fr: 
+    fr:
       name: Boun
       title: Entrepreneur pr\u00e9coce
       flavour: '"Si vous croisez des estomacs vides, envoyez-les moi."'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - evasive
   franchise_id: unknown
 - sets:
@@ -2790,20 +2824,20 @@
   color: ruby
   type: glimmer
   illustrator: Bill Robinson
-  languages: 
-    en: 
+  languages:
+    en:
       name: Card Soldiers
       title: Full Deck
       flavour: "You'll have to deal with them sooner or later."
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Gardes Cartes
       title: Jeu complet
       flavour: '"T\u00f4t ou tard, il te faudra les battre."'
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -2819,19 +2853,19 @@
   color: ruby
   type: glimmer
   illustrator: 'Carmine Pucci \/ Leonardo Giammichele'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Donald Duck
       title: Not Again!
       flavour: null
-    fr: 
+    fr:
       name: Donald
       title: Pas encore !
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - phooey
   franchise_id: unknown
 - sets:
@@ -2845,19 +2879,19 @@
   color: ruby
   type: glimmer
   illustrator: Michael \u201cCookie\u201d Niewiadomy
-  languages: 
-    en: 
+  languages:
+    en:
       name: Felicia
       title: Always Hungry
       flavour: "\\u201cThis isn't how most cat-and-mouse games go, is it, Dr. Dawson?\\u201d \n\\u2212Basil"
-    fr: 
+    fr:
       name: F\u00e9licia
       title: Toujours affam\u00e9e
       flavour: "\"Ce n'est pas ainsi que se d\\u00e9roule habituellement le jeu du chat et de la souris, n'est-il pas, Dr Dawson ?\" \n\\u2212 Basil"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - reckless
     - easy_street
   franchise_id: unknown
@@ -2872,23 +2906,23 @@
   color: ruby
   type: glimmer
   illustrator: Giulia Riva
-  languages: 
-    en: 
+  languages:
+    en:
       name: Fidget
       title: Ratigan\u2019s Henchman
       flavour: "When a normal henchman just won't cut it."
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Fidget
       title: Homme de main de Ratigan
       flavour: L\u00e0 ou un acolyte quelconque serait incapable de couper dans le vif.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - evasive
   franchise_id: unknown
 - sets:
@@ -2901,20 +2935,20 @@
   color: ruby
   type: glimmer
   illustrator: Sandra Rios
-  languages: 
-    en: 
+  languages:
+    en:
       name: Honest John
       title: Not That Honest
       flavour: \u201cA thing like that ought to be worth a fortune to someone!\u201d
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Grand Coquin
       title: Porte bien son nom
       flavour: '"Une telle curiosit\u00e9 rapporterait fortune !"'
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -2931,19 +2965,19 @@
   color: ruby
   type: glimmer
   illustrator: Arianna Rea
-  languages: 
-    en: 
+  languages:
+    en:
       name: Lady Tremaine
       title: Imperious Queen
       flavour: "The twelfth Rule of Villainy: If you don't have a throne, take one."
-    fr: 
+    fr:
       name: Madame de Tr\u00e9maine
       title: Reine imp\u00e9rieuse
       flavour: "Douzi\\u00e8me r\\u00e8gle de la m\\u00e9chancet\\u00e9 : si tu n'as pas de tr\\u00f4ne, prends-en-un."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_4
     - power_to_rule_at_last
   franchise_id: unknown
@@ -2957,23 +2991,23 @@
   color: ruby
   type: glimmer
   illustrator: Samanta Erdini
-  languages: 
-    en: 
+  languages:
+    en:
       name: Lady Tremaine
       title: Overbearing Matriarch
       flavour: '\u201cMake no mistake: this time I will make certain the key remains safe!\u201d'
-    de: 
+    de:
       name: Gr\u00e4fin Tremaine
       title: \u00dcberhebliches Familienoberhaupt
       flavour: '\u201eGlaube mir: Diesmal werde ich den Schl\u00fcssel diebstahlsicher verwahren.\u201c'
-    fr: 
+    fr:
       name: Madame de Tremaine
       title: Matriarche Arrogante
       flavour: '"Crois-moi, cette fois-ci je vais garder la cl\u00e9 bien prot\u00e9g\u00e9e."'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - not_for_you
   franchise_id: unknown
 - sets:
@@ -2987,20 +3021,20 @@
   color: ruby
   type: glimmer
   illustrator: Giulia Riva
-  languages: 
-    en: 
+  languages:
+    en:
       name: Lumiere
       title: Hotheaded Candelabra
       flavour: When things heat up, no one can hold a candle to him.
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Lumi\u00e8re
       title: V\u00e9ritable t\u00eate br\u00fbl\u00e9e
       flavour: "Quand la situation s'embrase, personne n'est plus chaud que lui."
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -3016,15 +3050,15 @@
   color: ruby
   type: glimmer
   illustrator: Mario Oscar Gabriele
-  languages: 
-    en: 
+  languages:
+    en:
       name: Minnie Mouse
       title: Stylish Surfer
       flavour: \u201cThis goes into my top ten most fun things!\u201d
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - evasive
   franchise_id: unknown
 - sets:
@@ -3041,23 +3075,23 @@
   color: ruby
   type: glimmer
   illustrator: Adam Fenton
-  languages: 
-    en: 
+  languages:
+    en:
       name: Minnie Mouse
       title: 'Wide-Eyed Diver'
       flavour: null
-    de: 
+    de:
       name: Minnie Maus
       title: Staunende Taucherin
       flavour: null
-    fr: 
+    fr:
       name: Minnie
       title: Plongeuse \u00e9merveill\u00e9e
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_2
     - evasive
     - undersea_adventure
@@ -3073,20 +3107,20 @@
   color: ruby
   type: glimmer
   illustrator: Ellie Horie
-  languages: 
-    en: 
+  languages:
+    en:
       name: Minnie Mouse
       title: Zipping Around
       flavour: Zero to fun in under three seconds!
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Minnie
       title: "N'arr\\u00eate jamais"
       flavour: De z\u00e9ro \u00e0 cent kilorires en moins de trois secondes !
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -3102,15 +3136,15 @@
   color: ruby
   type: glimmer
   illustrator: Koni
-  languages: 
-    en: 
+  languages:
+    en:
       name: Mother Gothel
       title: Withered and Wicked
       flavour: Her feelings are written all over her face.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - what_have_you_done
   franchise_id: unknown
 - sets:
@@ -3123,23 +3157,23 @@
   color: ruby
   type: glimmer
   illustrator: Michael \u201cCookie\u201d Niewiadomy
-  languages: 
-    en: 
+  languages:
+    en:
       name: Mulan
       title: Soldier in Training
       flavour: \u201cI have to do something!\u201d
-    de: 
+    de:
       name: Mulan
       title: Soldatin in R\u00fcstung
       flavour: \u201eIch muss irgendetwas unternehmen!\u201c
-    fr: 
+    fr:
       name: Mulan
       title: Soldat en Formation
       flavour: '"Je dois faire quelque chose"'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - rush
   franchise_id: unknown
 - sets:
@@ -3152,15 +3186,15 @@
   color: ruby
   type: glimmer
   illustrator: 'Hedvig H\u00e4ggman-Sund'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Namaari
       title: Nemesis
       flavour: "\\u201cI don't need swords to beat you. They just make it more fun.\\u201d"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - this_shouldnt_take_long
   franchise_id: unknown
 - sets:
@@ -3174,15 +3208,15 @@
   color: ruby
   type: glimmer
   illustrator: Valerio Buonfantino
-  languages: 
-    en: 
+  languages:
+    en:
       name: Queen of Hearts
       title: Impulsive Rules
       flavour: "The glow of lore in the flood cought her eye. \\u201cThe spellbook!\\u201d she cried. \\u201cDon't let it get away!\\u201d"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - rush
   franchise_id: unknown
 - sets:
@@ -3196,15 +3230,15 @@
   color: ruby
   type: glimmer
   illustrator: Isaiah Mesq
-  languages: 
-    en: 
+  languages:
+    en:
       name: Queen of Hearts
       title: Sensing Weakness
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_2
     - let_the_game_begin
   franchise_id: unknown
@@ -3218,15 +3252,15 @@
   color: ruby
   type: glimmer
   illustrator: Valerio Buonfantino
-  languages: 
-    en: 
+  languages:
+    en:
       name: Ratigan
       title: Very Large Mouse
       flavour: \u201cThis time, nothing, not even Basil, can stand in my way!\u201d
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - this_is_my_kingdom
   franchise_id: unknown
 - sets:
@@ -3240,15 +3274,15 @@
   color: ruby
   type: glimmer
   illustrator: Amber Kommavongsa
-  languages: 
-    en: 
+  languages:
+    en:
       name: Raya
       title: Headstrong
       flavour: Two parts bravery, one part cleverness, and a whole lot of determination.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - note_to_self_dont_die
   franchise_id: unknown
 - sets:
@@ -3262,15 +3296,15 @@
   color: ruby
   type: glimmer
   illustrator: Amber Kommavongsa
-  languages: 
-    en: 
+  languages:
+    en:
       name: Raya
       title: Leader of Heart
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_4
     - champion_of_kumandra
   franchise_id: unknown
@@ -3285,20 +3319,20 @@
   color: ruby
   type: glimmer
   illustrator: Matthew Robert Davies
-  languages: 
-    en: 
+  languages:
+    en:
       name: Raya
       title: Warrior of Kumandra
       flavour: \u201cMy ba dreams of a united Kumandra. I fight to honor that dream.\u201d
-    de: 
+    de:
       name: Raya
       title: Kriegerin von Kumandra
       flavour: \u201eMein B\u00e0 tr\u00e4umt von einem vereinten Kumandra. Ich k\u00e4mpfe f\u00fcr seinen Traum\u201c
-    fr: 
+    fr:
       name: Raya
       title: Combattante de Kumandra
       flavour: "\\u201cJe r\\u00eave d'un Kumandra uni. Je me bats pour r\\u00e9aliser ce r\\u00eave.\\u201d"
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -3313,23 +3347,23 @@
   color: ruby
   type: glimmer
   illustrator: Nicholas Kole
-  languages: 
-    en: 
+  languages:
+    en:
       name: Scar
       title: Vicious Cheater
       flavour: null
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Scar
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - rush
     - daddy_isnt_here_to_save_you
   franchise_id: unknown
@@ -3347,19 +3381,19 @@
   color: ruby
   type: glimmer
   illustrator: M. Robert Davies / L. Giammichele
-  languages: 
-    en: 
+  languages:
+    en:
       name: Shere Khan
       title: Menacing Predator
       flavour: 'The sixth Rule of Villainy: Keep your mind sharp and your claws sharper.'
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - dont_insult_my_intelligence
   franchise_id: unknown
 - sets:
@@ -3373,19 +3407,19 @@
   color: ruby
   type: glimmer
   illustrator: 'P. Gaylord \/ L. Giammichele'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Tigger
       title: One of a Kind
       flavour: Bouncing in to save the day!
-    fr: 
+    fr:
       name: Tigrou
       title: Unique en son Genre
       flavour: Rebondit pour sauver la situation !
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - energetic
   franchise_id: unknown
 - sets:
@@ -3398,19 +3432,19 @@
   color: ruby
   type: glimmer
   illustrator: Brian Weisz
-  languages: 
-    en: 
+  languages:
+    en:
       name: Tuk Tuk
       title: Wrecking Ball
       flavour: A good friend is always ready to roll.
-    fr: 
+    fr:
       name: Tuk Tuk
       title: Boule de d\u00e9molition
       flavour: Avec un bon ami \u00e7a roule toujours.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - reckless
   franchise_id: unknown
 - sets:
@@ -3422,19 +3456,19 @@
   color: ruby
   type: song
   illustrator: Gaku Kumatori
-  languages: 
-    en: 
+  languages:
+    en:
       name: Go the Distance
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Le monde qui est le mien
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - go_the_distance
   franchise_id: unknown
 - sets:
@@ -3446,15 +3480,15 @@
   color: ruby
   type: song
   illustrator: Jake Parker
-  languages: 
-    en: 
+  languages:
+    en:
       name: Teeth and Ambitions
       title: ''
       flavour: "Of course, quid pro quo, you\\u2019re expected \nTo take certain duties on board"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - teeth_and_ambitions
   franchise_id: unknown
 - sets:
@@ -3465,15 +3499,15 @@
   color: ruby
   type: song
   illustrator: Carlos Ruiz
-  languages: 
-    en: 
+  languages:
+    en:
       name: The Most Diabolical Scheme
       title: ''
       flavour: "New comes the real tour de force \nTricky and wicked, of course"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - the_most_diabolical_scheme
   franchise_id: unknown
 - sets:
@@ -3485,19 +3519,19 @@
   color: ruby
   type: action
   illustrator: Luis Huerta
-  languages: 
-    en: 
+  languages:
+    en:
       name: 'What did you call me?'
       title: ''
       flavour: "\\u201cNo one can have a higher opinion of you than I have, and I think you\\u2019re a slimy, contemptible sewer rat!\\u201d \n\\u2212Basil"
-    fr: 
+    fr:
       name: "Comment M'as Tu Nomm\\u00e9 ?"
       title: ''
       flavour: "\"Ratignan, nul n'a une aussi haute opinion de vous que moi-m\\u00eame. Je vous d\\u00e9clare le rat d'\\u00e9gouts le plus visqueux et le plus m\\u00e9prisable qui soit !\" - Basil"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - what_did_you_call_me
   franchise_id: unknown
 - sets:
@@ -3509,19 +3543,19 @@
   color: ruby
   type: song
   illustrator: Eva Widermann
-  languages: 
-    en: 
+  languages:
+    en:
       name: You Can Fly!
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: "Tu t'Envoles"
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - you_can_fly
   franchise_id: unknown
 - sets:
@@ -3532,23 +3566,23 @@
   color: ruby
   type: item
   illustrator: Peter Brockhammer
-  languages: 
-    en: 
+  languages:
+    en:
       name: Dinner Bell
       title: ''
       flavour: The delicate sound of impending doom.
-    de: 
+    de:
       name: Tischglocke
       title: ''
       flavour: Der zarte Klang des bevorstehenden Verh\u00e4ngnisses.
-    fr: 
+    fr:
       name: Clochette Du D\u00eener
       title: ''
       flavour: "Le doux son d'un destin funeste."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - you_know_what_happens
   franchise_id: unknown
 - sets:
@@ -3559,15 +3593,15 @@
   color: ruby
   type: item
   illustrator: Leonardo Giammichele
-  languages: 
-    en: 
+  languages:
+    en:
       name: "Peter Pan's Dagger"
       title: ''
       flavour: "Like so much other lore, Peter Pan's dagger was safe in the Great Illuminary until the flood."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - peter_pans_dagger
   franchise_id: unknown
 - sets:
@@ -3578,23 +3612,23 @@
   color: ruby
   type: item
   illustrator: Gaku Kumatori
-  languages: 
-    en: 
+  languages:
+    en:
       name: Sword In The Stone
       title: ''
       flavour: \u201cWhoso pulleth out this sword of this stone and anvil is rightwise king born of England.\u201d
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: "L'\\u00c9p\\u00e9e dans l'enclume"
       title: ''
       flavour: "\"Celui qui pourra arracher cette \\u00e9p\\u00e9e de l'enclume\nscell\\u00e9e dans la pierre sera digne d'\\u00eatre roi, souverain\nma\\u00eetre de l'Angleterre.\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - sword_in_the_stone
   franchise_id: unknown
 - sets:
@@ -3610,19 +3644,19 @@
   color: sapphire
   type: glimmer
   illustrator: Alice Pisoni
-  languages: 
-    en: 
+  languages:
+    en:
       name: Alice
       title: Growing Girl
       flavour: null
-    fr: 
+    fr:
       name: Alice
       title: En pleine croissance
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - good_advice
     - what_did_i_do
   franchise_id: unknown
@@ -3637,23 +3671,23 @@
   color: sapphire
   type: glimmer
   illustrator: Bill Robinson
-  languages: 
-    en: 
+  languages:
+    en:
       name: Basil
       title: Great Mouse Detective
       flavour: A solution always presents itself.
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Basil
       title: D\u00e9tective Priv\u00e9
       flavour: "Une solution se pr\\u00e9sente toujours d'elle-m\\u00eame."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_5
     - theres_always_a_chance
   franchise_id: unknown
@@ -3668,23 +3702,23 @@
   color: sapphire
   type: glimmer
   illustrator: Jake Parker
-  languages: 
-    en: 
+  languages:
+    en:
       name: Basil
       title: Of Baker Street
       flavour: \u201cWhat an ingenious device! If its light is refracted through these, then its images must resolve somewhere below.\u201d
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Basil
       title: De Baker Street
       flavour: '"Quel dispositifing\u00e9nieux ! Si sa lumi\u00e8re est r\u00e9fract\u00e9e \u00e0 travers ceux-ci, alors ses images doivent se r\u00e9soudre quelque part en dessous."'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - support
   franchise_id: unknown
 - sets:
@@ -3698,20 +3732,20 @@
   color: sapphire
   type: glimmer
   illustrator: Roger Perez
-  languages: 
-    en: 
+  languages:
+    en:
       name: Basil
       title: Perceptive Investigator
       flavour: '\u201cThere is no question: something is afoot in the Great Illuminary.\u201d'
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Basil
       title: Enqu\u00eateur Perspicace
       flavour: "\"Il n'y a pas de doute : quelque chose se trame dans le Grand Illuminarium.\""
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -3727,16 +3761,16 @@
   color: sapphire
   type: glimmer
   illustrator: Cory Godbey
-  languages: 
-    en: 
+  languages:
+    en:
       name: Caterpillar
       title: Calm and Collected
       flavour: \u201cKeep your tempo.\u201d
-    fr: 
+    fr:
       name: La Chenille
       title: Chill et vaporeux
       flavour: '"Vas-y \u00e0 ton rythme."'
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -3752,23 +3786,23 @@
   color: sapphire
   type: glimmer
   illustrator: Isaiah Mesq
-  languages: 
-    en: 
+  languages:
+    en:
       name: Cogsworth
       title: Grandfather Clock
       flavour: null
-    de: 
+    de:
       name: Von Unruh
       title: Standuhr
       flavour: null
-    fr: 
+    fr:
       name: BIG BEN
       title: 'Horloge de Grand-P\u00e8re'
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_3
     - ward
     - unwind
@@ -3784,23 +3818,23 @@
   color: sapphire
   type: glimmer
   illustrator: Leonardo Giammichele
-  languages: 
-    en: 
+  languages:
+    en:
       name: Cogsworth
       title: Talking Clock
       flavour: "\\u201cThis has gone far enough. I'm charge here.\\u201d"
-    de: 
+    de:
       name: Von Unruh
       title: Sprechende Uhr
       flavour: \u201eAlso jetzt reicht es aber. Ich trage hier die Verantwortung\u201c
-    fr: 
+    fr:
       name: BIG BEN
       title: Horloge Parlante
       flavour: "\\u201cCa suffit. C'est moi qui suis en charge ici.\\u201d"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - wait_a_minute
   franchise_id: unknown
 - sets:
@@ -3814,23 +3848,23 @@
   color: sapphire
   type: glimmer
   illustrator: Aisha Durmagambetova
-  languages: 
-    en: 
+  languages:
+    en:
       name: Cruella De Vil
       title: Fashionable Cruiser
       flavour: "\\u201cIsn't it just gorgeous, darling? And just as stylish as I am.\\u201d"
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: "Cruella D'enfer"
       title: Collection croisi\u00e8re
       flavour: "\"N'est-ce pas magnifique, ma ch\\u00e9rie ? Et tout aussi \\u00e9l\\u00e9gant que moi.\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - now_get_going
   franchise_id: unknown
 - sets:
@@ -3844,19 +3878,19 @@
   color: sapphire
   type: glimmer
   illustrator: 'GusGadget \/ Leonardo Giammichele'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Cruella De Vil
       title: Perfectly Wretched
       flavour: "\\u201cIt's ink couture, darling. I wear only the best!\\u201d"
-    fr: 
+    fr:
       name: "Cruella d'enfer"
       title: Cruellement infecte
       flavour: "\"C'est de la couture d'encre,ch\\u00e9rie. Je ne porte que le meilleur !\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_3
     - oh_no_you_dont
   franchise_id: unknown
@@ -3871,19 +3905,19 @@
   color: sapphire
   type: glimmer
   illustrator: 'Rosa la Barbera \/ Leonardo Giammichele'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Duke Weaselton
       title: 'Small-Time Crook'
       flavour: '\u201cIt\u2019s Wee-sel-ton.\u201d'
-    fr: 
+    fr:
       name: Duke Weaselton
       title: Escroc \u00e0 la petite semaine
       flavour: "\"C'est Weo-sel-ton.\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - ward
   franchise_id: unknown
 - sets:
@@ -3896,23 +3930,23 @@
   color: sapphire
   type: glimmer
   illustrator: Matthew Robert Davies
-  languages: 
-    en: 
+  languages:
+    en:
       name: Gaston
       title: Intellectual Powerhouse
       flavour: null
-    de: 
+    de:
       name: Gaston
       title: Intellektuelles Kraftpaket
       flavour: null
-    fr: 
+    fr:
       name: Gaston
       title: Fort du cerveau
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_4
     - developed_brain
   franchise_id: unknown
@@ -3926,23 +3960,23 @@
   color: sapphire
   type: glimmer
   illustrator: Juan Diego Leon
-  languages: 
-    en: 
+  languages:
+    en:
       name: Grand Pabbie
       title: Oldest and Wisest
       flavour: When he talks, even sky listens.
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Grand Pabbie
       title: Le plus vieux et le plus sage
       flavour: "Lorsqu'il parle m\\u00eame le ciel \\u00e9coute."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - ancient_insight
   franchise_id: unknown
 - sets:
@@ -3956,23 +3990,23 @@
   color: sapphire
   type: glimmer
   illustrator: Leonardo Giammichele
-  languages: 
-    en: 
+  languages:
+    en:
       name: Hiram Flaversham
       title: Toymaker
       flavour: "His creations are even more wondrous with the Illuminary's resources at his fingertips."
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Flaversham
       title: Fabricant de jouets
       flavour: "Ses cr\\u00e9atures sont encore plus merveilleuses avec les ressources de l'Illuminarium \\u00e0 port\\u00e9e de main."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - artificer
   franchise_id: unknown
 - sets:
@@ -3985,19 +4019,19 @@
   color: sapphire
   type: glimmer
   illustrator: Kevin Hong
-  languages: 
-    en: 
+  languages:
+    en:
       name: James
       title: Role Model
       flavour: null
-    fr: 
+    fr:
       name: James
       title: Parent mod\u00e8le
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - never_ever_lose_sight
   franchise_id: unknown
 - sets:
@@ -4011,19 +4045,19 @@
   color: sapphire
   type: glimmer
   illustrator: 'R. la Barbera \/ L. Giammichele'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Jasmine
       title: Heir of Agrabah
       flavour: She may be young, but she\u2019s got the spirit of a true leader.
-    fr: 
+    fr:
       name: Jasmine
       title: "H\\u00e9riti\\u00e8re d'Agrabah"
       flavour: "Elle est peut-\\u00eatre jeune, mais elle a l'\\u00e2me d'une v\\u00e9ritable cheffe."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - im_a_fast_learner
   franchise_id: unknown
 - sets:
@@ -4037,19 +4071,19 @@
   color: sapphire
   type: glimmer
   illustrator: Arianna Rea
-  languages: 
-    en: 
+  languages:
+    en:
       name: Judy Hopps
       title: Optimistic Officer
       flavour: "\\u201cI'll get to the bottom of what happened with that locked lorebook. You can count on me!\\u201d"
-    fr: 
+    fr:
       name: Judy Hopps
       title: Polici\u00e8re optimiste
       flavour: "\"Je vais faire toute la lumi\\u00e8re sur ce qui s'est pass\\u00e9 avec ce livre de Lore. Vous pouvez compter sur moi !\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - dont_call_me_cute
   franchise_id: unknown
 - sets:
@@ -4062,23 +4096,23 @@
   color: sapphire
   type: glimmer
   illustrator: Michaela Martin
-  languages: 
-    en: 
+  languages:
+    en:
       name: Mrs. Judson
       title: Housekeeper
       flavour: \u201cI know just the thing. Let me fetch you a pot of tea and some of my fresh cheese crumpets.\u201c
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Mrs. Judson
       title: Gouvernante
       flavour: "\"Je sais exactement ce qu'il vous faut. Laissez-moi vous\nchercher une th\\u00e9i\\u00e8re et quelques-uns de mes crumpets au\nfromage frais."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - tidy_up
   franchise_id: unknown
 - sets:
@@ -4092,15 +4126,15 @@
   color: sapphire
   type: glimmer
   illustrator: Brian Weisz
-  languages: 
-    en: 
+  languages:
+    en:
       name: Nick Wilde
       title: Wily Fox
       flavour: "\\u201cIt's criminal how good these things taste!\\u201d"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - its_called_a_hustle
   franchise_id: unknown
 - sets:
@@ -4111,15 +4145,15 @@
   inkwell: true
   color: sapphire
   type: glimmer
-  languages: 
-    en: 
+  languages:
+    en:
       name: Noi
       title: Orphaned Thief
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - hide_and_seek
   franchise_id: unknown
 - sets:
@@ -4133,20 +4167,20 @@
   color: sapphire
   type: glimmer
   illustrator: Agnes Christianson
-  languages: 
-    en: 
+  languages:
+    en:
       name: Owl
       title: Logical Lecturer
       flavour: \u201cFor instance, based on the quality of the light and the subtle change in wind direction, I can safely say that it is time for tea.\u201d
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: ''
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -4162,20 +4196,20 @@
   color: sapphire
   type: glimmer
   illustrator: 'Vicky Xie \/ Mariana Moreno'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Prince Charming
       title: Heir to the Throne
       flavour: "He'd searched across the Inklands for the young woman who'd stolen his heart at the ball, only to find more mysteries."
-    de: 
+    de:
       name: Prinz Charming
       title: Thronerbe
       flavour: Er suchte im ganzen Tintenreich nach der jungen Frau, die auf dem Ball sein Herz gestohlen hatte. Doch er fand nur weitere Mysterien.
-    fr: 
+    fr:
       name: Prince Charmant
       title: H\u00e9ritier du tr\u00f4ne
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -4191,12 +4225,12 @@
   color: sapphire
   type: glimmer
   illustrator: Giulia Riva
-  languages: 
-    en: 
+  languages:
+    en:
       name: Rabbit
       title: Reluctant Host
       flavour: "Pooh: \\u201cIsn\\u2019t there anybody here at all?\\u201d \nRabbit: \\u201cNobody!\\u201d \nPooh: \\u201cSomebody's there . . . because somebody must have said \\u2018Nobody.\\u2019\\u201d"
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -4213,15 +4247,15 @@
   color: sapphire
   type: glimmer
   illustrator: Grace Tran
-  languages: 
-    en: 
+  languages:
+    en:
       name: Sisu
       title: Divine Water Dragon
       flavour: No matter her shape, you can\u2019t mistake her heart.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - i_trust_you
   franchise_id: unknown
 - sets:
@@ -4235,19 +4269,19 @@
   color: sapphire
   type: glimmer
   illustrator: Hadjie Joos
-  languages: 
-    en: 
+  languages:
+    en:
       name: The Nokk
       title: Water Spirit
       flavour: As elusive as water.
-    fr: 
+    fr:
       name: Nokk
       title: "Esprit de l'Eau"
       flavour: "Telle l'eau, il vous glissera toujours entre les doigts."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - ward
   franchise_id: unknown
 - sets:
@@ -4261,19 +4295,19 @@
   color: sapphire
   type: glimmer
   illustrator: Rianti Hidayat
-  languages: 
-    en: 
+  languages:
+    en:
       name: Winnie the Pooh
       title: Having a Think
       flavour: When he thought, he thought in the most thoughtful way he could think.
-    fr: 
+    fr:
       name: "Winnie L'Ourson"
       title: Pense pense pense
       flavour: "Aussi, quand il r\\u00e9fl\\u00e9chissait, il r\\u00e9fl\\u00e9chissait de la mani\\u00e8re la plus r\\u00e9fl\\u00e9chie qu'il pouvait."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - hunny_pot
   franchise_id: unknown
 - sets:
@@ -4284,19 +4318,19 @@
   color: sapphire
   type: action
   illustrator: Lissette Carrera
-  languages: 
-    en: 
+  languages:
+    en:
       name: Falling Down the Rabbit Hole
       title: ''
       flavour: Down, down, down she went, floating in a swirl of ink. How curious!
-    fr: 
+    fr:
       name: Chute dans le terrier du lapin
       title: ''
       flavour: "Tombe, tombe, tombe, flottant dans un tourbillon d'encre. Comme c'\\u00e9tait curieux !"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - falling_down_the_rabbit_hole
   franchise_id: unknown
 - sets:
@@ -4311,23 +4345,23 @@
   color: sapphire
   type: song
   illustrator: Jochem Van Gool
-  languages: 
-    en: 
+  languages:
+    en:
       name: Four Dozen Eggs
       title: ''
       flavour: null
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: "Quatre douzaines d'oeufs"
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - four_dozen_eggs
   franchise_id: unknown
 - sets:
@@ -4338,19 +4372,19 @@
   color: sapphire
   type: action
   illustrator: Juan Diego Leon
-  languages: 
-    en: 
+  languages:
+    en:
       name: Launch
       title: ''
       flavour: 'Ready . . . aim . . . coconut?'
-    fr: 
+    fr:
       name: Projectil de fortune
       title: ''
       flavour: 'Armez...Visez...Noix de coco ?'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - launch
   franchise_id: unknown
 - sets:
@@ -4362,15 +4396,15 @@
   color: sapphire
   type: action
   illustrator: 'Mane Kandalyan \/ Jochem Van Gool'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Nothing to Hide
       title: ''
       flavour: Helps you avoid unpleasant surprises.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - nothing_to_hide
   franchise_id: unknown
 - sets:
@@ -4382,23 +4416,23 @@
   color: sapphire
   type: item
   illustrator: Antonia Flechsig
-  languages: 
-    en: 
+  languages:
+    en:
       name: Fang Crossbow
       title: ''
       flavour: null
-    de: 
+    de:
       name: Armbrust aus Zahn
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Arbal\u00e8te \u00e0 Crocs
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - carefulaim
     - stay_back
   franchise_id: unknown
@@ -4411,23 +4445,23 @@
   color: sapphire
   type: item
   illustrator: Tanisha Cherislin
-  languages: 
-    en: 
+  languages:
+    en:
       name: Gumbo Pot
       title: ''
       flavour: "\\u201cA gift this special just got to be shared.\\u201d \n\\u2212James"
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Marmite de Gumbo
       title: ''
       flavour: "\"C'est merveilleux. Il faut que tout le monde en profite.\"\n\\u2212 James"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - the_best_ive_ever_tasted
   franchise_id: unknown
 - sets:
@@ -4438,15 +4472,15 @@
   color: sapphire
   type: item
   illustrator: Antonia Flechsig
-  languages: 
-    en: 
+  languages:
+    en:
       name: "Maurice's Workshop"
       title: ''
       flavour: The solution you need could be just a few adjustments away.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - looking_for_this
   franchise_id: unknown
 - sets:
@@ -4458,15 +4492,15 @@
   color: sapphire
   type: item
   illustrator: Isaiah Mesq
-  languages: 
-    en: 
+  languages:
+    en:
       name: Pawpsicle
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - jumbo_pop
     - thats_redwood
   franchise_id: unknown
@@ -4479,15 +4513,15 @@
   color: sapphire
   type: item
   illustrator: Peter Brockhammer
-  languages: 
-    en: 
+  languages:
+    en:
       name: Sardine Can
       title: ''
       flavour: "\\u201cFlight 3759 boarding now! Let\\u2019s go get that lore!\\u201d \n\\u2013Orville"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - flight_cabin
   franchise_id: unknown
 - sets:
@@ -4501,19 +4535,19 @@
   color: steel
   type: glimmer
   illustrator: Alice Pisoni
-  languages: 
-    en: 
+  languages:
+    en:
       name: Beast
       title: Forbidding Recluse
       flavour: Woe to the one who draws his gaze.
-    fr: 
+    fr:
       name: La B\u00eate
       title: Reclus inhospitalier
       flavour: Malheur \u00e0 celui qui croisera son regard.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - youre_not_welcome_here
   franchise_id: unknown
 - sets:
@@ -4527,19 +4561,19 @@
   color: steel
   type: glimmer
   illustrator: Matthew Robert Davies
-  languages: 
-    en: 
+  languages:
+    en:
       name: Beast
       title: Selfless Protector
       flavour: \u201cYou\u2019ll have to go through me first.\u201d
-    fr: 
+    fr:
       name: La B\u00eate
       title: Pr\u00eat \u00e0 se sacrifier
       flavour: "\"Il faudra d'abord me passer sur le corps.\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shield_another
   franchise_id: unknown
 - sets:
@@ -4553,19 +4587,19 @@
   color: steel
   type: glimmer
   illustrator: Evana Kisa
-  languages: 
-    en: 
+  languages:
+    en:
       name: Beast
       title: Tragic Hero
       flavour: \u201cIt must be my destiny\u2212to remain a beast forever.\u201d
-    fr: 
+    fr:
       name: La B\u00eate
       title: H\u00e9ros tragique
       flavour: '"Rester une B\u00eate \u00e0 tout jamais, tel est mon destin."'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_3
     - its_better_this_way
   franchise_id: unknown
@@ -4580,19 +4614,19 @@
   color: steel
   type: glimmer
   illustrator: Grace Tran
-  languages: 
-    en: 
+  languages:
+    en:
       name: Benja
       title: Guardian of the Dragon Gem
       flavour: \u201cDon\u2019t mistake spirit for skill.\u201d
-    fr: 
+    fr:
       name: Benja
       title: Gardien de la Pierre de Dragon
       flavour: '"Ne confondez pas courage et comp\u00e9tence."'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - we_have_a_choice
   franchise_id: unknown
 - sets:
@@ -4606,19 +4640,19 @@
   color: steel
   type: glimmer
   illustrator: Adam Banch
-  languages: 
-    en: 
+  languages:
+    en:
       name: Chief Bogo
       title: Respected Officer
       flavour: \u201cWe can confirm the ink flood was caused by an explosion. We have it under control\u2212now clear the area.\u201d
-    fr: 
+    fr:
       name: Chef Bogo
       title: Officier respect\u00e9
       flavour: "\"Nous pouvons confirmer que l'inondation d'encre a \\u00e9t\\u00e9 caus\\u00e9e par une explosion. Nous avons la situation en main, maintenant \\u00e9vacuez la zone.\""
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - insubordination
   franchise_id: unknown
 - sets:
@@ -4635,23 +4669,23 @@
   color: steel
   type: glimmer
   illustrator: Grace Tran
-  languages: 
-    en: 
+  languages:
+    en:
       name: Cinderella
       title: Knight in Training
       flavour: "She's always had the heart of a champion - now she'll have the skills, too."
-    de: 
+    de:
       name: Cinderella
       title: Ritterin in Ausbildung
       flavour: 'Sie hatte stets das Zeug zur Spitzenreiterin - bald w\u00fcrde sie ihre Fertigkeiten unter Beweis stellen.'
-    fr: 
+    fr:
       name: Cendrillon
       title: "Chevalier \\u00e0 l'entra\\u00eenement"
       flavour: "Elle a toujours eu le c\\u0153ur d'une championne, bient\\u00f4t elle\nen aura aussi les comp\\u00e9tences."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - have_courage
   franchise_id: unknown
 - sets:
@@ -4665,23 +4699,23 @@
   color: steel
   type: glimmer
   illustrator: Grace Tran
-  languages: 
-    en: 
+  languages:
+    en:
       name: Cinderella
       title: Stouthearted
       flavour: null
-    de: 
+    de:
       name: Cinderella
       title: Beherzt
       flavour: null
-    fr: 
+    fr:
       name: Cendrillon
       title: C\u0153ur vaillant
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_5
     - resist_2
     - the_singing_sword
@@ -4697,16 +4731,16 @@
   color: steel
   type: glimmer
   illustrator: Nicholas Kole
-  languages: 
-    en: 
+  languages:
+    en:
       name: Donald Duck
       title: 'Deep-Sea Diver'
       flavour: "\"You go ahead, Minnie! I'm going to see if there's any lore over here.\""
-    fr: 
+    fr:
       name: Donald
       title: Plongeur en eau profonde
       flavour: "\"Continue, Minnie ! Je vais voir s'il y a des \\u00e9clats de Lore par ici.\""
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -4722,20 +4756,20 @@
   color: steel
   type: glimmer
   illustrator: Isaiah Mesq
-  languages: 
-    en: 
+  languages:
+    en:
       name: Eli La Bouff
       title: Big Daddy
       flavour: "\\u201cI don't suppose y'all could whip up some more magical beignets with them inkcasters?\\u201d"
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Eli Le Boeuf
       title: Big Daddy
       flavour: "\"Tu ne peux pas simplement invoquer al\\u00e9atoirement des beignets avec tes cr\\u00e9ateurs d'encre ?\""
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -4751,20 +4785,20 @@
   color: steel
   type: glimmer
   illustrator: Marco Giorgianni
-  languages: 
-    en: 
+  languages:
+    en:
       name: Goofy
       title: Knight for a Day
       flavour: It\u2019s a banner day for Sir Goofy, who is steeled to prove his mettle against anyone courting trouble\u2212joust in case.
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Dingo
       title: Chevalier pour un jour
       flavour: "C'est une glorieuse journ\\u00e9e pour Sir Dingo, qui est acier vaillant pour d\\u00e9fier quiconque souhaitant conter fleurette aux ennuis. Joute au cas o\\u00f9."
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -4782,19 +4816,19 @@
   color: steel
   type: glimmer
   illustrator: Grace Tran
-  languages: 
-    en: 
+  languages:
+    en:
       name: Hercules
       title: Divine Hero
       flavour: A good guy to have around when something wrecks your inkworks.
-    fr: 
+    fr:
       name: Hercule
       title: H\u00e9ros divin
       flavour: "Un bon gars \\u00e0 avoir \\u00e0 port\\u00e9e de main quand quelque chose ruine vos cr\\u00e9ations d'encre."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_4
     - resist_2
   franchise_id: unknown
@@ -4809,16 +4843,16 @@
   color: steel
   type: glimmer
   illustrator: Eva Widermann
-  languages: 
-    en: 
+  languages:
+    en:
       name: Hercules
       title: Hero in Training
       flavour: 'No need to call IX-I-I!'
-    fr: 
+    fr:
       name: Hercule
       title: "H\\u00e9ros \\u00e0 l'entrainement"
       flavour: "Inutile d'appeler IX-I-I!"
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -4834,19 +4868,19 @@
   color: steel
   type: glimmer
   illustrator: Cam Kendell
-  languages: 
-    en: 
+  languages:
+    en:
       name: Jafar
       title: Dreadnought
       flavour: null
-    fr: 
+    fr:
       name: Jafar
       title: Serpent cuirass\u00e9
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - shift_2
     - now_where_were_we
   franchise_id: unknown
@@ -4861,19 +4895,19 @@
   color: steel
   type: glimmer
   illustrator: Rob Di Salvo
-  languages: 
-    en: 
+  languages:
+    en:
       name: Jafar
       title: Royal Vizier
       flavour: \u201cSoon you\u2019ll learn who holds the real power!\u201d
-    fr: 
+    fr:
       name: Jafar
       title: Grand Vizir
       flavour: '"Bient\u00f4t, vous apprendrez qui d\u00e9tient le vrai pouvoir !"'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - i_dont_trust_him_sire
   franchise_id: unknown
 - sets:
@@ -4887,19 +4921,19 @@
   color: steel
   type: glimmer
   illustrator: Brian Weisz
-  languages: 
-    en: 
+  languages:
+    en:
       name: Kronk
       title: Junior Chipmunk
       flavour: null
-    fr: 
+    fr:
       name: Kronk
       title: Ragondin junior
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - resist_1
     - scout_leader
   franchise_id: unknown
@@ -4914,19 +4948,19 @@
   color: steel
   type: glimmer
   illustrator: Luis Huerta
-  languages: 
-    en: 
+  languages:
+    en:
       name: Lawrence
       title: Jealous Manservant
       flavour: In this new world, the crown could finally be his.
-    fr: 
+    fr:
       name: Lawrence
       title: Valet jaloux
       flavour: Dans ce nouveau monde, la couronne pourrait enfin \u00eatre \u00e0 lui.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - payback
   franchise_id: unknown
 - sets:
@@ -4940,23 +4974,23 @@
   color: steel
   type: glimmer
   illustrator: Cristian Romero
-  languages: 
-    en: 
+  languages:
+    en:
       name: Li Shang
       title: Archery Instructor
       flavour: \u201cLearn what to do, then learn to do it without thought.\u201d
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Li Shang
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - archery_lesson
   franchise_id: unknown
 - sets:
@@ -4970,15 +5004,15 @@
   color: steel
   type: glimmer
   illustrator: Cristian Romero
-  languages: 
-    en: 
+  languages:
+    en:
       name: Magic Broom
       title: Industrial Model
       flavour: Even with a hauling weight of \u201cseriously, a lot,\u201d it can only do so much in a magical flood.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - make_it_shine
   franchise_id: unknown
 - sets:
@@ -4993,15 +5027,15 @@
   color: steel
   type: glimmer
   illustrator: Jenna Gray
-  languages: 
-    en: 
+  languages:
+    en:
       name: Namaari
       title: Morning Mist
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - bodyguard
     - blades
   franchise_id: unknown
@@ -5016,12 +5050,12 @@
   color: steel
   type: glimmer
   illustrator: Koni
-  languages: 
-    en: 
+  languages:
+    en:
       name: Pacha
       title: Village Leader
       flavour: "\\u201cDon't be fooled by the folksy peasant look.\\u201d \n\\u2212Kuzco"
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -5037,20 +5071,20 @@
   color: steel
   type: glimmer
   illustrator: Gaku Kumatori
-  languages: 
-    en: 
+  languages:
+    en:
       name: Prince Naveen
       title: Penniless Royal
       flavour: "All he's got is his charm."
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Prince Naveen
       title: Prince sans moyens
       flavour: "Tout ce qu'il poss\\u00e8de, c'est son charme"
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -5066,23 +5100,23 @@
   color: steel
   type: glimmer
   illustrator: Jenna Gray
-  languages: 
-    en: 
+  languages:
+    en:
       name: Queen of Hearts
       title: Capricious Monarch
       flavour: 'The fourth Rule of Villainy: Do whatever it takes to get ahead.'
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: Reine de Coeur
       title: Monarque Capricieux
       flavour: 'La quatri\u00e8me r\u00e8gle de la vie de bandit : Pour \u00eatre toujours en t\u00eate, parfois tu dois risquer ta vie.'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - off_with_their_heads
   franchise_id: unknown
 - sets:
@@ -5098,23 +5132,23 @@
   color: steel
   type: glimmer
   illustrator: Noukah
-  languages: 
-    en: 
+  languages:
+    en:
       name: Robin Hood
       title: Capable Fighter
       flavour: "\\u201cCapable? You don't know the half of it.\\u201d\n\\u2212Little John"
-    de: 
+    de:
       name: Robin Hood
       title: Kompetenter K\u00e4mpfer
       flavour: '\u201eKompetent? Das beschreibt ihn nicht mal zur H\u00e4lfte.\u201c - Little John'
-    fr: 
+    fr:
       name: Robin des Bois
       title: Habile combattant
       flavour: "\"Habile ? Vous n'avez m\\u00eame pas id\\u00e9e !\"\n\\u2212Petit Jean"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - skirmish
   franchise_id: unknown
 - sets:
@@ -5128,23 +5162,23 @@
   color: steel
   type: glimmer
   illustrator: Gaku Kumatori
-  languages: 
-    en: 
+  languages:
+    en:
       name: The Huntsman
       title: Reluctant Enforcer
       flavour: \u201cRun away, hide! In the woods, anywhere!\u201d
-    de: 
+    de:
       name: ''
       title: ''
       flavour: null
-    fr: 
+    fr:
       name: ''
       title: ''
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - change_of_heart
   franchise_id: unknown
 - sets:
@@ -5158,23 +5192,23 @@
   color: steel
   type: glimmer
   illustrator: Eri Welli
-  languages: 
-    en: 
+  languages:
+    en:
       name: The Prince
       title: Never Gives Up
       flavour: null
-    de: 
+    de:
       name: Der Prinz
       title: Gibt niemals auf
       flavour: null
-    fr: 
+    fr:
       name: Prince
       title: "N'abandonne jamais"
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - bodyguard
     - resist_1
   franchise_id: unknown
@@ -5188,23 +5222,23 @@
   color: steel
   type: glimmer
   illustrator: Matthew Robert Davies
-  languages: 
-    en: 
+  languages:
+    en:
       name: Tiana
       title: Celebrating Princess
       flavour: null
-    de: 
+    de:
       name: Tiana
       title: Festliche Prinzessin
       flavour: null
-    fr: 
+    fr:
       name: Tiana
       title: Princesse en f\u00eate
       flavour: null
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - resist_2
     - what_you_give_is_what_you_get
   franchise_id: unknown
@@ -5219,16 +5253,16 @@
   color: steel
   type: glimmer
   illustrator: Samanta Erdini
-  languages: 
-    en: 
+  languages:
+    en:
       name: Tiana
       title: Diligent Waitress
       flavour: \u201cMy place is going to be special, with great food to fill people\u2019s bellies an hot jazz to feed their souls!\u201d
-    fr: 
+    fr:
       name: Tiana
       title: Serveuse consciencieuse
       flavour: '"Ce sera un endroit tr\u00e8s sp\u00e9cial, avec de la bonne nourriture pour remplir les estomacs des gens et du jazz pour nourrir leurs \u00e2mes."'
-  edition: 
+  edition:
     - regular
     - foil
   actions: []
@@ -5242,19 +5276,19 @@
   color: steel
   type: action
   illustrator: 'Hedvig H\u00e4ggman-Sund'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Charge
       title: ''
       flavour: Sometimes subtlety is required. This is not one of those times.
-    fr: 
+    fr:
       name: Fonce !
       title: ''
       flavour: 'Il faut parfois faire preuve de finesse... mais pas cette fois-ci.'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - charge
   franchise_id: unknown
 - sets:
@@ -5265,19 +5299,19 @@
   color: steel
   type: song
   illustrator: 'R. la Barbera \/ L. Giammichele'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Let the Storm Rage On
       title: ''
       flavour: The cold never bothered me anyway
-    fr: 
+    fr:
       name: "Perdue dans l'hiver"
       title: ''
       flavour: Le froid est pour moi le prix de la libert\u00e9.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - let_the_storm_rage_on
   franchise_id: unknown
 - sets:
@@ -5288,15 +5322,15 @@
   color: steel
   type: action
   illustrator: 'Pablo Hidalgo \/ Jeff Merghart'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Pick a Fight
       title: ''
       flavour: "\\u201cI'm gonna wreck it!\\u201d"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - pick_a_fight
   franchise_id: unknown
 - sets:
@@ -5308,15 +5342,15 @@
   color: steel
   type: song
   illustrator: 'Jared Nickerl \/ Alex Accorsi'
-  languages: 
-    en: 
+  languages:
+    en:
       name: Strength of a Raging Fire
       title: ''
       flavour: "Tranquil as a forest \nBut on fire within"
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - strength_of_a_raging_fire
   franchise_id: unknown
 - sets:
@@ -5328,19 +5362,19 @@
   color: steel
   type: item
   illustrator: Jared Nickerl
-  languages: 
-    en: 
+  languages:
+    en:
       name: Last Cannon
       title: ''
       flavour: One shot can change everything.
-    fr: 
+    fr:
       name: Dernier canon
       title: ''
       flavour: "Il suffit d'un seul tir pour tout changer."
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - arm_yourself
   franchise_id: unknown
 - sets:
@@ -5351,23 +5385,23 @@
   color: steel
   type: item
   illustrator: Gaku Kumatori
-  languages: 
-    en: 
+  languages:
+    en:
       name: Mouse Armor
       title: ''
       flavour: Built by the tiniest of hands for the bravest of hearts.
-    de: 
+    de:
       name: M\u00e4user\u00fcstung
       title: ''
       flavour: Von den kleinsten H\u00e4nden f\u00fcr die gr\u00f6\u00dften Herzen gefertigt.
-    fr: 
+    fr:
       name: ARMURE DE SOURIS
       title: ''
       flavour: Construites par les mains les plus petites pour les c\u0153urs les plus courageux.
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - protection
   franchise_id: unknown
 - sets:
@@ -5379,18 +5413,18 @@
   color: steel
   type: item
   illustrator: Antonia Flechsig
-  languages: 
-    en: 
+  languages:
+    en:
       name: Weight Set
       title: ''
       flavour: Personally endorsed by Hercules himself!
-    fr: 
+    fr:
       name: Halt\u00e8res
       title: ''
       flavour: 'Recommand\u00e9es par Hercule lui-m\u00eame !'
-  edition: 
+  edition:
     - regular
     - foil
-  actions: 
+  actions:
     - training
   franchise_id: unknown

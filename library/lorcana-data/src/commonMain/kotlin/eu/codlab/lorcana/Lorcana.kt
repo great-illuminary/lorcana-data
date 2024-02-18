@@ -4,6 +4,7 @@ import eu.codlab.lorcana.abilities.Ability
 import eu.codlab.lorcana.franchises.Franchise
 import eu.codlab.lorcana.raw.RawSet
 import eu.codlab.lorcana.raw.RawVirtualCard
+import eu.codlab.lorcana.raw.SetDescription
 import eu.codlab.lorcana.raw.to
 import korlibs.datastructure.iterators.parallelMap
 
@@ -30,7 +31,7 @@ class Lorcana {
         return LorcanaLoaded(result)
     }
 
-    private suspend fun loadLorcana(
+    private fun loadLorcana(
         abilities: Map<String, Ability>,
         franchises: Map<String, Franchise>,
         cards: List<RawVirtualCard>
@@ -39,9 +40,9 @@ class Lorcana {
         SetDescription.RotF,
         SetDescription.Promos,
         SetDescription.ItI
-    ).map {
-        it to loadCards(it, abilities, franchises, cards)
-    }.toMap()
+    ).associateWith {
+        loadCards(it, abilities, franchises, cards)
+    }
 
     private fun loadCards(
         set: SetDescription,
