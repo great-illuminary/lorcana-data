@@ -2,6 +2,7 @@
     rotf:
       - id: 1
         rarity: uncommon
+  lore: 3
   color: amber
   cost: 4
   inkwell: true
@@ -28,6 +29,7 @@
     rotf:
       - id: 2
         rarity: rare
+  lore: 2
   color: amber
   cost: 6
   inkwell: true
@@ -56,6 +58,7 @@
         rarity: rare
       - id: 205
         rarity: enchanted
+  lore: 1
   color: amber
   cost: 1
   inkwell: true
@@ -80,8 +83,9 @@
   franchise_id: unknown
 - sets:
     rotf:
-      - id: 7
+      - id: 4
         rarity: rare
+  lore: 2
   color: amber
   cost: 7
   inkwell: true
@@ -111,6 +115,7 @@
     rotf:
       - id: 5
         rarity: uncommon
+  lore: 2
   color: amber
   cost: 3
   inkwell: true
@@ -137,6 +142,7 @@
     rotf:
       - id: 6
         rarity: uncommon
+  lore: 1
   color: amber
   cost: 3
   inkwell: true
@@ -163,6 +169,7 @@
     rotf:
       - id: 7
         rarity: common
+  lore: 2
   color: amber
   cost: 5
   inkwell: true
@@ -188,6 +195,7 @@
     rotf:
       - id: 8
         rarity: uncommon
+  lore: 1
   color: amber
   cost: 3
   inkwell: true
@@ -213,6 +221,7 @@
     rotf:
       - id: 9
         rarity: rare
+  lore: 1
   color: amber
   cost: 2
   inkwell: true
@@ -243,6 +252,7 @@
     rotf:
       - id: 10
         rarity: common
+  lore: 1
   color: amber
   cost: 4
   inkwell: true
@@ -269,6 +279,7 @@
     rotf:
       - id: 11
         rarity: common
+  lore: 2
   color: amber
   cost: 5
   inkwell: true
@@ -295,6 +306,7 @@
     rotf:
       - id: 12
         rarity: super_rare
+  lore: 2
   color: amber
   cost: 7
   inkwell: true
@@ -325,6 +337,7 @@
       - id: 18
         rarity: d100
         illustrator: Mark Henn
+  lore: 3
   color: amber
   cost: 6
   inkwell: true
@@ -355,6 +368,7 @@
     rotf:
       - id: 14
         rarity: legendary
+  lore: 2
   color: amber
   cost: 5
   inkwell: true
@@ -381,6 +395,7 @@
     rotf:
       - id: 15
         rarity: common
+  lore: 2
   color: amber
   cost: 3
   inkwell: true
@@ -407,6 +422,7 @@
     rotf:
       - id: 16
         rarity: rare
+  lore: 2
   color: amber
   cost: 4
   inkwell: true
@@ -434,6 +450,7 @@
     rotf:
       - id: 17
         rarity: uncommon
+  lore: 1
   color: amber
   cost: 2
   inkwell: true
@@ -460,6 +477,7 @@
     rotf:
       - id: 18
         rarity: common
+  lore: 2
   color: amber
   cost: 3
   inkwell: true
@@ -488,6 +506,7 @@
     promos:
       - id: 31
         rarity: pax_unplugged2023
+  lore: 2
   color: amber
   cost: 5
   inkwell: true
@@ -519,6 +538,7 @@
     rotf:
       - id: 20
         rarity: common
+  lore: 1
   color: amber
   cost: 2
   inkwell: true
@@ -545,6 +565,7 @@
     rotf:
       - id: 21
         rarity: common
+  lore: 2
   color: amber
   cost: 2
   inkwell: true
@@ -571,6 +592,7 @@
     rotf:
       - id: 22
         rarity: common
+  lore: 1
   color: amber
   cost: 2
   inkwell: true
@@ -597,6 +619,7 @@
     rotf:
       - id: 23
         rarity: common
+  lore: 1
   color: amber
   cost: 2
   inkwell: true
@@ -623,6 +646,7 @@
     rotf:
       - id: 24
         rarity: uncommon
+  lore: 1
   color: amber
   cost: 2
   attack: 1
@@ -650,6 +674,7 @@
         rarity: legendary
       - id: 206
         rarity: enchanted
+  lore: 2
   color: amber
   cost: 6
   attack: 3
@@ -676,6 +701,7 @@
     rotf:
       - id: 26
         rarity: super_rare
+  lore: 2
   color: amber
   cost: 5
   inkwell: true
@@ -707,6 +733,7 @@
     rotf:
       - id: 27
         rarity: common
+  lore: 1
   color: amber
   cost: 1
   inkwell: true
@@ -910,6 +937,7 @@
         rarity: super_rare
       - id: 207
         rarity: enchanted
+  lore: 1
   cost: 3
   attack: 1
   defence: 3
@@ -939,6 +967,7 @@
     rotf:
       - id: 36
         rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -966,6 +995,7 @@
     rotf:
       - id: 37
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 2
@@ -995,6 +1025,7 @@
     rotf:
       - id: 38
         rarity: common
+  lore: 1
   cost: 4
   inkwell: true
   attack: 4
@@ -1025,6 +1056,7 @@
       - id: 19
         rarity: d100
         illustrator: Brittney Lee
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -1055,6 +1087,7 @@
     rotf:
       - id: 40
         rarity: uncommon
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -1080,6 +1113,7 @@
     rotf:
       - id: 41
         rarity: legendary
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -1107,6 +1141,7 @@
     rotf:
       - id: 42
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -1133,6 +1168,7 @@
     rotf:
       - id: 43
         rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -1159,6 +1195,7 @@
     rotf:
       - id: 44
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -1186,6 +1223,7 @@
     rotf:
       - id: 45
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -1212,6 +1250,7 @@
     rotf:
       - id: 46
         rarity: rare
+  lore: 1
   cost: 3
   inkwell: true
   attack: 4
@@ -1246,6 +1285,7 @@
       - id: 208
         rarity: enchanted
         illustrator: Nicholas Kole
+  lore: 4
   cost: 7
   inkwell: true
   attack: 5
@@ -1277,6 +1317,7 @@
     rotf:
       - id: 48
         rarity: rare
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -1300,6 +1341,7 @@
     rotf:
       - id: 49
         rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 3
@@ -1330,6 +1372,7 @@
     rotf:
       - id: 50
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -1359,6 +1402,7 @@
     rotf:
       - id: 51
         rarity: uncommon
+  lore: 1
   cost: 4
   inkwell: true
   attack: 4
@@ -1389,6 +1433,7 @@
     rotf:
       - id: 52
         rarity: rare
+  lore: 1
   cost: 4
   attack: 2
   defence: 3
@@ -1418,6 +1463,7 @@
     rotf:
       - id: 53
         rarity: rare
+  lore: 1
   cost: 4
   inkwell: true
   attack: 1
@@ -1448,6 +1494,7 @@
     rotf:
       - id: 54
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -1478,6 +1525,7 @@
     rotf:
       - id: 55
         rarity: super_rare
+  lore: 2
   cost: 4
   attack: 2
   defence: 3
@@ -1501,6 +1549,7 @@
     rotf:
       - id: 56
         rarity: rare
+  lore: 3
   cost: 2
   attack: 1
   defence: 1
@@ -1525,6 +1574,7 @@
     rotf:
       - id: 57
         rarity: uncommon
+  lore: 2
   cost: 5
   attack: 3
   defence: 13
@@ -1550,6 +1600,7 @@
     promos:
       - id: 32
         rarity: pax_unplugged2023
+  lore: 1
   cost: 2
   attack: 1
   defence: 1
@@ -1579,6 +1630,7 @@
     rotf:
       - id: 59
         rarity: common
+  lore: 2
   cost: 5
   inkwell: true
   attack: 5
@@ -1608,6 +1660,7 @@
     rotf:
       - id: 60
         rarity: super_rare
+  lore: 2
   cost: 6
   inkwell: true
   attack: 4
@@ -1635,6 +1688,7 @@
     rotf:
       - id: 61
         rarity: uncommon
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -1840,6 +1894,7 @@
     rotf:
       - id: 69
         rarity: common
+  lore: 2
   cost: 4
   inkwell: true
   attack: 4
@@ -1867,6 +1922,7 @@
         rarity: legendary
       - id: 210
         rarity: enchanted
+  lore: 2
   cost: 6
   inkwell: true
   attack: 4
@@ -1897,6 +1953,7 @@
     rotf:
       - id: 71
         rarity: uncommon
+  lore: 1
   cost: 3
   attack: 2
   defence: 4
@@ -1926,6 +1983,7 @@
     rotf:
       - id: 72
         rarity: legendary
+  lore: 3
   cost: 5
   attack: 3
   defence: 3
@@ -1959,6 +2017,7 @@
     promos:
       - id: 15
         rarity: organized_play
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -1990,6 +2049,7 @@
     rotf:
       - id: 74
         rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 3
@@ -2019,6 +2079,7 @@
     rotf:
       - id: 75
         rarity: super_rare
+  lore: 2
   cost: 8
   inkwell: true
   attack: 5
@@ -2047,6 +2108,7 @@
     rotf:
       - id: 76
         rarity: uncommon
+  lore: 2
   cost: 4
   inkwell: true
   attack: 2
@@ -2077,6 +2139,7 @@
     rotf:
       - id: 77
         rarity: uncommon
+  lore: 2
   cost: 4
   inkwell: true
   attack: 2
@@ -2104,6 +2167,7 @@
     rotf:
       - id: 78
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 0
@@ -2130,6 +2194,7 @@
     rotf:
       - id: 79
         rarity: super_rare
+  lore: 3
   cost: 7
   inkwell: true
   attack: 4
@@ -2157,6 +2222,7 @@
     rotf:
       - id: 80
         rarity: common
+  lore: 2
   cost: 2
   inkwell: true
   attack: 1
@@ -2187,6 +2253,7 @@
     rotf:
       - id: 81
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 1
@@ -2216,6 +2283,7 @@
     rotf:
       - id: 82
         rarity: rare
+  lore: 4
   cost: 4
   attack: 2
   defence: 3
@@ -2243,6 +2311,7 @@
     rotf:
       - id: 83
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -2269,6 +2338,7 @@
     rotf:
       - id: 84
         rarity: rare
+  lore: 2
   cost: 6
   inkwell: true
   attack: 6
@@ -2295,6 +2365,7 @@
     rotf:
       - id: 85
         rarity: rare
+  lore: 2
   cost: 5
   attack: 2
   defence: 2
@@ -2323,6 +2394,7 @@
     rotf:
       - id: 86
         rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -2345,6 +2417,7 @@
     rotf:
       - id: 87
         rarity: common
+  lore: 2
   cost: 3
   attack: 2
   defence: 3
@@ -2376,6 +2449,7 @@
         rarity: rare
       - id: 209
         rarity: enchanted
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -2400,6 +2474,7 @@
     rotf:
       - id: 89
         rarity: rare
+  lore: 2
   cost: 3
   attack: 1
   defence: 2
@@ -2430,6 +2505,7 @@
     rotf:
       - id: 90
         rarity: common
+  lore: 2
   cost: 2
   attack: 1
   defence: 2
@@ -2459,6 +2535,7 @@
     rotf:
       - id: 91
         rarity: common
+  lore: 2
   cost: 4
   inkwell: true
   attack: 4
@@ -2481,6 +2558,7 @@
     rotf:
       - id: 92
         rarity: common
+  lore: 3
   cost: 5
   inkwell: true
   attack: 3
@@ -2540,6 +2618,7 @@
     rotf:
       - id: 94
         rarity: uncommon
+  lore: 3
   cost: 5
   inkwell: true
   attack: 5
@@ -2565,6 +2644,7 @@
     rotf:
       - id: 95
         rarity: common
+  lore: 2
   cost: 5
   inkwell: true
   attack: 5
@@ -2762,6 +2842,7 @@
     rotf:
       - id: 103
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 4
@@ -2791,6 +2872,7 @@
     rotf:
       - id: 104
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -2817,6 +2899,7 @@
     rotf:
       - id: 105
         rarity: uncommon
+  lore: 2
   cost: 5
   inkwell: true
   attack: 5
@@ -2846,6 +2929,7 @@
     rotf:
       - id: 106
         rarity: legendary
+  lore: 1
   cost: 5
   inkwell: true
   attack: 1
@@ -2899,6 +2983,7 @@
     rotf:
       - id: 108
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -2929,6 +3014,7 @@
     rotf:
       - id: 109
         rarity: rare
+  lore: 1
   cost: 3
   attack: 2
   defence: 3
@@ -2959,6 +3045,7 @@
         rarity: super_rare
       - id: 211
         rarity: enchanted
+  lore: 2
   cost: 6
   attack: 3
   defence: 4
@@ -2985,6 +3072,7 @@
     rotf:
       - id: 111
         rarity: common
+  lore: 1
   cost: 2
   attack: 2
   defence: 2
@@ -3014,6 +3102,7 @@
     rotf:
       - id: 112
         rarity: rare
+  lore: 2
   cost: 7
   inkwell: true
   attack: 7
@@ -3043,6 +3132,7 @@
     rotf:
       - id: 113
         rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 1
@@ -3068,6 +3158,7 @@
     promos:
       - id: 16
         rarity: organized_play
+  lore: 1
   cost: 4
   inkwell: true
   attack: 2
@@ -3100,6 +3191,7 @@
     rotf:
       - id: 115
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 3
@@ -3129,6 +3221,7 @@
     rotf:
       - id: 116
         rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 3
@@ -3151,6 +3244,7 @@
     rotf:
       - id: 117
         rarity: common
+  lore: 1
   cost: 4
   attack: 4
   defence: 3
@@ -3180,6 +3274,7 @@
     rotf:
       - id: 118
         rarity: super_rare
+  lore: 1
   cost: 4
   attack: 3
   defence: 3
@@ -3201,6 +3296,7 @@
     rotf:
       - id: 119
         rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -3223,6 +3319,7 @@
     rotf:
       - id: 120
         rarity: uncommon
+  lore: 1
   cost: 5
   inkwell: true
   attack: 4
@@ -3246,6 +3343,7 @@
     rotf:
       - id: 121
         rarity: rare
+  lore: 2
   cost: 5
   attack: 3
   defence: 3
@@ -3267,6 +3365,7 @@
     rotf:
       - id: 122
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -3289,6 +3388,7 @@
     rotf:
       - id: 123
         rarity: super_rare
+  lore: 2
   cost: 6
   inkwell: true
   attack: 5
@@ -3312,6 +3412,7 @@
     rotf:
       - id: 124
         rarity: uncommon
+  lore: 1
   cost: 4
   inkwell: true
   attack: 5
@@ -3341,6 +3442,7 @@
     rotf:
       - id: 125
         rarity: legendary
+  lore: 2
   cost: 7
   attack: 6
   defence: 5
@@ -3374,6 +3476,7 @@
       - id: 212
         rarity: enchanted
         illustrator: Rob Di Salvo
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -3400,6 +3503,7 @@
     rotf:
       - id: 127
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -3637,6 +3741,7 @@
         rarity: legendary
       - id: 213
         rarity: enchanted
+  lore: 1
   cost: 3
   inkwell: true
   attack: 1
@@ -3664,6 +3769,7 @@
     rotf:
       - id: 138
         rarity: super_rare
+  lore: 3
   cost: 6
   inkwell: true
   attack: 3
@@ -3695,6 +3801,7 @@
     rotf:
       - id: 139
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -3725,6 +3832,7 @@
     rotf:
       - id: 140
         rarity: common
+  lore: 2
   cost: 3
   inkwell: true
   attack: 3
@@ -3754,6 +3862,7 @@
     rotf:
       - id: 141
         rarity: uncommon
+  lore: 3
   cost: 3
   inkwell: true
   attack: 1
@@ -3779,6 +3888,7 @@
     rotf:
       - id: 142
         rarity: super_rare
+  lore: 2
   cost: 5
   inkwell: true
   attack: 2
@@ -3811,6 +3921,7 @@
     rotf:
       - id: 143
         rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -3841,6 +3952,7 @@
     rotf:
       - id: 144
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 3
@@ -3871,6 +3983,7 @@
     rotf:
       - id: 145
         rarity: uncommon
+  lore: 2
   cost: 5
   inkwell: true
   attack: 4
@@ -3898,6 +4011,7 @@
     rotf:
       - id: 146
         rarity: common
+  lore: 2
   cost: 2
   inkwell: true
   attack: 1
@@ -3924,6 +4038,7 @@
     rotf:
       - id: 147
         rarity: rare
+  lore: 3
   cost: 6
   attack: 4
   defence: 4
@@ -3954,6 +4069,7 @@
     rotf:
       - id: 148
         rarity: super_rare
+  lore: 3
   cost: 7
   attack: 3
   defence: 6
@@ -3983,6 +4099,7 @@
     rotf:
       - id: 149
         rarity: rare
+  lore: 1
   cost: 4
   inkwell: true
   attack: 1
@@ -4013,6 +4130,7 @@
     rotf:
       - id: 150
         rarity: common
+  lore: 2
   cost: 4
   attack: 3
   defence: 3
@@ -4038,6 +4156,7 @@
     rotf:
       - id: 151
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 1
@@ -4064,6 +4183,7 @@
     rotf:
       - id: 152
         rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -4090,6 +4210,7 @@
     rotf:
       - id: 153
         rarity: rare
+  lore: 2
   cost: 4
   attack: 1
   defence: 5
@@ -4119,6 +4240,7 @@
     rotf:
       - id: 154
         rarity: uncommon
+  lore: 2
   cost: 4
   inkwell: true
   attack: 2
@@ -4141,6 +4263,7 @@
     rotf:
       - id: 155
         rarity: rare
+  lore: 2
   cost: 2
   inkwell: true
   color: sapphire
@@ -4160,6 +4283,7 @@
     rotf:
       - id: 156
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 2
@@ -4189,6 +4313,7 @@
     rotf:
       - id: 157
         rarity: rare
+  lore: 3
   cost: 4
   inkwell: true
   attack: 3
@@ -4218,6 +4343,7 @@
     rotf:
       - id: 158
         rarity: common
+  lore: 2
   cost: 5
   inkwell: true
   attack: 4
@@ -4241,6 +4367,7 @@
         rarity: legendary
       - id: 214
         rarity: enchanted
+  lore: 2
   cost: 4
   attack: 2
   defence: 4
@@ -4262,6 +4389,7 @@
     rotf:
       - id: 160
         rarity: common
+  lore: 1
   cost: 4
   inkwell: true
   attack: 4
@@ -4288,6 +4416,7 @@
     rotf:
       - id: 161
         rarity: rare
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -4528,6 +4657,7 @@
     rotf:
       - id: 171
         rarity: common
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -4554,6 +4684,7 @@
     rotf:
       - id: 172
         rarity: super_rare
+  lore: 1
   cost: 6
   inkwell: true
   attack: 2
@@ -4580,6 +4711,7 @@
     rotf:
       - id: 173
         rarity: legendary
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -4607,6 +4739,7 @@
     rotf:
       - id: 174
         rarity: common
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -4633,6 +4766,7 @@
     rotf:
       - id: 175
         rarity: rare
+  lore: 2
   cost: 4
   inkwell: true
   attack: 2
@@ -4662,6 +4796,7 @@
     promos:
       - id: 14
         rarity: organized_play
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -4692,6 +4827,7 @@
     rotf:
       - id: 177
         rarity: super_rare
+  lore: 3
   cost: 7
   inkwell: true
   attack: 5
@@ -4724,6 +4860,7 @@
     rotf:
       - id: 178
         rarity: common
+  lore: 1
   cost: 5
   inkwell: true
   attack: 6
@@ -4749,6 +4886,7 @@
     rotf:
       - id: 179
         rarity: uncommon
+  lore: 2
   cost: 4
   inkwell: true
   attack: 2
@@ -4778,6 +4916,7 @@
     rotf:
       - id: 180
         rarity: rare
+  lore: 4
   cost: 9
   inkwell: true
   attack: 10
@@ -4809,6 +4948,7 @@
         rarity: rare
       - id: 215
         rarity: enchanted
+  lore: 2
   cost: 6
   inkwell: true
   attack: 6
@@ -4836,6 +4976,7 @@
     rotf:
       - id: 182
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -4861,6 +5002,7 @@
     rotf:
       - id: 183
         rarity: uncommon
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -4888,6 +5030,7 @@
     rotf:
       - id: 184
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 3
@@ -4914,6 +5057,7 @@
     rotf:
       - id: 185
         rarity: rare
+  lore: 2
   cost: 6
   inkwell: true
   attack: 4
@@ -4941,6 +5085,7 @@
     rotf:
       - id: 185
         rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 0
@@ -4967,6 +5112,7 @@
     rotf:
       - id: 187
         rarity: uncommon
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -4997,6 +5143,7 @@
     rotf:
       - id: 188
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -5021,6 +5168,7 @@
         rarity: legendary
       - id: 216
         rarity: enchanted
+  lore: 1
   cost: 4
   attack: 2
   defence: 4
@@ -5043,6 +5191,7 @@
     rotf:
       - id: 190
         rarity: uncommon
+  lore: 2
   cost: 6
   inkwell: true
   attack: 4
@@ -5064,6 +5213,7 @@
     rotf:
       - id: 191
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 4
@@ -5093,6 +5243,7 @@
     rotf:
       - id: 192
         rarity: rare
+  lore: 1
   cost: 7
   inkwell: true
   attack: 5
@@ -5126,6 +5277,7 @@
     promos:
       - id: 17
         rarity: organized_play
+  lore: 1
   cost: 2
   attack: 1
   defence: 3
@@ -5155,6 +5307,7 @@
     rotf:
       - id: 194
         rarity: common
+  lore: 2
   cost: 2
   inkwell: true
   attack: 1
@@ -5185,6 +5338,7 @@
     rotf:
       - id: 195
         rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 1
@@ -5216,6 +5370,7 @@
     rotf:
       - id: 196
         rarity: super_rare
+  lore: 2
   cost: 4
   attack: 1
   defence: 4
@@ -5246,6 +5401,7 @@
     rotf:
       - id: 197
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 1

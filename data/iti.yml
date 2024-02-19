@@ -2,6 +2,7 @@
     iti:
       - id: 1
         rarity: uncommon
+  lore: 1
   cost: 3
   inkwell: false
   attack: 0
@@ -24,6 +25,7 @@
     iti:
       - id: 2
         rarity: rare
+  lore: 2
   cost: 4
   inkwell: true
   attack: 1
@@ -49,6 +51,7 @@
       - id: 205
         rarity: enchanted
         illustrator: Thomas Brissot
+  lore: 3
   cost: 10
   inkwell: false
   attack: 9
@@ -84,6 +87,7 @@
       - id: 4
         rarity: common
         suffix: e
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -106,6 +110,7 @@
     iti:
       - id: 5
         rarity: common
+  lore: 2
   cost: 4
   inkwell: true
   attack: 1
@@ -128,6 +133,7 @@
     iti:
       - id: 6
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 2
@@ -153,6 +159,7 @@
       - id: 206
         rarity: enchanted
         illustrator: Grzegorz Krysinski
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -175,6 +182,7 @@
     iti:
       - id: 8
         rarity: rare
+  lore: 1
   cost: 4
   inkwell: false
   attack: 2
@@ -197,6 +205,7 @@
     iti:
       - id: 9
         rarity: rare
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -219,6 +228,7 @@
     iti:
       - id: 10
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -241,6 +251,7 @@
     iti:
       - id: 11
         rarity: common
+  lore: 2
   cost: 6
   inkwell: true
   attack: 4
@@ -263,6 +274,7 @@
     iti:
       - id: 12
         rarity: uncommon
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -285,6 +297,7 @@
     iti:
       - id: 13
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -307,6 +320,7 @@
     iti:
       - id: 14
         rarity: common
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -329,6 +343,7 @@
     iti:
       - id: 15
         rarity: legendary
+  lore: 2
   cost: 6
   inkwell: false
   attack: 1
@@ -351,6 +366,7 @@
     iti:
       - id: 16
         rarity: super_rare
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -373,6 +389,7 @@
     iti:
       - id: 17
         rarity: rare
+  lore: 2
   cost: 7
   inkwell: true
   attack: 3
@@ -395,6 +412,7 @@
     iti:
       - id: 18
         rarity: uncommon
+  lore: 1
   cost: 1
   inkwell: false
   attack: 0
@@ -417,6 +435,7 @@
     iti:
       - id: 19
         rarity: super_rare
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -439,6 +458,7 @@
     iti:
       - id: 20
         rarity: uncommon
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -461,6 +481,7 @@
     iti:
       - id: 21
         rarity: uncommon
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -483,6 +504,7 @@
     iti:
       - id: 22
         rarity: uncommon
+  lore: 1
   cost: 4
   inkwell: false
   attack: 1
@@ -505,6 +527,7 @@
     iti:
       - id: 23
         rarity: uncommon
+  lore: 2
   cost: 2
   inkwell: true
   attack: 1
@@ -644,7 +667,7 @@
   cost: 4
   inkwell: false
   color: amber
-  type: glimmer
+  type: item
   illustrator: Elliot Baum / Viv Tanner
   languages:
     en:
@@ -679,6 +702,7 @@
     iti:
       - id: 32
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   color: amber
@@ -704,6 +728,7 @@
       - id: 207
         rarity: enchanted
         illustrator: Jonathan Livslyst
+  lore: 1
   cost: 2
   defence: 7
   move_cost: 2
@@ -726,6 +751,7 @@
     iti:
       - id: 34
         rarity: uncommon
+  lore: 1
   cost: 3
   defence: 8
   move_cost: 2
@@ -749,6 +775,7 @@
     iti:
       - id: 35
         rarity: super_rare
+  lore: 2
   cost: 6
   inkwell: true
   attack: 4
@@ -771,6 +798,7 @@
     iti:
       - id: 36
         rarity: super_rare
+  lore: 1
   cost: 1
   inkwell: true
   attack: 2
@@ -793,6 +821,7 @@
     iti:
       - id: 37
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 2
@@ -815,6 +844,7 @@
     iti:
       - id: 38
         rarity: super_rare
+  lore: 1
   cost: 4
   inkwell: false
   attack: 3
@@ -837,6 +867,7 @@
     iti:
       - id: 39
         rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -859,6 +890,7 @@
     iti:
       - id: 40
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -881,6 +913,7 @@
     iti:
       - id: 41
         rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -906,6 +939,7 @@
       - id: 208
         rarity: enchanted
         illustrator: Ivan Shavrin
+  lore: 1
   cost: 7
   inkwell: true
   attack: 4
@@ -928,6 +962,7 @@
     iti:
       - id: 43
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -950,6 +985,7 @@
     iti:
       - id: 44
         rarity: uncommon
+  lore: 1
   cost: 6
   inkwell: false
   attack: 3
@@ -972,6 +1008,7 @@
     iti:
       - id: 45
         rarity: common
+  lore: 2
   cost: 5
   inkwell: false
   attack: 4
@@ -994,6 +1031,7 @@
     iti:
       - id: 46
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 1
@@ -1016,6 +1054,7 @@
     iti:
       - id: 47
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -1038,6 +1077,7 @@
     iti:
       - id: 48
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -1082,6 +1122,7 @@
     iti:
       - id: 50
         rarity: uncommon
+  lore: 2
   cost: 4
   inkwell: true
   attack: 3
@@ -1107,6 +1148,7 @@
       - id: 209
         rarity: enchanted
         illustrator: Javi Salas
+  lore: 2
   cost: 5
   inkwell: true
   attack: 2
@@ -1129,6 +1171,7 @@
     iti:
       - id: 52
         rarity: uncommon
+  lore: 2
   cost: 6
   inkwell: false
   attack: 3
@@ -1151,6 +1194,7 @@
     iti:
       - id: 53
         rarity: uncommon
+  lore: 2
   cost: 2
   inkwell: true
   attack: 2
@@ -1173,6 +1217,7 @@
     iti:
       - id: 54
         rarity: rare
+  lore: 1
   cost: 1
   inkwell: true
   attack: 0
@@ -1217,6 +1262,7 @@
     iti:
       - id: 56
         rarity: common
+  lore: 1
   cost: 4
   inkwell: true
   attack: 6
@@ -1239,6 +1285,7 @@
     iti:
       - id: 57
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 4
@@ -1261,6 +1308,7 @@
     iti:
       - id: 58
         rarity: rare
+  lore: 2
   cost: 4
   inkwell: false
   attack: 6
@@ -1283,6 +1331,7 @@
     iti:
       - id: 59
         rarity: rare
+  lore: 1
   cost: 3
   inkwell: false
   attack: 3
@@ -1422,6 +1471,7 @@
     iti:
       - id: 66
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   color: amethyst
@@ -1444,6 +1494,7 @@
     iti:
       - id: 67
         rarity: rare
+  lore: 2
   cost: 4
   inkwell: true
   color: amethyst
@@ -1488,6 +1539,7 @@
     iti:
       - id: 69
         rarity: common
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -1510,6 +1562,7 @@
     iti:
       - id: 70
         rarity: rare
+  lore: 2
   cost: 1
   inkwell: false
   attack: 0
@@ -1532,6 +1585,7 @@
     iti:
       - id: 71
         rarity: common
+  lore: 2
   cost: 5
   inkwell: true
   attack: 4
@@ -1554,6 +1608,7 @@
     iti:
       - id: 72
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 5
@@ -1576,6 +1631,7 @@
     iti:
       - id: 73
         rarity: uncommon
+  lore: 2
   cost: 4
   inkwell: true
   attack: 2
@@ -1598,6 +1654,7 @@
     iti:
       - id: 74
         rarity: super_rare
+  lore: 2
   cost: 5
   inkwell: false
   attack: 4
@@ -1620,6 +1677,7 @@
     iti:
       - id: 75
         rarity: rare
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -1642,6 +1700,7 @@
     iti:
       - id: 76
         rarity: common
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -1667,6 +1726,7 @@
     promos:
       - id: 26
         rarity: organized_play
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -1689,6 +1749,7 @@
     iti:
       - id: 78
         rarity: super_rare
+  lore: 1
   cost: 3
   inkwell: false
   attack: 2
@@ -1711,6 +1772,7 @@
     iti:
       - id: 79
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 2
@@ -1733,6 +1795,7 @@
     iti:
       - id: 80
         rarity: legendary
+  lore: 3
   cost: 7
   inkwell: false
   attack: 4
@@ -1758,6 +1821,7 @@
       - id: 211
         rarity: enchanted
         illustrator: Diogo Saito
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -1780,6 +1844,7 @@
     iti:
       - id: 82
         rarity: rare
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -1802,6 +1867,7 @@
     iti:
       - id: 83
         rarity: uncommon
+  lore: 2
   cost: 5
   inkwell: false
   attack: 2
@@ -1824,6 +1890,7 @@
     iti:
       - id: 84
         rarity: common
+  lore: 4
   cost: 6
   inkwell: true
   attack: 4
@@ -1846,6 +1913,7 @@
     iti:
       - id: 85
         rarity: super_rare
+  lore: 1
   cost: 4
   inkwell: true
   attack: 0
@@ -1868,6 +1936,7 @@
     iti:
       - id: 86
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 3
@@ -1890,6 +1959,7 @@
     iti:
       - id: 87
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -1912,6 +1982,7 @@
     iti:
       - id: 88
         rarity: uncommon
+  lore: 3
   cost: 7
   inkwell: true
   attack: 6
@@ -1934,6 +2005,7 @@
     iti:
       - id: 89
         rarity: rare
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -1956,6 +2028,7 @@
     iti:
       - id: 90
         rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -1981,6 +2054,7 @@
       - id: 212
         rarity: enchanted
         illustrator: John Loren / Nicholas Kole
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -2003,6 +2077,7 @@
     iti:
       - id: 92
         rarity: uncommon
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -2025,6 +2100,7 @@
     iti:
       - id: 93
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 2
@@ -2161,6 +2237,7 @@
     iti:
       - id: 100
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   defence: 4
@@ -2183,6 +2260,7 @@
     iti:
       - id: 101
         rarity: rare
+  lore: 2
   cost: 4
   inkwell: true
   defence: 6
@@ -2208,6 +2286,7 @@
       - id: 213
         rarity: enchanted
         illustrator: Roberto Gatto
+  lore: 1
   cost: 3
   inkwell: true
   defence: 7
@@ -2230,6 +2309,7 @@
     iti:
       - id: 103
         rarity: super_rare
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -2252,6 +2332,7 @@
     iti:
       - id: 104
         rarity: common
+  lore: 1
   cost: 4
   inkwell: true
   attack: 6
@@ -2277,6 +2358,7 @@
       - id: 214
         rarity: enchanted
         illustrator: Kuya Jaypi
+  lore: 1
   cost: 5
   inkwell: true
   attack: 5
@@ -2321,6 +2403,7 @@
     iti:
       - id: 107
         rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 3
@@ -2343,6 +2426,7 @@
     iti:
       - id: 108
         rarity: legendary
+  lore: 2
   cost: 6
   inkwell: false
   attack: 6
@@ -2365,6 +2449,7 @@
     iti:
       - id: 109
         rarity: legendary
+  lore: 2
   cost: 5
   inkwell: true
   attack: 4
@@ -2387,6 +2472,7 @@
     iti:
       - id: 110
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 3
@@ -2409,6 +2495,7 @@
     iti:
       - id: 111
         rarity: common
+  lore: 1
   cost: 3
   inkwell: false
   attack: 3
@@ -2431,6 +2518,7 @@
     iti:
       - id: 112
         rarity: super_rare
+  lore: 1
   cost: 6
   inkwell: false
   attack: 4
@@ -2475,6 +2563,7 @@
     iti:
       - id: 114
         rarity: rare
+  lore: 1
   cost: 7
   inkwell: true
   attack: 8
@@ -2497,6 +2586,7 @@
     iti:
       - id: 115
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -2519,6 +2609,7 @@
     iti:
       - id: 116
         rarity: rare
+  lore: 2
   cost: 5
   inkwell: true
   attack: 4
@@ -2541,6 +2632,7 @@
     iti:
       - id: 117
         rarity: common
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -2563,6 +2655,7 @@
     iti:
       - id: 118
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -2585,6 +2678,7 @@
     iti:
       - id: 119
         rarity: common
+  lore: 2
   cost: 3
   inkwell: true
   attack: 1
@@ -2610,6 +2704,7 @@
       - id: 215
         rarity: enchanted
         illustrator: Kuya Jaypi
+  lore: 2
   cost: 6
   inkwell: true
   attack: 4
@@ -2632,6 +2727,7 @@
     iti:
       - id: 121
         rarity: super_rare
+  lore: 2
   cost: 4
   inkwell: false
   attack: 2
@@ -2654,6 +2750,7 @@
     iti:
       - id: 122
         rarity: uncommon
+  lore: 2
   cost: 5
   inkwell: true
   attack: 2
@@ -2676,6 +2773,7 @@
     iti:
       - id: 123
         rarity: rare
+  lore: 3
   cost: 2
   inkwell: false
   attack: 1
@@ -2698,6 +2796,7 @@
     iti:
       - id: 124
         rarity: uncommon
+  lore: 1
   cost: 4
   inkwell: true
   attack: 4
@@ -2720,6 +2819,7 @@
     iti:
       - id: 125
         rarity: common
+  lore: 1
   cost: 2
   inkwell: false
   attack: 3
@@ -2742,6 +2842,7 @@
     iti:
       - id: 126
         rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 3
@@ -2764,6 +2865,7 @@
     iti:
       - id: 127
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -2900,6 +3002,7 @@
     iti:
       - id: 134
         rarity: common
+  lore: 2
   cost: 3
   inkwell: true
   defence: 5
@@ -2950,6 +3053,7 @@
       - id: 216
         rarity: enchanted
         illustrator: Matt Gaser
+  lore: 2
   cost: 4
   inkwell: false
   defence: 8
@@ -2972,6 +3076,7 @@
     iti:
       - id: 137
         rarity: rare
+  lore: 2
   cost: 5
   inkwell: true
   attack: 2
@@ -2994,6 +3099,7 @@
     iti:
       - id: 138
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 1
@@ -3016,6 +3122,7 @@
     iti:
       - id: 139
         rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -3038,6 +3145,7 @@
     iti:
       - id: 140
         rarity: uncommon
+  lore: 2
   cost: 4
   inkwell: true
   attack: 3
@@ -3060,6 +3168,7 @@
     iti:
       - id: 141
         rarity: uncommon
+  lore: 2
   cost: 2
   inkwell: true
   attack: 2
@@ -3082,6 +3191,7 @@
     iti:
       - id: 142
         rarity: common
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -3107,6 +3217,7 @@
       - id: 217
         rarity: enchanted
         illustrator: Alan Batson
+  lore: 2
   cost: 7
   inkwell: true
   attack: 4
@@ -3129,6 +3240,7 @@
     iti:
       - id: 144
         rarity: rare
+  lore: 1
   cost: 3
   inkwell: true
   attack: 1
@@ -3151,6 +3263,7 @@
     iti:
       - id: 145
         rarity: rare
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -3173,6 +3286,7 @@
     iti:
       - id: 146
         rarity: common
+  lore: 3
   cost: 7
   inkwell: true
   attack: 7
@@ -3195,6 +3309,7 @@
     iti:
       - id: 147
         rarity: uncommon
+  lore: 3
   cost: 6
   inkwell: true
   attack: 2
@@ -3217,6 +3332,7 @@
     iti:
       - id: 148
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 0
@@ -3239,6 +3355,7 @@
     iti:
       - id: 149
         rarity: common
+  lore: 2
   cost: 4
   inkwell: true
   attack: 3
@@ -3261,6 +3378,7 @@
     iti:
       - id: 150
         rarity: common
+  lore: 2
   cost: 5
   inkwell: true
   attack: 4
@@ -3283,6 +3401,7 @@
     iti:
       - id: 151
         rarity: rare
+  lore: 1
   cost: 3
   inkwell: false
   attack: 1
@@ -3305,6 +3424,7 @@
     iti:
       - id: 152
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -3327,6 +3447,7 @@
     iti:
       - id: 153
         rarity: common
+  lore: 1
   cost: 5
   inkwell: true
   attack: 4
@@ -3352,6 +3473,7 @@
       - id: 218
         rarity: enchanted
         illustrator: Gonzalo Kenny
+  lore: 1
   cost: 5
   inkwell: false
   attack: 3
@@ -3377,6 +3499,7 @@
     promos:
       - id: 39
         rarity: organized_play
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -3399,6 +3522,7 @@
     iti:
       - id: 156
         rarity: uncommon
+  lore: 1
   cost: 4
   inkwell: true
   attack: 2
@@ -3421,6 +3545,7 @@
     iti:
       - id: 157
         rarity: super_rare
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -3443,6 +3568,7 @@
     iti:
       - id: 158
         rarity: super_rare
+  lore: 2
   cost: 3
   inkwell: true
   attack: 3
@@ -3664,6 +3790,7 @@
     iti:
       - id: 169
         rarity: common
+  lore: 2
   cost: 4
   inkwell: true
   defence: 9
@@ -3686,6 +3813,7 @@
     iti:
       - id: 170
         rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   defence: 5
@@ -3708,6 +3836,7 @@
     iti:
       - id: 171
         rarity: common
+  lore: 2
   cost: 4
   inkwell: true
   attack: 3
@@ -3730,6 +3859,7 @@
     iti:
       - id: 172
         rarity: common
+  lore: 1
   cost: 5
   inkwell: true
   attack: 4
@@ -3752,6 +3882,7 @@
     iti:
       - id: 173
         rarity: rare
+  lore: 1
   cost: 3
   inkwell: true
   attack: 6
@@ -3774,6 +3905,7 @@
     iti:
       - id: 174
         rarity: rare
+  lore: 2
   cost: 6
   inkwell: true
   attack: 5
@@ -3796,6 +3928,7 @@
     iti:
       - id: 175
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -3821,6 +3954,7 @@
     promos:
       - id: 29
         rarity: organized_play
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -3843,6 +3977,7 @@
     iti:
       - id: 177
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -3865,6 +4000,7 @@
     iti:
       - id: 178
         rarity: super_rare
+  lore: 2
   cost: 6
   inkwell: true
   attack: 4
@@ -3887,6 +4023,7 @@
     iti:
       - id: 179
         rarity: uncommon
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -3909,6 +4046,7 @@
     iti:
       - id: 180
         rarity: uncommon
+  lore: 1
   cost: 4
   inkwell: true
   attack: 4
@@ -3931,6 +4069,7 @@
     iti:
       - id: 181
         rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -3956,6 +4095,7 @@
       - id: 220
         rarity: enchanted
         illustrator: Luigi Aimé
+  lore: 1
   cost: 4
   inkwell: false
   attack: 0
@@ -3978,6 +4118,7 @@
     iti:
       - id: 183
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 0
@@ -4000,6 +4141,7 @@
     iti:
       - id: 184
         rarity: uncommon
+  lore: 2
   cost: 2
   inkwell: true
   attack: 3
@@ -4022,6 +4164,7 @@
     iti:
       - id: 185
         rarity: rare
+  lore: 3
   cost: 7
   inkwell: true
   attack: 3
@@ -4044,6 +4187,7 @@
     iti:
       - id: 186
         rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -4066,6 +4210,7 @@
     iti:
       - id: 187
         rarity: rare
+  lore: 1
   cost: 5
   inkwell: true
   attack: 5
@@ -4088,6 +4233,7 @@
     iti:
       - id: 188
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -4110,6 +4256,7 @@
     iti:
       - id: 189
         rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 2
@@ -4135,6 +4282,7 @@
       - id: 221
         rarity: enchanted
         illustrator: Noukah
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -4157,6 +4305,7 @@
     iti:
       - id: 191
         rarity: super_rare
+  lore: 1
   cost: 4
   inkwell: false
   attack: 2
@@ -4179,6 +4328,7 @@
     iti:
       - id: 192
         rarity: super_rare
+  lore: 2
   cost: 7
   inkwell: true
   attack: 5
@@ -4201,6 +4351,7 @@
     iti:
       - id: 193
         rarity: uncommon
+  lore: 1
   cost: 5
   inkwell: true
   attack: 4
@@ -4223,6 +4374,7 @@
     iti:
       - id: 194
         rarity: uncommon
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -4403,6 +4555,7 @@
     iti:
       - id: 203
         rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   defence: 6
@@ -4425,6 +4578,7 @@
     iti:
       - id: 204
         rarity: uncommon
+  lore: 1
   cost: 1
   inkwell: true
   defence: 3

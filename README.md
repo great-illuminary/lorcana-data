@@ -75,6 +75,7 @@ The cards are defined in the [data folder](./data/)
 The model is as the following :
 
 ```
+lore: int?
 cost: int
 inkwell: int
 attack: int

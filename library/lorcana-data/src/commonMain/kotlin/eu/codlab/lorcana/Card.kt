@@ -3,6 +3,7 @@ package eu.codlab.lorcana
 import eu.codlab.lorcana.abilities.Ability
 import eu.codlab.lorcana.cards.CardThirdParty
 import eu.codlab.lorcana.cards.CardTranslation
+import eu.codlab.lorcana.cards.CardType
 import eu.codlab.lorcana.cards.InkColor
 import eu.codlab.lorcana.franchises.Franchise
 import eu.codlab.lorcana.raw.SetDescription
@@ -18,7 +19,7 @@ data class Card(
     val attack: Int? = null,
     val defence: Int? = null,
     val color: InkColor = InkColor.Amber,
-    val type: String = "",
+    val type: CardType,
     val illustrator: String = "",
     val number: Int,
     val rarity: SetItemRarity,
