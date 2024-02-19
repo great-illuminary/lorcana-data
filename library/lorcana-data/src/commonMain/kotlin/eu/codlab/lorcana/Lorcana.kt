@@ -66,5 +66,5 @@ class LorcanaLoaded(
     private val sets: Map<SetDescription, Set>
 ) {
 
-    fun set(set: SetDescription) = sets[set]
+    fun set(set: SetDescription) = sets[set]!!
 }
