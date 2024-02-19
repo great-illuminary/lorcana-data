@@ -31,7 +31,6 @@ fun main() {
             SetDescription.RotF,
             SetDescription.ItI
         ).forEach { setDescription ->
-
             val cards = lorcana.set(setDescription).cards
             val virtualCards = lorcana.set(setDescription).virtualCards
 

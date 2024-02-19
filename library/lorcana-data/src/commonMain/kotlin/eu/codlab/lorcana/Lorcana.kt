@@ -1,10 +1,8 @@
 package eu.codlab.lorcana
 
-import eu.codlab.lorcana.abilities.Ability
-import eu.codlab.lorcana.franchises.Franchise
 import eu.codlab.lorcana.raw.RawSet
-import eu.codlab.lorcana.raw.RawVirtualCard
 import eu.codlab.lorcana.raw.SetDescription
+import eu.codlab.lorcana.raw.VirtualCard
 import eu.codlab.lorcana.raw.to
 import korlibs.datastructure.iterators.parallelMap
 
@@ -16,8 +14,13 @@ class Lorcana {
         val tfc = RawSet.TFC.loadFromResource()
         val iti = RawSet.ITI.loadFromResource()
 
-        val result = loadLorcana(abilities, franchises, tfc + rotf + iti)
-        return LorcanaLoaded(result)
+        val virtualCards = (tfc + rotf + iti).parallelMap { it.to(abilities, franchises) }
+
+        val result = loadLorcana(virtualCards)
+        return LorcanaLoaded(
+            result,
+            virtualCards
+        )
     }
 
     suspend fun loadFromGithub(tag: String = "main"): LorcanaLoaded {
@@ -27,31 +30,26 @@ class Lorcana {
         val tfc = RawSet.TFC.loadFromGithub(tag)
         val iti = RawSet.ITI.loadFromGithub(tag)
 
-        val result = loadLorcana(abilities, franchises, tfc + rotf + iti)
-        return LorcanaLoaded(result)
+        val virtualCards = (tfc + rotf + iti).parallelMap { it.to(abilities, franchises) }
+
+        val result = loadLorcana(virtualCards)
+        return LorcanaLoaded(
+            result,
+            virtualCards
+        )
     }
 
     private fun loadLorcana(
-        abilities: Map<String, Ability>,
-        franchises: Map<String, Franchise>,
-        cards: List<RawVirtualCard>
-    ): Map<SetDescription, Set> = listOf(
-        SetDescription.TFC,
-        SetDescription.RotF,
-        SetDescription.Promos,
-        SetDescription.ItI
-    ).associateWith {
-        loadCards(it, abilities, franchises, cards)
+        cards: List<VirtualCard>
+    ) = SetDescription.entries.associateWith {
+        loadCards(it, cards)
     }
 
     private fun loadCards(
         set: SetDescription,
-        abilities: Map<String, Ability>,
-        franchises: Map<String, Franchise>,
-        rawVirtualCards: List<RawVirtualCard>
+        allVirtualCards: List<VirtualCard>
     ): Set {
-        val virtualCards = rawVirtualCards.filter { null != it.sets[set] }
-            .parallelMap { it.to(abilities, franchises) }
+        val virtualCards = allVirtualCards.filter { null != it.sets[set] }
         val cards = virtualCards.parallelMap { it.toCard(set) }.filterNotNull().flatten()
 
         return Set(
@@ -63,7 +61,8 @@ class Lorcana {
 }
 
 class LorcanaLoaded(
-    private val sets: Map<SetDescription, Set>
+    private val sets: Map<SetDescription, Set>,
+    val cards: List<VirtualCard>
 ) {
 
     fun set(set: SetDescription) = sets[set]!!

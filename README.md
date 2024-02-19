@@ -39,6 +39,35 @@ This will work on the following platforms :
 - Native (MacOS/Linux/Windows)
 - JVM (MacOS/Linux/Windows)
 
+## Usage
+
+```
+  val lorcana = Lorcana().loadFromResources()
+  # load eiher from the resources or github, in this sample it'll be resources
+```
+
+The API will give you either the flatten list of cards or the condensed version.
+The difference between boths is that when using the condensed version, you will
+be able to get the various other versions of the card :
+- enchanted vs non enchanted
+- regular set vs promos (or any other version in the future)
+
+**Get the list of flatten cards**
+
+```
+val tfc = lorcana.set(SetDescription.TFC).cards
+
+println("This will give you ${tfc.size} = 204+12 cards")
+```
+
+**Get the list of virtual cards**
+
+```
+val tfc = lorcana.set(SetDescription.TFC).virtualCards
+
+println("This will give you ${tfc.size} = 204 cards")
+```
+
 # Cards
 
 The cards are defined in the [data folder](./data/)
@@ -48,26 +77,38 @@ The model is as the following :
 ```
 cost: int
 inkwell: int
-attack: 3
-defence: 5,
+attack: int
+defence: int
+move_cost: int?
 color: amber|amethyst|emerald|ruby|sapphire|steel
 type: string
 illustrator: string
-number: int
-rarity: string
-image: string
-dummy: boolean?
 languages:
   key:
     name: string
     title: string?
     flavour: string?
-    image: string?
-edition: (foil|regular|enchanted)[]
-actions: string[], it can be mapped to the following abilities list
-set_code: string
 franchise_id: string
+third_party:
+  card_market: string?
+  tcg_player: string?
+
+# in the "cards" output, it will be the actual abilities (translations + values)
+actions: string[], it can be mapped to the following abilities list
+
+# in case of condensed cards:
+sets: []
+  key: string
+    id: int
+    rarity: common|uncommon|rare|super_rare|enchanted
+    illustrator: string? 
+# in case of regular flatten version:
+number: int
+setCode: string
 ```
+
+Note : to accomodate the condensed version of cards, the third_party links will
+move in the sets as the URLs will depend on the variant.
 
 # Abilities
 
@@ -150,20 +191,6 @@ It consists of a map of placeholder and their representations. Currently only fo
 {
   "name": "value"
 }
-```
-
-## Usage
-
-In the applications using the data, a naive implementation could be something like :
-
-```
-  val text = placeholderMap.keys.reduce(ability.text[language]) { acc, key ->
-    acc.replace(placeholderMap[key])
-  }
-
-  Text (
-    text = text
-  )
 ```
 
 # Improvements !
