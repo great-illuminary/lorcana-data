@@ -4,6 +4,7 @@ import eu.codlab.lorcana.abilities.Ability
 import eu.codlab.lorcana.cards.CardThirdParty
 import eu.codlab.lorcana.cards.CardTranslation
 import eu.codlab.lorcana.cards.CardType
+import eu.codlab.lorcana.cards.Classification
 import eu.codlab.lorcana.cards.InkColor
 import eu.codlab.lorcana.franchises.Franchise
 import kotlinx.serialization.SerialName
@@ -19,6 +20,7 @@ data class GenericVirtualCard<A, F>(
     val color: InkColor,
     val lore: Int? = null,
     val type: CardType,
+    val classifications: List<Classification> = emptyList(),
     val illustrator: String = "",
     val languages: Map<String, CardTranslation>,
     val actions: List<A> = emptyList(),

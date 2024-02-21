@@ -12,9 +12,6 @@ enum class CardType {
     @SerialName("action")
     Action,
 
-    @SerialName("song")
-    Song,
-
     @SerialName("location")
     Location
 }

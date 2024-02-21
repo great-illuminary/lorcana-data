@@ -811,7 +811,9 @@
   color: amber
   cost: 2
   inkwell: true
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Matt Chapman
   languages:
     en:
@@ -834,7 +836,9 @@
   color: amber
   cost: 3
   inkwell: true
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Giulia Riva
   languages:
     en:
@@ -860,7 +864,9 @@
         rarity: uncommon
   color: amber
   cost: 2
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Rob Di Salvo
   languages:
     en:
@@ -1720,7 +1726,9 @@
         rarity: rare
   cost: 3
   color: amethyst
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Mariana Moreno
   languages:
     en:
@@ -1770,7 +1778,9 @@
   cost: 2
   inkwell: true
   color: amethyst
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Kuya Jaypi
   languages:
     en:
@@ -2672,7 +2682,9 @@
         rarity: rare
   cost: 3
   color: emerald
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: LadyShalirin
   languages:
     en:
@@ -3558,7 +3570,9 @@
   cost: 2
   inkwell: true
   color: ruby
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Gaku Kumatori
   languages:
     en:
@@ -3582,7 +3596,9 @@
   cost: 2
   inkwell: true
   color: ruby
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Jake Parker
   languages:
     en:
@@ -3601,7 +3617,9 @@
         rarity: uncommon
   cost: 3
   color: ruby
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Carlos Ruiz
   languages:
     en:
@@ -3645,7 +3663,9 @@
   cost: 2
   inkwell: true
   color: ruby
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Eva Widermann
   languages:
     en:
@@ -4472,7 +4492,9 @@
   cost: 4
   inkwell: true
   color: sapphire
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Jochem Van Gool
   languages:
     en:
@@ -5453,7 +5475,9 @@
         rarity: common
   cost: 3
   color: steel
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: 'R. la Barbera \/ L. Giammichele'
   languages:
     en:
@@ -5496,7 +5520,9 @@
   cost: 3
   inkwell: true
   color: steel
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: 'Jared Nickerl \/ Alex Accorsi'
   languages:
     en:

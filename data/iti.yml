@@ -591,7 +591,9 @@
   cost: 3
   inkwell: true
   color: amber
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Monica Catalano
   languages:
     en:
@@ -629,7 +631,9 @@
   cost: 2
   inkwell: true
   color: amber
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Maxine Vee / David Navarro Arenas
   languages:
     en:
@@ -1376,7 +1380,9 @@
   cost: 1
   inkwell: true
   color: amethyst
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Luis Huerta
   languages:
     en:
@@ -1414,7 +1420,9 @@
   cost: 3
   inkwell: true
   color: amethyst
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Koni
   languages:
     en:
@@ -2126,7 +2134,9 @@
   cost: 2
   inkwell: true
   color: emerald
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Hyuna Lee
   languages:
     en:
@@ -2145,7 +2155,9 @@
   cost: 1
   inkwell: true
   color: emerald
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Carmine Pucci
   languages:
     en:
@@ -2164,7 +2176,9 @@
   cost: 2
   inkwell: true
   color: emerald
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Maxine Vee
   languages:
     en:
@@ -2910,7 +2924,9 @@
   cost: 2
   inkwell: true
   color: ruby
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Michela Cacciatore
   languages:
     en:
@@ -3613,7 +3629,9 @@
   cost: 5
   inkwell: true
   color: sapphire
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Emily Abeydeera
   languages:
     en:
@@ -3635,7 +3653,9 @@
   cost: 4
   inkwell: false
   color: sapphire
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Anna Rud / Anna Stosik
   languages:
     en:
@@ -4403,7 +4423,9 @@
   cost: 4
   inkwell: false
   color: steel
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Isabella Ceravolo
   languages:
     en:

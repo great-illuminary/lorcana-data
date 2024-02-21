@@ -83,6 +83,7 @@ defence: int
 move_cost: int?
 color: amber|amethyst|emerald|ruby|sapphire|steel
 type: string
+classifications: string[]?
 illustrator: string
 languages:
   key:

@@ -836,7 +836,9 @@
   cost: 2
   inkwell: true
   color: amber
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: 'R. La Barbera / L. Giammichele'
   languages: 
     en: 
@@ -898,7 +900,9 @@
   cost: 4
   inkwell: true
   color: amber
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Juan Diego Leon
   languages: 
     en: 
@@ -989,7 +993,9 @@
         rarity: rare
   cost: 3
   color: amber
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Samanta Erdini
   languages: 
     en: 
@@ -2124,7 +2130,9 @@
   cost: 3
   inkwell: true
   color: amethyst
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Amber Kommavongsa
   languages: 
     en: 
@@ -2155,7 +2163,9 @@
   cost: 1
   inkwell: true
   color: amethyst
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Kevin Hong
   languages: 
     en: 
@@ -3163,7 +3173,9 @@
         rarity: uncommon
   cost: 3
   color: emerald
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: 'R. La Barbera / L. Giammichele'
   languages: 
     en: 
@@ -3254,7 +3266,9 @@
   cost: 2
   inkwell: true
   color: emerald
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Giulia Riva
   languages: 
     en: 
@@ -4266,7 +4280,9 @@
         rarity: rare
   cost: 7
   color: ruby
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Jared Nickerl
   languages: 
     en: 
@@ -5433,7 +5449,9 @@
   attack: 0
   defence: 0
   color: sapphire
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Milica Celikovic
   languages: 
     en: 
@@ -5465,7 +5483,9 @@
   attack: 0
   defence: 0
   color: sapphire
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Bill Robinson
   languages: 
     en: 
@@ -6512,7 +6532,9 @@
         rarity: super_rare
   cost: 5
   color: steel
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Koni
   languages: 
     en: 
@@ -6603,7 +6625,9 @@
         rarity: rare
   cost: 5
   color: steel
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Peter Brockhammer
   languages: 
     en: 
