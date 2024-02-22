@@ -89,7 +89,16 @@ enum class Classification(private val rawSlug: String? = null) {
     SevenDwarfs("seven_dwarfs"),
 
     @SerialName("knight")
-    Knight;
+    Knight,
+
+    @SerialName("titan")
+    Titan,
+
+    @SerialName("hyena")
+    Hyena,
+
+    @SerialName("puppy")
+    Puppy;
 
     val slug: String
         get() = rawSlug ?: name.lowercase()
