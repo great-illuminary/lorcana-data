@@ -2,12 +2,14 @@ import eu.codlab.files.VirtualFile
 import eu.codlab.lorcana.Card
 import eu.codlab.lorcana.Lorcana
 import eu.codlab.lorcana.abilities.Ability
+import eu.codlab.lorcana.cards.ClassificationHolder
 import eu.codlab.lorcana.franchises.Franchise
 import eu.codlab.lorcana.raw.SetDescription
 import eu.codlab.lorcana.raw.VirtualCard
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.json.Json
+import net.mamoe.yamlkt.Yaml
 import kotlin.system.exitProcess
 
 fun main() {
@@ -22,6 +24,10 @@ fun main() {
             prettyPrint = true
         }
 
+        val yml = Yaml {
+            // nothing
+        }
+
         val assets = VirtualFile(VirtualFile.Root, "assets")
         assets.mkdirs()
 
@@ -31,26 +37,32 @@ fun main() {
             SetDescription.RotF,
             SetDescription.ItI
         ).forEach { setDescription ->
-            val cards = lorcana.set(setDescription).cards
-            val virtualCards = lorcana.set(setDescription).virtualCards
+            listOf(
+                "yml" to yml,
+                "json" to json
+            ).forEach { (suffix, encode) ->
+                val cards = lorcana.set(setDescription).cards
+                val virtualCards = lorcana.set(setDescription).virtualCards
 
-            write(assets, "${setDescription.name.lowercase()}.json") {
-                json.encodeToString(
-                    ListSerializer(Card.serializer()),
-                    cards
-                )
-            }
+                write(assets, "${setDescription.name.lowercase()}.$suffix") {
+                    encode.encodeToString(
+                        ListSerializer(Card.serializer()),
+                        cards
+                    )
+                }
 
-            write(assets, "${setDescription.name.lowercase()}_extended.json") {
-                json.encodeToString(
-                    ListSerializer(
-                        VirtualCard.serializer(
-                            Ability.serializer(),
-                            Franchise.serializer()
-                        )
-                    ),
-                    virtualCards
-                )
+                write(assets, "${setDescription.name.lowercase()}_extended.$suffix") {
+                    encode.encodeToString(
+                        ListSerializer(
+                            VirtualCard.serializer(
+                                Ability.serializer(),
+                                ClassificationHolder.serializer(),
+                                Franchise.serializer()
+                            )
+                        ),
+                        virtualCards
+                    )
+                }
             }
         }
 
