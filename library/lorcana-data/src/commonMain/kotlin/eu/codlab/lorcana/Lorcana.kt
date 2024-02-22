@@ -10,7 +10,7 @@ class Lorcana {
     suspend fun loadFromResources(): LorcanaLoaded {
         val abilities = Abilities.loadFromResource()
         val classifications = Classifications.loadFromResource()
-            .associateBy { it.slug.name.lowercase() }
+            .associateBy { it.slug.slug }
         val franchises = Franchises.loadFromResource()
         val rotf = RawSet.ROTF.loadFromResource()
         val tfc = RawSet.TFC.loadFromResource()
@@ -34,7 +34,7 @@ class Lorcana {
     suspend fun loadFromGithub(tag: String = "main"): LorcanaLoaded {
         val abilities = Abilities.loadFromGithub(tag)
         val classifications = Classifications.loadFromGithub(tag)
-            .associateBy { it.slug.name.lowercase() }
+            .associateBy { it.slug.slug }
         val franchises = Franchises.loadFromGithub(tag)
         val rotf = RawSet.ROTF.loadFromGithub(tag)
         val tfc = RawSet.TFC.loadFromGithub(tag)

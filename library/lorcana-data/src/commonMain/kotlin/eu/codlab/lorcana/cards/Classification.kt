@@ -12,7 +12,7 @@ data class ClassificationHolder(
 )
 
 @Serializable
-enum class Classification {
+enum class Classification(private val rawSlug: String? = null) {
     @SerialName("song")
     Song,
 
@@ -83,5 +83,14 @@ enum class Classification {
     Tigger,
 
     @SerialName("detective")
-    Detective
+    Detective,
+
+    @SerialName("seven_dwarfs")
+    SevenDwarfs("seven_dwarfs"),
+
+    @SerialName("knight")
+    Knight;
+
+    val slug: String
+        get() = rawSlug ?: name.lowercase()
 }
