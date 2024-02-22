@@ -83,7 +83,10 @@ defence: int
 move_cost: int?
 color: amber|amethyst|emerald|ruby|sapphire|steel
 type: string
+# in the regular raw cards, this will be
 classifications: string[]?
+# in the virtual cards
+classifications: ClassificationHolder[]? # slug, en, fr, de
 illustrator: string
 languages:
   key:

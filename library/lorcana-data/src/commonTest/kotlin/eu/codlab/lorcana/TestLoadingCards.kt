@@ -30,7 +30,13 @@ class TestLoadingCards {
             val file = VirtualFile(VirtualFile.Root, "../../data/$name.yml")
 
             val cards: List<RawVirtualCard> = Provider.yaml.decodeFromString(
-                ListSerializer(RawVirtualCard.serializer(String.serializer(), String.serializer())),
+                ListSerializer(
+                    RawVirtualCard.serializer(
+                        String.serializer(),
+                        String.serializer(),
+                        String.serializer()
+                    )
+                ),
                 file.readString()
             )
 
@@ -53,7 +59,13 @@ class TestLoadingCards {
             val (file, count) = set
             val content = file.safelyReadContent()
             val cards: List<RawVirtualCard> = Provider.yaml.decodeFromString(
-                ListSerializer(RawVirtualCard.serializer(String.serializer(), String.serializer())),
+                ListSerializer(
+                    RawVirtualCard.serializer(
+                        String.serializer(),
+                        String.serializer(),
+                        String.serializer()
+                    )
+                ),
                 content
             )
 

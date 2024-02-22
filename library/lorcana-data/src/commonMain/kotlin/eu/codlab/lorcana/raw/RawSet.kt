@@ -22,6 +22,7 @@ enum class RawSet(
         ListSerializer(
             RawVirtualCard.serializer(
                 String.serializer(),
+                String.serializer(),
                 String.serializer()
             )
         )

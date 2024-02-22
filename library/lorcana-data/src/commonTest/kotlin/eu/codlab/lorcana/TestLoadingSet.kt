@@ -46,7 +46,7 @@ class TestLoadingSet {
         runTestList {
             val lorcana = Lorcana().loadFromResources()
 
-            lorcana.set(it)!!
+            lorcana.set(it)
         }
     }
 
@@ -55,7 +55,7 @@ class TestLoadingSet {
         runTestList {
             val lorcana = Lorcana().loadFromGithub(BuildKonfig.commit)
 
-            lorcana.set(it)!!
+            lorcana.set(it)
         }
     }
 
