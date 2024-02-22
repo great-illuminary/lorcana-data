@@ -1,5 +1,6 @@
 package eu.codlab.lorcana
 
+import eu.codlab.lorcana.buildconfig.BuildKonfig
 import eu.codlab.lorcana.cards.CardType
 import eu.codlab.lorcana.raw.VirtualCard
 import eu.codlab.platform.Platform
@@ -11,7 +12,7 @@ import kotlin.test.fail
 class TestCheckingCards {
 
     @Test
-    fun testLoadingLoresFromFiles() = runTest {
+    fun testLoadingSetsFromResources() = runTest {
         if (currentPlatform != Platform.JVM) {
             return@runTest
         }
@@ -21,14 +22,16 @@ class TestCheckingCards {
     }
 
     @Test
-    fun testLoadingSetsFromResources() = runTest {
+    fun testLoadingSetsFromGithub() = runTest {
         if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform == it }) {
             println("it's not possible to test against android or js with files at that time")
             return@runTest
         }
 
-        val lorcana = Lorcana().loadFromGithub()
-        checkCards(lorcana.cards)
+        listOf("main", BuildKonfig.commit).forEach {
+            println("loading for $it")
+            checkCards(Lorcana().loadFromGithub(it).cards)
+        }
     }
 
     private fun checkCards(cards: List<VirtualCard>) {
