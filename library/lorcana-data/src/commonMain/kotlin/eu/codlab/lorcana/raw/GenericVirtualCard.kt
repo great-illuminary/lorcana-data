@@ -48,7 +48,7 @@ fun RawVirtualCard.to(
     classifications = classifications.map { slug ->
         try {
             mapOfClassifications[slug]!!
-        } catch (err: Throwable) {
+        } catch (@Suppress("TooGenericExceptionCaught") err: Throwable) {
             println("Exception thrown because $slug couldn't be mapped")
             throw err
         }
