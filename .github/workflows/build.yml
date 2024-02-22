@@ -67,3 +67,14 @@ jobs:
           files: library/quick_map/assets/*
           body_path: ./changelogs/${{ steps.read_version.outputs.version }}.txt
           tag_name: ${{ steps.read_version.outputs.version }}
+
+      - uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          nodetail: true
+          username: Github
+          avatar_url: https://lorcana.codlab.eu/discord_avatar.png
+          title: "New version ${{ steps.read_version.outputs.version }} is ready!"
+          description: |
+            Version `${{ steps.read_version.outputs.version }}`
+            Click [here](https://github.com/codlab/lorcana-data/releases/tag/${{ steps.read_version.outputs.version }})
