@@ -45,7 +45,14 @@ fun RawVirtualCard.to(
     sets = sets,
     color = color,
     type = type,
-    classifications = classifications.map { slug -> mapOfClassifications[slug]!! },
+    classifications = classifications.map { slug ->
+        try {
+            mapOfClassifications[slug]!!
+        } catch (err: Throwable) {
+            println("Exception thrown because $slug couldn't be mapped")
+            throw err
+        }
+    },
     illustrator = illustrator,
     languages = languages,
     actions = actions.mapNotNull { abilities[it] },
