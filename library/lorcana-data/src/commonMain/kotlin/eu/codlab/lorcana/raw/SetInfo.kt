@@ -16,7 +16,7 @@ data class SetItem<C>(
 )
 
 fun SetItem<String>.to(
-    mapOfClassifications: Map<String, ClassificationHolder>,
+    mapOfClassifications: Map<String, ClassificationHolder>
 ): SetItem<ClassificationHolder> = SetItem(
     id = id,
     rarity = rarity,
@@ -33,7 +33,6 @@ fun SetItem<String>.to(
         }
     }
 )
-
 
 enum class SetItemRarity {
     @SerialName("common")

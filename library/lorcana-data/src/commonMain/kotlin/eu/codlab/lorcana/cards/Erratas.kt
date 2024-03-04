@@ -8,7 +8,7 @@ data class Erratas<C>(
 )
 
 fun Erratas<String>.to(
-    mapOfClassifications: Map<String, ClassificationHolder>,
+    mapOfClassifications: Map<String, ClassificationHolder>
 ): Erratas<ClassificationHolder> = Erratas(
     classifications = classifications?.map { slug ->
         try {
