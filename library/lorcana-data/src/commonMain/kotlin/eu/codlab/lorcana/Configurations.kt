@@ -40,6 +40,6 @@ data class Configuration(
  */
 object Configurations : AbstractLoader<Configuration>(
     Resources.files.configuration,
-    "configurations",
+    "configuration",
     Configuration.serializer()
 )
