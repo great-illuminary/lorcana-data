@@ -69,7 +69,7 @@ class Lorcana {
         set: SetDescription,
         allVirtualCards: List<VirtualCard>
     ): Set {
-        val virtualCards = allVirtualCards.filter { null != it.sets[set] }
+        val virtualCards = allVirtualCards.filter { it.variants(set).isNotEmpty() }
         val cards = virtualCards.parallelMap { it.toCard(set) }.filterNotNull().flatten()
 
         return Set(

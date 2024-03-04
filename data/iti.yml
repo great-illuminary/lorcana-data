@@ -1,7 +1,7 @@
-- sets:
-    iti:
-      - id: 1
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 1
+      rarity: uncommon
   lore: 1
   cost: 3
   inkwell: false
@@ -24,10 +24,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 2
-        rarity: rare
+- variants:
+    - set: iti
+      id: 2
+      rarity: rare
   lore: 2
   cost: 4
   inkwell: true
@@ -50,13 +50,14 @@
   third_party: 
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 3
-        rarity: rare
-      - id: 205
-        rarity: enchanted
-        illustrator: Thomas Brissot
+- variants:
+    - set: iti
+      id: 3
+      rarity: rare
+    - set: iti
+      id: 205
+      rarity: enchanted
+      illustrator: Thomas Brissot
   lore: 3
   cost: 10
   inkwell: false
@@ -79,23 +80,27 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 4
-        rarity: common
-        suffix: a
-      - id: 4
-        rarity: common
-        suffix: b
-      - id: 4
-        rarity: common
-        suffix: c
-      - id: 4
-        rarity: common
-        suffix: d
-      - id: 4
-        rarity: common
-        suffix: e
+- variants:
+    - set: iti
+      id: 4
+      rarity: common
+      suffix: a
+    - set: iti
+      id: 4
+      rarity: common
+      suffix: b
+    - set: iti
+      id: 4
+      rarity: common
+      suffix: c
+    - set: iti
+      id: 4
+      rarity: common
+      suffix: d
+    - set: iti
+      id: 4
+      rarity: common
+      suffix: e
   lore: 1
   cost: 2
   inkwell: true
@@ -118,10 +123,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 5
-        rarity: common
+- variants:
+    - set: iti
+      id: 5
+      rarity: common
   lore: 2
   cost: 4
   inkwell: true
@@ -144,10 +149,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 6
-        rarity: common
+- variants:
+    - set: iti
+      id: 6
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -171,13 +176,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 7
-        rarity: legendary
-      - id: 206
-        rarity: enchanted
-        illustrator: Grzegorz Krysinski
+- variants:
+    - set: iti
+      id: 7
+      rarity: legendary
+    - set: iti
+      id: 206
+      rarity: enchanted
+      illustrator: Grzegorz Krysinski
   lore: 2
   cost: 5
   inkwell: true
@@ -201,10 +207,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 8
-        rarity: rare
+- variants:
+    - set: iti
+      id: 8
+      rarity: rare
   lore: 1
   cost: 4
   inkwell: false
@@ -227,10 +233,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 9
-        rarity: rare
+- variants:
+    - set: iti
+      id: 9
+      rarity: rare
   lore: 1
   cost: 2
   inkwell: true
@@ -253,10 +259,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 10
-        rarity: common
+- variants:
+    - set: iti
+      id: 10
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -279,10 +285,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 11
-        rarity: common
+- variants:
+    - set: iti
+      id: 11
+      rarity: common
   lore: 2
   cost: 6
   inkwell: true
@@ -305,10 +311,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 12
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 12
+      rarity: uncommon
   lore: 2
   cost: 5
   inkwell: true
@@ -331,10 +337,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 13
-        rarity: common
+- variants:
+    - set: iti
+      id: 13
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -357,10 +363,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 14
-        rarity: common
+- variants:
+    - set: iti
+      id: 14
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -383,10 +389,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 15
-        rarity: legendary
+- variants:
+    - set: iti
+      id: 15
+      rarity: legendary
   lore: 2
   cost: 6
   inkwell: false
@@ -409,10 +415,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 16
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 16
+      rarity: super_rare
   lore: 1
   cost: 2
   inkwell: true
@@ -437,10 +443,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 17
-        rarity: rare
+- variants:
+    - set: iti
+      id: 17
+      rarity: rare
   lore: 2
   cost: 7
   inkwell: true
@@ -463,10 +469,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 18
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 18
+      rarity: uncommon
   lore: 1
   cost: 1
   inkwell: false
@@ -489,10 +495,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 19
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 19
+      rarity: super_rare
   lore: 1
   cost: 3
   inkwell: true
@@ -515,10 +521,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 20
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 20
+      rarity: uncommon
   lore: 1
   cost: 3
   inkwell: true
@@ -542,10 +548,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 21
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 21
+      rarity: uncommon
   lore: 1
   cost: 3
   inkwell: true
@@ -568,10 +574,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 22
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 22
+      rarity: uncommon
   lore: 1
   cost: 4
   inkwell: false
@@ -595,10 +601,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 23
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 23
+      rarity: uncommon
   lore: 2
   cost: 2
   inkwell: true
@@ -621,10 +627,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 24
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 24
+      rarity: uncommon
   cost: 5
   inkwell: false
   color: amber
@@ -640,10 +646,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 25
-        rarity: common
+- variants:
+    - set: iti
+      id: 25
+      rarity: common
   cost: 1
   inkwell: true
   color: amber
@@ -659,10 +665,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 26
-        rarity: common
+- variants:
+    - set: iti
+      id: 26
+      rarity: common
   cost: 3
   inkwell: true
   color: amber
@@ -680,10 +686,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 27
-        rarity: common
+- variants:
+    - set: iti
+      id: 27
+      rarity: common
   cost: 1
   inkwell: true
   color: amber
@@ -699,10 +705,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 28
-        rarity: rare
+- variants:
+    - set: iti
+      id: 28
+      rarity: rare
   cost: 2
   inkwell: true
   color: amber
@@ -720,10 +726,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 29
-        rarity: common
+- variants:
+    - set: iti
+      id: 29
+      rarity: common
   cost: 2
   inkwell: true
   color: amber
@@ -739,10 +745,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 30
-        rarity: rare
+- variants:
+    - set: iti
+      id: 30
+      rarity: rare
   cost: 4
   inkwell: false
   color: amber
@@ -758,10 +764,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 31
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 31
+      rarity: uncommon
   cost: 2
   inkwell: true
   color: amber
@@ -777,10 +783,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 32
-        rarity: common
+- variants:
+    - set: iti
+      id: 32
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -800,13 +806,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 33
-        rarity: rare
-      - id: 207
-        rarity: enchanted
-        illustrator: Jonathan Livslyst
+- variants:
+    - set: iti
+      id: 33
+      rarity: rare
+    - set: iti
+      id: 207
+      rarity: enchanted
+      illustrator: Jonathan Livslyst
   lore: 1
   cost: 2
   defence: 7
@@ -826,10 +833,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 34
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 34
+      rarity: uncommon
   lore: 1
   cost: 3
   defence: 8
@@ -850,10 +857,10 @@
     card_market: ''
     tcg_player: ''
 
-- sets:
-    iti:
-      - id: 35
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 35
+      rarity: super_rare
   lore: 2
   cost: 6
   inkwell: true
@@ -877,10 +884,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 36
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 36
+      rarity: super_rare
   lore: 1
   cost: 1
   inkwell: true
@@ -903,10 +910,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 37
-        rarity: common
+- variants:
+    - set: iti
+      id: 37
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -929,10 +936,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 38
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 38
+      rarity: super_rare
   lore: 1
   cost: 4
   inkwell: false
@@ -955,10 +962,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 39
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 39
+      rarity: uncommon
   lore: 2
   cost: 3
   inkwell: true
@@ -981,10 +988,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 40
-        rarity: common
+- variants:
+    - set: iti
+      id: 40
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -1007,10 +1014,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 41
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 41
+      rarity: uncommon
   lore: 2
   cost: 3
   inkwell: true
@@ -1034,13 +1041,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 42
-        rarity: legendary
-      - id: 208
-        rarity: enchanted
-        illustrator: Ivan Shavrin
+- variants:
+    - set: iti
+      id: 42
+      rarity: legendary
+    - set: iti
+      id: 208
+      rarity: enchanted
+      illustrator: Ivan Shavrin
   lore: 1
   cost: 7
   inkwell: true
@@ -1064,10 +1072,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 43
-        rarity: common
+- variants:
+    - set: iti
+      id: 43
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -1091,10 +1099,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 44
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 44
+      rarity: uncommon
   lore: 1
   cost: 6
   inkwell: false
@@ -1117,10 +1125,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 45
-        rarity: common
+- variants:
+    - set: iti
+      id: 45
+      rarity: common
   lore: 2
   cost: 5
   inkwell: false
@@ -1143,10 +1151,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 46
-        rarity: common
+- variants:
+    - set: iti
+      id: 46
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -1169,10 +1177,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 47
-        rarity: common
+- variants:
+    - set: iti
+      id: 47
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -1195,10 +1203,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 48
-        rarity: common
+- variants:
+    - set: iti
+      id: 48
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -1222,10 +1230,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 49
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 49
+      rarity: super_rare
   cost: 7
   inkwell: false
   attack: 4
@@ -1248,10 +1256,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 50
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 50
+      rarity: uncommon
   lore: 2
   cost: 4
   inkwell: true
@@ -1275,13 +1283,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 51
-        rarity: legendary
-      - id: 209
-        rarity: enchanted
-        illustrator: Javi Salas
+- variants:
+    - set: iti
+      id: 51
+      rarity: legendary
+    - set: iti
+      id: 209
+      rarity: enchanted
+      illustrator: Javi Salas
   lore: 2
   cost: 5
   inkwell: true
@@ -1305,10 +1314,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 52
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 52
+      rarity: uncommon
   lore: 2
   cost: 6
   inkwell: false
@@ -1332,10 +1341,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 53
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 53
+      rarity: uncommon
   lore: 2
   cost: 2
   inkwell: true
@@ -1358,10 +1367,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 54
-        rarity: rare
+- variants:
+    - set: iti
+      id: 54
+      rarity: rare
   lore: 1
   cost: 1
   inkwell: true
@@ -1385,10 +1394,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 55
-        rarity: rare
+- variants:
+    - set: iti
+      id: 55
+      rarity: rare
   cost: 5
   inkwell: true
   attack: 4
@@ -1410,10 +1419,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 56
-        rarity: common
+- variants:
+    - set: iti
+      id: 56
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -1436,10 +1445,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 57
-        rarity: common
+- variants:
+    - set: iti
+      id: 57
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -1464,10 +1473,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 58
-        rarity: rare
+- variants:
+    - set: iti
+      id: 58
+      rarity: rare
   lore: 2
   cost: 4
   inkwell: false
@@ -1489,10 +1498,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 59
-        rarity: rare
+- variants:
+    - set: iti
+      id: 59
+      rarity: rare
   lore: 1
   cost: 3
   inkwell: false
@@ -1516,10 +1525,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 60
-        rarity: common
+- variants:
+    - set: iti
+      id: 60
+      rarity: common
   cost: 1
   inkwell: true
   color: amethyst
@@ -1535,10 +1544,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 61
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 61
+      rarity: uncommon
   cost: 1
   inkwell: true
   color: amethyst
@@ -1556,10 +1565,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 62
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 62
+      rarity: uncommon
   cost: 3
   inkwell: false
   color: amethyst
@@ -1575,10 +1584,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 63
-        rarity: rare
+- variants:
+    - set: iti
+      id: 63
+      rarity: rare
   cost: 3
   inkwell: true
   color: amethyst
@@ -1596,10 +1605,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 64
-        rarity: rare
+- variants:
+    - set: iti
+      id: 64
+      rarity: rare
   cost: 2
   inkwell: false
   color: amethyst
@@ -1615,13 +1624,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 65
-        rarity: rare
-      - id: 210
-        rarity: enchanted
-        illustrator: Luis Huerta
+- variants:
+    - set: iti
+      id: 65
+      rarity: rare
+    - set: iti
+      id: 210
+      rarity: enchanted
+      illustrator: Luis Huerta
   cost: 2
   inkwell: true
   color: amethyst
@@ -1637,10 +1647,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 66
-        rarity: common
+- variants:
+    - set: iti
+      id: 66
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -1660,10 +1670,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 67
-        rarity: rare
+- variants:
+    - set: iti
+      id: 67
+      rarity: rare
   lore: 2
   cost: 4
   inkwell: true
@@ -1683,10 +1693,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 68
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 68
+      rarity: uncommon
   cost: 3
   inkwell: true
   color: amethyst
@@ -1705,10 +1715,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 69
-        rarity: common
+- variants:
+    - set: iti
+      id: 69
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -1731,10 +1741,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 70
-        rarity: rare
+- variants:
+    - set: iti
+      id: 70
+      rarity: rare
   lore: 2
   cost: 1
   inkwell: false
@@ -1756,10 +1766,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 71
-        rarity: common
+- variants:
+    - set: iti
+      id: 71
+      rarity: common
   lore: 2
   cost: 5
   inkwell: true
@@ -1784,10 +1794,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 72
-        rarity: common
+- variants:
+    - set: iti
+      id: 72
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -1810,10 +1820,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 73
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 73
+      rarity: uncommon
   lore: 2
   cost: 4
   inkwell: true
@@ -1836,10 +1846,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 74
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 74
+      rarity: super_rare
   lore: 2
   cost: 5
   inkwell: false
@@ -1862,10 +1872,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 75
-        rarity: rare
+- variants:
+    - set: iti
+      id: 75
+      rarity: rare
   lore: 1
   cost: 2
   inkwell: true
@@ -1888,10 +1898,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 76
-        rarity: common
+- variants:
+    - set: iti
+      id: 76
+      rarity: common
   lore: 2
   cost: 3
   inkwell: true
@@ -1914,13 +1924,13 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 77
-        rarity: uncommon
-    promos:
-      - id: 26
-        rarity: organized_play
+- variants:
+    - set: iti
+      id: 77
+      rarity: uncommon
+    - set: promos
+      id: 26
+      rarity: organized_play
   lore: 1
   cost: 3
   inkwell: true
@@ -1943,10 +1953,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 78
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 78
+      rarity: super_rare
   lore: 1
   cost: 3
   inkwell: false
@@ -1969,10 +1979,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 79
-        rarity: common
+- variants:
+    - set: iti
+      id: 79
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -1995,10 +2005,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 80
-        rarity: legendary
+- variants:
+    - set: iti
+      id: 80
+      rarity: legendary
   lore: 3
   cost: 7
   inkwell: false
@@ -2022,13 +2032,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 81
-        rarity: rare
-      - id: 211
-        rarity: enchanted
-        illustrator: Diogo Saito
+- variants:
+    - set: iti
+      id: 81
+      rarity: rare
+    - set: iti
+      id: 211
+      rarity: enchanted
+      illustrator: Diogo Saito
   lore: 1
   cost: 2
   inkwell: true
@@ -2052,10 +2063,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 82
-        rarity: rare
+- variants:
+    - set: iti
+      id: 82
+      rarity: rare
   lore: 1
   cost: 4
   inkwell: true
@@ -2078,10 +2089,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 83
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 83
+      rarity: uncommon
   lore: 2
   cost: 5
   inkwell: false
@@ -2105,10 +2116,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 84
-        rarity: common
+- variants:
+    - set: iti
+      id: 84
+      rarity: common
   lore: 4
   cost: 6
   inkwell: true
@@ -2131,10 +2142,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 85
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 85
+      rarity: super_rare
   lore: 1
   cost: 4
   inkwell: true
@@ -2158,10 +2169,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 86
-        rarity: common
+- variants:
+    - set: iti
+      id: 86
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -2184,10 +2195,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 87
-        rarity: common
+- variants:
+    - set: iti
+      id: 87
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -2210,10 +2221,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 88
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 88
+      rarity: uncommon
   lore: 3
   cost: 7
   inkwell: true
@@ -2237,10 +2248,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 89
-        rarity: rare
+- variants:
+    - set: iti
+      id: 89
+      rarity: rare
   lore: 2
   cost: 5
   inkwell: true
@@ -2264,10 +2275,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 90
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 90
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -2291,60 +2302,63 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 91
-        rarity: legendary
-      - id: 91
-        rarity: legendary
-        erratas:
-          en:
-            classifications:
-              - storyborn
-              - villain
-              - sorcerer
-          fr:
-            classifications:
-              - storyborn
-              - villain
-              - sorcerer
-          de:
-            classifications:
-              - storyborn
-              - villain
-              - sorcerer
-          it:
-            classifications:
-              - storyborn
-              - villain
-              - sorcerer
-      - id: 212
-        rarity: enchanted
-        illustrator: John Loren / Nicholas Kole
-      - id: 212
-        rarity: enchanted
-        illustrator: John Loren / Nicholas Kole
-        erratas:
-          en:
-            classifications:
-              - storyborn
-              - villain
-              - sorcerer
-          fr:
-            classifications:
-              - storyborn
-              - villain
-              - sorcerer
-          de:
-            classifications:
-              - storyborn
-              - villain
-              - sorcerer
-          it:
-            classifications:
-              - storyborn
-              - villain
-              - sorcerer
+- variants:
+    - set: iti
+      id: 91
+      rarity: legendary
+    - set: iti
+      id: 91
+      rarity: legendary
+      erratas:
+        en:
+          classifications:
+            - storyborn
+            - villain
+            - sorcerer
+        fr:
+          classifications:
+            - storyborn
+            - villain
+            - sorcerer
+        de:
+          classifications:
+            - storyborn
+            - villain
+            - sorcerer
+        it:
+          classifications:
+            - storyborn
+            - villain
+            - sorcerer
+    - set: iti
+      id: 212
+      rarity: enchanted
+      illustrator: John Loren / Nicholas Kole
+    - set: iti
+      id: 212
+      rarity: enchanted
+      illustrator: John Loren / Nicholas Kole
+      erratas:
+        en:
+          classifications:
+            - storyborn
+            - villain
+            - sorcerer
+        fr:
+          classifications:
+            - storyborn
+            - villain
+            - sorcerer
+        de:
+          classifications:
+            - storyborn
+            - villain
+            - sorcerer
+        it:
+          classifications:
+            - storyborn
+            - villain
+            - sorcerer
   lore: 1
   cost: 3
   inkwell: true
@@ -2368,10 +2382,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 92
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 92
+      rarity: uncommon
   lore: 1
   cost: 3
   inkwell: true
@@ -2394,10 +2408,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 93
-        rarity: common
+- variants:
+    - set: iti
+      id: 93
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -2420,10 +2434,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 94
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 94
+      rarity: uncommon
   cost: 2
   inkwell: true
   color: emerald
@@ -2441,10 +2455,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 95
-        rarity: common
+- variants:
+    - set: iti
+      id: 95
+      rarity: common
   cost: 1
   inkwell: true
   color: emerald
@@ -2462,10 +2476,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 96
-        rarity: common
+- variants:
+    - set: iti
+      id: 96
+      rarity: common
   cost: 2
   inkwell: true
   color: emerald
@@ -2483,10 +2497,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 97
-        rarity: common
+- variants:
+    - set: iti
+      id: 97
+      rarity: common
   cost: 2
   inkwell: true
   color: emerald
@@ -2502,10 +2516,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 98
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 98
+      rarity: uncommon
   cost: 3
   inkwell: false
   color: emerald
@@ -2521,10 +2535,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 99
-        rarity: rare
+- variants:
+    - set: iti
+      id: 99
+      rarity: rare
   cost: 4
   inkwell: false
   color: emerald
@@ -2540,10 +2554,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 100
-        rarity: common
+- variants:
+    - set: iti
+      id: 100
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -2563,10 +2577,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 101
-        rarity: rare
+- variants:
+    - set: iti
+      id: 101
+      rarity: rare
   lore: 2
   cost: 4
   inkwell: true
@@ -2586,13 +2600,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 102
-        rarity: uncommon
-      - id: 213
-        rarity: enchanted
-        illustrator: Roberto Gatto
+- variants:
+    - set: iti
+      id: 102
+      rarity: uncommon
+    - set: iti
+      id: 213
+      rarity: enchanted
+      illustrator: Roberto Gatto
   lore: 1
   cost: 3
   inkwell: true
@@ -2612,10 +2627,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 103
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 103
+      rarity: super_rare
   lore: 1
   cost: 3
   inkwell: true
@@ -2639,10 +2654,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 104
-        rarity: common
+- variants:
+    - set: iti
+      id: 104
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -2666,13 +2681,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 105
-        rarity: rare
-      - id: 214
-        rarity: enchanted
-        illustrator: Kuya Jaypi
+- variants:
+    - set: iti
+      id: 105
+      rarity: rare
+    - set: iti
+      id: 214
+      rarity: enchanted
+      illustrator: Kuya Jaypi
   lore: 1
   cost: 5
   inkwell: true
@@ -2697,10 +2713,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 106
-        rarity: common
+- variants:
+    - set: iti
+      id: 106
+      rarity: common
   cost: 2
   inkwell: false
   attack: 3
@@ -2722,10 +2738,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 107
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 107
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -2748,10 +2764,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 108
-        rarity: legendary
+- variants:
+    - set: iti
+      id: 108
+      rarity: legendary
   lore: 2
   cost: 6
   inkwell: false
@@ -2773,10 +2789,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 109
-        rarity: legendary
+- variants:
+    - set: iti
+      id: 109
+      rarity: legendary
   lore: 2
   cost: 5
   inkwell: true
@@ -2799,10 +2815,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 110
-        rarity: common
+- variants:
+    - set: iti
+      id: 110
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -2825,10 +2841,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 111
-        rarity: common
+- variants:
+    - set: iti
+      id: 111
+      rarity: common
   lore: 1
   cost: 3
   inkwell: false
@@ -2851,10 +2867,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 112
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 112
+      rarity: super_rare
   lore: 1
   cost: 6
   inkwell: false
@@ -2877,10 +2893,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 113
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 113
+      rarity: uncommon
   cost: 3
   inkwell: false
   attack: 5
@@ -2903,10 +2919,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 114
-        rarity: rare
+- variants:
+    - set: iti
+      id: 114
+      rarity: rare
   lore: 1
   cost: 7
   inkwell: true
@@ -2930,10 +2946,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 115
-        rarity: common
+- variants:
+    - set: iti
+      id: 115
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -2956,10 +2972,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 116
-        rarity: rare
+- variants:
+    - set: iti
+      id: 116
+      rarity: rare
   lore: 2
   cost: 5
   inkwell: true
@@ -2984,10 +3000,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 117
-        rarity: common
+- variants:
+    - set: iti
+      id: 117
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -3011,10 +3027,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 118
-        rarity: common
+- variants:
+    - set: iti
+      id: 118
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -3037,10 +3053,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 119
-        rarity: common
+- variants:
+    - set: iti
+      id: 119
+      rarity: common
   lore: 2
   cost: 3
   inkwell: true
@@ -3063,13 +3079,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 120
-        rarity: rare
-      - id: 215
-        rarity: enchanted
-        illustrator: Kuya Jaypi
+- variants:
+    - set: iti
+      id: 120
+      rarity: rare
+    - set: iti
+      id: 215
+      rarity: enchanted
+      illustrator: Kuya Jaypi
   lore: 2
   cost: 6
   inkwell: true
@@ -3092,10 +3109,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 121
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 121
+      rarity: super_rare
   lore: 2
   cost: 4
   inkwell: false
@@ -3119,10 +3136,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 122
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 122
+      rarity: uncommon
   lore: 2
   cost: 5
   inkwell: true
@@ -3147,10 +3164,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 123
-        rarity: rare
+- variants:
+    - set: iti
+      id: 123
+      rarity: rare
   lore: 3
   cost: 2
   inkwell: false
@@ -3174,10 +3191,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 124
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 124
+      rarity: uncommon
   lore: 1
   cost: 4
   inkwell: true
@@ -3200,10 +3217,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 125
-        rarity: common
+- variants:
+    - set: iti
+      id: 125
+      rarity: common
   lore: 1
   cost: 2
   inkwell: false
@@ -3227,10 +3244,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 126
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 126
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -3253,10 +3270,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 127
-        rarity: common
+- variants:
+    - set: iti
+      id: 127
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -3279,10 +3296,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 128
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 128
+      rarity: uncommon
   cost: 3
   inkwell: true
   color: ruby
@@ -3298,10 +3315,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 129
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 129
+      rarity: uncommon
   cost: 2
   inkwell: true
   color: ruby
@@ -3319,10 +3336,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 130
-        rarity: rare
+- variants:
+    - set: iti
+      id: 130
+      rarity: rare
   cost: 4
   inkwell: false
   color: ruby
@@ -3338,10 +3355,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 131
-        rarity: common
+- variants:
+    - set: iti
+      id: 131
+      rarity: common
   cost: 1
   inkwell: true
   color: ruby
@@ -3357,10 +3374,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 132
-        rarity: rare
+- variants:
+    - set: iti
+      id: 132
+      rarity: rare
   cost: 3
   inkwell: true
   color: ruby
@@ -3376,10 +3393,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 133
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 133
+      rarity: uncommon
   cost: 3
   inkwell: true
   color: ruby
@@ -3395,10 +3412,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 134
-        rarity: common
+- variants:
+    - set: iti
+      id: 134
+      rarity: common
   lore: 2
   cost: 3
   inkwell: true
@@ -3418,13 +3435,13 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 135
-        rarity: uncommon
-    promos:
-      - id: 27
-        rarity: organized_play
+- variants:
+    - set: iti
+      id: 135
+      rarity: uncommon
+    - set: promos
+      id: 27
+      rarity: organized_play
   cost: 1
   inkwell: false
   defence: 5
@@ -3443,13 +3460,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 136
-        rarity: rare
-      - id: 216
-        rarity: enchanted
-        illustrator: Matt Gaser
+- variants:
+    - set: iti
+      id: 136
+      rarity: rare
+    - set: iti
+      id: 216
+      rarity: enchanted
+      illustrator: Matt Gaser
   lore: 2
   cost: 4
   inkwell: false
@@ -3469,10 +3487,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 137
-        rarity: rare
+- variants:
+    - set: iti
+      id: 137
+      rarity: rare
   lore: 2
   cost: 5
   inkwell: true
@@ -3495,10 +3513,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 138
-        rarity: common
+- variants:
+    - set: iti
+      id: 138
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -3522,10 +3540,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 139
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 139
+      rarity: uncommon
   lore: 2
   cost: 3
   inkwell: true
@@ -3548,10 +3566,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 140
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 140
+      rarity: uncommon
   lore: 2
   cost: 4
   inkwell: true
@@ -3574,10 +3592,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 141
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 141
+      rarity: uncommon
   lore: 2
   cost: 2
   inkwell: true
@@ -3600,10 +3618,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 142
-        rarity: common
+- variants:
+    - set: iti
+      id: 142
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -3626,13 +3644,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 143
-        rarity: legendary
-      - id: 217
-        rarity: enchanted
-        illustrator: Alan Batson
+- variants:
+    - set: iti
+      id: 143
+      rarity: legendary
+    - set: iti
+      id: 217
+      rarity: enchanted
+      illustrator: Alan Batson
   lore: 2
   cost: 7
   inkwell: true
@@ -3655,10 +3674,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 144
-        rarity: rare
+- variants:
+    - set: iti
+      id: 144
+      rarity: rare
   lore: 1
   cost: 3
   inkwell: true
@@ -3682,10 +3701,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 145
-        rarity: rare
+- variants:
+    - set: iti
+      id: 145
+      rarity: rare
   lore: 1
   cost: 2
   inkwell: true
@@ -3708,10 +3727,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 146
-        rarity: common
+- variants:
+    - set: iti
+      id: 146
+      rarity: common
   lore: 3
   cost: 7
   inkwell: true
@@ -3735,10 +3754,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 147
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 147
+      rarity: uncommon
   lore: 3
   cost: 6
   inkwell: true
@@ -3761,10 +3780,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 148
-        rarity: common
+- variants:
+    - set: iti
+      id: 148
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -3787,10 +3806,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 149
-        rarity: common
+- variants:
+    - set: iti
+      id: 149
+      rarity: common
   lore: 2
   cost: 4
   inkwell: true
@@ -3813,10 +3832,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 150
-        rarity: common
+- variants:
+    - set: iti
+      id: 150
+      rarity: common
   lore: 2
   cost: 5
   inkwell: true
@@ -3839,10 +3858,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 151
-        rarity: rare
+- variants:
+    - set: iti
+      id: 151
+      rarity: rare
   lore: 1
   cost: 3
   inkwell: false
@@ -3865,10 +3884,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 152
-        rarity: common
+- variants:
+    - set: iti
+      id: 152
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -3891,10 +3910,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 153
-        rarity: common
+- variants:
+    - set: iti
+      id: 153
+      rarity: common
   lore: 1
   cost: 5
   inkwell: true
@@ -3917,13 +3936,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 154
-        rarity: super_rare
-      - id: 218
-        rarity: enchanted
-        illustrator: Gonzalo Kenny
+- variants:
+    - set: iti
+      id: 154
+      rarity: super_rare
+    - set: iti
+      id: 218
+      rarity: enchanted
+      illustrator: Gonzalo Kenny
   lore: 1
   cost: 5
   inkwell: false
@@ -3946,13 +3966,13 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 155
-        rarity: uncommon
-    promos:
-      - id: 39
-        rarity: organized_play
+- variants:
+    - set: iti
+      id: 155
+      rarity: uncommon
+    - set: promos
+      id: 39
+      rarity: organized_play
   lore: 1
   cost: 2
   inkwell: true
@@ -3975,10 +3995,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 156
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 156
+      rarity: uncommon
   lore: 1
   cost: 4
   inkwell: true
@@ -4003,10 +4023,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 157
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 157
+      rarity: super_rare
   lore: 2
   cost: 5
   inkwell: true
@@ -4030,10 +4050,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 158
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 158
+      rarity: super_rare
   lore: 2
   cost: 3
   inkwell: true
@@ -4056,10 +4076,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 159
-        rarity: common
+- variants:
+    - set: iti
+      id: 159
+      rarity: common
   cost: 2
   inkwell: true
   color: sapphire
@@ -4075,10 +4095,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 160
-        rarity: rare
+- variants:
+    - set: iti
+      id: 160
+      rarity: rare
   cost: 5
   inkwell: true
   color: sapphire
@@ -4096,13 +4116,13 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 161
-        rarity: uncommon
-    promos:
-      - id: 28
-        rarity: organized_play
+- variants:
+    - set: iti
+      id: 161
+      rarity: uncommon
+    - set: promos
+      id: 28
+      rarity: organized_play
   cost: 4
   inkwell: false
   color: sapphire
@@ -4120,10 +4140,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 162
-        rarity: common
+- variants:
+    - set: iti
+      id: 162
+      rarity: common
   cost: 2
   inkwell: true
   color: sapphire
@@ -4139,10 +4159,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 163
-        rarity: rare
+- variants:
+    - set: iti
+      id: 163
+      rarity: rare
   cost: 2
   inkwell: true
   color: sapphire
@@ -4158,10 +4178,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 164
-        rarity: rare
+- variants:
+    - set: iti
+      id: 164
+      rarity: rare
   cost: 3
   inkwell: true
   color: sapphire
@@ -4177,10 +4197,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 165
-        rarity: legendary
+- variants:
+    - set: iti
+      id: 165
+      rarity: legendary
   cost: 7
   inkwell: false
   color: sapphire
@@ -4196,10 +4216,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 166
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 166
+      rarity: uncommon
   cost: 2
   inkwell: false
   color: sapphire
@@ -4215,10 +4235,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 167
-        rarity: common
+- variants:
+    - set: iti
+      id: 167
+      rarity: common
   cost: 4
   inkwell: true
   color: sapphire
@@ -4234,13 +4254,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 168
-        rarity: rare
-      - id: 219
-        rarity: enchanted
-        illustrator: Pablo J. Rivera
+- variants:
+    - set: iti
+      id: 168
+      rarity: rare
+    - set: iti
+      id: 219
+      rarity: enchanted
+      illustrator: Pablo J. Rivera
   cost: 1
   inkwell: true
   defence: 6
@@ -4259,10 +4280,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 169
-        rarity: common
+- variants:
+    - set: iti
+      id: 169
+      rarity: common
   lore: 2
   cost: 4
   inkwell: true
@@ -4282,10 +4303,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 170
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 170
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -4305,10 +4326,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 171
-        rarity: common
+- variants:
+    - set: iti
+      id: 171
+      rarity: common
   lore: 2
   cost: 4
   inkwell: true
@@ -4332,10 +4353,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 172
-        rarity: common
+- variants:
+    - set: iti
+      id: 172
+      rarity: common
   lore: 1
   cost: 5
   inkwell: true
@@ -4358,10 +4379,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 173
-        rarity: rare
+- variants:
+    - set: iti
+      id: 173
+      rarity: rare
   lore: 1
   cost: 3
   inkwell: true
@@ -4384,10 +4405,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 174
-        rarity: rare
+- variants:
+    - set: iti
+      id: 174
+      rarity: rare
   lore: 2
   cost: 6
   inkwell: true
@@ -4411,10 +4432,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 175
-        rarity: common
+- variants:
+    - set: iti
+      id: 175
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -4437,13 +4458,13 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 176
-        rarity: rare
-    promos:
-      - id: 29
-        rarity: organized_play
+- variants:
+    - set: iti
+      id: 176
+      rarity: rare
+    - set: promos
+      id: 29
+      rarity: organized_play
   lore: 1
   cost: 3
   inkwell: true
@@ -4469,10 +4490,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 177
-        rarity: common
+- variants:
+    - set: iti
+      id: 177
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -4496,10 +4517,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 178
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 178
+      rarity: super_rare
   lore: 2
   cost: 6
   inkwell: true
@@ -4522,10 +4543,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 179
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 179
+      rarity: uncommon
   lore: 1
   cost: 3
   inkwell: true
@@ -4548,10 +4569,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 180
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 180
+      rarity: uncommon
   lore: 1
   cost: 4
   inkwell: true
@@ -4574,10 +4595,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 181
-        rarity: common
+- variants:
+    - set: iti
+      id: 181
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -4600,13 +4621,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 182
-        rarity: legendary
-      - id: 220
-        rarity: enchanted
-        illustrator: Luigi Aimé
+- variants:
+    - set: iti
+      id: 182
+      rarity: legendary
+    - set: iti
+      id: 220
+      rarity: enchanted
+      illustrator: Luigi Aimé
   lore: 1
   cost: 4
   inkwell: false
@@ -4629,10 +4651,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 183
-        rarity: common
+- variants:
+    - set: iti
+      id: 183
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -4655,10 +4677,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 184
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 184
+      rarity: uncommon
   lore: 2
   cost: 2
   inkwell: true
@@ -4682,10 +4704,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 185
-        rarity: rare
+- variants:
+    - set: iti
+      id: 185
+      rarity: rare
   lore: 3
   cost: 7
   inkwell: true
@@ -4709,10 +4731,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 186
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 186
+      rarity: uncommon
   lore: 2
   cost: 3
   inkwell: true
@@ -4735,10 +4757,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 187
-        rarity: rare
+- variants:
+    - set: iti
+      id: 187
+      rarity: rare
   lore: 1
   cost: 5
   inkwell: true
@@ -4761,10 +4783,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 188
-        rarity: common
+- variants:
+    - set: iti
+      id: 188
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -4788,10 +4810,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 189
-        rarity: common
+- variants:
+    - set: iti
+      id: 189
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -4814,13 +4836,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 190
-        rarity: legendary
-      - id: 221
-        rarity: enchanted
-        illustrator: Noukah
+- variants:
+    - set: iti
+      id: 190
+      rarity: legendary
+    - set: iti
+      id: 221
+      rarity: enchanted
+      illustrator: Noukah
   lore: 2
   cost: 5
   inkwell: true
@@ -4843,10 +4866,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 191
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 191
+      rarity: super_rare
   lore: 1
   cost: 4
   inkwell: false
@@ -4869,10 +4892,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 192
-        rarity: super_rare
+- variants:
+    - set: iti
+      id: 192
+      rarity: super_rare
   lore: 2
   cost: 7
   inkwell: true
@@ -4896,10 +4919,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 193
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 193
+      rarity: uncommon
   lore: 1
   cost: 5
   inkwell: true
@@ -4923,10 +4946,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 194
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 194
+      rarity: uncommon
   lore: 2
   cost: 5
   inkwell: true
@@ -4949,13 +4972,14 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 195
-        rarity: rare
-      - id: 222
-        rarity: enchanted
-        illustrator: Leonardo Giammichele
+- variants:
+    - set: iti
+      id: 195
+      rarity: rare
+    - set: iti
+      id: 222
+      rarity: enchanted
+      illustrator: Leonardo Giammichele
   cost: 4
   inkwell: false
   color: steel
@@ -4973,10 +4997,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 196
-        rarity: common
+- variants:
+    - set: iti
+      id: 196
+      rarity: common
   cost: 2
   inkwell: true
   color: steel
@@ -4992,10 +5016,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 197
-        rarity: common
+- variants:
+    - set: iti
+      id: 197
+      rarity: common
   cost: 1
   inkwell: true
   color: steel
@@ -5011,10 +5035,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 198
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 198
+      rarity: uncommon
   cost: 3
   inkwell: true
   color: steel
@@ -5030,10 +5054,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 199
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 199
+      rarity: uncommon
   cost: 3
   inkwell: false
   color: steel
@@ -5049,10 +5073,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 200
-        rarity: common
+- variants:
+    - set: iti
+      id: 200
+      rarity: common
   cost: 3
   inkwell: true
   color: steel
@@ -5068,10 +5092,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 201
-        rarity: rare
+- variants:
+    - set: iti
+      id: 201
+      rarity: rare
   cost: 3
   inkwell: true
   color: steel
@@ -5087,10 +5111,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 202
-        rarity: rare
+- variants:
+    - set: iti
+      id: 202
+      rarity: rare
   cost: 2
   inkwell: true
   defence: 5
@@ -5109,10 +5133,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 203
-        rarity: common
+- variants:
+    - set: iti
+      id: 203
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -5132,10 +5156,10 @@
   third_party:
     card_market: ''
     tcg_player: ''
-- sets:
-    iti:
-      - id: 204
-        rarity: uncommon
+- variants:
+    - set: iti
+      id: 204
+      rarity: uncommon
   lore: 1
   cost: 1
   inkwell: true

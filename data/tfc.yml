@@ -1,7 +1,7 @@
-- sets:
-    tfc:
-      - id: 1
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 1
+      rarity: uncommon
   lore: 2
   cost: 4
   inkwell: true
@@ -36,10 +36,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ariel-On-Human-Legs'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 2
-        rarity: super_rare
+- variants:
+    - set: tfc
+      id: 2
+      rarity: super_rare
   lore: 1
   cost: 3
   inkwell: true
@@ -75,10 +75,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ariel-Spectacular-Singer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 3
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 3
+      rarity: uncommon
   lore: 2
   cost: 4
   inkwell: true
@@ -114,13 +114,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cinderella-Gentle-and-Kind'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 4
-        rarity: uncommon
-    promos:
-      - id: 12
-        rarity: gamecon23
+- variants:
+    - set: tfc
+      id: 4
+      rarity: uncommon
+    - set: promos
+      id: 12
+      rarity: gamecon23
   lore: 1
   cost: 5
   inkwell: true
@@ -156,13 +156,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Goofy-Musketeer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 5
-        rarity: rare
-      - id: 205
-        rarity: enchanted
-        illustrator: Juan Diego Leon
+- variants:
+    - set: tfc
+      id: 5
+      rarity: rare
+    - set: tfc
+      id: 205
+      rarity: enchanted
+      illustrator: Juan Diego Leon
   lore: 1
   cost: 8
   attack: 6
@@ -199,10 +200,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hades-King-of-Olympus-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 6
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 6
+      rarity: rare
   lore: 1
   cost: 4
   attack: 3
@@ -236,13 +237,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hades-Lord-of-the-Underworld'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 7
-        rarity: common
-    promos:
-      - id: 9
-        rarity: organized_play
+- variants:
+    - set: tfc
+      id: 7
+      rarity: common
+    - set: promos
+      id: 9
+      rarity: organized_play
   lore: 1
   cost: 1
   inkwell: true
@@ -276,10 +277,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Heihei-Boat-Snack'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 8
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 8
+      rarity: uncommon
   lore: 2
   cost: 2
   inkwell: true
@@ -313,10 +314,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lefou-Bumbler'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 9
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 9
+      rarity: rare
   lore: 2
   cost: 1
   attack: 1
@@ -348,10 +349,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lilo-Making-a-Wish'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 10
-        rarity: super_rare
+- variants:
+    - set: tfc
+      id: 10
+      rarity: super_rare
   lore: 1
   cost: 5
   inkwell: true
@@ -386,10 +387,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maximus-Palace-Horse'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 11
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 11
+      rarity: uncommon
   lore: 1
   cost: 3
   inkwell: true
@@ -423,10 +424,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maximus-Relentless-Pursuer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 12
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 12
+      rarity: uncommon
   lore: 2
   cost: 3
   inkwell: true
@@ -459,10 +460,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-True-Friend'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 13
-        rarity: common
+- variants:
+    - set: tfc
+      id: 13
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -495,10 +496,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Minnie-Mouse-Beloved-Princess'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 14
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 14
+      rarity: rare
   lore: 3
   cost: 5
   inkwell: true
@@ -533,10 +534,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Moana-Of-Motunui'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 15
-        rarity: common
+- variants:
+    - set: tfc
+      id: 15
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -570,10 +571,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mr-Smee-Loyal-First-Mate'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 16
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 16
+      rarity: uncommon
   lore: 2
   cost: 4
   attack: 3
@@ -607,10 +608,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Prince-Phillip-Dragonslayer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 17
-        rarity: common
+- variants:
+    - set: tfc
+      id: 17
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -643,10 +644,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Pumbaa-Friendly-Warthog'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 18
-        rarity: legendary
+- variants:
+    - set: tfc
+      id: 18
+      rarity: legendary
   lore: 2
   cost: 4
   inkwell: true
@@ -681,10 +682,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Rapunzel-Gifted-with-Healing'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 19
-        rarity: common
+- variants:
+    - set: tfc
+      id: 19
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -718,10 +719,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sebastian-Court-Composer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 20
-        rarity: common
+- variants:
+    - set: tfc
+      id: 20
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -756,13 +757,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Protective-Cub'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 21
-        rarity: legendary
-      - id: 206
-        rarity: enchanted
-        illustrator: Milica Celikovic
+- variants:
+    - set: tfc
+      id: 21
+      rarity: legendary
+    - set: tfc
+      id: 206
+      rarity: enchanted
+      illustrator: Milica Celikovic
   lore: 2
   cost: 7
   inkwell: true
@@ -797,10 +799,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stitch-Carefree-Surfer-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 22
-        rarity: common
+- variants:
+    - set: tfc
+      id: 22
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -834,16 +836,17 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stitch-New-Dog'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 23
-        rarity: super_rare
-    promos:
-      - id: 2
-        rarity: d23
-      - id: 30
-        rarity: worlds24
-        illustrator: Nicholas Kole
+- variants:
+    - set: tfc
+      id: 23
+      rarity: super_rare
+    - set: promos
+      id: 2
+      rarity: d23
+    - set: promos
+      id: 30
+      rarity: worlds24
+      illustrator: Nicholas Kole
   lore: 3
   cost: 6
   inkwell: true
@@ -879,10 +882,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stitch-Rock-Star'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 24
-        rarity: common
+- variants:
+    - set: tfc
+      id: 24
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -916,10 +919,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Timon-Grub-Rustler'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 25
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 25
+      rarity: uncommon
   cost: 2
   inkwell: true
   color: amber
@@ -949,10 +952,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Be-Our-Guest'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 26
-        rarity: common
+- variants:
+    - set: tfc
+      id: 26
+      rarity: common
   cost: 1
   inkwell: true
   color: amber
@@ -980,10 +983,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Control-Your-Temper'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 27
-        rarity: common
+- variants:
+    - set: tfc
+      id: 27
+      rarity: common
   cost: 4
   inkwell: true
   color: amber
@@ -1013,10 +1016,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hakuna-Matata'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 28
-        rarity: common
+- variants:
+    - set: tfc
+      id: 28
+      rarity: common
   cost: 1
   inkwell: true
   color: amber
@@ -1044,10 +1047,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Healing-Glow'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 29
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 29
+      rarity: rare
   cost: 3
   color: amber
   type: action
@@ -1074,10 +1077,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Just-in-Time'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 30
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 30
+      rarity: rare
   cost: 3
   color: amber
   type: action
@@ -1106,10 +1109,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Part-of-Your-World'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 31
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 31
+      rarity: uncommon
   cost: 4
   inkwell: true
   color: amber
@@ -1137,10 +1140,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/You-Have-Forgotten-Me'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 32
-        rarity: common
+- variants:
+    - set: tfc
+      id: 32
+      rarity: common
   cost: 1
   inkwell: true
   color: amber
@@ -1168,10 +1171,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dinglehopper'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 33
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 33
+      rarity: rare
   cost: 2
   color: amber
   type: item
@@ -1198,10 +1201,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lantern'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 34
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 34
+      rarity: rare
   cost: 3
   color: amber
   type: item
@@ -1228,10 +1231,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ursulas-Shell-Necklace'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 35
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 35
+      rarity: uncommon
   lore: 2
   cost: 4
   inkwell: true
@@ -1266,10 +1269,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Anna-Heir-to-Arendelle'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 36
-        rarity: common
+- variants:
+    - set: tfc
+      id: 36
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -1302,10 +1305,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Archimedes-Highly-Educated-Owl'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 37
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 37
+      rarity: rare
   lore: 3
   cost: 7
   attack: 4
@@ -1340,10 +1343,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Facilier-Agent-Provocateur'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 38
-        rarity: common
+- variants:
+    - set: tfc
+      id: 38
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -1378,10 +1381,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Facilier-Charlatan'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 39
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 39
+      rarity: rare
   lore: 1
   cost: 3
   inkwell: true
@@ -1416,10 +1419,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Facilier-Remarkable-Gentleman'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 40
-        rarity: common
+- variants:
+    - set: tfc
+      id: 40
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -1454,13 +1457,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Elsa-Queen-Regent'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 41
-        rarity: uncommon
-    promos:
-      - id: 3
-        rarity: d23
+- variants:
+    - set: tfc
+      id: 41
+      rarity: uncommon
+    - set: promos
+      id: 3
+      rarity: d23
   lore: 1
   cost: 3
   inkwell: true
@@ -1496,12 +1499,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Elsa-Snow-Queen'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 42
-        rarity: legendary
-      - id: 207
-        rarity: enchanted
+- variants:
+    - set: tfc
+      id: 42
+      rarity: legendary
+    - set: tfc
+      id: 207
+      rarity: enchanted
   lore: 3
   cost: 8
   attack: 4
@@ -1537,10 +1541,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Elsa-Spirit-of-Winter-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 43
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 43
+      rarity: rare
   lore: 2
   cost: 5
   attack: 3
@@ -1574,10 +1578,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Flotsam-Ursulas-Spy'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 44
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 44
+      rarity: rare
   lore: 2
   cost: 4
   inkwell: true
@@ -1612,10 +1616,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jafar-Keeper-of-Secrets'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 45
-        rarity: common
+- variants:
+    - set: tfc
+      id: 45
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -1650,10 +1654,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jafar-Wicked-Sorcerer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 46
-        rarity: common
+- variants:
+    - set: tfc
+      id: 46
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -1688,10 +1692,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jetsam-Ursulas-Spy'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 47
-        rarity: common
+- variants:
+    - set: tfc
+      id: 47
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -1725,10 +1729,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Magic-Broom-Bucket-Brigade'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 48
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 48
+      rarity: rare
   lore: 2
   cost: 1
   attack: 1
@@ -1761,10 +1765,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maleficent-Biding-Her-Time'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 49
-        rarity: common
+- variants:
+    - set: tfc
+      id: 49
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -1799,10 +1803,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maleficent-Sorceress'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 50
-        rarity: super_rare
+- variants:
+    - set: tfc
+      id: 50
+      rarity: super_rare
   lore: 1
   cost: 6
   attack: 5
@@ -1835,13 +1839,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Marshmallow-Persistent-Guardian'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 51
-        rarity: super_rare
-      - id: 208
-        rarity: enchanted
-        illustrator: Cam Kendell
+- variants:
+    - set: tfc
+      id: 51
+      rarity: super_rare
+    - set: tfc
+      id: 208
+      rarity: enchanted
+      illustrator: Cam Kendell
   lore: 2
   cost: 4
   inkwell: true
@@ -1876,10 +1881,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Wayward-Sorcerer-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 52
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 52
+      rarity: uncommon
   lore: 1
   cost: 1
   inkwell: true
@@ -1912,10 +1917,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Olaf-Friendly-Snowman'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 53
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 53
+      rarity: uncommon
   lore: 1
   cost: 1
   inkwell: true
@@ -1949,10 +1954,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Pascal-Rapunzels-Companion'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 54
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 54
+      rarity: uncommon
   lore: 1
   cost: 3
   attack: 3
@@ -1986,10 +1991,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Rafiki-Mysterious-Sage'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 55
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 55
+      rarity: uncommon
   lore: 1
   cost: 6
   inkwell: true
@@ -2022,10 +2027,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sven-Official-Ice-Deliverer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 56
-        rarity: super_rare
+- variants:
+    - set: tfc
+      id: 56
+      rarity: super_rare
   lore: 1
   cost: 5
   inkwell: true
@@ -2060,10 +2065,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/The-Queen-Wicked-and-Vain'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 57
-        rarity: common
+- variants:
+    - set: tfc
+      id: 57
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -2096,10 +2101,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/The-Wardrobe-Belles-Confidant'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 58
-        rarity: common
+- variants:
+    - set: tfc
+      id: 58
+      rarity: common
   lore: 2
   cost: 5
   attack: 3
@@ -2134,10 +2139,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Peter-Pans-Ally'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 59
-        rarity: legendary
+- variants:
+    - set: tfc
+      id: 59
+      rarity: legendary
   lore: 3
   cost: 7
   attack: 2
@@ -2171,13 +2176,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ursula-Power-Hungry'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 60
-        rarity: common
-    promos:
-      - id: 10
-        rarity: organized_play
+- variants:
+    - set: tfc
+      id: 60
+      rarity: common
+    - set: promos
+      id: 10
+      rarity: organized_play
   lore: 1
   cost: 2
   inkwell: true
@@ -2212,10 +2217,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Yzma-Alchemist'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 61
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 61
+      rarity: rare
   lore: 2
   cost: 4
   attack: 0
@@ -2249,10 +2254,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Zeus-God-of-Lightning'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 62
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 62
+      rarity: uncommon
   cost: 1
   inkwell: true
   color: amethyst
@@ -2280,10 +2285,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Befuddle'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 63
-        rarity: common
+- variants:
+    - set: tfc
+      id: 63
+      rarity: common
   cost: 2
   color: amethyst
   type: action
@@ -2310,10 +2315,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Freeze'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 64
-        rarity: common
+- variants:
+    - set: tfc
+      id: 64
+      rarity: common
   cost: 3
   inkwell: true
   color: amethyst
@@ -2343,10 +2348,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Friends-on-the-Other-Side'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 65
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 65
+      rarity: uncommon
   cost: 1
   inkwell: true
   color: amethyst
@@ -2376,10 +2381,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Reflection'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 66
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 66
+      rarity: rare
   cost: 2
   color: amethyst
   type: item
@@ -2406,10 +2411,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Magic-Mirror'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 67
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 67
+      rarity: uncommon
   cost: 2
   color: amethyst
   type: item
@@ -2436,10 +2441,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ursulas-Cauldron'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 68
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 68
+      rarity: rare
   cost: 3
   inkwell: true
   color: amethyst
@@ -2467,10 +2472,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/White-Rabbits-Pocket-Watch'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 69
-        rarity: common
+- variants:
+    - set: tfc
+      id: 69
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -2505,10 +2510,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Prince-Ali'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 70
-        rarity: legendary
+- variants:
+    - set: tfc
+      id: 70
+      rarity: legendary
   lore: 2
   cost: 5
   attack: 4
@@ -2543,10 +2548,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Beast-Wolfsbane'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 71
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 71
+      rarity: uncommon
   lore: 2
   cost: 3
   inkwell: true
@@ -2579,13 +2584,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cheshire-Cat-Not-All-There'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 72
-        rarity: rare
-    promos:
-      - id: 4
-        rarity: d23
+- variants:
+    - set: tfc
+      id: 72
+      rarity: rare
+    - set: promos
+      id: 4
+      rarity: d23
   lore: 1
   cost: 2
   inkwell: true
@@ -2619,10 +2624,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cruella-De-Vil-Miserable-As-Usual'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 73
-        rarity: common
+- variants:
+    - set: tfc
+      id: 73
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -2655,10 +2660,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Duke-of-Weselton-Opportunistic-Official'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 74
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 74
+      rarity: uncommon
   lore: 2
   cost: 2
   inkwell: true
@@ -2693,13 +2698,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Flynn-Rider-Charming-Rogue'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 75
-        rarity: super_rare
-      - id: 209
-        rarity: enchanted
-        illustrator: Cristian Romero
+- variants:
+    - set: tfc
+      id: 75
+      rarity: super_rare
+    - set: tfc
+      id: 209
+      rarity: enchanted
+      illustrator: Cristian Romero
   lore: 2
   cost: 6
   attack: 3
@@ -2733,14 +2739,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Genie-On-the-Job-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 76
-        rarity: rare
-    promos:
-      - id: 20
-        rarity: d100
-        illustrator: Eric Goldberg
+- variants:
+    - set: tfc
+      id: 76
+      rarity: rare
+    - set: promos
+      id: 20
+      rarity: d100
+      illustrator: Eric Goldberg
   lore: 3
   cost: 8
   attack: 3
@@ -2775,10 +2781,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Genie-Powers-Unleashed'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 77
-        rarity: common
+- variants:
+    - set: tfc
+      id: 77
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -2811,10 +2817,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Genie-The-Ever-Impressive'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 78
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 78
+      rarity: rare
   lore: 3
   cost: 4
   inkwell: true
@@ -2848,10 +2854,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hans-Scheming-Prince'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 79
-        rarity: common
+- variants:
+    - set: tfc
+      id: 79
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -2884,10 +2890,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Horace-No-Good-Scoundrel'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 80
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 80
+      rarity: rare
   lore: 1
   cost: 3
   inkwell: true
@@ -2921,10 +2927,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Iago-Loud-Mouthed-Parrot'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 81
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 81
+      rarity: uncommon
   lore: 1
   cost: 3
   inkwell: true
@@ -2958,10 +2964,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jasper-Common-Crook'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 82
-        rarity: legendary
+- variants:
+    - set: tfc
+      id: 82
+      rarity: legendary
   lore: 2
   cost: 6
   inkwell: true
@@ -2998,10 +3004,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/John-Silver-Alien-Pirate'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 83
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 83
+      rarity: uncommon
   lore: 2
   cost: 5
   inkwell: true
@@ -3035,10 +3041,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jumba-Jookiba-Renegade-Scientist'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 84
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 84
+      rarity: rare
   lore: 3
   cost: 5
   attack: 2
@@ -3072,10 +3078,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Kuzco-Temperamental-Emperor'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 85
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 85
+      rarity: rare
   lore: 1
   cost: 6
   attack: 1
@@ -3108,10 +3114,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lady-Tremaine-Wicked-Stepmother'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 86
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 86
+      rarity: uncommon
   lore: 3
   cost: 5
   inkwell: true
@@ -3144,10 +3150,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mad-Hatter-Gracious-Host'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 87
-        rarity: common
+- variants:
+    - set: tfc
+      id: 87
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -3181,13 +3187,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Megara-Pulling-the-Strings'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 88
-        rarity: super_rare
-      - id: 210
-        rarity: enchanted
-        illustrator: Kendall Hale
+- variants:
+    - set: tfc
+      id: 88
+      rarity: super_rare
+    - set: tfc
+      id: 210
+      rarity: enchanted
+      illustrator: Kendall Hale
   lore: 2
   cost: 7
   attack: 6
@@ -3221,10 +3228,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Artful-Rogue-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 89
-        rarity: common
+- variants:
+    - set: tfc
+      id: 89
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -3258,10 +3265,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Steamboat-Pilot'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 90
-        rarity: super_rare
+- variants:
+    - set: tfc
+      id: 90
+      rarity: super_rare
   lore: 2
   cost: 6
   inkwell: true
@@ -3295,10 +3302,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mother-Gothel-Selfish-Manipulator'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 91
-        rarity: common
+- variants:
+    - set: tfc
+      id: 91
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -3332,10 +3339,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Peter-Pan-Never-Landing'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 92
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 92
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -3367,10 +3374,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tamatoa-Drab-Little-Crab'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 93
-        rarity: common
+- variants:
+    - set: tfc
+      id: 93
+      rarity: common
   lore: 2
   cost: 4
   inkwell: true
@@ -3406,10 +3413,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Most-Helpful'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 94
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 94
+      rarity: rare
   cost: 3
   color: emerald
   type: action
@@ -3436,10 +3443,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Do-It-Again'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 95
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 95
+      rarity: uncommon
   cost: 3
   color: emerald
   type: action
@@ -3468,10 +3475,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mother-Knows-Best'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 96
-        rarity: common
+- variants:
+    - set: tfc
+      id: 96
+      rarity: common
   cost: 1
   color: emerald
   type: action
@@ -3498,10 +3505,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stampede'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 97
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 97
+      rarity: rare
   cost: 5
   color: emerald
   type: action
@@ -3528,10 +3535,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Steal-From-the-Rich'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 98
-        rarity: common
+- variants:
+    - set: tfc
+      id: 98
+      rarity: common
   cost: 2
   inkwell: true
   color: emerald
@@ -3561,10 +3568,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sudden-Chill'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 99
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 99
+      rarity: uncommon
   cost: 3
   inkwell: true
   color: emerald
@@ -3592,10 +3599,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/The-Beast-Is-Mine'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 100
-        rarity: common
+- variants:
+    - set: tfc
+      id: 100
+      rarity: common
   cost: 1
   inkwell: true
   color: emerald
@@ -3623,10 +3630,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Vicious-Betrayal'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 101
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 101
+      rarity: uncommon
   cost: 2
   color: emerald
   type: item
@@ -3653,10 +3660,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Faciliers-Cards'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 102
-        rarity: common
+- variants:
+    - set: tfc
+      id: 102
+      rarity: common
   cost: 2
   inkwell: true
   color: emerald
@@ -3684,10 +3691,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stolen-Scimitar'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 103
-        rarity: common
+- variants:
+    - set: tfc
+      id: 103
+      rarity: common
   lore: 2
   cost: 3
   inkwell: true
@@ -3720,13 +3727,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Abu-Mischievous-Monkey'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 104
-        rarity: super_rare
-      - id: 211
-        rarity: enchanted
-        illustrator: Massimiliano Narcisso
+- variants:
+    - set: tfc
+      id: 104
+      rarity: super_rare
+    - set: tfc
+      id: 211
+      rarity: enchanted
+      illustrator: Massimiliano Narcisso
   lore: 2
   cost: 7
   inkwell: true
@@ -3761,10 +3769,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Heroic-Outlaw-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 105
-        rarity: common
+- variants:
+    - set: tfc
+      id: 105
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -3798,10 +3806,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Street-Rat'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 106
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 106
+      rarity: uncommon
   lore: 1
   cost: 5
   inkwell: true
@@ -3835,10 +3843,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Colonels-Lieutenant'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 107
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 107
+      rarity: rare
   lore: 2
   cost: 7
   attack: 5
@@ -3874,10 +3882,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Ruthless-Pirate'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 108
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 108
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -3909,10 +3917,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Donald-Duck-Boisterous-Fowl'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 109
-        rarity: common
+- variants:
+    - set: tfc
+      id: 109
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -3948,13 +3956,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Elsa-Ice-Surfer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 110
-        rarity: common
-    promos:
-      - id: 24
-        rarity: mcm_comic_con2023
+- variants:
+    - set: tfc
+      id: 110
+      rarity: common
+    - set: promos
+      id: 24
+      rarity: mcm_comic_con2023
   cost: 2
   inkwell: true
   attack: 4
@@ -3987,10 +3995,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Gaston-Arrogant-Hunter'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 111
-        rarity: common
+- variants:
+    - set: tfc
+      id: 111
+      rarity: common
   lore: 2
   cost: 5
   inkwell: true
@@ -4024,10 +4032,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Goofy-Daredevil'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 112
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 112
+      rarity: rare
   lore: 1
   cost: 2
   inkwell: true
@@ -4061,13 +4069,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lefou-Instigator'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 113
-        rarity: legendary
-    promos:
-      - id: 5
-        rarity: d23
+- variants:
+    - set: tfc
+      id: 113
+      rarity: legendary
+    - set: promos
+      id: 5
+      rarity: d23
   lore: 2
   cost: 9
   inkwell: true
@@ -4102,13 +4110,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maleficent-Monstrous-Dragon'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 114
-        rarity: rare
-      - id: 212
-        rarity: enchanted
-        illustrator: Pirel / Stefano Zanchi
+- variants:
+    - set: tfc
+      id: 114
+      rarity: rare
+    - set: tfc
+      id: 212
+      rarity: enchanted
+      illustrator: Pirel / Stefano Zanchi
   cost: 5
   inkwell: true
   attack: 6
@@ -4143,13 +4152,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maui-Hero-to-All-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 115
-        rarity: legendary
-    promos:
-      - id: 1
-        rarity: d23
+- variants:
+    - set: tfc
+      id: 115
+      rarity: legendary
+    - set: promos
+      id: 1
+      rarity: d23
   lore: 4
   cost: 8
   inkwell: true
@@ -4183,10 +4192,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Brave-Little-Tailor'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 116
-        rarity: common
+- variants:
+    - set: tfc
+      id: 116
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -4219,10 +4228,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Minnie-Mouse-Always-Classy'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 117
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 117
+      rarity: uncommon
   lore: 2
   cost: 5
   inkwell: true
@@ -4257,10 +4266,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Moana-Chosen-by-the-Ocean'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 118
-        rarity: super_rare
+- variants:
+    - set: tfc
+      id: 118
+      rarity: super_rare
   lore: 1
   cost: 5
   inkwell: true
@@ -4296,10 +4305,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mulan-Imperial-Soldier-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 119
-        rarity: common
+- variants:
+    - set: tfc
+      id: 119
+      rarity: common
   lore: 1
   cost: 3
   attack: 3
@@ -4332,10 +4341,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Peter-Pan-Fearless-Fighter'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 120
-        rarity: common
+- variants:
+    - set: tfc
+      id: 120
+      rarity: common
   lore: 2
   cost: 4
   inkwell: true
@@ -4369,10 +4378,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Pongo-Ol-Rascal'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 121
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 121
+      rarity: uncommon
   lore: 2
   cost: 6
   attack: 5
@@ -4406,10 +4415,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Rapunzel-Letting-Down-Her-Hair'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 122
-        rarity: common
+- variants:
+    - set: tfc
+      id: 122
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -4442,10 +4451,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Scar-Fiery-Usurper'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 123
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 123
+      rarity: rare
   lore: 1
   cost: 8
   attack: 6
@@ -4480,10 +4489,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Scar-Shameless-Firebrand'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 124
-        rarity: common
+- variants:
+    - set: tfc
+      id: 124
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -4516,14 +4525,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sergeant-Tibbs-Courageous-Cat'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 125
-        rarity: rare
-    promos:
-      - id: 21
-        rarity: d100
-        illustrator: Alex Kupershmidt
+- variants:
+    - set: tfc
+      id: 125
+      rarity: rare
+    - set: promos
+      id: 21
+      rarity: d100
+      illustrator: Alex Kupershmidt
   lore: 3
   cost: 6
   inkwell: true
@@ -4557,10 +4566,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stitch-Abomination'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 126
-        rarity: super_rare
+- variants:
+    - set: tfc
+      id: 126
+      rarity: super_rare
   cost: 6
   attack: 8
   defence: 6
@@ -4593,10 +4602,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Te-K-The-Burning-One'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 127
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 127
+      rarity: uncommon
   lore: 2
   cost: 6
   inkwell: true
@@ -4630,10 +4639,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tigger-Wonderful-Thing'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 128
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 128
+      rarity: rare
   cost: 7
   color: ruby
   type: action
@@ -4662,10 +4671,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Be-Prepared'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 129
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 129
+      rarity: uncommon
   cost: 2
   inkwell: true
   color: ruby
@@ -4693,10 +4702,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cut-to-the-Chase'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 130
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 130
+      rarity: uncommon
   cost: 5
   color: ruby
   type: action
@@ -4723,10 +4732,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dragon-Fire'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 131
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 131
+      rarity: uncommon
   cost: 1
   inkwell: true
   color: ruby
@@ -4754,10 +4763,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Fan-the-Flames'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 132
-        rarity: common
+- variants:
+    - set: tfc
+      id: 132
+      rarity: common
   cost: 1
   inkwell: true
   color: ruby
@@ -4785,10 +4794,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hes-Got-a-Sword'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 133
-        rarity: common
+- variants:
+    - set: tfc
+      id: 133
+      rarity: common
   cost: 2
   inkwell: true
   color: ruby
@@ -4816,10 +4825,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tangle'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 134
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 134
+      rarity: rare
   cost: 3
   color: ruby
   type: item
@@ -4846,10 +4855,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Poisoned-Apple'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 135
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 135
+      rarity: uncommon
   cost: 1
   inkwell: true
   color: ruby
@@ -4877,10 +4886,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Shield-of-Virtue'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 136
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 136
+      rarity: rare
   cost: 4
   color: ruby
   type: item
@@ -4907,10 +4916,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sword-of-Truth'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 137
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 137
+      rarity: rare
   lore: 1
   cost: 4
   attack: 3
@@ -4944,10 +4953,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ariel-Whoseit-Collector'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 138
-        rarity: common
+- variants:
+    - set: tfc
+      id: 138
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -4982,13 +4991,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aurora-Briar-Rose'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 139
-        rarity: super_rare
-      - id: 213
-        rarity: enchanted
-        illustrator: Clio Wolfensberger
+- variants:
+    - set: tfc
+      id: 139
+      rarity: super_rare
+    - set: tfc
+      id: 213
+      rarity: enchanted
+      illustrator: Clio Wolfensberger
   lore: 2
   cost: 5
   inkwell: true
@@ -5024,10 +5034,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aurora-Dreaming-Guardian-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 140
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 140
+      rarity: uncommon
   lore: 2
   cost: 2
   inkwell: true
@@ -5061,10 +5071,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aurora-Regal-Princess'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 141
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 141
+      rarity: uncommon
   lore: 2
   cost: 3
   inkwell: true
@@ -5100,13 +5110,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Belle-Inventive-Engineer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 142
-        rarity: legendary
-      - id: 214
-        rarity: enchanted
-        illustrator: Valerio Buonfantino
+- variants:
+    - set: tfc
+      id: 142
+      rarity: legendary
+    - set: tfc
+      id: 214
+      rarity: enchanted
+      illustrator: Valerio Buonfantino
   lore: 1
   cost: 4
   inkwell: true
@@ -5142,10 +5153,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Belle-Strange-but-Special-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 143
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 143
+      rarity: uncommon
   lore: 3
   cost: 7
   inkwell: true
@@ -5180,10 +5191,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Chief-Tui-Respected-Leader'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 144
-        rarity: common
+- variants:
+    - set: tfc
+      id: 144
+      rarity: common
   lore: 2
   cost: 5
   inkwell: true
@@ -5218,10 +5229,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Donald-Duck-Strutting-His-Stuff'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 145
-        rarity: common
+- variants:
+    - set: tfc
+      id: 145
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -5254,10 +5265,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Flounder-Voice-of-Reason'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 146
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 146
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -5291,10 +5302,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Gramma-Tala-Storyteller'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 147
-        rarity: legendary
+- variants:
+    - set: tfc
+      id: 147
+      rarity: legendary
   lore: 2
   cost: 7
   attack: 3
@@ -5328,10 +5339,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hades-Infernal-Schemer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 148
-        rarity: common
+- variants:
+    - set: tfc
+      id: 148
+      rarity: common
   lore: 2
   cost: 3
   inkwell: true
@@ -5364,10 +5375,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jasmine-Disguised'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 149
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 149
+      rarity: rare
   lore: 2
   cost: 5
   inkwell: true
@@ -5404,10 +5415,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jasmine-Queen-of-Agrabah'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 150
-        rarity: common
+- variants:
+    - set: tfc
+      id: 150
+      rarity: common
   lore: 2
   cost: 4
   inkwell: true
@@ -5441,14 +5452,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maleficent-Sinister-Visitor'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 151
-        rarity: rare
-    promos:
-      - id: 22
-        rarity: d100
-        illustrator: Lorelay Bové
+- variants:
+    - set: tfc
+      id: 151
+      rarity: rare
+    - set: promos
+      id: 22
+      rarity: d100
+      illustrator: Lorelay Bové
   lore: 3
   cost: 5
   inkwell: true
@@ -5482,10 +5493,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maleficent-Uninvited'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 152
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 152
+      rarity: rare
   lore: 2
   cost: 6
   inkwell: true
@@ -5521,10 +5532,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maurice-World-Famous-Inventor'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 153
-        rarity: common
+- variants:
+    - set: tfc
+      id: 153
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -5559,13 +5570,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Merlin-Self-Appointed-Mentor'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 154
-        rarity: common
-    promos:
-      - id: 8
-        rarity: organized_play
+- variants:
+    - set: tfc
+      id: 154
+      rarity: common
+    - set: promos
+      id: 8
+      rarity: organized_play
   lore: 1
   cost: 3
   attack: 1
@@ -5599,10 +5610,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Detective'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 155
-        rarity: common
+- variants:
+    - set: tfc
+      id: 155
+      rarity: common
   lore: 3
   cost: 6
   inkwell: true
@@ -5636,10 +5647,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mufasa-King-of-the-Pride-Lands'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 156
-        rarity: common
+- variants:
+    - set: tfc
+      id: 156
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -5673,13 +5684,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Philoctetes-Trainer-of-Heroes'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 157
-        rarity: super_rare
-    promos:
-      - id: 6
-        rarity: d23
+- variants:
+    - set: tfc
+      id: 157
+      rarity: super_rare
+    - set: promos
+      id: 6
+      rarity: d23
   lore: 2
   cost: 6
   inkwell: true
@@ -5714,10 +5725,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Robin-Hood-Unrivaled-Archer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 158
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 158
+      rarity: rare
   lore: 2
   cost: 6
   inkwell: true
@@ -5751,10 +5762,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Scar-Mastermind'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 159
-        rarity: super_rare
+- variants:
+    - set: tfc
+      id: 159
+      rarity: super_rare
   lore: 1
   cost: 8
   inkwell: true
@@ -5789,10 +5800,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tamatoa-So-Shiny'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 160
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 160
+      rarity: uncommon
   lore: 2
   cost: 7
   inkwell: true
@@ -5825,10 +5836,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Triton-The-Sea-King'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 161
-        rarity: common
+- variants:
+    - set: tfc
+      id: 161
+      rarity: common
   cost: 1
   inkwell: true
   color: sapphire
@@ -5856,10 +5867,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Develop-Your-Brain'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 162
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 162
+      rarity: rare
   cost: 3
   color: sapphire
   type: action
@@ -5886,10 +5897,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/If-Its-Not-Baroque'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 163
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 163
+      rarity: rare
   cost: 5
   inkwell: true
   attack: 0
@@ -5921,10 +5932,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Let-It-Go'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 164
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 164
+      rarity: uncommon
   cost: 2
   attack: 0
   defence: 0
@@ -5955,10 +5966,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/One-Jump-Ahead'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 165
-        rarity: common
+- variants:
+    - set: tfc
+      id: 165
+      rarity: common
   cost: 1
   inkwell: true
   color: sapphire
@@ -5986,10 +5997,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Work-Together'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 166
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 166
+      rarity: uncommon
   cost: 2
   inkwell: true
   color: sapphire
@@ -6017,10 +6028,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Coconut-Basket'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 167
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 167
+      rarity: uncommon
   cost: 4
   inkwell: true
   color: sapphire
@@ -6048,10 +6059,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Eye-of-the-Fates'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 168
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 168
+      rarity: rare
   cost: 3
   inkwell: true
   color: sapphire
@@ -6079,10 +6090,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Fishbone-Quill'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 169
-        rarity: common
+- variants:
+    - set: tfc
+      id: 169
+      rarity: common
   cost: 1
   inkwell: true
   color: sapphire
@@ -6110,10 +6121,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Magic-Golden-Flower'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 170
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 170
+      rarity: uncommon
   cost: 1
   inkwell: true
   color: sapphire
@@ -6141,10 +6152,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Scepter-of-Arendelle'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 171
-        rarity: common
+- variants:
+    - set: tfc
+      id: 171
+      rarity: common
   lore: 2
   cost: 2
   inkwell: true
@@ -6177,10 +6188,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Cornered-Swordsman'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 172
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 172
+      rarity: uncommon
   lore: 2
   cost: 5
   inkwell: true
@@ -6215,10 +6226,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Beast-Hardheaded'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 173
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 173
+      rarity: rare
   lore: 1
   cost: 4
   attack: 3
@@ -6253,13 +6264,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Captain-of-the-Jolly-Roger'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 174
-        rarity: common
-    promos:
-      - id: 7
-        rarity: d23
+- variants:
+    - set: tfc
+      id: 174
+      rarity: common
+    - set: promos
+      id: 7
+      rarity: d23
   lore: 1
   cost: 1
   inkwell: true
@@ -6295,10 +6306,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Forceful-Duelist'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 175
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 175
+      rarity: rare
   lore: 1
   cost: 5
   attack: 2
@@ -6335,10 +6346,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Thinking-a-Happy-Thought'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 176
-        rarity: common
+- variants:
+    - set: tfc
+      id: 176
+      rarity: common
   lore: 1
   cost: 5
   inkwell: true
@@ -6370,13 +6381,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cerberus-Three-Headed-Dog'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 177
-        rarity: uncommon
-    promos:
-      - id: 13
-        rarity: gamecon23
+- variants:
+    - set: tfc
+      id: 177
+      rarity: uncommon
+    - set: promos
+      id: 13
+      rarity: gamecon23
   lore: 1
   cost: 4
   inkwell: true
@@ -6412,10 +6423,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Donald-Duck-Musketeer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 178
-        rarity: legendary
+- variants:
+    - set: tfc
+      id: 178
+      rarity: legendary
   lore: 2
   cost: 8
   inkwell: true
@@ -6450,10 +6461,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Gantu-Galactic-Federation-Captain'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 179
-        rarity: common
+- variants:
+    - set: tfc
+      id: 179
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -6486,10 +6497,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Goons-Maleficents-Underlings'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 180
-        rarity: super_rare
+- variants:
+    - set: tfc
+      id: 180
+      rarity: super_rare
   lore: 2
   cost: 4
   inkwell: true
@@ -6524,10 +6535,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hans-Thirteenth-in-Line'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 181
-        rarity: common
+- variants:
+    - set: tfc
+      id: 181
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -6562,10 +6573,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hercules-True-Hero'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 182
-        rarity: common
+- variants:
+    - set: tfc
+      id: 182
+      rarity: common
   lore: 2
   cost: 3
   inkwell: true
@@ -6598,10 +6609,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Kristoff-Official-Ice-Master'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 183
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 183
+      rarity: uncommon
   lore: 2
   cost: 6
   inkwell: true
@@ -6634,10 +6645,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Kronk-Right-Hand-Man'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 184
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 184
+      rarity: uncommon
   lore: 2
   cost: 3
   inkwell: true
@@ -6670,14 +6681,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lilo-Galactic-Hero'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 185
-        rarity: rare
-    promos:
-      - id: 23
-        rarity: d100
-        illustrator: Bill Schwab
+- variants:
+    - set: tfc
+      id: 185
+      rarity: rare
+    - set: promos
+      id: 23
+      rarity: d100
+      illustrator: Bill Schwab
   lore: 3
   cost: 8
   inkwell: true
@@ -6711,13 +6722,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maui-Demigod'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 186
-        rarity: rare
-    promos:
-      - id: 11
-        rarity: gamecon23
+- variants:
+    - set: tfc
+      id: 186
+      rarity: rare
+    - set: promos
+      id: 11
+      rarity: gamecon23
   lore: 2
   cost: 6
   inkwell: true
@@ -6753,10 +6764,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Musketeer'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 187
-        rarity: common
+- variants:
+    - set: tfc
+      id: 187
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -6791,10 +6802,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Prince-Eric-Dashing-and-Brave'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 188
-        rarity: common
+- variants:
+    - set: tfc
+      id: 188
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -6829,13 +6840,14 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Future-King'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 189
-        rarity: rare
-      - id: 215
-        rarity: enchanted
-        illustrator: Hedvig Häggman-Sund
+- variants:
+    - set: tfc
+      id: 189
+      rarity: rare
+    - set: tfc
+      id: 215
+      rarity: enchanted
+      illustrator: Hedvig Häggman-Sund
   lore: 2
   cost: 7
   inkwell: true
@@ -6871,10 +6883,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Returned-King-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 190
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 190
+      rarity: uncommon
   lore: 2
   cost: 5
   attack: 3
@@ -6908,10 +6920,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Rightful-Heir'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 191
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 191
+      rarity: uncommon
   lore: 1
   cost: 5
   inkwell: true
@@ -6946,10 +6958,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Starkey-Hooks-Henchman'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 192
-        rarity: legendary
+- variants:
+    - set: tfc
+      id: 192
+      rarity: legendary
   lore: 2
   cost: 6
   inkwell: true
@@ -6984,12 +6996,13 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Te-K-Heartless'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 193
-        rarity: super_rare
-      - id: 216
-        rarity: enchanted
+- variants:
+    - set: tfc
+      id: 193
+      rarity: super_rare
+    - set: tfc
+      id: 216
+      rarity: enchanted
   lore: 3
   cost: 6
   inkwell: true
@@ -7026,10 +7039,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Giant-Fairy-V1'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 194
-        rarity: common
+- variants:
+    - set: tfc
+      id: 194
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -7064,10 +7077,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Tiny-Tactician'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 195
-        rarity: super_rare
+- variants:
+    - set: tfc
+      id: 195
+      rarity: super_rare
   cost: 5
   color: steel
   type: action
@@ -7096,10 +7109,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/A-Whole-New-World'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 196
-        rarity: common
+- variants:
+    - set: tfc
+      id: 196
+      rarity: common
   cost: 2
   inkwell: true
   color: steel
@@ -7127,10 +7140,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Break'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 197
-        rarity: common
+- variants:
+    - set: tfc
+      id: 197
+      rarity: common
   cost: 1
   color: steel
   type: action
@@ -7157,10 +7170,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Fire-the-Cannons'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 198
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 198
+      rarity: rare
   cost: 5
   color: steel
   type: action
@@ -7189,10 +7202,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Grab-Your-Sword'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 199
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 199
+      rarity: uncommon
   cost: 2
   inkwell: true
   color: steel
@@ -7220,10 +7233,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ransack'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 200
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 200
+      rarity: uncommon
   cost: 3
   inkwell: true
   color: steel
@@ -7251,10 +7264,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Smash'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 201
-        rarity: common
+- variants:
+    - set: tfc
+      id: 201
+      rarity: common
   cost: 2
   inkwell: true
   color: steel
@@ -7282,10 +7295,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Beasts-Mirror'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 202
-        rarity: uncommon
+- variants:
+    - set: tfc
+      id: 202
+      rarity: uncommon
   cost: 2
   inkwell: true
   color: steel
@@ -7313,10 +7326,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Frying-Pan'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 203
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 203
+      rarity: rare
   cost: 4
   color: steel
   type: item
@@ -7343,10 +7356,10 @@
   third_party: 
     card_market: 'https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Musketeer-Tabard'
     tcg_player: ''
-- sets:
-    tfc:
-      - id: 204
-        rarity: rare
+- variants:
+    - set: tfc
+      id: 204
+      rarity: rare
   cost: 3
   color: steel
   type: item

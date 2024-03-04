@@ -16,7 +16,7 @@ data class GenericVirtualCard<A, C, F>(
     val inkwell: Boolean = false,
     val attack: Int? = null,
     val defence: Int? = null,
-    val sets: Map<SetDescription, List<SetItem<C>>> = emptyMap(),
+    val variants: List<Variant<C>> = emptyList(),
     val color: InkColor,
     val lore: Int? = null,
     val type: CardType,
@@ -28,7 +28,9 @@ data class GenericVirtualCard<A, C, F>(
     val franchiseId: F,
     @SerialName("third_party")
     val thirdParty: CardThirdParty? = null
-)
+) {
+    fun variants(set: SetDescription) = variants.filter { it.set == set }
+}
 
 typealias RawVirtualCard = GenericVirtualCard<String, String, String>
 typealias VirtualCard = GenericVirtualCard<Ability, ClassificationHolder, Franchise>
@@ -42,13 +44,7 @@ fun RawVirtualCard.to(
     inkwell = inkwell,
     attack = attack,
     defence = defence,
-    sets = mutableMapOf<SetDescription, List<SetItem<ClassificationHolder>>>().let { map ->
-        sets.keys.forEach {
-            map[it] = sets[it]!!.map { it.to(mapOfClassifications) }
-        }
-
-        map
-    },
+    variants = variants.map { it.to(mapOfClassifications) },
     color = color,
     type = type,
     classifications = classifications.map { slug ->

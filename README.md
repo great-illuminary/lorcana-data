@@ -102,21 +102,21 @@ third_party:
 actions: string[], it can be mapped to the following abilities list
 
 # in case of condensed cards:
-sets: []
-  key: string
-    id: int
-    rarity: common|uncommon|rare|super_rare|enchanted
-    illustrator: string?
-    erratas: Map<Lang, Erratas>?
-      lang: Erratas
-        - classifications: ClassificationHolder[]? # slug, en, fr, de
+variants: []
+  set: string
+  id: int
+  rarity: common|uncommon|rare|super_rare|enchanted
+  illustrator: string?
+  erratas: Map<Lang, Erratas>?
+    lang: Erratas
+      - classifications: ClassificationHolder[]? # slug, en, fr, de
 # in case of regular flatten version:
 number: int
 setCode: string
 ```
 
 Note : to accomodate the condensed version of cards, the third_party links will
-move in the sets as the URLs will depend on the variant.
+move in the variants as the URLs will depend on the variant.
 
 # Abilities
 

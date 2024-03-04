@@ -1,7 +1,7 @@
-- sets:
-    rotf:
-      - id: 1
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 1
+      rarity: uncommon
   lore: 3
   color: amber
   cost: 4
@@ -29,10 +29,10 @@
   actions: 
     - oh_gosh
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 2
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 2
+      rarity: rare
   lore: 2
   color: amber
   cost: 6
@@ -59,12 +59,13 @@
   actions: 
     - we_will_always_be_together
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 3
-        rarity: rare
-      - id: 205
-        rarity: enchanted
+- variants:
+    - set: rotf
+      id: 3
+      rarity: rare
+    - set: rotf
+      id: 205
+      rarity: enchanted
   lore: 1
   color: amber
   cost: 1
@@ -92,10 +93,10 @@
   actions: 
     - singer_3
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 4
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 4
+      rarity: rare
   lore: 2
   color: amber
   cost: 7
@@ -125,10 +126,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 5
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 5
+      rarity: uncommon
   lore: 2
   color: amber
   cost: 3
@@ -156,10 +157,10 @@
   actions: 
     - shared_and_share_alike
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 6
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 6
+      rarity: uncommon
   lore: 1
   color: amber
   cost: 3
@@ -187,10 +188,10 @@
   actions: 
     - odd_one_out
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 7
-        rarity: common
+- variants:
+    - set: rotf
+      id: 7
+      rarity: common
   lore: 2
   color: amber
   cost: 5
@@ -216,10 +217,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 8
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 8
+      rarity: uncommon
   lore: 1
   color: amber
   cost: 3
@@ -245,10 +246,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 9
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 9
+      rarity: rare
   lore: 1
   color: amber
   cost: 2
@@ -279,10 +280,10 @@
   actions: 
     - yes_your_majesty
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 10
-        rarity: common
+- variants:
+    - set: rotf
+      id: 10
+      rarity: common
   lore: 1
   color: amber
   cost: 4
@@ -310,10 +311,10 @@
   actions: 
     - theres_trouble_a_brewin
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 11
-        rarity: common
+- variants:
+    - set: rotf
+      id: 11
+      rarity: common
   lore: 2
   color: amber
   cost: 5
@@ -341,10 +342,10 @@
   actions: 
     - support
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 12
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 12
+      rarity: super_rare
   lore: 2
   color: amber
   cost: 7
@@ -371,14 +372,14 @@
   actions: 
     - lay_it_on_the_line
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 13
-        rarity: super_rare
-    promos:
-      - id: 18
-        rarity: d100
-        illustrator: Mark Henn
+- variants:
+    - set: rotf
+      id: 13
+      rarity: super_rare
+    - set: promos
+      id: 18
+      rarity: d100
+      illustrator: Mark Henn
   lore: 3
   color: amber
   cost: 6
@@ -409,10 +410,10 @@
   actions: 
     - glad_youre_here
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 14
-        rarity: legendary
+- variants:
+    - set: rotf
+      id: 14
+      rarity: legendary
   lore: 2
   color: amber
   cost: 5
@@ -440,10 +441,10 @@
   actions: 
     - the_sun_will_sunset
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 15
-        rarity: common
+- variants:
+    - set: rotf
+      id: 15
+      rarity: common
   lore: 2
   color: amber
   cost: 3
@@ -471,10 +472,10 @@
   actions: 
     - support
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 16
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 16
+      rarity: rare
   lore: 2
   color: amber
   cost: 4
@@ -503,10 +504,10 @@
     - support_2
     - honor_to_the_ancestors
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 17
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 17
+      rarity: uncommon
   lore: 1
   color: amber
   cost: 2
@@ -533,10 +534,10 @@
   actions: 
     - nursemaid
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 18
-        rarity: common
+- variants:
+    - set: rotf
+      id: 18
+      rarity: common
   lore: 2
   color: amber
   cost: 3
@@ -562,13 +563,13 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 19
-        rarity: uncommon
-    promos:
-      - id: 31
-        rarity: pax_unplugged2023
+- variants:
+    - set: rotf
+      id: 19
+      rarity: uncommon
+    - set: promos
+      id: 31
+      rarity: pax_unplugged2023
   lore: 2
   color: amber
   cost: 5
@@ -601,10 +602,10 @@
     - support_3
     - let_your_power_shine
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 20
-        rarity: common
+- variants:
+    - set: rotf
+      id: 20
+      rarity: common
   lore: 1
   color: amber
   cost: 2
@@ -632,10 +633,10 @@
   actions:
     - magic_hair
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 21
-        rarity: common
+- variants:
+    - set: rotf
+      id: 21
+      rarity: common
   lore: 2
   color: amber
   cost: 2
@@ -663,10 +664,10 @@
   actions:
     - yawn
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 22
-        rarity: common
+- variants:
+    - set: rotf
+      id: 22
+      rarity: common
   lore: 1
   color: amber
   cost: 2
@@ -694,10 +695,10 @@
   actions:
     - ah_choo
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 23
-        rarity: common
+- variants:
+    - set: rotf
+      id: 23
+      rarity: common
   lore: 1
   color: amber
   cost: 2
@@ -725,10 +726,10 @@
   actions:
     - wont_hurt_you
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 24
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 24
+      rarity: uncommon
   lore: 1
   color: amber
   cost: 2
@@ -755,12 +756,13 @@
   actions:
     - how_do_you_do
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 25
-        rarity: legendary
-      - id: 206
-        rarity: enchanted
+- variants:
+    - set: rotf
+      id: 25
+      rarity: legendary
+    - set: rotf
+      id: 206
+      rarity: enchanted
   lore: 2
   color: amber
   cost: 6
@@ -788,10 +790,10 @@
     - shift_4
     - wishes_come_true
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 26
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 26
+      rarity: super_rare
   lore: 2
   color: amber
   cost: 5
@@ -824,10 +826,10 @@
     - shift_2
     - who_is_the_fairest
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 27
-        rarity: common
+- variants:
+    - set: rotf
+      id: 27
+      rarity: common
   lore: 1
   color: amber
   cost: 1
@@ -854,10 +856,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 28
-        rarity: common
+- variants:
+    - set: rotf
+      id: 28
+      rarity: common
   color: amber
   cost: 2
   inkwell: true
@@ -877,10 +879,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 29
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 29
+      rarity: uncommon
   color: amber
   cost: 2
   type: action
@@ -903,10 +905,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 30
-        rarity: common
+- variants:
+    - set: rotf
+      id: 30
+      rarity: common
   color: amber
   cost: 2
   inkwell: true
@@ -928,10 +930,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 31
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 31
+      rarity: rare
   color: amber
   cost: 3
   inkwell: true
@@ -957,10 +959,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 32
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 32
+      rarity: uncommon
   color: amber
   cost: 2
   type: action
@@ -986,10 +988,10 @@
   actions:
     - zero_to_hero
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 33
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 33
+      rarity: rare
   color: amber
   cost: 3
   type: item
@@ -1013,10 +1015,10 @@
   actions:
     - bring_back_to_life
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 34
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 34
+      rarity: rare
   color: amber
   cost: 2
   type: item
@@ -1036,12 +1038,13 @@
   actions:
     - a_silly_song
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 35
-        rarity: super_rare
-      - id: 207
-        rarity: enchanted
+- variants:
+    - set: rotf
+      id: 35
+      rarity: super_rare
+    - set: rotf
+      id: 207
+      rarity: enchanted
   lore: 1
   cost: 3
   attack: 1
@@ -1072,10 +1075,10 @@
   actions:
     - student
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 36
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 36
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -1104,10 +1107,10 @@
     - ethereal_glow
     - evasive
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 37
-        rarity: common
+- variants:
+    - set: rotf
+      id: 37
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -1137,10 +1140,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 38
-        rarity: common
+- variants:
+    - set: rotf
+      id: 38
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -1168,14 +1171,14 @@
   actions:
     - evasive
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 39
-        rarity: common
-    promos:
-      - id: 19
-        rarity: d100
-        illustrator: Brittney Lee
+- variants:
+    - set: rotf
+      id: 39
+      rarity: common
+    - set: promos
+      id: 19
+      rarity: d100
+      illustrator: Brittney Lee
   lore: 1
   cost: 4
   inkwell: true
@@ -1208,10 +1211,10 @@
   actions:
     - challenger_3
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 40
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 40
+      rarity: uncommon
   lore: 2
   cost: 5
   inkwell: true
@@ -1238,10 +1241,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 41
-        rarity: legendary
+- variants:
+    - set: rotf
+      id: 41
+      rarity: legendary
   lore: 2
   cost: 5
   inkwell: true
@@ -1270,10 +1273,10 @@
     - shift_2
     - forget_the_coach_heres_a_sword
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 42
-        rarity: common
+- variants:
+    - set: rotf
+      id: 42
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -1301,10 +1304,10 @@
   actions:
     - just_leave_it_to_me
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 43
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 43
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -1331,10 +1334,10 @@
   actions:
     - hes_back
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 44
-        rarity: common
+- variants:
+    - set: rotf
+      id: 44
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -1362,10 +1365,10 @@
     - evasive
     - that_still_small_voice
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 45
-        rarity: common
+- variants:
+    - set: rotf
+      id: 45
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -1392,10 +1395,10 @@
   actions:
     - ok_where_am_i
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 46
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 46
+      rarity: rare
   lore: 1
   cost: 3
   inkwell: true
@@ -1428,13 +1431,14 @@
     - chasing_the_rabbit
     - rush
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 47
-        rarity: legendary
-      - id: 208
-        rarity: enchanted
-        illustrator: Nicholas Kole
+- variants:
+    - set: rotf
+      id: 47
+      rarity: legendary
+    - set: rotf
+      id: 208
+      rarity: enchanted
+      illustrator: Nicholas Kole
   lore: 4
   cost: 7
   inkwell: true
@@ -1468,10 +1472,10 @@
     - evasive
     - i_win_i_win
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 48
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 48
+      rarity: rare
   lore: 2
   cost: 3
   inkwell: true
@@ -1496,10 +1500,10 @@
     - shift_3
     - gruesome_and_grim
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 49
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 49
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -1531,10 +1535,10 @@
   actions:
     - just_you_wait
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 50
-        rarity: common
+- variants:
+    - set: rotf
+      id: 50
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -1565,10 +1569,10 @@
   actions:
     - ready_or_not
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 51
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 51
+      rarity: uncommon
   lore: 1
   cost: 4
   inkwell: true
@@ -1600,10 +1604,10 @@
   actions:
     - here_i_come
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 52
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 52
+      rarity: rare
   lore: 1
   cost: 4
   attack: 2
@@ -1634,10 +1638,10 @@
   actions:
     - hoppity_hip
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 53
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 53
+      rarity: rare
   lore: 1
   cost: 4
   inkwell: true
@@ -1669,10 +1673,10 @@
   actions:
     - battle_of_wits
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 54
-        rarity: common
+- variants:
+    - set: rotf
+      id: 54
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -1704,10 +1708,10 @@
   actions:
     - look_before_you_leap
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 55
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 55
+      rarity: super_rare
   lore: 2
   cost: 4
   attack: 2
@@ -1731,10 +1735,10 @@
     - rush
     - tiptoe
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 56
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 56
+      rarity: rare
   lore: 3
   cost: 2
   attack: 1
@@ -1759,10 +1763,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 57
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 57
+      rarity: uncommon
   lore: 2
   cost: 5
   attack: 3
@@ -1785,13 +1789,13 @@
     - shift_3
     - listen_to_your_conscience
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 58
-        rarity: uncommon
-    promos:
-      - id: 32
-        rarity: pax_unplugged2023
+- variants:
+    - set: rotf
+      id: 58
+      rarity: uncommon
+    - set: promos
+      id: 32
+      rarity: pax_unplugged2023
   lore: 1
   cost: 2
   attack: 1
@@ -1821,10 +1825,10 @@
   actions:
     - telling_lies
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 59
-        rarity: common
+- variants:
+    - set: rotf
+      id: 59
+      rarity: common
   lore: 2
   cost: 5
   inkwell: true
@@ -1855,10 +1859,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 60
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 60
+      rarity: super_rare
   lore: 2
   cost: 6
   inkwell: true
@@ -1887,10 +1891,10 @@
     - shift_4
     - cruel_irony
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 61
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 61
+      rarity: uncommon
   lore: 1
   cost: 3
   inkwell: true
@@ -1921,10 +1925,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 62
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 62
+      rarity: rare
   cost: 3
   color: amethyst
   type: action
@@ -1945,10 +1949,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 63
-        rarity: common
+- variants:
+    - set: rotf
+      id: 63
+      rarity: common
   cost: 1
   inkwell: true
   color: amethyst
@@ -1972,10 +1976,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 64
-        rarity: common
+- variants:
+    - set: rotf
+      id: 64
+      rarity: common
   cost: 2
   inkwell: true
   color: amethyst
@@ -2001,10 +2005,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 65
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 65
+      rarity: uncommon
   cost: 4
   color: amethyst
   type: item
@@ -2024,10 +2028,10 @@
   actions:
     - for_all_eternity
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 66
-        rarity: common
+- variants:
+    - set: rotf
+      id: 66
+      rarity: common
   cost: 1
   color: amethyst
   type: item
@@ -2047,10 +2051,10 @@
   actions:
     - hurtling_hedgehog
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 67
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 67
+      rarity: rare
   cost: 2
   color: amethyst
   type: item
@@ -2074,10 +2078,10 @@
   actions:
     - to_wonderland
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 68
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 68
+      rarity: rare
   cost: 3
   color: amethyst
   type: item
@@ -2101,10 +2105,10 @@
   actions:
     - knowledge
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 69
-        rarity: common
+- variants:
+    - set: rotf
+      id: 69
+      rarity: common
   lore: 2
   cost: 4
   inkwell: true
@@ -2130,12 +2134,13 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 70
-        rarity: legendary
-      - id: 210
-        rarity: enchanted
+- variants:
+    - set: rotf
+      id: 70
+      rarity: legendary
+    - set: rotf
+      id: 210
+      rarity: enchanted
   lore: 2
   cost: 6
   inkwell: true
@@ -2167,10 +2172,10 @@
   actions:
     - second_wind
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 71
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 71
+      rarity: uncommon
   lore: 1
   cost: 3
   attack: 2
@@ -2201,10 +2206,10 @@
   actions:
     - use_your_imagination
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 72
-        rarity: legendary
+- variants:
+    - set: rotf
+      id: 72
+      rarity: legendary
   lore: 3
   cost: 5
   attack: 3
@@ -2236,13 +2241,13 @@
     - shift_3
     - thorny_arrows
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 73
-        rarity: uncommon
-    promos:
-      - id: 15
-        rarity: organized_play
+- variants:
+    - set: rotf
+      id: 73
+      rarity: uncommon
+    - set: promos
+      id: 15
+      rarity: organized_play
   lore: 1
   cost: 2
   inkwell: true
@@ -2274,10 +2279,10 @@
     - ward
     - squeak
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 74
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 74
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -2306,10 +2311,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 75
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 75
+      rarity: super_rare
   lore: 2
   cost: 8
   inkwell: true
@@ -2337,10 +2342,10 @@
     - evasive
     - wicked_smile
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 76
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 76
+      rarity: uncommon
   lore: 2
   cost: 4
   inkwell: true
@@ -2371,10 +2376,10 @@
   actions:
     - thwart
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 77
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 77
+      rarity: uncommon
   lore: 2
   cost: 4
   inkwell: true
@@ -2402,10 +2407,10 @@
     - shift_3
     - allow_me
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 78
-        rarity: common
+- variants:
+    - set: rotf
+      id: 78
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -2431,10 +2436,10 @@
   actions:
     - startled_awake
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 79
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 79
+      rarity: super_rare
   lore: 3
   cost: 7
   inkwell: true
@@ -2463,10 +2468,10 @@
     - evasive
     - youre_in_my_world
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 80
-        rarity: common
+- variants:
+    - set: rotf
+      id: 80
+      rarity: common
   lore: 2
   cost: 2
   inkwell: true
@@ -2497,10 +2502,10 @@
   actions:
     - true_form
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 81
-        rarity: common
+- variants:
+    - set: rotf
+      id: 81
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -2531,10 +2536,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 82
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 82
+      rarity: rare
   lore: 4
   cost: 4
   attack: 2
@@ -2563,10 +2568,10 @@
     - evasive
     - one_last_big_score
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 83
-        rarity: common
+- variants:
+    - set: rotf
+      id: 83
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -2593,10 +2598,10 @@
   actions:
     - yes_im_intimidating
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 84
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 84
+      rarity: rare
   lore: 2
   cost: 6
   inkwell: true
@@ -2623,10 +2628,10 @@
   actions:
     - mouse_catcher
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 85
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 85
+      rarity: rare
   lore: 2
   cost: 5
   attack: 2
@@ -2655,10 +2660,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 86
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 86
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -2681,10 +2686,10 @@
   actions:
     - coming_your_most_lugubriousness
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 87
-        rarity: common
+- variants:
+    - set: rotf
+      id: 87
+      rarity: common
   lore: 2
   cost: 3
   attack: 2
@@ -2714,12 +2719,13 @@
   actions:
     - i_can_handle_it
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 88
-        rarity: rare
-      - id: 209
-        rarity: enchanted
+- variants:
+    - set: rotf
+      id: 88
+      rarity: rare
+    - set: rotf
+      id: 209
+      rarity: enchanted
   lore: 2
   cost: 5
   inkwell: true
@@ -2744,10 +2750,10 @@
     - take_that
     - whos_next
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 89
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 89
+      rarity: rare
   lore: 2
   cost: 3
   attack: 1
@@ -2779,10 +2785,10 @@
     - ward
     - i_sentence_you
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 90
-        rarity: common
+- variants:
+    - set: rotf
+      id: 90
+      rarity: common
   lore: 2
   cost: 2
   attack: 1
@@ -2813,10 +2819,10 @@
   actions:
     - royal_rage
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 91
-        rarity: common
+- variants:
+    - set: rotf
+      id: 91
+      rarity: common
   lore: 2
   cost: 4
   inkwell: true
@@ -2839,10 +2845,10 @@
   actions:
     - evasive
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 92
-        rarity: common
+- variants:
+    - set: rotf
+      id: 92
+      rarity: common
   lore: 3
   cost: 5
   inkwell: true
@@ -2873,10 +2879,10 @@
   actions:
     - evasive
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 93
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 93
+      rarity: super_rare
   cost: 3
   attack: 2
   defence: 3
@@ -2906,10 +2912,10 @@
   actions:
     - a_perfect_disguise
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 94
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 94
+      rarity: uncommon
   lore: 3
   cost: 5
   inkwell: true
@@ -2936,10 +2942,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 95
-        rarity: common
+- variants:
+    - set: rotf
+      id: 95
+      rarity: common
   lore: 2
   cost: 5
   inkwell: true
@@ -2966,10 +2972,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 96
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 96
+      rarity: rare
   cost: 3
   color: emerald
   type: action
@@ -2994,10 +3000,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 97
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 97
+      rarity: uncommon
   cost: 2
   color: emerald
   type: action
@@ -3020,10 +3026,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 98
-        rarity: common
+- variants:
+    - set: rotf
+      id: 98
+      rarity: common
   cost: 3
   inkwell: true
   color: emerald
@@ -3047,10 +3053,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 99
-        rarity: common
+- variants:
+    - set: rotf
+      id: 99
+      rarity: common
   cost: 1
   inkwell: true
   color: emerald
@@ -3074,10 +3080,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 100
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 100
+      rarity: rare
   cost: 4
   inkwell: true
   color: emerald
@@ -3093,10 +3099,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 101
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 101
+      rarity: uncommon
   cost: 3
   inkwell: true
   color: emerald
@@ -3121,10 +3127,10 @@
   actions:
     - ring_the_bell
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 102
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 102
+      rarity: rare
   cost: 3
   color: emerald
   type: item
@@ -3140,10 +3146,10 @@
   actions:
     - snap_boom_twang
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 103
-        rarity: common
+- variants:
+    - set: rotf
+      id: 103
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -3173,10 +3179,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 104
-        rarity: common
+- variants:
+    - set: rotf
+      id: 104
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -3203,10 +3209,10 @@
   actions:
     - evasive
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 105
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 105
+      rarity: uncommon
   lore: 2
   cost: 5
   inkwell: true
@@ -3236,10 +3242,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 106
-        rarity: legendary
+- variants:
+    - set: rotf
+      id: 106
+      rarity: legendary
   lore: 1
   cost: 5
   inkwell: true
@@ -3266,10 +3272,10 @@
   actions:
     - phooey
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 107
-        rarity: common
+- variants:
+    - set: rotf
+      id: 107
+      rarity: common
   cost: 1
   inkwell: true
   attack: 3
@@ -3296,10 +3302,10 @@
     - reckless
     - easy_street
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 108
-        rarity: common
+- variants:
+    - set: rotf
+      id: 108
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -3330,10 +3336,10 @@
   actions:
     - evasive
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 109
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 109
+      rarity: rare
   lore: 1
   cost: 3
   attack: 2
@@ -3362,12 +3368,13 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 110
-        rarity: super_rare
-      - id: 211
-        rarity: enchanted
+- variants:
+    - set: rotf
+      id: 110
+      rarity: super_rare
+    - set: rotf
+      id: 211
+      rarity: enchanted
   lore: 2
   cost: 6
   attack: 3
@@ -3395,10 +3402,10 @@
     - shift_4
     - power_to_rule_at_last
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 111
-        rarity: common
+- variants:
+    - set: rotf
+      id: 111
+      rarity: common
   lore: 1
   cost: 2
   attack: 2
@@ -3428,10 +3435,10 @@
   actions:
     - not_for_you
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 112
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 112
+      rarity: rare
   lore: 2
   cost: 7
   inkwell: true
@@ -3461,10 +3468,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 113
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 113
+      rarity: uncommon
   lore: 2
   cost: 3
   inkwell: true
@@ -3487,13 +3494,13 @@
   actions:
     - evasive
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 114
-        rarity: rare
-    promos:
-      - id: 16
-        rarity: organized_play
+- variants:
+    - set: rotf
+      id: 114
+      rarity: rare
+    - set: promos
+      id: 16
+      rarity: organized_play
   lore: 1
   cost: 4
   inkwell: true
@@ -3526,10 +3533,10 @@
     - evasive
     - undersea_adventure
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 115
-        rarity: common
+- variants:
+    - set: rotf
+      id: 115
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -3559,10 +3566,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 116
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 116
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -3585,10 +3592,10 @@
   actions:
     - what_have_you_done
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 117
-        rarity: common
+- variants:
+    - set: rotf
+      id: 117
+      rarity: common
   lore: 1
   cost: 4
   attack: 4
@@ -3619,10 +3626,10 @@
   actions:
     - rush
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 118
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 118
+      rarity: super_rare
   lore: 1
   cost: 4
   attack: 3
@@ -3645,10 +3652,10 @@
   actions:
     - this_shouldnt_take_long
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 119
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 119
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -3672,10 +3679,10 @@
   actions:
     - rush
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 120
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 120
+      rarity: uncommon
   lore: 1
   cost: 5
   inkwell: true
@@ -3700,10 +3707,10 @@
     - shift_2
     - let_the_game_begin
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 121
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 121
+      rarity: rare
   lore: 2
   cost: 5
   attack: 3
@@ -3725,10 +3732,10 @@
   actions:
     - this_is_my_kingdom
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 122
-        rarity: common
+- variants:
+    - set: rotf
+      id: 122
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -3752,10 +3759,10 @@
   actions:
     - note_to_self_dont_die
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 123
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 123
+      rarity: super_rare
   lore: 2
   cost: 6
   inkwell: true
@@ -3780,10 +3787,10 @@
     - shift_4
     - champion_of_kumandra
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 124
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 124
+      rarity: uncommon
   lore: 1
   cost: 4
   inkwell: true
@@ -3814,10 +3821,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 125
-        rarity: legendary
+- variants:
+    - set: rotf
+      id: 125
+      rarity: legendary
   lore: 2
   cost: 7
   attack: 6
@@ -3848,13 +3855,14 @@
     - rush
     - daddy_isnt_here_to_save_you
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 126
-        rarity: rare
-      - id: 212
-        rarity: enchanted
-        illustrator: Rob Di Salvo
+- variants:
+    - set: rotf
+      id: 126
+      rarity: rare
+    - set: rotf
+      id: 212
+      rarity: enchanted
+      illustrator: Rob Di Salvo
   lore: 1
   cost: 3
   inkwell: true
@@ -3881,10 +3889,10 @@
   actions:
     - dont_insult_my_intelligence
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 127
-        rarity: common
+- variants:
+    - set: rotf
+      id: 127
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -3911,10 +3919,10 @@
   actions:
     - energetic
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 128
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 128
+      rarity: rare
   cost: 4
   attack: 4
   defence: 5
@@ -3939,10 +3947,10 @@
   actions:
     - reckless
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 129
-        rarity: common
+- variants:
+    - set: rotf
+      id: 129
+      rarity: common
   cost: 2
   inkwell: true
   color: ruby
@@ -3965,10 +3973,10 @@
   actions:
     - go_the_distance
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 130
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 130
+      rarity: rare
   cost: 2
   inkwell: true
   color: ruby
@@ -3987,10 +3995,10 @@
   actions:
     - teeth_and_ambitions
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 131
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 131
+      rarity: uncommon
   cost: 3
   color: ruby
   type: action
@@ -4008,10 +4016,10 @@
   actions:
     - the_most_diabolical_scheme
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 132
-        rarity: common
+- variants:
+    - set: rotf
+      id: 132
+      rarity: common
   cost: 1
   inkwell: true
   color: ruby
@@ -4032,10 +4040,10 @@
   actions:
     - what_did_you_call_me
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 133
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 133
+      rarity: uncommon
   cost: 2
   inkwell: true
   color: ruby
@@ -4058,10 +4066,10 @@
   actions:
     - you_can_fly
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 134
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 134
+      rarity: rare
   cost: 4
   color: ruby
   type: item
@@ -4085,10 +4093,10 @@
   actions:
     - you_know_what_happens
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 135
-        rarity: common
+- variants:
+    - set: rotf
+      id: 135
+      rarity: common
   cost: 2
   color: ruby
   type: item
@@ -4104,10 +4112,10 @@
   actions:
     - peter_pans_dagger
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 136
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 136
+      rarity: uncommon
   cost: 1
   color: ruby
   type: item
@@ -4131,12 +4139,13 @@
   actions:
     - sword_in_the_stone
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 137
-        rarity: legendary
-      - id: 213
-        rarity: enchanted
+- variants:
+    - set: rotf
+      id: 137
+      rarity: legendary
+    - set: rotf
+      id: 213
+      rarity: enchanted
   lore: 1
   cost: 3
   inkwell: true
@@ -4164,10 +4173,10 @@
     - good_advice
     - what_did_i_do
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 138
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 138
+      rarity: super_rare
   lore: 3
   cost: 6
   inkwell: true
@@ -4200,10 +4209,10 @@
     - shift_5
     - theres_always_a_chance
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 139
-        rarity: common
+- variants:
+    - set: rotf
+      id: 139
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -4235,10 +4244,10 @@
   actions:
     - support
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 140
-        rarity: common
+- variants:
+    - set: rotf
+      id: 140
+      rarity: common
   lore: 2
   cost: 3
   inkwell: true
@@ -4269,10 +4278,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 141
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 141
+      rarity: uncommon
   lore: 3
   cost: 3
   inkwell: true
@@ -4297,10 +4306,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 142
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 142
+      rarity: super_rare
   lore: 2
   cost: 5
   inkwell: true
@@ -4333,10 +4342,10 @@
     - ward
     - unwind
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 143
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 143
+      rarity: uncommon
   lore: 1
   cost: 2
   inkwell: true
@@ -4367,10 +4376,10 @@
   actions:
     - wait_a_minute
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 144
-        rarity: common
+- variants:
+    - set: rotf
+      id: 144
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -4401,10 +4410,10 @@
   actions:
     - now_get_going
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 145
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 145
+      rarity: uncommon
   lore: 2
   cost: 5
   inkwell: true
@@ -4432,10 +4441,10 @@
     - shift_3
     - oh_no_you_dont
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 146
-        rarity: common
+- variants:
+    - set: rotf
+      id: 146
+      rarity: common
   lore: 2
   cost: 2
   inkwell: true
@@ -4461,10 +4470,10 @@
   actions:
     - ward
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 147
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 147
+      rarity: rare
   lore: 3
   cost: 6
   attack: 4
@@ -4495,10 +4504,10 @@
     - shift_4
     - developed_brain
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 148
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 148
+      rarity: super_rare
   lore: 3
   cost: 7
   attack: 3
@@ -4528,10 +4537,10 @@
   actions:
     - ancient_insight
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 149
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 149
+      rarity: rare
   lore: 1
   cost: 4
   inkwell: true
@@ -4562,10 +4571,10 @@
   actions:
     - artificer
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 150
-        rarity: common
+- variants:
+    - set: rotf
+      id: 150
+      rarity: common
   lore: 2
   cost: 4
   attack: 3
@@ -4591,10 +4600,10 @@
   actions:
     - never_ever_lose_sight
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 151
-        rarity: common
+- variants:
+    - set: rotf
+      id: 151
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -4622,10 +4631,10 @@
   actions:
     - im_a_fast_learner
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 152
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 152
+      rarity: uncommon
   lore: 2
   cost: 3
   inkwell: true
@@ -4652,10 +4661,10 @@
   actions:
     - dont_call_me_cute
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 153
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 153
+      rarity: rare
   lore: 2
   cost: 4
   attack: 1
@@ -4685,10 +4694,10 @@
   actions:
     - tidy_up
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 154
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 154
+      rarity: uncommon
   lore: 2
   cost: 4
   inkwell: true
@@ -4711,10 +4720,10 @@
   actions:
     - its_called_a_hustle
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 155
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 155
+      rarity: rare
   lore: 2
   cost: 2
   inkwell: true
@@ -4734,10 +4743,10 @@
   actions:
     - hide_and_seek
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 156
-        rarity: common
+- variants:
+    - set: rotf
+      id: 156
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -4767,10 +4776,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 157
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 157
+      rarity: rare
   lore: 3
   cost: 4
   inkwell: true
@@ -4801,10 +4810,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 158
-        rarity: common
+- variants:
+    - set: rotf
+      id: 158
+      rarity: common
   lore: 2
   cost: 5
   inkwell: true
@@ -4826,12 +4835,13 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 159
-        rarity: legendary
-      - id: 214
-        rarity: enchanted
+- variants:
+    - set: rotf
+      id: 159
+      rarity: legendary
+    - set: rotf
+      id: 214
+      rarity: enchanted
   lore: 2
   cost: 4
   attack: 2
@@ -4855,10 +4865,10 @@
   actions:
     - i_trust_you
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 160
-        rarity: common
+- variants:
+    - set: rotf
+      id: 160
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -4884,10 +4894,10 @@
   actions:
     - ward
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 161
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 161
+      rarity: rare
   lore: 2
   cost: 3
   inkwell: true
@@ -4914,10 +4924,10 @@
   actions:
     - hunny_pot
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 162
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 162
+      rarity: rare
   cost: 4
   color: sapphire
   type: action
@@ -4937,13 +4947,13 @@
   actions:
     - falling_down_the_rabbit_hole
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 163
-        rarity: uncommon
-    promos:
-      - id: 33
-        rarity: pax_unplugged2023
+- variants:
+    - set: rotf
+      id: 163
+      rarity: uncommon
+    - set: promos
+      id: 33
+      rarity: pax_unplugged2023
   cost: 4
   inkwell: true
   color: sapphire
@@ -4970,10 +4980,10 @@
   actions:
     - four_dozen_eggs
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 164
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 164
+      rarity: uncommon
   cost: 3
   color: sapphire
   type: action
@@ -4993,10 +5003,10 @@
   actions:
     - launch
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 165
-        rarity: common
+- variants:
+    - set: rotf
+      id: 165
+      rarity: common
   cost: 1
   inkwell: true
   color: sapphire
@@ -5013,10 +5023,10 @@
   actions:
     - nothing_to_hide
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 166
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 166
+      rarity: uncommon
   cost: 3
   inkwell: true
   color: sapphire
@@ -5042,10 +5052,10 @@
     - carefulaim
     - stay_back
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 167
-        rarity: common
+- variants:
+    - set: rotf
+      id: 167
+      rarity: common
   cost: 2
   inkwell: true
   color: sapphire
@@ -5070,10 +5080,10 @@
   actions:
     - the_best_ive_ever_tasted
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 168
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 168
+      rarity: rare
   cost: 3
   color: sapphire
   type: item
@@ -5089,10 +5099,10 @@
   actions:
     - looking_for_this
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 169
-        rarity: common
+- variants:
+    - set: rotf
+      id: 169
+      rarity: common
   cost: 1
   inkwell: true
   color: sapphire
@@ -5110,10 +5120,10 @@
     - jumbo_pop
     - thats_redwood
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 170
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 170
+      rarity: uncommon
   cost: 4
   inkwell: true
   color: sapphire
@@ -5130,10 +5140,10 @@
   actions:
     - flight_cabin
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 171
-        rarity: common
+- variants:
+    - set: rotf
+      id: 171
+      rarity: common
   lore: 1
   cost: 4
   inkwell: true
@@ -5161,10 +5171,10 @@
   actions:
     - youre_not_welcome_here
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 172
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 172
+      rarity: super_rare
   lore: 1
   cost: 6
   inkwell: true
@@ -5192,10 +5202,10 @@
   actions:
     - shield_another
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 173
-        rarity: legendary
+- variants:
+    - set: rotf
+      id: 173
+      rarity: legendary
   lore: 2
   cost: 5
   inkwell: true
@@ -5224,10 +5234,10 @@
     - shift_3
     - its_better_this_way
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 174
-        rarity: common
+- variants:
+    - set: rotf
+      id: 174
+      rarity: common
   lore: 2
   cost: 3
   inkwell: true
@@ -5255,10 +5265,10 @@
   actions:
     - we_have_a_choice
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 175
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 175
+      rarity: rare
   lore: 2
   cost: 4
   inkwell: true
@@ -5284,13 +5294,13 @@
   actions:
     - insubordination
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 176
-        rarity: common
-    promos:
-      - id: 14
-        rarity: organized_play
+- variants:
+    - set: rotf
+      id: 176
+      rarity: common
+    - set: promos
+      id: 14
+      rarity: organized_play
   lore: 1
   cost: 2
   inkwell: true
@@ -5323,10 +5333,10 @@
   actions:
     - have_courage
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 177
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 177
+      rarity: super_rare
   lore: 3
   cost: 7
   inkwell: true
@@ -5361,10 +5371,10 @@
     - resist_2
     - the_singing_sword
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 178
-        rarity: common
+- variants:
+    - set: rotf
+      id: 178
+      rarity: common
   lore: 1
   cost: 5
   inkwell: true
@@ -5390,10 +5400,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 179
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 179
+      rarity: uncommon
   lore: 2
   cost: 4
   inkwell: true
@@ -5423,10 +5433,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 180
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 180
+      rarity: rare
   lore: 4
   cost: 9
   inkwell: true
@@ -5457,12 +5467,13 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 181
-        rarity: rare
-      - id: 215
-        rarity: enchanted
+- variants:
+    - set: rotf
+      id: 181
+      rarity: rare
+    - set: rotf
+      id: 215
+      rarity: enchanted
   lore: 2
   cost: 6
   inkwell: true
@@ -5492,10 +5503,10 @@
     - shift_4
     - resist_2
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 182
-        rarity: common
+- variants:
+    - set: rotf
+      id: 182
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -5522,10 +5533,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 183
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 183
+      rarity: uncommon
   lore: 1
   cost: 4
   inkwell: true
@@ -5554,10 +5565,10 @@
     - shift_2
     - now_where_were_we
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 184
-        rarity: common
+- variants:
+    - set: rotf
+      id: 184
+      rarity: common
   lore: 1
   cost: 2
   inkwell: true
@@ -5585,10 +5596,10 @@
   actions:
     - i_dont_trust_him_sire
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 185
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 185
+      rarity: rare
   lore: 2
   cost: 6
   inkwell: true
@@ -5616,10 +5627,10 @@
     - resist_1
     - scout_leader
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 185
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 185
+      rarity: uncommon
   lore: 2
   cost: 3
   inkwell: true
@@ -5646,10 +5657,10 @@
   actions:
     - payback
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 187
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 187
+      rarity: uncommon
   lore: 2
   cost: 5
   inkwell: true
@@ -5680,10 +5691,10 @@
   actions:
     - archery_lesson
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 188
-        rarity: common
+- variants:
+    - set: rotf
+      id: 188
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -5706,12 +5717,13 @@
   actions:
     - make_it_shine
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 189
-        rarity: legendary
-      - id: 216
-        rarity: enchanted
+- variants:
+    - set: rotf
+      id: 189
+      rarity: legendary
+    - set: rotf
+      id: 216
+      rarity: enchanted
   lore: 1
   cost: 4
   attack: 2
@@ -5735,10 +5747,10 @@
     - bodyguard
     - blades
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 190
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 190
+      rarity: uncommon
   lore: 2
   cost: 6
   inkwell: true
@@ -5760,10 +5772,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 191
-        rarity: common
+- variants:
+    - set: rotf
+      id: 191
+      rarity: common
   lore: 1
   cost: 3
   inkwell: true
@@ -5793,10 +5805,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 192
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 192
+      rarity: rare
   lore: 1
   cost: 7
   inkwell: true
@@ -5828,13 +5840,13 @@
   actions:
     - off_with_their_heads
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 193
-        rarity: uncommon
-    promos:
-      - id: 17
-        rarity: organized_play
+- variants:
+    - set: rotf
+      id: 193
+      rarity: uncommon
+    - set: promos
+      id: 17
+      rarity: organized_play
   lore: 1
   cost: 2
   attack: 1
@@ -5864,10 +5876,10 @@
   actions:
     - skirmish
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 194
-        rarity: common
+- variants:
+    - set: rotf
+      id: 194
+      rarity: common
   lore: 2
   cost: 2
   inkwell: true
@@ -5898,10 +5910,10 @@
   actions:
     - change_of_heart
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 195
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 195
+      rarity: uncommon
   lore: 2
   cost: 3
   inkwell: true
@@ -5934,10 +5946,10 @@
     - bodyguard
     - resist_1
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 196
-        rarity: super_rare
+- variants:
+    - set: rotf
+      id: 196
+      rarity: super_rare
   lore: 2
   cost: 4
   attack: 1
@@ -5969,10 +5981,10 @@
     - resist_2
     - what_you_give_is_what_you_get
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 197
-        rarity: common
+- variants:
+    - set: rotf
+      id: 197
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -5999,10 +6011,10 @@
     - foil
   actions: []
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 198
-        rarity: common
+- variants:
+    - set: rotf
+      id: 198
+      rarity: common
   cost: 2
   inkwell: true
   color: steel
@@ -6023,10 +6035,10 @@
   actions:
     - charge
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 199
-        rarity: common
+- variants:
+    - set: rotf
+      id: 199
+      rarity: common
   cost: 3
   color: steel
   type: action
@@ -6048,10 +6060,10 @@
   actions:
     - let_the_storm_rage_on
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 200
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 200
+      rarity: uncommon
   cost: 2
   color: steel
   type: action
@@ -6067,10 +6079,10 @@
   actions:
     - pick_a_fight
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 201
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 201
+      rarity: rare
   cost: 3
   inkwell: true
   color: steel
@@ -6089,10 +6101,10 @@
   actions:
     - strength_of_a_raging_fire
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 202
-        rarity: common
+- variants:
+    - set: rotf
+      id: 202
+      rarity: common
   cost: 1
   inkwell: true
   color: steel
@@ -6113,10 +6125,10 @@
   actions:
     - arm_yourself
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 203
-        rarity: uncommon
+- variants:
+    - set: rotf
+      id: 203
+      rarity: uncommon
   cost: 2
   color: steel
   type: item
@@ -6140,10 +6152,10 @@
   actions:
     - protection
   franchise_id: unknown
-- sets:
-    rotf:
-      - id: 204
-        rarity: rare
+- variants:
+    - set: rotf
+      id: 204
+      rarity: rare
   cost: 3
   inkwell: true
   color: steel
