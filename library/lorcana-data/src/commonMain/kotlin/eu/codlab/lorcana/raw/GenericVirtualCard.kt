@@ -16,7 +16,7 @@ data class GenericVirtualCard<A, C, F>(
     val inkwell: Boolean = false,
     val attack: Int? = null,
     val defence: Int? = null,
-    val sets: Map<SetDescription, List<SetItem>> = emptyMap(),
+    val sets: Map<SetDescription, List<SetItem<C>>> = emptyMap(),
     val color: InkColor,
     val lore: Int? = null,
     val type: CardType,
@@ -42,7 +42,13 @@ fun RawVirtualCard.to(
     inkwell = inkwell,
     attack = attack,
     defence = defence,
-    sets = sets,
+    sets = mutableMapOf<SetDescription, List<SetItem<ClassificationHolder>>>().let { map ->
+        sets.keys.forEach {
+            map[it] = sets[it]!!.map { it.to(mapOfClassifications) }
+        }
+
+        map
+    },
     color = color,
     type = type,
     classifications = classifications.map { slug ->

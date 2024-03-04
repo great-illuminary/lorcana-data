@@ -2293,11 +2293,58 @@
     tcg_player: ''
 - sets:
     iti:
-      - id: 90
+      - id: 91
         rarity: legendary
+      - id: 91
+        rarity: legendary
+        erratas:
+          en:
+            classifications:
+              - storyborn
+              - villain
+              - sorcerer
+          fr:
+            classifications:
+              - storyborn
+              - villain
+              - sorcerer
+          de:
+            classifications:
+              - storyborn
+              - villain
+              - sorcerer
+          it:
+            classifications:
+              - storyborn
+              - villain
+              - sorcerer
       - id: 212
         rarity: enchanted
         illustrator: John Loren / Nicholas Kole
+      - id: 212
+        rarity: enchanted
+        illustrator: John Loren / Nicholas Kole
+        erratas:
+          en:
+            classifications:
+              - storyborn
+              - villain
+              - sorcerer
+          fr:
+            classifications:
+              - storyborn
+              - villain
+              - sorcerer
+          de:
+            classifications:
+              - storyborn
+              - villain
+              - sorcerer
+          it:
+            classifications:
+              - storyborn
+              - villain
+              - sorcerer
   lore: 1
   cost: 3
   inkwell: true

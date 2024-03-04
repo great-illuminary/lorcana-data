@@ -106,7 +106,10 @@ sets: []
   key: string
     id: int
     rarity: common|uncommon|rare|super_rare|enchanted
-    illustrator: string? 
+    illustrator: string?
+    erratas: Map<Lang, Erratas>?
+      lang: Erratas
+        - classifications: ClassificationHolder[]? # slug, en, fr, de
 # in case of regular flatten version:
 number: int
 setCode: string
