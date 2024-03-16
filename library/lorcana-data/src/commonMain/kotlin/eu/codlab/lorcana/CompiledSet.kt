@@ -2,7 +2,7 @@ package eu.codlab.lorcana
 
 import eu.codlab.lorcana.raw.SetDescription
 import eu.codlab.lorcana.raw.VirtualCard
-import eu.codlab.lorcana.utils.Provider
+import eu.codlab.tcgmapper.Provider
 import korlibs.datastructure.iterators.parallelMap
 import kotlinx.serialization.StringFormat
 import kotlinx.serialization.builtins.ListSerializer

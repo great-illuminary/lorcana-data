@@ -2,7 +2,8 @@ package eu.codlab.lorcana
 
 import eu.codlab.lorcana.cards.ClassificationHolder
 import eu.codlab.lorcana.resources.Resources
-import eu.codlab.lorcana.utils.AbstractLoader
+import eu.codlab.lorcana.utils.LorcanaConfiguration.github
+import eu.codlab.tcgmapper.AbstractLoader
 import kotlinx.serialization.builtins.ListSerializer
 
 /**
@@ -12,5 +13,6 @@ import kotlinx.serialization.builtins.ListSerializer
 object Classifications : AbstractLoader<List<ClassificationHolder>>(
     Resources.files.classifications,
     "classifications",
-    ListSerializer(ClassificationHolder.serializer())
+    ListSerializer(ClassificationHolder.serializer()),
+    github
 )

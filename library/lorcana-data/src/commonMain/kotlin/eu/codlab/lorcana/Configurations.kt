@@ -3,7 +3,8 @@ package eu.codlab.lorcana
 import eu.codlab.lorcana.cards.Language
 import eu.codlab.lorcana.raw.SetDescription
 import eu.codlab.lorcana.resources.Resources
-import eu.codlab.lorcana.utils.AbstractLoader
+import eu.codlab.lorcana.utils.LorcanaConfiguration.github
+import eu.codlab.tcgmapper.AbstractLoader
 import kotlinx.serialization.Serializable
 
 @Serializable
@@ -41,5 +42,6 @@ data class Configuration(
 object Configurations : AbstractLoader<Configuration>(
     Resources.files.configuration,
     "configuration",
-    Configuration.serializer()
+    Configuration.serializer(),
+    github
 )

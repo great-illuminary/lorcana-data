@@ -1,9 +1,9 @@
 package eu.codlab.lorcana
 
 import eu.codlab.lorcana.abilities.Ability
-import eu.codlab.lorcana.abilities.TranslationHolder
 import eu.codlab.platform.Platform
 import eu.codlab.platform.currentPlatform
+import eu.codlab.tcgmapper.TranslationHolder
 import kotlinx.coroutines.test.runTest
 import kotlin.test.Test
 import kotlin.test.assertNotNull
@@ -40,7 +40,7 @@ class TestLoadingAbilities {
         throw err
     }
 
-    private fun checkTranslation(translationHolder: TranslationHolder?) {
+    private fun checkTranslation(translationHolder: TranslationHolder<String>?) {
         translationHolder?.let {
             // assertNotNull(it.de)
             // assertNotNull(it.fr)

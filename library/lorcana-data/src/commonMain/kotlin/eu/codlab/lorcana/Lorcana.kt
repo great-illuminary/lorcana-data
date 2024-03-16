@@ -7,6 +7,7 @@ import eu.codlab.lorcana.raw.to
 import korlibs.datastructure.iterators.parallelMap
 
 class Lorcana {
+
     suspend fun loadFromResources(): LorcanaLoaded {
         val abilities = Abilities.loadFromResource()
         val configuration = Configurations.loadFromResource()

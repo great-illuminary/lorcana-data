@@ -2,8 +2,9 @@ package eu.codlab.lorcana.raw
 
 import dev.icerock.moko.resources.FileResource
 import eu.codlab.lorcana.resources.Resources
-import eu.codlab.lorcana.utils.AbstractLoader
-import eu.codlab.lorcana.utils.Provider
+import eu.codlab.lorcana.utils.LorcanaConfiguration.github
+import eu.codlab.tcgmapper.AbstractLoader
+import eu.codlab.tcgmapper.Provider
 import kotlinx.serialization.StringFormat
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.serializer
@@ -25,7 +26,8 @@ enum class RawSet(
                 String.serializer(),
                 String.serializer()
             )
-        )
+        ),
+        github
     )
 
     suspend fun loadFromGithub(tag: String = "main"): List<RawVirtualCard> =

@@ -6,7 +6,7 @@ pluginManagement {
     }
 }
 
-ext.DOLBYIO_GRADLE_VERSION_USED = "v1.4.0"
+ext.DOLBYIO_GRADLE_VERSION_USED = "v1.7.1"
 
 apply from: "https://raw.githubusercontent.com/voxeet/voxeet-sdk-android-gradle/${ext.DOLBYIO_GRADLE_VERSION_USED}/dolbyio.gradle"
 

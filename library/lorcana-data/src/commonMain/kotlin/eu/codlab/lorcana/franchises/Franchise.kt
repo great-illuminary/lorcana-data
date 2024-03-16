@@ -1,9 +1,9 @@
 package eu.codlab.lorcana.franchises
 
-import eu.codlab.lorcana.abilities.TranslationHolder
+import eu.codlab.tcgmapper.TranslationHolder
 import kotlinx.serialization.Serializable
 
 @Serializable
 data class Franchise(
-    val translations: TranslationHolder
+    val translations: TranslationHolder<String>
 )

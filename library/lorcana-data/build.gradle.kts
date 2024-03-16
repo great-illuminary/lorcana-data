@@ -1,5 +1,5 @@
+
 import com.codingfeline.buildkonfig.compiler.FieldSpec
-import org.jetbrains.dokka.gradle.DokkaTask
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import java.nio.file.Files
 
@@ -43,6 +43,7 @@ kotlin {
                 api(dolbyio.multiplatform.http.client)
 
                 api("net.mamoe.yamlkt:yamlkt:0.13.0")
+                api(libs.tcg.mapper)
             }
         }
         val commonTest by getting {

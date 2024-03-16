@@ -1,0 +1,5 @@
+[versions]
+tcg-mapper = "0.0.3"
+
+[libraries]
+tcg-mapper = { module = "eu.codlab:tcg-mapper", version.ref = "tcg-mapper" }

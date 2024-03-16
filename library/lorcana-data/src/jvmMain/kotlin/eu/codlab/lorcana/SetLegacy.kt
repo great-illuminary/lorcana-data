@@ -18,7 +18,7 @@ enum class SetLegacy(private val set: SetDescription) {
             GlobalScope.launch {
                 val lorcana = Lorcana().loadFromGithub(tag)
                 try {
-                    resolve(lorcana.set(set)!!)
+                    resolve(lorcana.set(set))
                 } catch (@Suppress("TooGenericExceptionCaught") err: Throwable) {
                     reject(err)
                 }
@@ -32,7 +32,7 @@ enum class SetLegacy(private val set: SetDescription) {
             GlobalScope.launch {
                 val lorcana = Lorcana().loadFromResources()
                 try {
-                    resolve(lorcana.set(set)!!)
+                    resolve(lorcana.set(set))
                 } catch (@Suppress("TooGenericExceptionCaught") err: Throwable) {
                     reject(err)
                 }

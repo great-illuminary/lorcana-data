@@ -3,10 +3,10 @@ package eu.codlab.lorcana
 import eu.codlab.files.VirtualFile
 import eu.codlab.lorcana.raw.RawVirtualCard
 import eu.codlab.lorcana.resources.Resources
-import eu.codlab.lorcana.utils.Provider
 import eu.codlab.moko.ext.safelyReadContent
 import eu.codlab.platform.Platform
 import eu.codlab.platform.currentPlatform
+import eu.codlab.tcgmapper.Provider
 import kotlinx.coroutines.test.runTest
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.serializer
