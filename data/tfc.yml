@@ -648,6 +648,10 @@
     - set: tfc
       id: 18
       rarity: legendary
+    - set: promos
+      id: 43
+      rarity: challenge24
+      illustrator: Grace Tran
   lore: 2
   cost: 4
   inkwell: true
@@ -4706,6 +4710,9 @@
     - set: tfc
       id: 130
       rarity: uncommon
+    - set: promos
+      id: 25
+      rarity: challenge24
   cost: 5
   color: ruby
   type: action
@@ -5901,6 +5908,9 @@
     - set: tfc
       id: 163
       rarity: rare
+    - set: promos
+      id: 41
+      rarity: challenge24
   cost: 5
   inkwell: true
   attack: 0

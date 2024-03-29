@@ -39,6 +39,9 @@ enum class VariantRarity {
     @SerialName("pax_unplugged2023")
     PaxUplugged2023,
 
+    @SerialName("challenge24")
+    Challenge24,
+
     @SerialName("worlds24")
     Worlds24
 }
