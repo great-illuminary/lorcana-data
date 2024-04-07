@@ -61,7 +61,7 @@ class TestLoadingSet {
 
     private suspend fun runTestList(provider: suspend (set: SetDescription) -> Set) {
         listOf(
-            SetDescription.Promos to 33,
+            SetDescription.Promos to 37,
             SetDescription.TFC to 216,
             SetDescription.RotF to 216
         ).forEach { (set, count) ->
