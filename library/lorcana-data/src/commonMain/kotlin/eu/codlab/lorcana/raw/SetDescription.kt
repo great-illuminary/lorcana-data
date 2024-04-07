@@ -13,5 +13,8 @@ enum class SetDescription {
     Promos,
 
     @SerialName("iti")
-    ItI
+    ItI,
+
+    @SerialName("urr")
+    UrR
 }

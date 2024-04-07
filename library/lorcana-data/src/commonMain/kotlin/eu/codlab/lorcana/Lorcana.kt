@@ -14,11 +14,10 @@ class Lorcana {
         val classifications = Classifications.loadFromResource()
             .associateBy { it.slug.slug }
         val franchises = Franchises.loadFromResource()
-        val rotf = RawSet.ROTF.loadFromResource()
-        val tfc = RawSet.TFC.loadFromResource()
-        val iti = RawSet.ITI.loadFromResource()
 
-        val virtualCards = (tfc + rotf + iti).parallelMap {
+        val list = RawSet.entries.map { it.loadFromResource() }.flatten()
+
+        val virtualCards = list.parallelMap {
             it.to(
                 abilities,
                 classifications,
@@ -40,11 +39,12 @@ class Lorcana {
         val classifications = Classifications.loadFromGithub(tag)
             .associateBy { it.slug.slug }
         val franchises = Franchises.loadFromGithub(tag)
-        val rotf = RawSet.ROTF.loadFromGithub(tag)
-        val tfc = RawSet.TFC.loadFromGithub(tag)
-        val iti = RawSet.ITI.loadFromGithub(tag)
 
-        val virtualCards = (tfc + rotf + iti).parallelMap {
+        val list = RawSet.entries.map {
+            it.loadFromGithub(tag)
+        }.flatten()
+
+        val virtualCards = list.parallelMap {
             it.to(
                 abilities,
                 classifications,

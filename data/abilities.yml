@@ -2010,7 +2010,96 @@ training:
     en: TRAINING
   text: 
     en: 'Whenever you play a character with {count} {strength} or more, you may pay {cost} {ink} to draw a card.'
-name: 
+dubious_recruitement:
+  values:
+    count: 2
+  title:
+    en: DUBIOUS RECRUITMENT
+  text:
+    en: '{flip} - You pay {count} {ink} less for the next character you play this turn.'
+dramatic_entrance:
+  values:
+    count: 5
+  title:
+    en: DRAMATIC ENTRANCE
+  text:
+    en: 'When you play this character, banish chosen opposing character with {count} {strength} or more.'
+saving_the_miracle:
+  values:
+    count: 1
+  title:
+    en: SAVING THE MIRACLE
+  text:
+    en: 'Whenever this character quests, your other Madrigal characters get +{count} {lore} this turn.'
+enhanced_healing:
+  values:
+    count: 3
+  title:
+    en: ENHANCED HEALING
+  text:
+    en: 'When you play this character, move up to {count} damage counters from chosen character to chosen opposing character.'
+you_just_have_to_see_it:
+  values:
+    count: 3
+  title:
+    en: YOU JUST HAVE TO SEE IT
+  text:
+    en: "{flip} - Name a card, then reveal the top card of your deck. If it's the named card, put that card into your hand and gain {count} {lore}. Otherwise, put it on the top of your deck."
+i_clobber_your:
+  values:
+    count: 5
+    count2: 2
+  title:
+    en: "I CLOBBER YOU!"
+  text:
+    en: "Whenever this character quests while he has {count} {strength} or more, return chosen character with {count2} {strength} or less to their player's hand."
+target_practice:
+  title:
+    en: TARGET PRACTICE
+  text:
+    en: "Whenever this character challenges another character, he gets +{strength} equal to the {strength} of chosen character this turn."
+narrow_advantage:
+  values:
+    count: 3
+  title:
+    en: "NARROW ADVANTAGE"
+  text:
+    en: "At the start of your turn, if you have a character in play with more {strength} than each opposing character, gain {count} {lore}."
+dont_cross_me:
+  values:
+    count: 1
+  title:
+    en: "DON'T CROSS ME"
+  text:
+    en: "Whenever this character challenges another character, gain {count} {lore} for each other damaged character you have in play."
+let_me_help_you:
+  values:
+    count: 1
+  title:
+    en: "LET ME HELP YOU"
+  text:
+    en: "Whenever this character quests, your other Hero characters get +{count} {lore} this turn."
+the_girl_who_has_everything:
+  values:
+    count: 2
+  title:
+    en: "THE GIRL WHO HAS EVERYTHING"
+  text:
+    en: "While you have more items in play than each opponent, this character gets +{count} {lore}."
+amplified_voice:
+  values:
+    count: 3
+    cost: 2
+  title:
+    en: "AMPLIFIED VOICE"
+  text:
+    en: "Whenever you play a song, you may pay {cost} {ink} to deal {count} damages to chosen character."
+you_gave_it_your_best:
+  title:
+    en: "YOU GAVE IT YOUR BEST"
+  text:
+    en: "During your turn, whenever this character banishes another characterin a challenge, you may draw a card."
+name:
   values: {}
 
   title: 
