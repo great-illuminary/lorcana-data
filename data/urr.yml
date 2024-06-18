@@ -1,5 +1,223 @@
 - variants:
     - set: urr
+      id: 1
+      rarity: common
+  lore: 1
+  cost: 1
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - mentor
+    - madrigal
+  illustrator: Eri Welli
+  languages:
+    en:
+      name: Agustin Madrigal
+      title: Clumsy Dad
+      flavour: Falling for Julieta was the easiest thing he'd ever done.
+  edition:
+    - regular
+    - foil
+  franchise_id: 'encanto'
+- variants:
+    - set: urr
+      id: 2
+      rarity: rare
+  lore: 2
+  cost: 3
+  inkwell: false
+  attack: 1
+  defence: 3
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - mentor
+    - madrigal
+  illustrator: Maxine Vee
+  languages:
+    en:
+      name: Alma Madrigal
+      title: Family Matriarch
+      flavour: "Let's be clear, Abuela runs this show." - Mirabel
+  edition:
+    - regular
+    - foil
+  franchise_id: 'encanto'
+- variants:
+    - set: urr
+      id: 3
+      rarity: rare
+  lore: 2
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - hero
+    - princess
+  illustrator: Matthew Robert Davies
+  languages:
+    en:
+      name: Ariel
+      title: Singing Mermaid
+      flavour: "Watch and you'll see - some day i'll be part of your world!"
+  edition:
+    - regular
+    - foil
+  franchise_id: the-little-mermaid
+- variants:
+    - set: urr
+      id: 4
+      rarity: legendary
+  lore: 2
+  cost: 5
+  inkwell: true
+  attack: 1
+  defence: 5
+  color: amber
+  type: glimmer
+  classifications:
+    - dreamborn
+    - hero
+    - princess
+  illustrator: Miss Tania Soler
+  languages:
+    en:
+      name: Cinderella
+      title: Melody Weaver
+  edition:
+    - regular
+    - foil
+  franchise_id: cinderella
+- variants:
+    - set: urr
+      id: 5
+      rarity: common
+  lore: 1
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: amber
+  type: glimmer
+  classifications:
+    - dreamborn
+    - ally
+  illustrator: Heidi Neunhoffer
+  languages:
+    en:
+      name: Cogsworth
+      title: Majordomo
+  edition:
+    - regular
+    - foil
+  franchise_id: beauty-and-the-beast
+- variants:
+    - set: urr
+      id: 6
+      rarity: uncommon
+  lore: 1
+  cost: 1
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: amber
+  type: glimmer
+  classifications:
+    - dreamborn
+    - ally
+  illustrator: Stefano Zanchi
+  languages:
+    en:
+      name: Daisy Duck
+      title: Lovely Lady
+      flavour: Sweet Daisy, the fairest duck I ever met. Each flaxen lock a rush of flowing gold. Her bill the color of summer sunset. Exquisite plumes, a wonder to behold.
+  edition:
+    - regular
+    - foil
+  franchise_id: unknown
+- variants:
+    - set: urr
+      id: 7
+      rarity: common
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: amber
+  type: glimmer
+  classifications:
+    - dreamborn
+    - hero
+    - musketeer
+  illustrator: Kendall Hale
+  languages:
+    en:
+      name: Daisy Duck
+      title: Muskteer Spy
+  edition:
+    - regular
+    - foil
+  franchise_id: unknown
+- variants:
+    - set: urr
+      id: 8
+      rarity: uncommon
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: amber
+  type: glimmer
+  classifications:
+    - dreamborn
+    - hero
+    - musketeer
+  illustrator: Jochem van Gool
+  languages:
+    en:
+      name: Donal Duck
+      title: Musketeer Soldier
+  edition:
+    - regular
+    - foil
+  franchise_id: unknown
+- variants:
+    - set: urr
+      id: 9
+      rarity: uncommon
+  lore: 2
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+    - madrigal
+  illustrator: Hedvig Häggman-Sund
+  languages:
+    en:
+      name: Félix Madrigal
+      title: Fun-Loving Family Man
+  edition:
+    - regular
+    - foil
+  franchise_id: encanto
+- variants:
+    - set: urr
       id: 10
       rarity: super_rare
   lore: 1
