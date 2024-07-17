@@ -247,6 +247,185 @@
     tcg_player: ''
 - variants:
     - set: urr
+      id: 11
+      rarity: rare
+  lore: 2
+  cost: 1
+  inkwell: true
+  attack: 1
+  defence: 4
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+  illustrator: Andrea Parisi
+  languages:
+    en:
+      name: Golden Harp
+      title: Enchanter of the Land
+      flavour: You'll miss her when she's gone.
+  edition:
+    - regular
+    - foil
+  actions:
+    - stolen_away
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 12
+      rarity: rare
+  lore: 3
+  cost: 4
+  inkwell: false
+  attack: 3
+  defence: 4
+  color: amber
+  type: glimmer
+  classifications:
+    - dreamborn
+    - hero
+    - musketeer
+  illustrator: Carlos Luzzi
+  languages:
+    en:
+      name: Goofy
+      title: Musketeer Swordsman
+      flavour: '"Count me in!"'
+  edition:
+    - regular
+    - foil
+  actions:
+    - en_gawrsh
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 13
+      rarity: uncommon
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 1
+  defence: 4
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - mentor
+    - madrigal
+  illustrator: Cristian Romero
+  languages:
+    en:
+      name: Julieta Madrigal
+      title: Excellent Cook
+      flavour: '"Eat this, mi amor."'
+  edition:
+    - regular
+    - foil
+  actions:
+    - signature_recipe
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 14
+      rarity: common
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 4
+  defence: 3
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+  illustrator: Stefano Zanchi
+  languages:
+    en:
+      name: Max
+      title: Loyal Sheepdog
+  edition:
+    - regular
+    - foil
+  actions:
+    - here_boy
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 15
+      rarity: uncommon
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 5
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - hero
+  illustrator: Filipe Laurentino
+  languages:
+    en:
+      name: Mickey Mouse
+      title: Leader of the Band
+  edition:
+    - regular
+    - foil
+  actions:
+    - support
+    - strike_up_the_music
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 16
+      rarity: legendary
+  lore: 2
+  cost: 7
+  inkwell: false
+  attack: 3
+  defence: 6
+  color: amber
+  type: glimmer
+  classifications:
+    - floodborn
+    - hero
+    - musketeer
+    - captain
+  illustrator: Jochem van Gool
+  languages:
+    en:
+      name: Mickey Mouse
+      title: Musketeer Captain
+  edition:
+    - regular
+    - foil
+  actions:
+    - shift_5
+    - bodyguard
+    - support
+    - musketeers_united
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
       id: 17
       rarity: super_rare
   lore: 2
@@ -309,6 +488,440 @@
     tcg_player: ''
 - variants:
     - set: urr
+      id: 19
+      rarity: common
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - hero
+    - madrigal
+  illustrator: Samanta Erdini
+  languages:
+    en:
+      name: Mirabel Madrigal
+      title: Prophecy Finder
+      flavour: ''
+  edition:
+    - regular
+    - foil
+  actions:
+    - support
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 20
+      rarity: common
+  lore: 2
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 5
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+  illustrator: Kenneth Anderson
+  languages:
+    en:
+      name: Pluto
+      title: Rescue Dog
+      flavour: ''
+  edition:
+    - regular
+    - foil
+  actions:
+    - to_the_rescue
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 21
+      rarity: common
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: amber
+  type: glimmer
+  classifications:
+    - dreamborn
+    - hero
+    - prince
+  illustrator: Linh Dang
+  languages:
+    en:
+      name: Prince Eric
+      title: Seafaring Prince
+      flavour: ''
+  edition:
+    - regular
+    - foil
+  actions:
+    - bodyguard
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 22
+      rarity: uncommon
+  lore: 2
+  cost: 6
+  inkwell: true
+  attack: 5
+  defence: 5
+  color: amber
+  type: glimmer
+  classifications:
+    - floodborn
+    - hero
+    - prince
+  illustrator: Lisanne Koeteeuw
+  languages:
+    en:
+      name: Prince Eric
+      title: Ursula's Groom
+      flavour: ''
+  edition:
+    - regular
+    - foil
+  actions:
+    - shift_4
+    - under_vannessa_spell
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 23
+      rarity: common
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - hero
+    - alien
+  illustrator: Aisha Durmagambetova
+  languages:
+    en:
+      name: Stitch
+      title: Alien Dancer
+      flavour: 'Moving to the music, he begins to understand the true meaning of ohana and how he fits into the family he has found.'
+  edition:
+    - regular
+    - foil
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 24
+      rarity: rare
+  lore: 2
+  cost: 4
+  inkwell: false
+  attack: 2
+  defence: 4
+  color: amber
+  type: glimmer
+  classifications:
+    - floodborn
+    - villain
+    - princess
+    - sorcerer
+  illustrator: Lisanna Koeteeuw
+  languages:
+    en:
+      name: Ursula
+      title: Eric's Bride
+  edition:
+    - regular
+    - foil
+  actions:
+    - shift_discard_song
+    - vannessa_design
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 25
+      rarity: common
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 4
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - villain
+    - sorcerer
+  illustrator: Angela Simpson
+  languages:
+    en:
+      name: Ursula
+      title: Vanessa
+  edition:
+    - regular
+    - foil
+  actions:
+    - singer_4
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 25
+      rarity: uncommon
+  cost: 2
+  inkwell: false
+  color: amber
+  type: action
+  illustrator: Cristian Romero
+  languages:
+    en:
+      name: Bruno's Return
+  edition:
+    - regular
+    - foil
+  actions:
+    - bruno_return
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 27
+      rarity: common
+  cost: 2
+  inkwell: true
+  color: amber
+  type: action
+  illustrator: Gonzalo Kenny
+  languages:
+    en:
+      name: First Aid
+  edition:
+    - regular
+    - foil
+  actions:
+    - first_aid
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 28
+      rarity: rare
+  cost: 7
+  inkwell: true
+  color: amber
+  type: song
+  illustrator: Giulia Riva
+  languages:
+    en:
+      name: Look At This Family
+  edition:
+    - regular
+    - foil
+  actions:
+    - sing_together_7
+    - look_at_this_family
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 29
+      rarity: rare
+  cost: 4
+  inkwell: true
+  color: amber
+  type: song
+  illustrator: Ellie Horie
+  languages:
+    en:
+      name: Lost In The Woods
+  edition:
+    - regular
+    - foil
+  actions:
+    - lost_in_the_woods
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 30
+      rarity: uncommon
+  cost: 3
+  inkwell: false
+  color: amber
+  type: action
+  illustrator: Mariana Moreno Ayala
+  languages:
+    en:
+      name: Sign The Scroll
+  edition:
+    - regular
+    - foil
+  actions:
+    - sign_the_scroll
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 31
+      rarity: rare
+  cost: 2
+  inkwell: true
+  color: amber
+  type: item
+  illustrator: Kuya Jaypi
+  languages:
+    en:
+      name: Miracle Candle
+  edition:
+    - regular
+    - foil
+  actions:
+    - miracle_candle
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 32
+      rarity: common
+  cost: 2
+  inkwell: true
+  color: amber
+  type: item
+  illustrator: Simone Buonfantino
+  languages:
+    en:
+      name: Record Player
+  edition:
+    - regular
+    - foil
+  actions:
+    - record_player
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 33
+      rarity: common
+  cost: 1
+  inkwell: true
+  move_cost: 2
+  defence: 4
+  color: amber
+  type: location
+  illustrator: Alex Shin
+  languages:
+    en:
+      name: Atlantica
+      title: Concert Hall
+  edition:
+    - regular
+    - foil
+  actions:
+    - underwater_acoustics
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 34
+      rarity: rare
+  lore: 1
+  cost: 2
+  inkwell: true
+  defence: 6
+  move_cost: 2
+  color: amber
+  type: location
+  illustrator: Jeremy Adams
+  languages:
+    en:
+      name: The Underworld
+      title: River Styx
+      flavour: ''
+  edition:
+    - regular
+    - foil
+  actions:
+    - save_soul
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 35
+      rarity: uncommon
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+    - madrigal
+  illustrator: Ellie Horie
+  languages:
+    en:
+      name: Antonio Madrigal
+      title: Animal Expert
+      flavour: '"Once upon a time, there was a casita in the mountains with a very special family....'
+  edition:
+    - regular
+    - foil
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
       id: 36
       rarity: super_rare
   lore: 2
@@ -335,6 +948,66 @@
     - shift_3
     - enhanced_healing
   franchise_id: 'beauty-and-the-beast'
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 37
+      rarity: common
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: amber
+  type: glimmer
+  classifications:
+    - dreamborn
+    - hero
+    - princess
+  illustrator: Angelina Ricardo
+  languages:
+    en:
+      name: Belle
+      title: Untrained Mystic
+      flavour: No matter what she tried, Belle couldn't completely heal Beast's wound.
+  edition:
+    - regular
+    - foil
+  actions:
+    - here_now_dont_do_that
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 38
+      rarity: rare
+  lore: 1
+  cost: 5
+  inkwell: false
+  attack: 4
+  defence: 5
+  color: amber
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+    - madrigal
+  illustrator: Aubrey Archer
+  languages:
+    en:
+      name: Bruno Madrigal
+      title: Out of the Shadows
+      flavour: ''
+  edition:
+    - regular
+    - foil
+  actions:
+    - it_was_your_vision
+  franchise_id: ''
   third_party:
     card_market: ''
     tcg_player: ''
