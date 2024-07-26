@@ -901,7 +901,7 @@
   inkwell: true
   attack: 3
   defence: 4
-  color: amber
+  color: amethyst
   type: glimmer
   classifications:
     - storyborn
@@ -960,7 +960,7 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: amber
+  color: amethyst
   type: glimmer
   classifications:
     - dreamborn
@@ -990,7 +990,7 @@
   inkwell: false
   attack: 4
   defence: 5
-  color: amber
+  color: amethyst
   type: glimmer
   classifications:
     - storyborn
@@ -1042,6 +1042,734 @@
   third_party:
     card_market: ''
     tcg_player: ''
+- variants:
+    - set: urr
+      id: 40
+      rarity: uncommon
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 5
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+    - madrigal
+  illustrator: Emily Abeydeera
+  languages:
+    en:
+      name: Camilo Madrigal
+      title: Prankster
+      flavour: ''
+  edition:
+    - regular
+    - foil
+  actions:
+    - many_forms
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 41
+      rarity: uncommon
+  lore: 2
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+    - madrigal
+  illustrator: Otto Paredes
+  languages:
+    en:
+      name: Dolores Madrigal
+      title: Easy Listener
+  edition:
+    - regular
+    - foil
+  actions:
+    - magical_informant
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 42
+      rarity: rare
+  lore: 1
+  cost: 3
+  inkwell: false
+  attack: 1
+  defence: 4
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - hero
+    - queen
+    - sorcerer
+  illustrator: Mariana Moreno
+  languages:
+    en:
+      name: Elsa
+      title: Storm Chaser
+      flavour: After Elsa dispersed Ursula's storm, Anna was nowhere to be found.
+  edition:
+    - regular
+    - foil
+  actions:
+    - tempest
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 43
+      rarity: uncommon
+  lore: 1
+  cost: 3
+  inkwell: false
+  attack: 4
+  defence: 2
+  color: amethyst
+  type: glimmer
+  classifications:
+    - dreamborn
+    - ally
+  illustrator: Brian Kesinger
+  languages:
+    en:
+      name: Flotsam
+      title: Ursula's "Baby"
+      flavour: '"Now the crown and the trident are mine!" - Ursula'
+  edition:
+    - regular
+    - foil
+  actions:
+    - quick_escape
+    - ominous_pair_jetsam
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 44
+      rarity: uncommon
+  lore: 2
+  cost: 6
+  inkwell: true
+  attack: 5
+  defence: 5
+  color: amethyst
+  type: glimmer
+  classifications:
+    - floodborn
+    - ally
+  illustrator: Brian Kesinger
+  languages:
+    en:
+      name: Flotsam & Jetsam
+      title: Entangling Eels
+  edition:
+    - regular
+    - foil
+  actions:
+    - shift_discard_2
+    - count_jetsam_flotsam
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 45
+      rarity: rare
+  lore: 1
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+    - madrigal
+  illustrator: Otto Paredes
+  languages:
+    en:
+      name: Isabela Madrigal
+      title: Golden Child
+  edition:
+    - regular
+    - foil
+  actions:
+    - evasive
+    - ladies_first
+    - leave_it_to_me
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 46
+      rarity: common
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  color: amethyst
+  type: glimmer
+  classifications:
+    - dreamborn
+    - ally
+  illustrator: Brian Kesinger
+  languages:
+    en:
+      name: Jetsam
+      title: Ursula's "Baby"
+      flavour: He snatched the trident from the betrayed glimmer.
+  edition:
+    - regular
+    - foil
+  actions:
+    - challenger_2
+    - ominous_pair_flotsam
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 47
+      rarity: common
+  lore: 1
+  cost: 4
+  inkwell: false
+  attack: 4
+  defence: 3
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+    - madrigal
+  illustrator: Juan Diego Leon
+  languages:
+    en:
+      name: Luisa Madrigal
+      title: Magically Strong One
+      flavour: '"This Rock? No problem. Go get that prophecy, hermana!'
+  edition:
+    - regular
+    - foil
+  actions:
+    - rush
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 48
+      rarity: common
+  lore: 1
+  cost: 1
+  inkwell: true
+  attack: 1
+  defence: 2
+  color: amethyst
+  type: glimmer
+  classifications:
+    - dreamborn
+    - broom
+  illustrator: Eva Widermann
+  languages:
+    en:
+      name: Magic Broom
+      title: Illuminary Keeper
+      flavour: 'Just a few barnacles away from retirement...'
+  edition:
+    - regular
+    - foil
+  actions:
+    - nice_and_tidy
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 49
+      rarity: common
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  color: amethyst
+  type: glimmer
+  classifications:
+    - dreamborn
+    - broom
+  illustrator: Rudy Hill
+  languages:
+    en:
+      name: Magic Broom
+      title: Lively Sweeper
+      flavour: Clean like no one's watching
+  edition:
+    - regular
+    - foil
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 50
+      rarity: uncommon
+  lore: 2
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+  illustrator: Natalia Trykowska
+  languages:
+    en:
+      name: Magical Maid
+      title: Feather Duster
+      flavour: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 51
+      rarity: uncommon
+  lore: 1
+  cost: 3
+  inkwell: false
+  attack: 0
+  defence: 3
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+  illustrator: Simone Buonfantino
+  languages:
+    en:
+      name: Marshmallow
+      title: Terrifying Snowman
+      flavour: '"You're very strong. Do you work out?" - Olaf'
+  actions:
+    - behemoth
+  edition:
+    - regular
+    - foil
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 52
+      rarity: rare
+  lore: 2
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+  illustrator: Veronica Di Lorenzo / Livio Cacciatore
+  languages:
+    en:
+      name: Mrs. Potts
+      title: Enchanted Teapot
+  actions:
+    - it_ll_turn_out_all_right
+  edition:
+    - regular
+    - foil
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 53
+      rarity: rare
+  lore: 1
+  cost: 5
+  inkwell: false
+  attack: 1
+  defence: 5
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+    - madrigal
+  illustrator: Samanta Erdini
+  languages:
+    en:
+      name: Pepa Madrigal
+      title: Weather Maker
+  actions:
+    - it_looks_like_rain
+  edition:
+    - regular
+    - foil
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 54
+      rarity: super_rare
+  lore: 1
+  cost: 3
+  inkwell: false
+  attack: 2
+  defence: 3
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - hero
+  illustrator: Emily Abeydeera
+  languages:
+    en:
+      name: Peter Pan
+      title: Shadow Finder
+  actions:
+    - rush
+    - evasive
+    - fly_of_course
+  edition:
+    - regular
+    - foil
+  franchise_id: ''
+  third_party:
+    card_market: ''
+    tcg_player: ''
+- variants:
+    - set: urr
+      id: 55
+      rarity: common
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 3
+  defence: 2
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+  illustrator: Hadjie Joos
+  languages:
+    en:
+      name: Pico
+      title: Helpful Toucan
+  actions:
+    - rush
+    - evasive
+    - fly_of_course
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 56
+      rarity: uncommon
+  lore: 1
+  cost: 6
+  inkwell: true
+  attack: 4
+  defence: 7
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - ally
+  illustrator: Kenneth Anderson
+  languages:
+    en:
+      name: Tick-Tock
+      title: Ever-Present Pursuer
+  actions:
+    - evasive
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 57
+      rarity: uncommon
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: amethyst
+  type: glimmer
+  classifications:
+    - dreamborn
+    - villain
+    - sorcerer
+  illustrator: Adam Ford
+  languages:
+    en:
+      name: Ursula
+      title: Mad Sea Witch
+  actions:
+    - challenger_2
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 58
+      rarity: legendary
+  lore: 3
+  cost: 7
+  inkwell: true
+  attack: 4
+  defence: 7
+  color: amethyst
+  type: glimmer
+  classifications:
+    - floodborn
+    - villain
+    - queen
+    - sorcerer
+  illustrator: LadyShalirin
+  languages:
+    en:
+      name: Ursula
+      title: Sea Witch Queen
+  actions:
+    - shift_5
+    - now_am_the_ruler
+    - youll_listen_to_me
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 59
+      rarity: legendary
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: amethyst
+  type: glimmer
+  classifications:
+    - storyborn
+    - hero
+    - sorcerer
+  illustrator: Matthew Robert Davies
+  languages:
+    en:
+      name: Yen Sid
+      title: Powerful Sorcerer
+  actions:
+    - timely_intervention
+    - arcane_study
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 60
+      rarity: common
+  cost: 2
+  inkwell: true
+  color: amethyst
+  type: song
+  illustrator: Denny Minonne
+  languages:
+    en:
+      name: Poor Unfortunate Souls
+  actions:
+    - poor_unfortunate_souls
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 61
+      rarity: rare
+  cost: 10
+  inkwell: false
+  color: amethyst
+  type: song
+  illustrator: Natalia Trykowska
+  languages:
+    en:
+      name: Second Star To The Right
+  actions:
+    - sing_together_10
+    - second_star_to_the_right
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 62
+      rarity: common
+  cost: 1
+  inkwell: true
+  color: amethyst
+  type: action
+  illustrator: Wouter Brunnel
+  languages:
+    en:
+      name: Swing Into Action
+  actions:
+    - swing_into_action
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 63
+      rarity: uncommon
+  cost: 3
+  inkwell: false
+  color: amethyst
+  type: action
+  illustrator: Eri Welli
+  languages:
+    en:
+      name: Ursula's Plan
+  actions:
+    - ursula_plan
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 64
+      rarity: rare
+  cost: 2
+  inkwell: true
+  color: amethyst
+  type: item
+  illustrator: Olivier Désirée
+  languages:
+    en:
+      name: Mystical Rose
+  actions:
+    - dispel_the_entanglement
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 65
+      rarity: common
+  cost: 2
+  inkwell: true
+  color: amethyst
+  type: item
+  illustrator: Gabriel Angelo
+  languages:
+    en:
+      name: Rose Lantern
+  actions:
+    - mystical_petals
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 66
+      rarity: uncommon
+  cost: 2
+  inkwell: true
+  color: amethyst
+  type: item
+  illustrator: Matt Chapman
+  languages:
+    en:
+      name: Triton's Trident
+  actions:
+    - symbol_of_power
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 67
+      rarity: common
+  cost: 1
+  inkwell: true
+  defence: 6
+  color: amethyst
+  type: location
+  illustrator: Rachel Elese
+  languages:
+    en:
+      name: Casa Madrigal
+      title: Casita
+  actions:
+    - our_home
+  edition:
+    - regular
+    - foil
+- variants:
+    - set: urr
+      id: 68
+      rarity: rare
+  cost: 3
+  inkwell: false
+  defence: 6
+  color: amethyst
+  type: location
+  illustrator: Eri Welli / Sam Burley
+  languages:
+    en:
+      name: Ursula's Lair
+      title: Eye Of The Storm
+  actions:
+    - slippery_halls
+    - seat_of_power
+  edition:
+    - regular
+    - foil
+
 - variants:
     - set: urr
       id: 84
