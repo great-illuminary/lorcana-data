@@ -1,8 +1,7 @@
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     application
-    alias(dolbyio.plugins.kotlin.jvm)
-    alias(dolbyio.plugins.jetbrains.compose)
+    alias(additionals.plugins.kotlin.jvm)
     id("jvmCompat")
 }
 
@@ -15,6 +14,5 @@ application {
 
 dependencies {
     api(project(":lorcana-data"))
-    api(compose.desktop.currentOs)
-    api(dolbyio.multiplatform.file.access)
+    api(additionals.multiplatform.file.access)
 }

@@ -1,23 +1,23 @@
 buildscript {
-    apply from: gradle.dolbyio.files.modules
+    apply from: gradle.extended.files.modules
     apply from: "./gradle/iosSimulatorList.gradle"
 
     dependencies {
-        classpath dolbyio.nexus.gradlePlugin
-        classpath dolbyio.sonarqube.gradlePlugin
-        classpath dolbyio.license.gradlePlugin
-        classpath dolbyio.dokka.gradlePlugin
+        classpath additionals.nexus.gradlePlugin
+        classpath additionals.sonarqube.gradlePlugin
+        classpath additionals.license.gradlePlugin
+        classpath additionals.dokka.gradlePlugin
     }
 }
 
 plugins {
-    alias(dolbyio.plugins.dokka)
-    alias(dolbyio.plugins.publish.nexus)
-    alias(dolbyio.plugins.kotlin.multiplatform) apply false
-    alias(dolbyio.plugins.android.library) apply false
-    alias(dolbyio.plugins.kotlin.jvm) apply false
-    alias(dolbyio.plugins.multiplatform.moko.resources.generator) apply false
-    alias(dolbyio.plugins.multiplatform.buildkonfig) apply false
+    alias(additionals.plugins.dokka)
+    alias(additionals.plugins.publish.nexus)
+    alias(additionals.plugins.kotlin.multiplatform) apply false
+    alias(additionals.plugins.android.library) apply false
+    alias(additionals.plugins.kotlin.jvm) apply false
+    alias(additionals.plugins.multiplatform.moko.resources.generator) apply false
+    alias(additionals.plugins.multiplatform.buildkonfig) apply false
 }
 
 group = "eu.codlab"
@@ -32,7 +32,7 @@ subprojects {
     task allDeps(type: DependencyReportTask) {}
 
     if (isSourcesModule(it)) {
-        apply from: gradle.dolbyio.files.moduleSetup
+        apply from: gradle.extended.files.moduleSetup
     }
 }
 

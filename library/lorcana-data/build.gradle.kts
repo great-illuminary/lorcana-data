@@ -5,11 +5,11 @@ import java.nio.file.Files
 
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
-    alias(dolbyio.plugins.android.library)
-    alias(dolbyio.plugins.kotlin.multiplatform)
-    alias(dolbyio.plugins.kotlin.serialization)
-    alias(dolbyio.plugins.multiplatform.moko.resources.generator)
-    alias(dolbyio.plugins.multiplatform.buildkonfig)
+    alias(additionals.plugins.android.library)
+    alias(additionals.plugins.kotlin.multiplatform)
+    alias(additionals.plugins.kotlin.serialization)
+    alias(additionals.plugins.multiplatform.moko.resources.generator)
+    alias(additionals.plugins.multiplatform.buildkonfig)
     id("iosSimulatorConfiguration")
     id("jvmCompat")
     id("publication")
@@ -36,11 +36,11 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation(dolbyio.multiplatform.moko.resources.ext)
-                api(dolbyio.kotlinx.coroutines)
-                api(dolbyio.kotlinx.serialization.json)
-                api(dolbyio.multiplatform.file.access)
-                api(dolbyio.multiplatform.http.client)
+                implementation(additionals.multiplatform.moko.resources.ext)
+                api(additionals.kotlinx.coroutines)
+                api(additionals.kotlinx.serialization.json)
+                api(additionals.multiplatform.file.access)
+                api(additionals.multiplatform.http.client)
 
                 api("net.mamoe.yamlkt:yamlkt:0.13.0")
                 api(libs.tcg.mapper)
@@ -49,8 +49,8 @@ kotlin {
         val commonTest by getting {
             dependencies {
                 api(kotlin("test"))
-                api(dolbyio.kotlinx.coroutines.test)
-                api(dolbyio.multiplatform.platform)
+                api(additionals.kotlinx.coroutines.test)
+                api(additionals.multiplatform.platform)
             }
         }
 

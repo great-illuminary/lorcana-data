@@ -63,12 +63,14 @@ class TestLoadingSet {
         listOf(
             SetDescription.Promos to 37,
             SetDescription.TFC to 216,
-            SetDescription.RotF to 216
+            SetDescription.RotF to 216,
+            SetDescription.ItI to 229,
+            SetDescription.UrR to 225
         ).forEach { (set, count) ->
             val cards = provider(set)
 
             println("managing $set")
-            cards.cards.sortedBy { it.number }.forEach { println(it.number) }
+
             assertEquals(count, cards.cards.size)
         }
     }

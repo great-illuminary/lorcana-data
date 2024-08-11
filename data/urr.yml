@@ -43,7 +43,7 @@
     en:
       name: Alma Madrigal
       title: Family Matriarch
-      flavour: "Let's be clear, Abuela runs this show." - Mirabel
+      flavour: "\"Let's be clear, Abuela runs this show.\" - Mirabel"
   edition:
     - regular
     - foil
@@ -77,6 +77,9 @@
     - set: urr
       id: 4
       rarity: legendary
+    - set: urr
+      id: 205
+      rarity: enchanted
   lore: 2
   cost: 5
   inkwell: true
@@ -270,7 +273,7 @@
     - foil
   actions:
     - stolen_away
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -300,7 +303,7 @@
     - foil
   actions:
     - en_gawrsh
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -330,7 +333,7 @@
     - foil
   actions:
     - signature_recipe
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -358,7 +361,7 @@
     - foil
   actions:
     - here_boy
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -387,7 +390,7 @@
   actions:
     - support
     - strike_up_the_music
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -420,7 +423,7 @@
     - bodyguard
     - support
     - musketeers_united
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -428,6 +431,9 @@
     - set: urr
       id: 17
       rarity: super_rare
+    - set: urr
+      id: 206
+      rarity: enchanted
   lore: 2
   cost: 5
   inkwell: false
@@ -512,7 +518,7 @@
     - foil
   actions:
     - support
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -541,7 +547,7 @@
     - foil
   actions:
     - to_the_rescue
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -571,7 +577,7 @@
     - foil
   actions:
     - bodyguard
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -602,7 +608,7 @@
   actions:
     - shift_4
     - under_vannessa_spell
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -630,7 +636,7 @@
   edition:
     - regular
     - foil
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -661,7 +667,7 @@
   actions:
     - shift_discard_song
     - vannessa_design
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -690,7 +696,7 @@
     - foil
   actions:
     - singer_4
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -711,7 +717,7 @@
     - foil
   actions:
     - bruno_return
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -732,7 +738,7 @@
     - foil
   actions:
     - first_aid
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -740,10 +746,15 @@
     - set: urr
       id: 28
       rarity: rare
+    - set: urr
+      id: 207
+      rarity: enchanted
   cost: 7
   inkwell: true
   color: amber
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Giulia Riva
   languages:
     en:
@@ -754,7 +765,7 @@
   actions:
     - sing_together_7
     - look_at_this_family
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -765,7 +776,9 @@
   cost: 4
   inkwell: true
   color: amber
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Ellie Horie
   languages:
     en:
@@ -775,7 +788,7 @@
     - foil
   actions:
     - lost_in_the_woods
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -796,7 +809,7 @@
     - foil
   actions:
     - sign_the_scroll
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -817,7 +830,7 @@
     - foil
   actions:
     - miracle_candle
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -838,7 +851,7 @@
     - foil
   actions:
     - record_player
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -862,7 +875,7 @@
     - foil
   actions:
     - underwater_acoustics
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -888,7 +901,7 @@
     - foil
   actions:
     - save_soul
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -916,7 +929,7 @@
   edition:
     - regular
     - foil
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -977,7 +990,7 @@
     - foil
   actions:
     - here_now_dont_do_that
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1007,7 +1020,7 @@
     - foil
   actions:
     - it_was_your_vision
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1068,7 +1081,7 @@
     - foil
   actions:
     - many_forms
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1097,7 +1110,7 @@
     - foil
   actions:
     - magical_informant
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1128,7 +1141,7 @@
     - foil
   actions:
     - tempest
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1158,7 +1171,7 @@
   actions:
     - quick_escape
     - ominous_pair_jetsam
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1187,7 +1200,7 @@
   actions:
     - shift_discard_2
     - count_jetsam_flotsam
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1218,7 +1231,7 @@
     - evasive
     - ladies_first
     - leave_it_to_me
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1248,7 +1261,7 @@
   actions:
     - challenger_2
     - ominous_pair_flotsam
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1278,7 +1291,7 @@
     - foil
   actions:
     - rush
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1307,7 +1320,7 @@
     - foil
   actions:
     - nice_and_tidy
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1334,7 +1347,7 @@
   edition:
     - regular
     - foil
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1361,7 +1374,7 @@
   edition:
     - regular
     - foil
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1384,13 +1397,13 @@
     en:
       name: Marshmallow
       title: Terrifying Snowman
-      flavour: '"You're very strong. Do you work out?" - Olaf'
+      flavour: "\"You're very strong. Do you work out?\" - Olaf"
   actions:
     - behemoth
   edition:
     - regular
     - foil
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1418,7 +1431,7 @@
   edition:
     - regular
     - foil
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1447,7 +1460,7 @@
   edition:
     - regular
     - foil
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1477,7 +1490,7 @@
   edition:
     - regular
     - foil
-  franchise_id: ''
+  franchise_id: 'unknown'
   third_party:
     card_market: ''
     tcg_player: ''
@@ -1507,6 +1520,7 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 56
@@ -1531,6 +1545,7 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 57
@@ -1556,10 +1571,14 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 58
       rarity: legendary
+    - set: urr
+      id: 208
+      rarity: enchanted
   lore: 3
   cost: 7
   inkwell: true
@@ -1584,9 +1603,16 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 59
+      rarity: legendary
+    - set: urr
+      id: 209
+      rarity: enchanted
+    - set: urr
+      id: 223
       rarity: legendary
   lore: 1
   cost: 2
@@ -1610,6 +1636,7 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 60
@@ -1617,7 +1644,9 @@
   cost: 2
   inkwell: true
   color: amethyst
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Denny Minonne
   languages:
     en:
@@ -1627,14 +1656,20 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 61
       rarity: rare
+    - set: urr
+      id: 210
+      rarity: enchanted
   cost: 10
   inkwell: false
   color: amethyst
-  type: song
+  type: action
+  classifications:
+    - song
   illustrator: Natalia Trykowska
   languages:
     en:
@@ -1645,6 +1680,7 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 62
@@ -1662,6 +1698,7 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 63
@@ -1679,6 +1716,7 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 64
@@ -1696,6 +1734,7 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 65
@@ -1713,6 +1752,7 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 66
@@ -1730,6 +1770,7 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 67
@@ -1749,6 +1790,7 @@
   edition:
     - regular
     - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 68
@@ -1769,7 +1811,298 @@
   edition:
     - regular
     - foil
-
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 69
+      rarity: rare
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: emerald
+  type: glimmer
+  illustrator: Heidi Neunhoffer
+  languages:
+    en:
+      name: Cri-Kee
+      title: Lucky Cricket
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 70
+      rarity: legendary
+    - set: urr
+      id: 211
+      rarity: enchanted
+  cost: 3
+  inkwell: false
+  attack: 2
+  defence: 2
+  color: emerald
+  type: glimmer
+  illustrator: Alice Pisoni
+  languages:
+    en:
+      name: Diablo
+      title: Devoted Herald
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 71
+      rarity: common
+  cost: 1
+  inkwell: true
+  attack: 1
+  defence: 2
+  color: emerald
+  type: glimmer
+  illustrator: Ellie Harie
+  languages:
+    en:
+      name: Diablo
+      title: Maleficent's Spy
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 72
+      rarity: common
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Anderson Mahanski
+  languages:
+    en:
+      name: Gunther
+      title: Interior Designer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 73
+      rarity: common
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Maddie Shilt
+  languages:
+    en:
+      name: Gus
+      title: Champion of Cheese
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 74
+      rarity: legendary
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Alan Batson
+  languages:
+    en:
+      name: Hades
+      title: Double Dealer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 75
+      rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Anna Stosik
+  languages:
+    en:
+      name: HeiHei
+      title: Bumbling Rooster
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 76
+      rarity: rare
+  cost: 3
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Raquel Villanueva
+  languages:
+    en:
+      name: Hera
+      title: Queen of the Gods
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 77
+      rarity: common
+  cost: 3
+  inkwell: true
+  attack: 1
+  defence: 4
+  color: emerald
+  type: glimmer
+  illustrator: Maddie Shilt
+  languages:
+    en:
+      name: Jaq
+      title: Connoisseur of Climbing
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 78
+      rarity: rare
+    - set: urr
+      id: 212
+      rarity: enchanted
+  cost: 5
+  inkwell: false
+  attack: 3
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Alice Pisoni
+  languages:
+    en:
+      name: Jasmine
+      title: Desert Warrior
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 79
+      rarity: common
+  cost: 3
+  inkwell: false
+  attack: 3
+  defence: 6
+  color: emerald
+  type: glimmer
+  illustrator: Yu Nguyen
+  languages:
+    en:
+      name: Megara
+      title: Captivating Cynic
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 80
+      rarity: uncommon
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 4
+  color: emerald
+  type: glimmer
+  illustrator: Ye Yang / Raquel Villanueva
+  languages:
+    en:
+      name: Megara
+      title: Liberated one
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 81
+      rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  color: emerald
+  type: glimmer
+  illustrator: Oggy Christiansson
+  languages:
+    en:
+      name: Pain
+      title: Immortal Sidekick
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 82
+      rarity: uncommon
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Oggy Christiansson
+  languages:
+    en:
+      name: Panic
+      title: Immortal Sidekick
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 83
+      rarity: uncommon
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: emerald
+  type: glimmer
+  illustrator: Brian Weisz
+  languages:
+    en:
+      name: Pegasus
+      title: Cloud Racer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 84
@@ -1843,6 +2176,120 @@
     tcg_player: ''
 - variants:
     - set: urr
+      id: 86
+      rarity: uncommon
+  cost: 4
+  inkwell: true
+  attack: 1
+  defence: 5
+  color: emerald
+  type: glimmer
+  illustrator: Stefano Zanchi
+  languages:
+    en:
+      name: Pete
+      title: Rotten Guy
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 87
+      rarity: super_rare
+  cost: 9
+  inkwell: true
+  attack: 6
+  defence: 6
+  color: emerald
+  type: glimmer
+  illustrator: Randy Bishop
+  languages:
+    en:
+      name: Prince Phillip
+      title: Vanquisher of Foes
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 88
+      rarity: rare
+  cost: 4
+  inkwell: false
+  attack: 3
+  defence: 4
+  color: emerald
+  type: glimmer
+  illustrator: Mike Parker
+  languages:
+    en:
+      name: Prince Phillip
+      title: Warden of the Woods
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 89
+      rarity: common
+  cost: 1
+  inkwell: true
+  attack: 2
+  defence: 1
+  color: emerald
+  type: glimmer
+  illustrator: Jon Densk / Hayley Evans
+  languages:
+    en:
+      name: The Fates
+      title: Only One Eye
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 90
+      rarity: rare
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 4
+  color: emerald
+  type: glimmer
+  illustrator: Brittney Hackett
+  languages:
+    en:
+      name: The Muses
+      title: Proclaimers of Heroes
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 91
+      rarity: common
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 7
+  color: emerald
+  type: glimmer
+  illustrator: Anderson Mahanski
+  languages:
+    en:
+      name: Tor
+      title: Florist
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
       id: 92
       rarity: super_rare
   lore: 2
@@ -1871,6 +2318,242 @@
   third_party:
     card_market: ''
     tcg_player: ''
+- variants:
+    - set: urr
+      id: 93
+      rarity: common
+  cost: 2
+  inkwell: true
+  color: emerald
+  type: action
+  illustrator: Wouter Bruneel
+  languages:
+    en:
+      name: "Dodge!"
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 94
+      rarity: common
+  cost: 2
+  inkwell: false
+  color: emerald
+  type: action
+  illustrator: Elodie Mondoloni
+  languages:
+    en:
+      name: Make the Potion
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 95
+      rarity: rare
+  cost: 8
+  inkwell: false
+  color: emerald
+  type: action
+  classifications:
+    - song
+  illustrator: Dylan Bonner
+  languages:
+    en:
+      name: Under the Sea
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 96
+      rarity: uncommon
+  cost: 1
+  inkwell: false
+  color: emerald
+  type: action
+  illustrator: Matthew Robert Davies
+  languages:
+    en:
+      name: Ursula's Trickery
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 97
+      rarity: rare
+    - set: urr
+      id: 213
+      rarity: enchanted
+  cost: 5
+  inkwell: true
+  color: emerald
+  type: action
+  classifications:
+    - song
+  illustrator: Giulia Riva
+  languages:
+    en:
+      name: We Don't Talk About Bruno
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 98
+      rarity: common
+  cost: 2
+  inkwell: false
+  color: emerald
+  type: item
+  illustrator: Adam Fenton
+  languages:
+    en:
+      name: Hidden Inkcaster
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 99
+      rarity: uncommon
+  cost: 2
+  inkwell: true
+  color: emerald
+  type: item
+  illustrator: Andrew Pena
+  languages:
+    en:
+      name: Signed Contract
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 100
+      rarity: uncommon
+  cost: 3
+  inkwell: true
+  color: emerald
+  type: item
+  illustrator: Jonas Petrauskas
+  languages:
+    en:
+      name: Vision Slab
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 101
+      rarity: common
+  cost: 1
+  inkwell: true
+  defence: 6
+  color: emerald
+  type: location
+  illustrator: Roberto Gatto
+  languages:
+    en:
+      name: Hidden Cove
+      title: Tranquil Haven
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 102
+      rarity: rare
+  cost: 4
+  inkwell: true
+  defence: 7
+  color: emerald
+  type: location
+  illustrator: Jonathan Livslyst
+  languages:
+    en:
+      name: Ursula's Garden
+      title: Full of the Unfortunate
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 103
+      rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 6
+  color: ruby
+  type: glimmer
+  illustrator: Ian MacDonald
+  languages:
+    en:
+      name: Beast
+      title: Wounded
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 104
+      rarity: common
+  cost: 4
+  inkwell: true
+  attack: 5
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Eri Welli
+  languages:
+    en:
+      name: Benja
+      title: Bold United
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 105
+      rarity: common
+  cost: 2
+  inkwell: true
+  attack: 0
+  defence: 4
+  color: ruby
+  type: glimmer
+  illustrator: Carmine Pucci
+  languages:
+    en:
+      name: Fa Zhou
+      title: Mulan's Father
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 106
@@ -1903,6 +2586,278 @@
     tcg_player: ''
 - variants:
     - set: urr
+      id: 107
+      rarity: rare
+    - set: urr
+      id: 214
+      rarity: enchanted
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 4
+  color: ruby
+  type: glimmer
+  illustrator: Justin Runfola
+  languages:
+    en:
+      name: Goofy
+      title: Super Goof
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 108
+      rarity: common
+  cost: 3
+  inkwell: false
+  attack: 3
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Antoine Couttolenc
+  languages:
+    en:
+      name: Hercules
+      title: Clumsy Kid
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 109
+      rarity: uncommon
+  cost: 5
+  inkwell: false
+  attack: 7
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Diogo Saito
+  languages:
+    en:
+      name: Hercules
+      title: Daring Demigod
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 110
+      rarity: uncommon
+  cost: 2
+  inkwell: true
+  attack: 3
+  defence: 2
+  color: ruby
+  type: glimmer
+  illustrator: Nicholas Kole
+  languages:
+    en:
+      name: Khan
+      title: Beloved Steed
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 111
+      rarity: common
+  cost: 1
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: ruby
+  type: glimmer
+  illustrator: Brian Kesinger
+  languages:
+    en:
+      name: Li Shang
+      title: General's Son
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 112
+      rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 2
+  color: ruby
+  type: glimmer
+  illustrator: Nicola Saviori
+  languages:
+    en:
+      name: Li Shang
+      title: Valorous General
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 113
+      rarity: rare
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: ruby
+  type: glimmer
+  illustrator: Valentin Palombo
+  languages:
+    en:
+      name: Lumiere
+      title: Fiery Friend
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 114
+      rarity: legendary
+    - set: urr
+      id: 224
+      rarity: legendary
+  cost: 6
+  inkwell: true
+  attack: 2
+  defence: 6
+  color: ruby
+  type: glimmer
+  illustrator: Nicola Saviori
+  languages:
+    en:
+      name: Mulan
+      title: Elite Archer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 115
+      rarity: uncommon
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Jared Mathews
+  languages:
+    en:
+      name: Mulan
+      title: Enemy of Entanglement
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 116
+      rarity: common
+  cost: 1
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Jared Mathews
+  languages:
+    en:
+      name: Mulan
+      title: Injured Soldier
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 117
+      rarity: rare
+  cost: 3
+  inkwell: false
+  attack: 2
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Kasia Brzezinska
+  languages:
+    en:
+      name: Namaari
+      title: Heir of Fang
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 118
+      rarity: uncommon
+  cost: 6
+  inkwell: true
+  attack: 7
+  defence: 5
+  color: ruby
+  type: glimmer
+  illustrator: Justin Runfola
+  languages:
+    en:
+      name: Nessus
+      title: River guardian
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 119
+      rarity: super_rare
+  cost: 4
+  inkwell: true
+  attack: 4
+  defence: 4
+  color: ruby
+  type: glimmer
+  illustrator: Denny Minonne
+  languages:
+    en:
+      name: Noi
+      title: Acrobatic Baby
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 120
+      rarity: common
+  cost: 2
+  inkwell: true
+  attack: 3
+  defence: 1
+  color: ruby
+  type: glimmer
+  illustrator: Kenneth Anderson
+  languages:
+    en:
+      name: Pegasus
+      title: Flying Steed
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
       id: 121
       rarity: super_rare
   lore: 1
@@ -1933,8 +2888,309 @@
     tcg_player: ''
 - variants:
     - set: urr
+      id: 122
+      rarity: common
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Brittney Hackett
+  languages:
+    en:
+      name: Raya
+      title: Guardian of the Dragon Gem
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 123
+      rarity: uncommon
+  cost: 3
+  inkwell: false
+  attack: 1
+  defence: 1
+  color: ruby
+  type: glimmer
+  illustrator: Otto Paredes
+  languages:
+    en:
+      name: Sisu
+      title: Daring Visitor
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 124
+      rarity: rare
+  cost: 3
+  inkwell: true
+  attack: 1
+  defence: 4
+  color: ruby
+  type: glimmer
+  illustrator: LadySharilin
+  languages:
+    en:
+      name: Sisu
+      title: Emboldened Warrior
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 125
+      rarity: legendary
+    - set: urr
+      id: 215
+      rarity: enchanted
+  cost: 8
+  inkwell: false
+  attack: 5
+  defence: 4
+  color: ruby
+  type: glimmer
+  illustrator: Grace Tran
+  languages:
+    en:
+      name: Sisu
+      title: Empowered Sibling
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 126
+      rarity: common
+  cost: 4
+  inkwell: false
+  attack: 3
+  defence: 6
+  color: ruby
+  type: glimmer
+  illustrator: Mike Parker
+  languages:
+    en:
+      name: Tong
+      title: Survivor
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 127
+      rarity: rare
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: ruby
+  type: glimmer
+  illustrator: Sandra Rios
+  languages:
+    en:
+      name: Tuk Tuk
+      title: Lively Partner
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 128
+      rarity: uncommon
+  cost: 6
+  inkwell: true
+  color: ruby
+  type: action
+  classifications:
+    - song
+  illustrator: Valentina Graziuso
+  languages:
+    en:
+      name: A Pirate's Life
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 129
+      rarity: rare
+  cost: 4
+  inkwell: false
+  color: ruby
+  type: action
+  classifications:
+    - song
+  illustrator: Emily Abeydeera
+  languages:
+    en:
+      name: Be King Undisputed
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 130
+      rarity: common
+  cost: 3
+  inkwell: true
+  color: ruby
+  type: action
+  illustrator: R. la Barbera / L. Giammichele
+  languages:
+    en:
+      name: Brawl
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 131
+      rarity: rare
+  cost: 1
+  inkwell: true
+  color: ruby
+  type: item
+  illustrator: Devin Yang
+  languages:
+    en:
+      name: Imperial Proclamation
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 132
+      rarity: uncommon
+  cost: 2
+  inkwell: true
+  color: ruby
+  type: item
+  illustrator: Defne T?z?m
+  languages:
+    en:
+      name: Medallion Weights
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 133
+      rarity: common
+  cost: 3
+  inkwell: false
+  color: ruby
+  type: item
+  illustrator: Roberto Gatto
+  languages:
+    en:
+      name: The Plank
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 134
+      rarity: common
+  cost: 1
+  inkwell: true
+  color: ruby
+  type: item
+  illustrator: Sandara Tang
+  languages:
+    en:
+      name: Vitalisphere
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 135
+      rarity: rare
+    - set: urr
+      id: 216
+      rarity: enchanted
+  cost: 2
+  inkwell: true
+  defence: 9
+  color: ruby
+  type: location
+  illustrator: Jeremy Adams
+  languages:
+    en:
+      name: Snuggly Duckling
+      title: Disreputable Pub
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 136
+      rarity: common
+  cost: 1
+  inkwell: true
+  defence: 5
+  color: ruby
+  type: location
+  illustrator: Matthew Oates
+  languages:
+    en:
+      name: Training Grounds
+      title: Impossible Pillar
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 137
+      rarity: common
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 4
+  color: sapphire
+  type: glimmer
+  illustrator: Maria Dresden
+  languages:
+    en:
+      name: Anna
+      title: Braving the Storm
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
       id: 138
       rarity: super_rare
+    - set: urr
+      id: 217
+      rarity: enchanted
   lore: 2
   cost: 4
   inkwell: true
@@ -1995,8 +3251,672 @@
     tcg_player: ''
 - variants:
     - set: urr
+      id: 140
+      rarity: super_rare
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Koni
+  languages:
+    en:
+      name: Aurora
+      title: Lore Guardian
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 141
+      rarity: common
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Koni
+  languages:
+    en:
+      name: Aurora
+      title: Tranquil Princess
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 142
+      rarity: rare
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 5
+  color: sapphire
+  type: glimmer
+  illustrator: Rudy Hill
+  languages:
+    en:
+      name: Dang Hu
+      title: Talon Chief
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 143
+      rarity: common
+  cost: 1
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Sarah Schmidt
+  languages:
+    en:
+      name: Fa Li
+      title: Mulan's Mother
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 144
+      rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 2
+  color: sapphire
+  type: glimmer
+  illustrator: James C Mulligan
+  languages:
+    en:
+      name: Flounder
+      title: Collector's Companion
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 145
+      rarity: uncommon
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 6
+  color: sapphire
+  type: glimmer
+  illustrator: Carlos Ruiz
+  languages:
+    en:
+      name: Hades
+      title: Meticulous Plotter
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 146
+      rarity: common
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 2
+  color: sapphire
+  type: glimmer
+  illustrator: Dustin Panzino / Leonardo Giammichele
+  languages:
+    en:
+      name: Hans
+      title: Noble Scoundrel
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 147
+      rarity: uncommon
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Jake Murphy
+  languages:
+    en:
+      name: Iduna
+      title: Caring Mother
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 148
+      rarity: rare
+  cost: 8
+  inkwell: true
+  attack: 8
+  defence: 8
+  color: sapphire
+  type: glimmer
+  illustrator: Leonardo Giammichele
+  languages:
+    en:
+      name: John Silver
+      title: Terror of the Realm
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 149
+      rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 1
+  defence: 4
+  color: sapphire
+  type: glimmer
+  illustrator: Lauren Levering
+  languages:
+    en:
+      name: Olaf
+      title: Carrot Enthusiast
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 150
+      rarity: common
+  cost: 1
+  inkwell: true
+  attack: 1
+  defence: 2
+  color: sapphire
+  type: glimmer
+  illustrator: Brian Kesinger
+  languages:
+    en:
+      name: Olaf
+      title: Trusting Companion
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 151
+      rarity: common
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Noukah
+  languages:
+    en:
+      name: Pascal
+      title: Inquisitive Pet
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 152
+      rarity: rare
+  cost: 3
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Mike Parker
+  languages:
+    en:
+      name: Prince Phillip
+      title: Gallant Defender
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 153
+      rarity: rare
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 5
+  color: sapphire
+  type: glimmer
+  illustrator: Aubrey Archer
+  languages:
+    en:
+      name: Rapunzel
+      title: Appreciative Artist
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 154
+      rarity: uncommon
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Kapik
+  languages:
+    en:
+      name: Scuttle
+      title: Expert on Humans
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 155
+      rarity: uncommon
+  cost: 6
+  inkwell: true
+  attack: 6
+  defence: 6
+  color: sapphire
+  type: glimmer
+  illustrator: Roger P?rez / Hayley Evans
+  languages:
+    en:
+      name: Sisu
+      title: Wise Friend
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 156
+      rarity: legendary
+    - set: urr
+      id: 218
+      rarity: enchanted
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Mel Milton
+  languages:
+    en:
+      name: The Queen
+      title: Diviner
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 157
+      rarity: common
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: James C Mulligan
+  languages:
+    en:
+      name: Transformed Chef
+      title: Castle Stove
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 158
+      rarity: legendary
+  cost: 9
+  inkwell: true
+  attack: 7
+  defence: 9
+  color: sapphire
+  type: glimmer
+  illustrator: Erin Shin
+  languages:
+    en:
+      name: Triton
+      title: Champion of Atlantica
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 159
+      rarity: rare
+  cost: 3
+  inkwell: false
+  attack: 3
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Diogo Saito
+  languages:
+    en:
+      name: Triton
+      title: Discerning King
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 160
+      rarity: uncommon
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: sapphire
+  type: glimmer
+  illustrator: Malia Ewart
+  languages:
+    en:
+      name: Triton
+      title: Young Prince
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 161
+      rarity: common
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: sapphire
+  type: glimmer
+  illustrator: Oggy Christiansson
+  languages:
+    en:
+      name: Tuk Tuk
+      title: Curious Partner
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 162
+      rarity: uncommon
+  cost: 8
+  inkwell: false
+  color: sapphire
+  type: action
+  classifications:
+    - song
+  illustrator: Rachel Elese
+  languages:
+    en:
+      name: Dig a Little Deeper
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 163
+      rarity: common
+  cost: 1
+  inkwell: true
+  color: sapphire
+  type: action
+  illustrator: Veronica Di Lorenzo / Livio Cacciatore
+  languages:
+    en:
+      name: Glean
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 164
+      rarity: common
+  cost: 2
+  inkwell: true
+  color: sapphire
+  type: action
+  classifications:
+    - song
+  illustrator: Rachel Elese
+  languages:
+    en:
+      name: Seldom All They Seem
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 165
+      rarity: rare
+  cost: 6
+  inkwell: true
+  color: sapphire
+  type: action
+  classifications:
+    - song
+  illustrator: Matt Gaser
+  languages:
+    en:
+      name: Treasures Untold
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 166
+      rarity: rare
+  cost: 3
+  inkwell: true
+  color: sapphire
+  type: item
+  illustrator: Mariana Moreno
+  languages:
+    en:
+      name: Field of Ice
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 167
+      rarity: uncommon
+  cost: 3
+  inkwell: true
+  color: sapphire
+  type: item
+  illustrator: Ryan Bittner
+  languages:
+    en:
+      name: Great Stone Dragon
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 168
+      rarity: common
+  cost: 1
+  inkwell: false
+  color: sapphire
+  type: item
+  illustrator: Gregor Krysinski
+  languages:
+    en:
+      name: Ice Block
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 169
+      rarity: rare
+    - set: urr
+      id: 219
+      rarity: enchanted
+  cost: 2
+  inkwell: true
+  defence: 7
+  color: sapphire
+  type: location
+  illustrator: Jeremy Adams
+  languages:
+    en:
+      name: Ariel's Grotto
+      title: A Secret Place
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 170
+      rarity: common
+  cost: 3
+  inkwell: true
+  defence: 8
+  color: sapphire
+  type: location
+  illustrator: Elodie Mondoloni
+  languages:
+    en:
+      name: Winter Camp
+      title: Medical Tent
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 171
+      rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Randy Bishop
+  languages:
+    en:
+      name: Aladdin
+      title: Brave Rescuer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 172
+      rarity: common
+  cost: 1
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Randy Bishop
+  languages:
+    en:
+      name: Aladdin
+      title: Resolute Swordsman
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 173
+      rarity: common
+  cost: 2
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Alice Pisoni
+  languages:
+    en:
+      name: Arges
+      title: The Cyclops
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 174
+      rarity: common
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  color: steel
+  type: glimmer
+  illustrator: Dylan Bonner
+  languages:
+    en:
+      name: Ariel
+      title: Determined Mermaid
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
       id: 175
       rarity: super_rare
+    - set: urr
+      id: 220
+      rarity: enchanted
   lore: 2
   cost: 6
   inkwell: true
@@ -2023,6 +3943,335 @@
   third_party:
     card_market: ''
     tcg_player: ''
+- variants:
+    - set: urr
+      id: 176
+      rarity: common
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Simangaliso Sibaya
+  languages:
+    en:
+      name: Beast
+      title: Thick-Skinned
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 177
+      rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 0
+  defence: 5
+  color: steel
+  type: glimmer
+  illustrator: Gaku Kumatori
+  languages:
+    en:
+      name: Chi-Fu
+      title: Imperial Advisor
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 178
+      rarity: common
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 7
+  color: steel
+  type: glimmer
+  illustrator: Michela Cacciatore / Giulia Priori
+  languages:
+    en:
+      name: Chien-Po
+      title: Imperial Soldier
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 179
+      rarity: legendary
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: steel
+  type: glimmer
+  illustrator: Federico M. Cugliari
+  languages:
+    en:
+      name: Donald Duck
+      title: Buccaneer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 180
+      rarity: rare
+  cost: 6
+  inkwell: true
+  attack: 6
+  defence: 5
+  color: steel
+  type: glimmer
+  illustrator: Leonardo Giammichele
+  languages:
+    en:
+      name: Hercules
+      title: Beloved Hero
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 181
+      rarity: rare
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Kendall Hale
+  languages:
+    en:
+      name: Lefou
+      title: Opportunistic Flunky
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 182
+      rarity: uncommon
+  cost: 5
+  inkwell: true
+  attack: 5
+  defence: 5
+  color: steel
+  type: glimmer
+  illustrator: Carlos Ruiz
+  languages:
+    en:
+      name: Li Shang
+      title: Imperial Captain
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 183
+      rarity: uncommon
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Michela Cacciatore / Giulia Priori
+  languages:
+    en:
+      name: Ling
+      title: Imperial Soldier
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 184
+      rarity: common
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  color: steel
+  type: glimmer
+  illustrator: Samanta Erdini
+  languages:
+    en:
+      name: Luisa Madrigal
+      title: Rock of the Family
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 185
+      rarity: common
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Alibeth Zermeno
+  languages:
+    en:
+      name: Magic Broom
+      title: Aerial Cleaner
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 186
+      rarity: super_rare
+  cost: 6
+  inkwell: true
+  attack: 2
+  defence: 6
+  color: steel
+  type: glimmer
+  illustrator: Otto Paredes
+  languages:
+    en:
+      name: Magic Broom
+      title: Brigade Commander
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 187
+      rarity: rare
+    - set: urr
+      id: 225
+      rarity: rare
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: steel
+  type: glimmer
+  illustrator: Alice Pisoni
+  languages:
+    en:
+      name: Mickey Mouse
+      title: Playful Sorcerer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 188
+      rarity: common
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Cristian Romero
+  languages:
+    en:
+      name: Mickey Mouse
+      title: Standard Bearer
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 189
+      rarity: uncommon
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 6
+  color: steel
+  type: glimmer
+  illustrator: Amber Kommavongsa
+  languages:
+    en:
+      name: Mulan
+      title: Armored Fighter
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 190
+      rarity: rare
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 3
+  color: steel
+  type: glimmer
+  illustrator: Stefano Spagnuolo
+  languages:
+    en:
+      name: Philoctetes
+      title: No-Nonsense Instructor
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 191
+      rarity: legendary
+    - set: urr
+      id: 221
+      rarity: enchanted
+  cost: 5
+  inkwell: false
+  attack: 3
+  defence: 5
+  color: steel
+  type: glimmer
+  illustrator: Alex Accorsi
+  languages:
+    en:
+      name: Piglet
+      title: Sturdy Swordsman
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 192
+      rarity: rare
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 4
+  color: steel
+  type: glimmer
+  illustrator: Sandara Tang
+  languages:
+    en:
+      name: Rajah
+      title: Royal Protector
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
 - variants:
     - set: urr
       id: 193
@@ -2055,3 +4304,203 @@
   third_party:
     card_market: ''
     tcg_player: ''
+- variants:
+    - set: urr
+      id: 194
+      rarity: common
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 5
+  color: steel
+  type: glimmer
+  illustrator: Michela Cacciatore / Giulia Priori
+  languages:
+    en:
+      name: Yao
+      title: Imperial Soldier
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 195
+      rarity: uncommon
+  cost: 4
+  inkwell: false
+  color: steel
+  type: action
+  illustrator: Justin Gerard
+  languages:
+    en:
+      name: Avalanche
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 196
+      rarity: uncommon
+  cost: 4
+  inkwell: true
+  color: steel
+  type: action
+  classifications:
+    - song
+  illustrator: Jennifer Park
+  languages:
+    en:
+      name: I Find 'Em, I Flatten 'Em
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 197
+      rarity: rare
+  cost: 3
+  inkwell: false
+  color: steel
+  type: action
+  classifications:
+    - song
+  illustrator: Alice Pisoni
+  languages:
+    en:
+      name: One Last Hope
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 198
+      rarity: uncommon
+  cost: 10
+  inkwell: false
+  color: steel
+  type: action
+  classifications:
+    - song
+  illustrator: Ian Macdonald
+  languages:
+    en:
+      name: The Mob Song
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 199
+      rarity: common
+  cost: 1
+  inkwell: false
+  color: steel
+  type: action
+  illustrator: Carlos Gomes Cabral
+  languages:
+    en:
+      name: Triton's Decree
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 200
+      rarity: common
+  cost: 1
+  inkwell: true
+  color: steel
+  type: item
+  illustrator: Mariana Moreno
+  languages:
+    en:
+      name: Fortisphere
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 201
+      rarity: uncommon
+  cost: 2
+  inkwell: true
+  color: steel
+  type: item
+  illustrator: Yari Lute
+  languages:
+    en:
+      name: Imperial Bow
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 202
+      rarity: rare
+  cost: 3
+  inkwell: false
+  color: steel
+  type: item
+  illustrator: Luigi Aim?
+  languages:
+    en:
+      name: RLS Legacy's Cannon
+      title: ''
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 203
+      rarity: rare
+    - set: urr
+      id: 222
+      rarity: enchanted
+  cost: 4
+  inkwell: true
+  defence: 8
+  color: steel
+  type: location
+  illustrator: Jimmy Lo
+  languages:
+    en:
+      name: The Wall
+      title: Border Fortress
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
+- variants:
+    - set: urr
+      id: 204
+      rarity: common
+  cost: 2
+  inkwell: true
+  defence: 7
+  color: steel
+  type: location
+  illustrator: Nicolas Ky
+  languages:
+    en:
+      name: Thebes
+      title: The Big Olive
+  edition:
+    - regular
+    - foil
+  franchise_id: 'unknown'
