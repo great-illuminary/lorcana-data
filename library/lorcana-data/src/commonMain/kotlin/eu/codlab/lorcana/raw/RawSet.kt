@@ -13,11 +13,11 @@ enum class RawSet(
     fileResource: FileResource,
     fileName: String
 ) {
-    TFC(Resources.files.tfc, "tfc"),
-    ROTF(Resources.files.rotf, "rotf"),
-    ITI(Resources.files.iti, "iti"),
-    URR(Resources.files.urr, "urr"),
-    SSK(Resources.files.ssk, "ssk");
+    TFC(Resources.files.tfc_yml, "tfc"),
+    ROTF(Resources.files.rotf_yml, "rotf"),
+    ITI(Resources.files.iti_yml, "iti"),
+    URR(Resources.files.urr_yml, "urr"),
+    SSK(Resources.files.ssk_yml, "ssk");
 
     private val loader = AbstractLoader(
         fileResource,

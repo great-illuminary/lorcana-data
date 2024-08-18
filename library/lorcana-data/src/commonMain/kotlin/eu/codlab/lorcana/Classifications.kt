@@ -11,7 +11,7 @@ import kotlinx.serialization.builtins.ListSerializer
  * a map of name -> TranslationHolder that then can be applied to the cards
  */
 object Classifications : AbstractLoader<List<ClassificationHolder>>(
-    Resources.files.classifications,
+    Resources.files.classifications_yml,
     "classifications",
     ListSerializer(ClassificationHolder.serializer()),
     github

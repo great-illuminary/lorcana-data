@@ -40,7 +40,7 @@ data class Configuration(
  * a map of name -> TranslationHolder that then can be applied to the cards
  */
 object Configurations : AbstractLoader<Configuration>(
-    Resources.files.configuration,
+    Resources.files.configuration_yml,
     "configuration",
     Configuration.serializer(),
     github

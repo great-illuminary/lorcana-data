@@ -37,6 +37,7 @@ data class GenericVirtualCard<A, C, F>(
 typealias RawVirtualCard = GenericVirtualCard<String, String, String>
 typealias VirtualCard = GenericVirtualCard<Ability, ClassificationHolder, Franchise>
 
+@Suppress("TooGenericExceptionCaught")
 fun RawVirtualCard.to(
     abilities: Map<String, Ability>,
     mapOfClassifications: Map<String, ClassificationHolder>,
@@ -53,7 +54,7 @@ fun RawVirtualCard.to(
     classifications = classifications.map { slug ->
         try {
             mapOfClassifications[slug]!!
-        } catch (@Suppress("TooGenericExceptionCaught") err: Throwable) {
+        } catch (err: Throwable) {
             println("Exception thrown because $slug couldn't be mapped")
             throw err
         }

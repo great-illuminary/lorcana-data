@@ -11,7 +11,7 @@ import kotlin.test.assertNotNull
 import kotlin.test.assertTrue
 
 class TestLoadingSet {
-
+    @Suppress("SwallowedException")
     @Test
     fun testSets() = runTest {
         if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform == it }) {
@@ -28,7 +28,7 @@ class TestLoadingSet {
                 assertNotNull(content)
                 assertTrue(content.cards.isNotEmpty())
                 assertTrue(content.virtualCards.isNotEmpty())
-            } catch (@Suppress("SwallowedException") err: Throwable) {
+            } catch (err: Throwable) {
                 println("$it -> $currentPlatform")
                 err.printStackTrace()
                 throw NullPointerException("$currentPlatform")

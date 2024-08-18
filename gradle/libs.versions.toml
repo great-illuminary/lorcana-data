@@ -1,5 +1,13 @@
 [versions]
-tcg-mapper = "0.0.3"
+tcg-mapper = "0.0.4"
+moko-resources = "0.24.1"
+moko-resources-ext = "1.15.2"
 
 [libraries]
 tcg-mapper = { module = "eu.codlab:tcg-mapper", version.ref = "tcg-mapper" }
+multiplatform-moko-resources = { module = "dev.icerock.moko:resources", version.ref = "moko-resources" }
+multiplatform-moko-resources-ext = { module = "eu.codlab:kotlin-moko-resources-ext", version.ref = "moko-resources-ext" }
+moko-parcelize = { module = "dev.icerock.moko:parcelize", version = "0.9.0" }
+
+[plugins]
+multiplatform-moko-resources-generator = { id = "dev.icerock.mobile.multiplatform-resources", version.ref = "moko-resources" }

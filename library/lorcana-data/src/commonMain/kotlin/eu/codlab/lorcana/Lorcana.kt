@@ -7,7 +7,6 @@ import eu.codlab.lorcana.raw.to
 import korlibs.datastructure.iterators.parallelMap
 
 class Lorcana {
-
     suspend fun loadFromResources(): LorcanaLoaded {
         val abilities = Abilities.loadFromResource()
         val configuration = Configurations.loadFromResource()
@@ -86,6 +85,5 @@ class LorcanaLoaded(
     private val sets: Map<SetDescription, Set>,
     val cards: List<VirtualCard>
 ) {
-
     fun set(set: SetDescription) = sets[set]!!
 }

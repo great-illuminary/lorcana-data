@@ -10,7 +10,6 @@ import kotlin.test.assertNotNull
 import kotlin.test.assertTrue
 
 class TestLoadingAbilities {
-
     @Test
     fun testAbilities() = runTest {
         if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform == it }) {

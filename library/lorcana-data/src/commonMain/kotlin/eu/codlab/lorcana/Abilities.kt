@@ -12,7 +12,7 @@ import kotlinx.serialization.builtins.serializer
  * a map of name -> Ability that then can be applied to the cards
  */
 object Abilities : AbstractLoader<Map<String, Ability>>(
-    Resources.files.abilities,
+    Resources.files.abilities_yml,
     "abilities",
     MapSerializer(String.serializer(), Ability.serializer()),
     github = github

@@ -12,6 +12,7 @@ enum class SetLegacy(private val set: SetDescription) {
     ROTF(SetDescription.RotF),
     PROMOS(SetDescription.Promos);
 
+    @Suppress("TooGenericExceptionCaught")
     @OptIn(DelicateCoroutinesApi::class, KorioExperimentalApi::class)
     suspend fun loadFromGithub(tag: String = "main"): Promise<Set> {
         return Promise { resolve, reject ->
@@ -19,13 +20,14 @@ enum class SetLegacy(private val set: SetDescription) {
                 val lorcana = Lorcana().loadFromGithub(tag)
                 try {
                     resolve(lorcana.set(set))
-                } catch (@Suppress("TooGenericExceptionCaught") err: Throwable) {
+                } catch (err: Throwable) {
                     reject(err)
                 }
             }
         }
     }
 
+    @Suppress("TooGenericExceptionCaught")
     @OptIn(DelicateCoroutinesApi::class, KorioExperimentalApi::class)
     suspend fun loadFromResource(): Promise<Set> {
         return Promise { resolve, reject ->
@@ -33,7 +35,7 @@ enum class SetLegacy(private val set: SetDescription) {
                 val lorcana = Lorcana().loadFromResources()
                 try {
                     resolve(lorcana.set(set))
-                } catch (@Suppress("TooGenericExceptionCaught") err: Throwable) {
+                } catch (err: Throwable) {
                     reject(err)
                 }
             }

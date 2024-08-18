@@ -8,7 +8,6 @@ import kotlin.test.assertNotNull
 import kotlin.test.assertTrue
 
 class TestLoadingFranchises {
-
     @Test
     fun testFranchises() = runTest {
         if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform == it }) {

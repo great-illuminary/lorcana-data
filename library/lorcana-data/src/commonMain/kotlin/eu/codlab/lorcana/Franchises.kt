@@ -8,7 +8,7 @@ import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
 
 object Franchises : AbstractLoader<Map<String, Franchise>>(
-    Resources.files.franchises,
+    Resources.files.franchises_yml,
     "franchises",
     MapSerializer(String.serializer(), Franchise.serializer()),
     github

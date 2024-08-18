@@ -11,7 +11,6 @@ class CompiledSet(
     private val cards: List<VirtualCard>,
     private val set: SetDescription
 ) {
-
     fun cards(): List<Card> {
         return cards.parallelMap { it.toCard(set) }.filterNotNull().flatten()
     }

@@ -28,7 +28,7 @@ console.log(actualRoot)
     const jsMainsRes = relativeModulesToLookUp
         .map(folder => {
             // going from jsMain to ...
-            const absoluteFolder = path.resolve(`${actualRoot}/library/${folder}/build/generated/moko/jsMain/`)
+            const absoluteFolder = path.resolve(`${actualRoot}/library/${folder}/build/generated/moko-resources/jsMain/`)
             const list = fs.readdirSync(absoluteFolder);
 
             // now lookup for the one folder where the sub res/ do exists

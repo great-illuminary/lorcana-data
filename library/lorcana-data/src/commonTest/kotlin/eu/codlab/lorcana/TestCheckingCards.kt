@@ -10,7 +10,6 @@ import kotlin.test.Test
 import kotlin.test.fail
 
 class TestCheckingCards {
-
     @Test
     fun testLoadingSetsFromResources() = runTest {
         if (currentPlatform != Platform.JVM) {

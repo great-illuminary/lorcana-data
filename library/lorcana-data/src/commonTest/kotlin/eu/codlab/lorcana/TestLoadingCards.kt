@@ -15,7 +15,6 @@ import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
 class TestLoadingCards {
-
     @Test
     fun testLoadingSetsFromFiles() = runTest {
         if (currentPlatform != Platform.JVM) {
@@ -53,8 +52,8 @@ class TestLoadingCards {
         }
 
         listOf(
-            Resources.files.tfc to 204,
-            Resources.files.rotf to 204
+            Resources.files.tfc_yml to 204,
+            Resources.files.rotf_yml to 204
         ).forEach { set ->
             val (file, count) = set
             val content = file.safelyReadContent()
