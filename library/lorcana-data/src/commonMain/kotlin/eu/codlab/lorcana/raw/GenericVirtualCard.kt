@@ -14,6 +14,8 @@ import kotlinx.serialization.Serializable
 data class GenericVirtualCard<A, C, F>(
     val cost: Int = 0,
     val inkwell: Boolean = false,
+    @SerialName("move_cost")
+    val moveCost: Int? = null,
     val attack: Int? = null,
     val defence: Int? = null,
     val variants: List<Variant<C>> = emptyList(),
@@ -42,6 +44,7 @@ fun RawVirtualCard.to(
 ) = VirtualCard(
     cost = cost,
     inkwell = inkwell,
+    moveCost = moveCost,
     attack = attack,
     defence = defence,
     variants = variants.map { it.to(mapOfClassifications) },

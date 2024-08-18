@@ -65,7 +65,8 @@ class TestLoadingSet {
             SetDescription.TFC to 216,
             SetDescription.RotF to 216,
             SetDescription.ItI to 229,
-            SetDescription.UrR to 225
+            SetDescription.UrR to 225,
+            SetDescription.SSk to 223
         ).forEach { (set, count) ->
             val cards = provider(set)
 

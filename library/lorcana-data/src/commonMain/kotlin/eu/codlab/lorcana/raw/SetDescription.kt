@@ -16,5 +16,8 @@ enum class SetDescription {
     ItI,
 
     @SerialName("urr")
-    UrR
+    UrR,
+
+    @SerialName("ssk")
+    SSk
 }
