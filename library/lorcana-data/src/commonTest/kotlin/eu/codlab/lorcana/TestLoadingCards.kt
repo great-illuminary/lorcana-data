@@ -1,6 +1,8 @@
 package eu.codlab.lorcana
 
 import eu.codlab.files.VirtualFile
+import eu.codlab.ignore.IgnoreAndroid
+import eu.codlab.ignore.IgnoreJs
 import eu.codlab.lorcana.raw.RawVirtualCard
 import eu.codlab.lorcana.resources.Resources
 import eu.codlab.moko.ext.safelyReadContent
@@ -15,6 +17,7 @@ import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
 class TestLoadingCards {
+    @IgnoreJs
     @Test
     fun testLoadingSetsFromFiles() = runTest {
         if (currentPlatform != Platform.JVM) {
@@ -44,13 +47,10 @@ class TestLoadingCards {
         }
     }
 
+    @IgnoreAndroid
+    @IgnoreJs
     @Test
     fun testLoadingSetsFromResources() = runTest {
-        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform == it }) {
-            println("it's not possible to test against android or js with files at that time")
-            return@runTest
-        }
-
         listOf(
             Resources.files.tfc_yml to 204,
             Resources.files.rotf_yml to 204

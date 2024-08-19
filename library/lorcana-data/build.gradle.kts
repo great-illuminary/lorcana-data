@@ -1,7 +1,6 @@
 import com.codingfeline.buildkonfig.compiler.FieldSpec
 import java.nio.file.Files
 
-@Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     alias(additionals.plugins.android.library)
     alias(additionals.plugins.kotlin.multiplatform)
@@ -13,10 +12,7 @@ plugins {
     id("publication")
 }
 
-@OptIn(org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi::class)
 kotlin {
-    targetHierarchy.default()
-
     androidTarget {
         publishLibraryVariants("release")
     }
@@ -24,7 +20,13 @@ kotlin {
     jvm()
 
     js(IR) {
-        browser()
+        browser {
+            testTask {
+                useMocha {
+                    timeout = "30s"
+                }
+            }
+        }
     }
 
     iosX64()
@@ -36,37 +38,23 @@ kotlin {
             dependencies {
                 api(libs.multiplatform.moko.resources)
                 api(libs.multiplatform.moko.resources.ext)
+
                 api(additionals.kotlinx.coroutines)
                 api(additionals.kotlinx.serialization.json)
+
                 api(additionals.multiplatform.file.access)
                 api(additionals.multiplatform.http.client)
 
-                api("net.mamoe.yamlkt:yamlkt:0.13.0")
+                api(libs.yaml.serializer)
                 api(libs.tcg.mapper)
             }
         }
         val commonTest by getting {
             dependencies {
                 api(kotlin("test"))
+                implementation(project(":test-ignore"))
                 api(additionals.kotlinx.coroutines.test)
                 api(additionals.multiplatform.platform)
-            }
-        }
-
-        val androidMain by getting
-        val iosX64Main by getting
-        val iosArm64Main by getting
-        val iosSimulatorArm64Main by getting
-        val jvmMain by getting
-        val jsMain by getting {
-            dependencies {
-                implementation(libs.moko.parcelize)
-            }
-        }
-
-        val iosMain by getting {
-            dependencies {
-                implementation(libs.moko.parcelize)
             }
         }
     }

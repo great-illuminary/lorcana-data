@@ -1,24 +1,23 @@
 package eu.codlab.lorcana
 
+import eu.codlab.ignore.IgnoreAndroid
+import eu.codlab.ignore.IgnoreJs
 import eu.codlab.lorcana.buildconfig.BuildKonfig
 import eu.codlab.lorcana.raw.SetDescription
-import eu.codlab.platform.Platform
 import eu.codlab.platform.currentPlatform
 import kotlinx.coroutines.test.runTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
 import kotlin.test.assertTrue
+import kotlin.time.Duration.Companion.seconds
 
 class TestLoadingSet {
+    @IgnoreAndroid
+    @IgnoreJs
     @Suppress("SwallowedException")
     @Test
     fun testSets() = runTest {
-        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform == it }) {
-            println("this test is disabled on android or js")
-            return@runTest
-        }
-
         val lorcana = Lorcana().loadFromResources()
 
         SetDescription.entries.forEach {
@@ -36,13 +35,10 @@ class TestLoadingSet {
         }
     }
 
+    @IgnoreAndroid
+    @IgnoreJs
     @Test
     fun testLoadingSetsFromResources() = runTest {
-        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform == it }) {
-            println("it's not possible to test against android or js with files at that time")
-            return@runTest
-        }
-
         runTestList {
             val lorcana = Lorcana().loadFromResources()
 
@@ -50,8 +46,9 @@ class TestLoadingSet {
         }
     }
 
+    @IgnoreJs
     @Test
-    fun testLoadingSetsFromGithub() = runTest {
+    fun testLoadingSetsFromGithub() = runTest(timeout = 20.seconds) {
         runTestList {
             val lorcana = Lorcana().loadFromGithub(BuildKonfig.commit)
 

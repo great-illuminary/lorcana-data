@@ -1,5 +1,7 @@
 package eu.codlab.lorcana
 
+import eu.codlab.ignore.IgnoreAndroid
+import eu.codlab.ignore.IgnoreJs
 import eu.codlab.lorcana.buildconfig.BuildKonfig
 import eu.codlab.lorcana.cards.CardType
 import eu.codlab.lorcana.raw.VirtualCard
@@ -8,8 +10,10 @@ import eu.codlab.platform.currentPlatform
 import kotlinx.coroutines.test.runTest
 import kotlin.test.Test
 import kotlin.test.fail
+import kotlin.time.Duration.Companion.seconds
 
 class TestCheckingCards {
+    @IgnoreJs
     @Test
     fun testLoadingSetsFromResources() = runTest {
         if (currentPlatform != Platform.JVM) {
@@ -20,13 +24,10 @@ class TestCheckingCards {
         checkCards(lorcana.cards)
     }
 
+    @IgnoreAndroid
+    @IgnoreJs
     @Test
-    fun testLoadingSetsFromGithub() = runTest {
-        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform == it }) {
-            println("it's not possible to test against android or js with files at that time")
-            return@runTest
-        }
-
+    fun testLoadingSetsFromGithub() = runTest(timeout = 20.seconds) {
         listOf("main", BuildKonfig.commit).forEach {
             println("loading for $it")
             checkCards(Lorcana().loadFromGithub(it).cards)

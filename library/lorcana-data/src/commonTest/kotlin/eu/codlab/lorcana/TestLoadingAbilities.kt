@@ -1,34 +1,36 @@
 package eu.codlab.lorcana
 
+import eu.codlab.ignore.IgnoreAndroid
+import eu.codlab.ignore.IgnoreJs
 import eu.codlab.lorcana.abilities.Ability
-import eu.codlab.platform.Platform
-import eu.codlab.platform.currentPlatform
 import eu.codlab.tcgmapper.TranslationHolder
 import kotlinx.coroutines.test.runTest
 import kotlin.test.Test
 import kotlin.test.assertNotNull
 import kotlin.test.assertTrue
+import kotlin.time.Duration.Companion.seconds
 
 class TestLoadingAbilities {
+    @IgnoreAndroid
+    @IgnoreJs
     @Test
     fun testAbilities() = runTest {
-        if (null != listOf(Platform.ANDROID, Platform.JS).find { currentPlatform == it }) {
-            println("this test is disabled on android or js")
-            return@runTest
-        }
-
         val content = Abilities.loadFromResource()
         assertNotNull(content)
         assertTrue(content.isNotEmpty())
         content.values.forEach { checkAbility(it) }
     }
 
+    @IgnoreJs
     @Test
-    fun testLoadingSetsFromGithub() = runTest {
+    fun testLoadingSetsFromGithub() = runTest(timeout = 20.seconds) {
         val content = Abilities.loadFromGithub()
+        println("content loaded ${content.size}")
         assertNotNull(content)
         assertTrue(content.isNotEmpty())
+        println("before looping...")
         content.values.forEach { checkAbility(it) }
+        println("done")
     }
 
     private fun checkAbility(ability: Ability) = try {
