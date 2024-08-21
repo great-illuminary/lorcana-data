@@ -31,12 +31,7 @@ fun main() {
         val assets = VirtualFile(VirtualFile.Root, "assets")
         assets.mkdirs()
 
-        listOf(
-            SetDescription.Promos,
-            SetDescription.TFC,
-            SetDescription.RotF,
-            SetDescription.ItI
-        ).forEach { setDescription ->
+        SetDescription.entries.forEach { setDescription ->
             listOf(
                 "yml" to yml,
                 "json" to json

@@ -9,9 +9,6 @@ enum class SetDescription {
     @SerialName("rotf")
     RotF,
 
-    @SerialName("promos")
-    Promos,
-
     @SerialName("iti")
     ItI,
 
@@ -19,5 +16,20 @@ enum class SetDescription {
     UrR,
 
     @SerialName("ssk")
-    SSk
+    SSk,
+
+    @SerialName("p1")
+    P1,
+
+    @SerialName("p2")
+    P2,
+
+    @SerialName("c1")
+    C1,
+
+    @SerialName("worlds")
+    Worlds,
+
+    @SerialName("d23")
+    D23
 }

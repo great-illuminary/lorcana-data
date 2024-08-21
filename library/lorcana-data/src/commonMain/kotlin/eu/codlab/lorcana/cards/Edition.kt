@@ -12,9 +12,6 @@ enum class Edition {
     @SerialName("enchanted")
     Enchanted,
 
-    @SerialName("promos")
-    PROMOS,
-
     @SerialName("gencon23")
     Gencon23,
 
@@ -31,5 +28,8 @@ enum class Edition {
     Oversized,
 
     @SerialName("mcm_comic_con2023")
-    MCMComicCon2023
+    MCMComicCon2023,
+
+    @SerialName("d23")
+    D23
 }

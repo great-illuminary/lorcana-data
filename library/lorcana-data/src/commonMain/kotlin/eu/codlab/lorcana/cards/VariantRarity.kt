@@ -43,5 +43,17 @@ enum class VariantRarity {
     Challenge24,
 
     @SerialName("worlds24")
-    Worlds24
+    Worlds24,
+
+    @SerialName("unreleased")
+    Unreleased,
+
+    @SerialName("top1")
+    Top1,
+
+    @SerialName("special_events")
+    SpecialEvents,
+
+    @SerialName("villainous")
+    Villainous
 }

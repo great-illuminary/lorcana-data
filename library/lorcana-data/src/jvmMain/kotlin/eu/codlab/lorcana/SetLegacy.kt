@@ -10,7 +10,13 @@ import kotlinx.coroutines.GlobalScope
 enum class SetLegacy(private val set: SetDescription) {
     TFC(SetDescription.TFC),
     ROTF(SetDescription.RotF),
-    PROMOS(SetDescription.Promos);
+    ITI(SetDescription.ItI),
+    URR(SetDescription.UrR),
+    SSK(SetDescription.SSk),
+    P1(SetDescription.P1),
+    P2(SetDescription.P2),
+    C1(SetDescription.C1),
+    WORLDS(SetDescription.Worlds);
 
     @Suppress("TooGenericExceptionCaught")
     @OptIn(DelicateCoroutinesApi::class, KorioExperimentalApi::class)

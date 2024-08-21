@@ -376,7 +376,7 @@
     - set: rotf
       id: 13
       rarity: super_rare
-    - set: promos
+    - set: p1
       id: 18
       rarity: d100
       illustrator: Mark Henn
@@ -567,7 +567,7 @@
     - set: rotf
       id: 19
       rarity: uncommon
-    - set: promos
+    - set: p1
       id: 31
       rarity: pax_unplugged2023
   lore: 2
@@ -1175,7 +1175,7 @@
     - set: rotf
       id: 39
       rarity: common
-    - set: promos
+    - set: p1
       id: 19
       rarity: d100
       illustrator: Brittney Lee
@@ -1793,7 +1793,7 @@
     - set: rotf
       id: 58
       rarity: uncommon
-    - set: promos
+    - set: p1
       id: 32
       rarity: pax_unplugged2023
   lore: 1
@@ -2245,7 +2245,7 @@
     - set: rotf
       id: 73
       rarity: uncommon
-    - set: promos
+    - set: p1
       id: 15
       rarity: organized_play
   lore: 1
@@ -3498,7 +3498,7 @@
     - set: rotf
       id: 114
       rarity: rare
-    - set: promos
+    - set: p1
       id: 16
       rarity: organized_play
   lore: 1
@@ -4951,7 +4951,7 @@
     - set: rotf
       id: 163
       rarity: uncommon
-    - set: promos
+    - set: p1
       id: 33
       rarity: pax_unplugged2023
   cost: 4
@@ -5298,7 +5298,7 @@
     - set: rotf
       id: 176
       rarity: common
-    - set: promos
+    - set: p1
       id: 14
       rarity: organized_play
   lore: 1
@@ -5337,10 +5337,17 @@
     - set: rotf
       id: 177
       rarity: super_rare
-    - set: promos
+    - set: p1
       id: 42
+      rarity: unreleased
+      illustrator: Alice Pisoni
+    - set: c1
+      id: 3
       rarity: challenge24
       illustrator: Alice Pisoni
+    - set: d23
+      id: 2
+      rarity: d23
   lore: 3
   cost: 7
   inkwell: true
@@ -5848,7 +5855,7 @@
     - set: rotf
       id: 193
       rarity: uncommon
-    - set: promos
+    - set: p1
       id: 17
       rarity: organized_play
   lore: 1

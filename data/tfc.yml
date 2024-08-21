@@ -118,7 +118,7 @@
     - set: tfc
       id: 4
       rarity: uncommon
-    - set: promos
+    - set: p1
       id: 12
       rarity: gamecon23
   lore: 1
@@ -241,7 +241,7 @@
     - set: tfc
       id: 7
       rarity: common
-    - set: promos
+    - set: p1
       id: 9
       rarity: organized_play
   lore: 1
@@ -648,8 +648,12 @@
     - set: tfc
       id: 18
       rarity: legendary
-    - set: promos
+    - set: p1
       id: 43
+      rarity: unreleased
+      illustrator: Grace Tran
+    - set: c1
+      id: 4
       rarity: challenge24
       illustrator: Grace Tran
   lore: 2
@@ -844,12 +848,12 @@
     - set: tfc
       id: 23
       rarity: super_rare
-    - set: promos
+    - set: p1
       id: 2
       rarity: d23
-    - set: promos
+    - set: p1
       id: 30
-      rarity: worlds24
+      rarity: enchanted
       illustrator: Nicholas Kole
   lore: 3
   cost: 6
@@ -1465,7 +1469,7 @@
     - set: tfc
       id: 41
       rarity: uncommon
-    - set: promos
+    - set: p1
       id: 3
       rarity: d23
   lore: 1
@@ -2184,7 +2188,7 @@
     - set: tfc
       id: 60
       rarity: common
-    - set: promos
+    - set: p1
       id: 10
       rarity: organized_play
   lore: 1
@@ -2592,7 +2596,7 @@
     - set: tfc
       id: 72
       rarity: rare
-    - set: promos
+    - set: p1
       id: 4
       rarity: d23
   lore: 1
@@ -2747,7 +2751,7 @@
     - set: tfc
       id: 76
       rarity: rare
-    - set: promos
+    - set: p1
       id: 20
       rarity: d100
       illustrator: Eric Goldberg
@@ -3964,7 +3968,7 @@
     - set: tfc
       id: 110
       rarity: common
-    - set: promos
+    - set: p1
       id: 24
       rarity: mcm_comic_con2023
   cost: 2
@@ -4077,7 +4081,7 @@
     - set: tfc
       id: 113
       rarity: legendary
-    - set: promos
+    - set: p1
       id: 5
       rarity: d23
   lore: 2
@@ -4160,7 +4164,16 @@
     - set: tfc
       id: 115
       rarity: legendary
-    - set: promos
+    - set: p1
+      id: 1
+      rarity: d23
+    - set: c1
+      id: 5
+      rarity: challenge24
+    - set: worlds
+      id: 2024
+      rarity: top1
+    - set: d23
       id: 1
       rarity: d23
   lore: 4
@@ -4533,7 +4546,7 @@
     - set: tfc
       id: 125
       rarity: rare
-    - set: promos
+    - set: p1
       id: 21
       rarity: d100
       illustrator: Alex Kupershmidt
@@ -4710,8 +4723,11 @@
     - set: tfc
       id: 130
       rarity: uncommon
-    - set: promos
+    - set: p1
       id: 25
+      rarity: unreleased
+    - set: c1
+      id: 1
       rarity: challenge24
   cost: 5
   color: ruby
@@ -5463,7 +5479,7 @@
     - set: tfc
       id: 151
       rarity: rare
-    - set: promos
+    - set: p1
       id: 22
       rarity: d100
       illustrator: Lorelay Bové
@@ -5581,7 +5597,7 @@
     - set: tfc
       id: 154
       rarity: common
-    - set: promos
+    - set: p1
       id: 8
       rarity: organized_play
   lore: 1
@@ -5695,7 +5711,7 @@
     - set: tfc
       id: 157
       rarity: super_rare
-    - set: promos
+    - set: p1
       id: 6
       rarity: d23
   lore: 2
@@ -5908,8 +5924,11 @@
     - set: tfc
       id: 163
       rarity: rare
-    - set: promos
+    - set: p1
       id: 41
+      rarity: unreleased
+    - set: c1
+      id: 2
       rarity: challenge24
   cost: 5
   inkwell: true
@@ -6278,7 +6297,7 @@
     - set: tfc
       id: 174
       rarity: common
-    - set: promos
+    - set: p1
       id: 7
       rarity: d23
   lore: 1
@@ -6395,7 +6414,7 @@
     - set: tfc
       id: 177
       rarity: uncommon
-    - set: promos
+    - set: p1
       id: 13
       rarity: gamecon23
   lore: 1
@@ -6695,7 +6714,7 @@
     - set: tfc
       id: 185
       rarity: rare
-    - set: promos
+    - set: p1
       id: 23
       rarity: d100
       illustrator: Bill Schwab
@@ -6736,7 +6755,7 @@
     - set: tfc
       id: 186
       rarity: rare
-    - set: promos
+    - set: p1
       id: 11
       rarity: gamecon23
   lore: 2

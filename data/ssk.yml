@@ -25,6 +25,9 @@
     - set: ssk
       id: 2
       rarity: uncommon
+    - set: p2
+      id: 3
+      rarity: organized_play
   lore: 1
   cost: 1
   inkwell: true
@@ -287,6 +290,9 @@
     - set: ssk
       id: 13
       rarity: rare
+    - set: p2
+      id: 2
+      rarity: special_events
   lore: 3
   cost: 9
   inkwell: false
@@ -310,6 +316,10 @@
     - set: ssk
       id: 14
       rarity: legendary
+    - set: p2
+      id: 7
+      rarity: enchanted
+      illustrator: Hyuna Lee
   lore: 5
   cost: 5
   inkwell: true
@@ -431,6 +441,9 @@
       id: 206
       rarity: enchanted
       illustrator: Natalie Dombois
+    - set: d23
+      id: 5
+      rarity: d23
   lore: 2
   cost: 4
   inkwell: true
@@ -1349,6 +1362,9 @@
       id: 210
       rarity: enchanted
       illustrator: Rachel Elese
+    - set: p2
+      id: 4
+      rarity: organized_play
   cost: 5
   inkwell: true
   color: amethyst
@@ -3235,6 +3251,9 @@
     - set: ssk
       id: 146
       rarity: rare
+    - set: p2
+      id: 5
+      rarity: organized_play
   lore: 1
   cost: 2
   inkwell: false
@@ -3258,6 +3277,9 @@
     - set: ssk
       id: 147
       rarity: super_rare
+    - set: p2
+      id: 1
+      rarity: villainous
   lore: 1
   cost: 4
   inkwell: true
@@ -3773,6 +3795,9 @@
     - set: ssk
       id: 171
       rarity: uncommon
+    - set: p2
+      id: 6
+      rarity: organized_play
   lore: 1
   cost: 4
   inkwell: false
