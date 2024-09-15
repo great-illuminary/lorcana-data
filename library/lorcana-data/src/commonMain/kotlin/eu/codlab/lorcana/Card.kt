@@ -7,6 +7,7 @@ import eu.codlab.lorcana.cards.CardType
 import eu.codlab.lorcana.cards.InkColor
 import eu.codlab.lorcana.cards.VariantRarity
 import eu.codlab.lorcana.franchises.Franchise
+import eu.codlab.lorcana.raw.Ravensburger
 import eu.codlab.lorcana.raw.SetDescription
 import eu.codlab.lorcana.raw.VirtualCard
 import kotlinx.serialization.SerialName
@@ -23,6 +24,7 @@ data class Card(
     val illustrator: String = "",
     val number: Int,
     val dreamborn: String,
+    val ravensburger: Ravensburger,
     val rarity: VariantRarity,
     val languages: CardTranslations,
     val actions: List<Ability>,
@@ -54,7 +56,8 @@ fun VirtualCard.toCard(set: SetDescription): List<Card>? {
             setCode = set,
             franchise = franchise,
             thirdParty = thirdParty,
-            dreamborn = it.dreamborn
+            dreamborn = it.dreamborn,
+            ravensburger = it.ravensburger
         )
     }
 }

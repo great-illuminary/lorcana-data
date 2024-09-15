@@ -12,6 +12,7 @@ data class VariantString(
     val set: SetDescription,
     val id: Int,
     val dreamborn: String,
+    val ravensburger: Ravensburger,
     val rarity: VariantRarity,
     val illustrator: String? = null,
     val erratas: Map<Language, ErratasString>? = null
@@ -24,6 +25,7 @@ data class VariantString(
         rarity = rarity,
         illustrator = illustrator,
         dreamborn = dreamborn,
+        ravensburger = ravensburger,
         erratas = if (null == erratas) {
             null
         } else {
