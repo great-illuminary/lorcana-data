@@ -6,6 +6,6 @@ import kotlinx.serialization.Serializable
 data class CardTranslations(
     val en: CardTranslation,
     val fr: CardTranslation? = null,
-    val es: CardTranslation? = null,
+    val it: CardTranslation? = null,
     val de: CardTranslation? = null,
 )

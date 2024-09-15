@@ -13,15 +13,15 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class RawVirtualCard(
+    val variants: List<VariantString> = emptyList(),
+    val lore: Int? = null,
     val cost: Int = 0,
     val inkwell: Boolean = false,
     @SerialName("move_cost")
     val moveCost: Int? = null,
     val attack: Int? = null,
     val defence: Int? = null,
-    val variants: List<VariantString> = emptyList(),
     val color: InkColor,
-    val lore: Int? = null,
     val type: CardType,
     val classifications: List<String> = emptyList(),
     val illustrator: String = "",

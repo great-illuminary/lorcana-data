@@ -2,6 +2,7 @@
 plugins {
     application
     alias(additionals.plugins.kotlin.jvm)
+    alias(additionals.plugins.kotlin.serialization)
     id("jvmCompat")
 }
 
