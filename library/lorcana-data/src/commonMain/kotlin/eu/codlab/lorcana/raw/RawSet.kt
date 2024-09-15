@@ -7,7 +7,6 @@ import eu.codlab.tcgmapper.AbstractLoader
 import eu.codlab.tcgmapper.Provider
 import kotlinx.serialization.StringFormat
 import kotlinx.serialization.builtins.ListSerializer
-import kotlinx.serialization.builtins.serializer
 
 enum class RawSet(
     fileResource: FileResource,
@@ -23,11 +22,7 @@ enum class RawSet(
         fileResource,
         fileName,
         ListSerializer(
-            RawVirtualCard.serializer(
-                String.serializer(),
-                String.serializer(),
-                String.serializer()
-            )
+            RawVirtualCard.serializer()
         ),
         github
     )

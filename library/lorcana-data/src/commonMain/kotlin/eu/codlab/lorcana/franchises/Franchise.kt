@@ -5,5 +5,13 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Franchise(
-    val translations: TranslationHolder<String>
-)
+    val id: String,
+    val translations: TranslationHolder
+) {
+    companion object {
+        internal fun from(id: String, rawFranchise: RawFranchise) = Franchise(
+            id = id,
+            translations = rawFranchise.translations
+        )
+    }
+}

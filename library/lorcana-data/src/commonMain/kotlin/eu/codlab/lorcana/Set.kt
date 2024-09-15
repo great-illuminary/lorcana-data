@@ -1,8 +1,5 @@
 package eu.codlab.lorcana
 
-import eu.codlab.lorcana.abilities.Ability
-import eu.codlab.lorcana.cards.ClassificationHolder
-import eu.codlab.lorcana.franchises.Franchise
 import eu.codlab.lorcana.raw.SetDescription
 import eu.codlab.lorcana.raw.VirtualCard
 import eu.codlab.tcgmapper.Provider
@@ -20,11 +17,7 @@ data class Set(
     }
 
     fun virtualCardsTo(encoder: StringFormat = Provider.yaml): String {
-        val serializer = VirtualCard.serializer(
-            Ability.serializer(),
-            ClassificationHolder.serializer(),
-            Franchise.serializer()
-        )
+        val serializer = VirtualCard.serializer()
 
         return encoder.encodeToString(ListSerializer(serializer), virtualCards)
     }

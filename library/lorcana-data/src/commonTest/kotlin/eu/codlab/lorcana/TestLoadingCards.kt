@@ -11,7 +11,6 @@ import eu.codlab.platform.currentPlatform
 import eu.codlab.tcgmapper.Provider
 import kotlinx.coroutines.test.runTest
 import kotlinx.serialization.builtins.ListSerializer
-import kotlinx.serialization.builtins.serializer
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -32,13 +31,7 @@ class TestLoadingCards {
             val file = VirtualFile(VirtualFile.Root, "../../data/$name.yml")
 
             val cards: List<RawVirtualCard> = Provider.yaml.decodeFromString(
-                ListSerializer(
-                    RawVirtualCard.serializer(
-                        String.serializer(),
-                        String.serializer(),
-                        String.serializer()
-                    )
-                ),
+                ListSerializer(RawVirtualCard.serializer()),
                 file.readString()
             )
 
@@ -59,11 +52,7 @@ class TestLoadingCards {
             val content = file.safelyReadContent()
             val cards: List<RawVirtualCard> = Provider.yaml.decodeFromString(
                 ListSerializer(
-                    RawVirtualCard.serializer(
-                        String.serializer(),
-                        String.serializer(),
-                        String.serializer()
-                    )
+                    RawVirtualCard.serializer()
                 ),
                 content
             )

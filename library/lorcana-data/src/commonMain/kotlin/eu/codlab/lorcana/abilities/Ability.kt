@@ -7,7 +7,7 @@ import kotlinx.serialization.Serializable
 data class Ability(
     val logic: String? = null, // unused for now, provided for future versions
     val values: AbilityValues? = null,
-    val title: TranslationHolder<String>? = null,
-    val text: TranslationHolder<String>? = null,
+    val title: TranslationHolder? = null,
+    val text: TranslationHolder? = null,
     val reference: String? = null
 )

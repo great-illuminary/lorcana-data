@@ -1,9 +1,6 @@
 import eu.codlab.files.VirtualFile
 import eu.codlab.lorcana.Card
 import eu.codlab.lorcana.Lorcana
-import eu.codlab.lorcana.abilities.Ability
-import eu.codlab.lorcana.cards.ClassificationHolder
-import eu.codlab.lorcana.franchises.Franchise
 import eu.codlab.lorcana.raw.SetDescription
 import eu.codlab.lorcana.raw.VirtualCard
 import kotlinx.coroutines.runBlocking
@@ -48,13 +45,7 @@ fun main() {
 
                 write(assets, "${setDescription.name.lowercase()}_extended.$suffix") {
                     encode.encodeToString(
-                        ListSerializer(
-                            VirtualCard.serializer(
-                                Ability.serializer(),
-                                ClassificationHolder.serializer(),
-                                Franchise.serializer()
-                            )
-                        ),
+                        ListSerializer(VirtualCard.serializer()),
                         virtualCards
                     )
                 }

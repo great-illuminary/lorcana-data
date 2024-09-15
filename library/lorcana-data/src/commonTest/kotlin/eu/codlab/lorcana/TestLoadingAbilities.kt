@@ -41,7 +41,7 @@ class TestLoadingAbilities {
         throw err
     }
 
-    private fun checkTranslation(translationHolder: TranslationHolder<String>?) {
+    private fun checkTranslation(translationHolder: TranslationHolder?) {
         translationHolder?.let {
             // assertNotNull(it.de)
             // assertNotNull(it.fr)

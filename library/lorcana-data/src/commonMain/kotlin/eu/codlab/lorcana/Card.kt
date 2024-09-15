@@ -2,7 +2,7 @@ package eu.codlab.lorcana
 
 import eu.codlab.lorcana.abilities.Ability
 import eu.codlab.lorcana.cards.CardThirdParty
-import eu.codlab.lorcana.cards.CardTranslation
+import eu.codlab.lorcana.cards.CardTranslations
 import eu.codlab.lorcana.cards.CardType
 import eu.codlab.lorcana.cards.InkColor
 import eu.codlab.lorcana.cards.VariantRarity
@@ -22,13 +22,13 @@ data class Card(
     val type: CardType,
     val illustrator: String = "",
     val number: Int,
+    val dreamborn: String,
     val rarity: VariantRarity,
-    val languages: Map<String, CardTranslation>,
+    val languages: CardTranslations,
     val actions: List<Ability>,
     @SerialName("set_code")
     val setCode: SetDescription,
-    @SerialName("franchise_id")
-    val franchiseId: Franchise,
+    val franchise: Franchise,
     @SerialName("third_party")
     val thirdParty: CardThirdParty? = null
 )
@@ -52,8 +52,9 @@ fun VirtualCard.toCard(set: SetDescription): List<Card>? {
             languages = languages,
             actions = actions,
             setCode = set,
-            franchiseId = franchiseId,
-            thirdParty = thirdParty
+            franchise = franchise,
+            thirdParty = thirdParty,
+            dreamborn = it.dreamborn
         )
     }
 }

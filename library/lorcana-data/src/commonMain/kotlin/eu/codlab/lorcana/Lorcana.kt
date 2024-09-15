@@ -3,7 +3,6 @@ package eu.codlab.lorcana
 import eu.codlab.lorcana.raw.RawSet
 import eu.codlab.lorcana.raw.SetDescription
 import eu.codlab.lorcana.raw.VirtualCard
-import eu.codlab.lorcana.raw.to
 import korlibs.datastructure.iterators.parallelMap
 
 class Lorcana {
