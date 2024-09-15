@@ -1,58 +1,28 @@
 import eu.codlab.files.VirtualFile
-import eu.codlab.lorcana.Card
-import eu.codlab.lorcana.Lorcana
-import eu.codlab.lorcana.raw.SetDescription
-import eu.codlab.lorcana.raw.VirtualCard
+import eu.codlab.lorcana.raw.RawVirtualCard
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.builtins.ListSerializer
-import kotlinx.serialization.json.Json
 import net.mamoe.yamlkt.Yaml
-import kotlin.system.exitProcess
 
 fun main() {
     runBlocking {
-        // note : removed the logic, this is not ready yet for complete manipulation
-        // and will be renamed so that it highlights the future capability of generating the
-        // various assets which could be production ready in each releases :)¬
-
-        val lorcana = Lorcana().loadFromResources()
-
-        val json = Json {
-            prettyPrint = true
-        }
-
         val yml = Yaml {
             // nothing
         }
 
-        val assets = VirtualFile(VirtualFile.Root, "assets")
-        assets.mkdirs()
+        val serializer = ListSerializer(RawVirtualCard.serializer())
 
-        SetDescription.entries.forEach { setDescription ->
-            listOf(
-                "yml" to yml,
-                "json" to json
-            ).forEach { (suffix, encode) ->
-                val cards = lorcana.set(setDescription).cards
-                val virtualCards = lorcana.set(setDescription).virtualCards
+        listOf("tfc", "iti", "urr", "ssk", "rotf").forEach {
+            val file = VirtualFile(VirtualFile.Root, "data/$it.yml")
+            val content = file.readString()
+            val list = yml.decodeFromString(serializer, content)
 
-                write(assets, "${setDescription.name.lowercase()}.$suffix") {
-                    encode.encodeToString(
-                        ListSerializer(Card.serializer()),
-                        cards
-                    )
-                }
+            val assets = VirtualFile(VirtualFile.Root, "data")
 
-                write(assets, "${setDescription.name.lowercase()}_extended.$suffix") {
-                    encode.encodeToString(
-                        ListSerializer(VirtualCard.serializer()),
-                        virtualCards
-                    )
-                }
+            write(assets, "$it.yml") {
+                yml.encodeToString(serializer, list)
             }
         }
-
-        exitProcess(0)
     }
 }
 
