@@ -28,8 +28,8 @@ fun main() {
 
             json.cards.cards.forEach { card ->
                 // now make the map of id -> lang -> card
-                rbMap.putIfAbsent(card.card_identifier, mutableMapOf())
-                val map = rbMap[card.card_identifier]!!
+                rbMap.putIfAbsent(card.cardIdentifier, mutableMapOf())
+                val map = rbMap[card.cardIdentifier]!!
                 map[lang] = card
             }
         }
@@ -55,24 +55,26 @@ fun main() {
                     val toReturn = (original ?: CardTranslation()).copy(
                         name = rbcard?.name ?: "",
                         title = rbcard?.subtitle ?: "",
-                        flavour = (rbcard?.flavor_text ?: "").split("%").joinToString("\n")
+                        flavour = (rbcard?.flavorText ?: "").split("%").joinToString("\n")
                     )
 
-                    val invalid = toReturn.name.isBlank() && toReturn.title.isNullOrBlank()
-                            && toReturn.flavour.isNullOrBlank()
+                    val invalid = toReturn.name.isBlank() &&
+                            toReturn.title.isNullOrBlank() &&
+                            toReturn.flavour.isNullOrBlank()
 
-                    return if(!invalid) {
+                    return if (!invalid) {
                         toReturn
                     } else {
                         null
                     }
                 }
 
-                val en=  copyTranslation(card.languages.en, "en") { it.en }
-                if(null == en) {
+                val en = copyTranslation(card.languages.en, "en") { it.en }
+                if (null == en) {
                     println("having invalid info for...")
                     println(card)
                 }
+
                 card.copy(
                     languages = CardTranslations(
                         en = en!!,

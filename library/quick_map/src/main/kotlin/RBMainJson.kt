@@ -1,3 +1,4 @@
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
@@ -13,21 +14,14 @@ data class RBCards(
     val actions: List<RBCard>
 ) {
     val cards = characters + locations + items + actions
-
-    fun find(identifier: String): RBCard? {
-        listOf(characters, locations, items, actions).forEach { list ->
-            val found = list.find { it.card_identifier == identifier }
-            if (null != found) return found
-        }
-
-        return null
-    }
 }
 
 @Serializable
 data class RBCard(
     val name: String = "",
     val subtitle: String = "",
-    val flavor_text: String = "",
-    val card_identifier: String = ""
+    @SerialName("flavor_text")
+    val flavorText: String = "",
+    @SerialName("card_identifier")
+    val cardIdentifier: String = ""
 )
