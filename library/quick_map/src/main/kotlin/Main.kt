@@ -1,101 +1,58 @@
 import eu.codlab.files.VirtualFile
-import eu.codlab.lorcana.cards.CardTranslation
-import eu.codlab.lorcana.cards.CardTranslations
-import eu.codlab.lorcana.raw.Ravensburger
-import eu.codlab.lorcana.raw.RawVirtualCard
+import eu.codlab.lorcana.Card
+import eu.codlab.lorcana.Lorcana
+import eu.codlab.lorcana.raw.SetDescription
+import eu.codlab.lorcana.raw.VirtualCard
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.json.Json
 import net.mamoe.yamlkt.Yaml
-import net.mamoe.yamlkt.YamlBuilder
+import kotlin.system.exitProcess
 
 fun main() {
     runBlocking {
+        // note : removed the logic, this is not ready yet for complete manipulation
+        // and will be renamed so that it highlights the future capability of generating the
+        // various assets which could be production ready in each releases :)¬
+
+        val lorcana = Lorcana().loadFromResources()
+
+        val json = Json {
+            prettyPrint = true
+        }
+
         val yml = Yaml {
             // nothing
-            stringSerialization = YamlBuilder.StringSerialization.DOUBLE_QUOTATION
-        }
-        val json = Json {
-            ignoreUnknownKeys = true
         }
 
-        val rbMap: MutableMap<String, MutableMap<String, RBCard>> = mutableMapOf()
+        val assets = VirtualFile(VirtualFile.Root, "assets")
+        assets.mkdirs()
 
-        listOf("en", "fr", "it", "de").map { lang ->
-            val file = VirtualFile(VirtualFile.Root, "data_existing/catalog/$lang/full.json")
-            val content = file.readString()
-            val json = json.decodeFromString<RBMainJson>(content)
+        SetDescription.entries.forEach { setDescription ->
+            listOf(
+                "yml" to yml,
+                "json" to json
+            ).forEach { (suffix, encode) ->
+                val cards = lorcana.set(setDescription).cards
+                val virtualCards = lorcana.set(setDescription).virtualCards
 
-            json.cards.cards.forEach { card ->
-                // now make the map of id -> lang -> card
-                rbMap.putIfAbsent(card.cardIdentifier, mutableMapOf())
-                val map = rbMap[card.cardIdentifier]!!
-                map[lang] = card
-            }
-        }
-
-        println(rbMap)
-
-        val serializer = ListSerializer(RawVirtualCard.serializer())
-
-        listOf("tfc", "iti", "urr", "ssk", "rotf").forEach { set ->
-            val file = VirtualFile(VirtualFile.Root, "data/$set.yml")
-            val content = file.readString()
-            val list = yml.decodeFromString(serializer, content)
-
-            val copy = list.map { card ->
-                fun copyTranslation(
-                    original: CardTranslation?,
-                    lang: String,
-                    extractId: (Ravensburger) -> String
-                ): CardTranslation? {
-                    val rbcard = card.variants.map { rbMap[extractId(it.ravensburger)]?.get(lang) }
-                        .find { c -> c != null }
-
-                    val toReturn = (original ?: CardTranslation()).copy(
-                        name = rbcard?.name ?: "",
-                        title = rbcard?.subtitle ?: "",
-                        flavour = (rbcard?.flavorText ?: "").split("%").joinToString("\n")
+                write(assets, "${setDescription.name.lowercase()}.$suffix") {
+                    encode.encodeToString(
+                        ListSerializer(Card.serializer()),
+                        cards
                     )
-
-                    val invalid = toReturn.name.isBlank() &&
-                            toReturn.title.isNullOrBlank() &&
-                            toReturn.flavour.isNullOrBlank()
-
-                    return if (!invalid) {
-                        toReturn
-                    } else {
-                        null
-                    }
                 }
 
-                val en = copyTranslation(card.languages.en, "en") { it.en }
-                if (null == en) {
-                    println("having invalid info for...")
-                    println(card)
-                }
-
-                card.copy(
-                    languages = CardTranslations(
-                        en = en!!,
-                        fr = copyTranslation(card.languages.fr, "fr") { it.fr },
-                        it = copyTranslation(card.languages.it, "it") { it.it },
-                        de = copyTranslation(card.languages.de, "de") { it.de }
+                write(assets, "${setDescription.name.lowercase()}_extended.$suffix") {
+                    encode.encodeToString(
+                        ListSerializer(VirtualCard.serializer()),
+                        virtualCards
                     )
-                )
-            }
-
-            val assets = VirtualFile(VirtualFile.Root, "data")
-
-            val output = yml.encodeToString(serializer, copy)
-                .split("\n")
-                .filter { !it.endsWith("null") && !it.endsWith("[]") }
-                .joinToString("\n")
-
-            write(assets, "$set.yml") {
-                output
+                }
             }
         }
+
+        exitProcess(0)
     }
 }
 

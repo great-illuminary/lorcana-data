@@ -23,7 +23,7 @@ dependencyResolutionManagement {
     }
 }
 
-["lorcana-data", "quick_map", "test-ignore"].collect {
+["lorcana-data", "quick_map", "test-ignore", "merge_catalog"].collect {
     include(":${it}")
     project(":${it}").projectDir = file("library/${it}")
 }
