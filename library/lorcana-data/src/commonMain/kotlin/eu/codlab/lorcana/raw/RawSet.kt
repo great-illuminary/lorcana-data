@@ -16,7 +16,8 @@ enum class RawSet(
     ROTF(Resources.files.rotf_yml, "rotf"),
     ITI(Resources.files.iti_yml, "iti"),
     URR(Resources.files.urr_yml, "urr"),
-    SSK(Resources.files.ssk_yml, "ssk");
+    SSK(Resources.files.ssk_yml, "ssk"),
+    AZU(Resources.files.azu_yml, "azu");
 
     private val loader = AbstractLoader(
         fileResource,
