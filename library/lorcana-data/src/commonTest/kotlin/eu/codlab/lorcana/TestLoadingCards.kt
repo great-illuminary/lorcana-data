@@ -25,7 +25,8 @@ class TestLoadingCards {
 
         listOf(
             "tfc" to 204,
-            "rotf" to 204
+            "rotf" to 204,
+            "azu" to 204
         ).forEach { set ->
             val (name, count) = set
             val file = VirtualFile(VirtualFile.Root, "../../data/$name.yml")

@@ -31,5 +31,8 @@ enum class SetDescription {
     Worlds,
 
     @SerialName("d23")
-    D23
+    D23,
+
+    @SerialName("azu")
+    Azu,
 }
