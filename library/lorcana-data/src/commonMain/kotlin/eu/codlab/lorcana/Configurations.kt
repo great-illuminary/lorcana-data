@@ -2,10 +2,11 @@ package eu.codlab.lorcana
 
 import eu.codlab.lorcana.cards.Language
 import eu.codlab.lorcana.raw.SetDescription
-import eu.codlab.lorcana.resources.Resources
+import eu.codlab.lorcana.resources.Res
 import eu.codlab.lorcana.utils.LorcanaConfiguration.github
 import eu.codlab.tcgmapper.AbstractLoader
 import kotlinx.serialization.Serializable
+import org.jetbrains.compose.resources.ExperimentalResourceApi
 
 @Serializable
 data class Configuration(
@@ -39,9 +40,10 @@ data class Configuration(
  * Represents all the possible classifications that are available. It will retrieve
  * a map of name -> TranslationHolder that then can be applied to the cards
  */
+@OptIn(ExperimentalResourceApi::class)
 object Configurations : AbstractLoader<Configuration>(
-    Resources.files.configuration_yml,
     "configuration",
     Configuration.serializer(),
-    github
+    github,
+    { Res.readBytes("files/configuration.yml.txt") }
 )

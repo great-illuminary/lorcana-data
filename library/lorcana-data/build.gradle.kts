@@ -1,11 +1,11 @@
 import com.codingfeline.buildkonfig.compiler.FieldSpec
-import java.nio.file.Files
 
 plugins {
     alias(additionals.plugins.android.library)
     alias(additionals.plugins.kotlin.multiplatform)
     alias(additionals.plugins.kotlin.serialization)
-    alias(libs.plugins.multiplatform.moko.resources.generator)
+    alias(additionals.plugins.jetbrains.compose)
+    alias(additionals.plugins.compose.compiler)
     alias(additionals.plugins.multiplatform.buildkonfig)
     id("iosSimulatorConfiguration")
     id("jvmCompat")
@@ -36,8 +36,8 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                api(libs.multiplatform.moko.resources)
-                api(libs.multiplatform.moko.resources.ext)
+                implementation(compose.runtime)
+                api(compose.components.resources)
 
                 api(additionals.kotlinx.coroutines)
                 api(additionals.kotlinx.serialization.json)
@@ -64,10 +64,10 @@ android {
     namespace = "eu.codlab.lorcana"
 }
 
-multiplatformResources {
-    resourcesPackage = "eu.codlab.lorcana.resources"
-    resourcesClassName = "Resources"
-    resourcesVisibility = dev.icerock.gradle.MRVisibility.Public
+compose.resources {
+    publicResClass = true
+    packageOfResClass = "eu.codlab.lorcana.resources"
+    generateResClass = always
 }
 
 buildkonfig {
@@ -78,10 +78,12 @@ buildkonfig {
     }
 }
 
+// TODO -> check for file differences to only copy the newest
+val validExtensions = listOf("yml", "yaml")
 val original = file("${rootProject.projectDir.absolutePath}/data")
-val link = file("src/commonMain/moko-resources/files")
+val link = file("src/commonMain/composeResources/files").also { it.mkdirs() }
+val files = original.listFiles()?.filter { validExtensions.contains(it.extension) }
 
-if (!link.exists()) {
-    link.parentFile.mkdirs()
-    Files.createSymbolicLink(link.toPath(), original.toPath())
+files?.forEach {
+    it.copyTo(File(link, "${it.name}.txt"), overwrite = true)
 }

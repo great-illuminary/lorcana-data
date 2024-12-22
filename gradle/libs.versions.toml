@@ -1,14 +1,7 @@
 [versions]
-tcg-mapper = "0.1.0"
-moko-resources = "0.24.1"
-moko-resources-ext = "1.15.2"
+tcg-mapper = "0.2.0"
 yaml-serializer = "0.13.0"
 
 [libraries]
 tcg-mapper = { module = "eu.codlab:tcg-mapper", version.ref = "tcg-mapper" }
-multiplatform-moko-resources = { module = "dev.icerock.moko:resources", version.ref = "moko-resources" }
-multiplatform-moko-resources-ext = { module = "eu.codlab:kotlin-moko-resources-ext", version.ref = "moko-resources-ext" }
 yaml-serializer = { module = "net.mamoe.yamlkt:yamlkt", version.ref = "yaml-serializer" }
-
-[plugins]
-multiplatform-moko-resources-generator = { id = "dev.icerock.mobile.multiplatform-resources", version.ref = "moko-resources" }

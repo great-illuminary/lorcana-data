@@ -4,13 +4,13 @@ import eu.codlab.files.VirtualFile
 import eu.codlab.ignore.IgnoreAndroid
 import eu.codlab.ignore.IgnoreJs
 import eu.codlab.lorcana.raw.RawVirtualCard
-import eu.codlab.lorcana.resources.Resources
-import eu.codlab.moko.ext.safelyReadContent
+import eu.codlab.lorcana.resources.Res
 import eu.codlab.platform.Platform
 import eu.codlab.platform.currentPlatform
 import eu.codlab.tcgmapper.Provider
 import kotlinx.coroutines.test.runTest
 import kotlinx.serialization.builtins.ListSerializer
+import org.jetbrains.compose.resources.ExperimentalResourceApi
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -41,16 +41,18 @@ class TestLoadingCards {
         }
     }
 
+    @OptIn(ExperimentalResourceApi::class)
     @IgnoreAndroid
     @IgnoreJs
     @Test
     fun testLoadingSetsFromResources() = runTest {
         listOf(
-            Resources.files.tfc_yml to 204,
-            Resources.files.rotf_yml to 204
+            "tfc" to 204,
+            "rotf" to 204
         ).forEach { set ->
             val (file, count) = set
-            val content = file.safelyReadContent()
+            val readFile = Res.readBytes("files/${file}.yml.txt")
+            val content = io.ktor.utils.io.core.String(readFile)
             val cards: List<RawVirtualCard> = Provider.yaml.decodeFromString(
                 ListSerializer(
                     RawVirtualCard.serializer()

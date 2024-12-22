@@ -1,31 +1,31 @@
 package eu.codlab.lorcana.raw
 
-import dev.icerock.moko.resources.FileResource
-import eu.codlab.lorcana.resources.Resources
+import eu.codlab.lorcana.resources.Res
 import eu.codlab.lorcana.utils.LorcanaConfiguration.github
 import eu.codlab.tcgmapper.AbstractLoader
 import eu.codlab.tcgmapper.Provider
 import kotlinx.serialization.StringFormat
 import kotlinx.serialization.builtins.ListSerializer
+import org.jetbrains.compose.resources.ExperimentalResourceApi
 
 enum class RawSet(
-    fileResource: FileResource,
     fileName: String
 ) {
-    TFC(Resources.files.tfc_yml, "tfc"),
-    ROTF(Resources.files.rotf_yml, "rotf"),
-    ITI(Resources.files.iti_yml, "iti"),
-    URR(Resources.files.urr_yml, "urr"),
-    SSK(Resources.files.ssk_yml, "ssk"),
-    AZU(Resources.files.azu_yml, "azu");
+    TFC("tfc"),
+    ROTF("rotf"),
+    ITI("iti"),
+    URR("urr"),
+    SSK("ssk"),
+    AZU("azu");
 
+    @OptIn(ExperimentalResourceApi::class)
     private val loader = AbstractLoader(
-        fileResource,
         fileName,
         ListSerializer(
             RawVirtualCard.serializer()
         ),
-        github
+        github,
+        { Res.readBytes("files/$fileName.yml.txt") }
     )
 
     suspend fun loadFromGithub(tag: String = "main"): List<RawVirtualCard> =

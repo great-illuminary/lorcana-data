@@ -16,8 +16,9 @@ plugins {
     alias(additionals.plugins.kotlin.multiplatform) apply false
     alias(additionals.plugins.android.library) apply false
     alias(additionals.plugins.kotlin.jvm) apply false
-    alias(libs.plugins.multiplatform.moko.resources.generator) apply false
     alias(additionals.plugins.multiplatform.buildkonfig) apply false
+    alias(additionals.plugins.jetbrains.compose) apply false
+    alias(additionals.plugins.compose.compiler) apply false
 }
 
 group = "eu.codlab"
