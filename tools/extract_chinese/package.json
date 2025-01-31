@@ -1,0 +1,14 @@
+{
+  "name": "extract_chinese",
+  "version": "0.0.0",
+  "description": "Extract the chinese cards from the public facing api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Le Perf",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
