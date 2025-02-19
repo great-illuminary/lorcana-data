@@ -18,7 +18,7 @@
   classifications: 
     - "storyborn"
     - "ally"
-  illustrator: "Therese Videfall"
+  illustrator: "Therese Vildefall"
   languages: 
     en: 
       name: "Koda"
@@ -94,7 +94,7 @@
         fr: "3/204 FR 5"
         de: "3/204 DE 5"
         it: "3/204 IT 5"
-      rarity: common
+      rarity: legendary
     - set: ssk
       id: 205
       dreamborn: "005-205"
@@ -116,7 +116,7 @@
     - "storyborn"
     - "hero"
     - "prince"
-  illustrator: "Rosa La Barbera / Livio Cacciatore"
+  illustrator: "Rosa la Barbera / Livio Cacciatore"
   languages: 
     en: 
       name: "Prince Naveen"
@@ -222,7 +222,7 @@
         fr: "6/204 FR 5"
         de: "6/204 DE 5"
         it: "6/204 IT 5"
-      rarity: rare
+      rarity: common
   lore: 1
   cost: 1
   inkwell: true
@@ -519,7 +519,7 @@
   classifications: 
     - "dreamborn"
     - "ally"
-  illustrator: "Jochem Van Gool"
+  illustrator: "Jochem van Gool"
   languages: 
     en: 
       name: "Kristoff"
@@ -714,7 +714,7 @@
         fr: "18/204 FR 5"
         de: "18/204 DE 5"
         it: "18/204 IT 5"
-      rarity: common
+      rarity: rare
   lore: 2
   cost: 3
   inkwell: false
@@ -754,7 +754,7 @@
         fr: "19/204 FR 5"
         de: "19/204 DE 5"
         it: "19/204 IT 5"
-      rarity: common
+      rarity: rare
     - set: ssk
       id: 206
       dreamborn: "005-206"
@@ -853,7 +853,7 @@
         fr: "21/204 FR 5"
         de: "21/204 DE 5"
         it: "21/204 IT 5"
-      rarity: common
+      rarity: rare
   lore: 2
   cost: 7
   inkwell: false
@@ -1155,7 +1155,7 @@
         fr: "29/204 FR 5"
         de: "29/204 DE 5"
         it: "29/204 IT 5"
-      rarity: common
+      rarity: uncommon
   cost: 2
   inkwell: false
   color: amber
@@ -1254,7 +1254,7 @@
         fr: "32/204 FR 5"
         de: "32/204 DE 5"
         it: "32/204 IT 5"
-      rarity: common
+      rarity: uncommon
   cost: 2
   inkwell: true
   color: amber
@@ -1288,6 +1288,7 @@
         de: "33/204 DE 5"
         it: "33/204 IT 5"
       rarity: uncommon
+  lore: 0
   cost: 2
   inkwell: true
   move_cost: 1
@@ -1974,7 +1975,7 @@
       rarity: enchanted
   lore: 3
   cost: 9
-  inkwell: true
+  inkwell: false
   attack: 6
   defence: 6
   color: amethyst
@@ -1982,7 +1983,7 @@
   classifications: 
     - "storyborn"
     - "ally"
-  illustrator: "Alice Pisoni"
+  illustrator: "Andrea Parisi"
   languages: 
     en: 
       name: "Olaf"
@@ -2248,7 +2249,7 @@
         fr: "57/204 FR 5"
         de: "57/204 DE 5"
         it: "57/204 IT 5"
-      rarity: common
+      rarity: uncommon
   lore: 2
   cost: 4
   inkwell: true
@@ -2561,7 +2562,7 @@
   inkwell: false
   color: amethyst
   type: item
-  illustrator: "Billy Wimblett"
+  illustrator: "John Loren"
   languages: 
     en: 
       name: "Half Hexwell Crown"
@@ -2625,7 +2626,7 @@
       rarity: rare
   lore: 1
   cost: 3
-  inkwell: true
+  inkwell: false
   move_cost: 1
   defence: 4
   color: amethyst
@@ -3208,7 +3209,7 @@
         fr: "82/204 FR 5"
         de: "82/204 DE 5"
         it: "82/204 IT 5"
-      rarity: common
+      rarity: super_rare
   lore: 2
   cost: 3
   inkwell: false
@@ -3249,7 +3250,7 @@
         fr: "83/204 FR 5"
         de: "83/204 DE 5"
         it: "83/204 IT 5"
-      rarity: common
+      rarity: super_rare
   lore: 3
   cost: 7
   inkwell: true
@@ -3535,7 +3536,7 @@
         fr: "90/204 FR 5"
         de: "90/204 DE 5"
         it: "90/204 IT 5"
-      rarity: common
+      rarity: uncommon
   lore: 1
   cost: 3
   inkwell: true
@@ -3574,7 +3575,7 @@
         fr: "91/204 FR 5"
         de: "91/204 DE 5"
         it: "91/204 IT 5"
-      rarity: common
+      rarity: rare
   lore: 1
   cost: 5
   inkwell: true
@@ -3653,7 +3654,7 @@
         fr: "93/204 FR 5"
         de: "93/204 DE 5"
         it: "93/204 IT 5"
-      rarity: common
+      rarity: rare
     - set: ssk
       id: 212
       dreamborn: "005-212"
@@ -3664,6 +3665,7 @@
         it: "212/204 IT 5"
       rarity: enchanted
       illustrator: "Dominik Mayer"
+  lore: 1
   cost: 4
   inkwell: true
   attack: 4
@@ -3767,7 +3769,7 @@
         fr: "96/204 FR 5"
         de: "96/204 DE 5"
         it: "96/204 IT 5"
-      rarity: common
+      rarity: uncommon
     - set: ssk
       id: 213
       dreamborn: "005-213"
@@ -3945,6 +3947,7 @@
         de: "101/204 DE 5"
         it: "101/204 IT 5"
       rarity: rare
+  lore: 0
   cost: 2
   inkwell: true
   move_cost: 2
@@ -4060,7 +4063,7 @@
   cost: 3
   inkwell: true
   attack: 1
-  defence: 3
+  defence: 4
   color: ruby
   type: glimmer
   classifications: 
@@ -4173,7 +4176,7 @@
         fr: "107/204 FR 5"
         de: "107/204 DE 5"
         it: "107/204 IT 5"
-      rarity: common
+      rarity: legendary
     - set: ssk
       id: 214
       dreamborn: "005-214"
@@ -4743,7 +4746,8 @@
         fr: "121/204 FR 5"
         de: "121/204 DE 5"
         it: "121/204 IT 5"
-      rarity: common
+      rarity: uncommon
+  lore: 0
   cost: 1
   inkwell: false
   attack: 2
@@ -4792,7 +4796,7 @@
   classifications: 
     - "storyborn"
     - "ally"
-  illustrator: "Franchesco D'ippolito / Giuseppe di Maio"
+  illustrator: "Francesco D'ippolito / Giuseppe di Maio"
   languages: 
     en: 
       name: "Donald Duck"
@@ -4945,7 +4949,7 @@
   cost: 3
   inkwell: true
   attack: 2
-  defence: 3
+  defence: 4
   color: ruby
   type: glimmer
   classifications: 
@@ -5081,7 +5085,7 @@
         de: "130/204 DE 5"
         it: "130/204 IT 5"
       rarity: uncommon
-  cost: 3
+  cost: 4
   inkwell: false
   color: ruby
   type: action
@@ -5246,6 +5250,7 @@
         de: "135/204 DE 5"
         it: "135/204 IT 5"
       rarity: rare
+  lore: 0
   cost: 1
   inkwell: false
   move_cost: 0
@@ -5291,6 +5296,7 @@
         it: "216/204 IT 5"
       rarity: enchanted
       illustrator: "Rachel Elese"
+  lore: 0
   cost: 2
   inkwell: true
   move_cost: 1
@@ -5645,7 +5651,7 @@
         fr: "145/204 FR 5"
         de: "145/204 DE 5"
         it: "145/204 IT 5"
-      rarity: super_rare
+      rarity: rare
   lore: 4
   cost: 9
   inkwell: false
@@ -6589,6 +6595,7 @@
         de: "169/204 DE 5"
         it: "169/204 IT 5"
       rarity: rare
+  lore: 0
   cost: 3
   inkwell: true
   move_cost: 2
@@ -6624,6 +6631,7 @@
         de: "170/204 DE 5"
         it: "170/204 IT 5"
       rarity: uncommon
+  lore: 0
   cost: 1
   inkwell: true
   move_cost: 1
@@ -7112,7 +7120,7 @@
   color: steel
   type: glimmer
   classifications: 
-    - "dreamborn"
+    - "storyborn"
     - "villain"
     - "princess"
   illustrator: "Jenna Gray"
@@ -7616,7 +7624,7 @@
   classifications: 
     - "floodborn"
     - "hero"
-    - "knight"
+    - "king"
   illustrator: "Anna Stosik"
   languages: 
     en: 
@@ -7684,7 +7692,7 @@
         fr: "196/204 FR 5"
         de: "196/204 DE 5"
         it: "196/204 IT 5"
-      rarity: common
+      rarity: rare
   cost: 5
   inkwell: true
   color: steel
@@ -7753,7 +7761,6 @@
         de: "198/204 DE 5"
         it: "198/204 IT 5"
       rarity: common
-  lore: 1
   cost: 2
   inkwell: true
   color: steel

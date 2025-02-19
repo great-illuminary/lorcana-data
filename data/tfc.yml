@@ -7,6 +7,7 @@
         fr: "1/204 FR 1"
         de: "1/204 DE 1"
         it: "1/204 IT 1"
+        zh: "1/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 4
@@ -33,6 +34,10 @@
       name: "Arielle"
       title: "Auf menschlichen Beinen"
       flavour: "…"
+    zh: 
+      name: "爱丽儿"
+      title: "像人一样站立"
+      flavour: "“……”"
   actions: 
     - "voiceless"
   franchise_id: "the-little-mermaid"
@@ -48,6 +53,7 @@
         fr: "2/204 FR 1"
         de: "2/204 DE 1"
         it: "2/204 IT 1"
+        zh: "2/204 ZH 1"
       rarity: super_rare
   lore: 1
   cost: 3
@@ -74,6 +80,10 @@
       name: "Arielle"
       title: "Spektakuläre Sängerin"
       flavour: ""
+    zh: 
+      name: "爱丽儿"
+      title: "脱颖而出的歌手"
+      flavour: ""
   actions: 
     - "singer"
     - "musical_debut"
@@ -90,6 +100,7 @@
         fr: "3/204 FR 1"
         de: "3/204 DE 1"
         it: "3/204 IT 1"
+        zh: "3/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 4
@@ -116,6 +127,10 @@
       name: "Cinderella"
       title: "Behutsam und freundlich"
       flavour: ""
+    zh: 
+      name: "灰姑娘"
+      title: "温柔善良"
+      flavour: ""
   actions: 
     - "singer"
     - "wonderful_dream"
@@ -132,6 +147,7 @@
         fr: "4/204 FR 1"
         de: "4/204 DE 1"
         it: "4/204 IT 1"
+        zh: "4/204 ZH 1"
       rarity: uncommon
     - set: p1
       id: 12
@@ -141,6 +157,7 @@
         fr: "12/P1 FR 1"
         de: "12/P1 DE 1"
         it: "12/P1 IT 1"
+        zh: "12/P1 ZH 1"
       rarity: gamecon23
   lore: 1
   cost: 5
@@ -167,6 +184,10 @@
       name: "Goofy"
       title: "Musketier"
       flavour: "En Garde!"
+    zh: 
+      name: "高飞"
+      title: "剑客"
+      flavour: "“拔剑！”"
   actions: 
     - "bodyguard"
     - "and_two_for_tea"
@@ -183,6 +204,7 @@
         fr: "5/204 FR 1"
         de: "5/204 DE 1"
         it: "5/204 IT 1"
+        zh: "5/204 ZH 1"
       rarity: rare
     - set: tfc
       id: 205
@@ -192,6 +214,7 @@
         fr: "205/204 FR 1"
         de: "205/204 DE 1"
         it: "205/204 IT 1"
+        zh: "205/204 ZH 1"
       rarity: enchanted
       illustrator: "Juan Diego Leon"
   lore: 1
@@ -220,6 +243,10 @@
       name: "Hades"
       title: "König des Olymps"
       flavour: "Oh hey, ich brauche neue Visitenkarten."
+    zh: 
+      name: "哈迪斯"
+      title: "奥林帕斯山之王"
+      flavour: "“嘿，我得换新的名片了。”"
   actions: 
     - "shift"
     - "sinister_plot"
@@ -236,6 +263,7 @@
         fr: "6/204 FR 1"
         de: "6/204 DE 1"
         it: "6/204 IT 1"
+        zh: "6/204 ZH 1"
       rarity: rare
   lore: 1
   cost: 4
@@ -266,6 +294,10 @@
       name: "Hades"
       title: "Herrscher der Unterwelt"
       flavour: "Die Produktion ist gestiegen, die Kosten sind gesunken, die Flüsse sind voll. Zeit, über Expansion zu sprechen."
+    zh: 
+      name: "哈迪斯"
+      title: "冥界大帝"
+      flavour: "“产量升了，成本降了，河也满了。该讨论扩张了。”"
   actions: 
     - "well_of_souls"
   franchise_id: "hercules"
@@ -281,6 +313,7 @@
         fr: "7/204 FR 1"
         de: "7/204 DE 1"
         it: "7/204 IT 1"
+        zh: "7/204 ZH 1"
       rarity: common
     - set: p1
       id: 9
@@ -290,6 +323,7 @@
         fr: "9/P1 FR 1"
         de: "9/P1 DE 1"
         it: "9/P1 IT 1"
+        zh: "9/P1 ZH 1"
       rarity: organized_play
   lore: 1
   cost: 1
@@ -319,6 +353,10 @@
       name: "HeiHei"
       title: "Bootssnack"
       flavour: "Manchmal erkennt man unsere Stärken nicht auf den ersten Blick. Manchmal auch nicht auf den zweiten... – Vaiana"
+    zh: 
+      name: "憨憨"
+      title: "小点心"
+      flavour: "“有时候我们需要透过现象看本质，不过，不一定能看到……”\n——莫阿娜"
   actions: 
     - "support"
   franchise_id: "moana"
@@ -334,6 +372,7 @@
         fr: "8/204 FR 1"
         de: "8/204 DE 1"
         it: "8/204 IT 1"
+        zh: "8/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 2
@@ -345,7 +384,7 @@
   classifications: 
     - "storyborn"
     - "ally"
-  illustrator: "Andrey Chomak"
+  illustrator: "Andrey Chumak"
   languages: 
     en: 
       name: "LeFou"
@@ -359,6 +398,10 @@
       name: "Le Fou"
       title: "Tollpatsch"
       flavour: "Um ein richtiger Bösewicht zu sein, braucht man einen guten Komplizen."
+    zh: 
+      name: "来福"
+      title: "笨伯"
+      flavour: "身边没有好的马屁精就当不了真正的坏蛋。"
   actions: 
     - "loyal"
   franchise_id: "beauty-and-the-beast"
@@ -374,6 +417,7 @@
         fr: "9/204 FR 1"
         de: "9/204 DE 1"
         it: "9/204 IT 1"
+        zh: "9/204 ZH 1"
       rarity: rare
   lore: 2
   cost: 1
@@ -399,6 +443,10 @@
       name: "Lilo"
       title: "Wünscht sich was"
       flavour: "Eine Sternschnuppe! Zuerst gesehen! Raus, geh raus! Ich muss mir was wünschen!"
+    zh: 
+      name: "莉萝"
+      title: "许下心愿"
+      flavour: "“是一颗流星……我要赶紧许愿了！”"
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lilo-Making-a-Wish"
@@ -412,6 +460,7 @@
         fr: "10/204 FR 1"
         de: "10/204 DE 1"
         it: "10/204 IT 1"
+        zh: "10/204 ZH 1"
       rarity: super_rare
   lore: 1
   cost: 5
@@ -437,6 +486,10 @@
       name: "Maximus"
       title: "Schloss-Pferd"
       flavour: ""
+    zh: 
+      name: "捍马"
+      title: "皇家的马"
+      flavour: ""
   actions: 
     - "bodyguard"
     - "support"
@@ -453,6 +506,7 @@
         fr: "11/204 FR 1"
         de: "11/204 DE 1"
         it: "11/204 IT 1"
+        zh: "11/204 ZH 1"
       rarity: uncommon
   lore: 1
   cost: 3
@@ -478,6 +532,10 @@
       name: "Maximus"
       title: "Gnadenloser Verfolger"
       flavour: "Er verfolgt seine Beute mit Mut, Disziplin und einem Hauch von Klasse."
+    zh: 
+      name: "捍马"
+      title: "良驹不懈追缉"
+      flavour: "他在追捕对象时格外勇敢，从不瞎跑，还带有几份优雅。 "
   actions: 
     - "horse_kick"
   franchise_id: "tangled"
@@ -493,6 +551,7 @@
         fr: "12/204 FR 1"
         de: "12/204 DE 1"
         it: "12/204 IT 1"
+        zh: "12/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 3
@@ -522,6 +581,10 @@
       name: "Micky Maus"
       title: "Wahrer Freund"
       flavour: "Solange er da ist, werden Neuankömmlinge im Großen Illuminarium immer herzlich willkommen sein."
+    zh: 
+      name: "米奇"
+      title: "真心朋友"
+      flavour: "只要他在，新来大汇明馆的人都会受到热烈的欢迎。"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-True-Friend"
@@ -535,6 +598,7 @@
         fr: "13/204 FR 1"
         de: "13/204 DE 1"
         it: "13/204 IT 1"
+        zh: "13/204 ZH 1"
       rarity: common
   lore: 1
   cost: 2
@@ -564,6 +628,10 @@
       name: "Minnie Maus"
       title: "Geliebte Prinzessin"
       flavour: "Wo immer die Prinzessin hingeht, sind ihre Musketiere... nun ja, sie sind irgendwo in der Nähe, vermutlich."
+    zh: 
+      name: "米妮"
+      title: "受宠爱的公主"
+      flavour: "无论公主去哪里，她的三剑客总是……应该在周围某处吧。"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Minnie-Mouse-Beloved-Princess"
@@ -577,6 +645,7 @@
         fr: "14/204 FR 1"
         de: "14/204 DE 1"
         it: "14/204 IT 1"
+        zh: "14/204 ZH 1"
       rarity: rare
   lore: 3
   cost: 5
@@ -603,6 +672,10 @@
       name: "Vaiana"
       title: "Von Motunui"
       flavour: "Ich bin Vaiana von Motunui. Du kommst jetzt auf mein Boot, segelst über das Meer und bringst das Herz nach Te Fiti zurück."
+    zh: 
+      name: "莫阿娜"
+      title: "莫图鲁尼岛人"
+      flavour: "“我是莫图鲁尼岛的莫阿娜。你给我快上船，我要带你跨越大海，去归还特菲提之心。”"
   actions: 
     - "we_can_fix_it"
   franchise_id: "moana"
@@ -618,6 +691,7 @@
         fr: "15/204 FR 1"
         de: "15/204 DE 1"
         it: "15/204 IT 1"
+        zh: "15/204 ZH 1"
       rarity: common
   lore: 1
   cost: 3
@@ -644,6 +718,10 @@
       name: "Herr Smee"
       title: "Loyaler Erster Maat"
       flavour: "Smee ist eine freundliche, sanfte Seele, die lebt, um einem alten Schurken Trost und Hilfe zu spenden. Nun, wofür ist solch' Freundlichkeit gut? – Peter Pan"
+    zh: 
+      name: "史密先生"
+      title: "忠诚的大副"
+      flavour: "“史密先生善良又慈祥，但他每天都在照顾那个大坏蛋。你说，这种热心肠有什么用呢？”\n——彼得·潘"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mr-Smee-Loyal-First-Mate"
@@ -657,6 +735,7 @@
         fr: "16/204 FR 1"
         de: "16/204 DE 1"
         it: "16/204 IT 1"
+        zh: "16/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 4
@@ -683,6 +762,10 @@
       name: "Prinz Phillip"
       title: "Drachenbändiger"
       flavour: "Der Weg wahrer Liebe ist oft mit vielen Gefahren versperrt. Ihr müsst sie alle alleine bestehen. – Flora"
+    zh: 
+      name: "菲力王子"
+      title: "屠龙王子"
+      flavour: "“在爱情的道路上还有艰难险阻，你要有勇气面对它。”\n——花拉仙子"
   actions: 
     - "heroism"
   franchise_id: "sleeping-beauty"
@@ -698,6 +781,7 @@
         fr: "17/204 FR 1"
         de: "17/204 DE 1"
         it: "17/204 IT 1"
+        zh: "17/204 ZH 1"
       rarity: common
   lore: 1
   cost: 4
@@ -723,6 +807,10 @@
       name: "Pumbaa"
       title: "Freundliches Warzenschwein"
       flavour: "Man muss seinen Hintern in die Vergangenheit bringen."
+    zh: 
+      name: "彭彭"
+      title: "友好的疣猪"
+      flavour: "“你得把背后抛到过去。”"
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Pumbaa-Friendly-Warthog"
@@ -736,6 +824,7 @@
         fr: "18/204 FR 1"
         de: "18/204 DE 1"
         it: "18/204 IT 1"
+        zh: "18/204 ZH 1"
       rarity: legendary
     - set: p1
       id: 43
@@ -745,6 +834,7 @@
         fr: "43/P1 FR 1"
         de: "43/P1 DE 1"
         it: "43/P1 IT 1"
+        zh: ""
       rarity: unreleased
       illustrator: "Grace Tran"
     - set: c1
@@ -755,6 +845,7 @@
         fr: "4/C1 FR 1"
         de: "4/C1 DE 1"
         it: "4/C1 IT 1"
+        zh: "4/C1 ZH 1"
       rarity: challenge24
       illustrator: "Grace Tran"
   lore: 2
@@ -782,6 +873,10 @@
       name: "Rapunzel"
       title: "Begnadete Heilerin"
       flavour: ""
+    zh: 
+      name: "乐佩"
+      title: "身怀治愈魔力"
+      flavour: ""
   actions: 
     - "gleam_and_glow"
   franchise_id: "tangled"
@@ -797,6 +892,7 @@
         fr: "19/204 FR 1"
         de: "19/204 DE 1"
         it: "19/204 IT 1"
+        zh: "19/204 ZH 1"
       rarity: common
   lore: 1
   cost: 2
@@ -826,6 +922,10 @@
       name: "Sebastian"
       title: "Hofkomponist"
       flavour: "Ich bin doch für Symphonien zuständig und nicht für hitzköpfige Teenager."
+    zh: 
+      name: "塞巴斯丁"
+      title: "宫廷作曲家"
+      flavour: "“我应该去作曲，而不是给任性的毛丫头当跟屁虫。”"
   actions: 
     - "singer_4"
   franchise_id: "the-little-mermaid"
@@ -841,6 +941,7 @@
         fr: "20/204 FR 1"
         de: "20/204 DE 1"
         it: "20/204 IT 1"
+        zh: "20/204 ZH 1"
       rarity: common
   lore: 1
   cost: 2
@@ -867,6 +968,10 @@
       name: "Simba"
       title: "Schützender Welpe"
       flavour: "Mut gibt es in allen Größen."
+    zh: 
+      name: "辛巴"
+      title: "护伴幼狮"
+      flavour: "勇气不分大小。"
   actions: 
     - "bodyguard"
   franchise_id: "the-lion-king"
@@ -882,6 +987,7 @@
         fr: "21/204 FR 1"
         de: "21/204 DE 1"
         it: "21/204 IT 1"
+        zh: "21/204 ZH 1"
       rarity: legendary
     - set: tfc
       id: 206
@@ -891,6 +997,7 @@
         fr: "206/204 FR 1"
         de: "206/204 DE 1"
         it: "206/204 IT 1"
+        zh: "206/204 ZH 1"
       rarity: enchanted
       illustrator: "Milica Celikovic"
   lore: 2
@@ -918,6 +1025,10 @@
       name: "Stitch"
       title: "Sorgloser Surfer"
       flavour: "So, so. Du kommst aus dem Weltraum. Ich habe gehört, da kann man super surfen. – David"
+    zh: 
+      name: "史迪奇"
+      title: "悠闲冲浪手"
+      flavour: "“那么你是来自外太空吗？听说都是冲浪高手。”\n——大卫"
   actions: 
     - "ohana"
   franchise_id: "lilo-and-stitch"
@@ -933,6 +1044,7 @@
         fr: "22/204 FR 1"
         de: "22/204 DE 1"
         it: "22/204 IT 1"
+        zh: "22/204 ZH 1"
       rarity: common
   lore: 1
   cost: 1
@@ -963,6 +1075,10 @@
       name: "Stitch"
       title: "Neuer Hund"
       flavour: "Lilo: David! Guck mal, mein neuer Hund! David: Oh … ist das wirklich ein Hund? Lilo: Uh-huh. Er war mal ein Collie und dann ist er überfahren worden."
+    zh: 
+      name: "史迪奇"
+      title: "新养的小狗"
+      flavour: "莉萝：“大卫！我养了一只狗！”\n大卫：“噢！我的天……你确定这是狗？”\n莉萝：“它在被车撞倒之前是一只牧羊犬。”"
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stitch-New-Dog"
@@ -976,6 +1092,7 @@
         fr: "23/204 FR 1"
         de: "23/204 DE 1"
         it: "23/204 IT 1"
+        zh: "23/204 ZH 1"
       rarity: super_rare
     - set: p1
       id: 2
@@ -985,6 +1102,7 @@
         fr: "2/P1 FR 1"
         de: "2/P1 DE 1"
         it: "2/P1 IT 1"
+        zh: "2/P1 ZH 1"
       rarity: d23
     - set: p1
       id: 30
@@ -994,6 +1112,7 @@
         fr: "30/P1 FR 1"
         de: "30/P1 DE 1"
         it: "30/P1 IT 1"
+        zh: ""
       rarity: enchanted
       illustrator: "Nicholas Kole"
   lore: 3
@@ -1025,6 +1144,10 @@
       name: "Stitch"
       title: "Rockstar"
       flavour: "Das Beste an einem Konzert am Strand ist, dass es immer Platz für noch mehr Publikum gibt."
+    zh: 
+      name: "史迪奇"
+      title: "摇滚巨星"
+      flavour: "沙滩音乐会最棒的就是永远有座。"
   actions: 
     - "shift_4"
     - "adoring_fans"
@@ -1041,6 +1164,7 @@
         fr: "24/204 FR 1"
         de: "24/204 DE 1"
         it: "24/204 IT 1"
+        zh: "24/204 ZH 1"
       rarity: common
   lore: 1
   cost: 1
@@ -1066,6 +1190,10 @@
       name: "Timon"
       title: "Larvendieb"
       flavour: "Es gibt alle möglichen Leckereien auf der Welt — man muss nur wissen, wo man suchen muss."
+    zh: 
+      name: "丁满"
+      title: "找虫子专家"
+      flavour: "“这世界上到处都是好吃的——你只要知道去哪里找。”"
   actions: 
     - "tastes_like_chicken"
   franchise_id: "the-lion-king"
@@ -1081,6 +1209,7 @@
         fr: "25/204 FR 1"
         de: "25/204 DE 1"
         it: "25/204 IT 1"
+        zh: "25/204 ZH 1"
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -1102,6 +1231,10 @@
       name: "Sei hier Gast!"
       title: ""
       flavour: ""
+    zh: 
+      name: "欢迎你"
+      title: ""
+      flavour: ""
   actions: 
     - "be_our_guest"
   franchise_id: "beauty-and-the-beast"
@@ -1117,6 +1250,7 @@
         fr: "26/204 FR 1"
         de: "26/204 DE 1"
         it: "26/204 IT 1"
+        zh: "26/204 ZH 1"
       rarity: common
   cost: 1
   inkwell: true
@@ -1136,6 +1270,10 @@
       name: "Halten Sie ihr Temperament im Zaum!"
       title: ""
       flavour: ""
+    zh: 
+      name: "改改你的臭脾气！"
+      title: ""
+      flavour: ""
   actions: 
     - "control_your_temper"
   franchise_id: "beauty-and-the-beast"
@@ -1151,6 +1289,7 @@
         fr: "27/204 FR 1"
         de: "27/204 DE 1"
         it: "27/204 IT 1"
+        zh: "27/204 ZH 1"
       rarity: common
   cost: 4
   inkwell: true
@@ -1176,6 +1315,10 @@
       name: "Hakuna Matata"
       title: ""
       flavour: "Diesen Spruch sag ich gern!"
+    zh: 
+      name: "哈库那玛塔塔"
+      title: ""
+      flavour: "多美妙的句子！"
   actions: 
     - "hakuna_matata"
   franchise_id: "the-lion-king"
@@ -1191,6 +1334,7 @@
         fr: "28/204 FR 1"
         de: "28/204 DE 1"
         it: "28/204 IT 1"
+        zh: "28/204 ZH 1"
       rarity: common
   cost: 1
   inkwell: true
@@ -1214,6 +1358,10 @@
       name: "Heilendes Leuchten"
       title: ""
       flavour: "Dreh jetzt nur nicht durch! – Rapunzel"
+    zh: 
+      name: "治愈之光"
+      title: ""
+      flavour: "“千万别被吓坏！”\n——乐佩 "
   actions: 
     - "healing_glow"
   franchise_id: "tangled"
@@ -1229,6 +1377,7 @@
         fr: "29/204 FR 1"
         de: "29/204 DE 1"
         it: "29/204 IT 1"
+        zh: "29/204 ZH 1"
       rarity: rare
   cost: 3
   inkwell: false
@@ -1248,6 +1397,10 @@
       name: "Gerade Rechtzeitig"
       title: ""
       flavour: "Die besten Helden erscheinen immer zum perfekten Zeitpunkt — ganz gleich, ob sie es wissen oder nicht."
+    zh: 
+      name: "及时登场"
+      title: ""
+      flavour: "最厉害的英雄总是在最需要他的时候出现——不过他本人可能并不知道。"
   actions: 
     - "just_in_time"
   franchise_id: "moana"
@@ -1263,6 +1416,7 @@
         fr: "30/204 FR 1"
         de: "30/204 DE 1"
         it: "30/204 IT 1"
+        zh: "30/204 ZH 1"
       rarity: rare
   cost: 3
   inkwell: false
@@ -1288,6 +1442,10 @@
       name: "In Deiner Welt"
       title: ""
       flavour: "In einer Welt, wo alle geh'n und nicht mehr schwimmen."
+    zh: 
+      name: "你的世界"
+      title: ""
+      flavour: "不惜一切，\n逃离水世界。"
   actions: 
     - "part_of_your_world"
   franchise_id: "the-little-mermaid"
@@ -1303,6 +1461,7 @@
         fr: "31/204 FR 1"
         de: "31/204 DE 1"
         it: "31/204 IT 1"
+        zh: "31/204 ZH 1"
       rarity: uncommon
   cost: 4
   inkwell: true
@@ -1322,6 +1481,10 @@
       name: "Du hast mich vergessen"
       title: ""
       flavour: "Du bist zu etwas anderem bestimmt. – Mufasa"
+    zh: 
+      name: "你把我忘了"
+      title: ""
+      flavour: "“你比表面的你要强大许多。”\n——木法沙"
   actions: 
     - "you_have_forgotten_me"
   franchise_id: "the-lion-king"
@@ -1337,6 +1500,7 @@
         fr: "32/204 FR 1"
         de: "32/204 DE 1"
         it: "32/204 IT 1"
+        zh: "32/204 ZH 1"
       rarity: common
   cost: 1
   inkwell: true
@@ -1360,6 +1524,10 @@
       name: "Dingelhopper"
       title: ""
       flavour: "Erfreu dich an den schönsten Frisuren der Menschheit!"
+    zh: 
+      name: "丁零当啷"
+      title: ""
+      flavour: "来试试人类最好的美发用品！"
   actions: 
     - "straighten_hair"
   franchise_id: "the-little-mermaid"
@@ -1375,6 +1543,7 @@
         fr: "33/204 FR 1"
         de: "33/204 DE 1"
         it: "33/204 IT 1"
+        zh: "33/204 ZH 1"
       rarity: rare
   cost: 2
   inkwell: false
@@ -1398,6 +1567,10 @@
       name: "Himmelslaterne"
       title: ""
       flavour: "Laternen füllen den Himmel in einer besonderen Nacht. Sie sind das Licht der Hoffnung und der Liebe."
+    zh: 
+      name: "天灯"
+      title: ""
+      flavour: "在那特别的夜晚，代表希望与爱情的灯笼会点亮夜空。 "
   actions: 
     - "birthday_lights"
   franchise_id: "tangled"
@@ -1413,6 +1586,7 @@
         fr: "34/204 FR 1"
         de: "34/204 DE 1"
         it: "34/204 IT 1"
+        zh: "34/204 ZH 1"
       rarity: rare
   cost: 3
   inkwell: false
@@ -1432,6 +1606,10 @@
       name: "Ursulas Muschel-Halskette"
       title: ""
       flavour: "Singen ist ein schöner Zeitvertreib … wenn man die Stimme dafür hat. – Ursula"
+    zh: 
+      name: "乌苏拉的海螺项链"
+      title: ""
+      flavour: "“唱歌是个不错的消遣……但首先你得有副好嗓子。”\n——乌苏拉"
   actions: 
     - "now_sing"
   franchise_id: "the-little-mermaid"
@@ -1447,6 +1625,7 @@
         fr: "35/204 FR 1"
         de: "35/204 DE 1"
         it: "35/204 IT 1"
+        zh: "35/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 4
@@ -1473,6 +1652,10 @@
       name: "Anna"
       title: "Thronfolgerin von Arendelle"
       flavour: "Zwei Schwestern, ein Gedanke."
+    zh: 
+      name: "安娜"
+      title: "阿伦黛尔王位继承人"
+      flavour: "“我们是姐妹，我们心有灵犀。”"
   actions: 
     - "loving_heart"
   franchise_id: "frozen"
@@ -1488,6 +1671,7 @@
         fr: "36/204 FR 1"
         de: "36/204 DE 1"
         it: "36/204 IT 1"
+        zh: "36/204 ZH 1"
       rarity: common
   lore: 1
   cost: 1
@@ -1513,6 +1697,10 @@
       name: "Archimedes"
       title: "Hochgebildeter Kauz"
       flavour: "Das Fliegen ist nicht etwa bloß ein simpler mechanischer Prozess. Sondern eine edle Kunst. Pure Ästhetik. Poesie der Bewegung. Doch man lernt das Fliegen nur, indem man fliegt."
+    zh: 
+      name: "阿基米德"
+      title: "学位渊博的猫头鹰"
+      flavour: "“飞行不光只是原始的机械作用。它是精致的艺术，纯美学，诗一般的动作。最好的学习方法就是实际演练！” "
   franchise_id: "the-sword-in-the-stone"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Archimedes-Highly-Educated-Owl"
@@ -1526,6 +1714,7 @@
         fr: "37/204 FR 1"
         de: "37/204 DE 1"
         it: "37/204 IT 1"
+        zh: "37/204 ZH 1"
       rarity: rare
   lore: 3
   cost: 7
@@ -1552,6 +1741,10 @@
       name: "Dr. Facilier"
       title: "Agent Provocateur"
       flavour: ""
+    zh: 
+      name: "霍博士"
+      title: "魔影代理人"
+      flavour: ""
   actions: 
     - "shift_5"
     - "into_the_shadows"
@@ -1568,6 +1761,7 @@
         fr: "38/204 FR 1"
         de: "38/204 DE 1"
         it: "38/204 IT 1"
+        zh: "38/204 ZH 1"
       rarity: common
   lore: 1
   cost: 2
@@ -1594,6 +1788,10 @@
       name: "Dr. Facilier"
       title: "Scharlatan"
       flavour: "Enchantée. Darf ich mich vorstellen: Dr. Facilier."
+    zh: 
+      name: "霍博士"
+      title: "江湖骗子"
+      flavour: "“向您请安。霍博士向你们致意。”"
   actions: 
     - "challenger"
   franchise_id: "the-princess-and-the-frog"
@@ -1609,6 +1807,7 @@
         fr: "39/204 FR 1"
         de: "39/204 DE 1"
         it: "39/204 IT 1"
+        zh: "39/204 ZH 1"
       rarity: rare
   lore: 1
   cost: 3
@@ -1635,6 +1834,10 @@
       name: "Dr. Facilier"
       title: "Bemerkenswerter Gentleman"
       flavour: ""
+    zh: 
+      name: "霍博士"
+      title: "了不起的先生"
+      flavour: ""
   actions: 
     - "dreams_made_real"
   franchise_id: "the-princess-and-the-frog"
@@ -1650,6 +1853,7 @@
         fr: "40/204 FR 1"
         de: "40/204 DE 1"
         it: "40/204 IT 1"
+        zh: "40/204 ZH 1"
       rarity: common
   lore: 1
   cost: 4
@@ -1681,6 +1885,10 @@
       name: "Elsa"
       title: "Amtierende Königin"
       flavour: "Ich wusste gar nicht, wozu ich im Stande bin."
+    zh: 
+      name: "艾莎"
+      title: "未归女王"
+      flavour: "“我也没想到自己有这么大本事。”"
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Elsa-Queen-Regent"
@@ -1694,6 +1902,7 @@
         fr: "41/204 FR 1"
         de: "41/204 DE 1"
         it: "41/204 IT 1"
+        zh: "41/204 ZH 1"
       rarity: uncommon
     - set: p1
       id: 3
@@ -1703,6 +1912,7 @@
         fr: "3/P1 FR 1"
         de: "3/P1 DE 1"
         it: "3/P1 IT 1"
+        zh: "3/P1 ZH 1"
       rarity: d23
   lore: 1
   cost: 3
@@ -1734,6 +1944,10 @@
       name: "Elsa"
       title: "Eiskönigin"
       flavour: "Durch magische Tinte erschaffen, fand sich Elsa in einer völlig neuen Welt. Zum Glück funktioniert Eis überall gleich."
+    zh: 
+      name: "艾莎"
+      title: "冰雪女王"
+      flavour: "奇墨重塑后的艾莎发现自己来到了一个全新的世界。好消息是，冰雪魔法在哪里都一样管用。"
   actions: 
     - "freeze"
   franchise_id: "frozen"
@@ -1749,6 +1963,7 @@
         fr: "42/204 FR 1"
         de: "42/204 DE 1"
         it: "42/204 IT 1"
+        zh: "42/204 ZH 1"
       rarity: legendary
     - set: tfc
       id: 207
@@ -1758,6 +1973,7 @@
         fr: "207/204 FR 1"
         de: "207/204 DE 1"
         it: "207/204 IT 1"
+        zh: "207/204 ZH 1"
       rarity: enchanted
   lore: 3
   cost: 8
@@ -1785,6 +2001,10 @@
       name: "Elsa"
       title: "Magie des Winters"
       flavour: "Eis ist stärker, als du denkst."
+    zh: 
+      name: "艾莎"
+      title: "冬灵"
+      flavour: "冰雪的力量超乎你的想象。"
   actions: 
     - "shift_6"
     - "deep_freeze"
@@ -1801,6 +2021,7 @@
         fr: "43/204 FR 1"
         de: "43/204 DE 1"
         it: "43/204 IT 1"
+        zh: "43/204 ZH 1"
       rarity: rare
   lore: 2
   cost: 5
@@ -1826,6 +2047,10 @@
       name: "Abschaum"
       title: "Ursulas Spion"
       flavour: "Wir kennen jemanden, der dir helfen kann … zu einem bestimmten Preis."
+    zh: 
+      name: "胡善"
+      title: "乌苏拉的眼线"
+      flavour: "“我们知道谁能帮你一把……只要你付得出报酬。”"
   actions: 
     - "rush"
     - "dexterous_lunge"
@@ -1842,6 +2067,7 @@
         fr: "44/204 FR 1"
         de: "44/204 DE 1"
         it: "44/204 IT 1"
+        zh: "44/204 ZH 1"
       rarity: rare
   lore: 2
   cost: 4
@@ -1872,6 +2098,10 @@
       name: "Dschafar"
       title: "Hüter der Geheimnisse"
       flavour: "Es gibt mehr als einen Weg, um Geheimnisse zu verbergen."
+    zh: 
+      name: "贾方"
+      title: "守秘巫师"
+      flavour: "埋藏秘密的方式可不止一种。"
   actions: 
     - "hidden_wonders"
   franchise_id: "aladdin"
@@ -1887,6 +2117,7 @@
         fr: "45/204 FR 1"
         de: "45/204 DE 1"
         it: "45/204 IT 1"
+        zh: "45/204 ZH 1"
       rarity: common
   lore: 1
   cost: 4
@@ -1917,6 +2148,10 @@
       name: "Dschafar"
       title: "Hinterhältiger Hexer"
       flavour: "Genug mit der Herumschleicherei. Es ist an der Zeit, diesem jämmerlichen Sultan zu zeigen, wozu ein Zauberer fähig ist."
+    zh: 
+      name: "贾方"
+      title: "邪恶的巫师"
+      flavour: "“遮遮掩掩到此结束了。我要让那个哭哭啼啼的苏丹见识一下巫师的真本事。”"
   actions: 
     - "challenger_3"
   franchise_id: "aladdin"
@@ -1932,6 +2167,7 @@
         fr: "46/204 FR 1"
         de: "46/204 DE 1"
         it: "46/204 IT 1"
+        zh: "46/204 ZH 1"
       rarity: common
   lore: 1
   cost: 4
@@ -1957,6 +2193,10 @@
       name: "Meerschaum"
       title: "Ursulas Spion"
       flavour: "Wir können dir helfen, alles zu bekommen, was du willst …"
+    zh: 
+      name: "贾善"
+      title: "乌苏拉的眼线"
+      flavour: "“我们能帮你得到你想要的一切……”"
   actions: 
     - "evasive"
     - "sinister_slither"
@@ -1973,6 +2213,7 @@
         fr: "47/204 FR 1"
         de: "47/204 DE 1"
         it: "47/204 IT 1"
+        zh: "47/204 ZH 1"
       rarity: common
   lore: 1
   cost: 2
@@ -2002,6 +2243,10 @@
       name: "Zauberbesen"
       title: "Wasser marsch!"
       flavour: "In der mächtigen Geschichtenschmiede, bekannt als das Große Illuminarium, gibt es immer was zu tun."
+    zh: 
+      name: "奇妙扫帚"
+      title: "提桶大队"
+      flavour: "在名为大汇明馆的巨大故事加工厂里，总有干不完的活。"
   actions: 
     - "sweep"
   franchise_id: "fantasia"
@@ -2017,6 +2262,7 @@
         fr: "48/204 FR 1"
         de: "48/204 DE 1"
         it: "48/204 IT 1"
+        zh: "48/204 ZH 1"
       rarity: rare
   lore: 2
   cost: 1
@@ -2043,6 +2289,10 @@
       name: "Malefiz"
       title: "Auf der Lauer"
       flavour: "Man darf diese Dinge nicht überstürzen, sonst könnte der beste Plan ins Leere laufen."
+    zh: 
+      name: "黑巫婆"
+      title: "静待良机"
+      flavour: "“有些事情急不得，不然再伟大的计划也会化为泡影。”"
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maleficent-Biding-Her-Time"
@@ -2056,6 +2306,7 @@
         fr: "49/204 FR 1"
         de: "49/204 DE 1"
         it: "49/204 IT 1"
+        zh: "49/204 ZH 1"
       rarity: common
   lore: 1
   cost: 3
@@ -2086,6 +2337,10 @@
       name: "Malefiz"
       title: "Hexerin"
       flavour: "Du wagst es, mich herauszufordern? Du Narr! Meine Magie ist mächtiger, als du es dir nur vorstellen kannst!"
+    zh: 
+      name: "黑巫婆"
+      title: "女巫"
+      flavour: "“你怎敢与<我>对抗？没有头脑的家伙，我的强大魔法远超你的想象！”"
   actions: 
     - "cast_my_spell"
   franchise_id: "sleeping-beauty"
@@ -2101,6 +2356,7 @@
         fr: "50/204 FR 1"
         de: "50/204 DE 1"
         it: "50/204 IT 1"
+        zh: "50/204 ZH 1"
       rarity: super_rare
   lore: 1
   cost: 6
@@ -2112,7 +2368,7 @@
   classifications: 
     - "storyborn"
     - "ally"
-  illustrator: "Kendall Hale"
+  illustrator: "Kendall Hale / Anh Dang"
   languages: 
     en: 
       name: "Marshmallow"
@@ -2126,6 +2382,10 @@
       name: "Marshmallow"
       title: "Hartnäckiger Hüter"
       flavour: "Hey! Wir haben gerade über dich gesprochen. Natürlich nur Gutes, nur Gutes. – Olaf"
+    zh: 
+      name: "棉花糖"
+      title: "坚韧的雪卫士"
+      flavour: "“嘿！我们正在说你呢！说的都是好话，都是好话。”\n——雪宝"
   actions: 
     - "durable"
   franchise_id: "frozen"
@@ -2141,6 +2401,7 @@
         fr: "51/204 FR 1"
         de: "51/204 DE 1"
         it: "51/204 IT 1"
+        zh: "51/204 ZH 1"
       rarity: super_rare
     - set: tfc
       id: 208
@@ -2150,6 +2411,7 @@
         fr: "208/204 FR 1"
         de: "208/204 DE 1"
         it: "208/204 IT 1"
+        zh: "208/204 ZH 1"
       rarity: enchanted
       illustrator: "Cam Kendell"
   lore: 2
@@ -2180,6 +2442,10 @@
       name: "Micky Maus"
       title: "Eigenwilliger Zauberer"
       flavour: "Immer für eine saubere Sache zu haben."
+    zh: 
+      name: "米奇"
+      title: "任性的巫师"
+      flavour: "他不扫干净，誓不罢休。"
   actions: 
     - "animate_broom"
     - "ceaseless_worker"
@@ -2196,6 +2462,7 @@
         fr: "52/204 FR 1"
         de: "52/204 DE 1"
         it: "52/204 IT 1"
+        zh: "52/204 ZH 1"
       rarity: uncommon
   lore: 1
   cost: 1
@@ -2225,6 +2492,10 @@
       name: "Olaf"
       title: "Freundlicher Schneemann"
       flavour: "Ich bin Olaf und ich liebe Umarmungen."
+    zh: 
+      name: "雪宝"
+      title: "友好的雪人"
+      flavour: "“我叫雪宝，喜欢热情的拥抱！”"
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Olaf-Friendly-Snowman"
@@ -2238,6 +2509,7 @@
         fr: "53/204 FR 1"
         de: "53/204 DE 1"
         it: "53/204 IT 1"
+        zh: "53/204 ZH 1"
       rarity: uncommon
   lore: 1
   cost: 1
@@ -2263,6 +2535,10 @@
       name: "Pascal"
       title: "Rapunzels Begleiter"
       flavour: "Ein wahrer Freund ist immer für dich da, ob du ihn sehen kannst oder nicht."
+    zh: 
+      name: "帕斯考"
+      title: "乐佩的宠物"
+      flavour: "真正的朋友总是会守护在你身边，虽然有时你看不见它们。"
   actions: 
     - "camouflage"
   franchise_id: "tangled"
@@ -2278,6 +2554,7 @@
         fr: "54/204 FR 1"
         de: "54/204 DE 1"
         it: "54/204 IT 1"
+        zh: "54/204 ZH 1"
       rarity: uncommon
   lore: 1
   cost: 3
@@ -2304,6 +2581,10 @@
       name: "Rafiki"
       title: "Geheimnisvoller Weiser"
       flavour: "Die Vergangenheit kann wehtun. Aber wie ich es sehe, läuft man entweder davon oder … man lernt davon."
+    zh: 
+      name: "拉飞奇"
+      title: "神秘的圣猴"
+      flavour: "“过去的伤总是会痛，但我认为你可以选择逃避，或从中吸取教训。”"
   actions: 
     - "rush"
   franchise_id: "the-lion-king"
@@ -2319,6 +2600,7 @@
         fr: "55/204 FR 1"
         de: "55/204 DE 1"
         it: "55/204 IT 1"
+        zh: "55/204 ZH 1"
       rarity: uncommon
   lore: 1
   cost: 6
@@ -2344,6 +2626,10 @@
       name: "Sven"
       title: "Offizieller Eislieferant"
       flavour: "Achtung, Rentier im Anflug! – Kristoff"
+    zh: 
+      name: "斯特"
+      title: "皇家冰块特许经销商"
+      flavour: "“小心，驯鹿来啦！”\n——克斯托夫"
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sven-Official-Ice-Deliverer"
@@ -2357,6 +2643,7 @@
         fr: "56/204 FR 1"
         de: "56/204 DE 1"
         it: "56/204 IT 1"
+        zh: "56/204 ZH 1"
       rarity: super_rare
   lore: 1
   cost: 5
@@ -2383,6 +2670,10 @@
       name: "Die Königin"
       title: "Boshaft und eitel"
       flavour: "Erhabene Schönheit gepaart mit unvergleichlicher Gerissenheit. Besteht noch Zweifel, wer die Schönste ist?"
+    zh: 
+      name: "皇后"
+      title: "邪恶又虚荣"
+      flavour: "惊人美貌配上无双邪恶。世上谁最美还有争议吗？"
   actions: 
     - "i_summon_thee"
   franchise_id: "snow-white-and-the-seven-dwarfs"
@@ -2398,6 +2689,7 @@
         fr: "57/204 FR 1"
         de: "57/204 DE 1"
         it: "57/204 IT 1"
+        zh: "57/204 ZH 1"
       rarity: common
   lore: 1
   cost: 3
@@ -2427,6 +2719,10 @@
       name: "Mme. Kommode"
       title: "Belles Vertraute"
       flavour: "Wenn man einfach Haute Couture besitzen muss."
+    zh: 
+      name: "衣柜婶婶"
+      title: "贝儿的知己"
+      flavour: "有时候，你非得要最美丽的衣服不可。 "
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/The-Wardrobe-Belles-Confidant"
@@ -2440,6 +2736,7 @@
         fr: "58/204 FR 1"
         de: "58/204 DE 1"
         it: "58/204 IT 1"
+        zh: "58/204 ZH 1"
       rarity: common
   lore: 2
   cost: 5
@@ -2466,6 +2763,10 @@
       name: "Naseweis"
       title: "Peter Pans Verbündete"
       flavour: ""
+    zh: 
+      name: "小叮当"
+      title: "彼得·潘的好帮手"
+      flavour: ""
   actions: 
     - "evasive"
     - "loyal_and_devoted"
@@ -2482,6 +2783,7 @@
         fr: "59/204 FR 1"
         de: "59/204 DE 1"
         it: "59/204 IT 1"
+        zh: "59/204 ZH 1"
       rarity: legendary
   lore: 3
   cost: 7
@@ -2508,6 +2810,10 @@
       name: "Ursula"
       title: "Machtgierig"
       flavour: "Die erste Regel des Schurken-Daseins: Wenn du böse sein willst, musst du Stil haben."
+    zh: 
+      name: "乌苏拉"
+      title: "渴望力量"
+      flavour: "反派法则第一条：想要变成坏蛋，就必须要有<特色>。"
   actions: 
     - "its_too_easy"
   franchise_id: "the-little-mermaid"
@@ -2523,6 +2829,7 @@
         fr: "60/204 FR 1"
         de: "60/204 DE 1"
         it: "60/204 IT 1"
+        zh: "60/204 ZH 1"
       rarity: common
     - set: p1
       id: 10
@@ -2532,6 +2839,7 @@
         fr: "10/P1 FR 1"
         de: "10/P1 DE 1"
         it: "10/P1 IT 1"
+        zh: "10/P1 ZH 1"
       rarity: organized_play
   lore: 1
   cost: 2
@@ -2558,6 +2866,10 @@
       name: "Isma"
       title: "Alchemistin"
       flavour: "Wenn ich deine Meinung will, werde ich sie dir sagen!"
+    zh: 
+      name: "伊丝玛"
+      title: "炼金术士"
+      flavour: "“如果我需要你的意见，我会给你机会开口的！”"
   actions: 
     - "youre_excused"
   franchise_id: "the-emperors-new-groove"
@@ -2573,6 +2885,7 @@
         fr: "61/204 FR 1"
         de: "61/204 DE 1"
         it: "61/204 IT 1"
+        zh: "61/204 ZH 1"
       rarity: rare
   lore: 2
   cost: 4
@@ -2598,6 +2911,10 @@
       name: "Zeus"
       title: "Gott der Blitze"
       flavour: "Ein kleiner Blitz löst eine ganze Menge Probleme."
+    zh: 
+      name: "宙斯"
+      title: "掌管闪电的神"
+      flavour: "“小闪电能解决大问题。”"
   actions: 
     - "rush"
     - "challenger_4"
@@ -2614,6 +2931,7 @@
         fr: "62/204 FR 1"
         de: "62/204 DE 1"
         it: "62/204 IT 1"
+        zh: "62/204 ZH 1"
       rarity: uncommon
   cost: 1
   inkwell: true
@@ -2633,6 +2951,10 @@
       name: "Das meistbeirrende Spiel"
       title: ""
       flavour: "Hab keine Angst davor, deinen Verstand hin und wieder verwirren zu lassen."
+    zh: 
+      name: "神魂颠倒"
+      title: ""
+      flavour: "有时候搞不清楚状况也不要害怕。"
   actions: 
     - "befuddle"
   franchise_id: "the-sword-in-the-stone"
@@ -2648,6 +2970,7 @@
         fr: "63/204 FR 1"
         de: "63/204 DE 1"
         it: "63/204 IT 1"
+        zh: "63/204 ZH 1"
       rarity: common
   cost: 2
   inkwell: false
@@ -2667,6 +2990,10 @@
       name: "Einfrieren"
       title: ""
       flavour: "Es wird Zeit für eine Abkühlung."
+    zh: 
+      name: "冰冻"
+      title: ""
+      flavour: "你该冷静一下了。"
   actions: 
     - "freeze_action"
   franchise_id: "frozen"
@@ -2682,6 +3009,7 @@
         fr: "64/204 FR 1"
         de: "64/204 DE 1"
         it: "64/204 IT 1"
+        zh: "64/204 ZH 1"
       rarity: common
   cost: 3
   inkwell: true
@@ -2707,6 +3035,10 @@
       name: "Freunde im Schattenreich"
       title: ""
       flavour: "In den Karten, den Karten, in den Karten steht …"
+    zh: 
+      name: "我的朋友来自魔法世界"
+      title: ""
+      flavour: "塔罗牌，塔罗牌\n会显示未来……"
   actions: 
     - "friends_on_the_other_side"
   franchise_id: "the-princess-and-the-frog"
@@ -2722,6 +3054,7 @@
         fr: "65/204 FR 1"
         de: "65/204 DE 1"
         it: "65/204 IT 1"
+        zh: "65/204 ZH 1"
       rarity: uncommon
   cost: 1
   inkwell: true
@@ -2747,6 +3080,10 @@
       name: "Wer bin ich?"
       title: ""
       flavour: "Wann zeigt mir mein Spiegelbild, wer ich wirklich bin?"
+    zh: 
+      name: "自己"
+      title: ""
+      flavour: "何时才能见到我\n用真心歌唱？"
   actions: 
     - "reflection"
   franchise_id: "mulan"
@@ -2762,6 +3099,7 @@
         fr: "66/204 FR 1"
         de: "66/204 DE 1"
         it: "66/204 IT 1"
+        zh: "66/204 ZH 1"
       rarity: rare
   cost: 2
   inkwell: false
@@ -2781,6 +3119,10 @@
       name: "Wunderspiegel"
       title: ""
       flavour: "Was wollt Ihr wissen, oh Königin?"
+    zh: 
+      name: "魔镜"
+      title: ""
+      flavour: "“皇后，你想知道什么？”"
   actions: 
     - "speak"
   franchise_id: "snow-white-and-the-seven-dwarfs"
@@ -2796,6 +3138,7 @@
         fr: "67/204 FR 1"
         de: "67/204 DE 1"
         it: "67/204 IT 1"
+        zh: "67/204 ZH 1"
       rarity: uncommon
   cost: 2
   inkwell: false
@@ -2819,6 +3162,10 @@
       name: "Ursulas Kessel"
       title: ""
       flavour: "Perfekt, um Tränke zu brauen und Stimmen zu stehlen."
+    zh: 
+      name: "乌苏拉的魔法锅"
+      title: ""
+      flavour: "既能制药又能盗取声音。"
   actions: 
     - "peer_into_the_depths"
   franchise_id: "the-little-mermaid"
@@ -2834,6 +3181,7 @@
         fr: "68/204 FR 1"
         de: "68/204 DE 1"
         it: "68/204 IT 1"
+        zh: "68/204 ZH 1"
       rarity: rare
   cost: 3
   inkwell: true
@@ -2853,6 +3201,10 @@
       name: "Taschenuhr des weißen Kaninchens"
       title: ""
       flavour: "Kein Wunder, dass du zu spät dran bist. Die alte Kartoffel geht ja zwei Tage nach. — Der verrückte Hutmacher"
+    zh: 
+      name: "白兔的怀表"
+      title: ""
+      flavour: "“怪不得你迟到了。你的表慢了两天。”\n——疯帽子"
   actions: 
     - "im_late"
   franchise_id: "alice-in-wonderland"
@@ -2868,6 +3220,7 @@
         fr: "69/204 FR 1"
         de: "69/204 DE 1"
         it: "69/204 IT 1"
+        zh: "69/204 ZH 1"
       rarity: common
   lore: 1
   cost: 2
@@ -2894,6 +3247,10 @@
       name: "Aladdin"
       title: "Prinz Ali"
       flavour: "Sagenhaft wohlhabend. Praktisch unantastbar. Wahrhaftig unaufrichtig."
+    zh: 
+      name: "阿拉丁"
+      title: "阿里王子"
+      flavour: "富可敌国，高高在上，如真包换。"
   actions: 
     - "ward"
   franchise_id: "aladdin"
@@ -2909,6 +3266,7 @@
         fr: "70/204 FR 1"
         de: "70/204 DE 1"
         it: "70/204 IT 1"
+        zh: "70/204 ZH 1"
       rarity: legendary
   lore: 2
   cost: 5
@@ -2935,6 +3293,10 @@
       name: "Biest"
       title: "Schrecken der Wölfe"
       flavour: "Ich werde es mit euch allen aufnehmen, wenn es sein muss!"
+    zh: 
+      name: "野兽"
+      title: "野狼克星"
+      flavour: "“别逼我对付你们!”"
   actions: 
     - "rush"
     - "roar"
@@ -2951,6 +3313,7 @@
         fr: "71/204 FR 1"
         de: "71/204 DE 1"
         it: "71/204 IT 1"
+        zh: "71/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 3
@@ -2975,6 +3338,10 @@
       name: "Grinsekatze"
       title: "Nicht ganz da"
       flavour: "Hast du nicht gemerkt, dass ich sie nicht alle beieinander habe, mein Liebling?"
+    zh: 
+      name: "妙妙猫"
+      title: "不太正常"
+      flavour: "“你或许也注意到了，我也不太正常。”"
   actions: 
     - "lose_something"
   franchise_id: "alice-in-wonderland"
@@ -2990,6 +3357,7 @@
         fr: "72/204 FR 1"
         de: "72/204 DE 1"
         it: "72/204 IT 1"
+        zh: "72/204 ZH 1"
       rarity: rare
     - set: p1
       id: 4
@@ -2999,6 +3367,7 @@
         fr: "4/P1 FR 1"
         de: "4/P1 DE 1"
         it: "4/P1 IT 1"
+        zh: "4/P1 ZH 1"
       rarity: d23
   lore: 1
   cost: 2
@@ -3024,6 +3393,10 @@
       name: "Cruella De Vil"
       title: "Miserabel wie immer"
       flavour: "Wenn sie erscheint, ist Unheil nicht fern."
+    zh: 
+      name: "库伊拉"
+      title: "老样子"
+      flavour: "她到哪里，霉运就跟到哪里。"
   actions: 
     - "youll_be_sorry"
   franchise_id: "101-dalmatians"
@@ -3039,6 +3412,7 @@
         fr: "73/204 FR 1"
         de: "73/204 DE 1"
         it: "73/204 IT 1"
+        zh: "73/204 ZH 1"
       rarity: common
   lore: 1
   cost: 1
@@ -3064,6 +3438,10 @@
       name: "Herzog von Pitzbühl"
       title: "Opportunistischer Funktionär"
       flavour: "Hexerei! Hab ich's doch gewusst. In diesem Land hier stimmt etwas nicht."
+    zh: 
+      name: "威尔镇公爵"
+      title: "投机的官员"
+      flavour: "“是魔法！我就知道这里发生的事情很可疑。”"
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Duke-of-Weselton-Opportunistic-Official"
@@ -3077,6 +3455,7 @@
         fr: "74/204 FR 1"
         de: "74/204 DE 1"
         it: "74/204 IT 1"
+        zh: "74/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 2
@@ -3103,6 +3482,10 @@
       name: "Flynn Rider"
       title: "Charmanter Gauner"
       flavour: "Eigentlich wollte ich das nicht tun, aber du lässt mir keine andere Wahl …"
+    zh: 
+      name: "费林·雷德"
+      title: "迷人的恶棍"
+      flavour: "“其实我并不想那么做，但是你现在让我别无选择……”"
   actions: 
     - "here_comes_the_smolder"
   franchise_id: "tangled"
@@ -3118,6 +3501,7 @@
         fr: "75/204 FR 1"
         de: "75/204 DE 1"
         it: "75/204 IT 1"
+        zh: "75/204 ZH 1"
       rarity: super_rare
     - set: tfc
       id: 209
@@ -3127,6 +3511,7 @@
         fr: "209/204 FR 1"
         de: "209/204 DE 1"
         it: "209/204 IT 1"
+        zh: "209/204 ZH 1"
       rarity: enchanted
       illustrator: "Cristian Romero"
   lore: 2
@@ -3153,6 +3538,10 @@
       name: "Dschinni"
       title: "Bei der Arbeit"
       flavour: "Wünsch dir mal ‚Abrakadabra‘, Fetzen fliegen und auf einmal sind sie nicht mehr da!"
+    zh: 
+      name: "精灵"
+      title: "为你服务"
+      flavour: "“让我顺便再念出这咒语，好让它变，让我轻松地消失不见。”"
   actions: 
     - "evasive"
     - "disappear"
@@ -3169,6 +3558,7 @@
         fr: "76/204 FR 1"
         de: "76/204 DE 1"
         it: "76/204 IT 1"
+        zh: "76/204 ZH 1"
       rarity: rare
     - set: p1
       id: 20
@@ -3178,6 +3568,7 @@
         fr: "20/P1 FR 1"
         de: "20/P1 DE 1"
         it: "20/P1 IT 1"
+        zh: "20/P1 ZH 1"
       rarity: d100
       illustrator: "Eric Goldberg"
   lore: 3
@@ -3204,6 +3595,10 @@
       name: "Dschinni"
       title: "Entfesselte Energie"
       flavour: ""
+    zh: 
+      name: "精灵"
+      title: "魔力全开"
+      flavour: ""
   actions: 
     - "shift_6"
     - "evasive"
@@ -3221,6 +3616,7 @@
         fr: "77/204 FR 1"
         de: "77/204 DE 1"
         it: "77/204 IT 1"
+        zh: "77/204 ZH 1"
       rarity: common
   lore: 1
   cost: 2
@@ -3246,6 +3642,10 @@
       name: "Dschinni"
       title: "Stets eindrucksvoll"
       flavour: "Du kannst dir fast alles wünschen! Willst du die kurze Version oder soll ich dir das ganze Lied und den Tanz geben?"
+    zh: 
+      name: "精灵"
+      title: "令人印象深刻"
+      flavour: "“你几乎可以许任何愿望！你是想简要了解一下，还是希望我唱跳演给你看？”"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Genie-The-Ever-Impressive"
@@ -3259,6 +3659,7 @@
         fr: "78/204 FR 1"
         de: "78/204 DE 1"
         it: "78/204 IT 1"
+        zh: "78/204 ZH 1"
       rarity: rare
   lore: 3
   cost: 4
@@ -3285,6 +3686,10 @@
       name: "Hans"
       title: "Hinterhältiger Prinz"
       flavour: "Regeln sind wie ältere Geschwister. Sie sind nur im Weg."
+    zh: 
+      name: "汉斯"
+      title: "密谋的王子"
+      flavour: "“规矩就像我的哥哥们，他们只会碍我的事。”"
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hans-Scheming-Prince"
@@ -3298,6 +3703,7 @@
         fr: "79/204 FR 1"
         de: "79/204 DE 1"
         it: "79/204 IT 1"
+        zh: "79/204 ZH 1"
       rarity: common
   lore: 1
   cost: 3
@@ -3327,6 +3733,10 @@
       name: "Horace"
       title: "Nichtsnutziger Halunke"
       flavour: "In diesem Stall sind sie nicht, Jasper."
+    zh: 
+      name: "霍利斯"
+      title: "不要脸的无赖"
+      flavour: "“它们不在这，杰斯帕。”"
   franchise_id: "101-dalmatians"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Horace-No-Good-Scoundrel"
@@ -3340,6 +3750,7 @@
         fr: "80/204 FR 1"
         de: "80/204 DE 1"
         it: "80/204 IT 1"
+        zh: "80/204 ZH 1"
       rarity: rare
   lore: 1
   cost: 3
@@ -3365,6 +3776,10 @@
       name: "Jago"
       title: "Großmäuliger Papagei"
       flavour: ""
+    zh: 
+      name: "艾格"
+      title: "吵闹的鹦鹉"
+      flavour: ""
   actions: 
     - "you_got_problem"
   franchise_id: "aladdin"
@@ -3380,6 +3795,7 @@
         fr: "81/204 FR 1"
         de: "81/204 DE 1"
         it: "81/204 IT 1"
+        zh: "81/204 ZH 1"
       rarity: uncommon
   lore: 1
   cost: 3
@@ -3409,6 +3825,10 @@
       name: "Jasper"
       title: "Gewöhnlicher Ganove"
       flavour: "Seit wann denkst du denn? Zum Denken gehört ein Kopf und kein Kürbis."
+    zh: 
+      name: "杰斯帕"
+      title: "街头毛贼"
+      flavour: "“听着，我警告过你，霍利斯，别胡思乱想。”"
   actions: 
     - "puppynapping"
   franchise_id: "101-dalmatians"
@@ -3424,6 +3844,7 @@
         fr: "82/204 FR 1"
         de: "82/204 DE 1"
         it: "82/204 IT 1"
+        zh: "82/204 ZH 1"
       rarity: legendary
   lore: 2
   cost: 6
@@ -3452,6 +3873,10 @@
       name: "John Silver"
       title: "Außerirdischer Pirat"
       flavour: "Lass dir von meinem Eisenwarenladen keine Angst einjagen, Jungchen."
+    zh: 
+      name: "约翰·希尔沃"
+      title: "外星海盗"
+      flavour: "“请不要被这些金属工具给吓到了。”"
   actions: 
     - "pick_your_fights"
   franchise_id: "treasure-planet"
@@ -3467,6 +3892,7 @@
         fr: "83/204 FR 1"
         de: "83/204 DE 1"
         it: "83/204 IT 1"
+        zh: "83/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 5
@@ -3493,6 +3919,10 @@
       name: "Jamba Jookiba"
       title: "Abtrünniger Wissenschaftler"
       flavour: "Etwas geschaffen? Ha, das wäre nicht verantwortlich und gegen jede Ethik! Ich würde niemals, nie … produzieren mehr als eins?"
+    zh: 
+      name: "强霸"
+      title: "叛逆的科学家"
+      flavour: "“创造某种生物？哈！但是那么做是不负责任又不道德的。我绝对，绝对不会……做出另外一个来。”"
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jumba-Jookiba-Renegade-Scientist"
@@ -3506,15 +3936,17 @@
         fr: "84/204 FR 1"
         de: "84/204 DE 1"
         it: "84/204 IT 1"
+        zh: "84/204 ZH 1"
       rarity: rare
     - set: c1
       id: 8
       dreamborn: "C1-008"
-      ravensburger:
+      ravensburger: 
         en: "8/C1 EN 1"
         fr: "8/C1 FR 1"
         de: "8/C1 DE 1"
         it: "8/C1 IT 1"
+        zh: ""
       rarity: challenge24
       illustrator: "Koni"
   lore: 3
@@ -3541,6 +3973,10 @@
       name: "Kusco"
       title: "Temperamentvoller König"
       flavour: "Ich habe nach Smaragd gefragt und das ist eindeutig Jade! Was ist bloß los mit euch Leuten?"
+    zh: 
+      name: "库斯德"
+      title: "喜怒无常的国王"
+      flavour: "“我要的是翡翠色，你这明显是翠玉色。你们行不行啊？”"
   actions: 
     - "ward"
     - "no_touchy"
@@ -3557,6 +3993,7 @@
         fr: "85/204 FR 1"
         de: "85/204 DE 1"
         it: "85/204 IT 1"
+        zh: "85/204 ZH 1"
       rarity: rare
   lore: 1
   cost: 6
@@ -3582,6 +4019,10 @@
       name: "Gräfin Tremaine"
       title: "Böse Stiefmutter"
       flavour: "Wenn deine Aufgaben erledigt sind, dann hast du eindeutig nicht genug davon."
+    zh: 
+      name: "特曼妮夫人"
+      title: "邪恶的继母"
+      flavour: "“如果你的活都干完了，那说明你的活还不够多。”"
   actions: 
     - "do_it_again"
   franchise_id: "cinderella"
@@ -3597,6 +4038,7 @@
         fr: "86/204 FR 1"
         de: "86/204 DE 1"
         it: "86/204 IT 1"
+        zh: "86/204 ZH 1"
       rarity: uncommon
   lore: 3
   cost: 5
@@ -3607,7 +4049,7 @@
   type: glimmer
   classifications: 
     - "storyborn"
-  illustrator: "Rosa La Barbera"
+  illustrator: "Rosa la Barbera"
   languages: 
     en: 
       name: "Mad Hatter"
@@ -3621,6 +4063,10 @@
       name: "Der verrückte Hutmacher"
       title: "Generöser Gastgeber"
       flavour: "Der verrückte Hutmacher: Magst du noch ein bisschen Tee? Alice: Ich hab ja noch gar nichts getrunken und ich hab so schrecklichen Durst."
+    zh: 
+      name: "疯帽子"
+      title: "礼貌的主办人"
+      flavour: "疯帽子：“你想再来点茶吗？”\n爱丽丝：“可是我还没喝呢，所以没法再来点。”"
   actions: 
     - "tea_party"
   franchise_id: "alice-in-wonderland"
@@ -3636,6 +4082,7 @@
         fr: "87/204 FR 1"
         de: "87/204 DE 1"
         it: "87/204 IT 1"
+        zh: "87/204 ZH 1"
       rarity: common
   lore: 1
   cost: 2
@@ -3661,6 +4108,10 @@
       name: "Meg"
       title: "Hält die Fäden in der Hand"
       flavour: "Ein Deal ist ein Deal. Aber sich zu verlieben, hätte nie Teil des Deals sein sollen."
+    zh: 
+      name: "蜜儿"
+      title: "提线操弄"
+      flavour: "“我说话算话，但我可没答应过要陷入爱河。”"
   actions: 
     - "wonder_boy"
   franchise_id: "hercules"
@@ -3676,6 +4127,7 @@
         fr: "88/204 FR 1"
         de: "88/204 DE 1"
         it: "88/204 IT 1"
+        zh: "88/204 ZH 1"
       rarity: super_rare
     - set: tfc
       id: 210
@@ -3685,6 +4137,7 @@
         fr: "210/204 FR 1"
         de: "210/204 DE 1"
         it: "210/204 IT 1"
+        zh: "210/204 ZH 1"
       rarity: enchanted
       illustrator: "Kendall Hale"
   lore: 2
@@ -3697,7 +4150,7 @@
   classifications: 
     - "floodborn"
     - "hero"
-  illustrator: "Alex Accorsi"
+  illustrator: "Alex Accorsi / Kendall Hale"
   languages: 
     en: 
       name: "Mickey Mouse"
@@ -3711,6 +4164,10 @@
       name: "Micky Maus"
       title: "Gewiefter Gauner"
       flavour: "Leise wie ein … na ja, du weißt schon."
+    zh: 
+      name: "米奇"
+      title: "灵巧的侠盗"
+      flavour: "安静得就像……哎，你懂的。"
   actions: 
     - "shift_5"
     - "misdirection"
@@ -3727,6 +4184,7 @@
         fr: "89/204 FR 1"
         de: "89/204 DE 1"
         it: "89/204 IT 1"
+        zh: "89/204 ZH 1"
       rarity: common
   lore: 1
   cost: 3
@@ -3753,6 +4211,10 @@
       name: "Micky Maus"
       title: "Dampfschiff-Kapitän"
       flavour: "Auf den Flüssen des Tintenreichs antwortet das Pfeifen des Dampfschiffs auf die fröhlichen Melodien seines Kapitäns."
+    zh: 
+      name: "米奇"
+      title: "汽船舵手"
+      flavour: "小小汽船在奇墨境的河流上穿梭，汽笛声配合舵手的口哨组成了欢乐的小曲。"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Steamboat-Pilot"
@@ -3766,6 +4228,7 @@
         fr: "90/204 FR 1"
         de: "90/204 DE 1"
         it: "90/204 IT 1"
+        zh: "90/204 ZH 1"
       rarity: super_rare
   lore: 2
   cost: 6
@@ -3791,6 +4254,10 @@
       name: "Mutter Gothel"
       title: "Selbstsüchtige Strippenzieherin"
       flavour: "Na toll. Und jetzt bin ich die Böse."
+    zh: 
+      name: "高瑟妈妈"
+      title: "自私的控制狂"
+      flavour: "“呃，这下可好，<我>倒成坏人了。”"
   actions: 
     - "skip_drama_stay_with_mama"
   franchise_id: "tangled"
@@ -3806,6 +4273,7 @@
         fr: "91/204 FR 1"
         de: "91/204 DE 1"
         it: "91/204 IT 1"
+        zh: "91/204 ZH 1"
       rarity: common
   lore: 1
   cost: 3
@@ -3831,6 +4299,10 @@
       name: "Peter Pan"
       title: "Landet nimmer"
       flavour: "Was ist los, Hook? Kannst du nicht fliegen?"
+    zh: 
+      name: "彼得·潘"
+      title: "永远飞翔"
+      flavour: "“怎么了，虎克船长？你难道不会飞吗？”"
   actions: 
     - "evasive"
   franchise_id: "peter-pan"
@@ -3846,6 +4318,7 @@
         fr: "92/204 FR 1"
         de: "92/204 DE 1"
         it: "92/204 IT 1"
+        zh: "92/204 ZH 1"
       rarity: uncommon
   lore: 1
   cost: 2
@@ -3870,6 +4343,10 @@
       name: "Tamatoa"
       title: "Glanzlose kleine Krabbe"
       flavour: "Eines Tages werde ich das krabbtastischste Krustentier sein, das die Welt je gesehen hat!"
+    zh: 
+      name: "螃蟹怪"
+      title: "小蟹一只"
+      flavour: "“总有一天，我会成为全世界最‘螃大’的甲壳动物！”"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tamatoa-Drab-Little-Crab"
@@ -3883,6 +4360,7 @@
         fr: "93/204 FR 1"
         de: "93/204 DE 1"
         it: "93/204 IT 1"
+        zh: "93/204 ZH 1"
       rarity: common
   lore: 2
   cost: 4
@@ -3909,6 +4387,10 @@
       name: "Naseweis"
       title: "Stets hilfsbereit"
       flavour: ""
+    zh: 
+      name: "小叮当"
+      title: "帮了大忙"
+      flavour: ""
   actions: 
     - "evasive"
     - "pixie_dust"
@@ -3925,6 +4407,7 @@
         fr: "94/204 FR 1"
         de: "94/204 DE 1"
         it: "94/204 IT 1"
+        zh: "94/204 ZH 1"
       rarity: rare
   cost: 3
   inkwell: false
@@ -3944,6 +4427,10 @@
       name: "Mach es noch mal!"
       title: ""
       flavour: "Dann schrubbst du die Terrasse, fegst die Halle und die Treppen, säuberst die Kamine und selbstverständlich beginnst du gleich darauf mit dem Ausbessern und Bügeln der Wäsche. – Gräfin Tremaine"
+    zh: 
+      name: "再洗一次！"
+      title: ""
+      flavour: "“……还有，别忘记了，花园的楼梯要扫干净，大厅的地板，厨房炉台，当然还有了，衣服的扣子要缝好，衣服要洗干净……”\n——特曼妮夫人"
   actions: 
     - "do_it_again_action"
   franchise_id: "cinderella"
@@ -3959,6 +4446,7 @@
         fr: "95/204 FR 1"
         de: "95/204 DE 1"
         it: "95/204 IT 1"
+        zh: "95/204 ZH 1"
       rarity: uncommon
   cost: 3
   inkwell: false
@@ -3980,6 +4468,10 @@
       name: "Mutter weiß mehr"
       title: ""
       flavour: "Mach kein Drama, bleib bei Mama."
+    zh: 
+      name: "母亲不会错"
+      title: ""
+      flavour: "无论是做什么\n一定有事情出错"
   actions: 
     - "mother_knows_best"
   franchise_id: "tangled"
@@ -3995,6 +4487,7 @@
         fr: "96/204 FR 1"
         de: "96/204 DE 1"
         it: "96/204 IT 1"
+        zh: "96/204 ZH 1"
       rarity: common
   cost: 1
   inkwell: false
@@ -4014,6 +4507,10 @@
       name: "Stampede"
       title: ""
       flavour: "Gnu-Herden sind wie tobende Flüsse: Am besten erlebt man sie aus der Ferne."
+    zh: 
+      name: "角马受惊"
+      title: ""
+      flavour: "受惊的角马就像汹涌的河流：只可远观。"
   actions: 
     - "stampede"
   franchise_id: "the-lion-king"
@@ -4029,6 +4526,7 @@
         fr: "97/204 FR 1"
         de: "97/204 DE 1"
         it: "97/204 IT 1"
+        zh: "97/204 ZH 1"
       rarity: rare
   cost: 5
   inkwell: false
@@ -4048,6 +4546,10 @@
       name: "Nimm von den Reichen"
       title: ""
       flavour: "Ich frage mich, wie viel der alte Prinz John für all diese teuren Schlösser ausgegeben hat. – Little John"
+    zh: 
+      name: "劫富"
+      title: ""
+      flavour: "“不知道约翰王子那老家伙在这些金锁上花了多少钱。”\n——小约翰 "
   actions: 
     - "steal_from_the_rich"
   franchise_id: "robin-hood"
@@ -4063,6 +4565,7 @@
         fr: "98/204 FR 1"
         de: "98/204 DE 1"
         it: "98/204 IT 1"
+        zh: "98/204 ZH 1"
       rarity: common
   cost: 2
   inkwell: true
@@ -4084,6 +4587,10 @@
       name: "Durchbohrender Blick"
       title: ""
       flavour: "Cruella De Vil, Cruella De Vil, durchbohrt dich ihr Blick, dann wirst du ganz still."
+    zh: 
+      name: "一股寒气"
+      title: ""
+      flavour: "库伊拉是她，她是库伊拉\n如果你不怕她，就谁都不害怕"
   actions: 
     - "sudden_chill"
   franchise_id: "101-dalmatians"
@@ -4099,6 +4606,7 @@
         fr: "99/204 FR 1"
         de: "99/204 DE 1"
         it: "99/204 IT 1"
+        zh: "99/204 ZH 1"
       rarity: uncommon
   cost: 3
   inkwell: true
@@ -4118,6 +4626,10 @@
       name: "Das Biest gehört mir!"
       title: ""
       flavour: "Es ist nur fair, dass der beste Jäger die übelste Bestie bekommt. – Gaston"
+    zh: 
+      name: "那个野兽是我的"
+      title: ""
+      flavour: "“最优秀的猎人就该去抓最凶猛的野兽！”\n——加斯顿"
   actions: 
     - "reckless"
   franchise_id: "beauty-and-the-beast"
@@ -4133,6 +4645,7 @@
         fr: "100/204 FR 1"
         de: "100/204 DE 1"
         it: "100/204 IT 1"
+        zh: "100/204 ZH 1"
       rarity: common
   cost: 1
   inkwell: true
@@ -4152,6 +4665,10 @@
       name: "Grauenhafter Verrat"
       title: ""
       flavour: "Ein wahrer König nimmt die Dinge selbst in die Hand. – Scar"
+    zh: 
+      name: "恶毒的背叛"
+      title: ""
+      flavour: "“真正的国王会把命运掌握在自己的爪子里。”\n——刀疤"
   actions: 
     - "vicious_betrayal"
   franchise_id: "the-lion-king"
@@ -4167,6 +4684,7 @@
         fr: "101/204 FR 1"
         de: "101/204 DE 1"
         it: "101/204 IT 1"
+        zh: "101/204 ZH 1"
       rarity: uncommon
   cost: 2
   inkwell: false
@@ -4186,6 +4704,10 @@
       name: "Dr. Faciliers Karten"
       title: ""
       flavour: "Wirf jetzt einen Blick in deine Zukunft mit mir. – Dr. Facilier"
+    zh: 
+      name: "霍博士的塔罗牌"
+      title: ""
+      flavour: "“来看看你的未来还有什么秘密！”\n——霍博士"
   actions: 
     - "the_cards_will_tell"
   franchise_id: "the-princess-and-the-frog"
@@ -4201,6 +4723,7 @@
         fr: "102/204 FR 1"
         de: "102/204 DE 1"
         it: "102/204 IT 1"
+        zh: "102/204 ZH 1"
       rarity: common
   cost: 2
   inkwell: true
@@ -4220,6 +4743,10 @@
       name: "Gestohlener Säbel"
       title: ""
       flavour: "Manchmal muss man nehmen, was man kriegen kann."
+    zh: 
+      name: "盗得的弯刀"
+      title: ""
+      flavour: "有时候手边有什么就拿什么。"
   actions: 
     - "slash"
   franchise_id: "aladdin"
@@ -4235,6 +4762,7 @@
         fr: "103/204 FR 1"
         de: "103/204 DE 1"
         it: "103/204 IT 1"
+        zh: "103/204 ZH 1"
       rarity: common
   lore: 2
   cost: 3
@@ -4260,6 +4788,10 @@
       name: "Abu"
       title: "Freches Äffchen"
       flavour: "Wart's ab, Abu, eines Tages wird alles anders. Dann sind wir reich, haben einen Palast und lassen all unsere Sorgen hinter uns. – Aladdin"
+    zh: 
+      name: "阿布"
+      title: "淘气的猴子"
+      flavour: "“总有一天，阿布，事情都会变好的。我们会富有，住在皇宫里，而且再也没有任何烦恼。”\n——阿拉丁"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Abu-Mischievous-Monkey"
@@ -4273,6 +4805,7 @@
         fr: "104/204 FR 1"
         de: "104/204 DE 1"
         it: "104/204 IT 1"
+        zh: "104/204 ZH 1"
       rarity: super_rare
     - set: tfc
       id: 211
@@ -4282,6 +4815,7 @@
         fr: "211/204 FR 1"
         de: "211/204 DE 1"
         it: "211/204 IT 1"
+        zh: "211/204 ZH 1"
       rarity: enchanted
       illustrator: "Massimiliano Narciso"
   lore: 2
@@ -4308,6 +4842,10 @@
       name: "Aladdin"
       title: "Heldenhafter Bandit"
       flavour: ""
+    zh: 
+      name: "阿拉丁"
+      title: "草莽英雄"
+      flavour: ""
   actions: 
     - "shift_5"
     - "daring_exploit"
@@ -4324,6 +4862,7 @@
         fr: "105/204 FR 1"
         de: "105/204 DE 1"
         it: "105/204 IT 1"
+        zh: "105/204 ZH 1"
       rarity: common
   lore: 1
   cost: 3
@@ -4349,6 +4888,10 @@
       name: "Aladdin"
       title: "Straßenjunge"
       flavour: "Es ist oft schwer zu erkennen, wer ein Rohdiamant ist und wer einfach nur, nun ja, rau ist."
+    zh: 
+      name: "阿拉丁"
+      title: "过街老鼠"
+      flavour: "常人很难辨别未经雕琢的钻石和乳臭未干的毛小子。"
   actions: 
     - "improvise"
   franchise_id: "aladdin"
@@ -4364,6 +4907,7 @@
         fr: "106/204 FR 1"
         de: "106/204 DE 1"
         it: "106/204 IT 1"
+        zh: "106/204 ZH 1"
       rarity: uncommon
   lore: 1
   cost: 5
@@ -4390,6 +4934,10 @@
       name: "Kapitän"
       title: "Colonels Leutnant"
       flavour: "Bellofonanruf! Es ist Alarm. Melden Sie sich sofort beim Colonel!"
+    zh: 
+      name: "上尉"
+      title: "上校的副官"
+      flavour: "“狗在呼叫，是个警报。快去报告上校！”"
   franchise_id: "101-dalmatians"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Colonels-Lieutenant"
@@ -4403,6 +4951,7 @@
         fr: "107/204 FR 1"
         de: "107/204 DE 1"
         it: "107/204 IT 1"
+        zh: "107/204 ZH 1"
       rarity: rare
   lore: 2
   cost: 7
@@ -4430,6 +4979,10 @@
       name: "Käpt'n Hook"
       title: "Skrupelloser Pirat"
       flavour: "Du weißt nicht mal was Kämpfen heißt, du armer Wicht!"
+    zh: 
+      name: "虎克船长"
+      title: "无耻的海盗"
+      flavour: "“我就知道你不敢面对面地跟我虎克打！”"
   actions: 
     - "rush"
     - "you_coward"
@@ -4446,6 +4999,7 @@
         fr: "108/204 FR 1"
         de: "108/204 DE 1"
         it: "108/204 IT 1"
+        zh: "108/204 ZH 1"
       rarity: uncommon
   lore: 1
   cost: 2
@@ -4474,6 +5028,10 @@
       name: "Donald Duck"
       title: "Aufbrausender Vogel"
       flavour: "Wen nennst du hier aufbrausend, Freundchen?"
+    zh: 
+      name: "唐老鸭"
+      title: "聒噪的鸭子"
+      flavour: "“你这家伙在说谁聒噪呢？”"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Donald-Duck-Boisterous-Fowl"
@@ -4487,6 +5045,7 @@
         fr: "109/204 FR 1"
         de: "109/204 DE 1"
         it: "109/204 IT 1"
+        zh: "109/204 ZH 1"
       rarity: common
   lore: 1
   cost: 4
@@ -4500,7 +5059,7 @@
     - "hero"
     - "queen"
     - "sorcerer"
-  illustrator: "Alice Pisoni"
+  illustrator: "Alice Pisoni / Whitney Pollett"
   languages: 
     en: 
       name: "Elsa"
@@ -4518,6 +5077,10 @@
       name: "Elsa"
       title: "Eissurferin"
       flavour: "Meine Schwester ist immer für mich da gewesen. Ich muss nun für sie da sein."
+    zh: 
+      name: "艾莎"
+      title: "驭冰踏浪"
+      flavour: "“我妹妹一直在我身边支持我。现在我需要在她身边。”"
   actions: 
     - "thats_no_blizzard"
   franchise_id: "frozen"
@@ -4533,6 +5096,7 @@
         fr: "110/204 FR 1"
         de: "110/204 DE 1"
         it: "110/204 IT 1"
+        zh: "110/204 ZH 1"
       rarity: common
     - set: p1
       id: 24
@@ -4542,7 +5106,9 @@
         fr: "24/P1 FR 1"
         de: "24/P1 DE 1"
         it: "24/P1 IT 1"
+        zh: "24/P1 ZH 1"
       rarity: mcm_comic_con2023
+  lore: 0
   cost: 2
   inkwell: true
   attack: 4
@@ -4566,6 +5132,10 @@
       name: "Gaston"
       title: "Arroganter Jäger"
       flavour: "Es ist keine Arroganz, wenn du wirklich der Beste bist."
+    zh: 
+      name: "加斯顿"
+      title: "狂妄的猎人"
+      flavour: "我<就是>最好的猎人，所以这算不上狂妄。"
   actions: 
     - "reckless"
   franchise_id: "beauty-and-the-beast"
@@ -4581,6 +5151,7 @@
         fr: "111/204 FR 1"
         de: "111/204 DE 1"
         it: "111/204 IT 1"
+        zh: "111/204 ZH 1"
       rarity: common
   lore: 2
   cost: 5
@@ -4606,6 +5177,10 @@
       name: "Goofy"
       title: "Draufgänger"
       flavour: "Manchmal muss man den Sprung einfach wagen und Ahijak."
+    zh: 
+      name: "高飞"
+      title: "天不怕地不怕"
+      flavour: "有时候就该先跳再说。"
   actions: 
     - "evasive"
   franchise_id: "mickey-mouse-and-friends"
@@ -4621,6 +5196,7 @@
         fr: "112/204 FR 1"
         de: "112/204 DE 1"
         it: "112/204 IT 1"
+        zh: "112/204 ZH 1"
       rarity: rare
   lore: 1
   cost: 2
@@ -4646,6 +5222,10 @@
       name: "Le Fou"
       title: "Anstifter"
       flavour: "Alles, was eine wütende Horde braucht, ist ein Stoß in die falsche Richtung."
+    zh: 
+      name: "来福"
+      title: "煽动客"
+      flavour: "只要稍稍误导一下，怨恨就产生了。"
   actions: 
     - "fan_the_flames"
   franchise_id: "beauty-and-the-beast"
@@ -4661,6 +5241,7 @@
         fr: "113/204 FR 1"
         de: "113/204 DE 1"
         it: "113/204 IT 1"
+        zh: "113/204 ZH 1"
       rarity: legendary
     - set: p1
       id: 5
@@ -4670,6 +5251,7 @@
         fr: "5/P1 FR 1"
         de: "5/P1 DE 1"
         it: "5/P1 IT 1"
+        zh: "5/P1 ZH 1"
       rarity: d23
   lore: 2
   cost: 9
@@ -4696,6 +5278,10 @@
       name: "Malefiz"
       title: "Monströser Drache"
       flavour: "Die neunte Regel des Schurken-Daseins: Wenn alles andere misslingt, verwandle dich in einen Drachen."
+    zh: 
+      name: "黑巫婆"
+      title: "魔鬼恶龙"
+      flavour: "反派法则第九条：其他手段都失败后，就变身成恶龙。"
   actions: 
     - "dragon_fire"
   franchise_id: "sleeping-beauty"
@@ -4711,6 +5297,7 @@
         fr: "114/204 FR 1"
         de: "114/204 DE 1"
         it: "114/204 IT 1"
+        zh: "114/204 ZH 1"
       rarity: rare
     - set: tfc
       id: 212
@@ -4720,8 +5307,10 @@
         fr: "212/204 FR 1"
         de: "212/204 DE 1"
         it: "212/204 IT 1"
+        zh: "212/204 ZH 1"
       rarity: enchanted
       illustrator: "Pirel / Stefano Zanchi"
+  lore: 0
   cost: 5
   inkwell: true
   attack: 6
@@ -4746,6 +5335,10 @@
       name: "Maui"
       title: "Held von allen"
       flavour: "Also ich glaube, was du eigentlich sagen willst, ist ‚Danke‘."
+    zh: 
+      name: "毛伊"
+      title: "全人类的英雄"
+      flavour: "“我猜你原本想跟我说的是‘谢谢’。”"
   actions: 
     - "rush"
     - "reckless"
@@ -4762,6 +5355,7 @@
         fr: "115/204 FR 1"
         de: "115/204 DE 1"
         it: "115/204 IT 1"
+        zh: "115/204 ZH 1"
       rarity: legendary
     - set: p1
       id: 1
@@ -4771,6 +5365,7 @@
         fr: "1/P1 FR 1"
         de: "1/P1 DE 1"
         it: "1/P1 IT 1"
+        zh: "1/P1 ZH 1"
       rarity: d23
     - set: c1
       id: 5
@@ -4780,6 +5375,7 @@
         fr: ""
         de: ""
         it: ""
+        zh: ""
       rarity: challenge24
     - set: worlds
       id: 2024
@@ -4789,6 +5385,7 @@
         fr: ""
         de: ""
         it: ""
+        zh: ""
       rarity: top1
     - set: d23
       id: 1
@@ -4798,6 +5395,7 @@
         fr: "1/D23 FR 1"
         de: "1/D23 DE 1"
         it: "1/D23 IT 1"
+        zh: "1/D23 ZH 1"
       rarity: d23
   lore: 4
   cost: 8
@@ -4823,6 +5421,10 @@
       name: "Micky Maus"
       title: "Tapferes Kleines Schneiderlein"
       flavour: "Wenn der Sieg am seidenen Faden hängt und der Stoff der Geschichte zum Zerreißen gespannt ist, eilt der schereschwingende Held heran und schnipp, schnapp, flickt er entschlossen die Dinge."
+    zh: 
+      name: "米奇"
+      title: "勇敢的小裁缝"
+      flavour: "成败悬于一线之时，英雄突然出现，用穿针的决心，补上了窟窿。"
   actions: 
     - "evasive"
   franchise_id: "mickey-mouse-and-friends"
@@ -4838,6 +5440,7 @@
         fr: "116/204 FR 1"
         de: "116/204 DE 1"
         it: "116/204 IT 1"
+        zh: "116/204 ZH 1"
       rarity: common
   lore: 1
   cost: 1
@@ -4867,6 +5470,10 @@
       name: "Minnie Maus"
       title: "Stets stilvoll"
       flavour: "Ihr Gespür für Mode lässt jedes Kleid im richtigen Licht erscheinen."
+    zh: 
+      name: "米妮"
+      title: "优雅如初"
+      flavour: "她的时尚品味总是那么可圈可点。"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Minnie-Mouse-Always-Classy"
@@ -4880,6 +5487,7 @@
         fr: "117/204 FR 1"
         de: "117/204 DE 1"
         it: "117/204 IT 1"
+        zh: "117/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 5
@@ -4906,6 +5514,10 @@
       name: "Vaiana"
       title: "Vom Ozean auserwählt"
       flavour: "Du bestimmst, wer du bist."
+    zh: 
+      name: "莫阿娜"
+      title: "海之骄子"
+      flavour: "“你是谁，你决定。”"
   actions: 
     - "this_is_not_who_you_are"
   franchise_id: "moana"
@@ -4921,6 +5533,7 @@
         fr: "118/204 FR 1"
         de: "118/204 DE 1"
         it: "118/204 IT 1"
+        zh: "118/204 ZH 1"
       rarity: super_rare
   lore: 1
   cost: 5
@@ -4947,6 +5560,10 @@
       name: "Mulan"
       title: "Kaiserliche Soldatin"
       flavour: ""
+    zh: 
+      name: "木兰"
+      title: "王国正规兵"
+      flavour: ""
   actions: 
     - "lead_by_example"
   franchise_id: "mulan"
@@ -4962,6 +5579,7 @@
         fr: "119/204 FR 1"
         de: "119/204 DE 1"
         it: "119/204 IT 1"
+        zh: "119/204 ZH 1"
       rarity: common
   lore: 1
   cost: 3
@@ -4987,6 +5605,10 @@
       name: "Peter Pan"
       title: "Furchtloser Kämpfer"
       flavour: "Wer Pan einen Feigling nennt, der muss sterben! Wir kämpfen Mann gegen Mann und ich halte meine linke Hand auf dem Rücken!"
+    zh: 
+      name: "彼得·潘"
+      title: "无畏斗士 "
+      flavour: "“没有人敢叫彼得·潘是懦夫！我单手放在后背，就可以跟你当面对打。”"
   actions: 
     - "rush"
   franchise_id: "peter-pan"
@@ -5002,6 +5624,7 @@
         fr: "120/204 FR 1"
         de: "120/204 DE 1"
         it: "120/204 IT 1"
+        zh: "120/204 ZH 1"
       rarity: common
   lore: 2
   cost: 4
@@ -5027,6 +5650,10 @@
       name: "Pongo"
       title: "Alter Gauner"
       flavour: "Nun brauchte ich bloß noch einen Einfall, irgendetwas, das seine Aufmerksamkeit erregen würde, damit die Geschichte in Gang kommt."
+    zh: 
+      name: "彭哥"
+      title: "伙计"
+      flavour: "“起先我没什么好主意，只是想法儿引他们俩注意对方。可不能就这么傻愣着。”"
   actions: 
     - "evasive"
   franchise_id: "101-dalmatians"
@@ -5042,6 +5669,7 @@
         fr: "121/204 FR 1"
         de: "121/204 DE 1"
         it: "121/204 IT 1"
+        zh: "121/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 6
@@ -5068,6 +5696,10 @@
       name: "Rapunzel"
       title: "Lässt ihr Haar herunter"
       flavour: "Wer bist du? Und wie hast du mich gefunden?"
+    zh: 
+      name: "乐佩"
+      title: "放下长发"
+      flavour: "“你是谁？你是怎么找到我的？”"
   actions: 
     - "tangle"
   franchise_id: "tangled"
@@ -5083,6 +5715,7 @@
         fr: "122/204 FR 1"
         de: "122/204 DE 1"
         it: "122/204 IT 1"
+        zh: "122/204 ZH 1"
       rarity: common
   lore: 1
   cost: 4
@@ -5112,6 +5745,10 @@
       name: "Scar"
       title: "Hitzköpfiger Thronräuber"
       flavour: "Von den Flammen des Ehrgeizes verschlungen."
+    zh: 
+      name: "刀疤"
+      title: "烈焰篡位者"
+      flavour: "欲火熏心。"
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Scar-Fiery-Usurper"
@@ -5125,6 +5762,7 @@
         fr: "123/204 FR 1"
         de: "123/204 DE 1"
         it: "123/204 IT 1"
+        zh: "123/204 ZH 1"
       rarity: rare
   lore: 1
   cost: 8
@@ -5151,6 +5789,10 @@
       name: "Scar"
       title: "Schamloser Unruhestifter"
       flavour: "Die Zeit ist gekommen, um uns zu nehmen, was uns gehört!"
+    zh: 
+      name: "刀疤"
+      title: "无耻挑唆者"
+      flavour: "“该拿回属于我们的一切了！”"
   actions: 
     - "shift_6"
     - "rousing_speech"
@@ -5167,6 +5809,7 @@
         fr: "124/204 FR 1"
         de: "124/204 DE 1"
         it: "124/204 IT 1"
+        zh: "124/204 ZH 1"
       rarity: common
   lore: 1
   cost: 1
@@ -5192,6 +5835,10 @@
       name: "Sergeant Tibs"
       title: "Mutige Katze"
       flavour: "Ja, Sir. Bin schon unterwegs, Sir."
+    zh: 
+      name: "提布斯中士"
+      title: "勇敢的大猫"
+      flavour: "“是，长官。我这就去，长官！”"
   franchise_id: "101-dalmatians"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sergeant-Tibbs-Courageous-Cat"
@@ -5205,6 +5852,7 @@
         fr: "125/204 FR 1"
         de: "125/204 DE 1"
         it: "125/204 IT 1"
+        zh: "125/204 ZH 1"
       rarity: rare
     - set: p1
       id: 21
@@ -5214,6 +5862,7 @@
         fr: "21/P1 FR 1"
         de: "21/P1 DE 1"
         it: "21/P1 IT 1"
+        zh: "21/P1 ZH 1"
       rarity: d100
       illustrator: "Alex Kupershmidt"
   lore: 3
@@ -5245,6 +5894,10 @@
       name: "Stitch"
       title: "Scheusal"
       flavour: "Sein Zerstörungsprogramm zeigt Wirkung. Ab sofort ist er fixiert auf Großstädte, wo er verstopft Kanalisation, verdreht Straßenschilder und von allen Leuten stiehlt linken Schuh. — Jamba Jookiba"
+    zh: 
+      name: "史迪奇"
+      title: "可恶的东西"
+      flavour: "“他的破坏程序现在被启动了，他一定会马上跑到大城市，他会堵塞下水道，破坏交通讯号，偷每个人左脚的鞋子。”\n——强霸"
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stitch-Abomination"
@@ -5258,7 +5911,9 @@
         fr: "126/204 FR 1"
         de: "126/204 DE 1"
         it: "126/204 IT 1"
+        zh: "126/204 ZH 1"
       rarity: super_rare
+  lore: 0
   cost: 6
   inkwell: false
   attack: 8
@@ -5287,6 +5942,10 @@
       name: "Te Kā"
       title: "Brandgefährlich"
       flavour: "Die Flammen ihres Zorns sind Zeichen ihres Verlusts."
+    zh: 
+      name: "恶卡"
+      title: "火山神"
+      flavour: "她因东西被偷而怒火中烧。"
   actions: 
     - "reckless"
   franchise_id: "moana"
@@ -5302,6 +5961,7 @@
         fr: "127/204 FR 1"
         de: "127/204 DE 1"
         it: "127/204 IT 1"
+        zh: "127/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 6
@@ -5331,6 +5991,10 @@
       name: "Tigger"
       title: "Superste Sache"
       flavour: "Ich bin der sprungtastischste Springer, der jemals gesprungen ist!"
+    zh: 
+      name: "跳跳虎"
+      title: "最能跳"
+      flavour: "“这世上没有谁比我更能跳！”"
   actions: 
     - "evasive"
   franchise_id: "winnie-the-pooh"
@@ -5346,6 +6010,7 @@
         fr: "128/204 FR 1"
         de: "128/204 DE 1"
         it: "128/204 IT 1"
+        zh: "128/204 ZH 1"
       rarity: rare
   cost: 7
   inkwell: false
@@ -5367,6 +6032,10 @@
       name: "Seid bereit!"
       title: ""
       flavour: "Uns're Zähne sind blank wie sein Neid!"
+    zh: 
+      name: "快准备"
+      title: ""
+      flavour: "因为我要的理想更高！"
   actions: 
     - "be_prepared"
   franchise_id: "the-lion-king"
@@ -5382,6 +6051,7 @@
         fr: "129/204 FR 1"
         de: "129/204 DE 1"
         it: "129/204 IT 1"
+        zh: "129/204 ZH 1"
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -5401,6 +6071,10 @@
       name: "Mit schnellen Schnitten"
       title: ""
       flavour: "Überraschung!"
+    zh: 
+      name: "直取目标"
+      title: ""
+      flavour: "“没想到吧！”"
   actions: 
     - "rush"
   franchise_id: "mickey-mouse-and-friends"
@@ -5416,6 +6090,7 @@
         fr: "130/204 FR 1"
         de: "130/204 DE 1"
         it: "130/204 IT 1"
+        zh: "130/204 ZH 1"
       rarity: uncommon
     - set: p1
       id: 25
@@ -5425,6 +6100,7 @@
         fr: "25/P1 FR 1"
         de: "25/P1 DE 1"
         it: "25/P1 IT 1"
+        zh: ""
       rarity: unreleased
     - set: c1
       id: 1
@@ -5434,6 +6110,7 @@
         fr: "1/C1 FR 1"
         de: "1/C1 DE 1"
         it: "1/C1 IT 1"
+        zh: "1/C1 ZH 1"
       rarity: challenge24
   cost: 5
   inkwell: false
@@ -5457,6 +6134,10 @@
       name: "Drachenfeuer"
       title: ""
       flavour: "Es gibt kaum Helden, die dem Zorn eines Drachen trotzen können."
+    zh: 
+      name: "龙火"
+      title: ""
+      flavour: "再强大的英雄也挡不住恶龙的怒火。"
   actions: 
     - "dragon_fire_action"
   franchise_id: "sleeping-beauty"
@@ -5472,6 +6153,7 @@
         fr: "131/204 FR 1"
         de: "131/204 DE 1"
         it: "131/204 IT 1"
+        zh: "131/204 ZH 1"
       rarity: uncommon
   cost: 1
   inkwell: true
@@ -5491,6 +6173,10 @@
       name: "Entfacht das Feuer!"
       title: ""
       flavour: "Hübsche Worte können eine Menge bewegen — hässliche aber auch."
+    zh: 
+      name: "煽风点火"
+      title: ""
+      flavour: "花言巧语能煽动，粗鄙言语也可以。"
   actions: 
     - "fan_the_flames_action"
   franchise_id: "beauty-and-the-beast"
@@ -5506,6 +6192,7 @@
         fr: "132/204 FR 1"
         de: "132/204 DE 1"
         it: "132/204 IT 1"
+        zh: "132/204 ZH 1"
       rarity: common
   cost: 1
   inkwell: true
@@ -5529,6 +6216,10 @@
       name: "Er hat ein Schwert!"
       title: ""
       flavour: "Wir haben auch Schwerter! – Rasul"
+    zh: 
+      name: "它手上有刀！"
+      title: ""
+      flavour: "“我们手上<都>有刀！”\n——拉索"
   actions: 
     - "hes_got_sword"
   franchise_id: "aladdin"
@@ -5544,6 +6235,7 @@
         fr: "133/204 FR 1"
         de: "133/204 DE 1"
         it: "133/204 IT 1"
+        zh: "133/204 ZH 1"
       rarity: common
   cost: 2
   inkwell: true
@@ -5563,6 +6255,10 @@
       name: "Einwickeln"
       title: ""
       flavour: "Bleib genau dort! Ich meine, du hast keine andere Wahl, schätze ich. Aber trotzdem! Beweg dich nicht! – Rapunzel"
+    zh: 
+      name: "魔发缠绕"
+      title: ""
+      flavour: "“待在那儿别动！我的意思是，你应该也没得选择。但还是别动！”\n——乐佩"
   actions: 
     - "tangle_action"
   franchise_id: "tangled"
@@ -5578,6 +6274,7 @@
         fr: "134/204 FR 1"
         de: "134/204 DE 1"
         it: "134/204 IT 1"
+        zh: "134/204 ZH 1"
       rarity: rare
   cost: 3
   inkwell: false
@@ -5597,6 +6294,10 @@
       name: "Vergifteter Apfel"
       title: ""
       flavour: "Ein Biss von dem giftigen Apfel und die Augen werden sich für immer schließen … – Die Königin"
+    zh: 
+      name: "毒苹果"
+      title: ""
+      flavour: "“只要咬一口这种毒苹果，眼睛就会永远地合上……”\n——皇后"
   actions: 
     - "take_bite"
   franchise_id: "snow-white-and-the-seven-dwarfs"
@@ -5612,6 +6313,7 @@
         fr: "135/204 FR 1"
         de: "135/204 DE 1"
         it: "135/204 IT 1"
+        zh: "135/204 ZH 1"
       rarity: uncommon
   cost: 1
   inkwell: true
@@ -5635,6 +6337,10 @@
       name: "Schild der Tugend"
       title: ""
       flavour: "Wappnet Euch mit diesem Schild der Tugend und das erzne Schwert der Wahrheit geb Euch Kraft. – Flora"
+    zh: 
+      name: "美德之盾"
+      title: ""
+      flavour: "“带上给你的这块威力无边的美德之盾，和这支强大无比的真理之剑，它们可以帮助你战胜邪恶。”\n——花拉仙子"
   actions: 
     - "fireproof"
   franchise_id: "sleeping-beauty"
@@ -5650,6 +6356,7 @@
         fr: "136/204 FR 1"
         de: "136/204 DE 1"
         it: "136/204 IT 1"
+        zh: "136/204 ZH 1"
       rarity: rare
   cost: 4
   inkwell: false
@@ -5669,6 +6376,10 @@
       name: "Schwert der Wahrheit"
       title: ""
       flavour: "Fast so mächtig wie der Kuss der wahren Liebe."
+    zh: 
+      name: "真理之剑"
+      title: ""
+      flavour: "几乎和真爱之吻一样强大。"
   actions: 
     - "final_enchantment"
   franchise_id: "sleeping-beauty"
@@ -5684,6 +6395,7 @@
         fr: "137/204 FR 1"
         de: "137/204 DE 1"
         it: "137/204 IT 1"
+        zh: "137/204 ZH 1"
       rarity: rare
   lore: 1
   cost: 4
@@ -5710,6 +6422,10 @@
       name: "Arielle"
       title: "Krimskrams-Sammlerin"
       flavour: "Willst'n paar Dingsbumse? Ich hab viele."
+    zh: 
+      name: "爱丽儿"
+      title: "珠宝收藏家"
+      flavour: "“你要珍珠吗？给你二十个。”"
   actions: 
     - "look_at_this_stuff"
   franchise_id: "the-little-mermaid"
@@ -5725,6 +6441,7 @@
         fr: "138/204 FR 1"
         de: "138/204 DE 1"
         it: "138/204 IT 1"
+        zh: "138/204 ZH 1"
       rarity: common
   lore: 1
   cost: 4
@@ -5751,6 +6468,10 @@
       name: "Aurora"
       title: "Röschen"
       flavour: "Solch einen seltsamen Gesang hab ich noch niemals gehört. Die Stimme war so wundervoll … – Prinz Phillip"
+    zh: 
+      name: "奥罗拉"
+      title: "蔷薇玫瑰"
+      flavour: "“那声音给了我一种非常奇怪的感觉。太美了，这不可能是真的。”\n——菲力王子"
   actions: 
     - "disturbing_beauty"
   franchise_id: "sleeping-beauty"
@@ -5766,6 +6487,7 @@
         fr: "139/204 FR 1"
         de: "139/204 DE 1"
         it: "139/204 IT 1"
+        zh: "139/204 ZH 1"
       rarity: super_rare
     - set: tfc
       id: 213
@@ -5775,6 +6497,7 @@
         fr: "213/204 FR 1"
         de: "213/204 DE 1"
         it: "213/204 IT 1"
+        zh: "213/204 ZH 1"
       rarity: enchanted
       illustrator: "Clio Wolfensberger"
   lore: 2
@@ -5806,6 +6529,10 @@
       name: "Aurora"
       title: "Wächterin der Träume"
       flavour: "Während die Prinzessin schlummerte, erwachte ihre Macht."
+    zh: 
+      name: "奥罗拉"
+      title: "梦中守护人"
+      flavour: "公主沉沉睡去，力量随之觉醒。 "
   actions: 
     - "shift_3"
     - "protective_embrace"
@@ -5822,6 +6549,7 @@
         fr: "140/204 FR 1"
         de: "140/204 DE 1"
         it: "140/204 IT 1"
+        zh: "140/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 2
@@ -5852,6 +6580,10 @@
       name: "Aurora"
       title: "Vornehme Prinzessin"
       flavour: "Es heißt, wenn man etwas Bestimmtes immer wieder träumt, erfüllt sich der Traum!"
+    zh: 
+      name: "奥罗拉"
+      title: "皇室公主"
+      flavour: "“人们常说，如果你做两次相同的梦，梦就会成真！”"
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aurora-Regal-Princess"
@@ -5865,6 +6597,7 @@
         fr: "141/204 FR 1"
         de: "141/204 DE 1"
         it: "141/204 IT 1"
+        zh: "141/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 3
@@ -5878,7 +6611,7 @@
     - "hero"
     - "princess"
     - "inventor"
-  illustrator: "Gabriel Romero / Pix Smith"
+  illustrator: "Gabriel Romero"
   languages: 
     en: 
       name: "Belle"
@@ -5896,6 +6629,10 @@
       name: "Belle"
       title: "Ideenreiche Ingenieurin"
       flavour: "Mit ein wenig Einfallsreichtum und viel Herz kommt man weit in dieser Welt."
+    zh: 
+      name: "贝儿"
+      title: "工程发明家"
+      flavour: "九十九分的努力和一分灵感能让你在这个世界上大有作为。"
   actions: 
     - "tinker"
   franchise_id: "beauty-and-the-beast"
@@ -5911,6 +6648,7 @@
         fr: "142/204 FR 1"
         de: "142/204 DE 1"
         it: "142/204 IT 1"
+        zh: "142/204 ZH 1"
       rarity: legendary
     - set: tfc
       id: 214
@@ -5920,6 +6658,7 @@
         fr: "214/204 FR 1"
         de: "214/204 DE 1"
         it: "214/204 IT 1"
+        zh: "214/204 ZH 1"
       rarity: enchanted
       illustrator: "Valerio Buonfantino"
   lore: 1
@@ -5947,6 +6686,10 @@
       name: "Belle"
       title: "Eine ganz besondere Mademoiselle"
       flavour: "Ferne Länder, mutige Schwertkämpfe, Verzauberungen, ein verkleideter Prinz …"
+    zh: 
+      name: "贝儿"
+      title: "与众不同"
+      flavour: "“有远方的城堡、打斗，还有魔咒和白马王子……”"
   actions: 
     - "read_book"
     - "my_favorite_part"
@@ -5963,6 +6706,7 @@
         fr: "143/204 FR 1"
         de: "143/204 DE 1"
         it: "143/204 IT 1"
+        zh: "143/204 ZH 1"
       rarity: uncommon
   lore: 3
   cost: 7
@@ -5993,6 +6737,10 @@
       name: "Tui"
       title: "Respektierter Anführer"
       flavour: "Du kannst dich immer auf die Kraft derer verlassen, die dich lieben."
+    zh: 
+      name: "图伊酋长"
+      title: "尊敬的首领"
+      flavour: "“爱你的人总能帮助你。”"
   actions: 
     - "support"
   franchise_id: "moana"
@@ -6008,6 +6756,7 @@
         fr: "144/204 FR 1"
         de: "144/204 DE 1"
         it: "144/204 IT 1"
+        zh: "144/204 ZH 1"
       rarity: common
   lore: 2
   cost: 5
@@ -6034,6 +6783,10 @@
       name: "Donald Duck"
       title: "Stolziert umher"
       flavour: "Bewege dich schlauer, nicht schneller."
+    zh: 
+      name: "唐老鸭"
+      title: "阔步向前"
+      flavour: "往前走要多动脑，而不是多使劲。"
   actions: 
     - "ward"
   franchise_id: "mickey-mouse-and-friends"
@@ -6049,6 +6802,7 @@
         fr: "145/204 FR 1"
         de: "145/204 DE 1"
         it: "145/204 IT 1"
+        zh: "145/204 ZH 1"
       rarity: common
   lore: 1
   cost: 1
@@ -6078,6 +6832,10 @@
       name: "Fabius"
       title: "Stimme der Vernunft"
       flavour: "Spannung... Abenteuer... Gefahr, die hinter jeder Ecke lau... UUAAAHHH!"
+    zh: 
+      name: "弗朗德"
+      title: "个性谨慎"
+      flavour: "“到处都很刺激，充满冒险且危机四伏……啊啊啊啊！”"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Flounder-Voice-of-Reason"
@@ -6091,6 +6849,7 @@
         fr: "146/204 FR 1"
         de: "146/204 DE 1"
         it: "146/204 IT 1"
+        zh: "146/204 ZH 1"
       rarity: uncommon
   lore: 1
   cost: 2
@@ -6116,6 +6875,10 @@
       name: "Gramma Tala"
       title: "Geschichtenerzählerin"
       flavour: "Vaiana: Gibt es irgendwas, das du mir sagen willst? Gramma Tala: Gibt es irgendwas, das du hören willst?"
+    zh: 
+      name: "塔拉祖母"
+      title: "故事讲述人"
+      flavour: "莫阿娜：“你有什么话想跟我说吗？”\n塔拉祖母：“你想听我对你说吗？”"
   actions: 
     - "ill_be_with_you"
   franchise_id: "moana"
@@ -6131,6 +6894,7 @@
         fr: "147/204 FR 1"
         de: "147/204 DE 1"
         it: "147/204 IT 1"
+        zh: "147/204 ZH 1"
       rarity: legendary
   lore: 2
   cost: 7
@@ -6157,6 +6921,10 @@
       name: "Hades"
       title: "Höllischer Intrigant"
       flavour: "Sieh mal, der muss doch eine Schwäche haben, weil, wie wir wissen, jeder eine Schwäche hat."
+    zh: 
+      name: "哈迪斯"
+      title: "冥界阴谋家"
+      flavour: "“他一定会有弱点，因为每一个人都有个弱点。”"
   actions: 
     - "is_there_downside_to_this"
   franchise_id: "hercules"
@@ -6172,6 +6940,7 @@
         fr: "148/204 FR 1"
         de: "148/204 DE 1"
         it: "148/204 IT 1"
+        zh: "148/204 ZH 1"
       rarity: common
   lore: 2
   cost: 3
@@ -6197,6 +6966,10 @@
       name: "Jasmin"
       title: "Verkleidet"
       flavour: "Versuch mich doch zu verstehen. Ich habe noch nie etwas alleine unternommen. Ich habe nicht mal richtige Freunde … Ich habe noch nicht mal den Palast von außen gesehen."
+    zh: 
+      name: "茉莉"
+      title: "老百姓装扮"
+      flavour: "“请你理解我，父王。我从来都没有自己拿过主意，我从来没有一个真正的朋友……我甚至还从来没有走出过这座皇宫。”"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jasmine-Disguised"
@@ -6210,6 +6983,7 @@
         fr: "149/204 FR 1"
         de: "149/204 DE 1"
         it: "149/204 IT 1"
+        zh: "149/204 ZH 1"
       rarity: rare
   lore: 2
   cost: 5
@@ -6241,6 +7015,10 @@
       name: "Jasmin"
       title: "Königin von Agrabah"
       flavour: ""
+    zh: 
+      name: "茉莉"
+      title: "阿格拉巴统治者"
+      flavour: ""
   actions: 
     - "shift_3"
     - "caretaker"
@@ -6257,6 +7035,7 @@
         fr: "150/204 FR 1"
         de: "150/204 DE 1"
         it: "150/204 IT 1"
+        zh: "150/204 ZH 1"
       rarity: common
   lore: 2
   cost: 4
@@ -6283,6 +7062,10 @@
       name: "Malefiz"
       title: "Böser Besuch"
       flavour: "Die Prinzessin soll strahlend und schön wie eine Rose erblühen. Und von einem jeden geliebt werden, der ihr begegnet. Jedoch, bevor noch die Sonne an ihrem 16. Geburtstag untergeht, soll sie sich mit der Spindel eines Spinnrades in den Finger stechen..."
+    zh: 
+      name: "黑巫婆"
+      title: "邪恶的来宾"
+      flavour: "“公主会长得楚楚动人，高雅美丽，人见人爱。但是，在她十六岁生日那天，她的手指将被纺车上的针刺破……”"
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maleficent-Sinister-Visitor"
@@ -6296,6 +7079,7 @@
         fr: "151/204 FR 1"
         de: "151/204 DE 1"
         it: "151/204 IT 1"
+        zh: "151/204 ZH 1"
       rarity: rare
     - set: p1
       id: 22
@@ -6305,6 +7089,7 @@
         fr: "22/P1 FR 1"
         de: "22/P1 DE 1"
         it: "22/P1 IT 1"
+        zh: "22/P1 ZH 1"
       rarity: d100
       illustrator: "Lorelay Bové"
   lore: 3
@@ -6336,6 +7121,10 @@
       name: "Malefiz"
       title: "Nicht eingeladen"
       flavour: "Sie hatte keine Einladung und brauchte keine Vorstellung."
+    zh: 
+      name: "黑巫婆"
+      title: "未被邀请"
+      flavour: "她没有收到请柬——因此无需介绍。"
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maleficent-Uninvited"
@@ -6349,6 +7138,7 @@
         fr: "152/204 FR 1"
         de: "152/204 DE 1"
         it: "152/204 IT 1"
+        zh: "152/204 ZH 1"
       rarity: rare
   lore: 2
   cost: 6
@@ -6375,6 +7165,10 @@
       name: "Maurice"
       title: "Weltberühmter Erfinder"
       flavour: ""
+    zh: 
+      name: "莫里斯"
+      title: "名扬四海的发明家"
+      flavour: ""
   actions: 
     - "give_it_try"
     - "it_works"
@@ -6391,6 +7185,7 @@
         fr: "153/204 FR 1"
         de: "153/204 DE 1"
         it: "153/204 IT 1"
+        zh: "153/204 ZH 1"
       rarity: common
   lore: 1
   cost: 4
@@ -6417,6 +7212,10 @@
       name: "Merlin"
       title: "Selbsternannter Mentor"
       flavour: "Was für eine mittelalterliche Wirtschaft. Das werden wir jetzt modernisieren."
+    zh: 
+      name: "梅林"
+      title: "不请自来的导师"
+      flavour: "“乱七八糟！混乱麻烦的中世纪！我们必须让它进化！”"
   actions: 
     - "support"
   franchise_id: "the-sword-in-the-stone"
@@ -6432,6 +7231,7 @@
         fr: "154/204 FR 1"
         de: "154/204 DE 1"
         it: "154/204 IT 1"
+        zh: "154/204 ZH 1"
       rarity: common
     - set: p1
       id: 8
@@ -6441,6 +7241,7 @@
         fr: "8/P1 FR 1"
         de: "8/P1 DE 1"
         it: "8/P1 IT 1"
+        zh: "8/P1 ZH 1"
       rarity: organized_play
   lore: 1
   cost: 3
@@ -6471,6 +7272,10 @@
       name: "Micky Maus"
       title: "Detektiv"
       flavour: "Wo auch immer das Seegras herkam, Micky war sich einer Sache sicher: Irgendetwas war hier faul."
+    zh: 
+      name: "米奇"
+      title: "侦探"
+      flavour: "米奇不清楚这块海带是从哪里来的，但他能肯定其中一定有猫腻。"
   actions: 
     - "get_clue"
   franchise_id: "mickey-mouse-and-friends"
@@ -6486,6 +7291,7 @@
         fr: "155/204 FR 1"
         de: "155/204 DE 1"
         it: "155/204 IT 1"
+        zh: "155/204 ZH 1"
       rarity: common
   lore: 3
   cost: 6
@@ -6512,6 +7318,10 @@
       name: "Mufasa"
       title: "König des Geweihten Landes"
       flavour: "Ein König muss sich um alle Lebewesen in seinem Königreich kümmern, unabhängig von ihrer Größe."
+    zh: 
+      name: "木法沙"
+      title: "荣耀国狮王"
+      flavour: "“国王必须照顾领地内的所有动物，无论他们是大是小。” "
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mufasa-King-of-the-Pride-Lands"
@@ -6525,6 +7335,7 @@
         fr: "156/204 FR 1"
         de: "156/204 DE 1"
         it: "156/204 IT 1"
+        zh: "156/204 ZH 1"
       rarity: common
   lore: 1
   cost: 2
@@ -6550,6 +7361,10 @@
       name: "Phil"
       title: "Trainer der Helden"
       flavour: "Man muss der Beste sein, um die Besten zu trainieren. Und ich trainiere die Besten!"
+    zh: 
+      name: "菲罗克忒忒斯"
+      title: "英雄训练师"
+      flavour: "“只有尖子才能训练出最优秀的人，而我就是训练最优秀的人！”"
   actions: 
     - "support"
   franchise_id: "hercules"
@@ -6565,6 +7380,7 @@
         fr: "157/204 FR 1"
         de: "157/204 DE 1"
         it: "157/204 IT 1"
+        zh: "157/204 ZH 1"
       rarity: super_rare
     - set: p1
       id: 6
@@ -6574,6 +7390,7 @@
         fr: "6/P1 FR 1"
         de: "6/P1 DE 1"
         it: "6/P1 IT 1"
+        zh: "6/P1 ZH 1"
       rarity: d23
   lore: 2
   cost: 6
@@ -6599,6 +7416,10 @@
       name: "Robin Hood"
       title: "Unübertroffener Bogenschütze"
       flavour: "Sind wir Räuber? Oh nein, wir borgen nur von denen, die zu viel besitzen."
+    zh: 
+      name: "罗宾汉"
+      title: "冠军弓箭手"
+      flavour: "“我们那不叫‘劫’，只是从有钱人那里借一点而已。”"
   actions: 
     - "feed_the_poor"
     - "good_shot"
@@ -6615,6 +7436,7 @@
         fr: "158/204 FR 1"
         de: "158/204 DE 1"
         it: "158/204 IT 1"
+        zh: "158/204 ZH 1"
       rarity: rare
   lore: 2
   cost: 6
@@ -6640,6 +7462,10 @@
       name: "Scar"
       title: "Drahtzieher"
       flavour: "Die besten Pläne beinhalten ein gewisses Risiko. Nur nicht für mich."
+    zh: 
+      name: "刀疤"
+      title: "幕后黑爪"
+      flavour: "“最完美的计划都会有一些小危险，但不会降临在我的头上。”"
   actions: 
     - "insidious_plot"
   franchise_id: "the-lion-king"
@@ -6655,6 +7481,7 @@
         fr: "159/204 FR 1"
         de: "159/204 DE 1"
         it: "159/204 IT 1"
+        zh: "159/204 ZH 1"
       rarity: super_rare
   lore: 1
   cost: 8
@@ -6680,6 +7507,10 @@
       name: "Tamatoa"
       title: "So glänzend!"
       flavour: "Ich bin glänzend, funkle wie ein ungeschliff'ner Diamant."
+    zh: 
+      name: "螃蟹怪"
+      title: "太闪亮！"
+      flavour: "“看我身上发亮像钻石那样！”"
   actions: 
     - "what_have_we_here"
     - "glam"
@@ -6696,6 +7527,7 @@
         fr: "160/204 FR 1"
         de: "160/204 DE 1"
         it: "160/204 IT 1"
+        zh: "160/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 7
@@ -6725,6 +7557,10 @@
       name: "Triton"
       title: "König Triton"
       flavour: "Ist ‚Weil ich es sage‘ nicht Grund genug?"
+    zh: 
+      name: "川顿"
+      title: "海王"
+      flavour: "“难道凭‘我说了算’还不够吗？”"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Triton-The-Sea-King"
@@ -6738,6 +7574,7 @@
         fr: "161/204 FR 1"
         de: "161/204 DE 1"
         it: "161/204 IT 1"
+        zh: "161/204 ZH 1"
       rarity: common
   cost: 1
   inkwell: true
@@ -6757,6 +7594,10 @@
       name: "Entwickle dein Gehirn"
       title: ""
       flavour: "Wissen und Weisheit — darin liegt die wahre Kraft! — Merlin"
+    zh: 
+      name: "开发大脑"
+      title: ""
+      flavour: "\"只有发挥你的头脑，知识、智慧才是<真正>的力量”\n——梅林"
   actions: 
     - "develop_your_brain"
   franchise_id: "the-sword-in-the-stone"
@@ -6772,6 +7613,7 @@
         fr: "162/204 FR 1"
         de: "162/204 DE 1"
         it: "162/204 IT 1"
+        zh: "162/204 ZH 1"
       rarity: rare
   cost: 3
   inkwell: false
@@ -6791,6 +7633,10 @@
       name: "Ist es nicht Barock"
       title: ""
       flavour: "… kriege keinen Schock."
+    zh: 
+      name: "如果不是巴洛克"
+      title: ""
+      flavour: "“……那就别管它了。”"
   actions: 
     - "if_its_not_baroque"
   franchise_id: "beauty-and-the-beast"
@@ -6806,6 +7652,7 @@
         fr: "163/204 FR 1"
         de: "163/204 DE 1"
         it: "163/204 IT 1"
+        zh: "163/204 ZH 1"
       rarity: rare
     - set: p1
       id: 41
@@ -6815,6 +7662,7 @@
         fr: "41/P1 FR 1"
         de: "41/P1 DE 1"
         it: "41/P1 IT 1"
+        zh: ""
       rarity: unreleased
     - set: c1
       id: 2
@@ -6824,11 +7672,10 @@
         fr: "2/C1 FR 1"
         de: "2/C1 DE 1"
         it: "2/C1 IT 1"
+        zh: "2/C1 ZH 1"
       rarity: challenge24
   cost: 5
   inkwell: true
-  attack: 0
-  defence: 0
   color: sapphire
   type: action
   classifications: 
@@ -6851,6 +7698,10 @@
       name: "Lass jetzt los"
       title: ""
       flavour: "Was ich wohl alles machen kann, die Kraft in mir treibt mich voran."
+    zh: 
+      name: "随它吧"
+      title: ""
+      flavour: "现在开始让我看见\n是我的突破和极限"
   actions: 
     - "let_it_go"
   franchise_id: "frozen"
@@ -6866,11 +7717,10 @@
         fr: "164/204 FR 1"
         de: "164/204 DE 1"
         it: "164/204 IT 1"
+        zh: "164/204 ZH 1"
       rarity: uncommon
   cost: 2
   inkwell: false
-  attack: 0
-  defence: 0
   color: sapphire
   type: action
   classifications: 
@@ -6889,6 +7739,10 @@
       name: "Schnell weg!"
       title: ""
       flavour: "Wenn die Mäuse fehl'n, muss man eben stehl'n. Und ich sag euch Wiederseh'n, ich komm zu spät!"
+    zh: 
+      name: "我跑我闪"
+      title: ""
+      flavour: "只是为了活，活着需要吃——\n生活不简单，下次告诉你"
   actions: 
     - "one_jump_ahead"
   franchise_id: "aladdin"
@@ -6904,6 +7758,7 @@
         fr: "165/204 FR 1"
         de: "165/204 DE 1"
         it: "165/204 IT 1"
+        zh: "165/204 ZH 1"
       rarity: common
   cost: 1
   inkwell: true
@@ -6923,6 +7778,10 @@
       name: "Teamwork"
       title: ""
       flavour: "Patcha: Leg dich voll ins Zeug! Kusco: Das ist mein ganzes Zeug!"
+    zh: 
+      name: "合作"
+      title: ""
+      flavour: "贝查：“用力顶！”\n库斯德：“顶到头了！”"
   actions: 
     - "support"
   franchise_id: "the-emperors-new-groove"
@@ -6938,6 +7797,7 @@
         fr: "166/204 FR 1"
         de: "166/204 DE 1"
         it: "166/204 IT 1"
+        zh: "166/204 ZH 1"
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -6957,6 +7817,10 @@
       name: "Kokosnusskorb"
       title: ""
       flavour: "Die Kokosnuss ist ein vielseitiges Geschenk der Götter, aus dem man fast alles herstellen kann — auch Körbe, um mehr Kokosnüsse zu transportieren."
+    zh: 
+      name: "椰子篮"
+      title: ""
+      flavour: "椰子是神送给我们的礼物，能用来做成各种东西——包括做成篮子，来装更多的椰子。"
   actions: 
     - "consider_the_coconut"
   franchise_id: "moana"
@@ -6972,6 +7836,7 @@
         fr: "167/204 FR 1"
         de: "167/204 DE 1"
         it: "167/204 IT 1"
+        zh: "167/204 ZH 1"
       rarity: uncommon
   cost: 4
   inkwell: true
@@ -6991,6 +7856,10 @@
       name: "Auge der Moiren"
       title: ""
       flavour: "Du kannst die Zukunft verändern, wenn du weißt, nach was du suchst."
+    zh: 
+      name: "命运之眼"
+      title: ""
+      flavour: "你如果知道自己看到的是什么，你就能改变未来。"
   actions: 
     - "see_the_future"
   franchise_id: "hercules"
@@ -7006,6 +7875,7 @@
         fr: "168/204 FR 1"
         de: "168/204 DE 1"
         it: "168/204 IT 1"
+        zh: "168/204 ZH 1"
       rarity: rare
   cost: 3
   inkwell: true
@@ -7025,6 +7895,10 @@
       name: "Fischgrätenfeder"
       title: ""
       flavour: "Mein Sonderangebot ist nur kurze Zeit zu haben. — Ursula"
+    zh: 
+      name: "鱼骨笔"
+      title: ""
+      flavour: "“如果你准备过桥，请你把通行费备好。”\n——乌苏拉"
   actions: 
     - "go_ahead_and_sign"
   franchise_id: "the-little-mermaid"
@@ -7040,6 +7914,7 @@
         fr: "169/204 FR 1"
         de: "169/204 DE 1"
         it: "169/204 IT 1"
+        zh: "169/204 ZH 1"
       rarity: common
   cost: 1
   inkwell: true
@@ -7059,6 +7934,10 @@
       name: "Magische Goldene Blume"
       title: ""
       flavour: "Es war einmal ein kleiner Tropfen Sonnenlicht, der vom Himmel herabfiel … – Flynn Rider"
+    zh: 
+      name: "金色仙花"
+      title: ""
+      flavour: "“在很久很久以前，天堂撒下一缕阳光……”\n——费林·雷德"
   actions: 
     - "healing_pollen"
   franchise_id: "tangled"
@@ -7074,6 +7953,7 @@
         fr: "170/204 FR 1"
         de: "170/204 DE 1"
         it: "170/204 IT 1"
+        zh: "170/204 ZH 1"
       rarity: uncommon
   cost: 1
   inkwell: true
@@ -7097,6 +7977,10 @@
       name: "Zepter von Arendelle"
       title: ""
       flavour: ""
+    zh: 
+      name: "阿伦黛尔权杖"
+      title: ""
+      flavour: ""
   actions: 
     - "command"
   franchise_id: "frozen"
@@ -7112,6 +7996,7 @@
         fr: "171/204 FR 1"
         de: "171/204 DE 1"
         it: "171/204 IT 1"
+        zh: "171/204 ZH 1"
       rarity: common
   lore: 2
   cost: 2
@@ -7137,6 +8022,10 @@
       name: "Aladdin"
       title: "Schwertkämpfer in Bedrängnis"
       flavour: "Oh ho! Der Straßenjunge hat also ein Schwert und ein Rückgrat! – Rasul"
+    zh: 
+      name: "阿拉丁"
+      title: "被困的用刀高手"
+      flavour: "“快瞧瞧！过街老鼠找到了一把刀<和>豹子胆！”\n——拉索"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Cornered-Swordsman"
@@ -7150,6 +8039,7 @@
         fr: "172/204 FR 1"
         de: "172/204 DE 1"
         it: "172/204 IT 1"
+        zh: "172/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 5
@@ -7180,6 +8070,10 @@
       name: "Biest"
       title: "Dickköpfig"
       flavour: "Sie wird nie etwas anderes in mir sehen … als ein Monstrum."
+    zh: 
+      name: "野兽"
+      title: "认清现实"
+      flavour: "“她不会把我当人看……我永远是野兽。”"
   actions: 
     - "destruction"
   franchise_id: "beauty-and-the-beast"
@@ -7195,6 +8089,7 @@
         fr: "173/204 FR 1"
         de: "173/204 DE 1"
         it: "173/204 IT 1"
+        zh: "173/204 ZH 1"
       rarity: rare
   lore: 1
   cost: 4
@@ -7222,6 +8117,10 @@
       name: "Käpt'n Hook"
       title: "Kapitän der Jolly Roger"
       flavour: "Der Augenblick der Rache ist gekommen. Wir werden sie rupfen wie die Hühner!"
+    zh: 
+      name: "虎克船长"
+      title: "骷髅船船长"
+      flavour: "“风景真好啊，史密。这次叫他们插翅难逃。”"
   actions: 
     - "double_the_powder"
   franchise_id: "peter-pan"
@@ -7237,6 +8136,7 @@
         fr: "174/204 FR 1"
         de: "174/204 DE 1"
         it: "174/204 IT 1"
+        zh: "174/204 ZH 1"
       rarity: common
     - set: p1
       id: 7
@@ -7246,6 +8146,7 @@
         fr: "7/P1 FR 1"
         de: "7/P1 DE 1"
         it: "7/P1 IT 1"
+        zh: "7/P1 ZH 1"
       rarity: d23
   lore: 1
   cost: 1
@@ -7273,6 +8174,10 @@
       name: "Käpt'n Hook"
       title: "Mächtiger Duellant"
       flavour: "Er liebt es, die missliche Lage des Gegners zu erhellen."
+    zh: 
+      name: "虎克船长"
+      title: "强力决斗高手"
+      flavour: "他对敌人的处境从来都不在意。"
   actions: 
     - "challenger"
   franchise_id: "peter-pan"
@@ -7288,6 +8193,7 @@
         fr: "175/204 FR 1"
         de: "175/204 DE 1"
         it: "175/204 IT 1"
+        zh: "175/204 ZH 1"
       rarity: rare
   lore: 1
   cost: 5
@@ -7315,6 +8221,10 @@
       name: "Käpt'n Hook"
       title: "Ein feiner Gedanke"
       flavour: ""
+    zh: 
+      name: "虎克船长"
+      title: "童心未泯"
+      flavour: ""
   actions: 
     - "shift_3"
     - "challenger_3"
@@ -7332,6 +8242,7 @@
         fr: "176/204 FR 1"
         de: "176/204 DE 1"
         it: "176/204 IT 1"
+        zh: "176/204 ZH 1"
       rarity: common
   lore: 1
   cost: 5
@@ -7356,6 +8267,10 @@
       name: "Zerberus"
       title: "Dreiköpfiger Hund"
       flavour: "Immer wachsam. Immer wütend. Immer im Kampf um den Ball."
+    zh: 
+      name: "智伯司"
+      title: "三头犬"
+      flavour: "时刻保持警惕，总是凶猛无比，永远在玩毛球。"
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cerberus-Three-Headed-Dog"
@@ -7369,6 +8284,7 @@
         fr: "177/204 FR 1"
         de: "177/204 DE 1"
         it: "177/204 IT 1"
+        zh: "177/204 ZH 1"
       rarity: uncommon
     - set: p1
       id: 13
@@ -7378,6 +8294,7 @@
         fr: "13/P1 FR 1"
         de: "13/P1 DE 1"
         it: "13/P1 IT 1"
+        zh: "13/P1 ZH 1"
       rarity: gamecon23
   lore: 1
   cost: 4
@@ -7390,7 +8307,7 @@
     - "dreamborn"
     - "hero"
     - "musketeer"
-  illustrator: "Dav Augereau / Guykua Ruva"
+  illustrator: "Dav Augereau"
   languages: 
     en: 
       name: "Donald Duck"
@@ -7403,6 +8320,10 @@
     de: 
       name: "Donald Duck"
       title: "Musketier"
+      flavour: ""
+    zh: 
+      name: "唐老鸭"
+      title: "剑客"
       flavour: ""
   actions: 
     - "bodyguard"
@@ -7420,6 +8341,7 @@
         fr: "178/204 FR 1"
         de: "178/204 DE 1"
         it: "178/204 IT 1"
+        zh: "178/204 ZH 1"
       rarity: legendary
   lore: 2
   cost: 8
@@ -7446,6 +8368,10 @@
       name: "Gantu"
       title: "Kapitän der Galaktischen Föderation"
       flavour: "Also entspann dich und genieße die Reise... und komm ja nicht auf dumme Gedanken!"
+    zh: 
+      name: "钢图"
+      title: "星际联盟舰长"
+      flavour: "“放轻松，享受这趟旅程……别动任何歪脑筋！”"
   actions: 
     - "under_arrest"
   franchise_id: "lilo-and-stitch"
@@ -7461,6 +8387,7 @@
         fr: "179/204 FR 1"
         de: "179/204 DE 1"
         it: "179/204 IT 1"
+        zh: "179/204 ZH 1"
       rarity: common
   lore: 1
   cost: 1
@@ -7486,6 +8413,10 @@
       name: "Gesindel"
       title: "Malefiz' Handlanger"
       flavour: "Sie mögen nutzlos sein, aber sie waren Teil des Schlosses."
+    zh: 
+      name: "笨喽喽"
+      title: "黑巫婆的跟班"
+      flavour: "他们虽然没什么用，但毕竟是城堡附送的。"
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Goons-Maleficents-Underlings"
@@ -7499,6 +8430,7 @@
         fr: "180/204 FR 1"
         de: "180/204 DE 1"
         it: "180/204 IT 1"
+        zh: "180/204 ZH 1"
       rarity: super_rare
   lore: 2
   cost: 4
@@ -7525,6 +8457,10 @@
       name: "Hans"
       title: "Dreizehnter in der Thronfolge"
       flavour: "Er hatte genug davon, der Letzte zu sein, und beschloss, die Linie zu durchbrechen."
+    zh: 
+      name: "汉斯"
+      title: "第十三顺位继承人"
+      flavour: "他不想再当最后的继承人，于是决定插个队。"
   actions: 
     - "stage_little_accident"
   franchise_id: "frozen"
@@ -7540,6 +8476,7 @@
         fr: "181/204 FR 1"
         de: "181/204 DE 1"
         it: "181/204 IT 1"
+        zh: "181/204 ZH 1"
       rarity: common
   lore: 1
   cost: 3
@@ -7566,6 +8503,10 @@
       name: "Hercules"
       title: "Wahrer Held"
       flavour: "Jetzt musst du's zugeben: Das war ziemlich heldenhaft."
+    zh: 
+      name: "海格力斯"
+      title: "真正的英雄"
+      flavour: "“这没什么了不起的。”"
   actions: 
     - "bodyguard"
   franchise_id: "hercules"
@@ -7581,6 +8522,7 @@
         fr: "182/204 FR 1"
         de: "182/204 DE 1"
         it: "182/204 IT 1"
+        zh: "182/204 ZH 1"
       rarity: common
   lore: 2
   cost: 3
@@ -7606,6 +8548,10 @@
       name: "Kristoff"
       title: "Offizieller Eismeister"
       flavour: "Kristoff: Was heißt hier Angebot und Nachfrage? Ich verdien meine Brötchen mit dem Verkauf von Eis.Anna: Uh, das ist wohl grad eine hart umkämpfte Branche, was? Ich meine, das ist wirklich — ähm, großes Pech."
+    zh: 
+      name: "克斯托夫"
+      title: "皇家冰块总管"
+      flavour: "克斯托夫：“你要跟我谈反季商品亏不亏吗？我还是卖冰的呢。”\n安娜：“哦，现在这生意可不好做呀。伙计，干这行真是——太不走运了。”"
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Kristoff-Official-Ice-Master"
@@ -7619,6 +8565,7 @@
         fr: "183/204 FR 1"
         de: "183/204 DE 1"
         it: "183/204 IT 1"
+        zh: "183/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 6
@@ -7644,6 +8591,10 @@
       name: "Kronk"
       title: "Rechte Hand"
       flavour: "Oh ja, es kommt alles zusammen!"
+    zh: 
+      name: "高刚"
+      title: "得力助手"
+      flavour: "“哦，好了，全都串起来了！”"
   franchise_id: "the-emperors-new-groove"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Kronk-Right-Hand-Man"
@@ -7657,6 +8608,7 @@
         fr: "184/204 FR 1"
         de: "184/204 DE 1"
         it: "184/204 IT 1"
+        zh: "184/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 3
@@ -7682,6 +8634,10 @@
       name: "Lilo"
       title: "Galaktische Heldin"
       flavour: "Der Weltraum. Von dort kommen die Aliens. Und auch Touristen!"
+    zh: 
+      name: "莉萝"
+      title: "星际英雄"
+      flavour: "“外太空。外星人就是从这里来的。还有游客！”"
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lilo-Galactic-Hero"
@@ -7695,6 +8651,7 @@
         fr: "185/204 FR 1"
         de: "185/204 DE 1"
         it: "185/204 IT 1"
+        zh: "185/204 ZH 1"
       rarity: rare
     - set: p1
       id: 23
@@ -7704,6 +8661,7 @@
         fr: "23/P1 FR 1"
         de: "23/P1 DE 1"
         it: "23/P1 IT 1"
+        zh: "23/P1 ZH 1"
       rarity: d100
       illustrator: "Bill Schwab"
   lore: 3
@@ -7731,6 +8689,10 @@
       name: "Maui"
       title: "Halbgott"
       flavour: "Wenn die Götter dir ein Boot schenken, nimmst du es."
+    zh: 
+      name: "毛伊"
+      title: "半神"
+      flavour: "神如果送你一条船，你就收下它。带不带船的主人无所谓。"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maui-Demigod"
@@ -7744,6 +8706,7 @@
         fr: "186/204 FR 1"
         de: "186/204 DE 1"
         it: "186/204 IT 1"
+        zh: "186/204 ZH 1"
       rarity: rare
     - set: p1
       id: 11
@@ -7753,6 +8716,7 @@
         fr: "11/P1 FR 1"
         de: "11/P1 DE 1"
         it: "11/P1 IT 1"
+        zh: "11/P1 ZH 1"
       rarity: gamecon23
   lore: 2
   cost: 6
@@ -7779,6 +8743,10 @@
       name: "Micky Maus"
       title: "Musketier"
       flavour: ""
+    zh: 
+      name: "米奇"
+      title: "剑客 "
+      flavour: ""
   actions: 
     - "bodyguard"
     - "all_for_one"
@@ -7795,6 +8763,7 @@
         fr: "187/204 FR 1"
         de: "187/204 DE 1"
         it: "187/204 IT 1"
+        zh: "187/204 ZH 1"
       rarity: common
   lore: 1
   cost: 2
@@ -7821,6 +8790,10 @@
       name: "Prinz Eric"
       title: "Elegant und kühn"
       flavour: "Ich habe sie schon einmal verloren, Grim, das passiert mir kein zweites Mal!"
+    zh: 
+      name: "亚力克王子"
+      title: "潇洒而勇敢"
+      flavour: "“我曾经失去过她！我不想再失去她了！”"
   actions: 
     - "challenger"
   franchise_id: "the-little-mermaid"
@@ -7836,6 +8809,7 @@
         fr: "188/204 FR 1"
         de: "188/204 DE 1"
         it: "188/204 IT 1"
+        zh: "188/204 ZH 1"
       rarity: common
   lore: 1
   cost: 1
@@ -7862,6 +8836,10 @@
       name: "Simba"
       title: "Zukünftiger König"
       flavour: "Ich werde der beste König sein, den das Geweihte Land je gesehen hat!"
+    zh: 
+      name: "辛巴"
+      title: "未来的国王"
+      flavour: "“我要成为荣耀国史上最棒的国王！”"
   actions: 
     - "guess_what"
   franchise_id: "the-lion-king"
@@ -7877,6 +8855,7 @@
         fr: "189/204 FR 1"
         de: "189/204 DE 1"
         it: "189/204 IT 1"
+        zh: "189/204 ZH 1"
       rarity: rare
     - set: tfc
       id: 215
@@ -7886,6 +8865,7 @@
         fr: "215/204 FR 1"
         de: "215/204 DE 1"
         it: "215/204 IT 1"
+        zh: "215/204 ZH 1"
       rarity: enchanted
       illustrator: "Hedvig Häggman-Sund"
   lore: 2
@@ -7913,6 +8893,10 @@
       name: "Simba"
       title: "Zurückgekehrter König"
       flavour: "Ich werde alles tun, um mein Königreich zu retten."
+    zh: 
+      name: "辛巴"
+      title: "回归的国王"
+      flavour: "“我会尽一切所能拯救我的王国。”"
   actions: 
     - "challenger_4"
     - "pounce"
@@ -7929,6 +8913,7 @@
         fr: "190/204 FR 1"
         de: "190/204 DE 1"
         it: "190/204 IT 1"
+        zh: "190/204 ZH 1"
       rarity: uncommon
   lore: 2
   cost: 5
@@ -7955,6 +8940,10 @@
       name: "Simba"
       title: "Rechtmäßiger Thronfolger"
       flavour: "Ich kann mich nicht mehr verstecken. Es ist Zeit, meine Bestimmung zu akzeptieren."
+    zh: 
+      name: "辛巴"
+      title: "合法的子嗣"
+      flavour: "“我不能再躲躲藏藏了，我该去接受我的命运了。”"
   actions: 
     - "i_know_what_i_have_to_do"
   franchise_id: "the-lion-king"
@@ -7970,6 +8959,7 @@
         fr: "191/204 FR 1"
         de: "191/204 DE 1"
         it: "191/204 IT 1"
+        zh: "191/204 ZH 1"
       rarity: uncommon
   lore: 1
   cost: 5
@@ -7996,6 +8986,10 @@
       name: "Starkey"
       title: "Hooks Handlanger"
       flavour: "Ein Pirat muss knallhart, loyal und stark sein. Klug steht nicht einmal auf der Liste."
+    zh: 
+      name: "史达克"
+      title: "虎克的船员"
+      flavour: "海盗必须要素质过硬，忠于船长，四肢发达。聪明的脑袋没用。"
   actions: 
     - "aye_aye_captain"
   franchise_id: "peter-pan"
@@ -8011,6 +9005,7 @@
         fr: "192/204 FR 1"
         de: "192/204 DE 1"
         it: "192/204 IT 1"
+        zh: "192/204 ZH 1"
       rarity: legendary
   lore: 2
   cost: 6
@@ -8037,6 +9032,10 @@
       name: "Te Kā"
       title: "Herzlos"
       flavour: "Maui: Schon mal ein Lavamonster besiegt? Vaiana: Nein. Und du?"
+    zh: 
+      name: "恶卡"
+      title: "神心被盗"
+      flavour: "毛伊：“你打败过火山恶魔吗？”\n莫阿娜：“没有，你打败过？”"
   actions: 
     - "seek_the_heart"
   franchise_id: "moana"
@@ -8052,6 +9051,7 @@
         fr: "193/204 FR 1"
         de: "193/204 DE 1"
         it: "193/204 IT 1"
+        zh: "193/204 ZH 1"
       rarity: super_rare
     - set: tfc
       id: 216
@@ -8061,8 +9061,9 @@
         fr: "216/204 FR 1"
         de: "216/204 DE 1"
         it: "216/204 IT 1"
+        zh: "216/204 ZH 1"
       rarity: enchanted
-  lore: 3
+  lore: 2
   cost: 6
   inkwell: true
   attack: 4
@@ -8087,6 +9088,10 @@
       name: "Naseweis"
       title: "Gigantische Fee"
       flavour: ""
+    zh: 
+      name: "小叮当"
+      title: "巨大化仙子"
+      flavour: ""
   actions: 
     - "shift_4"
     - "rock_the_boat"
@@ -8104,6 +9109,7 @@
         fr: "194/204 FR 1"
         de: "194/204 DE 1"
         it: "194/204 IT 1"
+        zh: "194/204 ZH 1"
       rarity: common
   lore: 1
   cost: 3
@@ -8130,6 +9136,10 @@
       name: "Naseweis"
       title: "Winzige Taktikerin"
       flavour: "Manchmal braucht man nur ein kleines taktisches Genie."
+    zh: 
+      name: "小叮当"
+      title: "小小战术家"
+      flavour: "有时候你只需要一名小小的战术天才。"
   actions: 
     - "battle_plans"
   franchise_id: "peter-pan"
@@ -8145,6 +9155,7 @@
         fr: "195/204 FR 1"
         de: "195/204 DE 1"
         it: "195/204 IT 1"
+        zh: "195/204 ZH 1"
       rarity: super_rare
   cost: 5
   inkwell: false
@@ -8166,6 +9177,10 @@
       name: "Ein Traum Wird Wahr"
       title: ""
       flavour: "Flieg mit mir um die Welt …"
+    zh: 
+      name: "新的世界"
+      title: ""
+      flavour: "神奇闪亮又美丽……"
   actions: 
     - "a_whole_new_world"
   franchise_id: "aladdin"
@@ -8181,6 +9196,7 @@
         fr: "196/204 FR 1"
         de: "196/204 DE 1"
         it: "196/204 IT 1"
+        zh: "196/204 ZH 1"
       rarity: common
   cost: 2
   inkwell: true
@@ -8200,6 +9216,10 @@
       name: "Zerfetzen"
       title: ""
       flavour: "Niemand verfällt so in Rage wie das Biest."
+    zh: 
+      name: "砸烂"
+      title: ""
+      flavour: "人发起脾气来可不会像野兽那样。"
   actions: 
     - "break"
   franchise_id: "beauty-and-the-beast"
@@ -8215,6 +9235,7 @@
         fr: "197/204 FR 1"
         de: "197/204 DE 1"
         it: "197/204 IT 1"
+        zh: "197/204 ZH 1"
       rarity: common
   cost: 1
   inkwell: false
@@ -8234,6 +9255,10 @@
       name: "Feuert die Kanonen!"
       title: ""
       flavour: "Käpt'n Hook: Doppelte Ladung und gut gezielt! Herr Smee: Doppelt gezielt ist halb geladen!"
+    zh: 
+      name: "开炮！"
+      title: ""
+      flavour: "虎克船长：“多加火药，削减引信！”\n史密先生：“削减火药，多加引信！”"
   actions: 
     - "fire_the_cannons"
   franchise_id: "peter-pan"
@@ -8249,6 +9274,7 @@
         fr: "198/204 FR 1"
         de: "198/204 DE 1"
         it: "198/204 IT 1"
+        zh: "198/204 ZH 1"
       rarity: rare
   cost: 5
   inkwell: false
@@ -8270,6 +9296,10 @@
       name: "Nehmt das Schwert"
       title: ""
       flavour: "Wir versteh'n das zwar nicht, doch dies Monster ist so schrecklich, dass das Blut in unseren Adern kaum noch fließt."
+    zh: 
+      name: "拿起剑"
+      title: ""
+      flavour: "这野兽很残暴\n我们一定要去克服恐惧\n团结起来坚决除掉他"
   actions: 
     - "grab_your_sword"
   franchise_id: "beauty-and-the-beast"
@@ -8285,6 +9315,7 @@
         fr: "199/204 FR 1"
         de: "199/204 DE 1"
         it: "199/204 IT 1"
+        zh: "199/204 ZH 1"
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -8304,6 +9335,10 @@
       name: "Durchwühlen"
       title: ""
       flavour: "Wer hat schon Zeit, Etiketten zu lesen?"
+    zh: 
+      name: "乱搜"
+      title: ""
+      flavour: "哪有空看标签？"
   actions: 
     - "ransack"
   franchise_id: "the-emperors-new-groove"
@@ -8319,6 +9354,7 @@
         fr: "200/204 FR 1"
         de: "200/204 DE 1"
         it: "200/204 IT 1"
+        zh: "200/204 ZH 1"
       rarity: uncommon
   cost: 3
   inkwell: true
@@ -8342,6 +9378,10 @@
       name: "Wuchtschlag"
       title: ""
       flavour: "Haut ab!"
+    zh: 
+      name: "猛砸"
+      title: ""
+      flavour: "“走开！”"
   actions: 
     - "smash"
   franchise_id: "frozen"
@@ -8357,6 +9397,7 @@
         fr: "201/204 FR 1"
         de: "201/204 DE 1"
         it: "201/204 IT 1"
+        zh: "201/204 ZH 1"
       rarity: common
   cost: 2
   inkwell: true
@@ -8376,6 +9417,10 @@
       name: "Spiegel des Biests"
       title: ""
       flavour: "Beschämt über seine abstoßende Gestalt, verbarg sich das Biest im Schloss, mit einem magischen Spiegel als einzigem Fenster zur Außenwelt."
+    zh: 
+      name: "野兽的魔镜"
+      title: ""
+      flavour: "羞于自己丑陋的外表，野兽终日把自己锁在城堡里，只有一个魔镜是他了解外面的窗口。 "
   actions: 
     - "show_me"
   franchise_id: "beauty-and-the-beast"
@@ -8391,6 +9436,7 @@
         fr: "202/204 FR 1"
         de: "202/204 DE 1"
         it: "202/204 IT 1"
+        zh: "202/204 ZH 1"
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -8410,6 +9456,10 @@
       name: "Bratpfanne"
       title: ""
       flavour: "Sie ist ein schönes Kochgeschirr, aber als Waffe ist sie wirklich umwerfend."
+    zh: 
+      name: "平底锅"
+      title: ""
+      flavour: "这是一件不错的炊具，用作武器也能发挥惊人威力。"
   actions: 
     - "clang"
   franchise_id: "tangled"
@@ -8425,12 +9475,13 @@
         fr: "203/204 FR 1"
         de: "203/204 DE 1"
         it: "203/204 IT 1"
+        zh: "203/204 ZH 1"
       rarity: rare
   cost: 4
   inkwell: false
   color: steel
   type: item
-  illustrator: "Dav Augereau / Guykua Ruva"
+  illustrator: "Dav Augereau"
   languages: 
     en: 
       name: "Musketeer Tabard"
@@ -8444,6 +9495,10 @@
       name: "Wappenrock der Musketiere"
       title: ""
       flavour: "So etwas wie einen einsamen Musketier gibt es nicht."
+    zh: 
+      name: "剑客战袍 "
+      title: ""
+      flavour: "剑客永远都不会孤军奋战。"
   actions: 
     - "all_for_one_and_one_for_all"
   franchise_id: "mickey-mouse-and-friends"
@@ -8459,6 +9514,7 @@
         fr: "204/204 FR 1"
         de: "204/204 DE 1"
         it: "204/204 IT 1"
+        zh: "204/204 ZH 1"
       rarity: rare
   cost: 3
   inkwell: false
@@ -8478,6 +9534,10 @@
       name: "Plasma-Kanone"
       title: ""
       flavour: "Du musst nicht ‚pew pew‘ sagen, wenn du sie benutzt, aber es hilft ungemein. – Lilo, Galaktische Heldin"
+    zh: 
+      name: "电浆炮"
+      title: ""
+      flavour: "“你开枪时不一定要喊‘砰砰’，不过那样做也没什么坏处。”\n——星际英雄莉萝"
   actions: 
     - "quick_shot"
   franchise_id: "lilo-and-stitch"

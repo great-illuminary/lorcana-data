@@ -15,5 +15,8 @@ enum class Language {
     De,
 
     @SerialName("it")
-    It
+    It,
+
+    @SerialName("zh")
+    Zh
 }

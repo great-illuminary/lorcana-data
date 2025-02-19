@@ -8,7 +8,8 @@ data class ClassificationHolder(
     val slug: Classification,
     val en: String,
     val fr: String? = null,
-    val de: String? = null
+    val de: String? = null,
+    val zh: String? = null
 )
 
 @Serializable

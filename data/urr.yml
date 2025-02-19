@@ -178,7 +178,7 @@
         it: "5/204 IT 4"
       rarity: common
   lore: 1
-  cost: 5
+  cost: 4
   inkwell: true
   attack: 3
   defence: 3
@@ -306,7 +306,7 @@
     - "dreamborn"
     - "hero"
     - "musketeer"
-  illustrator: "Jochem Van Gool"
+  illustrator: "Jochem van Gool"
   languages: 
     en: 
       name: "Donald Duck"
@@ -457,7 +457,7 @@
         de: "12/204 DE 4"
         it: "12/204 IT 4"
       rarity: rare
-  lore: 3
+  lore: 2
   cost: 4
   inkwell: false
   attack: 3
@@ -590,6 +590,7 @@
         fr: "34/P1 FR 1"
         de: "34/P1 DE 1"
         it: "34/P1 IT 1"
+        zh: ""
       rarity: organized_play
   lore: 1
   cost: 4
@@ -645,7 +646,7 @@
     - "hero"
     - "musketeer"
     - "captain"
-  illustrator: "Jochem Van Gool"
+  illustrator: "Jochem van Gool"
   languages: 
     en: 
       name: "Mickey Mouse"
@@ -1067,12 +1068,19 @@
         fr: "25/204 FR 4"
         de: "25/204 DE 4"
         it: "25/204 IT 4"
-      rarity: uncommon
+      rarity: common
+  lore: 1
   cost: 2
-  inkwell: false
+  inkwell: true
+  attack: 1
+  defence: 4
   color: amber
-  type: action
-  illustrator: "Cristian Romero"
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "villain"
+    - "sorcerer"
+  illustrator: "Angela Simpson"
   languages: 
     en: 
       name: "Ursula"
@@ -1103,7 +1111,7 @@
         de: "27/204 DE 4"
         it: "27/204 IT 4"
       rarity: common
-  cost: 2
+  cost: 1
   inkwell: true
   color: amber
   type: action
@@ -1184,7 +1192,7 @@
         fr: "29/204 FR 4"
         de: "29/204 DE 4"
         it: "29/204 IT 4"
-      rarity: rare
+      rarity: uncommon
   cost: 4
   inkwell: true
   color: amber
@@ -1327,10 +1335,11 @@
         de: "33/204 DE 4"
         it: "33/204 IT 4"
       rarity: common
+  lore: 0
   cost: 1
   inkwell: true
   move_cost: 2
-  defence: 4
+  defence: 6
   color: amber
   type: location
   illustrator: "Alex Shin"
@@ -1453,6 +1462,7 @@
     - "floodborn"
     - "hero"
     - "princess"
+    - "sorcerer"
   illustrator: "Malia Ewart"
   languages: 
     en: 
@@ -1496,7 +1506,7 @@
     - "dreamborn"
     - "hero"
     - "princess"
-  illustrator: "Angelina Ricardo"
+  illustrator: "Angelina \"Spikie\" Ricardo"
   languages: 
     en: 
       name: "Belle"
@@ -1577,6 +1587,7 @@
         fr: "4/D23 FR 1"
         de: "4/D23 DE 1"
         it: "4/D23 IT 1"
+        zh: ""
       rarity: d23
   lore: 1
   cost: 4
@@ -1662,7 +1673,7 @@
         fr: "41/204 FR 4"
         de: "41/204 DE 4"
         it: "41/204 IT 4"
-      rarity: uncommon
+      rarity: common
   lore: 2
   cost: 4
   inkwell: true
@@ -1798,6 +1809,7 @@
         fr: "40/P1 FR 1"
         de: "40/P1 DE 1"
         it: "40/P1 IT 1"
+        zh: ""
       rarity: special_events
   lore: 2
   cost: 6
@@ -2297,7 +2309,7 @@
         fr: "56/204 FR 4"
         de: "56/204 DE 4"
         it: "56/204 IT 4"
-      rarity: uncommon
+      rarity: common
   lore: 1
   cost: 6
   inkwell: true
@@ -2398,6 +2410,7 @@
         fr: "38/P1 FR 1"
         de: "38/P1 DE 1"
         it: "38/P1 IT 1"
+        zh: ""
       rarity: enchanted
   lore: 3
   cost: 7
@@ -2764,6 +2777,7 @@
         de: "67/204 DE 4"
         it: "67/204 IT 4"
       rarity: common
+  lore: 0
   cost: 1
   inkwell: true
   move_cost: 1
@@ -2809,7 +2823,9 @@
         fr: "35/P1 FR 1"
         de: "35/P1 DE 1"
         it: "35/P1 IT 1"
+        zh: ""
       rarity: organized_play
+  lore: 1
   cost: 3
   inkwell: false
   move_cost: 2
@@ -2848,6 +2864,7 @@
         de: "69/204 DE 4"
         it: "69/204 IT 4"
       rarity: rare
+  lore: 3
   cost: 5
   inkwell: true
   attack: 3
@@ -2895,6 +2912,7 @@
         de: "211/204 DE 4"
         it: "211/204 IT 4"
       rarity: enchanted
+  lore: 1
   cost: 3
   inkwell: false
   attack: 2
@@ -2933,6 +2951,7 @@
         de: "71/204 DE 4"
         it: "71/204 IT 4"
       rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 1
@@ -2971,6 +2990,7 @@
         de: "72/204 DE 4"
         it: "72/204 IT 4"
       rarity: common
+  lore: 2
   cost: 4
   inkwell: true
   attack: 3
@@ -3009,6 +3029,7 @@
         de: "73/204 DE 4"
         it: "73/204 IT 4"
       rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -3047,6 +3068,7 @@
         de: "74/204 DE 4"
         it: "74/204 IT 4"
       rarity: legendary
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -3086,6 +3108,7 @@
         de: "75/204 DE 4"
         it: "75/204 IT 4"
       rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -3124,6 +3147,7 @@
         de: "76/204 DE 4"
         it: "76/204 IT 4"
       rarity: rare
+  lore: 2
   cost: 3
   inkwell: true
   attack: 1
@@ -3163,6 +3187,7 @@
         de: "77/204 DE 4"
         it: "77/204 IT 4"
       rarity: common
+  lore: 2
   cost: 3
   inkwell: true
   attack: 1
@@ -3210,6 +3235,7 @@
         de: "212/204 DE 4"
         it: "212/204 IT 4"
       rarity: enchanted
+  lore: 2
   cost: 5
   inkwell: false
   attack: 3
@@ -3249,6 +3275,7 @@
         de: "79/204 DE 4"
         it: "79/204 IT 4"
       rarity: common
+  lore: 2
   cost: 3
   inkwell: false
   attack: 3
@@ -3256,9 +3283,9 @@
   color: emerald
   type: glimmer
   classifications: 
-    - "dreamborn"
+    - "storyborn"
     - "ally"
-  illustrator: "Yu Nguyen"
+  illustrator: "Yu Nguyễn"
   languages: 
     en: 
       name: "Megara"
@@ -3287,6 +3314,7 @@
         de: "80/204 DE 4"
         it: "80/204 IT 4"
       rarity: uncommon
+  lore: 2
   cost: 5
   inkwell: true
   attack: 4
@@ -3325,6 +3353,7 @@
         de: "81/204 DE 4"
         it: "81/204 IT 4"
       rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -3363,6 +3392,7 @@
         de: "82/204 DE 4"
         it: "82/204 IT 4"
       rarity: uncommon
+  lore: 2
   cost: 4
   inkwell: true
   attack: 3
@@ -3401,6 +3431,7 @@
         de: "83/204 DE 4"
         it: "83/204 IT 4"
       rarity: uncommon
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -3522,6 +3553,7 @@
         de: "86/204 DE 4"
         it: "86/204 IT 4"
       rarity: uncommon
+  lore: 2
   cost: 4
   inkwell: true
   attack: 1
@@ -3561,6 +3593,7 @@
         de: "87/204 DE 4"
         it: "87/204 IT 4"
       rarity: super_rare
+  lore: 3
   cost: 9
   inkwell: true
   attack: 6
@@ -3600,6 +3633,7 @@
         de: "88/204 DE 4"
         it: "88/204 IT 4"
       rarity: rare
+  lore: 2
   cost: 4
   inkwell: false
   attack: 3
@@ -3639,6 +3673,7 @@
         de: "89/204 DE 4"
         it: "89/204 IT 4"
       rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 2
@@ -3677,6 +3712,7 @@
         de: "90/204 DE 4"
         it: "90/204 IT 4"
       rarity: rare
+  lore: 1
   cost: 4
   inkwell: true
   attack: 2
@@ -3715,6 +3751,7 @@
         de: "91/204 DE 4"
         it: "91/204 IT 4"
       rarity: common
+  lore: 1
   cost: 5
   inkwell: true
   attack: 4
@@ -3981,6 +4018,7 @@
         fr: "36/P1 FR 1"
         de: "36/P1 DE 1"
         it: "36/P1 IT 1"
+        zh: ""
       rarity: organized_play
   cost: 2
   inkwell: false
@@ -4019,7 +4057,7 @@
   inkwell: true
   color: emerald
   type: item
-  illustrator: "Andrew Pena"
+  illustrator: "Andrew Peña"
   languages: 
     en: 
       name: "Signed Contract"
@@ -4081,6 +4119,7 @@
         de: "101/204 DE 4"
         it: "101/204 IT 4"
       rarity: common
+  lore: 0
   cost: 1
   inkwell: true
   move_cost: 1
@@ -4116,6 +4155,7 @@
         de: "102/204 DE 4"
         it: "102/204 IT 4"
       rarity: rare
+  lore: 1
   cost: 4
   inkwell: true
   move_cost: 2
@@ -4151,6 +4191,7 @@
         de: "103/204 DE 4"
         it: "103/204 IT 4"
       rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -4190,6 +4231,7 @@
         de: "104/204 DE 4"
         it: "104/204 IT 4"
       rarity: common
+  lore: 1
   cost: 4
   inkwell: true
   attack: 5
@@ -4229,6 +4271,7 @@
         de: "105/204 DE 4"
         it: "105/204 IT 4"
       rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 0
@@ -4318,6 +4361,7 @@
         de: "214/204 DE 4"
         it: "214/204 IT 4"
       rarity: enchanted
+  lore: 1
   cost: 4
   inkwell: true
   attack: 2
@@ -4356,6 +4400,7 @@
         de: "108/204 DE 4"
         it: "108/204 IT 4"
       rarity: common
+  lore: 1
   cost: 3
   inkwell: false
   attack: 3
@@ -4395,6 +4440,7 @@
         de: "109/204 DE 4"
         it: "109/204 IT 4"
       rarity: uncommon
+  lore: 0
   cost: 5
   inkwell: false
   attack: 7
@@ -4402,7 +4448,7 @@
   color: ruby
   type: glimmer
   classifications: 
-    - "dreamborn"
+    - "storyborn"
     - "hero"
     - "prince"
   illustrator: "Diogo Saito"
@@ -4434,6 +4480,7 @@
         de: "110/204 DE 4"
         it: "110/204 IT 4"
       rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 3
@@ -4472,6 +4519,7 @@
         de: "111/204 DE 4"
         it: "111/204 IT 4"
       rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 2
@@ -4510,6 +4558,7 @@
         de: "112/204 DE 4"
         it: "112/204 IT 4"
       rarity: uncommon
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -4548,6 +4597,7 @@
         de: "113/204 DE 4"
         it: "113/204 IT 4"
       rarity: rare
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -4595,6 +4645,7 @@
         de: "224/204 DE 4"
         it: "224/204 IT 4"
       rarity: legendary
+  lore: 2
   cost: 6
   inkwell: true
   attack: 2
@@ -4643,6 +4694,7 @@
         de: "37/P1 DE 4"
         it: "37/P1 IT 4"
       rarity: organized_play
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -4682,6 +4734,7 @@
         de: "116/204 DE 4"
         it: "116/204 IT 4"
       rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 2
@@ -4721,6 +4774,7 @@
         de: "117/204 DE 4"
         it: "117/204 IT 4"
       rarity: rare
+  lore: 1
   cost: 3
   inkwell: false
   attack: 2
@@ -4760,6 +4814,7 @@
         de: "118/204 DE 4"
         it: "118/204 IT 4"
       rarity: uncommon
+  lore: 2
   cost: 6
   inkwell: true
   attack: 7
@@ -4798,6 +4853,7 @@
         de: "119/204 DE 4"
         it: "119/204 IT 4"
       rarity: super_rare
+  lore: 1
   cost: 4
   inkwell: true
   attack: 4
@@ -4836,6 +4892,7 @@
         de: "120/204 DE 4"
         it: "120/204 IT 4"
       rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 3
@@ -4916,6 +4973,7 @@
         de: "122/204 DE 4"
         it: "122/204 IT 4"
       rarity: common
+  lore: 2
   cost: 4
   inkwell: true
   attack: 3
@@ -4955,6 +5013,7 @@
         de: "123/204 DE 4"
         it: "123/204 IT 4"
       rarity: uncommon
+  lore: 1
   cost: 3
   inkwell: false
   attack: 1
@@ -4995,6 +5054,7 @@
         de: "124/204 DE 4"
         it: "124/204 IT 4"
       rarity: rare
+  lore: 2
   cost: 3
   inkwell: true
   attack: 1
@@ -5044,6 +5104,7 @@
         de: "215/204 DE 4"
         it: "215/204 IT 4"
       rarity: enchanted
+  lore: 3
   cost: 8
   inkwell: false
   attack: 5
@@ -5055,7 +5116,7 @@
     - "hero"
     - "deity"
     - "dragon"
-  illustrator: "João Moura"
+  illustrator: "Grace Tran"
   languages: 
     en: 
       name: "Sisu"
@@ -5084,6 +5145,7 @@
         de: "126/204 DE 4"
         it: "126/204 IT 4"
       rarity: common
+  lore: 0
   cost: 4
   inkwell: false
   attack: 3
@@ -5122,6 +5184,7 @@
         de: "127/204 DE 4"
         it: "127/204 IT 4"
       rarity: rare
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -5234,7 +5297,7 @@
   inkwell: true
   color: ruby
   type: action
-  illustrator: "R. La Barbera / L. Giammichele"
+  illustrator: "R. la Barbera / L. Giammichele"
   languages: 
     en: 
       name: "Brawl"
@@ -5404,9 +5467,10 @@
         de: "216/204 DE 4"
         it: "216/204 IT 4"
       rarity: enchanted
+  lore: 0
   cost: 2
   inkwell: true
-  move_cost: 1
+  move_cost: 2
   defence: 9
   color: ruby
   type: location
@@ -5439,9 +5503,10 @@
         de: "136/204 DE 4"
         it: "136/204 IT 4"
       rarity: common
+  lore: 0
   cost: 1
   inkwell: true
-  move_cost: 2
+  move_cost: 1
   defence: 5
   color: ruby
   type: location
@@ -5474,6 +5539,7 @@
         de: "137/204 DE 4"
         it: "137/204 IT 4"
       rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -5481,7 +5547,7 @@
   color: sapphire
   type: glimmer
   classifications: 
-    - "dreamborn"
+    - "storyborn"
     - "hero"
     - "queen"
   illustrator: "Maria Dresden"
@@ -5608,6 +5674,7 @@
         de: "140/204 DE 4"
         it: "140/204 IT 4"
       rarity: super_rare
+  lore: 2
   cost: 4
   inkwell: true
   attack: 3
@@ -5647,6 +5714,7 @@
         de: "141/204 DE 4"
         it: "141/204 IT 4"
       rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -5686,6 +5754,7 @@
         de: "142/204 DE 4"
         it: "142/204 IT 4"
       rarity: rare
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -5724,6 +5793,7 @@
         de: "143/204 DE 4"
         it: "143/204 IT 4"
       rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 1
@@ -5762,6 +5832,7 @@
         de: "144/204 DE 4"
         it: "144/204 IT 4"
       rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 2
@@ -5800,6 +5871,7 @@
         de: "145/204 DE 4"
         it: "145/204 IT 4"
       rarity: uncommon
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -5839,6 +5911,7 @@
         de: "146/204 DE 4"
         it: "146/204 IT 4"
       rarity: common
+  lore: 2
   cost: 3
   inkwell: true
   attack: 3
@@ -5878,6 +5951,7 @@
         de: "147/204 DE 4"
         it: "147/204 IT 4"
       rarity: uncommon
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -5917,6 +5991,7 @@
         de: "148/204 DE 4"
         it: "148/204 IT 4"
       rarity: rare
+  lore: 3
   cost: 8
   inkwell: true
   attack: 8
@@ -5958,6 +6033,7 @@
         de: "149/204 DE 4"
         it: "149/204 IT 4"
       rarity: uncommon
+  lore: 2
   cost: 3
   inkwell: true
   attack: 1
@@ -5996,6 +6072,7 @@
         de: "150/204 DE 4"
         it: "150/204 IT 4"
       rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 1
@@ -6034,6 +6111,7 @@
         de: "151/204 DE 4"
         it: "151/204 IT 4"
       rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -6072,6 +6150,7 @@
         de: "152/204 DE 4"
         it: "152/204 IT 4"
       rarity: rare
+  lore: 2
   cost: 3
   inkwell: true
   attack: 1
@@ -6111,6 +6190,7 @@
         de: "153/204 DE 4"
         it: "153/204 IT 4"
       rarity: rare
+  lore: 3
   cost: 5
   inkwell: true
   attack: 3
@@ -6150,6 +6230,7 @@
         de: "154/204 DE 4"
         it: "154/204 IT 4"
       rarity: uncommon
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -6188,6 +6269,7 @@
         de: "155/204 DE 4"
         it: "155/204 IT 4"
       rarity: uncommon
+  lore: 2
   cost: 6
   inkwell: true
   attack: 6
@@ -6237,6 +6319,7 @@
         de: "218/204 DE 4"
         it: "218/204 IT 4"
       rarity: enchanted
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -6277,6 +6360,7 @@
         de: "157/204 DE 4"
         it: "157/204 IT 4"
       rarity: common
+  lore: 2
   cost: 4
   inkwell: true
   attack: 3
@@ -6315,6 +6399,7 @@
         de: "158/204 DE 4"
         it: "158/204 IT 4"
       rarity: legendary
+  lore: 3
   cost: 9
   inkwell: true
   attack: 7
@@ -6353,6 +6438,7 @@
         de: "159/204 DE 4"
         it: "159/204 IT 4"
       rarity: rare
+  lore: 1
   cost: 3
   inkwell: false
   attack: 3
@@ -6391,6 +6477,7 @@
         de: "160/204 DE 4"
         it: "160/204 IT 4"
       rarity: uncommon
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -6429,6 +6516,7 @@
         de: "161/204 DE 4"
         it: "161/204 IT 4"
       rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -6675,7 +6763,7 @@
   inkwell: false
   color: sapphire
   type: item
-  illustrator: "Gregor Krysinski"
+  illustrator: "Grzegorz Krysiński"
   languages: 
     en: 
       name: "Ice Block"
@@ -6713,6 +6801,7 @@
         de: "219/204 DE 4"
         it: "219/204 IT 4"
       rarity: enchanted
+  lore: 0
   cost: 2
   inkwell: true
   move_cost: 2
@@ -6748,6 +6837,7 @@
         de: "170/204 DE 4"
         it: "170/204 IT 4"
       rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   move_cost: 1
@@ -6783,6 +6873,7 @@
         de: "171/204 DE 4"
         it: "171/204 IT 4"
       rarity: uncommon
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -6821,6 +6912,7 @@
         de: "172/204 DE 4"
         it: "172/204 IT 4"
       rarity: common
+  lore: 1
   cost: 1
   inkwell: true
   attack: 1
@@ -6859,10 +6951,11 @@
         de: "173/204 DE 4"
         it: "173/204 IT 4"
       rarity: common
+  lore: 1
   cost: 2
   inkwell: true
-  attack: 3
-  defence: 3
+  attack: 4
+  defence: 1
   color: steel
   type: glimmer
   classifications: 
@@ -6897,6 +6990,7 @@
         de: "174/204 DE 4"
         it: "174/204 IT 4"
       rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -6987,6 +7081,7 @@
         de: "176/204 DE 4"
         it: "176/204 IT 4"
       rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -7026,6 +7121,7 @@
         de: "177/204 DE 4"
         it: "177/204 IT 4"
       rarity: uncommon
+  lore: 1
   cost: 3
   inkwell: true
   attack: 0
@@ -7064,6 +7160,7 @@
         de: "178/204 DE 4"
         it: "178/204 IT 4"
       rarity: common
+  lore: 1
   cost: 5
   inkwell: true
   attack: 4
@@ -7102,6 +7199,7 @@
         de: "179/204 DE 4"
         it: "179/204 IT 4"
       rarity: legendary
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -7142,6 +7240,7 @@
         de: "180/204 DE 4"
         it: "180/204 IT 4"
       rarity: rare
+  lore: 2
   cost: 6
   inkwell: true
   attack: 6
@@ -7181,6 +7280,7 @@
         de: "181/204 DE 4"
         it: "181/204 IT 4"
       rarity: rare
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -7219,6 +7319,7 @@
         de: "182/204 DE 4"
         it: "182/204 IT 4"
       rarity: uncommon
+  lore: 2
   cost: 5
   inkwell: true
   attack: 5
@@ -7258,6 +7359,7 @@
         de: "183/204 DE 4"
         it: "183/204 IT 4"
       rarity: uncommon
+  lore: 1
   cost: 3
   inkwell: true
   attack: 3
@@ -7296,6 +7398,7 @@
         de: "184/204 DE 4"
         it: "184/204 IT 4"
       rarity: common
+  lore: 1
   cost: 3
   inkwell: true
   attack: 2
@@ -7335,6 +7438,7 @@
         de: "185/204 DE 4"
         it: "185/204 IT 4"
       rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 2
@@ -7373,6 +7477,7 @@
         de: "186/204 DE 4"
         it: "186/204 IT 4"
       rarity: super_rare
+  lore: 2
   cost: 6
   inkwell: true
   attack: 2
@@ -7420,6 +7525,7 @@
         de: "225/204 DE 4"
         it: "225/204 IT 4"
       rarity: rare
+  lore: 2
   cost: 5
   inkwell: true
   attack: 3
@@ -7459,6 +7565,7 @@
         de: "188/204 DE 4"
         it: "188/204 IT 4"
       rarity: common
+  lore: 1
   cost: 2
   inkwell: true
   attack: 1
@@ -7468,7 +7575,7 @@
   classifications: 
     - "storyborn"
     - "hero"
-  illustrator: "Cristian Romero"
+  illustrator: "Mariana Moreno"
   languages: 
     en: 
       name: "Mickey Mouse"
@@ -7497,6 +7604,7 @@
         de: "189/204 DE 4"
         it: "189/204 IT 4"
       rarity: uncommon
+  lore: 1
   cost: 4
   inkwell: true
   attack: 3
@@ -7536,6 +7644,7 @@
         de: "190/204 DE 4"
         it: "190/204 IT 4"
       rarity: rare
+  lore: 2
   cost: 4
   inkwell: true
   attack: 2
@@ -7583,6 +7692,7 @@
         de: "221/204 DE 4"
         it: "221/204 IT 4"
       rarity: enchanted
+  lore: 3
   cost: 5
   inkwell: false
   attack: 3
@@ -7621,6 +7731,7 @@
         de: "192/204 DE 4"
         it: "192/204 IT 4"
       rarity: rare
+  lore: 2
   cost: 4
   inkwell: true
   attack: 3
@@ -7703,6 +7814,7 @@
         de: "194/204 DE 4"
         it: "194/204 IT 4"
       rarity: common
+  lore: 1
   cost: 4
   inkwell: true
   attack: 2
@@ -8020,6 +8132,7 @@
         de: "222/204 DE 4"
         it: "222/204 IT 4"
       rarity: enchanted
+  lore: 0
   cost: 4
   inkwell: true
   move_cost: 2
@@ -8055,6 +8168,7 @@
         de: "204/204 DE 4"
         it: "204/204 IT 4"
       rarity: common
+  lore: 0
   cost: 2
   inkwell: true
   move_cost: 1

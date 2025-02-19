@@ -7,7 +7,7 @@
         fr: "1/204 FR 3"
         de: "1/204 DE 3"
         it: "1/204 IT 3"
-      rarity: uncommon
+      rarity: rare
   lore: 1
   cost: 3
   inkwell: false
@@ -88,7 +88,7 @@
         fr: "3/204 FR 3"
         de: "3/204 DE 3"
         it: "3/204 IT 3"
-      rarity: rare
+      rarity: super_rare
     - set: iti
       id: 205
       dreamborn: "003-205"
@@ -109,7 +109,7 @@
   classifications: 
     - "storyborn"
     - "villain"
-  illustrator: "Evana Kisa / Jochem Van Gool"
+  illustrator: "Evana Kisa / Jochem van Gool"
   languages: 
     en: 
       name: "Chernabog"
@@ -1084,7 +1084,7 @@
   inkwell: true
   color: amber
   type: action
-  illustrator: "Brian Weisz"
+  illustrator: "Wouter Bruneel"
   languages: 
     en: 
       name: "Quick Patch"
@@ -1404,7 +1404,7 @@
         fr: "36/204 FR 3"
         de: "36/204 DE 3"
         it: "36/204 IT 3"
-      rarity: super_rare
+      rarity: uncommon
   lore: 1
   cost: 1
   inkwell: true
@@ -1890,7 +1890,7 @@
   cost: 2
   inkwell: true
   attack: 2
-  defence: 1
+  defence: 3
   color: amethyst
   type: glimmer
   classifications: 
@@ -1926,6 +1926,7 @@
         de: "49/204 DE 3"
         it: "49/204 IT 3"
       rarity: super_rare
+  lore: 0
   cost: 7
   inkwell: false
   attack: 4
@@ -2066,7 +2067,7 @@
     - "dreamborn"
     - "ally"
     - "sorcerer"
-  illustrator: "Grace Tran"
+  illustrator: "Cristian Romero"
   languages: 
     en: 
       name: "Mama Odie"
@@ -2094,7 +2095,7 @@
         fr: "53/204 FR 3"
         de: "53/204 DE 3"
         it: "53/204 IT 3"
-      rarity: uncommon
+      rarity: common
   lore: 2
   cost: 2
   inkwell: true
@@ -2174,6 +2175,7 @@
         de: "55/204 DE 3"
         it: "55/204 IT 3"
       rarity: rare
+  lore: 0
   cost: 5
   inkwell: true
   attack: 4
@@ -2589,7 +2591,7 @@
   defence: 6
   color: amethyst
   type: location
-  illustrator: "Dylan Bonner"
+  illustrator: "Jimmy Lo"
   languages: 
     en: 
       name: "Forbidden Mountain"
@@ -2654,6 +2656,7 @@
         de: "68/204 DE 3"
         it: "68/204 IT 3"
       rarity: uncommon
+  lore: 0
   cost: 3
   inkwell: true
   move_cost: 2
@@ -3099,7 +3102,7 @@
   classifications: 
     - "dreamborn"
     - "hero"
-  illustrator: "Giuseppe Di Maio"
+  illustrator: "Giuseppe di Maio"
   languages: 
     en: 
       name: "Milo Thatch"
@@ -3296,7 +3299,7 @@
         fr: "84/204 FR 3"
         de: "84/204 DE 3"
         it: "84/204 IT 3"
-      rarity: common
+      rarity: rare
   lore: 4
   cost: 6
   inkwell: true
@@ -3347,7 +3350,7 @@
     - "storyborn"
     - "ally"
     - "hyena"
-  illustrator: "Jochem Van Gool"
+  illustrator: "Jochem van Gool"
   languages: 
     en: 
       name: "Shenzi"
@@ -4135,7 +4138,7 @@
         it: "104/204 IT 3"
       rarity: common
   lore: 1
-  cost: 4
+  cost: 5
   inkwell: true
   attack: 6
   defence: 5
@@ -4225,6 +4228,7 @@
         de: "106/204 DE 3"
         it: "106/204 IT 3"
       rarity: common
+  lore: 0
   cost: 2
   inkwell: false
   attack: 3
@@ -4311,7 +4315,7 @@
   type: glimmer
   classifications: 
     - "storyborn"
-  illustrator: "Jochem Van Gool"
+  illustrator: "Jochem van Gool"
   languages: 
     en: 
       name: "Hydra"
@@ -4496,6 +4500,7 @@
         de: "113/204 DE 3"
         it: "113/204 IT 3"
       rarity: uncommon
+  lore: 0
   cost: 3
   inkwell: false
   attack: 5
@@ -5345,6 +5350,7 @@
         de: "27/P1 DE 3"
         it: "27/P1 IT 3"
       rarity: organized_play
+  lore: 0
   cost: 1
   inkwell: false
   move_cost: 2
@@ -5758,7 +5764,7 @@
   color: sapphire
   type: glimmer
   classifications: 
-    - "storyborn"
+    - "dreamborn"
     - "ally"
   illustrator: "Federico M. Cugliari"
   languages: 
@@ -6323,7 +6329,7 @@
   inkwell: true
   color: sapphire
   type: action
-  illustrator: "Giuseppe Di Maio"
+  illustrator: "Giuseppe di Maio"
   languages: 
     en: 
       name: "Distract"
@@ -6639,6 +6645,7 @@
         it: "219/204 IT 3"
       rarity: enchanted
       illustrator: "Pablo J. Rivera"
+  lore: 0
   cost: 1
   inkwell: true
   move_cost: 2
@@ -6835,7 +6842,7 @@
   classifications: 
     - "dreamborn"
     - "villain"
-  illustrator: "Giuseppe Di Maio"
+  illustrator: "Giuseppe di Maio"
   languages: 
     en: 
       name: "Gustav the Giant"
@@ -7770,7 +7777,7 @@
   cost: 2
   inkwell: true
   color: steel
-  type: item
+  type: action
   illustrator: "Heidi Neunhoffer"
   languages: 
     en: 
@@ -7836,7 +7843,7 @@
   cost: 3
   inkwell: true
   color: steel
-  type: glimmer
+  type: action
   illustrator: "Nicola Saviori"
   languages: 
     en: 
@@ -7965,6 +7972,7 @@
         de: "202/204 DE 3"
         it: "202/204 IT 3"
       rarity: rare
+  lore: 0
   cost: 2
   inkwell: true
   move_cost: 1

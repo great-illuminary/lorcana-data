@@ -294,7 +294,7 @@
   classifications: 
     - "dreamborn"
     - "villain"
-  illustrator: "Jochem Van Gool"
+  illustrator: "Jochem van Gool"
   languages: 
     en: 
       name: "Gaston"
@@ -1051,7 +1051,7 @@
     - "storyborn"
     - "villain"
     - "queen"
-  illustrator: "Eva Windermann"
+  illustrator: "Eva Widermann"
   languages: 
     en: 
       name: "The Queen"
@@ -1826,7 +1826,7 @@
         it: "48/204 IT 2"
       rarity: rare
   lore: 2
-  cost: 3
+  cost: 5
   inkwell: true
   attack: 2
   defence: 5
@@ -1836,7 +1836,7 @@
     - "floodborn"
     - "villain"
     - "sorcerer"
-  illustrator: "Mane Kandalyan / Pix Smith"
+  illustrator: "Mané Kandalyan / Pix Smith"
   languages: 
     en: 
       name: "Madam Mim"
@@ -1921,7 +1921,7 @@
     - "storyborn"
     - "mentor"
     - "sorcerer"
-  illustrator: ""
+  illustrator: "Valentina Graziuso"
   languages: 
     en: 
       name: "Merlin"
@@ -2182,7 +2182,7 @@
   cost: 5
   inkwell: false
   attack: 3
-  defence: 13
+  defence: 3
   color: amethyst
   type: glimmer
   classifications: 
@@ -2769,7 +2769,7 @@
         it: "15/P1 IT 2"
       rarity: organized_play
   lore: 1
-  cost: 2
+  cost: 3
   inkwell: true
   attack: 1
   defence: 1
@@ -3523,6 +3523,7 @@
         de: "93/204 DE 2"
         it: "93/204 IT 2"
       rarity: super_rare
+  lore: 0
   cost: 3
   inkwell: false
   attack: 2
@@ -3607,7 +3608,7 @@
     - "storyborn"
     - "villain"
     - "queen"
-  illustrator: "Mane Kandalyan / Luca Pinelli"
+  illustrator: "Mané Kandalyan / Luca Pinelli"
   languages: 
     en: 
       name: "Virana"
@@ -3729,7 +3730,7 @@
   inkwell: true
   color: emerald
   type: action
-  illustrator: "Mane Kandalyan"
+  illustrator: "Mané Kandalyan"
   languages: 
     en: 
       name: "Improvise"
@@ -3859,7 +3860,7 @@
   classifications: 
     - "storyborn"
     - "ally"
-  illustrator: "R. La Barbera / L. Giammichele"
+  illustrator: "R. la Barbera / L. Giammichele"
   languages: 
     en: 
       name: "Baloo"
@@ -3997,6 +3998,7 @@
         de: "107/204 DE 2"
         it: "107/204 IT 2"
       rarity: common
+  lore: 0
   cost: 1
   inkwell: true
   attack: 3
@@ -4812,6 +4814,7 @@
         de: "128/204 DE 2"
         it: "128/204 IT 2"
       rarity: rare
+  lore: 0
   cost: 4
   inkwell: false
   attack: 4
@@ -5245,7 +5248,7 @@
         it: "140/204 IT 2"
       rarity: common
   lore: 2
-  cost: 3
+  cost: 4
   inkwell: true
   attack: 3
   defence: 4
@@ -5478,7 +5481,7 @@
   type: glimmer
   classifications: 
     - "storyborn"
-  illustrator: "Rosa La Barbera / Leonardo Giammichele"
+  illustrator: "R. la Barbera / L. Giammichele"
   languages: 
     en: 
       name: "Duke Weaselton"
@@ -5673,7 +5676,7 @@
     - "storyborn"
     - "hero"
     - "princess"
-  illustrator: "R. La Barbera / L. Giammichele"
+  illustrator: "R. la Barbera / L. Giammichele"
   languages: 
     en: 
       name: "Jasmine"
@@ -5818,12 +5821,14 @@
   lore: 2
   cost: 2
   inkwell: true
+  attack: 1
+  defence: 2
   color: sapphire
   type: glimmer
   classifications: 
     - "storyborn"
     - "ally"
-  illustrator: ""
+  illustrator: "Kristina Chouri"
   languages: 
     en: 
       name: "Noi"
@@ -6127,7 +6132,7 @@
   type: action
   classifications: 
     - "song"
-  illustrator: "Jochem Van Gool"
+  illustrator: "Jochem van Gool"
   languages: 
     en: 
       name: "Four Dozen Eggs"
@@ -6189,7 +6194,7 @@
   inkwell: true
   color: sapphire
   type: action
-  illustrator: "Mane Kandalyan / Jochem Van Gool"
+  illustrator: "Mané Kandalyan / Jochem van Gool"
   languages: 
     en: 
       name: "Nothing to Hide"
@@ -6532,7 +6537,7 @@
       rarity: rare
   lore: 2
   cost: 4
-  inkwell: true
+  inkwell: false
   attack: 2
   defence: 4
   color: steel
@@ -6622,6 +6627,7 @@
         fr: "42/P1 FR 2"
         de: "42/P1 DE 2"
         it: "42/P1 IT 2"
+        zh: ""
       rarity: unreleased
       illustrator: "Alice Pisoni"
     - set: c1
@@ -7004,16 +7010,16 @@
   languages: 
     en: 
       name: "Lawrence"
-      title: "Jealouse Manservant"
-      flavour: ""
+      title: "Jealous Manservant"
+      flavour: "In this new world, the crown could finally be his."
     fr: 
       name: "Lawrence"
-      title: ""
-      flavour: ""
+      title: "Valet jaloux"
+      flavour: "Dans ce nouveau monde, la couronne pourrait enfin être à lui."
     de: 
       name: "Lawrence"
-      title: ""
-      flavour: ""
+      title: "Neidischer Hausdiener"
+      flavour: "In dieser neuen Welt könnte die Krone endlich ihm gehören."
   actions: 
     - "payback"
   franchise_id: "unknown"
@@ -7031,7 +7037,7 @@
   cost: 5
   inkwell: true
   attack: 3
-  defence: 5
+  defence: 6
   color: steel
   type: glimmer
   classifications: 
@@ -7306,7 +7312,7 @@
         fr: "194/204 FR 2"
         de: "194/204 DE 2"
         it: "194/204 IT 2"
-      rarity: common
+      rarity: rare
   lore: 2
   cost: 2
   inkwell: true
@@ -7499,7 +7505,7 @@
   type: action
   classifications: 
     - "song"
-  illustrator: "R. La Barbera / L. Giammichele"
+  illustrator: "R. la Barbera / L. Giammichele"
   languages: 
     en: 
       name: "Let the Storm Rage On"
