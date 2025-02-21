@@ -47,7 +47,7 @@ fun main() {
 
         var rbCards: RBCards? = null
 
-        listOf("en", "fr", "it", "de", "zh").map { lang ->
+        listOf("en", "fr", "it", "de", "zh", "ja").map { lang ->
             val file = VirtualFile(rootProject, "data_existing/catalog/$lang/full.json")
             val content = file.readString()
             val json = json.decodeFromString<RBMainJson>(content)
@@ -150,7 +150,8 @@ fun main() {
                         Triple("fr", rb.fr, "webp"),
                         Triple("en", rb.en, "webp"),
                         Triple("de", rb.de, "webp"),
-                        Triple("zh", rb.zh, "png")
+                        Triple("zh", rb.zh, "png"),
+                        Triple("ja", rb.ja, "png")
                     ).forEach { (lang, holder, extension) ->
                         val folderName = "images/${variant.set.name.lowercase()}/$lang"
                         val folder = VirtualFile(rootProject, folderName)
@@ -222,11 +223,8 @@ fun main() {
                         fr = copyTranslation(card.languages.fr, "fr") { it.fr },
                         it = copyTranslation(card.languages.it, "it") { it.it },
                         de = copyTranslation(card.languages.de, "de") { it.de },
-                        zh = copyTranslation(card.languages.zh, "zh") {
-                            (it.zh ?: "").ifBlank {
-                                it.en.replace(" EN ", " ZH ")
-                            }
-                        }
+                        zh = copyTranslation(card.languages.zh, "zh") { it.zh ?: "" },
+                        ja = copyTranslation(card.languages.ja, "ja") { it.ja ?: "" }
                     ),
                     variants = card.variants.map { variant ->
                         val subRavensBurgerCard = rbMap[variant.ravensburger.en]?.let { it["en"] }
@@ -238,6 +236,14 @@ fun main() {
                                     // for now, since the sets are not matching with worldwide...
                                     if (variant.ravensburger.en.contains(" EN 1")) {
                                         variant.ravensburger.en.replace(" EN ", " ZH ")
+                                    } else {
+                                        null
+                                    }
+                                },
+                                ja = (variant.ravensburger.ja ?: "").ifBlank {
+                                    // for now, since the sets are not matching with worldwide...
+                                    if (variant.ravensburger.en.contains(" EN 1")) {
+                                        variant.ravensburger.en.replace(" EN ", " JA ")
                                     } else {
                                         null
                                     }

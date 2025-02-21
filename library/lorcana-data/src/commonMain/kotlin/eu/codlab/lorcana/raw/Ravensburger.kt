@@ -9,4 +9,5 @@ data class Ravensburger(
     val de: String,
     val it: String,
     val zh: String? = "",
+    val ja: String? = "",
 )

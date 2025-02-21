@@ -9,4 +9,5 @@ data class CardTranslations(
     val it: CardTranslation? = null,
     val de: CardTranslation? = null,
     val zh: CardTranslation? = null,
+    val ja: CardTranslation? = null,
 )
