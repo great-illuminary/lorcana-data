@@ -20,6 +20,7 @@ data class RBCards(
 ) {
     val cards = characters + locations + items + actions + all
 
+    @Suppress("ReturnCount")
     fun type(card: RBCard): CardType {
         if (null != characters.find { it.cardIdentifier == card.cardIdentifier }) return CardType.Glimmer
         if (null != locations.find { it.cardIdentifier == card.cardIdentifier }) return CardType.Location
@@ -47,15 +48,18 @@ data class RBCard(
     private val rarity: String,
     val willpower: Int? = null,
     val strength: Int? = null,
-    val quest_value: Int? = null,
-    val ink_convertible: Boolean,
-    val move_cost: Int? = null,
+    @SerialName("quest_value")
+    val questValue: Int? = null,
+    @SerialName("ink_convertible")
+    val inkConvertible: Boolean,
+    @SerialName("move_cost")
+    val moveCost: Int? = null,
     val author: String,
     @SerialName("subtypes")
-    private val _subtypes: List<String>
+    private val internalSubtypes: List<String>
 ) {
     val subtypes: List<String>
-        get() = _subtypes.map {
+        get() = internalSubtypes.map {
             val known = Classification.entries.map {
                 it.slug to it
             }.toMap()

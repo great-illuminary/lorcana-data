@@ -3,7 +3,6 @@ import eu.codlab.http.createClient
 import eu.codlab.lorcana.cards.CardTranslation
 import eu.codlab.lorcana.cards.CardTranslations
 import eu.codlab.lorcana.cards.CardType
-import eu.codlab.lorcana.cards.InkColor
 import eu.codlab.lorcana.cards.VariantRarity
 import eu.codlab.lorcana.raw.Ravensburger
 import eu.codlab.lorcana.raw.RawVirtualCard
@@ -38,6 +37,13 @@ val json = Json {
  * And remove the various "if (static) then" -> to make sure we have nothing which is set specific
  * or if those exists, they can be described properly and not in code
  */
+@Suppress(
+    "LongMethod",
+    "ComplexMethod",
+    "TooGenericExceptionCaught",
+    "SwallowedException",
+    "MagicNumber"
+)
 fun main() {
     val client = createClient { }
     val rootProject = VirtualFile(VirtualFile.Root, "../../")
@@ -92,7 +98,7 @@ fun main() {
                         val folder = VirtualFile(rootProject, folderName)
                         folder.mkdirs()
 
-                        val fileName = "${variant.id}.${extension}"
+                        val fileName = "${variant.id}.$extension"
                         val file = VirtualFile(folder, fileName)
 
                         try {
@@ -145,11 +151,11 @@ fun main() {
 
                 card.copy(
                     cost = ravensBurgerCard.inkCost,
-                    inkwell = ravensBurgerCard.ink_convertible,
-                    lore = ravensBurgerCard.quest_value,
+                    inkwell = ravensBurgerCard.inkConvertible,
+                    lore = ravensBurgerCard.questValue,
                     attack = ravensBurgerCard.strength,
                     defence = ravensBurgerCard.willpower,
-                    moveCost = ravensBurgerCard.move_cost,
+                    moveCost = ravensBurgerCard.moveCost,
                     illustrator = ravensBurgerCard.author,
                     type = rbCards!!.type(ravensBurgerCard),
                     classifications = ravensBurgerCard.subtypes,
@@ -222,7 +228,6 @@ suspend fun write(root: VirtualFile, fileName: String, encode: () -> String) {
     file.write(content.encodeToByteArray())
 }
 
-
 suspend fun prepareEmpty(
     rootProject: VirtualFile,
     set: String,
@@ -238,25 +243,8 @@ suspend fun prepareEmpty(
     }
 
     val list = mutableListOf<RawVirtualCard>()
+    @Suppress("ForEachOnRange", "MagicNumber")
     (1..204).forEach { index ->
-        val color = if (index < 26) {
-            InkColor.Amber
-        } else if (index == 26) {
-            InkColor.Emerald
-        } else {
-            // -1 because of stitch
-            val calculated = (index - 1 - 1) / (204 / 6)
-            when (calculated) {
-                0 -> InkColor.Amber
-                1 -> InkColor.Amethyst
-                2 -> InkColor.Emerald
-                3 -> InkColor.Ruby
-                4 -> InkColor.Sapphire
-                5 -> InkColor.Steel
-                else -> throw IllegalStateException("Invalid value ${index - 1} -> $calculated")
-            }
-        }
-
         list.add(
             RawVirtualCard(
                 variants = listOf(

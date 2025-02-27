@@ -51,7 +51,7 @@ class TestLoadingCards {
             "rotf" to 204
         ).forEach { set ->
             val (file, count) = set
-            val readFile = Res.readBytes("files/${file}.yml.txt")
+            val readFile = Res.readBytes("files/$file.yml.txt")
             val content = io.ktor.utils.io.core.String(readFile)
             val cards: List<RawVirtualCard> = Provider.yaml.decodeFromString(
                 ListSerializer(
