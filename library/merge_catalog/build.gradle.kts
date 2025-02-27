@@ -10,7 +10,7 @@ group = "com.github.codlab"
 version = "1.0"
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("MergeKt")
 }
 
 dependencies {

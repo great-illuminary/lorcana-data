@@ -20,6 +20,15 @@ import net.mamoe.yamlkt.Yaml
 import net.mamoe.yamlkt.YamlBuilder
 import java.io.File
 
+val serializer = ListSerializer(RawVirtualCard.serializer())
+val yml = Yaml {
+    // nothing
+    stringSerialization = YamlBuilder.StringSerialization.DOUBLE_QUOTATION
+}
+val json = Json {
+    ignoreUnknownKeys = true
+}
+
 /**
  * This script is a WIP and uncleaned version which will manage the raw files and create the appropriate
  * merge with the existing yaml files.
@@ -31,17 +40,15 @@ import java.io.File
  */
 fun main() {
     val client = createClient { }
+    val rootProject = VirtualFile(VirtualFile.Root, "../../")
 
     runBlocking {
-        val rootProject = VirtualFile(VirtualFile.Root, "../../")
-        val yml = Yaml {
-            // nothing
-            stringSerialization = YamlBuilder.StringSerialization.DOUBLE_QUOTATION
-        }
-        val json = Json {
-            ignoreUnknownKeys = true
-        }
+        // preparing the empty files for some sets
+        prepareEmpty(rootProject, "azu", 6, SetDescription.Azu, "006")
+        prepareEmpty(rootProject, "arc", 7, SetDescription.Arc, "007")
+    }
 
+    runBlocking {
         val rbMap: MutableMap<String, MutableMap<String, RBCard>> = mutableMapOf()
         val rbHighRes: MutableMap<String, String> = mutableMapOf()
 
@@ -64,79 +71,7 @@ fun main() {
 
         if (rbCards == null) throw IllegalStateException("rbCards can't be null at this point")
 
-        val serializer = ListSerializer(RawVirtualCard.serializer())
-
-        suspend fun prepareEmpty(set: String, setId: Int, setDescription: SetDescription) {
-            val file = VirtualFile(rootProject.absolutePath, "data/$set.yml")
-            if (file.exists()) return
-
-            val list = mutableListOf<RawVirtualCard>()
-            (1..204).forEach { index ->
-
-                val color = if (index < 26) {
-                    InkColor.Amber
-                } else if (index == 26) {
-                    InkColor.Emerald
-                } else {
-                    // -1 because of stitch
-                    val calculated = (index - 1 - 1) / (204 / 6)
-                    when (calculated) {
-                        0 -> InkColor.Amber
-                        1 -> InkColor.Amethyst
-                        2 -> InkColor.Emerald
-                        3 -> InkColor.Ruby
-                        4 -> InkColor.Sapphire
-                        5 -> InkColor.Steel
-                        else -> throw IllegalStateException("Invalid value ${index - 1} -> $calculated")
-                    }
-                }
-
-                list.add(
-                    RawVirtualCard(
-                        variants = listOf(
-                            VariantString(
-                                set = setDescription,
-                                id = index,
-                                dreamborn = "006-${index.toString().padStart(3, '0')}",
-                                ravensburger = Ravensburger(
-                                    en = "$index/204 EN $setId",
-                                    fr = "$index/204 FR $setId",
-                                    it = "$index/204 IT $setId",
-                                    de = "$index/204 DE $setId",
-                                    zh = "$index/204 ZH $setId",
-                                ),
-                                rarity = VariantRarity.Common
-                            )
-                        ),
-                        color = color,
-                        type = CardType.Item,
-                        languages = CardTranslations(
-                            en = CardTranslation(
-                                name = ""
-                            )
-                        ),
-                        franchiseId = ""
-                    )
-                )
-            }
-
-            val assets = VirtualFile(VirtualFile.Root, "data")
-            if (!assets.exists()) assets.mkdirs()
-
-            val output = yml.encodeToString(serializer, list)
-                .split("\n")
-                .filter { !it.endsWith("null") && !it.endsWith("[]") }
-                .joinToString("\n")
-
-            write(assets, "$set.yml") {
-                output
-            }
-        }
-
-        // prepare the azurite sea file for manual inputs later
-        prepareEmpty("azu", 6, SetDescription.Azu)
-
-        listOf("tfc", "iti", "urr", "ssk", "rotf", "azu").forEach { set ->
+        listOf("tfc", "iti", "urr", "ssk", "rotf", "azu", "arc").forEach { set ->
             val file = VirtualFile(rootProject.absolutePath, "data/$set.yml")
             val content = file.readString()
             val list = yml.decodeFromString(serializer, content)
@@ -226,6 +161,12 @@ fun main() {
                         zh = copyTranslation(card.languages.zh, "zh") { it.zh ?: "" },
                         ja = copyTranslation(card.languages.ja, "ja") { it.ja ?: "" }
                     ),
+                    // update the colors if required
+                    colors = if (card.colors.code() != ravensBurgerCard.colors.code()) {
+                        ravensBurgerCard.colors
+                    } else {
+                        card.colors
+                    },
                     variants = card.variants.map { variant ->
                         val subRavensBurgerCard = rbMap[variant.ravensburger.en]?.let { it["en"] }
                             ?: return@map variant // in the case of an unreleased card
@@ -276,5 +217,85 @@ suspend fun write(root: VirtualFile, fileName: String, encode: () -> String) {
 
     val content = encode()
 
+    if (!file.exists()) file.touch()
+
     file.write(content.encodeToByteArray())
+}
+
+
+suspend fun prepareEmpty(
+    rootProject: VirtualFile,
+    set: String,
+    setId: Int,
+    setDescription: SetDescription,
+    dreamborn: String
+) {
+    val file = VirtualFile(rootProject.absolutePath, "data/$set.yml")
+    println("having file -> ${file.absolutePath}")
+    if (file.exists()) {
+        println("skipping setting $set")
+        return
+    }
+
+    val list = mutableListOf<RawVirtualCard>()
+    (1..204).forEach { index ->
+        val color = if (index < 26) {
+            InkColor.Amber
+        } else if (index == 26) {
+            InkColor.Emerald
+        } else {
+            // -1 because of stitch
+            val calculated = (index - 1 - 1) / (204 / 6)
+            when (calculated) {
+                0 -> InkColor.Amber
+                1 -> InkColor.Amethyst
+                2 -> InkColor.Emerald
+                3 -> InkColor.Ruby
+                4 -> InkColor.Sapphire
+                5 -> InkColor.Steel
+                else -> throw IllegalStateException("Invalid value ${index - 1} -> $calculated")
+            }
+        }
+
+        list.add(
+            RawVirtualCard(
+                variants = listOf(
+                    VariantString(
+                        set = setDescription,
+                        id = index,
+                        dreamborn = "$dreamborn-${index.toString().padStart(3, '0')}",
+                        ravensburger = Ravensburger(
+                            en = "$index/204 EN $setId",
+                            fr = "$index/204 FR $setId",
+                            it = "$index/204 IT $setId",
+                            de = "$index/204 DE $setId",
+                            zh = "$index/204 ZH $setId",
+                            ja = "$index/204 JA $setId"
+                        ),
+                        rarity = VariantRarity.Common
+                    )
+                ),
+                type = CardType.Item,
+                languages = CardTranslations(
+                    en = CardTranslation(
+                        name = ""
+                    )
+                ),
+                franchiseId = ""
+            )
+        )
+    }
+
+    val assets = VirtualFile(rootProject, "data")
+    if (!assets.exists()) assets.mkdirs()
+
+    val output = yml.encodeToString(serializer, list)
+        .split("\n")
+        .filter { !it.endsWith("null") && !it.endsWith("[]") }
+        .joinToString("\n")
+
+    println("writing to $set.yml")
+    write(assets, "$set.yml") {
+        output
+    }
 }

@@ -1,5 +1,6 @@
 import eu.codlab.lorcana.cards.CardType
 import eu.codlab.lorcana.cards.Classification
+import eu.codlab.lorcana.cards.InkColor
 import eu.codlab.lorcana.cards.VariantRarity
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -39,6 +40,8 @@ data class RBCard(
     val cardIdentifier: String = "",
     @SerialName("image_urls")
     val imageUrls: List<RBImageUrl>,
+    @SerialName("magic_ink_colors")
+    val magicInkColors: List<String>,
     @SerialName("ink_cost")
     val inkCost: Int,
     private val rarity: String,
@@ -75,6 +78,19 @@ data class RBCard(
             "ENCHANTED" -> VariantRarity.Enchanted
             "SPECIAL" -> null
             else -> throw IllegalStateException("invalid rarity $rarity")
+        }
+
+    val colors: List<InkColor>
+        get() = magicInkColors.map {
+            when (it.uppercase()) {
+                "AMBER" -> InkColor.Amber
+                "AMETHYST" -> InkColor.Amber
+                "EMERALD" -> InkColor.Emerald
+                "RUBY" -> InkColor.Ruby
+                "SAPPHIRE" -> InkColor.Sapphire
+                "STEEL" -> InkColor.Steel
+                else -> throw IllegalStateException("Invalid color for $it")
+            }
         }
 }
 
