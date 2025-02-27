@@ -35,4 +35,7 @@ enum class SetDescription {
 
     @SerialName("azu")
     Azu,
+
+    @SerialName("arc")
+    Arc,
 }

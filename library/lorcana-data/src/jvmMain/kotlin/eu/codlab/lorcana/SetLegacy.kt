@@ -13,6 +13,7 @@ enum class SetLegacy(private val set: SetDescription) {
     ITI(SetDescription.ItI),
     URR(SetDescription.UrR),
     SSK(SetDescription.SSk),
+    ARC(SetDescription.Arc),
     P1(SetDescription.P1),
     P2(SetDescription.P2),
     C1(SetDescription.C1),

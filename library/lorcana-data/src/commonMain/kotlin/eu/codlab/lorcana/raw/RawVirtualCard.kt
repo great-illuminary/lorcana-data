@@ -21,7 +21,7 @@ data class RawVirtualCard(
     val moveCost: Int? = null,
     val attack: Int? = null,
     val defence: Int? = null,
-    val color: InkColor,
+    val colors: List<InkColor> = emptyList(),
     val type: CardType,
     val classifications: List<String> = emptyList(),
     val illustrator: String = "",
@@ -46,7 +46,9 @@ data class RawVirtualCard(
         attack = attack,
         defence = defence,
         variants = variants.map { it.to(mapOfClassifications) },
-        color = color,
+        colors = colors,
+        // made so that the deprecated value is ok for now...
+        color = colors.firstOrNull() ?: InkColor.Amber,
         type = type,
         classifications = classifications.map { slug ->
             try {

@@ -19,7 +19,9 @@ data class VirtualCard(
     val attack: Int? = null,
     val defence: Int? = null,
     val variants: List<VariantClassification> = emptyList(),
+    @Deprecated("Please move to the colors holder")
     val color: InkColor,
+    val colors: List<InkColor>,
     val lore: Int? = null,
     val type: CardType,
     val classifications: List<ClassificationHolder> = emptyList(),
