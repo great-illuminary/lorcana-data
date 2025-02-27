@@ -13,7 +13,8 @@
   inkwell: true
   attack: 2
   defence: 2
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -53,7 +54,8 @@
   inkwell: false
   attack: 1
   defence: 3
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -93,7 +95,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -142,7 +145,8 @@
   inkwell: true
   attack: 1
   defence: 5
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -182,7 +186,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -221,7 +226,8 @@
   inkwell: true
   attack: 1
   defence: 3
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -260,7 +266,8 @@
   inkwell: true
   attack: 2
   defence: 3
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -300,7 +307,8 @@
   inkwell: true
   attack: 2
   defence: 3
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -340,7 +348,8 @@
   inkwell: true
   attack: 2
   defence: 4
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -380,7 +389,8 @@
   inkwell: false
   attack: 2
   defence: 4
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -421,7 +431,8 @@
   inkwell: true
   attack: 1
   defence: 4
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -462,7 +473,8 @@
   inkwell: false
   attack: 3
   defence: 4
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -504,7 +516,8 @@
   inkwell: true
   attack: 1
   defence: 4
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -546,7 +559,8 @@
   inkwell: true
   attack: 4
   defence: 3
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -598,7 +612,8 @@
   inkwell: true
   attack: 2
   defence: 5
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -640,7 +655,8 @@
   inkwell: false
   attack: 3
   defence: 6
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "floodborn"
@@ -695,7 +711,8 @@
   inkwell: false
   attack: 1
   defence: 5
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -738,7 +755,8 @@
   inkwell: false
   attack: 3
   defence: 5
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -781,7 +799,8 @@
   inkwell: true
   attack: 2
   defence: 2
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -823,7 +842,8 @@
   inkwell: true
   attack: 4
   defence: 5
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -864,7 +884,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -906,7 +927,8 @@
   inkwell: true
   attack: 5
   defence: 5
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "floodborn"
@@ -949,7 +971,8 @@
   inkwell: true
   attack: 2
   defence: 3
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -989,7 +1012,8 @@
   inkwell: false
   attack: 2
   defence: 4
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "floodborn"
@@ -1033,7 +1057,8 @@
   inkwell: true
   attack: 1
   defence: 4
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -1075,7 +1100,8 @@
   inkwell: true
   attack: 1
   defence: 4
-  color: amber
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -1114,7 +1140,8 @@
       rarity: common
   cost: 1
   inkwell: true
-  color: amber
+  colors: 
+    - amber
   type: action
   illustrator: "Gonzalo Kenny"
   languages: 
@@ -1158,7 +1185,8 @@
       rarity: enchanted
   cost: 7
   inkwell: true
-  color: amber
+  colors: 
+    - amber
   type: action
   classifications: 
     - "song"
@@ -1196,7 +1224,8 @@
       rarity: uncommon
   cost: 4
   inkwell: true
-  color: amber
+  colors: 
+    - amber
   type: action
   classifications: 
     - "song"
@@ -1233,7 +1262,8 @@
       rarity: uncommon
   cost: 3
   inkwell: false
-  color: amber
+  colors: 
+    - amber
   type: action
   illustrator: "Mariana Moreno Ayala"
   languages: 
@@ -1268,7 +1298,8 @@
       rarity: rare
   cost: 2
   inkwell: true
-  color: amber
+  colors: 
+    - amber
   type: item
   illustrator: "Kuya Jaypi"
   languages: 
@@ -1303,7 +1334,8 @@
       rarity: common
   cost: 2
   inkwell: true
-  color: amber
+  colors: 
+    - amber
   type: item
   illustrator: "Simone Buonfantino"
   languages: 
@@ -1341,7 +1373,8 @@
   inkwell: true
   move_cost: 2
   defence: 6
-  color: amber
+  colors: 
+    - amber
   type: location
   illustrator: "Alex Shin"
   languages: 
@@ -1379,7 +1412,8 @@
   inkwell: true
   move_cost: 2
   defence: 6
-  color: amber
+  colors: 
+    - amber
   type: location
   illustrator: "Jeremy Adams"
   languages: 
@@ -1417,7 +1451,8 @@
   inkwell: true
   attack: 3
   defence: 4
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -1457,7 +1492,8 @@
   inkwell: true
   attack: 4
   defence: 4
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "floodborn"
@@ -1501,7 +1537,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -1543,7 +1580,8 @@
   inkwell: false
   attack: 4
   defence: 5
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -1596,7 +1634,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -1639,7 +1678,8 @@
   inkwell: true
   attack: 2
   defence: 5
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -1681,7 +1721,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -1723,7 +1764,8 @@
   inkwell: false
   attack: 1
   defence: 4
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -1766,7 +1808,8 @@
   inkwell: false
   attack: 4
   defence: 2
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -1819,7 +1862,8 @@
   inkwell: true
   attack: 5
   defence: 5
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "floodborn"
@@ -1861,7 +1905,8 @@
   inkwell: true
   attack: 3
   defence: 4
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -1905,7 +1950,8 @@
   inkwell: true
   attack: 2
   defence: 4
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -1947,7 +1993,8 @@
   inkwell: false
   attack: 4
   defence: 3
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -1989,7 +2036,8 @@
   inkwell: true
   attack: 1
   defence: 2
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -2030,7 +2078,8 @@
   inkwell: true
   attack: 2
   defence: 4
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -2069,7 +2118,8 @@
   inkwell: true
   attack: 2
   defence: 2
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -2108,7 +2158,8 @@
   inkwell: false
   attack: 0
   defence: 3
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -2149,7 +2200,8 @@
   inkwell: true
   attack: 3
   defence: 4
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -2190,7 +2242,8 @@
   inkwell: false
   attack: 1
   defence: 5
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -2232,7 +2285,8 @@
   inkwell: false
   attack: 2
   defence: 3
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -2275,7 +2329,8 @@
   inkwell: true
   attack: 3
   defence: 2
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -2318,7 +2373,8 @@
   inkwell: true
   attack: 4
   defence: 7
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -2359,7 +2415,8 @@
   inkwell: true
   attack: 1
   defence: 3
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -2421,7 +2478,8 @@
   inkwell: true
   attack: 4
   defence: 7
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "floodborn"
@@ -2484,7 +2542,8 @@
   inkwell: true
   attack: 1
   defence: 3
-  color: amethyst
+  colors: 
+    - amber
   type: glimmer
   classifications: 
     - "storyborn"
@@ -2524,7 +2583,8 @@
       rarity: common
   cost: 2
   inkwell: true
-  color: amethyst
+  colors: 
+    - amber
   type: action
   classifications: 
     - "song"
@@ -2570,7 +2630,8 @@
       rarity: enchanted
   cost: 10
   inkwell: false
-  color: amethyst
+  colors: 
+    - amber
   type: action
   classifications: 
     - "song"
@@ -2608,7 +2669,8 @@
       rarity: common
   cost: 1
   inkwell: true
-  color: amethyst
+  colors: 
+    - amber
   type: action
   illustrator: "Wouter Bruneel"
   languages: 
@@ -2643,7 +2705,8 @@
       rarity: uncommon
   cost: 3
   inkwell: false
-  color: amethyst
+  colors: 
+    - amber
   type: action
   illustrator: "Eri Welli"
   languages: 
@@ -2678,7 +2741,8 @@
       rarity: rare
   cost: 2
   inkwell: true
-  color: amethyst
+  colors: 
+    - amber
   type: item
   illustrator: "Olivier Désirée"
   languages: 
@@ -2713,7 +2777,8 @@
       rarity: common
   cost: 2
   inkwell: true
-  color: amethyst
+  colors: 
+    - amber
   type: item
   illustrator: "Gabriel Angelo"
   languages: 
@@ -2748,7 +2813,8 @@
       rarity: uncommon
   cost: 2
   inkwell: true
-  color: amethyst
+  colors: 
+    - amber
   type: item
   illustrator: "Matt Chapman"
   languages: 
@@ -2786,7 +2852,8 @@
   inkwell: true
   move_cost: 1
   defence: 6
-  color: amethyst
+  colors: 
+    - amber
   type: location
   illustrator: "Rachel Elese"
   languages: 
@@ -2835,7 +2902,8 @@
   inkwell: false
   move_cost: 2
   defence: 6
-  color: amethyst
+  colors: 
+    - amber
   type: location
   illustrator: "Eri Welli / Sam Burley"
   languages: 
@@ -2874,7 +2942,8 @@
   inkwell: true
   attack: 3
   defence: 4
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -2922,7 +2991,8 @@
   inkwell: false
   attack: 2
   defence: 2
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "floodborn"
@@ -2961,7 +3031,8 @@
   inkwell: true
   attack: 1
   defence: 2
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3000,7 +3071,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -3039,7 +3111,8 @@
   inkwell: true
   attack: 2
   defence: 3
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3078,7 +3151,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3118,7 +3192,8 @@
   inkwell: true
   attack: 2
   defence: 3
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3157,7 +3232,8 @@
   inkwell: true
   attack: 1
   defence: 3
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3197,7 +3273,8 @@
   inkwell: true
   attack: 1
   defence: 4
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3245,7 +3322,8 @@
   inkwell: false
   attack: 3
   defence: 3
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -3285,7 +3363,8 @@
   inkwell: false
   attack: 3
   defence: 6
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3324,7 +3403,8 @@
   inkwell: true
   attack: 4
   defence: 4
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3363,7 +3443,8 @@
   inkwell: true
   attack: 2
   defence: 4
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3402,7 +3483,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3441,7 +3523,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "floodborn"
@@ -3480,7 +3563,8 @@
   inkwell: true
   attack: 1
   defence: 1
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3521,7 +3605,8 @@
   inkwell: false
   attack: 2
   defence: 3
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -3563,7 +3648,8 @@
   inkwell: true
   attack: 1
   defence: 5
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3603,7 +3689,8 @@
   inkwell: true
   attack: 6
   defence: 6
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "floodborn"
@@ -3643,7 +3730,8 @@
   inkwell: false
   attack: 3
   defence: 4
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -3683,7 +3771,8 @@
   inkwell: true
   attack: 2
   defence: 1
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3722,7 +3811,8 @@
   inkwell: true
   attack: 2
   defence: 4
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3761,7 +3851,8 @@
   inkwell: true
   attack: 4
   defence: 7
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -3800,7 +3891,8 @@
   inkwell: true
   attack: 0
   defence: 5
-  color: emerald
+  colors: 
+    - emerald
   type: glimmer
   classifications: 
     - "storyborn"
@@ -3839,7 +3931,8 @@
       rarity: common
   cost: 2
   inkwell: true
-  color: emerald
+  colors: 
+    - emerald
   type: action
   illustrator: "Wouter Bruneel"
   languages: 
@@ -3872,7 +3965,8 @@
       rarity: common
   cost: 2
   inkwell: false
-  color: emerald
+  colors: 
+    - emerald
   type: action
   illustrator: "Elodie Mondoloni"
   languages: 
@@ -3905,7 +3999,8 @@
       rarity: rare
   cost: 8
   inkwell: false
-  color: emerald
+  colors: 
+    - emerald
   type: action
   classifications: 
     - "song"
@@ -3940,7 +4035,8 @@
       rarity: uncommon
   cost: 1
   inkwell: false
-  color: emerald
+  colors: 
+    - emerald
   type: action
   illustrator: "Matthew Robert Davies"
   languages: 
@@ -3982,7 +4078,8 @@
       rarity: enchanted
   cost: 5
   inkwell: true
-  color: emerald
+  colors: 
+    - emerald
   type: action
   classifications: 
     - "song"
@@ -4028,7 +4125,8 @@
       rarity: organized_play
   cost: 2
   inkwell: false
-  color: emerald
+  colors: 
+    - emerald
   type: item
   illustrator: "Adam Fenton"
   languages: 
@@ -4061,7 +4159,8 @@
       rarity: uncommon
   cost: 2
   inkwell: true
-  color: emerald
+  colors: 
+    - emerald
   type: item
   illustrator: "Andrew Peña"
   languages: 
@@ -4094,7 +4193,8 @@
       rarity: uncommon
   cost: 3
   inkwell: true
-  color: emerald
+  colors: 
+    - emerald
   type: item
   illustrator: "Jonas Petrauskas"
   languages: 
@@ -4130,7 +4230,8 @@
   inkwell: true
   move_cost: 1
   defence: 6
-  color: emerald
+  colors: 
+    - emerald
   type: location
   illustrator: "Roberto Gatto"
   languages: 
@@ -4166,7 +4267,8 @@
   inkwell: true
   move_cost: 2
   defence: 7
-  color: emerald
+  colors: 
+    - emerald
   type: location
   illustrator: "Jonathan Livslyst"
   languages: 
@@ -4202,7 +4304,8 @@
   inkwell: true
   attack: 2
   defence: 6
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4242,7 +4345,8 @@
   inkwell: true
   attack: 5
   defence: 3
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4282,7 +4386,8 @@
   inkwell: true
   attack: 0
   defence: 4
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4321,7 +4426,8 @@
   inkwell: true
   attack: 2
   defence: 2
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4372,7 +4478,8 @@
   inkwell: true
   attack: 2
   defence: 4
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4411,7 +4518,8 @@
   inkwell: false
   attack: 3
   defence: 3
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4451,7 +4559,8 @@
   inkwell: false
   attack: 7
   defence: 3
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4491,7 +4600,8 @@
   inkwell: true
   attack: 3
   defence: 2
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4530,7 +4640,8 @@
   inkwell: true
   attack: 2
   defence: 2
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4569,7 +4680,8 @@
   inkwell: true
   attack: 3
   defence: 2
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "floodborn"
@@ -4608,7 +4720,8 @@
   inkwell: true
   attack: 2
   defence: 2
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -4656,7 +4769,8 @@
   inkwell: true
   attack: 2
   defence: 6
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "floodborn"
@@ -4705,7 +4819,8 @@
   inkwell: true
   attack: 1
   defence: 3
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4745,7 +4860,8 @@
   inkwell: true
   attack: 2
   defence: 3
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4785,7 +4901,8 @@
   inkwell: false
   attack: 2
   defence: 3
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4825,7 +4942,8 @@
   inkwell: true
   attack: 7
   defence: 5
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4864,7 +4982,8 @@
   inkwell: true
   attack: 4
   defence: 4
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4903,7 +5022,8 @@
   inkwell: true
   attack: 3
   defence: 1
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4942,7 +5062,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -4984,7 +5105,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -5024,7 +5146,8 @@
   inkwell: false
   attack: 1
   defence: 1
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -5065,7 +5188,8 @@
   inkwell: true
   attack: 1
   defence: 4
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -5115,7 +5239,8 @@
   inkwell: false
   attack: 5
   defence: 4
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "floodborn"
@@ -5156,7 +5281,8 @@
   inkwell: false
   attack: 3
   defence: 6
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -5195,7 +5321,8 @@
   inkwell: true
   attack: 2
   defence: 3
-  color: ruby
+  colors: 
+    - ruby
   type: glimmer
   classifications: 
     - "storyborn"
@@ -5231,7 +5358,8 @@
       rarity: uncommon
   cost: 6
   inkwell: true
-  color: ruby
+  colors: 
+    - ruby
   type: action
   classifications: 
     - "song"
@@ -5266,7 +5394,8 @@
       rarity: rare
   cost: 4
   inkwell: false
-  color: ruby
+  colors: 
+    - ruby
   type: action
   classifications: 
     - "song"
@@ -5301,7 +5430,8 @@
       rarity: common
   cost: 3
   inkwell: true
-  color: ruby
+  colors: 
+    - ruby
   type: action
   illustrator: "R. la Barbera / L. Giammichele"
   languages: 
@@ -5334,7 +5464,8 @@
       rarity: rare
   cost: 1
   inkwell: true
-  color: ruby
+  colors: 
+    - ruby
   type: item
   illustrator: "Devin Yang"
   languages: 
@@ -5367,7 +5498,8 @@
       rarity: uncommon
   cost: 2
   inkwell: true
-  color: ruby
+  colors: 
+    - ruby
   type: item
   illustrator: "Defne Tözüm"
   languages: 
@@ -5400,7 +5532,8 @@
       rarity: common
   cost: 3
   inkwell: false
-  color: ruby
+  colors: 
+    - ruby
   type: item
   illustrator: "Roberto Gatto"
   languages: 
@@ -5433,7 +5566,8 @@
       rarity: common
   cost: 1
   inkwell: true
-  color: ruby
+  colors: 
+    - ruby
   type: item
   illustrator: "Sandara Tang"
   languages: 
@@ -5478,7 +5612,8 @@
   inkwell: true
   move_cost: 2
   defence: 9
-  color: ruby
+  colors: 
+    - ruby
   type: location
   illustrator: "Jeremy Adams"
   languages: 
@@ -5514,7 +5649,8 @@
   inkwell: true
   move_cost: 1
   defence: 5
-  color: ruby
+  colors: 
+    - ruby
   type: location
   illustrator: "Matthew Oates"
   languages: 
@@ -5550,7 +5686,8 @@
   inkwell: true
   attack: 1
   defence: 4
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -5599,7 +5736,8 @@
   inkwell: true
   attack: 2
   defence: 4
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -5642,7 +5780,8 @@
   inkwell: false
   attack: 3
   defence: 4
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -5685,7 +5824,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "floodborn"
@@ -5725,7 +5865,8 @@
   inkwell: true
   attack: 1
   defence: 3
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -5765,7 +5906,8 @@
   inkwell: true
   attack: 3
   defence: 5
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -5804,7 +5946,8 @@
   inkwell: true
   attack: 1
   defence: 3
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -5843,7 +5986,8 @@
   inkwell: true
   attack: 2
   defence: 2
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -5882,7 +6026,8 @@
   inkwell: true
   attack: 3
   defence: 6
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -5922,7 +6067,8 @@
   inkwell: true
   attack: 3
   defence: 2
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -5962,7 +6108,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -6002,7 +6149,8 @@
   inkwell: true
   attack: 8
   defence: 8
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -6044,7 +6192,8 @@
   inkwell: true
   attack: 1
   defence: 4
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "floodborn"
@@ -6083,7 +6232,8 @@
   inkwell: true
   attack: 1
   defence: 2
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -6122,7 +6272,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -6161,7 +6312,8 @@
   inkwell: true
   attack: 1
   defence: 3
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -6201,7 +6353,8 @@
   inkwell: true
   attack: 3
   defence: 5
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -6241,7 +6394,8 @@
   inkwell: true
   attack: 1
   defence: 3
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -6280,7 +6434,8 @@
   inkwell: true
   attack: 6
   defence: 6
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -6330,7 +6485,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -6371,7 +6527,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -6410,7 +6567,8 @@
   inkwell: true
   attack: 7
   defence: 9
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "floodborn"
@@ -6449,7 +6607,8 @@
   inkwell: false
   attack: 3
   defence: 3
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -6488,7 +6647,8 @@
   inkwell: true
   attack: 3
   defence: 4
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -6527,7 +6687,8 @@
   inkwell: true
   attack: 2
   defence: 3
-  color: sapphire
+  colors: 
+    - sapphire
   type: glimmer
   classifications: 
     - "storyborn"
@@ -6563,7 +6724,8 @@
       rarity: uncommon
   cost: 8
   inkwell: false
-  color: sapphire
+  colors: 
+    - sapphire
   type: action
   classifications: 
     - "song"
@@ -6598,7 +6760,8 @@
       rarity: common
   cost: 1
   inkwell: true
-  color: sapphire
+  colors: 
+    - sapphire
   type: action
   illustrator: "Veronica Di Lorenzo / Livio Cacciatore"
   languages: 
@@ -6631,7 +6794,8 @@
       rarity: common
   cost: 2
   inkwell: true
-  color: sapphire
+  colors: 
+    - sapphire
   type: action
   classifications: 
     - "song"
@@ -6666,7 +6830,8 @@
       rarity: rare
   cost: 6
   inkwell: true
-  color: sapphire
+  colors: 
+    - sapphire
   type: action
   classifications: 
     - "song"
@@ -6701,7 +6866,8 @@
       rarity: rare
   cost: 3
   inkwell: true
-  color: sapphire
+  colors: 
+    - sapphire
   type: item
   illustrator: "Mariana Moreno"
   languages: 
@@ -6734,7 +6900,8 @@
       rarity: uncommon
   cost: 3
   inkwell: true
-  color: sapphire
+  colors: 
+    - sapphire
   type: item
   illustrator: "Ryan Bittner"
   languages: 
@@ -6767,7 +6934,8 @@
       rarity: common
   cost: 1
   inkwell: false
-  color: sapphire
+  colors: 
+    - sapphire
   type: item
   illustrator: "Grzegorz Krysiński"
   languages: 
@@ -6812,7 +6980,8 @@
   inkwell: true
   move_cost: 2
   defence: 7
-  color: sapphire
+  colors: 
+    - sapphire
   type: location
   illustrator: "Jeremy Adams"
   languages: 
@@ -6848,7 +7017,8 @@
   inkwell: true
   move_cost: 1
   defence: 8
-  color: sapphire
+  colors: 
+    - sapphire
   type: location
   illustrator: "Elodie Mondoloni"
   languages: 
@@ -6884,7 +7054,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "floodborn"
@@ -6923,7 +7094,8 @@
   inkwell: true
   attack: 1
   defence: 3
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -6962,7 +7134,8 @@
   inkwell: true
   attack: 4
   defence: 1
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7001,7 +7174,8 @@
   inkwell: true
   attack: 2
   defence: 4
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7050,7 +7224,8 @@
   inkwell: true
   attack: 3
   defence: 8
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "floodborn"
@@ -7092,7 +7267,8 @@
   inkwell: true
   attack: 2
   defence: 3
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7132,7 +7308,8 @@
   inkwell: true
   attack: 0
   defence: 5
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7171,7 +7348,8 @@
   inkwell: true
   attack: 4
   defence: 7
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7210,7 +7388,8 @@
   inkwell: true
   attack: 3
   defence: 4
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -7251,7 +7430,8 @@
   inkwell: true
   attack: 6
   defence: 5
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7291,7 +7471,8 @@
   inkwell: true
   attack: 2
   defence: 3
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -7330,7 +7511,8 @@
   inkwell: true
   attack: 5
   defence: 5
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -7370,7 +7552,8 @@
   inkwell: true
   attack: 3
   defence: 3
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7409,7 +7592,8 @@
   inkwell: true
   attack: 2
   defence: 4
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7449,7 +7633,8 @@
   inkwell: true
   attack: 2
   defence: 3
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -7488,7 +7673,8 @@
   inkwell: true
   attack: 2
   defence: 6
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -7536,7 +7722,8 @@
   inkwell: true
   attack: 3
   defence: 4
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "floodborn"
@@ -7576,7 +7763,8 @@
   inkwell: true
   attack: 1
   defence: 3
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7615,7 +7803,8 @@
   inkwell: true
   attack: 3
   defence: 6
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7655,7 +7844,8 @@
   inkwell: true
   attack: 2
   defence: 3
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7703,7 +7893,8 @@
   inkwell: false
   attack: 3
   defence: 5
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -7742,7 +7933,8 @@
   inkwell: true
   attack: 3
   defence: 4
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7781,7 +7973,8 @@
   inkwell: true
   attack: 3
   defence: 6
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "dreamborn"
@@ -7825,7 +8018,8 @@
   inkwell: true
   attack: 2
   defence: 5
-  color: steel
+  colors: 
+    - steel
   type: glimmer
   classifications: 
     - "storyborn"
@@ -7861,7 +8055,8 @@
       rarity: uncommon
   cost: 4
   inkwell: false
-  color: steel
+  colors: 
+    - steel
   type: action
   illustrator: "Justin Gerard"
   languages: 
@@ -7894,7 +8089,8 @@
       rarity: uncommon
   cost: 4
   inkwell: true
-  color: steel
+  colors: 
+    - steel
   type: action
   classifications: 
     - "song"
@@ -7929,7 +8125,8 @@
       rarity: rare
   cost: 3
   inkwell: false
-  color: steel
+  colors: 
+    - steel
   type: action
   classifications: 
     - "song"
@@ -7964,7 +8161,8 @@
       rarity: uncommon
   cost: 10
   inkwell: false
-  color: steel
+  colors: 
+    - steel
   type: action
   classifications: 
     - "song"
@@ -7999,7 +8197,8 @@
       rarity: common
   cost: 1
   inkwell: false
-  color: steel
+  colors: 
+    - steel
   type: action
   illustrator: "Carlos Gomes Cabral"
   languages: 
@@ -8032,7 +8231,8 @@
       rarity: common
   cost: 1
   inkwell: true
-  color: steel
+  colors: 
+    - steel
   type: item
   illustrator: "Mariana Moreno"
   languages: 
@@ -8065,7 +8265,8 @@
       rarity: uncommon
   cost: 2
   inkwell: true
-  color: steel
+  colors: 
+    - steel
   type: item
   illustrator: "Yari Lute"
   languages: 
@@ -8098,7 +8299,8 @@
       rarity: rare
   cost: 3
   inkwell: false
-  color: steel
+  colors: 
+    - steel
   type: item
   illustrator: "Luigi Aimé"
   languages: 
@@ -8143,7 +8345,8 @@
   inkwell: true
   move_cost: 2
   defence: 8
-  color: steel
+  colors: 
+    - steel
   type: location
   illustrator: "Jimmy Lo"
   languages: 
@@ -8179,7 +8382,8 @@
   inkwell: true
   move_cost: 1
   defence: 7
-  color: steel
+  colors: 
+    - steel
   type: location
   illustrator: "Nicolas Ky"
   languages: 
