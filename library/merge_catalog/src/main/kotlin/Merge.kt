@@ -179,11 +179,17 @@ fun main() {
 
                         variant.copy(
                             ravensburger = variant.ravensburger.copy(
-                                cultureInvariantId = subRavensBurgerCard.cultureInvariantId ?: variant.ravensburger.cultureInvariantId,
-                                sortNumber = subRavensBurgerCard.sortNumber ?: variant.ravensburger.sortNumber,
+                                cultureInvariantId = subRavensBurgerCard.cultureInvariantId
+                                    ?: variant.ravensburger.cultureInvariantId,
+                                sortNumber = subRavensBurgerCard.sortNumber
+                                    ?: variant.ravensburger.sortNumber,
                                 zh = (variant.ravensburger.zh ?: "").ifBlank {
                                     // for now, since the sets are not matching with worldwide...
-                                    if (variant.ravensburger.en.contains(" EN 1")) {
+                                    if (null != listOf(
+                                            " EN 1",
+                                            " EN 2"
+                                        ).find { suffix -> variant.ravensburger.en.contains(suffix) }
+                                    ) {
                                         variant.ravensburger.en.replace(" EN ", " ZH ")
                                     } else {
                                         null
@@ -191,7 +197,11 @@ fun main() {
                                 },
                                 ja = (variant.ravensburger.ja ?: "").ifBlank {
                                     // for now, since the sets are not matching with worldwide...
-                                    if (variant.ravensburger.en.contains(" EN 1")) {
+                                    if (null != listOf(
+                                            " EN 1",
+                                            " EN 2"
+                                        ).find { suffix -> variant.ravensburger.en.contains(suffix) }
+                                    ) {
                                         variant.ravensburger.en.replace(" EN ", " JA ")
                                     } else {
                                         null
