@@ -55,6 +55,10 @@ data class RBCard(
     @SerialName("move_cost")
     val moveCost: Int? = null,
     val author: String,
+    @SerialName("culture_invariant_id")
+    val cultureInvariantId: Int? = null,
+    @SerialName("sort_number")
+    val sortNumber: Int? = null,
     @SerialName("subtypes")
     private val internalSubtypes: List<String>
 ) {

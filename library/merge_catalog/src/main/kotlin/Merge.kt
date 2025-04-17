@@ -179,6 +179,8 @@ fun main() {
 
                         variant.copy(
                             ravensburger = variant.ravensburger.copy(
+                                cultureInvariantId = subRavensBurgerCard.cultureInvariantId ?: variant.ravensburger.cultureInvariantId,
+                                sortNumber = subRavensBurgerCard.sortNumber ?: variant.ravensburger.sortNumber,
                                 zh = (variant.ravensburger.zh ?: "").ifBlank {
                                     // for now, since the sets are not matching with worldwide...
                                     if (variant.ravensburger.en.contains(" EN 1")) {
@@ -258,7 +260,9 @@ suspend fun prepareEmpty(
                             it = "$index/204 IT $setId",
                             de = "$index/204 DE $setId",
                             zh = "$index/204 ZH $setId",
-                            ja = "$index/204 JA $setId"
+                            ja = "$index/204 JA $setId",
+                            cultureInvariantId = -1,
+                            sortNumber = -1
                         ),
                         rarity = VariantRarity.Common
                     )
