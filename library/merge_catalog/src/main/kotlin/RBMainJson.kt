@@ -92,7 +92,7 @@ data class RBCard(
         get() = magicInkColors.map {
             when (it.uppercase()) {
                 "AMBER" -> InkColor.Amber
-                "AMETHYST" -> InkColor.Amber
+                "AMETHYST" -> InkColor.Amethyst
                 "EMERALD" -> InkColor.Emerald
                 "RUBY" -> InkColor.Ruby
                 "SAPPHIRE" -> InkColor.Sapphire
