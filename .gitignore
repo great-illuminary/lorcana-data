@@ -9,7 +9,9 @@ local.properties
 library/lorcana-data/src/commonMain/resources/MR
 library/lorcana-data/src/commonMain/moko-resources
 library/quick_map/assets
-data_existing/
+data_existing/compiled
+data_existing/raw
+data_existing/sets
 library/lorcana-data/src/commonMain/composeResources/files/*.yml.txt
 
 # Ignore Gradle GUI config
