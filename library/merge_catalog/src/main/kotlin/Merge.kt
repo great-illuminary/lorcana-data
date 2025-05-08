@@ -17,6 +17,7 @@ import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.json.Json
 import net.mamoe.yamlkt.Yaml
 import net.mamoe.yamlkt.YamlBuilder
+import official.LoadOfficialData
 import java.io.File
 
 val serializer = ListSerializer(RawVirtualCard.serializer())
@@ -45,187 +46,209 @@ val json = Json {
     "MagicNumber"
 )
 fun main() {
+    runBlocking {
+        try {
+            load()
+        } catch (err: Throwable) {
+            err.printStackTrace()
+            throw err
+        }
+    }
+}
+
+private suspend fun load() {
     val client = createClient { }
     val rootProject = VirtualFile(VirtualFile.Root, "../../")
 
-    runBlocking {
-        // preparing the empty files for some sets
-        prepareEmpty(rootProject, "azu", 6, SetDescription.Azu, "006")
-        prepareEmpty(rootProject, "arc", 7, SetDescription.Arc, "007")
+    // preparing the empty files for some sets
+    prepareEmpty(rootProject, "azu", 6, SetDescription.Azu, "006")
+    prepareEmpty(rootProject, "arc", 7, SetDescription.Arc, "007")
+    prepareEmpty(rootProject, "roj", 8, SetDescription.Roj, "008")
+
+    val official = LoadOfficialData(rootProject)
+    official.loadLanguages()
+
+    //val cards = LoadLorcanito().cards()
+    //println(cards.size)
+
+    val rbMap: MutableMap<String, MutableMap<String, RBCard>> = mutableMapOf()
+    val rbHighRes: MutableMap<String, String> = mutableMapOf()
+
+    var rbCards: RBCards? = null
+
+    listOf("en", "fr", "it", "de", "zh", "ja").map { lang ->
+        val file = VirtualFile(rootProject, "data_existing/catalog/$lang/full.json")
+        val content = file.readString()
+        val json = json.decodeFromString<RBMainJson>(content)
+        if (rbCards == null) rbCards = json.cards
+
+        json.cards.cards.forEach { card ->
+            // now make the map of id -> lang -> card
+            rbMap.putIfAbsent(card.cardIdentifier, mutableMapOf())
+            val map = rbMap[card.cardIdentifier]!!
+            map[lang] = card
+            card.highResImage?.let { rbHighRes[card.cardIdentifier] = it.url }
+        }
     }
 
-    runBlocking {
-        val rbMap: MutableMap<String, MutableMap<String, RBCard>> = mutableMapOf()
-        val rbHighRes: MutableMap<String, String> = mutableMapOf()
+    if (rbCards == null) throw IllegalStateException("rbCards can't be null at this point")
 
-        var rbCards: RBCards? = null
+    listOf("tfc", "iti", "urr", "ssk", "rotf", "azu", "arc", "roj").forEach { set ->
+        val file = VirtualFile(rootProject.absolutePath, "data/$set.yml")
+        val content = file.readString()
+        val list = yml.decodeFromString(serializer, content)
 
-        listOf("en", "fr", "it", "de", "zh", "ja").map { lang ->
-            val file = VirtualFile(rootProject, "data_existing/catalog/$lang/full.json")
-            val content = file.readString()
-            val json = json.decodeFromString<RBMainJson>(content)
-            if (rbCards == null) rbCards = json.cards
+        val copy = list.map { card ->
+            card.variants.forEach { variant ->
+                val rb = variant.ravensburger
 
-            json.cards.cards.forEach { card ->
-                // now make the map of id -> lang -> card
-                rbMap.putIfAbsent(card.cardIdentifier, mutableMapOf())
-                val map = rbMap[card.cardIdentifier]!!
-                map[lang] = card
-                card.highResImage?.let { rbHighRes[card.cardIdentifier] = it.url }
+                listOf(
+                    Triple("it", rb.it, "webp"),
+                    Triple("fr", rb.fr, "webp"),
+                    Triple("en", rb.en, "webp"),
+                    Triple("de", rb.de, "webp"),
+                    Triple("zh", rb.zh, "png"),
+                    Triple("ja", rb.ja, "png")
+                ).forEach { (lang, holder, extension) ->
+                    val folderName = "images/${variant.set.name.lowercase()}/$lang"
+                    val folder = VirtualFile(rootProject, folderName)
+                    folder.mkdirs()
+
+                    val fileName = "${variant.id}.$extension"
+                    val file = VirtualFile(folder, fileName)
+
+                    try {
+                        if (!file.exists()) {
+                            val nativeFile = File(file.absolutePath)
+                            rbHighRes[holder]?.let { rbUrl ->
+                                client.get(rbUrl).bodyAsChannel()
+                                    .copyAndClose(nativeFile.writeChannel())
+                            }
+                            println("finished downloading $fileName")
+                        }
+                    } catch (err: Throwable) {
+                        println("couldn't download $folderName/$fileName from $holder")
+                    }
+                }
             }
+
+            fun copyTranslation(
+                original: CardTranslation?,
+                lang: String,
+                extractId: (Ravensburger) -> String
+            ): CardTranslation? {
+                val rbcard = card.variants.map { rbMap[extractId(it.ravensburger)]?.get(lang) }
+                    .find { c -> c != null }
+
+                val toReturn = (original ?: CardTranslation()).copy(
+                    name = rbcard?.name ?: "",
+                    title = rbcard?.subtitle ?: "",
+                    flavour = (rbcard?.flavorText ?: "").split("%").joinToString("\n")
+                )
+
+                val invalid = toReturn.name.isBlank() &&
+                        toReturn.title.isNullOrBlank() &&
+                        toReturn.flavour.isNullOrBlank()
+
+                return if (!invalid) {
+                    toReturn
+                } else {
+                    null
+                }
+            }
+
+            val en = copyTranslation(card.languages.en, "en") { it.en }
+            if (null == en) {
+                println("having invalid info for...")
+                println(card)
+            }
+
+            val expectedKey = card.variants.first().ravensburger.en
+            val holder = rbMap[expectedKey]
+
+            if(null == holder) {
+                println("Warning !! card is not known -> $expectedKey for $set")
+                return@map card
+            }
+
+            val ravensBurgerCard = holder["en"]!!
+
+            card.copy(
+                cost = ravensBurgerCard.inkCost,
+                inkwell = ravensBurgerCard.inkConvertible,
+                lore = ravensBurgerCard.questValue,
+                attack = ravensBurgerCard.strength,
+                defence = ravensBurgerCard.willpower,
+                moveCost = ravensBurgerCard.moveCost,
+                illustrator = ravensBurgerCard.author,
+                type = rbCards!!.type(ravensBurgerCard),
+                classifications = ravensBurgerCard.subtypes,
+                languages = CardTranslations(
+                    en = en!!,
+                    fr = copyTranslation(card.languages.fr, "fr") { it.fr },
+                    it = copyTranslation(card.languages.it, "it") { it.it },
+                    de = copyTranslation(card.languages.de, "de") { it.de },
+                    zh = copyTranslation(card.languages.zh, "zh") { it.zh ?: "" },
+                    ja = copyTranslation(card.languages.ja, "ja") { it.ja ?: "" }
+                ),
+                // update the colors if required
+                colors = if (card.colors.code() != ravensBurgerCard.colors.code()) {
+                    ravensBurgerCard.colors
+                } else {
+                    card.colors
+                },
+                variants = card.variants.map { variant ->
+                    val subRavensBurgerCard = rbMap[variant.ravensburger.en]?.let { it["en"] }
+                        ?: return@map variant // in the case of an unreleased card
+
+                    variant.copy(
+                        ravensburger = variant.ravensburger.copy(
+                            cultureInvariantId = subRavensBurgerCard.cultureInvariantId
+                                ?: variant.ravensburger.cultureInvariantId,
+                            sortNumber = subRavensBurgerCard.sortNumber
+                                ?: variant.ravensburger.sortNumber,
+                            zh = (variant.ravensburger.zh ?: "").ifBlank {
+                                // for now, since the sets are not matching with worldwide...
+                                if (null != listOf(
+                                        " EN 1",
+                                        " EN 2"
+                                    ).find { suffix -> variant.ravensburger.en.contains(suffix) }
+                                ) {
+                                    variant.ravensburger.en.replace(" EN ", " ZH ")
+                                } else {
+                                    null
+                                }
+                            },
+                            ja = (variant.ravensburger.ja ?: "").ifBlank {
+                                // for now, since the sets are not matching with worldwide...
+                                if (null != listOf(
+                                        " EN 1",
+                                        " EN 2"
+                                    ).find { suffix -> variant.ravensburger.en.contains(suffix) }
+                                ) {
+                                    variant.ravensburger.en.replace(" EN ", " JA ")
+                                } else {
+                                    null
+                                }
+                            }
+                        ),
+                        rarity = subRavensBurgerCard.actualRarity ?: variant.rarity
+                    )
+                }
+            )
         }
 
-        if (rbCards == null) throw IllegalStateException("rbCards can't be null at this point")
+        val main = VirtualFile(VirtualFile.Root, "../..")
+        val assets = VirtualFile(main, "data")
+        if (!assets.exists()) assets.mkdirs()
 
-        listOf("tfc", "iti", "urr", "ssk", "rotf", "azu", "arc").forEach { set ->
-            val file = VirtualFile(rootProject.absolutePath, "data/$set.yml")
-            val content = file.readString()
-            val list = yml.decodeFromString(serializer, content)
+        val output = yml.encodeToString(serializer, copy)
+            .split("\n")
+            .filter { !it.endsWith("null") && !it.endsWith("[]") }
+            .joinToString("\n")
 
-            val copy = list.map { card ->
-                card.variants.forEach { variant ->
-                    val rb = variant.ravensburger
-
-                    listOf(
-                        Triple("it", rb.it, "webp"),
-                        Triple("fr", rb.fr, "webp"),
-                        Triple("en", rb.en, "webp"),
-                        Triple("de", rb.de, "webp"),
-                        Triple("zh", rb.zh, "png"),
-                        Triple("ja", rb.ja, "png")
-                    ).forEach { (lang, holder, extension) ->
-                        val folderName = "images/${variant.set.name.lowercase()}/$lang"
-                        val folder = VirtualFile(rootProject, folderName)
-                        folder.mkdirs()
-
-                        val fileName = "${variant.id}.$extension"
-                        val file = VirtualFile(folder, fileName)
-
-                        try {
-                            if (!file.exists()) {
-                                val nativeFile = File(file.absolutePath)
-                                rbHighRes[holder]?.let { rbUrl ->
-                                    client.get(rbUrl).bodyAsChannel()
-                                        .copyAndClose(nativeFile.writeChannel())
-                                }
-                                println("finished downloading $fileName")
-                            }
-                        } catch (err: Throwable) {
-                            println("couldn't download $folderName/$fileName from $holder")
-                        }
-                    }
-                }
-
-                fun copyTranslation(
-                    original: CardTranslation?,
-                    lang: String,
-                    extractId: (Ravensburger) -> String
-                ): CardTranslation? {
-                    val rbcard = card.variants.map { rbMap[extractId(it.ravensburger)]?.get(lang) }
-                        .find { c -> c != null }
-
-                    val toReturn = (original ?: CardTranslation()).copy(
-                        name = rbcard?.name ?: "",
-                        title = rbcard?.subtitle ?: "",
-                        flavour = (rbcard?.flavorText ?: "").split("%").joinToString("\n")
-                    )
-
-                    val invalid = toReturn.name.isBlank() &&
-                            toReturn.title.isNullOrBlank() &&
-                            toReturn.flavour.isNullOrBlank()
-
-                    return if (!invalid) {
-                        toReturn
-                    } else {
-                        null
-                    }
-                }
-
-                val en = copyTranslation(card.languages.en, "en") { it.en }
-                if (null == en) {
-                    println("having invalid info for...")
-                    println(card)
-                }
-
-                val ravensBurgerCard = rbMap[card.variants.first().ravensburger.en]!!["en"]!!
-
-                card.copy(
-                    cost = ravensBurgerCard.inkCost,
-                    inkwell = ravensBurgerCard.inkConvertible,
-                    lore = ravensBurgerCard.questValue,
-                    attack = ravensBurgerCard.strength,
-                    defence = ravensBurgerCard.willpower,
-                    moveCost = ravensBurgerCard.moveCost,
-                    illustrator = ravensBurgerCard.author,
-                    type = rbCards!!.type(ravensBurgerCard),
-                    classifications = ravensBurgerCard.subtypes,
-                    languages = CardTranslations(
-                        en = en!!,
-                        fr = copyTranslation(card.languages.fr, "fr") { it.fr },
-                        it = copyTranslation(card.languages.it, "it") { it.it },
-                        de = copyTranslation(card.languages.de, "de") { it.de },
-                        zh = copyTranslation(card.languages.zh, "zh") { it.zh ?: "" },
-                        ja = copyTranslation(card.languages.ja, "ja") { it.ja ?: "" }
-                    ),
-                    // update the colors if required
-                    colors = if (card.colors.code() != ravensBurgerCard.colors.code()) {
-                        ravensBurgerCard.colors
-                    } else {
-                        card.colors
-                    },
-                    variants = card.variants.map { variant ->
-                        val subRavensBurgerCard = rbMap[variant.ravensburger.en]?.let { it["en"] }
-                            ?: return@map variant // in the case of an unreleased card
-
-                        variant.copy(
-                            ravensburger = variant.ravensburger.copy(
-                                cultureInvariantId = subRavensBurgerCard.cultureInvariantId
-                                    ?: variant.ravensburger.cultureInvariantId,
-                                sortNumber = subRavensBurgerCard.sortNumber
-                                    ?: variant.ravensburger.sortNumber,
-                                zh = (variant.ravensburger.zh ?: "").ifBlank {
-                                    // for now, since the sets are not matching with worldwide...
-                                    if (null != listOf(
-                                            " EN 1",
-                                            " EN 2"
-                                        ).find { suffix -> variant.ravensburger.en.contains(suffix) }
-                                    ) {
-                                        variant.ravensburger.en.replace(" EN ", " ZH ")
-                                    } else {
-                                        null
-                                    }
-                                },
-                                ja = (variant.ravensburger.ja ?: "").ifBlank {
-                                    // for now, since the sets are not matching with worldwide...
-                                    if (null != listOf(
-                                            " EN 1",
-                                            " EN 2"
-                                        ).find { suffix -> variant.ravensburger.en.contains(suffix) }
-                                    ) {
-                                        variant.ravensburger.en.replace(" EN ", " JA ")
-                                    } else {
-                                        null
-                                    }
-                                }
-                            ),
-                            rarity = subRavensBurgerCard.actualRarity ?: variant.rarity
-                        )
-                    }
-                )
-            }
-
-            val main = VirtualFile(VirtualFile.Root, "../..")
-            val assets = VirtualFile(main, "data")
-            if (!assets.exists()) assets.mkdirs()
-
-            val output = yml.encodeToString(serializer, copy)
-                .split("\n")
-                .filter { !it.endsWith("null") && !it.endsWith("[]") }
-                .joinToString("\n")
-
-            write(assets, "$set.yml") {
-                output
-            }
+        write(assets, "$set.yml") {
+            output
         }
     }
 }

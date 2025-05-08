@@ -17,7 +17,8 @@ enum class SetLegacy(private val set: SetDescription) {
     P1(SetDescription.P1),
     P2(SetDescription.P2),
     C1(SetDescription.C1),
-    WORLDS(SetDescription.Worlds);
+    WORLDS(SetDescription.Worlds),
+    ROJ(SetDescription.Roj);
 
     @Suppress("TooGenericExceptionCaught")
     @OptIn(DelicateCoroutinesApi::class, KorioExperimentalApi::class)

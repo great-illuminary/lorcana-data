@@ -54,6 +54,13 @@
       "type": "EXPANSION"
     },
     {
+      "name": "Le Règne de Jafar",
+      "thumbnail_image_url": "https://api.lorcana.ravensburger.com/images/fr/set8/thumbnails/430de5b990c3415ae0d138d41c33eec2f64d57e6befe2364ddf4ca246815cf82.png",
+      "id": 8,
+      "sort_number": 10,
+      "type": "EXPANSION"
+    },
+    {
       "name": "Menace des profondeurs – Quête des Illumineurs",
       "thumbnail_image_url": "https://api.lorcana.ravensburger.com/images/fr/quest1/thumbnails/208c6dde446d436417afbfa8a9f53c12539c040932ae1a0030631ba47b6f6606.png",
       "id": 9,
@@ -56145,6 +56152,2684 @@
           "EMERALD",
           "SAPPHIRE"
         ]
+      },
+      {
+        "name": "Loulou",
+        "subtitle": "Canard trop cool",
+        "strength": 2,
+        "willpower": 3,
+        "quest_value": 2,
+        "rarity": "UNCOMMON",
+        "ink_cost": 3,
+        "author": "Federico Maria Cugliari",
+        "deck_building_id": "bfc4c593e544a6b0caf1cd7927b3176a1b84f051",
+        "culture_invariant_id": 1665,
+        "sort_number": 1661,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "Les serpents sont plutôt cool... Mais ça reste un piège assez classique.",
+        "rules_text": "DÉCLENCHER LE PIÈGE Tant que ce personnage est défié, le personnage le défiant subit -1.",
+        "card_identifier": "1/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/1_45a642090026aee6ecb6dc1a23df7e8eb21f8226.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/1_1fc94bb79015f56e1a05c98881b6d884a99493aa.jpg"
+          }
+        ],
+        "foil_detail_url": "https://api.lorcana.ravensburger.com/images/fr/set8/foil-detail/1468x2048/1_238c17b6ca71aaf67fa7047581f613fa9418550a.jpg",
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/1_baa3370be8c0fb830333f50801faf0a4bf687b08.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ],
+        "searchable_keywords": [
+          "Ducktales",
+          "La Bande à Picsou"
+        ]
+      },
+      {
+        "name": "Fifi",
+        "subtitle": "Adorable frimeur",
+        "strength": 4,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 4,
+        "author": "Federico Maria Cugliari",
+        "deck_building_id": "5e50b28dd46474c11749a046ee80e2cced3baca1",
+        "culture_invariant_id": 1666,
+        "sort_number": 1662,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "Des serpents? Qui tirent des lasers? Dans un repaire souterrain secret? Aucun problème!",
+        "rules_text": "",
+        "card_identifier": "2/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/2_0cd33af00b577872dab914a15d6eacc4a3a2d149.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/2_5c6afa8d76ddc4506cb02b25f0b98f69bac6c151.jpg"
+          }
+        ],
+        "foil_detail_url": "https://api.lorcana.ravensburger.com/images/fr/set8/foil-detail/1468x2048/2_8efe37594c8bfc84e5e06aa745ef35111c79619e.jpg",
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/2_28d52adb30cbfe163c1e8d2ff38135f1c251f450.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ],
+        "searchable_keywords": [
+          "Ducktales",
+          "La Bande à Picsou"
+        ]
+      },
+      {
+        "name": "Riri",
+        "subtitle": "Leader sérieux",
+        "strength": 2,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "UNCOMMON",
+        "ink_cost": 2,
+        "author": "Federico Maria Cugliari",
+        "deck_building_id": "bbdba91561e90d592503aba60cb421e17a31341a",
+        "culture_invariant_id": 1667,
+        "sort_number": 1663,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "Oubliez les serpents magiques. Il y a un moyen de sortir du piège!",
+        "rules_text": "JE CONNAIS LE CHEMIN Chaque fois que ce personnage est envoyé à l'aventure, le prochain personnage que vous jouez ce tour-ci vous coûte 1 de moins.",
+        "card_identifier": "3/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/3_8671426cca19eaffcd936173d3d9454cb5704b01.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/3_400036bc77b2a4e62b1754820fd08be19a5467c9.jpg"
+          }
+        ],
+        "foil_detail_url": "https://api.lorcana.ravensburger.com/images/fr/set8/foil-detail/1468x2048/3_d1970525d5be888c8f653e53ef0b8f9905f8296b.jpg",
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/3_97431facf6a0b060479741c9b2588e4e2f84df6a.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ],
+        "searchable_keywords": [
+          "Ducktales",
+          "La Bande à Picsou"
+        ]
+      },
+      {
+        "name": "Minnie",
+        "subtitle": "Défenseuse hardie",
+        "strength": 0,
+        "willpower": 8,
+        "quest_value": 1,
+        "rarity": "RARE",
+        "ink_cost": 4,
+        "author": "Aubrey Archer",
+        "deck_building_id": "1b3d746d7aa4f780ac8c228578c6f4d72b29685a",
+        "culture_invariant_id": 1670,
+        "sort_number": 1664,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Rempart"
+        ],
+        "subtypes": [
+          "Dreamborn",
+          "Héros"
+        ],
+        "flavor_text": "",
+        "rules_text": "Rempart (Ce personnage peut entrer en jeu épuisé. Lorsqu'il défie l'un de vos personnages, un personnage adverse doit, s'il le peut, choisir l'un de vos personnages avec Rempart.) BRAVOURE VÉRITABLE Ce personnage gagne +1 pour chaque dommage sur lui.",
+        "card_identifier": "6/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/6_09606a8fbdeb6669c141d496f5bebd9912168b6a.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/6_ad7f50ea3e581dfb1ae5612eb5a59dd7d15ee0e3.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/6_8178712cc67e446cb1f4faa2c13d9d2bb5805258.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "RUBY"
+        ]
+      },
+      {
+        "name": "Tiana",
+        "subtitle": "Talent naturel",
+        "strength": 2,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "RARE",
+        "ink_cost": 4,
+        "author": "Milica Celikovic",
+        "deck_building_id": "6b3948392fa9a30d9b83f0ea009651dc50ea2aae",
+        "culture_invariant_id": 1673,
+        "sort_number": 1665,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [
+          "Mélomane"
+        ],
+        "subtypes": [
+          "Storyborn",
+          "Héros",
+          "Princesse"
+        ],
+        "flavor_text": "",
+        "rules_text": "Mélomane 6 (Ce personnage est considéré comme ayant un coût de 6 pour chanter des chansons.) MÉLODIE CAPTIVANTE Chaque fois que vous jouez une chanson, chaque personnage adverse subit -1 jusqu'au début de votre prochain tour.",
+        "card_identifier": "9/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/9_e2c3673730545a1d49b3b9a7d1f5c375f8842c09.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/9_1c01343a393abc93360dcc61191d0c7b2e716cf8.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/9_f9c4ea05c6202404429ed7b555e9417e87ef391f.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ],
+        "searchable_keywords": [
+          "Princess and the Frog",
+          "La Princesse et la Grenouille"
+        ]
+      },
+      {
+        "name": "Lady",
+        "subtitle": "Chienne de famille",
+        "strength": 2,
+        "willpower": 2,
+        "quest_value": 2,
+        "rarity": "RARE",
+        "ink_cost": 3,
+        "author": "Erika Wiseman",
+        "deck_building_id": "6321f91ab33afe4ddca12636c0eb4a49d69bf917",
+        "culture_invariant_id": 1675,
+        "sort_number": 1666,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros"
+        ],
+        "flavor_text": "Lady est vraiment plus heureuse en compagnie de ceux qu'elle aime.",
+        "rules_text": "QUELQU'UN DONT ON DOIT S'OCCUPER Lorsque vous jouez ce personnage, vous pouvez jouer gratuitement un personnage coûtant 2 ou moins.",
+        "card_identifier": "11/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/11_798a79091866410ddeb852262e2ab7ab64edf330.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/11_28527f12b8e6580d84734e884327f757ceb51a0c.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/11_4a3d9933b25a976ba24338e4ab0ea438fcaa0411.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ],
+        "searchable_keywords": [
+          "Lady and the Tramp",
+          "La Belle et le Clochard"
+        ]
+      },
+      {
+        "name": "Perdita",
+        "subtitle": "Aux aguets",
+        "strength": 1,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 2,
+        "author": "Carmine Pucci",
+        "deck_building_id": "f122c7757ba00f7654f65a121fe801983148a4ab",
+        "culture_invariant_id": 1678,
+        "sort_number": 1667,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros"
+        ],
+        "flavor_text": "Où est passée la forêt? Ne vous éloignez pas, mes petits. Il y a quelque chose d'anormal ici.%—Perdita",
+        "rules_text": "MONTER LA GARDE Tant que vous avez un personnage Chiot en jeu, ce personnage-ci gagne +1.",
+        "card_identifier": "14/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/14_375b29f7426ba1ddd6581896a75f7446de7587b1.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/14_08090a0f026af8a9aea05f1036418b741a4d2647.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/14_d4f5ae54b293314d8c629f9d0fa845a21ba3d234.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ],
+        "searchable_keywords": [
+          "101 Dalmatians",
+          "Les 101 Dalmatiens"
+        ]
+      },
+      {
+        "name": "Chef Bogo",
+        "subtitle": "Officier au commandement",
+        "strength": 5,
+        "willpower": 5,
+        "quest_value": 1,
+        "rarity": "LEGENDARY",
+        "ink_cost": 6,
+        "author": "Nicola Saviori",
+        "deck_building_id": "9c728cf42b8669fbff70c74afadcb565ef3b0e1a",
+        "culture_invariant_id": 1682,
+        "sort_number": 1668,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn"
+        ],
+        "flavor_text": "",
+        "rules_text": "ENVOI DE RENFORTS Durant le tour d'un adversaire, chaque fois que l'un de vos personnages avec Rempart est banni, vous pouvez révéler la carte du dessus de votre pioche. S'il s'agit d'une carte Personnage avec un coût de 5 ou moins, vous pouvez la jouer gratuitement. Sinon, replacez-la sur votre pioche.",
+        "card_identifier": "18/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/18_88e71a6c6b40ff9a79b0298dbbed0cae3ef59998.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/18_c350a51b11b5f4b93d8792da0abf132484636819.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/18_a606a69d7d28761ab40aba1c8c9dcac33d859527.jpg",
+        "varnish_type": "HighGloss",
+        "varnish_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/gloss/1468x2048/18_f7680d591b50855f7c06c0b5ef585f8cfbe30d77.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ],
+        "searchable_keywords": [
+          "Zootropolis",
+          "Zootopie",
+          "Zootopia"
+        ]
+      },
+      {
+        "name": "Bruno Madrigal",
+        "subtitle": "Oracle chantant",
+        "strength": 3,
+        "willpower": 7,
+        "quest_value": 2,
+        "rarity": "SUPER",
+        "ink_cost": 7,
+        "author": "Milica Celikovic",
+        "deck_building_id": "af817278afe783681674103e4c50e09941209817",
+        "culture_invariant_id": 1684,
+        "sort_number": 1669,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [
+          "Alter"
+        ],
+        "subtypes": [
+          "Floodborn",
+          "Allié",
+          "Madrigal"
+        ],
+        "flavor_text": "",
+        "rules_text": "Alter 5 (Vous pouvez payer 5 pour jouer ce personnage sur l'un de vos personnages Bruno Madrigal.) UN AVENIR RADIEUX Chaque fois que ce personnage chante une chanson, vous pouvez piocher une carte pour chaque personnage que vous avez en jeu.",
+        "card_identifier": "20/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/20_1d4a98451e19e3d549bc7be5bf630de12e2f413a.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/20_28e5809fdd182b288f11c606f9cacb8d151e33a0.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/20_e438458b831bd26e04f6ab57d3ddc72310b6c294.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Encanto",
+          "Encanto : La Fantastique Famille Madrigal"
+        ]
+      },
+      {
+        "name": "Clochard",
+        "subtitle": "Voyou élégant",
+        "strength": 2,
+        "willpower": 8,
+        "quest_value": 2,
+        "rarity": "SUPER",
+        "ink_cost": 6,
+        "author": "Erika Wiseman",
+        "deck_building_id": "f9251288543cab07d29ed94183d3801f55983056",
+        "culture_invariant_id": 1686,
+        "sort_number": 1670,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Alter"
+        ],
+        "subtypes": [
+          "Floodborn",
+          "Héros"
+        ],
+        "flavor_text": "",
+        "rules_text": "Alter 4 (Vous pouvez payer 4 pour jouer ce personnage sur l'un de vos personnages Clochard.) GARDER SON SANG-FROID Durant le tour d'un adversaire, chaque fois que l'un de vos personnages est banni, vous pouvez piocher une carte.",
+        "card_identifier": "22/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/22_514dd35910351815b95431774dac6e154698f90a.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/22_53d217f1a373c34b29bd5778d1c3e3618345ad9d.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/22_5a7215dcce9798da7f8939bdc13a9bc0669a4daf.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "EMERALD"
+        ],
+        "searchable_keywords": [
+          "Lady and the Tramp",
+          "La Belle et le Clochard"
+        ]
+      },
+      {
+        "name": "Sa Sucrerie",
+        "subtitle": "Cauchemar de Sugar Rush",
+        "strength": 3,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "UNCOMMON",
+        "ink_cost": 3,
+        "author": "Joseph Buenning",
+        "deck_building_id": "d2cab8910ba9c6d3110900d1d62e58c1914b862a",
+        "culture_invariant_id": 1687,
+        "sort_number": 1671,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Méchant",
+          "Roi",
+          "Pilote"
+        ],
+        "flavor_text": "",
+        "rules_text": "UNE NOUVELLE ÉQUIPE Lorsque ce personnage est banni, vous pouvez renvoyer dans votre main une autre carte Pilote de votre défausse.",
+        "card_identifier": "23/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/23_52db1a29b420596494ec12026e9cf7394ea79131.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/23_321778c9d0a588755bc7c15e3e6a6b84a60c0908.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/23_2d7409eb2c9a4f3fd2b1c9c8af5471ff154d8942.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "RUBY"
+        ],
+        "searchable_keywords": [
+          "Wreck It Ralph",
+          "Les Mondes de Ralph"
+        ]
+      },
+      {
+        "name": "Patch",
+        "subtitle": "Chiot joueur",
+        "strength": 0,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "UNCOMMON",
+        "ink_cost": 1,
+        "author": "Oggy Christiansson",
+        "deck_building_id": "f8f789eb2731caf4efdb21cc3438d0dc6b1ab4cf",
+        "culture_invariant_id": 1689,
+        "sort_number": 1672,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [
+          "Hors d'atteinte"
+        ],
+        "subtypes": [
+          "Storyborn",
+          "Chiot"
+        ],
+        "flavor_text": "Le sable était bien plus amusant qu'il n'y paraissait!",
+        "rules_text": "Hors d'atteinte (Les adversaires ne peuvent pas choisir ce personnage, hormis pour un défi.) ABOIEMENTS DE CHIOT Tant que vous avez un autre personnage Chiot en jeu, ce personnage-ci gagne +1.",
+        "card_identifier": "25/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/25_8fd817876b461c7c6a9d08f4343f9cc0a7c121a8.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/25_9853b472903295c9b3fe1b51f934f59658f4e964.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/25_af883a3213f52cc266c75042e0469e7af75d0f0b.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "SAPPHIRE"
+        ],
+        "searchable_keywords": [
+          "101 Dalmatians",
+          "Les 101 Dalmatiens"
+        ]
+      },
+      {
+        "name": "Pluto",
+        "subtitle": "Ayant fait ses preuves",
+        "strength": 2,
+        "willpower": 7,
+        "quest_value": 2,
+        "rarity": "UNCOMMON",
+        "ink_cost": 6,
+        "author": "Raquel Villanueva",
+        "deck_building_id": "0c912a19d4e57cccd16d2d25e6d826cbb6f199b2",
+        "culture_invariant_id": 1692,
+        "sort_number": 1673,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "",
+        "rules_text": "AIDE AVEC JOIE Tant que ce personnage n'a aucun dommage sur lui, il gagne +2 et Soutien. (Lorsque ce personnage est envoyé à l'aventure, vous pouvez ajouter sa à celle d'un autre personnage au choix pour le reste de ce tour.)",
+        "card_identifier": "28/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/28_1af92dd74b527c587c821b3d134e5956ae127b14.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/28_06f7ae1181ab5b771bebe097a0d0f2259a939eb3.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/28_fb222ad421ce4a8b8e20fbe27259132356625cb9.jpg",
+        "card_sets": [
+          8,
+          10
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "STEEL"
+        ]
+      },
+      {
+        "name": "Volt",
+        "subtitle": "Abattu mais pas vaincu",
+        "strength": 0,
+        "willpower": 4,
+        "quest_value": 4,
+        "rarity": "RARE",
+        "ink_cost": 3,
+        "author": "Joy Ang / Jaime Puga",
+        "deck_building_id": "e040a528160f7b3956e6235a08255d4cfd7ef81a",
+        "culture_invariant_id": 1693,
+        "sort_number": 1674,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros"
+        ],
+        "flavor_text": "Il a juste besoin d'être SUPER EXCELLENT!%—Rhino",
+        "rules_text": "TOUS TES POUVOIRS ONT DISPARU Ce personnage entre en jeu épuisé.",
+        "card_identifier": "29/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/29_00e0e312f4291642b1efc8dd064e3194b324c2ab.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/29_b166ecc97ac3755bd8146ff655ec90af67379db2.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/29_c06c0b8dfb30e3c3af3ff85cb2b348156635adb4.jpg",
+        "card_sets": [
+          8,
+          10
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Volt, star malgré lui",
+          "Bolt"
+        ]
+      },
+      {
+        "name": "Lady",
+        "subtitle": "Chienne décidée",
+        "strength": 0,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "RARE",
+        "ink_cost": 1,
+        "author": "Therese Vildefall",
+        "deck_building_id": "106ec8559ac405ebee11dd588931147b5cc81ebd",
+        "culture_invariant_id": 1697,
+        "sort_number": 1675,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros"
+        ],
+        "flavor_text": "",
+        "rules_text": "SA MEUTE À ELLE Chaque fois que vous jouez un personnage, ce personnage-ci gagne +1 pour le reste de ce tour. PRENDRE L'INITIATIVE Tant que ce personnage a 3 ou plus, il gagne +2.",
+        "card_identifier": "33/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/33_2f06db30a19a2af37027036e267988dde2524337.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/33_686bf10ae9c1bfc05cd3f3da0042a8c0fc00d4fc.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/33_7167a43bcc09a9a0644aa87f9254a9108d21bdf5.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "EMERALD"
+        ],
+        "searchable_keywords": [
+          "Lady and the Tramp",
+          "La Belle et le Clochard"
+        ]
+      },
+      {
+        "name": "Alma Madrigal",
+        "subtitle": "Grand-mère en rédemption",
+        "strength": 5,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "UNCOMMON",
+        "ink_cost": 6,
+        "author": "Simone Buonfantino",
+        "deck_building_id": "e9f25b54329962c4e6a6b6b1c3fdd15db57fab7d",
+        "culture_invariant_id": 1698,
+        "sort_number": 1676,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Mentor",
+          "Madrigal"
+        ],
+        "flavor_text": "J’ai été trop dure, je m’en excuse.",
+        "rules_text": "MON MIRACLE, C’EST VOUS Une fois durant votre tour, lorsqu'un ou plusieurs de vos personnages chantent une chanson, vous pouvez redresser le ou les personnages qui viennent de chanter.",
+        "card_identifier": "34/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/34_7aad0ceb4b6b0b03815136cea8cbcd71b25b4259.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/34_96ab884e22a46a51704578d8cce74b386a4b8288.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/34_f2aefbfa7546b73beebda43a258227e22a6a6e43.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Encanto",
+          "Encanto : La Fantastique Famille Madrigal"
+        ]
+      },
+      {
+        "name": "Donald",
+        "subtitle": "Collectionneur de pièces",
+        "strength": 4,
+        "willpower": 8,
+        "quest_value": 2,
+        "rarity": "SUPER",
+        "ink_cost": 8,
+        "author": "Rianti Hidayat",
+        "deck_building_id": "dd6c52d4053aac638074d3abc199bab3ea390b4b",
+        "culture_invariant_id": 1701,
+        "sort_number": 1677,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros"
+        ],
+        "flavor_text": "",
+        "rules_text": "PAR ICI, PETIT COCHON Jouer ce personnage vous coûte 2 de moins pour chaque objet nommé La tirelire des neveux que vous avez en jeu. DE L'ARGENT PARTOUT Lorsque vous jouez ce personnage, vos autres personnages gagnent \" — Piochez une carte.\" pour le reste de ce tour.",
+        "card_identifier": "37/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/37_9266eaa4cf9a47048828d42b31400069eb75970b.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/37_cf68ddd42f9b0d9e47b1ab7b9e5bfdd1ddb34051.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/37_8dc3f56d1cad53b4499343e5f417b801ff5e9eef.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ]
+      },
+      {
+        "name": "Garde du palais",
+        "subtitle": "Sentinelle spectrale",
+        "strength": 1,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 1,
+        "author": "Eva Widermann",
+        "deck_building_id": "f1807bfd473e7be0f8010219734c4c6a9702ffd5",
+        "culture_invariant_id": 1709,
+        "sort_number": 1681,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Dissipation"
+        ],
+        "subtypes": [
+          "Dreamborn",
+          "Allié",
+          "Illusion"
+        ],
+        "flavor_text": "Toute la puissance de gardes ordinaires, mais sans leur insolence.%—Jafar",
+        "rules_text": "Dissipation (Lorsqu'un adversaire choisit ce personnage avec une action, bannissez-le.)",
+        "card_identifier": "45/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/45_07aef75bd0989806ae2df65445922580b5807333.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/45_365d32b3e8cfa110cc5d674da8a62c0d5abad870.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/45_f37b596bc17e446139c584523130c789c630e04a.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Madame Médusa",
+        "subtitle": "Partenaire perfide",
+        "strength": 3,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "UNCOMMON",
+        "ink_cost": 3,
+        "author": "Heidi Neunhoffer",
+        "deck_building_id": "320735e6ade9a3fa1537db3f280a6ae5318ee328",
+        "culture_invariant_id": 1711,
+        "sort_number": 1682,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Méchant"
+        ],
+        "flavor_text": "",
+        "rules_text": "DUPLICITÉ Lorsque vous jouez ce personnage, vous pouvez choisir un autre de vos personnages et lui infliger 2 dommages. Si vous le faites, choisissez un personnage coûtant 2 ou moins et renvoyez-le dans la main de son propriétaire.",
+        "card_identifier": "47/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/47_3dd4e0a673340ae358fad66ac2dfeea7ec061168.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/47_e6137eebe1d6f2c0d11c93ef860cd744989b5d6e.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/47_d02505b73d1ae063ca51d277546f0e33c52c99fc.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST",
+          "RUBY"
+        ],
+        "searchable_keywords": [
+          "Les Aventures de Bernard et Bianca",
+          "Rescuers"
+        ]
+      },
+      {
+        "name": "Abu",
+        "subtitle": "Apparition pachydermique",
+        "strength": 3,
+        "willpower": 7,
+        "quest_value": 1,
+        "rarity": "UNCOMMON",
+        "ink_cost": 6,
+        "author": "Grace Tran",
+        "deck_building_id": "fc278a703770bc359b9bcfe2f95aeb009697b0a3",
+        "culture_invariant_id": 1714,
+        "sort_number": 1683,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Dissipation"
+        ],
+        "subtypes": [
+          "Dreamborn",
+          "Allié",
+          "Illusion"
+        ],
+        "flavor_text": "",
+        "rules_text": "Dissipation (Lorsqu'un adversaire choisit ce personnage avec une action, bannissez-le.) TROMPE PRÉHENSILE chaque fois que ce personnage est envoyé à l'aventure, choisissez un personnage adverse et gagnez autant d'éclats de Lore que son.",
+        "card_identifier": "50/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/50_5907c4dcab4abe8a15de32354a639b86ac743a36.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/50_991bc8d518162e8cbb94d13b32698a8c70c12fb8.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/50_0374444b7ece2ca5ece2c6f5f57e96982508a08f.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST",
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Mégara",
+        "subtitle": "Fait partie du plan",
+        "strength": 2,
+        "willpower": 5,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 3,
+        "author": "Samanta Erdini",
+        "deck_building_id": "2eeeaeb7efb064ae1053aabc43dfb7e198c93218",
+        "culture_invariant_id": 1718,
+        "sort_number": 1684,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Dreamborn",
+          "Allié"
+        ],
+        "flavor_text": "Plus vite nous en aurons fini, plus vite je serai libre... de vous.",
+        "rules_text": "ALLIANCE FRAGILE Tant que vous avez un personnage nommé Hadès en jeu, ce personnage-ci gagne Offensif +2. (Lorsqu'il défie, ce personnage gagne +2.)",
+        "card_identifier": "54/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/54_e9597a0a6f8a06736459d19472eef7b3b10e1d16.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/54_8c246db168c52509460ea2b27ecb8490d34c513b.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/54_e85e4f755d6ff4f911059cdbf0c921a218222782.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Hercules",
+          "Hercule"
+        ]
+      },
+      {
+        "name": "Yelena",
+        "subtitle": "Cheffe des Northuldra",
+        "strength": 2,
+        "willpower": 3,
+        "quest_value": 2,
+        "rarity": "COMMON",
+        "ink_cost": 3,
+        "author": "Aisha Durmagambetova",
+        "deck_building_id": "9d1ce7675bbc9d3acf0c5fad0896029f068795e6",
+        "culture_invariant_id": 1719,
+        "sort_number": 1685,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "",
+        "rules_text": "NOUS N’AVONS CONFIANCE QU’EN LA NATURE Lorsque vous jouez ce personnage, choisissez un personnage qui gagne Offensif +2 pour le reste de ce tour. (Lorsqu'il défie, ce personnage gagne +2.)",
+        "card_identifier": "55/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/55_e0c833f049adf0060a0f3c2646daaa359856a07f.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/55_2815f64466f5aa2e0a959bd06e67039d55d17b6b.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/55_29f6f353f78f5ca52ed974051541d051e2c04c96.jpg",
+        "card_sets": [
+          8,
+          10
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "La Reine des Neiges",
+          "Frozen"
+        ]
+      },
+      {
+        "name": "Ryder",
+        "subtitle": "Infiltré agile",
+        "strength": 3,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 4,
+        "author": "Lisanne Koeteeuw",
+        "deck_building_id": "92a8bffc338852c3c4d649bd891f34fb5462730e",
+        "culture_invariant_id": 1720,
+        "sort_number": 1686,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Insaisissable"
+        ],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "Bon sang, c'est quoi son problème à ce grand sultan? Il ne peut pas mettre des escaliers comme tout le monde?",
+        "rules_text": "Insaisissable (Seuls les personnages avec Insaisissable peuvent défier ce personnage.)",
+        "card_identifier": "56/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/56_58cc3d205bead0855d22624471f65cf50b1eff7a.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/56_6263544b7720da0c41118f667e7b37365a3ab0ad.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/56_c2539c6d40f0fb0a57c805a9c350bce0803bc1e2.jpg",
+        "card_sets": [
+          8,
+          10
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "La Reine des Neiges",
+          "Frozen"
+        ]
+      },
+      {
+        "name": "Bambi",
+        "subtitle": "Prince de la forêt",
+        "strength": 3,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 2,
+        "author": "Heidi Neunhoffer",
+        "deck_building_id": "b86ae44b8557391bb2fad178a0b3158b2d455c16",
+        "culture_invariant_id": 1721,
+        "sort_number": 1687,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros",
+          "Prince"
+        ],
+        "flavor_text": "En grandissant, il commence à comprendre ses responsabilités envers toutes les créatures de la forêt.",
+        "rules_text": "",
+        "card_identifier": "57/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/57_953bba4e9d07c7e787604f3d06357f7479f19937.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/57_e01ee6a1df7915514d05dd70a4e4adb4053c93dd.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/57_2fb9352dd7fdc291bcaf74564ac1cb77c46cf23d.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Bambi"
+        ]
+      },
+      {
+        "name": "Poe De Sortilège",
+        "subtitle": "Frère de Miss Tick",
+        "strength": 3,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 3,
+        "author": "Kamil Murzyn",
+        "deck_building_id": "0a598d3837a9b3e9b7680b12d5be8e4b2f5f202e",
+        "culture_invariant_id": 1722,
+        "sort_number": 1688,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié",
+          "Mage"
+        ],
+        "flavor_text": "Ma sœur chérie, si on transforme tous les habitants en grenouille, qui va récolter les navets et nous apporter de l’or ?",
+        "rules_text": "",
+        "card_identifier": "58/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/58_b5fcb5a5b69ed25dd1ac71db4e95140507e4715d.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/58_aa44fc589f8b220faa3d5761c08ab18408990ce3.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/58_d4f40ed56384d25985c2018a31768806aa4e3dc6.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Ducktales",
+          "La Bande à Picsou"
+        ]
+      },
+      {
+        "name": "Pinocchio",
+        "subtitle": "Avec des liens",
+        "strength": 0,
+        "willpower": 4,
+        "quest_value": 2,
+        "rarity": "LEGENDARY",
+        "ink_cost": 4,
+        "author": "Hedvig H-S",
+        "deck_building_id": "d1396676855ab97c647e729d53fd35c6e0ab3eda",
+        "culture_invariant_id": 1725,
+        "sort_number": 1689,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Insaisissable"
+        ],
+        "subtypes": [
+          "Storyborn",
+          "Héros"
+        ],
+        "flavor_text": "",
+        "rules_text": "Insaisissable (Seuls les personnages avec Insaisissable peuvent défier ce personnage.) NE FAISONS PAS UN BRUIT Une fois durant votre tour, lorsque vous redressez ce personnage, vous pouvez piocher une carte.",
+        "card_identifier": "61/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/61_417850ae6def4a92d4fc2d851d1e69086d6f11d0.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/61_8cf731afc3559586fdb0a3a8f104b01cf5f5a801.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/61_19d171b8904653c6e4326c7e90404e5a44b75536.jpg",
+        "varnish_type": "HighGloss",
+        "varnish_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/gloss/1468x2048/61_e8ef51a382ebd123f56a5bf9144275cd13725d6d.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Pinocchio"
+        ]
+      },
+      {
+        "name": "Néron",
+        "subtitle": "Redoutable crocodile",
+        "strength": 2,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 2,
+        "author": "Teresita Q. / SCG",
+        "deck_building_id": "286d7ab0e04b6c6591e24e7e4aefd5e0fd472e86",
+        "culture_invariant_id": 1729,
+        "sort_number": 1690,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "Il est identique à Brutus en termes de tempérament et de dentition.",
+        "rules_text": "ET MESQUIN — Déplacez 1 dommage de ce personnage-ci sur un personnage adverse de votre choix.",
+        "card_identifier": "65/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/65_b6cfd34ff20e86926c06eef8df166f4b5f7e2935.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/65_2b33d00823dfcb4871312394586f5c0617a97a96.jpg"
+          }
+        ],
+        "foil_detail_url": "https://api.lorcana.ravensburger.com/images/fr/set8/foil-detail/1468x2048/65_267da77608af8281ff70bbed63f51895a6840981.jpg",
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/65_4dfeaeb114f01b5ebb45fda90fc88497eda62918.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Les Aventures de Bernard et Bianca",
+          "Rescuers"
+        ]
+      },
+      {
+        "name": "Jafar",
+        "subtitle": "Grand Sultan de Lorcana",
+        "strength": 4,
+        "willpower": 4,
+        "quest_value": 3,
+        "rarity": "SUPER",
+        "ink_cost": 5,
+        "author": "Cristian Romero",
+        "deck_building_id": "50e1c204657b785ab5879cee057fe3009115fd88",
+        "culture_invariant_id": 1738,
+        "sort_number": 1691,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [
+          "Dreamborn",
+          "Méchant",
+          "Roi",
+          "Mage"
+        ],
+        "flavor_text": "",
+        "rules_text": "POUVOIR DES TÉNÈBRES Chaque fois que ce personnage est envoyé à l'aventure, vous pouvez piocher une carte, puis défausser une carte. Si vous défaussez une carte Personnage Illusion de cette manière, vous pouvez la jouer gratuitement.",
+        "card_identifier": "74/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/74_7b713bdecfbebc1f1a1d951f770122e4b9eea4bf.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/74_9be75afbfc28a2cbeb9ed3795e4c86c30ab83ada.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/74_e98ac77fd657ba3e892b17d1e185241fe0ca5683.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST",
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Fleur",
+        "subtitle": "Mouffette timide",
+        "strength": 3,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "RARE",
+        "ink_cost": 3,
+        "author": "Sandra Rios",
+        "deck_building_id": "64bcc8dbec56c1a40e869de72bbf82705d067936",
+        "culture_invariant_id": 1740,
+        "sort_number": 1692,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "Sa nature douce surpasse toutes les fleurs de la prairie.",
+        "rules_text": "À LA RECHERCHE D'AMIS Chaque fois que vous jouez un autre personnage, regardez la carte du dessus de votre pioche. Placez-la sur ou sous votre pioche.",
+        "card_identifier": "76/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/76_6c9ea86516bb55cdfc40a23e314b99e843dca559.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/76_93d3b2c4c9a2f2666f40b4bb00ba79fa5b1d35fa.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/76_87c210f5be7e479d418e5f7dd10fd7c300c47c61.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Bambi"
+        ]
+      },
+      {
+        "name": "Clochard",
+        "subtitle": "Gardien observateur",
+        "strength": 3,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 3,
+        "author": "Edu Francisco",
+        "deck_building_id": "387626e5bd66b83cacd57f2c76f83f9a8e014257",
+        "culture_invariant_id": 1751,
+        "sort_number": 1697,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros"
+        ],
+        "flavor_text": "Un simple coup d'œil sur les petites traces et son instinct protecteur se réveilla.",
+        "rules_text": "COMMENT ON Y VA ? Lorsque vous jouez ce personnage, choisissez un personnage qui gagne Hors d'atteinte jusqu'au début de votre prochain tour. (Les adversaires ne peuvent pas choisir ce personnage, hormis pour un défi.)",
+        "card_identifier": "87/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/87_c2d951b6909a0c343f81df5b6920e6dc79acf225.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/87_4c7dbc62d479fd03e50ee320fb3205658adcdb04.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/87_46f12304520c8736ba68fb2e52a9c549367f7219.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "EMERALD"
+        ],
+        "searchable_keywords": [
+          "Lady and the Tramp",
+          "La Belle et le Clochard"
+        ]
+      },
+      {
+        "name": "Raiponce",
+        "subtitle": "Grimpeuse en haute altitude",
+        "strength": 2,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "LEGENDARY",
+        "ink_cost": 5,
+        "author": "Alice Pisoni",
+        "deck_building_id": "d96ca6b70852fff25f38145aaf2d764a4e530e4f",
+        "culture_invariant_id": 1765,
+        "sort_number": 1698,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Insaisissable"
+        ],
+        "subtypes": [
+          "Dreamborn",
+          "Héros",
+          "Princesse"
+        ],
+        "flavor_text": "",
+        "rules_text": "Insaisissable (Seuls les personnages avec Insaisissable peuvent défier ce personnage.) ENROULÉ Chaque fois que ce personnage est envoyé à l'aventure, choisissez un personnage adverse qui ne peut pas être envoyé à l'aventure durant son prochain tour.",
+        "card_identifier": "101/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/101_99e810184acabd8bd048be48bc66979b1a30c5ff.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/101_b29c2dc7d59a9a12a7feaa21f0fae7e69a70979e.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/101_db12d9fbc006d6844453f0055c17eb494666e4a6.jpg",
+        "varnish_type": "HighGloss",
+        "varnish_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/gloss/1468x2048/101_c7b5be4103991ccddd2987835df6d3c242ca4ea5.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "EMERALD"
+        ],
+        "searchable_keywords": [
+          "Tangled",
+          "Raiponce"
+        ]
+      },
+      {
+        "name": "Le Loir",
+        "subtitle": "Facilement inquiet",
+        "strength": 1,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "UNCOMMON",
+        "ink_cost": 2,
+        "author": "Joel DuQue",
+        "deck_building_id": "f968b2b0712de866dd279b16a93ac01a742952af",
+        "culture_invariant_id": 1767,
+        "sort_number": 1699,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn"
+        ],
+        "flavor_text": "Le thé est fort, même si lui ne l'est pas.",
+        "rules_text": "TRÈS GROSSIER Lorsque vous jouez ce personnage, vous pouvez choisir un personnage et placer 1 dommage sur lui.",
+        "card_identifier": "103/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/103_694f2ef64aabcc77af50f3102b19afb7b6baf947.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/103_d3e2695da9ff38e626e0914e60237a10bde12a71.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/103_5729b65da3b8861d18d14312db05b9d73f075c64.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "EMERALD",
+          "RUBY"
+        ],
+        "searchable_keywords": [
+          "Alice au Pays des Merveilles",
+          "Alice in Wonderland"
+        ]
+      },
+      {
+        "name": "Hiro Hamada",
+        "subtitle": "Penseur intuitif",
+        "strength": 1,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "UNCOMMON",
+        "ink_cost": 2,
+        "author": "Kendall Hale",
+        "deck_building_id": "b2bfe44966d9b017ebefa67ca35d9d63b6f31262",
+        "culture_invariant_id": 1770,
+        "sort_number": 1700,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros",
+          "Inventeur"
+        ],
+        "flavor_text": "",
+        "rules_text": "VOYEZ LES CHOSES SOUS UN AUTRE ANGLE — Choisissez un personnage Floodborn et redressez-le.",
+        "card_identifier": "106/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/106_c6b6be16eb1925f6036ec4e7c97bdd2a15f9225c.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/106_833c9ec4a7dd8f0c02726d76d5d9aac22517cd2e.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/106_3c4ee5df54dc83ebbf9bc85c3ed1ee97e384d5f9.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "EMERALD",
+          "SAPPHIRE"
+        ],
+        "searchable_keywords": [
+          "Big Hero 6"
+        ]
+      },
+      {
+        "name": "Don Carnage",
+        "subtitle": "Chef des pirates de l’air",
+        "strength": 3,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "UNCOMMON",
+        "ink_cost": 3,
+        "author": "Leonardo Giammichele",
+        "deck_building_id": "0dc717cd37ae1be2d1173b144c114628a1e411d5",
+        "culture_invariant_id": 1772,
+        "sort_number": 1701,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [
+          "Insaisissable"
+        ],
+        "subtypes": [
+          "Storyborn",
+          "Méchant",
+          "Prince",
+          "Pirate"
+        ],
+        "flavor_text": "",
+        "rules_text": "Insaisissable (Seuls les personnages avec Insaisissable peuvent défier ce personnage.) RAILLERIE MÉPRISANTE Chaque fois que vous jouez une action qui n'est pas une chanson, choisissez un personnage adverse qui gagne Combattant durant son prochain tour. (Ce personnage ne peut pas être envoyé à l'aventure et doit défier à chaque tour s'il le peut.)",
+        "card_identifier": "108/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/108_b9a608160304caa12f5bdd3e422aab929a33e70f.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/108_5be06862df2d1447eee0341be2d8a65ceb895669.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/108_50b1b4b3396813de8c25d023767f70a77090df97.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "EMERALD",
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Talespin",
+          "Super Baloo"
+        ]
+      },
+      {
+        "name": "Capitaine Crochet",
+        "subtitle": "Le roi des pirates",
+        "strength": 4,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "RARE",
+        "ink_cost": 5,
+        "author": "Kenneth Anderson",
+        "deck_building_id": "d5b15fd6dd19340f237112bdc1e581bdaa0a13ea",
+        "culture_invariant_id": 1773,
+        "sort_number": 1702,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Alter"
+        ],
+        "subtypes": [
+          "Floodborn",
+          "Méchant",
+          "Roi",
+          "Pirate",
+          "Capitaine"
+        ],
+        "flavor_text": "",
+        "rules_text": "Alter 3 (Vous pouvez payer 3 pour jouer ce personnage sur l'un de vos personnages Capitaine Crochet.) DONNEZ TOUT CE QUE VOUS AVEZ! Une fois durant votre tour, lorsqu'un personnage adverse subit un dommage ou plus, vos personnages Pirate gagnent +2 et Résistance +2 pour le reste de ce tour. (Les dommages qui leur sont infligés sont réduits de 2.)",
+        "card_identifier": "109/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/109_84aac963824f4a7534c32d356d6b8cdef7128c97.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/109_eddbf0c9e394644c67f5750785d4858d809e6555.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/109_1efc529218f2d4ceb4d4d2dbc0c6e6c42bd42158.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "EMERALD",
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Peter Pan"
+        ]
+      },
+      {
+        "name": "Honey Lemon",
+        "subtitle": "Catalyseuse costumée",
+        "strength": 3,
+        "willpower": 3,
+        "quest_value": 2,
+        "rarity": "RARE",
+        "ink_cost": 4,
+        "author": "Adam Ford",
+        "deck_building_id": "c001c7ba8f36751f50f1faa854d4d3a307a0e02c",
+        "culture_invariant_id": 1775,
+        "sort_number": 1703,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros",
+          "Inventeur"
+        ],
+        "flavor_text": "",
+        "rules_text": "C'EST PARTI! Chaque fois que vous jouez un personnage Floodborn en utilisant sa capacité Alter, vous pouvez choisir un personnage et le renvoyer dans la main de son propriétaire.",
+        "card_identifier": "111/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/111_81932ea3d5406cdb8b33dda288e11078fb7e42cc.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/111_922f941d4f483601f230163176339b7c23709aa1.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/111_fececb27ae970c8b2234e995b3a93bea560bf80b.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "EMERALD",
+          "SAPPHIRE"
+        ],
+        "searchable_keywords": [
+          "Big Hero 6"
+        ]
+      },
+      {
+        "name": "Jock",
+        "subtitle": "Oncle attentif",
+        "strength": 3,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 4,
+        "author": "Raquel Villanueva",
+        "deck_building_id": "9c55a800d6a784ae7201366f10c1d17a618ac0f9",
+        "culture_invariant_id": 1776,
+        "sort_number": 1704,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "Installez-vous, les petits, et laissez Oncle Jock vous raconter une histoire à propos d’Illumineurs et de leur folle aventure...",
+        "rules_text": "LA VOIX DE L'EXPÉRIENCE Lorsque vous jouez ce personnage, si vous avez 3 autres personnages en jeu ou plus, gagnez 2 éclats de Lore.",
+        "card_identifier": "112/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/112_9bbd4f9b55b0fc364a22684fd74d9731e3dfc097.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/112_b399eb4f78870d17e0a9363d9016ee7cebb0edd4.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/112_08ab62941e4487f10b64e7fe9b1a60b8a4d80f43.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "EMERALD"
+        ],
+        "searchable_keywords": [
+          "Lady and the Tramp",
+          "La Belle et le Clochard"
+        ]
+      },
+      {
+        "name": "Vanellope von Schweetz",
+        "subtitle": "Bolide culotté",
+        "strength": 3,
+        "willpower": 1,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 2,
+        "author": "French Carlomagno",
+        "deck_building_id": "f688dbd85d7d9d0deb20a991bf4299135b286ae0",
+        "culture_invariant_id": 1788,
+        "sort_number": 1706,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Insaisissable"
+        ],
+        "subtypes": [
+          "Storyborn",
+          "Héros",
+          "Princesse",
+          "Pilote"
+        ],
+        "flavor_text": "Je peux affronter tout ce que vous pouvez m'envoyer... Minute, ce sont des serpents avec des lasers? Mais c'est le meilleur circuit de tous les temps!",
+        "rules_text": "Insaisissable (Seuls les personnages avec Insaisissable peuvent défier ce personnage.)",
+        "card_identifier": "124/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/124_11891497d79abf5a5044bd052d658caffffe8753.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/124_e8edfbd879e1c40344e9b26935e062508ef310ef.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/124_500662678ecc3fda049bca29621b7558902ff95a.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "RUBY"
+        ],
+        "searchable_keywords": [
+          "Wreck It Ralph",
+          "Les Mondes de Ralph"
+        ]
+      },
+      {
+        "name": "Brutus",
+        "subtitle": "Redoutable crocodile",
+        "strength": 4,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 4,
+        "author": "Teresita Q. / SCG",
+        "deck_building_id": "01e730b5e5ab7138fbadd2610b5ad30a92c6e5e5",
+        "culture_invariant_id": 1789,
+        "sort_number": 1707,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "Il est identique à Néron en termes de cruauté et d'élégance.",
+        "rules_text": "MALVEILLANT Durant votre tour, lorsque ce personnage est banni, si l'un de vos personnages a subi un dommage ou plus ce tour-ci, gagnez 2 éclats de Lore.",
+        "card_identifier": "125/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/125_55acb910ddfaeaa12559869ffeccdb9b0b156b46.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/125_1f4bc0221fbafd0d334bcd6c7dc928227ff48c82.jpg"
+          }
+        ],
+        "foil_detail_url": "https://api.lorcana.ravensburger.com/images/fr/set8/foil-detail/1468x2048/125_d94bc4d25eb5ab034c22c50fb0b83c3409d6af2e.jpg",
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/125_6f075b7c2412971c8f9d8e06b3f9d6ec407f035b.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "RUBY"
+        ],
+        "searchable_keywords": [
+          "Les Aventures de Bernard et Bianca",
+          "Rescuers"
+        ]
+      },
+      {
+        "name": "Panpan",
+        "subtitle": "Lapereau",
+        "strength": 0,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "UNCOMMON",
+        "ink_cost": 2,
+        "author": "Oggy Christiansson",
+        "deck_building_id": "18380961ea65710ae50b2e4dec656d96cb63f860",
+        "culture_invariant_id": 1798,
+        "sort_number": 1708,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "Allez! Montrons à ce vil et vieux sultan de quoi on est capable.",
+        "rules_text": "TU PEUX LE FAIRE ! — Choisissez un personnage qui gagne +3 pour le reste de ce tour.",
+        "card_identifier": "134/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/134_a445145c46edc5cac516ee6e4c5219ab3614f1ba.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/134_471a137b3bd0cd1e72721fe9cc75156ef31c50f0.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/134_97e40a498a06f7081b68cc7af7e814b9e81bb7d3.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "RUBY"
+        ],
+        "searchable_keywords": [
+          "Bambi"
+        ]
+      },
+      {
+        "name": "Mulan",
+        "subtitle": "Chargeant droit devant",
+        "strength": 3,
+        "willpower": 3,
+        "quest_value": 0,
+        "rarity": "SUPER",
+        "ink_cost": 4,
+        "author": "Gonzalo Kenny",
+        "deck_building_id": "9c393a7998141f73d43ba96eda262c943deb3402",
+        "culture_invariant_id": 1805,
+        "sort_number": 1709,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [
+          "Combattant"
+        ],
+        "subtypes": [
+          "Storyborn",
+          "Héros",
+          "Princesse"
+        ],
+        "flavor_text": "",
+        "rules_text": "Combattant (Ce personnage ne peut pas être envoyé à l'aventure et doit défier à chaque tour s'il le peut.) ACCÉLÉRATION Durant votre tour, ce personnage gagne Insaisissable. (Il peut défier des personnages avec Insaisissable.) LONGUE PORTÉE Ce personnage peut défier les personnages redressés.",
+        "card_identifier": "141/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/141_3609900f7849a3512726469d30fef414f2f7cce8.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/141_40e85cecd4536ff464c8ab13f0932fa4ab7d945c.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/141_7579ca84d12dea8138dda64c3501fda7c1457704.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "RUBY",
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Mulan"
+        ]
+      },
+      {
+        "name": "Monsieur Hibou",
+        "subtitle": "Voisin acariâtre",
+        "strength": 2,
+        "willpower": 2,
+        "quest_value": 2,
+        "rarity": "COMMON",
+        "ink_cost": 2,
+        "author": "James Rey Sanchez",
+        "deck_building_id": "1404588ec3b9894cdc382d1638ca43bd9516a189",
+        "culture_invariant_id": 1808,
+        "sort_number": 1710,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "Du sable? Dans la forêt? Je parie qu'un vilain magicien est en train de préparer un mauvais coup. Bon, ce ne sont pas mes affaires. Je retourne me coucher.",
+        "rules_text": "",
+        "card_identifier": "144/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/144_acc4be6b9a74a14ece28df876caef6f8da4ba128.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/144_a98c3f95bd3bde340c16fe1caee98ddf1dbcd84c.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/144_f75097489719f6042f10a92862c4122d8e86267a.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "RUBY"
+        ],
+        "searchable_keywords": [
+          "Bambi"
+        ]
+      },
+      {
+        "name": "Jasmine",
+        "subtitle": "Infiltrée pleine de ressources",
+        "strength": 1,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 1,
+        "author": "Joseph Buenning",
+        "deck_building_id": "d9346b8c7971938f233e5ebd49b2b6c5a02edb3f",
+        "culture_invariant_id": 1826,
+        "sort_number": 1712,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros",
+          "Princesse"
+        ],
+        "flavor_text": "",
+        "rules_text": "JUSTE CE QU'IL VOUS FAUT Lorsque vous jouez ce personnage, vous pouvez choisir un autre personnage qui gagne Résistance +1 jusqu'au début de votre prochain tour. (Les dommages qui lui sont infligés sont réduits de 1.)",
+        "card_identifier": "162/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/162_469382571f3d498b6121d67f6dbc588e9c8f4e8a.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/162_50906508e36c34d052dbb4f86b7909a5c868c43a.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/162_01bf574bd2a7c6a449c5dc375bd2069cfb2d86c7.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "SAPPHIRE"
+        ],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Bernard",
+        "subtitle": "Paré à toute éventualité",
+        "strength": 2,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "UNCOMMON",
+        "ink_cost": 2,
+        "author": "McKay Anderson",
+        "deck_building_id": "75a38e9bf91e99d60dc0c4257bda349a11ad414d",
+        "culture_invariant_id": 1833,
+        "sort_number": 1713,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros"
+        ],
+        "flavor_text": "Miss Bianca, venez voir un peu ce que j’ai trouvé !",
+        "rules_text": "IL FAUT NOUS Y RENDRE SANS PLUS TARDER Lorsque vous jouez ce personnage, si vous avez un personnage Allié en jeu, vous pouvez piocher une carte.",
+        "card_identifier": "169/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/169_0d505f5070f6584e2e5b67a92376a3a413487b78.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/169_ef3b89e3ddb2604750b09e50c21216ad320b2bfa.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/169_6cf952de43f2de25fbcb6d4dba4670e569ba8c3d.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "SAPPHIRE",
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Les Aventures de Bernard et Bianca",
+          "Rescuers"
+        ]
+      },
+      {
+        "name": "Aladdin",
+        "subtitle": "Protecteur vigilant",
+        "strength": 1,
+        "willpower": 9,
+        "quest_value": 1,
+        "rarity": "RARE",
+        "ink_cost": 6,
+        "author": "Marcel Berg",
+        "deck_building_id": "37c91d4c1e7468929e01ddc735e84693e87bfe36",
+        "culture_invariant_id": 1834,
+        "sort_number": 1714,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Rempart"
+        ],
+        "subtypes": [
+          "Dreamborn",
+          "Héros",
+          "Prince"
+        ],
+        "flavor_text": "",
+        "rules_text": "Rempart (Ce personnage peut entrer en jeu épuisé. Lorsqu'il défie l'un de vos personnages, un personnage adverse doit, s'il le peut, choisir l'un de vos personnages avec Rempart.) PASSAGE SÛR Chaque fois que l'un de vos personnages Allié est envoyé à l'aventure, vous pouvez retirer jusqu'à 2 dommages de ce personnage-ci.",
+        "card_identifier": "170/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/170_939da2604c58265f4c19714aed0480736e55c95d.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/170_354edb8ddc67a82ca228c63a51ffade1a8b64b78.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/170_13cdc96b9d38b2c245bccf31e65c3855e05a8b22.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "SAPPHIRE",
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Jasmine",
+        "subtitle": "Stratège fiable",
+        "strength": 2,
+        "willpower": 5,
+        "quest_value": 1,
+        "rarity": "SUPER",
+        "ink_cost": 4,
+        "author": "Hedvig H-S",
+        "deck_building_id": "8e61e3ca51b3ebb4328a02e52cc3c45757b3e641",
+        "culture_invariant_id": 1835,
+        "sort_number": 1715,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Alter"
+        ],
+        "subtypes": [
+          "Floodborn",
+          "Héros",
+          "Princesse"
+        ],
+        "flavor_text": "",
+        "rules_text": "Alter 2 (Vous pouvez payer 2 pour jouer ce personnage sur l'un de vos personnages Jasmine.) TOUJOURS À PLANIFIER Chaque fois que ce personnage est envoyé à l'aventure, regardez les 3 cartes du dessus de votre pioche. Vous pouvez révéler une carte Personnage Allié et la placer dans votre main. Placez les autres cartes sous votre pioche, dans l'ordre de votre choix.",
+        "card_identifier": "171/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/171_99c025686f1b1069140ee5e197fadf4ffb97a7b1.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/171_940be5c65b58363d1c3915ba4c9d65c095afc955.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/171_8c2d34703a50c34e8291968037f6377221d939ac.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "SAPPHIRE",
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Jumba Jookiba",
+        "subtitle": "Scientifique analytique",
+        "strength": 1,
+        "willpower": 6,
+        "quest_value": 2,
+        "rarity": "UNCOMMON",
+        "ink_cost": 4,
+        "author": "Malia Ewart",
+        "deck_building_id": "aa046bb8f74eef728b325aef9bbcd61e8e6eedc4",
+        "culture_invariant_id": 1837,
+        "sort_number": 1716,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Alien",
+          "Inventeur"
+        ],
+        "flavor_text": "Cette petite chose a un design beaucoup plus rudimentaire que si je l'avais créée. Mais si vous avez précipité son développement, c'est logique.",
+        "rules_text": "",
+        "card_identifier": "173/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/173_f81f9c6bb64ff28e69c64d54b4600a5555655d3a.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/173_63375546b6ce1a77c7f7c78c3d56e343b0856fc2.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/173_196fc8adad4f7f5d72db04587df4062c753b147e.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "SAPPHIRE"
+        ],
+        "searchable_keywords": [
+          "Lilo et Stitch",
+          "Lilo and Stitch"
+        ]
+      },
+      {
+        "name": "Tapis Volant",
+        "subtitle": "Apparition tapissière",
+        "strength": 2,
+        "willpower": 4,
+        "quest_value": 2,
+        "rarity": "COMMON",
+        "ink_cost": 3,
+        "author": "Andrea Parisi",
+        "deck_building_id": "0e0dd82cdf94b229510d946d0e2f25817f051751",
+        "culture_invariant_id": 1847,
+        "sort_number": 1717,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Dissipation"
+        ],
+        "subtypes": [
+          "Dreamborn",
+          "Allié",
+          "Illusion"
+        ],
+        "flavor_text": "",
+        "rules_text": "Dissipation (Lorsqu'un adversaire choisit ce personnage avec une action, bannissez-le.) FORCE SPECTRALE Vos autres personnages Illusion gagnent Offensif +1. (Lorsqu'ils défient, ces personnages gagnent +1.)",
+        "card_identifier": "183/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/183_0e1436d3f50f5087c5920a4a36c4f6f6cdc85bbc.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/183_8f4cd433ff6c751e464d47ee547838ac12a02313.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/183_ebb0f712ff3a2a92db0fbfda34c247c91be139e4.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Capitaine Crochet",
+        "subtitle": "Duelliste aguerri",
+        "strength": 1,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "COMMON",
+        "ink_cost": 1,
+        "author": "Ornella Savarese",
+        "deck_building_id": "296f4ed274c9b83418b64ea35bcc8ffc4a4a5dc3",
+        "culture_invariant_id": 1850,
+        "sort_number": 1718,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Offensif"
+        ],
+        "subtypes": [
+          "Dreamborn",
+          "Méchant",
+          "Pirate",
+          "Capitaine"
+        ],
+        "flavor_text": "Comment oses-tu? Prépare tes armes, gredin!",
+        "rules_text": "Offensif +2 (Lorsqu'il défie, ce personnage gagne +2.)",
+        "card_identifier": "186/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/186_691d46f84bde070bec2f28efc83f699e5a979379.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/186_089187ba4365270fa6d65a3c9077b730151e8886.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/186_e0190beb2d9779432c3b8d49ca86309cdaf2a099.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Peter Pan"
+        ]
+      },
+      {
+        "name": "Stitch",
+        "subtitle": "Fauteur de trouble extraterrestre",
+        "strength": 3,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "RARE",
+        "ink_cost": 4,
+        "author": "Jeanne Plounevez / Andrew Theophilopoulos",
+        "deck_building_id": "25f0dc4e3fd1b1b13365fcf75768ebd9490bc9d6",
+        "culture_invariant_id": 1864,
+        "sort_number": 1719,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros",
+          "Alien"
+        ],
+        "flavor_text": "Ah! Voilà enfin une bonne façon d'utiliser ses instincts destructeurs.%—Jumba Jookiba",
+        "rules_text": "J’AI GAGNÉ! Durant votre tour, chaque fois que ce personnage en bannit un autre via un défi, vous pouvez piocher une carte et gagner 1 éclat de Lore.",
+        "card_identifier": "200/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/200_325f313754dc9227d7303541c1cb896d36926fa6.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/200_2ca6af8f852074107624eff7e6c915529a2a23f8.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/200_7b30a569a16c00652f6a07233f551c0ea132a0ab.jpg",
+        "card_sets": [
+          8,
+          10
+        ],
+        "magic_ink_colors": [
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Lilo et Stitch",
+          "Lilo and Stitch"
+        ]
+      },
+      {
+        "name": "Jasmine",
+        "subtitle": "Stratège fiable",
+        "strength": 2,
+        "willpower": 5,
+        "quest_value": 1,
+        "rarity": "ENCHANTED",
+        "ink_cost": 4,
+        "author": "Viv Tanner",
+        "deck_building_id": "8e61e3ca51b3ebb4328a02e52cc3c45757b3e641",
+        "culture_invariant_id": 1885,
+        "sort_number": 1721,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Alter"
+        ],
+        "subtypes": [
+          "Floodborn",
+          "Héros",
+          "Princesse"
+        ],
+        "flavor_text": "",
+        "rules_text": "Alter 2 (Vous pouvez payer 2 pour jouer ce personnage sur l'un de vos personnages Jasmine.) TOUJOURS À PLANIFIER Chaque fois que ce personnage est envoyé à l'aventure, regardez les 3 cartes du dessus de votre pioche. Vous pouvez révéler une carte Personnage Allié et la placer dans votre main. Placez les autres cartes sous votre pioche, dans l'ordre de votre choix.",
+        "card_identifier": "221/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/221_78c807046a5c25b31cd5c4428b444a7bcf61a959.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/221_b8be2d34d0bf2f81791bf4dd5b4b164a5be426d0.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/221_d55176c8b3522e30ef0c5893f4a750d89c8a498a.jpg",
+        "foil_type": "VerticalWave",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "SAPPHIRE",
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Pluto",
+        "subtitle": "Ayant fait ses preuves",
+        "strength": 2,
+        "willpower": 7,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 6,
+        "author": "Raquel Villanueva",
+        "deck_building_id": "0c912a19d4e57cccd16d2d25e6d826cbb6f199b2",
+        "culture_invariant_id": 1887,
+        "sort_number": 1722,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Allié"
+        ],
+        "flavor_text": "",
+        "rules_text": "AIDE AVEC JOIE Tant que ce personnage n'a aucun dommage sur lui, il gagne +2 et Soutien. (Lorsque ce personnage est envoyé à l'aventure, vous pouvez ajouter sa à celle d'un autre personnage au choix pour le reste de ce tour.)",
+        "card_identifier": "27/P2 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/1468x2048/27_d47132b444c5c20855d55b787a95f661d343b54b.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/367x512/27_c067519fff572665d2bd7b0e26d602f7c3dcba7a.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/promo2/masks/1468x2048/27_33b10f39a5b453e7bcb3bf4d4d5f94863d64585b.jpg",
+        "special_rarity_id": 1,
+        "foil_type": "Silver",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "STEEL"
+        ]
+      },
+      {
+        "name": "Minnie",
+        "subtitle": "Défenseuse hardie",
+        "strength": 0,
+        "willpower": 8,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 4,
+        "author": "Aubrey Archer",
+        "deck_building_id": "1b3d746d7aa4f780ac8c228578c6f4d72b29685a",
+        "culture_invariant_id": 1894,
+        "sort_number": 1723,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Rempart"
+        ],
+        "subtypes": [
+          "Dreamborn",
+          "Héros"
+        ],
+        "flavor_text": "",
+        "rules_text": "Rempart (Ce personnage peut entrer en jeu épuisé. Lorsqu'il défie l'un de vos personnages, un personnage adverse doit, s'il le peut, choisir l'un de vos personnages avec Rempart.) BRAVOURE VÉRITABLE Ce personnage gagne +1 pour chaque dommage sur lui.",
+        "card_identifier": "35/P2 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/1468x2048/35_b0a78d3f95b470223f353b9dad7d624f79b1e49c.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/367x512/35_7308398fa9aa3296b4da2c832639f280a4cfec4d.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/promo2/masks/1468x2048/35_40b49c520acd9776e31eace933f68a87c26284f3.jpg",
+        "special_rarity_id": 1,
+        "foil_type": "Silver",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "RUBY"
+        ]
+      },
+      {
+        "name": "Iago",
+        "subtitle": "Out of Reach",
+        "strength": 3,
+        "willpower": 3,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 4,
+        "author": "Carlos Luzzi",
+        "deck_building_id": "21b8caf084ceffd01eb6823459d541ea9f8ba4de",
+        "culture_invariant_id": 1895,
+        "sort_number": 1724,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Ally"
+        ],
+        "flavor_text": "Nice try, chumps! Too bad I’m all the way up here!",
+        "rules_text": "SELF-PRESERVATION While you have another exerted character in play, this character can’t be challenged.",
+        "card_identifier": "8/D23 EN 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/en/d23/cards/1468x2048/8_4480c6738df12918c25fccbbedad4215fc19cbf2.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/en/d23/cards/367x512/8_a141c2253ede14c4076591499a1061727e688705.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/en/d23/masks/1468x2048/8_d12e5328a36ced921c6ca69b6c598f3025896436.jpg",
+        "special_rarity_id": 2,
+        "foil_type": "SeaWave",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "D23",
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Lady",
+        "subtitle": "Chienne décidée",
+        "strength": 0,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 1,
+        "author": "Therese Vildefall",
+        "deck_building_id": "106ec8559ac405ebee11dd588931147b5cc81ebd",
+        "culture_invariant_id": 1888,
+        "sort_number": 1725,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Storyborn",
+          "Héros"
+        ],
+        "flavor_text": "",
+        "rules_text": "SA MEUTE À ELLE Chaque fois que vous jouez un personnage, ce personnage-ci gagne +1 pour le reste de ce tour. PRENDRE L'INITIATIVE Tant que ce personnage a 3 ou plus, il gagne +2.",
+        "card_identifier": "28/P2 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/1468x2048/28_ddf65b35cde9b40cf36886c1a49e7fca1d9399c0.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/367x512/28_3a6eeebb23c5c58aec6bc10a777a117929f71872.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/promo2/masks/1468x2048/28_81560ff3b069f1a6224de41ee7a39085a2f89cb7.jpg",
+        "special_rarity_id": 4,
+        "foil_type": "Silver",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "EMERALD"
+        ]
+      },
+      {
+        "name": "Aladdin",
+        "subtitle": "Protecteur vigilant",
+        "strength": 1,
+        "willpower": 9,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 6,
+        "author": "Marcel Berg",
+        "deck_building_id": "37c91d4c1e7468929e01ddc735e84693e87bfe36",
+        "culture_invariant_id": 1889,
+        "sort_number": 1726,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Rempart"
+        ],
+        "subtypes": [
+          "Dreamborn",
+          "Héros",
+          "Prince"
+        ],
+        "flavor_text": "",
+        "rules_text": "Rempart (Ce personnage peut entrer en jeu épuisé. Lorsqu'il défie l'un de vos personnages, un personnage adverse doit, s'il le peut, choisir l'un de vos personnages avec Rempart.) PASSAGE SÛR Chaque fois que l'un de vos personnages Allié est envoyé à l'aventure, vous pouvez retirer jusqu'à 2 dommages de ce personnage-ci.",
+        "card_identifier": "29/P2 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/1468x2048/29_a578bf18b549ab419de2046c7a59d9be32263598.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/367x512/29_25f1018d08e0a205fc958ce76b48e18bdf889492.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/promo2/masks/1468x2048/29_62523754fcd369a5bdc0a22552a9db7e2b5b8e94.jpg",
+        "special_rarity_id": 4,
+        "foil_type": "Silver",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "SAPPHIRE",
+          "STEEL"
+        ]
+      },
+      {
+        "name": "Patch",
+        "subtitle": "Chiot joueur",
+        "strength": 0,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 1,
+        "author": "Oggy Christiansson",
+        "deck_building_id": "f8f789eb2731caf4efdb21cc3438d0dc6b1ab4cf",
+        "culture_invariant_id": 1890,
+        "sort_number": 1727,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [
+          "Hors d'atteinte"
+        ],
+        "subtypes": [
+          "Storyborn",
+          "Chiot"
+        ],
+        "flavor_text": "Le sable était bien plus amusant qu'il n'y paraissait!",
+        "rules_text": "Hors d'atteinte (Les adversaires ne peuvent pas choisir ce personnage, hormis pour un défi.) ABOIEMENTS DE CHIOT Tant que vous avez un autre personnage Chiot en jeu, ce personnage-ci gagne +1.",
+        "card_identifier": "30/P2 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/1468x2048/30_f73c30520605f2c22c0f497a8333fdb7518b00c4.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/367x512/30_aaa235590ff02b754a68e992bd0a766209019828.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/promo2/masks/1468x2048/30_d3b18365d9f631e3f820bdf4da97f0ca8be0218c.jpg",
+        "special_rarity_id": 4,
+        "foil_type": "Silver",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "SAPPHIRE"
+        ]
+      },
+      {
+        "name": "Jafar",
+        "subtitle": "Grand Sultan de Lorcana",
+        "strength": 4,
+        "willpower": 4,
+        "quest_value": 3,
+        "rarity": "SPECIAL",
+        "ink_cost": 5,
+        "author": "John Loren / Cristian Romero",
+        "deck_building_id": "50e1c204657b785ab5879cee057fe3009115fd88",
+        "culture_invariant_id": 1892,
+        "sort_number": 1729,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [
+          "Dreamborn",
+          "Méchant",
+          "Roi",
+          "Mage"
+        ],
+        "flavor_text": "",
+        "rules_text": "POUVOIR DES TÉNÈBRES Chaque fois que ce personnage est envoyé à l'aventure, vous pouvez piocher une carte, puis défausser une carte. Si vous défaussez une carte Personnage Illusion de cette manière, vous pouvez la jouer gratuitement.",
+        "card_identifier": "32/P2 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/1468x2048/32_01fa26ebf39b34d248980a5b9d44f21f8b3d2430.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/367x512/32_11afa6c6ca87d05ccdf16e8c7f2c3cc5fb59ad6d.jpg"
+          }
+        ],
+        "special_rarity_id": 4,
+        "foil_type": "None",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST",
+          "STEEL"
+        ]
+      },
+      {
+        "name": "Jafar",
+        "subtitle": "Grand Sultan de Lorcana",
+        "strength": 4,
+        "willpower": 4,
+        "quest_value": 3,
+        "rarity": "ENCHANTED",
+        "ink_cost": 5,
+        "author": "John Loren / Cristian Romero",
+        "deck_building_id": "50e1c204657b785ab5879cee057fe3009115fd88",
+        "culture_invariant_id": 1893,
+        "sort_number": 1730,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [
+          "Dreamborn",
+          "Méchant",
+          "Roi",
+          "Mage"
+        ],
+        "flavor_text": "",
+        "rules_text": "POUVOIR DES TÉNÈBRES Chaque fois que ce personnage est envoyé à l'aventure, vous pouvez piocher une carte, puis défausser une carte. Si vous défaussez une carte Personnage Illusion de cette manière, vous pouvez la jouer gratuitement.",
+        "card_identifier": "33/P2 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/1468x2048/33_7e29c4e2dd883e7afc7bca2db9a08a1b73160a18.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/367x512/33_ff9dfb9efa08e37094920f4ce62095880aefae8e.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/promo2/masks/1468x2048/33_d9f16e3b6bd71b0064753b6503cb3dfd3dbb76f6.jpg",
+        "special_rarity_id": 4,
+        "foil_type": "VerticalWave",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST",
+          "STEEL"
+        ]
       }
     ],
     "locations": [
@@ -63886,6 +66571,114 @@
         "searchable_keywords": [
           "Les Aventures de Bernard et Bianca",
           "Rescuers"
+        ]
+      },
+      {
+        "name": "La tirelire des neveux",
+        "rarity": "UNCOMMON",
+        "ink_cost": 2,
+        "author": "Jeremy Adams",
+        "deck_building_id": "8bb480d66afa05abc46b8e1acccb123b0e1426b2",
+        "culture_invariant_id": 1708,
+        "sort_number": 1680,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "",
+        "rules_text": "COMBINE Jouer cet objet vous coûte 1 de moins si vous avez un personnage Donald en jeu. RÉCOMPENSE — Choisissez un personnage qui subit -1 jusqu'au début de votre prochain tour.",
+        "card_identifier": "44/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/44_2a884334600351a8460bcd2b367f5c982a059145.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/44_fa46d778850ec5e86e124a2f74e9ba380653abee.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/44_23490483ebc729800324273e235ac95caca9fae5.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ]
+      },
+      {
+        "name": "Scarabée",
+        "rarity": "COMMON",
+        "ink_cost": 2,
+        "author": "Carlos Ruiz",
+        "deck_building_id": "f664f18da2600606537df66ca9d9663d72b4a7b8",
+        "culture_invariant_id": 1747,
+        "sort_number": 1695,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "Si nous parvenons à en capturer un, nous pourrons peut-être le recalibrer pour qu'il nous aide à nous débarrasser des illusions de Jafar!%—Venturo, Illumineur",
+        "rules_text": "FOUILLER LE SABLE , 2 — Renvoyez une carte Personnage Illusion de votre défausse dans votre main.",
+        "card_identifier": "83/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/83_304e684fc8003443e54fee02b55808256d138da7.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/83_4a6dc19858633636f3cced3fb8e0136ffb36cdc6.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/83_69ddfd0b03257e8f85b0b9609583d6396e0171b7.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Pics de glace",
+        "rarity": "UNCOMMON",
+        "ink_cost": 2,
+        "author": "Priya Kakati",
+        "deck_building_id": "4848962185abb4d5b4c61baa3a86c31313853f72",
+        "culture_invariant_id": 1748,
+        "sort_number": 1696,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "",
+        "rules_text": "NE BOUGEZ PLUS Lorsque vous jouez cet objet, choisissez un personnage adverse et épuisez-le. C'EST COINCÉ , 1 — Choisissez un objet adverse et épuisez-le. Il ne se redresse pas au début du prochain tour de son propriétaire.",
+        "card_identifier": "84/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/84_0637e6c3ee08b53b22ebad6dfbf09937da21f2ff.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/84_72fe295b1a440483c0fe56d0d311baf51089cf14.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/84_f36e7b290673d9ed9da70dd7998b02fe448c47f8.jpg",
+        "card_sets": [
+          8,
+          10
+        ],
+        "magic_ink_colors": [
+          "AMETHYST",
+          "SAPPHIRE"
+        ],
+        "searchable_keywords": [
+          "La Reine des Neiges",
+          "Frozen"
         ]
       }
     ],
@@ -72054,10 +74847,310 @@
           "Atlantide",
           "Atlantis"
         ]
+      },
+      {
+        "name": "Dérapage sucré",
+        "rarity": "UNCOMMON",
+        "ink_cost": 2,
+        "author": "Stefano Spagnuolo",
+        "deck_building_id": "a0153cbf8a3efb1e35d6007278e22a7c7006135b",
+        "culture_invariant_id": 1703,
+        "sort_number": 1678,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "Ça va faire fondre ton moteur comme un sac de bonbons à la cannelle, alors t'as intérêt à gagner rapidement!%—Vanellope von Schweetz",
+        "rules_text": "Piochez une carte. Choisissez l'un de vos personnages qui gagne +5 pour le reste de ce tour. Bannissez-le à la fin de ce tour.",
+        "card_identifier": "39/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/39_1c9118b8a2c14466e1c4686d475f8eb2fa6ed948.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/39_34c5b93e86c5b29070318c011448cee960239110.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/39_280188cb854ee062637b127d83226cfa28c39c91.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "RUBY"
+        ],
+        "searchable_keywords": [
+          "Wreck It Ralph",
+          "Les Mondes de Ralph"
+        ]
+      },
+      {
+        "name": "Je travaillerai sans trêve",
+        "rarity": "UNCOMMON",
+        "ink_cost": 2,
+        "author": "Pauline Voss",
+        "deck_building_id": "d8ad24fab25df6002c32c0d56047eab14acd94c4",
+        "culture_invariant_id": 1707,
+        "sort_number": 1679,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Chanson"
+        ],
+        "flavor_text": "",
+        "rules_text": "(Vous pouvez un personnage coûtant 2 ou plus pour chanter cette chanson gratuitement.) Choisissez un personnage qui subit -4 jusqu'au début de votre prochain tour.",
+        "card_identifier": "43/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/43_0fccb2f1302cac00dd998878d4b8193ebee5fce8.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/43_b19696f017e1998cf805d905ef90e4ea2b782523.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/43_18bbba499862f5faf0261ebebc36677a47503768.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ],
+        "searchable_keywords": [
+          "Princess and the Frog",
+          "La Princesse et la Grenouille"
+        ]
+      },
+      {
+        "name": "Duel en Forêt",
+        "rarity": "UNCOMMON",
+        "ink_cost": 5,
+        "author": "Viv Tanner",
+        "deck_building_id": "8a8fd5b953941634d5c3675e46824ff56ce8b084",
+        "culture_invariant_id": 1741,
+        "sort_number": 1693,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "Combats avec honneur, gagne avec dignité.",
+        "rules_text": "Vos personnages gagnent Offensif +2 et \"Lorsque ce personnage est banni via un défi, renvoyez-le dans votre main.\" pour le reste de ce tour. (Lorsqu'ils défient, ces personnages gagnent +2.)",
+        "card_identifier": "77/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/77_84c5c5d08ae1427f7ed65d07011635bdfccaaa5c.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/77_e0e6e3f48369df1135f8d44ad0d903dd7976bdac.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/77_3661bc213b793fb19b58213fdca7afe6397b2fbe.jpg",
+        "card_sets": [
+          8,
+          10
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Bambi"
+        ]
+      },
+      {
+        "name": "Abaisse le levier !",
+        "rarity": "UNCOMMON",
+        "ink_cost": 3,
+        "author": "Mario Manzanares",
+        "deck_building_id": "443fdfdb48d4bec4a4157b8fa1372ce2ca8187fa",
+        "culture_invariant_id": 1744,
+        "sort_number": 1694,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "",
+        "rules_text": "Choisissez entre : • Piochez 2 cartes. • Chaque adversaire défausse une carte.",
+        "card_identifier": "80/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/80_82e76fc2984723bee681ec2fa628b4d3d00512d8.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/80_b782d9db79b7bd586152689c7d49657b1c07280a.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/80_81662b714a6679f7579f1acadf9e5a379ca24611.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST",
+          "EMERALD"
+        ],
+        "searchable_keywords": [
+          "Emperors New Groove",
+          "Kuzco, l'empereur Mégalo"
+        ]
+      },
+      {
+        "name": "Bousillage",
+        "rarity": "UNCOMMON",
+        "ink_cost": 2,
+        "author": "Luigi Aimè",
+        "deck_building_id": "7ecd02fc2b52fa45baec4adfd9a638d543b1d8de",
+        "culture_invariant_id": 1781,
+        "sort_number": 1705,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "C'est vraiment dommage que je n'aie pas eu l'occasion de l'étudier.",
+        "rules_text": "Choisissez un adversaire qui défausse une carte. Choisissez un personnage qui gagne +2 pour le reste de ce tour.",
+        "card_identifier": "117/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/117_ef7ef3d96702094009fb8529e274dee9b141d985.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/117_b780c21aa2133ab9081b35d41acd18e1119913c9.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/117_fab4ce5f1e13bffc8a29140ef4c775c297bd8110.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "EMERALD",
+          "RUBY"
+        ],
+        "searchable_keywords": [
+          "Atlantide",
+          "Atlantis"
+        ]
+      },
+      {
+        "name": "Allez-vous-en !",
+        "rarity": "UNCOMMON",
+        "ink_cost": 6,
+        "author": "Diogo Saito",
+        "deck_building_id": "638e3c73565caf3c451d46b6c081d42b4e57fa84",
+        "culture_invariant_id": 1812,
+        "sort_number": 1711,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "Partez maintenant ! Avant que je ne change d’avis.%—La Bête",
+        "rules_text": "Choisissez un personnage et bannissez-le, puis renvoyez dans votre main une carte Objet de votre défausse.",
+        "card_identifier": "148/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/148_ca2d02a7813a855f8a434616bfb75facf4401685.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/148_f2eeea3dd0ce8f40b000a615da34f749263e133e.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/148_43e63c51c38c402150d0387b9f0eaf2baf5c914c.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "RUBY",
+          "SAPPHIRE"
+        ],
+        "searchable_keywords": [
+          "La Belle et la Bête",
+          "Beauty and the Beast"
+        ]
+      },
+      {
+        "name": "Tir rapide",
+        "rarity": "UNCOMMON",
+        "ink_cost": 2,
+        "author": "Diego Machuca",
+        "deck_building_id": "b7869c5472bc41c5832262ed91df5e977a88dd47",
+        "culture_invariant_id": 1867,
+        "sort_number": 1720,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "",
+        "rules_text": "Choisissez un personnage et infligez-lui 1 dommage. Piochez une carte.",
+        "card_identifier": "203/204 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/1468x2048/203_10149b07277ec71d10e149e78e5ca255e303dd3f.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/set8/cards/367x512/203_7f084e7a0aef1c73e5a25d3a8e9394dc291cc503.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/set8/masks/1468x2048/203_8ddacda0ca34085315f8f13cca296da1e2e713d2.jpg",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Lilo et Stitch",
+          "Lilo and Stitch"
+        ]
+      },
+      {
+        "name": "Abaisse le levier !",
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Mario Manzanares",
+        "deck_building_id": "443fdfdb48d4bec4a4157b8fa1372ce2ca8187fa",
+        "culture_invariant_id": 1891,
+        "sort_number": 1728,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "",
+        "rules_text": "Choisissez entre : • Piochez 2 cartes. • Chaque adversaire défausse une carte.",
+        "card_identifier": "31/P2 FR 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/1468x2048/31_a772780e4459fcf999189b49116b78c73ae410d3.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/fr/promo2/cards/367x512/31_3fe75b6100fe311e96800d9b990df5aeced129c1.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/promo2/masks/1468x2048/31_7e9d109d4a923f38f556dd9c6c4120315fb076fe.jpg",
+        "special_rarity_id": 4,
+        "foil_type": "Silver",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST",
+          "EMERALD"
+        ]
       }
     ]
   },
-  "hero_graphic_phone_image_url": "",
   "hero_graphic_tablet_image_url": "",
   "special_rarities": [
     {
@@ -72088,11 +75181,22 @@
   ],
   "news": [
     {
-      "title": "Mise à jour",
-      "subtitle": "En apprendre plus",
+      "title": "Aperçu de carte",
+      "subtitle": "",
+      "target_type": "SearchResults",
+      "target_object": {
+        "expansions": [
+          "Le Règne de Jafar"
+        ]
+      },
+      "image_url": "https://api.lorcana.ravensburger.com/images/fr/news/78a8efcbaaa1a9a30f9f327aa89d0b6acaaffb03.jpg"
+    },
+    {
+      "title": "Actualités",
+      "subtitle": "Twitch.tv",
       "target_type": "WebPage",
-      "target_object": "https://www.disneylorcana.com/en-US/news_/2025_/02_/2025-2-app-update",
-      "image_url": "https://api.lorcana.ravensburger.com/images/fr/news/be461a0cd1fda052a69c3fd94f8cf5f6f86afa34.jpg"
+      "target_object": "https://www.twitch.tv/disneylorcana",
+      "image_url": "https://api.lorcana.ravensburger.com/images/fr/news/9a79be611e0267e1d943da0737c6c51be67865a0.jpg"
     },
     {
       "title": "Anna Stosik",
@@ -72506,5 +75610,6 @@
         ]
       }
     ]
-  }
+  },
+  "hero_graphic_phone_image_url": ""
 }

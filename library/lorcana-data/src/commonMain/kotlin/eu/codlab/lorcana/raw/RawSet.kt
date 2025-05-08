@@ -17,7 +17,8 @@ enum class RawSet(
     URR("urr"),
     SSK("ssk"),
     AZU("azu"),
-    ARC("arc");
+    ARC("arc"),
+    ROJ("roj");
 
     @OptIn(ExperimentalResourceApi::class)
     private val loader = AbstractLoader(

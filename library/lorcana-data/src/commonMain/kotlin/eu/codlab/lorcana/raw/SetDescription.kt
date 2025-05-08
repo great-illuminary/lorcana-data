@@ -38,4 +38,7 @@ enum class SetDescription {
 
     @SerialName("arc")
     Arc,
+
+    @SerialName("roj")
+    Roj,
 }
