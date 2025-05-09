@@ -1,5 +1,7 @@
 import eu.codlab.files.VirtualFile
 import eu.codlab.http.createClient
+import eu.codlab.lorcana.abilities.Ability
+import eu.codlab.lorcana.abilities.AbilityType
 import eu.codlab.lorcana.cards.CardTranslation
 import eu.codlab.lorcana.cards.CardTranslations
 import eu.codlab.lorcana.cards.CardType
@@ -8,6 +10,7 @@ import eu.codlab.lorcana.raw.Ravensburger
 import eu.codlab.lorcana.raw.RawVirtualCard
 import eu.codlab.lorcana.raw.SetDescription
 import eu.codlab.lorcana.raw.VariantString
+import eu.codlab.tcgmapper.TranslationHolder
 import io.ktor.client.request.get
 import io.ktor.client.statement.bodyAsChannel
 import io.ktor.util.cio.writeChannel
@@ -15,6 +18,7 @@ import io.ktor.utils.io.copyAndClose
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.json.Json
+import lorcanito.LoadLorcanito
 import net.mamoe.yamlkt.Yaml
 import net.mamoe.yamlkt.YamlBuilder
 import official.LoadOfficialData
@@ -65,11 +69,13 @@ private suspend fun load() {
     prepareEmpty(rootProject, "arc", 7, SetDescription.Arc, "007")
     prepareEmpty(rootProject, "roj", 8, SetDescription.Roj, "008")
 
-    val official = LoadOfficialData(rootProject)
-    official.loadLanguages()
+    val official = runBlocking {
+        LoadOfficialData(rootProject).also { it.loadLanguages() }
+    }
 
-    //val cards = LoadLorcanito().cards()
-    //println(cards.size)
+    val lorcanito = runBlocking {
+        LoadLorcanito().also { it.load() }
+    }
 
     val rbMap: MutableMap<String, MutableMap<String, RBCard>> = mutableMapOf()
     val rbHighRes: MutableMap<String, String> = mutableMapOf()
@@ -99,6 +105,10 @@ private suspend fun load() {
         val list = yml.decodeFromString(serializer, content)
 
         val copy = list.map { card ->
+            val lorcanitoCard = card.variants.firstNotNullOfOrNull {
+                lorcanito.card(it.set, it.id)
+            }
+
             card.variants.forEach { variant ->
                 val rb = variant.ravensburger
 
@@ -166,7 +176,7 @@ private suspend fun load() {
             val expectedKey = card.variants.first().ravensburger.en
             val holder = rbMap[expectedKey]
 
-            if(null == holder) {
+            if (null == holder) {
                 println("Warning !! card is not known -> $expectedKey for $set")
                 return@map card
             }
@@ -183,6 +193,14 @@ private suspend fun load() {
                 illustrator = ravensBurgerCard.author,
                 type = rbCards!!.type(ravensBurgerCard),
                 classifications = ravensBurgerCard.subtypes,
+                abilities = lorcanitoCard?.actualAbilities()?.map {
+                    Ability(
+                        type = it.type ?: AbilityType.Undefined,
+                        ability = it.ability,
+                        title = TranslationHolder(en = it.name ?: it.ability ?: ""),
+                        text = TranslationHolder(en = it.text ?: ""),
+                    )
+                } ?: emptyList(),
                 languages = CardTranslations(
                     en = en!!,
                     fr = copyTranslation(card.languages.fr, "fr") { it.fr },
