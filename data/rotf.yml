@@ -46,8 +46,12 @@
       name: "てれすけ"
       title: "夢見がちなロマンチスト"
       flavour: "友だちと一緒なら、人生はもっと楽しい。"
-  actions: 
-    - "oh_gosh"
+  abilities: 
+    - type: static
+      title: 
+        en: "restriction"
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -100,8 +104,12 @@
       name: "クリストファー・ロビン"
       title: "冒険者"
       flavour: "「見て、プー！こんなすごいところ見たことある？」\n― クリストファー・ロビン"
-  actions: 
-    - "we_will_always_be_together"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "We'll Always Be Together"
+      text: 
+        en: "Whenever you ready this character, if you have 2 or more other characters in play, gain 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -164,8 +172,12 @@
       name: "シンデレラ"
       title: "舞踏会の花形"
       flavour: "魔法のドレスをまとい、心に歌を宿した彼女は、舞踏会でみんなを夢中にさせた。"
-  actions: 
-    - "singer_3"
+  abilities: 
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** +3 _(This character counts as cost 3 to sing songs.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -267,8 +279,12 @@
       name: "先生"
       title: "７人のこびとのおかしら"
       flavour: "先生はケンカが始まらないよう先制して平等にするよう宣誓する。"
-  actions: 
-    - "shared_and_share_alike"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Share and Share Alike"
+      text: 
+        en: "Whenever this character quests, you pay 1 {I} less for the next character you play this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -318,8 +334,12 @@
       name: "おとぼけ"
       title: "いつでも陽気"
       flavour: "彼にはイシツなところがある。"
-  actions: 
-    - "odd_one_out"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Odd One Out"
+      text: 
+        en: "When this character is banished, your other Seven Dwarfs characters get +2 {S} until the start of your next turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -416,6 +436,12 @@
       name: "ガストン"
       title: "バリトンの威張り屋"
       flavour: "歌を歌わせりゃ一番ラララ…１０点満点！"
+  abilities: 
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -464,8 +490,12 @@
       name: "大公"
       title: "王様の相談役"
       flavour: "君主制において、大公は上流階級であるが、王にとっては太鼓持ちに過ぎない。"
-  actions: 
-    - "yes_your_majesty"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Your Prince, Princess, King and Queen characters gain +1 {S}."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -515,8 +545,12 @@
       name: "おこりんぼ"
       title: "気難し屋"
       flavour: "セイヨウスグリみたいにトゲトゲしいぞ！"
-  actions: 
-    - "theres_trouble_a_brewin"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Your other Seven Dwarfs characters get +1 {S}."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -566,8 +600,6 @@
       name: "ごきげん"
       title: "ほがらか"
       flavour: "友だちに選ぶなら、まー特に彼だね。"
-  actions: 
-    - "support"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -616,8 +648,12 @@
       name: "キング・ルーイ"
       title: "ジャングルの大物"
       flavour: "「むきになるな。少し頭を冷やせ」"
-  actions: 
-    - "lay_it_on_the_line"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Lay It On The Line"
+      text: 
+        en: "Whenever another character is banished, you may remove up to 2 damage from this character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -680,8 +716,12 @@
       name: "ミッキーマウス"
       title: "陽気なお出むかえ"
       flavour: "「さあ入って、たくさんの冒険が待ってるよ！」"
-  actions: 
-    - "glad_youre_here"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Glad You're Here!"
+      text: 
+        en: "Whenever this character quests, you pay 3 {I} less for the next character you play this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -731,8 +771,12 @@
       name: "ムファサ"
       title: "裏切られた指導者"
       flavour: ""
-  actions: 
-    - "the_sun_will_sunset"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "The Sun Will Set"
+      text: 
+        en: "When this character is banished, you may reveal the top card of your deck. If it's a character card, you may play that character for free and they enter play exerted. Otherwise, put it on the top of your deck."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -786,8 +830,6 @@
       name: "ムーラン"
       title: "自由な旅人"
       flavour: "ありのままの自分でいられるなら、何もかもがより良く見える。"
-  actions: 
-    - "support"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -837,9 +879,17 @@
       name: "ムーラン"
       title: "水鏡に映る姿"
       flavour: ""
-  actions: 
-    - "support_2"
-    - "honor_to_the_ancestors"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Honor To The Ancestors"
+      text: 
+        en: "Whenever this character quests, you may reveal the top card of your deck. If it's a song card, you may play it for free. Otherwise, put it on the top of your deck."
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named mulan.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -888,8 +938,12 @@
       name: "ナナ"
       title: "ダーリング家の愛犬"
       flavour: "子供は犬の最良の友。"
-  actions: 
-    - "nursemaid"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Nursemaid"
+      text: 
+        en: "Whenever you play a Floodborn character, you may remove all damage from chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1004,9 +1058,17 @@
       name: "ラプンツェル"
       title: "天才アーティスト"
       flavour: ""
-  actions: 
-    - "support_3"
-    - "let_your_power_shine"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Ancient Insight"
+      text: 
+        en: "Whenever you remove 1 or more damage from one of your characters, you may draw a card."
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named rapunzel.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1060,8 +1122,12 @@
       name: "ラプンツェル"
       title: "太陽の輝き"
       flavour: "「私たちみんな、それぞれのやり方で世界を少しだけ明るくできるの」"
-  actions: 
-    - "magic_hair"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Magic Hair"
+      text: 
+        en: "{E} − Remove up to 2 damage from chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1111,8 +1177,12 @@
       name: "ねぼすけ"
       title: "うとうと"
       flavour: "彼が昼寝に飽きることはない。"
-  actions: 
-    - "yawn"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Yawn!"
+      text: 
+        en: "This card enters play exerted."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1162,8 +1232,12 @@
       name: "くしゃみ"
       title: "ムズムズ屋"
       flavour: "危ない！ドバッと来るぞ！"
-  actions: 
-    - "ah_choo"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "AH-CHOO!"
+      text: 
+        en: "Whenever you play this character or another Seven Dwarfs character, you may give chosen character -1 {S} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1213,8 +1287,12 @@
       name: "白雪姫"
       title: "森の迷子"
       flavour: "「あら、あなたひとりぼっちなのね、私と同じで」"
-  actions: 
-    - "wont_hurt_you"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "I WON'T HURT YOU"
+      text: 
+        en: "When you play this character, you may remove up to 2 damage from chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1264,8 +1342,12 @@
       name: "白雪姫"
       title: "思いがけない同居人"
       flavour: "「焼きたてのパイほどすてきなあいさつはないわ」"
-  actions: 
-    - "how_do_you_do"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "You pay 1 {I} less to play Seven Dwarfs characters."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1328,9 +1410,17 @@
       name: "白雪姫"
       title: "井戸に願いを"
       flavour: ""
-  actions: 
-    - "shift_4"
-    - "wishes_come_true"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Wishes Come True"
+      text: 
+        en: "Whenever this character quests, you may return a character card from your discard to your hand."
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named snow_white.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1380,9 +1470,17 @@
       name: "女王"
       title: "支配者のオーラ"
       flavour: ""
-  actions: 
-    - "shift_2"
-    - "who_is_the_fairest"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named the queen.)_"
+    - type: static-triggered
+      title: 
+        en: "WHO IS THE FAIREST?"
+      text: 
+        en: "Whenever this character quests, chosen opposing character gets -4 {S} this turn and chosen character gets +4 {S} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1474,6 +1572,12 @@
       name: "お願いだからじっとして"
       title: ""
       flavour: "「今度はちょっと痛いから」"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Remove up to 4 damage from chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1516,6 +1620,12 @@
       name: "最後の対決"
       title: ""
       flavour: "「決着をつけよう、悪党め」\n― ナマーリ"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Banish chosen character who was challenged this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1560,6 +1670,12 @@
       name: "Painting the Roses Red"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Painting the Roses Red"
+      text: 
+        en: "Up to 2 chosen characters get -1 {S} this turn. Draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1608,6 +1724,12 @@
       name: "World's Greatest Criminal Mind"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "World's Greatest Criminal Mind"
+      text: 
+        en: "Banish chosen character with 5 {S} or more."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1652,8 +1774,12 @@
       name: "Zero to Hero"
       title: ""
       flavour: ""
-  actions: 
-    - "zero_to_hero"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1696,8 +1822,12 @@
       name: "龍の石"
       title: ""
       flavour: "どんなに暗い状況の中でも、希望は輝く。"
-  actions: 
-    - "bring_back_to_life"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Bring Back to Life"
+      text: 
+        en: "{E}, 3 {I} − Return a character card with **Support** from your discard to your hand."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1740,8 +1870,12 @@
       name: "ねぼすけのフルート"
       title: ""
       flavour: ""
-  actions: 
-    - "a_silly_song"
+  abilities: 
+    - type: activated
+      title: 
+        en: "A Silly Song"
+      text: 
+        en: "{E} − If you played a song this turn, gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1804,8 +1938,12 @@
       name: "アーサー"
       title: "魔法使いの弟子"
       flavour: "「うーん…次はどんな呪文を試してみようかな？」"
-  actions: 
-    - "student"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Student"
+      text: 
+        en: "Whenever this character quests, you may return another chosen character of yours to your hand to gain 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1855,9 +1993,12 @@
       name: "ブルー・フェアリー"
       title: "良い行いに報いる者"
       flavour: "「ゼペットの願いが叶うかどうかは、今後のあなた次第」\n― ブルー・フェアリー"
-  actions: 
-    - "ethereal_glow"
-    - "evasive"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Ethereal Glow"
+      text: 
+        en: "Whenever you play a Floodborn character, you may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1955,8 +2096,6 @@
       name: "ファシリエ"
       title: "抜け目ないペテン師"
       flavour: ""
-  actions: 
-    - "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2021,8 +2160,12 @@
       name: "エルサ"
       title: "手の内を見せるわ"
       flavour: "氷の力でもフラッドは止められないけど、ロルカナの世界を守る役には立つはずよ。"
-  actions: 
-    - "challenger_3"
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2121,9 +2264,17 @@
       name: "フェアリーゴッドマザー"
       title: "神秘の武器職人"
       flavour: ""
-  actions: 
-    - "shift_2"
-    - "forget_the_coach_heres_a_sword"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named fairy godmother.)_"
+    - type: static-triggered
+      title: 
+        en: "Forget the Coach, Here's a Sword"
+      text: 
+        en: "Whenever this character quests, your characters gain **Challenger** +3 and When this character is banished in a challenge, return this card to your hand this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2173,8 +2324,12 @@
       name: "フェアリーゴッドマザー"
       title: "純粋な心"
       flavour: "「急がなきゃ、奇跡は少し時間がかかるの」"
-  actions: 
-    - "just_leave_it_to_me"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Just Leave It To Me"
+      text: 
+        en: "Whenever you play a character named Cinderella, you may exert chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2227,8 +2382,12 @@
       name: "ヘイヘイ"
       title: "しぶとい存在"
       flavour: "パワー、ビューティー、ヘイヘイ。"
-  actions: 
-    - "hes_back"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "He's Back"
+      text: 
+        en: "When this character is banished in a challenge, return this card to your hand."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2277,9 +2436,12 @@
       name: "ジミニー・クリケット"
       title: "ピノキオの良心"
       flavour: "「靴だってピッカピカだし！」"
-  actions: 
-    - "evasive"
-    - "that_still_small_voice"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "THAT STILL, SMALL VOICE"
+      text: 
+        en: "When you play this character, if you have a character named Pinocchio in play, you may draw a card"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2328,8 +2490,12 @@
       name: "クスコ"
       title: "追われてるラマ"
       flavour: "「と、いうわけで。状況は完全に僕の思い通りだったのさ」"
-  actions: 
-    - "ok_where_am_i"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "OK, Where Am I?"
+      text: 
+        en: "When this character is banished, you may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2383,9 +2549,12 @@
       name: "マダム・ミム"
       title: "キツネ"
       flavour: ""
-  actions: 
-    - "chasing_the_rabbit"
-    - "rush"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Chasing the Rabbit"
+      text: 
+        en: "When you play this character, banish her or return another chosen character of yours to your hand."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2450,9 +2619,12 @@
       name: "マダム・ミム"
       title: "紫の竜"
       flavour: "「竜は反則？ピンクはね。でもあたしゃ紫だよ！」"
-  actions: 
-    - "evasive"
-    - "i_win_i_win"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "I win win"
+      text: 
+        en: "When you play this character, banish her or return another 2 chosen characters of yours to your hand."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2506,9 +2678,17 @@
       name: "マダム・ミム"
       title: "マーリンのライバル"
       flavour: ""
-  actions: 
-    - "shift_3"
-    - "gruesome_and_grim"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named madam mim.)_"
+    - type: activated
+      title: 
+        en: "Gruesome and Grim"
+      text: 
+        en: "{E} − Play a character with cost 4 or less for free. They gain **Rush**. At the end of the turn, banish them. _They can challenge the turn they're played._'"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2562,8 +2742,12 @@
       name: "マダム・ミム"
       title: "ヘビ"
       flavour: "「奥歯ガラガラ言わせてやるわ！」"
-  actions: 
-    - "just_you_wait"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Just You Wait"
+      text: 
+        en: "When you play this character, banish her or return another chosen character of yours to your hand."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2613,8 +2797,17 @@
       name: "マーリン"
       title: "カニ"
       flavour: "彼は速やカニ決着をつけるぞ！"
-  actions: 
-    - "ready_or_not"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Ready or Not!"
+      text: 
+        en: "When you play this character and when he leaves play, chosen character gains **Challenger** +3 this turn. _(They get +3 {S} while challenging.)_"
+    - type: static-triggered
+      title: 
+        en: "Ready or Not!"
+      text: 
+        en: "When you play this character and when he leaves play, chosen character gains **Challenger** +3 this turn. _(They get +3 {S} while challenging.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2664,8 +2857,17 @@
       name: "マーリン"
       title: "ヤギ"
       flavour: "「いつも頑固なアゴヒゲジジイだね、まったく」\n― マダム・ミム"
-  actions: 
-    - "here_i_come"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Here I Come!"
+      text: 
+        en: "When you play this character and when he leaves play, gain 1 lore."
+    - type: static-triggered
+      title: 
+        en: "Here I Come!"
+      text: 
+        en: "When you play this character and when he leaves play, gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2719,8 +2921,17 @@
       name: "マーリン"
       title: "ウサギ"
       flavour: "その日は幸運がそバニーついてなかったんだ。"
-  actions: 
-    - "hoppity_hip"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Hoppity Hip!"
+      text: 
+        en: "When you play this character and when he leaves play, you may draw a card."
+    - type: static-triggered
+      title: 
+        en: "Hoppity Hip!"
+      text: 
+        en: "When you play this character and when he leaves play, you may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2770,8 +2981,12 @@
       name: "マーリン"
       title: "変身の匠"
       flavour: "「おお、まいった…どれにするか決められんぞ」"
-  actions: 
-    - "battle_of_wits"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Battle of Wits"
+      text: 
+        en: "Whenever one of your other characters is returned to your hand from play, this character gets +1 {L} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2821,8 +3036,17 @@
       name: "マーリン"
       title: "リス"
       flavour: "「いつも運がいいとは限らんじゃろ、君ィ」"
-  actions: 
-    - "look_before_you_leap"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Look Before You Leap"
+      text: 
+        en: "When you play this character and when he leaves play, look at the top card of your deck. Put it on either the top or the bottom of your deck."
+    - type: static-triggered
+      title: 
+        en: "Look Before You Leap"
+      text: 
+        en: "When you play this character and when he leaves play, look at the top card of your deck. Put it on either the top or the bottom of your deck."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2871,10 +3095,12 @@
       name: "ピーター・パンの影"
       title: "ひらり逃走中"
       flavour: ""
-  actions: 
-    - "evasive"
-    - "rush"
-    - "tiptoe"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your other characters with **Rush** gain **Evasive**."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2971,9 +3197,17 @@
       name: "ピノキオ"
       title: "逃走中"
       flavour: "ピノキオは考えるより早く、インクランドに駆け込みました。"
-  actions: 
-    - "shift_3"
-    - "listen_to_your_conscience"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named pinocchio.)_"
+    - type: resolution
+      title: 
+        en: "LISTEN TO YOUR CONSCIENCE"
+      text: 
+        en: "When you play this character, you may return chosen character or item with cost 3 or less to their player's hand."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3035,8 +3269,12 @@
       name: "ピノキオ"
       title: "おしゃべり人形"
       flavour: "「嘘はだんだん大きくなるのです。ちょうどあなたの鼻と同じに」\n― ブルー・フェアリー"
-  actions: 
-    - "telling_lies"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Telling Lies"
+      text: 
+        en: "When you play this character, you may exert chosen opposing character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3139,9 +3377,17 @@
       name: "イズマ"
       title: "ホラーみたいなしわしわ女"
       flavour: ""
-  actions: 
-    - "shift_4"
-    - "cruel_irony"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Crue Irony"
+      text: 
+        en: "When you play this character, shuffle another chosen character card into their player's deck. That player draws 2 cards."
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named yzma.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3235,6 +3481,12 @@
       name: "怖いこと、私は好き"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Gruesome And Grim"
+      text: 
+        en: "Play a character with cost 4 or less for free. They gain **Rush**. At the end of the turn, banish them."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3281,6 +3533,12 @@
       name: "うごけない！"
       title: ""
       flavour: "「ああ、たいへん。まただ」"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Chosen exerted character can't ready at the start of their next turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3329,6 +3587,12 @@
       name: "王様の剣の伝説"
       title: ""
       flavour: "イギリスの遠い昔 強者揃い 国王は天に召され 争いが始まった"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3371,8 +3635,12 @@
       name: "破れない契約"
       title: ""
       flavour: "ごく一般的な形式の書類よ、気にする必要はないわ。"
-  actions: 
-    - "for_all_eternity"
+  abilities: 
+    - type: activated
+      title: 
+        en: "For All Eternity"
+      text: 
+        en: "{E}, {E} one of your characters − Exert chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3415,8 +3683,12 @@
       name: "クロッケーのマレット"
       title: ""
       flavour: ""
-  actions: 
-    - "hurtling_hedgehog"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Hurtling Hedgehog"
+      text: 
+        en: "Banish this item − Chosen character gains **Rush** this turn. _(They can challenge the turn they're played.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3459,8 +3731,12 @@
       name: "ややこしい道しるべ"
       title: ""
       flavour: "アリス 「私どこへ行ったらいいのかしら」\nチェシャ猫 「それはニャー、あんたが、どこへ、行きたいかだニャ」"
-  actions: 
-    - "to_wonderland"
+  abilities: 
+    - type: activated
+      title: 
+        en: "To Wonderland"
+      text: 
+        en: "Banish this item – Return chosen character of yours to your hand."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3503,8 +3779,12 @@
       name: "魔法使いの呪文書"
       title: ""
       flavour: "イルミニアは知識の力を求める…ただし、その代償には気を付けなければならない。"
-  actions: 
-    - "knowledge"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Knowledge"
+      text: 
+        en: "{E}, 1 {I} − Gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3615,8 +3895,12 @@
       name: "野獣"
       title: "容赦せん"
       flavour: ""
-  actions: 
-    - "second_wind"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Second Wind"
+      text: 
+        en: "Whenever an opposing character is damaged, you may ready this character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3666,8 +3950,12 @@
       name: "ベル"
       title: "本の虫"
       flavour: "積まれた本って、私には何より魅力的だわ。"
-  actions: 
-    - "use_your_imagination"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While an opponent has no cards in their hand, this character gets +2 {L}."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3717,9 +4005,17 @@
       name: "ベル"
       title: "森の中の射手"
       flavour: "彼女は影のようにするりと木々の間を通り抜けていく。"
-  actions: 
-    - "shift_3"
-    - "thorny_arrows"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named belle.)_"
+    - type: static-triggered
+      title: 
+        en: "Thorny Arrows"
+      text: 
+        en: "Whenever this character is challenged, the challenging character’s player discards all cards in their hand."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3781,9 +4077,12 @@
       name: "バッキー"
       title: "リス語の先生"
       flavour: "「リス語ってニュアンスが豊富なんスよ」\n― クロンク"
-  actions: 
-    - "ward"
-    - "squeak"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Squeak"
+      text: 
+        en: "Whenever you play a Floodborn character, each opponent chooses and discards a card. à Whenever you play a Floodborn character, if you used Shift to play them, each opponent chooses and discards a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3878,10 +4177,17 @@
       name: "チェシャ猫"
       title: "影からニヤニヤ"
       flavour: ""
-  actions: 
-    - "shift_5"
-    - "evasive"
-    - "wicked_smile"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named cheshire cat.)_"
+    - type: activated
+      title: 
+        en: "Wicked Smile"
+      text: 
+        en: "{E} − Banish chosen damaged character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3930,8 +4236,12 @@
       name: "デイジーダック"
       title: "ヒミツのエージェント"
       flavour: ""
-  actions: 
-    - "thwart"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Thwart"
+      text: 
+        en: "Whenever this character quests, each opponent chooses and discards a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3980,9 +4290,22 @@
       name: "ドナルドダック"
       title: "立派な紳士"
       flavour: ""
-  actions: 
-    - "shift_3"
-    - "allow_me"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named donald duck.)_"
+    - type: static-triggered
+      title: 
+        en: "Allow Me"
+      text: 
+        en: "At the start of your turn, each player may draw a card."
+    - type: static-triggered
+      title: 
+        en: "Allow Me"
+      text: 
+        en: "At the start of your turn, each player may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4030,8 +4353,12 @@
       name: "ドナルドダック"
       title: "夢遊病者"
       flavour: "楽しい夢からショッキングな現実へ！"
-  actions: 
-    - "startled_awake"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Startled Awake"
+      text: 
+        en: "Whenever you play an action, this character gets +2 {S} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4081,9 +4408,12 @@
       name: "ファシリエ"
       title: "占い師"
       flavour: ""
-  actions: 
-    - "evasive"
-    - "youre_in_my_world"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "You're in my World"
+      text: 
+        en: "Whenever this character quests, chosen opposing character can't quest during their next turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4132,8 +4462,12 @@
       name: "魔女"
       title: "まさかの裁き人"
       flavour: "見かけにだまされてはいけない。"
-  actions: 
-    - "true_form"
+  abilities: 
+    - type: static
+      title: 
+        en: "reverse-challenger"
+      text: 
+        en: "While being challenged, this character gets +2 {S}."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4232,10 +4566,17 @@
       name: "フリン・ライダー"
       title: "オレの最大のファンであるオレ"
       flavour: ""
-  actions: 
-    - "shift_2"
-    - "evasive"
-    - "one_last_big_score"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named flynn rider.)_"
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character gets -1 {L} for each card in your opponents' hands."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4284,8 +4625,12 @@
       name: "ガストン"
       title: "たくらみの求婚者"
       flavour: "「俺では彼女に不足だってのか？」"
-  actions: 
-    - "yes_im_intimidating"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While one or more opponents have no cards in their hands, this character gets +3 {S}."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4334,8 +4679,6 @@
       name: "リトル・ジョン"
       title: "義理堅い友"
       flavour: "「何あわててんだ、ロビン？しっかり休もうぜ！イカレたインクに流されたロアを探しに行く時間なら、まだたっぷりあるさ」"
-  actions: 
-    - "mouse_catcher"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4384,6 +4727,12 @@
       name: "ルシファー"
       title: "ずるがしこい猫"
       flavour: "「悪者にも<一つくらい>いいところはあるわ」\n― シンデレラ"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Mouse Catcher"
+      text: 
+        en: "When you play this character, each opponent chooses and discards either 2 cards or 1 action card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4432,8 +4781,12 @@
       name: "ペイン"
       title: "冥界の小悪魔"
       flavour: "「早くしろ！俺は忙しい神で、やることいっぱいなんだ。\nミーティングとか、呪いとか、軽～い陰謀とかな」\n― ハデス"
-  actions: 
-    - "coming_your_most_lugubriousness"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While this character has 5 {S} or more, he gets + 2 {L}."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4482,8 +4835,12 @@
       name: "パニック"
       title: "冥界の小悪魔"
       flavour: "「近頃はいい人材を探すのにひと苦労、とか言ってるヤツは誰だ？ああ…俺か！」\n― ハデス"
-  actions: 
-    - "i_can_handle_it"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "I Can Handle It"
+      text: 
+        en: "When you play this character, chosen character gets +2 {S} this turn. If the chosen character is named Pain, he gets +4 {S} instead."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4545,10 +4902,17 @@
       name: "ピート"
       title: "わるもん"
       flavour: ""
-  actions: 
-    - "ward"
-    - "take_that"
-    - "whos_next"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Take That!"
+      text: 
+        en: "Whenever you play an action, this character gets +2 {S} this turn."
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While this character has 7 {S} or more, he gets +2 {L}."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4598,9 +4962,12 @@
       name: "プリンス・ジョン"
       title: "強欲王"
       flavour: "「税金！税金！なんという、美しい言葉！」"
-  actions: 
-    - "ward"
-    - "i_sentence_you"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I Sentence You"
+      text: 
+        en: "Whenever your opponent discards 1 or more cards, you may draw a card for each card discarded."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4650,8 +5017,12 @@
       name: "ハートの女王"
       title: "かんしゃく玉"
       flavour: "「あのな、女王を怒らすなんてチョロいもんだぜ。やってみるか？」\n― チェシャ猫"
-  actions: 
-    - "royal_rage"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Royale Rage"
+      text: 
+        en: "When you play this character, deal 1 damage to chosen damaged opposing character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4700,8 +5071,6 @@
       name: "ラティガン"
       title: "犯罪王"
       flavour: "「今回は最高にうまく行ったぞ！まもなくすべてが私のものになる。富も…権力も…この王国全部が私にひれ伏すのだ！」"
-  actions: 
-    - "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4750,8 +5119,6 @@
       name: "レイ"
       title: "お気楽ホタル"
       flavour: "彼の言葉はわかりにくいかもしれないが、心はそうじゃない。"
-  actions: 
-    - "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4801,8 +5168,12 @@
       name: "女王"
       title: "みせかけの物売り"
       flavour: "「願いが叶うリンゴさ…」"
-  actions: 
-    - "a_perfect_disguise"
+  abilities: 
+    - type: activated
+      title: 
+        en: "A Perfect Disguise"
+      text: 
+        en: "{E}, Choose and discard a character card − Gain lore equal to the discarded character's {L}."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4945,6 +5316,12 @@
       name: "Bibbidi Bobbidi Boo"
       title: ""
       flavour: "この言葉を唱えたならば"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Bibbidi Bobbidi Boo"
+      text: 
+        en: "Return chosen character of yours to your hand to play another character with the same cost or less for free."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4987,6 +5364,12 @@
       name: "ピョンピョン"
       title: ""
       flavour: "「ジャンプの用意はいいか？」\n― ティガー"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5033,6 +5416,17 @@
       name: "催眠術"
       title: ""
       flavour: "「人が話してる時は目を見ろ」"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5079,6 +5473,12 @@
       name: "即興の護身"
       title: ""
       flavour: "シャン・ユー 「これまでだ、観念しろ」\nムーラン 「まだまだよ！」"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Improvise"
+      text: 
+        en: "Chosen character gets +1 {S} this turn. Draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5121,6 +5521,12 @@
       name: "群れの戦術"
       title: ""
       flavour: "パチャ「ジャングルで生き延びたいんですか？でしたらジャングルの住民のように考えるんです」\nクスコ「できるさ…ガルルル、見ろ、ぼくはジャガーだぞ」"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5163,8 +5569,12 @@
       name: "ごちそうのベル"
       title: ""
       flavour: "「かわいそうなバーロソミュー、おまえは私を怒らせた」\n― ラティガン"
-  actions: 
-    - "ring_the_bell"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5207,8 +5617,12 @@
       name: "ラティガンのすんばらしいワナ"
       title: ""
       flavour: "目的はシンプル、シカケはフクザツ…ラティガン本人のように。"
-  actions: 
-    - "snap_boom_twang"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Snap! Boom! Twang!"
+      text: 
+        en: "Banish this item − Each opponent loses 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5305,8 +5719,6 @@
       name: "ブーン"
       title: "早熟な実業家"
       flavour: "「お腹空いてる人がいたら、連れて来ちゃって」"
-  actions: 
-    - "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5407,8 +5819,12 @@
       name: "ドナルドダック"
       title: "二度とごめんだ！"
       flavour: ""
-  actions: 
-    - "phooey"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "PHOOEY!"
+      text: 
+        en: "This character gets +1 {L} for each 1 damage on him."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5457,9 +5873,6 @@
       name: "フェリシア"
       title: "いつも腹ペコ"
       flavour: "「追いかけっこは普通こういう風にはならないものだろう、ドーソン？」\n― バジル"
-  actions: 
-    - "reckless"
-    - "easy_street"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5508,8 +5921,6 @@
       name: "フィジット"
       title: "ラティガンの手下"
       flavour: "キレ者の手下が必要な時に。"
-  actions: 
-    - "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5558,6 +5969,12 @@
       name: "正直ジョン"
       title: "言うほど正直じゃない"
       flavour: "「使いようによっちゃひと儲けできそうだ！」"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Easy Street"
+      text: 
+        en: "Whenever you play a Floodborn character, each opponent loses 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5620,9 +6037,17 @@
       name: "トレメイン夫人"
       title: "横柄な女王"
       flavour: "悪役のルールその１２ ： 玉座を持たぬのなら、一つ頂戴するべし。"
-  actions: 
-    - "shift_4"
-    - "power_to_rule_at_last"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named lady tremaine.)_"
+    - type: resolution
+      title: 
+        en: "Power to Rule at Last"
+      text: 
+        en: "When you play this character, each opponent chooses and banishes one of their characters."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5671,8 +6096,12 @@
       name: "トレメイン夫人"
       title: "高圧的な家長"
       flavour: "「間違えないように。今度こそは私がこの鍵を安全に守ります！」"
-  actions: 
-    - "not_for_you"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Not for You"
+      text: 
+        en: "When you play this character, each opponent with more lore than you loses 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5769,8 +6198,6 @@
       name: "ミニーマウス"
       title: "シックなサーファー"
       flavour: "「これは私の楽しいことリストのトップ１０に入るわ！」"
-  actions: 
-    - "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5836,10 +6263,17 @@
       name: "ミニーマウス"
       title: "びっくりダイバー"
       flavour: ""
-  actions: 
-    - "shift_2"
-    - "evasive"
-    - "undersea_adventure"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named minnie mouse.)_"
+    - type: static-triggered
+      title: 
+        en: "Look at This Stuff"
+      text: 
+        en: "Whenever you play an item, you may ready this character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5936,8 +6370,12 @@
       name: "マザー・ゴーテル"
       title: "しわしわで性悪"
       flavour: "彼女が何を感じているかは、その顔にくっきりと刻まれている。"
-  actions: 
-    - "what_have_you_done"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "What Have You Done?!"
+      text: 
+        en: "This character enters play with 3 damage."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5987,8 +6425,6 @@
       name: "ムーラン"
       title: "訓練中の兵士"
       flavour: "「何とかしなければ！」"
-  actions: 
-    - "rush"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6038,8 +6474,12 @@
       name: "ナマーリ"
       title: "仇敵"
       flavour: "「剣なんてなくてもあなたは倒せる。この方が盛り上がりそうってだけ」"
-  actions: 
-    - "this_shouldnt_take_long"
+  abilities: 
+    - type: activated
+      title: 
+        en: "This Shouldn't Take Long"
+      text: 
+        en: "{E}, Banish this character − Banish chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6089,8 +6529,6 @@
       name: "ハートの女王"
       title: "衝動的な支配者"
       flavour: "フラッドの中のロアの輝きが女王の目をとらえた。「呪文書だ！」女王は叫んだ。「取り逃がすんじゃないよ！」"
-  actions: 
-    - "rush"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6140,9 +6578,17 @@
       name: "ハートの女王"
       title: "弱みを探る者"
       flavour: ""
-  actions: 
-    - "shift_2"
-    - "let_the_game_begin"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named queen of hearts.)_"
+    - type: static-triggered
+      title: 
+        en: "Let the Game Begin"
+      text: 
+        en: "Whenever one of your characters challenges another character, you may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6191,8 +6637,12 @@
       name: "ラティガン"
       title: "とてもでっかいネズミ"
       flavour: "「今回は大丈夫、例えバジルでも計画の邪魔はできん！」"
-  actions: 
-    - "this_is_my_kingdom"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "This Is My Kingdom"
+      text: 
+        en: "When you play this character, exert chosen opposing character with 3 {S} or less. Chose one of your characters and ready them. They can't quest for the rest of this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6242,8 +6692,12 @@
       name: "ラーヤ"
       title: "頑固者"
       flavour: "勇気２ ： 賢さ１、それと覚悟をたっぷり。"
-  actions: 
-    - "note_to_self_dont_die"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Note to Self, Don't Die"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, you may ready this character. She can’t quest for the rest of this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6293,9 +6747,12 @@
       name: "ラーヤ"
       title: "ハートの指導者"
       flavour: ""
-  actions: 
-    - "shift_4"
-    - "champion_of_kumandra"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named raya.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6393,9 +6850,12 @@
       name: "スカー"
       title: "凶悪な謀り屋"
       flavour: ""
-  actions: 
-    - "rush"
-    - "daddy_isnt_here_to_save_you"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Daddy Isn't Here to Save You"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, you may ready this character. He can't quest for the rest of this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6458,8 +6918,12 @@
       name: "シア・カーン"
       title: "脅威の肉食獣"
       flavour: "悪役のルールその６ ： 知性は常に鋭く、爪はもっと鋭く保つべし。"
-  actions: 
-    - "dont_insult_my_intelligence"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Don't Insult My Intelligence"
+      text: 
+        en: "Whenever one of your characters challenges another character, gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6508,8 +6972,12 @@
       name: "ティガー"
       title: "世界にひとり"
       flavour: "救いのヒーロー、ピョピョーンと参上！"
-  actions: 
-    - "energetic"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Enegetic"
+      text: 
+        en: "Whenever you play an action, this character gets +2 {S} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6558,8 +7026,6 @@
       name: "トゥクトゥク"
       title: "ぶちかます大玉"
       flavour: "良き相棒にして愛ボール。"
-  actions: 
-    - "reckless"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6608,8 +7074,12 @@
       name: "Go the Distance"
       title: ""
       flavour: ""
-  actions: 
-    - "go_the_distance"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6658,8 +7128,12 @@
       name: "野心と牙"
       title: ""
       flavour: "もちろん 褒美はたっぷり お前たち うまくやれば\n未来に輝いてる 全てが俺のものだ"
-  actions: 
-    - "teeth_and_ambitions"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Deal 2 damage to chosen character of yours to deal 2 damage to another chosen character."
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6704,8 +7178,12 @@
       name: "最高に悪魔的な陰謀"
       title: ""
       flavour: "今度は極めつけ もちろん大犯罪ィ！"
-  actions: 
-    - "the_most_diabolical_scheme"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6748,8 +7226,12 @@
       name: "何と呼んだ？"
       title: ""
       flavour: "「僕は誰よりも君を高く買っている。その僕が言う、\n君は最低のドブネズミだ！」\n― バジル"
-  actions: 
-    - "what_did_you_call_me"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "What did you call me?"
+      text: 
+        en: "Chosen damaged character gets +3 {S} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6798,8 +7280,12 @@
       name: "You Can Fly"
       title: ""
       flavour: ""
-  actions: 
-    - "you_can_fly"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6842,8 +7328,12 @@
       name: "ディナーベル"
       title: ""
       flavour: "繊細なる音が知らせる迫り来る破滅。"
-  actions: 
-    - "you_know_what_happens"
+  abilities: 
+    - type: activated
+      title: 
+        en: "You Know What Happens"
+      text: 
+        en: "{E}, 2 {I} − Draw cards equal to the damage on chosen character of yours, then banish them."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6886,8 +7376,12 @@
       name: "ピーター・パンの短剣"
       title: ""
       flavour: "他の無数のロアと同様、ピーター・パンの短剣も大イルミナで安全に保管されていた。フラッドが起こるまでは。"
-  actions: 
-    - "peter_pans_dagger"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6930,8 +7424,12 @@
       name: "王様の剣"
       title: ""
       flavour: "「これなる剣を石の台より引き抜きし者があらば、その者こそ真のイギリスの王である」"
-  actions: 
-    - "sword_in_the_stone"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Sword In The Stone"
+      text: 
+        en: "{E}, 2 {I} - Chosen character gets +1 {S} this turn for each 1 damage on them."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6993,9 +7491,17 @@
       name: "アリス"
       title: "大きくなっちゃった"
       flavour: ""
-  actions: 
-    - "good_advice"
-    - "what_did_i_do"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your other characters gain **Support**."
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While this character has 10 {S} or more, she gets +4 {L}."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7045,9 +7551,17 @@
       name: "バジル"
       title: "偉大なネズミの探偵"
       flavour: "「解決策は常に自ずと現れるものだ」"
-  actions: 
-    - "shift_5"
-    - "theres_always_a_chance"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named basil.)_"
+    - type: resolution
+      title: 
+        en: "There's Always a Chance"
+      text: 
+        en: "If you used **Shift** to play this character, you may draw 2 cards when he enters play."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7101,8 +7615,6 @@
       name: "バジル"
       title: "ベーカー街の探偵"
       flavour: "「何と独創的な装置だ！もしその光がこれらを通して屈折しているのなら、下の方のどこかに映像が現われるに違いない」"
-  actions: 
-    - "support"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7247,10 +7759,17 @@
       name: "コグスワース"
       title: "大きな古時計"
       flavour: ""
-  actions: 
-    - "shift_3"
-    - "ward"
-    - "unwind"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your other characters gain **Resist** +1"
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named cogsworth.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7303,8 +7822,12 @@
       name: "コグスワース"
       title: "物言う時計"
       flavour: "「もういい、やり過ぎだぞ。いいか、この執事が…」"
-  actions: 
-    - "wait_a_minute"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your character with **Reckless** gain {E} − Gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7353,8 +7876,12 @@
       name: "クルエラ"
       title: "ファッショナブルなドライバー"
       flavour: "「ゴ～～ジャスでしょ？それにあたしと同じくらいスタイリッシュだわ」"
-  actions: 
-    - "now_get_going"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7403,9 +7930,17 @@
       name: "クルエラ"
       title: "相変わらずひどいものよ！"
       flavour: "「インククチュールよ。あたしは最高の毛皮しか着ないの！」"
-  actions: 
-    - "shift_3"
-    - "oh_no_you_dont"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named cruella de vil.)_"
+    - type: static-triggered
+      title: 
+        en: "Oh, No You Don't"
+      text: 
+        en: "Whenever this character quests, chosen opposing character gets -2 {S} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7457,8 +7992,6 @@
       name: "デューク・ウィーゼルトン"
       title: "ちんけなイカサマ師"
       flavour: "「<ウィー>ゼルトンだ！」"
-  actions: 
-    - "ward"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7511,9 +8044,17 @@
       name: "ガストン"
       title: "パワフルなインテリ"
       flavour: ""
-  actions: 
-    - "shift_4"
-    - "developed_brain"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named gaston.)_"
+    - type: resolution
+      title: 
+        en: "Developed Brain"
+      text: 
+        en: "When you play this character, look at the top 3 cards of your deck. You may put one into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7562,8 +8103,12 @@
       name: "パビー"
       title: "賢明なる最長老"
       flavour: "彼が口を開けば、空さえも耳を傾ける。"
-  actions: 
-    - "ancient_insight"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Ancient Insight"
+      text: 
+        en: "Whenever you remove 1 or more damage from one of your characters, gain 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7612,8 +8157,17 @@
       name: "ヒーラム・フラバーシャム"
       title: "おもちゃ職人"
       flavour: "大イルミナの資材を使えるようになった今、彼の作品はこれまで以上に素晴らしいものになる。"
-  actions: 
-    - "artificer"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Artificer"
+      text: 
+        en: "When you play this character and whenever he quests, you may banish one of your items to draw 2 cards."
+    - type: static-triggered
+      title: 
+        en: "Artificer"
+      text: 
+        en: "When you play this character and whenever he quests, you may banish one of your items to draw 2 cards."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7662,8 +8216,12 @@
       name: "ジェームズ"
       title: "理想の父親"
       flavour: ""
-  actions: 
-    - "never_ever_lose_sight"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Never, Ever Lose Sight"
+      text: 
+        en: "When this character is banished, you may put this card into your inkwell facedown and exerted."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7717,8 +8275,12 @@
       name: "ジャスミン"
       title: "アグラバーの継承者"
       flavour: "まだうら若き乙女ではあるが、彼女には真の指導者の気概がある。"
-  actions: 
-    - "im_a_fast_learner"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "I'm a Fast Learner"
+      text: 
+        en: "When you play this character, remove up to 1 damage from chosen character of yours."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7767,8 +8329,12 @@
       name: "ジュディ・ホップス"
       title: "やる気いっぱいの警官"
       flavour: "「ロアの書に何が起こったのか、必ず真相を突き止めるわ。私に任せて！」"
-  actions: 
-    - "dont_call_me_cute"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Don't Call me Cute"
+      text: 
+        en: "When you play this character, you may banish chosen item. Its player draws a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7817,8 +8383,12 @@
       name: "ジャドソン夫人"
       title: "家政婦"
       flavour: "「もう大丈夫。暖かいお茶とチーズクランペットを持ってきてあげるわ」"
-  actions: 
-    - "tidy_up"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Tidy Up"
+      text: 
+        en: "Whenever you play a Floodborn character, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7867,8 +8437,12 @@
       name: "ニック・ワイルド"
       title: "悪賢いキツネ"
       flavour: "「こいつは犯罪的にウマいよ！」"
-  actions: 
-    - "its_called_a_hustle"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "It's called a Hustle"
+      text: 
+        en: "When you play this character, you may return an item card named Pawpsicle from your discard to your hand."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7917,8 +8491,17 @@
       name: "ノイ"
       title: "孤児の泥棒"
       flavour: ""
-  actions: 
-    - "hide_and_seek"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While you have an item in play, this character gains **Ward**."
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: " While you have an item in play, this character gains **Resist** +1."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8131,8 +8714,12 @@
       name: "シスー"
       title: "神聖なる水の竜"
       flavour: "彼女がどれだけ形を変えようと、その心は見間違えようがない。"
-  actions: 
-    - "i_trust_you"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I Trust You"
+      text: 
+        en: "Whenever this character quests, look at the top 2 cards of your deck. You may put one into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8180,8 +8767,6 @@
       name: "ノック"
       title: "水の精霊"
       flavour: "捉え難きこと水の如し。"
-  actions: 
-    - "ward"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8230,8 +8815,12 @@
       name: "くまのプーさん"
       title: "かんがえごとしてるの"
       flavour: "プーは考えごとをするのに、いちばんよさそうなポーズを取ってみました。"
-  actions: 
-    - "hunny_pot"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Hunny Pot"
+      text: 
+        en: "Whenever this character quests, you may put a card from your hand into your inkwell facedown."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8274,8 +8863,17 @@
       name: "うさぎの穴をまっさかさま"
       title: ""
       flavour: "下へ、下へ、もっと下へ。アリスはインクの渦の中に浮かんでいました。とっても不思議！"
-  actions: 
-    - "falling_down_the_rabbit_hole"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Falling Down the Rabbit Hole"
+      text: 
+        en: "Each player chooses one of their characters and puts them into their inkwell facedown and exerted."
+    - type: resolution
+      title: 
+        en: "Falling Down the Rabbit Hole"
+      text: 
+        en: "Each player chooses one of their characters and puts them into their inkwell facedown and exerted."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8333,8 +8931,12 @@
       name: "タマゴ４ダース"
       title: ""
       flavour: ""
-  actions: 
-    - "four_dozen_eggs"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Four Dozen Eggs"
+      text: 
+        en: "Your characters gain **Resist** +2 until the start of your next turn. _(Damage dealt to them is reduced by 2.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8377,8 +8979,12 @@
       name: "発射"
       title: ""
       flavour: "構え…狙え…ココナッツ？"
-  actions: 
-    - "launch"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Banish chosen item of yours to deal 5 damage to chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8421,8 +9027,12 @@
       name: "お見通し"
       title: ""
       flavour: "うれしくないビックリを避けるのに役立つ。"
-  actions: 
-    - "nothing_to_hide"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Nothing to Hide"
+      text: 
+        en: "Each opponent reveals their hand. Draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8465,9 +9075,17 @@
       name: "ファングの弓矢"
       title: ""
       flavour: ""
-  actions: 
-    - "carefulaim"
-    - "stay_back"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Careful Aim"
+      text: 
+        en: "{E}, 2 {I} – Chosen character gets -2 {S} this turn."
+    - type: activated
+      title: 
+        en: "Stay Back!"
+      text: 
+        en: "{E}, Banish this item – Banish chosen Dragon character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8510,8 +9128,12 @@
       name: "ガンボ鍋"
       title: ""
       flavour: "この才能をみんなにも味わってもらおう！\n― ジェームズ"
-  actions: 
-    - "the_best_ive_ever_tasted"
+  abilities: 
+    - type: activated
+      title: 
+        en: "The Best I've Ever Tasted"
+      text: 
+        en: "{E} − Remove 1 damage each from up to 2 chosen characters."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8554,8 +9176,12 @@
       name: "モーリスの工房"
       title: ""
       flavour: "「おまえさんの求める解決策があと一息で手に入るかもしれんぞ！」"
-  actions: 
-    - "looking_for_this"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Looking For This?"
+      text: 
+        en: "Whenever you play another item, you may pay 1 {I} to draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8598,9 +9224,17 @@
       name: "アイスポー"
       title: ""
       flavour: ""
-  actions: 
-    - "jumbo_pop"
-    - "thats_redwood"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Jumbo Pop"
+      text: 
+        en: "When you play this, you may draw a card."
+    - type: activated
+      title: 
+        en: "That's Redwood"
+      text: 
+        en: "Banish this item − Remove up to 2 damage from chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8643,8 +9277,12 @@
       name: "イワシの空き缶"
       title: ""
       flavour: "「３７５９便、搭乗開始！あのロアを取りに出発だぁ！」\n― オービル"
-  actions: 
-    - "flight_cabin"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your exerted characters gain **Ward**."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8694,8 +9332,12 @@
       name: "野獣"
       title: "人嫌いの世捨て人"
       flavour: "災いなるかな、野獣ににらまれし者よ。"
-  actions: 
-    - "youre_not_welcome_here"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "You're not welcome here"
+      text: 
+        en: "When you play this character, you may deal 1 damage to chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8745,8 +9387,12 @@
       name: "野獣"
       title: "捨て身の保護者"
       flavour: "「この私を倒してからにしろ」"
-  actions: 
-    - "shield_another"
+  abilities: 
+    - type: static
+      title: 
+        en: "protector"
+      text: 
+        en: "Whenever one of your other characters would be dealt damage, put that many damage counters on this character instead."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8796,9 +9442,22 @@
       name: "野獣"
       title: "悲劇の主人公"
       flavour: "「きっと私の運命なのだ…永遠に野獣の姿のままでいるのが」"
-  actions: 
-    - "shift_3"
-    - "its_better_this_way"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named beast.)_"
+    - type: static-triggered
+      title: 
+        en: "It’s Better this way"
+      text: 
+        en: "At the start of your turn, if this character has no damage, draw a card."
+    - type: static-triggered
+      title: 
+        en: "It’s Better this way"
+      text: 
+        en: "At the start of your turn, if this character has damage, he gets +4 {S} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8852,8 +9511,12 @@
       name: "ベンジャ"
       title: "龍の石の守り人"
       flavour: "「気合だけでは決して勝てんぞ」"
-  actions: 
-    - "we_have_a_choice"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "We Have a Choice"
+      text: 
+        en: "When you play this character, you may banish chosen item."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8901,8 +9564,12 @@
       name: "ボゴ署長"
       title: "一目置かれた警官"
       flavour: "「インクの大量漏洩は爆発が原因であることが確認されました。状況は制御下にあります…この場所から解散してください」"
-  actions: 
-    - "insubordination"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Insubordination!"
+      text: 
+        en: "Whenever you play a Floodborn character, deal 1 damage to each opposing character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8966,8 +9633,12 @@
       name: "シンデレラ"
       title: "騎士見習い"
       flavour: "彼女はずっと勇者の心を持っていた…そしてこれからは、その技も身につける。"
-  actions: 
-    - "have_courage"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Have Courage"
+      text: 
+        en: "When you play this character, you may draw a card, then choose and discard a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9059,10 +9730,22 @@
       name: "シンデレラ"
       title: "剛胆なる姫君"
       flavour: ""
-  actions: 
-    - "shift_5"
-    - "resist_2"
-    - "the_singing_sword"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named cinderella.)_"
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Whenever you play a song, this character may challenge ready characters this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9271,9 +9954,17 @@
       name: "ヘラクレス"
       title: "神聖なるヒーロー"
       flavour: "君のインク作品が台無しにされそうな時、そばにいてもらえると頼もしいヤツだ。"
-  actions: 
-    - "shift_4"
-    - "resist_2"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named hercules.)_"
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9372,9 +10063,17 @@
       name: "ジャファー"
       title: "ド級の大蛇"
       flavour: ""
-  actions: 
-    - "shift_2"
-    - "now_where_were_we"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named jafar.)_"
+    - type: static-triggered
+      title: 
+        en: "Now Where Were We?"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, you may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9424,8 +10123,12 @@
       name: "ジャファー"
       title: "国務大臣"
       flavour: "「<真の>パワーの持ち主が誰なのか、すぐに思い知らせてやろう！」"
-  actions: 
-    - "i_dont_trust_him_sire"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, this character gains **Evasive**."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9474,9 +10177,17 @@
       name: "クロンク"
       title: "生き物クラブの部長"
       flavour: ""
-  actions: 
-    - "resist_1"
-    - "scout_leader"
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+    - type: static-triggered
+      title: 
+        en: "Scout Leader"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, you may deal 2 damage to chosen character"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9525,8 +10236,12 @@
       name: "ローレンス"
       title: "妬み深い従者"
       flavour: "この新しい世界でなら、ついに王冠が彼のものになるかもしれない。"
-  actions: 
-    - "payback"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While this character has no damage, he gets +4 {S}."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9575,8 +10290,12 @@
       name: "リー・シャン"
       title: "弓術教官"
       flavour: "するべきことを学び、然る後に考えずともそれをできるよう学ぶ。"
-  actions: 
-    - "archery_lesson"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Archery Lesson"
+      text: 
+        en: "Whenever this character quests, your characters gain **Evasive** this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9629,8 +10348,12 @@
       name: "魔法のほうき"
       title: "産業用モデル"
       flavour: "仕様上の運搬重量は「マジでたくさん」となってはいるけど、魔法の大水の中ではできることも限られるんだ。"
-  actions: 
-    - "make_it_shine"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Make it Shine"
+      text: 
+        en: "When you play this character, chosen character gains **Resist** +1 until the start of your next turn. _(Damage dealt to them is reduced by 1.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9693,9 +10416,12 @@
       name: "ナマーリ"
       title: "朝霧"
       flavour: ""
-  actions: 
-    - "bodyguard"
-    - "blades"
+  abilities: 
+    - type: static
+      title: 
+        en: "challenge-ready-chars"
+      text: 
+        en: "This character can challenge ready characters."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9841,8 +10567,12 @@
       name: "ハートの女王"
       title: "気まぐれな君主"
       flavour: "悪役のルールその４ ： あらゆる手を尽くし、首の差で勝利せよ。"
-  actions: 
-    - "off_with_their_heads"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Off with their heads!"
+      text: 
+        en: "Whenever an opposing character is banished, you may ready this character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9904,8 +10634,12 @@
       name: "ロビン・フッド"
       title: "有能な戦士"
       flavour: "「有能？あんた半分もわかってねえよ」\n― リトル・ジョン"
-  actions: 
-    - "skirmish"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Skirmish"
+      text: 
+        en: "{E} − Deal 1 damage to chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9954,8 +10688,12 @@
       name: "兵士"
       title: "不本意な刺客"
       flavour: "「逃げなさい！さあ、追手が！早く！\n森の奥へ行き、隠れるのです！」"
-  actions: 
-    - "change_of_heart"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Change of Heart"
+      text: 
+        en: "Whenever this character quests, you may draw a card, then choose and discard a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10005,9 +10743,12 @@
       name: "王子"
       title: "決してあきらめない"
       flavour: ""
-  actions: 
-    - "bodyguard"
-    - "resist_1"
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10057,9 +10798,17 @@
       name: "ティアナ"
       title: "祝福のプリンセス"
       flavour: ""
-  actions: 
-    - "resist_2"
-    - "what_you_give_is_what_you_get"
+  abilities: 
+    - type: static
+      title: 
+        en: "player-restriction"
+      text: 
+        en: "While this character is exerted and you have no cards in your hand, opponents can’t play actions."
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10155,8 +10904,12 @@
       name: "突撃！"
       title: ""
       flavour: "時には緻密さが必要となる。今はそういう時ではない。"
-  actions: 
-    - "charge"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Charge"
+      text: 
+        en: "Chosen character gains **Challenger** +2 and **Resist** +2 this turn. _(They get +2 {S} while challenging. Damage dealt to them is reduced by 2.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10205,8 +10958,12 @@
       name: "風よ吹け"
       title: ""
       flavour: "少しも寒くないわ"
-  actions: 
-    - "let_the_storm_rage_on"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Let the Storm Rage On"
+      text: 
+        en: "Deal 2 damage to chosen character. Draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10253,8 +11010,12 @@
       name: "一丁やろうぜ！"
       title: ""
       flavour: "「壊してやる！」"
-  actions: 
-    - "pick_a_fight"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Pick a Fight"
+      text: 
+        en: "Chosen character can challenge ready characters this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10303,8 +11064,12 @@
       name: "持つんだ熱い心"
       title: ""
       flavour: "燃える闘志 内に秘め 集中しろ 為せばなる"
-  actions: 
-    - "strength_of_a_raging_fire"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Strength of a Raging Fire"
+      text: 
+        en: "Deal damage to chosen character equal to the number of characters you have in play."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10347,8 +11112,12 @@
       name: "とっておきの大砲"
       title: ""
       flavour: "一発逆転。"
-  actions: 
-    - "arm_yourself"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Arm Yourself"
+      text: 
+        en: "1 {I}, Banish this item − Chosen character gains **Challenger** +3 this turn. _(They get +3 {S} while challenging.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10395,8 +11164,12 @@
       name: "ネズミのカッチュー"
       title: ""
       flavour: "最も小さな手で造られた、最も勇敢な心の持ち主のためのヨロイ。"
-  actions: 
-    - "protection"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Protection"
+      text: 
+        en: "{E} − Chosen character gains **Resist** +1 until the start of your next turn. _(Damage dealt to them is reduced by 1.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10439,6 +11212,10 @@
       name: "筋トレ器具"
       title: ""
       flavour: "ヘラクレス本人のお墨付き！"
-  actions: 
-    - "training"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Training"
+      text: 
+        en: "Whenever you play a character with 4 {S} or more, you may pay 1 {I} to draw a card."
   franchise_id: "unknown"

@@ -26,7 +26,7 @@ data class RawVirtualCard(
     val classifications: List<String> = emptyList(),
     val illustrator: String = "",
     val languages: CardTranslations,
-    val actions: List<String> = emptyList(),
+    val abilities: List<Ability> = emptyList(),
     @SerialName("franchise_id")
     val franchiseId: String,
     @SerialName("third_party")
@@ -36,7 +36,6 @@ data class RawVirtualCard(
 
     @Suppress("TooGenericExceptionCaught")
     internal fun to(
-        abilities: Map<String, Ability>,
         mapOfClassifications: Map<String, ClassificationHolder>,
         franchises: Map<String, RawFranchise>
     ) = VirtualCard(
@@ -60,7 +59,7 @@ data class RawVirtualCard(
         },
         illustrator = illustrator,
         languages = languages,
-        actions = actions.mapNotNull { abilities[it] },
+        abilities = this.abilities,
         franchise = franchises[franchiseId].let { franchise ->
             if (null != franchise) {
                 Franchise.from(franchiseId, franchise)

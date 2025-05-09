@@ -147,6 +147,17 @@
       name: "Prinz Naveen"
       title: "Ukulelespieler"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** +6 _(This character counts as cost 6 to sing songs.)_"
+    - type: resolution
+      title: 
+        en: "IT'S BEAUTIFUL NO?"
+      text: 
+        en: "When you play this character, you may play a song with cost 6 or less for free."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -403,6 +414,12 @@
       name: "Vanellope von Schweetz"
       title: "Süßigkeiten-Mechanikerin"
       flavour: "Ich nehme alles, was du hast,... solange Zucker drin ist."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "YOU’VE GOT TO PAY TO PLAY"
+      text: 
+        en: "Whenever this character quests, chosen opposing character gets -1 {S} until the start of your next turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -487,6 +504,12 @@
       name: "Gazelle"
       title: "Popstar"
       flavour: "Einen wunderschönen guten Abend, Lorcana! Wir sind heute Abend hier, um das zu feiern, was wir erreichen können, wenn wir zusammenhalten."
+  abilities: 
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -529,6 +552,17 @@
       name: "Fix-It Felix, Jr."
       title: "Verwalter von Niceland"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Fix-It Felix, Jr..)_"
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Your locations get +2 {W}."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -582,6 +616,12 @@
       name: "Kristoff"
       title: "Rentier Hüter"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "For each song card in your discard, you pay 1 {I} less to play this character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -679,6 +719,17 @@
       name: "Minnie Maus"
       title: "Tambourmajorin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Minnie Mouse.)_"
+    - type: resolution
+      title: 
+        en: "PARADE ORDER"
+      text: 
+        en: "When you play this character, if you used **Shift** to play her, you may search your deck for a character card and reveal that card to all players. Shuffle your deck and put that card on top of it."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -721,6 +772,12 @@
       name: "Daisy Duck"
       title: "Donalds Verabredung"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Big Prize"
+      text: 
+        en: "Whenever this character quests, each opponent reveals the top card of their deck. If it’s a character card, they may put it into their hand. Otherwise, they put it on the bottom of their deck."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -763,6 +820,12 @@
       name: "Fix-It Felix, Jr."
       title: "Entzückter Ausflügler"
       flavour: "Ich glaube nicht, dass ich jemals so etwas Süßes wie das hier gesehen habe."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "OH, MY LAND!"
+      text: 
+        en: "When you play this character, if you have a location in play, draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -873,6 +936,17 @@
       name: "Vanellope von Schweetz"
       title: "Sugar Rush Prinzessin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named Vanellope von Schweetz.)_"
+    - type: static-triggered
+      title: 
+        en: "I HEARBY DECREE"
+      text: 
+        en: "Whenever you play another Princess character, all opposing characters get -1 {S} until the start of your next turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -915,6 +989,12 @@
       name: "Allan von Dale"
       title: "Rockiger Hahn"
       flavour: "Vielen lieben Dank! Der nächste Song ist für unsere Freunde, die Flutgestalten, und heißt Martin und die Flut."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Fan Favotire"
+      text: 
+        en: "whenever you play a song, gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -957,6 +1037,12 @@
       name: "Randale Ralph"
       title: "Admiral Unterbuxe"
       flavour: "Falls er unbedingt eine Siegesrede halten muss, dann wird er sie sehr kurz halten."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "I’VE GOT THE COOLEST FRIEND"
+      text: 
+        en: "When you play this character, return a character card from your discard to your hand. If that card is a Princess character card, gain 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -999,6 +1085,12 @@
       name: "Maid Marian"
       title: "Herrin der Ränge"
       flavour: "Und wer mögt Ihr sein, mein edler Ritter und Champion?"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "IF THE LADY WANTS IT"
+      text: 
+        en: "When you play this character, opposing character of your choice gets -5 {S} until the start of your next turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1041,6 +1133,12 @@
       name: "Sven"
       title: "Rentier"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Reindeer Games"
+      text: 
+        en: "When you play this character, you may ready chosen character. They can’t quest or challenge for the rest of this turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1083,6 +1181,12 @@
       name: "Minnie Maus"
       title: "Mitfühlende Freundin"
       flavour: "Oh je! Ist das ein Teil des Illuminariums? Ich muss helfen!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Patch them up"
+      text: 
+        en: "Whenever this character quests, you may remove up to 2 damage from chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1121,6 +1225,12 @@
       name: "Try Everything"
       title: ""
       flavour: "I want to try even though I could fail"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Remove up to 3 damage from chosen character and ready them. They can’t quest or challenge for the rest of this turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1157,6 +1267,12 @@
       name: "Heilende Berührung"
       title: ""
       flavour: "Das Herz lässt sich nicht so leicht beeinflussen, aber der Kopf dagegen lässt sich leicht überzeugen.\n— Grand Pabbie"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Remove up to 3 damage from chosen character and ready them. They can’t quest or challenge for the rest of this turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1205,6 +1321,12 @@
       name: "Wiedererwachen"
       title: ""
       flavour: "Nicht alles, was verloren ist, ist für immer weg."
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1243,6 +1365,12 @@
       name: "Wer einmal lügt, der hat Pech"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1279,6 +1407,12 @@
       name: "Zum Ball geladen"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1315,6 +1449,12 @@
       name: "Heilende Karaffe"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "RENEWING ESSENCE"
+      text: 
+        en: "{E} – Remove up to 2 damage from chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1351,6 +1491,17 @@
       name: "Sensorkern der Königin"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "SYMBOL OF NOBILITY"
+      text: 
+        en: "At the start of your turn, if you have a Princess or Queen character in play, gain 1 lore."
+    - type: activated
+      title: 
+        en: "Royal Search"
+      text: 
+        en: "{E}, 2 {I} – Reveal the top card of your deck. If it’s a Princess or Queen character card, you may put it into your hand. Otherwise, put it on the top of your deck."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1387,6 +1538,12 @@
       name: "Bernstein Chromikon"
       title: ""
       flavour: "Tröste die Schwachen und Müden.—Inschrift"
+  abilities: 
+    - type: activated
+      title: 
+        en: "AMBER LIGHT"
+      text: 
+        en: "{E} – Remove up to 1 damage from each of your characters."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1426,6 +1583,12 @@
       name: "Rapunzels Turm"
       title: "Abgelegenes Gefängnis"
       flavour: "Die Welt ist schrecklich und gemein.\n—Mutter Gothel"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Characters get +3 {W} while here."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1465,6 +1628,12 @@
       name: "Das Geweihte Land"
       title: "Dschungeloase"
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "**OUR HUMBLE HOME**"
+      text: 
+        en: "While you have 3 or more characters here, you may banish this location to play a character from your discard for free."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1509,6 +1678,17 @@
       name: "Malefiz"
       title: "Furchtbare Königin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Maleficent.)_"
+    - type: resolution
+      title: 
+        en: "Everyone Listen"
+      text: 
+        en: "When you play this character, for each character named Maleficent you have in play, return chosen opposing character, item, or location of cost 3 or less to their player's hand."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1551,6 +1731,12 @@
       name: "Der Nokk"
       title: "Mystischer Geist"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "TURNING TIDES"
+      text: 
+        en: "When you play this character, you may move up to 2 damage counters from chosen character to chosen opposing character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1593,6 +1779,12 @@
       name: "Von Unruh"
       title: "Uhralter Wächter des Illuminariums"
       flavour: "Gib Gas! Zeit ist von entscheidender Bedeutung."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "**TIME TO MOVE IT!**"
+      text: 
+        en: "When you play this character, chosen character gains **Rush** this turn. _(They can challenge the turn they’re played.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1636,6 +1828,17 @@
       name: "Merlin"
       title: "Schildkröte"
       flavour: "Dräng mich jetzt nicht—das hier ist wichtig."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Give me time to think"
+      text: 
+        en: "When you play this character and when he leaves play, look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom."
+    - type: static-triggered
+      title: 
+        en: "Give me time to think"
+      text: 
+        en: "When you play this character and when he leaves play, look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1720,6 +1923,12 @@
       name: "Bruni"
       title: "Feuersalamander"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Parting Gift"
+      text: 
+        en: "When this character is banished, you may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1762,6 +1971,12 @@
       name: "Erdriese"
       title: "Lebendiger Berg"
       flavour: "Wer hat denn den Großen aufgeweckt?"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "UNEARTHED"
+      text: 
+        en: "When you play this character, each opponent draws a card."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1804,6 +2019,12 @@
       name: "Gale"
       title: "Element des Windes"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Recurring Gust"
+      text: 
+        en: "When this character is banished, return this card to your hand."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1889,6 +2110,17 @@
       name: "Madame Mim"
       title: "Elefant"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "A little game"
+      text: 
+        en: "When you play this character, banish her or return another chosen character of yours to your hand."
+    - type: static-triggered
+      title: 
+        en: "Sneaky Move"
+      text: 
+        en: "At the start of your turn, you may move up to 2 damage counters from this character to chosen opposing character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1976,6 +2208,17 @@
       name: "Anna"
       title: "Geheimnisvolle Majestät"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Anna.)_"
+    - type: resolution
+      title: 
+        en: "EXCEPTIONAL POWER"
+      text: 
+        en: "When you play this character, exert all opposing characters."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2030,6 +2273,17 @@
       name: "Archimedes"
       title: "Elektrifizierte Eule"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Archimedes.)_"
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2074,6 +2328,12 @@
       name: "Elsa"
       title: "Der fünfte Geist"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "CRYSTALLIZE"
+      text: 
+        en: "When you play this character, exert chosen opposing character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2169,6 +2429,12 @@
       name: "Olaf"
       title: "Fröhlicher Passagier"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "For each exerted character opponents have in play, you pay 1 {I} less to play this character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2212,6 +2478,12 @@
       name: "Malefiz"
       title: "Unerwünschter Gast"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "WHAT AN AWKWARD SITUATION"
+      text: 
+        en: "Whenever this character quests, you may choose and discard a card to return chosen character, item, or location with cost 3 or less to their player’s hand."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2296,6 +2568,12 @@
       name: "Gundel Gaukeley"
       title: "Grausame Hexe"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "meta"
+      text: 
+        en: "During opponents’ turns, if an effect would cause you to discard one or more cards from your hand, you don’t discard."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2382,6 +2660,12 @@
       name: "Rafiki"
       title: "Schamanischer Duellant"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "SURPRISING SKILL"
+      text: 
+        en: "When you play this character, he gains **Challenger** +4 this turn. _(They get +4 while challenging.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2425,6 +2709,12 @@
       name: "Anna"
       title: "Eifrige Gehilfin"
       flavour: "Okay, kleine Sachen kann ich problemlos bewegen. Ich brauche etwas Größeres... Wo ist Kristoffs Schlitten?"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "GROWING POWERS"
+      text: 
+        en: "When you play this character, each opponent choses and exerts on of their ready characters."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2468,6 +2758,12 @@
       name: "Herzkönig"
       title: "Monarch des Wunderlands"
       flavour: "Befehl des Königs. Sie hat es gesagt!"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Pleasing The Queen"
+      text: 
+        en: "{E} – Chosen exerted character can’t ready at the start of their next turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2511,6 +2807,12 @@
       name: "Camilo Madrigal"
       title: "Verwandlungskünstler"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "**IMITATE**"
+      text: 
+        en: "Whenever this character quests, you may gain lore equal to the {L} of chosen other character of yours. Return that character to your hand."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2547,6 +2849,17 @@
       name: "Hypnotische Kräfte"
       title: ""
       flavour: "Plötzlich überkam Basil der starke Drang, die zerbrochene Krone zu finden."
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Draw a card. "
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Chosen character gains **Challenger** +2 this turn. _(They get +2 {S} while challenging.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2606,6 +2919,12 @@
       name: "Wer's findet, darf's behalten"
       title: ""
       flavour: "Drei Wünsche, kommt sofort!\n—Jago"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Draw 3 cards."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2644,6 +2963,12 @@
       name: "Wir kennen den Weg"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Shuffle chosen card from your discard into your deck. Reveal the top card of your deck. If it has the same name as the chosen card, you may play the revealed card for free. Otherwise, put it into your hand."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2680,6 +3005,12 @@
       name: "Wissen und Weisheit sammeln"
       title: ""
       flavour: "Denk nach! All das Wissen war direkt hier vor unserer Nase. Wir mussten nur an der richtigen Stelle suchen."
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Gain 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2716,6 +3047,12 @@
       name: "Magische Unterstützung"
       title: ""
       flavour: "Du bist jetzt Schwergewicht im Wunschverein!\n—Dschinni"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Magical Aid"
+      text: 
+        en: "Chosen character gains **Challenger** +3 and When this character is banished in a challenge, return this card to your hand this turn. _(They get +3 {S} while challenging.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2752,6 +3089,12 @@
       name: "Retrosphäre"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "**EXTRACT OF AMETHYST**"
+      text: 
+        en: "2 {I}, Banish this item – Return chosen character, item, or location with cost 3 or less to their player’s hand."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2799,6 +3142,17 @@
       name: "Hälfte der Hexwell-Krone"
       title: ""
       flavour: "Die zerbrochene Krone verfügt über dunkle und geheimnisvolle Kräfte."
+  abilities: 
+    - type: activated
+      title: 
+        en: "AN UNEXPECTED FIND"
+      text: 
+        en: "{E}, 2 {I} — Draw a card."
+    - type: activated
+      title: 
+        en: "A PERILOUS POWER"
+      text: 
+        en: "{E}, 2 {I}, Discard a card – Exert chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2835,6 +3189,12 @@
       name: "Amethyst Chromikon"
       title: ""
       flavour: "Strebe nicht nach Macht um ihrer selbst willen.\n—Inschrift"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Amethyst Light"
+      text: 
+        en: "{E} − Each player may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2874,6 +3234,12 @@
       name: "Elsas Eispalast"
       title: "Ort der Isolation"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Eternal Winter"
+      text: 
+        en: "When you play this location, choose an exerted character. While this location is in play, that character can't ready at the start of their turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2913,6 +3279,12 @@
       name: "Die Bibliothek"
       title: "Ein Geschenk für Belle"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Whenever a character is banished while here, you may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2955,6 +3327,12 @@
       name: "Robin Hood"
       title: "Rechtzeitiger Teilnehmer"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "For each 1 damage on opposing characters, you pay 1 {I} less to play this character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2998,6 +3376,12 @@
       name: "Shenzi"
       title: "Scars Komplizin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3167,6 +3551,12 @@
       name: "Ed"
       title: "Lachende Hyäne"
       flavour: "A-heh, heh, heh, heh, heh, hee, hee, heeeee."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "CAUSE A PANIC"
+      text: 
+        en: "When you play this character, you may deal 2 damage to chosen damaged character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3210,6 +3600,12 @@
       name: "Flora"
       title: "Gute Fee"
       flavour: "Mach dir nichts draus, meine Beste! Im Handumdrehen kannst du diese Dornen in etwas Schönes verwandeln."
+  abilities: 
+    - type: static
+      title: 
+        en: "reverse-challenger"
+      text: 
+        en: "While being challenged, this character gets +2 {S}."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3253,6 +3649,12 @@
       name: "Sonnenschein"
       title: "Gute Fee"
       flavour: "Blau ist die allerschönste Farbe!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "RAY OF HOPE"
+      text: 
+        en: "When you play this character, you may pay 1 {I} to give chosen character +2 {S} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3295,6 +3697,12 @@
       name: "Robin Hood"
       title: "Teilnehmer am Wettbewerb im Bogenschießen"
       flavour: "Einen Moment lang dachte ich, das könnte eine echte Herausforderung sein."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "**TRICK SHOT**"
+      text: 
+        en: "When you play this character, if an opponent has a damaged character in play, gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3380,6 +3788,12 @@
       name: "Jago"
       title: "Falscher Flamingo"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "In Disguise"
+      text: 
+        en: "Whenever this character quests, you pay 2 {I} less for the next action you play this turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3466,6 +3880,12 @@
       name: "Ed"
       title: "Hysterischer Partygast"
       flavour: "Für ihn gibt es so etwas wie schlechten Geschmack nicht."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Damaged characters can’t challenge this character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3510,6 +3930,12 @@
       name: "Scroop"
       title: "Abscheulicher Meuterer"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "DO SAY HELLO TO MR. ARROW"
+      text: 
+        en: "When you play this character, you may pay 3 {I} to banish chosen damaged character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3553,6 +3979,17 @@
       name: "Prinz Phillip"
       title: "Schwertkämpfer des Königreichs"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Slayer Of Dragons"
+      text: 
+        en: "When you play this character, banish chosen opposing Dragon character."
+    - type: static-triggered
+      title: 
+        en: "Pressing the Advantage"
+      text: 
+        en: "When he challenges a damaged character, ready this character after the challenge."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3607,6 +4044,17 @@
       name: "Klarabella"
       title: "Mit leichten Hufen"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Clarabelle.)_"
+    - type: static-triggered
+      title: 
+        en: "**KEEP IN STEP**"
+      text: 
+        en: "At the end of your turn, if chosen opponent has more cards in their hand than you, you may draw cards until you have the same number."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3650,6 +4098,12 @@
       name: "Anna"
       title: "Diplomatische Königin"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Royal Resolution"
+      text: 
+        en: "When you play this character you may pay 2 {I} to chose one:n* Each opponent choses and discards a card.n* Chosen character gets +2 {S} this turn. n* Banish chosen damaged character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3692,6 +4146,12 @@
       name: "Klarabella"
       title: "Tollpatschiger Gast"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "BUTTERFINGER"
+      text: 
+        en: "When you play this character, you may pay to 2 {I} to banish chosen item."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3735,6 +4195,12 @@
       name: "Banzai"
       title: "Verhöhnende Hyäne"
       flavour: "Was haben wir hier, eines kleine Snack-Paket?"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "HERE KITTY, KITTY, KITTY"
+      text: 
+        en: "When you play this character, you may exert chosen damaged character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3777,6 +4243,17 @@
       name: "Robin Hood"
       title: "Raffinierter Spion"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Robin Hood.)_"
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character gets +1 {L} for each opposing damaged character in play."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3819,6 +4296,12 @@
       name: "Mutter Gothel"
       title: "Arglistige Manipulatorin"
       flavour: "Eine wunderschöne Frau steht normalerweise nicht kleinlaut am Ende der Schlange."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "MOTHER KNOWS BEST"
+      text: 
+        en: "When you play this character, you may pay 3 {I} to return chosen character to their player’s hand."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3861,6 +4344,12 @@
       name: "Klarabella"
       title: "Zufriedenes Mauerblümchen"
       flavour: "Donnerwetter! Diese Tänzer haben ein Paar echt tolle Muh-ves drauf!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "ONE STEP BEHIND"
+      text: 
+        en: "When you play this character, if an opponent has more cards in their hand than you, you may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3904,6 +4393,17 @@
       name: "Shenzi"
       title: "Leithyäne"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character gets +1 {S} for each other Hyena character you have in play."
+    - type: static-triggered
+      title: 
+        en: "WHAT HAVE WE GOT HERE"
+      text: 
+        en: "Whenever one of your Hyena characters challenges a damaged character, gain 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3946,6 +4446,17 @@
       name: "Mutter Gothel"
       title: "Unermüdliche Intrigantin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Mother Gothel.)_"
+    - type: resolution
+      title: 
+        en: "**THE WORLD IS DARK**"
+      text: 
+        en: "When you play this character, each opponent chooses one of their characters and returns that card to their hand."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4000,6 +4511,12 @@
       name: "Scar"
       title: "Rachsüchtiger Löwe"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "**LIFE'S NOT FAIR, IS IT?**"
+      text: 
+        en: "Whenever one of your characters challenges a damaged character, you may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4036,6 +4553,12 @@
       name: "Hypnotischer Zusammenhang"
       title: ""
       flavour: "Ein Sicherheitsgerät! Natürlich leicht zu bezwingen. Sobald ich Platz für die Krone geschaffen habe, kann... ich... es... ihm... bringen."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Draw 3 cards, then put 2 cards from your hand on the top of your deck in any order."
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4072,6 +4595,12 @@
       name: "Wut der Könige der Nacht"
       title: ""
       flavour: "Ich glaube, jemand hat es auf die Raubtiere abgesehen und verwandelt sie in Bestien!\n—Judy Hopps"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Draw a card. Chosen character gains **Reckless** during their next turn._(They can’t quest and must challenge if able.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4122,6 +4651,12 @@
       name: "Voll gerne"
       title: ""
       flavour: "Nichts ist unmöglich!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Shuffle chosen character, item, or location into their player's deck. That player draws 2 cards."
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4158,6 +4693,12 @@
       name: "Vergiss niemals, wer du bist"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4194,6 +4735,17 @@
       name: "Prinz Johns Spiegel"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "If you have a character named Prince John in play, you pay 1 {I} less to play this item."
+    - type: static-triggered
+      title: 
+        en: "A Feeling Of Power"
+      text: 
+        en: "At the end of each opponent’s turn, if they have more than 3 cards in their hand, they discard until they have 3 cards in their hand."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4230,6 +4782,12 @@
       name: "Obskurosphäre"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "**EXTRACT OF EMERALD**"
+      text: 
+        en: "2 {I}, Banish this item – Your characters gain **Ward** until the start of your next turn. _(Opponents can't choose them except to challenge.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4266,6 +4824,12 @@
       name: "Smaragd Chromikon"
       title: ""
       flavour: "Vertraue dem Wind des Wandels.\n—Inschrift"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Emerald Light"
+      text: 
+        en: "During opponents’ turns, whenever one of your characters is banished, you may return chosen character to their player’s hand."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4305,6 +4869,17 @@
       name: "Sherwood Forest"
       title: "Versteck der Gesetzlosen"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Characters gain **Ward**"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "{E} – Deal 2 damage to chosen damaged character or location."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4344,6 +4919,12 @@
       name: "Tropischer Regenwald"
       title: "Jaguar-Lager"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Opposing damaged characters gain **Reckless**. _(They can’t quest and must challenge if able.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4429,6 +5010,12 @@
       name: "Randale Ralph"
       title: "Abrissbirne"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "We'll Always Be Together"
+      text: 
+        en: "Whenever you ready this character, if you have 2 or more other characters in play, gain 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4471,6 +5058,17 @@
       name: "Maximus"
       title: "Team Champion"
       flavour: "Beim Tauziehen wird man oftmals nicht nur von seinen Emotionen mitgerissen."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "A Reward Worthy of a King"
+      text: 
+        en: "At the end of your turn, if you have a character in play with 5 {S} or more, gain 2 lore. If that character has 10 {S} or more, gain 5 lore instead."
+    - type: static-triggered
+      title: 
+        en: "A Reward Worthy of a King"
+      text: 
+        en: "At the end of your turn, if you have a character in play with 5 {S} or more, gain 2 lore. If that character has 10 {S} or more, gain 5 lore instead."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4569,6 +5167,22 @@
       name: "Donald Duck"
       title: "Kuchenschleuderer"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Donald Duck.)_"
+    - type: resolution
+      title: 
+        en: "Humble Pie"
+      text: 
+        en: "When you play this character, if you used **Shift** to play him, each opponent loses 2 lore."
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While an opponent has 10 or more lore, this character gets +6 {S}."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4654,6 +5268,12 @@
       name: "Scar"
       title: "Verräter"
       flavour: "Die zweite Regel des Schurken-Daseins: Gib dich nicht mit dem zweiten Platz zufrieden."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "**LONG LIVE THE KING**"
+      text: 
+        en: "When you play this character, you may banish chosen character named Mufasa."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4781,6 +5401,12 @@
       name: "Micky Maus"
       title: "Enthusiastischer Tänzer"
       flavour: "Er liebt es, das Rampenlicht mit einem Star wie Minnie zu teilen."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While you have a character named Minnie Mouse in play, this character gets +2 {S}."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4823,6 +5449,12 @@
       name: "Rattenzahn"
       title: "Rasende Ratte"
       flavour: "Das teuflischste Genie der Welt sollte niemals solche Demütigungen erleiden!"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While this character has damage, he gets +2 {S}."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4866,6 +5498,12 @@
       name: "Taffyta Muttonfudge"
       title: "Publikumsliebling"
       flavour: "Verlier niemals dein Ziel aus den Augen. Den zweiten Platz."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Showstopper"
+      text: 
+        en: "When you play this character, if you have a location in play, each opponent loses 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4949,6 +5587,12 @@
       name: "Kater Karlo"
       title: "Dampfschiff-Rivale"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Scram!"
+      text: 
+        en: "When you play this character, if you have another character named Pete in play, you may banish chosen opposing character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4992,6 +5636,17 @@
       name: "Taffyta Muttonfudge"
       title: "Saure Raserin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named Taffyta Muttonfudge.)_"
+    - type: static-triggered
+      title: 
+        en: "New Roster"
+      text: 
+        en: "Once per turn, when this character moves to a location, gain 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5046,6 +5701,12 @@
       name: "Robin Hood"
       title: "Scharfschütze"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "My Greatest Performance"
+      text: 
+        en: "Whenever this character quests, look at the top 4 cards of your deck. You may reveal an action card with cost 6 or less and play it for free. Put the rest in your discard."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5088,6 +5749,12 @@
       name: "Gaston"
       title: "Redlich, solid, tadellos"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "For each damaged character you have in play, you pay 2 {I} less to play this character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5214,6 +5881,12 @@
       name: "Donald Duck"
       title: "Daisys Verabredung"
       flavour: "Er hat den Gewinn im Blick."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "PLUCKY PLAY"
+      text: 
+        en: "Whenever this character challenges another character, each opponent loses 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5256,6 +5929,17 @@
       name: "Rattenzahn"
       title: "Partycrasher"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named ratigan.)_"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your damaged characters get -2 {S}."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5300,6 +5984,12 @@
       name: "Vanellope von Schweetz"
       title: "Im Rennen um die Qualifikation"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "PIXLEXIA"
+      text: 
+        en: "When you play this character, she gains **Evasive** until the start of your next turn. _(Only characters with Evasive can challenge them.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5343,6 +6033,12 @@
       name: "Simba"
       title: "Abenteuerlustiger Nachwuchs"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "I LAUGH IN THE FACE OF DANGER"
+      text: 
+        en: "When you play this character, chosen character gets +2 {S} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5385,6 +6081,12 @@
       name: "Minnie Maus"
       title: "Strahlende Tänzerin"
       flavour: "Sie sucht nicht das Rampenlicht—das Rampenlicht sucht sie."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "DANCE-OFF"
+      text: 
+        en: "Whenever this character or one of your characters named Mickey Mouse challenges another character, gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5421,6 +6123,12 @@
       name: "Befreien"
       title: ""
       flavour: "Naseweis sprang blitzschnell aus der zerbrochenen Laterne."
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Deal 1 damage to chosen character of yours. They gain **Rush** and get +1 {S} this turn. _(They can challenge the turn they’re played.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5457,6 +6165,12 @@
       name: "Das Böse kommt gewappnet"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Ready chosen character of yours. They can’t quest for the rest of this turn. If a Villain character is chosen, gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5495,6 +6209,12 @@
       name: "Ich geb' gut auf dich Acht"
       title: ""
       flavour: "Und jetzt gute Nacht"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Ready all your characters. They can’t quest for the rest of this turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5531,6 +6251,12 @@
       name: "Glimmer gegen Glimmer"
       title: ""
       flavour: "Hades: Hör zu, Kleiner. Wenn ich zurück in das Buch der Legenden verbannt werde, kommst du mit mir.\nHercules: Das werden wir noch sehen."
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5567,6 +6293,17 @@
       name: "Wer kommt mit mir?"
       title: ""
       flavour: "Vergesst nicht, das lila Einhorn gehört mir!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5603,6 +6340,12 @@
       name: "Trank der Macht"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "VILE CONCOCTION"
+      text: 
+        en: "1 {I} Banish this item – Chosen character gets +3 {S} this turn. If a Villain character is chosen, they get +4 {S} instead."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5639,6 +6382,12 @@
       name: "Das befreite Schwert"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Power Appointed"
+      text: 
+        en: "At the start of your turn, if you have a character in play with more {S} than each opposing character in play, each opponent loses 1 lore and you gain lore equal to the lore lost."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5675,6 +6424,12 @@
       name: "Rubin Chromikon"
       title: ""
       flavour: "Lass die Furcht hinter dir.\n—Inschrift"
+  abilities: 
+    - type: activated
+      title: 
+        en: "{E} − Chosen character gets +1 {S} this turn."
+      text: 
+        en: "Ruby Light"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5714,6 +6469,12 @@
       name: "Sugar Rush Rennstrecke"
       title: "Startlinie"
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "On Your Marks"
+      text: 
+        en: "Once per turn, you may {E} chosen character here and deal them 1 damage to move them to another location for free."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5765,6 +6526,12 @@
       name: "Rattenzahns Party"
       title: "Zwielichtiges Hinterzimmer"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While you have a damaged character here, this location gets +2 {L}."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5980,6 +6747,12 @@
       name: "Prinz John"
       title: "Gelegenheitsbetrüger"
       flavour: "<Natürlich> stehe ich auf der Liste. Schau unter PJ."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "TAXES NEVER FAIL ME"
+      text: 
+        en: "Whenever you play an item, this character gets +2 {S} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6023,6 +6796,12 @@
       name: "Merlin"
       title: "Zurück von den Bermudas"
       flavour: "Ein bisschen Ruhe und Entspannung wird deiner Gesundheit gut tun, Junge."
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your Arthur characters gain **Resist** +1 _(Damage dealt to this character is reduced by 1)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6065,6 +6844,17 @@
       name: "Patcha"
       title: "Reiseführer des Königs"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Helpful Supplies"
+      text: 
+        en: "At the start of your turn, if you have an item in play, gain 1 lore."
+    - type: static-triggered
+      title: 
+        en: "Perfect Directions"
+      text: 
+        en: "At the start of your turn, if you have a location in play, gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6109,6 +6899,17 @@
       name: "Die Königin"
       title: "Die Schönste von allen"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named The Queen.)_"
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "For each other character named The Queen you have in play, this character gets +1 {L}."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6151,6 +6952,12 @@
       name: "Sheriff von Nottingham"
       title: "Der alte Geldsack"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "For each item you have in play, you pay 1 {I} less to play this character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6204,6 +7011,12 @@
       name: "Chicha"
       title: "Hingebungsvolle Mutter"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "On the way"
+      text: 
+        en: "During your turn, when you put a card into your inkwell, if it’s the second card you’ve put into your inkwell this turn, you may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6258,6 +7071,12 @@
       name: "Prinz John"
       title: "Goldliebhaber"
       flavour: "Er könnte dieses schurkische Spiel Tag und Nacht spielen."
+  abilities: 
+    - type: activated
+      title: 
+        en: "**BEAUTIFUL, LOVELY TAXES** "
+      text: 
+        en: "{E} – Play an item from your hand or discard with cost 5 or less for free, exerted."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6302,6 +7121,12 @@
       name: "Die Königin"
       title: "Die Krone des Rats"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "GATHERER OF THE WICKED"
+      text: 
+        en: "When you play this character, look at the top 3 cards of your deck. You may reveal any number of character cards named The Queen and put them into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6344,6 +7169,17 @@
       name: "Kusco"
       title: "Selbstsüchtiger Herrscher"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Outplacement"
+      text: 
+        en: "When you play this character, you may put chosen item or location into its player’s inkwell facedown and exerted."
+    - type: activated
+      title: 
+        en: "**BY INVITE ONLY**"
+      text: 
+        en: "4 {I} − Your other characters gain **Resist** +1 until the start of your next turn. _(Damage dealt to them is reduced by 1.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6399,6 +7235,17 @@
       name: "Mufasa"
       title: "Herrscher des Königsfelsens"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "A DELICATE BALANCE"
+      text: 
+        en: "When you play this character, exert all cards in your inkwell, then return 2 cards at random from your inkwell to your hand."
+    - type: static-triggered
+      title: 
+        en: "EVERYTHING THE LIGHT TOUCHES"
+      text: 
+        en: "Whenever this character quests, ready all cards in your inkwell."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6484,6 +7331,12 @@
       name: "Minnie Maus"
       title: "Geistesgegenwärtige Erfinderin"
       flavour: "Das stellt den Zuckerguss-Schleuderer-2000 in den Schatten."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "CAKE CATAPULT"
+      text: 
+        en: "When you play this character, chosen character gets -2 {S} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6583,6 +7436,17 @@
       name: "King Candy"
       title: "Süße Abscheulichkeit"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named King Candy.)_"
+    - type: resolution
+      title: 
+        en: "Changing The Code"
+      text: 
+        en: "When you play this character, you may draw 2 cards, then put a card from your hand on the bottom of your deck."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6626,6 +7490,12 @@
       name: "Donald Duck"
       title: "Konzentrierter Plattfuß"
       flavour: "Hier muss doch irgendwo eines dieser Chromi-Dinger rumliegen!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "BAFFLING MYSTERY"
+      text: 
+        en: "When you play this character, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6668,6 +7538,12 @@
       name: "Tanana"
       title: "Weise Frau"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "YOUR BROTHERS NEED GUIDANCE"
+      text: 
+        en: "When you play this character, you may remove up to 1 damage from chosen character or location."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6710,6 +7586,12 @@
       name: "Tipo"
       title: "Wachsender Sohn"
       flavour: "Mama, Mama! Ich bin schon wieder gewachsen!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "MEASURE ME AGAIN"
+      text: 
+        en: "When you play this character, you may put a card from your hand into your inkwell facedown and exerted."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6753,6 +7635,12 @@
       name: "Belle"
       title: "Vom Ball"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Ushered Into The Party"
+      text: 
+        en: "When you play this character, your other characters gain **Ward** until the start of your next turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6796,6 +7684,17 @@
       name: "Merlin"
       title: "Intellektueller Visionär"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Merlin.)_"
+    - type: resolution
+      title: 
+        en: "Overdeveloped Brain"
+      text: 
+        en: "When you play this character, if you used **Shift** to play him, you may search your deck for any card, put that card into your hand, then shuffle your deck."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6832,6 +7731,12 @@
       name: "Prophezeiung der Zukunft"
       title: ""
       flavour: "Wir müssen das Illuminarium reparieren bevor es zu spät ist. Und wir brauchen diese Geräte, diese Chromikons dafür."
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Look at the top 5 cards of your deck. Put one into your hand and the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6880,6 +7785,12 @@
       name: "Königlicher Wutanfall"
       title: ""
       flavour: "Ich bin König! König! König!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6918,6 +7829,12 @@
       name: "Ewig altbekannt"
       title: ""
       flavour: "Ewig imposant\nWie die Sonn' aufgeht"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6954,6 +7871,12 @@
       name: "Verstecken"
       title: ""
       flavour: "Fauna: Ohje! Wir haben ein paar fallen la...\nSonnenschein: Du meinst <du> hast ein paar fallen lassen!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Put chosen item or location into its player’s inkwell facedown and exerted."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6990,6 +7913,12 @@
       name: "Ich würd' jetzt am liebsten aussteigen"
       title: ""
       flavour: "Ziemlich traurig, was?"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Put chosen character of yours into your inkwell facedown and exerted."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7026,6 +7955,12 @@
       name: "Medaille der Helden"
       title: ""
       flavour: "Mit ihrem außergewöhnlichen Einsatz sichern sie sich einen Platz in den Geschichtsbüchern.\n—General Hologramm"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Congratulations, Soldier"
+      text: 
+        en: "{E}, 2 {I}, Banish this item − Chosen character of yours gets +2 {L} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7062,6 +7997,12 @@
       name: "Basils Lupe"
       title: ""
       flavour: "Ich sage, ein Stück der Hexwell-Krone!—\nBasil"
+  abilities: 
+    - type: activated
+      title: 
+        en: "FIND WHAT’S HIDDEN"
+      text: 
+        en: "{E}, 2 {I} - Look at the top 3 cards of your deck. You may reveal an item card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7098,6 +8039,12 @@
       name: "Merlins Reisetasche"
       title: ""
       flavour: "Komische Art zu packen\n—Arthur"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Hockety Pockety"
+      text: 
+        en: "{E}, 1 {I} – Return an item card from your discard to your hand."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7134,6 +8081,17 @@
       name: "Saphir Chromikon"
       title: ""
       flavour: "Wissen ist ewig.—Inschrift"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Powering UP"
+      text: 
+        en: "This card enters play exerted."
+    - type: activated
+      title: 
+        en: "Sapphire Light"
+      text: 
+        en: "{E}, 2 {I}, Banish one of your items – Gain 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7173,6 +8131,12 @@
       name: "Das Große Illuminarium"
       title: "Strahlender Ballsaal"
       flavour: "Alles leuchtet in der Feierstimmung."
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Characters with **Support** get +1 {L} and +2 {W} while here."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7266,6 +8230,12 @@
       name: "Stitch"
       title: "Team Außenseiter"
       flavour: "Er ist zwar nicht der größte Glimmer im Team, aber er hat es dennoch faustdick hinter den Ohren."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "HEAVE HO!"
+      text: 
+        en: "When you play this character, you may deal 2 damage to chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7309,6 +8279,17 @@
       name: "Dschafar"
       title: "Tyrannischer Hypnosekünstler"
       flavour: "Niemand wird mich von der zerbrochenen Krone fernhalten!"
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +7 (_When challenging, this character get +73 {S}._)"
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Opposing characters with cost 4 or less can’t challenge."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7352,6 +8333,12 @@
       name: "Simba"
       title: "Verschollener Prinz"
       flavour: "Außerdem ist das mein Königreich. Wenn ich nicht dafür kämpfe, wer dann?"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Face The Past"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, you may draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7476,6 +8463,12 @@
       name: "Micky Maus"
       title: "Essensschlacht-Verteidiger"
       flavour: "Ihn zu unterschätzen ist das Rezept für ein Desaster."
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7562,6 +8555,12 @@
       name: "Kronk"
       title: "Nicht lizenzierter Ermittler"
       flavour: "Vielleicht ist <das> ein Chromikon. Aber wahrscheinlich nicht. Ich hätte wirklich besser aufpassen sollen, als dieser Magier-Typ geredet hat..."
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +1 (_When challenging, this character get +13 {S}._)"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7648,6 +8647,12 @@
       name: "Hatschi"
       title: "Ritter der Geräusche"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Headwind"
+      text: 
+        en: "When you play this character, chosen Knight character gains **Challenger** +2 this turn. _(They get +2 {S} while challenging.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7692,6 +8697,12 @@
       name: "Seppl"
       title: "Ritterlehrling"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Stronger Together"
+      text: 
+        en: "When you play this character, if you have another Knight character in play, you may deal 1 damage to chosen character or location."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7735,6 +8746,12 @@
       name: "Namaari"
       title: "Entschlossene Tochter"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +3 _(Damage dealt to this character is reduced by 3.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7791,6 +8808,12 @@
       name: "Schneewittchen"
       title: "Ein gutes Herz"
       flavour: "Freundschaft ist die beste aller Rüstungen."
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +[object Object] _(Damage dealt to this character is reduced by [object Object].)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7834,6 +8857,12 @@
       name: "Isma"
       title: "Ungerecht behandelt"
       flavour: "Was meinst du mit nicht auf der Liste?! Du sollst mich doch <immer> auf die Liste setzen!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I'm Warning You!"
+      text: 
+        en: "During your turn, whenever one of your characters banishes a character in a challenge, you may deal 1 damage to chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7877,6 +8906,17 @@
       name: "Kronk"
       title: "Sicherheitschef"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Kronk.)_"
+    - type: static-triggered
+      title: 
+        en: "ARE YOU ON THE LIST?"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, you may play a character with cost 5 or less for free."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7921,6 +8961,12 @@
       name: "Brummbär"
       title: "Ritter des Misstrauens"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7963,6 +9009,12 @@
       name: "Kater Karlo"
       title: "Wrestling-Champion"
       flavour: "Gleich wirst du doppelt sehen!"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Re-Pete"
+      text: 
+        en: "{E} - Reveal the top card of your deck. If it’s a character card named Pete, you may play it for free."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8049,6 +9101,12 @@
       name: "Pimpel"
       title: "Ritter der Bewunderung"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While you have a character named Snow White in play, this character gains **Bodyguard**."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8135,6 +9193,12 @@
       name: "Happy"
       title: "Ritter der Lebensfreude"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8178,6 +9242,17 @@
       name: "Simba"
       title: "Sohn von Mufasa"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Simba.)_"
+    - type: resolution
+      title: 
+        en: "FEARSOME ROAR"
+      text: 
+        en: "When you play this character, you may banish chosen item or location."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8222,6 +9297,12 @@
       name: "Chef"
       title: "Ritter der Kühnheit"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "**DRASTIC MEASURES**"
+      text: 
+        en: "When you play this character, you may discard your hand to draw 2 cards."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8277,6 +9358,17 @@
       name: "Arthur"
       title: "Siegreicher König"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Arthur.)_"
+    - type: resolution
+      title: 
+        en: "KNIGHTED BY THE KING"
+      text: 
+        en: "When you play this character, chosen character gains **Challenger** +2 and **Resist** +2 and can challenge ready characters this turn. _(They get +2 {S} while challenging. Damage dealt to them is reduced by 2.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8319,6 +9411,12 @@
       name: "Kater Karlo"
       title: "Schiedsrichter der Spiele"
       flavour: "Es ist kein Betrug, wenn man selbst die Regeln aufgestellt hat."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Blow The Whistle"
+      text: 
+        en: "When you play this character, opponents can’t play actions until the start of your next turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8355,6 +9453,12 @@
       name: "Tauziehen"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8393,6 +9497,12 @@
       name: "Wann fängt mein Leben an?"
       title: ""
       flavour: "Wie lang bin ich noch an diesem Ort?"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "When Will My Life Begin?"
+      text: 
+        en: "Chosen character can’t challenge during their next turn. Draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8429,6 +9539,12 @@
       name: "Duckt euch weg!"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Chosen character gains **Resist** +1 and **Evasive** this turn. _(Damage dealt to them is reduced by 1. They can challenge characters with Evasive.)_"
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8465,6 +9581,12 @@
       name: "Essensschlacht!"
       title: ""
       flavour: "Ahijak, wer bestellt denn einen... auf den Kopf gedrehten KU-UCHE-EN?"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8501,6 +9623,12 @@
       name: "Schild von Arendelle"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "Deflect"
+      text: 
+        en: "Banish this item – Chosen character gains **Resist** +1 until the start of your next turn. _(Damage dealt to them is reduced by 1.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8537,6 +9665,12 @@
       name: "Plattenrüstung"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "Well Crafted"
+      text: 
+        en: " {E} – Chosen character gains **Resist** +2 until the start of your next turn. _(Damage dealt to them is reduced by 2.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8573,6 +9707,12 @@
       name: "Stahl Chromikon"
       title: ""
       flavour: "Ein starker Wille, stark im Kampf.\n—Inschrift"
+  abilities: 
+    - type: activated
+      title: 
+        en: "STEEL LIGHT"
+      text: 
+        en: "{E} – Deal 1 damage to chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8624,6 +9764,12 @@
       name: "Anonyme Bösewichte"
       title: "Zentrum für Schurkenunterstützung"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Villain characters gain ``{E}, 3 {I} - Play a character with the same name as this character for free`` while here."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8663,4 +9809,15 @@
       name: "Mine der Sieben Zwerge"
       title: "Sicheres Bollwerk"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Mountain Defense"
+      text: 
+        en: "During your turn, the first time you move a character here, you may deal 1 damage to chosen character. If the moved character is a Knight, deal 2 damage instead."
+    - type: static-triggered
+      title: 
+        en: "Mountain Defense"
+      text: 
+        en: "During your turn, the first time you move a character here, you may deal 1 damage to chosen character. If the moved character is a Knight, deal 2 damage instead."
   franchise_id: "unknown"

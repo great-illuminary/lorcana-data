@@ -27,10 +27,13 @@ data class VirtualCard(
     val classifications: List<ClassificationHolder> = emptyList(),
     val illustrator: String = "",
     val languages: CardTranslations,
-    val actions: List<Ability> = emptyList(),
+    val abilities: List<Ability> = emptyList(),
     val franchise: Franchise,
     @SerialName("third_party")
     val thirdParty: CardThirdParty? = null
 ) {
+    @Deprecated("use abilities only")
+    val actions: List<Ability> = abilities
+
     fun variants(set: SetDescription) = variants.filter { it.set == set }
 }

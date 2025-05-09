@@ -46,8 +46,12 @@
       name: "アリエル"
       title: "人間にはなれたけど"
       flavour: "「…」"
-  actions: 
-    - "voiceless"
+  abilities: 
+    - type: static
+      title: 
+        en: "voiceless"
+      text: 
+        en: "This character can't {E} to sing songs."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ariel-On-Human-Legs"
@@ -100,9 +104,17 @@
       name: "アリエル"
       title: "麗しい歌姫"
       flavour: ""
-  actions: 
-    - "singer"
-    - "musical_debut"
+  abilities: 
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
+    - type: resolution
+      title: 
+        en: "MUSICAL DEBUT"
+      text: 
+        en: "When you play this character, look at the top 4 cards of your deck. You may reveal a song card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ariel-Spectacular-Singer"
@@ -155,9 +167,17 @@
       name: "シンデレラ"
       title: "忘れない優しさ"
       flavour: ""
-  actions: 
-    - "singer"
-    - "wonderful_dream"
+  abilities: 
+    - type: activated
+      title: 
+        en: "A WONDERFUL DREAM"
+      text: 
+        en: "{E}− Remove up to 3 damage from chosen Princess character."
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** 4 _(This character counts as cost 4 to sing songs.)_"
   franchise_id: "cinderella"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cinderella-Gentle-and-Kind"
@@ -223,9 +243,17 @@
       name: "グーフィー"
       title: "銃士"
       flavour: "「構ッヒョ！」"
-  actions: 
-    - "bodyguard"
-    - "and_two_for_tea"
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+    - type: resolution
+      title: 
+        en: "AND TWO FOR TEA"
+      text: 
+        en: "When you play this character, you may remove up to 2 damage from each of your Musketeer characters."
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Goofy-Musketeer"
@@ -293,9 +321,17 @@
       name: "ハデス"
       title: "オリンポスの王"
       flavour: "「おおっと、新しい名刺が必要になるな」"
-  actions: 
-    - "shift"
-    - "sinister_plot"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character gets +1 {L} for every other Villain character you have in play."
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Hades.)_"
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hades-King-of-Olympus-V1"
@@ -352,8 +388,12 @@
       name: "ハデス"
       title: "冥界の主"
       flavour: "「生産量は上がり、コストは下がり、川は満水なんだ。\n拡大の話をするべき時だ」"
-  actions: 
-    - "well_of_souls"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "WELL OF SOULS"
+      text: 
+        en: "When you play this character, return a character card from your discard to your hand."
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hades-Lord-of-the-Underworld"
@@ -422,8 +462,12 @@
       name: "ヘイヘイ"
       title: "おやつ見っけ！"
       flavour: "「能ある鷹は爪隠す、って言うでしょ。能ある…ニワトリだけどね」\n― モアナ"
-  actions: 
-    - "support"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Heihei-Boat-Snack"
@@ -475,8 +519,12 @@
       name: "ル・フウ"
       title: "すっとこどっこい"
       flavour: "悪党たるもの、比較対象になるとんまな子分を連れ歩くべし。"
-  actions: 
-    - "loyal"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "If you have a character named Gaston in play, you pay 1 {I} less to play this character."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lefou-Bumbler"
@@ -579,9 +627,6 @@
       name: "マキシマス"
       title: "宮殿の騎馬"
       flavour: ""
-  actions: 
-    - "bodyguard"
-    - "support"
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maximus-Palace-Horse"
@@ -633,8 +678,12 @@
       name: "マキシマス"
       title: "しつこい追跡者"
       flavour: "彼は勇気と規律、そして一つまみの気品をもって獲物を追いかける。"
-  actions: 
-    - "horse_kick"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "HORSE KICK"
+      text: 
+        en: "When you play this character, chosen character gets -2 {S} this turn."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maximus-Relentless-Pursuer"
@@ -797,8 +846,12 @@
       name: "モアナ"
       title: "モトゥヌイ生まれ"
       flavour: "「私はモトゥヌイのモアナ。あなたは私の船に乗り、\nこの海を渡って、テ・フィティの心を返しに行くの」"
-  actions: 
-    - "we_can_fix_it"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "We Can Fix It"
+      text: 
+        en: "Whenever this character quests, you may ready your other Princess characters. They can't quest for the rest of this turn."
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Moana-Of-Motunui"
@@ -903,8 +956,12 @@
       name: "フィリップ王子"
       title: "ドラゴンに挑む者"
       flavour: "「真の愛への道のりにはたくさんの危険が待っていますが、\n一人で立ち向かうのです」\n― フローラ"
-  actions: 
-    - "heroism"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "HEROISM"
+      text: 
+        en: "When this character challenges and is banished, you may banish the challenged character."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Prince-Phillip-Dragonslayer"
@@ -1036,8 +1093,12 @@
       name: "ラプンツェル"
       title: "いやしの賜物"
       flavour: ""
-  actions: 
-    - "gleam_and_glow"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "GLEAM AND GLOW"
+      text: 
+        en: "When you play this character, remove up to 3 damage from one of your characters. Draw a card for each 1 damage removed this way."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Rapunzel-Gifted-with-Healing"
@@ -1093,8 +1154,12 @@
       name: "セバスチャン"
       title: "宮廷作曲家"
       flavour: "「どうしてこんなハメになったんだ。作曲が仕事だというのに、わがまま娘のお守りとは情けないよ」"
-  actions: 
-    - "singer_4"
+  abilities: 
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** 4 _(This character counts as cost 4 to sing songs.)_"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sebastian-Court-Composer"
@@ -1147,8 +1212,6 @@
       name: "シンバ"
       title: "守護者の片鱗"
       flavour: "勇気に体の大小は関係ないんだ。"
-  actions: 
-    - "bodyguard"
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Protective-Cub"
@@ -1215,8 +1278,12 @@
       name: "スティッチ"
       title: "お気楽サーファー"
       flavour: "「お前宇宙人だったのか。あっちの波はどうだい？」\n― デイヴィッド"
-  actions: 
-    - "ohana"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Ohana"
+      text: 
+        en: "When you play this character, if you have 2 or more other characters in play, you may draw 2 cards."
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stitch-Carefree-Surfer-V1"
@@ -1356,9 +1423,17 @@
       name: "スティッチ"
       title: "ロックスター"
       flavour: "ビーチサイドのコンサートで一番いいとこは、いつでも飛び入り参加できることだ。"
-  actions: 
-    - "shift_4"
-    - "adoring_fans"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "ADORING FANS"
+      text: 
+        en: "Whenever you play a character with cost 2 or less, you may exert them to draw a card."
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Stitch.)_"
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stitch-Rock-Star"
@@ -1410,8 +1485,12 @@
       name: "ティモン"
       title: "メシ掘り名人"
       flavour: "「ここじゃとびきり美味いもんが山ほどあるんだ、\nどこを探せばいいか知ってりゃあな」"
-  actions: 
-    - "tastes_like_chicken"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "TASTES LIKE CHICKEN"
+      text: 
+        en: "When you play this character, you may remove up to 1 damage from chosen character."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Timon-Grub-Rustler"
@@ -1459,8 +1538,12 @@
       name: "BE OUR GUEST"
       title: ""
       flavour: ""
-  actions: 
-    - "be_our_guest"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Be Our Guest"
+      text: 
+        en: "Look at the top 4 cards of your deck. You may reveal a character card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Be-Our-Guest"
@@ -1506,8 +1589,12 @@
       name: "怒ってばかりね！"
       title: ""
       flavour: ""
-  actions: 
-    - "control_your_temper"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Control-Your-Temper"
@@ -1559,8 +1646,12 @@
       name: "HAKUNA MATATA"
       title: ""
       flavour: "なんていい響きなんだ！"
-  actions: 
-    - "hakuna_matata"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Hakuna Matata"
+      text: 
+        en: "Remove up to 3 damage from each of your characters."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hakuna-Matata"
@@ -1610,8 +1701,12 @@
       name: "癒しのきらめき"
       title: ""
       flavour: "「怖がらないで！」\n― ラプンツェル"
-  actions: 
-    - "healing_glow"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Healing Glow"
+      text: 
+        en: "Remove up to 2 damage from chosen character."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Healing-Glow"
@@ -1657,8 +1752,12 @@
       name: "まさにその時"
       title: ""
       flavour: "最高のヒーローはいつもカンペキなタイミングで登場する― そういう風にできてるんだ。"
-  actions: 
-    - "just_in_time"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Just-in-Time"
@@ -1710,8 +1809,12 @@
       name: "PART OF YOUR WORLD"
       title: ""
       flavour: "なんでもあげるわ ここを出て 暖かい 砂の上で 眠れたら"
-  actions: 
-    - "part_of_your_world"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Part of Your World"
+      text: 
+        en: "Return a character card from your discard to your hand."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Part-of-Your-World"
@@ -1757,8 +1860,12 @@
       name: "私を忘れたのか"
       title: ""
       flavour: "「今のお前は本当のお前ではない」\n― ムファサ"
-  actions: 
-    - "you_have_forgotten_me"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "You Have Forgotten Me"
+      text: 
+        en: "Each opponent chooses and discards two cards."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/You-Have-Forgotten-Me"
@@ -1808,8 +1915,12 @@
       name: "カミスキー"
       title: ""
       flavour: "「素晴らしいヘアスタイルが一丁上がりさ！」\n― カモメのスカットル"
-  actions: 
-    - "straighten_hair"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Straighten Hair"
+      text: 
+        en: "{E} - Remove up to 1 damage from chosen character."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dinglehopper"
@@ -1859,8 +1970,12 @@
       name: "ランタン"
       title: ""
       flavour: "「この光は…毎年私の誕生日に現れるのよ。私の誕生日だけに。\n胸の奥でハッキリと感じるの！」\n― ラプンツェル"
-  actions: 
-    - "birthday_lights"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Birthday Lights"
+      text: 
+        en: "{E} - You pay 1 {I} less for the next character you play this turn."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lantern"
@@ -1906,8 +2021,12 @@
       name: "アースラの貝殻ネックレス"
       title: ""
       flavour: "「歌は素敵な趣味よ…歌うための声さえ持っていればね」\n― アースラ"
-  actions: 
-    - "now_sing"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "$undefined"
+      text: 
+        en: "$undefined"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ursulas-Shell-Necklace"
@@ -1960,8 +2079,12 @@
       name: "アナ"
       title: "アレンデールの継承者"
       flavour: "「姉妹の心はひとつなんだから」"
-  actions: 
-    - "loving_heart"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Loving Heart"
+      text: 
+        en: "When you play this character, if you have a character named Elsa in play, choose an opposing character. The chosen character doesn't ready at the start of their next turn."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Anna-Heir-to-Arendelle"
@@ -2065,9 +2188,17 @@
       name: "ファシリエ"
       title: "悪事の協力者"
       flavour: ""
-  actions: 
-    - "shift_5"
-    - "into_the_shadows"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Into the Shadows"
+      text: 
+        en: "Whenever one of your other characters is banished in a challenge, you may return that card to your hand."
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Dr. Facilier.)_"
   franchise_id: "the-princess-and-the-frog"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Facilier-Agent-Provocateur"
@@ -2120,8 +2251,12 @@
       name: "ファシリエ"
       title: "イカサマ師"
       flavour: "はじめまして、ご機嫌いかが…？\nこのファシリエから少々のご挨拶を…"
-  actions: 
-    - "challenger"
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +2 (_When challenging, this character get +2 {S}._)"
   franchise_id: "the-princess-and-the-frog"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Facilier-Charlatan"
@@ -2174,8 +2309,12 @@
       name: "ファシリエ"
       title: "素晴らしい紳士"
       flavour: ""
-  actions: 
-    - "dreams_made_real"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "$undefined"
+      text: 
+        en: "$undefined"
   franchise_id: "the-princess-and-the-frog"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Facilier-Remarkable-Gentleman"
@@ -2303,8 +2442,12 @@
       name: "エルサ"
       title: "雪の女王"
       flavour: "魔法のインクで描かれたエルサは、自分がまったく新しい世界にいることに気づいた。幸運なことに、どこに行こうと氷は氷だった。"
-  actions: 
-    - "freeze"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Freeze"
+      text: 
+        en: "Exert chosen opposing character."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Elsa-Snow-Queen"
@@ -2371,9 +2514,17 @@
       name: "エルサ"
       title: "冬の精霊"
       flavour: "氷はあなたが思ってる以上に強いのよ。"
-  actions: 
-    - "shift_6"
-    - "deep_freeze"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Elsa.)_"
+    - type: resolution
+      title: 
+        en: "DEEP FREEZE"
+      text: 
+        en: "When you play this character, exert up to 2 chosen characters. They can't ready at the start of their next turn."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Elsa-Spirit-of-Winter-V1"
@@ -2425,9 +2576,17 @@
       name: "フロットサム"
       title: "アースラのスパイ"
       flavour: "「あのお方ならあんたを助けられるよ…お代はかかるけどな」"
-  actions: 
-    - "rush"
-    - "dexterous_lunge"
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your characters named Jetsam gain **Rush.**"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Flotsam-Ursulas-Spy"
@@ -2484,8 +2643,12 @@
       name: "ジャファー"
       title: "秘密の管理者"
       flavour: "秘密を覆い隠す方法は一つだけじゃあないのだよ。"
-  actions: 
-    - "hidden_wonders"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character gets +1 {S} for each card in your hand."
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jafar-Keeper-of-Secrets"
@@ -2542,8 +2705,12 @@
       name: "ジャファー"
       title: "邪悪な魔法使い"
       flavour: "「コソコソするのはもうたくさんだ。あの鼻持ちならないサルタンに魔法使いの力を見せてやる時だ」"
-  actions: 
-    - "challenger_3"
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +3 (_When challenging, this character get +3 {S}._)"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jafar-Wicked-Sorcerer"
@@ -2595,9 +2762,17 @@
       name: "ジェットサム"
       title: "アースラのスパイ"
       flavour: "「あんたが願いを叶えるのを助けてあげられるよ…」"
-  actions: 
-    - "evasive"
-    - "sinister_slither"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your characters named Flotsam gain **Evasive.**"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jetsam-Ursulas-Spy"
@@ -2653,8 +2828,12 @@
       name: "魔法のほうき"
       title: "バケツリレー"
       flavour: "大イルミナの名で知られる巨大な物語の鍛冶場には、やるべき仕事が溢れかえっている。"
-  actions: 
-    - "sweep"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "SWEEP"
+      text: 
+        en: "When you play this character, you may shuffle a card from any discard into its player's deck."
   franchise_id: "fantasia"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Magic-Broom-Bucket-Brigade"
@@ -2763,8 +2942,12 @@
       name: "マレフィセント"
       title: "魔女"
       flavour: "「この私に挑戦しようというのか？<愚か者めが。>\n私の魔法は！お前が想像できる以上に強力なのだ！」"
-  actions: 
-    - "cast_my_spell"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Cast My Spell"
+      text: 
+        en: "When you play this character, you may draw a card."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maleficent-Sorceress"
@@ -2816,8 +2999,12 @@
       name: "マシュマロウ"
       title: "しぶとい守護者"
       flavour: "「やあ！今キミのこと話してたんだ。悪口じゃないよ？\nいい話」\n― オラフ"
-  actions: 
-    - "durable"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Durable"
+      text: 
+        en: "When this character is banished in a challenge, you may return this card to your hand."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Marshmallow-Persistent-Guardian"
@@ -2887,9 +3074,17 @@
       name: "ミッキーマウス"
       title: "きまぐれな魔法使い"
       flavour: "どんな失敗も、水に流しちゃおうよ。"
-  actions: 
-    - "animate_broom"
-    - "ceaseless_worker"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "You pay 1 {I} less to play Broom characters."
+    - type: static-triggered
+      title: 
+        en: "Ceaseless Worker"
+      text: 
+        en: "Whenever one of your Broom characters is banished in a challenge, you may return that card to your hand."
   franchise_id: "fantasia"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Wayward-Sorcerer-V1"
@@ -2996,8 +3191,12 @@
       name: "パスカル"
       title: "ラプンツェルの親友"
       flavour: "本当の友だちはいつもきみのそばにいるよ、見えないかもしれないけど。"
-  actions: 
-    - "camouflage"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While you have another character in play, this character gains **Evasive**. _(Only charactersrwith Evasive can challenge them.)_"
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Pascal-Rapunzels-Companion"
@@ -3050,8 +3249,6 @@
       name: "ラフィキ"
       title: "謎めいた賢者"
       flavour: "「過去は痛むもんじゃ。だがお前はそこから逃げ出すことができる！それに…学ぶことも」"
-  actions: 
-    - "rush"
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Rafiki-Mysterious-Sage"
@@ -3155,8 +3352,12 @@
       name: "女王"
       title: "性悪なうぬぼれ屋"
       flavour: "比類なき狡猾さに相応しい、至高の美しさ。この世で最高に美しい女が誰か、疑問の余地などあろうか？"
-  actions: 
-    - "i_summon_thee"
+  abilities: 
+    - type: activated
+      title: 
+        en: "I Summon Thee"
+      text: 
+        en: "Draw a card."
   franchise_id: "snow-white-and-the-seven-dwarfs"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/The-Queen-Wicked-and-Vain"
@@ -3264,9 +3465,12 @@
       name: "ティンカー・ベル"
       title: "ピーター・パンの仲間"
       flavour: ""
-  actions: 
-    - "evasive"
-    - "loyal_and_devoted"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your characters named Peter Pan gain **Challenger +1.** _(They get +1 {S} while challenging.)_"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Peter-Pans-Ally"
@@ -3319,8 +3523,12 @@
       name: "アースラ"
       title: "パワーをちょうだい！"
       flavour: "<悪役のルールその1>：悪に生きるのであれば、格調高くあるべし。"
-  actions: 
-    - "its_too_easy"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "It's Too Easy"
+      text: 
+        en: "Each opponent loses 1 lore. You may draw a card for each 1 lore lost this way."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ursula-Power-Hungry"
@@ -3386,8 +3594,12 @@
       name: "イズマ"
       title: "錬金術師"
       flavour: "「お前の意見が必要な時は、そう言うわよ！」"
-  actions: 
-    - "youre_excused"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "$undefined"
+      text: 
+        en: "$undefined"
   franchise_id: "the-emperors-new-groove"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Yzma-Alchemist"
@@ -3439,9 +3651,12 @@
       name: "ゼウス"
       title: "稲妻の神"
       flavour: "「小さな稲妻一振りで実に多くの問題を解決できるぞ」"
-  actions: 
-    - "rush"
-    - "challenger_4"
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +4 (_When challenging, this character get +4 {S}._)"
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Zeus-God-of-Lightning"
@@ -3487,8 +3702,12 @@
       name: "うろたえるのじゃ！"
       title: ""
       flavour: "「時にはビックリ仰天するのもいいもんじゃよ！」"
-  actions: 
-    - "befuddle"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Befuddle"
+      text: 
+        en: "Return a character or item with cost 2 or less to their player's hand."
   franchise_id: "the-sword-in-the-stone"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Befuddle"
@@ -3534,8 +3753,12 @@
       name: "凍りなさい"
       title: ""
       flavour: "頭を冷やした方がいいわね。"
-  actions: 
-    - "freeze_action"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Freeze"
+      text: 
+        en: "Exert chosen opposing character."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Freeze"
@@ -3587,8 +3810,12 @@
       name: "FRIENDS ON THE OTHER SIDE"
       title: ""
       flavour: "カードだ カードだ カードは語る…"
-  actions: 
-    - "friends_on_the_other_side"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Draw 2 cards."
   franchise_id: "the-princess-and-the-frog"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Friends-on-the-Other-Side"
@@ -3640,8 +3867,12 @@
       name: "REFLECTION"
       title: ""
       flavour: "本当の私 いつの日か 必ず映る いつの日か"
-  actions: 
-    - "reflection"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Reflection"
+      text: 
+        en: "Look at the top 3 cards of your deck. Put them back on the top of your deck in any order."
   franchise_id: "mulan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Reflection"
@@ -3687,8 +3918,12 @@
       name: "魔法の鏡"
       title: ""
       flavour: "「何をお聞きになりたいのですか…？」"
-  actions: 
-    - "speak"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Speak"
+      text: 
+        en: "{E}, 4 {I} - Draw a card."
   franchise_id: "snow-white-and-the-seven-dwarfs"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Magic-Mirror"
@@ -3738,8 +3973,12 @@
       name: "アースラの大釜"
       title: ""
       flavour: "魔法薬を煎じたり、声を奪ったりするのにバッチリ。"
-  actions: 
-    - "peer_into_the_depths"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Peer Into The Depths"
+      text: 
+        en: "{E} − Look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ursulas-Cauldron"
@@ -3785,8 +4024,12 @@
       name: "白うさぎの懐中時計"
       title: ""
       flavour: "「遅れるのが当り前さ。だって、この時計はちょうど二日遅れてるんだ」\n― マッドハッター"
-  actions: 
-    - "im_late"
+  abilities: 
+    - type: activated
+      title: 
+        en: "I'm late!"
+      text: 
+        en: "Chosen character gains **Rush** this turn. _(They can challenge the turn they're played.)_"
   franchise_id: "alice-in-wonderland"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/White-Rabbits-Pocket-Watch"
@@ -3839,8 +4082,12 @@
       name: "アラジン"
       title: "アリ王子"
       flavour: "驚天動地の億万長者。\n治外法権の特権階級。\n正真正銘のニセモノ。"
-  actions: 
-    - "ward"
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Prince-Ali"
@@ -3893,9 +4140,12 @@
       name: "野獣"
       title: "狼の天敵"
       flavour: "「一匹残らず引き裂いてやろうか！」"
-  actions: 
-    - "rush"
-    - "roar"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "ROAR"
+      text: 
+        en: "When you play this character, exert all opposing damaged characters."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Beast-Wolfsbane"
@@ -3946,8 +4196,12 @@
       name: "チェシャ猫"
       title: "ヘンテコ"
       flavour: "「もう気付いてるだろう？もちろんこの私だって…」"
-  actions: 
-    - "lose_something"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Lose Something?"
+      text: 
+        en: "When this character is challenged and banished, banish the challenging character."
   franchise_id: "alice-in-wonderland"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cheshire-Cat-Not-All-There"
@@ -4012,8 +4266,12 @@
       name: "クルエラ"
       title: "いつだって腐りどおしよ"
       flavour: "彼女が立ち寄れば、ひどい気分になる。"
-  actions: 
-    - "youll_be_sorry"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "YOU'LL BE SORRY"
+      text: 
+        en: "When this character is challenged and banished, you may return chosen character to their player's hand."
   franchise_id: "101-dalmatians"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cruella-De-Vil-Miserable-As-Usual"
@@ -4117,8 +4375,12 @@
       name: "フリン・ライダー"
       title: "イケてるお尋ね者"
       flavour: "「こんなことしたくないんだけど、他に選択肢がなさそうだ…\n僕の気持ちを理解ってくれ」"
-  actions: 
-    - "here_comes_the_smolder"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Here Comes The Smolder"
+      text: 
+        en: "Whenever this character is challenged, the challenging player chooses and discards a card."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Flynn-Rider-Charming-Rogue"
@@ -4184,9 +4446,12 @@
       name: "ジーニー"
       title: "私はあなたの子分"
       flavour: "「だから アブラカタブラ アカンベー！ちょっといきすぎゃダ・メよー！」"
-  actions: 
-    - "evasive"
-    - "disappear"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "disappear"
+      text: 
+        en: "When you play this character, you may return chosen character to their player's hand."
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Genie-On-the-Job-V1"
@@ -4252,10 +4517,17 @@
       name: "ジーニー"
       title: "パワー全開"
       flavour: ""
-  actions: 
-    - "shift_6"
-    - "evasive"
-    - "phenomenal_cosmic_power"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Phenomenal Cosmic Power"
+      text: 
+        en: "Whenever this character quests, you may play an action with cost 5 or less for free."
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Genie.)_"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Genie-Powers-Unleashed"
@@ -4465,8 +4737,12 @@
       name: "イアーゴ"
       title: "やかましいオウム"
       flavour: ""
-  actions: 
-    - "you_got_problem"
+  abilities: 
+    - type: activated
+      title: 
+        en: "YOU GOT A PROBLEM?"
+      text: 
+        en: "{E} − Chosen character gains **Reckless** during their next turn. _(They can't quest and must challenge if able.)_"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Iago-Loud-Mouthed-Parrot"
@@ -4522,8 +4798,12 @@
       name: "ジャスパー"
       title: "ちんけなチンピラ"
       flavour: "「弱気を起こすんじゃねえホーレス、やるって決めたらバッチリやるで」"
-  actions: 
-    - "puppynapping"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Puppynapping"
+      text: 
+        en: "Whenever this character quests, chosen opposing character can't quest during their next turn."
   franchise_id: "101-dalmatians"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jasper-Common-Crook"
@@ -4578,8 +4858,17 @@
       name: "ジョン・シルバー"
       title: "宇宙海賊"
       flavour: "「そんなに気味悪がることはねぇぞ…この腕がそんなに珍しいか？」"
-  actions: 
-    - "pick_your_fights"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Pick Your Fights"
+      text: 
+        en: "When you play this character and whenever he quests, chosen opposing character gains **Reckless** during their next turn. _(They can't quest and must challenge if able.)_"
+    - type: static-triggered
+      title: 
+        en: "Pick Your Fights"
+      text: 
+        en: "When you play this character and whenever he quests, chosen opposing character gains **Reckless** during their next turn. _(They can't quest and must challenge if able.)_"
   franchise_id: "treasure-planet"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/John-Silver-Alien-Pirate"
@@ -4697,9 +4986,12 @@
       name: "クスコ"
       title: "気分屋の王様"
       flavour: "「僕はエメラルドが欲しいって言ったのに、これはどう見ても翡翠だ！君たちいったいどうしちゃったのさ？」"
-  actions: 
-    - "ward"
-    - "no_touchy"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "No Touchy!"
+      text: 
+        en: "When this character is challenged and banished, you may banish the challenging character."
   franchise_id: "the-emperors-new-groove"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Kuzco-Temperamental-Emperor"
@@ -4751,8 +5043,12 @@
       name: "トレメイン夫人"
       title: "意地悪なまま母"
       flavour: "「仕事が終わったということは、明らかに仕事が足りてないということね」"
-  actions: 
-    - "do_it_again"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "DO IT AGAIN!"
+      text: 
+        en: "When you play this character, you may return an action card from your discard to your hand."
   franchise_id: "cinderella"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lady-Tremaine-Wicked-Stepmother"
@@ -4803,8 +5099,12 @@
       name: "マッドハッター"
       title: "親切な主催者"
       flavour: "マッドハッター 「もう少しお茶を飲まんかね？」\nアリス 「私まだ飲んでないわ、だからもう少しというのは変よ」"
-  actions: 
-    - "tea_party"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Tea Party"
+      text: 
+        en: "Whenever this character is challenged, you may draw a card."
   franchise_id: "alice-in-wonderland"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mad-Hatter-Gracious-Host"
@@ -4856,8 +5156,12 @@
       name: "メグ"
       title: "操りの糸"
       flavour: "「契約は契約よ。でも恋に落ちるなんてどこにも書いてなかったはずだわ」"
-  actions: 
-    - "wonder_boy"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Wonder Boy"
+      text: 
+        en: "When you play this character, chosen character gets +2 {S} this turn."
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Megara-Pulling-the-Strings"
@@ -4923,9 +5227,17 @@
       name: "ミッキーマウス"
       title: "腕利きの盗賊"
       flavour: "静かなること…何とやら。"
-  actions: 
-    - "shift_5"
-    - "misdirection"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Mickey Mouse.)_"
+    - type: static-triggered
+      title: 
+        en: "Misdirection"
+      text: 
+        en: "Whenever you play an action, chosen opposing character can't quest during their next turn."
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Artful-Rogue-V1"
@@ -5029,8 +5341,12 @@
       name: "マザー・ゴーテル"
       title: "利己的で支配的"
       flavour: "「もうやだ、<アタシが悪者>って訳ね」"
-  actions: 
-    - "skip_drama_stay_with_mama"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While this character is exerted, opposing character can't quest."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mother-Gothel-Selfish-Manipulator"
@@ -5082,8 +5398,6 @@
       name: "ピーター・パン"
       title: "飛び続けネバーランド"
       flavour: "「どうしたんだよ、フック？飛べないのかい？」"
-  actions: 
-    - "evasive"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Peter-Pan-Never-Landing"
@@ -5186,9 +5500,12 @@
       name: "ティンカー・ベル"
       title: "頼りになるよ"
       flavour: ""
-  actions: 
-    - "evasive"
-    - "pixie_dust"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Pixie Dust"
+      text: 
+        en: "When you play this character, chosen character gains **Evasive** this turn."
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Most-Helpful"
@@ -5234,8 +5551,12 @@
       name: "またやるのよ！"
       title: ""
       flavour: "「…次にテラスを洗い階段を掃除し煙突のすすを落とす。もちろん縫い物繕い物洗濯もするんだよ…」\n― トレメイン夫人"
-  actions: 
-    - "do_it_again_action"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Do It Again!"
+      text: 
+        en: "Return an action card from your discard to your hand."
   franchise_id: "cinderella"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Do-It-Again"
@@ -5283,8 +5604,12 @@
       name: "MOTHER KNOWS BEST"
       title: ""
       flavour: "信じなさい お母さまを 外はあぶない"
-  actions: 
-    - "mother_knows_best"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Mother Knows Best"
+      text: 
+        en: "Return chosen character to their player's hand."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mother-Knows-Best"
@@ -5330,8 +5655,12 @@
       name: "暴走"
       title: ""
       flavour: "暴走するヌーの大群は荒れ狂う川のようなもの...遠くから眺めるのが一番だ。"
-  actions: 
-    - "stampede"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Stampede"
+      text: 
+        en: "Deal 2 damage to chosen damaged character."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stampede"
@@ -5377,8 +5706,12 @@
       name: "派手に借りるぜ"
       title: ""
       flavour: "「いんちき国王め、こんな上等な錠前にいくら払ったんだか」\n― リトル・ジョン"
-  actions: 
-    - "steal_from_the_rich"
+  abilities: 
+    - type: floating-triggered
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "robin-hood"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Steal-From-the-Rich"
@@ -5426,8 +5759,12 @@
       name: "背すじがゾクッ！"
       title: ""
       flavour: "クルエラ・デビル  クルエラ・デビル  最高に・怖い女"
-  actions: 
-    - "sudden_chill"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Sudden Chill"
+      text: 
+        en: "Each opponent chooses and discards a card."
   franchise_id: "101-dalmatians"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sudden-Chill"
@@ -5473,8 +5810,12 @@
       name: "野獣は俺がやる！"
       title: ""
       flavour: "「史上最高のハンターこそ、史上最悪の野獣を討ち取るにふさわしい！」\n― ガストン"
-  actions: 
-    - "reckless"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "The Beast is Mine!"
+      text: 
+        en: "Chosen character gains **Reckless** during their next turn. _(They can‘t quest and must challenge if able.)_"
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/The-Beast-Is-Mine"
@@ -5520,8 +5861,12 @@
       name: "凶悪な裏切り"
       title: ""
       flavour: "「真の王は自らの爪で問題を解決するものだ」\n― スカー"
-  actions: 
-    - "vicious_betrayal"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Vicious-Betrayal"
@@ -5567,8 +5912,12 @@
       name: "ファシリエのカード"
       title: ""
       flavour: "「カードだ、カードだ、3枚選べ。見てやろう、お前の未来を！」\n― ファシリエ"
-  actions: 
-    - "the_cards_will_tell"
+  abilities: 
+    - type: activated
+      title: 
+        en: "The Cards Will Tell"
+      text: 
+        en: "You pay 1 {I} less for the next action you play this turn."
   franchise_id: "the-princess-and-the-frog"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Faciliers-Cards"
@@ -5614,8 +5963,12 @@
       name: "失敬したシミター"
       title: ""
       flavour: "時には手に入れられるもので何とかしなくちゃならないこともある。"
-  actions: 
-    - "slash"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Slash"
+      text: 
+        en: "Chosen character get +1 {S} this turn. If a character named Aladdin is chosen, he gets +2 {S} instead."
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stolen-Scimitar"
@@ -5732,9 +6085,17 @@
       name: "アラジン"
       title: "無法の英雄"
       flavour: ""
-  actions: 
-    - "shift_5"
-    - "daring_exploit"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Daring Exploit"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, you gain 2 lore and each opponent loses 2 lore."
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Aladdin.)_"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Heroic-Outlaw-V1"
@@ -5786,8 +6147,12 @@
       name: "アラジン"
       title: "ドブネズミ"
       flavour: "ある人が実はダイヤの原石なのか、それともただのその辺の石ころなのかを見分けるのは難しいものさ。"
-  actions: 
-    - "improvise"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "IMPROVISE"
+      text: 
+        en: "When you play this character each opponent loses 1 lore."
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Street-Rat"
@@ -5893,9 +6258,12 @@
       name: "フック船長"
       title: "冷酷な海賊"
       flavour: "「このフックと戦うのがこわいのか、一対一では！」"
-  actions: 
-    - "rush"
-    - "you_coward"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Ruthless-Pirate"
@@ -6007,8 +6375,12 @@
       name: "エルサ"
       title: "アイスサーファー"
       flavour: "「あの子はいつも私のそばにいてくれた。私もあの子のそばにいなきゃ」"
-  actions: 
-    - "thats_no_blizzard"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "THAT'S NO BLIZZARD"
+      text: 
+        en: "Whenever you play a character named Anna, ready this character. This character can't quest for the rest of this turn."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Elsa-Ice-Surfer"
@@ -6073,8 +6445,6 @@
       name: "ガストン"
       title: "尊大なハンター"
       flavour: "尊大じゃあないさ、<実際に世界一>なんだからな。"
-  actions: 
-    - "reckless"
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Gaston-Arrogant-Hunter"
@@ -6126,8 +6496,6 @@
       name: "グーフィー"
       title: "向こう見ず"
       flavour: "時にはジャンプ＆アッヒョもしなくちゃなんない。"
-  actions: 
-    - "evasive"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Goofy-Daredevil"
@@ -6179,8 +6547,12 @@
       name: "ル・フウ"
       title: "あおり屋"
       flavour: "鼠一匹で大山鳴動す。"
-  actions: 
-    - "fan_the_flames"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Fan the Flames"
+      text: 
+        en: "When you play this character, ready chosen character. They can't quest for the rest of this turn."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lefou-Instigator"
@@ -6246,8 +6618,12 @@
       name: "マレフィセント"
       title: "怪物ドラゴン"
       flavour: "<悪役のルールその９>：他の何もかもが失敗したら、ドラゴンに変身するべし。"
-  actions: 
-    - "dragon_fire"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Dragon Fire"
+      text: 
+        en: "When you play this character, you may banish chosen character."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maleficent-Monstrous-Dragon"
@@ -6314,9 +6690,6 @@
       name: "マウイ"
       title: "みんなの英雄"
       flavour: "「お前が言おうとしてたのは『ありがとう』だろ。ユーアーウェルカム！」"
-  actions: 
-    - "rush"
-    - "reckless"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maui-Hero-to-All-V1"
@@ -6420,8 +6793,6 @@
       name: "ミッキーマウス"
       title: "ブレイブ・リトル・テイラー"
       flavour: "たとえハタ色が悪くても、堂々と胸をはり、骨をおるのもいとわず、切ったはったに打って出て、勝利の糸口を手繰り寄せるサイホーのヒーロー。"
-  actions: 
-    - "evasive"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Brave-Little-Tailor"
@@ -6529,8 +6900,12 @@
       name: "モアナ"
       title: "海に選ばれし者"
       flavour: "「本当の自分を決められるのはあなただけよ」"
-  actions: 
-    - "this_is_not_who_you_are"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "THIS IS NOT WHO YOU ARE"
+      text: 
+        en: "When you play this character, you may banish chosen character named Te Ka."
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Moana-Chosen-by-the-Ocean"
@@ -6583,8 +6958,12 @@
       name: "ムーラン"
       title: "帝国の兵士"
       flavour: ""
-  actions: 
-    - "lead_by_example"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Lead by example"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, your other characters get +1 {L} this turn."
   franchise_id: "mulan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mulan-Imperial-Soldier-V1"
@@ -6636,8 +7015,6 @@
       name: "ピーター・パン"
       title: "恐れ知らずの戦士"
       flavour: "「ぼくを臆病と言った以上生かしてはおけない！一対一で戦ってやる、しかも左手を使わずに！」"
-  actions: 
-    - "rush"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Peter-Pan-Fearless-Fighter"
@@ -6689,8 +7066,6 @@
       name: "ポンゴ"
       title: "いたずら者"
       flavour: "「最初のきっかけを作るのはそうカンタンなことじゃない。まあ、こんなところかな」"
-  actions: 
-    - "evasive"
   franchise_id: "101-dalmatians"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Pongo-Ol-Rascal"
@@ -6743,8 +7118,12 @@
       name: "ラプンツェル"
       title: "髪の毛をおろして"
       flavour: "「あなたはだれ？それにどうやって私を見つけたの？」"
-  actions: 
-    - "tangle"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Tangle"
+      text: 
+        en: "When you play this character, each opponent loses 1 lore."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Rapunzel-Letting-Down-Her-Hair"
@@ -6852,9 +7231,17 @@
       name: "スカー"
       title: "恥知らずな煽り屋"
       flavour: "「今こそ俺たちの望むものを手に入れるのだ！」"
-  actions: 
-    - "shift_6"
-    - "rousing_speech"
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Scar.)_"
+    - type: resolution
+      title: 
+        en: "ROUSING SPEECH"
+      text: 
+        en: "When you play this character, ready your characters with cost 3 or less. They can't quest for the rest of this turn"
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Scar-Shameless-Firebrand"
@@ -7032,8 +7419,6 @@
       name: "テ・カァ"
       title: "焦熱のもの"
       flavour: "彼女はかつて盗まれたものに焦がれている。"
-  actions: 
-    - "reckless"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Te-K-The-Burning-One"
@@ -7089,8 +7474,6 @@
       name: "ティガー"
       title: "世界一のオレ様"
       flavour: "「オレ様のピョンピョントントンは世界一！」"
-  actions: 
-    - "evasive"
   franchise_id: "winnie-the-pooh"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tigger-Wonderful-Thing"
@@ -7138,8 +7521,12 @@
       name: "BE PREPARED"
       title: ""
       flavour: "世紀のどんでん返し 裏切者にご用心！"
-  actions: 
-    - "be_prepared"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Be Prepared"
+      text: 
+        en: "Banish all characters."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Be-Prepared"
@@ -7185,8 +7572,12 @@
       name: "単刀直入"
       title: ""
       flavour: "「サプラーイズ！」"
-  actions: 
-    - "rush"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Cut to the Chase"
+      text: 
+        en: "Chosen character gains **Rush** this turn. _(They can challenge the turn they're played.)_"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cut-to-the-Chase"
@@ -7262,8 +7653,12 @@
       name: "ドラゴンの炎"
       title: ""
       flavour: "ドラゴンの怒りに耐えられる英雄などほとんどいない。"
-  actions: 
-    - "dragon_fire_action"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Dragon Fire"
+      text: 
+        en: "Banish chosen character."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dragon-Fire"
@@ -7309,8 +7704,12 @@
       name: "そそっかしいそそのかし"
       title: ""
       flavour: "言葉には魂が宿る。悪党の言葉には「騙し」が宿る。"
-  actions: 
-    - "fan_the_flames_action"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Fan The Flames"
+      text: 
+        en: "Ready chosen character. They can't quest for the rest of this turn."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Fan-the-Flames"
@@ -7360,8 +7759,12 @@
       name: "刀を持ってるぞ！"
       title: ""
       flavour: "「わしらも<持ってる>だろうが！」\n― ラズール"
-  actions: 
-    - "hes_got_sword"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hes-Got-a-Sword"
@@ -7407,8 +7810,12 @@
       name: "からみつき"
       title: ""
       flavour: "「そこを動かないで！ええと、あなたには選択の余地はなさそうだけど。それでも！動かないで！」\n― ラプンツェル"
-  actions: 
-    - "tangle_action"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tangle"
@@ -7454,8 +7861,12 @@
       name: "毒リンゴ"
       title: ""
       flavour: "「毒のリンゴをひとくち噛めば、そのまま目を閉じ永遠に眠り…」\n― 女王"
-  actions: 
-    - "take_bite"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Poisoned Apple"
+      text: 
+        en: "Banish this item − Exert chosen character. If a Princess character is chosen, banish her instead."
   franchise_id: "snow-white-and-the-seven-dwarfs"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Poisoned-Apple"
@@ -7505,8 +7916,12 @@
       name: "美徳の盾"
       title: ""
       flavour: "「あなたに武器を差し上げましょう。美徳の盾と、真実の剣です。この正義の武器で必ずや悪に打ち勝つでしょう」\n― フローラ"
-  actions: 
-    - "fireproof"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Fireproof"
+      text: 
+        en: "Ready chosen character. They can't quest for the rest of this turn."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Shield-of-Virtue"
@@ -7552,8 +7967,12 @@
       name: "真実の剣"
       title: ""
       flavour: "「真実の愛の口づけ」に匹敵する威力。"
-  actions: 
-    - "final_enchantment"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Final Enchantment"
+      text: 
+        en: "Banish this item − Banish chosen Villain character."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sword-of-Truth"
@@ -7606,8 +8025,12 @@
       name: "アリエル"
       title: "沈品収集家"
       flavour: "「ねえ、これ欲しい？20個もあるの」"
-  actions: 
-    - "look_at_this_stuff"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Look at This Stuff"
+      text: 
+        en: "Whenever you play an item, you may ready this character."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ariel-Whoseit-Collector"
@@ -7660,8 +8083,12 @@
       name: "オーロラ"
       title: "ブライア・ローズ"
       flavour: "「あの声には何だか…不思議な魅力がある。人間にしては美しすぎる…」\n― フィリップ王子"
-  actions: 
-    - "disturbing_beauty"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "DISTURBING BEAUTY"
+      text: 
+        en: "When you play this character, chosen character gets -2 {S} this turn."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aurora-Briar-Rose"
@@ -7732,9 +8159,17 @@
       name: "オーロラ"
       title: "夢見る守護者"
       flavour: "眠りの中で、その力は目覚めた。"
-  actions: 
-    - "shift_3"
-    - "protective_embrace"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your other characters gain **Ward**. _(Opponents can't choose them except to challenge.)_"
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Aurora.)_"
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aurora-Dreaming-Guardian-V1"
@@ -7848,8 +8283,12 @@
       name: "ベル"
       title: "発明エンジニア"
       flavour: "一握りの創意工夫と溢れる情熱があれば、世界の果てまでも飛んで行けるわ。"
-  actions: 
-    - "tinker"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Tinker"
+      text: 
+        en: "Whenever this character quests, you pay 1 {I} less for the next item you play this turn."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Belle-Inventive-Engineer"
@@ -7916,9 +8355,12 @@
       name: "ベル"
       title: "美しいけど変わり者"
       flavour: "「遠い国で、決闘や、魔法や、変身した王子様…」"
-  actions: 
-    - "read_book"
-    - "my_favorite_part"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While you have 10 or more cards in your inkwell, this character gets +4 {L}."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Belle-Strange-but-Special-V1"
@@ -7975,8 +8417,6 @@
       name: "村長トゥイ"
       title: "尊敬される指導者"
       flavour: "「お前を愛する人々の力をいつでも頼りにすることだ」"
-  actions: 
-    - "support"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Chief-Tui-Respected-Leader"
@@ -8029,8 +8469,6 @@
       name: "ドナルドダック"
       title: "発明自慢"
       flavour: "懸命にじゃなくて、賢明に歩こう。"
-  actions: 
-    - "ward"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Donald-Duck-Strutting-His-Stuff"
@@ -8137,8 +8575,12 @@
       name: "タラおばあちゃん"
       title: "語り部"
       flavour: "モアナ 「私に言いたいことがあるんでしょう？」\nタラおばあちゃん 「何か聞きたいことがあるのかい？」"
-  actions: 
-    - "ill_be_with_you"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I Will Be With You"
+      text: 
+        en: "When this character is banished, you may put this card into your inkwell facedown and exerted."
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Gramma-Tala-Storyteller"
@@ -8191,8 +8633,12 @@
       name: "ハデス"
       title: "冥府の策謀家"
       flavour: "「きっと、あいつにも弱みはある。誰にだって一つや二つあるだろ？」"
-  actions: 
-    - "is_there_downside_to_this"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Is There a Downside to This?"
+      text: 
+        en: "When you play this character, you may put chosen opposing character into their player's inkwell facedown."
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hades-Infernal-Schemer"
@@ -8301,9 +8747,22 @@
       name: "ジャスミン"
       title: "アグラバーの女王"
       flavour: ""
-  actions: 
-    - "shift_3"
-    - "caretaker"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Caretaker"
+      text: 
+        en: "When you play this character and whenever she quests, you may remove up to 2 damage from each of your characters."
+    - type: static-triggered
+      title: 
+        en: "Caretaker"
+      text: 
+        en: "When you play this character and whenever she quests, you may remove up to 2 damage from each of your characters."
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Jasmine.)_"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jasmine-Queen-of-Agrabah"
@@ -8478,9 +8937,17 @@
       name: "モーリス"
       title: "世界的な発明家"
       flavour: ""
-  actions: 
-    - "give_it_try"
-    - "it_works"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Give it a try"
+      text: 
+        en: "Whenever this character quests, you pay 2 {I} less for the next item you play this turn."
+    - type: static-triggered
+      title: 
+        en: "$undefined"
+      text: 
+        en: "$undefined"
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maurice-World-Famous-Inventor"
@@ -8533,8 +9000,6 @@
       name: "マーリン"
       title: "自薦の先生"
       flavour: "「よくもまあこんなに。あいやいや、呆れとる場合ではないぞ。遅れた中世を近代化せにゃ」"
-  actions: 
-    - "support"
   franchise_id: "the-sword-in-the-stone"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Merlin-Self-Appointed-Mentor"
@@ -8604,8 +9069,12 @@
       name: "ミッキーマウス"
       title: "名探偵"
       flavour: "その海藻がどこから来たかはともかく、彼には確信があった...何か魚ッとするような事件が起きていると。"
-  actions: 
-    - "get_clue"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Get a Clue"
+      text: 
+        en: "When you play this character, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Detective"
@@ -8709,8 +9178,6 @@
       name: "ピロクテテス"
       title: "ヒーロー育成名人"
       flavour: "「一流を鍛えられるのは一流だけ！そして俺は一流のコーチだ！」"
-  actions: 
-    - "support"
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Philoctetes-Trainer-of-Heroes"
@@ -8775,9 +9242,17 @@
       name: "ロビン・フッド"
       title: "比類なき弓の名手"
       flavour: "「盗むんじゃない。みんなのために、ちょっと借りるだけさ」"
-  actions: 
-    - "feed_the_poor"
-    - "good_shot"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Feed The Poor"
+      text: 
+        en: "When you play this character, if an opponent has more cards in their hand than you, draw a card."
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, this character gains **Evasive**. (_They can challenge characters with Evasive._)"
   franchise_id: "robin-hood"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Robin-Hood-Unrivaled-Archer"
@@ -8829,8 +9304,12 @@
       name: "スカー"
       title: "黒幕"
       flavour: "「最高の計画には多少の危険が伴うものだ。ただし俺へのじゃあない」"
-  actions: 
-    - "insidious_plot"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Insidious plot"
+      text: 
+        en: "When you play this character, chosen opposing character gets -5 {S} this turn."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Scar-Mastermind"
@@ -8882,9 +9361,22 @@
       name: "タマトア"
       title: "シャイニー！"
       flavour: "「ダイヤのようにきらめき 注目されちゃうのさ！」"
-  actions: 
-    - "what_have_we_here"
-    - "glam"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character gets +1 {L} for each item you have in play."
+    - type: resolution
+      title: 
+        en: "What have we here?"
+      text: 
+        en: "When you play this character and whenever he quests, you may return an item card from your discard to your hand."
+    - type: static-triggered
+      title: 
+        en: "What have we here?"
+      text: 
+        en: "When you play this character and whenever he quests, you may return an item card from your discard to your hand."
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tamatoa-So-Shiny"
@@ -8985,8 +9477,12 @@
       name: "本を読みたまえ"
       title: ""
       flavour: "「知識や知恵こそ<本当の力>だ！」\n― マーリン"
-  actions: 
-    - "develop_your_brain"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Develop Your Brain"
+      text: 
+        en: "Look at the top 2 cards of your deck. Put one into your hand and the other on the bottom of the deck."
   franchise_id: "the-sword-in-the-stone"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Develop-Your-Brain"
@@ -9032,8 +9528,12 @@
       name: "バロック時代のものでして"
       title: ""
       flavour: "「ここにはなんと言ってもバロックしか似合いません」"
-  actions: 
-    - "if_its_not_baroque"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/If-Its-Not-Baroque"
@@ -9111,8 +9611,12 @@
       name: "LET IT GO"
       title: ""
       flavour: "どこまでやれるか 自分を試したいの そうよ変わるのよ 私！"
-  actions: 
-    - "let_it_go"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Let It Go"
+      text: 
+        en: "Put chosen character into their player's inkwell facedown and exerted."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Let-It-Go"
@@ -9160,8 +9664,12 @@
       name: "ONE JUMP AHEAD"
       title: ""
       flavour: "生きるため 食うためさ 仕方ないだろベイビー"
-  actions: 
-    - "one_jump_ahead"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "One Jump Ahead"
+      text: 
+        en: "Put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/One-Jump-Ahead"
@@ -9207,8 +9715,12 @@
       name: "力を合わせて"
       title: ""
       flavour: "パチャ 「もっと全身で突っ張って！」\nクスコ 「体なら全力で張ってるよ！」"
-  actions: 
-    - "support"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Work Together"
+      text: 
+        en: "Chosen character gains **Support** this turn."
   franchise_id: "the-emperors-new-groove"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Work-Together"
@@ -9254,8 +9766,12 @@
       name: "ココナッツのかご"
       title: ""
       flavour: "ココナッツは神々からの万能の贈り物で、ほとんどあらゆるものの材料になる―もっと多くのココナッツを運ぶためのかごだって作れるんだ。"
-  actions: 
-    - "consider_the_coconut"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Consider the Coconut"
+      text: 
+        en: "Whenever you play a character, you may remove up to 2 damage from chosen character."
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Coconut-Basket"
@@ -9301,8 +9817,12 @@
       name: "運命の目"
       title: ""
       flavour: "未来は変えることができる、自分が何を見ているのかさえわかれば。"
-  actions: 
-    - "see_the_future"
+  abilities: 
+    - type: activated
+      title: 
+        en: "See the Future"
+      text: 
+        en: "Chosen character gets +1 {L} this turn."
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Eye-of-the-Fates"
@@ -9348,8 +9868,12 @@
       name: "魚の骨ペン"
       title: ""
       flavour: "「もし橋を渡りたきゃ通行料、さあさあ思い切って！」\n― アースラ"
-  actions: 
-    - "go_ahead_and_sign"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Go Ahead And Sign"
+      text: 
+        en: "Put any card from your hand into your inkwell facedown."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Fishbone-Quill"
@@ -9395,8 +9919,12 @@
       name: "魔法の黄金花"
       title: ""
       flavour: "むかしむかし、太陽のしずくが大空から落ちてきた。\n― フリン・ライダー"
-  actions: 
-    - "healing_pollen"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Healing Pollen"
+      text: 
+        en: "Banish this item - Remove up to 3 damage from chosen character."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Magic-Golden-Flower"
@@ -9446,8 +9974,12 @@
       name: "アレンデールの王笏"
       title: ""
       flavour: ""
-  actions: 
-    - "command"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Command"
+      text: 
+        en: "Chosen character gains **Support** this turn."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Scepter-of-Arendelle"
@@ -9555,8 +10087,12 @@
       name: "野獣"
       title: "傷心の頑固者"
       flavour: "「こんな姿じゃ無理だ。彼女の目から見れば…怪物だ」"
-  actions: 
-    - "destruction"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Break"
+      text: 
+        en: "When you play this character, you may banish chosen item card."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Beast-Hardheaded"
@@ -9610,8 +10146,12 @@
       name: "フック船長"
       title: "ジョリーロジャー号の船長"
       flavour: "「なんとも言えん眺めだぞスミー、これならイチコロ間違いなしだ」"
-  actions: 
-    - "double_the_powder"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "DOUBLE THE POWDER!"
+      text: 
+        en: "When you play this character, you may return an action card named Fire the Cannons! from your discard to your hand."
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Captain-of-the-Jolly-Roger"
@@ -9678,8 +10218,12 @@
       name: "フック船長"
       title: "強引な決闘者"
       flavour: "灯りを点け、剣を突きつけ、けりを付ける。"
-  actions: 
-    - "challenger"
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +2 (_When challenging, this character get +2 {S}._)"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Forceful-Duelist"
@@ -9733,10 +10277,22 @@
       name: "フック船長"
       title: "あくどいことを考え中"
       flavour: ""
-  actions: 
-    - "shift_3"
-    - "challenger_3"
-    - "stolen_dust"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Characters with cost 3 or less can't challenge this character."
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Captain Hook.)_"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Thinking-a-Happy-Thought"
@@ -9852,9 +10408,12 @@
       name: "ドナルドダック"
       title: "銃士"
       flavour: ""
-  actions: 
-    - "bodyguard"
-    - "stay_alert"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, your Musketeer characters gain **Evasive.** _(They can challenge characters with Evasive.)_"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Donald-Duck-Musketeer"
@@ -9907,8 +10466,12 @@
       name: "ガントゥ"
       title: "銀河連邦大尉"
       flavour: "「のんびりと旅を楽しめ…逃げようなどと思うな！」"
-  actions: 
-    - "under_arrest"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Characters with cost 2 or less can't challenge your characters."
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Gantu-Galactic-Federation-Captain"
@@ -10012,8 +10575,12 @@
       name: "ハンス"
       title: "王位継承権第13位"
       flavour: "一番下にぶら下がっていることに飽きた彼は、新しいロープを手に入れることにした。"
-  actions: 
-    - "stage_little_accident"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "STAGE LITTLE ACCIDENT"
+      text: 
+        en: "Whenever this character quests, you may deal 1 damage to chosen character."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hans-Thirteenth-in-Line"
@@ -10066,8 +10633,6 @@
       name: "ヘラクレス"
       title: "真のヒーロー"
       flavour: "「フィル、認めたよね。今のは、ヒーローっぽかったろ？」"
-  actions: 
-    - "bodyguard"
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hercules-True-Hero"
@@ -10352,9 +10917,12 @@
       name: "ミッキーマウス"
       title: "銃士"
       flavour: ""
-  actions: 
-    - "bodyguard"
-    - "all_for_one"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Your other Musketeer characters get +1 {S}."
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Musketeer"
@@ -10407,8 +10975,12 @@
       name: "エリック王子"
       title: "勇猛果敢"
       flavour: "「今度こそ彼女を！失いたくないんだ！」"
-  actions: 
-    - "challenger"
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +2 (_When challenging, this character get +2 {S}._)"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Prince-Eric-Dashing-and-Brave"
@@ -10461,8 +11033,12 @@
       name: "シンバ"
       title: "未来の王様"
       flavour: "「ぼくはこれまででいちばんのプライドランドの王様になるんだ！」"
-  actions: 
-    - "guess_what"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Guess What?"
+      text: 
+        en: "When you play this character, you may draw a card, then choose and discard a card."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Future-King"
@@ -10529,9 +11105,17 @@
       name: "シンバ"
       title: "帰還した王"
       flavour: "「僕は自分の王国を救うためにどんなことでもする」"
-  actions: 
-    - "challenger_4"
-    - "pounce"
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +4 (_When challenging, this character get +43 {S}._)"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Returned-King-V1"
@@ -10584,8 +11168,12 @@
       name: "シンバ"
       title: "正統後継者"
       flavour: "「もう隠れてはいられない。今こそ運命を受け入れる時だ」"
-  actions: 
-    - "i_know_what_i_have_to_do"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I Know What I Have To Do"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, you gain 1 lore."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Rightful-Heir"
@@ -10638,8 +11226,12 @@
       name: "スターキー"
       title: "フックの手下"
       flavour: "海賊たるもの、タフで、忠実で、腕っぷし強くなきゃあならねえ。「賢さ」なんざどうでもいい。"
-  actions: 
-    - "aye_aye_captain"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While you have a Captain character in play, this character gets +1 {L}."
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Starkey-Hooks-Henchman"
@@ -10692,8 +11284,12 @@
       name: "テ・カァ"
       title: "心なきもの"
       flavour: "マウイ 「溶岩の魔物を倒したことは？」\nモアナ 「ない。あなたは？」"
-  actions: 
-    - "seek_the_heart"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "$undefined"
+      text: 
+        en: "$undefined"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Te-K-Heartless"
@@ -10759,10 +11355,22 @@
       name: "ティンカー・ベル"
       title: "でっかい妖精"
       flavour: ""
-  actions: 
-    - "shift_4"
-    - "rock_the_boat"
-    - "puny_pirate"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Rock the Boat"
+      text: 
+        en: "When you play this character, deal 1 damage to each opposing character."
+    - type: static-triggered
+      title: 
+        en: "Puny Pirate!"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, you may deal 2 damage to chosen opposing character."
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Tinker Bell.)_"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Giant-Fairy-V1"
@@ -10815,8 +11423,12 @@
       name: "ティンカー・ベル"
       title: "小さな戦術家"
       flavour: "小さな天才戦術家さえいれば万事大丈夫、って時もあるかな。"
-  actions: 
-    - "battle_plans"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Battle plans"
+      text: 
+        en: "Draw a card, then choose and discard a card."
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Tiny-Tactician"
@@ -10864,8 +11476,12 @@
       name: "A WHOLE NEW WORLD"
       title: ""
       flavour: "見せてあげよう 輝く世界…"
-  actions: 
-    - "a_whole_new_world"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "A Whole New World"
+      text: 
+        en: "Each player discards their hand and draws 7 cards."
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/A-Whole-New-World"
@@ -10911,8 +11527,12 @@
       name: "かんしゃく"
       title: ""
       flavour: "野獣のかんしゃくは、まさに野獣並み、としか言いようがない。"
-  actions: 
-    - "break"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Break"
@@ -10958,8 +11578,12 @@
       name: "大砲発射！"
       title: ""
       flavour: "フック船長 「火薬を倍にして火縄を半分に！」\nミスター・スミー 「火薬は半分に火縄を倍！」"
-  actions: 
-    - "fire_the_cannons"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Fire the Cannons!"
+      text: 
+        en: "Deal 2 damage to chosen character."
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Fire-the-Cannons"
@@ -11007,8 +11631,12 @@
       name: "剣をふるえ！"
       title: ""
       flavour: "得体 知れぬ ものはたとえ誰でも 怖くてたまらない"
-  actions: 
-    - "grab_your_sword"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Grab Your Sword"
+      text: 
+        en: "Deal 2 damage to each opposing character."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Grab-Your-Sword"
@@ -11054,8 +11682,12 @@
       name: "引っかき回し"
       title: ""
       flavour: "ラベル読んでるヒマなんてある？"
-  actions: 
-    - "ransack"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "the-emperors-new-groove"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ransack"
@@ -11105,8 +11737,12 @@
       name: "スマッシュ"
       title: ""
       flavour: "「出テイケ！」"
-  actions: 
-    - "smash"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Smash"
+      text: 
+        en: "Deal 3 damage to chosen character."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Smash"
@@ -11152,8 +11788,12 @@
       name: "野獣の鏡"
       title: ""
       flavour: "野獣は自分の恐ろしい姿を恥じて、お城の中に閉じこもりました。魔法の鏡だけが、外の世界を見る唯一の窓でした。"
-  actions: 
-    - "show_me"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Show Me"
+      text: 
+        en: "If you have no cards in your hand, draw a card."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Beasts-Mirror"
@@ -11199,8 +11839,12 @@
       name: "フライパン"
       title: ""
       flavour: "上等な調理器具だけど、武器として使うと気が遠くなるくらいステキなのよ。"
-  actions: 
-    - "clang"
+  abilities: 
+    - type: activated
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Frying-Pan"
@@ -11246,8 +11890,12 @@
       name: "銃士のタバード"
       title: ""
       flavour: "一匹狼の銃士なんてあり得ないよね。"
-  actions: 
-    - "all_for_one_and_one_for_all"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Musketeer-Tabard"
@@ -11293,8 +11941,12 @@
       name: "プラズマブラスター"
       title: ""
       flavour: "「これを使うとき『ビーッ、ビビーッ』って言う必要はないけど、言っても損はないしね！」\n― 銀河のヒーロー・リロ"
-  actions: 
-    - "quick_shot"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Quick Shot"
+      text: 
+        en: "Deal 1 damage to chosen character."
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Plasma-Blaster"

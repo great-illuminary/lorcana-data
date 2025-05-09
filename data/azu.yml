@@ -40,6 +40,12 @@
       name: "Eule"
       title: "Piraten-Ausguck"
       flavour: "Ich sage, Land huuh! Ähm, ho – Land ho!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Well Spotted"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, chosen opposing character gets -1 {S} until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -82,6 +88,12 @@
       name: "Lilo"
       title: "Entfesslungskünstlerin"
       flavour: "Ihr könnt mich nicht von dem Spaß ausschließen!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "No Place I’d Rather Be"
+      text: 
+        en: "At the start of your turn, if this card is in your discard, you may play her and she enters play exerted."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -125,6 +137,12 @@
       name: "Winnie Puuh"
       title: "Honigpirat"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "We're Pirates, You See"
+      text: 
+        en: "Whenever this character quests, the next Pirate character you play this turn costs 1 {I} less."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -253,6 +271,12 @@
       name: "Chip"
       title: "Freund in der Tat"
       flavour: "Komm schon, Chap! – Wir haben keine Zeit, um abzuhängen!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "DALE'S PARTNER"
+      text: 
+        en: "When you play this character, chosen character gets +1 {L} this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -295,6 +319,12 @@
       name: "Chap"
       title: "Freund in der Not"
       flavour: "Aber, Chip, abhängen kann ich am besten!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "CHIP'S PARTNER"
+      text: 
+        en: "This character enters play exerted unless you have a character named Chip in play."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -337,6 +367,12 @@
       name: "David"
       title: "Eindrucksvoller Surfer"
       flavour: "Schnapp dir ein Board und komm raus! Die Wellen sind heute top."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While you have a character named Nani in play, this character gets +2 {L}."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -380,6 +416,12 @@
       name: "Prinz Naveen"
       title: "Wachsamer Erster Maat"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Prince Naveen.)_"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -464,6 +506,12 @@
       name: "Chief Bogo"
       title: "Gazelle-Fan"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While you have a character named Gazelle in play, this character gains Singer 6."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -506,6 +554,12 @@
       name: "Chip"
       title: "Anführer der Ritter des Rechts"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While you have a character named Dale in play, this character gains **Support**. _(Whenever they quest, you may add their {S} to another chosen character's {S} this turn.)_"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -601,6 +655,17 @@
       name: "Chip und Chap"
       title: "Ritter der Rückgewinnung"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Chip or Dale.)_"
+    - type: static-triggered
+      title: 
+        en: "Search And Rescue"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, you may return a character card from your discard to your hand."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -643,6 +708,12 @@
       name: "Judy Hopps"
       title: "Einfallsreiche Häsin"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Need Some Help?"
+      text: 
+        en: "At the end of your turn, you may ready another chosen character of yours."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -697,6 +768,12 @@
       name: "Tiana"
       title: "Restaurantbesitzerin"
       flavour: "In dieser Welt erreichst du einzig und allein etwas durch harte Arbeit."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Special Reservation"
+      text: 
+        en: "Whenever a character of yours is challenged while this character is exerted, the challenging character gets -3 {S} this turn unless their player pays 3 {I}."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -739,6 +816,12 @@
       name: "Präsidentin des Hohen Rats"
       title: "Leiterin der Galaktischen Föderation"
       flavour: "Ich wünsche einen Experten für diesen Planeten, und zwar sofort!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Find It!"
+      text: 
+        en: "Whenever this character quests, your other Alien characters get +1 {L} this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -781,6 +864,12 @@
       name: "Chap"
       title: "Schelmischer Ritter des Rechts"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Nuts About Pranks"
+      text: 
+        en: "When you play this character, you may put the top 3 cards of your deck into your discard to give chosen character -3 {S} until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -823,6 +912,12 @@
       name: "Nani"
       title: "Fürsorgliche Schwester"
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "I Am So Sorry"
+      text: 
+        en: "Chosen character gets -1 {S} until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -866,6 +961,17 @@
       name: "Simba"
       title: "Stolzer Beschützer"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Simba.)_"
+    - type: static-triggered
+      title: 
+        en: "Understand the Balance"
+      text: 
+        en: "At the end of your turn, if this character is exerted, you may ready your other characters."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -908,6 +1014,12 @@
       name: "Kanga"
       title: "Pflegende Mutter"
       flavour: "Meine Güte, du hattest heute ein sehr großes Abenteuer. Jetzt ist Schlafenszeit."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Safe and Sound"
+      text: 
+        en: "Whenever this character quests, choose a character of yours and that character can't be challenged until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -951,6 +1063,12 @@
       name: "Rabbit"
       title: "Empörter Pirat"
       flavour: "Siehst du? Ich <sagte> doch, es ist gefährlich da draußen!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Indignant Pirate"
+      text: 
+        en: "When you play this character, you may remove up to 1 damage from chosen character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -994,6 +1112,12 @@
       name: "Ruh"
       title: "Jüngster Pirat"
       flavour: "Schau mal, Mama, all meine Schiffe! Wir stechen in das Azurblaue Meer!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "I'm a Pirate Too"
+      text: 
+        en: "When you play this character, you may give chosen character -2 {S} until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1079,6 +1203,12 @@
       name: "Jim Hawkins"
       title: "Ehrenhafter Pirat"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "HIRE A CREW"
+      text: 
+        en: "When you play this character, look at the top 4 cards of your deck. You may reveal any number of Pirate character cards and put them into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1122,6 +1252,12 @@
       name: "Stitch"
       title: "Kleiner Scherzbold"
       flavour: "Stets bereit für Hilfe im Notfall – meistens weil er ihn verursacht hat."
+  abilities: 
+    - type: activated
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1158,6 +1294,12 @@
       name: "Gut gemacht!"
       title: ""
       flavour: "Sei stolz auf dieses Abzeichen. Du hast es dir verdient.\n–Judy Hopps"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Good Job!"
+      text: 
+        en: "Chosen character gets +1 {L} this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1196,6 +1338,12 @@
       name: "I Won't Give In"
       title: ""
       flavour: "'Til I reach the end, and then I'll start again"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "I Won't Give In"
+      text: 
+        en: "Return a character card with cost 2 or less from your discard to your hand."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1243,6 +1391,12 @@
       name: "Rettungstruppe! Auf geht’s!"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Rescue Rangers Away!"
+      text: 
+        en: "Count the number of characters you have in play. Chosen character loses {S} equal to that number until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1315,6 +1469,12 @@
       name: "Naveens Ukulele"
       title: ""
       flavour: "Ich liebe dieses Instrument! Sobald ich spiele, tanzen sie alle.\n–Prinz Naveen"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Make It Sing"
+      text: 
+        en: "1 {I}, Banish this item - Chosen character counts as having +3 cost to sing songs this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1351,6 +1511,12 @@
       name: "Puuh-Piratenschiff"
       title: ""
       flavour: "Das freundlichste Schiff auf dem Azurblauen Meer."
+  abilities: 
+    - type: activated
+      title: 
+        en: "Make A Rescue"
+      text: 
+        en: "Return a Pirate character card from your discard to your hand."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1387,6 +1553,12 @@
       name: "Schrulle"
       title: ""
       flavour: "Ihr Kopf ist zu groß. Ich tue einfach so, als hätte sie ein Spinnennest im Ohr …\n–Lilo"
+  abilities: 
+    - type: activated
+      title: 
+        en: "I Made Her"
+      text: 
+        en: "{E} one of your characters - Chosen character gets -2 {S} until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1426,6 +1598,12 @@
       name: "Hundertmorgeninsel"
       title: "Puuhs Zuhause"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During an opponent's turn, whenever a character is banished here, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1476,6 +1654,12 @@
       name: "Sugar Rush Rennstrecke"
       title: "Ziellinie"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Bring It Home, Little One!"
+      text: 
+        en: "When you move a character here from another location, you may banish this location to gain 3 lore and draw 3 cards."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1519,6 +1703,12 @@
       name: "Hades"
       title: "Herr der Unterwelt"
       flavour: "Man könnte sagen, ich bin sehr gut im <Fangen>, nicht jedoch im <Freilassen>."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Soul Collector"
+      text: 
+        en: "Whenever one of your other characters is banished during the opponent's turn, gain 2 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1562,6 +1752,17 @@
       name: "Madame Mim"
       title: "Winzige Widersacherin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +1 (_When challenging, this character get +13 {S}._)"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your other characters gain Challenger +1."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1648,6 +1849,12 @@
       name: "Sisu"
       title: "In ihrem Element"
       flavour: "Ich bin ein Wasserdrache. Das ist Wasser. Das ist mein Ding."
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1689,6 +1896,12 @@
       name: "Die Weiße Rose"
       title: "Juwel des Gartens"
       flavour: "Eure Lieder sind für mich voller Zauber …\n–Alice"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "A Wealth of Happiness"
+      text: 
+        en: "When you play this character, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1731,6 +1944,12 @@
       name: "Juju"
       title: "Mama Odies Gefährte"
       flavour: "Juju! Verzieh dich sofort aus der Magie, du böser Junge!\n–Mama Odie"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1858,6 +2077,12 @@
       name: "Der Zimmermann"
       title: "Tischnachbar"
       flavour: "Der Magen des Zimmermanns knurrte, als er seinen Hammer fest umklammerte …"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "The Carpenter"
+      text: 
+        en: "When this character is banished, you may exert chosen character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1900,6 +2125,12 @@
       name: "Jago"
       title: "Wiederauftauchender Papagei"
       flavour: "Denkst du wirklich, du wirst mich <so> einfach los?!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Guess Who"
+      text: 
+        en: "When this character is banished in a challenge, return this card to your hand."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1984,6 +2215,12 @@
       name: "Scar"
       title: "Temperamentvoller Löwe"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2029,6 +2266,17 @@
       name: "Naseweis"
       title: "Königin der Azurblauen Feen"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Tinker Bell.)_"
+    - type: static-triggered
+      title: 
+        en: "Shining Example"
+      text: 
+        en: "Whenever this character quests, your other Fairy characters get +1 {L} this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2071,6 +2319,12 @@
       name: "Diablo"
       title: "Ergebener Rabe"
       flavour: "Und enttäusche mich nicht.\n–Malefiz"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Fly, My Pet!"
+      text: 
+        en: "When this character is banished, you may draw a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2208,6 +2462,17 @@
       name: "Rafiki"
       title: "Geistiger Ratgeber"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 7 _(You may pay 7 {I} to play this on top of one of your characters named Rafiki.)_"
+    - type: static-triggered
+      title: 
+        en: "Astral Attunement"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, you may draw a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2250,6 +2515,12 @@
       name: "Dschinni"
       title: "Wunsch erfüllt"
       flavour: "Oh, ist das ein Gefühl!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "What Comes Next?"
+      text: 
+        en: "When you play this character, you may draw a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2294,6 +2565,12 @@
       name: "Sisu"
       title: "Vereinigender Drache"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Trust Builds Trust"
+      text: 
+        en: "Whenever this character quests, reveal the top card of your deck. If it’s a Dragon character card, put it into your hand and repeat this effect. Otherwise, put it on either the top or the bottom of your deck."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2337,6 +2614,12 @@
       name: "Madame Mim"
       title: "Wahrlich wunderbar"
       flavour: "Ich gebe dir eine sportliche Chance. Ich habe eine Schwäche für den Jagdsport."
+  abilities: 
+    - type: activated
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2391,6 +2674,12 @@
       name: "Isma"
       title: "Hinterhältige Chemikerin"
       flavour: "Eine von denen muss doch funktionieren. Schauen wir mal, was passiert."
+  abilities: 
+    - type: activated
+      title: 
+        en: "FEEL THE POWER"
+      text: 
+        en: "If you have fewer than 3 cards in your hand, draw until you have 3 cards in your hand._"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2434,6 +2723,12 @@
       name: "Mama Odie"
       title: "Einsame Weise"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I Have To Do Everything Around Here"
+      text: 
+        en: "Whenever you play a song, you may move up to 2 damage counters from chosen character to chosen opposing character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2476,6 +2771,12 @@
       name: "Peter Pan"
       title: "Schattenfänger"
       flavour: "Diesmal entkommst du mir nicht!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Gotcha!"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, exert chosen opposing character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2517,6 +2818,12 @@
       name: "Der verrückte Hutmacher"
       title: "Exzentrischer Gastgeber"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "We'll Have To Look Into This"
+      text: 
+        en: "Whenever this character quests, you may look at the top card of chosen player's deck. Put it on top of their deck or into their discard."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2555,6 +2862,12 @@
       name: "Viel Glück zum Nichtgeburtstag"
       title: ""
       flavour: "Drum blas die Kerze aus, mein Kind\nUnd wünsch dir was geschwind"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "A Very Merry Unbirthday"
+      text: 
+        en: "Each opponent puts the top 2 cards of their deck into their discard."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2597,6 +2910,22 @@
       name: "Dschinni"
       title: "Wunderbarer Zauberkünstler"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Genie.)_"
+    - type: static-triggered
+      title: 
+        en: "Your Reward Awaits"
+      text: 
+        en: "Whenever you play a card, draw a card."
+    - type: static-triggered
+      title: 
+        en: "Forbidden Treasure"
+      text: 
+        en: "At the end of your turn, put all the cards in your hand on the bottom of your deck in any order."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2633,6 +2962,12 @@
       name: "Magie schaffen"
       title: ""
       flavour: "Jetzt ist es genau richtig!\n–Mama Odie"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2669,6 +3004,12 @@
       name: "Den Weg verlieren"
       title: ""
       flavour: "Wenn man sich verirrt hat, dann glaube ich, ist es das Beste, man bleibt, wo man ist, bis einen jemand findet.\n–Alice"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Lose The Way"
+      text: 
+        en: "Exert chosen character. Then, you may choose and discard a card. If you do, the exerted character can't ready at the start of their next turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2705,6 +3046,17 @@
       name: "Nach der Kronenhälfte suchen"
       title: ""
       flavour: "Ich sehe die andere Hälfte in den Tintenlanden. Schnell, mein kleiner Gehilfe! Bring mir diese Krone!\n–Dschafar"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "$undefined"
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2752,6 +3104,12 @@
       name: "Malefiz’ Stab"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Back, Fools!"
+      text: 
+        en: "Whenever one of your opponents' characters, items, or locations is returned to their hand from play, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2788,6 +3146,12 @@
       name: "Teekanne des verrückten Hutmachers"
       title: ""
       flavour: "Alice: Du meine Güte, der Tee hat die Tasse verfehlt!\nDer Verrückte Hutmacher: Nein, nein, mein Liebes – die Tasse hat den Tee verfehlt!"
+  abilities: 
+    - type: activated
+      title: 
+        en: "No Room, No Room"
+      text: 
+        en: "{E}, 1 {I} – Each opponent puts the top card of their deck into their discard."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2824,6 +3188,12 @@
       name: "Feenglanz"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2902,6 +3272,12 @@
       name: "Mystischer Baum"
       title: "Mama Odies Zuhause"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Not Bad"
+      text: 
+        en: "At the start of your turn, you may move 1 damage counter from chosen character here to chosen opposing character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2945,6 +3321,12 @@
       name: "Jasmin"
       title: "Königliche Seefahrerin"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "By Order of the Princess"
+      text: 
+        en: "When you play this character, choose one: n* Exert chosen damaged character. n* Chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2989,6 +3371,17 @@
       name: "Käpt'n Hook"
       title: "Heimtückisch"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Upper Hand"
+      text: 
+        en: "Whenever this character is challenged, draw a card."
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While this character is exerted, opposing Pirate characters can't quest."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3044,6 +3437,17 @@
       name: "Stitch"
       title: "Alien-Seeräuber"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Stitch.)_"
+    - type: resolution
+      title: 
+        en: "READY FOR ACTION"
+      text: 
+        en: "When you play this character, if you used Shift to play him, you may put an action card from your discard on the top of your deck._"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3087,6 +3491,12 @@
       name: "Go Go Tomago"
       title: "Flitzender Dynamo"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Stop Whining, Woman Up"
+      text: 
+        en: "When you play this character, you may pay 2 {I} to gain lore equal to the damage on chosen opposing character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3141,6 +3551,12 @@
       name: "Honey Lemon"
       title: "Chemie-Genie"
       flavour: "Du wirst es lieben!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "HERE'S THE BEST PART"
+      text: 
+        en: "When you play this character, you may pay 2 {I} to have each opponent choose and discard a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3183,6 +3599,12 @@
       name: "Fred"
       title: "Maskottchen am Tag"
       flavour: "… doch bei Nacht … bin ich auch ein Uni-Maskottchen."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "HOW COOL IS THAT"
+      text: 
+        en: "Whenever this character is challenged, gain 2 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3395,6 +3817,12 @@
       name: "Donald Duck"
       title: "Erster Maat"
       flavour: "Eine Beförderung! Es wurde auch Zeit, dass jemand meine natürlichen Führungsqualitäten anerkennt!"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While you have a Captain character in play, this character gets +2 {L}."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3450,6 +3878,12 @@
       name: "Daisy Duck"
       title: "Piratenkapitänin"
       flavour: "Die Antworten, die wir suchen, sind auf der anderen Seite des Labyrinths, das weiß ich einfach!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Distant Shores"
+      text: 
+        en: "Whenever one of your Pirate characters quests while at a location, draw a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3577,6 +4011,17 @@
       name: "Jasmin"
       title: "Königliche Kommodorin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Jasmine.)_"
+    - type: resolution
+      title: 
+        en: "Ruler of the Seas"
+      text: 
+        en: "When you play this character, if you used Shift to play her, return all other exerted characters to their players’ hands."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3619,6 +4064,17 @@
       name: "Peter Pan"
       title: "Spaßvogel von Nimmerland"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Look Innocent"
+      text: 
+        en: "This card enters play exerted."
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While this character is exerted, each opposing player can't gain lore unless one of their characters has challenged this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3662,6 +4118,12 @@
       name: "Hercules"
       title: "Baby-Halbgott"
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3704,6 +4166,12 @@
       name: "Alistair Krei"
       title: "Ehrgeiziger Unternehmer"
       flavour: "Schlank und doch stark … Diese Tintenflügel sind eine außergewöhnliche technische Meisterleistung."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "An Eye For Tech"
+      text: 
+        en: "When you play this character, if an opponent has an item in play, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3746,6 +4214,12 @@
       name: "Gazelle"
       title: "Engel mit Hörnern"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3789,6 +4263,12 @@
       name: "Goofy"
       title: "Schiffbauexperte"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Clever Design"
+      text: 
+        en: "Whenever this character quests, chosen character gains Ward until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3831,6 +4311,12 @@
       name: "Bellwether"
       title: "Stellvertretende Bürgermeisterin"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Fear Always Works"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, chosen opposing character gains Reckless during their next turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3885,6 +4371,17 @@
       name: "Basil"
       title: "Verkleideter Detektiv"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Basil.)_"
+    - type: static-triggered
+      title: 
+        en: "Twists and Turns"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, you may pay 1 {I} to have chosen opponent choose and discard a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3962,6 +4459,12 @@
       name: "Beuge dich meinem Willen"
       title: ""
       flavour: "Endlich! Hier endet deine Glückssträhne!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Submit to My Will"
+      text: 
+        en: "Each opponent discards all cards in their hand."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3998,6 +4501,12 @@
       name: "Bereit zum Entern!"
       title: ""
       flavour: "Bringt mir den Schatz, bringt mir das Schiff und bringt mir Peter Pan.\n–Käpt’n Hook"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4036,6 +4545,12 @@
       name: "Heffalumps und Wusel"
       title: ""
       flavour: "In jede Honigschüssel geh’n sie mit dem Rüssel"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Heffalumps And Woozles"
+      text: 
+        en: "Chosen opposing character can't quest during their next turn. Draw a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4072,6 +4587,12 @@
       name: "Mückenstich"
       title: ""
       flavour: "Nicht bewegen. Eine Mücke macht einen Ausflug auf meinem Arm. Sie ist so wunderschön …"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4119,6 +4640,12 @@
       name: "Du bist zurückgekommen"
       title: ""
       flavour: "Niemand wird im Stich gelassen.\n–Stitch"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4155,6 +4682,17 @@
       name: "MegaBot"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Happy Face"
+      text: 
+        en: "This item enters play exerted."
+    - type: activated
+      title: 
+        en: "Destroy!"
+      text: 
+        en: "Choose one:n* Banish chosen item.n* Banish chosen damaged character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4191,6 +4729,12 @@
       name: "Galaktischer Kommunikator"
       title: ""
       flavour: "Der beste Weg, um mit deinen Liebsten in Kontakt zu bleiben."
+  abilities: 
+    - type: activated
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4227,6 +4771,12 @@
       name: "Transportkapsel"
       title: ""
       flavour: "Wir haben das Konzept des Transportwesens neu erfunden.\n–Alistair Krei"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Give 'Em A Show"
+      text: 
+        en: "At the start of your turn, you may move a character of yours to a location for free."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4266,6 +4816,12 @@
       name: "Gefährliches Labyrinth"
       title: "Wasserlabyrinth"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Whenever a character is challenged while here, each opponent chooses and discards a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4305,6 +4861,17 @@
       name: "Insel der Eule"
       title: "Abgelegener Eingang"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "For each character you have here, you pay 1 {I} less for the first action you play each turn."
+    - type: static-triggered
+      title: 
+        en: "Lots to Learn"
+      text: 
+        en: "Whenever you play a second action in a turn, gain 3 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4349,6 +4916,17 @@
       name: "Micky Maus"
       title: "Piratenkapitän"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Mickey Mouse.)_"
+    - type: static-triggered
+      title: 
+        en: "Mariner’s Might"
+      text: 
+        en: "Whenever this character quests, chosen Pirate character gets +2 {S} and gains ``This character takes no damage from challenges`` this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4433,6 +5011,12 @@
       name: "Kokomora"
       title: "Piraten-Werfer"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Dizzying Speed"
+      text: 
+        en: "When you play this character, chosen Pirate character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4476,6 +5060,12 @@
       name: "Jasmin"
       title: "Rebellische Prinzessin"
       flavour: "Selbst die kleinste Maus kann den größten Unterschied machen."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "You'll Never Miss It"
+      text: 
+        en: "Whenever this character quests, each opponent loses 1 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4530,6 +5120,12 @@
       name: "Raya"
       title: "Reiterin aus Kumandra"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Come On, Let's Do This"
+      text: 
+        en: "Once during your turn, whenever a card is put into your inkwell, you may ready another chosen character of yours. They can't quest for the rest of this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4574,6 +5170,12 @@
       name: "Wendy Darling"
       title: "Mutige Kapitänin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While you have another Pirate character in play, this character gets +1 {S} and +1 {L}."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4619,6 +5221,12 @@
       name: "John Silver"
       title: "Gefährlicher Freund"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "You Have To Chart Your Own Course"
+      text: 
+        en: "Whenever this character quests, you may deal 1 damage to one of your other characters. If you do, ready that character. They cannot quest this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4663,6 +5271,12 @@
       name: "Vanellope von Schweetz"
       title: "Mutige Draufgängerin"
       flavour: "Fast geschafft!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "As Ready As I'll Ever Be"
+      text: 
+        en: "At the start of your turn, if this character is at a location, draw a card and gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4875,6 +5489,12 @@
       name: "Micky Maus"
       title: "Mutiger Seemann"
       flavour: "Donnerwetter, vom Schiff aus sah das viel einfacher aus. Aber ich weiß, dass ich es schaffen kann – die Mannschaft zählt auf mich!"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While this character is at a location, he gets +2 {S}."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4918,6 +5538,12 @@
       name: "Adorabeezle Winterpop"
       title: "Eisraketen-Rennfahrerin"
       flavour: "Es braucht mehr als das, um <mich> aus dem Rennen zu werfen!"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While this character has damage, she gets +1 {L}."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4962,6 +5588,12 @@
       name: "Vaiana"
       title: "Autodidaktische Seglerin"
       flavour: "Du willst mir sagen, dass ich nicht weiß, was ich tue? Das weiß ich auch selbst!"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character can't challenge unless you have a Captain character in play."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5059,6 +5691,17 @@
       name: "Aladdin"
       title: "Unerschrockener Kommandant"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named aladdin.)_"
+    - type: resolution
+      title: 
+        en: "Remember Your Training"
+      text: 
+        en: "When you play this character, your characters get +2 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5113,6 +5756,12 @@
       name: "Minnie Maus"
       title: "Piraten-Ausguck"
       flavour: "Minnie lehnte sich nach vorn. Konnte das wahr sein? War dies endlich die Insel?"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Land, Ho!"
+      text: 
+        en: "Once during your turn, whenever a card is put into your inkwell, you may return a location card from your discard to your hand."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5158,6 +5807,17 @@
       name: "Vaiana"
       title: "Anführerin der Kokomora"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Moana.)_"
+    - type: resolution
+      title: 
+        en: "Gathering Forces"
+      text: 
+        en: "When you play this character, you may move any number of your characters to the same location for free. Gain 1 lore for each character you moved."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5286,6 +5946,17 @@
       name: "Maui"
       title: "Halb-Hai"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Wayfinding"
+      text: 
+        en: "Whenever you play an action, gain 1 lore."
+    - type: static-triggered
+      title: 
+        en: "Cheeeohoooo!"
+      text: 
+        en: "Whenever this character challenges another character, you may return an action card from your discard to your hand."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5329,6 +6000,12 @@
       name: "Hades"
       title: "Starker Arm"
       flavour: "Schwefel, nutze einmal deinen Kopf!"
+  abilities: 
+    - type: activated
+      title: 
+        en: "What Are You Gonna Do?"
+      text: 
+        en: "Banish chosen character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5384,6 +6061,12 @@
       name: "Tigger"
       title: "Im Krähennest"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "SWASH YOUR BUCKLES"
+      text: 
+        en: "Whenever you play an action, this character gets +1 {S} and +1 {L} this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5437,6 +6120,12 @@
       name: "Scar"
       title: "Herzloser Jäger"
       flavour: "Es ist für das Allgemeinwohl. Ich bin mir sicher, du verstehst das.\n–Scar"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Bared Teeth"
+      text: 
+        en: "When you play this character, deal 2 damage to chosen character of yours to deal 2 damage to chosen character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5473,6 +6162,12 @@
       name: "Diebstahl"
       title: ""
       flavour: "Äpfel, Edelsteine, Wunderlampe … Abu ist nicht wählerisch, solange es etwas gibt, das sich zu stehlen lohnt."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Thievery"
+      text: 
+        en: "Chosen opponent loses 1 lore. Gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5509,6 +6204,12 @@
       name: "Den Weg weisen"
       title: ""
       flavour: "Wir haben das Zeug dazu, gemeinsam den Weg durch dieses Labyrinth zu finden! Festhalten – wir gehen rein!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5558,6 +6259,12 @@
       name: "Diese Inseln zog ich aus dem Meer"
       title: ""
       flavour: "Davon abgesehen, gern geschehen … voll gerne"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5594,6 +6301,12 @@
       name: "Energie-Explosion"
       title: ""
       flavour: "Hast du <wirklich> geglaubt, ich würde fair kämpfen?\n–Dschafar"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5630,6 +6343,12 @@
       name: "Langboot"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "Take It For A Spin"
+      text: 
+        en: "2 {I} – Chosen character of yours gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5666,6 +6385,12 @@
       name: "Goldmünze"
       title: ""
       flavour: "Heilige Mutter Muh-Kuh-Molke! ’ne Goldmünze!\n–Vanellope von Schweetz"
+  abilities: 
+    - type: activated
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5702,6 +6427,12 @@
       name: "Speer des Kartensoldaten"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Your damaged characters get +1 {S}."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5741,6 +6472,12 @@
       name: "Flottille"
       title: "Armada der Kokosnüsse"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Tiny Thieves"
+      text: 
+        en: "At the start of your turn, if you have a character here, all opponents lose 1 lore and you gain lore equal to the lore lost this way."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5780,6 +6517,17 @@
       name: "Schädelfelsen"
       title: "Abgelegene Festung"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Characters get +1 {S} while here."
+    - type: static-triggered
+      title: 
+        en: "Safe Haven"
+      text: 
+        en: "At the start of your turn, if you have a Pirate character here, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5866,6 +6614,12 @@
       name: "Tante Cass"
       title: "Größter Fan"
       flavour: "Okay, dann fütter ich mal die Intelligenzbestien."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Happy to Help"
+      text: 
+        en: "Whenever this character quests, chosen Inventor character gets +1 {L} this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5909,6 +6663,12 @@
       name: "Trixi"
       title: "Kreativer Kopf"
       flavour: "Donnerwetter, eine perfekte Flügelmutter! Dafür gibt es ungefähr eine Million Verwendungsmöglichkeiten!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Brainstorm"
+      text: 
+        en: "Whenever you play an item, this character gets +1 {L} this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5963,6 +6723,17 @@
       name: "Trixi"
       title: "Geniale Bootsführerin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Gadget Hackwrench.)_"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While you have 3 or more items in play, you pay 1 {I} less to play Inventor characters."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6005,6 +6776,12 @@
       name: "Summi"
       title: "Scharfsinniger Lockvogel"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Run Interference"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, another chosen character gains Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6060,6 +6837,12 @@
       name: "Oswald"
       title: "Der lustige Hase"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Favorable Chance"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, you may reveal the top card of your deck. If it's an item card, you may play that item for free and they enter play exerted. Otherwise put it on the bottom of your deck."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6103,6 +6886,12 @@
       name: "Yokai"
       title: "Rätselhafter Erfinder"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Time To Upgrade"
+      text: 
+        en: "Whenever this character quests, you may return one of your items to your hand to pay 2 {S} less for the next item you play this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6146,6 +6935,12 @@
       name: "Pliiklii"
       title: "Wissenschaftlicher Experte"
       flavour: "Als ordnungsgemäß ernannter Vertreter des Galaktischen Rates melde ich mich freiwillig für diesen Auftrag!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Reporting For Duty"
+      text: 
+        en: "When you play this character, put chosen character of yours into your inkwell facedown and exerted."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6189,6 +6984,12 @@
       name: "Hiro Hamada"
       title: "Wunderkind der Robotik"
       flavour: "Noch ein paar Änderungen und es ist so gut wie … fertig!"
+  abilities: 
+    - type: activated
+      title: 
+        en: "SWEET TECH"
+      text: 
+        en: " {E}, 2 {I} − Search your deck for an item card or a Robot character card and reveal it to all players. Shuffle your deck and put that card on top of it."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6231,6 +7032,17 @@
       name: "HeiHei"
       title: "Weniger trickreiches Hühnchen"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Eat Anything"
+      text: 
+        en: "When you play this character, exert chosen opposing item. It can't ready at the start of its next turn."
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, this character gains **Evasive**. (_They can challenge characters with Evasive._)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6273,6 +7085,12 @@
       name: "Saurer Drops"
       title: "Mürrischer Handlanger"
       flavour: "Du willst da reingehen? Na gut. Wenn du das tust, kommst du nicht wieder raus."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Unpalatable"
+      text: 
+        en: "When you play this character, chosen opposing character gets -2 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6315,6 +7133,12 @@
       name: "Nick Wilde"
       title: "Durchnässter Fuchs"
       flavour: "Freut mich, dass du es geschafft hast."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While you have another character with Support in play, this character gets +2 {S}."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6369,6 +7193,17 @@
       name: "Wasabi"
       title: "Systematischer Ingenieur"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, this character gains **Evasive**."
+    - type: resolution
+      title: 
+        en: "BLADES OF FURY"
+      text: 
+        en: "When you play this character, you may banish chosen item. Its player gains 1 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6411,6 +7246,17 @@
       name: "Nick Wilde"
       title: "Schlitzohr"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 1 _(You may pay 1 {I} to play this on top of one of your characters named Nick Wilde.)_"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While you have an item in play, this character can't be challenged."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6540,6 +7386,17 @@
       name: "Tadashi Hamada"
       title: "Erfinder von Baymax"
       flavour: "Ich werd dich nicht aufgeben. Du verstehst das noch nicht, aber die Menschen brauchen dich."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character gets +1 {S} and +1 {W} for each item you have in play."
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character gets +1 {S} and +1 {W} for each item you have in play."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6583,6 +7440,17 @@
       name: "Hiro Hamada"
       title: "Teamleiter"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your other Inventor characters gain **Resist** +1. _(Damage dealt to them is reduced by 1.)"
+    - type: activated
+      title: 
+        en: "SHAPE THE FUTURE"
+      text: 
+        en: "Look at the top card of your deck. Put it on either the top or the bottom of your deck."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6626,6 +7494,12 @@
       name: "Tadashi Hamada"
       title: "Talentierter Robotiker"
       flavour: "Sein Werk lebt weiter."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Someone Has To Help"
+      text: 
+        en: "During an opponent’s turn, when this character is banished, you may put the top card of your deck into your inkwell facedown. Then, put this card into your inkwell facedown."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6680,6 +7554,17 @@
       name: "Baymax"
       title: "Persönlicher Gesundheitsbegleiter"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "If you have an Inventor character in play, you pay 1 {I} less to play this character."
+    - type: activated
+      title: 
+        en: "YOU SAID 'OW'"
+      text: 
+        en: "2 {I} - Remove up to 1 damage from another chosen character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6737,6 +7622,17 @@
       name: "Baymax"
       title: "Gepanzerter Begleiter"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "The Treatment is Working"
+      text: 
+        en: "When you play this character and whenever he quests, you may remove up to 2 damage from another chosen character of yours. Gain 1 lore for each 1 damage removed this way."
+    - type: static-triggered
+      title: 
+        en: "The Treatment is Working"
+      text: 
+        en: "When you play this character and whenever he quests, you may remove up to 2 damage from another chosen character of yours. Gain 1 lore for each 1 damage removed this way."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6866,6 +7762,22 @@
       name: "Yokai"
       title: "Wissenschaftlicher Superschurke"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Yokai.)_"
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "You may play items named Microbots for free."
+    - type: static-triggered
+      title: 
+        en: "Technical Gain"
+      text: 
+        en: "Whenever this character quests, draw a card for each opposing character with 0 {S}."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6908,6 +7820,12 @@
       name: "Alice"
       title: "Gerissene Seglerin"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Ahoy!"
+      text: 
+        en: "Whenever this character quests, another chosen character of yours gets +1 {L} and gains Ward until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6957,6 +7875,12 @@
       name: "We Could Be Immortals"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "We Could Be Immortals"
+      text: 
+        en: "Your Inventor characters gain **Resist** +6 this turn. Then, put this card into your inkwell facedown and exerted. _(Damage dealt to them is reduced by 6.)_"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6993,6 +7917,12 @@
       name: "Azurblaues Meer befahren"
       title: ""
       flavour: "Du brauchst große Pläne und noch größeres Glück, um es durch diese tückischen Gewässer zu schaffen."
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7029,6 +7959,12 @@
       name: "Helfende Hand"
       title: ""
       flavour: "Wenn man die Welt zu einem besseren Ort machen will, hilft jede Kleinigkeit.\n–Judy Hopps"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Helping Hand"
+      text: 
+        en: "Chosen character gains Support this turn. Draw a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7065,6 +8001,12 @@
       name: "Mach deinen Robo bereit"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7101,6 +8043,12 @@
       name: "Baymax' Gesundheitschip"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7137,6 +8085,12 @@
       name: "Microbots"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Inspired Tech"
+      text: 
+        en: "When you play this item, chosen character gets -1 {S} this turn for each item named Microbots you have in play."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7173,6 +8127,12 @@
       name: "Riesenpfote am Stiel"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7212,6 +8172,12 @@
       name: "U-Boot der Ritter des Rechts"
       title: "Mobiles Hauptquartier"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Planning Session"
+      text: 
+        en: "At the start of your turn, if you have a character here, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7251,6 +8217,17 @@
       name: "Institut für Technologie"
       title: "Renommierte Universität"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Push the Boundaries"
+      text: 
+        en: "At the start of your turn, if you have a character here, gain 1 lore."
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Characters get +1 {W} while here."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7293,6 +8270,12 @@
       name: "Kokomora"
       title: "Spezialist für Langstrecken"
       flavour: "Sie sind sehr gut darin, Ärger zu machen.\n–Maui"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "A Little Help"
+      text: 
+        en: "When you play this character, if you have another Pirate character in play, you may deal 1 damage to chosen character or location."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7336,6 +8319,12 @@
       name: "Kokomora"
       title: "Piraten-Häuptling"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Coconut Leader"
+      text: 
+        en: "Whenever this character quests, you may draw a card. Then, choose and discard a card to deal 1 damage to chosen character or location. If a Pirate character card was discarded, deal 3 damage to that character or location instead."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7378,6 +8367,12 @@
       name: "Jim Hawkins"
       title: "Sturer Schiffsjunge"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Come Here, Come Here, Come Here!"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, this character gets Challenger +2 this turn. (While challenging, this character gets +2 {S}.)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7419,6 +8414,12 @@
       name: "Mr. Big"
       title: "Raffinierter Geschäftsmann"
       flavour: "Du hast mir einen großen Dienst erwiesen."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character can't be challenged by characters with 2 {S} or more."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7462,6 +8463,12 @@
       name: "Herr Smee"
       title: "Entschlossener Maat"
       flavour: "Käpt'n Hook wünscht Sie zu sprechen."
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, this character gains **Evasive**."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7506,6 +8513,17 @@
       name: "Herr Smee"
       title: "Kapitän unter der Piratenflagge"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Mr. Smee.)_"
+    - type: resolution
+      title: 
+        en: "Raise the Colors"
+      text: 
+        en: "When you play this character, you may deal damage to chosen character equal to the number of your other Pirate characters in play."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7549,6 +8567,12 @@
       name: "Mullins"
       title: "Erfahrener Schiffskamerad"
       flavour: "Ich gäbe alles für Euch, Herr Smee! Außer meinen Anteil an der Beute …"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While you have a character named Mr. Smee in play, this character gains Resist +1. (Damage dealt to them is reduced by 1.)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7677,6 +8701,12 @@
       name: "Hercules"
       title: "Unermüdlicher Halbgott"
       flavour: "Das Labyrinth war gar nicht so übel! Mal sehen, was die Insel für uns bereithält."
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7722,6 +8752,12 @@
       name: "John Silver"
       title: "Schiffskoch"
       flavour: "Am Ende des Tages sind es die einfachsten Werkzeuge, die einem in der Not weiterhelfen."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Hunk of Hardware"
+      text: 
+        en: "When you play this character, chosen character can't challenge during their next turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7765,6 +8801,12 @@
       name: "Arrow"
       title: "Erster Maat der Legacy"
       flavour: "Wir halten uns stabil, Kapitän. Trotz dieses Windes. Und dieser Wellen."
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7807,6 +8849,17 @@
       name: "Jim Hawkins"
       title: "Takelage-Experte"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Jim Hawkins.)_"
+    - type: resolution
+      title: 
+        en: "Battle Station"
+      text: 
+        en: "When you play this character, you may deal 1 damage to chosen character or location."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7892,6 +8945,12 @@
       name: "Billy Bones"
       title: "Weltraum-Segler"
       flavour: "Er wird bald hier sein. Er darf das hier nicht finden."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Keep It Hidden"
+      text: 
+        en: "When this character is banished, you may banish chosen item or location."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7934,6 +8993,12 @@
       name: "Pluto"
       title: "Wachhund"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While this character has no damage, he gets +4 {S}."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7976,6 +9041,12 @@
       name: "Micky Maus"
       title: "Nachtwächter"
       flavour: "Oje, Donald hatte recht – es ist gruselig hier draußen im Dunkeln!"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your Pluto characters get Resist +1. (Damage dealt to them is reduced by 1.)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8018,6 +9089,12 @@
       name: "Cobra Bobo"
       title: "Ehemaliger Mitarbeiter der CIA"
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "Think About What's Best"
+      text: 
+        en: "Draw a card, then choose and discard a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8114,6 +9191,12 @@
       name: "Randale Ralph"
       title: "Riesenpranke"
       flavour: "Ich bin echt gut im Kaputtmachen. Ich kenne keinen, der das besser macht."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I Wreck Things"
+      text: 
+        en: "Whenever this character quests, you may banish chosen item or location to gain 2 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8156,6 +9239,17 @@
       name: "Sergeant Calhoun"
       title: "Marinefeldwebel"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+    - type: static-triggered
+      title: 
+        en: "LEVEL UP"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, gain 2 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8211,6 +9305,17 @@
       name: "Käpt'n Amelia"
       title: "Kommandantin der Legacy"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character can't be challenged by Pirate characters."
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While being challenged, your other characters gain Resist +1."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8254,6 +9359,12 @@
       name: "Dschafar"
       title: "Machthungriger Wesir"
       flavour: "Die Kraft der zerbrochenen Krone ist beeindruckend, aber nicht genug. Mit <beiden> Hälften der Hexwell-Krone könnte ich über ganz Lorcana herrschen!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "You Will Be Paid When The Time Comes"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, deal 1 damage to chosen character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8299,6 +9410,22 @@
       name: "John Silver"
       title: "Strenger Kapitän"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named John Silver.)_"
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
+    - type: static-triggered
+      title: 
+        en: "Don't Just Sit There!"
+      text: 
+        en: "At the start of your turn, deal 1 damage to each opposing ready character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8335,6 +9462,12 @@
       name: "Heiss und Fettig"
       title: ""
       flavour: "Das nimmt kein gutes Ende!\n–Pliiklii"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8373,6 +9506,12 @@
       name: "I'm Still Here"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8409,6 +9548,17 @@
       name: "Zwillingsfeuer"
       title: ""
       flavour: "Ich hab sie!\nNein, <ich> hab sie!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Twin Fire"
+      text: 
+        en: "Then, you may choose and discard a card to deal 2 damage to another chosen character"
+    - type: resolution
+      title: 
+        en: "Twin Fire"
+      text: 
+        en: "Deal 2 damage to chosen character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8445,6 +9595,12 @@
       name: "Überfall!"
       title: ""
       flavour: "Piraten werden jeden Vorteil nutzen, den sie bekommen können."
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8481,6 +9637,12 @@
       name: "Unglückliche Situation"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8517,6 +9679,17 @@
       name: "Sensorkern des Königs"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your Prince and King characters gain Resist +1. (Damage dealt to them is reduced by 1.)"
+    - type: activated
+      title: 
+        en: "Royal Search"
+      text: 
+        en: "{E}, 2 {I} – Reveal the top card of your deck. If it’s a Prince or King character card, you may put it into your hand. Otherwise, put it on the top of your deck."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8553,6 +9726,12 @@
       name: "Übungspuppe"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8589,6 +9768,12 @@
       name: "Sonnenbrille"
       title: ""
       flavour: "Das coolste Accessoire für Top-Agenten."
+  abilities: 
+    - type: activated
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8639,6 +9824,12 @@
       name: "Der Schatzberg"
       title: "Insel im Azurblauen Meer"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Secret Weapon"
+      text: 
+        en: "At the start of your turn, deal damage to chosen character or location equal to the number of characters here."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8678,4 +9869,10 @@
       name: "Saal des Hohen Rats"
       title: "Gerichtssaal"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While you have an Alien or Robot character here, this location can’t be challenged."
   franchise_id: ""

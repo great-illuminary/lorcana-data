@@ -7,7 +7,6 @@ import korlibs.datastructure.iterators.parallelMap
 
 class Lorcana {
     suspend fun loadFromResources(): LorcanaLoaded {
-        val abilities = Abilities.loadFromResource()
         val configuration = Configurations.loadFromResource()
         val classifications = Classifications.loadFromResource()
             .associateBy { it.slug.slug }
@@ -17,7 +16,6 @@ class Lorcana {
 
         val virtualCards = list.parallelMap {
             it.to(
-                abilities,
                 classifications,
                 franchises
             )
@@ -32,7 +30,6 @@ class Lorcana {
     }
 
     suspend fun loadFromGithub(tag: String = "main"): LorcanaLoaded {
-        val abilities = Abilities.loadFromGithub(tag)
         val configuration = Configurations.loadFromGithub(tag)
         val classifications = Classifications.loadFromGithub(tag)
             .associateBy { it.slug.slug }
@@ -44,7 +41,6 @@ class Lorcana {
 
         val virtualCards = list.parallelMap {
             it.to(
-                abilities,
                 classifications,
                 franchises
             )

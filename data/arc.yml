@@ -42,6 +42,12 @@
       name: "Dino"
       title: "Motivationsredner"
       flavour: "Vergiss nicht, du bist großartig. Du kannst alles schaffen. Jetzt kanalisiere deine innere Großartigkeit und ENTSCHÄRFE DIESE FALLE!"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Your other characters get +2 {W}."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -87,6 +93,17 @@
       name: "Perdi"
       title: "Verspielte Mutter"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "WHO'S NEXT?"
+      text: 
+        en: "Whenever this character quests, you pay 2 {I} less for the next Puppy character you play this turn."
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your Puppy characters gain Ward. (Opponents can't choose them except to challenge.)"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -190,6 +207,22 @@
       name: "Bolt"
       title: "Superhund"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named bolt.)_"
+    - type: static-triggered
+      title: 
+        en: "We'll Always Be Together"
+      text: 
+        en: "Whenever you ready this character, if you have 2 or more other characters in play, gain 2 lore."
+    - type: activated
+      title: 
+        en: "BOLT STARE"
+      text: 
+        en: "{E} – Banish chosen Illusion character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -234,6 +267,12 @@
       name: "Roger Radcliffe"
       title: "Hundeliebhaber"
       flavour: "Das Beste an der Bewältigung des Hindernisparcours war, dass sie am Ende ihren Menschen wiedergefunden haben."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "THERE YOU GO"
+      text: 
+        en: "Whenever this character quests, you may remove up to 1 damage from each of your Puppy characters."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -323,6 +362,12 @@
       name: "Peggy"
       title: "Naturtalent im Auftreten"
       flavour: "Sie war dazu geboren, ein Star zu sein, egal wo sie auftrat."
+  abilities: 
+    - type: activated
+      title: 
+        en: "CAPTIVE AUDIENCE"
+      text: 
+        en: "{E} – If you have at least 3 other characters in play, draw a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -411,6 +456,12 @@
       name: "Mittens"
       title: "Freche Straßenkatze"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "NO THANKS NECESSARY"
+      text: 
+        en: "Once during your turn, whenever a card is put into your inkwell, your other characters with Bodyguard get +1 {L} this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -456,6 +507,17 @@
       name: "Strolch"
       title: "Schlauer Hund"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "For each character you have in play, you pay {I} less to play this character."
+    - type: resolution
+      title: 
+        en: "HOW'S PICKINGS?"
+      text: 
+        en: "When you play this character, you may draw a card for each of your other characters in play. Then choose the same number of cards from your hand and discard them."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -501,6 +563,17 @@
       name: "Der Troubadour"
       title: "Musikalischer Erzähler"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** +4 _(This character counts as cost 4 to sing songs.)_"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -549,6 +622,12 @@
       name: "Wendy Darling"
       title: "Piratenkönigin"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "TELL NO TALES"
+      text: 
+        en: "Whenever one of your other characters is banished, you may remove all damage from chosen character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -595,6 +674,12 @@
       name: "Mirabel Madrigal"
       title: "Hoffnungsvolle Träumerin"
       flavour: "Meine Familie ist wunderbar und dazu gehör nun mal auch ich …"
+  abilities: 
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -653,6 +738,17 @@
       name: "Aurora"
       title: "Erwachte Schönheit"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
+    - type: static-triggered
+      title: 
+        en: "SWEET DREAMS"
+      text: 
+        en: "Whenever you remove 1 or more damage from a character, ready this character. She can't quest or challenge for the rest of this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -698,6 +794,12 @@
       name: "Cinderella"
       title: "Die Richtige"
       flavour: "Seht, ich hab’ den anderen Schuh."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "IF THE SLIPPER FITS"
+      text: 
+        en: "When you play this character, you may put an item card named The Glass Slipper from your discard on the bottom of your deck to gain 3 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -742,6 +844,12 @@
       name: "Mariano Guzmán"
       title: "Gutaussehender Verehrer"
       flavour: "Die Rätsel des Herzens sind herausfordernder als alles, was Archazia sich je ausdenken könnte."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While you have a character named Dolores Madrigal in play, this character gets +1 {L}."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -787,6 +895,12 @@
       name: "Candlehead"
       title: "Engagierte Rennfahrerin"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "WINNING ISN'T EVERYTHING"
+      text: 
+        en: "When this character is banished, you may remove up to 2 damage from chosen character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -923,6 +1037,12 @@
       name: "King Candy"
       title: "Königlicher Rennfahrer"
       flavour: "Verschwinde von meiner Rennstrecke!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "SWEET REVENGE"
+      text: 
+        en: "Whenever one of your other Racer characters is banished, each opponent chooses and banishes one of their characters."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -968,6 +1088,12 @@
       name: "Penny"
       title: "Bolts Frauchen"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "ENDURING LOYALTY"
+      text: 
+        en: "When you play this character, you may remove up to 2 damage from chosen character and they gain Resist +1 until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1014,6 +1140,12 @@
       name: "Fix-It Felix, Jr."
       title: "Kleinwüchsiger Held"
       flavour: "Eine Falle ist nur ein nicht so freundliches Rätsel."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "LET'S GET TO WORK"
+      text: 
+        en: "Whenever you return a Racer character card from your discard to your hand, you may ready chosen Racer character. They can't quest for the rest of this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1059,6 +1191,12 @@
       name: "Thunderbolt"
       title: "Wunderhund"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named puppy.)_"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1149,6 +1287,12 @@
       name: "Isabela Madrigal"
       title: "Lebt im Moment"
       flavour: "Das hätt’ ich von mir nicht erwartet. Spitz und scharf, was kommt nun?"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "IM TIRED OF PERFECT"
+      text: 
+        en: "Whenever one of your characters sings a song, this character can't be challenged until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1195,6 +1339,17 @@
       name: "Sergeant Calhoun"
       title: "Mutige Retterin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Calhoun.)_"
+    - type: static-triggered
+      title: 
+        en: "BACK TO START POSITIONS!"
+      text: 
+        en: "Whenever this character challenges another character, you may return a Racer character card from your discard to your hand."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1239,6 +1394,12 @@
       name: "Randale Ralph"
       title: "Hero's Duty"
       flavour: "Die Medaille hab ich im Sack."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "OUTFLANK"
+      text: 
+        en: "During your turn, whenever one of your other characters is banished, this character gets +1 {L} this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1284,6 +1445,17 @@
       name: "Susi"
       title: "Miss Welt"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Lady.)_"
+    - type: resolution
+      title: 
+        en: "Miss Park Avenue"
+      text: 
+        en: "When you play this character, you may return up to 2 character cards with cost 2 or less each from your discard to your hand."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1329,6 +1501,12 @@
       name: "Pongo"
       title: "Guter alter Papa"
       flavour: "Tricks und Fallen sind ein Klacks für mutige Welpen."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "FOUND YOU, YOU LITTLE RASCAL"
+      text: 
+        en: "At the start of your turn, look at the cards in your inkwell. You may play a Puppy character from there for free."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1373,6 +1551,12 @@
       name: "Kenai"
       title: "Beschützender Bruder"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "HE NEEDS ME"
+      text: 
+        en: "At the end of your turn, if this character is exerted, you may ready another chosen character of yours and remove all damage from them."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1417,6 +1601,17 @@
       name: "Minnie Maus"
       title: "Geschichtenerzählerin"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "GATHER AROUND"
+      text: 
+        en: "Whenever you play a character, this character gets +1 {L} this turn."
+    - type: static-triggered
+      title: 
+        en: "JUST ONE MORE"
+      text: 
+        en: "Whenever this character quests, chosen opposing character loses {S} equal to this character's {L} until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1507,6 +1702,12 @@
       name: "Schneewittchen"
       title: "Die Schönste im Land"
       flavour: "Ein aufrichtiges Herz kann so manchen bösen Plan durchkreuzen."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character can't be challenged."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1610,6 +1811,17 @@
       name: "Mirabel Madrigal"
       title: "Musikalisch begabt"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Mirabel Madrigal.)_"
+    - type: static-triggered
+      title: 
+        en: "HER OWN SPECIAL GIFT"
+      text: 
+        en: "Whenever this character quests, you may return a song card with cost 3 or less from your discard to your hand."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1655,6 +1867,12 @@
       name: "Sergeant Calhoun"
       title: "Kampferprobt"
       flavour: "Vorbereitung und Glück – man kann sich nur auf eines verlassen, um einen Kampf zu gewinnen!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "TACTICAL ADVANTAGE"
+      text: 
+        en: "When you play this character, you may choose and discard a card to give chosen opposing character -3 {S} until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1700,6 +1918,12 @@
       name: "Pepa Madrigal"
       title: "Sensible Schwester"
       flavour: "Die beruhigende Präsenz von Archazia half Pepa, ihre düstere Stimmung zu vertreiben."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "CLEAR SKIES, CLEAR SKIES"
+      text: 
+        en: "Whenever one or more of your characters sings a song, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1740,6 +1964,12 @@
       name: "So neu für mich"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "So Much To Give"
+      text: 
+        en: "Draw a card. Chosen character gains Bodyguard until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1779,6 +2009,12 @@
       name: "Das Herz zurückbringen"
       title: ""
       flavour: "In dem Moment, in dem ihr Herz zurückgegeben wurde, erwachte das Grün zum Leben und gab Te Fiti ihre ursprüngliche Gestalt zurück."
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Remove up to 3 damage from chosen character or location. Draw a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1820,6 +2056,12 @@
       name: "Familie Madrigal"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "The Family Madrigal"
+      text: 
+        en: "Look at the top 5 cards of your deck. You may reveal up to 1 Madrigal character card and up to 1 song card and put them into your hand. Put the rest on the top of your deck in any order."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1858,6 +2100,12 @@
       name: "Bernstein-Reif"
       title: ""
       flavour: "Martin lächelte, als der Reif einrastete und er einen Strom von Heilenergie spürte."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Healing Aura"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, you may remove up to 2 damage from chosen character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1896,6 +2144,12 @@
       name: "Spaghetti-Dinner"
       title: ""
       flavour: "Ja, Tony! Sein Restaurant ist genau der richtige Ort für eine besondere Gelegenheit.\n–Strolch"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Fine Dining"
+      text: 
+        en: "{E}, 1 {I} – If you have 2 or more characters in play, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1934,6 +2188,12 @@
       name: "Kanine Krunchies"
       title: ""
       flavour: "Sie zergehen dir im Munde, unsere Kanine Krunchies!"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Your Puppy characters get +1 {W}."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1985,6 +2245,12 @@
       name: "Der gläserne Schuh"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "Search The Kingdom"
+      text: 
+        en: "Banish this item, {E} one of your Prince characters – Search your deck for a Princess character card and reveal it to all players. Put that card into your hand and shuffle your deck."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2116,6 +2382,12 @@
       name: "Hüter des Schatzes"
       title: "Bedrohlicher Wächter"
       flavour: "Endlich geht meine langjährige Suche zu Ende.\n–Dschafar"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "UNTOLD TREASURE"
+      text: 
+        en: "When you play this character, if you have an Illusion character in play, you may draw a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2160,6 +2432,12 @@
       name: "Honeymaren"
       title: "Northuldra Fremdenführerin"
       flavour: "Man sagt, er sei die Brücke zwischen uns und der Magie der Natur."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "TALE OF THE FIFTH SPIRIT"
+      text: 
+        en: "When you play this character, if an opponent has an exerted character in play, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2249,6 +2527,12 @@
       name: "Chernabog"
       title: "Kreatur der Nacht"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "MIDNIGHT FESTIVITIES"
+      text: 
+        en: "When you play this character, each opponent chooses one of their readied characters and exhausts it. Characters exhausted this way do not ready at the start of their next turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2308,6 +2592,12 @@
       name: "Dschafar"
       title: "Neu gekrönt"
       flavour: "Nun, da die Hexwell-Krone endlich mein ist, kann keine Macht in Lorcana gegen meine bestehen!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "THIS IS NOT DONE YET"
+      text: 
+        en: "During an opponent's turn, whenever one of your Illusion characters is banished, you may return that card to your hand."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2354,6 +2644,12 @@
       name: "Hades"
       title: "Meister im Schnellsprechen"
       flavour: "… Es gibt dir viel Kraft."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "FOR JUST A LITTLE PAIN"
+      text: 
+        en: "When you play this character, you may deal 2 damage to another chosen character of yours to banish chosen character with cost 3 or less."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2399,6 +2695,12 @@
       name: "Madam Medusa"
       title: "Diamantenliebhaberin"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "SEARCH THE SWAMP"
+      text: 
+        en: "Whenever this character quests, you may deal 2 damage to another chosen character of yours to put the top 3 cards of chosen player's deck into their discard."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2445,6 +2747,17 @@
       name: "Te Kā"
       title: "Elementarer Terror"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 7 _(You may pay 7 {I} to play this on top of one of your characters named Te Kā.)_"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, whenever an opposing character is exerted, banish them."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2491,6 +2804,12 @@
       name: "Elsa"
       title: "Vertraute Schwester"
       flavour: "Der Angst darf man nicht vertrauen."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "WHAT DO WE DO NOW?"
+      text: 
+        en: "Whenever this character quests, if you have a character named Anna in play, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2536,6 +2855,12 @@
       name: "Madame Mim"
       title: "Betrügerische Zauberkünstlerin"
       flavour: "Sie braucht die Regeln nur, um die Regeln zu brechen!\n–Archimedes"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "PLAY ROUGH"
+      text: 
+        en: "Whenever this character quests, exert chosen opposing character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2582,6 +2907,17 @@
       name: "Riesenkobra"
       title: "Geisterhafte Schlange"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "vanish"
+      text: 
+        en: "_(When an opponent chooses this character for an action, banish them.)_"
+    - type: resolution
+      title: 
+        en: "MYSTERIOUS ADVANTAGE"
+      text: 
+        en: "When you play this character, you may choose and discard a card to gain 2 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2627,6 +2963,12 @@
       name: "Te Kā"
       title: "Lava-Monster"
       flavour: "Wenn du nach Te Fiti willst, dann liegt ein ganzer Ozean voller Gefahren vor dir. Ganz zu schweigen von Te Kā.\n–Maui"
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2672,6 +3014,12 @@
       name: "Isma"
       title: "Verwandeltes Kätzchen"
       flavour: "Ja, ich habe diesen Kurs bereits gemeistert. Ich werde hier aber noch ein wenig hüpfen."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I WON"
+      text: 
+        en: "When this character is banished, if you have more cards in hand than any opponent, you may return this character to your hand."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2716,6 +3064,12 @@
       name: "Bucky"
       title: "Nussiger Schlingel"
       flavour: "Oh, warte kurz. Ich liebe diese Stelle! Er lässt den Ballon platzen und all die Eicheln fliegen heraus. Das gefällt mir jedes Mal.\n–Kronk"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "POP!"
+      text: 
+        en: "When this character is banished in a challenge, you may draw a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2850,6 +3204,12 @@
       name: "Kronk"
       title: "Entspannt"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "meta"
+      text: 
+        en: "If an effect would cause you to discard one or more cards, you don't discard."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2896,6 +3256,12 @@
       name: "Mutter Gothel"
       title: "Eitle Magierin"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "NOW YOU'VE UPSET ME"
+      text: 
+        en: "Whenever one of your characters challenges, you may move 1 damage counter from chosen character to chosen opposing character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2941,6 +3307,12 @@
       name: "Sven"
       title: "Scharfsichtiges Rentier"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Formidable Glare"
+      text: 
+        en: "chosen character gets -3 {S} this turn"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2986,6 +3358,12 @@
       name: "Diablo"
       title: "Boshafter Rabe"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3032,6 +3410,12 @@
       name: "Merlin"
       title: "Kluger Hellseher"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Prestidigitonium"
+      text: 
+        en: "name a card, then reveal the top card of your deck. If it's the named card, put it into your inkwell facedown and exerted. Otherwise, put it on the top of your deck."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3078,6 +3462,17 @@
       name: "Isma"
       title: "Steht über allem"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Yzma.)_"
+    - type: static-triggered
+      title: 
+        en: "BACK TO WORK"
+      text: 
+        en: "Whenever another character is banished in a challenge, return that card to its player's hand, then that player discards a card at random."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3125,6 +3520,17 @@
       name: "Elsa"
       title: "Eismacherin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Elsa.)_"
+    - type: static-triggered
+      title: 
+        en: "WINTER WALL"
+      text: 
+        en: "Whenever this character quests, you may exert chosen character. If you do and you have a character named Anna in play, the chosen character can't ready at the start of their next turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3169,6 +3575,17 @@
       name: "Kenai"
       title: "Magischer Bär"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
+    - type: static-triggered
+      title: 
+        en: "Durable"
+      text: 
+        en: "During your turn, when this character is banished in a challenge, return this card to your hand and gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3214,6 +3631,12 @@
       name: "Kusco"
       title: "Panisches Lama"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "WE CAN FIGURE THIS OUT"
+      text: 
+        en: "At the start of your turn, choose one: n• Each player draws a card. n• Each player chooses and discards a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3261,6 +3684,12 @@
       name: "Anna"
       title: "Eisbrecherin"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "WINTER AMBUSH"
+      text: 
+        en: "When you play this character, chosen opposing character can't ready at the start of their next turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3319,6 +3748,12 @@
       name: "Donald Duck"
       title: "Aufgeregter Zauberer"
       flavour: "Wenn es um Zaubersprüche geht, ist die richtige Aussprache entscheidend."
+  abilities: 
+    - type: static
+      title: 
+        en: "meta"
+      text: 
+        en: "Opponents need 25 lore to win the game."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3365,6 +3800,12 @@
       name: "Die Königin"
       title: "Eifersüchtige Schönheit"
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "NOT AN ORDINARY APPLE"
+      text: 
+        en: "Choose 3 cards in an opponent's discard and put them under their deck to gain 3 lore. If you moved at least 1 Princess this way, gain 4 lore instead."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3409,6 +3850,12 @@
       name: "Schwefel"
       title: "Nervöser Wicht"
       flavour: "Was der Boss nicht weiß, wird uns nicht schaden. Jedenfalls nicht viel. Hoffe ich."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Startled Shriek"
+      text: 
+        en: "When you play this character, you can move up to 2 damage counters from chosen character to chosen opposing character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3542,6 +3989,12 @@
       name: "Dolores Madrigal"
       title: "In Hörweite"
       flavour: "Sie hörte, wie Marianos Herz einen Schlag aussetzte. War es wegen des Rätsels, oder weil er sie ansah?"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I HEAR YOU"
+      text: 
+        en: "Whenever one of your characters sings a song, chosen opponent reveals their hand."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3588,6 +4041,17 @@
       name: "Mufasa"
       title: "Bei den Sternen"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Mufasa.)_"
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3626,6 +4090,12 @@
       name: "Magische Manöver"
       title: ""
       flavour: "Oh, ich bin sicher, es ist in Ordnung, wenn wir die Fallen umstellen. Archazia hat sicher nichts gegen ein bisschen Magie.\n–Flora"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Return chosen character of yours to your hand. Exert chosen character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3666,6 +4136,12 @@
       name: "Meine Familie"
       title: ""
       flavour: "Schau, wie sie strahlen. Ja, wir sind füreinander da."
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "(A character with cost 2 or more can {E} to sing this song for free.)nGain 1 lore. Draw a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3717,6 +4193,17 @@
       name: "Zeig mir mehr!"
       title: ""
       flavour: "Lauf der Zeit, erhöre mich –\nzeig mir, was du bald versprichst!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Show Me More!"
+      text: 
+        en: "Each player draws 3 cards."
+    - type: resolution
+      title: 
+        en: "Show Me More!"
+      text: 
+        en: "Each player draws 3 cards."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3756,6 +4243,17 @@
       name: "Die Krone wiederherstellen"
       title: ""
       flavour: "Die Hexwell-Schmiede strotzte vor purer kreativer Energie und verschmolz die Teile der Krone in einem letzten Kraftschub."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Restoring The Crown"
+      text: 
+        en: "Exert all opposing characters."
+    - type: floating-triggered
+      title: 
+        en: ""
+      text: 
+        en: "Whenever one of your characters banishes another character in a challenge this turn, gain 2 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3794,6 +4292,12 @@
       name: "Amethyst-Reif"
       title: ""
       flavour: "Shanzays Reif flackerte auf und schickte eine Ranke mystischer Energie in Richtung des beschädigten Glimmers."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Magical Touch"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, you may move 1 damage counter from chosen character to chosen opposing character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3883,6 +4387,12 @@
       name: "Grewnge"
       title: "Kanonenspezialist"
       flavour: "Er liebt zwei Dinge: Explosionen und noch mehr Explosionen."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "RAPID FIRE"
+      text: 
+        en: "Whenever this character quests, you pay 1 {I} less for the next action you play this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3928,6 +4438,12 @@
       name: "Baymax"
       title: "Niedriger Akkustand"
       flavour: "Die Verarbeitung der Daten von Archazias Gedankenschriftrollen verbraucht sehr viel Energie. Extremer Energiesparmodus aktiviert."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "SHHHHH"
+      text: 
+        en: "This card enters play exerted."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4017,6 +4533,12 @@
       name: "Kater Karlo"
       title: "Piraten-Schurke"
       flavour: "Ich habe es nicht gestohlen! Ich wollte es nur sicher aufbewahren."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "PILFER AND PLUNDER"
+      text: 
+        en: "Whenever you play an action that isn't a song, you may banish chosen item."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4062,6 +4584,12 @@
       name: "Hiro Hamada"
       title: "Zukünftiger Champion"
       flavour: "Selbst mit einem so brillanten Verstand wie seinem war die gemischte Tinte ein einzigartiges Rätsel, das es zu lösen galt."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "ORIGIN STORY"
+      text: 
+        en: "When you play a Floodborn character on this card, draw a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4105,6 +4633,12 @@
       name: "Grinsekatze"
       title: "Verwirrende Katze"
       flavour: "Schließlich ist er keine gewöhnliche Katze. Aber welche Katze ist das schon?\n–Archazia"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "MAD GRIN"
+      text: 
+        en: "When you play this character, you may deal 2 damage to chosen damaged character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4149,6 +4683,12 @@
       name: "Shir Khan"
       title: "Berüchtigter Tiger"
       flavour: "Er wäre der Erste, der dir sagen würde, dass er ebenso großartig wie tödlich ist."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "IT IS REGRETTABLE"
+      text: 
+        en: "When you play this character, discard your hand."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4194,6 +4734,12 @@
       name: "Basil"
       title: "Geheimer Informant"
       flavour: "Der letzte Teil der Krone! Dschafar wird sich freuen."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "DRAW THEM OUT"
+      text: 
+        en: "Whenever this character quests, opposing damaged characters gain Reckless during their next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4251,6 +4797,12 @@
       name: "Der verrückte Hutmacher"
       title: "Unbändiger Exzentriker"
       flavour: "Und du mein Herzchen? Du legst keinen Wert auf Tee?"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "UNBIRTHDAY PRESENT"
+      text: 
+        en: "Whenever a damaged character challenges another character, you may draw a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4297,6 +4849,17 @@
       name: "Die Herzkönigin"
       title: "Unberechenbare Tyrannin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Queen Of Hearts.)_"
+    - type: static-triggered
+      title: 
+        en: "IF I LOSE MY TEMPER…"
+      text: 
+        en: "Whenever another character is played, put a damage counter on them."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4356,6 +4919,22 @@
       name: "Hiro Hamada"
       title: "Rüstungsdesigner"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Hiro Hamada.)_"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your Floodborn characters that have a card under them gain Evasive."
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your Floodborn characters that have a card under them gain Ward."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4402,6 +4981,12 @@
       name: "Yokai"
       title: "Intellektueller Intrigant"
       flavour: "In den Händen einer unbedeutenden Person wäre so viel Macht unverantwortlich."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "You pay 1{I} less to play characters using their Shift ability."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4447,6 +5032,12 @@
       name: "Donald Duck"
       title: "Lebhafter Pirat"
       flavour: "Aye, aye, Käpt'n! Ich mache das schon."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "DUCK OF ACTION"
+      text: 
+        en: "Whenever this character is challenged, you may return an action card that isn't a song from your discard to your hand."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4535,6 +5126,12 @@
       name: "Susi"
       title: "Elegante Spaniel"
       flavour: "Bist du sicher, dass wir hier reindürfen? Herrchen würde mich nie in die Küche lassen."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While you have a character named Tramp in play, this character gets +1 {L}."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4580,6 +5177,12 @@
       name: "Isma"
       title: "Verärgerte Intrigantin"
       flavour: "Einer davon muss der richtige Schalter sein, doch ich wäre die Tante eines Lamas, wenn ich wüsste welcher …"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "HOW SHALL I DO IT?"
+      text: 
+        en: "When you play this character, you may draw a card, then choose and discard a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4624,6 +5227,12 @@
       name: "Patcha"
       title: "Wanderkumpan"
       flavour: "Er bereitete sich gerne auf jede Notlage vor. Mit Kusco in der Nähe gab es davon einige."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While you have more cards in hand than each opponent, this character gets +2 {L}."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4668,6 +5277,12 @@
       name: "Dideldei und Dideldum"
       title: "Seltsame Geschichtenerzähler"
       flavour: "Du kannst noch nicht gehen! Willst du nicht noch das Ende hören?\n–Dideldei"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "ANOTHER RECITATION"
+      text: 
+        en: "Whenever this character quests, you may return chosen damaged character to their player's hand."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4714,6 +5329,17 @@
       name: "Baymax"
       title: "Riesiger Roboter"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named .)_"
+    - type: resolution
+      title: 
+        en: "FUNCTIONALITY IMPROVED"
+      text: 
+        en: "When you play this character, if you used Shift to play him, remove all damage from him."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4759,6 +5385,17 @@
       name: "Krachbumm-Ente"
       title: "Ausgerüstet"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+    - type: static
+      title: 
+        en: "challenge-ready-damaged-chars"
+      text: 
+        en: "This character can challenge ready damaged characters."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4804,6 +5441,12 @@
       name: "Greifer"
       title: "Hinterhältige Fledermaus"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "TOOK CARE OF EVERYTHING"
+      text: 
+        en: "Whenever this character quests, another chosen character of yours gain Evasive until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4851,6 +5494,12 @@
       name: "Herr Smee"
       title: "Effizienter Kapitän"
       flavour: "Also gut, Leute – wir haben heute viel zu tun!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "PIPE UP THE CREW"
+      text: 
+        en: "Whenever you play an action that isn’t a song, you may ready chosen Pirate character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4897,6 +5546,12 @@
       name: "Daisy Duck"
       title: "Vielseitig begabte Piratin"
       flavour: "Eine Kapitänin muss erfinderisch und souverän sein und darf keine Angst vor Trampolinen haben."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "FOWL PLAY"
+      text: 
+        en: "Once during your turn, whenever a card is put into your inkwell, chosen opponent chooses one of their characters and returns that card to their hand."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4945,6 +5600,22 @@
       name: "John Silver"
       title: "Rachsüchtiger Pirat"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "If an opposing character was damaged this turn, you pay 2 {I} less to play this character."
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+    - type: static-triggered
+      title: 
+        en: "I Ain't Gone Soft"
+      text: 
+        en: "Whenever you play an action that isn't a song, you may deal 1 damage to chosen character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5002,6 +5673,17 @@
       name: "Strolch"
       title: "Unternehmungslustiger Hund"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "If you have a character named Lady in play, you pay 1 {I} less to play this character."
+    - type: resolution
+      title: 
+        en: "No Time for Wisecracks"
+      text: 
+        en: "When you play this character, chosen character of yours gets +1 {S} this turn for each other character you have in play."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5047,6 +5729,12 @@
       name: "Herzkönig"
       title: "Wählerischer Herrscher"
       flavour: "Du da! Du hast hier nichts zu suchen, so wie du aktuell aussiehst. Verschwinde, bevor die Königin diese Schweinerei sieht!"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Damaged characters can't challenge your characters."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5135,6 +5823,12 @@
       name: "Anastasia"
       title: "Rechthaberische Stiefschwester"
       flavour: "Geh mir aus dem Weg! <Ich> werde die Erste im Ziel sein!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "OH, I HATE THIS!"
+      text: 
+        en: "Whenever this character is challenged, the challenging player chooses and discards a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5181,6 +5875,22 @@
       name: "Kater Karlo"
       title: "Weltraum-Pirat"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Pete.)_"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While this character is exerted, opposing characters can't exert to sing songs"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While this character is exerted, Your Pirate characters gain Resist +1."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5225,6 +5935,12 @@
       name: "Gräfin Tremaine"
       title: "Zutiefst neidisch"
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "That's Quite Enough"
+      text: 
+        en: "Return chosen damaged character to their player's hand. Then, each opponent discards a card at random."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5263,6 +5979,12 @@
       name: "Alice, wach auf!"
       title: ""
       flavour: "Alice! Würdest du bitte zuhören und deine Lektion aufsagen?\n–Alice’ Schwester"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Wake Up, Alice!"
+      text: 
+        en: "Return chosen damaged character to their player's hand."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5303,6 +6025,12 @@
       name: "So ein Strolch"
       title: ""
       flavour: "Ich wünschte nur, dass er mit mir geht."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "He's A Tramp"
+      text: 
+        en: "Chosen character gets +1 {S} this turn for each character you have in play."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5354,6 +6082,17 @@
       name: "Die Rückkehr von Hercules"
       title: ""
       flavour: "Mein Glückwunsch, Wunderknabe. Du wirst bestimmt ein toller Gott.\n–Meg"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "The Return Of Hercules"
+      text: 
+        en: "Each player may reveal a character card from their hand and play it for free."
+    - type: resolution
+      title: 
+        en: "The Return Of Hercules"
+      text: 
+        en: "Each player may reveal a character card from their hand and play it for free."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5393,6 +6132,12 @@
       name: "Tintengeysir"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Each player exerts all the cards in their inkwell. Then each player with more than 3 cards in their inkwell returns cards at random from their inkwell to their hand until they have 3 cards in their inkwell."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5431,6 +6176,12 @@
       name: "Smaragd-Reif"
       title: ""
       flavour: "Der Reif, den Martin trug, stärkte sowohl seinen Geist als auch seinen Körper."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Shimmering Wings"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, chosen character gains Evasive until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5475,6 +6226,12 @@
       name: "Großmutter Fa"
       title: "Weise Älteste"
       flavour: "Angst wird dich verletzen. Glück wird dich durchbringen."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I'VE GOT ALL THE LUCK WE'LL NEED"
+      text: 
+        en: "Whenever this character quests, you may give chosen character of yours +2 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5520,6 +6277,12 @@
       name: "Die Herzkönigin"
       title: "Fassungslos"
       flavour: "Irgendetwas sagte den Luminari, dass sie genug von den Hindernissen hatte."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While this character has damage, she gets +3 {S}."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5563,6 +6326,12 @@
       name: "Heiratsvermittlerin"
       title: "Kompromisslose Expertin"
       flavour: "Die ist ja muffliger als ’ne Stinkmorchel.\n–Großmutter Fa"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "You are a disgrace!"
+      text: 
+        en: "Whenever this character challenges another character, each opponent loses 1 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5607,6 +6376,12 @@
       name: "Denahi"
       title: "Ungeduldiger Jäger"
       flavour: "Es bleibt keine Zeit. Wir müssen jetzt handeln!"
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5651,6 +6426,12 @@
       name: "Stabbington-Bruder"
       title: "Ohne Augenklappe"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your characters named Jetsam gain **Rush.**"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5711,6 +6492,22 @@
       name: "Belle"
       title: "Mechanikerin der Extraklasse"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 7 _(You may pay 7 {I} to play this on top of one of your characters named belle.)_"
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "For each item card in your discard, you pay 1 {I} less to play this character using her Shift ability."
+    - type: static-triggered
+      title: 
+        en: "REPURPOSE"
+      text: 
+        en: "Whenever this character quests, you may put up to 3 item cards from your discard on the bottom of your deck to gain 1 lore for each item card moved this way."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5754,6 +6551,12 @@
       name: "Cy-Bug"
       title: "Invasiver Feind"
       flavour: "Cy-Bugs sind wie ein Virus. Sie wissen nicht, dass sie in ’nem Spiel sind.\n–Sergeant Calhoun"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "This character gets +1 {S} for each other character you have in play."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5798,6 +6601,12 @@
       name: "Stabbington-Bruder"
       title: "Mit Augenklappe"
       flavour: "Schweigen ist Gold. Und er liebt Gold."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Crime of Opportunity"
+      text: 
+        en: "chosen opponent loses 1 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5842,6 +6651,12 @@
       name: "Kartensoldaten"
       title: "Königliche Truppen"
       flavour: "Die Herz-Drei hob ihren Speer und flüsterte vor sich hin: Wo ein anderer hinfällt, ein Soldat der Königin sich hält."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While a damaged character is in play, this character gets +2 {S}."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5886,6 +6701,12 @@
       name: "Von Unruh"
       title: "Kletternde Uhr"
       flavour: "Oberstes Regal? Pah! Wenn es ein Buch ist, das Mademoiselle will, werde ich einen Weg finden, es für sie zu holen!"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While you have an item card in your discard, this character gets +2 {S}."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5975,6 +6796,12 @@
       name: "Die Panzerknacker"
       title: "Kleinkriminelle"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "HURRY IT UP!"
+      text: 
+        en: "Whenever this character quests, chosen character of yours gains Rush and Resist +1 this turn. (They can challenge the turn they're played. Damage dealt to them is reduced by 1.)"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6021,6 +6848,17 @@
       name: "Li Shang"
       title: "Frisch befördert"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "challenge-ready-chars"
+      text: 
+        en: "This character can challenge ready characters."
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "While this character is damaged, he gets +2 {S}."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6066,6 +6904,12 @@
       name: "Vaiana"
       title: "Erforscherin von Inseln"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "ADVENTUROUS SPIRIT"
+      text: 
+        en: "Whenever this character challenges another character, another chosen character of yours gets +3 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6157,6 +7001,12 @@
       name: "Biest"
       title: "Frustrierter Designer"
       flavour: "Nein, nein, nein! Das sieht NICHT SO AUS, WIE ICH ES MIR VORGESTELLT HABE!"
+  abilities: 
+    - type: activated
+      title: 
+        en: "I'VE HAD IT!"
+      text: 
+        en: "{E}, 2 {I}, Banish 2 of your items – Deal 5 damage to chosen character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6203,6 +7053,17 @@
       name: "Mushu"
       title: "Majestätischer Drache"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "INTIMIDATING AND AWE-INSPIRING"
+      text: 
+        en: "Whenever one of your characters challenges, they gain Resist +2 during that challenge. (Damage dealt to them is reduced by 2.)"
+    - type: static-triggered
+      title: 
+        en: "GUARDIAN OF LOST SOULS"
+      text: 
+        en: "During your turn, whenever one of your characters banishes another character in a challenge, gain 2 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6248,6 +7109,12 @@
       name: "Maurice"
       title: "Unkonventioneller Erfinder"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "How on Earth Did That Happen?"
+      text: 
+        en: "When you play this character, you may banish chosen item of yours to draw a card. If the banished item is named Maurice’s Machine, you may also banish chosen character with 2 {S} or less."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6292,6 +7159,12 @@
       name: "Goofy"
       title: "Extremsportler"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "STAR POWER"
+      text: 
+        en: "Whenever this character challenges another character, your other characters get +1 {L} this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6336,6 +7209,12 @@
       name: "Lyle Tiberius Rourke"
       title: "Kristallisierter Söldner"
       flavour: "Er hat bekommen, was er wollte – nur nicht so, wie er es geplant hatte."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Explosive"
+      text: 
+        en: "Once during your turn, whenever a card is put into your inkwell, deal 2 damage to each character in play."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6382,6 +7261,17 @@
       name: "Mulan"
       title: "Kaiserliche Generalin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Mulan.)_"
+    - type: static-triggered
+      title: 
+        en: "EXCEPTIONAL LEADER"
+      text: 
+        en: "Whenever this character challenges another character, your other characters gain ``This character can challenge ready characters`` this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6483,6 +7373,12 @@
       name: "Rattenzahn"
       title: "Ruchloser Verbrecher"
       flavour: "Warum die Show unterbrechen, wenn man sie einfach stehlen kann?"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "A MARVELOUS PERFORMANCE"
+      text: 
+        en: "Whenever you play an action while this character is exerted, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6571,6 +7467,12 @@
       name: "Milo Thatch"
       title: "Unerschrockener Wissenschaftler"
       flavour: "Okay, wir haben den Globus gedreht, um das Wandgemälde in Position zu bringen. Wir haben die Koordinaten. Los geht's!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I'M YOUR GUY"
+      text: 
+        en: "Whenever you play an action, you may give chosen character +2 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6653,6 +7555,12 @@
       name: "Wir kriegen Gesellschaft!"
       title: ""
       flavour: "Tja, wie gewöhnlich führt diplomatisches Vorgehen zu nichts.\n–Lyle Tiberius Rourke"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Ready all your characters. They gain Reckless this turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6691,6 +7599,12 @@
       name: "Ausser Betrieb"
       title: ""
       flavour: "Das ist das Letzte, was ein Gamer sehen möchte."
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Banish chosen character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6729,6 +7643,12 @@
       name: "Rubin-Reif"
       title: ""
       flavour: "Venturo spürte einen Funken aus seinem Armreif, als Energie seine angespannten Muskeln durchflutete."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Crimson Spark"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, chosen character gets +2 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6767,6 +7687,12 @@
       name: "Unkonventionelles Werkzeug"
       title: ""
       flavour: "Den benutze ich viel öfter, als man denkt!\n–Maurice"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6806,6 +7732,12 @@
       name: "Maurice’ Maschine"
       title: ""
       flavour: "Ich hoffe, sie tut das, wofür ich sie gebaut habe!\n–Maurice"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6857,6 +7789,12 @@
       name: "Teufelsaugen Diamant"
       title: ""
       flavour: "Sieh ihn dir nur an! Macht und Reichtum gibt er seinem Besitzer.\n–Madam Medusa"
+  abilities: 
+    - type: activated
+      title: 
+        en: "The Price Of Power"
+      text: 
+        en: "{E} - If one of your characters was damaged this turn, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6901,6 +7839,12 @@
       name: "Klarabella"
       title: "Nachrichtenreporterin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Your other characters with Support gain +1 {S}."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6945,6 +7889,17 @@
       name: "Dagobert Duck"
       title: "Einfallsreicher Geizhals"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "meta"
+      text: 
+        en: "You may exert 4 items of yours to play this character for free."
+    - type: resolution
+      title: 
+        en: "FORTUNE HUNTER"
+      text: 
+        en: "When you play this character, look at the top 4 cards of your deck. You may reveal an item card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6990,6 +7945,12 @@
       name: "Leutnant Mattias"
       title: "General von Arendelle"
       flavour: "Du musst schnell handeln, bevor die Falle wieder zuschnappen kann. Los!"
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Your Queen characters gain Ward."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7079,6 +8040,12 @@
       name: "Monsieur D'Arque"
       title: "Verachtenswerter Inhaber"
       flavour: "Ich kann dir bei deinem Problem helfen … wenn der Preis stimmt."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I'VE COME TO COLLECT"
+      text: 
+        en: "Whenever this character quests, you may banish chosen item to draw a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7169,6 +8136,12 @@
       name: "Belle"
       title: "Auszubildende Erfinderin"
       flavour: "Sie hilft ihrem Vater, die herumfliegenden Trümmer auf ein Minimum zu reduzieren."
+  abilities: 
+    - type: static
+      title: 
+        en: "meta"
+      text: 
+        en: "During your turn, you may banish chosen item of yours to play this character for free."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7213,6 +8186,12 @@
       name: "Lucky"
       title: "Der Jüngste im Wurf"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "FOLLOW MY VOICE"
+      text: 
+        en: "Whenever this character quests, look at the top 2 cards of your deck. You may reveal any number of Puppy character cards and put them in your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7258,6 +8237,12 @@
       name: "Dr. David Wasdenn"
       title: "Grübelnder Detektiv"
       flavour: "Was ist <das> denn für eine Vorrichtung?"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "BE SENSIBLE"
+      text: 
+        en: "Once during your turn, whenever a card is put into your inkwell, look at the top card of your deck. You may put it on either the top or the bottom of your deck."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7315,6 +8300,17 @@
       name: "Tamatoa"
       title: "Ist er nicht souverän"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Coolest Collection"
+      text: 
+        en: "When you play this character, return up to 2 item cards from your discard to your hand."
+    - type: static-triggered
+      title: 
+        en: "I'm Beautiful, Baby!"
+      text: 
+        en: "Whenever this character quests, you may play an item for free."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7360,6 +8356,22 @@
       name: "HeiHei"
       title: "Erweitertes Bewusstsein"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "shift"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Heihei.)_"
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+    - type: resolution
+      title: 
+        en: "CLEAR YOUR MIND"
+      text: 
+        en: "When you play this character, put all cards from your hand into your inkwell facedown and exerted."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7405,6 +8417,12 @@
       name: "Kida"
       title: "Kreative Denkerin"
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "KEY TO THE PUZZLE"
+      text: 
+        en: "{E} – Look at the top 2 cards of your deck. Put one into your inkwell facedown and exerted, and the other on top of your deck."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7493,6 +8511,12 @@
       name: "Marie"
       title: "Bevorzugtes Kätzchen"
       flavour: "Such dir einen anderen Luminari. Dieser hier ist vergeben."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I'LL SHOW YOU"
+      text: 
+        en: "Whenever this character quests, you may give chosen character -2 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7537,6 +8561,12 @@
       name: "Pepper"
       title: "Schnelldenker"
       flavour: "Pepper beweist, dass jeder Welpe ein Teil des Rudels ist."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "In the Nick of Time"
+      text: 
+        en: "Whenever one of your Puppy characters is banished, you may put that card into your inkwell facedown and exerted."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7581,6 +8611,12 @@
       name: "Pünktchen"
       title: "Guter Junge"
       flavour: "Ich will mit den anderen spielen! Darf ich, Papa? Bitte!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "JUST SO CUTE!"
+      text: 
+        en: "When you play this character, chosen opposing character gets -1 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7626,6 +8662,12 @@
       name: "Honey Lemon"
       title: "Chemikerin"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "PRETTY GREAT, HUH?"
+      text: 
+        en: "Whenever you play a Floodborn character, if you used Shift to play them, you may remove up to 2 damage from chosen character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7714,6 +8756,12 @@
       name: "Penny, das Waisenkind"
       title: "Kluges Kind"
       flavour: "Penny, du musst jetzt nicht mehr weinen. Wir sind hier, um dir zu helfen.\n–Miss Bianca"
+  abilities: 
+    - type: static
+      title: 
+        en: "OUR BOTTLE WORKED!"
+      text: 
+        en: "While you have a Hero character in play, this character gains Ward. (Opponents can't choose them except to challenge.)"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7805,6 +8853,12 @@
       name: "Jasmin"
       title: "Inspirierte Forscherin"
       flavour: "Oh, das ist wunderbar! Ich <wusste>, dass Archazias Gedankenschriftrollen eine kleine zusätzliche Anstrengung wert sein würden!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "EXTRA ASSISTANCE"
+      text: 
+        en: "Whenever this character quests, if you have no cards in your hand, draw a card for each Ally character you have in play."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7849,6 +8903,12 @@
       name: "Jebidiah Farnsworth"
       title: "Expeditionskoch"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "I GOT YOUR FOUR BASIC FOOD GROUPS"
+      text: 
+        en: "When you play this character, chosen character gains Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7894,6 +8954,12 @@
       name: "Baymax"
       title: "Aufgerüsteter Roboter"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "ADVANCED SCANNER"
+      text: 
+        en: "When you play this character, look at the top 4 cards of your deck. You may reveal a Floodborn character card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7940,6 +9006,17 @@
       name: "Maid Marian"
       title: "Badminton-Ass"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Good Shot"
+      text: 
+        en: "During an opponent’s turn, whenever one of your Ally characters is damaged, deal 1 damage to chosen opposing character."
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "Your characters named Lady Kluck gain Resist +1."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7978,6 +9055,12 @@
       name: "Wasser hat ein Gedächtnis"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Water Has Memory"
+      text: 
+        en: "Look at the top 4 cards of chosen player's deck. Put one on the top of their deck and the rest on the bottom of their deck in any order."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8031,6 +9114,12 @@
       name: "Es kommt zu dir"
       title: ""
       flavour: "Folg dem Nordwind, denn er bringt\ndich zum Meer hin, wo ein Fluss entspringt"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "All Is Found"
+      text: 
+        en: "Put up to 2 cards from your discard into your inkwell, facedown and exerted."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8069,6 +9158,12 @@
       name: "Saphir-Reif"
       title: ""
       flavour: "Ein einziger Lichtblitz von dem Reif an Venturos Bein konnte jeden Feind blenden."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Brilliant Shine"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, you may give chosen character -2 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8107,6 +9202,12 @@
       name: "Baymax’ Ladestation"
       title: ""
       flavour: "Akku auf 100 \n. Bereit für den Einsatz!—Hiro Hamada"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Energy Converter"
+      text: 
+        en: "Whenever you play a Floodborn character, if you used Shift to play them, you may draw a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8151,6 +9252,12 @@
       name: "Dr. Calico"
       title: "Grünäugiger Mann"
       flavour: "Alles läuft genau so, wie es laufen soll."
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8239,6 +9346,17 @@
       name: "Helga Sinclair"
       title: "Knallhart"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, this character gains **Evasive**."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8283,6 +9401,12 @@
       name: "Bolt"
       title: "Starrköpfiger Hund"
       flavour: "So wie’s aussieht, ist die harte Tour nötig."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "THERE'S NO TURNING BACK"
+      text: 
+        en: "Whenever this character quests, if he has no damage, you may draw a card, then choose and discard a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8372,6 +9496,12 @@
       name: "Raya"
       title: "Sucht nach Führung"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "A Greater Purpose"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, this character gains Resist +1 until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8416,6 +9546,12 @@
       name: "Tuktuk"
       title: "Entwaffnend niedlich"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8460,6 +9596,12 @@
       name: "Fa Zhou"
       title: "Kriegsheld"
       flavour: "Jede Falle, die du entschärfst, jede Prüfung, die du bestehst, ehrt uns alle. Gut gemacht."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "TRAINING EXERCISES"
+      text: 
+        en: "Whenever one of your characters challenges another character, if it's the second challenge this turn, you gain 3 lore."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8505,6 +9647,12 @@
       name: "Rasul"
       title: "Bedrohliche Wache"
       flavour: "Bloßer Firlefanz bringt dich Dschafar nicht näher."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "MY ORDERS COME FROM JAFAR"
+      text: 
+        en: "When you play this character, if you have a character named Jafar in play, you may banish chosen item."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8550,6 +9698,12 @@
       name: "Dschafar"
       title: "Aufstrebender Herrscher"
       flavour: "Endlich gehören beide Hälften der Krone mir!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "THAT'S BETTER"
+      text: 
+        en: "When you play this character, chosen character gains Challenger +2 this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8593,6 +9747,12 @@
       name: "Ticktack"
       title: "Unerbittliches Krokodil"
       flavour: "Sperrt eure Ohren auf, Käpt'n, hört ihr nicht etwas?\n–Peter Pan"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, this character gains Evasive while a Pirate character is in play."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8637,6 +9797,12 @@
       name: "Kokomora"
       title: "Piratenbande"
       flavour: "Die sind … irgendwie süß.\n–Vaiana"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While you have another Pirate character in play, this character gains Challenger +3."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8682,6 +9848,12 @@
       name: "Mulan"
       title: "Verkleidete Soldatin"
       flavour: "Okay, es geht los. Beweg dich wie ein richtiger Mann.\n–Mushu"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "WHERE DO I SIGN IN?"
+      text: 
+        en: "When you play this character, you may draw a card, then choose and discard a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8726,6 +9898,17 @@
       name: "Orville"
       title: "Albatross-Fluggesellschaft"
       flavour: "Fliegt er nicht wie ein junger Gott?\n–Miss Bianca"
+  abilities: 
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, while you have a character named Miss Bianca or Bernard in play, this character gains Evasive."
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "During your turn, while you have a character named Miss Bianca or Bernard in play, this character gains Evasive."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8770,6 +9953,12 @@
       name: "Miss Bianca"
       title: "Unermüdliche Agentin"
       flavour: "Wir werden die Spitze dieses Turms im Handumdrehen erreichen, wenn wir nur zusammenarbeiten, mein Schatz."
+  abilities: 
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Playing this character costs you 2 {I} less if you have an Ally character in play."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8859,6 +10048,17 @@
       name: "Aladdin"
       title: "Wissenschaftlicher Mitarbeiter"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "HELPING HAND"
+      text: 
+        en: "Whenever this character quests, you can play an Ally character with cost 3 or less for free."
+    - type: static
+      title: 
+        en: "gain-ability"
+      text: 
+        en: "While this character exerted, your Ally characters gain +1 {S}."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8903,6 +10103,12 @@
       name: "Baghira"
       title: "Wächter-Jaguar"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "You must be brave"
+      text: 
+        en: "When this character is banished during an opponent's turn, deal 2 damage to each opposing character."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8948,6 +10154,17 @@
       name: "Gantu"
       title: "Erfahrener Vollstrecker"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "CLOSE ALL CHANNELS"
+      text: 
+        en: "When you play this character, characters can't exert to sing songs until the start of your next turn."
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: "Each player pays 2 {I} more to play actions or items. (This doesn't apply to singing songs.)"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9005,6 +10222,12 @@
       name: "Micky Maus"
       title: "Inspirierender Krieger"
       flavour: "Er weist den Weg mit einem unerschütterlichen Herzen."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "STIRRING SPIRIT"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, you may play a character for free."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9056,6 +10279,12 @@
       name: "Wiederherstellung von Atlantis"
       title: ""
       flavour: "In Zeiten der Gefahr wählt der Kristall einen Wirt aus, von königlichem Blut, um sich und sein Volk zu beschützen.\n–König Kashekim Nedakh"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Your characters can't be challenged until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9094,6 +10323,12 @@
       name: "Doppelter Ärger"
       title: ""
       flavour: "Wir haben genug von eurem Blödsinn! Nehmt das!\n–Sonnenschein"
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: "Deal 1 damage to up to 2 chosen characters."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9132,6 +10367,12 @@
       name: "Stahl-Reif"
       title: ""
       flavour: "Als der Reif an Shanzays Arm einrastete, fühlte sie ein verstärktes Gefühl der Klarheit."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Metallic Flow"
+      text: 
+        en: "During your turn, whenever a card is put into your inkwell, you may draw a card, then choose and discard a card."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9170,4 +10411,10 @@
       name: "Übungsstab"
       title: ""
       flavour: "Sitz nicht untätig herum, während andere nach Ruhm streben.\n–Li Shang"
+  abilities: 
+    - type: activated
+      title: 
+        en: "Precision Strike"
+      text: 
+        en: "{E}, 1 {I} – Chosen character gains Challenger +2 this turn."
   franchise_id: ""

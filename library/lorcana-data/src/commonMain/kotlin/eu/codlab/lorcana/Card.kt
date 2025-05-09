@@ -27,13 +27,16 @@ data class Card(
     val ravensburger: Ravensburger,
     val rarity: VariantRarity,
     val languages: CardTranslations,
-    val actions: List<Ability>,
+    val abilities: List<Ability>,
     @SerialName("set_code")
     val setCode: SetDescription,
     val franchise: Franchise,
     @SerialName("third_party")
     val thirdParty: CardThirdParty? = null
-)
+) {
+    @Deprecated("use abilities only")
+    val actions: List<Ability> = abilities
+}
 
 fun VirtualCard.toCard(set: SetDescription): List<Card>? {
     val variations = variants.filter { it.set == set }
@@ -52,7 +55,7 @@ fun VirtualCard.toCard(set: SetDescription): List<Card>? {
             number = it.id,
             rarity = it.rarity,
             languages = languages,
-            actions = actions,
+            abilities = abilities,
             setCode = set,
             franchise = franchise,
             thirdParty = thirdParty,
