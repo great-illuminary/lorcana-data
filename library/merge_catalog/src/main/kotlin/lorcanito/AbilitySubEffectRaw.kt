@@ -1,7 +1,7 @@
 package lorcanito
 
-import lorcanito.common.AbilityEffectType
 import kotlinx.serialization.Serializable
+import lorcanito.common.AbilityEffectType
 
 @Serializable
 data class AbilitySubEffectRaw(

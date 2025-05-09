@@ -76,7 +76,6 @@ enum class AbilityEffectAbility {
 
     @SerialName("support")
     Support,
-
 }
 
 @Serializable

@@ -13,6 +13,7 @@ import io.ktor.client.request.setBody
 import io.ktor.client.statement.bodyAsText
 import io.ktor.http.Parameters
 import korlibs.io.lang.toByteArray
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
@@ -46,7 +47,7 @@ class LoadOfficialData(private val rootProject: VirtualFile) {
             headers {
                 set(
                     "Authorization",
-                    "${token.token_type} ${token.access_token}"
+                    "${token.tokenType} ${token.accessToken}"
                 )
             }
         }
@@ -67,21 +68,23 @@ class LoadOfficialData(private val rootProject: VirtualFile) {
                 )
             }
             setBody(
-                FormDataContent(Parameters.build {
-                    append("grant_type", "client_credentials")
-                })
+                FormDataContent(
+                    Parameters.build {
+                        append("grant_type", "client_credentials")
+                    }
+                )
             )
         }
 
         currentToken = body.body<Result>()
         return currentToken
     }
-
-
 }
 
 @Serializable
 private data class Result(
-    val access_token: String,
-    val token_type: String
+    @SerialName("access_token")
+    val accessToken: String,
+    @SerialName("token_type")
+    val tokenType: String
 )

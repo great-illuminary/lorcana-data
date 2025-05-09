@@ -41,7 +41,14 @@ data class ResolutionComparison(
     }
 
     sealed class Value {
+        /**
+         * Represent a Value of Int type
+         */
         class Int(val value: kotlin.Int) : Value()
+
+        /**
+         * Represent a Value of String type
+         */
         class String(val value: kotlin.String) : Value()
     }
 }

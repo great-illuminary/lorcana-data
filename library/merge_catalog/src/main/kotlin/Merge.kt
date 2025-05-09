@@ -42,6 +42,10 @@ val json = Json {
  * And remove the various "if (static) then" -> to make sure we have nothing which is set specific
  * or if those exists, they can be described properly and not in code
  */
+fun main() {
+    runBlocking { load() }
+}
+
 @Suppress(
     "LongMethod",
     "ComplexMethod",
@@ -49,17 +53,6 @@ val json = Json {
     "SwallowedException",
     "MagicNumber"
 )
-fun main() {
-    runBlocking {
-        try {
-            load()
-        } catch (err: Throwable) {
-            err.printStackTrace()
-            throw err
-        }
-    }
-}
-
 private suspend fun load() {
     val client = createClient { }
     val rootProject = VirtualFile(VirtualFile.Root, "../../")

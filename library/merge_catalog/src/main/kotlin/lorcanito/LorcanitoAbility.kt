@@ -1,8 +1,8 @@
 package lorcanito
 
+import eu.codlab.lorcana.abilities.AbilityType
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonElement
-import eu.codlab.lorcana.abilities.AbilityType
 
 @Serializable
 data class LorcanitoAbility(
@@ -10,7 +10,7 @@ data class LorcanitoAbility(
     val type: AbilityType? = null,
     // val duration: AbilityEffectDuration? = null,
     // val costs: List<AbilityCost> = emptyList(),
-    //val value: Int? = null,
+    // val value: Int? = null,
     val text: String? = null,
     val name: String? = null, // name or ability are
     // val optional: JsonElement? = null,
@@ -28,7 +28,7 @@ data class LorcanitoAbility(
     // val gainedAbility: JsonElement? = null,
     // val target: JsonElement? = null
 ) {
-    //TODO map the effects to AbilityEffectRaw or ...?
+    // TODO map the effects to AbilityEffectRaw or ...?
 
     init {
         // println("additional names ${actualAdditionalNames()}")
@@ -87,5 +87,5 @@ data class LorcanitoAbility(
             listOf(additionalNames.jsonPrimitive.content)
         }
     }
-    */
+     */
 }

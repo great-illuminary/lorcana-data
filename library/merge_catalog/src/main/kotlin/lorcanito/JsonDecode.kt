@@ -1,9 +1,9 @@
 package lorcanito
 
+import eu.codlab.lorcana.abilities.AbilityType
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonElement
-import eu.codlab.lorcana.abilities.AbilityType
 
 internal object JsonDecode {
     private val json = Json {

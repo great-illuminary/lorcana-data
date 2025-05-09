@@ -28,8 +28,14 @@ data class LorcanitoCard(
     val set: String,
     val rarity: String,
     val moveCost: Int? = null,
-    val additionalNames: JsonElement? = null, // useless
-    val movementDiscounts: List<JsonElement> = emptyList() // JsonElement is only MovementDiscount
+    /**
+     * additionalNames is either a String or String[]
+     */
+    val additionalNames: JsonElement? = null,
+    /**
+     * JsonElement is only MovementDiscount
+     */
+    val movementDiscounts: List<JsonElement> = emptyList()
 ) {
     fun actualAbilities(): List<LorcanitoAbility> {
         return abilities.mapNotNull {
