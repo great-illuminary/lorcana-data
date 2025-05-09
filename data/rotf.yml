@@ -52,6 +52,7 @@
         en: "restriction"
       text: 
         en: ""
+      ability: "restriction"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -178,6 +179,7 @@
         en: "singer"
       text: 
         en: "**Singer** +3 _(This character counts as cost 3 to sing songs.)_"
+      ability: "singer"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -442,6 +444,7 @@
         en: "singer"
       text: 
         en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
+      ability: "singer"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -493,9 +496,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Yes, Your Majesty"
       text: 
         en: "Your Prince, Princess, King and Queen characters gain +1 {S}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -548,9 +552,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "There's Trouble A-Brewin"
       text: 
         en: "Your other Seven Dwarfs characters get +1 {S}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -887,9 +892,10 @@
         en: "Whenever this character quests, you may reveal the top card of your deck. If it's a song card, you may play it for free. Otherwise, put it on the top of your deck."
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 2"
       text: 
         en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named mulan.)_"
+      ability: "shift"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1066,9 +1072,10 @@
         en: "Whenever you remove 1 or more damage from one of your characters, you may draw a card."
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named rapunzel.)_"
+      ability: "shift"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1345,9 +1352,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "How Do You Do?"
       text: 
         en: "You pay 1 {I} less to play Seven Dwarfs characters."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1418,9 +1426,10 @@
         en: "Whenever this character quests, you may return a character card from your discard to your hand."
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named snow_white.)_"
+      ability: "shift"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1473,9 +1482,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 2"
       text: 
         en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named the queen.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "WHO IS THE FAIREST?"
@@ -2166,6 +2176,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
+      ability: "challenger"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2267,9 +2278,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 2"
       text: 
         en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named fairy godmother.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Forget the Coach, Here's a Sword"
@@ -2681,9 +2693,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named madam mim.)_"
+      ability: "shift"
     - type: activated
       title: 
         en: "Gruesome and Grim"
@@ -3098,9 +3111,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Tip Toe"
       text: 
         en: "Your other characters with **Rush** gain **Evasive**."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3200,9 +3214,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named pinocchio.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "LISTEN TO YOUR CONSCIENCE"
@@ -3385,9 +3400,10 @@
         en: "When you play this character, shuffle another chosen character card into their player's deck. That player draws 2 cards."
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named yzma.)_"
+      ability: "shift"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -3953,9 +3969,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Use Your Imagination"
       text: 
         en: "While an opponent has no cards in their hand, this character gets +2 {L}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4008,9 +4025,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named belle.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Thorny Arrows"
@@ -4180,9 +4198,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named cheshire cat.)_"
+      ability: "shift"
     - type: activated
       title: 
         en: "Wicked Smile"
@@ -4293,9 +4312,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named donald duck.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Allow Me"
@@ -4465,9 +4485,10 @@
   abilities: 
     - type: static
       title: 
-        en: "reverse-challenger"
+        en: "True Form"
       text: 
         en: "While being challenged, this character gets +2 {S}."
+      ability: "reverse-challenger"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4569,14 +4590,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 2"
       text: 
         en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named flynn rider.)_"
+      ability: "shift"
     - type: static
       title: 
-        en: "effects"
+        en: "One Last, Big Score"
       text: 
         en: "This character gets -1 {L} for each card in your opponents' hands."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4628,9 +4651,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Yes, I'm Intimidating"
       text: 
         en: "While one or more opponents have no cards in their hands, this character gets +3 {S}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4784,9 +4808,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Coming, Your Most Lugubriousness"
       text: 
         en: "While this character has 5 {S} or more, he gets + 2 {L}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4910,9 +4935,10 @@
         en: "Whenever you play an action, this character gets +2 {S} this turn."
     - type: static
       title: 
-        en: "effects"
+        en: "Who's Next"
       text: 
         en: "While this character has 7 {S} or more, he gets +2 {L}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6040,9 +6066,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named lady tremaine.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "Power to Rule at Last"
@@ -6266,9 +6293,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 2"
       text: 
         en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named minnie mouse.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Look at This Stuff"
@@ -6581,9 +6609,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 2"
       text: 
         en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named queen of hearts.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Let the Game Begin"
@@ -6750,9 +6779,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named raya.)_"
+      ability: "shift"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7382,6 +7412,7 @@
         en: "effects"
       text: 
         en: ""
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7494,14 +7525,16 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Good Advice"
       text: 
         en: "Your other characters gain **Support**."
+      ability: "gain-ability"
     - type: static
       title: 
-        en: "effects"
+        en: "What did I Do?"
       text: 
         en: "While this character has 10 {S} or more, she gets +4 {L}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7554,9 +7587,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named basil.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "There's Always a Chance"
@@ -7762,14 +7796,16 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Unwind"
       text: 
         en: "Your other characters gain **Resist** +1"
+      ability: "gain-ability"
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named cogsworth.)_"
+      ability: "shift"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7825,9 +7861,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Wait a Minute"
       text: 
         en: "Your character with **Reckless** gain {E} − Gain 1 lore."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7879,9 +7916,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Now Get Going"
       text: 
         en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7933,9 +7971,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named cruella de vil.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Oh, No You Don't"
@@ -8047,9 +8086,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named gaston.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "Developed Brain"
@@ -8494,14 +8534,16 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "HIDE AND SEEK"
       text: 
         en: "While you have an item in play, this character gains **Ward**."
+      ability: "gain-ability"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "HIDE AND SEEK"
       text: 
         en: " While you have an item in play, this character gains **Resist** +1."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9280,9 +9322,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Flight Cabin"
       text: 
         en: "Your exerted characters gain **Ward**."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9390,9 +9433,10 @@
   abilities: 
     - type: static
       title: 
-        en: "protector"
+        en: "Shield Another"
       text: 
         en: "Whenever one of your other characters would be dealt damage, put that many damage counters on this character instead."
+      ability: "protector"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9445,9 +9489,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named beast.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "It’s Better this way"
@@ -9733,19 +9778,22 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named cinderella.)_"
+      ability: "shift"
     - type: static
       title: 
         en: "resist"
       text: 
         en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
+      ability: "resist"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "The Singing Sword"
       text: 
         en: "Whenever you play a song, this character may challenge ready characters this turn."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9957,14 +10005,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named hercules.)_"
+      ability: "shift"
     - type: static
       title: 
         en: "resist"
       text: 
         en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
+      ability: "resist"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10066,9 +10116,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 2"
       text: 
         en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named jafar.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Now Where Were We?"
@@ -10126,9 +10177,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "I don't trust him, sire"
       text: 
         en: "During your turn, this character gains **Evasive**."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10183,6 +10235,7 @@
         en: "resist"
       text: 
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+      ability: "resist"
     - type: static-triggered
       title: 
         en: "Scout Leader"
@@ -10239,9 +10292,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Payback"
       text: 
         en: "While this character has no damage, he gets +4 {S}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10419,9 +10473,10 @@
   abilities: 
     - type: static
       title: 
-        en: "challenge-ready-chars"
+        en: "Blades"
       text: 
         en: "This character can challenge ready characters."
+      ability: "challenge-ready-chars"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10749,6 +10804,7 @@
         en: "resist"
       text: 
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+      ability: "resist"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -10801,14 +10857,16 @@
   abilities: 
     - type: static
       title: 
-        en: "player-restriction"
+        en: "What You Give Is What You Get"
       text: 
         en: "While this character is exerted and you have no cards in your hand, opponents can’t play actions."
+      ability: "player-restriction"
     - type: static
       title: 
         en: "resist"
       text: 
         en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
+      ability: "resist"
   franchise_id: "unknown"
 - variants: 
     - set: rotf

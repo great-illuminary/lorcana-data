@@ -370,9 +370,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Showing Off"
       text: 
         en: "While you have a character named Nani in play, this character gets +2 {L}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -419,9 +420,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Prince Naveen.)_"
+      ability: "shift"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -509,9 +511,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "You Like Gazelle Too"
       text: 
         en: "While you have a character named Gazelle in play, this character gains Singer 6."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -557,9 +560,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "THE VALUE OF FRIENDSHIP"
       text: 
         en: "While you have a character named Dale in play, this character gains **Support**. _(Whenever they quest, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -658,9 +662,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Chip or Dale.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Search And Rescue"
@@ -964,9 +969,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Simba.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Understand the Balance"
@@ -1601,9 +1607,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Friends Forever"
       text: 
         en: "During an opponent's turn, whenever a character is banished here, gain 1 lore."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1758,11 +1765,13 @@
         en: "challenger"
       text: 
         en: "**Challenger** +1 (_When challenging, this character get +13 {S}._)"
+      ability: "challenger"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Zim Zabberim Zim"
       text: 
         en: "Your other characters gain Challenger +1."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1855,6 +1864,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
+      ability: "challenger"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2221,6 +2231,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
+      ability: "challenger"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2269,9 +2280,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Tinker Bell.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Shining Example"
@@ -2465,9 +2477,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 7"
       text: 
         en: "**Shift** 7 _(You may pay 7 {I} to play this on top of one of your characters named Rafiki.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Astral Attunement"
@@ -2913,9 +2926,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Genie.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Your Reward Awaits"
@@ -3049,9 +3063,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "$undefined"
       text: 
         en: "$undefined"
+      ability: "effects"
     - type: resolution
       title: 
         en: ""
@@ -3379,9 +3394,10 @@
         en: "Whenever this character is challenged, draw a card."
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Inspires Dread"
       text: 
         en: "While this character is exerted, opposing Pirate characters can't quest."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3440,9 +3456,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Stitch.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "READY FOR ACTION"
@@ -3820,9 +3837,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Captain On Deck"
       text: 
         en: "While you have a Captain character in play, this character gets +2 {L}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4014,9 +4032,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Jasmine.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "Ruler of the Seas"
@@ -4072,9 +4091,10 @@
         en: "This card enters play exerted."
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Can't Take A Joke?"
       text: 
         en: "While this character is exerted, each opposing player can't gain lore unless one of their characters has challenged this turn."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4374,9 +4394,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Basil.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Twists and Turns"
@@ -4819,9 +4840,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Lost In The Waves"
       text: 
         en: "Whenever a character is challenged while here, each opponent chooses and discards a card."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4864,9 +4886,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Teamwork"
       text: 
         en: "For each character you have here, you pay 1 {I} less for the first action you play each turn."
+      ability: "effects"
     - type: static-triggered
       title: 
         en: "Lots to Learn"
@@ -4919,9 +4942,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Mickey Mouse.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Mariner’s Might"
@@ -5173,9 +5197,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Look Lively, Crew!"
       text: 
         en: "While you have another Pirate character in play, this character gets +1 {S} and +1 {L}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5492,9 +5517,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Solid Ground"
       text: 
         en: "While this character is at a location, he gets +2 {S}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5541,9 +5567,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Keep Driving"
       text: 
         en: "While this character has damage, she gets +1 {L}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5591,9 +5618,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Learning the Ropes"
       text: 
         en: "This character can't challenge unless you have a Captain character in play."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5694,9 +5722,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 2"
       text: 
         en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named aladdin.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "Remember Your Training"
@@ -5810,9 +5839,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Moana.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "Gathering Forces"
@@ -6430,9 +6460,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "A Suitable Weapon"
       text: 
         en: "Your damaged characters get +1 {S}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6520,9 +6551,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Family Ground"
       text: 
         en: "Characters get +1 {S} while here."
+      ability: "gain-ability"
     - type: static-triggered
       title: 
         en: "Safe Haven"
@@ -6726,14 +6758,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Gadget Hackwrench.)_"
+      ability: "shift"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "MECHANICALLY SAVVY"
       text: 
         en: "While you have 3 or more items in play, you pay 1 {I} less to play Inventor characters."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7040,9 +7074,10 @@
         en: "When you play this character, exert chosen opposing item. It can't ready at the start of its next turn."
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Out To Lunch"
       text: 
         en: "During your turn, this character gains **Evasive**. (_They can challenge characters with Evasive._)"
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7136,9 +7171,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Nice To Have A Partner"
       text: 
         en: "While you have another character with Support in play, this character gets +2 {S}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7196,9 +7232,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "QUICK REFLEXES"
       text: 
         en: "During your turn, this character gains **Evasive**."
+      ability: "gain-ability"
     - type: resolution
       title: 
         en: "BLADES OF FURY"
@@ -7249,14 +7286,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 1"
       text: 
         en: "**Shift** 1 _(You may pay 1 {I} to play this on top of one of your characters named Nick Wilde.)_"
+      ability: "shift"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Can't Touch Me"
       text: 
         en: "While you have an item in play, this character can't be challenged."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7389,14 +7428,16 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Let's Get Back To Work"
       text: 
         en: "This character gets +1 {S} and +1 {W} for each item you have in play."
+      ability: "effects"
     - type: static
       title: 
-        en: "effects"
+        en: "Let's Get Back To Work"
       text: 
         en: "This character gets +1 {S} and +1 {W} for each item you have in play."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -7443,9 +7484,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "I NEED TO UPGRADE ALL OF YOU"
       text: 
         en: "Your other Inventor characters gain **Resist** +1. _(Damage dealt to them is reduced by 1.)"
+      ability: "gain-ability"
     - type: activated
       title: 
         en: "SHAPE THE FUTURE"
@@ -7557,9 +7599,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "FULLY CHARGED"
       text: 
         en: "If you have an Inventor character in play, you pay 1 {I} less to play this character."
+      ability: "effects"
     - type: activated
       title: 
         en: "YOU SAID 'OW'"
@@ -7765,14 +7808,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 6"
       text: 
         en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Yokai.)_"
+      ability: "shift"
     - type: static
       title: 
-        en: "effects"
+        en: "Neurotransmitter"
       text: 
         en: "You may play items named Microbots for free."
+      ability: "effects"
     - type: static-triggered
       title: 
         en: "Technical Gain"
@@ -8225,9 +8270,10 @@
         en: "At the start of your turn, if you have a character here, gain 1 lore."
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Welcome to the Lab"
       text: 
         en: "Characters get +1 {W} while here."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8417,9 +8463,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Reputation"
       text: 
         en: "This character can't be challenged by characters with 2 {S} or more."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8466,9 +8513,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Good Catch"
       text: 
         en: "During your turn, this character gains **Evasive**."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8516,9 +8564,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Mr. Smee.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "Raise the Colors"
@@ -8570,9 +8619,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Fall in Line"
       text: 
         en: "While you have a character named Mr. Smee in play, this character gains Resist +1. (Damage dealt to them is reduced by 1.)"
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8707,6 +8757,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
+      ability: "challenger"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8807,6 +8858,7 @@
         en: "resist"
       text: 
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+      ability: "resist"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8852,9 +8904,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Jim Hawkins.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "Battle Station"
@@ -8996,9 +9049,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Bravo"
       text: 
         en: "While this character has no damage, he gets +4 {S}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -9044,9 +9098,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Support"
       text: 
         en: "Your Pluto characters get Resist +1. (Damage dealt to them is reduced by 1.)"
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -9245,6 +9300,7 @@
         en: "resist"
       text: 
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+      ability: "resist"
     - type: static-triggered
       title: 
         en: "LEVEL UP"
@@ -9308,14 +9364,16 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Driveling Galoots"
       text: 
         en: "This character can't be challenged by Pirate characters."
+      ability: "effects"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Everything Shipshape"
       text: 
         en: "While being challenged, your other characters gain Resist +1."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -9413,14 +9471,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named John Silver.)_"
+      ability: "shift"
     - type: static
       title: 
         en: "resist"
       text: 
         en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
+      ability: "resist"
     - type: static-triggered
       title: 
         en: "Don't Just Sit There!"
@@ -9682,9 +9742,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Symbol of Royalty"
       text: 
         en: "Your Prince and King characters gain Resist +1. (Damage dealt to them is reduced by 1.)"
+      ability: "gain-ability"
     - type: activated
       title: 
         en: "Royal Search"
@@ -9872,7 +9933,8 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Federation Decree"
       text: 
         en: "While you have an Alien or Robot character here, this location can’t be challenged."
+      ability: "gain-ability"
   franchise_id: ""

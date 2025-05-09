@@ -52,6 +52,7 @@
         en: "voiceless"
       text: 
         en: "This character can't {E} to sing songs."
+      ability: "voiceless"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ariel-On-Human-Legs"
@@ -110,6 +111,7 @@
         en: "singer"
       text: 
         en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
+      ability: "singer"
     - type: resolution
       title: 
         en: "MUSICAL DEBUT"
@@ -178,6 +180,7 @@
         en: "singer"
       text: 
         en: "**Singer** 4 _(This character counts as cost 4 to sing songs.)_"
+      ability: "singer"
   franchise_id: "cinderella"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cinderella-Gentle-and-Kind"
@@ -249,6 +252,7 @@
         en: "bodyguard"
       text: 
         en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: resolution
       title: 
         en: "AND TWO FOR TEA"
@@ -324,14 +328,16 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Sinister plot"
       text: 
         en: "This character gets +1 {L} for every other Villain character you have in play."
+      ability: "effects"
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 6"
       text: 
         en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Hades.)_"
+      ability: "shift"
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hades-King-of-Olympus-V1"
@@ -468,6 +474,7 @@
         en: "support"
       text: 
         en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Heihei-Boat-Snack"
@@ -522,9 +529,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Loyal"
       text: 
         en: "If you have a character named Gaston in play, you pay 1 {I} less to play this character."
+      ability: "effects"
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lefou-Bumbler"
@@ -1160,6 +1168,7 @@
         en: "singer"
       text: 
         en: "**Singer** 4 _(This character counts as cost 4 to sing songs.)_"
+      ability: "singer"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sebastian-Court-Composer"
@@ -1431,9 +1440,10 @@
         en: "Whenever you play a character with cost 2 or less, you may exert them to draw a card."
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Stitch.)_"
+      ability: "shift"
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stitch-Rock-Star"
@@ -2196,9 +2206,10 @@
         en: "Whenever one of your other characters is banished in a challenge, you may return that card to your hand."
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Dr. Facilier.)_"
+      ability: "shift"
   franchise_id: "the-princess-and-the-frog"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Facilier-Agent-Provocateur"
@@ -2257,6 +2268,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +2 (_When challenging, this character get +2 {S}._)"
+      ability: "challenger"
   franchise_id: "the-princess-and-the-frog"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Facilier-Charlatan"
@@ -2517,9 +2529,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 6"
       text: 
         en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Elsa.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "DEEP FREEZE"
@@ -2582,11 +2595,13 @@
         en: "rush"
       text: 
         en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Dexterous Lunge"
       text: 
         en: "Your characters named Jetsam gain **Rush.**"
+      ability: "gain-ability"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Flotsam-Ursulas-Spy"
@@ -2646,9 +2661,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Hidden Wonders"
       text: 
         en: "This character gets +1 {S} for each card in your hand."
+      ability: "effects"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jafar-Keeper-of-Secrets"
@@ -2711,6 +2727,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +3 (_When challenging, this character get +3 {S}._)"
+      ability: "challenger"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jafar-Wicked-Sorcerer"
@@ -2768,11 +2785,13 @@
         en: "evasive"
       text: 
         en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Sinister Slither"
       text: 
         en: "Your characters named Flotsam gain **Evasive.**"
+      ability: "gain-ability"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jetsam-Ursulas-Spy"
@@ -3077,9 +3096,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Animate Broom"
       text: 
         en: "You pay 1 {I} less to play Broom characters."
+      ability: "effects"
     - type: static-triggered
       title: 
         en: "Ceaseless Worker"
@@ -3194,9 +3214,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Camouflage"
       text: 
         en: "While you have another character in play, this character gains **Evasive**. _(Only charactersrwith Evasive can challenge them.)_"
+      ability: "gain-ability"
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Pascal-Rapunzels-Companion"
@@ -3468,9 +3489,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Loyal and Devoted"
       text: 
         en: "Your characters named Peter Pan gain **Challenger +1.** _(They get +1 {S} while challenging.)_"
+      ability: "gain-ability"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Peter-Pans-Ally"
@@ -3657,6 +3679,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +4 (_When challenging, this character get +4 {S}._)"
+      ability: "challenger"
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Zeus-God-of-Lightning"
@@ -4088,6 +4111,7 @@
         en: "ward"
       text: 
         en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Prince-Ali"
@@ -4525,9 +4549,10 @@
         en: "Whenever this character quests, you may play an action with cost 5 or less for free."
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 6"
       text: 
         en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Genie.)_"
+      ability: "shift"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Genie-Powers-Unleashed"
@@ -5230,9 +5255,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Mickey Mouse.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "Misdirection"
@@ -5344,9 +5370,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Skip the Drama, Stay with Mama"
       text: 
         en: "While this character is exerted, opposing character can't quest."
+      ability: "gain-ability"
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mother-Gothel-Selfish-Manipulator"
@@ -6093,9 +6120,10 @@
         en: "During your turn, whenever this character banishes another character in a challenge, you gain 2 lore and each opponent loses 2 lore."
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Aladdin.)_"
+      ability: "shift"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Heroic-Outlaw-V1"
@@ -6261,9 +6289,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "You Coward!"
       text: 
         en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
+      ability: "gain-ability"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Ruthless-Pirate"
@@ -7234,9 +7263,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 6"
       text: 
         en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Scar.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "ROUSING SPEECH"
@@ -8162,14 +8192,16 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Protective Embrace"
       text: 
         en: "Your other characters gain **Ward**. _(Opponents can't choose them except to challenge.)_"
+      ability: "gain-ability"
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Aurora.)_"
+      ability: "shift"
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aurora-Dreaming-Guardian-V1"
@@ -8358,9 +8390,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "My Favourite Part!"
       text: 
         en: "While you have 10 or more cards in your inkwell, this character gets +4 {L}."
+      ability: "effects"
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Belle-Strange-but-Special-V1"
@@ -8760,9 +8793,10 @@
         en: "When you play this character and whenever she quests, you may remove up to 2 damage from each of your characters."
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Jasmine.)_"
+      ability: "shift"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jasmine-Queen-of-Agrabah"
@@ -9250,9 +9284,10 @@
         en: "When you play this character, if an opponent has more cards in their hand than you, draw a card."
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Good Shot"
       text: 
         en: "During your turn, this character gains **Evasive**. (_They can challenge characters with Evasive._)"
+      ability: "gain-ability"
   franchise_id: "robin-hood"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Robin-Hood-Unrivaled-Archer"
@@ -9364,9 +9399,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Glam"
       text: 
         en: "This character gets +1 {L} for each item you have in play."
+      ability: "effects"
     - type: resolution
       title: 
         en: "What have we here?"
@@ -10224,6 +10260,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +2 (_When challenging, this character get +2 {S}._)"
+      ability: "challenger"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Forceful-Duelist"
@@ -10280,19 +10317,22 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Stolen Dust"
       text: 
         en: "Characters with cost 3 or less can't challenge this character."
+      ability: "effects"
     - type: static
       title: 
         en: "challenger"
       text: 
         en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
+      ability: "challenger"
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Captain Hook.)_"
+      ability: "shift"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Thinking-a-Happy-Thought"
@@ -10411,9 +10451,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Stay Alert!"
       text: 
         en: "During your turn, your Musketeer characters gain **Evasive.** _(They can challenge characters with Evasive.)_"
+      ability: "gain-ability"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Donald-Duck-Musketeer"
@@ -10469,9 +10510,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Under arrest"
       text: 
         en: "Characters with cost 2 or less can't challenge your characters."
+      ability: "effects"
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Gantu-Galactic-Federation-Captain"
@@ -10920,9 +10962,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "All For One"
       text: 
         en: "Your other Musketeer characters get +1 {S}."
+      ability: "effects"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Musketeer"
@@ -10981,6 +11024,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +2 (_When challenging, this character get +2 {S}._)"
+      ability: "challenger"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Prince-Eric-Dashing-and-Brave"
@@ -11111,11 +11155,13 @@
         en: "challenger"
       text: 
         en: "**Challenger** +4 (_When challenging, this character get +43 {S}._)"
+      ability: "challenger"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Pounce"
       text: 
         en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
+      ability: "gain-ability"
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Returned-King-V1"
@@ -11229,9 +11275,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Ay Aye, Captain"
       text: 
         en: "While you have a Captain character in play, this character gets +1 {L}."
+      ability: "effects"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Starkey-Hooks-Henchman"
@@ -11368,9 +11415,10 @@
         en: "During your turn, whenever this character banishes another character in a challenge, you may deal 2 damage to chosen opposing character."
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Tinker Bell.)_"
+      ability: "shift"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Giant-Fairy-V1"

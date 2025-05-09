@@ -153,6 +153,7 @@
         en: "singer"
       text: 
         en: "**Singer** +6 _(This character counts as cost 6 to sing songs.)_"
+      ability: "singer"
     - type: resolution
       title: 
         en: "IT'S BEAUTIFUL NO?"
@@ -510,6 +511,7 @@
         en: "singer"
       text: 
         en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
+      ability: "singer"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -555,14 +557,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Fix-It Felix, Jr..)_"
+      ability: "shift"
     - type: static
       title: 
-        en: "effects"
+        en: "BUILDING TOGETHER"
       text: 
         en: "Your locations get +2 {W}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -619,9 +623,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Song of the Herd"
       text: 
         en: "For each song card in your discard, you pay 1 {I} less to play this character."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -722,9 +727,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Minnie Mouse.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "PARADE ORDER"
@@ -939,9 +945,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 2"
       text: 
         en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named Vanellope von Schweetz.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "I HEARBY DECREE"
@@ -1586,9 +1593,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Safe and Sound"
       text: 
         en: "Characters get +3 {W} while here."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1681,9 +1689,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 6"
       text: 
         en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Maleficent.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "Everyone Listen"
@@ -2211,9 +2220,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Anna.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "EXCEPTIONAL POWER"
@@ -2276,14 +2286,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Archimedes.)_"
+      ability: "shift"
     - type: static
       title: 
         en: "challenger"
       text: 
         en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
+      ability: "challenger"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2432,9 +2444,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "**CLEAR THE PATH**"
       text: 
         en: "For each exerted character opponents have in play, you pay 1 {I} less to play this character."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -2571,9 +2584,10 @@
   abilities: 
     - type: static
       title: 
-        en: "meta"
+        en: "PLAYING WITH POWER"
       text: 
         en: "During opponents’ turns, if an effect would cause you to discard one or more cards from your hand, you don’t discard."
+      ability: "meta"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3282,9 +3296,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Lost In a Book"
       text: 
         en: "Whenever a character is banished while here, you may draw a card."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3330,9 +3345,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Tag me in!"
       text: 
         en: "For each 1 damage on opposing characters, you pay 1 {I} less to play this character."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3382,6 +3398,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
+      ability: "challenger"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3603,9 +3620,10 @@
   abilities: 
     - type: static
       title: 
-        en: "reverse-challenger"
+        en: "Fiddle Faddle"
       text: 
         en: "While being challenged, this character gets +2 {S}."
+      ability: "reverse-challenger"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3883,9 +3901,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Rowdy Guest"
       text: 
         en: "Damaged characters can’t challenge this character."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4047,9 +4066,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Clarabelle.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "**KEEP IN STEP**"
@@ -4246,14 +4266,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Robin Hood.)_"
+      ability: "shift"
     - type: static
       title: 
-        en: "effects"
+        en: "Clever Plan"
       text: 
         en: "This character gets +1 {L} for each opposing damaged character in play."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4396,9 +4418,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Stick Around For Dinner"
       text: 
         en: "This character gets +1 {S} for each other Hyena character you have in play."
+      ability: "effects"
     - type: static-triggered
       title: 
         en: "WHAT HAVE WE GOT HERE"
@@ -4449,9 +4472,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Mother Gothel.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "**THE WORLD IS DARK**"
@@ -4738,9 +4762,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "You Look Regal"
       text: 
         en: "If you have a character named Prince John in play, you pay 1 {I} less to play this item."
+      ability: "effects"
     - type: static-triggered
       title: 
         en: "A Feeling Of Power"
@@ -4872,14 +4897,16 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Familiar Terrain"
       text: 
         en: "Characters gain **Ward**"
+      ability: "gain-ability"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Familiar Terrain"
       text: 
         en: "{E} – Deal 2 damage to chosen damaged character or location."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4922,9 +4949,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Snack Time"
       text: 
         en: "Opposing damaged characters gain **Reckless**. _(They can’t quest and must challenge if able.)_"
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5170,9 +5198,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Donald Duck.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "Humble Pie"
@@ -5180,9 +5209,10 @@
         en: "When you play this character, if you used **Shift** to play him, each opponent loses 2 lore."
     - type: static
       title: 
-        en: "effects"
+        en: "Raging Duck"
       text: 
         en: "While an opponent has 10 or more lore, this character gets +6 {S}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5404,9 +5434,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Perfect Partners"
       text: 
         en: "While you have a character named Minnie Mouse in play, this character gets +2 {S}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5452,9 +5483,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Nothing can stand in my way"
       text: 
         en: "While this character has damage, he gets +2 {S}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5639,9 +5671,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 2"
       text: 
         en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named Taffyta Muttonfudge.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "New Roster"
@@ -5752,9 +5785,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "A Man among men"
       text: 
         en: "For each damaged character you have in play, you pay 2 {I} less to play this character."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5932,14 +5966,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named ratigan.)_"
+      ability: "shift"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Delightfully Wicked"
       text: 
         en: "Your damaged characters get -2 {S}."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6529,9 +6565,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Misfits’ Revelry"
       text: 
         en: "While you have a damaged character here, this location gets +2 {L}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6799,9 +6836,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "LONG LIVE THE KING!"
       text: 
         en: "Your Arthur characters gain **Resist** +1 _(Damage dealt to this character is reduced by 1)_"
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6902,14 +6940,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named The Queen.)_"
+      ability: "shift"
     - type: static
       title: 
-        en: "effects"
+        en: "REFLECTIONS OF VANITY"
       text: 
         en: "For each other character named The Queen you have in play, this character gets +1 {L}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6955,9 +6995,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "EVERY LITTLE BIT HELPS"
       text: 
         en: "For each item you have in play, you pay 1 {I} less to play this character."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7439,9 +7480,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named King Candy.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "Changing The Code"
@@ -7687,9 +7729,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Merlin.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "Overdeveloped Brain"
@@ -8134,9 +8177,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Warm Welcome"
       text: 
         en: "Characters with **Support** get +1 {L} and +2 {W} while here."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8285,11 +8329,13 @@
         en: "challenger"
       text: 
         en: "**Challenger** +7 (_When challenging, this character get +73 {S}._)"
+      ability: "challenger"
     - type: static
       title: 
-        en: "effects"
+        en: "Intimidating Gaze"
       text: 
         en: "Opposing characters with cost 4 or less can’t challenge."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8469,6 +8515,7 @@
         en: "resist"
       text: 
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+      ability: "resist"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8561,6 +8608,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +1 (_When challenging, this character get +13 {S}._)"
+      ability: "challenger"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8752,6 +8800,7 @@
         en: "resist"
       text: 
         en: "**Resist** +3 _(Damage dealt to this character is reduced by 3.)_"
+      ability: "resist"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8814,6 +8863,7 @@
         en: "resist"
       text: 
         en: "**Resist** +[object Object] _(Damage dealt to this character is reduced by [object Object].)_"
+      ability: "resist"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8909,9 +8959,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Kronk.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "ARE YOU ON THE LIST?"
@@ -8964,9 +9015,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "BURST OF SPEED"
       text: 
         en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -9104,9 +9156,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Impress The Princess"
       text: 
         en: "While you have a character named Snow White in play, this character gains **Bodyguard**."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -9196,9 +9249,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "BURST OF SPEED"
       text: 
         en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -9245,9 +9299,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Simba.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "FEARSOME ROAR"
@@ -9361,9 +9416,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Arthur.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "KNIGHTED BY THE KING"
@@ -9767,9 +9823,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "THERE'S NO ONE I'D RATHER BE THAN ME"
       text: 
         en: "Villain characters gain ``{E}, 3 {I} - Play a character with the same name as this character for free`` while here."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: ssk

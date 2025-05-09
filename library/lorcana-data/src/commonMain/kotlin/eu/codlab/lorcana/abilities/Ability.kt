@@ -8,4 +8,5 @@ data class Ability(
     val type: AbilityType = AbilityType.Undefined,
     val title: TranslationHolder? = null,
     val text: TranslationHolder? = null,
+    val ability: String? = null,
 )

@@ -45,9 +45,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "DESTINY CALLING"
       text: 
         en: "Your other characters get +2 {W}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -101,9 +102,10 @@
         en: "Whenever this character quests, you pay 2 {I} less for the next Puppy character you play this turn."
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Don't be afraid"
       text: 
         en: "Your Puppy characters gain Ward. (Opponents can't choose them except to challenge.)"
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -210,9 +212,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named bolt.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "We'll Always Be Together"
@@ -510,9 +513,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "NOW IT'S A PARTY"
       text: 
         en: "For each character you have in play, you pay {I} less to play this character."
+      ability: "effects"
     - type: resolution
       title: 
         en: "HOW'S PICKINGS?"
@@ -569,11 +573,13 @@
         en: "resist"
       text: 
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+      ability: "resist"
     - type: static
       title: 
         en: "singer"
       text: 
         en: "**Singer** +4 _(This character counts as cost 4 to sing songs.)_"
+      ability: "singer"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -680,6 +686,7 @@
         en: "singer"
       text: 
         en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
+      ability: "singer"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -744,6 +751,7 @@
         en: "singer"
       text: 
         en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
+      ability: "singer"
     - type: static-triggered
       title: 
         en: "SWEET DREAMS"
@@ -847,9 +855,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "I SEE YOU"
       text: 
         en: "While you have a character named Dolores Madrigal in play, this character gets +1 {L}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1194,9 +1203,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named puppy.)_"
+      ability: "shift"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1342,9 +1352,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Calhoun.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "BACK TO START POSITIONS!"
@@ -1448,9 +1459,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Lady.)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "Miss Park Avenue"
@@ -1705,9 +1717,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "HIDDEN AWAY"
       text: 
         en: "This character can't be challenged."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1814,9 +1827,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Mirabel Madrigal.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "HER OWN SPECIAL GIFT"
@@ -2191,9 +2205,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "You Can Be A Champion, Too"
       text: 
         en: "Your Puppy characters get +1 {W}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2750,14 +2765,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 7"
       text: 
         en: "**Shift** 7 _(You may pay 7 {I} to play this on top of one of your characters named Te Kā.)_"
+      ability: "shift"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "ANCIENT RAGE"
       text: 
         en: "During your turn, whenever an opposing character is exerted, banish them."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2913,6 +2930,7 @@
         en: "vanish"
       text: 
         en: "_(When an opponent chooses this character for an action, banish them.)_"
+      ability: "vanish"
     - type: resolution
       title: 
         en: "MYSTERIOUS ADVANTAGE"
@@ -2969,6 +2987,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
+      ability: "challenger"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3207,9 +3226,10 @@
   abilities: 
     - type: static
       title: 
-        en: "meta"
+        en: "I'M LOVING THIS"
       text: 
         en: "If an effect would cause you to discard one or more cards, you don't discard."
+      ability: "meta"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3364,6 +3384,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
+      ability: "challenger"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3465,9 +3486,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Yzma.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "BACK TO WORK"
@@ -3523,9 +3545,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Elsa.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "WINTER WALL"
@@ -3581,6 +3604,7 @@
         en: "challenger"
       text: 
         en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
+      ability: "challenger"
     - type: static-triggered
       title: 
         en: "Durable"
@@ -3751,9 +3775,10 @@
   abilities: 
     - type: static
       title: 
-        en: "meta"
+        en: "OBFUSCATE!"
       text: 
         en: "Opponents need 25 lore to win the game."
+      ability: "meta"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4044,14 +4069,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Mufasa.)_"
+      ability: "shift"
     - type: static
       title: 
         en: "resist"
       text: 
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+      ability: "resist"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4852,9 +4879,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Queen Of Hearts.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "IF I LOSE MY TEMPER…"
@@ -4922,19 +4950,22 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Hiro Hamada.)_"
+      ability: "shift"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "YOU CAN BE WAY MORE"
       text: 
         en: "Your Floodborn characters that have a card under them gain Evasive."
+      ability: "gain-ability"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "YOU CAN BE WAY MORE"
       text: 
         en: "Your Floodborn characters that have a card under them gain Ward."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -4984,9 +5015,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "INNOVATE"
       text: 
         en: "You pay 1{I} less to play characters using their Shift ability."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5129,9 +5161,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "A DOG'S LIFE"
       text: 
         en: "While you have a character named Tramp in play, this character gets +1 {L}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5230,9 +5263,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "FULL PACK"
       text: 
         en: "While you have more cards in hand than each opponent, this character gets +2 {L}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5332,9 +5366,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named .)_"
+      ability: "shift"
     - type: resolution
       title: 
         en: "FUNCTIONALITY IMPROVED"
@@ -5391,11 +5426,13 @@
         en: "resist"
       text: 
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+      ability: "resist"
     - type: static
       title: 
-        en: "challenge-ready-damaged-chars"
+        en: "BLATHERING BLATHERSKITE"
       text: 
         en: "This character can challenge ready damaged characters."
+      ability: "challenge-ready-damaged-chars"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5603,14 +5640,16 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Drawn to a Fight"
       text: 
         en: "If an opposing character was damaged this turn, you pay 2 {I} less to play this character."
+      ability: "effects"
     - type: static
       title: 
         en: "resist"
       text: 
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+      ability: "resist"
     - type: static-triggered
       title: 
         en: "I Ain't Gone Soft"
@@ -5676,9 +5715,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Hey, Pidge"
       text: 
         en: "If you have a character named Lady in play, you pay 1 {I} less to play this character."
+      ability: "effects"
     - type: resolution
       title: 
         en: "No Time for Wisecracks"
@@ -5732,9 +5772,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "OBJECTIONABLE STATE"
       text: 
         en: "Damaged characters can't challenge your characters."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5878,19 +5919,22 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 4"
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Pete.)_"
+      ability: "shift"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "FRIGHTFUL SCHEME"
       text: 
         en: "While this character is exerted, opposing characters can't exert to sing songs"
+      ability: "gain-ability"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "FRIGHTFUL SCHEME"
       text: 
         en: "While this character is exerted, Your Pirate characters gain Resist +1."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6280,9 +6324,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "ROYAL PAIN"
       text: 
         en: "While this character has damage, she gets +3 {S}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6382,6 +6427,7 @@
         en: "resist"
       text: 
         en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
+      ability: "resist"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6429,9 +6475,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Dexterous Lunge"
       text: 
         en: "Your characters named Jetsam gain **Rush.**"
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6495,14 +6542,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 7"
       text: 
         en: "**Shift** 7 _(You may pay 7 {I} to play this on top of one of your characters named belle.)_"
+      ability: "shift"
     - type: static
       title: 
-        en: "effects"
+        en: "SALVAGE"
       text: 
         en: "For each item card in your discard, you pay 1 {I} less to play this character using her Shift ability."
+      ability: "effects"
     - type: static-triggered
       title: 
         en: "REPURPOSE"
@@ -6554,9 +6603,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Hive Mind"
       text: 
         en: "This character gets +1 {S} for each other character you have in play."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6654,9 +6704,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "TAKE POINT"
       text: 
         en: "While a damaged character is in play, this character gets +2 {S}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6704,9 +6755,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "STILL USEFUL"
       text: 
         en: "While you have an item card in your discard, this character gets +2 {S}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -6851,14 +6903,16 @@
   abilities: 
     - type: static
       title: 
-        en: "challenge-ready-chars"
+        en: "I WON'T LET YOU DOWN"
       text: 
         en: "This character can challenge ready characters."
+      ability: "challenge-ready-chars"
     - type: static
       title: 
-        en: "effects"
+        en: "BIG RESPONSIBILITY"
       text: 
         en: "While this character is damaged, he gets +2 {S}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7264,9 +7318,10 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 5"
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Mulan.)_"
+      ability: "shift"
     - type: static-triggered
       title: 
         en: "EXCEPTIONAL LEADER"
@@ -7316,6 +7371,13 @@
       name: "Balu"
       title: "Alter Box-Komiker"
       flavour: "Immer in Bewegung! Ja, so ist es! Und nun brumm mal wie ein großer Bär!"
+  abilities: 
+    - type: static
+      title: 
+        en: "FIGHT LIKE A BEAR"
+      text: 
+        en: "Your characters with 7 {S} or more can't be dealt damage."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7842,9 +7904,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "BREAKING STORY"
       text: 
         en: "Your other characters with Support gain +1 {S}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7892,9 +7955,10 @@
   abilities: 
     - type: static
       title: 
-        en: "meta"
+        en: "PUT IT TO GOOD USE"
       text: 
         en: "You may exert 4 items of yours to play this character for free."
+      ability: "meta"
     - type: resolution
       title: 
         en: "FORTUNE HUNTER"
@@ -7948,9 +8012,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "PROUD TO SERVE"
       text: 
         en: "Your Queen characters gain Ward."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8139,9 +8204,10 @@
   abilities: 
     - type: static
       title: 
-        en: "meta"
+        en: "WHAT A MESS"
       text: 
         en: "During your turn, you may banish chosen item of yours to play this character for free."
+      ability: "meta"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8359,14 +8425,16 @@
   abilities: 
     - type: static
       title: 
-        en: "shift"
+        en: "Shift 3"
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Heihei.)_"
+      ability: "shift"
     - type: static
       title: 
         en: "resist"
       text: 
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+      ability: "resist"
     - type: resolution
       title: 
         en: "CLEAR YOUR MIND"
@@ -8762,6 +8830,7 @@
         en: "OUR BOTTLE WORKED!"
       text: 
         en: "While you have a Hero character in play, this character gains Ward. (Opponents can't choose them except to challenge.)"
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9014,9 +9083,10 @@
         en: "During an opponent’s turn, whenever one of your Ally characters is damaged, deal 1 damage to chosen opposing character."
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Fair Play"
       text: 
         en: "Your characters named Lady Kluck gain Resist +1."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9258,6 +9328,7 @@
         en: "resist"
       text: 
         en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
+      ability: "resist"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9352,11 +9423,13 @@
         en: "challenger"
       text: 
         en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
+      ability: "challenger"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "QUICK REFLEXES"
       text: 
         en: "During your turn, this character gains **Evasive**."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9552,6 +9625,7 @@
         en: "resist"
       text: 
         en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
+      ability: "resist"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9750,9 +9824,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Looking for Lunch"
       text: 
         en: "During your turn, this character gains Evasive while a Pirate character is in play."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9800,9 +9875,10 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "SHOWBOATING"
       text: 
         en: "While you have another Pirate character in play, this character gains Challenger +3."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9901,14 +9977,16 @@
   abilities: 
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Welcome Aboard, Folks"
       text: 
         en: "During your turn, while you have a character named Miss Bianca or Bernard in play, this character gains Evasive."
+      ability: "gain-ability"
     - type: static
       title: 
-        en: "gain-ability"
+        en: "Welcome Aboard, Folks"
       text: 
         en: "During your turn, while you have a character named Miss Bianca or Bernard in play, this character gains Evasive."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -9956,9 +10034,10 @@
   abilities: 
     - type: static
       title: 
-        en: "effects"
+        en: "Keep Hope"
       text: 
         en: "Playing this character costs you 2 {I} less if you have an Ally character in play."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -10056,9 +10135,10 @@
         en: "Whenever this character quests, you can play an Ally character with cost 3 or less for free."
     - type: static
       title: 
-        en: "gain-ability"
+        en: "PUT IN THE EFFORT"
       text: 
         en: "While this character exerted, your Ally characters gain +1 {S}."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -10162,9 +10242,10 @@
         en: "When you play this character, characters can't exert to sing songs until the start of your next turn."
     - type: static
       title: 
-        en: "effects"
+        en: "DON'T GET ANY IDEAS"
       text: 
         en: "Each player pays 2 {I} more to play actions or items. (This doesn't apply to singing songs.)"
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: arc
