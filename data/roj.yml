@@ -385,16 +385,38 @@
         it: "12/204 IT 8"
         zh: "12/204 ZH 8"
         ja: "12/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1676
+        sort_number: 1668
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 0
+  defence: 4
+  colors: 
+    - amber
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Kendall Hale"
   languages: 
     en: 
-      name: ""
+      name: "Jim Dear"
+      title: "Beloved Husband"
+      flavour: "Family is family no matter what."
+    fr: 
+      name: "Jim Chéri"
+      title: "Époux bien-aimé"
+      flavour: "La famille reste la famille, quoi qu'il arrive."
+    it: 
+      name: "Gianni Caro"
+      title: "Marito Adorato"
+      flavour: "La famiglia è la famiglia, a prescindere da tutto."
+    de: 
+      name: "Jim"
+      title: "Geliebter Ehemann"
+      flavour: "Familie ist Familie, egal was passiert."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -430,7 +452,7 @@
         zh: "14/204 ZH 8"
         ja: "14/204 JA 8"
         culture_invariant_id: 1678
-        sort_number: 1668
+        sort_number: 1669
       rarity: common
   lore: 1
   cost: 2
@@ -540,7 +562,7 @@
         zh: "18/204 ZH 8"
         ja: "18/204 JA 8"
         culture_invariant_id: 1682
-        sort_number: 1669
+        sort_number: 1670
       rarity: legendary
   lore: 1
   cost: 6
@@ -582,16 +604,39 @@
         it: "19/204 IT 8"
         zh: "19/204 ZH 8"
         ja: "19/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 1683
+        sort_number: 1671
+      rarity: uncommon
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 2
+  colors: 
+    - amber
+    - amethyst
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Alexandria Neonakis"
   languages: 
     en: 
-      name: ""
+      name: "Pua"
+      title: "Protective Pig"
+      flavour: ""
+    fr: 
+      name: "Pua"
+      title: "Cochon protecteur"
+      flavour: ""
+    it: 
+      name: "Pua"
+      title: "Maiale Protettivo"
+      flavour: ""
+    de: 
+      name: "Pua"
+      title: "Beschützendes Schwein"
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -605,7 +650,7 @@
         zh: "20/204 ZH 8"
         ja: "20/204 JA 8"
         culture_invariant_id: 1684
-        sort_number: 1670
+        sort_number: 1672
       rarity: super_rare
   lore: 2
   cost: 7
@@ -673,7 +718,7 @@
         zh: "22/204 ZH 8"
         ja: "22/204 JA 8"
         culture_invariant_id: 1686
-        sort_number: 1671
+        sort_number: 1673
       rarity: super_rare
   lore: 2
   cost: 6
@@ -718,7 +763,7 @@
         zh: "23/204 ZH 8"
         ja: "23/204 JA 8"
         culture_invariant_id: 1687
-        sort_number: 1672
+        sort_number: 1674
       rarity: uncommon
   lore: 1
   cost: 3
@@ -787,7 +832,7 @@
         zh: "25/204 ZH 8"
         ja: "25/204 JA 8"
         culture_invariant_id: 1689
-        sort_number: 1673
+        sort_number: 1675
       rarity: uncommon
   lore: 1
   cost: 1
@@ -831,16 +876,39 @@
         it: "26/204 IT 8"
         zh: "26/204 ZH 8"
         ja: "26/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 1690
+        sort_number: 1676
+      rarity: uncommon
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 3
+  colors: 
+    - amber
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "puppy"
+  illustrator: "Oggy Christiansson"
   languages: 
     en: 
-      name: ""
+      name: "Rolly"
+      title: "Chubby Puppy"
+      flavour: ""
+    fr: 
+      name: "Rolly"
+      title: "Chiot potelé"
+      flavour: ""
+    it: 
+      name: "Rolly"
+      title: "Cucciolo Cicciottello"
+      flavour: ""
+    de: 
+      name: "Rolly"
+      title: "Pummeliger Welpe"
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -853,16 +921,39 @@
         it: "27/204 IT 8"
         zh: "27/204 ZH 8"
         ja: "27/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 1691
+        sort_number: 1677
+      rarity: super_rare
+  lore: 2
+  cost: 6
+  inkwell: true
+  attack: 4
+  defence: 6
+  colors: 
+    - amber
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "floodborn"
+    - "hero"
+  illustrator: "Brian Weisz"
   languages: 
     en: 
-      name: ""
+      name: "Perdita"
+      title: "Determined Mother"
+      flavour: ""
+    fr: 
+      name: "Perdita"
+      title: "Mère déterminée"
+      flavour: ""
+    it: 
+      name: "Peggy"
+      title: "Madre Determinata"
+      flavour: ""
+    de: 
+      name: "Perdi"
+      title: "Entschlossene Mutter"
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -876,7 +967,7 @@
         zh: "28/204 ZH 8"
         ja: "28/204 JA 8"
         culture_invariant_id: 1692
-        sort_number: 1674
+        sort_number: 1678
       rarity: uncommon
   lore: 2
   cost: 6
@@ -921,7 +1012,7 @@
         zh: "29/204 ZH 8"
         ja: "29/204 JA 8"
         culture_invariant_id: 1693
-        sort_number: 1675
+        sort_number: 1679
       rarity: rare
   lore: 4
   cost: 3
@@ -987,16 +1078,38 @@
         it: "31/204 IT 8"
         zh: "31/204 ZH 8"
         ja: "31/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1695
+        sort_number: 1680
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 4
+  colors: 
+    - amber
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Denny Minonne"
   languages: 
     en: 
-      name: ""
+      name: "Antonio's Jaguar"
+      title: "Faithful Companion"
+      flavour: "He knows the way through. Just try to keep up! —Antonio"
+    fr: 
+      name: "Jaguar d’Antonio"
+      title: "Fidèle compagnon"
+      flavour: "Il connaît le chemin à prendre. Essayez de le suivre.\n—Antonio Madrigal"
+    it: 
+      name: "Giaguaro di Antonio"
+      title: "Compagno Fedele"
+      flavour: "Sa dove andare. Bisogna solo stargli dietro!\n—Antonio"
+    de: 
+      name: "Antonios Jaguar"
+      title: "Treuer Gefährte"
+      flavour: "Er kennt den Weg. Versuch einfach mitzuhalten!\n–Antonio Madrigal"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1009,16 +1122,38 @@
         it: "32/204 IT 8"
         zh: "32/204 ZH 8"
         ja: "32/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1696
+        sort_number: 1681
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 2
+  cost: 6
+  inkwell: true
+  attack: 4
+  defence: 5
+  colors: 
+    - amber
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+  illustrator: "Edu Francisco / Amanda Duarte"
   languages: 
     en: 
-      name: ""
+      name: "Calhoun"
+      title: "Hard-Nosed Leader"
+      flavour: ""
+    fr: 
+      name: "Calhoun"
+      title: "Meneuse intraitable"
+      flavour: ""
+    it: 
+      name: "Calhoun"
+      title: "Leader Inflessibile"
+      flavour: ""
+    de: 
+      name: "Sergeant Calhoun"
+      title: "Knallharte Anführerin"
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1032,7 +1167,7 @@
         zh: "33/204 ZH 8"
         ja: "33/204 JA 8"
         culture_invariant_id: 1697
-        sort_number: 1676
+        sort_number: 1682
       rarity: rare
   lore: 1
   cost: 1
@@ -1077,7 +1212,7 @@
         zh: "34/204 ZH 8"
         ja: "34/204 JA 8"
         culture_invariant_id: 1698
-        sort_number: 1677
+        sort_number: 1683
       rarity: uncommon
   lore: 2
   cost: 6
@@ -1167,7 +1302,7 @@
         zh: "37/204 ZH 8"
         ja: "37/204 JA 8"
         culture_invariant_id: 1701
-        sort_number: 1678
+        sort_number: 1684
       rarity: super_rare
   lore: 2
   cost: 8
@@ -1210,16 +1345,38 @@
         it: "38/204 IT 8"
         zh: "38/204 ZH 8"
         ja: "38/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1702
+        sort_number: 1685
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 3
+  colors: 
+    - amber
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "puppy"
+  illustrator: "Gwawi"
   languages: 
     en: 
-      name: ""
+      name: "Dalmatian Puppy"
+      title: "Tail Wagger"
+      flavour: "Oh boy! A new friend to play with!"
+    fr: 
+      name: "Chiot Dalmatien"
+      title: "Frétille de joie"
+      flavour: "Oh oui! Un nouvel ami avec qui jouer!"
+    it: 
+      name: "Cucciolo di Dalmata"
+      title: "Scodinzolante"
+      flavour: "Oh che bello! Un nuovo amico con cui giocare!"
+    de: 
+      name: "Dalmatiner Welpe"
+      title: "Schwanzwedler"
+      flavour: "Oh Junge! Ein neuer Freund zum Spielen!"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1233,7 +1390,7 @@
         zh: "39/204 ZH 8"
         ja: "39/204 JA 8"
         culture_invariant_id: 1703
-        sort_number: 1679
+        sort_number: 1686
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -1338,7 +1495,7 @@
         zh: "43/204 ZH 8"
         ja: "43/204 JA 8"
         culture_invariant_id: 1707
-        sort_number: 1680
+        sort_number: 1687
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -1378,7 +1535,7 @@
         zh: "44/204 ZH 8"
         ja: "44/204 JA 8"
         culture_invariant_id: 1708
-        sort_number: 1681
+        sort_number: 1688
       rarity: uncommon
   cost: 2
   inkwell: false
@@ -1416,7 +1573,7 @@
         zh: "45/204 ZH 8"
         ja: "45/204 JA 8"
         culture_invariant_id: 1709
-        sort_number: 1682
+        sort_number: 1689
       rarity: common
   lore: 1
   cost: 1
@@ -1483,7 +1640,7 @@
         zh: "47/204 ZH 8"
         ja: "47/204 JA 8"
         culture_invariant_id: 1711
-        sort_number: 1683
+        sort_number: 1690
       rarity: uncommon
   lore: 1
   cost: 3
@@ -1527,16 +1684,40 @@
         it: "48/204 IT 8"
         zh: "48/204 ZH 8"
         ja: "48/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 1712
+        sort_number: 1691
+      rarity: super_rare
+  lore: 2
+  cost: 7
   inkwell: false
-  type: item
-  illustrator: ""
+  attack: 3
+  defence: 6
+  colors: 
+    - amethyst
+    - ruby
+  type: glimmer
+  classifications: 
+    - "dreamborn"
+    - "villain"
+    - "deity"
+  illustrator: "Marcel Berg"
   languages: 
     en: 
-      name: ""
+      name: "Hades"
+      title: "Ruthless Tyrant"
+      flavour: "Don't forget—I'm the guy with the leverage here."
+    fr: 
+      name: "Hadès"
+      title: "Tyran impitoyable"
+      flavour: "N'oubliez pas que c'est MOI qui ai l'avantage, ici."
+    it: 
+      name: "Ade"
+      title: "Tiranno Spietato"
+      flavour: "Non dimenticare: sono io quello col coltello dalla parte del manico, qui."
+    de: 
+      name: "Hades"
+      title: "Gnadenloser Tyrann"
+      flavour: "Vergesst nicht, ich bin derjenige, der hier das Sagen hat."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1572,7 +1753,7 @@
         zh: "50/204 ZH 8"
         ja: "50/204 JA 8"
         culture_invariant_id: 1714
-        sort_number: 1684
+        sort_number: 1692
       rarity: uncommon
   lore: 1
   cost: 6
@@ -1617,16 +1798,39 @@
         it: "51/204 IT 8"
         zh: "51/204 ZH 8"
         ja: "51/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1715
+        sort_number: 1693
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 4
+  colors: 
+    - amethyst
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+    - "madrigal"
+  illustrator: "Natalia Trykowska"
   languages: 
     en: 
-      name: ""
+      name: "Bruno Madrigal"
+      title: "Single-Minded"
+      flavour: "I’m not in the vision business right now. I’m in the stopping you business."
+    fr: 
+      name: "Bruno Madrigal"
+      title: "Obsessionnel"
+      flavour: "Actuellement, je ne suis pas dans le commerce de la voyance. Je suis dans celui visant à vous arrêter."
+    it: 
+      name: "Bruno Madrigal"
+      title: "Determinato"
+      flavour: "Non mi occupo di visioni in questo momento. Mi sto occupando di fermarti."
+    de: 
+      name: "Bruno Madrigal"
+      title: "Zielstrebig"
+      flavour: "Ich bin aktuell nicht im Visionen-Geschäft. Ich bin gerade im Dich-aufhalten-Geschäft."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1684,7 +1888,7 @@
         zh: "54/204 ZH 8"
         ja: "54/204 JA 8"
         culture_invariant_id: 1718
-        sort_number: 1685
+        sort_number: 1694
       rarity: common
   lore: 1
   cost: 3
@@ -1728,7 +1932,7 @@
         zh: "55/204 ZH 8"
         ja: "55/204 JA 8"
         culture_invariant_id: 1719
-        sort_number: 1686
+        sort_number: 1695
       rarity: common
   lore: 2
   cost: 3
@@ -1772,7 +1976,7 @@
         zh: "56/204 ZH 8"
         ja: "56/204 JA 8"
         culture_invariant_id: 1720
-        sort_number: 1687
+        sort_number: 1696
       rarity: common
   lore: 1
   cost: 4
@@ -1816,7 +2020,7 @@
         zh: "57/204 ZH 8"
         ja: "57/204 JA 8"
         culture_invariant_id: 1721
-        sort_number: 1688
+        sort_number: 1697
       rarity: common
   lore: 1
   cost: 2
@@ -1861,7 +2065,7 @@
         zh: "58/204 ZH 8"
         ja: "58/204 JA 8"
         culture_invariant_id: 1722
-        sort_number: 1689
+        sort_number: 1698
       rarity: common
   lore: 1
   cost: 3
@@ -1950,7 +2154,7 @@
         zh: "61/204 ZH 8"
         ja: "61/204 JA 8"
         culture_invariant_id: 1725
-        sort_number: 1690
+        sort_number: 1699
       rarity: legendary
   lore: 2
   cost: 4
@@ -2015,16 +2219,39 @@
         it: "63/204 IT 8"
         zh: "63/204 ZH 8"
         ja: "63/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 1727
+        sort_number: 1700
+      rarity: legendary
+  lore: 3
+  cost: 3
   inkwell: false
-  type: item
-  illustrator: ""
+  attack: 1
+  defence: 1
+  colors: 
+    - amethyst
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+    - "prince"
+  illustrator: "Brian Weisz"
   languages: 
     en: 
-      name: ""
+      name: "Bambi"
+      title: "Little Prince"
+      flavour: ""
+    fr: 
+      name: "Bambi"
+      title: "Petit prince"
+      flavour: ""
+    it: 
+      name: "Bambi"
+      title: "Principino"
+      flavour: ""
+    de: 
+      name: "Bambi"
+      title: "Kleiner Prinz"
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2060,7 +2287,7 @@
         zh: "65/204 ZH 8"
         ja: "65/204 JA 8"
         culture_invariant_id: 1729
-        sort_number: 1691
+        sort_number: 1701
       rarity: common
   lore: 1
   cost: 2
@@ -2169,16 +2396,40 @@
         it: "69/204 IT 8"
         zh: "69/204 ZH 8"
         ja: "69/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 1733
+        sort_number: 1702
+      rarity: uncommon
+  lore: 1
+  cost: 6
   inkwell: false
-  type: item
-  illustrator: ""
+  attack: 6
+  defence: 5
+  colors: 
+    - amethyst
+    - ruby
+  type: glimmer
+  classifications: 
+    - "floodborn"
+    - "villain"
+    - "sorcerer"
+  illustrator: "Alibeth Zermeno"
   languages: 
     en: 
-      name: ""
+      name: "Madam Mim"
+      title: "Rhino"
+      flavour: ""
+    fr: 
+      name: "Madame Mime"
+      title: "En rhinocéros"
+      flavour: ""
+    it: 
+      name: "Maga Magò"
+      title: "Rinoceronte"
+      flavour: ""
+    de: 
+      name: "Madame Mim"
+      title: "Nashorn"
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2191,16 +2442,40 @@
         it: "70/204 IT 8"
         zh: "70/204 ZH 8"
         ja: "70/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 1734
+        sort_number: 1703
+      rarity: rare
+  lore: 1
+  cost: 2
   inkwell: false
-  type: item
-  illustrator: ""
+  attack: 1
+  defence: 3
+  colors: 
+    - amethyst
+    - ruby
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "villain"
+    - "sorcerer"
+  illustrator: "Joel DuQue"
   languages: 
     en: 
-      name: ""
+      name: "Mother Gothel"
+      title: "Knows What's Best"
+      flavour: ""
+    fr: 
+      name: "Mère Gothel"
+      title: "Qu’il faut écouter"
+      flavour: ""
+    it: 
+      name: "Madre Gothel"
+      title: "Che Sa Cosa È Meglio"
+      flavour: ""
+    de: 
+      name: "Mutter Gothel"
+      title: "Weiß, was das Beste ist"
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2280,7 +2555,7 @@
         zh: "74/204 ZH 8"
         ja: "74/204 JA 8"
         culture_invariant_id: 1738
-        sort_number: 1692
+        sort_number: 1704
       rarity: super_rare
   lore: 3
   cost: 5
@@ -2326,16 +2601,39 @@
         it: "75/204 IT 8"
         zh: "75/204 ZH 8"
         ja: "75/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1739
+        sort_number: 1705
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 2
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 4
+  colors: 
+    - amethyst
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+    - "madrigal"
+  illustrator: "Carlos Gomes Cabral"
   languages: 
     en: 
-      name: ""
+      name: "Camilo Madrigal"
+      title: "Center Stage"
+      flavour: "My primo Camilo won’t stop until he makes you smile today. —Mirabel"
+    fr: 
+      name: "Camilo Madrigal"
+      title: "Sur le devant de la scène"
+      flavour: "Mon cousin Camilo est prêt à tout pour nous faire rigoler.\n—Mirabel Madrigal"
+    it: 
+      name: "Camilo Madrigal"
+      title: "Al Centro dell'Attenzione"
+      flavour: "Il primo Camilo, lui vive per farti sorridere.\n—Mirabel Madrigal"
+    de: 
+      name: "Camilo Madrigal"
+      title: "Bühnen-Mittelpunkt"
+      flavour: "Mein Primo Camilo, der bringt dich zum Lachen zu jeder Zeit.\n–Mirabel Madrigal"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2349,7 +2647,7 @@
         zh: "76/204 ZH 8"
         ja: "76/204 JA 8"
         culture_invariant_id: 1740
-        sort_number: 1693
+        sort_number: 1706
       rarity: rare
   lore: 1
   cost: 3
@@ -2393,7 +2691,7 @@
         zh: "77/204 ZH 8"
         ja: "77/204 JA 8"
         culture_invariant_id: 1741
-        sort_number: 1694
+        sort_number: 1707
       rarity: uncommon
   cost: 5
   inkwell: true
@@ -2475,7 +2773,7 @@
         zh: "80/204 ZH 8"
         ja: "80/204 JA 8"
         culture_invariant_id: 1744
-        sort_number: 1695
+        sort_number: 1708
       rarity: uncommon
   cost: 3
   inkwell: true
@@ -2558,7 +2856,7 @@
         zh: "83/204 ZH 8"
         ja: "83/204 JA 8"
         culture_invariant_id: 1747
-        sort_number: 1696
+        sort_number: 1709
       rarity: common
   cost: 2
   inkwell: false
@@ -2596,7 +2894,7 @@
         zh: "84/204 ZH 8"
         ja: "84/204 JA 8"
         culture_invariant_id: 1748
-        sort_number: 1697
+        sort_number: 1710
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -2679,7 +2977,7 @@
         zh: "87/204 ZH 8"
         ja: "87/204 JA 8"
         culture_invariant_id: 1751
-        sort_number: 1698
+        sort_number: 1711
       rarity: common
   lore: 1
   cost: 3
@@ -2788,16 +3086,37 @@
         it: "91/204 IT 8"
         zh: "91/204 ZH 8"
         ja: "91/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1755
+        sort_number: 1712
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 4
+  colors: 
+    - emerald
+  type: glimmer
+  classifications: 
+    - "storyborn"
+  illustrator: "Dustin Panzino"
   languages: 
     en: 
-      name: ""
+      name: "March Hare"
+      title: "Hare-Brained Eccentric"
+      flavour: "He really knows how to light up a room."
+    fr: 
+      name: "Le Lièvre de Mars"
+      title: "Farfelu excentrique"
+      flavour: "Mettre une ambiance lumineuse, c'est sa spécialité."
+    it: 
+      name: "Leprotto Bisestile"
+      title: "Eccentrico Strampalato"
+      flavour: "Sa davvero come far brillare una stanza."
+    de: 
+      name: "Der Märzhase"
+      title: "Exzentriker mit Hasenhirn"
+      flavour: "Er weiß wirklich, wie man einen Raum zum Leuchten bringt."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2854,16 +3173,38 @@
         it: "94/204 IT 8"
         zh: "94/204 ZH 8"
         ja: "94/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1758
+        sort_number: 1713
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 1
+  cost: 1
+  inkwell: true
+  attack: 1
+  defence: 3
+  colors: 
+    - emerald
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+  illustrator: "Wouter Bruneel"
   languages: 
     en: 
-      name: ""
+      name: "Dale"
+      title: "Bumbler"
+      flavour: "You’re the fearless copilot who can handle any job.... Did I say fearless? I meant brainless! —Chip"
+    fr: 
+      name: "Tac"
+      title: "Empoté"
+      flavour: "Quand on est un pilote courageux, on doit savoir faire face à n’importe quelle situation… Tu es peut-être courageux mais tu n’as rien dans la tête.\n—Tic"
+    it: 
+      name: "Ciop"
+      title: "Pasticcione"
+      flavour: "Sei il coraggioso copilota che può fare qualsiasi cosa... Ho detto coraggioso? Volevo dire stupido!\n—Cip"
+    de: 
+      name: "Chap"
+      title: "Tollpatsch"
+      flavour: "Weil du der furchtlose Co-Pilot bist, der zu allem fähig ist … Habe ich furchtlos gesagt? Ich habe hirnlos gemeint!\n–Chip"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2920,16 +3261,38 @@
         it: "97/204 IT 8"
         zh: "97/204 ZH 8"
         ja: "97/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 1761
+        sort_number: 1714
+      rarity: uncommon
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 2
+  colors: 
+    - emerald
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+  illustrator: "Brian Weisz"
   languages: 
     en: 
-      name: ""
+      name: "Chip"
+      title: "Quick Thinker"
+      flavour: "Don't worry, Dale! I've got you!"
+    fr: 
+      name: "Tic"
+      title: "Vif d'esprit"
+      flavour: "Ne t'inquiète pas, Tac! Je te tiens!"
+    it: 
+      name: "Cip"
+      title: "Pronto all'Azione"
+      flavour: "Non preoccuparti Ciop! Ti aiuto io!"
+    de: 
+      name: "Chip"
+      title: "Schnelldenker"
+      flavour: "Keine Sorge, Chap! Ich hab dich!"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3009,7 +3372,7 @@
         zh: "101/204 ZH 8"
         ja: "101/204 JA 8"
         culture_invariant_id: 1765
-        sort_number: 1699
+        sort_number: 1715
       rarity: legendary
   lore: 2
   cost: 5
@@ -3053,16 +3416,39 @@
         it: "102/204 IT 8"
         zh: "102/204 ZH 8"
         ja: "102/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 1766
+        sort_number: 1716
+      rarity: super_rare
+  lore: 3
+  cost: 4
   inkwell: false
-  type: item
-  illustrator: ""
+  attack: 1
+  defence: 4
+  colors: 
+    - emerald
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+    - "prince"
+  illustrator: "Koni"
   languages: 
     en: 
-      name: ""
+      name: "Flynn Rider"
+      title: "Breaking and Entering"
+      flavour: "One way or another, I get what I want."
+    fr: 
+      name: "Flynn Rider"
+      title: "Entrant par effraction"
+      flavour: "D'une manière ou d'une autre, j'obtiens ce que je veux."
+    it: 
+      name: "Flynn Rider"
+      title: "Entrato di Soppiatto"
+      flavour: "In un modo o nell'altro, ottengo sempre quello che voglio."
+    de: 
+      name: "Flynn Rider"
+      title: "Einbrecher"
+      flavour: "So oder so, ich bekomme, was ich will."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3076,7 +3462,7 @@
         zh: "103/204 ZH 8"
         ja: "103/204 JA 8"
         culture_invariant_id: 1767
-        sort_number: 1700
+        sort_number: 1717
       rarity: uncommon
   lore: 1
   cost: 2
@@ -3164,7 +3550,7 @@
         zh: "106/204 ZH 8"
         ja: "106/204 JA 8"
         culture_invariant_id: 1770
-        sort_number: 1701
+        sort_number: 1718
       rarity: uncommon
   lore: 1
   cost: 2
@@ -3232,7 +3618,7 @@
         zh: "108/204 ZH 8"
         ja: "108/204 JA 8"
         culture_invariant_id: 1772
-        sort_number: 1702
+        sort_number: 1719
       rarity: uncommon
   lore: 1
   cost: 3
@@ -3279,7 +3665,7 @@
         zh: "109/204 ZH 8"
         ja: "109/204 JA 8"
         culture_invariant_id: 1773
-        sort_number: 1703
+        sort_number: 1720
       rarity: rare
   lore: 2
   cost: 5
@@ -3326,16 +3712,40 @@
         it: "110/204 IT 8"
         zh: "110/204 ZH 8"
         ja: "110/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 1774
+        sort_number: 1721
+      rarity: super_rare
+  lore: 3
+  cost: 6
+  inkwell: true
+  attack: 4
+  defence: 4
+  colors: 
+    - emerald
+    - steel
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+    - "deity"
+  illustrator: "Natalie Dombois"
   languages: 
     en: 
-      name: ""
+      name: "Maui"
+      title: "Stubborn Trickster"
+      flavour: ""
+    fr: 
+      name: "Maui"
+      title: "Filou entêté"
+      flavour: ""
+    it: 
+      name: "Maui"
+      title: "Imbroglione Cocciuto"
+      flavour: ""
+    de: 
+      name: "Maui"
+      title: "Sturköpfiger Schwindler"
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3349,7 +3759,7 @@
         zh: "111/204 ZH 8"
         ja: "111/204 JA 8"
         culture_invariant_id: 1775
-        sort_number: 1704
+        sort_number: 1722
       rarity: rare
   lore: 2
   cost: 4
@@ -3395,7 +3805,7 @@
         zh: "112/204 ZH 8"
         ja: "112/204 JA 8"
         culture_invariant_id: 1776
-        sort_number: 1705
+        sort_number: 1723
       rarity: common
   lore: 1
   cost: 4
@@ -3527,7 +3937,7 @@
         zh: "117/204 ZH 8"
         ja: "117/204 JA 8"
         culture_invariant_id: 1781
-        sort_number: 1706
+        sort_number: 1724
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -3587,16 +3997,32 @@
         it: "119/204 IT 8"
         zh: "119/204 ZH 8"
         ja: "119/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1783
+        sort_number: 1725
       rarity: common
-  cost: 0
-  inkwell: false
+  cost: 2
+  inkwell: true
+  colors: 
+    - emerald
   type: item
-  illustrator: ""
+  illustrator: "Jared Nickerl"
   languages: 
     en: 
-      name: ""
+      name: "Chem Purse"
+      title: ""
+      flavour: "Cute, but also potentially devastating. Perfect. —Honey Lemon"
+    fr: 
+      name: "Nano-sac"
+      title: ""
+      flavour: "Mignon, mais aussi potentiellement dévastateur. Parfait.\n—Honey Lemon"
+    it: 
+      name: "Borsetta Chimica"
+      title: ""
+      flavour: "Carina, ma anche potenzialmente devastante. Perfetta.\n—Honey Lemon"
+    de: 
+      name: "Chemie-Tasche"
+      title: ""
+      flavour: "Süß, aber auch potenziell gefährlich. Perfekt.\n–Honey Lemon"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3698,7 +4124,7 @@
         zh: "124/204 ZH 8"
         ja: "124/204 JA 8"
         culture_invariant_id: 1788
-        sort_number: 1707
+        sort_number: 1726
       rarity: common
   lore: 1
   cost: 2
@@ -3744,7 +4170,7 @@
         zh: "125/204 ZH 8"
         ja: "125/204 JA 8"
         culture_invariant_id: 1789
-        sort_number: 1708
+        sort_number: 1727
       rarity: common
   lore: 1
   cost: 4
@@ -3831,16 +4257,38 @@
         it: "128/204 IT 8"
         zh: "128/204 ZH 8"
         ja: "128/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1792
+        sort_number: 1728
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 2
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 1
+  colors: 
+    - ruby
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Heidi Neunhoffer"
   languages: 
     en: 
-      name: ""
+      name: "Lumiere"
+      title: "Nimble Candelabra"
+      flavour: "Sacrebleu! This is no way to treat a guest in your palace!"
+    fr: 
+      name: "Lumière"
+      title: "Candelabre agile"
+      flavour: "Sacrebleu! Ce n'est pas une façon de traiter un invité dans votre palais!"
+    it: 
+      name: "Lumiere"
+      title: "Agile Candelabro"
+      flavour: "Sacrebleu! Non è questo il modo di trattare un ospite nel tuo palazzo!"
+    de: 
+      name: "Lumière"
+      title: "Flinker Kerzenleuchter"
+      flavour: "Sacre bleu! So behandelt man keinen Gast in seinem Palast!"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3964,7 +4412,7 @@
         zh: "134/204 ZH 8"
         ja: "134/204 JA 8"
         culture_invariant_id: 1798
-        sort_number: 1709
+        sort_number: 1729
       rarity: uncommon
   lore: 1
   cost: 2
@@ -4073,16 +4521,39 @@
         it: "138/204 IT 8"
         zh: "138/204 ZH 8"
         ja: "138/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 1802
+        sort_number: 1730
+      rarity: uncommon
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 2
+  colors: 
+    - ruby
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Simone Buonfantino"
   languages: 
     en: 
-      name: ""
+      name: "LeFou"
+      title: "Cake Thief"
+      flavour: "LeFou, sometimes you really take the cake. —Gaston"
+    fr: 
+      name: "Le Fou"
+      title: "Voleur de gâteau"
+      flavour: "Parfois, Le Fou, tu te tailles vraiment la part du lion.\n—Gaston"
+    it: 
+      name: "Le Tont"
+      title: "Ladro di Torte"
+      flavour: "Le Tont, a volte sei davvero la ciliegina sulla torta.\n—Gaston"
+    de: 
+      name: "Le Fou"
+      title: "Kuchendieb"
+      flavour: "Le Fou, manchmal kriegst auch du ein Stück vom Kuchen ab.\n–Gaston"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4140,7 +4611,7 @@
         zh: "141/204 ZH 8"
         ja: "141/204 JA 8"
         culture_invariant_id: 1805
-        sort_number: 1710
+        sort_number: 1731
       rarity: super_rare
   lore: 0
   cost: 4
@@ -4230,7 +4701,7 @@
         zh: "144/204 ZH 8"
         ja: "144/204 JA 8"
         culture_invariant_id: 1808
-        sort_number: 1711
+        sort_number: 1732
       rarity: common
   lore: 2
   cost: 2
@@ -4273,16 +4744,38 @@
         it: "145/204 IT 8"
         zh: "145/204 ZH 8"
         ja: "145/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 1809
+        sort_number: 1733
+      rarity: rare
+  lore: 1
+  cost: 4
   inkwell: false
-  type: item
-  illustrator: ""
+  attack: 2
+  defence: 4
+  colors: 
+    - ruby
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Raquel Villanueva"
   languages: 
     en: 
-      name: ""
+      name: "Faline"
+      title: "Playful Fawn"
+      flavour: ""
+    fr: 
+      name: "Féline"
+      title: "Faonne enjouée"
+      flavour: ""
+    it: 
+      name: "Faline"
+      title: "Cerbiatta Giocosa"
+      flavour: ""
+    de: 
+      name: "Feline"
+      title: "Verspieltes Rehkitz"
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4317,16 +4810,34 @@
         it: "147/204 IT 8"
         zh: "147/204 ZH 8"
         ja: "147/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 1811
+        sort_number: 1734
+      rarity: rare
+  cost: 8
+  inkwell: true
+  colors: 
+    - ruby
+  type: action
+  classifications: 
+    - "song"
+  illustrator: "Jeanne Plounevez"
   languages: 
     en: 
-      name: ""
+      name: "Nothing We Won't Do"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "Il n'est rien de plus beau !"
+      title: ""
+      flavour: ""
+    it: 
+      name: "È Questa la Vita"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Für immer und immer"
+      title: ""
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4340,7 +4851,7 @@
         zh: "148/204 ZH 8"
         ja: "148/204 JA 8"
         culture_invariant_id: 1812
-        sort_number: 1712
+        sort_number: 1735
       rarity: uncommon
   cost: 6
   inkwell: false
@@ -4400,16 +4911,32 @@
         it: "150/204 IT 8"
         zh: "150/204 ZH 8"
         ja: "150/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 1814
+        sort_number: 1736
+      rarity: uncommon
+  cost: 1
+  inkwell: true
+  colors: 
+    - ruby
+  type: action
+  illustrator: "Omar Lozano"
   languages: 
     en: 
-      name: ""
+      name: "Twitterpated"
+      title: ""
+      flavour: "A mysterious phenomenon that makes you feel both invincible and vulnerable at the same time."
+    fr: 
+      name: "Batifolage"
+      title: ""
+      flavour: "Un phénomène mystérieux qui vous fait vous sentir invincible et vulnérable à la fois."
+    it: 
+      name: "Rincitrullulito"
+      title: ""
+      flavour: "Un fenomeno misterioso, che ti fa sentire invincibile e vulnerabile allo stesso tempo."
+    de: 
+      name: "Schwer verknallt"
+      title: ""
+      flavour: "Ein mysteriöses Phänomen, bei dem man sich gleichzeitig unbesiegbar und verletzlich fühlt."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4422,16 +4949,32 @@
         it: "151/204 IT 8"
         zh: "151/204 ZH 8"
         ja: "151/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 1815
+        sort_number: 1737
+      rarity: rare
+  cost: 7
   inkwell: false
-  type: item
-  illustrator: ""
+  colors: 
+    - ruby
+  type: action
+  illustrator: "Leonardo Giammichele"
   languages: 
     en: 
-      name: ""
+      name: "Most Everyone's Mad Here"
+      title: ""
+      flavour: "Well, some go this way, some go that way. But as for me, myself, personally, I prefer the shortcut."
+    fr: 
+      name: "Tout le monde est fou ici"
+      title: ""
+      flavour: "Eh bien, ce chemin vous y conduit. Ce chemin-là aussi. Mais ils sont vraiment un peu trop longs. Et je préfère ce raccourci-ci, qu’en dites-vous ?"
+    it: 
+      name: "Sono Quasi Tutti Matti Qui"
+      title: ""
+      flavour: "Beh, alcuni vanno di qua, altri di là. Quanto a me personalmente, preferisco la scorciatoia."
+    de: 
+      name: "Die meisten von uns hier sind verrückt"
+      title: ""
+      flavour: "Nun, manche Leute gehen da lang. Andere gehen da lang. Ich persönlich dagegen ziehe die Abkürzung vor."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4466,16 +5009,39 @@
         it: "153/204 IT 8"
         zh: "153/204 ZH 8"
         ja: "153/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1817
+        sort_number: 1738
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 6
+  colors: 
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+    - "queen"
+  illustrator: "Jon Densk / Hayley Evans"
   languages: 
     en: 
-      name: ""
+      name: "The Mouse Queen"
+      title: "Ruler of Mousedom"
+      flavour: "After that dreadful Ratigan business, I know about villains. This Jafar is certainly a villain of the highest order."
+    fr: 
+      name: "La Reine Moustoria"
+      title: "Régente du Royaume des souris"
+      flavour: "Depuis cette terrible affaire avec Ratigan, je m'y connais en méchants. Ce Jafar est certainement un méchant de premier ordre."
+    it: 
+      name: "La Regina dei Topi"
+      title: "Governatrice di Tutti i Topi"
+      flavour: "Dopo quella terribile faccenda con Rattigan, so bene cosa siano i cattivi. Questo Jafar è di certo un cattivo di prim'ordine."
+    de: 
+      name: "Die Mäusekönigin"
+      title: "Herrscherin des Mäusereichs"
+      flavour: "Nach der schrecklichen Sache mit Rattenzahn weiß ich, was Schurken sind. Dieser Dschafar ist sicherlich ein Schurke ersten Ranges."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4576,16 +5142,39 @@
         it: "158/204 IT 8"
         zh: "158/204 ZH 8"
         ja: "158/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1822
+        sort_number: 1739
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 2
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 5
+  colors: 
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+    - "inventor"
+  illustrator: "Jules Dubost"
   languages: 
     en: 
-      name: ""
+      name: "Wasabi"
+      title: "Always Prepared"
+      flavour: "Okay, so the plan is ‘leave Wasabi to watch our backs while we steal the crown.' Good to know."
+    fr: 
+      name: "Wasabi"
+      title: "Toujours prêt"
+      flavour: "D'accord, donc le plan consiste à ‘laisser Wasabi surveiller nos arrières’ pendant que nous volons la couronne. Bon à savoir."
+    it: 
+      name: "Wasabi"
+      title: "Sempre Pronto"
+      flavour: "Va bene, quindi il piano è 'lasciamo Wasabi a guardarci le spalle mentre rubiamo la corona.' Buono a sapersi."
+    de: 
+      name: "Wasabi"
+      title: "Auf alles vorbereitet"
+      flavour: "Okay, der Plan lautet also: ‚Lass Wasabi uns den Rücken freihalten, während wir die Krone stehlen.‘ Gut zu wissen."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4620,16 +5209,38 @@
         it: "160/204 IT 8"
         zh: "160/204 ZH 8"
         ja: "160/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1824
+        sort_number: 1740
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 4
+  colors: 
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Giulia Riva"
   languages: 
     en: 
-      name: ""
+      name: "The Wardrobe"
+      title: "Perceptive Friend"
+      flavour: "Time to try something new, dear."
+    fr: 
+      name: "Madame De Garderobe"
+      title: "Amie perspicace"
+      flavour: "Il est temps d'essayer quelque chose de nouveau, ma chère."
+    it: 
+      name: "L'Armadio"
+      title: "Amica Perspicace"
+      flavour: "È tempo di provare qualcosa di nuovo, cara."
+    de: 
+      name: "Mme. Kommode"
+      title: "Aufmerksame Freundin"
+      flavour: "Es ist Zeit, etwas Neues auszuprobieren, meine Liebe."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4665,7 +5276,7 @@
         zh: "162/204 ZH 8"
         ja: "162/204 JA 8"
         culture_invariant_id: 1826
-        sort_number: 1713
+        sort_number: 1741
       rarity: common
   lore: 1
   cost: 1
@@ -4797,16 +5408,38 @@
         it: "167/204 IT 8"
         zh: "167/204 ZH 8"
         ja: "167/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 1831
+        sort_number: 1742
+      rarity: legendary
+  lore: 4
+  cost: 8
+  inkwell: true
+  attack: 6
+  defence: 7
+  colors: 
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "villain"
+  illustrator: "Matthew Robert Davies"
   languages: 
     en: 
-      name: ""
+      name: "Ratigan"
+      title: "Greedy Genius"
+      flavour: ""
+    fr: 
+      name: "Ratigan"
+      title: "Génie cupide"
+      flavour: ""
+    it: 
+      name: "Rattigan"
+      title: "Avido Genio"
+      flavour: ""
+    de: 
+      name: "Rattenzahn"
+      title: "Gieriges Genie"
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4842,7 +5475,7 @@
         zh: "169/204 ZH 8"
         ja: "169/204 JA 8"
         culture_invariant_id: 1833
-        sort_number: 1714
+        sort_number: 1743
       rarity: uncommon
   lore: 1
   cost: 2
@@ -4887,7 +5520,7 @@
         zh: "170/204 ZH 8"
         ja: "170/204 JA 8"
         culture_invariant_id: 1834
-        sort_number: 1715
+        sort_number: 1744
       rarity: rare
   lore: 1
   cost: 6
@@ -4933,7 +5566,7 @@
         zh: "171/204 ZH 8"
         ja: "171/204 JA 8"
         culture_invariant_id: 1835
-        sort_number: 1716
+        sort_number: 1745
       rarity: super_rare
   lore: 1
   cost: 4
@@ -5001,7 +5634,7 @@
         zh: "173/204 ZH 8"
         ja: "173/204 JA 8"
         culture_invariant_id: 1837
-        sort_number: 1717
+        sort_number: 1746
       rarity: uncommon
   lore: 2
   cost: 4
@@ -5067,16 +5700,34 @@
         it: "175/204 IT 8"
         zh: "175/204 ZH 8"
         ja: "175/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 1839
+        sort_number: 1747
+      rarity: rare
+  cost: 6
+  inkwell: true
+  colors: 
+    - sapphire
+  type: action
+  classifications: 
+    - "song"
+  illustrator: "Lorenza Pigliamosche / Livio Cacciatore"
   languages: 
     en: 
-      name: ""
+      name: "Heads Held High"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "Nous sommes là pour vous aider"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Petto in Fuor"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Himmelwärts jauchzt das Herz"
+      title: ""
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5244,7 +5895,7 @@
         zh: "183/204 ZH 8"
         ja: "183/204 JA 8"
         culture_invariant_id: 1847
-        sort_number: 1718
+        sort_number: 1748
       rarity: common
   lore: 2
   cost: 3
@@ -5333,7 +5984,7 @@
         zh: "186/204 ZH 8"
         ja: "186/204 JA 8"
         culture_invariant_id: 1850
-        sort_number: 1719
+        sort_number: 1749
       rarity: common
   lore: 1
   cost: 1
@@ -5378,16 +6029,38 @@
         it: "187/204 IT 8"
         zh: "187/204 ZH 8"
         ja: "187/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1851
+        sort_number: 1750
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  colors: 
+    - steel
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "mentor"
+  illustrator: "Kendall Hale"
   languages: 
     en: 
-      name: ""
+      name: "General Li"
+      title: "Head of the Imperial Army"
+      flavour: "A single grain of rice can tip the scale. One man may be the difference between victory and defeat. —The Emperor"
+    fr: 
+      name: "Général Li"
+      title: "À la tête de l'armée impériale"
+      flavour: "Un simple grain de riz peut faire pencher la balance. Un seul homme peut faire la différence entre victoire et défaite.\n—L’Empereur"
+    it: 
+      name: "Generale Li"
+      title: "Comandante dell'Esercito Imperiale"
+      flavour: "Un solo chicco di riso può squilibrare la bilancia. Un solo uomo può segnare la differenza fra la vittoria e la sconfitta.\n—L'Imperatore"
+    de: 
+      name: "General Li"
+      title: "Oberhaupt der kaiserlichen Armee"
+      flavour: "Schon ein Reiskorn kann die Waage kippen. Sieg oder Niederlage, alles kann von einem einzigen Mann abhängen.\n–Der Kaiser"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5488,16 +6161,38 @@
         it: "192/204 IT 8"
         zh: "192/204 ZH 8"
         ja: "192/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 1856
+        sort_number: 1751
+      rarity: uncommon
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  colors: 
+    - steel
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Ian MacDonald"
   languages: 
     en: 
-      name: ""
+      name: "Zipper"
+      title: "Flying Ranger"
+      flavour: ""
+    fr: 
+      name: "Ruzor"
+      title: "Ranger volant"
+      flavour: ""
+    it: 
+      name: "Zipper"
+      title: "Agente Speciale Volante"
+      flavour: ""
+    de: 
+      name: "Summi"
+      title: "Fliegender Ritter des Rechts"
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5510,16 +6205,38 @@
         it: "193/204 IT 8"
         zh: "193/204 ZH 8"
         ja: "193/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1857
+        sort_number: 1752
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 7
+  colors: 
+    - steel
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Defne Tözüm"
   languages: 
     en: 
-      name: ""
+      name: "Khan"
+      title: "War Horse"
+      flavour: "When the whole world changes around you, remember that Khan will always be the same—steadfast and true. —Fa Zhou"
+    fr: 
+      name: "Khan"
+      title: "Cheval de guerre"
+      flavour: "Lorsque tout change autour de toi, rappelle-toi que Khan restera toujours le même : inébranlable et fidèle.\n—Fa Zhou"
+    it: 
+      name: "Khan"
+      title: "Cavallo da Guerra"
+      flavour: "Quando il mondo intero cambia intorno a te, ricorda che Khan sarà sempre lo stesso: determinato e fedele.\n—Fa Zhou"
+    de: 
+      name: "Khan"
+      title: "Kriegspferd"
+      flavour: "Wenn sich die ganze Welt um dich herum verändert, denk daran, dass Khan immer derselbe sein wird – beständig und wahrhaftig. \n–Fa Zhou"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5598,16 +6315,38 @@
         it: "197/204 IT 8"
         zh: "197/204 ZH 8"
         ja: "197/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 1861
+        sort_number: 1753
+      rarity: rare
+  lore: 3
+  cost: 7
+  inkwell: true
+  attack: 2
+  defence: 8
+  colors: 
+    - steel
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Ha Jung Song"
   languages: 
     en: 
-      name: ""
+      name: "Vincenzo Santorini"
+      title: "The Explosives Expert"
+      flavour: "Never be afraid to make a big entrance."
+    fr: 
+      name: "Vincenzo Santorini"
+      title: "L'expert en explosifs"
+      flavour: "N’ayez jamais peur de faire une entrée fracassante."
+    it: 
+      name: "Vincenzo Santorini"
+      title: "L'Esperto di Esplosivi"
+      flavour: "Mai avere paura di fare un'entrata col botto."
+    de: 
+      name: "Vincenzo Santorini"
+      title: "Der Sprengstoffexperte"
+      flavour: "Habt keine Angst vor einem spektakulären Auftritt."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5642,16 +6381,38 @@
         it: "199/204 IT 8"
         zh: "199/204 ZH 8"
         ja: "199/204 JA 8"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 1863
+        sort_number: 1754
+      rarity: legendary
+  lore: 5
+  cost: 10
   inkwell: false
-  type: item
-  illustrator: ""
+  attack: 10
+  defence: 10
+  colors: 
+    - steel
+  type: glimmer
+  classifications: 
+    - "dreamborn"
+    - "hero"
+  illustrator: "Joy Ang / Giulia Riva"
   languages: 
     en: 
-      name: ""
+      name: "Mickey Mouse"
+      title: "Giant Mouse"
+      flavour: ""
+    fr: 
+      name: "Mickey Mouse"
+      title: "Souris géante"
+      flavour: ""
+    it: 
+      name: "Topolino"
+      title: "Topo Gigante"
+      flavour: ""
+    de: 
+      name: "Micky Maus"
+      title: "Riesige Maus"
+      flavour: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5665,7 +6426,7 @@
         zh: "200/204 ZH 8"
         ja: "200/204 JA 8"
         culture_invariant_id: 1864
-        sort_number: 1720
+        sort_number: 1755
       rarity: rare
   lore: 1
   cost: 4
@@ -5754,7 +6515,7 @@
         zh: "203/204 ZH 8"
         ja: "203/204 JA 8"
         culture_invariant_id: 1867
-        sort_number: 1721
+        sort_number: 1756
       rarity: uncommon
   cost: 2
   inkwell: false
