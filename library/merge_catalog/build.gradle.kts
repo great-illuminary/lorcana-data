@@ -15,5 +15,6 @@ application {
 
 dependencies {
     api(project(":lorcana-data"))
+    api(project(":merge-config"))
     api(additionals.multiplatform.file.access)
 }
