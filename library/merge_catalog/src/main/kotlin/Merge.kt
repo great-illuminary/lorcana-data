@@ -18,6 +18,7 @@ import io.ktor.utils.io.copyAndClose
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.json.Json
+import lorcanito.FallbackValues
 import lorcanito.LoadLorcanito
 import net.mamoe.yamlkt.Yaml
 import net.mamoe.yamlkt.YamlBuilder
@@ -66,9 +67,7 @@ private suspend fun load() {
         LoadOfficialData(rootProject).also { it.loadLanguages() }
     }
 
-    val lorcanito = runBlocking {
-        LoadLorcanito().also { it.load() }
-    }
+    val lorcanito = runBlocking { LoadLorcanito.load() }
 
     val rbMap: MutableMap<String, MutableMap<String, RBCard>> = mutableMapOf()
     val rbHighRes: MutableMap<String, String> = mutableMapOf()
@@ -176,6 +175,15 @@ private suspend fun load() {
 
             val ravensBurgerCard = holder["en"]!!
 
+            val fallbackTexts = listOf(CardType.Action, CardType.Item)
+
+            // now check the actions which need to fallback to something
+            val (defaultActionTitle, defaultActionText) = if (fallbackTexts.contains(card.type)) {
+                lorcanitoCard?.name to lorcanitoCard?.text
+            } else {
+                "" to ""
+            }
+
             card.copy(
                 cost = ravensBurgerCard.inkCost,
                 inkwell = ravensBurgerCard.inkConvertible,
@@ -187,11 +195,17 @@ private suspend fun load() {
                 type = rbCards!!.type(ravensBurgerCard),
                 classifications = ravensBurgerCard.subtypes,
                 abilities = lorcanitoCard?.actualAbilities()?.map {
+                    val (overrideTitle, overrideText) = FallbackValues.overrides(card, it)
+
                     Ability(
                         type = it.type ?: AbilityType.Undefined,
                         ability = it.ability,
-                        title = TranslationHolder(en = it.name ?: it.ability ?: ""),
-                        text = TranslationHolder(en = it.text ?: ""),
+                        title = TranslationHolder(
+                            en = overrideTitle ?: it.name ?: it.ability ?: defaultActionTitle ?: ""
+                        ),
+                        text = TranslationHolder(
+                            en = overrideText ?: it.text ?: defaultActionText ?: ""
+                        ),
                     )
                 } ?: emptyList(),
                 languages = CardTranslations(

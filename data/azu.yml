@@ -138,6 +138,12 @@
       title: "Honigpirat"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: static-triggered
       title: 
         en: "We're Pirates, You See"
@@ -424,6 +430,12 @@
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Prince Naveen.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -714,6 +726,12 @@
       title: "Einfallsreiche Häsin"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: static-triggered
       title: 
         en: "Need Some Help?"
@@ -918,6 +936,12 @@
       title: "Fürsorgliche Schwester"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: activated
       title: 
         en: "I Am So Sorry"
@@ -1210,6 +1234,12 @@
       title: "Ehrenhafter Pirat"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: resolution
       title: 
         en: "HIRE A CREW"
@@ -1261,9 +1291,9 @@
   abilities: 
     - type: activated
       title: 
-        en: ""
+        en: "NEED A HAND?"
       text: 
-        en: ""
+        en: "1 {I} - This character gets +1 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -1957,9 +1987,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "BEES' KNEES"
       text: 
-        en: ""
+        en: "When you play this character, move 1 damage counter from chosen character to chosen opposing character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2046,6 +2076,13 @@
       name: "Naseweis"
       title: "Flinke Fliegerin"
       flavour: "Sie schnellt durch die Wellen, ohne dass auch nur ein Tropfen Wasser sie berührt."
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2228,6 +2265,12 @@
   abilities: 
     - type: static
       title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
+    - type: static
+      title: 
         en: "challenger"
       text: 
         en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
@@ -2284,6 +2327,12 @@
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Tinker Bell.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "Shining Example"
@@ -2378,6 +2427,13 @@
       name: "Der Märzhase"
       title: "Alberner Gastgeber"
       flavour: "Den Tisch abräumen? Aber gerne doch!"
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2529,6 +2585,12 @@
       title: "Wunsch erfüllt"
       flavour: "Oh, ist das ein Gefühl!"
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: resolution
       title: 
         en: "What Comes Next?"
@@ -2630,9 +2692,9 @@
   abilities: 
     - type: activated
       title: 
-        en: ""
+        en: "OH, BAT GIZZARDS"
       text: 
-        en: ""
+        en: "2 {I}, Choose and discard a card - Gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -2979,9 +3041,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Making Magic"
       text: 
-        en: ""
+        en: "Move 1 damage counter from chosen character to chosen opposing character. Draw a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3069,9 +3131,9 @@
       ability: "effects"
     - type: resolution
       title: 
-        en: ""
+        en: "Seeking The Half Crown"
       text: 
-        en: ""
+        en: "For each Sorcerer character you have in play, you pay 1 {I} less to play this action.nDraw 2 cards."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3206,9 +3268,9 @@
   abilities: 
     - type: activated
       title: 
-        en: ""
+        en: "Pixie Dust"
       text: 
-        en: ""
+        en: "FAITH AND TRUST {E}, {2} {I} - Chosen character gains Challenger +2 and Evasive until the start of your next turn. (While challenging, they get +2 {1}. Only characters with Evasive can challenge them.)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3509,6 +3571,12 @@
       title: "Flitzender Dynamo"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: resolution
       title: 
         en: "Stop Whining, Woman Up"
@@ -3748,6 +3816,13 @@
       name: "Heathcliff"
       title: "Aristokratischer Butler"
       flavour: "Loyaler Butler, Trainingsziel, Hubschrauberpilot – und völlig unerschütterlich."
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3791,6 +3866,13 @@
       name: "Basil"
       title: "Hypnotisierte Maus"
       flavour: "Hmm. Fußabdrücke einer großen... Eule? Mit Wassertropfen? Offensichtlich hat so etwas wie eine vogelartige Bedrohung das Azurblaue Meer überquert und sich mit der Krone aus dem Staub gemacht!"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -3986,6 +4068,13 @@
       name: "Prinz Phillip"
       title: "Königlicher Entdecker"
       flavour: "Ein klarer Kopf und eine ruhige Hand werden dich durch unbekanntes Gewässer leiten."
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4139,11 +4228,17 @@
       title: "Baby-Halbgott"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: activated
       title: 
-        en: ""
+        en: "STRONG LIKE HIS DAD"
       text: 
-        en: ""
+        en: "3 {I} - Deal 1 damage to chosen damaged character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4237,9 +4332,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "YOU ARE A REALLY HOT DANCER"
       text: 
-        en: ""
+        en: "When you play this character, chosen character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4284,6 +4379,12 @@
       title: "Schiffbauexperte"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: static-triggered
       title: 
         en: "Clever Design"
@@ -4525,9 +4626,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Prepare To Board!"
       text: 
-        en: ""
+        en: "Chosen character gets +2 {S} this turn. If a Pirate character is chosen, they get +3 {S} instead."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4611,9 +4712,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Mosquito Bite"
       text: 
-        en: ""
+        en: "Put 1 damage counter on chosen character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4664,9 +4765,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "You Came Back"
       text: 
-        en: ""
+        en: "Ready chosen character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4753,9 +4854,9 @@
   abilities: 
     - type: activated
       title: 
-        en: ""
+        en: "Galactic Communicator"
       text: 
-        en: ""
+        en: "RESOURCE ALLOCATION 1 {I}, Banish this item - Return chosen character with 2 {S} or less to their player's hand."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -4993,6 +5094,13 @@
       name: "Kokomora"
       title: "Entermannschaft"
       flavour: "Vaiana: Denkst du, Sie haben uns gesehen?\nMaui: Sie haben uns gesehen."
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5195,6 +5303,12 @@
       title: "Mutige Kapitänin"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static
       title: 
         en: "Look Lively, Crew!"
@@ -5430,6 +5544,13 @@
       name: "Markowski"
       title: "Soldat im All"
       flavour: "Genau das, was wir brauchten – ein weiterer Ort, um Käfer zu bekämpfen."
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5472,6 +5593,13 @@
       name: "Abu"
       title: "Mutiger Steuermann"
       flavour: "Backbord, Abu! Backbord! Nach <links>! ABU! In die andere Richtung!\n–Aladdin"
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5933,6 +6061,19 @@
       name: "Goofy"
       title: "Fliegender Goof"
       flavour: "Passt auf eure Hüte auf!"
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -5977,6 +6118,12 @@
       title: "Halb-Hai"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "Wayfinding"
@@ -6092,6 +6239,12 @@
       title: "Im Krähennest"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "SWASH YOUR BUCKLES"
@@ -6237,9 +6390,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Lead The Way"
       text: 
-        en: ""
+        en: "Your characters get +2 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6292,9 +6445,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "The Islands I Pulled From The Sea"
       text: 
-        en: ""
+        en: "(A character with cost 3 or more can {E} to sing this song for free.)nSearch your deck for a location card, reveal that card to all players, and put it into your hand. Then, shuffle your deck."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6334,9 +6487,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Energy Blast"
       text: 
-        en: ""
+        en: "Banish chosen character. Draw a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6418,9 +6571,9 @@
   abilities: 
     - type: activated
       title: 
-        en: ""
+        en: "Gold Coin"
       text: 
-        en: ""
+        en: "GLITTERING ACCESS {E}, 1 {I}, Banish this item – Ready chosen character of yours. They can't quest for the rest of this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6604,6 +6757,13 @@
       name: "B.E.N."
       title: "Exzentrischer Roboter"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -6811,6 +6971,12 @@
       title: "Scharfsinniger Lockvogel"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: static-triggered
       title: 
         en: "Run Interference"
@@ -7866,6 +8032,12 @@
       title: "Gerissene Seglerin"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: static-triggered
       title: 
         en: "Ahoy!"
@@ -7965,9 +8137,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Sail The Azurite Sea"
       text: 
-        en: ""
+        en: "This turn, you may put an additional card from your hand into your inkwell facedown. Draw a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8049,9 +8221,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Prepare Your Bot"
       text: 
-        en: ""
+        en: "Choose one:n* Ready chosen item.n* Ready chosen Robot character. They can't quest for the rest of this turn."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8091,9 +8263,9 @@
   abilities: 
     - type: activated
       title: 
-        en: ""
+        en: "Baymax's Healthcare Chip"
       text: 
-        en: ""
+        en: "10,000 MEDICAL PROCEDURES {E} - Choose one:n* Remove up to 1 damage from chosen character. n* If you have a Robot character in play, remove up to 3 damage from chosen character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -8175,9 +8347,9 @@
   abilities: 
     - type: activated
       title: 
-        en: ""
+        en: "Jumbo Pop"
       text: 
-        en: ""
+        en: "HERE YOU GO Banish this item – Remove up to 2 damage from each of your characters. Draw a card."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -9049,6 +9221,12 @@
   abilities: 
     - type: static
       title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
+    - type: static
+      title: 
         en: "Bravo"
       text: 
         en: "While this character has no damage, he gets +4 {S}."
@@ -9145,6 +9323,12 @@
       title: "Ehemaliger Mitarbeiter der CIA"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: activated
       title: 
         en: "Think About What's Best"
@@ -9525,9 +9709,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Hot Potato"
       text: 
-        en: ""
+        en: "Choose one:nn· Deal 2 damage to chosen character.nn· Banish chosen item."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -9569,9 +9753,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "I'm Still Here"
       text: 
-        en: ""
+        en: "(A character with cost 3 or more can {E} to sing this song for free.)nChosen character gains Resist +2 until the start of your next turn. Draw a card. (Damage dealt to them is reduced by 2.)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -9658,9 +9842,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Ambush!"
       text: 
-        en: ""
+        en: "{E} one of your characters to deal damage equal to their {S} to chosen character."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -9700,9 +9884,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Unfortunate Situation"
       text: 
-        en: ""
+        en: "Each opponent chooses one of their characters and deals 4 damage to them."
   franchise_id: ""
 - variants: 
     - set: azu
@@ -9790,9 +9974,9 @@
   abilities: 
     - type: activated
       title: 
-        en: ""
+        en: "Training Dummy"
       text: 
-        en: ""
+        en: "HANDLE WITH CARE {E}, 2 {I} – Chosen character gains Bodyguard until the start of your next turn. (An opposing character who challenges one of your characters must choose one with Bodyguard if able.)"
   franchise_id: ""
 - variants: 
     - set: azu
@@ -9832,9 +10016,9 @@
   abilities: 
     - type: activated
       title: 
-        en: ""
+        en: "Sunglasses"
       text: 
-        en: ""
+        en: "SPYCRAFT {E} - Draw a card, then choose and discard a card."
   franchise_id: ""
 - variants: 
     - set: azu

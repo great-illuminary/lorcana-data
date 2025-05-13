@@ -341,9 +341,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: "**INFILTRATION** When you play this character, each opponent chooses and discards a card."
+        en: "INFILTRATION"
       text: 
-        en: ""
+        en: "When you play this character, each opponent chooses and discards a card."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -388,6 +388,12 @@
       title: "Musketier-Soldat"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: resolution
       title: 
         en: "WAIT FOR ME!"
@@ -735,6 +741,12 @@
       title: "Dirigent"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: resolution
       title: 
         en: "**STRIKE UP THE MUSIC**"
@@ -791,6 +803,18 @@
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named mickey mouse.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: resolution
       title: 
         en: "Musketeers United"
@@ -851,6 +875,12 @@
       title: "Musketier-Champion"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: resolution
       title: 
         en: "DRAMATIC ENTERANCE"
@@ -900,6 +930,12 @@
       title: "Gabe der Familie"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: static-triggered
       title: 
         en: "Saving The Miracle"
@@ -948,6 +984,13 @@
       name: "Mirabel Madrigal"
       title: "Finderin der Vision"
       flavour: "Warum würde Bruno diese Vision ändern wollen? Ist es etwas Bedrohliches? Das müssen wir herausfinden!"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -1039,6 +1082,13 @@
       name: "Prinz Eric"
       title: "Seefahrer Prinz"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -1339,7 +1389,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "First Aid"
       text: 
         en: "Remove up to 1 damage from each of your characters."
   franchise_id: "unknown"
@@ -1400,9 +1450,9 @@
       ability: "sing-together"
     - type: resolution
       title: 
-        en: ""
+        en: "Look At This Family"
       text: 
-        en: ""
+        en: "**Sing Together** 7 _(Any number of your of your teammates' characters with total cost 7 or more may {E} to sing this song for free.)_nnnLook at the top 5 cards of your deck. You may reveal up to 2 character cards and put them into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -1444,9 +1494,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Lost in the Woods"
       text: 
-        en: ""
+        en: "_(A character with cost 4 or more can {E} to sing this song for free.)_nnnAll opposing characters get -2 {S} until the start of your next turn."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -1486,7 +1536,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Sign The Scroll"
       text: 
         en: "Each opponent may chose and discard a card. For each opponent who doesn't, you gain 2 lore."
   franchise_id: "unknown"
@@ -1925,6 +1975,12 @@
       title: "Unentdeckter Onkel"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: activated
       title: 
         en: "You Just Have To See It"
@@ -2240,6 +2296,12 @@
   abilities: 
     - type: static
       title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title: 
         en: "Ladies First"
       text: 
         en: "During your turn, if no other character has quested this turn, this character gets +3 {L}."
@@ -2347,6 +2409,13 @@
       name: "Luisa Madrigal"
       title: "Magisch stark"
       flavour: "Dieser Stein? Kein Problem. Geh und hol die Vision, Hermana"
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -2395,11 +2464,6 @@
         en: "NICE AND TIDY"
       text: 
         en: "Whenever you play another character, you may banish this character to draw a card."
-    - type: undefined
-      title: 
-        en: "**NICE AND TIDY** Whenever you play another character, you man banish this character to draw a card."
-      text: 
-        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -2675,6 +2739,18 @@
   abilities: 
     - type: static
       title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title: 
         en: "Fly, Of Course!"
       text: 
         en: "Your other characters with **Evasive** gain **Rush.**"
@@ -2763,6 +2839,13 @@
       name: "Ticktack"
       title: "Ständiger Verfolger"
       flavour: "Dem ehlenden Biest hat meine Hand so gut geschmeckt, dass es sich seitdem....\n— Käpt'n Hook"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -3017,9 +3100,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Poor Unfortunate Souls"
       text: 
-        en: ""
+        en: "_(A character with cost 2 or more can {E} to sing this song for free.)_nnnReturn a character, item or location with cost 2 or less to their player’s hand."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -3078,9 +3161,9 @@
       ability: "sing-together"
     - type: resolution
       title: 
-        en: ""
+        en: "Second Star To The Right"
       text: 
-        en: ""
+        en: "**Sing Together** 10 _(Any number of your of your teammates' characters with total cost 10 or more may {E} to sing this song for free.)_nnnChosen player draws 5 cards."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -3120,9 +3203,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Swing Into Action"
       text: 
-        en: ""
+        en: "Chosen character gains **Rush** this turn. _(They can challenge the turn they're played.)_"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -3162,7 +3245,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Ursula's Plan"
       text: 
         en: "Each opponent chooses and exerts one of their characters. Those characters can't ready at the start of their next turn."
   franchise_id: "unknown"
@@ -3506,6 +3589,12 @@
   abilities: 
     - type: static
       title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title: 
         en: "Shift [object Object]"
       text: 
         en: "**Shift: Discard an action card** _(You may discard an action card to play this on top of one of your characters named Diablo.)_"
@@ -3796,6 +3885,12 @@
   abilities: 
     - type: static
       title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
+    - type: static
+      title: 
         en: "Protective Goddess"
       text: 
         en: "Your characters named Zeus gain **Ward**."
@@ -3851,9 +3946,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "SNEAKY IDEA"
       text: 
-        en: ""
+        en: "When you play this character, chosen opposing character gains **Reckless** during their next turn. _(They can't quest and must challenge if able.)_"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -4010,6 +4105,12 @@
       title: "Die Befreite"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: static-triggered
       title: 
         en: "PEOPLE ALWAYS DO CRAZY THINGS"
@@ -4155,6 +4256,12 @@
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named pegasus.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: resolution
       title: 
         en: "HOP ON!"
@@ -4202,6 +4309,13 @@
       name: "Pegasus"
       title: "Geschenk für Hercules"
       flavour: "Seine Name ist Pegasus. Er soll für immer dein Gefährte sein.\n—Zeus"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "hercules"
 - variants: 
     - set: urr
@@ -4344,6 +4458,12 @@
       text: 
         en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named prince phillip.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: resolution
       title: 
         en: "Strike To The Heart"
@@ -4484,6 +4604,12 @@
       title: "Besingerinnen von Helden"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: static-triggered
       title: 
         en: "The Gospel Truth"
@@ -4619,9 +4745,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Dodge!"
       text: 
-        en: ""
+        en: "Chosen character gains **Ward** and **Evasive** until the start of your next turn. _(Opponents can't choose them except to challenge. Only characters with Evasive can challenge them.)_"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -4661,7 +4787,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Make the Potion"
       text: 
         en: "Choose one:n· Banish chosen item.n· Deal 2 damage to chosen damaged character."
   franchise_id: "unknown"
@@ -4711,9 +4837,9 @@
       ability: "sing-together"
     - type: resolution
       title: 
-        en: ""
+        en: "Under The Sea"
       text: 
-        en: ""
+        en: "Put all opposing characters with 2 {S} or less on the bottom of their players' decks in any order."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -4753,9 +4879,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Ursula's Trickery"
       text: 
-        en: ""
+        en: "Each opponent may choose and discard a card. For each opponent who doesn't, you draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -5297,6 +5423,12 @@
       title: "Supergoof"
       flavour: "Unterschätze niemals die Macht eines Goofs."
   abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
     - type: static-triggered
       title: 
         en: "**SUPER PEANUT POWERS**"
@@ -5345,6 +5477,13 @@
       name: "Hercules"
       title: "Tollpatschiges Kind"
       flavour: "Toll gespielt, Deppules.\n—Dorfjunge"
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -5388,6 +5527,19 @@
       name: "Hercules"
       title: "Wagemutiger Halbgott"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
+    - type: static
+      title: 
+        en: "You Coward!"
+      text: 
+        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -5937,6 +6089,13 @@
       name: "Pegasus"
       title: "Fliegendes Ross"
       flavour: "Er macht zick, er macht zack - was braucht man mehr?\n—Phil"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -5986,11 +6145,6 @@
         en: "**DON'T CROSS ME**"
       text: 
         en: "Whenever this character challenges another character, gain 1 lore for each other damaged character you have in play."
-    - type: undefined
-      title: 
-        en: "**DON'T CROSS ME** Whenever this character challenges another character, gain 1 lore for each other damaged character you have in play."
-      text: 
-        en: ""
   franchise_id: "raya-and-the-last-dragon"
 - variants: 
     - set: urr
@@ -6085,6 +6239,12 @@
       title: "Wagemutige Besucherin"
       flavour: "Komm schon - was ist das Schlimmste, was passieren kann?"
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: resolution
       title: 
         en: "Bring on the heat!"
@@ -6250,6 +6410,13 @@
       name: "Tong"
       title: "Überlebender"
       flavour: "Ich trete auch der Gemeinschaft zum Fertigmachen der Druun bei."
+  abilities: 
+    - type: static
+      title: 
+        en: "You Coward!"
+      text: 
+        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -6293,6 +6460,12 @@
       title: "Lebendiger Verbündeter"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: resolution
       title: 
         en: "ON A ROLL"
@@ -6345,9 +6518,9 @@
       ability: "sing-together"
     - type: resolution
       title: 
-        en: ""
+        en: "A Pirate's Life"
       text: 
-        en: ""
+        en: "**Sing Together** 6 _(Any number of your of your teammates' characters with total cost 6 or more may {E} to sing this song for free.)_nnnEach opponent loses 2 lore. You gain 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -6871,6 +7044,12 @@
       text: 
         en: "While you have more items in play than each opponent, this character gets +2 {L}."
       ability: "effects"
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: "the-little-mermaid"
 - variants: 
     - set: urr
@@ -6975,6 +7154,13 @@
       name: "Aurora"
       title: "Gelassene Prinzessin"
       flavour: "Ihre Musik erfüllt die Gärten des Illuminariums mit Licht und Fröhlichkeit."
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -7109,6 +7295,12 @@
       title: "Begleiter der Sammlerin"
       flavour: "Arielle, Arielle! Du wirst nicht glauben, was ich gefunden habe!"
   abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: static
       title: 
         en: "I'M NOT A GUPPY"
@@ -7397,6 +7589,13 @@
       name: "Olaf"
       title: "Vertrauensvoller Begleiter"
       flavour: "Ist das nicht Kristoffs Mütze? Wenn er in diese Richtung geht, wird er in den Sturm geraten!"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -7489,11 +7688,12 @@
       title: "Galanter Verteidiger"
       flavour: ""
   abilities: 
-    - type: undefined
+    - type: static
       title: 
-        en: "**BEST DEFENSE** Whenver one of your characters is chosen for **Support**, they gain **Resist** +1 this turn. _(Damage dealt to them is reduced by 1.)_"
+        en: "support"
       text: 
-        en: ""
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -7992,9 +8192,9 @@
       ability: "sing-together"
     - type: resolution
       title: 
-        en: ""
+        en: "Dig A Little Deeper"
       text: 
-        en: ""
+        en: "**Sing Together** 8 _(Any number of your of your teammates' characters with total cost 8 or more may {E} to sing this song for free.)_nnnLook at the top 7 cards of your deck. Put 2 into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -8078,9 +8278,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Seldom All They Seem"
       text: 
-        en: ""
+        en: "_(A character with cost 2 or more can {E} to sing this song for free.)_nnChosen character gets -3 {S} this turn."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -8122,7 +8322,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Treasures Untold"
       text: 
         en: "Return up to 2 item cards from your discard into your hand."
   franchise_id: "unknown"
@@ -8413,11 +8613,6 @@
         en: "CRASHING THROUGH"
       text: 
         en: "Whenever this character quests, you may banish chosen item."
-    - type: undefined
-      title: 
-        en: "**CRASHING THROUGH** Whenever this character quests, you may banish chosen item."
-      text: 
-        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -8758,6 +8953,13 @@
       name: "Chien-Po"
       title: "Soldat des Kaisers"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -8852,6 +9054,12 @@
       title: "Geliebter Held"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: static
       title: 
         en: "resist"
@@ -9634,14 +9842,14 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Avalanche"
       text: 
-        en: ""
+        en: "Deal 1 damage to each opposing character. You may banish chosen location."
     - type: resolution
       title: 
-        en: ""
+        en: "Avalanche"
       text: 
-        en: ""
+        en: "Deal 1 damage to each opposing character. You may banish chosen location."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -9683,9 +9891,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "I Find 'Em, I Flatten 'Em"
       text: 
-        en: ""
+        en: "_(A character with cost 4 or more can {E} to sing this song for free.)_nnnBanish all items."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -9727,9 +9935,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "One Last Hope"
       text: 
-        en: ""
+        en: "_(A character with cost 3 or more can {E} to sing this song for free.)_nnnChosen character gains **Resist** +2 until the start of your next turn. If a Hero character is chosen, they may also challenge ready characters this turn. _(Damage dealt to them is reduced by 2.)_"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -9777,9 +9985,9 @@
       ability: "sing-together"
     - type: resolution
       title: 
-        en: ""
+        en: "The Mob Song"
       text: 
-        en: ""
+        en: "**Sing Together** 10 _(Any number of your of your teammates' characters with total cost 10 or more may {E} to sing this song for free.)_nnnDeal 3 damage to up to 3 chosen characters and/or locations."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -9819,7 +10027,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Triton's Decree"
       text: 
         en: "Each opponent chooses one of their characters and deals 2 damage to them."
   franchise_id: "unknown"

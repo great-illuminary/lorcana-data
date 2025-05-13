@@ -3,6 +3,7 @@ package lorcanito
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.JsonPrimitive
 
 @Serializable
 data class LorcanitoCard(
@@ -41,7 +42,19 @@ data class LorcanitoCard(
         return abilities.mapNotNull {
             if (it is JsonObject) {
                 println("managing ${JsonDecode.string(it)}")
-                JsonDecode.decode(it)
+                if (it.keys.size == 1 && it.containsKey("name")) {
+                    null
+                } else {
+                    JsonDecode.decode(it)
+                }
+            } else if (it is JsonPrimitive) {
+                println("actualAbility is string -> ${it.content}")
+                val obtained = LoadLorcanito.unmapLink(it.content)
+                    ?: return@mapNotNull null
+
+                val json =
+                    LoadLorcanito.card(obtained.first)?.abilities?.getOrNull(obtained.second)
+                json?.let { res -> JsonDecode.decode(res) }
             } else {
                 null
             }

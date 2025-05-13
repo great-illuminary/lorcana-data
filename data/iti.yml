@@ -40,6 +40,12 @@
       title: "von Bruinwald XIII"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: static-triggered
       title: 
         en: "Let's make like a tree"
@@ -290,6 +296,13 @@
       name: "Joshua Sweet"
       title: "Der Arzt"
       flavour: "Auf dem Weg in die Tintenlande? Komm zurück, wenn du wieder zusammengeflickt werden musst."
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -640,6 +653,13 @@
       name: "Nani"
       title: "Beschützende Schwester"
       flavour: "Überlass das mir, Lilo."
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -727,9 +747,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "BARK"
       text: 
-        en: ""
+        en: "{E} – Chosen character gets -2 {S} until the start of your next turn."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -894,6 +914,12 @@
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named pluto.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: static-triggered
       title: 
         en: "**GUARD DOG**"
@@ -1086,6 +1112,13 @@
       name: "Rolly"
       title: "Hungriger Welpe"
       flavour: "Ich hab Hunger, Mutti. Wie ein Wolf."
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -1216,9 +1249,9 @@
   abilities: 
     - type: floating-triggered
       title: 
-        en: ""
+        en: "99 Puppies"
       text: 
-        en: ""
+        en: "Whenever one of your characters quests this turn, gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -1344,9 +1377,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Quick Patch"
       text: 
-        en: ""
+        en: "Remove up to 3 damage from chosen location."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -1388,9 +1421,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "The Bare Necessities"
       text: 
-        en: ""
+        en: "_(A character with cost 2 or more can Exert.png to sing this song for free.)_nnnChosen opponent reveals their hand and discards a non-character card of your choice."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -1763,11 +1796,6 @@
         en: "RESTLESS SOULS"
       text: 
         en: "Whenever this character quests, you may banish this character to draw a card."
-    - type: undefined
-      title: 
-        en: "**RESTLESS SOULS** Whenever this character quests, you may banish this character to draw a card."
-      text: 
-        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -1954,6 +1982,13 @@
       name: "Jago"
       title: "Papageichen"
       flavour: "Eure Majestät hat eine unwiderstehliche Art, mit dummen Tieren umzugehen. \n—Dschafar"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -2065,6 +2100,12 @@
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named jafar.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "Power Beyond Measure"
@@ -2113,6 +2154,13 @@
       name: "Lena Degenflügel"
       title: "Rebellischer Teenager"
       flavour: "Aus dem Schatten geboren. Durch Freundschaft gerettet."
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -2204,6 +2252,12 @@
       title: "Rasanter Saubermacher"
       flavour: "Sauberkeit im Schnelldurchgang."
   abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
     - type: resolution
       title: 
         en: "CLEAN THIS, CLEAN THAT"
@@ -2258,11 +2312,6 @@
       text: 
         en: "While this character is at a location, it gets +2 {S}."
       ability: "effects"
-    - type: undefined
-      title: 
-        en: "**CLEAN SWEEP** While this character is at a location, it gets +2 {S}."
-      text: 
-        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -2306,6 +2355,12 @@
       title: "Überflieger"
       flavour: "Teppich und ich können uns die Legenden schnappen und zurück sein, bevor es jemand merkt!\n—Aladdin"
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: activated
       title: 
         en: "FIND THE WAY"
@@ -2720,6 +2775,12 @@
       title: "Tornado Titan"
       flavour: "Zeus wegblasen!"
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: activated
       title: 
         en: "CYCLONE"
@@ -2947,9 +3008,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Bestow a Gift"
       text: 
-        en: ""
+        en: "Move 1 damage counter from chosen character to chosen opposing character."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -2993,7 +3054,7 @@
       title: 
         en: "Draw a card. Shuffle up to 3 cards from your opponent’s discard into your opponent’s deck."
       text: 
-        en: ""
+        en: "(A character with cost 1 or more can {E} to sing this song for free.)nnDraw a card. Shuffle up to 3 cards from your opponent’s discard into your opponent’s deck."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -3033,9 +3094,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Last-Ditch Effort"
       text: 
-        en: ""
+        en: "Exert chosen opposing character. Then chosen character of yours gains **Challenger** +2 this turn. (They get +2 {S} while challenging.)"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -3079,7 +3140,7 @@
       title: 
         en: "Look at the top 5 cards of your deck. Put any number of them on the top or the bottom of your deck in any order. Gain 1 lore."
       text: 
-        en: ""
+        en: "_(A character with cost 3 or more can {E} to sing this song for free.)_nnnLook at the top 5 cards of your deck. Put any number of them on the top or the bottom of your deck in any order. Gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -3445,6 +3506,13 @@
       name: "Don Kanaille"
       title: "Piratenprinz"
       flavour: "Du hast nicht erwartet, <mich> hier zu finden, oder? Tja, ich auch nicht."
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -3692,6 +3760,12 @@
       title: "Fischabfall"
       flavour: "Hier muss es mächtige Legenden geben, sehr mächtige."
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: static
       title: 
         en: "Eerie Pair"
@@ -4199,6 +4273,13 @@
       name: "Sir Hiss"
       title: "Geifernde Giftschlange"
       flavour: "Prinz John ist nicht der einzige, der Steuern eintreibt!"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -4241,6 +4322,13 @@
       name: "Skippy"
       title: "Kaninchen mit viel Energie"
       flavour: "Selbst der mutigste Gesetzlose weiß, wann er lieber die Pfoten stillhalten sollte."
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -4328,6 +4416,12 @@
       title: "Verdeckter Ermittler"
       flavour: "Dafür, dass er so auffällig angezogen ist, ist er wirklich schwer zu entdecken."
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static
       title: 
         en: "Hide"
@@ -4563,6 +4657,12 @@
       title: "Mechaniker"
       flavour: "Ich kann <alles> in weniger als fünf Minuten auseinandernehmen!"
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: activated
       title: 
         en: "DISASSEMBLE"
@@ -4660,7 +4760,7 @@
       title: 
         en: "Banish chosen item."
       text: 
-        en: ""
+        en: "_(A character with cost 2 or more can {E} to sing this song for free.)_nnnBanish chosen item."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -4702,9 +4802,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "I Will Find My Way"
       text: 
-        en: ""
+        en: "_(A character with cost 1 or more can {E} to sing this song for free.)_nnnChosen character of yours gets +2 {S} this turn. They may move to a location for free."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -5078,16 +5178,17 @@
       title: "Abenteuerlustige Sammlerin"
       flavour: "Schiffswracks sind großartige Orte, um Legenden zu entdecken - und sich vor Haien zu verstecken!"
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "INSPIRING VOICE"
       text: 
         en: "Whenever you play a song, chosen character of yours gains **Evasive** until the start of your next turn."
-    - type: undefined
-      title: 
-        en: "**Evasive** _(Only characters with Evasive can challenge this character.)_nnn**INSPIRING VOICE** Whenever you play a song, chosen character of yours gains **Evasive** until the start of your next turn."
-      text: 
-        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -5235,6 +5336,13 @@
       name: "Della Duck"
       title: "Unaufhaltsame Mutter"
       flavour: "Ich habe den Mond überlebt. Wie hart können da die überfluteten Tintenlande schon sein?"
+  abilities: 
+    - type: static
+      title: 
+        en: "You Coward!"
+      text: 
+        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -5565,6 +5673,12 @@
       title: "Aufstrebender Halbgott"
       flavour: "Hast du noch mehr von diesen Hühnchen hier?"
   abilities: 
+    - type: static
+      title: 
+        en: "You Coward!"
+      text: 
+        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
+      ability: "gain-ability"
     - type: static-triggered
       title: 
         en: "In My Stomach"
@@ -5674,11 +5788,6 @@
       text: 
         en: "While this character is at a location, he gets +2 {S}."
       ability: "effects"
-    - type: undefined
-      title: 
-        en: "**I’M YOUR MAN!** While this character is at a location, he gets +2 {S}."
-      text: 
-        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -5778,6 +5887,13 @@
       name: "Vaiana"
       title: "Unerschrockene Seefahrerin"
       flavour: "Kein Feuer oder Sturm kann sie von ihrem Ziel abhalten."
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -5865,6 +5981,12 @@
   abilities: 
     - type: static
       title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
+    - type: static
+      title: 
         en: "Over Here, Tink"
       text: 
         en: "While you have a character named Tinker Bell in play, this character gets +2 {S}."
@@ -5930,6 +6052,12 @@
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named peter pan.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static
       title: 
         en: "You’re Next!"
@@ -6124,6 +6252,12 @@
   abilities: 
     - type: static
       title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title: 
         en: "The Fox"
       text: 
         en: "If you have a character named Peter Pan in play, you pay 1 {I} less to play this character."
@@ -6171,6 +6305,13 @@
       name: "Stitch"
       title: "Kleine Rakete"
       flavour: "Wer hielt es für eine gute Idee, ihm eine Energierüstung zu geben?!\n—Nani"
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -6298,12 +6439,6 @@
       name: "Sturzbomber"
       title: ""
       flavour: ""
-  abilities: 
-    - type: undefined
-      title: 
-        en: "Banish one of your characters with **Reckless** to banish chosen character with less {S} than that character."
-      text: 
-        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -6345,9 +6480,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "I've Got a Dream"
       text: 
-        en: ""
+        en: "_(A character with cost 2 or more can {E} to sing this song for free.)_nnReady chosen character of yours at a location. They can't quest for the rest of this turn. Gain lore equal to that location {L}."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -6387,7 +6522,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "On Your Feet! Now!"
       text: 
         en: "Ready all your characters and deal 1 damage to each of them. They can't quest for the rest of this turn."
   franchise_id: "unknown"
@@ -6429,9 +6564,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Voyage"
       text: 
-        en: ""
+        en: "Move up to 2 characters of yours to the same location for free."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -6725,6 +6860,12 @@
       title: "Die Ingenieurin"
       flavour: "Wie hast du das Ding eigentlich kaputt gemacht?"
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: static-triggered
       title: 
         en: "SPARE PARTS"
@@ -6822,6 +6963,13 @@
       name: "Trick Duck"
       title: "Angeberischer Neffe"
       flavour: "Ich hab's geschafft! Ich wusste, ich schaff's! Sieg für Trick!"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -7119,11 +7267,12 @@
       title: "Gerissener Neffe"
       flavour: "Das sieht aus wie ein Teil eines größeren Kristalls!"
   abilities: 
-    - type: undefined
+    - type: static
       title: 
-        en: "**THREE NEPHEWS** Whenever this character quests, if you have characters named Dewey and Louie in play, you may draw 3 cards."
+        en: "support"
       text: 
-        en: ""
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: static-triggered
       title: 
         en: "Three Nephews"
@@ -7221,6 +7370,12 @@
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named kit cloudkicker.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -7263,6 +7418,13 @@
       name: "Kit Wolkenflitzer"
       title: "Furchtloser Bärenjunge"
       flavour: "Überglücklich, seinen Wolkensurfer wiederzuhaben, startete er in die Tintenlande."
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -7305,6 +7467,13 @@
       name: "Track Duck"
       title: "Entspannter Neffe"
       flavour: "Ich habe den letzten gefunden!"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -7401,11 +7570,6 @@
         en: "THIS GOING TO BE GOOD"
       text: 
         en: "Whenever you play a song, you may put the top card of your deck into your inkwell facedown and exerted."
-    - type: undefined
-      title: 
-        en: "**THIS GOING TO BE GOOD** Whenever you play a song, you may put the top card of your deck into your inkwell facedown and exerted."
-      text: 
-        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -7616,11 +7780,6 @@
       title: "Onkel Geldsack"
       flavour: "Eine ungewöhnliche neue Welt ist der perfekte Ort, um ein ungewöhnlich neues Vermögen zu machen!"
   abilities: 
-    - type: undefined
-      title: 
-        en: "TREASURE FINDER  Whenever this character quests, you pay 1 {I} less for the next item you play this turn."
-      text: 
-        en: ""
     - type: static-triggered
       title: 
         en: "Treasure Finder"
@@ -7768,6 +7927,19 @@
       name: "Wendy Darling"
       title: "Anerkannte Autorität in Fragen zu Peter Pan"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -7807,9 +7979,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Distract"
       text: 
-        en: ""
+        en: "Chosen character gets -2 {S} this turn. Draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -7906,7 +8078,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "How Far I'll Go"
       text: 
         en: "Look at the top 2 cards of your deck. Put one into your hand and the other into your inkwell facedown and exerted."
   franchise_id: "unknown"
@@ -7948,9 +8120,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Repair"
       text: 
-        en: ""
+        en: "Remove up to 3 damage from one of your locations or characters."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -8672,6 +8844,13 @@
       name: "Kida"
       title: "Königliche Kriegerin"
       flavour: "Sie hat schon früher seltsame Dinge gesehen, aber so etwas noch nie."
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -8776,6 +8955,12 @@
       title: "Robins Kumpel"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: static
       title: 
         en: "Disguised"
@@ -9675,9 +9860,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Olympus Would Be That Way"
       text: 
-        en: ""
+        en: "Your characters get +3 {S} this turn while challenging a location."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -9801,7 +9986,7 @@
   abilities: 
     - type: activated
       title: 
-        en: ""
+        en: "Gizmosuit"
       text: 
         en: "Banish this item – Chosen character gains **Resist** +2 until the start of your next turn. (Damage dealt to them is reduced by 2.)"
   franchise_id: "unknown"

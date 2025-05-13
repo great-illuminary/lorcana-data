@@ -201,6 +201,13 @@
       name: "Benny"
       title: "Elch aus dem Norden"
       flavour: "Lass uns ein paar schöne Zweige finden, ja? Ich könnte was zum Knabbern vertragen!"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -371,6 +378,13 @@
       name: "Lilo"
       title: "Junior-Konditorin"
       flavour: "Erdnussbutter und Ananas! Das wird der beste Kuchen aller Zeiten!"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -463,6 +477,13 @@
       name: "Fix-It Felix, Jr."
       title: "Zuverlässiger Erbauer"
       flavour: "Donnerwetter, dieser Ort muss dringend repariert werden!"
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -621,6 +642,12 @@
       title: "Rentier Hüter"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: static
       title: 
         en: "Song of the Herd"
@@ -1235,7 +1262,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Try Everything"
       text: 
         en: "Remove up to 3 damage from chosen character and ready them. They can’t quest or challenge for the rest of this turn."
   franchise_id: "unknown"
@@ -1277,7 +1304,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Healing Touch"
       text: 
         en: "Remove up to 3 damage from chosen character and ready them. They can’t quest or challenge for the rest of this turn."
   franchise_id: "unknown"
@@ -1331,9 +1358,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Revive"
       text: 
-        en: ""
+        en: "Play a character card with cost 5 or less from your discard for free."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1375,9 +1402,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Blast From Your Past"
       text: 
-        en: ""
+        en: "_(A character with cost 6 or more can {E} to sing this song for free.)_nName a card. Return all character cards with that name from your discard to your hand."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1417,9 +1444,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Invited to the Ball"
       text: 
-        en: ""
+        en: "Reveal the top 2 cards of your deck. Put revealed character cards into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1890,6 +1917,13 @@
       name: "Archimedes"
       title: "Verärgerter Kauz"
       flavour: "Huh. Was muss eine Eule tun, um ein wenig Ruhe zu finden?"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -1933,6 +1967,12 @@
       title: "Feuersalamander"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "Parting Gift"
@@ -2292,6 +2332,12 @@
       ability: "shift"
     - type: static
       title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title: 
         en: "challenger"
       text: 
         en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
@@ -2341,6 +2387,18 @@
       title: "Der fünfte Geist"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: resolution
       title: 
         en: "CRYSTALLIZE"
@@ -2442,6 +2500,12 @@
       title: "Fröhlicher Passagier"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static
       title: 
         en: "**CLEAR THE PATH**"
@@ -2675,6 +2739,12 @@
       title: "Schamanischer Duellant"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
     - type: resolution
       title: 
         en: "SURPRISING SKILL"
@@ -2866,12 +2936,12 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Hypnotic Strength"
       text: 
         en: "Draw a card. "
     - type: resolution
       title: 
-        en: ""
+        en: "Hypnotic Strength"
       text: 
         en: "Chosen character gains **Challenger** +2 this turn. _(They get +2 {S} while challenging.)_"
   franchise_id: "unknown"
@@ -2936,7 +3006,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Finders Keepers"
       text: 
         en: "Draw 3 cards."
   franchise_id: "unknown"
@@ -2980,7 +3050,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "We Know The Way"
       text: 
         en: "Shuffle chosen card from your discard into your deck. Reveal the top card of your deck. If it has the same name as the chosen card, you may play the revealed card for free. Otherwise, put it into your hand."
   franchise_id: "unknown"
@@ -3022,7 +3092,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Gathering Knowledge And Wisdom"
       text: 
         en: "Gain 2 lore."
   franchise_id: "unknown"
@@ -3349,6 +3419,12 @@
       text: 
         en: "For each 1 damage on opposing characters, you pay 1 {I} less to play this character."
       ability: "effects"
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3393,6 +3469,12 @@
       title: "Scars Komplizin"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static
       title: 
         en: "challenger"
@@ -3483,6 +3565,13 @@
       name: "Zazu"
       title: "Mufasas Berater"
       flavour: "Hmm, ein kurzer Schlenker durch das Leuchten kann ja nicht schaden."
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3525,6 +3614,13 @@
       name: "Ulf"
       title: "Pantomime"
       flavour: "Seine Darbietungen sind unsagbar gut."
+  abilities: 
+    - type: static
+      title: 
+        en: "voiceless"
+      text: 
+        en: "This character can't {E} to sing songs."
+      ability: "voiceless"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -3807,6 +3903,12 @@
       title: "Falscher Flamingo"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "In Disguise"
@@ -3950,6 +4052,12 @@
       title: "Abscheulicher Meuterer"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: resolution
       title: 
         en: "DO SAY HELLO TO MR. ARROW"
@@ -4536,6 +4644,12 @@
       title: "Rachsüchtiger Löwe"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: static-triggered
       title: 
         en: "**LIFE'S NOT FAIR, IS IT?**"
@@ -4582,7 +4696,7 @@
       title: 
         en: "Draw 3 cards, then put 2 cards from your hand on the top of your deck in any order."
       text: 
-        en: ""
+        en: "Draw 3 cards, then put 2 cards from your hand on the top of your deck in any order."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4622,7 +4736,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Night Howler Rage"
       text: 
         en: "Draw a card. Chosen character gains **Reckless** during their next turn._(They can’t quest and must challenge if able.)_"
   franchise_id: "unknown"
@@ -4680,7 +4794,7 @@
       title: 
         en: "Shuffle chosen character, item, or location into their player's deck. That player draws 2 cards."
       text: 
-        en: ""
+        en: "_(A character with cost 4 or more can {E} to sing this song for free.)_u003cbru003enShuffle chosen character, item, or location into their player's deck. That player draws 2 cards."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -4720,9 +4834,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Remember Who You Are"
       text: 
-        en: ""
+        en: "If chosen opponent has more cards in their hand than you, draw cards until you have the same number."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5140,6 +5254,13 @@
       name: "Turbo"
       title: "Königlicher Hack"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5347,6 +5468,13 @@
       name: "Snowanna Rainbeau"
       title: "Coole Konkurrenz"
       flavour: "Sie bekommt nie kalte Füße, wenn es ums Rennfahren geht."
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5389,6 +5517,13 @@
       name: "Daisy Duck"
       title: "Makellos trotz Essensschlacht"
       flavour: "Sie hat eine makellose Bilanz vorzuweisen."
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5785,6 +5920,12 @@
   abilities: 
     - type: static
       title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
+    - type: static
+      title: 
         en: "A Man among men"
       text: 
         en: "For each damaged character you have in play, you pay 2 {I} less to play this character."
@@ -5873,6 +6014,13 @@
       name: "Arthur"
       title: "Spatz-Anfänger"
       flavour: "Halt mein Junge. Nicht so stürmisch.\n—Merlin"
+  abilities: 
+    - type: static
+      title: 
+        en: "You Coward!"
+      text: 
+        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -5972,6 +6120,12 @@
       ability: "shift"
     - type: static
       title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title: 
         en: "Delightfully Wicked"
       text: 
         en: "Your damaged characters get -2 {S}."
@@ -6021,6 +6175,12 @@
       title: "Im Rennen um die Qualifikation"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
     - type: resolution
       title: 
         en: "PIXLEXIA"
@@ -6162,7 +6322,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Break Free"
       text: 
         en: "Deal 1 damage to chosen character of yours. They gain **Rush** and get +1 {S} this turn. _(They can challenge the turn they’re played.)_"
   franchise_id: "unknown"
@@ -6204,7 +6364,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Evil Comes Prepared"
       text: 
         en: "Ready chosen character of yours. They can’t quest for the rest of this turn. If a Villain character is chosen, gain 1 lore."
   franchise_id: "unknown"
@@ -6248,7 +6408,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Don't Let the Frostbite Bite"
       text: 
         en: "Ready all your characters. They can’t quest for the rest of this turn."
   franchise_id: "unknown"
@@ -6290,9 +6450,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Glimmer VS Glimmer"
       text: 
-        en: ""
+        en: "Banish chosen character of yours to banish chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6332,14 +6492,14 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Who's With Me?"
       text: 
-        en: ""
+        en: "Your characters get +2 {S} this turn. nWhenever one of your characters with **Reckless** challenges another character this turn, gain 2 lore."
     - type: resolution
       title: 
-        en: ""
+        en: "Who's With Me?"
       text: 
-        en: ""
+        en: "Your characters get +2 {S} this turn. nWhenever one of your characters with **Reckless** challenges another character this turn, gain 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6699,6 +6859,13 @@
       name: "Die Königin"
       title: "Die Grausamste von allen"
       flavour: "Sie hatte gesehen, was die Tinte bei anderen Glimmern bewirken konnte. Was könnte sie für sie bewirken?"
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6946,6 +7113,12 @@
       ability: "shift"
     - type: static
       title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
+    - type: static
+      title: 
         en: "REFLECTIONS OF VANITY"
       text: 
         en: "For each other character named The Queen you have in play, this character gets +1 {L}."
@@ -6993,6 +7166,12 @@
       title: "Der alte Geldsack"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: static
       title: 
         en: "EVERY LITTLE BIT HELPS"
@@ -7053,6 +7232,12 @@
       title: "Hingebungsvolle Mutter"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: static-triggered
       title: 
         en: "On the way"
@@ -7163,6 +7348,12 @@
       title: "Die Krone des Rats"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: resolution
       title: 
         en: "GATHERER OF THE WICKED"
@@ -7421,6 +7612,13 @@
       name: "Basil"
       title: "Geübter Detektiv"
       flavour: "Dieser Fall ist so gut wie gelöst!\n—Basil"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7678,6 +7876,12 @@
       title: "Vom Ball"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: resolution
       title: 
         en: "Ushered Into The Party"
@@ -7777,7 +7981,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Vision of the Future"
       text: 
         en: "Look at the top 5 cards of your deck. Put one into your hand and the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
@@ -7831,9 +8035,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Royal Tantrum"
       text: 
-        en: ""
+        en: "Banish any number of your items, then draw a card for each item banished this way."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7875,9 +8079,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Ever as Before"
       text: 
-        en: ""
+        en: "_(A character with cost 2 or more can {E} to sing this song for free.)_u003cbr/u003eRemove up to 2 damage from any number of chosen characters."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -7917,7 +8121,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Hide Away"
       text: 
         en: "Put chosen item or location into its player’s inkwell facedown and exerted."
   franchise_id: "unknown"
@@ -7959,7 +8163,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "All Funned Out"
       text: 
         en: "Put chosen character of yours into your inkwell facedown and exerted."
   franchise_id: "unknown"
@@ -8560,6 +8764,13 @@
       name: "Schlafmütz"
       title: "Ritter der Müdigkeit"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -8651,6 +8862,13 @@
       name: "HeiHei"
       title: "Schützender Hahn"
       flavour: "Wer ist nun der Boots-Proviant?!"
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -9512,9 +9730,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Tug-of-War"
       text: 
-        en: ""
+        en: "Choose one:u003cbru003e• Deal 1 damage to each opposing character without **Evasive**.u003cbru003e• Deal 3 damage to each opposing character with **Evasive**."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -9600,7 +9818,7 @@
       title: 
         en: "Chosen character gains **Resist** +1 and **Evasive** this turn. _(Damage dealt to them is reduced by 1. They can challenge characters with Evasive.)_"
       text: 
-        en: ""
+        en: "Chosen character gains **Resist** +1 and **Evasive** this turn. _(Damage dealt to them is reduced by 1. They can challenge characters with Evasive.)_"
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -9640,9 +9858,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Food Fight!"
       text: 
-        en: ""
+        en: "Your characters gain {E}, 1 {I} – Deal 1 damage to chosen character this turn."
   franchise_id: "unknown"
 - variants: 
     - set: ssk

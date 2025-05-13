@@ -320,6 +320,13 @@
       name: "Pluto, der Spürhund"
       title: "Loyaler Bluthund"
       flavour: "Wie mein guter alter Großvater zu sagen pflegte: Spare deine Energie für die wichtigen Momente."
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -460,6 +467,12 @@
       title: "Freche Straßenkatze"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: static-triggered
       title: 
         en: "NO THANKS NECESSARY"
@@ -629,6 +642,12 @@
       title: "Piratenkönigin"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "TELL NO TALES"
@@ -681,6 +700,12 @@
       title: "Hoffnungsvolle Träumerin"
       flavour: "Meine Familie ist wunderbar und dazu gehör nun mal auch ich …"
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static
       title: 
         en: "singer"
@@ -954,6 +979,13 @@
       name: "Bolt"
       title: "Verlässlicher Freund"
       flavour: "Superhund gegen Superholz! Das ist WAHNSINN!\n–Dino"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -999,6 +1031,13 @@
       name: "Pascal"
       title: "Gartenchamäleon"
       flavour: "Nachdem Pascal erst einmal in Archazias Blumenbeeten war, gab es keinen Weg mehr, ihn herauszubekommen."
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1207,6 +1246,12 @@
       text: 
         en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named puppy.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1252,6 +1297,13 @@
       name: "Der Prinz"
       title: "Wachsamer Verehrer"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -1669,6 +1721,19 @@
       name: "Perla"
       title: "Flinke Näherin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -2026,7 +2091,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Restoring The Heart"
       text: 
         en: "Remove up to 3 damage from chosen character or location. Draw a card."
   franchise_id: ""
@@ -2498,6 +2563,19 @@
       name: "Jago"
       title: "Riesiger spektraler Papagei"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "vanish"
+      text: 
+        en: "_(When an opponent chooses this character for an action, banish them.)_"
+      ability: "vanish"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3178,6 +3256,13 @@
       name: "Radsha"
       title: "Geisterhafter Tiger"
       flavour: "Er mag ein Gespenst sein, aber die Gefahr ist sehr real."
+  abilities: 
+    - type: static
+      title: 
+        en: "vanish"
+      text: 
+        en: "_(When an opponent chooses this character for an action, banish them.)_"
+      ability: "vanish"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -3224,6 +3309,12 @@
       title: "Entspannt"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: static
       title: 
         en: "I'M LOVING THIS"
@@ -3328,6 +3419,12 @@
       title: "Scharfsichtiges Rentier"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
     - type: resolution
       title: 
         en: "Formidable Glare"
@@ -3379,6 +3476,12 @@
       title: "Boshafter Rabe"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static
       title: 
         en: "challenger"
@@ -3490,6 +3593,12 @@
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Yzma.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "BACK TO WORK"
@@ -3656,6 +3765,12 @@
       title: "Panisches Lama"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "WE CAN FIGURE THIS OUT"
@@ -3709,6 +3824,12 @@
       title: "Eisbrecherin"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: resolution
       title: 
         en: "WINTER AMBUSH"
@@ -4075,6 +4196,12 @@
       ability: "shift"
     - type: static
       title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title: 
         en: "resist"
       text: 
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
@@ -4120,7 +4247,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Magical Maneuvers"
       text: 
         en: "Return chosen character of yours to your hand. Exert chosen character."
   franchise_id: ""
@@ -4166,7 +4293,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "This Is My Family"
       text: 
         en: "(A character with cost 2 or more can {E} to sing this song for free.)nGain 1 lore. Draw a card."
   franchise_id: ""
@@ -4278,7 +4405,7 @@
         en: "Exert all opposing characters."
     - type: floating-triggered
       title: 
-        en: ""
+        en: "Restoring The Crown"
       text: 
         en: "Whenever one of your characters banishes another character in a challenge this turn, gain 2 lore."
   franchise_id: ""
@@ -4515,6 +4642,13 @@
       name: "Thomas O’Malley"
       title: "Charmanter Kater"
       flavour: "Es gibt nichts, aus dem er sich nicht herausreden kann."
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -5479,6 +5613,12 @@
       title: "Hinterhältige Fledermaus"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "TOOK CARE OF EVERYTHING"
@@ -6179,7 +6319,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Ink Geyser"
       text: 
         en: "Each player exerts all the cards in their inkwell. Then each player with more than 3 cards in their inkwell returns cards at random from their inkwell to their hand until they have 3 cards in their inkwell."
   franchise_id: ""
@@ -6424,6 +6564,12 @@
   abilities: 
     - type: static
       title: 
+        en: "You Coward!"
+      text: 
+        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
+      ability: "gain-ability"
+    - type: static
+      title: 
         en: "resist"
       text: 
         en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
@@ -6473,6 +6619,12 @@
       title: "Ohne Augenklappe"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
     - type: static
       title: 
         en: "Dexterous Lunge"
@@ -6959,6 +7111,12 @@
       title: "Erforscherin von Inseln"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "ADVENTUROUS SPIRIT"
@@ -7008,6 +7166,13 @@
       name: "Das Phantom"
       title: "Schattenhafte Gestalt"
       flavour: "Niemand weiß, wer oder was er wirklich ist oder was er vorhat."
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7214,6 +7379,12 @@
       title: "Extremsportler"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "STAR POWER"
@@ -7322,6 +7493,12 @@
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Mulan.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "EXCEPTIONAL LEADER"
@@ -7620,7 +7797,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "We've Got Company!"
       text: 
         en: "Ready all your characters. They gain Reckless this turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
@@ -7664,7 +7841,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Out Of Order"
       text: 
         en: "Banish chosen character."
   franchise_id: ""
@@ -7752,9 +7929,9 @@
   abilities: 
     - type: static-triggered
       title: 
-        en: ""
+        en: "Unconventional Tool"
       text: 
-        en: ""
+        en: "FIXED IN NO TIME When this item is banished, you pay 2 {I} less for the next item you play this turn."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7797,9 +7974,9 @@
   abilities: 
     - type: static-triggered
       title: 
-        en: ""
+        en: "Maurice's Machine"
       text: 
-        en: ""
+        en: "BREAK DOWN When this item is banished, you may return an item card with cost 2 or less from your discard to your hand."
   franchise_id: ""
 - variants: 
     - set: arc
@@ -7902,6 +8079,12 @@
       title: "Nachrichtenreporterin"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: static
       title: 
         en: "BREAKING STORY"
@@ -8486,6 +8669,12 @@
       title: "Kreative Denkerin"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: activated
       title: 
         en: "KEY TO THE PUZZLE"
@@ -8780,6 +8969,13 @@
       name: "Robin Hood"
       title: "Auge fürs Detail"
       flavour: "Es gibt viele Legenden und Geschichten über Robin Hood. Jede ist anders.\n–Allan von Dale"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8876,6 +9072,19 @@
       name: "Lady Gluck"
       title: "Beschützende Vertraute"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: ""
 - variants: 
     - set: arc
@@ -8973,6 +9182,12 @@
       title: "Expeditionskoch"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: resolution
       title: 
         en: "I GOT YOUR FOUR BASIC FOOD GROUPS"
@@ -9024,6 +9239,12 @@
       title: "Aufgerüsteter Roboter"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
     - type: resolution
       title: 
         en: "ADVANCED SCANNER"
@@ -9622,6 +9843,12 @@
   abilities: 
     - type: static
       title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
+    - type: static
+      title: 
         en: "resist"
       text: 
         en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
@@ -10184,6 +10411,12 @@
       title: "Wächter-Jaguar"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: static-triggered
       title: 
         en: "You must be brave"
@@ -10363,7 +10596,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Restoring Atlantis"
       text: 
         en: "Your characters can't be challenged until the start of your next turn."
   franchise_id: ""
@@ -10407,7 +10640,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Double Trouble"
       text: 
         en: "Deal 1 damage to up to 2 chosen characters."
   franchise_id: ""

@@ -49,9 +49,9 @@
   abilities: 
     - type: static
       title: 
-        en: "restriction"
+        en: "OH, GOSH"
       text: 
-        en: ""
+        en: "This character can't quest unless you have another Seven Dwarfs character in play."
       ability: "restriction"
   franchise_id: "unknown"
 - variants: 
@@ -605,6 +605,13 @@
       name: "ごきげん"
       title: "ほがらか"
       flavour: "友だちに選ぶなら、まー特に彼だね。"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -835,6 +842,13 @@
       name: "ムーラン"
       title: "自由な旅人"
       flavour: "ありのままの自分でいられるなら、何もかもがより良く見える。"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -1585,7 +1599,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Hold Still"
       text: 
         en: "Remove up to 4 damage from chosen character."
   franchise_id: "unknown"
@@ -1633,7 +1647,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Last Stand"
       text: 
         en: "Banish chosen character who was challenged this turn."
   franchise_id: "unknown"
@@ -1787,9 +1801,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Zero To Hero"
       text: 
-        en: ""
+        en: "_A character with cost 2 or more can {E} to sing this song for free.)_nnCount the number of characters you have in play. You pay that amount of {I} less for the next character you play this turn."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2004,6 +2018,12 @@
       title: "良い行いに報いる者"
       flavour: "「ゼペットの願いが叶うかどうかは、今後のあなた次第」\n― ブルー・フェアリー"
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "Ethereal Glow"
@@ -2106,6 +2126,13 @@
       name: "ファシリエ"
       title: "抜け目ないペテン師"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2449,6 +2476,12 @@
       title: "ピノキオの良心"
       flavour: "「靴だってピッカピカだし！」"
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: resolution
       title: 
         en: "THAT STILL, SMALL VOICE"
@@ -2562,6 +2595,12 @@
       title: "キツネ"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
     - type: resolution
       title: 
         en: "Chasing the Rabbit"
@@ -2632,6 +2671,12 @@
       title: "紫の竜"
       flavour: "「竜は反則？ピンクはね。でもあたしゃ紫だよ！」"
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: resolution
       title: 
         en: "I win win"
@@ -3111,6 +3156,18 @@
   abilities: 
     - type: static
       title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
+    - type: static
+      title: 
         en: "Tip Toe"
       text: 
         en: "Your other characters with **Rush** gain **Evasive**."
@@ -3552,7 +3609,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "I'm Stuck!"
       text: 
         en: "Chosen exerted character can't ready at the start of their next turn."
   franchise_id: "unknown"
@@ -3606,9 +3663,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Legend of the Sword in the Stone"
       text: 
-        en: ""
+        en: "_(A character with cost 2 or more can {E} to sing this song for free.)_nnChosen character gains **Challenger** +3 this turn. _(They get +3 {S} while challenging.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4202,6 +4259,12 @@
       text: 
         en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named cheshire cat.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: activated
       title: 
         en: "Wicked Smile"
@@ -4429,6 +4492,12 @@
       title: "占い師"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "You're in my World"
@@ -4594,6 +4663,12 @@
       text: 
         en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named flynn rider.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static
       title: 
         en: "One Last, Big Score"
@@ -4928,6 +5003,12 @@
       title: "わるもん"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: static-triggered
       title: 
         en: "Take That!"
@@ -4994,6 +5075,12 @@
         en: "I Sentence You"
       text: 
         en: "Whenever your opponent discards 1 or more cards, you may draw a card for each card discarded."
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5097,6 +5184,13 @@
       name: "ラティガン"
       title: "犯罪王"
       flavour: "「今回は最高にうまく行ったぞ！まもなくすべてが私のものになる。富も…権力も…この王国全部が私にひれ伏すのだ！」"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5145,6 +5239,13 @@
       name: "レイ"
       title: "お気楽ホタル"
       flavour: "彼の言葉はわかりにくいかもしれないが、心はそうじゃない。"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5393,9 +5494,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Bounce"
       text: 
-        en: ""
+        en: "Return chosen character of yours to your hand to return another chosen character to their player's hand."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5445,14 +5546,14 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Hypnotize"
       text: 
-        en: ""
+        en: "Each opponent chooses and discards a card. Draw a card."
     - type: resolution
       title: 
-        en: ""
+        en: "Hypnotize"
       text: 
-        en: ""
+        en: "Each opponent chooses and discards a card. Draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5550,9 +5651,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Pack Tactics"
       text: 
-        en: ""
+        en: "Gain 1 lore for each damaged character opponents have in play."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5598,9 +5699,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Ring The Bell"
       text: 
-        en: ""
+        en: "Banish chosen damaged character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5846,6 +5947,12 @@
       title: "二度とごめんだ！"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "PHOOEY!"
@@ -5899,6 +6006,13 @@
       name: "フェリシア"
       title: "いつも腹ペコ"
       flavour: "「追いかけっこは普通こういう風にはならないものだろう、ドーソン？」\n― バジル"
+  abilities: 
+    - type: static
+      title: 
+        en: "You Coward!"
+      text: 
+        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -5947,6 +6061,13 @@
       name: "フィジット"
       title: "ラティガンの手下"
       flavour: "キレ者の手下が必要な時に。"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6225,6 +6346,13 @@
       name: "ミニーマウス"
       title: "シックなサーファー"
       flavour: "「これは私の楽しいことリストのトップ１０に入るわ！」"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6297,6 +6425,12 @@
       text: 
         en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named minnie mouse.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
     - type: static-triggered
       title: 
         en: "Look at This Stuff"
@@ -6453,6 +6587,13 @@
       name: "ムーラン"
       title: "訓練中の兵士"
       flavour: "「何とかしなければ！」"
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6557,6 +6698,13 @@
       name: "ハートの女王"
       title: "衝動的な支配者"
       flavour: "フラッドの中のロアの輝きが女王の目をとらえた。「呪文書だ！」女王は叫んだ。「取り逃がすんじゃないよ！」"
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -6881,6 +7029,12 @@
       title: "凶悪な謀り屋"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
     - type: static-triggered
       title: 
         en: "Daddy Isn't Here to Save You"
@@ -7056,6 +7210,13 @@
       name: "トゥクトゥク"
       title: "ぶちかます大玉"
       flavour: "良き相棒にして愛ボール。"
+  abilities: 
+    - type: static
+      title: 
+        en: "You Coward!"
+      text: 
+        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7107,9 +7268,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Go the Distance"
       text: 
-        en: ""
+        en: "_(A character with cost 2 or more can {E} to sing this song for free.)_nnReady chosen damaged character of yours. They can't quest for the rest of this turn. Draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7163,7 +7324,7 @@
       title: 
         en: "Deal 2 damage to chosen character of yours to deal 2 damage to another chosen character."
       text: 
-        en: ""
+        en: "_A character with cost 2 or more can {E} to sing this song for free.)_nnDeal 2 damage to chosen character of yours to deal 2 damage to another chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7211,9 +7372,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "The Most Diabolical Scheme"
       text: 
-        en: ""
+        en: "_(A character with cost 3 or more can {E} to sing this song for free.)_nnBanish chosen Villain of yours to banish chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7313,9 +7474,9 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "You Can Fly"
       text: 
-        en: ""
+        en: "_(A character with cost 2 or more can {E} to sing this song for free.)_nnChosen character gains **Evasive** until the start of your next turn. _Only characters with Evasive can challenge them.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7411,7 +7572,7 @@
       title: 
         en: "effects"
       text: 
-        en: ""
+        en: "Your characters with **Evasive** get +1 {S}."
       ability: "effects"
   franchise_id: "unknown"
 - variants: 
@@ -7649,6 +7810,13 @@
       name: "バジル"
       title: "ベーカー街の探偵"
       flavour: "「何と独創的な装置だ！もしその光がこれらを通して屈折しているのなら、下の方のどこかに映像が現われるに違いない」"
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7800,6 +7968,12 @@
       text: 
         en: "Your other characters gain **Resist** +1"
       ability: "gain-ability"
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
     - type: static
       title: 
         en: "Shift 3"
@@ -8031,6 +8205,13 @@
       name: "デューク・ウィーゼルトン"
       title: "ちんけなイカサマ師"
       flavour: "「<ウィー>ゼルトンだ！」"
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -8809,6 +8990,13 @@
       name: "ノック"
       title: "水の精霊"
       flavour: "捉え難きこと水の如し。"
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9024,7 +9212,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: ""
+        en: "Launch"
       text: 
         en: "Banish chosen item of yours to deal 5 damage to chosen character."
   franchise_id: "unknown"
@@ -10473,6 +10661,12 @@
   abilities: 
     - type: static
       title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
+    - type: static
+      title: 
         en: "Blades"
       text: 
         en: "This character can challenge ready characters."
@@ -10799,6 +10993,12 @@
       title: "決してあきらめない"
       flavour: ""
   abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
     - type: static
       title: 
         en: "resist"

@@ -1,5 +1,6 @@
 package lorcanito
 
+import eu.codlab.files.VirtualFile
 import eu.codlab.http.Configuration
 import eu.codlab.http.createClient
 import eu.codlab.lorcana.raw.SetDescription
@@ -12,7 +13,7 @@ import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.jsonArray
 
-class LoadLorcanito {
+object LoadLorcanito {
     private lateinit var internalCards: List<LorcanitoCard>
     private val json = Json {
         prettyPrint = true
@@ -39,10 +40,17 @@ class LoadLorcanito {
         it.parseToJsonElement(left)
     }
 
-    suspend fun load() {
+    suspend fun load(): LoadLorcanito {
         val cards = loadFromRemote()
 
+        val temp = VirtualFile(VirtualFile.Root, "lorcanito.json")
         val actualCards = findCards(cards)?.jsonArray
+        if (true) {
+            temp.write(json.encodeToString(actualCards).toByteArray())
+        } else {
+            temp.write(json.encodeToString(cards.jsonArray).toByteArray())
+        }
+        println(temp.absolutePath)
 
         val result = json.encodeToString(actualCards)
         val finalCards: List<LorcanitoCard> = json.decodeFromString(result)
@@ -50,10 +58,36 @@ class LoadLorcanito {
         finalCards.forEach { cardMap["${it.set}_${it.number}"] = it }
 
         internalCards = finalCards
+        return this
+    }
+
+    /**
+     * Unmap abilities or links like $5:props:children:props:children:1:props:loading:props:cards:ID:member:ID:member
+     */
+    fun unmapLink(link: String): Triple<Int, Int, String?>? {
+        if(!::internalCards.isInitialized) return null
+        val cleaned =
+            link.replace("\$5:props:children:props:children:1:props:loading:props:cards:", "")
+        val split = cleaned.split(":")
+        println(split)
+        val cardId = split[0].toInt()
+        val elementKey = split[1] // unused here, always abilities
+        val subItem = split[2].toInt()
+        val reference = split.getOrNull(3)
+
+        return Triple(cardId, subItem, reference)
     }
 
     fun cards(): List<LorcanitoCard> {
         return internalCards
+    }
+
+    fun card(index: Int): LorcanitoCard? {
+        if(!::internalCards.isInitialized) return null
+
+        if (internalCards.size <= index || index < 0) return null
+
+        return internalCards[index]
     }
 
     fun card(set: SetDescription, number: Int): LorcanitoCard? {
