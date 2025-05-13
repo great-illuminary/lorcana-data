@@ -1,0 +1,4 @@
+package lorcanito
+
+class FallbackValues {
+}
