@@ -70,121 +70,96 @@ println("This will give you ${tfc.size} = 204 cards")
 
 # Cards
 
+The following is the definition for the Card, which are variant specific
 The cards are defined in the [data folder](./data/)
 
 The model is as the following :
 
 ```
-lore: int?
-cost: int
-inkwell: int
-attack: int
-defence: int
-move_cost: int?
-color: amber|amethyst|emerald|ruby|sapphire|steel
-type: string
-# in the regular raw cards, this will be
-classifications: string[]?
-# in the virtual cards
-classifications: ClassificationHolder[]? # slug, en, fr, de
-illustrator: string
-languages:
-  key:
-    name: string
-    title: string?
-    flavour: string?
-franchise_id: string
-third_party:
-  card_market: string?
-  tcg_player: string?
-
-# in the "cards" output, it will be the actual abilities (translations + values)
-actions: string[], it can be mapped to the following abilities list
-
-# in case of condensed cards:
-variants: []
-  set: string
-  id: int
-  rarity: common|uncommon|rare|super_rare|enchanted
-  illustrator: string?
-  erratas: Map<Lang, Erratas>?
-    lang: Erratas
-      - classifications: ClassificationHolder[]? # slug, en, fr, de
-# in case of regular flatten version:
-number: int
-setCode: string
-```
-
-Note : to accomodate the condensed version of cards, the third_party links will
-move in the variants as the URLs will depend on the variant.
-
-# Abilities
-
-Abilities are set in the [abilities.json file](./data/abilities.json)
-And follow the below structure :
-
-```
-name:
-  logic: string, the logic that can be used to automate the effects
-  values:
-    _optional_
-    song_cost: int?, the cost of the song
-    cost: int?
-    count: int?
-    damages: int?
-  title:
-    _optional_
-    en: the english translation
-    fr: the french translation
-    de: the german translation
-  text:
-    en: the english translation
-    fr: the french translation
-    de: the german translation
-```
-
-or as json
-
-```
-{
-  "name": {
-    "logic": "",
-    "values": {
-      "new_cost": 0
-    },
-    "text": {
-      "en": "",
-      "fr": "",
-      "de": "",
-    }
-  }
+interface Card {
+  cost: int
+  inkwell: boolean
+  colors: InkColor[]
+  type: CardType
+  classification: ClassificationHolder[]
+  attack: int?
+  defence: int?
+  move_cost: int?
+  lore: int?
+  languages: CardTranslations
+  abilities: Ability[]
+  set: SetDescription
+  number: int
+  illustrator: string
+  dreamborn: string
+  ravensburger: string
+  rarity: VariantRarity
+  franchise: Franchise
+  third_party: CardThirdParty
 }
 ```
 
-# Franchises
+# VirtualCards
 
-Franchises are set in the [franchises.json file](./data/franchises.json)
-And follow the below structure :
+The VirtualCard is an object which contains all the card information + every specific variant info
+in a sub-array which can then be used to make bijection on the cards themselves
+The model is as the following :
 
+```typescript
+interface VirtualCard {
+  cost: int
+  inkwell: boolean
+  colors: InkColor[]
+  type: CardType
+  classification: ClassificationHolder[]
+  attack: int?
+  defence: int?
+  move_cost: int?
+  lore: int?
+  languages: CardTranslations
+  abilities: Ability[]
+  variants:
+    - set: SetDescription
+      number: int
+      illustrator: string
+      dreamborn: string
+      ravensburger: string
+      rarity: VariantRarity
+  franchise: Franchise
+  third_party: CardThirdParty
+}
 ```
-name:
-  translations:
-    en: the english translation
-    fr: the french translation
-    de: the german translation
+
+# Ability
+
+```typescript
+interface Ability {
+  type: AbilityType,
+  title: TranslationHolder?,
+  text: TranslationHolder?,
+  ability: string?
+}
 ```
 
-or as json
+## TranslationHolder & CardTranslations
 
+Those contains information which are country specific :
+
+```typescript
+interface TranslationHolder {
+  [countryCode: string]: string? // "en" should always be there
+}
 ```
-{
-  "name": {
-    "translations": {
-      "en": "",
-      "fr": "",
-      "de": "",
-    }
-  }
+
+```typescript
+interface CardTranslations {
+  [code: string]: CardTranslation // "en" should always be there
+}
+
+interface CardTranslation {
+  name: string,
+  title: string?,
+  flavor: string?
 }
 ```
 
@@ -194,46 +169,8 @@ Each card, description, annotations can use placeholders, those are described in
 
 It consists of a map of placeholder and their representations. Currently only for utf
 
-
 ```
 {
   "name": "value"
 }
-```
-
-# Improvements !
-
-Currently, the abilities is made in a really dumb way but with reference to overriden ability if required
-There were 2 obvious solutions, I chose the later
-
-- make singer in abilities while removing singer_4
-- making each cards set the values to use
-
-or
-
-- make singer in abilities to be by default with 5
-- add ability for ... abilities to be either a regular ability or just have new "values" holder + "reference" name for the ability to use
-
-```
-{
-  "singer": {
-    "logic": "",
-    "values": {
-      "cost": 0
-    },
-    "text": {
-      "en": "",
-      "fr": "",
-      "de": "",
-    }
-  }
-} | {
-  "singer_4": {
-    "reference": "singer"
-    "values": {
-      "cost": 0
-    }
-  }
-}
-
 ```

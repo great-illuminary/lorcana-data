@@ -4,6 +4,7 @@ import eu.codlab.lorcana.abilities.Ability
 import eu.codlab.lorcana.cards.CardThirdParty
 import eu.codlab.lorcana.cards.CardTranslations
 import eu.codlab.lorcana.cards.CardType
+import eu.codlab.lorcana.cards.ClassificationHolder
 import eu.codlab.lorcana.cards.InkColor
 import eu.codlab.lorcana.cards.VariantRarity
 import eu.codlab.lorcana.franchises.Franchise
@@ -19,7 +20,9 @@ data class Card(
     val inkwell: Boolean = false,
     val attack: Int? = null,
     val defence: Int? = null,
+    @Deprecated("Use colors")
     val color: InkColor = InkColor.Amber,
+    val colors: List<InkColor> = emptyList(),
     val type: CardType,
     val illustrator: String = "",
     val number: Int,
@@ -28,11 +31,16 @@ data class Card(
     val rarity: VariantRarity,
     val languages: CardTranslations,
     val abilities: List<Ability>,
+    @Deprecated("set")
     @SerialName("set_code")
     val setCode: SetDescription,
+    val set: SetDescription,
     val franchise: Franchise,
     @SerialName("third_party")
-    val thirdParty: CardThirdParty? = null
+    val thirdParty: CardThirdParty? = null,
+    @SerialName("move_cost")
+    val moveCost: Int? = null,
+    val classifications: List<ClassificationHolder>
 ) {
     @Deprecated("use abilities only")
     val actions: List<Ability> = abilities
@@ -50,6 +58,7 @@ fun VirtualCard.toCard(set: SetDescription): List<Card>? {
             attack = attack,
             defence = defence,
             color = color,
+            colors = colors,
             type = type,
             illustrator = it.illustrator ?: illustrator,
             number = it.id,
@@ -57,10 +66,13 @@ fun VirtualCard.toCard(set: SetDescription): List<Card>? {
             languages = languages,
             abilities = abilities,
             setCode = set,
+            set = set,
             franchise = franchise,
             thirdParty = thirdParty,
             dreamborn = it.dreamborn,
-            ravensburger = it.ravensburger
+            ravensburger = it.ravensburger,
+            moveCost = moveCost,
+            classifications = classifications,
         )
     }
 }
