@@ -7,13 +7,13 @@ object FallbackValues {
         card: RawVirtualCard,
         lorcanitoAbility: LorcanitoAbility
     ): Pair<String?, String?> {
-        if (lorcanitoAbility.text != null) return null to null
+        if (lorcanitoAbility.text == null) return null to null
 
         val found = list.find { triple ->
             null != card.variants.find { it.ravensburger.en == triple.first }
-        } ?: return null to null
+        }
 
-        return found.second to found.third
+        return found?.let { it.second to it.third } ?: (null to null)
     }
 
     val list = listOf(
@@ -36,7 +36,8 @@ object FallbackValues {
         Triple(
             "88/204 EN 6",
             "YOU ARE A REALLY HOT DANCER",
-            "When you play this character, chosen character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)"
+            "When you play this character, chosen character gains Evasive until the start of " +
+                    "your next turn. (Only characters with Evasive can challenge them.)"
         ),
         Triple(
             "14/204 EN 3",
@@ -51,7 +52,8 @@ object FallbackValues {
         Triple(
             "77/204 EN 4",
             "SNEAKY IDEA",
-            "When you play this character, chosen opposing character gains **Reckless** during their next turn. _(They can't quest and must challenge if able.)_"
+            "When you play this character, chosen opposing character gains **Reckless** " +
+                    "during their next turn. _(They can't quest and must challenge if able.)_"
         ),
         Triple(
             "7/204 EN 4",

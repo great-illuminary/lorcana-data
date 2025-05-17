@@ -64,14 +64,15 @@ object LoadLorcanito {
     /**
      * Unmap abilities or links like $5:props:children:props:children:1:props:loading:props:cards:ID:member:ID:member
      */
+    @Suppress("MagicNumber")
     fun unmapLink(link: String): Triple<Int, Int, String?>? {
-        if(!::internalCards.isInitialized) return null
+        if (!::internalCards.isInitialized) return null
         val cleaned =
             link.replace("\$5:props:children:props:children:1:props:loading:props:cards:", "")
         val split = cleaned.split(":")
         println(split)
         val cardId = split[0].toInt()
-        val elementKey = split[1] // unused here, always abilities
+        // val elementKey = split[1] - unused here, always abilities
         val subItem = split[2].toInt()
         val reference = split.getOrNull(3)
 
@@ -83,11 +84,13 @@ object LoadLorcanito {
     }
 
     fun card(index: Int): LorcanitoCard? {
-        if(!::internalCards.isInitialized) return null
+        if (!::internalCards.isInitialized) return null
 
-        if (internalCards.size <= index || index < 0) return null
-
-        return internalCards[index]
+        return if (index >= 0 && index < internalCards.size) {
+            internalCards[index]
+        } else {
+            null
+        }
     }
 
     fun card(set: SetDescription, number: Int): LorcanitoCard? {
