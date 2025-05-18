@@ -7,7 +7,7 @@ object FallbackValues {
         card: RawVirtualCard,
         lorcanitoAbility: LorcanitoAbility
     ): Pair<String?, String?> {
-        if (lorcanitoAbility.text == null) return null to null
+        if (lorcanitoAbility.text != null) return null to null
 
         val found = list.find { triple ->
             null != card.variants.find { it.ravensburger.en == triple.first }

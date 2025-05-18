@@ -1035,12 +1035,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "ADORING FANS",
                 "text": "Whenever you play a character with cost 2 or less, you may exert them to draw a card.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -1068,6 +1070,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "ADORING FANS",
                     "resolveEffectsIndividually": "$undefined",
@@ -1648,12 +1651,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "$undefined",
                 "text": "$undefined",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -1679,6 +1684,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
@@ -1958,12 +1964,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "$undefined",
                 "text": "$undefined",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -1989,6 +1997,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
@@ -4452,12 +4461,14 @@
             },
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Misdirection",
                 "text": "Whenever you play an action, chosen opposing character can't quest during their next turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -4483,6 +4494,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Misdirection",
                     "resolveEffectsIndividually": "$undefined",
@@ -5510,12 +5522,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "THAT'S NO BLIZZARD",
                 "text": "Whenever you play a character named Anna, ready this character. This character can't quest for the rest of this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -5539,6 +5553,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "THAT'S NO BLIZZARD",
                     "resolveEffectsIndividually": "$undefined",
@@ -6640,12 +6655,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "Look at This Stuff",
                 "text": "Whenever you play an item, you may ready this character.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -6665,6 +6682,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Look at This Stuff",
                     "resolveEffectsIndividually": "$undefined",
@@ -7365,12 +7383,14 @@
             },
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "$undefined",
                 "text": "$undefined",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -7390,6 +7410,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
@@ -8001,6 +8022,7 @@
                         "ability": "support",
                         "modifier": "add",
                         "duration": "turn",
+                        "until": true,
                         "target": "$5:props:children:props:children:1:props:loading:props:cards:23:abilities:0:effects:0:target"
                     }
                 ]
@@ -8028,12 +8050,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "Consider the Coconut",
                 "text": "Whenever you play a character, you may remove up to 2 damage from chosen character.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -8057,6 +8081,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Consider the Coconut",
                     "resolveEffectsIndividually": "$undefined",
@@ -12138,12 +12163,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "Nursemaid",
                 "text": "Whenever you play a Floodborn character, you may remove all damage from chosen character.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -12173,6 +12200,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Nursemaid",
                     "resolveEffectsIndividually": "$undefined",
@@ -12420,12 +12448,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "AH-CHOO!",
                 "text": "Whenever you play this character or another Seven Dwarfs character, you may give chosen character -1 {S} this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -12451,6 +12481,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "AH-CHOO!",
                     "resolveEffectsIndividually": "$undefined",
@@ -12830,6 +12861,10 @@
                                     {
                                         "filter": "owner",
                                         "value": "self"
+                                    },
+                                    {
+                                        "filter": "type",
+                                        "value": "character"
                                     }
                                 ]
                             }
@@ -12873,12 +12908,14 @@
             "$5:props:children:props:children:1:props:loading:props:cards:45:abilities:0",
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "Ethereal Glow",
                 "text": "Whenever you play a Floodborn character, you may draw a card.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -12908,6 +12945,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Ethereal Glow",
                     "resolveEffectsIndividually": "$undefined",
@@ -13214,12 +13252,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "Just Leave It To Me",
                 "text": "Whenever you play a character named Cinderella, you may exert chosen character.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -13247,6 +13287,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Just Leave It To Me",
                     "resolveEffectsIndividually": "$undefined",
@@ -14323,13 +14364,14 @@
             "sorcerer",
             "villain"
         ],
-        "text": "**Shift** 4 _You may pay 4 {I} to play this on top of one of your characters named Yzma.)_nn**CRUEL IRONY** When you play this character, shuffle another chosen character card into their player's deck. That player draws 2 cards.",
+        "text": "**Shift** 4nn**CRUEL IRONY** When you play this character, shuffle another chosen character card into their player's deck. That player draws 2 cards.",
         "type": "character",
         "abilities": [
             {
                 "type": "resolution",
-                "name": "Crue Irony",
+                "name": "Cruel Irony",
                 "text": "When you play this character, shuffle another chosen character card into their player's deck. That player draws 2 cards.",
+                "dependentEffects": true,
                 "effects": [
                     {
                         "type": "shuffle",
@@ -14634,12 +14676,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Squeak",
                 "text": "Whenever you play a Floodborn character, each opponent chooses and discards a card. à Whenever you play a Floodborn character, if you used Shift to play them, each opponent chooses and discards a card.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": true,
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -14669,6 +14713,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "opponent",
                     "name": "Squeak",
                     "resolveEffectsIndividually": "$undefined",
@@ -14897,6 +14942,7 @@
                     "optional": true,
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "draw",
@@ -14932,6 +14978,7 @@
                     "optional": true,
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         "$5:props:children:props:children:1:props:loading:props:cards:187:abilities:0:effects:1"
                     ],
@@ -14965,12 +15012,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Startled Awake",
                 "text": "Whenever you play an action, this character gets +2 {S} this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -14996,6 +15045,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Startled Awake",
                     "resolveEffectsIndividually": "$undefined",
@@ -15561,12 +15611,14 @@
             "$5:props:children:props:children:1:props:loading:props:cards:68:abilities:0",
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Take That!",
                 "text": "Whenever you play an action, this character gets +2 {S} this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -15592,6 +15644,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Take That!",
                     "resolveEffectsIndividually": "$undefined",
@@ -16129,12 +16182,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Easy Street",
                 "text": "Whenever you play a Floodborn character, each opponent loses 1 lore.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -16164,6 +16219,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Easy Street",
                     "resolveEffectsIndividually": "$undefined",
@@ -16384,12 +16440,14 @@
             "$5:props:children:props:children:1:props:loading:props:cards:45:abilities:0",
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Look at This Stuff",
                 "text": "Whenever you play an item, you may ready this character.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -16423,6 +16481,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Look at This Stuff",
                     "resolveEffectsIndividually": "$undefined",
@@ -17040,12 +17099,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Enegetic",
                 "text": "Whenever you play an action, this character gets +2 {S} this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -17071,6 +17132,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Enegetic",
                     "resolveEffectsIndividually": "$undefined",
@@ -17986,12 +18048,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "Tidy Up",
                 "text": "Whenever you play a Floodborn character, you may put the top card of your deck into your inkwell facedown and exerted.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -18021,6 +18085,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Tidy Up",
                     "resolveEffectsIndividually": "$undefined",
@@ -18570,6 +18635,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         "$5:props:children:props:children:1:props:loading:props:cards:187:abilities:0:effects:1"
                     ],
@@ -18620,6 +18686,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "attribute",
@@ -18722,12 +18789,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Insubordination!",
                 "text": "Whenever you play a Floodborn character, deal 1 damage to each opposing character.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -18757,6 +18826,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Insubordination!",
                     "resolveEffectsIndividually": "$undefined",
@@ -20400,12 +20470,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "Looking For This?",
                 "text": "Whenever you play another item, you may pay 1 {I} to draw a card.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -20425,6 +20497,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Looking For This?",
                     "resolveEffectsIndividually": "$undefined",
@@ -20653,12 +20726,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "Training",
                 "text": "Whenever you play a character with 4 {S} or more, you may pay 1 {I} to draw a card.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -20686,6 +20761,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Training",
                     "resolveEffectsIndividually": "$undefined",
@@ -20776,7 +20852,14 @@
                 "name": "Boss’s Orders",
                 "text": "Chosen character gains **Support** this turn",
                 "effects": [
-                    "$5:props:children:props:children:1:props:loading:props:cards:164:abilities:0:effects:0"
+                    {
+                        "type": "ability",
+                        "ability": "support",
+                        "modifier": "add",
+                        "duration": "turn",
+                        "until": true,
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:23:abilities:0:effects:0:target"
+                    }
                 ]
             }
         ],
@@ -22083,13 +22166,21 @@
         "type": "character",
         "abilities": [
             {
-                "type": "resolution",
+                "type": "activated",
+                "name": "**BARK**",
+                "text": "{E} – Chosen character gets -2 {S} until the start of your next turn.",
+                "costs": [
+                    {
+                        "type": "exert"
+                    }
+                ],
                 "effects": [
                     {
                         "type": "attribute",
                         "attribute": "strength",
                         "amount": 2,
                         "duration": "next_turn",
+                        "until": true,
                         "modifier": "subtract",
                         "target": "$5:props:children:props:children:1:props:loading:props:cards:23:abilities:0:effects:0:target"
                     }
@@ -22311,6 +22402,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "heal",
@@ -22943,12 +23035,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "In Search Of Aurora",
                 "text": "Whenever you play a character named Maleficent, you may look at the top card of your deck. Put it on either the top or the bottom of your deck.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -22972,6 +23066,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "In Search Of Aurora",
                     "resolveEffectsIndividually": "$undefined",
@@ -23891,6 +23986,7 @@
                     "optional": true,
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "draw",
@@ -25306,12 +25402,14 @@
             "$5:props:children:props:children:1:props:loading:props:cards:45:abilities:0",
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "INSPIRING VOICE",
                 "text": "Whenever you play a song, chosen character of yours gains **Evasive** until the start of your next turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -25337,6 +25435,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "INSPIRING VOICE",
                     "resolveEffectsIndividually": "$undefined",
@@ -25641,12 +25740,14 @@
             },
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "TAKE THE HELM",
                 "text": "Whenever you play a location, this character may move there for free.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -25672,6 +25773,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "TAKE THE HELM",
                     "resolveEffectsIndividually": "$undefined",
@@ -27355,12 +27457,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "THIS GOING TO BE GOOD",
                 "text": "Whenever you play a song, you may put the top card of your deck into your inkwell facedown and exerted.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -27386,6 +27490,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "THIS GOING TO BE GOOD",
                     "resolveEffectsIndividually": "$undefined",
@@ -30285,12 +30390,14 @@
             },
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "**ENTOURAGE**",
                 "text": "Whenever you play a character with **Bodyguard**, you may remove up to 2 damage from chosen character.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -30310,6 +30417,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "**ENTOURAGE**",
                     "resolveEffectsIndividually": "$undefined",
@@ -32260,12 +32368,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "**I WANT MORE**",
                 "text": "Whenever you play a song, you may draw a card, then choose and discard a card.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -32291,6 +32401,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "**I WANT MORE**",
                     "resolveEffectsIndividually": true,
@@ -32381,12 +32492,14 @@
             },
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "**AMPLIFIED VOICE**",
                 "text": "Whenever you play a song, you may pay 2 {I} to deal 3 damage to chosen character.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -32412,6 +32525,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "**AMPLIFIED VOICE**",
                     "resolveEffectsIndividually": "$undefined",
@@ -33302,6 +33416,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "modal",
@@ -34408,12 +34523,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Icy Defense",
                 "text": "Whenever you play a character, they gain **Resist** +1 until the start of your next turn. _(Damage dealt to them is reduced by 1.)_",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -34437,6 +34554,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Icy Defense",
                     "resolveEffectsIndividually": "$undefined",
@@ -34774,6 +34892,7 @@
                     "optional": false,
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "lore",
@@ -35038,12 +35157,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "**EN GAWRSH!**",
                 "text": "Whenever you play a character with **Bodyguard**, ready this character. He can't quest for the rest of this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -35063,6 +35184,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "**EN GAWRSH!**",
                     "resolveEffectsIndividually": "$undefined",
@@ -37025,6 +37147,7 @@
                         "attribute": "strength",
                         "amount": {
                             "dynamic": true,
+                            "excludeSelf": true,
                             "filterMultiplier": 2,
                             "filters": [
                                 {
@@ -37080,12 +37203,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "NICE AND TIDY",
                 "text": "Whenever you play another character, you may banish this character to draw a card.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -37105,6 +37230,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "NICE AND TIDY",
                     "resolveEffectsIndividually": "$undefined",
@@ -37536,12 +37662,14 @@
             "$5:props:children:props:children:1:props:loading:props:cards:68:abilities:0",
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "PEOPLE ALWAYS DO CRAZY THINGS",
                 "text": "Whenever you play a character named Hercules, you may ready this character",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -37569,6 +37697,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "PEOPLE ALWAYS DO CRAZY THINGS",
                     "resolveEffectsIndividually": "$undefined",
@@ -38278,12 +38407,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "TIME TO SHINE",
                 "text": "Whenever you play an action, this character gets +2 {S} this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -38309,6 +38440,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "TIME TO SHINE",
                     "resolveEffectsIndividually": "$undefined",
@@ -38606,12 +38738,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Fancy Footwork",
                 "text": "Whenever you play an action, this character takes no damage from challenges this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -38637,6 +38771,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Fancy Footwork",
                     "resolveEffectsIndividually": "$undefined",
@@ -39405,10 +39540,12 @@
                 "name": "$undefined",
                 "text": "$undefined",
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -39434,6 +39571,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
@@ -40277,12 +40415,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "LOOK AT THIS!",
                 "text": "Whenever you play a song, chosen character gets -2 {S} until the start of your next turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -40308,6 +40448,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "LOOK AT THIS!",
                     "resolveEffectsIndividually": "$undefined",
@@ -40711,12 +40852,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "FINE PRINT",
                 "text": "Whenever an opponent plays a song, you may draw a card.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -40742,6 +40885,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "FINE PRINT",
                     "resolveEffectsIndividually": "$undefined",
@@ -41265,12 +41409,14 @@
             "$5:props:children:props:children:1:props:loading:props:cards:68:abilities:0",
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "The Gospel Truth",
                 "text": "Whenever you play a song, you may return chosen character with 2 {S} or less to their player's hand.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -41296,6 +41442,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "The Gospel Truth",
                     "resolveEffectsIndividually": "$undefined",
@@ -42975,6 +43122,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "lore",
@@ -44877,7 +45025,7 @@
                         "ability": "resist",
                         "amount": 1,
                         "modifier": "add",
-                        "duration": "next_turn",
+                        "duration": "turn",
                         "until": true,
                         "target": "$5:props:children:props:children:1:props:loading:props:cards:23:abilities:0:effects:0:target"
                     },
@@ -45749,12 +45897,14 @@
             },
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "I HEARBY DECREE",
                 "text": "Whenever you play another Princess character, all opposing characters get -1 {S} until the start of your next turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -45780,6 +45930,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "I HEARBY DECREE",
                     "resolveEffectsIndividually": "$undefined",
@@ -45845,12 +45996,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Fan Favotire",
                 "text": "whenever you play a song, gain 1 lore.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -45876,6 +46029,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Fan Favotire",
                     "resolveEffectsIndividually": "$undefined",
@@ -46642,6 +46796,7 @@
                     "optional": true,
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "move-damage",
@@ -48396,6 +48551,7 @@
                         "attribute": "strength",
                         "amount": {
                             "dynamic": true,
+                            "excludeSelf": true,
                             "filters": [
                                 {
                                     "filter": "zone",
@@ -50009,12 +50165,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "TAXES NEVER FAIL ME",
                 "text": "Whenever you play an item, this character gets +2 {S} this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -50034,6 +50192,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "TAXES NEVER FAIL ME",
                     "resolveEffectsIndividually": "$undefined",
@@ -50163,6 +50322,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "lore",
@@ -50218,6 +50378,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "lore",
@@ -50284,6 +50445,7 @@
                         "attribute": "lore",
                         "amount": {
                             "dynamic": true,
+                            "excludeSelf": true,
                             "filters": [
                                 {
                                     "filter": "owner",
@@ -51756,6 +51918,7 @@
                 "ability": "resist",
                 "value": {
                     "dynamic": true,
+                    "excludeSelf": true,
                     "filters": [
                         {
                             "filter": "zone",
@@ -52507,6 +52670,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "lore",
@@ -53212,6 +53376,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "lore",
@@ -54548,6 +54713,7 @@
                     "optional": true,
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "play",
@@ -55459,6 +55625,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "damage",
@@ -55850,6 +56017,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         "$5:props:children:props:children:1:props:loading:props:cards:187:abilities:0:effects:1",
                         {
@@ -56303,6 +56471,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "lore",
@@ -57230,12 +57399,14 @@
             "$5:props:children:props:children:1:props:loading:props:cards:45:abilities:0",
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "SWASH YOUR BUCKLES",
                 "text": "Whenever you play an action, this character gets +1 {S} and +1 {L} this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -57261,6 +57432,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "SWASH YOUR BUCKLES",
                     "resolveEffectsIndividually": "$undefined",
@@ -58096,7 +58268,14 @@
                 "text": "Chosen character gains Support this turn. Draw a card.",
                 "resolveEffectsIndividually": true,
                 "effects": [
-                    "$5:props:children:props:children:1:props:loading:props:cards:164:abilities:0:effects:0",
+                    {
+                        "type": "ability",
+                        "ability": "support",
+                        "modifier": "add",
+                        "duration": "turn",
+                        "until": true,
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:23:abilities:0:effects:0:target"
+                    },
                     "$5:props:children:props:children:1:props:loading:props:cards:187:abilities:0:effects:1"
                 ]
             }
@@ -58286,7 +58465,8 @@
                         "$5:props:children:props:children:1:props:loading:props:cards:255:abilities:0:layer:effects:0"
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -58631,7 +58811,8 @@
                         "$5:props:children:props:children:1:props:loading:props:cards:187:abilities:0:effects:1"
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -58698,12 +58879,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "I Have To Do Everything Around Here",
                 "text": "Whenever you play a song, you may move up to 2 damage counters from chosen character to chosen opposing character.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -58729,6 +58912,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "I Have To Do Everything Around Here",
                     "resolveEffectsIndividually": "$undefined",
@@ -59128,7 +59312,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -60047,6 +60232,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "move-damage",
@@ -60112,6 +60298,7 @@
                     "optional": true,
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         "$5:props:children:props:children:1:props:loading:props:cards:153:abilities:0:effects:0"
                     ],
@@ -60568,7 +60755,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -60784,12 +60972,14 @@
             },
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Your Reward Awaits",
                 "text": "Whenever you play a card, draw a card.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -60805,6 +60995,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Your Reward Awaits",
                     "resolveEffectsIndividually": "$undefined",
@@ -61479,7 +61670,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -62170,12 +62362,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Brainstorm",
                 "text": "Whenever you play an item, this character gets +1 {L} this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -62195,6 +62389,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Brainstorm",
                     "resolveEffectsIndividually": "$undefined",
@@ -62385,6 +62580,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "damage",
@@ -63502,7 +63698,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -63693,7 +63890,8 @@
                             "amount": 1
                         }
                     ],
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -63794,7 +63992,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -63976,12 +64175,14 @@
             "$5:props:children:props:children:1:props:loading:props:cards:45:abilities:0",
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Wayfinding",
                 "text": "Whenever you play an action, gain 1 lore.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -64007,6 +64208,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Wayfinding",
                     "resolveEffectsIndividually": "$undefined",
@@ -64133,7 +64335,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -64357,7 +64560,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -64732,6 +64936,7 @@
                     "optional": true,
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "move-to-location",
@@ -64996,12 +65201,14 @@
             },
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "Lots to Learn",
                 "text": "Whenever you play a second action in a turn, gain 3 lore.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -65035,6 +65242,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Lots to Learn",
                     "resolveEffectsIndividually": "$undefined",
@@ -65105,6 +65313,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "lore",
@@ -65169,6 +65378,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "lore",
@@ -65250,11 +65460,6 @@
                     "text": "During your turn, whenever a card is put into your inkwell, you may reveal the top card of your deck. If it's an item card, you may play that item for free and they enter play exerted. Otherwise put it on the bottom of your deck.",
                     "effects": [
                         {
-                            "type": "reveal-top-card",
-                            "target": "$5:props:children:props:children:1:props:loading:props:cards:23:abilities:0:effects:0:target",
-                            "onTargetMatchEffects": []
-                        },
-                        {
                             "type": "scry",
                             "amount": 1,
                             "mode": "bottom",
@@ -65284,10 +65489,16 @@
                                 "play": 1
                             },
                             "target": "$5:props:children:props:children:1:props:loading:props:cards:1:abilities:1:effects:0:target"
+                        },
+                        {
+                            "type": "reveal-top-card",
+                            "target": "$5:props:children:props:children:1:props:loading:props:cards:153:abilities:0:effects:0:target",
+                            "onTargetMatchEffects": []
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": true
                 }
             }
         ],
@@ -65362,7 +65573,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -65782,8 +65994,8 @@
                     "text": "Whenever this character quests, you can play an Ally character with cost 3 or less for free.",
                     "effects": [
                         {
-                            "type": "move",
-                            "to": "play",
+                            "type": "play",
+                            "forFree": true,
                             "target": {
                                 "type": "card",
                                 "value": 1,
@@ -65848,6 +66060,7 @@
                 "target": {
                     "type": "card",
                     "value": "all",
+                    "excludeSelf": true,
                     "filters": [
                         {
                             "filter": "type",
@@ -65966,7 +66179,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -66024,7 +66238,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ]
@@ -66125,7 +66340,7 @@
             "storyborn",
             "ally"
         ],
-        "text": "LEARN MORE Every time this character is targeted by an action or ability of an opposing person, you may draw 1 card.",
+        "text": "LEARN MORE Whenever an opponent chooses this character for an action or ability, you may draw a card.",
         "type": "character",
         "abilities": [],
         "inkwell": true,
@@ -66636,12 +66851,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "Energy Converter",
                 "text": "Whenever you play a Floodborn character, if you used Shift to play them, you may draw a card.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": true,
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -66665,6 +66882,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "Energy Converter",
                     "resolveEffectsIndividually": "$undefined",
@@ -67984,7 +68202,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "opponent"
+                    "responder": "opponent",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -68033,7 +68252,8 @@
                         "$5:props:children:props:children:1:props:loading:props:cards:59:abilities:0:layer:effects:0"
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -68226,7 +68446,8 @@
                     "effects": [
                         "$5:props:children:props:children:1:props:loading:props:cards:226:abilities:0:effects:1"
                     ]
-                }
+                },
+                "oncePerTurn": "$undefined"
             }
         ],
         "inkwell": true,
@@ -68457,7 +68678,6 @@
         "lore": 1
     },
     {
-        "notImplemented": true,
         "id": "ejk",
         "name": "Elsa",
         "title": "Ice Maker",
@@ -68644,7 +68864,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -69756,12 +69977,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "PRETTY GREAT, HUH?",
                 "text": "Whenever you play a Floodborn character, if you used Shift to play them, you may remove up to 2 damage from chosen character.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": true,
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -69791,6 +70014,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "PRETTY GREAT, HUH?",
                     "resolveEffectsIndividually": "$undefined",
@@ -70045,7 +70269,6 @@
             }
         ],
         "inkwell": false,
-        "color": "",
         "colors": [
             "emerald",
             "sapphire"
@@ -70112,7 +70335,8 @@
                             "target": "$5:props:children:props:children:1:props:loading:props:cards:4:abilities:0:effects:0:target"
                         }
                     ]
-                }
+                },
+                "oncePerTurn": "$undefined"
             }
         ],
         "inkwell": false,
@@ -70438,12 +70662,14 @@
             },
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "I Ain't Gone Soft",
                 "text": "Whenever you play an action that isn't a song, you may deal 1 damage to chosen character.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -70470,6 +70696,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "I Ain't Gone Soft",
                     "resolveEffectsIndividually": "$undefined",
@@ -70787,7 +71014,6 @@
         "lore": 1
     },
     {
-        "notImplemented": true,
         "id": "m5r",
         "name": "Kida",
         "title": "Creative Thinker",
@@ -71117,6 +71343,7 @@
                     "optional": "$undefined",
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "modal",
@@ -71586,7 +71813,6 @@
         "lore": 1
     },
     {
-        "notImplemented": true,
         "id": "tf0",
         "name": "Lucky",
         "title": "Runt of the Litter",
@@ -71710,7 +71936,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ]
@@ -72611,12 +72838,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "I'M YOUR GUY",
                 "text": "Whenever you play an action, you may give chosen character +2 {S} this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -72643,6 +72872,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "I'M YOUR GUY",
                     "resolveEffectsIndividually": "$undefined",
@@ -72689,12 +72919,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "GATHER AROUND",
                 "text": "Whenever you play a character, this character gets +1 {L} this turn.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -72718,6 +72950,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "GATHER AROUND",
                     "resolveEffectsIndividually": "$undefined",
@@ -73057,7 +73290,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -73305,12 +73539,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "PIPE UP THE CREW",
                 "text": "Whenever you play an action that isn’t a song, you may ready chosen Pirate character.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -73337,6 +73573,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "PIPE UP THE CREW",
                     "resolveEffectsIndividually": "$undefined",
@@ -74186,12 +74423,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "CLEAR SKIES, CLEAR SKIES",
                 "text": "Whenever one or more of your characters sings a song, gain 1 lore.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": true,
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -74217,6 +74456,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "CLEAR SKIES, CLEAR SKIES",
                     "resolveEffectsIndividually": "$undefined",
@@ -74472,12 +74712,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": true,
                 "name": "PILFER AND PLUNDER",
                 "text": "Whenever you play an action that isn't a song, you may banish chosen item.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -74504,6 +74746,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "PILFER AND PLUNDER",
                     "resolveEffectsIndividually": "$undefined",
@@ -74657,6 +74900,7 @@
                     "optional": true,
                     "detrimental": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
+                    "dependentEffects": "$undefined",
                     "effects": [
                         {
                             "type": "play",
@@ -74783,12 +75027,14 @@
             },
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "IF I LOSE MY TEMPER…",
                 "text": "Whenever another character is played, put a damage counter on them.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
@@ -74804,6 +75050,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "IF I LOSE MY TEMPER…",
                     "resolveEffectsIndividually": "$undefined",
@@ -74885,12 +75132,14 @@
         "abilities": [
             {
                 "type": "static-triggered",
+                "oncePerTurn": "$undefined",
                 "optional": "$undefined",
                 "name": "A MARVELOUS PERFORMANCE",
                 "text": "Whenever you play an action while this character is exerted, gain 1 lore.",
                 "trigger": {
                     "on": "play",
                     "hasShifted": "$undefined",
+                    "hasSang": "$undefined",
                     "conditions": [
                         {
                             "type": "exerted"
@@ -74920,6 +75169,7 @@
                 },
                 "layer": {
                     "type": "resolution",
+                    "oncePerTurn": "$undefined",
                     "responder": "$undefined",
                     "name": "A MARVELOUS PERFORMANCE",
                     "resolveEffectsIndividually": "$undefined",
@@ -75003,7 +75253,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ]
@@ -75196,7 +75447,6 @@
             }
         ],
         "inkwell": false,
-        "color": "",
         "colors": [
             "amethyst",
             "steel"
@@ -75231,7 +75481,6 @@
             }
         ],
         "inkwell": true,
-        "color": "",
         "colors": [
             "amber",
             "sapphire"
@@ -75418,7 +75667,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -75473,7 +75723,8 @@
                         }
                     ],
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": "$undefined"
                 }
             }
         ],
@@ -75950,12 +76201,10 @@
                     "optional": true,
                     "name": "Metallic Flow",
                     "text": "During your turn, whenever a card is put into your inkwell, you may draw a card, then choose and discard a card.",
-                    "effects": [
-                        "$5:props:children:props:children:1:props:loading:props:cards:187:abilities:0:effects:1",
-                        "$5:props:children:props:children:1:props:loading:props:cards:73:abilities:0:layer:effects:0"
-                    ],
+                    "effects": "$5:props:children:props:children:1:props:loading:props:cards:187:abilities:0:effects",
                     "costs": "$undefined",
-                    "responder": "$undefined"
+                    "responder": "$undefined",
+                    "resolveEffectsIndividually": true
                 }
             }
         ],
@@ -76109,7 +76358,8 @@
         ],
         "inkwell": true,
         "colors": [
-            "emerald"
+            "emerald",
+            "amber"
         ],
         "cost": 7,
         "strength": 2,
@@ -76480,7 +76730,6 @@
             }
         ],
         "inkwell": true,
-        "color": "",
         "colors": [
             "amber",
             "amethyst"
@@ -77230,6 +77479,7 @@
                         "attribute": "strength",
                         "amount": {
                             "dynamic": true,
+                            "excludeSelf": true,
                             "filters": [
                                 {
                                     "filter": "type",
