@@ -1303,53 +1303,45 @@
   franchise_id: "unknown"
 - variants: 
     - set: urr
-      id: 25
-      dreamborn: "004-025"
+      id: 26
+      dreamborn: "004-026"
       ravensburger: 
-        en: "25/204 EN 4"
-        fr: "25/204 FR 4"
-        de: "25/204 DE 4"
-        it: "25/204 IT 4"
-        culture_invariant_id: 716
-        sort_number: 725
-      rarity: common
-  lore: 1
+        en: "26/204 EN 4"
+        fr: "26/204 FR 4"
+        de: "26/204 DE 4"
+        it: "26/204 IT 4"
+        culture_invariant_id: 717
+        sort_number: 726
+      rarity: uncommon
   cost: 2
-  inkwell: true
-  attack: 1
-  defence: 4
+  inkwell: false
   colors: 
     - amber
-  type: glimmer
-  classifications: 
-    - "storyborn"
-    - "villain"
-    - "sorcerer"
-  illustrator: "Angela Simpson"
+  type: action
+  illustrator: "Cristian Romero"
   languages: 
     en: 
-      name: "Ursula"
-      title: "Vanessa"
-      flavour: "This magic will certainly do the trick."
+      name: "Bruno's Return"
+      title: ""
+      flavour: "I feel like I missed something important."
     fr: 
-      name: "Ursula"
-      title: "Vanessa"
-      flavour: "Cette magie va lui faire son sort."
+      name: "Retour de Bruno"
+      title: ""
+      flavour: "Là, j'ai raté quelque chose, je ne sais pas quoi, mais ça devait être important."
     it: 
-      name: "Ursula"
-      title: "Vanessa"
-      flavour: "Questa magia avrà sicuramente effetto."
+      name: "Il Ritorno di Bruno"
+      title: ""
+      flavour: "Devo essermi perso un passaggio importante."
     de: 
-      name: "Ursula"
-      title: "Vanessa"
-      flavour: "Diese Magie wird mit Sicherheit ihren Zweck erfüllen."
+      name: "Brunos Rückkehr"
+      title: ""
+      flavour: "Ich hab das Gefühl, dass ich was Wichtiges verpasst habe"
   abilities: 
-    - type: static
+    - type: resolution
       title: 
-        en: "singer"
+        en: "Bruno's Return"
       text: 
-        en: "**Singer** +4 _(This character counts as cost 4 to sing songs.)_"
-      ability: "singer"
+        en: "Return a character card from your discard to your hand. Then remove up to 2 damage from chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -5536,10 +5528,10 @@
       ability: "rush"
     - type: static
       title: 
-        en: "You Coward!"
+        en: "reckless"
       text: 
-        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
-      ability: "gain-ability"
+        en: "_(This character can't quest and must challenge each turn if able.)_"
+      ability: "reckless"
   franchise_id: "unknown"
 - variants: 
     - set: urr
@@ -6413,10 +6405,10 @@
   abilities: 
     - type: static
       title: 
-        en: "You Coward!"
+        en: "reckless"
       text: 
-        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
-      ability: "gain-ability"
+        en: "_(This character can't quest and must challenge each turn if able.)_"
+      ability: "reckless"
   franchise_id: "unknown"
 - variants: 
     - set: urr

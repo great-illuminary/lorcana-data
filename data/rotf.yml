@@ -6009,10 +6009,10 @@
   abilities: 
     - type: static
       title: 
-        en: "You Coward!"
+        en: "reckless"
       text: 
-        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
-      ability: "gain-ability"
+        en: "_(This character can't quest and must challenge each turn if able.)_"
+      ability: "reckless"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -7213,10 +7213,10 @@
   abilities: 
     - type: static
       title: 
-        en: "You Coward!"
+        en: "reckless"
       text: 
-        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
-      ability: "gain-ability"
+        en: "_(This character can't quest and must challenge each turn if able.)_"
+      ability: "reckless"
   franchise_id: "unknown"
 - variants: 
     - set: rotf

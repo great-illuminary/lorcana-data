@@ -22,4 +22,7 @@ enum class AbilityType {
 
     @SerialName("floating-triggered")
     FloatingTriggered,
+
+    @SerialName("play-condition")
+    PlayCondition,
 }

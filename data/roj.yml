@@ -10,7 +10,7 @@
         zh: "1/204 ZH 8"
         ja: "1/204 JA 8"
         culture_invariant_id: 1665
-        sort_number: 1662
+        sort_number: 1664
       rarity: uncommon
   lore: 2
   cost: 3
@@ -41,6 +41,12 @@
       name: "Track Duck"
       title: "Eine coole Ente"
       flavour: "Die Schlangen sind cool, finde ich. Allerdings eine ziemlich gewöhnliche Falle."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "SPRING THE TRAP"
+      text: 
+        en: "While this character is being challenged, the challenging character gets -1 {S}."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -54,7 +60,7 @@
         zh: "2/204 ZH 8"
         ja: "2/204 JA 8"
         culture_invariant_id: 1666
-        sort_number: 1663
+        sort_number: 1665
       rarity: common
   lore: 1
   cost: 4
@@ -98,7 +104,7 @@
         zh: "3/204 ZH 8"
         ja: "3/204 JA 8"
         culture_invariant_id: 1667
-        sort_number: 1664
+        sort_number: 1666
       rarity: uncommon
   lore: 1
   cost: 2
@@ -129,6 +135,12 @@
       name: "Tick Duck"
       title: "Verlässlicher Anführer"
       flavour: "Vergesst die magischen Schlangen. Da ist der Weg aus der Falle!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I KNOW THE WAY"
+      text: 
+        en: "Whenever this character quests, you pay 1 {I} less for the next character you play this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -142,7 +154,7 @@
         zh: "4/204 ZH 8"
         ja: "4/204 JA 8"
         culture_invariant_id: 1668
-        sort_number: 1665
+        sort_number: 1667
       rarity: legendary
   lore: 2
   cost: 4
@@ -173,6 +185,12 @@
       name: "Goofy"
       title: "Bahnbrechender Koch"
       flavour: "Du kommst gerade rechtzeitig für eine Spezialität à la Goof!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "PLENTY TO GO AROUND"
+      text: 
+        en: "At the end of your turn, you may remove up to 1 damage from each of your other characters. Ready each character you removed damage from this way."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -186,7 +204,7 @@
         zh: "5/204 ZH 8"
         ja: "5/204 JA 8"
         culture_invariant_id: 1669
-        sort_number: 1666
+        sort_number: 1668
       rarity: rare
   lore: 2
   cost: 4
@@ -219,6 +237,12 @@
       name: "Antonio Madrigal"
       title: "Freund von allen"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "OF COURSE THEY CAN COME"
+      text: 
+        en: "Once during your turn, whenever one of your characters sings a song, you may search your deck for a character card with cost 3 or less and reveal that card to all players. Put that card into your hand and shuffle your deck."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -232,7 +256,7 @@
         zh: "6/204 ZH 8"
         ja: "6/204 JA 8"
         culture_invariant_id: 1670
-        sort_number: 1667
+        sort_number: 1669
       rarity: rare
   lore: 1
   cost: 4
@@ -264,6 +288,19 @@
       name: "Minnie Maus"
       title: "Wagemutige Beschützerin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: ""
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -277,7 +314,7 @@
         zh: "7/204 ZH 8"
         ja: "7/204 JA 8"
         culture_invariant_id: 1671
-        sort_number: 1668
+        sort_number: 1670
       rarity: rare
   lore: 1
   cost: 2
@@ -309,6 +346,17 @@
       name: "Primus von Quack"
       title: "Vielseitiger Experte"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "SUPERIOR MIND"
+      text: 
+        en: "When you play this character, chosen opponent reveals their hand and discards a non-character card of your choice."
+    - type: static-triggered
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -322,7 +370,7 @@
         zh: "8/204 ZH 8"
         ja: "8/204 JA 8"
         culture_invariant_id: 1672
-        sort_number: 1669
+        sort_number: 1671
       rarity: common
   lore: 1
   cost: 1
@@ -367,7 +415,7 @@
         zh: "9/204 ZH 8"
         ja: "9/204 JA 8"
         culture_invariant_id: 1673
-        sort_number: 1670
+        sort_number: 1672
       rarity: rare
   lore: 1
   cost: 4
@@ -399,6 +447,18 @@
       name: "Tiana"
       title: "Naturtalent"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** +6 _(This character counts as cost 6 to sing songs.)_"
+      ability: "singer"
+    - type: static-triggered
+      title: 
+        en: "CAPTIVATING MELODY"
+      text: 
+        en: "Whenever you play a song, each opposing character gets -1 {S} until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -412,7 +472,7 @@
         zh: "10/204 ZH 8"
         ja: "10/204 JA 8"
         culture_invariant_id: 1674
-        sort_number: 1671
+        sort_number: 1673
       rarity: common
   lore: 1
   cost: 1
@@ -444,6 +504,12 @@
       name: "Mirabel Madrigal"
       title: "Neugieriges Kind"
       flavour: "Was für eine Gabe auch immer dich erwartet, sie wird genauso besonders sein wie du.\n–Alma Madrigal"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "YOU ARE A JEWEL"
+      text: 
+        en: "When you play this character, you may reveal a song card in your hand to gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -457,7 +523,7 @@
         zh: "11/204 ZH 8"
         ja: "11/204 JA 8"
         culture_invariant_id: 1675
-        sort_number: 1672
+        sort_number: 1674
       rarity: rare
   lore: 2
   cost: 3
@@ -488,6 +554,12 @@
       name: "Susi"
       title: "Familien-Hundedame"
       flavour: "Am glücklichsten ist sie in der Gesellschaft derer, die sie liebt."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "SOMEONE TO CARE FOR"
+      text: 
+        en: "When you play this character, you may play a character with cost 2 or less for free."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -501,7 +573,7 @@
         zh: "12/204 ZH 8"
         ja: "12/204 JA 8"
         culture_invariant_id: 1676
-        sort_number: 1673
+        sort_number: 1675
       rarity: common
   lore: 1
   cost: 2
@@ -532,6 +604,13 @@
       name: "Jim"
       title: "Geliebter Ehemann"
       flavour: "Familie ist Familie, egal was passiert."
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -545,7 +624,7 @@
         zh: "13/204 ZH 8"
         ja: "13/204 JA 8"
         culture_invariant_id: 1677
-        sort_number: 1674
+        sort_number: 1676
       rarity: common
   lore: 1
   cost: 1
@@ -575,6 +654,12 @@
       name: "Gene"
       title: "Bewohner von Niceland"
       flavour: "Eine Medaille zu bekommen, ist ein tolles Gefühl. Gene zu ärgern, fühlt sich aber noch besser an.\n–Randale Ralph"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I GUESS YOU EARNED THIS"
+      text: 
+        en: "Whenever this character quests, you may remove up to 2 damage from chosen character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -588,7 +673,7 @@
         zh: "14/204 ZH 8"
         ja: "14/204 JA 8"
         culture_invariant_id: 1678
-        sort_number: 1675
+        sort_number: 1677
       rarity: common
   lore: 1
   cost: 2
@@ -619,6 +704,13 @@
       name: "Perdi"
       title: "Auf der Lauer"
       flavour: "Wo ist der Wald hin? Bleibt in der Nähe, meine Lieblinge. Irgendetwas ist hier faul.\n–Perdi"
+  abilities: 
+    - type: static
+      title: 
+        en: "KEEPING WATCH"
+      text: 
+        en: "While you have a Puppy character in play, this character gets +1 {W}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -632,7 +724,7 @@
         zh: "15/204 ZH 8"
         ja: "15/204 JA 8"
         culture_invariant_id: 1679
-        sort_number: 1676
+        sort_number: 1678
       rarity: common
   lore: 1
   cost: 1
@@ -663,6 +755,12 @@
       name: "Dino"
       title: "Ein Sechzehntel Wolf"
       flavour: "Gefahr ist meine Leibspeise."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "TINY HOWL"
+      text: 
+        en: "When you play this character, chosen opposing character gets -1 {S} until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -676,7 +774,7 @@
         zh: "16/204 ZH 8"
         ja: "16/204 JA 8"
         culture_invariant_id: 1680
-        sort_number: 1677
+        sort_number: 1679
       rarity: common
   lore: 1
   cost: 5
@@ -707,6 +805,12 @@
       name: "Darling"
       title: "Geliebte Ehefrau"
       flavour: "Ich könnte mir gar nicht vorstellen, dass jemand ihren Platz in unseren Herzen einnehmen könnte."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "HOW SWEET"
+      text: 
+        en: "When you play this character, chosen character gets +2 {L} this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -720,7 +824,7 @@
         zh: "17/204 ZH 8"
         ja: "17/204 JA 8"
         culture_invariant_id: 1681
-        sort_number: 1678
+        sort_number: 1680
       rarity: rare
   lore: 1
   cost: 5
@@ -751,6 +855,13 @@
       name: "Colonel"
       title: "Alter Hütehund"
       flavour: "Seine Ausbildung war bei der Infiltration des Palastes von unschätzbarem Wert."
+  abilities: 
+    - type: static
+      title: 
+        en: "WE'VE GOT 'EM OUTNUMBERED"
+      text: 
+        en: "While you have 3 or more Puppy characters in play, this character gets +2 {S} and +2 {L}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -764,7 +875,7 @@
         zh: "18/204 ZH 8"
         ja: "18/204 JA 8"
         culture_invariant_id: 1682
-        sort_number: 1679
+        sort_number: 1681
       rarity: legendary
   lore: 1
   cost: 6
@@ -794,6 +905,12 @@
       name: "Chief Bogo"
       title: "Befehlshaber"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "SENDING BACKUP"
+      text: 
+        en: "During an opponent's turn, whenever one of your characters with Bodyguard is banished, you may reveal the top card of your deck. If it's a character card with cost 5 or less, you may play that character for free. Otherwise, put it on the top of your deck."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -807,7 +924,7 @@
         zh: "19/204 ZH 8"
         ja: "19/204 JA 8"
         culture_invariant_id: 1683
-        sort_number: 1680
+        sort_number: 1682
       rarity: uncommon
   lore: 1
   cost: 3
@@ -839,6 +956,18 @@
       name: "Pua"
       title: "Beschützendes Schwein"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
+    - type: static-triggered
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: ""
 - variants: 
     - set: roj
@@ -852,7 +981,7 @@
         zh: "20/204 ZH 8"
         ja: "20/204 JA 8"
         culture_invariant_id: 1684
-        sort_number: 1681
+        sort_number: 1683
       rarity: super_rare
   lore: 2
   cost: 7
@@ -885,6 +1014,18 @@
       name: "Bruno Madrigal"
       title: "Singender Seher"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 5"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Bruno Madrigal.)_"
+      ability: "shift"
+    - type: static-triggered
+      title: 
+        en: "BRIGHT FUTURE"
+      text: 
+        en: "Whenever this character sings a song, you may draw a card for each character you have in play."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -898,7 +1039,7 @@
         zh: "21/204 ZH 8"
         ja: "21/204 JA 8"
         culture_invariant_id: 1685
-        sort_number: 1682
+        sort_number: 1684
       rarity: uncommon
   lore: 2
   cost: 4
@@ -930,6 +1071,12 @@
       name: "Kaa"
       title: "Hypnotisierende Python"
       flavour: "Du hassst jetzt einen großßßen Fehler gemacht, mein Freund."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "LOOK ME IN THE EYE"
+      text: 
+        en: "Whenever this character quests, chosen opposing character gets -2 {S} and gains Reckless until the start of your next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -943,7 +1090,7 @@
         zh: "22/204 ZH 8"
         ja: "22/204 JA 8"
         culture_invariant_id: 1686
-        sort_number: 1683
+        sort_number: 1685
       rarity: super_rare
   lore: 2
   cost: 6
@@ -975,6 +1122,18 @@
       name: "Strolch"
       title: "Eleganter Rabauke"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 4"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Tramp.)_"
+      ability: "shift"
+    - type: static-triggered
+      title: 
+        en: "PLAY IT COOL"
+      text: 
+        en: "During an opponent's turn, whenever one of your characters is banished, you may draw a card."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -988,7 +1147,7 @@
         zh: "23/204 ZH 8"
         ja: "23/204 JA 8"
         culture_invariant_id: 1687
-        sort_number: 1684
+        sort_number: 1686
       rarity: uncommon
   lore: 1
   cost: 3
@@ -1035,7 +1194,7 @@
         zh: "24/204 ZH 8"
         ja: "24/204 JA 8"
         culture_invariant_id: 1688
-        sort_number: 1685
+        sort_number: 1687
       rarity: super_rare
   lore: 1
   cost: 7
@@ -1068,6 +1227,23 @@
       name: "Randale Ralph"
       title: "Großer Gauner"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 5"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Wreck-It Ralph.)_"
+      ability: "shift"
+    - type: resolution
+      title: 
+        en: "BACK ON TRACK"
+      text: 
+        en: "When you play this character and whenever he quests, you may return a Racer character card with cost 6 or less from your discard to your hand. If you do, gain 1 lore."
+    - type: static-triggered
+      title: 
+        en: "BACK ON TRACK"
+      text: 
+        en: "When you play this character and whenever he quests, you may return a Racer character card with cost 6 or less from your discard to your hand. If you do, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1081,7 +1257,7 @@
         zh: "25/204 ZH 8"
         ja: "25/204 JA 8"
         culture_invariant_id: 1689
-        sort_number: 1686
+        sort_number: 1688
       rarity: uncommon
   lore: 1
   cost: 1
@@ -1113,6 +1289,19 @@
       name: "Patch"
       title: "Verspielter Welpe"
       flavour: "Im Sand machte es mehr Spaß, als er dachte!"
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
+    - type: static
+      title: 
+        en: "STILL USEFUL"
+      text: 
+        en: "While you have an item card in your discard, this character gets +2 {S}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1126,7 +1315,7 @@
         zh: "26/204 ZH 8"
         ja: "26/204 JA 8"
         culture_invariant_id: 1690
-        sort_number: 1687
+        sort_number: 1689
       rarity: uncommon
   lore: 1
   cost: 4
@@ -1158,6 +1347,13 @@
       name: "Rolly"
       title: "Pummeliger Welpe"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1171,7 +1367,7 @@
         zh: "27/204 ZH 8"
         ja: "27/204 JA 8"
         culture_invariant_id: 1691
-        sort_number: 1688
+        sort_number: 1690
       rarity: super_rare
   lore: 2
   cost: 6
@@ -1203,6 +1399,13 @@
       name: "Perdi"
       title: "Entschlossene Mutter"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 4"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Perdita.)_"
+      ability: "shift"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1216,7 +1419,7 @@
         zh: "28/204 ZH 8"
         ja: "28/204 JA 8"
         culture_invariant_id: 1692
-        sort_number: 1689
+        sort_number: 1691
       rarity: uncommon
   lore: 2
   cost: 6
@@ -1248,6 +1451,19 @@
       name: "Pluto"
       title: "Bewährt und treu"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "HAPPY HELPER"
+      text: 
+        en: "While this character has no damage, he gets +2 {S} and gains Support. (Whenever they quest, you may add their {S} to another chosen character's {S} this turn.)"
+      ability: "effects"
+    - type: static
+      title: 
+        en: "HAPPY HELPER"
+      text: 
+        en: "While this character has no damage, he gets +2 {S} and gains Support. (Whenever they quest, you may add their {S} to another chosen character's {S} this turn.)"
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1261,7 +1477,7 @@
         zh: "29/204 ZH 8"
         ja: "29/204 JA 8"
         culture_invariant_id: 1693
-        sort_number: 1690
+        sort_number: 1692
       rarity: rare
   lore: 4
   cost: 3
@@ -1293,6 +1509,12 @@
       name: "Bolt"
       title: "Am Boden, aber nicht am Ende"
       flavour: "Die einzige Kraft, die du brauchst, ist die Kraft, FANTASTISCH zu sein!\n–Dino"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "NONE OF YOUR POWERS ARE WORKING"
+      text: 
+        en: "This card enters play exerted."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1306,7 +1528,7 @@
         zh: "30/204 ZH 8"
         ja: "30/204 JA 8"
         culture_invariant_id: 1694
-        sort_number: 1691
+        sort_number: 1693
       rarity: super_rare
   lore: 2
   cost: 4
@@ -1338,6 +1560,19 @@
       name: "Dino"
       title: "Energiegeladener Hamster"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 2"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named Rhino.)_"
+      ability: "shift"
+    - type: static
+      title: 
+        en: "EPIC BALL OF AWESOME"
+      text: 
+        en: "While this character has no damage, he gains Resist +2. (Damage dealt to them is reduced by 2.)"
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1351,7 +1586,7 @@
         zh: "31/204 ZH 8"
         ja: "31/204 JA 8"
         culture_invariant_id: 1695
-        sort_number: 1692
+        sort_number: 1694
       rarity: common
   lore: 1
   cost: 2
@@ -1382,6 +1617,12 @@
       name: "Antonios Jaguar"
       title: "Treuer Gefährte"
       flavour: "Er kennt den Weg. Versuch einfach mitzuhalten!\n–Antonio Madrigal"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "YOU WANT TO GO WHERE?"
+      text: 
+        en: "When you play this character, if you have a character in play named Antonio Madrigal, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1395,7 +1636,7 @@
         zh: "32/204 ZH 8"
         ja: "32/204 JA 8"
         culture_invariant_id: 1696
-        sort_number: 1693
+        sort_number: 1695
       rarity: common
   lore: 2
   cost: 6
@@ -1426,6 +1667,18 @@
       name: "Sergeant Calhoun"
       title: "Knallharte Anführerin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
+    - type: static-triggered
+      title: 
+        en: "LOOT DROP"
+      text: 
+        en: "When this character is banished, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1439,7 +1692,7 @@
         zh: "33/204 ZH 8"
         ja: "33/204 JA 8"
         culture_invariant_id: 1697
-        sort_number: 1694
+        sort_number: 1696
       rarity: rare
   lore: 1
   cost: 1
@@ -1471,6 +1724,18 @@
       name: "Susi"
       title: "Entschlossene Hundedame"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "PACK OF HER OWN"
+      text: 
+        en: "Whenever you play a character, this character gets +1 {S} this turn."
+    - type: static
+      title: 
+        en: "TAKE THE LEAD"
+      text: 
+        en: "While this character has 3 {S} or more, she gets +2 {L}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1484,7 +1749,7 @@
         zh: "34/204 ZH 8"
         ja: "34/204 JA 8"
         culture_invariant_id: 1698
-        sort_number: 1695
+        sort_number: 1697
       rarity: uncommon
   lore: 2
   cost: 6
@@ -1517,6 +1782,12 @@
       name: "Alma Madrigal"
       title: "Akzeptierende Großmutter"
       flavour: "Ich war so streng, das tut mir leid."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "THE MIRACLE IS YOU"
+      text: 
+        en: "Once during your turn, whenever one or more of your characters sings a song, you may ready those characters."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1530,7 +1801,7 @@
         zh: "35/204 ZH 8"
         ja: "35/204 JA 8"
         culture_invariant_id: 1699
-        sort_number: 1696
+        sort_number: 1698
       rarity: rare
   lore: 2
   cost: 3
@@ -1562,6 +1833,19 @@
       name: "Clawhauser"
       title: "Empfangsoffizier"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** +4 _(This character counts as cost 4 to sing songs.)_"
+      ability: "singer"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1575,7 +1859,7 @@
         zh: "36/204 ZH 8"
         ja: "36/204 JA 8"
         culture_invariant_id: 1700
-        sort_number: 1697
+        sort_number: 1699
       rarity: common
   lore: 1
   cost: 3
@@ -1605,6 +1889,12 @@
       name: "Joey"
       title: "Blaue Taube"
       flavour: "Wenn du Hilfe brauchst, ist der alte Joey zur Stelle."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I'VE GOT JUST THE THING"
+      text: 
+        en: "Whenever this character quests, you may remove up to 1 damage from each of your characters with Bodyguard."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1618,7 +1908,7 @@
         zh: "37/204 ZH 8"
         ja: "37/204 JA 8"
         culture_invariant_id: 1701
-        sort_number: 1698
+        sort_number: 1700
       rarity: super_rare
   lore: 2
   cost: 8
@@ -1649,6 +1939,18 @@
       name: "Donald Duck"
       title: "Münzsammler"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "HERE, PIGGY, PIGGY"
+      text: 
+        en: "For each item named The Nephews' Piggy Bank you have in play, you pay 2 {I} less to play this character."
+      ability: "effects"
+    - type: resolution
+      title: 
+        en: "MONEY EVERYWHERE"
+      text: 
+        en: "When you play this character, your other characters gain ``{E} – Draw a card`` this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1662,7 +1964,7 @@
         zh: "38/204 ZH 8"
         ja: "38/204 JA 8"
         culture_invariant_id: 1702
-        sort_number: 1699
+        sort_number: 1701
       rarity: common
   lore: 1
   cost: 2
@@ -1706,7 +2008,7 @@
         zh: "39/204 ZH 8"
         ja: "39/204 JA 8"
         culture_invariant_id: 1703
-        sort_number: 1700
+        sort_number: 1702
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -1732,6 +2034,12 @@
       name: "Zucker-Drift"
       title: ""
       flavour: "Das wird deinen Motor überhitzen wie eine Tüte Zimtbonbons, also gewinn lieber schnell!\n–Vanellope von Schweetz"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Candy Drift"
+      text: 
+        en: "Draw a card. Chosen character of yours gets +5 {S} this turn. At the end of your turn, banish them."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1745,7 +2053,7 @@
         zh: "40/204 ZH 8"
         ja: "40/204 JA 8"
         culture_invariant_id: 1704
-        sort_number: 1701
+        sort_number: 1703
       rarity: uncommon
   cost: 1
   inkwell: true
@@ -1784,7 +2092,7 @@
         zh: "41/204 ZH 8"
         ja: "41/204 JA 8"
         culture_invariant_id: 1705
-        sort_number: 1702
+        sort_number: 1704
       rarity: uncommon
   cost: 4
   inkwell: true
@@ -1823,7 +2131,7 @@
         zh: "42/204 ZH 8"
         ja: "42/204 JA 8"
         culture_invariant_id: 1706
-        sort_number: 1703
+        sort_number: 1705
       rarity: rare
   cost: 9
   inkwell: false
@@ -1850,6 +2158,18 @@
       name: "Die Sorgen bleiben dir immer fern"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "sing-together"
+      text: 
+        en: "**Sing Together** 9 _(Any number of your of your teammates' characters with total cost 9 or more may {E} to sing this song for free.)_"
+      ability: "sing-together"
+    - type: resolution
+      title: 
+        en: "It Means No Worries"
+      text: 
+        en: "Sing Together 9 (Any number of your or your teammates' characters with total cost 9 or more may {E} to sing this song for free.)nReturn up to 3 character cards from your discard to your hand. You pay 2 {I} less for the next character you play this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1863,7 +2183,7 @@
         zh: "43/204 ZH 8"
         ja: "43/204 JA 8"
         culture_invariant_id: 1707
-        sort_number: 1704
+        sort_number: 1706
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -1890,6 +2210,12 @@
       name: "Oft war ich verzweifelt"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Trials And Tribulations"
+      text: 
+        en: "Chosen character gets -4 {S} until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1903,7 +2229,7 @@
         zh: "44/204 ZH 8"
         ja: "44/204 JA 8"
         culture_invariant_id: 1708
-        sort_number: 1705
+        sort_number: 1707
       rarity: uncommon
   cost: 2
   inkwell: false
@@ -1928,6 +2254,18 @@
       name: "Das Sparschwein der Neffen"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "INSIDE JOB"
+      text: 
+        en: "If you have a character named Donald Duck in play, you pay 1 {I} less to play this item."
+      ability: "effects"
+    - type: activated
+      title: 
+        en: "PAYOFF"
+      text: 
+        en: "{e} – Chosen character gets -1 {S} until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1941,7 +2279,7 @@
         zh: "45/204 ZH 8"
         ja: "45/204 JA 8"
         culture_invariant_id: 1709
-        sort_number: 1706
+        sort_number: 1708
       rarity: common
   lore: 1
   cost: 1
@@ -1973,6 +2311,13 @@
       name: "Palastwache"
       title: "Spektraler Wächter"
       flavour: "Die gesamte Macht der normalen Wächter, aber ohne deren Anmaßungen.\n–Dschafar"
+  abilities: 
+    - type: static
+      title: 
+        en: "vanish"
+      text: 
+        en: "_(When an opponent chooses this character for an action, banish them.)_"
+      ability: "vanish"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -1986,7 +2331,7 @@
         zh: "46/204 ZH 8"
         ja: "46/204 JA 8"
         culture_invariant_id: 1710
-        sort_number: 1707
+        sort_number: 1709
       rarity: uncommon
   lore: 1
   cost: 4
@@ -2017,6 +2362,13 @@
       name: "Druun"
       title: "Gefräßige Plage"
       flavour: "Sie waren schon immer hier und warteten auf einen Moment der Schwäche, um anzugreifen.\n–Sisu"
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +4 (_When challenging, this character get +43 {S}._)"
+      ability: "challenger"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2030,7 +2382,7 @@
         zh: "47/204 ZH 8"
         ja: "47/204 JA 8"
         culture_invariant_id: 1711
-        sort_number: 1708
+        sort_number: 1710
       rarity: uncommon
   lore: 1
   cost: 3
@@ -2062,6 +2414,12 @@
       name: "Madam Medusa"
       title: "Betrügerische Partnerin"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "DOUBLE-CROSS"
+      text: 
+        en: "When you play this character, you may deal 2 damage to another chosen character of yours to return chosen character with cost 2 or less to their player's hand."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2075,7 +2433,7 @@
         zh: "48/204 ZH 8"
         ja: "48/204 JA 8"
         culture_invariant_id: 1712
-        sort_number: 1709
+        sort_number: 1711
       rarity: super_rare
   lore: 2
   cost: 7
@@ -2108,6 +2466,17 @@
       name: "Hades"
       title: "Gnadenloser Tyrann"
       flavour: "Vergesst nicht, ich bin derjenige, der hier das Sagen hat."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "SHORT ON PATIENCE"
+      text: 
+        en: "When you play this character and whenever he quests, you may deal 2 damage to another chosen character of yours to draw 2 cards."
+    - type: static-triggered
+      title: 
+        en: "SHORT ON PATIENCE"
+      text: 
+        en: "When you play this character and whenever he quests, you may deal 2 damage to another chosen character of yours to draw 2 cards."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2121,7 +2490,7 @@
         zh: "49/204 ZH 8"
         ja: "49/204 JA 8"
         culture_invariant_id: 1713
-        sort_number: 1710
+        sort_number: 1712
       rarity: uncommon
   lore: 1
   cost: 3
@@ -2154,6 +2523,13 @@
       name: "Lena Degenflügel"
       title: "Reine Energie"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2167,7 +2543,7 @@
         zh: "50/204 ZH 8"
         ja: "50/204 JA 8"
         culture_invariant_id: 1714
-        sort_number: 1711
+        sort_number: 1713
       rarity: uncommon
   lore: 1
   cost: 6
@@ -2200,6 +2576,18 @@
       name: "Abu"
       title: "Illusionärer Dickhäuter"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "vanish"
+      text: 
+        en: "_(When an opponent chooses this character for an action, banish them.)_"
+      ability: "vanish"
+    - type: static-triggered
+      title: 
+        en: "GRASPING TRUNK"
+      text: 
+        en: "Whenever this character quests, gain lore equal to the {L} of chosen opposing character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2213,7 +2601,7 @@
         zh: "51/204 ZH 8"
         ja: "51/204 JA 8"
         culture_invariant_id: 1715
-        sort_number: 1712
+        sort_number: 1714
       rarity: common
   lore: 1
   cost: 4
@@ -2258,7 +2646,7 @@
         zh: "52/204 ZH 8"
         ja: "52/204 JA 8"
         culture_invariant_id: 1716
-        sort_number: 1713
+        sort_number: 1715
       rarity: common
   lore: 1
   cost: 1
@@ -2288,6 +2676,12 @@
       name: "Königsgarde"
       title: "Oktopus-Soldat"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "HEAVILY ARMED"
+      text: 
+        en: "Every time you draw a card, this character gains Challenger +1 for this turn. (Gains +1 {S} while challenging.)"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2301,7 +2695,7 @@
         zh: "53/204 ZH 8"
         ja: "53/204 JA 8"
         culture_invariant_id: 1717
-        sort_number: 1714
+        sort_number: 1716
       rarity: common
   lore: 1
   cost: 4
@@ -2332,6 +2726,12 @@
       name: "Kusco"
       title: "Gelangweilter König"
       flavour: "Warte nur, bis sie das hier riechen …"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "LLAMA BREATH"
+      text: 
+        en: "When you play this character, you may return chosen character, item, or location with cost 2 or less to their player's hand."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2345,7 +2745,7 @@
         zh: "54/204 ZH 8"
         ja: "54/204 JA 8"
         culture_invariant_id: 1718
-        sort_number: 1715
+        sort_number: 1717
       rarity: common
   lore: 1
   cost: 3
@@ -2376,6 +2776,13 @@
       name: "Meg"
       title: "Teil des Plans"
       flavour: "Je schneller wir das erledigen, desto schneller bin ich frei … von dir."
+  abilities: 
+    - type: static
+      title: 
+        en: "CONTENTIOUS ALLIANCE"
+      text: 
+        en: "While you have a character named Hades in play, this character gains Challenger +2."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2389,7 +2796,7 @@
         zh: "55/204 ZH 8"
         ja: "55/204 JA 8"
         culture_invariant_id: 1719
-        sort_number: 1716
+        sort_number: 1718
       rarity: common
   lore: 2
   cost: 3
@@ -2420,6 +2827,12 @@
       name: "Yelena"
       title: "Anführerin der Northuldra"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "WE ONLY TRUST NATURE"
+      text: 
+        en: "When you play this character, chosen character gains Challenger +2 this turn. (They get +2 {S} while challenging.)"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2433,7 +2846,7 @@
         zh: "56/204 ZH 8"
         ja: "56/204 JA 8"
         culture_invariant_id: 1720
-        sort_number: 1717
+        sort_number: 1719
       rarity: common
   lore: 1
   cost: 4
@@ -2464,6 +2877,13 @@
       name: "Ryder"
       title: "Flottfüßiger Eindringling"
       flavour: "Meine Güte, was ist nur mit diesem hohen Sultan los? Kann er keine Treppen einbauen wie ein normaler Mensch?"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2477,7 +2897,7 @@
         zh: "57/204 ZH 8"
         ja: "57/204 JA 8"
         culture_invariant_id: 1721
-        sort_number: 1718
+        sort_number: 1720
       rarity: common
   lore: 1
   cost: 2
@@ -2522,7 +2942,7 @@
         zh: "58/204 ZH 8"
         ja: "58/204 JA 8"
         culture_invariant_id: 1722
-        sort_number: 1719
+        sort_number: 1721
       rarity: common
   lore: 1
   cost: 3
@@ -2567,7 +2987,7 @@
         zh: "59/204 ZH 8"
         ja: "59/204 JA 8"
         culture_invariant_id: 1723
-        sort_number: 1720
+        sort_number: 1722
       rarity: uncommon
   lore: 1
   cost: 3
@@ -2612,7 +3032,7 @@
         zh: "60/204 ZH 8"
         ja: "60/204 JA 8"
         culture_invariant_id: 1724
-        sort_number: 1721
+        sort_number: 1723
       rarity: rare
   lore: 1
   cost: 4
@@ -2645,6 +3065,12 @@
       name: "Elsa"
       title: "Stürmische Beschützerin"
       flavour: "Ich muss meine Schwester beschützen. Du gehst nirgendwo hin!"
+  abilities: 
+    - type: activated
+      title: 
+        en: "ICE OVER"
+      text: 
+        en: "1 {I}, Choose and discard a card – Exert chosen opposing character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2658,7 +3084,7 @@
         zh: "61/204 ZH 8"
         ja: "61/204 JA 8"
         culture_invariant_id: 1725
-        sort_number: 1722
+        sort_number: 1724
       rarity: legendary
   lore: 2
   cost: 4
@@ -2689,6 +3115,18 @@
       name: "Pinocchio"
       title: "An Fäden geknüpft"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static-triggered
+      title: 
+        en: "We'll Always Be Together"
+      text: 
+        en: "Whenever you ready this character, if you have 2 or more other characters in play, gain 2 lore."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2702,7 +3140,7 @@
         zh: "62/204 ZH 8"
         ja: "62/204 JA 8"
         culture_invariant_id: 1726
-        sort_number: 1723
+        sort_number: 1725
       rarity: rare
   lore: 1
   cost: 2
@@ -2733,6 +3171,19 @@
       name: "Jiminy Grille"
       title: "Besonnen und weise"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title: 
+        en: "ENOUGH'S ENOUGH"
+      text: 
+        en: "While this character is exerted, opposing characters with Rush enter play exerted."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2746,7 +3197,7 @@
         zh: "63/204 ZH 8"
         ja: "63/204 JA 8"
         culture_invariant_id: 1727
-        sort_number: 1724
+        sort_number: 1726
       rarity: legendary
   lore: 3
   cost: 3
@@ -2778,6 +3229,17 @@
       name: "Bambi"
       title: "Kleiner Prinz"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "$undefined"
+      text: 
+        en: "$undefined"
+    - type: static-triggered
+      title: 
+        en: "KIND OF BASHFUL"
+      text: 
+        en: "When an opponent plays a character, return this character to your hand."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2791,7 +3253,7 @@
         zh: "64/204 ZH 8"
         ja: "64/204 JA 8"
         culture_invariant_id: 1728
-        sort_number: 1725
+        sort_number: 1727
       rarity: rare
   lore: 2
   cost: 8
@@ -2821,6 +3283,18 @@
       name: "Monstro"
       title: "Berüchtigter Wal"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "rush"
+      text: 
+        en: "_(This character can challenge the turn they're played.)_"
+      ability: "rush"
+    - type: activated
+      title: 
+        en: "FULL BREACH"
+      text: 
+        en: "Choose and discard a card - Ready this character. He can't quest for the rest of this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2834,7 +3308,7 @@
         zh: "65/204 ZH 8"
         ja: "65/204 JA 8"
         culture_invariant_id: 1729
-        sort_number: 1726
+        sort_number: 1728
       rarity: common
   lore: 1
   cost: 2
@@ -2865,6 +3339,12 @@
       name: "Nero, das Krokodil"
       title: "Furchteinflößendes Krokodil"
       flavour: "Er steht Brutus in Sachen Temperament und Zahnigkeit in nichts nach."
+  abilities: 
+    - type: activated
+      title: 
+        en: "AND MEAN"
+      text: 
+        en: "{E} – Move 1 damage counter from this character to chosen opposing character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2878,7 +3358,7 @@
         zh: "66/204 ZH 8"
         ja: "66/204 JA 8"
         culture_invariant_id: 1730
-        sort_number: 1727
+        sort_number: 1729
       rarity: uncommon
   lore: 2
   cost: 5
@@ -2911,6 +3391,13 @@
       name: "Gundel Gaukeley"
       title: "Schattenform"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2924,7 +3411,7 @@
         zh: "67/204 ZH 8"
         ja: "67/204 JA 8"
         culture_invariant_id: 1731
-        sort_number: 1728
+        sort_number: 1730
       rarity: rare
   lore: 2
   cost: 7
@@ -2956,6 +3443,13 @@
       name: "Kusco"
       title: "Impulsives Lama"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 4"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Kuzco.)_"
+      ability: "shift"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -2969,7 +3463,7 @@
         zh: "68/204 ZH 8"
         ja: "68/204 JA 8"
         culture_invariant_id: 1732
-        sort_number: 1729
+        sort_number: 1731
       rarity: super_rare
   lore: 2
   cost: 6
@@ -3002,6 +3496,12 @@
       name: "Isma"
       title: "Am Rande"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "WHY DO WE EVEN HAVE THAT LEVER?"
+      text: 
+        en: "When you play this character, if you have a card named Pull the Lever! in your discard, you may search your deck for a card named Wrong Lever! and reveal that card to all players. Put that card into your hand and shuffle your deck."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3015,7 +3515,7 @@
         zh: "69/204 ZH 8"
         ja: "69/204 JA 8"
         culture_invariant_id: 1733
-        sort_number: 1730
+        sort_number: 1732
       rarity: uncommon
   lore: 1
   cost: 6
@@ -3048,6 +3548,13 @@
       name: "Madame Mim"
       title: "Nashorn"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 2"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named Madam Mim.)_"
+      ability: "shift"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3061,7 +3568,7 @@
         zh: "70/204 ZH 8"
         ja: "70/204 JA 8"
         culture_invariant_id: 1734
-        sort_number: 1731
+        sort_number: 1733
       rarity: rare
   lore: 1
   cost: 2
@@ -3107,7 +3614,7 @@
         zh: "71/204 ZH 8"
         ja: "71/204 JA 8"
         culture_invariant_id: 1735
-        sort_number: 1732
+        sort_number: 1734
       rarity: uncommon
   lore: 1
   cost: 2
@@ -3140,6 +3647,19 @@
       name: "Die Blaue Fee"
       title: "Leitendes Licht"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3153,7 +3673,7 @@
         zh: "72/204 ZH 8"
         ja: "72/204 JA 8"
         culture_invariant_id: 1736
-        sort_number: 1733
+        sort_number: 1735
       rarity: rare
   lore: 2
   cost: 6
@@ -3187,6 +3707,19 @@
       name: "Anna"
       title: "Magische Mission"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 4"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Anna.)_"
+      ability: "shift"
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3200,7 +3733,7 @@
         zh: "73/204 ZH 8"
         ja: "73/204 JA 8"
         culture_invariant_id: 1737
-        sort_number: 1734
+        sort_number: 1736
       rarity: rare
   lore: 2
   cost: 5
@@ -3234,6 +3767,13 @@
       name: "Der Sultan"
       title: "Königliche Erscheinung"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "vanish"
+      text: 
+        en: "_(When an opponent chooses this character for an action, banish them.)_"
+      ability: "vanish"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3247,7 +3787,7 @@
         zh: "74/204 ZH 8"
         ja: "74/204 JA 8"
         culture_invariant_id: 1738
-        sort_number: 1735
+        sort_number: 1737
       rarity: super_rare
   lore: 3
   cost: 5
@@ -3281,6 +3821,12 @@
       name: "Dschafar"
       title: "Hoher Sultan von Lorcana"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "DARK POWER"
+      text: 
+        en: "Whenever this character quests, you may draw a card, then choose and discard a card. If an Illusion character card is discarded this way, you may play that character for free."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3294,7 +3840,7 @@
         zh: "75/204 ZH 8"
         ja: "75/204 JA 8"
         culture_invariant_id: 1739
-        sort_number: 1736
+        sort_number: 1738
       rarity: common
   lore: 2
   cost: 5
@@ -3326,6 +3872,12 @@
       name: "Camilo Madrigal"
       title: "Bühnen-Mittelpunkt"
       flavour: "Mein Primo Camilo, der bringt dich zum Lachen zu jeder Zeit.\n–Mirabel Madrigal"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "BIS! BIS!"
+      text: 
+        en: "When this character is banished in a challenge, return this card to your hand."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3339,7 +3891,7 @@
         zh: "76/204 ZH 8"
         ja: "76/204 JA 8"
         culture_invariant_id: 1740
-        sort_number: 1737
+        sort_number: 1739
       rarity: rare
   lore: 1
   cost: 3
@@ -3383,7 +3935,7 @@
         zh: "77/204 ZH 8"
         ja: "77/204 JA 8"
         culture_invariant_id: 1741
-        sort_number: 1738
+        sort_number: 1740
       rarity: uncommon
   cost: 5
   inkwell: true
@@ -3408,6 +3960,12 @@
       name: "Duell im Wald"
       title: ""
       flavour: "Kämpfe mit Ehre, gewinne mit Würde."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Forest Duel"
+      text: 
+        en: "Your characters gain Challenger +2 and 'When this character is banished in a challenge, return this card to your hand' this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3421,7 +3979,7 @@
         zh: "78/204 ZH 8"
         ja: "78/204 JA 8"
         culture_invariant_id: 1742
-        sort_number: 1739
+        sort_number: 1741
       rarity: uncommon
   cost: 3
   inkwell: true
@@ -3446,6 +4004,12 @@
       name: "Die kommen nie zurück"
       title: ""
       flavour: "Ihr Jungs habt euer Vergnügen gehabt! Jetzt zahlt ihr dafür.\n–Der Kutscher"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "They Never Come Back"
+      text: 
+        en: "Up to 2 chosen characters can’t ready at the start of their next turn. Draw a card."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3459,7 +4023,7 @@
         zh: "79/204 ZH 8"
         ja: "79/204 JA 8"
         culture_invariant_id: 1743
-        sort_number: 1740
+        sort_number: 1742
       rarity: rare
   cost: 9
   inkwell: false
@@ -3486,6 +4050,18 @@
       name: "Fantastisch und auch magisch"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "sing-together"
+      text: 
+        en: "**Sing Together** 9 _(Any number of your of your teammates' characters with total cost 9 or more may {E} to sing this song for free.)_"
+      ability: "sing-together"
+    - type: resolution
+      title: 
+        en: "Fantastical And Magical"
+      text: 
+        en: "Sing Together 9nFor each character that sang this song, draw a card and gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3499,7 +4075,7 @@
         zh: "80/204 ZH 8"
         ja: "80/204 JA 8"
         culture_invariant_id: 1744
-        sort_number: 1741
+        sort_number: 1743
       rarity: uncommon
   cost: 3
   inkwell: true
@@ -3525,6 +4101,12 @@
       name: "Zieh den Hebel!"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Pull The Lever!"
+      text: 
+        en: "Choose one:n- Draw 2 cards.n- Each opponent chooses and discards a card."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3538,7 +4120,7 @@
         zh: "81/204 ZH 8"
         ja: "81/204 JA 8"
         culture_invariant_id: 1745
-        sort_number: 1742
+        sort_number: 1744
       rarity: super_rare
   cost: 3
   inkwell: true
@@ -3566,6 +4148,12 @@
       name: "Wo noch niemand war"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Into The Unknown"
+      text: 
+        en: "Put chosen exerted character into their player's inkwell facedown and exerted."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3579,7 +4167,7 @@
         zh: "82/204 ZH 8"
         ja: "82/204 JA 8"
         culture_invariant_id: 1746
-        sort_number: 1743
+        sort_number: 1745
       rarity: rare
   cost: 4
   inkwell: true
@@ -3604,6 +4192,12 @@
       name: "Jeder hat eine Schwäche"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Everybody's Got A Weakness"
+      text: 
+        en: "Move 1 damage counter from each damaged character you have in play to chosen opposing character. Draw a card for each damage counter moved this way."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3617,7 +4211,7 @@
         zh: "83/204 ZH 8"
         ja: "83/204 JA 8"
         culture_invariant_id: 1747
-        sort_number: 1744
+        sort_number: 1746
       rarity: common
   cost: 2
   inkwell: false
@@ -3642,6 +4236,12 @@
       name: "Skarabäus"
       title: ""
       flavour: "Wenn wir einen fangen können, können wir ihn vielleicht neu kalibrieren, damit er uns hilft, Dschafars Illusionen loszuwerden!\n–Venturo, ein Luminari"
+  abilities: 
+    - type: activated
+      title: 
+        en: "SEARCH THE SANDS"
+      text: 
+        en: "{E} 2 {I} – Return an Illusion character card from your discard to your hand."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3655,7 +4255,7 @@
         zh: "84/204 ZH 8"
         ja: "84/204 JA 8"
         culture_invariant_id: 1748
-        sort_number: 1745
+        sort_number: 1747
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -3681,6 +4281,17 @@
       name: "Eisstacheln"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "HOLD STILL"
+      text: 
+        en: "When you play this item, exert chosen opposing character."
+    - type: activated
+      title: 
+        en: "IT'S STUCK"
+      text: 
+        en: "{E}, 1 {I} – Exert chosen opposing item. It can't ready at the start of its next turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3694,7 +4305,7 @@
         zh: "85/204 ZH 8"
         ja: "85/204 JA 8"
         culture_invariant_id: 1749
-        sort_number: 1746
+        sort_number: 1748
       rarity: common
   lore: 1
   cost: 3
@@ -3738,7 +4349,7 @@
         zh: "86/204 ZH 8"
         ja: "86/204 JA 8"
         culture_invariant_id: 1750
-        sort_number: 1747
+        sort_number: 1749
       rarity: rare
   lore: 2
   cost: 7
@@ -3770,6 +4381,17 @@
       name: "Basil"
       title: "Verdeckter Ermittler"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "INCAPACITATE"
+      text: 
+        en: "When you play this character, you may return chosen character to their player's hand"
+    - type: static-triggered
+      title: 
+        en: "INTERFERE"
+      text: 
+        en: "Whenever this character quests, chosen opponent discards a card at random."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3783,7 +4405,7 @@
         zh: "87/204 ZH 8"
         ja: "87/204 JA 8"
         culture_invariant_id: 1751
-        sort_number: 1748
+        sort_number: 1750
       rarity: common
   lore: 1
   cost: 3
@@ -3814,6 +4436,12 @@
       name: "Strolch"
       title: "Aufmerksamer Wächter"
       flavour: "Ein Blick auf die winzigen Spuren und sein Beschützerinstinkt setzte ein."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "HOW DO I GET IN?"
+      text: 
+        en: "When you play this character, chosen character gains Ward until the start of your next turn. (Opponents can't choose them except to challenge.)"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3827,7 +4455,7 @@
         zh: "88/204 ZH 8"
         ja: "88/204 JA 8"
         culture_invariant_id: 1752
-        sort_number: 1749
+        sort_number: 1751
       rarity: common
   lore: 1
   cost: 4
@@ -3858,6 +4486,12 @@
       name: "Chaca"
       title: "Junior Chipmunk"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "IN CAHOOTS"
+      text: 
+        en: "When you play this character, if you have a character named Tipo in play, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3871,7 +4505,7 @@
         zh: "89/204 ZH 8"
         ja: "89/204 JA 8"
         culture_invariant_id: 1753
-        sort_number: 1750
+        sort_number: 1752
       rarity: common
   lore: 1
   cost: 2
@@ -3902,6 +4536,13 @@
       name: "Tipo"
       title: "Junior Chipmunk"
       flavour: "Das macht so viel Spaß, Chaca! Ich will noch höher!"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3915,7 +4556,7 @@
         zh: "90/204 ZH 8"
         ja: "90/204 JA 8"
         culture_invariant_id: 1754
-        sort_number: 1751
+        sort_number: 1753
       rarity: common
   lore: 1
   cost: 1
@@ -3945,6 +4586,13 @@
       name: "Bill, die Eidechse"
       title: "Schornsteinfeger"
       flavour: "Eine Eidechse mit einer Leiter ist genau das, was wir suchen!\n–Weißes Kaninchen"
+  abilities: 
+    - type: static
+      title: 
+        en: "NOTHING TO IT"
+      text: 
+        en: "While another character in play has damage, this character gains Evasive."
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -3958,7 +4606,7 @@
         zh: "91/204 ZH 8"
         ja: "91/204 JA 8"
         culture_invariant_id: 1755
-        sort_number: 1752
+        sort_number: 1754
       rarity: common
   lore: 1
   cost: 4
@@ -3988,6 +4636,12 @@
       name: "Der Märzhase"
       title: "Exzentriker mit Hasenhirn"
       flavour: "Er weiß wirklich, wie man einen Raum zum Leuchten bringt."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "LIGHT THE CANDLES"
+      text: 
+        en: "When you play this character, you may deal 2 damage to chosen damaged character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4001,7 +4655,7 @@
         zh: "92/204 ZH 8"
         ja: "92/204 JA 8"
         culture_invariant_id: 1756
-        sort_number: 1753
+        sort_number: 1755
       rarity: common
   lore: 2
   cost: 3
@@ -4032,6 +4686,12 @@
       name: "Fred"
       title: "Wissenschaftsenthusiast"
       flavour: "Nicht erschrecken. Das ist nur ein Kostüm. Das ist nicht mein echtes Gesicht und so."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "SPITTING FIRE!"
+      text: 
+        en: "When you play this character, you may banish chosen item."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4045,7 +4705,7 @@
         zh: "93/204 ZH 8"
         ja: "93/204 JA 8"
         culture_invariant_id: 1757
-        sort_number: 1754
+        sort_number: 1756
       rarity: common
   lore: 1
   cost: 4
@@ -4077,6 +4737,13 @@
       name: "Brutus"
       title: "Kanailles Erster Offizier"
       flavour: "Er ist sicherlich nicht der klügste Kopf der Operation."
+  abilities: 
+    - type: static
+      title: 
+        en: "ARE YOU SURE THIS IS SAFE, CAPTAIN?"
+      text: 
+        en: "If you have a character named Don Karnage in play, you pay 1 {I} less to play this character."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4090,7 +4757,7 @@
         zh: "94/204 ZH 8"
         ja: "94/204 JA 8"
         culture_invariant_id: 1758
-        sort_number: 1755
+        sort_number: 1757
       rarity: common
   lore: 1
   cost: 1
@@ -4134,7 +4801,7 @@
         zh: "95/204 ZH 8"
         ja: "95/204 JA 8"
         culture_invariant_id: 1759
-        sort_number: 1756
+        sort_number: 1758
       rarity: uncommon
   lore: 1
   cost: 3
@@ -4165,6 +4832,17 @@
       name: "Louis"
       title: "Liebenswerter Alligator"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "SENSITIVE SOUL"
+      text: 
+        en: "This card enters play exerted."
+    - type: resolution
+      title: 
+        en: "FRIENDLIER THAN HE LOOKS"
+      text: 
+        en: "When you play this character, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4178,7 +4856,7 @@
         zh: "96/204 ZH 8"
         ja: "96/204 JA 8"
         culture_invariant_id: 1760
-        sort_number: 1757
+        sort_number: 1759
       rarity: uncommon
   lore: 1
   cost: 4
@@ -4221,7 +4899,7 @@
         zh: "97/204 ZH 8"
         ja: "97/204 JA 8"
         culture_invariant_id: 1761
-        sort_number: 1758
+        sort_number: 1760
       rarity: uncommon
   lore: 1
   cost: 4
@@ -4252,6 +4930,12 @@
       name: "Chip"
       title: "Schnelldenker"
       flavour: "Keine Sorge, Chap! Ich hab dich!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "I'LL HANDLE IT"
+      text: 
+        en: "When you play this character, choose an opponent to discard a card."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4265,7 +4949,7 @@
         zh: "98/204 ZH 8"
         ja: "98/204 JA 8"
         culture_invariant_id: 1762
-        sort_number: 1759
+        sort_number: 1761
       rarity: rare
   lore: 3
   cost: 7
@@ -4296,6 +4980,18 @@
       name: "Fred"
       title: "Riesengroß"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 5"
+      text: 
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Fred.)_"
+      ability: "shift"
+    - type: static-triggered
+      title: 
+        en: "I LIKE WHERE THIS IS HEADING"
+      text: 
+        en: "Whenever this character quests, reveal cards from the top of your deck until you reveal a Floodborn character card. Put that card into your hand and shuffle the rest into your deck."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4309,7 +5005,7 @@
         zh: "99/204 ZH 8"
         ja: "99/204 JA 8"
         culture_invariant_id: 1763
-        sort_number: 1760
+        sort_number: 1762
       rarity: rare
   lore: 2
   cost: 4
@@ -4341,6 +5037,12 @@
       name: "Trixi"
       title: "Eigenwillige Wissenschaftlerin"
       flavour: "Die Energiequelle der Skarabäen! Ich wusste, dass ich sie finden würde, wenn ich herumgrabe!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "GOLLY!"
+      text: 
+        en: "When you play this character, if an opponent has more cards in their hand than you, you may draw a card."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4354,7 +5056,7 @@
         zh: "100/204 ZH 8"
         ja: "100/204 JA 8"
         culture_invariant_id: 1764
-        sort_number: 1761
+        sort_number: 1763
       rarity: legendary
   lore: 2
   cost: 6
@@ -4386,6 +5088,12 @@
       name: "Raya"
       title: "Expertin für Infiltrationen"
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "UNCONVENTIONAL TACTICS"
+      text: 
+        en: "Whenever this character quests, you may pay 2 {I} to ready another chosen character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4399,7 +5107,7 @@
         zh: "101/204 ZH 8"
         ja: "101/204 JA 8"
         culture_invariant_id: 1765
-        sort_number: 1762
+        sort_number: 1764
       rarity: legendary
   lore: 2
   cost: 5
@@ -4431,6 +5139,18 @@
       name: "Rapunzel"
       title: "Kletterin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static-triggered
+      title: 
+        en: "WRAPPED UP"
+      text: 
+        en: "Whenever this character quests, chosen opposing character can't quest during their next turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4444,7 +5164,7 @@
         zh: "102/204 ZH 8"
         ja: "102/204 JA 8"
         culture_invariant_id: 1766
-        sort_number: 1763
+        sort_number: 1765
       rarity: super_rare
   lore: 3
   cost: 4
@@ -4476,6 +5196,12 @@
       name: "Flynn Rider"
       title: "Einbrecher"
       flavour: "So oder so, ich bekomme, was ich will."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "THIS IS A VERY BIG DAY"
+      text: 
+        en: "Whenever this character is challenged, the challenging player may choose and discard a card. If they don't, you gain 2 lore."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4489,7 +5215,7 @@
         zh: "103/204 ZH 8"
         ja: "103/204 JA 8"
         culture_invariant_id: 1767
-        sort_number: 1764
+        sort_number: 1766
       rarity: uncommon
   lore: 1
   cost: 2
@@ -4520,6 +5246,12 @@
       name: "Haselmaus"
       title: "Leicht reizbar"
       flavour: "Der Tee ist stark, auch wenn er es nicht ist."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "VERY RUDE INDEED"
+      text: 
+        en: "When you play this character, you may put 1 damage counter on chosen character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4533,7 +5265,7 @@
         zh: "104/204 ZH 8"
         ja: "104/204 JA 8"
         culture_invariant_id: 1768
-        sort_number: 1765
+        sort_number: 1767
       rarity: rare
   lore: 2
   cost: 6
@@ -4565,6 +5297,18 @@
       name: "Alice"
       title: "Ungeschickt wie immer"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 3"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Alice.)_"
+      ability: "shift"
+    - type: static-triggered
+      title: 
+        en: "ACCIDENT PRONE"
+      text: 
+        en: "Whenever this character quests, put 1 damage counter on each other character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4578,7 +5322,7 @@
         zh: "105/204 ZH 8"
         ja: "105/204 JA 8"
         culture_invariant_id: 1769
-        sort_number: 1766
+        sort_number: 1768
       rarity: super_rare
   lore: 3
   cost: 4
@@ -4611,6 +5355,13 @@
       name: "Die Herzkönigin"
       title: "Hochmütige Monarchin"
       flavour: "Sie geht dorthin, wo es ihr gefällt, egal, auf wen sie treten muss, um dorthin zu gelangen."
+  abilities: 
+    - type: static
+      title: 
+        en: "COUNT OFF!"
+      text: 
+        en: "While there are 5 or more characters with damage in play, this character gets +3 {L}."
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4624,7 +5375,7 @@
         zh: "106/204 ZH 8"
         ja: "106/204 JA 8"
         culture_invariant_id: 1770
-        sort_number: 1767
+        sort_number: 1769
       rarity: uncommon
   lore: 1
   cost: 2
@@ -4670,7 +5421,7 @@
         zh: "107/204 ZH 8"
         ja: "107/204 JA 8"
         culture_invariant_id: 1771
-        sort_number: 1768
+        sort_number: 1770
       rarity: super_rare
   lore: 2
   cost: 4
@@ -4703,6 +5454,19 @@
       name: "Go Go Tomago"
       title: "Messerscharf"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 4"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Go Go Tomago.)_"
+      ability: "shift"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4716,7 +5480,7 @@
         zh: "108/204 ZH 8"
         ja: "108/204 JA 8"
         culture_invariant_id: 1772
-        sort_number: 1769
+        sort_number: 1771
       rarity: uncommon
   lore: 1
   cost: 3
@@ -4750,6 +5514,13 @@
       name: "Don Kanaille"
       title: "Anführer der Luftpiraten"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4763,7 +5534,7 @@
         zh: "109/204 ZH 8"
         ja: "109/204 JA 8"
         culture_invariant_id: 1773
-        sort_number: 1770
+        sort_number: 1772
       rarity: rare
   lore: 2
   cost: 5
@@ -4798,6 +5569,13 @@
       name: "Käpt'n Hook"
       title: "König der Piraten"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 3"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Captain Hook.)_"
+      ability: "shift"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4811,7 +5589,7 @@
         zh: "110/204 ZH 8"
         ja: "110/204 JA 8"
         culture_invariant_id: 1774
-        sort_number: 1771
+        sort_number: 1773
       rarity: super_rare
   lore: 3
   cost: 6
@@ -4857,7 +5635,7 @@
         zh: "111/204 ZH 8"
         ja: "111/204 JA 8"
         culture_invariant_id: 1775
-        sort_number: 1772
+        sort_number: 1774
       rarity: rare
   lore: 2
   cost: 4
@@ -4903,7 +5681,7 @@
         zh: "112/204 ZH 8"
         ja: "112/204 JA 8"
         culture_invariant_id: 1776
-        sort_number: 1773
+        sort_number: 1775
       rarity: common
   lore: 1
   cost: 4
@@ -4934,6 +5712,12 @@
       name: "Jock"
       title: "Aufmerksamer Onkel"
       flavour: "Macht es euch gemütlich, ihr kleinen Welpen, und lasst euch von Onkel Jock eine Geschichte über ein paar Luminari und ein verrücktes Abenteuer erzählen …"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "VOICE OF EXPERIENCE"
+      text: 
+        en: "When you play this character, if you have 3 or more other characters in play, gain 2 lore."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4947,7 +5731,7 @@
         zh: "113/204 ZH 8"
         ja: "113/204 JA 8"
         culture_invariant_id: 1777
-        sort_number: 1774
+        sort_number: 1776
       rarity: rare
   lore: 2
   cost: 3
@@ -4978,6 +5762,17 @@
       name: "Archimedes"
       title: "Raffinierte Eule"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "YOU DON'T NEED THAT"
+      text: 
+        en: "When you play this character, you may banish chosen item."
+    - type: static-triggered
+      title: 
+        en: "NOW, THAT'S NOT BAD"
+      text: 
+        en: "During your turn, whenever an item is banished, you may draw a card, then choose and discard a card."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -4991,7 +5786,7 @@
         zh: "114/204 ZH 8"
         ja: "114/204 JA 8"
         culture_invariant_id: 1778
-        sort_number: 1775
+        sort_number: 1777
       rarity: common
   cost: 3
   inkwell: true
@@ -5016,6 +5811,12 @@
       name: "Der, der stiehlt und nichts gewinnt"
       title: ""
       flavour: "Stiehlt ein anderes Mal bestimmt!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "He Who Steals And Runs Away"
+      text: 
+        en: "Banish chosen item. Draw a card."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5029,7 +5830,7 @@
         zh: "115/204 ZH 8"
         ja: "115/204 JA 8"
         culture_invariant_id: 1779
-        sort_number: 1776
+        sort_number: 1778
       rarity: uncommon
   cost: 8
   inkwell: true
@@ -5056,6 +5857,18 @@
       name: "Alles Böse biss dabei ins Gras"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "sing-together"
+      text: 
+        en: "**Sing Together** 8 _(Any number of your of your teammates' characters with total cost 8 or more may {E} to sing this song for free.)_"
+      ability: "sing-together"
+    - type: resolution
+      title: 
+        en: "Stopped Chaos In Its Tracks"
+      text: 
+        en: "Sing Together 8nReturn up to 2 chosen characters with 3 {S} or less each to their player's hand."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5069,7 +5882,7 @@
         zh: "116/204 ZH 8"
         ja: "116/204 JA 8"
         culture_invariant_id: 1780
-        sort_number: 1777
+        sort_number: 1779
       rarity: rare
   cost: 3
   inkwell: true
@@ -5094,6 +5907,12 @@
       name: "Das war der Falsche!"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Wrong Lever!"
+      text: 
+        en: "Choose one:n- Return chosen character to their player's hand.n- Put a Pull the Lever! card from your discard pile on the bottom of your deck to put chosen character on the bottom of their owner's deck."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5107,7 +5926,7 @@
         zh: "117/204 ZH 8"
         ja: "117/204 JA 8"
         culture_invariant_id: 1781
-        sort_number: 1778
+        sort_number: 1780
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -5133,6 +5952,17 @@
       name: "Sabotieren"
       title: ""
       flavour: "Es ist wirklich eine Schande, dass ich nicht einmal die Chance hatte, es zu studieren."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Undermine"
+      text: 
+        en: "Chosen opponent chooses and discards a card. Chosen character gets +2 {S} this turn."
+    - type: resolution
+      title: 
+        en: "Undermine"
+      text: 
+        en: "Chosen opponent chooses and discards a card. Chosen character gets +2 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5146,7 +5976,7 @@
         zh: "118/204 ZH 8"
         ja: "118/204 JA 8"
         culture_invariant_id: 1782
-        sort_number: 1779
+        sort_number: 1781
       rarity: uncommon
   cost: 3
   inkwell: false
@@ -5172,6 +6002,12 @@
       name: "Über die Planke!"
       title: ""
       flavour: "An diesem Punkt beschloss Klaus, dass er genug von Abenteuern hatte."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Walk The Plank!"
+      text: 
+        en: "Your Pirate characters gain ``{E} – Banish chosen damaged character`` this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5185,7 +6021,7 @@
         zh: "119/204 ZH 8"
         ja: "119/204 JA 8"
         culture_invariant_id: 1783
-        sort_number: 1780
+        sort_number: 1782
       rarity: common
   cost: 2
   inkwell: true
@@ -5210,6 +6046,12 @@
       name: "Chemie-Tasche"
       title: ""
       flavour: "Süß, aber auch potenziell gefährlich. Perfekt.\n–Honey Lemon"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "HERE'S THE BEST PART"
+      text: 
+        en: "Whenever you play a character, if you used Shift to play them, they get +4 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5223,7 +6065,7 @@
         zh: "120/204 ZH 8"
         ja: "120/204 JA 8"
         culture_invariant_id: 1784
-        sort_number: 1781
+        sort_number: 1783
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -5249,6 +6091,13 @@
       name: "Juwelenhalsband"
       title: ""
       flavour: "Archazia hat viele wundersame Dinge erschaffen, aber noch keines so schön wie dieses."
+  abilities: 
+    - type: static
+      title: 
+        en: "WELCOME EXTRAVAGANCE"
+      text: 
+        en: "Whenever one of your characters is challenged, you may put the top card of your deck into your inkwell facedown and exerted."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5262,7 +6111,7 @@
         zh: "121/204 ZH 8"
         ja: "121/204 JA 8"
         culture_invariant_id: 1785
-        sort_number: 1782
+        sort_number: 1784
       rarity: common
   lore: 1
   cost: 3
@@ -5294,6 +6143,12 @@
       name: "Gloyd Orangeboar"
       title: "Hartnäckiger Konkurrent"
       flavour: "Ich habe Saures für meine Gegner <und> Süßes für meine Fans!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "PUMPKIN SPICE"
+      text: 
+        en: "When you play this character, each opponent loses 1 lore and you gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5307,7 +6162,7 @@
         zh: "122/204 ZH 8"
         ja: "122/204 JA 8"
         culture_invariant_id: 1786
-        sort_number: 1783
+        sort_number: 1785
       rarity: uncommon
   lore: 2
   cost: 6
@@ -5351,7 +6206,7 @@
         zh: "123/204 ZH 8"
         ja: "123/204 JA 8"
         culture_invariant_id: 1787
-        sort_number: 1784
+        sort_number: 1786
       rarity: rare
   lore: 1
   cost: 3
@@ -5384,6 +6239,13 @@
       name: "Daniel Düsentrieb"
       title: "Exzentrischer Erfinder"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5397,7 +6259,7 @@
         zh: "124/204 ZH 8"
         ja: "124/204 JA 8"
         culture_invariant_id: 1788
-        sort_number: 1785
+        sort_number: 1787
       rarity: common
   lore: 1
   cost: 2
@@ -5430,6 +6292,13 @@
       name: "Vanellope von Schweetz"
       title: "Flotter Flitzer"
       flavour: "Ich kann mit allem umgehen, was ihr mir entgegenwerft … Warte, sind das <Laserschlangen>? Das ist die beste Strecke aller Zeiten!"
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5443,7 +6312,7 @@
         zh: "125/204 ZH 8"
         ja: "125/204 JA 8"
         culture_invariant_id: 1789
-        sort_number: 1786
+        sort_number: 1788
       rarity: common
   lore: 1
   cost: 4
@@ -5474,6 +6343,12 @@
       name: "Brutus, das Krokodil"
       title: "Furchterregendes Krokodil"
       flavour: "Er steht Nero in Sachen Grausamkeit und Klasse in nichts nach."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "SPITEFUL"
+      text: 
+        en: "During your turn, when this character is banished, if one of your characters was damaged this turn, gain 2 lore."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5487,7 +6362,7 @@
         zh: "126/204 ZH 8"
         ja: "126/204 JA 8"
         culture_invariant_id: 1790
-        sort_number: 1787
+        sort_number: 1789
       rarity: common
   lore: 1
   cost: 3
@@ -5517,6 +6392,19 @@
       name: "Der Dodo"
       title: "Schräger Geschichtenerzähler"
       flavour: "Und da war ich in der Höhle unterhalb des Palastes, als plötzlich Sand herabrieselte. Hielt ich an? Nein! Was ist schon ein bisschen Sand?"
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
+    - type: static
+      title: 
+        en: "effects"
+      text: 
+        en: ""
+      ability: "effects"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5530,7 +6418,7 @@
         zh: "127/204 ZH 8"
         ja: "127/204 JA 8"
         culture_invariant_id: 1791
-        sort_number: 1788
+        sort_number: 1790
       rarity: common
   lore: 2
   cost: 4
@@ -5561,6 +6449,12 @@
       name: "Alice"
       title: "Mutige Schlüsselträgerin"
       flavour: "Meine Güte, diese Skarabäen sind ganz schön nah! Wir müssen einen Ausweg finden!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "THIS WAY OUT"
+      text: 
+        en: "When you play this character, you may ready chosen damaged character of yours. They can't quest for the rest of this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5574,7 +6468,7 @@
         zh: "128/204 ZH 8"
         ja: "128/204 JA 8"
         culture_invariant_id: 1792
-        sort_number: 1789
+        sort_number: 1791
       rarity: common
   lore: 2
   cost: 2
@@ -5605,6 +6499,13 @@
       name: "Lumière"
       title: "Flinker Kerzenleuchter"
       flavour: "Sacre bleu! So behandelt man keinen Gast in seinem Palast!"
+  abilities: 
+    - type: static
+      title: 
+        en: "QUICK-STEP"
+      text: 
+        en: "While you have an item card in your discard, this character gains Evasive. (Only characters with Evasive can challenge them.)"
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5618,7 +6519,7 @@
         zh: "129/204 ZH 8"
         ja: "129/204 JA 8"
         culture_invariant_id: 1793
-        sort_number: 1790
+        sort_number: 1792
       rarity: common
   lore: 1
   cost: 4
@@ -5649,6 +6550,12 @@
       name: "Gaston"
       title: "Arroganter Angeber"
       flavour: "Nimm diesen magischen Stein. Du wirst ihn brauchen, um mit mir Schritt zu halten!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "BREAK APART"
+      text: 
+        en: "When you play this character, you may banish one of your items to give chosen character +2 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5662,7 +6569,7 @@
         zh: "130/204 ZH 8"
         ja: "130/204 JA 8"
         culture_invariant_id: 1794
-        sort_number: 1791
+        sort_number: 1793
       rarity: common
   lore: 1
   cost: 3
@@ -5707,7 +6614,7 @@
         zh: "131/204 ZH 8"
         ja: "131/204 JA 8"
         culture_invariant_id: 1795
-        sort_number: 1792
+        sort_number: 1794
       rarity: common
   lore: 1
   cost: 4
@@ -5751,7 +6658,7 @@
         zh: "132/204 ZH 8"
         ja: "132/204 JA 8"
         culture_invariant_id: 1796
-        sort_number: 1793
+        sort_number: 1795
       rarity: common
   lore: 1
   cost: 5
@@ -5794,7 +6701,7 @@
         zh: "133/204 ZH 8"
         ja: "133/204 JA 8"
         culture_invariant_id: 1797
-        sort_number: 1794
+        sort_number: 1796
       rarity: uncommon
   lore: 1
   cost: 3
@@ -5825,6 +6732,13 @@
       name: "Figaro"
       title: "Tuxedo-Katze"
       flavour: "Und nun sage Figaro auch guten Tag. Hupps! Und gleich zu Streichen aufgelegt!\n–Geppetto"
+  abilities: 
+    - type: static
+      title: 
+        en: "PLAYFULNESS"
+      text: 
+        en: "Opposing items enter play exerted."
+      ability: "gain-ability"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5838,7 +6752,7 @@
         zh: "134/204 ZH 8"
         ja: "134/204 JA 8"
         culture_invariant_id: 1798
-        sort_number: 1795
+        sort_number: 1797
       rarity: uncommon
   lore: 1
   cost: 2
@@ -5882,7 +6796,7 @@
         zh: "135/204 ZH 8"
         ja: "135/204 JA 8"
         culture_invariant_id: 1799
-        sort_number: 1796
+        sort_number: 1798
       rarity: rare
   lore: 1
   cost: 3
@@ -5914,6 +6828,12 @@
       name: "Randale Ralph"
       title: "Rücksitzfahrer"
       flavour: "Lass uns Gummi verbrennen, Kleine!\n–Randale Ralph"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "CHARGED UP"
+      text: 
+        en: "When you play this character, chosen Racer character gets +4 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5927,7 +6847,7 @@
         zh: "136/204 ZH 8"
         ja: "136/204 JA 8"
         culture_invariant_id: 1800
-        sort_number: 1797
+        sort_number: 1799
       rarity: legendary
   lore: 1
   cost: 2
@@ -5959,6 +6879,13 @@
       name: "Naseweis"
       title: "Hartnäckige Fee"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -5972,7 +6899,7 @@
         zh: "137/204 ZH 8"
         ja: "137/204 JA 8"
         culture_invariant_id: 1801
-        sort_number: 1798
+        sort_number: 1800
       rarity: legendary
   lore: 2
   cost: 5
@@ -6003,6 +6930,18 @@
       name: "Lilo"
       title: "Aufruhr-Auslöserin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "STOMPIN' TIME!"
+      text: 
+        en: "During your turn, if you've played 3 or more actions this turn, you may play this character for free."
+      ability: "effects"
+    - type: resolution
+      title: 
+        en: "RAAAWR!"
+      text: 
+        en: "When you play this character, ready chosen character. They can't quest for the rest of this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6016,7 +6955,7 @@
         zh: "138/204 ZH 8"
         ja: "138/204 JA 8"
         culture_invariant_id: 1802
-        sort_number: 1799
+        sort_number: 1801
       rarity: uncommon
   lore: 1
   cost: 2
@@ -6061,7 +7000,7 @@
         zh: "139/204 ZH 8"
         ja: "139/204 JA 8"
         culture_invariant_id: 1803
-        sort_number: 1800
+        sort_number: 1802
       rarity: super_rare
   lore: 2
   cost: 5
@@ -6093,6 +7032,13 @@
       name: "Lumière"
       title: "Angefeuert"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 3"
+      text: 
+        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Lumiere.)_"
+      ability: "shift"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6106,7 +7052,7 @@
         zh: "140/204 ZH 8"
         ja: "140/204 JA 8"
         culture_invariant_id: 1804
-        sort_number: 1801
+        sort_number: 1803
       rarity: uncommon
   lore: 1
   cost: 2
@@ -6138,6 +7084,19 @@
       name: "Der Kutscher"
       title: "Gieriger Betrüger"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "RECKLESS RUN"
+      text: 
+        en: "While you have 2 or more characters exerted, this character gets +2 {S} and Evasive."
+      ability: "effects"
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6151,7 +7110,7 @@
         zh: "141/204 ZH 8"
         ja: "141/204 JA 8"
         culture_invariant_id: 1805
-        sort_number: 1802
+        sort_number: 1804
       rarity: super_rare
   lore: 0
   cost: 4
@@ -6184,6 +7143,25 @@
       name: "Mulan"
       title: "Stürmt voran"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "reckless"
+      text: 
+        en: "_(This character can't quest and must challenge each turn if able.)_"
+      ability: "reckless"
+    - type: static
+      title: 
+        en: "Burst of Speed"
+      text: 
+        en: "During your turn, this character gains **Evasive**."
+      ability: "gain-ability"
+    - type: static
+      title: 
+        en: "Long Range"
+      text: 
+        en: "This character can challenge ready characters."
+      ability: "challenge-ready-chars"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6197,7 +7175,7 @@
         zh: "142/204 ZH 8"
         ja: "142/204 JA 8"
         culture_invariant_id: 1806
-        sort_number: 1803
+        sort_number: 1805
       rarity: rare
   lore: 2
   cost: 6
@@ -6230,6 +7208,18 @@
       name: "Mushu"
       title: "Dein schlimmster Albtraum"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 4"
+      text: 
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Mushu.)_"
+      ability: "shift"
+    - type: static-triggered
+      title: 
+        en: "ALL FIRED UP"
+      text: 
+        en: "Whenever you play another character, they gain Rush, Reckless, and Evasive this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6243,7 +7233,7 @@
         zh: "143/204 ZH 8"
         ja: "143/204 JA 8"
         culture_invariant_id: 1807
-        sort_number: 1804
+        sort_number: 1806
       rarity: common
   lore: 1
   cost: 3
@@ -6274,6 +7264,12 @@
       name: "Mr. Snoops"
       title: "Betrogener Partner"
       flavour: "Du kannst mir so was nicht antun, du Schwindlerin! Wir hatten eine Absprache!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "DOUBLE-CROSSING CROOK!"
+      text: 
+        en: "During your turn, when this character is banished, you may draw a card."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6287,7 +7283,7 @@
         zh: "144/204 ZH 8"
         ja: "144/204 JA 8"
         culture_invariant_id: 1808
-        sort_number: 1805
+        sort_number: 1807
       rarity: common
   lore: 2
   cost: 2
@@ -6331,7 +7327,7 @@
         zh: "145/204 ZH 8"
         ja: "145/204 JA 8"
         culture_invariant_id: 1809
-        sort_number: 1806
+        sort_number: 1808
       rarity: rare
   lore: 1
   cost: 4
@@ -6362,6 +7358,13 @@
       name: "Feline"
       title: "Verspieltes Rehkitz"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "evasive"
+      text: 
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6375,7 +7378,7 @@
         zh: "146/204 ZH 8"
         ja: "146/204 JA 8"
         culture_invariant_id: 1810
-        sort_number: 1807
+        sort_number: 1809
       rarity: rare
   lore: 1
   cost: 3
@@ -6407,6 +7410,12 @@
       name: "Prinz John"
       title: "Angstkatze"
       flavour: "Auch ein verängstigter Löwe hat noch Krallen."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "HELP! HELP!"
+      text: 
+        en: "Whenever an opponent plays a character, deal 1 damage to this character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6420,7 +7429,7 @@
         zh: "147/204 ZH 8"
         ja: "147/204 JA 8"
         culture_invariant_id: 1811
-        sort_number: 1808
+        sort_number: 1810
       rarity: rare
   cost: 8
   inkwell: true
@@ -6447,6 +7456,18 @@
       name: "Für immer und immer"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "sing-together"
+      text: 
+        en: "**Sing Together** 8 _(Any number of your of your teammates' characters with total cost 8 or more may {E} to sing this song for free.)_"
+      ability: "sing-together"
+    - type: resolution
+      title: 
+        en: "Nothing We Won't Do"
+      text: 
+        en: "Sing Together 8nReady all your characters. For the rest of this turn, they take no damage from challenges and can't quest."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6460,7 +7481,7 @@
         zh: "148/204 ZH 8"
         ja: "148/204 JA 8"
         culture_invariant_id: 1812
-        sort_number: 1809
+        sort_number: 1811
       rarity: uncommon
   cost: 6
   inkwell: false
@@ -6486,6 +7507,12 @@
       name: "Verschwinde hier!"
       title: ""
       flavour: "Gehe jetzt. Bevor ich meine Meinung ändere.\n–Das Biest"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Get Out!"
+      text: 
+        en: "Banish chosen character, then return an item card from your discard to your hand."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6499,7 +7526,7 @@
         zh: "149/204 ZH 8"
         ja: "149/204 JA 8"
         culture_invariant_id: 1813
-        sort_number: 1810
+        sort_number: 1812
       rarity: uncommon
   cost: 1
   inkwell: false
@@ -6525,6 +7552,12 @@
       name: "Entzünde die Lunte"
       title: ""
       flavour: "Eine mutige Tat kann den Verlauf einer Schlacht verändern."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Light The Fuse"
+      text: 
+        en: "Deal 1 damage to chosen character for each exerted character you have in play."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6538,7 +7571,7 @@
         zh: "150/204 ZH 8"
         ja: "150/204 JA 8"
         culture_invariant_id: 1814
-        sort_number: 1811
+        sort_number: 1813
       rarity: uncommon
   cost: 1
   inkwell: true
@@ -6563,6 +7596,12 @@
       name: "Schwer verknallt"
       title: ""
       flavour: "Ein mysteriöses Phänomen, bei dem man sich gleichzeitig unbesiegbar und verletzlich fühlt."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Twitterpated"
+      text: 
+        en: "Chosen character gains Evasive until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6576,7 +7615,7 @@
         zh: "151/204 ZH 8"
         ja: "151/204 JA 8"
         culture_invariant_id: 1815
-        sort_number: 1812
+        sort_number: 1814
       rarity: rare
   cost: 7
   inkwell: false
@@ -6601,6 +7640,12 @@
       name: "Die meisten von uns hier sind verrückt"
       title: ""
       flavour: "Nun, manche Leute gehen da lang. Andere gehen da lang. Ich persönlich dagegen ziehe die Abkürzung vor."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Most Everyone's Mad Here"
+      text: 
+        en: "Gain lore equal to the damage on chosen character, then banish them."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6614,7 +7659,7 @@
         zh: "152/204 ZH 8"
         ja: "152/204 JA 8"
         culture_invariant_id: 1816
-        sort_number: 1813
+        sort_number: 1815
       rarity: rare
   cost: 1
   inkwell: true
@@ -6639,6 +7684,12 @@
       name: "Das Schwert des Shan-Yu"
       title: ""
       flavour: "Es bedeutet euch sehr viel. \n–Der Kaiser"
+  abilities: 
+    - type: activated
+      title: 
+        en: "WORTHY WEAPON"
+      text: 
+        en: "{E}, {E} one of your characters – Ready chosen character. They can’t quest for the rest of this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6652,7 +7703,7 @@
         zh: "153/204 ZH 8"
         ja: "153/204 JA 8"
         culture_invariant_id: 1817
-        sort_number: 1814
+        sort_number: 1816
       rarity: common
   lore: 1
   cost: 4
@@ -6697,7 +7748,7 @@
         zh: "154/204 ZH 8"
         ja: "154/204 JA 8"
         culture_invariant_id: 1818
-        sort_number: 1815
+        sort_number: 1817
       rarity: uncommon
   lore: 1
   cost: 3
@@ -6741,7 +7792,7 @@
         zh: "155/204 ZH 8"
         ja: "155/204 JA 8"
         culture_invariant_id: 1819
-        sort_number: 1816
+        sort_number: 1818
       rarity: common
   lore: 1
   cost: 3
@@ -6785,7 +7836,7 @@
         zh: "156/204 ZH 8"
         ja: "156/204 JA 8"
         culture_invariant_id: 1820
-        sort_number: 1817
+        sort_number: 1819
       rarity: common
   lore: 1
   cost: 1
@@ -6829,7 +7880,7 @@
         zh: "157/204 ZH 8"
         ja: "157/204 JA 8"
         culture_invariant_id: 1821
-        sort_number: 1818
+        sort_number: 1820
       rarity: common
   lore: 2
   cost: 3
@@ -6874,7 +7925,7 @@
         zh: "158/204 ZH 8"
         ja: "158/204 JA 8"
         culture_invariant_id: 1822
-        sort_number: 1819
+        sort_number: 1821
       rarity: common
   lore: 2
   cost: 5
@@ -6906,6 +7957,13 @@
       name: "Wasabi"
       title: "Auf alles vorbereitet"
       flavour: "Okay, der Plan lautet also: ‚Lass Wasabi uns den Rücken freihalten, während wir die Krone stehlen.‘ Gut zu wissen."
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -6919,7 +7977,7 @@
         zh: "159/204 ZH 8"
         ja: "159/204 JA 8"
         culture_invariant_id: 1823
-        sort_number: 1820
+        sort_number: 1822
       rarity: common
   lore: 1
   cost: 2
@@ -6964,7 +8022,7 @@
         zh: "160/204 ZH 8"
         ja: "160/204 JA 8"
         culture_invariant_id: 1824
-        sort_number: 1821
+        sort_number: 1823
       rarity: common
   lore: 1
   cost: 4
@@ -7008,7 +8066,7 @@
         zh: "161/204 ZH 8"
         ja: "161/204 JA 8"
         culture_invariant_id: 1825
-        sort_number: 1822
+        sort_number: 1824
       rarity: common
   lore: 1
   cost: 3
@@ -7052,7 +8110,7 @@
         zh: "162/204 ZH 8"
         ja: "162/204 JA 8"
         culture_invariant_id: 1826
-        sort_number: 1823
+        sort_number: 1825
       rarity: common
   lore: 1
   cost: 1
@@ -7097,7 +8155,7 @@
         zh: "163/204 ZH 8"
         ja: "163/204 JA 8"
         culture_invariant_id: 1827
-        sort_number: 1824
+        sort_number: 1826
       rarity: common
   lore: 1
   cost: 1
@@ -7128,6 +8186,12 @@
       name: "Kleine Schwester"
       title: "Verantwortungsvolles Kaninchen"
       flavour: "Als Skippys ältere Schwester hat sie schon viel Erfahrung darin, Dinge wieder zusammenzusetzen."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "LET ME HELP"
+      text: 
+        en: "When you play this character, you may remove up to 1 damage from chosen character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7141,7 +8205,7 @@
         zh: "164/204 ZH 8"
         ja: "164/204 JA 8"
         culture_invariant_id: 1828
-        sort_number: 1825
+        sort_number: 1827
       rarity: common
   lore: 1
   cost: 2
@@ -7185,7 +8249,7 @@
         zh: "165/204 ZH 8"
         ja: "165/204 JA 8"
         culture_invariant_id: 1829
-        sort_number: 1826
+        sort_number: 1828
       rarity: rare
   lore: 1
   cost: 4
@@ -7229,7 +8293,7 @@
         zh: "166/204 ZH 8"
         ja: "166/204 JA 8"
         culture_invariant_id: 1830
-        sort_number: 1827
+        sort_number: 1829
       rarity: legendary
   lore: 2
   cost: 3
@@ -7261,6 +8325,17 @@
       name: "Stitch"
       title: "Experiment 626"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "SO NAUGHTY"
+      text: 
+        en: "When you play this character, each opponent puts the top card of their deck into their inkwell."
+    - type: static-triggered
+      title: 
+        en: "STEALTH MODE"
+      text: 
+        en: "At the start of your turn, if this card is in your discard, you may choose and discard a card with {IW} to play him for free and he enters play exerted."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7274,7 +8349,7 @@
         zh: "167/204 ZH 8"
         ja: "167/204 JA 8"
         culture_invariant_id: 1831
-        sort_number: 1828
+        sort_number: 1830
       rarity: legendary
   lore: 4
   cost: 8
@@ -7305,6 +8380,18 @@
       name: "Rattenzahn"
       title: "Gieriges Genie"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "ward"
+      text: 
+        en: "_(Opponents can't choose this character except to challenge.)_"
+      ability: "ward"
+    - type: static-triggered
+      title: 
+        en: "TIME RUNS OUT"
+      text: 
+        en: "At the end of your turn, if you didn't put any cards into your inkwell this turn, banish this character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7318,7 +8405,7 @@
         zh: "168/204 ZH 8"
         ja: "168/204 JA 8"
         culture_invariant_id: 1832
-        sort_number: 1829
+        sort_number: 1831
       rarity: uncommon
   lore: 3
   cost: 4
@@ -7363,7 +8450,7 @@
         zh: "169/204 ZH 8"
         ja: "169/204 JA 8"
         culture_invariant_id: 1833
-        sort_number: 1830
+        sort_number: 1832
       rarity: uncommon
   lore: 1
   cost: 2
@@ -7395,6 +8482,12 @@
       name: "Bernard"
       title: "Übervorbereitet"
       flavour: "Miss Bianca, ich habe was gefunden!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "GO DOWN THERE AND INVESTIGATE"
+      text: 
+        en: "When you play this character, if you have an Ally character in play, you may draw a card."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7408,7 +8501,7 @@
         zh: "170/204 ZH 8"
         ja: "170/204 JA 8"
         culture_invariant_id: 1834
-        sort_number: 1831
+        sort_number: 1833
       rarity: rare
   lore: 1
   cost: 6
@@ -7441,6 +8534,18 @@
       name: "Aladdin"
       title: "Wachsamer Gardist"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
+    - type: static-triggered
+      title: 
+        en: "SAFE PASSAGE"
+      text: 
+        en: "Whenever one of your Ally characters quests, you may remove up to 2 damage from this character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7454,7 +8559,7 @@
         zh: "171/204 ZH 8"
         ja: "171/204 JA 8"
         culture_invariant_id: 1835
-        sort_number: 1832
+        sort_number: 1834
       rarity: super_rare
   lore: 1
   cost: 4
@@ -7487,6 +8592,18 @@
       name: "Jasmin"
       title: "Unermüdliche Strategin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Shift 2"
+      text: 
+        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named Jasmine.)_"
+      ability: "shift"
+    - type: static-triggered
+      title: 
+        en: "ALWAYS PLANNING"
+      text: 
+        en: "Whenever this character quests, look at the top 3 cards of your deck. You may reveal an Ally character card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7500,7 +8617,7 @@
         zh: "172/204 ZH 8"
         ja: "172/204 JA 8"
         culture_invariant_id: 1836
-        sort_number: 1833
+        sort_number: 1835
       rarity: uncommon
   lore: 1
   cost: 2
@@ -7531,6 +8648,12 @@
       name: "Roquefort"
       title: "Experte für Schlösser"
       flavour: "Dschafar wird niemals erwarten, dass wir in seinem eigenen Safe Legenden vor ihm verstecken! Wie aufregend!"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "SAFEKEEPING"
+      text: 
+        en: "Whenever this character quests, you may put chosen item into its player's inkwell facedown and exerted."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7544,7 +8667,7 @@
         zh: "173/204 ZH 8"
         ja: "173/204 JA 8"
         culture_invariant_id: 1837
-        sort_number: 1834
+        sort_number: 1836
       rarity: uncommon
   lore: 2
   cost: 4
@@ -7589,7 +8712,7 @@
         zh: "174/204 ZH 8"
         ja: "174/204 JA 8"
         culture_invariant_id: 1838
-        sort_number: 1835
+        sort_number: 1837
       rarity: rare
   lore: 2
   cost: 5
@@ -7634,7 +8757,7 @@
         zh: "175/204 ZH 8"
         ja: "175/204 JA 8"
         culture_invariant_id: 1839
-        sort_number: 1836
+        sort_number: 1838
       rarity: rare
   cost: 6
   inkwell: true
@@ -7661,6 +8784,18 @@
       name: "Himmelwärts jauchzt das Herz"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "sing-together"
+      text: 
+        en: "**Sing Together** 6 _(Any number of your of your teammates' characters with total cost 6 or more may {E} to sing this song for free.)_"
+      ability: "sing-together"
+    - type: resolution
+      title: 
+        en: "Heads Held High"
+      text: 
+        en: "Sing Together 6nRemove up to 3 damage from any number of chosen characters. All opposing characters get -3 {S} this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7674,7 +8809,7 @@
         zh: "176/204 ZH 8"
         ja: "176/204 JA 8"
         culture_invariant_id: 1840
-        sort_number: 1837
+        sort_number: 1839
       rarity: uncommon
   cost: 2
   inkwell: true
@@ -7699,6 +8834,17 @@
       name: "Springen üben"
       title: ""
       flavour: "Sieh dir diesen coolen Trick an, den mir mein Papa beigebracht hat!\n–Simba"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Pouncing Practice"
+      text: 
+        en: "Chosen character gets -2 {S} this turn. Chosen character of yours gains Evasive this turn."
+    - type: resolution
+      title: 
+        en: "Pouncing Practice"
+      text: 
+        en: "Chosen character gets -2 {S} this turn. Chosen character of yours gains Evasive this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7712,7 +8858,7 @@
         zh: "177/204 ZH 8"
         ja: "177/204 JA 8"
         culture_invariant_id: 1841
-        sort_number: 1838
+        sort_number: 1840
       rarity: super_rare
   cost: 6
   inkwell: false
@@ -7739,6 +8885,12 @@
       name: "In New Orleans"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Down In New Orleans"
+      text: 
+        en: "Look at the top 3 cards of your deck. You may reveal a character, item, or location card with cost 6 or less and play it for free. Put the rest on the bottom of your deck in any order."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7752,7 +8904,7 @@
         zh: "178/204 ZH 8"
         ja: "178/204 JA 8"
         culture_invariant_id: 1842
-        sort_number: 1839
+        sort_number: 1841
       rarity: common
   cost: 3
   inkwell: true
@@ -7777,6 +8929,12 @@
       name: "Fernseher"
       title: ""
       flavour: "Die Serie von Thunderbolt war eine Sache, auf die sich alle Welpen einigen konnten."
+  abilities: 
+    - type: activated
+      title: 
+        en: "IS IT ON YET?"
+      text: 
+        en: "{E}, 1 {I} – Look at the top card of your deck. If it's a Puppy character card, you may reveal it and put it into your hand. Otherwise, put it on the bottom of your deck."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7790,7 +8948,7 @@
         zh: "179/204 ZH 8"
         ja: "179/204 JA 8"
         culture_invariant_id: 1843
-        sort_number: 1840
+        sort_number: 1842
       rarity: rare
   cost: 3
   inkwell: false
@@ -7815,6 +8973,12 @@
       name: "Belles Lieblingsbuch"
       title: ""
       flavour: "Manche Geschichten bleiben einem für immer im Gedächtnis."
+  abilities: 
+    - type: activated
+      title: 
+        en: "CHAPTER THREE"
+      text: 
+        en: "{E}, Banish one of your other items – Put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7828,7 +8992,7 @@
         zh: "180/204 ZH 8"
         ja: "180/204 JA 8"
         culture_invariant_id: 1844
-        sort_number: 1841
+        sort_number: 1843
       rarity: rare
   cost: 2
   inkwell: true
@@ -7853,6 +9017,12 @@
       name: "Atlantischer Kristall"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "SHIELDING LIGHT"
+      text: 
+        en: "{E}, 2 {I} – Chosen character gains Resist +2 and Support until the start of your next turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7866,7 +9036,7 @@
         zh: "181/204 ZH 8"
         ja: "181/204 JA 8"
         culture_invariant_id: 1845
-        sort_number: 1842
+        sort_number: 1844
       rarity: uncommon
   lore: 3
   cost: 7
@@ -7910,7 +9080,7 @@
         zh: "182/204 ZH 8"
         ja: "182/204 JA 8"
         culture_invariant_id: 1846
-        sort_number: 1843
+        sort_number: 1845
       rarity: common
   lore: 1
   cost: 3
@@ -7940,6 +9110,13 @@
       name: "Bobby"
       title: "Lila Taube"
       flavour: "Wenn du mir zu nahe kommst, kriegst du den Schnabel ab, capisce?"
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7953,7 +9130,7 @@
         zh: "183/204 ZH 8"
         ja: "183/204 JA 8"
         culture_invariant_id: 1847
-        sort_number: 1844
+        sort_number: 1846
       rarity: common
   lore: 2
   cost: 3
@@ -7985,6 +9162,13 @@
       name: "Fliegender Teppich"
       title: "Phantomteppich"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "vanish"
+      text: 
+        en: "_(When an opponent chooses this character for an action, banish them.)_"
+      ability: "vanish"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -7998,7 +9182,7 @@
         zh: "184/204 ZH 8"
         ja: "184/204 JA 8"
         culture_invariant_id: 1848
-        sort_number: 1845
+        sort_number: 1847
       rarity: common
   lore: 1
   cost: 2
@@ -8042,7 +9226,7 @@
         zh: "185/204 ZH 8"
         ja: "185/204 JA 8"
         culture_invariant_id: 1849
-        sort_number: 1846
+        sort_number: 1848
       rarity: common
   lore: 1
   cost: 1
@@ -8087,7 +9271,7 @@
         zh: "186/204 ZH 8"
         ja: "186/204 JA 8"
         culture_invariant_id: 1850
-        sort_number: 1847
+        sort_number: 1849
       rarity: common
   lore: 1
   cost: 1
@@ -8120,6 +9304,13 @@
       name: "Käpt'n Hook"
       title: "Mächtiger Duellant"
       flavour: "Wie kannst du es wagen? Bewaffne dich, Halunke!"
+  abilities: 
+    - type: static
+      title: 
+        en: "challenger"
+      text: 
+        en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
+      ability: "challenger"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -8133,7 +9324,7 @@
         zh: "187/204 ZH 8"
         ja: "187/204 JA 8"
         culture_invariant_id: 1851
-        sort_number: 1848
+        sort_number: 1850
       rarity: common
   lore: 1
   cost: 3
@@ -8164,6 +9355,13 @@
       name: "General Li"
       title: "Oberhaupt der kaiserlichen Armee"
       flavour: "Schon ein Reiskorn kann die Waage kippen. Sieg oder Niederlage, alles kann von einem einzigen Mann abhängen.\n–Der Kaiser"
+  abilities: 
+    - type: static
+      title: 
+        en: "resist"
+      text: 
+        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
+      ability: "resist"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -8177,7 +9375,7 @@
         zh: "188/204 ZH 8"
         ja: "188/204 JA 8"
         culture_invariant_id: 1852
-        sort_number: 1849
+        sort_number: 1851
       rarity: common
   lore: 2
   cost: 5
@@ -8208,6 +9406,13 @@
       name: "Samson"
       title: "Unbeugsamer Beschützer"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
   franchise_id: ""
 - variants: 
     - set: roj
@@ -8221,7 +9426,7 @@
         zh: "189/204 ZH 8"
         ja: "189/204 JA 8"
         culture_invariant_id: 1853
-        sort_number: 1850
+        sort_number: 1852
       rarity: common
   lore: 1
   cost: 3
@@ -8266,7 +9471,7 @@
         zh: "190/204 ZH 8"
         ja: "190/204 JA 8"
         culture_invariant_id: 1854
-        sort_number: 1851
+        sort_number: 1853
       rarity: common
   lore: 1
   cost: 2
@@ -8310,7 +9515,7 @@
         zh: "191/204 ZH 8"
         ja: "191/204 JA 8"
         culture_invariant_id: 1855
-        sort_number: 1852
+        sort_number: 1854
       rarity: common
   lore: 2
   cost: 5
@@ -8354,7 +9559,7 @@
         zh: "192/204 ZH 8"
         ja: "192/204 JA 8"
         culture_invariant_id: 1856
-        sort_number: 1853
+        sort_number: 1855
       rarity: uncommon
   lore: 1
   cost: 3
@@ -8398,7 +9603,7 @@
         zh: "193/204 ZH 8"
         ja: "193/204 JA 8"
         culture_invariant_id: 1857
-        sort_number: 1854
+        sort_number: 1856
       rarity: common
   lore: 1
   cost: 4
@@ -8442,7 +9647,7 @@
         zh: "194/204 ZH 8"
         ja: "194/204 JA 8"
         culture_invariant_id: 1858
-        sort_number: 1855
+        sort_number: 1857
       rarity: rare
   lore: 1
   cost: 3
@@ -8472,6 +9677,12 @@
       name: "Vinnie"
       title: "Grüne Taube"
       flavour: "Das ist eine ziemliche Zwickmühle, in der du steckst. Gut, dass ich nicht du bin."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "LEARNING EXPERIENCE"
+      text: 
+        en: "During an opponent's turn, whenever one of your other characters is banished, gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -8485,7 +9696,7 @@
         zh: "195/204 ZH 8"
         ja: "195/204 JA 8"
         culture_invariant_id: 1859
-        sort_number: 1856
+        sort_number: 1858
       rarity: rare
   lore: 2
   cost: 4
@@ -8529,7 +9740,7 @@
         zh: "196/204 ZH 8"
         ja: "196/204 JA 8"
         culture_invariant_id: 1860
-        sort_number: 1857
+        sort_number: 1859
       rarity: rare
   lore: 2
   cost: 2
@@ -8563,6 +9774,12 @@
       name: "Käpt'n Flint"
       title: "Berüchtigter Pirat"
       flavour: "Flints Schatz wurde nie gefunden, aber es halten sich hartnäckig Geschichten darüber, dass er ihn irgendwo versteckt haben soll …\n–Erzähler"
+  abilities: 
+    - type: play-condition
+      title: 
+        en: "PREDATORY INSTINCT"
+      text: 
+        en: "You can't play this character unless an opposing character was damaged this turn."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -8576,7 +9793,7 @@
         zh: "197/204 ZH 8"
         ja: "197/204 JA 8"
         culture_invariant_id: 1861
-        sort_number: 1858
+        sort_number: 1860
       rarity: rare
   lore: 3
   cost: 7
@@ -8607,6 +9824,12 @@
       name: "Vincenzo Santorini"
       title: "Der Sprengstoffexperte"
       flavour: "Habt keine Angst vor einem spektakulären Auftritt."
+  abilities: 
+    - type: resolution
+      title: 
+        en: "I JUST LIKE TO BLOW THINGS UP"
+      text: 
+        en: "When you play this character, you may deal 3 damage to chosen character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -8620,7 +9843,7 @@
         zh: "198/204 ZH 8"
         ja: "198/204 JA 8"
         culture_invariant_id: 1862
-        sort_number: 1859
+        sort_number: 1861
       rarity: legendary
   lore: 2
   cost: 5
@@ -8652,6 +9875,23 @@
       name: "Namaari"
       title: "Zielstrebige Rivalin"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "EXTREME FOCUS"
+      text: 
+        en: "This character gets +1 {S} for each card in your discard."
+      ability: "effects"
+    - type: resolution
+      title: 
+        en: "STRATEGIC EDGE"
+      text: 
+        en: "When you play this character and at the start of your turn, you may draw a card, then choose and discard a card."
+    - type: static-triggered
+      title: 
+        en: "STRATEGIC EDGE"
+      text: 
+        en: "When you play this character and at the start of your turn, you may draw a card, then choose and discard a card."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -8665,7 +9905,7 @@
         zh: "199/204 ZH 8"
         ja: "199/204 JA 8"
         culture_invariant_id: 1863
-        sort_number: 1860
+        sort_number: 1862
       rarity: legendary
   lore: 5
   cost: 10
@@ -8696,6 +9936,18 @@
       name: "Micky Maus"
       title: "Riesige Maus"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "bodyguard"
+      text: 
+        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
+      ability: "bodyguard"
+    - type: static-triggered
+      title: 
+        en: "THE BIGGEST STAR EVER"
+      text: 
+        en: "When this character is banished, deal 5 damage to each opposing character."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -8709,7 +9961,7 @@
         zh: "200/204 ZH 8"
         ja: "200/204 JA 8"
         culture_invariant_id: 1864
-        sort_number: 1861
+        sort_number: 1863
       rarity: rare
   lore: 1
   cost: 4
@@ -8741,6 +9993,12 @@
       name: "Stitch"
       title: "Alien-Unruhestifter"
       flavour: "Ah! Endlich ein guter Nutzen für seinen Zerstörungsdrang.\n–Jamba Jookiba"
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "I WIN!"
+      text: 
+        en: "During your turn, whenever this character banishes another character in a challenge, you may draw a card and gain 1 lore."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -8754,7 +10012,7 @@
         zh: "201/204 ZH 8"
         ja: "201/204 JA 8"
         culture_invariant_id: 1865
-        sort_number: 1862
+        sort_number: 1864
       rarity: rare
   cost: 3
   inkwell: false
@@ -8779,6 +10037,12 @@
       name: "Verzweifelter Plan"
       title: ""
       flavour: "Das ist meine Entscheidung. Meine Wahl. Und du wirst mich nicht aufhalten.\n–Namaari"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Desperate Plan"
+      text: 
+        en: "If you have no cards in your hand, draw until you have 3 cards in your hand. Otherwise, choose and discard any number of cards, then draw that many cards."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -8792,7 +10056,7 @@
         zh: "202/204 ZH 8"
         ja: "202/204 JA 8"
         culture_invariant_id: 1866
-        sort_number: 1863
+        sort_number: 1865
       rarity: uncommon
   cost: 7
   inkwell: false
@@ -8819,6 +10083,18 @@
       name: "Beyond the Horizon"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "sing-together"
+      text: 
+        en: "**Sing Together** 7 _(Any number of your of your teammates' characters with total cost 7 or more may {E} to sing this song for free.)_"
+      ability: "sing-together"
+    - type: resolution
+      title: 
+        en: "Beyond The Horizon"
+      text: 
+        en: "Sing Together 7nChoose any number of players. They discard their hands and draw 3 cards each."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -8832,7 +10108,7 @@
         zh: "203/204 ZH 8"
         ja: "203/204 JA 8"
         culture_invariant_id: 1867
-        sort_number: 1864
+        sort_number: 1866
       rarity: uncommon
   cost: 2
   inkwell: false
@@ -8857,6 +10133,12 @@
       name: "Schneller Schuss"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Quick Shot"
+      text: 
+        en: "Deal 1 damage to chosen character. Draw a card."
   franchise_id: ""
 - variants: 
     - set: roj
@@ -8870,7 +10152,7 @@
         zh: "204/204 ZH 8"
         ja: "204/204 JA 8"
         culture_invariant_id: 1868
-        sort_number: 1865
+        sort_number: 1867
       rarity: common
   cost: 3
   inkwell: false
@@ -8895,4 +10177,10 @@
       name: "Hamsterball"
       title: ""
       flavour: ""
+  abilities: 
+    - type: activated
+      title: 
+        en: "ROLL WITH THE PUNCHES"
+      text: 
+        en: "{E}, 1 {I} – Chosen character with no damage gains Resist +2 until the start of your next turn."
   franchise_id: ""

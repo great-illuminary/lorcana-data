@@ -120,7 +120,7 @@ private suspend fun load() {
                     val file = VirtualFile(folder, fileName)
 
                     try {
-                        if (!file.exists()) {
+                        if (false && !file.exists()) {
                             val nativeFile = File(file.absolutePath)
                             rbHighRes[holder]?.let { rbUrl ->
                                 client.get(rbUrl).bodyAsChannel()

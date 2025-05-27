@@ -1,7 +1,7 @@
 {
   "application_shared_properties": {
     "current_app_version": "2025.2",
-    "minimum_app_version": "2025.1"
+    "minimum_app_version": "2025.1.1"
   },
   "card_sets": [
     {
@@ -65,6 +65,13 @@
       "thumbnail_image_url": "https://api.lorcana.ravensburger.com/images/de/quest1/thumbnails/bdcd2db82b293b23042f38993feba1a675ca929fb8db7de23e34318891dcb21a.png",
       "id": 9,
       "sort_number": 5,
+      "type": "QUEST"
+    },
+    {
+      "name": "Überfall auf den Palast – Die Luminari Chroniken",
+      "thumbnail_image_url": "https://api.lorcana.ravensburger.com/images/de/quest2/thumbnails/f1b6a5dfb5510f8fa4a89977e46715a2af94bfaeca5abcd4b444eb9804781fc4.png",
+      "id": 10,
+      "sort_number": 11,
       "type": "QUEST"
     },
     {
@@ -56083,6 +56090,105 @@
         ]
       },
       {
+        "name": "Bolt",
+        "subtitle": "Superhund",
+        "strength": 3,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "SUPER",
+        "ink_cost": 5,
+        "author": "John Loren / Nicholas Kole",
+        "deck_building_id": "a31d2bdbf009fa85ab285105f4b19017beef7180",
+        "culture_invariant_id": 1931,
+        "sort_number": 1653,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Gestaltwandel"
+        ],
+        "subtypes": [
+          "Flutgestalt",
+          "Held"
+        ],
+        "flavor_text": "",
+        "rules_text": "Gestaltwandel 3 (Du kannst 3 zahlen, um diesen Charakter auf einen deiner Bolt-Charaktere auszuspielen.) DAS ZEICHEN MEINER KRAFT Jedes Mal, wenn du diesen Charakter bereit machst, sammelst du 1 Legende für jeden deiner anderen unbeschädigten Charaktere im Spiel. BOLT-LASERBLICK – Verbanne eine Illusion deiner Wahl.",
+        "card_identifier": "223/204 DE 7",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set7/cards/1468x2048/223_8c9c60fbe837b1496eec128e6e55a062802d52fd.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set7/cards/367x512/223_07d67b4de777c0f70151b5fdc2f74aeda467564c.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set7/masks/1468x2048/223_beea136f457e82188125d087cc1c6195ff1ef1d2.jpg",
+        "foil_type": "SeaWave",
+        "card_sets": [
+          7,
+          10
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Bolt"
+        ]
+      },
+      {
+        "name": "Elsa",
+        "subtitle": "Eismacherin",
+        "strength": 5,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "SUPER",
+        "ink_cost": 7,
+        "author": "Ian MacDonald",
+        "deck_building_id": "f288eb233a11571c7c54690d782dcb3cf69e5c05",
+        "culture_invariant_id": 1932,
+        "sort_number": 1654,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [
+          "Gestaltwandel"
+        ],
+        "subtypes": [
+          "Flutgestalt",
+          "Held",
+          "Königin",
+          "Magier"
+        ],
+        "flavor_text": "",
+        "rules_text": "Gestaltwandel 4 (Du kannst 4 zahlen, um diesen Charakter auf einen deiner Elsa-Charaktere auszuspielen.) WINTERLICHE MAUER Jedes Mal, wenn dieser Charakter erkundet, darfst du einen Charakter deiner Wahl erschöpfen. Falls du dies tust und du einen Anna-Charakter im Spiel hast, wird der gewählte Charakter zu Beginn seines nächsten Zuges nicht bereit gemacht.",
+        "card_identifier": "224/204 DE 7",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set7/cards/1468x2048/224_caede74a101469c501965279ecf87de3960ce973.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set7/cards/367x512/224_17371795b6c00070bc4731a47975ed30000839a2.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set7/masks/1468x2048/224_29cacad17a31e225aad33666246994792584223e.jpg",
+        "foil_type": "SeaWave",
+        "card_sets": [
+          7,
+          10
+        ],
+        "magic_ink_colors": [
+          "AMETHYST",
+          "SAPPHIRE"
+        ],
+        "searchable_keywords": [
+          "Frozen",
+          "Die Eiskönigin"
+        ]
+      },
+      {
         "name": "Anna",
         "subtitle": "Eisbrecherin",
         "strength": 2,
@@ -56093,7 +56199,7 @@
         "author": "Ian MacDonald",
         "deck_building_id": "5c027c79eedd9a761d4497187cd38ba25c697de4",
         "culture_invariant_id": 1656,
-        "sort_number": 1653,
+        "sort_number": 1655,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -56140,7 +56246,7 @@
         "author": "Anna Stosik",
         "deck_building_id": "moana-vaiana",
         "culture_invariant_id": 1433,
-        "sort_number": 1654,
+        "sort_number": 1656,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -56187,7 +56293,7 @@
         "author": "Tony Bancroft / Lindsay Weyman",
         "deck_building_id": "3e3ad547703c4a8a5dbc00b8c4deace40863300d",
         "culture_invariant_id": 1657,
-        "sort_number": 1655,
+        "sort_number": 1657,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -56232,7 +56338,7 @@
         "author": "Cécile Carre",
         "deck_building_id": "3435d99659b2cfcde044628324d37c6c5fa17c57",
         "culture_invariant_id": 1658,
-        "sort_number": 1656,
+        "sort_number": 1658,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -56275,7 +56381,7 @@
         "author": "Ian MacDonald",
         "deck_building_id": "e8958ebe93bfe67555697e9e3d0477d5a9e145ad",
         "culture_invariant_id": 1659,
-        "sort_number": 1657,
+        "sort_number": 1659,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -56319,7 +56425,7 @@
         "author": "Mario Manzanares",
         "deck_building_id": "f66e2e1e500d2d759c8dcd4fdeafbf1831613d78",
         "culture_invariant_id": 1660,
-        "sort_number": 1658,
+        "sort_number": 1660,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -56362,7 +56468,7 @@
         "author": "Max Grecke",
         "deck_building_id": "80e5899ff870979d2047e3094ca8c48b56af6ada",
         "culture_invariant_id": 1661,
-        "sort_number": 1659,
+        "sort_number": 1661,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -56407,7 +56513,7 @@
         "author": "Max Grecke",
         "deck_building_id": "80e5899ff870979d2047e3094ca8c48b56af6ada",
         "culture_invariant_id": 1662,
-        "sort_number": 1660,
+        "sort_number": 1662,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -56453,7 +56559,7 @@
         "author": "Federico Maria Cugliari",
         "deck_building_id": "bfc4c593e544a6b0caf1cd7927b3176a1b84f051",
         "culture_invariant_id": 1665,
-        "sort_number": 1661,
+        "sort_number": 1663,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -56497,7 +56603,7 @@
         "author": "Federico Maria Cugliari",
         "deck_building_id": "5e50b28dd46474c11749a046ee80e2cced3baca1",
         "culture_invariant_id": 1666,
-        "sort_number": 1662,
+        "sort_number": 1664,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -56541,7 +56647,7 @@
         "author": "Federico Maria Cugliari",
         "deck_building_id": "bbdba91561e90d592503aba60cb421e17a31341a",
         "culture_invariant_id": 1667,
-        "sort_number": 1663,
+        "sort_number": 1665,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -56585,7 +56691,7 @@
         "author": "Carlos Luzzi",
         "deck_building_id": "68b90a0038800e642717b1cfd159e7738b522975",
         "culture_invariant_id": 1668,
-        "sort_number": 1664,
+        "sort_number": 1666,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -56627,7 +56733,7 @@
         "author": "Valerio Buonfantino",
         "deck_building_id": "032142a4ff0a2d57c066e32be096f9670d1c7182",
         "culture_invariant_id": 1669,
-        "sort_number": 1665,
+        "sort_number": 1667,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -56672,7 +56778,7 @@
         "author": "Aubrey Archer",
         "deck_building_id": "1b3d746d7aa4f780ac8c228578c6f4d72b29685a",
         "culture_invariant_id": 1670,
-        "sort_number": 1666,
+        "sort_number": 1668,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -56715,7 +56821,7 @@
         "author": "Pietro B. Zemelo",
         "deck_building_id": "ad987e8ceb30c109d82e7245edd9c0a4d8d95146",
         "culture_invariant_id": 1671,
-        "sort_number": 1667,
+        "sort_number": 1669,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -56756,7 +56862,7 @@
         "author": "Emily Abeydeera",
         "deck_building_id": "36d4ccaf211d986b44ce286936bc50a3a6e57f40",
         "culture_invariant_id": 1672,
-        "sort_number": 1668,
+        "sort_number": 1670,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -56801,7 +56907,7 @@
         "author": "Milica Celikovic",
         "deck_building_id": "6b3948392fa9a30d9b83f0ea009651dc50ea2aae",
         "culture_invariant_id": 1673,
-        "sort_number": 1669,
+        "sort_number": 1671,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -56848,7 +56954,7 @@
         "author": "Arianna Rea",
         "deck_building_id": "a39249e29acf0c0edfe7e329190ab01462b8a5be",
         "culture_invariant_id": 1674,
-        "sort_number": 1670,
+        "sort_number": 1672,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -56892,7 +56998,7 @@
         "author": "Erika Wiseman",
         "deck_building_id": "6321f91ab33afe4ddca12636c0eb4a49d69bf917",
         "culture_invariant_id": 1675,
-        "sort_number": 1671,
+        "sort_number": 1673,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -56936,7 +57042,7 @@
         "author": "Kendall Hale",
         "deck_building_id": "2cd509bc3d4a9b911eb07cec23d5037de65bf673",
         "culture_invariant_id": 1676,
-        "sort_number": 1672,
+        "sort_number": 1674,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -56982,7 +57088,7 @@
         "author": "Rianti Hidayat",
         "deck_building_id": "509735c520ba2565357da084b01feb2f43038387",
         "culture_invariant_id": 1677,
-        "sort_number": 1673,
+        "sort_number": 1675,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -57025,7 +57131,7 @@
         "author": "Carmine Pucci",
         "deck_building_id": "f122c7757ba00f7654f65a121fe801983148a4ab",
         "culture_invariant_id": 1678,
-        "sort_number": 1674,
+        "sort_number": 1676,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -57069,7 +57175,7 @@
         "author": "Ellie Horie",
         "deck_building_id": "aba2fe21e52c96d75ace0d3a6000001b8db2f5b5",
         "culture_invariant_id": 1679,
-        "sort_number": 1675,
+        "sort_number": 1677,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -57113,7 +57219,7 @@
         "author": "Jake Murphy",
         "deck_building_id": "c79b2be577f57d10e268462d5266900613098ea1",
         "culture_invariant_id": 1680,
-        "sort_number": 1676,
+        "sort_number": 1678,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -57157,7 +57263,7 @@
         "author": "Mariana Moreno",
         "deck_building_id": "e3655a27dae1da92cf77d60d195ea2b3b71bc4cd",
         "culture_invariant_id": 1681,
-        "sort_number": 1677,
+        "sort_number": 1679,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -57201,7 +57307,7 @@
         "author": "Nicola Saviori",
         "deck_building_id": "9c728cf42b8669fbff70c74afadcb565ef3b0e1a",
         "culture_invariant_id": 1682,
-        "sort_number": 1678,
+        "sort_number": 1680,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -57247,7 +57353,7 @@
         "author": "Alexandria Neonakis",
         "deck_building_id": "f95af696db6076c101efb039fe76e600c045e3cd",
         "culture_invariant_id": 1683,
-        "sort_number": 1679,
+        "sort_number": 1681,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -57294,7 +57400,7 @@
         "author": "Milica Celikovic",
         "deck_building_id": "af817278afe783681674103e4c50e09941209817",
         "culture_invariant_id": 1684,
-        "sort_number": 1680,
+        "sort_number": 1682,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -57341,7 +57447,7 @@
         "author": "Francesco D'ippolito / Malia Ewart",
         "deck_building_id": "f282a36bea0b86730827e7de3e6e6879a13d9171",
         "culture_invariant_id": 1685,
-        "sort_number": 1681,
+        "sort_number": 1683,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -57386,7 +57492,7 @@
         "author": "Erika Wiseman",
         "deck_building_id": "f9251288543cab07d29ed94183d3801f55983056",
         "culture_invariant_id": 1686,
-        "sort_number": 1682,
+        "sort_number": 1684,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -57433,7 +57539,7 @@
         "author": "Joseph Buenning",
         "deck_building_id": "d2cab8910ba9c6d3110900d1d62e58c1914b862a",
         "culture_invariant_id": 1687,
-        "sort_number": 1683,
+        "sort_number": 1685,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -57480,7 +57586,7 @@
         "author": "Javi Salas",
         "deck_building_id": "c3d8abe27b7eb16bd2601664dd5ab481885277c1",
         "culture_invariant_id": 1688,
-        "sort_number": 1684,
+        "sort_number": 1686,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -57528,7 +57634,7 @@
         "author": "Oggy Christiansson",
         "deck_building_id": "f8f789eb2731caf4efdb21cc3438d0dc6b1ab4cf",
         "culture_invariant_id": 1689,
-        "sort_number": 1685,
+        "sort_number": 1687,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -57575,7 +57681,7 @@
         "author": "Oggy Christiansson",
         "deck_building_id": "361d17f8907a7fc635693768011f4bff4f343ac9",
         "culture_invariant_id": 1690,
-        "sort_number": 1686,
+        "sort_number": 1688,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -57622,7 +57728,7 @@
         "author": "Brian Weisz",
         "deck_building_id": "9849851df328fe0b986033d99e6d4ab4ed054ed8",
         "culture_invariant_id": 1691,
-        "sort_number": 1687,
+        "sort_number": 1689,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -57669,7 +57775,7 @@
         "author": "Raquel Villanueva",
         "deck_building_id": "0c912a19d4e57cccd16d2d25e6d826cbb6f199b2",
         "culture_invariant_id": 1692,
-        "sort_number": 1688,
+        "sort_number": 1690,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -57711,7 +57817,7 @@
         "author": "Joy Ang / Jaime Puga",
         "deck_building_id": "e040a528160f7b3956e6235a08255d4cfd7ef81a",
         "culture_invariant_id": 1693,
-        "sort_number": 1689,
+        "sort_number": 1691,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -57756,7 +57862,7 @@
         "author": "Leonardo Giammichele",
         "deck_building_id": "3a337ffd94c21fe5bf8f6715b2e18fbd69b158fc",
         "culture_invariant_id": 1694,
-        "sort_number": 1690,
+        "sort_number": 1692,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -57803,7 +57909,7 @@
         "author": "Denny Minonne",
         "deck_building_id": "2bd3ff14879c7e1662527fb1bad60bcf2c1c5e4d",
         "culture_invariant_id": 1695,
-        "sort_number": 1691,
+        "sort_number": 1693,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -57846,7 +57952,7 @@
         "author": "Edu Francisco / Amanda Duarte",
         "deck_building_id": "33b9c6a65331f2a7dd61ada4198a004de3dca94a",
         "culture_invariant_id": 1696,
-        "sort_number": 1692,
+        "sort_number": 1694,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -57892,7 +57998,7 @@
         "author": "Therese Vildefall",
         "deck_building_id": "106ec8559ac405ebee11dd588931147b5cc81ebd",
         "culture_invariant_id": 1697,
-        "sort_number": 1693,
+        "sort_number": 1695,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -57937,7 +58043,7 @@
         "author": "Simone Buonfantino",
         "deck_building_id": "e9f25b54329962c4e6a6b6b1c3fdd15db57fab7d",
         "culture_invariant_id": 1698,
-        "sort_number": 1694,
+        "sort_number": 1696,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -57982,7 +58088,7 @@
         "author": "Denny Minonne",
         "deck_building_id": "ef6860b6167954d4c4f0197491da61470349cd99",
         "culture_invariant_id": 1699,
-        "sort_number": 1695,
+        "sort_number": 1697,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -58031,7 +58137,7 @@
         "author": "French Carlomagno",
         "deck_building_id": "469bd055268daba9556ab80313749cc2a456877f",
         "culture_invariant_id": 1700,
-        "sort_number": 1696,
+        "sort_number": 1698,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58073,7 +58179,7 @@
         "author": "Rianti Hidayat",
         "deck_building_id": "dd6c52d4053aac638074d3abc199bab3ea390b4b",
         "culture_invariant_id": 1701,
-        "sort_number": 1697,
+        "sort_number": 1699,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58114,7 +58220,7 @@
         "deck_building_id": "41a059413bf3c6cc52013cb2a2306150864300be",
         "deck_building_limit": 99,
         "culture_invariant_id": 1702,
-        "sort_number": 1698,
+        "sort_number": 1700,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58158,7 +58264,7 @@
         "author": "Eva Widermann",
         "deck_building_id": "f1807bfd473e7be0f8010219734c4c6a9702ffd5",
         "culture_invariant_id": 1709,
-        "sort_number": 1705,
+        "sort_number": 1707,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -58204,7 +58310,7 @@
         "author": "Alex Accorsi",
         "deck_building_id": "2bb33b315b146bb97dcb0790b7c5819a986519d6",
         "culture_invariant_id": 1710,
-        "sort_number": 1706,
+        "sort_number": 1708,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -58250,7 +58356,7 @@
         "author": "Heidi Neunhoffer",
         "deck_building_id": "320735e6ade9a3fa1537db3f280a6ae5318ee328",
         "culture_invariant_id": 1711,
-        "sort_number": 1707,
+        "sort_number": 1709,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58295,7 +58401,7 @@
         "author": "Marcel Berg",
         "deck_building_id": "498704459556a4ba90662e632e5370a2645ae1b8",
         "culture_invariant_id": 1712,
-        "sort_number": 1708,
+        "sort_number": 1710,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -58340,7 +58446,7 @@
         "author": "Federico Maria Cugliari",
         "deck_building_id": "e3f881ae99e5bc60ab1d2a05d3b024b9622ae2a9",
         "culture_invariant_id": 1713,
-        "sort_number": 1709,
+        "sort_number": 1711,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -58387,7 +58493,7 @@
         "author": "Grace Tran",
         "deck_building_id": "fc278a703770bc359b9bcfe2f95aeb009697b0a3",
         "culture_invariant_id": 1714,
-        "sort_number": 1710,
+        "sort_number": 1712,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -58434,7 +58540,7 @@
         "author": "Natalia Trykowska",
         "deck_building_id": "a7994847594176243295b27ad0e85c4d38457cfc",
         "culture_invariant_id": 1715,
-        "sort_number": 1711,
+        "sort_number": 1713,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58478,7 +58584,7 @@
         "author": "Rachel Elese",
         "deck_building_id": "22bcaf985cf7458b8c12396023a332712fd7f998",
         "culture_invariant_id": 1716,
-        "sort_number": 1712,
+        "sort_number": 1714,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58521,7 +58627,7 @@
         "author": "Rachel Elese",
         "deck_building_id": "5b0c28646183ce47d445aeed071dfcb2ce90491c",
         "culture_invariant_id": 1717,
-        "sort_number": 1713,
+        "sort_number": 1715,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58565,7 +58671,7 @@
         "author": "Samanta Erdini",
         "deck_building_id": "2eeeaeb7efb064ae1053aabc43dfb7e198c93218",
         "culture_invariant_id": 1718,
-        "sort_number": 1714,
+        "sort_number": 1716,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58608,7 +58714,7 @@
         "author": "Aisha Durmagambetova",
         "deck_building_id": "9d1ce7675bbc9d3acf0c5fad0896029f068795e6",
         "culture_invariant_id": 1719,
-        "sort_number": 1715,
+        "sort_number": 1717,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58653,7 +58759,7 @@
         "author": "Lisanne Koeteeuw",
         "deck_building_id": "92a8bffc338852c3c4d649bd891f34fb5462730e",
         "culture_invariant_id": 1720,
-        "sort_number": 1716,
+        "sort_number": 1718,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -58700,7 +58806,7 @@
         "author": "Heidi Neunhoffer",
         "deck_building_id": "b86ae44b8557391bb2fad178a0b3158b2d455c16",
         "culture_invariant_id": 1721,
-        "sort_number": 1717,
+        "sort_number": 1719,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58744,7 +58850,7 @@
         "author": "Kamil Murzyn",
         "deck_building_id": "0a598d3837a9b3e9b7680b12d5be8e4b2f5f202e",
         "culture_invariant_id": 1722,
-        "sort_number": 1718,
+        "sort_number": 1720,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58788,7 +58894,7 @@
         "author": "Wouter Bruneel",
         "deck_building_id": "48ab1e66dd5e1b7f7458eee04c72e72552cb3222",
         "culture_invariant_id": 1723,
-        "sort_number": 1719,
+        "sort_number": 1721,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58833,7 +58939,7 @@
         "author": "Hedvig H-S",
         "deck_building_id": "775c816a0fe0858fa844bcd9f89cadaf3aff5d14",
         "culture_invariant_id": 1724,
-        "sort_number": 1720,
+        "sort_number": 1722,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -58880,7 +58986,7 @@
         "author": "Hedvig H-S",
         "deck_building_id": "d1396676855ab97c647e729d53fd35c6e0ab3eda",
         "culture_invariant_id": 1725,
-        "sort_number": 1721,
+        "sort_number": 1723,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -58927,7 +59033,7 @@
         "author": "Rosa la Barbera / Livio Cacciatore",
         "deck_building_id": "c2d952bc046311e7e80e6aa1f93f0c3a5dd37fe1",
         "culture_invariant_id": 1726,
-        "sort_number": 1722,
+        "sort_number": 1724,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -58972,7 +59078,7 @@
         "author": "Brian Weisz",
         "deck_building_id": "2d8b5c712524adb131cbf2e2a8bbd3c786353691",
         "culture_invariant_id": 1727,
-        "sort_number": 1723,
+        "sort_number": 1725,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -59018,7 +59124,7 @@
         "author": "Alexandria Neonakis",
         "deck_building_id": "1c70c65c4d7b69c92748b9cb0841e95c8fb2f60d",
         "culture_invariant_id": 1728,
-        "sort_number": 1724,
+        "sort_number": 1726,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -59062,7 +59168,7 @@
         "author": "Teresita Q. / SCG",
         "deck_building_id": "286d7ab0e04b6c6591e24e7e4aefd5e0fd472e86",
         "culture_invariant_id": 1729,
-        "sort_number": 1725,
+        "sort_number": 1727,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -59107,7 +59213,7 @@
         "author": "Sandara Tang",
         "deck_building_id": "67257d2a601938a9c43bb080208e5a3081a49939",
         "culture_invariant_id": 1730,
-        "sort_number": 1726,
+        "sort_number": 1728,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -59154,7 +59260,7 @@
         "author": "Kendall Hale",
         "deck_building_id": "ddaa75cc532753bc20bf3bb664f604e1eb978781",
         "culture_invariant_id": 1731,
-        "sort_number": 1727,
+        "sort_number": 1729,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -59201,7 +59307,7 @@
         "author": "Julien Vandois",
         "deck_building_id": "12eeb86e37f64546133910be1f491f5bd01ae282",
         "culture_invariant_id": 1732,
-        "sort_number": 1728,
+        "sort_number": 1730,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -59247,7 +59353,7 @@
         "author": "Alibeth Zermeno",
         "deck_building_id": "c8ed6402654f8ce22d7183f9306ce8d843f760b2",
         "culture_invariant_id": 1733,
-        "sort_number": 1729,
+        "sort_number": 1731,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -59295,7 +59401,7 @@
         "author": "Joel DuQue",
         "deck_building_id": "dec10104b65a50c0342904a30cb954c857f8035e",
         "culture_invariant_id": 1734,
-        "sort_number": 1730,
+        "sort_number": 1732,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -59341,7 +59447,7 @@
         "author": "Mané Kandalyan Manderson",
         "deck_building_id": "c55096e67e224a1eabfda7b31c8dbf8f2977eb5b",
         "culture_invariant_id": 1735,
-        "sort_number": 1731,
+        "sort_number": 1733,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -59389,7 +59495,7 @@
         "author": "Luigi Aimè",
         "deck_building_id": "f7597462c9c984bf95b7fa001b581e598fd47c38",
         "culture_invariant_id": 1736,
-        "sort_number": 1732,
+        "sort_number": 1734,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -59440,7 +59546,7 @@
         "author": "Max Ulichney",
         "deck_building_id": "55f69fe83954df53e85b4424654b817eb81e9f0b",
         "culture_invariant_id": 1737,
-        "sort_number": 1733,
+        "sort_number": 1735,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -59488,7 +59594,7 @@
         "author": "Cristian Romero",
         "deck_building_id": "50e1c204657b785ab5879cee057fe3009115fd88",
         "culture_invariant_id": 1738,
-        "sort_number": 1734,
+        "sort_number": 1736,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -59534,7 +59640,7 @@
         "author": "Carlos Gomes Cabral",
         "deck_building_id": "5a8a5dd382df9f6c3af7d8d7853cf5237f17914a",
         "culture_invariant_id": 1739,
-        "sort_number": 1735,
+        "sort_number": 1737,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -59578,7 +59684,7 @@
         "author": "Sandra Rios",
         "deck_building_id": "64bcc8dbec56c1a40e869de72bbf82705d067936",
         "culture_invariant_id": 1740,
-        "sort_number": 1736,
+        "sort_number": 1738,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -59621,7 +59727,7 @@
         "author": "Aurélie Lise-Anne",
         "deck_building_id": "02e54062e81e4cf27933fa36180cdcc8b564cd89",
         "culture_invariant_id": 1749,
-        "sort_number": 1745,
+        "sort_number": 1747,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -59664,7 +59770,7 @@
         "author": "Stefano Spagnuolo",
         "deck_building_id": "d557e83f557eeed52f4528785eb15321f03c453c",
         "culture_invariant_id": 1750,
-        "sort_number": 1746,
+        "sort_number": 1748,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -59709,7 +59815,7 @@
         "author": "Edu Francisco",
         "deck_building_id": "387626e5bd66b83cacd57f2c76f83f9a8e014257",
         "culture_invariant_id": 1751,
-        "sort_number": 1747,
+        "sort_number": 1749,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -59753,7 +59859,7 @@
         "author": "Florencia Vazquez",
         "deck_building_id": "5113f29625a5b98f1bd2d747f5ea18e0086cabe0",
         "culture_invariant_id": 1752,
-        "sort_number": 1748,
+        "sort_number": 1750,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -59797,7 +59903,7 @@
         "author": "Florencia Vazquez",
         "deck_building_id": "7b06c25ffca1f97366fbde4b81b28dcfbe6abcb4",
         "culture_invariant_id": 1753,
-        "sort_number": 1749,
+        "sort_number": 1751,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -59843,7 +59949,7 @@
         "author": "Kendall Hale",
         "deck_building_id": "69b9facbf15d57278b8ed4a2118c589d75a4b24f",
         "culture_invariant_id": 1754,
-        "sort_number": 1750,
+        "sort_number": 1752,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -59886,7 +59992,7 @@
         "author": "Dustin Panzino",
         "deck_building_id": "8a1715bb3a41a990bfa9cca9be698c8944be40d8",
         "culture_invariant_id": 1755,
-        "sort_number": 1751,
+        "sort_number": 1753,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -59929,7 +60035,7 @@
         "author": "Jared Nickerl / Patri Balanovsky",
         "deck_building_id": "df5a3f3c8627d10f208025273bc69c829954acda",
         "culture_invariant_id": 1756,
-        "sort_number": 1752,
+        "sort_number": 1754,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -59973,7 +60079,7 @@
         "author": "Luis Huerta",
         "deck_building_id": "a4b3741414a7ffbb2b4a8666523aba01f6ae53ec",
         "culture_invariant_id": 1757,
-        "sort_number": 1753,
+        "sort_number": 1755,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60018,7 +60124,7 @@
         "author": "Wouter Bruneel",
         "deck_building_id": "939b4a9b30b7327b1120ebfd40746a1a5f00ad6a",
         "culture_invariant_id": 1758,
-        "sort_number": 1754,
+        "sort_number": 1756,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60062,7 +60168,7 @@
         "author": "Grace Tran",
         "deck_building_id": "3deba3fa35df22e54afa3d89cb4eb78070c41c2a",
         "culture_invariant_id": 1759,
-        "sort_number": 1755,
+        "sort_number": 1757,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60106,7 +60212,7 @@
         "author": "Mariana Moreno",
         "deck_building_id": "97e349325526ee080e4cd0b8549f1eab65031668",
         "culture_invariant_id": 1760,
-        "sort_number": 1756,
+        "sort_number": 1758,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60148,7 +60254,7 @@
         "author": "Brian Weisz",
         "deck_building_id": "a86f28f1777738ea9148dc4fa0844fe6fc65452d",
         "culture_invariant_id": 1761,
-        "sort_number": 1757,
+        "sort_number": 1759,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60192,7 +60298,7 @@
         "author": "Jules Dubost",
         "deck_building_id": "b251af6ff8f7c4f65248576fe4c9c6d0cb47cdf1",
         "culture_invariant_id": 1762,
-        "sort_number": 1758,
+        "sort_number": 1760,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -60238,7 +60344,7 @@
         "author": "Lisanne Koeteeuw",
         "deck_building_id": "fa60b1fa0ad93291d6d2a22286eb5955fb5c309f",
         "culture_invariant_id": 1763,
-        "sort_number": 1759,
+        "sort_number": 1761,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60283,7 +60389,7 @@
         "author": "Dustin Panzino",
         "deck_building_id": "838c6c1f78294dbbac1010c0b8d58757bc6192b6",
         "culture_invariant_id": 1764,
-        "sort_number": 1760,
+        "sort_number": 1762,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60330,7 +60436,7 @@
         "author": "Alice Pisoni",
         "deck_building_id": "d96ca6b70852fff25f38145aaf2d764a4e530e4f",
         "culture_invariant_id": 1765,
-        "sort_number": 1761,
+        "sort_number": 1763,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -60379,7 +60485,7 @@
         "author": "Koni",
         "deck_building_id": "577d26f1ad1c747203aca439a701bc0b4705224c",
         "culture_invariant_id": 1766,
-        "sort_number": 1762,
+        "sort_number": 1764,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -60424,7 +60530,7 @@
         "author": "Joel DuQue",
         "deck_building_id": "f968b2b0712de866dd279b16a93ac01a742952af",
         "culture_invariant_id": 1767,
-        "sort_number": 1763,
+        "sort_number": 1765,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60468,7 +60574,7 @@
         "author": "Arianna Rea",
         "deck_building_id": "4ebbac71024f902baab0a404f68a139bfc927b05",
         "culture_invariant_id": 1768,
-        "sort_number": 1764,
+        "sort_number": 1766,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -60515,7 +60621,7 @@
         "author": "Gonzalo Kenny",
         "deck_building_id": "b347cdaf0ef46c30b3701852557d77f69853cee3",
         "culture_invariant_id": 1769,
-        "sort_number": 1765,
+        "sort_number": 1767,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60561,7 +60667,7 @@
         "author": "Kendall Hale",
         "deck_building_id": "b2bfe44966d9b017ebefa67ca35d9d63b6f31262",
         "culture_invariant_id": 1770,
-        "sort_number": 1766,
+        "sort_number": 1768,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60607,7 +60713,7 @@
         "author": "Beno Meli",
         "deck_building_id": "cdc3c66cf9a3541d7db1be9979f16c88c14c6113",
         "culture_invariant_id": 1771,
-        "sort_number": 1767,
+        "sort_number": 1769,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -60656,7 +60762,7 @@
         "author": "Leonardo Giammichele",
         "deck_building_id": "0dc717cd37ae1be2d1173b144c114628a1e411d5",
         "culture_invariant_id": 1772,
-        "sort_number": 1768,
+        "sort_number": 1770,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -60705,7 +60811,7 @@
         "author": "Kenneth Anderson",
         "deck_building_id": "d5b15fd6dd19340f237112bdc1e581bdaa0a13ea",
         "culture_invariant_id": 1773,
-        "sort_number": 1769,
+        "sort_number": 1771,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -60754,7 +60860,7 @@
         "author": "Natalie Dombois",
         "deck_building_id": "d2a45653b90b954304d34f83f5eeafae952d560d",
         "culture_invariant_id": 1774,
-        "sort_number": 1770,
+        "sort_number": 1772,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60800,7 +60906,7 @@
         "author": "Adam Ford",
         "deck_building_id": "c001c7ba8f36751f50f1faa854d4d3a307a0e02c",
         "culture_invariant_id": 1775,
-        "sort_number": 1771,
+        "sort_number": 1773,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60846,7 +60952,7 @@
         "author": "Raquel Villanueva",
         "deck_building_id": "9c55a800d6a784ae7201366f10c1d17a618ac0f9",
         "culture_invariant_id": 1776,
-        "sort_number": 1772,
+        "sort_number": 1774,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60890,7 +60996,7 @@
         "author": "Gwawi",
         "deck_building_id": "0db41c144267742c585a92951d97cb8fbdfc7a2f",
         "culture_invariant_id": 1777,
-        "sort_number": 1773,
+        "sort_number": 1775,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60934,7 +61040,7 @@
         "author": "Rudy Hill / Denny Minonne",
         "deck_building_id": "d23fb62e58a5e37fc9f04d4ead58b2087a98c49d",
         "culture_invariant_id": 1785,
-        "sort_number": 1781,
+        "sort_number": 1783,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -60979,7 +61085,7 @@
         "author": "Valentina Graziuso",
         "deck_building_id": "32fdea47709bd05d16eb1a363123772b5e2496c8",
         "culture_invariant_id": 1786,
-        "sort_number": 1782,
+        "sort_number": 1784,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61022,7 +61128,7 @@
         "author": "Pietro B. Zemelo",
         "deck_building_id": "bb531c3d4c57db87a2247107cf68766885e486f9",
         "culture_invariant_id": 1787,
-        "sort_number": 1783,
+        "sort_number": 1785,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -61069,7 +61175,7 @@
         "author": "French Carlomagno",
         "deck_building_id": "f688dbd85d7d9d0deb20a991bf4299135b286ae0",
         "culture_invariant_id": 1788,
-        "sort_number": 1784,
+        "sort_number": 1786,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -61117,7 +61223,7 @@
         "author": "Teresita Q. / SCG",
         "deck_building_id": "01e730b5e5ab7138fbadd2610b5ad30a92c6e5e5",
         "culture_invariant_id": 1789,
-        "sort_number": 1785,
+        "sort_number": 1787,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61162,7 +61268,7 @@
         "author": "Filipe Laurentino",
         "deck_building_id": "2fe3c2368d9375dae2898ac0160a32854bd5601b",
         "culture_invariant_id": 1790,
-        "sort_number": 1786,
+        "sort_number": 1788,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61205,7 +61311,7 @@
         "author": "Filipe Laurentino",
         "deck_building_id": "162b1048dfcb2afc70a5bd30eee1680b2da51299",
         "culture_invariant_id": 1791,
-        "sort_number": 1787,
+        "sort_number": 1789,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61249,7 +61355,7 @@
         "author": "Heidi Neunhoffer",
         "deck_building_id": "ca3d3126f63f27a418bd6fd3c21085291bd498d6",
         "culture_invariant_id": 1792,
-        "sort_number": 1788,
+        "sort_number": 1790,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61293,7 +61399,7 @@
         "author": "Samoldstoree",
         "deck_building_id": "43ad90059e880643ed35509ac9f1453d0931a266",
         "culture_invariant_id": 1793,
-        "sort_number": 1789,
+        "sort_number": 1791,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61337,7 +61443,7 @@
         "author": "Kuya Jaypi",
         "deck_building_id": "9dbaa3dffdbc156936656131874c3454e8bb1e64",
         "culture_invariant_id": 1794,
-        "sort_number": 1790,
+        "sort_number": 1792,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61381,7 +61487,7 @@
         "author": "Yu Nguyen",
         "deck_building_id": "9d087d32f656197a9ff3c8e60cf33a925d94003d",
         "culture_invariant_id": 1795,
-        "sort_number": 1791,
+        "sort_number": 1793,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61424,7 +61530,7 @@
         "author": "Sara Leal (Loyal)",
         "deck_building_id": "ae38bf63e61d536c07615eee554dd40080453066",
         "culture_invariant_id": 1796,
-        "sort_number": 1792,
+        "sort_number": 1794,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61466,7 +61572,7 @@
         "author": "Saulo Nate",
         "deck_building_id": "f682275599ccf863e9becb5cac4f455052ec7d83",
         "culture_invariant_id": 1797,
-        "sort_number": 1793,
+        "sort_number": 1795,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61509,7 +61615,7 @@
         "author": "Oggy Christiansson",
         "deck_building_id": "18380961ea65710ae50b2e4dec656d96cb63f860",
         "culture_invariant_id": 1798,
-        "sort_number": 1794,
+        "sort_number": 1796,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61552,7 +61658,7 @@
         "author": "Joseph Buenning",
         "deck_building_id": "ae782ba1f03c05a7094ed54d408df2ffaf9627ec",
         "culture_invariant_id": 1799,
-        "sort_number": 1795,
+        "sort_number": 1797,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61597,7 +61703,7 @@
         "author": "Amber Kommavongsa",
         "deck_building_id": "277378a21856338f8273ccfc4abe9e49ad10589d",
         "culture_invariant_id": 1800,
-        "sort_number": 1796,
+        "sort_number": 1798,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -61645,7 +61751,7 @@
         "author": "Julien Vandois",
         "deck_building_id": "ecb4f04c3bd04d5b7ad76abd0228dedf39ef4610",
         "culture_invariant_id": 1801,
-        "sort_number": 1797,
+        "sort_number": 1799,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61691,7 +61797,7 @@
         "author": "Simone Buonfantino",
         "deck_building_id": "8e79bca168af9ababf4c78ca6193a25f88168742",
         "culture_invariant_id": 1802,
-        "sort_number": 1798,
+        "sort_number": 1800,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61736,7 +61842,7 @@
         "author": "Justin Runfola",
         "deck_building_id": "cd39c54678ac991587db8497726dcd78b478b748",
         "culture_invariant_id": 1803,
-        "sort_number": 1799,
+        "sort_number": 1801,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -61784,7 +61890,7 @@
         "author": "Filipe Laurentino",
         "deck_building_id": "fe8f963a16dbcc2a2786f70afc4ac7042a25a0d2",
         "culture_invariant_id": 1804,
-        "sort_number": 1800,
+        "sort_number": 1802,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61828,7 +61934,7 @@
         "author": "Gonzalo Kenny",
         "deck_building_id": "9c393a7998141f73d43ba96eda262c943deb3402",
         "culture_invariant_id": 1805,
-        "sort_number": 1801,
+        "sort_number": 1803,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -61875,7 +61981,7 @@
         "author": "Jared Mathews",
         "deck_building_id": "02aa1e9aa98646eadca05cdb2ebc4c786a06f1a2",
         "culture_invariant_id": 1806,
-        "sort_number": 1802,
+        "sort_number": 1804,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -61922,7 +62028,7 @@
         "author": "noc4urne",
         "deck_building_id": "c5af45307091a364a0c0be72ecc5b3cf644ead92",
         "culture_invariant_id": 1807,
-        "sort_number": 1803,
+        "sort_number": 1805,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -61966,7 +62072,7 @@
         "author": "James Rey Sanchez",
         "deck_building_id": "1404588ec3b9894cdc382d1638ca43bd9516a189",
         "culture_invariant_id": 1808,
-        "sort_number": 1804,
+        "sort_number": 1806,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62009,7 +62115,7 @@
         "author": "Raquel Villanueva",
         "deck_building_id": "8a3ab5a8243de7387068a90640536421e6ba2a47",
         "culture_invariant_id": 1809,
-        "sort_number": 1805,
+        "sort_number": 1807,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -62054,7 +62160,7 @@
         "author": "Denny Minonne",
         "deck_building_id": "3716bbbbc0261b3fecc0b6ae8298ef4193facf52",
         "culture_invariant_id": 1810,
-        "sort_number": 1806,
+        "sort_number": 1808,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -62098,7 +62204,7 @@
         "author": "Jon Densk / Hayley Evans",
         "deck_building_id": "6c78dae5b416000cbf73a4cdda6870b9b2ea25d6",
         "culture_invariant_id": 1817,
-        "sort_number": 1813,
+        "sort_number": 1815,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62143,7 +62249,7 @@
         "author": "Rudy Hill",
         "deck_building_id": "175a1ce711b1cd4735cd50baf660818ce2375922",
         "culture_invariant_id": 1818,
-        "sort_number": 1814,
+        "sort_number": 1816,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62188,7 +62294,7 @@
         "author": "Carmine Pucci",
         "deck_building_id": "4230300eaeb78b87c38720c57b3d4dbe9b489baa",
         "culture_invariant_id": 1819,
-        "sort_number": 1815,
+        "sort_number": 1817,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62232,7 +62338,7 @@
         "author": "Matt Chapman",
         "deck_building_id": "37b8f2d0cca58cc4b2d0a2be27faafff33e16815",
         "culture_invariant_id": 1820,
-        "sort_number": 1816,
+        "sort_number": 1818,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62277,7 +62383,7 @@
         "author": "Samanta Erdini",
         "deck_building_id": "1ffe5d75cdbe8dc9ae8605c307ef56ffb430460e",
         "culture_invariant_id": 1821,
-        "sort_number": 1817,
+        "sort_number": 1819,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62323,7 +62429,7 @@
         "author": "Jules Dubost",
         "deck_building_id": "25e61d810205cf763e55f3f76c58fe35a4785e2a",
         "culture_invariant_id": 1822,
-        "sort_number": 1818,
+        "sort_number": 1820,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -62370,7 +62476,7 @@
         "author": "Jennifer Wu",
         "deck_building_id": "40846eae71b4a2f0477743719c11a08182d09375",
         "culture_invariant_id": 1823,
-        "sort_number": 1819,
+        "sort_number": 1821,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62415,7 +62521,7 @@
         "author": "Giulia Riva",
         "deck_building_id": "64fdaa7af3643b25a77f4fd8026e6e4394b74a3b",
         "culture_invariant_id": 1824,
-        "sort_number": 1820,
+        "sort_number": 1822,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62459,7 +62565,7 @@
         "author": "Julie Vu",
         "deck_building_id": "2dd0dfa5cece069d35c5263852b8fca5400530e7",
         "culture_invariant_id": 1825,
-        "sort_number": 1821,
+        "sort_number": 1823,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62503,7 +62609,7 @@
         "author": "Joseph Buenning",
         "deck_building_id": "d9346b8c7971938f233e5ebd49b2b6c5a02edb3f",
         "culture_invariant_id": 1826,
-        "sort_number": 1822,
+        "sort_number": 1824,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62547,7 +62653,7 @@
         "author": "Andrea Parisi",
         "deck_building_id": "3a961bf8eb9371454ce96de5f2d75d4141a71c9f",
         "culture_invariant_id": 1827,
-        "sort_number": 1823,
+        "sort_number": 1825,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62590,7 +62696,7 @@
         "author": "Lisanne Koeteeuw",
         "deck_building_id": "edd4c76d434d9b531b4af9fbea9a4075d5676902",
         "culture_invariant_id": 1828,
-        "sort_number": 1824,
+        "sort_number": 1826,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62633,7 +62739,7 @@
         "author": "Alex Accorsi",
         "deck_building_id": "2f18349b85491e5971a0a7786eb658f2610a58ae",
         "culture_invariant_id": 1829,
-        "sort_number": 1825,
+        "sort_number": 1827,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62677,7 +62783,7 @@
         "author": "Matteo Marzocco",
         "deck_building_id": "2b044feacd5a7ab8653f088ab25e14b039ea379c",
         "culture_invariant_id": 1830,
-        "sort_number": 1826,
+        "sort_number": 1828,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -62724,7 +62830,7 @@
         "author": "Matthew Robert Davies",
         "deck_building_id": "33748d6ee65b52b4bdc850aff7d2e12b9ce0276c",
         "culture_invariant_id": 1831,
-        "sort_number": 1827,
+        "sort_number": 1829,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -62772,7 +62878,7 @@
         "author": "Edu Francisco",
         "deck_building_id": "1159caf1c1cb7fb994736f4906d2d9f1066bd0b5",
         "culture_invariant_id": 1832,
-        "sort_number": 1828,
+        "sort_number": 1830,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62817,7 +62923,7 @@
         "author": "McKay Anderson",
         "deck_building_id": "75a38e9bf91e99d60dc0c4257bda349a11ad414d",
         "culture_invariant_id": 1833,
-        "sort_number": 1829,
+        "sort_number": 1831,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -62862,7 +62968,7 @@
         "author": "Marcel Berg",
         "deck_building_id": "37c91d4c1e7468929e01ddc735e84693e87bfe36",
         "culture_invariant_id": 1834,
-        "sort_number": 1830,
+        "sort_number": 1832,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -62909,7 +63015,7 @@
         "author": "Hedvig H-S",
         "deck_building_id": "8e61e3ca51b3ebb4328a02e52cc3c45757b3e641",
         "culture_invariant_id": 1835,
-        "sort_number": 1831,
+        "sort_number": 1833,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -62956,7 +63062,7 @@
         "author": "Anderson Mahanski",
         "deck_building_id": "38c386f04ca83b839df9771bde54ab7161d9c001",
         "culture_invariant_id": 1836,
-        "sort_number": 1832,
+        "sort_number": 1834,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -62999,7 +63105,7 @@
         "author": "Malia Ewart",
         "deck_building_id": "aa046bb8f74eef728b325aef9bbcd61e8e6eedc4",
         "culture_invariant_id": 1837,
-        "sort_number": 1833,
+        "sort_number": 1835,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63044,7 +63150,7 @@
         "author": "Malia Ewart",
         "deck_building_id": "a73496316fa073149d81e6831fb59c5170aa9689",
         "culture_invariant_id": 1838,
-        "sort_number": 1834,
+        "sort_number": 1836,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63088,7 +63194,7 @@
         "author": "French Carlomagno",
         "deck_building_id": "2fbf4e9a81573029b4474c2e4f97101bed05846c",
         "culture_invariant_id": 1845,
-        "sort_number": 1841,
+        "sort_number": 1843,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63133,7 +63239,7 @@
         "author": "Adam Fenton",
         "deck_building_id": "5071a3a017156ec252d3ef037f0e3fb1fd212f87",
         "culture_invariant_id": 1846,
-        "sort_number": 1842,
+        "sort_number": 1844,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -63177,7 +63283,7 @@
         "author": "Andrea Parisi",
         "deck_building_id": "0e0dd82cdf94b229510d946d0e2f25817f051751",
         "culture_invariant_id": 1847,
-        "sort_number": 1843,
+        "sort_number": 1845,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -63223,7 +63329,7 @@
         "author": "Jake Murphy",
         "deck_building_id": "91094608fd69311fa696ac4e5dd0c37e72dd3e24",
         "culture_invariant_id": 1848,
-        "sort_number": 1844,
+        "sort_number": 1846,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63266,7 +63372,7 @@
         "author": "Adam Fenton",
         "deck_building_id": "72fae2c55a0cb5eaf11518898e0b51cd6f9ad21a",
         "culture_invariant_id": 1849,
-        "sort_number": 1845,
+        "sort_number": 1847,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -63311,7 +63417,7 @@
         "author": "Ornella Savarese",
         "deck_building_id": "296f4ed274c9b83418b64ea35bcc8ffc4a4a5dc3",
         "culture_invariant_id": 1850,
-        "sort_number": 1846,
+        "sort_number": 1848,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -63358,7 +63464,7 @@
         "author": "Kendall Hale",
         "deck_building_id": "42bf6581e2f12f6875f38d3cbcd9a56544b2acfd",
         "culture_invariant_id": 1851,
-        "sort_number": 1847,
+        "sort_number": 1849,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -63403,7 +63509,7 @@
         "author": "Ricardo Caria",
         "deck_building_id": "0669c45afa1ed8a75915fc48406f8c1f601cc2db",
         "culture_invariant_id": 1852,
-        "sort_number": 1848,
+        "sort_number": 1850,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -63449,7 +63555,7 @@
         "author": "Rosa la Barbera / Livio Cacciatore",
         "deck_building_id": "58188cff25274db6e36a6b7e5ffcb2c216184095",
         "culture_invariant_id": 1853,
-        "sort_number": 1849,
+        "sort_number": 1851,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63493,7 +63599,7 @@
         "author": "Irish Chua",
         "deck_building_id": "ceee5141d95bd0a4e22bf7d9d0353bf2e3c36418",
         "culture_invariant_id": 1854,
-        "sort_number": 1850,
+        "sort_number": 1852,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63536,7 +63642,7 @@
         "author": "Carmine Pucci",
         "deck_building_id": "869cbce46e7067af2354736bfc1e917c8aa6d2ff",
         "culture_invariant_id": 1855,
-        "sort_number": 1851,
+        "sort_number": 1853,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63580,7 +63686,7 @@
         "author": "Ian MacDonald",
         "deck_building_id": "1eb9f5705effae96f1ba3a5ce437b333dcba62bc",
         "culture_invariant_id": 1856,
-        "sort_number": 1852,
+        "sort_number": 1854,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63625,7 +63731,7 @@
         "author": "Defne Tözüm",
         "deck_building_id": "42ebf34b029c295c6dff061f6b3cad7a262e2c32",
         "culture_invariant_id": 1857,
-        "sort_number": 1853,
+        "sort_number": 1855,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63668,7 +63774,7 @@
         "author": "Cam Kendell",
         "deck_building_id": "5827dd1bd5d9fc8a64b9e611432fefae1a0c5449",
         "culture_invariant_id": 1858,
-        "sort_number": 1854,
+        "sort_number": 1856,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -63710,7 +63816,7 @@
         "author": "Carlos Luzzi",
         "deck_building_id": "21b8caf084ceffd01eb6823459d541ea9f8ba4de",
         "culture_invariant_id": 1859,
-        "sort_number": 1855,
+        "sort_number": 1857,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63753,7 +63859,7 @@
         "author": "Edu Francisco",
         "deck_building_id": "eefa3140edf0c08825c839aecce68111a0e5f778",
         "culture_invariant_id": 1860,
-        "sort_number": 1856,
+        "sort_number": 1858,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63800,7 +63906,7 @@
         "author": "Ha Jung Song",
         "deck_building_id": "688ea6eb39dc0fc75464580b5190fb330861b9ae",
         "culture_invariant_id": 1861,
-        "sort_number": 1857,
+        "sort_number": 1859,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63844,7 +63950,7 @@
         "author": "Max Ulichney",
         "deck_building_id": "7a3eeadf1fc2d88dab10fd80b99712cd1e20fd66",
         "culture_invariant_id": 1862,
-        "sort_number": 1858,
+        "sort_number": 1860,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63891,7 +63997,7 @@
         "author": "Joy Ang / Giulia Riva",
         "deck_building_id": "9d90f566a3400873ee6d58692fa1bec880d0b149",
         "culture_invariant_id": 1863,
-        "sort_number": 1859,
+        "sort_number": 1861,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -63940,7 +64046,7 @@
         "author": "Jeanne Plounevez / Andrew Theophilopoulos",
         "deck_building_id": "25f0dc4e3fd1b1b13365fcf75768ebd9490bc9d6",
         "culture_invariant_id": 1864,
-        "sort_number": 1860,
+        "sort_number": 1862,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -63976,6 +64082,101 @@
         ]
       },
       {
+        "name": "Susi",
+        "subtitle": "Entschlossene Hundedame",
+        "strength": 0,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "ENCHANTED",
+        "ink_cost": 1,
+        "author": "Juan Diego León",
+        "deck_building_id": "106ec8559ac405ebee11dd588931147b5cc81ebd",
+        "culture_invariant_id": 1869,
+        "sort_number": 1867,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Sagengestalt",
+          "Held"
+        ],
+        "flavor_text": "",
+        "rules_text": "IHR EIGENES RUDEL Jedes Mal, wenn du einen Charakter ausspielst, erhält dieser Charakter in diesem Zug +1. DIE FÜHRUNG ÜBERNEHMEN Solange dieser Charakter 3 oder mehr hat, erhält er +2.",
+        "card_identifier": "205/204 DE 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/1468x2048/205_2443c6ca0359098d35cf62278b74eb9cf7735de6.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/367x512/205_e45aa52cf1ac39c07ec095f3556a245aea0dc3ee.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set8/masks/1468x2048/205_c2c0726dc0933d3fabd5c0ad16f1f461d99f8ed4.jpg",
+        "foil_type": "VerticalWave",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "EMERALD"
+        ],
+        "searchable_keywords": [
+          "Susi und Strolch",
+          "Lady and the Tramp"
+        ]
+      },
+      {
+        "name": "Randale Ralph",
+        "subtitle": "Großer Gauner",
+        "strength": 7,
+        "willpower": 5,
+        "quest_value": 1,
+        "rarity": "ENCHANTED",
+        "ink_cost": 7,
+        "author": "Sam Nielson",
+        "deck_building_id": "c3d8abe27b7eb16bd2601664dd5ab481885277c1",
+        "culture_invariant_id": 1870,
+        "sort_number": 1868,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [
+          "Gestaltwandel"
+        ],
+        "subtypes": [
+          "Flutgestalt",
+          "Held",
+          "Rennfahrer"
+        ],
+        "flavor_text": "",
+        "rules_text": "Gestaltwandel 5 (Du kannst 5 zahlen, um diesen Charakter auf einen deiner Randale-Ralph-Charaktere auszuspielen.) WIEDER AUF KURS Wenn du diesen Charakter ausspielst, und jedes Mal, wenn er erkundet, darfst du eine Rennfahrer-Charakterkarte, die 6 oder weniger kostet, aus deinem Ablagestapel zurück auf deine Hand nehmen. Wenn du dies tust, sammelst du 1 Legende.",
+        "card_identifier": "206/204 DE 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/1468x2048/206_a914505f1a7ec2f7d89ebffc99952de595d3c416.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/367x512/206_baae77dfcfada3b28139514b0f0bf3fe8db46d88.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set8/masks/1468x2048/206_f4db33aa7c1dab4dfa2122e28262087bea6d6aab.jpg",
+        "foil_type": "VerticalWave",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMBER",
+          "RUBY"
+        ],
+        "searchable_keywords": [
+          "Ralph reichts",
+          "Wreck It Ralph"
+        ]
+      },
+      {
         "name": "Perdi",
         "subtitle": "Entschlossene Mutter",
         "strength": 4,
@@ -63986,7 +64187,7 @@
         "author": "Natalie Dombois",
         "deck_building_id": "9849851df328fe0b986033d99e6d4ab4ed054ed8",
         "culture_invariant_id": 1871,
-        "sort_number": 1865,
+        "sort_number": 1869,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -64034,7 +64235,7 @@
         "author": "Aubrey Archer",
         "deck_building_id": "2d8b5c712524adb131cbf2e2a8bbd3c786353691",
         "culture_invariant_id": 1873,
-        "sort_number": 1867,
+        "sort_number": 1871,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -64069,6 +64270,54 @@
         ]
       },
       {
+        "name": "Kusco",
+        "subtitle": "Impulsives Lama",
+        "strength": 5,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "ENCHANTED",
+        "ink_cost": 7,
+        "author": "Alan Batson",
+        "deck_building_id": "ddaa75cc532753bc20bf3bb664f604e1eb978781",
+        "culture_invariant_id": 1874,
+        "sort_number": 1872,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Gestaltwandel"
+        ],
+        "subtypes": [
+          "Flutgestalt",
+          "König"
+        ],
+        "flavor_text": "",
+        "rules_text": "Gestaltwandel 4 (Du kannst 4 zahlen, um diesen Charakter auf einen deiner Kusco-Charaktere auszuspielen.) WAS MACHT DER HIER? Wenn du diesen Charakter ausspielst, wählen alle gegnerischen Mitspielenden je einen ihrer Charaktere und legen ihn unter ihr Deck. Dann dürfen alle gegnerischen Mitspielenden je 1 Karte ziehen.",
+        "card_identifier": "210/204 DE 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/1468x2048/210_416d6ffc8779ea813556eb36a9a82cdfbfe8ff99.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/367x512/210_c4cbf2b8ef90793986b58e942c854c0f7a873425.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set8/masks/1468x2048/210_d456863f1e00c097e66bc334effc50c70b3bef89.jpg",
+        "foil_type": "VerticalWave",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST",
+          "EMERALD"
+        ],
+        "searchable_keywords": [
+          "Emperors New Groove",
+          "Ein Königreich für ein Lama"
+        ]
+      },
+      {
         "name": "Mutter Gothel",
         "subtitle": "Weiß, was das Beste ist",
         "strength": 1,
@@ -64079,7 +64328,7 @@
         "author": "Andrew Theophilopoulos",
         "deck_building_id": "dec10104b65a50c0342904a30cb954c857f8035e",
         "culture_invariant_id": 1875,
-        "sort_number": 1868,
+        "sort_number": 1873,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -64126,7 +64375,7 @@
         "author": "Viv Tanner / Ellie Horie",
         "deck_building_id": "d96ca6b70852fff25f38145aaf2d764a4e530e4f",
         "culture_invariant_id": 1878,
-        "sort_number": 1870,
+        "sort_number": 1876,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -64164,6 +64413,101 @@
         ]
       },
       {
+        "name": "Käpt'n Hook",
+        "subtitle": "König der Piraten",
+        "strength": 4,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "ENCHANTED",
+        "ink_cost": 5,
+        "author": "Nicola Saviori",
+        "deck_building_id": "d5b15fd6dd19340f237112bdc1e581bdaa0a13ea",
+        "culture_invariant_id": 1879,
+        "sort_number": 1877,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Gestaltwandel"
+        ],
+        "subtypes": [
+          "Flutgestalt",
+          "Schurke",
+          "König",
+          "Pirat",
+          "Kapitän"
+        ],
+        "flavor_text": "",
+        "rules_text": "Gestaltwandel 3 (Du kannst 3 zahlen, um diesen Charakter auf einen deiner Käpt'n-Hook-Charaktere auszuspielen.) GEBT IHNEN DEN REST! Einmal während deines Zuges, wenn ein gegnerischer Charakter beschädigt wird, erhalten deine Piraten in diesem Zug +2 und Robust +2. (Reduziere jeglichen Schaden, der den Charakteren zugefügt wird, um 2.)",
+        "card_identifier": "215/204 DE 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/1468x2048/215_c3dec13d9103213d07f589651f09a460b3879181.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/367x512/215_44906d139275388225792f6920989c0ed7f30276.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set8/masks/1468x2048/215_dfd69db8a23ec828c170e314635d3048ed789099.jpg",
+        "foil_type": "VerticalWave",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "EMERALD",
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Peter Pan"
+        ]
+      },
+      {
+        "name": "Lilo",
+        "subtitle": "Aufruhr-Auslöserin",
+        "strength": 4,
+        "willpower": 4,
+        "quest_value": 2,
+        "rarity": "ENCHANTED",
+        "ink_cost": 5,
+        "author": "Grace Tran",
+        "deck_building_id": "ecb4f04c3bd04d5b7ad76abd0228dedf39ef4610",
+        "culture_invariant_id": 1881,
+        "sort_number": 1879,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Traumgestalt",
+          "Held"
+        ],
+        "flavor_text": "",
+        "rules_text": "ZEIT, ZU STAMPFEN! Falls du in diesem Zug mindestens 3 Aktionen ausgespielt hast, darfst du diesen Charakter kostenlos ausspielen. ROOOAA! Wenn du diesen Charakter ausspielst, mache einen Charakter deiner Wahl bereit. Er kann in diesem Zug nicht mehr erkunden.",
+        "card_identifier": "217/204 DE 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/1468x2048/217_eb99b7580e008b5ab45b82b54836b9bf4f70da54.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/367x512/217_6d5fa0bf70f442734988430b90f105be71f808a1.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set8/masks/1468x2048/217_73e4bd039b497b3e983b117c8a6bd890b24b967a.jpg",
+        "foil_type": "VerticalWave",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "RUBY"
+        ],
+        "searchable_keywords": [
+          "Lilo and Stitch",
+          "Lilo und Stitch"
+        ]
+      },
+      {
         "name": "Mushu",
         "subtitle": "Dein schlimmster Albtraum",
         "strength": 4,
@@ -64174,7 +64518,7 @@
         "author": "Nicola Saviori",
         "deck_building_id": "02aa1e9aa98646eadca05cdb2ebc4c786a06f1a2",
         "culture_invariant_id": 1882,
-        "sort_number": 1872,
+        "sort_number": 1880,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -64222,7 +64566,7 @@
         "author": "Natalie Dombois",
         "deck_building_id": "2b044feacd5a7ab8653f088ab25e14b039ea379c",
         "culture_invariant_id": 1884,
-        "sort_number": 1874,
+        "sort_number": 1882,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -64268,7 +64612,7 @@
         "author": "Viv Tanner",
         "deck_building_id": "8e61e3ca51b3ebb4328a02e52cc3c45757b3e641",
         "culture_invariant_id": 1885,
-        "sort_number": 1875,
+        "sort_number": 1883,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -64306,6 +64650,99 @@
         ]
       },
       {
+        "name": "Goofy",
+        "subtitle": "Bahnbrechender Koch",
+        "strength": 3,
+        "willpower": 4,
+        "quest_value": 2,
+        "rarity": "LEGENDARY",
+        "ink_cost": 4,
+        "author": "Carlos Luzzi",
+        "deck_building_id": "68b90a0038800e642717b1cfd159e7738b522975",
+        "culture_invariant_id": 1933,
+        "sort_number": 1885,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Sagengestalt",
+          "Held"
+        ],
+        "flavor_text": "Du kommst gerade rechtzeitig für eine Spezialität à la Goof!",
+        "rules_text": "JEDE MENGE ZU TUN Am Ende deines Zuges darfst du bis zu 1 Schaden von jedem deiner anderen Charaktere entfernen. Mache jeden Charakter bereit, von dem auf diese Weise Schaden entfernt wurde.",
+        "card_identifier": "223/204 DE 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/1468x2048/223_62b8e648535880ec1fd4b91d1273ad67487ee41d.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/367x512/223_a8385f8922a73464edff012799d9255c1884fc15.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set8/masks/1468x2048/223_0609392b4ef96863378453b8866c5f57bf26d4c3.jpg",
+        "foil_type": "SeaWave",
+        "varnish_type": "HighGloss",
+        "varnish_mask_url": "https://api.lorcana.ravensburger.com/images/de/set8/gloss/1468x2048/223_b009c6454a9ed2a00bf9a8e9b89292ec79dd48fc.jpg",
+        "card_sets": [
+          8,
+          10
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ]
+      },
+      {
+        "name": "Pinocchio",
+        "subtitle": "An Fäden geknüpft",
+        "strength": 0,
+        "willpower": 4,
+        "quest_value": 2,
+        "rarity": "LEGENDARY",
+        "ink_cost": 4,
+        "author": "Hedvig H-S",
+        "deck_building_id": "d1396676855ab97c647e729d53fd35c6e0ab3eda",
+        "culture_invariant_id": 1934,
+        "sort_number": 1886,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Wendig"
+        ],
+        "subtypes": [
+          "Sagengestalt",
+          "Held"
+        ],
+        "flavor_text": "",
+        "rules_text": "Wendig (Nur Charaktere mit Wendig können diesen Charakter herausfordern.) ICH MUSS GANZ LEISE SEIN Einmal während deines Zuges, wenn du diesen Charakter bereit machst, darfst du 1 Karte ziehen.",
+        "card_identifier": "224/204 DE 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/1468x2048/224_1627bfd46eaba1a18687df9330dcc8986b1a587d.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/367x512/224_cc19e57fd916c898505f47f4ac341ad1783a3290.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set8/masks/1468x2048/224_08204b735b37452a664eaf31df717519c6e608df.jpg",
+        "foil_type": "SeaWave",
+        "varnish_type": "HighGloss",
+        "varnish_mask_url": "https://api.lorcana.ravensburger.com/images/de/set8/gloss/1468x2048/224_e8ef51a382ebd123f56a5bf9144275cd13725d6d.jpg",
+        "card_sets": [
+          8,
+          10
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Pinocchio"
+        ]
+      },
+      {
         "name": "Pluto",
         "subtitle": "Bewährt und treu",
         "strength": 2,
@@ -64316,7 +64753,7 @@
         "author": "Raquel Villanueva",
         "deck_building_id": "0c912a19d4e57cccd16d2d25e6d826cbb6f199b2",
         "culture_invariant_id": 1887,
-        "sort_number": 1877,
+        "sort_number": 1887,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -64359,7 +64796,7 @@
         "author": "Aubrey Archer",
         "deck_building_id": "1b3d746d7aa4f780ac8c228578c6f4d72b29685a",
         "culture_invariant_id": 1894,
-        "sort_number": 1878,
+        "sort_number": 1888,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -64404,7 +64841,7 @@
         "author": "Carlos Luzzi",
         "deck_building_id": "21b8caf084ceffd01eb6823459d541ea9f8ba4de",
         "culture_invariant_id": 1895,
-        "sort_number": 1879,
+        "sort_number": 1889,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -64450,7 +64887,7 @@
         "author": "Therese Vildefall",
         "deck_building_id": "106ec8559ac405ebee11dd588931147b5cc81ebd",
         "culture_invariant_id": 1888,
-        "sort_number": 1880,
+        "sort_number": 1890,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -64493,7 +64930,7 @@
         "author": "Marcel Berg",
         "deck_building_id": "37c91d4c1e7468929e01ddc735e84693e87bfe36",
         "culture_invariant_id": 1889,
-        "sort_number": 1881,
+        "sort_number": 1891,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -64539,7 +64976,7 @@
         "author": "Oggy Christiansson",
         "deck_building_id": "f8f789eb2731caf4efdb21cc3438d0dc6b1ab4cf",
         "culture_invariant_id": 1890,
-        "sort_number": 1882,
+        "sort_number": 1892,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -64584,7 +65021,7 @@
         "author": "John Loren / Cristian Romero",
         "deck_building_id": "50e1c204657b785ab5879cee057fe3009115fd88",
         "culture_invariant_id": 1892,
-        "sort_number": 1884,
+        "sort_number": 1894,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -64628,7 +65065,7 @@
         "author": "John Loren / Cristian Romero",
         "deck_building_id": "50e1c204657b785ab5879cee057fe3009115fd88",
         "culture_invariant_id": 1893,
-        "sort_number": 1885,
+        "sort_number": 1895,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -64660,6 +65097,730 @@
         "magic_ink_colors": [
           "AMETHYST",
           "STEEL"
+        ]
+      },
+      {
+        "name": "Metallskorpion",
+        "subtitle": "Tödliche Statue",
+        "strength": 8,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 7,
+        "author": "Carlos Ruiz",
+        "deck_building_id": "08b5374be96d9d26507561a9a0244cf1f1b22a4d",
+        "culture_invariant_id": 1896,
+        "sort_number": 1896,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Wendig"
+        ],
+        "subtypes": [
+          "Koloss"
+        ],
+        "flavor_text": "",
+        "rules_text": "Wendig (Nur Charaktere mit Wendig können diesen Charakter herausfordern.) SIMULTANER SCHLAG Wenn Dschafar diesen Charakter ausspielt, wählen alle Luminari je einen ihrer Charaktere, einen ihrer Gegenstände und einen ihrer Orte und verbannen diese.",
+        "card_identifier": "1/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/1_aa7e6963f19cbbc4ce782b6e96394774839385b5.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/1_7434b5f1b31f6aa9c09411095e44cc1435221333.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Lorcana"
+        ]
+      },
+      {
+        "name": "Palastwache",
+        "subtitle": "Kronenjäger",
+        "strength": 2,
+        "willpower": 6,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Anderson Mahanski",
+        "deck_building_id": "156a0bb5151bef1e8aec7b3fd1a44aeab8bfb7e0",
+        "culture_invariant_id": 1897,
+        "sort_number": 1897,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Sagengestalt",
+          "Verbündeter"
+        ],
+        "flavor_text": "Ach, ja. Ich nehme das.%–Dschafar",
+        "rules_text": "BRING SIE MIR Wenn Dschafar diesen Charakter ausspielt, stiehlt er „Die neu geschmiedete Krone“.",
+        "card_identifier": "2/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/2_24888f1f951d8c08e0567c583854e452c39c844c.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/2_9212382ce77bdedeff5d72083fa85e1278a8693f.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Jago",
+        "subtitle": "Lauter Wachposten",
+        "strength": 4,
+        "willpower": 5,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 4,
+        "author": "Diogo Saito",
+        "deck_building_id": "b081c292d8abac744d8c40e1029f55dd2aad5d61",
+        "culture_invariant_id": 1898,
+        "sort_number": 1898,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Beschützen"
+        ],
+        "subtypes": [
+          "Traumgestalt",
+          "Verbündeter"
+        ],
+        "flavor_text": "",
+        "rules_text": "Beschützen (Gegnerische Charaktere müssen beim Herausfordern von Dschafars Charakteren zuerst seine Charaktere mit Beschützen wählen, wenn möglich.) DSCHAFARS WÄCHTER Dieser Charakter kommt erschöpft ins Spiel. ALARM SCHLAGEN Solange dieser Charakter erschöpft ist, können Dschafars Orte nicht herausgefordert werden.",
+        "card_identifier": "3/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/3_79c65464f5b59788fb4eff5948ac06dd7e0b6cd5.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/3_03e9d772cd4b4a50ac5e8aca43b8cdb4e9574b11.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Rasul",
+        "subtitle": "Unnachgiebiger Wächter",
+        "strength": 4,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 2,
+        "author": "Omar Lozano",
+        "deck_building_id": "f1edb60f8a642b04fc517ad1b23bb54404b2a611",
+        "culture_invariant_id": 1899,
+        "sort_number": 1899,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Beschützen"
+        ],
+        "subtypes": [
+          "Traumgestalt",
+          "Verbündeter",
+          "Kapitän"
+        ],
+        "flavor_text": "",
+        "rules_text": "Beschützen (Gegnerische Charaktere müssen beim Herausfordern von Dschafars Charakteren zuerst seine Charaktere mit Beschützen wählen, wenn möglich.) DSCHAFARS WÄCHTER Dieser Charakter kommt erschöpft ins Spiel.",
+        "card_identifier": "4/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/4_e1efa657badabc0e1f5fa2986690922289040901.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/4_92fef0c45dd9e2aa203b5aa4a5d13b1cb258db41.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Hüter des Schatzes",
+        "subtitle": "Illusionärer Beschützer",
+        "strength": 3,
+        "willpower": 5,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 2,
+        "author": "Stefano Zanchi",
+        "deck_building_id": "65a7b79d2f66d824342ef5448373ac59b596d26f",
+        "culture_invariant_id": 1900,
+        "sort_number": 1900,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Illusion"
+        ],
+        "flavor_text": "Oh je, haben sich die Regeln geändert? Wie furchtbar traurig … für dich.%–Dschafar",
+        "rules_text": "STRÖMENDER SAND Luminari können keine Fähigkeiten von Kampfplätzen nutzen.",
+        "card_identifier": "5/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/5_892aaed5bdefa0719abadc048a3a68b7342a1fbc.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/5_18ff730f0dce235183dafbb617880780a5532195.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Dschafar",
+        "subtitle": "Spektraler Magier",
+        "strength": 5,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 4,
+        "author": "Luigi Aimè",
+        "deck_building_id": "7e0c3a7c25df6cb7b8e87ae7e20c0ff7ee4df1da",
+        "culture_invariant_id": 1901,
+        "sort_number": 1901,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Schurke",
+          "Illusion",
+          "Magier"
+        ],
+        "flavor_text": "Du hast nicht wirklich geglaubt, dass das hier zu Ende sei, oder? Verneige dich vor wahrer Macht!",
+        "rules_text": "KEHRT ZU MIR ZURÜCK! Wenn Dschafar diesen Charakter ausspielt, spielt er alle Mechanische-Schlange-Gegenstandskarten aus seinem Ablagestapel kostenlos aus.",
+        "card_identifier": "6/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/6_41001c1c1a585be7ac48eeda56ba59e3018222c6.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/6_b1c083abe21e336d534b3ec62c09fdc6e9431354.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Dschinni",
+        "subtitle": "Gewaltiges Gespenst",
+        "strength": 3,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 5,
+        "author": "Gonzalo Kenny",
+        "deck_building_id": "68f0834657d681662450d1893d0ac1dd1a8a4fb5",
+        "culture_invariant_id": 1902,
+        "sort_number": 1902,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Verbündeter",
+          "Illusion"
+        ],
+        "flavor_text": "Bestaune die Macht meiner Magie. Dieser Dschinni gehört mir!%–Dschafar",
+        "rules_text": "PERFEKTES TIMING Wenn Dschafar diesen Charakter ausspielt und falls alle Luminari je einen erschöpften Charakter im Spiel haben, sammelt er 3 Legenden.",
+        "card_identifier": "7/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/7_a905adb0b77b9c76452fd4ca8a59cbc4f76d88a3.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/7_8163cbb4c47c219f2989958a74c069adb770eea0.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Der Sultan",
+        "subtitle": "Spektraler Herrscher",
+        "strength": 3,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 4,
+        "author": "Grace Woo",
+        "deck_building_id": "20965cf4be3499004c16d78f4abdeae9e3f6a7c6",
+        "culture_invariant_id": 1903,
+        "sort_number": 1903,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Verbündeter",
+          "König",
+          "Illusion"
+        ],
+        "flavor_text": "Jetzt kniet <er> vor <mir>.%–Dschafar",
+        "rules_text": "ABGABEN ZAHLEN Wenn Dschafar diesen Charakter ausspielt, wählen alle Luminari je 1 Karte aus ihrer Hand und werfen sie ab.",
+        "card_identifier": "8/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/8_fbebdf5ae3a887bce10451243f8b360c5fbe81d6.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/8_047df5a98ed17736f13b75d43007a2fdc429b873.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Jasmin",
+        "subtitle": "Vergängliche Prinzessin",
+        "strength": 2,
+        "willpower": 7,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 4,
+        "author": "Ian MacDonald",
+        "deck_building_id": "ab22a83a772ba022834c25c5a2acd0a919c67b19",
+        "culture_invariant_id": 1904,
+        "sort_number": 1904,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Held",
+          "Prinzessin",
+          "Illusion"
+        ],
+        "flavor_text": "Diese Version mag zwar weniger substanzreich sein als die echte Prinzessin, aber sie ist trotzdem recht nützlich.%–Dschafar",
+        "rules_text": "HIER DRÜBEN! Jedes Mal, wenn dieser Charakter erkundet, zieht Dschafar eine Karte.",
+        "card_identifier": "9/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/9_3037a335775ce59d1aba7b204af10abdd9399426.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/9_34dca773deddc4c1db49a7f4f3dad2fdf17ab474.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Gazzim",
+        "subtitle": "Rücksichtsloser Rüpel",
+        "strength": 4,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 5,
+        "author": "James Rey Sanchez",
+        "deck_building_id": "6f2860337911e3fc2deb9abff985f4b285c3f56c",
+        "culture_invariant_id": 1905,
+        "sort_number": 1905,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Traumgestalt"
+        ],
+        "flavor_text": "Was ihm an Manieren fehlt, macht er durch reine Grausamkeit wett.%–Dschafar",
+        "rules_text": "SCHMUTZIGE TRICKS Wenn Dschafar diesen Charakter ausspielt, fügt er jedem gegnerischen beschädigten Charakter 2 Schaden zu.",
+        "card_identifier": "10/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/10_ddc8317899cdfcaab51b783c3c03c0e9366c2464.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/10_09453729d2acf645abd9d6ff0199b34f2cea0eac.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Jago",
+        "subtitle": "Kronensucher",
+        "strength": 3,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 6,
+        "author": "Eva Widermann",
+        "deck_building_id": "5ca4199d5412d6f8f33b07f6b210be95b2f63582",
+        "culture_invariant_id": 1906,
+        "sort_number": 1906,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Wendig"
+        ],
+        "subtypes": [
+          "Traumgestalt",
+          "Verbündeter"
+        ],
+        "flavor_text": "",
+        "rules_text": "Wendig (Nur Charaktere mit Wendig können diesen Charakter herausfordern.) HAB DICH! Jedes Mal, wenn dieser Charakter erkundet, stiehlt Dschafar „Die neu geschmiedete Krone“.",
+        "card_identifier": "11/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/11_e4e651c507c2a152a0abba0e6a7a0cfce64dc967.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/11_d262c8cdb9b3e41c94b01978b4a16a29b454cfe8.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Riesiger Skarabäus",
+        "subtitle": "Flitzende Statue",
+        "strength": 8,
+        "willpower": 8,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 5,
+        "author": "Carlos Ruiz",
+        "deck_building_id": "d4b10868a765729e055c8259b06631a7c49f9d91",
+        "culture_invariant_id": 1907,
+        "sort_number": 1907,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Koloss"
+        ],
+        "flavor_text": "Genau das Richtige, um mit Schädlingen wie dir fertig zu werden!%–Dschafar",
+        "rules_text": "GEHEIME SCHWACHSTELLE Die Luminari können in ihrem Zug je 3 bezahlen um diesen Charakter zu verbannen.",
+        "card_identifier": "12/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/12_3dc2faeeced3e7c43d571b9c4e2b8e90e5ac1e12.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/12_2318f9dd68967b71d67edf4928651e680ae27f56.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Lorcana"
+        ]
+      },
+      {
+        "name": "Gigantische Kobra",
+        "subtitle": "Schlängelnde Statue",
+        "strength": 7,
+        "willpower": 5,
+        "quest_value": 3,
+        "rarity": "SPECIAL",
+        "ink_cost": 7,
+        "author": "Diego Machuca",
+        "deck_building_id": "513a10ee9fdb722093e88d7b3e36b8478d1bc612",
+        "culture_invariant_id": 1908,
+        "sort_number": 1908,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Koloss"
+        ],
+        "flavor_text": "Seht die Wunder der wahren Macht! Sogar den Stein kann ich beherrschen!%–Dschafar",
+        "rules_text": "DER SCHATTEN DER SCHLANGE Wenn Dschafar diesen Charakter ausspielt, fügt er jedem gegnerischen erschöpften Charakter 3 Schaden zu.",
+        "card_identifier": "13/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/13_0fb5667d8ac271016d4b55c515bc200a722f6a20.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/13_54f9b2abb03fbaac2e23342ca9f817339bc21f9d.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Lorcana"
+        ]
+      },
+      {
+        "name": "Tiger Behemoth",
+        "subtitle": "Massige Statue",
+        "strength": 7,
+        "willpower": 8,
+        "quest_value": 3,
+        "rarity": "SPECIAL",
+        "ink_cost": 7,
+        "author": "Diego Machuca",
+        "deck_building_id": "e41b9b2562457549cd29e2fb2d5d5c155b41f911",
+        "culture_invariant_id": 1909,
+        "sort_number": 1909,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Koloss"
+        ],
+        "flavor_text": "Die Wächter des Palastes sind nicht gut auf Eindringlinge zu sprechen. Betrachte dies als Warnung.%–Dschafar",
+        "rules_text": "FURCHTERREGENDER BLICK Dieser Charakter kann nicht von beschädigten Charakteren herausgefordert werden.",
+        "card_identifier": "14/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/14_df4c0b82a0f59f890e4af1bca83a4796e12d297b.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/14_1827e6f52892c79f1dcbf8c6d47ba8228b30b417.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Lorcana"
+        ]
+      },
+      {
+        "name": "Abu",
+        "subtitle": "Freches Gespenst",
+        "strength": 6,
+        "willpower": 6,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 5,
+        "author": "Shutianyi Li",
+        "deck_building_id": "f21f71375d4ca22962086c28a961e09c1a92a594",
+        "culture_invariant_id": 1910,
+        "sort_number": 1910,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Verbündeter",
+          "Illusion"
+        ],
+        "flavor_text": "Nun ja, er <ist> nervig. Wie schön, dass es dir aufgefallen ist. Ich wollte, dass diese Illusion so korrekt wie möglich ist.%–Dschafar",
+        "rules_text": "",
+        "card_identifier": "15/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/15_814b8e125e69da08371fd3a60cda0322de430993.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/15_1b91dc14ccdfaa7ed1a9fb7d9854a2d99b9d56dc.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Aladdin",
+        "subtitle": "Irreführendes Phantom",
+        "strength": 4,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Malia Ewart",
+        "deck_building_id": "adbe22ec8689efcad9daea15dcc579969afe54d5",
+        "culture_invariant_id": 1911,
+        "sort_number": 1911,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Wendig"
+        ],
+        "subtypes": [
+          "Held",
+          "Illusion"
+        ],
+        "flavor_text": "Das Beste an dieser Illusion? Sie kennt ihren Platz.%–Dschafar",
+        "rules_text": "Wendig (Nur Charaktere mit Wendig können diesen Charakter herausfordern.)",
+        "card_identifier": "16/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/16_692fe02a8e268fd03ef5418501df9755b8d4681e.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/16_c3021459bfa6f28b6897271feabbc18863dcd013.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Basil",
+        "subtitle": "Schattenhafter Detektiv",
+        "strength": 3,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 1,
+        "author": "Marc Perez",
+        "deck_building_id": "e0f45930b76553e781e2f95fdcb2d1bca762e9c8",
+        "culture_invariant_id": 1912,
+        "sort_number": 1912,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Held",
+          "Illusion",
+          "Detektiv"
+        ],
+        "flavor_text": "Ich muss zugeben, er hat einen großartigen Verstand – für eine Maus.%–Dschafar",
+        "rules_text": "",
+        "card_identifier": "17/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/17_dfc1b4b7ac460cbda700181302ab2fde6980356e.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/17_357d213de7546765d4bed07d1df3b7509b05eefb.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Basil, der große Mäusedetektiv",
+          "Great Mouse Detective"
         ]
       }
     ],
@@ -67449,6 +68610,341 @@
         "searchable_keywords": [
           "Treasure Planet",
           "Der Schatzplanet"
+        ]
+      },
+      {
+        "name": "Kobra-Fallgrube",
+        "subtitle": "Wimmelnde Schlangen",
+        "willpower": 8,
+        "quest_value": 1,
+        "move_cost": 0,
+        "rarity": "SPECIAL",
+        "ink_cost": 2,
+        "author": "French Carlomagno",
+        "deck_building_id": "4bd02bdfa52f9c8f55d733a7fe7a8e93e51ad098",
+        "culture_invariant_id": 1923,
+        "sort_number": 1923,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Hindernis"
+        ],
+        "flavor_text": "",
+        "rules_text": "SCHLANGENBISS Wenn Dschafar diesen Ort ausspielt, fügt er jedem gegnerischen Charakter 1 Schaden zu.",
+        "card_identifier": "28/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/28_f551befd035e01bd16837ed765c103794c071cec.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/28_3dcf9414aa6f20702bea2013157cf9c9b077409d.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Ducktales"
+        ]
+      },
+      {
+        "name": "Endloses Treppenhaus",
+        "subtitle": "Gefährlicher Aufstieg",
+        "willpower": 9,
+        "quest_value": 1,
+        "move_cost": 0,
+        "rarity": "SPECIAL",
+        "ink_cost": 4,
+        "author": "Douglas De La Hoz",
+        "deck_building_id": "613c76217ade9e53c677b9a86e1a0f2296fd2142",
+        "culture_invariant_id": 1924,
+        "sort_number": 1924,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Hindernis"
+        ],
+        "flavor_text": "",
+        "rules_text": "SCHWINDEL Wenn Dschafar diesen Ort ausspielt, fügt er dem Charakter mit den höchsten Kosten jedes Luminari je 3 Schaden zu. (Bei Gleichstand dürfen die Luminari wählen.)",
+        "card_identifier": "29/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/29_12bb3041ce57d3eb4c9695928b5897fbf26f64da.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/29_53935bc8c2c26113e5c6123865dc8a84c42e1b1e.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Lorcana"
+        ]
+      },
+      {
+        "name": "Königliche Waffenkammer",
+        "subtitle": "Stark bewacht",
+        "willpower": 6,
+        "quest_value": 1,
+        "move_cost": 0,
+        "rarity": "SPECIAL",
+        "ink_cost": 2,
+        "author": "Veronica Di Lorenzo",
+        "deck_building_id": "e4e96ce2469b9e97d0b438d3932369829cbc38a4",
+        "culture_invariant_id": 1925,
+        "sort_number": 1925,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Robust"
+        ],
+        "subtypes": [
+          "Hindernis"
+        ],
+        "flavor_text": "",
+        "rules_text": "Robust +1 (Reduziere jeglichen Schaden, der diesem Ort zugefügt wird, um 1.)",
+        "card_identifier": "30/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/30_d7d1b868b6e77ea9b8ecc8c4c1f987746272d36f.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/30_7761c53ba8a04ea09d45b1ccc468cb95415566f2.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Kristalltor",
+        "subtitle": "Unzerstörbare Barriere",
+        "willpower": 10,
+        "quest_value": 2,
+        "move_cost": 0,
+        "rarity": "SPECIAL",
+        "ink_cost": 6,
+        "author": "Elodie Mondoloni",
+        "deck_building_id": "ebfbb39a2d072df5ad77be5f6aa7160bcccdadfc",
+        "culture_invariant_id": 1926,
+        "sort_number": 1926,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Behütet"
+        ],
+        "subtypes": [
+          "Hindernis"
+        ],
+        "flavor_text": "Ein magischer Kristall zur Sicherung meiner mächtigsten Schätze.%–Dschafar",
+        "rules_text": "Behütet (Luminari können diesen Ort nicht auswählen, außer um ihn herauszufordern.)",
+        "card_identifier": "31/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/31_aee07f4cf63fa07a14ace646765122a9f4fe0754.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/31_99d35d5d65b20916652cb865fa75396c94853c65.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Alice in Wonderland",
+          "Alice im Wunderland"
+        ]
+      },
+      {
+        "name": "Tiefbrunnen-Labyrinth",
+        "subtitle": "Geheimnisvolle Hallen",
+        "willpower": 6,
+        "quest_value": 1,
+        "move_cost": 0,
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Giuseppe di Maio",
+        "deck_building_id": "27f192a1917a820c5e07067a94ce2f94e28bdbd5",
+        "culture_invariant_id": 1927,
+        "sort_number": 1927,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Hindernis"
+        ],
+        "flavor_text": "",
+        "rules_text": "DAS LABYRINTH KARTIEREN Jedes Mal, wenn ein Charakter diesen Ort herausfordert, wählen alle Luminari je 1 Karte aus ihrer Hand und werfen sie ab.",
+        "card_identifier": "32/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/32_f59d27bc7b4c68954002206af643d2211992012f.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/32_4541a33dc21022d04acee14a3d3efe91c6f3d105.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Halle der Illusionen",
+        "subtitle": "Mysteriöse Kammer",
+        "willpower": 8,
+        "quest_value": 2,
+        "move_cost": 0,
+        "rarity": "SPECIAL",
+        "ink_cost": 4,
+        "author": "Sylvain Sarrailh",
+        "deck_building_id": "c0863e89c1a974cd0dc2f59affc22cb0e0ac2dff",
+        "culture_invariant_id": 1928,
+        "sort_number": 1928,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Hindernis"
+        ],
+        "flavor_text": "Ich bin sicher, dass du sie in tausend Jahren oder so verstehen wirst.%–Dschafar",
+        "rules_text": "VERWUNDERUNG Gegnerische Charaktere können nicht erkunden.",
+        "card_identifier": "33/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/33_ab7dd03882d6674807b832478875122f095fb159.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/33_9fd091afbb7effc3fa7b8033d873db5e36d8a03f.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Lorcana"
+        ]
+      },
+      {
+        "name": "Uhrwerk-Sägeblätter",
+        "subtitle": "Verräterische Falle",
+        "willpower": 9,
+        "quest_value": 0,
+        "move_cost": 0,
+        "rarity": "SPECIAL",
+        "ink_cost": 6,
+        "author": "Michela Cacciatore / Giulia Priori",
+        "deck_building_id": "5b1fe9881cd81b5fd86dae326db0879471a04a52",
+        "culture_invariant_id": 1929,
+        "sort_number": 1929,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Behütet"
+        ],
+        "subtypes": [
+          "Hindernis"
+        ],
+        "flavor_text": "",
+        "rules_text": "Behütet (Luminari können diesen Ort nicht auswählen, außer um ihn herauszufordern.) KEIN ENTKOMMEN Wenn Dschafar diesen Ort ausspielt, fügt er jedem gegnerischen Charakter 2 Schaden zu.",
+        "card_identifier": "34/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/34_ef1b6f994fc37e5a62f34790dbe9a534e7944881.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/34_6cc78feb487bea0eff2f291a0aa64ac59fead289.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Tintengraben",
+        "subtitle": "Erste Abwehrmaßnahme",
+        "willpower": 5,
+        "quest_value": 0,
+        "move_cost": 0,
+        "rarity": "SPECIAL",
+        "ink_cost": 0,
+        "author": "Kaluba",
+        "deck_building_id": "4e7b9e12ba9e15dd055872a73babf8f862f1bded",
+        "culture_invariant_id": 1930,
+        "sort_number": 1930,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Hindernis"
+        ],
+        "flavor_text": "Werde nicht übermütig. Sie werden nicht alle so leicht zu bewältigen sein.",
+        "rules_text": "",
+        "card_identifier": "35/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/35_3c100c35cb08ecaff6c874274bba8472fc358ae6.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/35_07be8302b239c8c8df988eed74f5005ea0dbe854.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
         ]
       }
     ],
@@ -72436,7 +73932,7 @@
         "author": "Jeremy Adams",
         "deck_building_id": "8bb480d66afa05abc46b8e1acccb123b0e1426b2",
         "culture_invariant_id": 1708,
-        "sort_number": 1704,
+        "sort_number": 1706,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -72469,7 +73965,7 @@
         "author": "Carlos Ruiz",
         "deck_building_id": "f664f18da2600606537df66ca9d9663d72b4a7b8",
         "culture_invariant_id": 1747,
-        "sort_number": 1743,
+        "sort_number": 1745,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -72505,7 +74001,7 @@
         "author": "Priya Kakati",
         "deck_building_id": "4848962185abb4d5b4c61baa3a86c31313853f72",
         "culture_invariant_id": 1748,
-        "sort_number": 1744,
+        "sort_number": 1746,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -72544,7 +74040,7 @@
         "author": "Jared Nickerl",
         "deck_building_id": "b53e4e6943d5cde0bb2744696e3434d34149f381",
         "culture_invariant_id": 1783,
-        "sort_number": 1779,
+        "sort_number": 1781,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -72581,7 +74077,7 @@
         "author": "Filipe Laurentino",
         "deck_building_id": "a55f40c14f531761828d5025ffb3cade2560095f",
         "culture_invariant_id": 1784,
-        "sort_number": 1780,
+        "sort_number": 1782,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -72618,7 +74114,7 @@
         "author": "Domenico Russo",
         "deck_building_id": "f53cefd9fc2611fc223d96dff8640a4eeaf9068d",
         "culture_invariant_id": 1816,
-        "sort_number": 1812,
+        "sort_number": 1814,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -72654,7 +74150,7 @@
         "author": "Mariana Moreno",
         "deck_building_id": "5b45cb0bebfa4d4f18e8a0e2778ff4f77a31480b",
         "culture_invariant_id": 1842,
-        "sort_number": 1838,
+        "sort_number": 1840,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -72691,7 +74187,7 @@
         "author": "Edgar Pasten",
         "deck_building_id": "be83ae44047d977d177acf42b3c89db7cebcdc03",
         "culture_invariant_id": 1843,
-        "sort_number": 1839,
+        "sort_number": 1841,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -72728,7 +74224,7 @@
         "author": "Greez",
         "deck_building_id": "fe914af5333fd24dcec411e67a9a6c5f596db9df",
         "culture_invariant_id": 1844,
-        "sort_number": 1840,
+        "sort_number": 1842,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -72765,7 +74261,7 @@
         "author": "Alex Accorsi",
         "deck_building_id": "e6ae8927db279459b45121c140306a0e025a5c26",
         "culture_invariant_id": 1868,
-        "sort_number": 1864,
+        "sort_number": 1866,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -72801,7 +74297,7 @@
         "author": "Jonathan Livslyst / Renée Chio",
         "deck_building_id": "f53cefd9fc2611fc223d96dff8640a4eeaf9068d",
         "culture_invariant_id": 1883,
-        "sort_number": 1873,
+        "sort_number": 1881,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -72827,6 +74323,111 @@
         "magic_ink_colors": [
           "RUBY"
         ],
+        "searchable_keywords": [
+          "Mulan"
+        ]
+      },
+      {
+        "name": "Mechanische Schlange",
+        "rarity": "SPECIAL",
+        "ink_cost": 0,
+        "author": "Carlos Ruiz",
+        "deck_building_id": "2c7bbaccc556ea6954094fb64d52385a57df1473",
+        "culture_invariant_id": 1920,
+        "sort_number": 1920,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "",
+        "rules_text": "ERGREIFE DIE KRONE! Wenn Dschafar diesen Gegenstand ausspielt, stiehlt er „Die neu geschmiedete Krone“. SELBSTZERSTÖRENDE SCHLANGE , Verbanne diesen Gegenstand – Dschafar sammelt 2 Legenden.",
+        "card_identifier": "25/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/25_4e4ffb32c24cf5716fe24f03c4f1e0a0f283fbba.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/25_d26396b78109a358712eb839d5db545b98f74718.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Feuriges Becken",
+        "rarity": "SPECIAL",
+        "ink_cost": 2,
+        "author": "Ilaria Sposetti / Rodney Bills",
+        "deck_building_id": "6405002d5d9dab965f796caaf3457e15d952ebd0",
+        "culture_invariant_id": 1921,
+        "sort_number": 1921,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "Du spielst gerade mit dem Feuer.%–Dschafar",
+        "rules_text": "STELL DICH DEN FLAMMEN Zu Beginn von Dschafars Zug verbannt er diesen Gegenstand, damit alle Luminari je einen ihrer Charaktere auswählen und diesem 4 Schaden zufügen.",
+        "card_identifier": "26/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/26_a02eb9bd31e5ff9d96f88a236bba58bfc37f2420.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/26_6dc30253d9123028bebe66c92db248db0e3d21e9.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Lorcana"
+        ]
+      },
+      {
+        "name": "Riesige Sanduhr",
+        "rarity": "SPECIAL",
+        "ink_cost": 6,
+        "author": "Veronica Di Lorenzo / Livio Cacciatore",
+        "deck_building_id": "d5b212400e7f397a0c3907212c1ea0caf886b394",
+        "culture_invariant_id": 1922,
+        "sort_number": 1922,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "Es ist wichtig, sich Zeit für Freunde zu nehmen.%–Dschafar",
+        "rules_text": "STEIGENDER SAND – Dschafar fügt jedem gegnerischen Charakter 1 Schaden zu.",
+        "card_identifier": "27/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/27_fb34e7a8c47f0c44f03c2381f504b4d50a40876d.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/27_261e2889fb10f21a88d12d45e43fc99883b31b54.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
         "searchable_keywords": [
           "Mulan"
         ]
@@ -81032,7 +82633,7 @@
         "author": "Stefano Spagnuolo",
         "deck_building_id": "a0153cbf8a3efb1e35d6007278e22a7c7006135b",
         "culture_invariant_id": 1703,
-        "sort_number": 1699,
+        "sort_number": 1701,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81070,7 +82671,7 @@
         "author": "Samanta Erdini",
         "deck_building_id": "f7b76b092a681f79d6d10d8950f1d4f9456e82b4",
         "culture_invariant_id": 1704,
-        "sort_number": 1700,
+        "sort_number": 1702,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81107,7 +82708,7 @@
         "author": "Therese Vildefall",
         "deck_building_id": "898aeafea2572b546272d33c7c03c94339016961",
         "culture_invariant_id": 1705,
-        "sort_number": 1701,
+        "sort_number": 1703,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81145,7 +82746,7 @@
         "author": "Gianluca Barone",
         "deck_building_id": "41430a33d61146dd95a179122a74a0b04e5c2502",
         "culture_invariant_id": 1706,
-        "sort_number": 1702,
+        "sort_number": 1704,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -81186,7 +82787,7 @@
         "author": "Pauline Voss",
         "deck_building_id": "d8ad24fab25df6002c32c0d56047eab14acd94c4",
         "culture_invariant_id": 1707,
-        "sort_number": 1703,
+        "sort_number": 1705,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81225,7 +82826,7 @@
         "author": "Viv Tanner",
         "deck_building_id": "8a8fd5b953941634d5c3675e46824ff56ce8b084",
         "culture_invariant_id": 1741,
-        "sort_number": 1737,
+        "sort_number": 1739,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81262,7 +82863,7 @@
         "author": "Saulo Nate",
         "deck_building_id": "2f80b47bf6eac6eb46a98c95ab83bdd0b6fcfc69",
         "culture_invariant_id": 1742,
-        "sort_number": 1738,
+        "sort_number": 1740,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81299,7 +82900,7 @@
         "author": "Natalia Trykowska",
         "deck_building_id": "d4a4aaa05c1e118b809f40d219cd3f634c4ccc44",
         "culture_invariant_id": 1743,
-        "sort_number": 1739,
+        "sort_number": 1741,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -81339,7 +82940,7 @@
         "author": "Mario Manzanares",
         "deck_building_id": "443fdfdb48d4bec4a4157b8fa1372ce2ca8187fa",
         "culture_invariant_id": 1744,
-        "sort_number": 1740,
+        "sort_number": 1742,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81377,7 +82978,7 @@
         "author": "Maria Dresden",
         "deck_building_id": "b506d722beed28386dc44ada619ef650102342b8",
         "culture_invariant_id": 1745,
-        "sort_number": 1741,
+        "sort_number": 1743,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81418,7 +83019,7 @@
         "author": "Linh Dang",
         "deck_building_id": "04dc42a3175874e14d93a425a5c83f81f4275812",
         "culture_invariant_id": 1746,
-        "sort_number": 1742,
+        "sort_number": 1744,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81454,7 +83055,7 @@
         "author": "Luis Huerta",
         "deck_building_id": "3d45421a0885dfede8dd05b57fef4f66b00074e9",
         "culture_invariant_id": 1778,
-        "sort_number": 1774,
+        "sort_number": 1776,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81491,7 +83092,7 @@
         "author": "Edu Francisco",
         "deck_building_id": "5c657945db38e14571f723706bbcd7ec55085acb",
         "culture_invariant_id": 1779,
-        "sort_number": 1775,
+        "sort_number": 1777,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -81531,7 +83132,7 @@
         "author": "Cristian Romero",
         "deck_building_id": "d2d4cbca62b7aed01a0bd0a6e8aa2f9b358e9304",
         "culture_invariant_id": 1780,
-        "sort_number": 1776,
+        "sort_number": 1778,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81568,7 +83169,7 @@
         "author": "Luigi Aimè",
         "deck_building_id": "7ecd02fc2b52fa45baec4adfd9a638d543b1d8de",
         "culture_invariant_id": 1781,
-        "sort_number": 1777,
+        "sort_number": 1779,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81605,7 +83206,7 @@
         "author": "Alibeth Zermeno",
         "deck_building_id": "3d359a0a02dc0bf5f086f4d17147df8470c977e0",
         "culture_invariant_id": 1782,
-        "sort_number": 1778,
+        "sort_number": 1780,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -81642,7 +83243,7 @@
         "author": "Jeanne Plounevez",
         "deck_building_id": "cc60de718fd85aa22601a84ebf20bf07de590a8e",
         "culture_invariant_id": 1811,
-        "sort_number": 1807,
+        "sort_number": 1809,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -81683,7 +83284,7 @@
         "author": "Diogo Saito",
         "deck_building_id": "638e3c73565caf3c451d46b6c081d42b4e57fa84",
         "culture_invariant_id": 1812,
-        "sort_number": 1808,
+        "sort_number": 1810,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -81721,7 +83322,7 @@
         "author": "Kenneth Anderson",
         "deck_building_id": "3614498b58e0cf1cc33837d6960c31671cbd30a9",
         "culture_invariant_id": 1813,
-        "sort_number": 1809,
+        "sort_number": 1811,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -81758,7 +83359,7 @@
         "author": "Omar Lozano",
         "deck_building_id": "8796f4cb21d5e4fb185646eae3e02d2b25ce1fc6",
         "culture_invariant_id": 1814,
-        "sort_number": 1810,
+        "sort_number": 1812,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81794,7 +83395,7 @@
         "author": "Leonardo Giammichele",
         "deck_building_id": "a1d5d89821229e4e2c3b32b95243c59a1f985409",
         "culture_invariant_id": 1815,
-        "sort_number": 1811,
+        "sort_number": 1813,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -81831,7 +83432,7 @@
         "author": "Lorenza Pigliamosche / Livio Cacciatore",
         "deck_building_id": "7742f7b5a856d9e0d4a7cdca15498823c733e9d5",
         "culture_invariant_id": 1839,
-        "sort_number": 1835,
+        "sort_number": 1837,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [
@@ -81873,7 +83474,7 @@
         "author": "Moniek Schilder",
         "deck_building_id": "12f96e5edbcf8a1a75344eb8f5097aaec5b6c67a",
         "culture_invariant_id": 1840,
-        "sort_number": 1836,
+        "sort_number": 1838,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -81910,7 +83511,7 @@
         "author": "Rubin Chung",
         "deck_building_id": "558b2925c1c3f90d5f91bd793063de0531921f04",
         "culture_invariant_id": 1841,
-        "sort_number": 1837,
+        "sort_number": 1839,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -81949,7 +83550,7 @@
         "author": "Gianluca Barone",
         "deck_building_id": "16dd16a0102a332d98ec5d332408410daf87552c",
         "culture_invariant_id": 1865,
-        "sort_number": 1861,
+        "sort_number": 1863,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -81986,7 +83587,7 @@
         "author": "Taraneh",
         "deck_building_id": "ad132a4c53b4856d48b36de8985d765bed38f07f",
         "culture_invariant_id": 1866,
-        "sort_number": 1862,
+        "sort_number": 1864,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -82028,7 +83629,7 @@
         "author": "Diego Machuca",
         "deck_building_id": "b7869c5472bc41c5832262ed91df5e977a88dd47",
         "culture_invariant_id": 1867,
-        "sort_number": 1863,
+        "sort_number": 1865,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -82065,7 +83666,7 @@
         "author": "Ian MacDonald",
         "deck_building_id": "41430a33d61146dd95a179122a74a0b04e5c2502",
         "culture_invariant_id": 1872,
-        "sort_number": 1866,
+        "sort_number": 1870,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -82107,7 +83708,7 @@
         "author": "Samanta Erdini",
         "deck_building_id": "d4a4aaa05c1e118b809f40d219cd3f634c4ccc44",
         "culture_invariant_id": 1876,
-        "sort_number": 1869,
+        "sort_number": 1874,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [
@@ -82142,13 +83743,54 @@
         ]
       },
       {
+        "name": "Wo noch niemand war",
+        "rarity": "ENCHANTED",
+        "ink_cost": 3,
+        "author": "Yrgane Ramon",
+        "deck_building_id": "b506d722beed28386dc44ada619ef650102342b8",
+        "culture_invariant_id": 1877,
+        "sort_number": 1875,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Lied"
+        ],
+        "flavor_text": "",
+        "rules_text": "(Du kannst einen Charakter, der 3 oder mehr kostet, , damit er dieses Lied kostenlos singt.) Lege einen erschöpften Charakter deiner Wahl verdeckt und erschöpft in den zugehörigen Tintenvorrat.",
+        "card_identifier": "213/204 DE 8",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/1468x2048/213_4184ddc41a2b506ef4fc5a50fe898e852e584d8e.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/set8/cards/367x512/213_5da6ece032342940efc88482bd4d4ac3bf172dfb.jpg"
+          }
+        ],
+        "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set8/masks/1468x2048/213_aa8094c8e57558feccec2f4a4d456eaf2cd4ceed.jpg",
+        "foil_type": "VerticalWave",
+        "card_sets": [
+          8
+        ],
+        "magic_ink_colors": [
+          "AMETHYST",
+          "SAPPHIRE"
+        ],
+        "searchable_keywords": [
+          "Frozen",
+          "Die Eiskönigin"
+        ]
+      },
+      {
         "name": "Das war der Falsche!",
         "rarity": "ENCHANTED",
         "ink_cost": 3,
         "author": "Koni",
         "deck_building_id": "d2d4cbca62b7aed01a0bd0a6e8aa2f9b358e9304",
         "culture_invariant_id": 1880,
-        "sort_number": 1871,
+        "sort_number": 1878,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -82186,7 +83828,7 @@
         "author": "LadyShalirin",
         "deck_building_id": "16dd16a0102a332d98ec5d332408410daf87552c",
         "culture_invariant_id": 1886,
-        "sort_number": 1876,
+        "sort_number": 1884,
         "additional_info": [],
         "ink_convertible": false,
         "abilities": [],
@@ -82224,7 +83866,7 @@
         "author": "Mario Manzanares",
         "deck_building_id": "443fdfdb48d4bec4a4157b8fa1372ce2ca8187fa",
         "culture_invariant_id": 1891,
-        "sort_number": 1883,
+        "sort_number": 1893,
         "additional_info": [],
         "ink_convertible": true,
         "abilities": [],
@@ -82251,6 +83893,251 @@
         "magic_ink_colors": [
           "AMETHYST",
           "EMERALD"
+        ]
+      },
+      {
+        "name": "Flut aus Sand",
+        "rarity": "SPECIAL",
+        "ink_cost": 2,
+        "author": "Jonathan Livslyst",
+        "deck_building_id": "f41306ff4329a95f1187efad09ca25069af2e38e",
+        "culture_invariant_id": 1913,
+        "sort_number": 1913,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "Die Lage wird langsam ungemütlich, nicht wahr?%–Dschafar",
+        "rules_text": "Dschafar fügt jedem gegnerischen Charakter 1 Schaden zu. Lege danach diese Karte verdeckt in seinen Tintenvorrat.",
+        "card_identifier": "18/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/18_34e6b65dba07a438f2f33ccd0e4d9f1fb1ea0e92.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/18_b14dfe6786613cd0c418c11d0de3f7dacf101822.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Peter Pan"
+        ]
+      },
+      {
+        "name": "Vernichtender Fehltritt",
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Diogo Saito",
+        "deck_building_id": "668838ce2eec5b2cee8e3ed273c21c3a536386e4",
+        "culture_invariant_id": 1914,
+        "sort_number": 1914,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "",
+        "rules_text": "Dschafars Orte verlieren bis zu Beginn seines nächsten Zuges Behütet und können es bis dahin nicht erhalten. Die Luminari dürfen bis zu einen Ort von Dschafar auswählen und verbannen.",
+        "card_identifier": "19/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/19_0982abf0096ad983021bda8a8ad59e0127db3548.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/19_6727f55efdf0f2e6e4a2a6eeef6082f149fde7f3.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Verheerender Sandsturm",
+        "rarity": "SPECIAL",
+        "ink_cost": 4,
+        "author": "Pietro B. Zemelo / Theonidas",
+        "deck_building_id": "f3a6d5926f5a0a5636c5fcbcb6aa847824246c8a",
+        "culture_invariant_id": 1915,
+        "sort_number": 1915,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "Du musst tief graben, um das zurückzubekommen!%–Dschafar",
+        "rules_text": "Alle Luminari wählen je einen ihrer Gegenstände oder Orte und verbannen ihn.",
+        "card_identifier": "20/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/20_5cf7a38ed4735ad6e478d26e8e29c62569fc4c64.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/20_c594e7bece2e6fed6bda6a684e8e657b940eccb7.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Unverhoffte Macht",
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Gonzalo Kenny",
+        "deck_building_id": "03287ba12c26ceb166cadd2e9812e02513dfb6e7",
+        "culture_invariant_id": 1916,
+        "sort_number": 1916,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "Ja! Ich kann sie spüren! Ganz Lorcana wird vor mir erzittern!",
+        "rules_text": "Dschafar sammelt 2 Legenden. Lege danach diese Karte verdeckt in seinen Tintenvorrat.",
+        "card_identifier": "21/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/21_d71105d2dd2ddd4a6dfddeb2d5daa4020be81980.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/21_d8298423151bdf4068cb8b0afda6b629f6dcf159.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Arkanes Beben",
+        "rarity": "SPECIAL",
+        "ink_cost": 4,
+        "author": "French Carlomagno",
+        "deck_building_id": "46e5e916f27135819de17ac3aed108aff3b64569",
+        "culture_invariant_id": 1917,
+        "sort_number": 1917,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "Dein Plan beginnt zu bröckeln. Versuche, nicht den Boden unter den Füßen zu verlieren!%–Dschafar",
+        "rules_text": "Dschafar erschöpft alle gegnerischen Charaktere. Sie werden zu Beginn ihres nächsten Zuges nicht bereit gemacht.",
+        "card_identifier": "22/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/22_5f7ab43359fcb032e6a7f900140c4714ca1a2214.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/22_026e1fee6b686a55c190e8530b9beb561961bf92.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Aladdin"
+        ]
+      },
+      {
+        "name": "Kataklystischer Wirbelsturm",
+        "rarity": "SPECIAL",
+        "ink_cost": 6,
+        "author": "Douglas De La Hoz",
+        "deck_building_id": "f271b39d14fabd7d429ab5e196ab1470fbb5c31e",
+        "culture_invariant_id": 1918,
+        "sort_number": 1918,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "<Das> wird dich so richtig wegfegen!%–Dschafar",
+        "rules_text": "Alle Luminari wählen je einen ihrer Charaktere, Gegenstände oder Orte aus. Danach verbannt Dschafar alle anderen gegnerischen Charaktere, Gegenstände und Orte.",
+        "card_identifier": "23/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/23_5a7fbe9af99ba8ddf29d7b4c30514917fbc7e229.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/23_e10055c6fd58800fbdbc0492a4271278541d4bec.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Lorcana"
+        ]
+      },
+      {
+        "name": "Sand-Tsunami",
+        "rarity": "SPECIAL",
+        "ink_cost": 5,
+        "author": "Simone Tentoni",
+        "deck_building_id": "4006c67fdbf4d280a5126470c14b7472ea2a51fc",
+        "culture_invariant_id": 1919,
+        "sort_number": 1919,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [],
+        "flavor_text": "Lass dich lieber nicht davon mitreißen!%–Dschafar",
+        "rules_text": "Dschafar schickt alle gegnerischen erschöpften Charaktere auf die zugehörigen Hände zurück.",
+        "card_identifier": "24/35 DE Q2",
+        "image_urls": [
+          {
+            "height": 2048,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/1468x2048/24_f4c924f174a73600a349416a73a32336cd8bfcf0.jpg"
+          },
+          {
+            "height": 512,
+            "url": "https://api.lorcana.ravensburger.com/images/de/quest2/cards/367x512/24_7ab48cdadf774f111d77e1e55a21d7ff18d27702.jpg"
+          }
+        ],
+        "special_rarity_id": 5,
+        "foil_type": "None",
+        "card_sets": [
+          10
+        ],
+        "magic_ink_colors": [],
+        "searchable_keywords": [
+          "Lorcana"
         ]
       }
     ]
@@ -82285,17 +84172,6 @@
     }
   ],
   "news": [
-    {
-      "title": "Karten-Vorschau",
-      "subtitle": "",
-      "target_type": "SearchResults",
-      "target_object": {
-        "expansions": [
-          "Domäne von Dschafar"
-        ]
-      },
-      "image_url": "https://api.lorcana.ravensburger.com/images/de/news/934385f53d1bd0c1b8493e44d0dfd4c8e88a04bb.jpg"
-    },
     {
       "title": "Anna Stosik",
       "subtitle": "Verzauberte Karten",

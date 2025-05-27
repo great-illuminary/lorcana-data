@@ -11,7 +11,9 @@ import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.decodeFromJsonElement
 import kotlinx.serialization.json.jsonArray
+import kotlinx.serialization.json.jsonPrimitive
 
 object LoadLorcanito {
     private lateinit var internalCards: List<LorcanitoCard>
@@ -33,9 +35,6 @@ object LoadLorcanito {
         val left = right.split("\\n\"])</script>").first()
             .replace("\\\\\\\"", "``")
             .replace("\\", "")
-            .replace("\"\$5:props:children:props:children:1:props:loading:props:cards:1290\",", "")
-            .replace("\"\$5:props:children:props:children:1:props:loading:props:cards:1392\",", "")
-            .replace("\"\$5:props:children:props:children:1:props:loading:props:cards:1405\",", "")
 
         it.parseToJsonElement(left)
     }
@@ -53,7 +52,22 @@ object LoadLorcanito {
         println(temp.absolutePath)
 
         val result = json.encodeToString(actualCards)
-        val finalCards: List<LorcanitoCard> = json.decodeFromString(result)
+
+        val mapped = json.parseToJsonElement(result)
+        val finalCards = mutableListOf<LorcanitoCard>()
+        mapped.jsonArray.forEach { card ->
+            if (card is JsonObject) {
+                finalCards.add(json.decodeFromJsonElement(card))
+            } else {
+                // something like $5:props:children:props:children:1:props:loading:props:cards:228
+                val id = card.jsonPrimitive.content.split(":").last().toInt()
+                val actualCard = finalCards[id]
+                println(actualCard)
+                finalCards.add(actualCard)
+            }
+        }
+
+        // val finalCards: List<LorcanitoCard> = json.decodeFromString(result)
 
         finalCards.forEach { cardMap["${it.set}_${it.number}"] = it }
 
@@ -70,7 +84,7 @@ object LoadLorcanito {
         val cleaned =
             link.replace("\$5:props:children:props:children:1:props:loading:props:cards:", "")
         val split = cleaned.split(":")
-        println(split)
+        // println(split)
         val cardId = split[0].toInt()
         // val elementKey = split[1] - unused here, always abilities
         val subItem = split[2].toInt()

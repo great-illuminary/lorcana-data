@@ -41,20 +41,39 @@ data class LorcanitoCard(
     fun actualAbilities(): List<LorcanitoAbility> {
         return abilities.mapNotNull {
             if (it is JsonObject) {
-                println("managing ${JsonDecode.string(it)}")
                 if (it.keys.size == 1 && it.containsKey("name")) {
                     null
                 } else {
                     JsonDecode.decode(it)
                 }
             } else if (it is JsonPrimitive) {
-                println("actualAbility is string -> ${it.content}")
                 val obtained = LoadLorcanito.unmapLink(it.content)
                     ?: return@mapNotNull null
 
-                val json =
+                var json =
                     LoadLorcanito.card(obtained.first)?.abilities?.getOrNull(obtained.second)
-                json?.let { res -> JsonDecode.decode(res) }
+
+                obtained.third?.let {
+                    json = (json as JsonObject)[obtained.third]
+                }
+
+                //if(name == "Ariel" && title == "On Human Legs") {
+                //    println(it.content)
+                //    println("for ariel -> ${LoadLorcanito.card(obtained.first)?.abilities}")
+                //    println("found ability is $json")
+                //    throw IllegalStateException("checking")
+                //}
+
+                if(json is JsonPrimitive) {
+
+                    val abilityUnmpapped = LoadLorcanito.unmapLink((json as JsonPrimitive).content) ?: return@mapNotNull null
+
+                    val newJson = LoadLorcanito.card(abilityUnmpapped.first)?.abilities?.getOrNull(abilityUnmpapped.second)
+
+                    newJson?.let { res -> JsonDecode.decode(res) }
+                } else {
+                    json?.let { res -> JsonDecode.decode(res) }
+                }
             } else {
                 null
             }
@@ -62,7 +81,6 @@ data class LorcanitoCard(
     }
 
     init {
-        println("decoding abilities for $abilities")
         println("-> ${actualAbilities()}")
     }
 }
