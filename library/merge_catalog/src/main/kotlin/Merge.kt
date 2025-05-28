@@ -227,6 +227,7 @@ private suspend fun load() {
                         ?: return@map variant // in the case of an unreleased card
 
                     variant.copy(
+                        illustrator = subRavensBurgerCard.author,
                         ravensburger = variant.ravensburger.copy(
                             cultureInvariantId = subRavensBurgerCard.cultureInvariantId
                                 ?: variant.ravensburger.cultureInvariantId,
