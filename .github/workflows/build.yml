@@ -16,6 +16,11 @@ jobs:
           distribution: 'adopt'
           java-version: '17'
 
+      - name: Prepare Secrets
+        run: |
+          mkdir -p ~/.gradle/
+          echo "LORCANA=${{ secrets.DISCORD_WEBHOOK }}" >> ~/.gradle/gradle.properties
+
       - name: Build
         id: build
         run: |
@@ -42,6 +47,11 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '17'
+
+      - name: Prepare Secrets
+        run: |
+          mkdir -p ~/.gradle/
+          echo "LORCANA=${{ secrets.DISCORD_WEBHOOK }}" >> ~/.gradle/gradle.properties
 
       - name: Build
         id: build
