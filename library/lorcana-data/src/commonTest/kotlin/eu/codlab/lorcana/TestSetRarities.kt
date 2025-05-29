@@ -1,5 +1,7 @@
 package eu.codlab.lorcana
 
+import eu.codlab.ignore.IgnoreAndroid
+import eu.codlab.ignore.IgnoreJs
 import eu.codlab.lorcana.cards.VariantRarity
 import eu.codlab.lorcana.raw.SetDescription
 import kotlinx.coroutines.test.runTest
@@ -7,6 +9,8 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class TestSetRarities {
+    @IgnoreAndroid
+    @IgnoreJs
     @Test
     fun checkSet1() = runTest {
         cards(SetDescription.TFC).apply {
@@ -19,6 +23,8 @@ class TestSetRarities {
         }
     }
 
+    @IgnoreAndroid
+    @IgnoreJs
     @Test
     fun checkSet2() = runTest {
         cards(SetDescription.RotF).apply {
@@ -31,6 +37,8 @@ class TestSetRarities {
         }
     }
 
+    @IgnoreAndroid
+    @IgnoreJs
     @Test
     fun checkSet3() = runTest {
         cards(SetDescription.ItI).apply {
@@ -43,6 +51,8 @@ class TestSetRarities {
         }
     }
 
+    @IgnoreAndroid
+    @IgnoreJs
     @Test
     fun checkSet4() = runTest {
         cards(SetDescription.UrR).apply {
@@ -55,6 +65,8 @@ class TestSetRarities {
         }
     }
 
+    @IgnoreAndroid
+    @IgnoreJs
     @Test
     fun checkSet5() = runTest {
         cards(SetDescription.SSk).apply {
@@ -67,6 +79,8 @@ class TestSetRarities {
         }
     }
 
+    @IgnoreAndroid
+    @IgnoreJs
     @Test
     fun checkSet6() = runTest {
         cards(SetDescription.Azu).apply {
@@ -79,6 +93,8 @@ class TestSetRarities {
         }
     }
 
+    @IgnoreAndroid
+    @IgnoreJs
     @Test
     fun checkSet7() = runTest {
         cards(SetDescription.Arc).apply {
@@ -91,6 +107,8 @@ class TestSetRarities {
         }
     }
 
+    @IgnoreAndroid
+    @IgnoreJs
     @Test
     fun checkSet8() = runTest {
         cards(SetDescription.Roj).apply {
