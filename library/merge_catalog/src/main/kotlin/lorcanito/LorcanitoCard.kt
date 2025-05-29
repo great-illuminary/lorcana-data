@@ -57,18 +57,13 @@ data class LorcanitoCard(
                     json = (json as JsonObject)[obtained.third]
                 }
 
-                //if(name == "Ariel" && title == "On Human Legs") {
-                //    println(it.content)
-                //    println("for ariel -> ${LoadLorcanito.card(obtained.first)?.abilities}")
-                //    println("found ability is $json")
-                //    throw IllegalStateException("checking")
-                //}
+                if (json is JsonPrimitive) {
+                    val abilityUnmpapped = LoadLorcanito.unmapLink((json as JsonPrimitive).content)
+                        ?: return@mapNotNull null
 
-                if(json is JsonPrimitive) {
-
-                    val abilityUnmpapped = LoadLorcanito.unmapLink((json as JsonPrimitive).content) ?: return@mapNotNull null
-
-                    val newJson = LoadLorcanito.card(abilityUnmpapped.first)?.abilities?.getOrNull(abilityUnmpapped.second)
+                    val newJson = LoadLorcanito.card(abilityUnmpapped.first)?.abilities?.getOrNull(
+                        abilityUnmpapped.second
+                    )
 
                     newJson?.let { res -> JsonDecode.decode(res) }
                 } else {
