@@ -16,8 +16,8 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Card(
-    val cost: Int = 0,
-    val inkwell: Boolean = false,
+    val cost: Int,
+    val inkwell: Boolean,
     val attack: Int? = null,
     val defence: Int? = null,
     @Deprecated("Use colors")

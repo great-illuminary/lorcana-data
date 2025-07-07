@@ -12,8 +12,8 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class VirtualCard(
-    val cost: Int = 0,
-    val inkwell: Boolean = false,
+    val cost: Int,
+    val inkwell: Boolean,
     @SerialName("move_cost")
     val moveCost: Int? = null,
     val attack: Int? = null,
