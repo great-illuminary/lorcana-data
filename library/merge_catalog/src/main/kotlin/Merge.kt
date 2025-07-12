@@ -1,5 +1,6 @@
 import eu.codlab.files.VirtualFile
 import eu.codlab.http.createClient
+import eu.codlab.lorcana.Lorcana
 import eu.codlab.lorcana.abilities.Ability
 import eu.codlab.lorcana.abilities.AbilityType
 import eu.codlab.lorcana.cards.CardTranslation
@@ -9,6 +10,7 @@ import eu.codlab.lorcana.cards.VariantRarity
 import eu.codlab.lorcana.raw.Ravensburger
 import eu.codlab.lorcana.raw.RawVirtualCard
 import eu.codlab.lorcana.raw.SetDescription
+import eu.codlab.lorcana.raw.VariantClassification
 import eu.codlab.lorcana.raw.VariantString
 import eu.codlab.tcgmapper.TranslationHolder
 import io.ktor.client.request.get
@@ -24,6 +26,7 @@ import net.mamoe.yamlkt.Yaml
 import net.mamoe.yamlkt.YamlBuilder
 import official.LoadOfficialData
 import java.io.File
+import kotlin.system.exitProcess
 
 val serializer = ListSerializer(RawVirtualCard.serializer())
 val yml = Yaml {
@@ -281,7 +284,36 @@ private suspend fun load() {
             output
         }
     }
+
+    // now we'll check if we have mapped all cards...
+    val lorcana = Lorcana()
+    val loaded = lorcana.loadFromResources()
+
+    listOf("en", "fr", "it", "de", "zh", "ja").map { lang ->
+        val file = VirtualFile(rootProject, "data_existing/catalog/$lang/full.json")
+        val content = file.readString()
+        val json = json.decodeFromString<RBMainJson>(content)
+
+        json.cards.cards.forEach { rbCard ->
+            val foundCard = loaded.cards.find {
+                null != it.variants.find { variant -> variant.match(rbCard) }
+            }
+
+            if (null != foundCard) return@forEach // skip the next process
+
+            println("card ${rbCard.cardIdentifier} wasn't found")
+        }
+    }
 }
+
+fun VariantClassification.match(rbCard: RBCard) = listOf(
+    this.ravensburger.en,
+    this.ravensburger.ja,
+    this.ravensburger.zh,
+    this.ravensburger.it,
+    this.ravensburger.de,
+    this.ravensburger.fr
+).contains(rbCard.cardIdentifier)
 
 suspend fun write(root: VirtualFile, fileName: String, encode: () -> String) {
     val file = VirtualFile(root, fileName)
