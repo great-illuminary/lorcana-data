@@ -272,6 +272,15 @@
         ],
         "text": "Choose one:n- Return chosen character to their player's hand.n- Put a Pull the Lever! card from your discard pile on the bottom of your deck to put chosen character on the bottom of their owner's deck.",
         "type": "action",
+        "inkwell": true,
+        "colors": [
+            "emerald"
+        ],
+        "cost": 3,
+        "illustrator": "Cristian Romero",
+        "number": 116,
+        "set": "008",
+        "rarity": "rare",
         "abilities": [
             {
                 "type": "resolution",
@@ -299,14 +308,12 @@
                                         "type": "move",
                                         "to": "deck",
                                         "bottom": true,
+                                        "amount": 1,
+                                        "shouldRevealMoved": true,
                                         "target": {
                                             "type": "card",
                                             "value": 1,
                                             "filters": [
-                                                {
-                                                    "filter": "type",
-                                                    "value": "action"
-                                                },
                                                 {
                                                     "filter": "zone",
                                                     "value": "discard"
@@ -316,12 +323,8 @@
                                                     "value": "self"
                                                 },
                                                 {
-                                                    "filter": "attribute",
-                                                    "value": "name",
-                                                    "comparison": {
-                                                        "operator": "eq",
-                                                        "value": "Pull the Lever!"
-                                                    }
+                                                    "filter": "publicId",
+                                                    "value": "sp7"
                                                 }
                                             ]
                                         },
@@ -335,6 +338,7 @@
                                                         "type": "move",
                                                         "to": "deck",
                                                         "bottom": true,
+                                                        "shouldRevealMoved": true,
                                                         "target": "$5:props:children:props:children:1:props:loading:props:cards:2:abilities:0:effects:0:target"
                                                     }
                                                 ]
@@ -347,16 +351,7 @@
                     }
                 ]
             }
-        ],
-        "inkwell": true,
-        "colors": [
-            "emerald"
-        ],
-        "cost": 3,
-        "illustrator": "Cristian Romero",
-        "number": 116,
-        "set": "008",
-        "rarity": "rare"
+        ]
     },
     {
         "id": "wwd",
@@ -1219,15 +1214,37 @@
                                     {
                                         "filter": "source",
                                         "value": "trigger"
+                                    },
+                                    {
+                                        "filter": "status",
+                                        "value": "ready"
                                     }
                                 ]
-                            }
-                        },
-                        {
-                            "type": "lore",
-                            "modifier": "add",
-                            "amount": 2,
-                            "target": "$5:props:children:props:children:1:props:loading:props:cards:1:abilities:0:effects:0:target"
+                            },
+                            "afterEffect": [
+                                {
+                                    "type": "create-layer-based-on-target",
+                                    "target": {
+                                        "type": "card",
+                                        "value": "all",
+                                        "filters": [
+                                            {
+                                                "filter": "source",
+                                                "value": "target"
+                                            }
+                                        ]
+                                    },
+                                    "filters": "$5:props:children:props:children:1:props:loading:props:cards:19:abilities:0:layer:effects:0:afterEffect:0:target:filters",
+                                    "effects": [
+                                        {
+                                            "type": "lore",
+                                            "modifier": "add",
+                                            "amount": 2,
+                                            "target": "$5:props:children:props:children:1:props:loading:props:cards:1:abilities:0:effects:0:target"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ],
                     "costs": "$undefined"
@@ -9035,6 +9052,37 @@
                 "name": "GOLLY!",
                 "text": "When you play this character, if an opponent has more cards in their hand than you, you may draw a card.",
                 "optional": true,
+                "resolutionConditions": [
+                    {
+                        "type": "filter",
+                        "filters": [
+                            {
+                                "filter": "owner",
+                                "value": "opponent"
+                            },
+                            {
+                                "filter": "zone",
+                                "value": "hand"
+                            }
+                        ],
+                        "comparison": {
+                            "operator": "gt",
+                            "value": {
+                                "dynamic": true,
+                                "filters": [
+                                    {
+                                        "filter": "owner",
+                                        "value": "self"
+                                    },
+                                    {
+                                        "filter": "zone",
+                                        "value": "hand"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ],
                 "effects": [
                     "$5:props:children:props:children:1:props:loading:props:cards:16:abilities:1:layer:effects:0"
                 ]
@@ -17451,7 +17499,8 @@
                                 "value": "self"
                             }
                         }
-                    ]
+                    ],
+                    "costs": "$undefined"
                 }
             }
         ],
@@ -27738,15 +27787,33 @@
                     "effects": [
                         {
                             "type": "create-layer-for-player",
-                            "target": "$5:props:children:props:children:1:props:loading:props:cards:100:abilities:0:effects:0:target",
+                            "target": {
+                                "type": "player",
+                                "value": "opponent"
+                            },
                             "layer": {
-                                "type": "resolution",
-                                "name": "Twists and Turns",
-                                "text": "Choose and discard a card.",
                                 "responder": "opponent",
                                 "effects": [
-                                    "$5:props:children:props:children:1:props:loading:props:cards:20:abilities:0:effects:0"
-                                ]
+                                    {
+                                        "type": "discard",
+                                        "amount": 1,
+                                        "target": {
+                                            "type": "card",
+                                            "value": 1,
+                                            "filters": [
+                                                {
+                                                    "filter": "zone",
+                                                    "value": "hand"
+                                                },
+                                                {
+                                                    "filter": "owner",
+                                                    "value": "self"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "type": "resolution"
                             }
                         }
                     ],
@@ -39689,7 +39756,8 @@
                             "amount": 1,
                             "target": "$5:props:children:props:children:1:props:loading:props:cards:49:abilities:0:effects:1:target"
                         }
-                    ]
+                    ],
+                    "costs": "$undefined"
                 }
             }
         ],
@@ -60357,7 +60425,8 @@
                     "text": "During your turn, whenever one of your other characters banishes another character in a challenge, you may ready this character.",
                     "effects": [
                         "$5:props:children:props:children:1:props:loading:props:cards:728:abilities:1:layer:effects:0"
-                    ]
+                    ],
+                    "costs": "$undefined"
                 }
             }
         ],
@@ -61750,6 +61819,51 @@
                     "text": "During your turn, whenever one of your characters banishes another character in a challenge, you may pay 1 {I} to draw a card.",
                     "effects": [
                         "$5:props:children:props:children:1:props:loading:props:cards:16:abilities:1:layer:effects:0"
+                    ],
+                    "costs": [
+                        {
+                            "type": "ink",
+                            "amount": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "static",
+                "ability": "gain-ability",
+                "name": "Dexterous Lunge",
+                "text": "Your characters named Jetsam gain **Rush.**",
+                "gainedAbility": {
+                    "type": "static",
+                    "ability": "challenger",
+                    "value": 1,
+                    "text": "**Challenger** +1 (_When challenging, this character get +13 {S}._)"
+                },
+                "target": {
+                    "type": "card",
+                    "value": "all",
+                    "excludeSelf": true,
+                    "filters": [
+                        {
+                            "filter": "zone",
+                            "value": "play"
+                        },
+                        {
+                            "filter": "type",
+                            "value": "character"
+                        },
+                        {
+                            "filter": "owner",
+                            "value": "self"
+                        },
+                        {
+                            "filter": "attribute",
+                            "value": "name",
+                            "comparison": {
+                                "operator": "eq",
+                                "value": "Captain Hook"
+                            }
+                        }
                     ]
                 }
             }
@@ -67988,10 +68102,6 @@
                                     "value": "play"
                                 },
                                 {
-                                    "filter": "owner",
-                                    "value": "self"
-                                },
-                                {
                                     "filter": "attribute",
                                     "value": "cost",
                                     "comparison": {
@@ -72169,7 +72279,7 @@
         ],
         "cost": 5,
         "strength": 3,
-        "willpower": 5,
+        "willpower": 6,
         "lore": 2,
         "illustrator": "Cristian Romero",
         "number": 187,
@@ -74524,6 +74634,41 @@
                 "name": "Shift 4",
                 "text": "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named raya.)_",
                 "additionalNames": "$undefined"
+            },
+            {
+                "type": "static-triggered",
+                "name": "CHAMPION OF KUMANDRA",
+                "text": "Whenever this character challenges a damaged character, she takes no damage from the challenge.",
+                "layer": {
+                    "type": "resolution",
+                    "optional": "$undefined",
+                    "responder": "$undefined",
+                    "name": "CHAMPION OF KUMANDRA",
+                    "text": "Whenever this character challenges a damaged character, she takes no damage from the challenge.",
+                    "effects": [
+                        "$5:props:children:props:children:1:props:loading:props:cards:400:abilities:0:gainedAbility:effects:0"
+                    ]
+                },
+                "trigger": {
+                    "on": "challenge",
+                    "as": "attacker",
+                    "filters": [
+                        {
+                            "filter": "source",
+                            "value": "self"
+                        }
+                    ],
+                    "secondaryFilters": [
+                        {
+                            "filter": "type",
+                            "value": "character"
+                        },
+                        {
+                            "filter": "status",
+                            "value": "damaged"
+                        }
+                    ]
+                }
             }
         ],
         "inkwell": true,
@@ -77681,17 +77826,8 @@
                         "afterEffect": [
                             {
                                 "type": "create-layer-based-on-target",
-                                "target": {
-                                    "type": "card",
-                                    "value": "all",
-                                    "filters": [
-                                        {
-                                            "filter": "source",
-                                            "value": "target"
-                                        }
-                                    ]
-                                },
-                                "filters": "$5:props:children:props:children:1:props:loading:props:cards:1363:abilities:1:effects:0:afterEffect:0:target:filters",
+                                "target": "$5:props:children:props:children:1:props:loading:props:cards:19:abilities:0:layer:effects:0:afterEffect:0:target",
+                                "filters": "$5:props:children:props:children:1:props:loading:props:cards:19:abilities:0:layer:effects:0:afterEffect:0:target:filters",
                                 "effects": [
                                     {
                                         "type": "ability",
@@ -77734,14 +77870,14 @@
                                                 "costs": "$undefined"
                                             }
                                         },
-                                        "target": "$5:props:children:props:children:1:props:loading:props:cards:1363:abilities:1:effects:0:afterEffect:0:target"
+                                        "target": "$5:props:children:props:children:1:props:loading:props:cards:19:abilities:0:layer:effects:0:afterEffect:0:target"
                                     },
                                     {
                                         "type": "ability",
                                         "ability": "rush",
                                         "modifier": "add",
                                         "duration": "turn",
-                                        "target": "$5:props:children:props:children:1:props:loading:props:cards:1363:abilities:1:effects:0:afterEffect:0:target"
+                                        "target": "$5:props:children:props:children:1:props:loading:props:cards:19:abilities:0:layer:effects:0:afterEffect:0:target"
                                     }
                                 ]
                             }
@@ -81035,6 +81171,52 @@
                 "text": "Play a character with cost 4 or less for free. They gain **Rush**. At the end of the turn, banish them.",
                 "effects": [
                     {
+                        "type": "play",
+                        "forFree": true,
+                        "target": {
+                            "type": "card",
+                            "value": 1,
+                            "filters": [
+                                {
+                                    "filter": "owner",
+                                    "value": "self"
+                                },
+                                {
+                                    "filter": "zone",
+                                    "value": "hand"
+                                },
+                                {
+                                    "filter": "type",
+                                    "value": "character"
+                                },
+                                {
+                                    "filter": "attribute",
+                                    "value": "cost",
+                                    "comparison": {
+                                        "operator": "lte",
+                                        "value": 4
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "ability",
+                        "ability": "rush",
+                        "modifier": "add",
+                        "duration": "turn",
+                        "target": {
+                            "type": "card",
+                            "value": "all",
+                            "filters": [
+                                {
+                                    "filter": "source",
+                                    "value": "target"
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "type": "ability",
                         "ability": "custom",
                         "modifier": "add",
@@ -81082,52 +81264,6 @@
                                 {
                                     "filter": "source",
                                     "value": "target"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "type": "ability",
-                        "ability": "rush",
-                        "modifier": "add",
-                        "duration": "turn",
-                        "target": {
-                            "type": "card",
-                            "value": "all",
-                            "filters": [
-                                {
-                                    "filter": "source",
-                                    "value": "target"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "type": "play",
-                        "forFree": true,
-                        "target": {
-                            "type": "card",
-                            "value": 1,
-                            "filters": [
-                                {
-                                    "filter": "owner",
-                                    "value": "self"
-                                },
-                                {
-                                    "filter": "zone",
-                                    "value": "hand"
-                                },
-                                {
-                                    "filter": "type",
-                                    "value": "character"
-                                },
-                                {
-                                    "filter": "attribute",
-                                    "value": "cost",
-                                    "comparison": {
-                                        "operator": "lte",
-                                        "value": 4
-                                    }
                                 }
                             ]
                         }
