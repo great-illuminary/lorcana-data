@@ -42,7 +42,7 @@ class TestSetRarities {
     @Test
     fun checkSet3() = runTest {
         cards(SetDescription.ItI).apply {
-            assertRarity(76, VariantRarity.Common)
+            assertRarity(77, VariantRarity.Common)
             assertRarity(54, VariantRarity.Uncommon)
             assertRarity(48, VariantRarity.Rare)
             assertRarity(19, VariantRarity.SuperRare)
@@ -101,7 +101,7 @@ class TestSetRarities {
             assertRarity(72, VariantRarity.Common)
             assertRarity(54, VariantRarity.Uncommon)
             assertRarity(48, VariantRarity.Rare)
-            assertRarity(18, VariantRarity.SuperRare)
+            assertRarity(20, VariantRarity.SuperRare)
             assertRarity(12, VariantRarity.Legendary)
             assertRarity(18, VariantRarity.Enchanted)
         }

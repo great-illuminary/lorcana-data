@@ -61,7 +61,7 @@ class TestLoadingSet {
             SetDescription.P1 to 43,
             SetDescription.TFC to 216,
             SetDescription.RotF to 216,
-            SetDescription.ItI to 227,
+            SetDescription.ItI to 228,
             SetDescription.UrR to 225,
             SetDescription.SSk to 223
         ).forEach { (set, count) ->
