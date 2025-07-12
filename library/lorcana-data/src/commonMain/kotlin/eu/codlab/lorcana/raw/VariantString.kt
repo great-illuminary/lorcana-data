@@ -11,6 +11,7 @@ import kotlinx.serialization.Serializable
 data class VariantString(
     val set: SetDescription,
     val id: Int,
+    val suffix: String? = null,
     val dreamborn: String,
     val ravensburger: Ravensburger,
     val rarity: VariantRarity,
@@ -22,6 +23,7 @@ data class VariantString(
     ) = VariantClassification(
         set = set,
         id = id,
+        suffix = suffix,
         rarity = rarity,
         illustrator = illustrator,
         dreamborn = dreamborn,

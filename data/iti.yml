@@ -207,6 +207,7 @@
 - variants: 
     - set: iti
       id: 4
+      suffix: "a"
       dreamborn: "003-004a"
       ravensburger: 
         en: "4a/204 EN 3"
@@ -221,6 +222,7 @@
       illustrator: "Kapik"
     - set: iti
       id: 4
+      suffix: "b"
       dreamborn: "003-004b"
       ravensburger: 
         en: "4b/204 EN 3"
@@ -235,6 +237,7 @@
       illustrator: "Kapik"
     - set: iti
       id: 4
+      suffix: "c"
       dreamborn: "003-004c"
       ravensburger: 
         en: "4c/204 EN 3"
@@ -249,6 +252,7 @@
       illustrator: "Kapik"
     - set: iti
       id: 4
+      suffix: "d"
       dreamborn: "003-004d"
       ravensburger: 
         en: "4d/204 EN 3"
@@ -263,6 +267,7 @@
       illustrator: "Kapik"
     - set: iti
       id: 4
+      suffix: "e"
       dreamborn: "003-004e"
       ravensburger: 
         en: "4e/204 EN 3"
@@ -308,6 +313,10 @@
       name: "斑点狗"
       title: "摇尾小狗"
       flavour: "先俘获你的心，再俘获你的椅子。"
+    ja: 
+      name: "ダルメシアンの子犬"
+      title: "しっぽフリフリちゃん"
+      flavour: "この子たちはまずあなたのハートを奪う。\nそしてあなたのシートを奪う。"
   franchise_id: "unknown"
 - variants: 
     - set: iti

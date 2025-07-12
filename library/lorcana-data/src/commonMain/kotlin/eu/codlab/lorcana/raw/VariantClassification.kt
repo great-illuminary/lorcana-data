@@ -9,6 +9,7 @@ import kotlinx.serialization.Serializable
 data class VariantClassification(
     val set: SetDescription,
     val id: Int,
+    val suffix: String? = null,
     val dreamborn: String,
     val ravensburger: Ravensburger,
     val rarity: VariantRarity,
