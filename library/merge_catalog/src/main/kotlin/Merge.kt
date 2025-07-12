@@ -47,7 +47,11 @@ val json = Json {
  * or if those exists, they can be described properly and not in code
  */
 fun main() {
-    runBlocking { load() }
+    runBlocking {
+        load()
+
+        exitProcess(0)
+    }
 }
 
 @Suppress(
