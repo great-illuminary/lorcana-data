@@ -6,9 +6,9 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class Ravensburger(
     val en: String,
-    val fr: String,
-    val de: String,
-    val it: String,
+    val fr: String = "",
+    val de: String = "",
+    val it: String = "",
     val zh: String? = "",
     val ja: String? = "",
     @SerialName("culture_invariant_id")

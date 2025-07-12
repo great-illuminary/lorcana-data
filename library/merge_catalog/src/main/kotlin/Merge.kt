@@ -237,7 +237,9 @@ private suspend fun load() {
                                 // for now, since the sets are not matching with worldwide...
                                 if (null != listOf(
                                         " EN 1",
-                                        " EN 2"
+                                        " EN 2",
+                                        " EN 3",
+                                        " EN 4"
                                     ).find { suffix -> variant.ravensburger.en.contains(suffix) }
                                 ) {
                                     variant.ravensburger.en.replace(" EN ", " ZH ")
