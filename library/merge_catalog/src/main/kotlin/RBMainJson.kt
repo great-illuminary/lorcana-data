@@ -84,7 +84,7 @@ data class RBCard(
             "SUPER" -> VariantRarity.SuperRare
             "LEGENDARY" -> VariantRarity.Legendary
             "ENCHANTED" -> VariantRarity.Enchanted
-            "SPECIAL" -> null
+            "SPECIAL" -> VariantRarity.Special
             else -> throw IllegalStateException("invalid rarity $rarity")
         }
 

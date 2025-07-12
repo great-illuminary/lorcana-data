@@ -21,6 +21,9 @@ enum class VariantRarity {
     @SerialName("enchanted")
     Enchanted,
 
+    @SerialName("special")
+    Special,
+
     @SerialName("gamecon23")
     Gamecon23,
 
