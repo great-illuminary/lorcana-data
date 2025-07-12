@@ -1,5 +1,14 @@
 const CryptoJS = require("crypto-js");
 const fs = require("fs");
+const Undici = require("undici");
+
+const agent = new Undici.Agent({
+  connect: {
+    rejectUnauthorized: false
+  }
+})
+
+Undici.setGlobalDispatcher(agent)
 
 // define the main endpoint
 const baseUrl = "https://card.yantootech.com/";
@@ -102,26 +111,60 @@ if (!fs.existsSync(folder)) {
   fs.mkdirSync(folder);
 }
 
-const fd = fs.openSync(folder + "/full.json", "w");
-const fd_main = fs.openSync(folder + "/raw.json", "w");
-
 function last(string, split) {
   const _split = string.split(split)
   return _split[_split.length - 1];
 }
 
 retrievePage().then(array => {
-  console.log(array[2]);
-
   const cards = array.map(card => {
-    // TODO when the cards will have their own multiple sets... make sure to edit as well
     const card_sets = Array.isArray(card.card_sets) ? card.card_sets : [ parseInt(card.card_sets) ]
-    const is_promo = card.Collector_Number.indexOf("P1/") >= 0;
-    const set_number = is_promo ? "P1" : "204";
+
+    const specialMap = {
+      "p1/1": "1/C1 ZH 1",
+      "p1/2": "2/C1 ZH 1",
+      "p1/3": "3/C1 ZH 2",
+      "p1/4": "4/C1 ZH 1",
+      "P1/8": "8/P1 ZH 1",
+      "P1/8": "8/P1 ZH 1",
+      "P1/9": "9/P1 ZH 1",
+      "P1/10": "10/P1 ZH 1",
+      "P1/25": "25/P1 ZH 1",
+      "P1/30": "30/P1 ZH 1",
+      "p2/14": "14/P1 ZH 2",
+      "p2/15": "15/P1 ZH 2",
+      "p2/16": "16/P1 ZH 2",
+      "p2/17": "17/P1 ZH 2",
+      "p2/31": "31/P1 ZH 2",
+      "p2/32": "32/P1 ZH 2",
+      "p3/26": "26/P1 ZH 3",
+      "p3/27": "27/P1 ZH 3",
+      "p3/28": "28/P1 ZH 3",
+      "p3/29": "29/P1 ZH 3",
+      "p3/39": "39/P1 ZH 3",
+      "p4_34": "34/P1 ZH 4",
+      "p4_35": "35/P1 ZH 4",
+      "p4_36": "36/P1 ZH 4",
+      "p4_37": "37/P1 ZH 4",
+      "p4_38": "38/P1 ZH 4",
+      "p4_40": "40/P1 ZH 4",
+      "p3_43": "43/P2 ZH 3",
+    }
+
+    const hasOverride = specialMap[card.Collector_Number];
+
+    if (!hasOverride && card.Collector_Number.indexOf("/") >= 0) {
+      console.log(card)
+      throw "Invalid Collector Number, couldn't process the card"
+    }
+
+    const set_number = "204";
     const collector_number = last(card.Collector_Number, "/");
 
     const card_identifier = !!card.card_identifier ? card.card_identifier
-      : `${collector_number}/${set_number} ZH ${card.card_sets}`
+      : (
+        !!hasOverride ? hasOverride : `${collector_number}/${set_number} ZH ${card.card_sets}`
+      )
 
     return {
       "name": card.name,
@@ -153,8 +196,11 @@ retrievePage().then(array => {
       "magic_ink_colors": Array.isArray(card.magic_ink_colors) ? card.magic_ink_colors : [card.magic_ink_colors]
      }
   })
+
+  const fd_main = fs.openSync(folder + "/raw.json", "w");
   fs.writeSync(fd_main, JSON.stringify(array, null, 2))
 
+  const fd = fs.openSync(folder + "/full.json", "w");
   fs.writeSync(fd, JSON.stringify({
     cards: {
       "all": cards
