@@ -41,4 +41,13 @@ enum class SetDescription {
 
     @SerialName("roj")
     Roj,
+
+    @SerialName("fab")
+    Fab,
+
+    @SerialName("p3")
+    P3,
+
+    @SerialName("whi")
+    Whi,
 }

@@ -1,0 +1,552 @@
+- variants: 
+    - set: fab
+      id: 5
+      dreamborn: "009-005"
+      ravensburger: 
+        en: "5/204 EN 9"
+        fr: "5/204 FR 9"
+        de: "5/204 DE 9"
+        it: "5/204 IT 9"
+        zh: "5/204 ZH 9"
+        ja: "5/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: super_rare
+    - set: fab
+      id: 241
+      dreamborn: "009-241"
+      ravensburger:
+        en: "241/204 EN 9"
+        fr: "241/204 FR 9"
+        de: "241/204 DE 9"
+        it: "241/204 IT 9"
+        zh: "241/204 ZH 9"
+        ja: "241/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: iconic
+      illustrator: "Alice Pisoni"
+  lore: 2
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 4
+  colors: 
+    - amber
+  type: glimmer
+  classifications: 
+    - "dreamborn"
+    - "hero"
+    - "princess"
+  illustrator: "Ellie Horie"
+  languages: 
+    en: 
+      name: "Minnie Mouse"
+      title: "Sweetheart Princess"
+      flavour: ""
+  abilities:
+    - type: static
+      title:
+        en: "royal favor"
+      text:
+        en: "**Royal Favor** Your characters named Mickey Mouse gain **Support**. _(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
+    - type: static
+      title: 
+        en: "Bye bye, now"
+      text: 
+        en: "Whenever this character quests, you may banish chosen exerted character with 5 {S} or more."
+  franchise_id: "unknown"
+- variants:
+    - set: p3
+      id: 3
+      dreamborn: "009-P3-003"
+      ravensburger:
+        en: "3/P3 EN 9"
+        fr: "3/P3 FR 9"
+        de: "3/P3 DE 9"
+        it: "3/P3 IT 9"
+        zh: "3/P3 ZH 9"
+        ja: "3/P3 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: special
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  colors:
+    - amber
+  type: glimmer
+  classifications:
+    - "storyborn"
+    - "villain"
+    - "queen"
+    - "sorcerer"
+  illustrator: "Eri Welli"
+  languages:
+    en:
+      name: "The Queen"
+      title: "Conceited Ruler"
+      flavour: ""
+  abilities:
+    - type: static
+      title:
+        en: "support"
+      text:
+        en: "**Support** _Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
+    - type: static
+      title:
+        en: "ROYAL SUMMONS"
+      text:
+        en: "At the start of your turn, you may choose and discard a Princess or Queen character card to return a character card from your discard to your hand."
+  franchise_id: "unknown"
+- variants:
+    - set: fab
+      id: 228
+      dreamborn: "009-228"
+      ravensburger:
+        en: "228/204 EN 9"
+        fr: "228/204 FR 9"
+        de: "228/204 DE 9"
+        it: "228/204 IT 9"
+        zh: "228/204 ZH 9"
+        ja: "228/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: enchanted
+      illustrator: "Anna Stosik"
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  colors:
+    - amethyst
+  type: glimmer
+  classifications:
+    - "storyborn"
+    - "hero"
+  illustrator: ""
+  languages:
+    en:
+      name: "Dumbo"
+      title: "Ninth Wonder of the Universe"
+      flavour: ""
+  abilities:
+    - type: static
+      title:
+        en: "evasive"
+      text:
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title:
+        en: "BREAKING RECORDS"
+      text:
+        en: "{E}, 1 {I} - Draw a card and gain 1 {L}."
+    - type: static
+      title:
+        en: "MAKING HISTORY"
+      text:
+        en: "Your other characters with **Evasive** ”gain {E}, 1 {I} - Draw a card and gain 1 {L}.”"
+  franchise_id: "unknown"
+- variants:
+    - set: fab
+      id: 46
+      dreamborn: "009-046"
+      ravensburger:
+        en: "46/204 EN 9"
+        fr: "46/204 FR 9"
+        de: "46/204 DE 9"
+        it: "46/204 IT 9"
+        zh: "46/204 ZH 9"
+        ja: "46/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: uncommon
+    - set: p3
+      id: 1
+      dreamborn: "009-P3-001"
+      ravensburger:
+        en: "1/P3 EN 9"
+        fr: "1/P3 FR 9"
+        de: "1/P3 DE 9"
+        it: "1/P3 IT 9"
+        zh: "1/P3 ZH 9"
+        ja: "1/P3 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: special
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 2
+  colors:
+    - amethyst
+  type: glimmer
+  classifications:
+    - "storyborn"
+    - "hero"
+  illustrator: "Sandara Tang"
+  languages:
+    en:
+      name: "Dumbo"
+      title: "The Flying Elephant"
+      flavour: ""
+  abilities:
+    - type: static
+      title:
+        en: "evasive"
+      text:
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static
+      title:
+        en: "Aerial duo"
+      text:
+        en: "When you play this character, chosen character gains **Evasive** until the start of your next turn."
+  franchise_id: "unknown"
+- variants:
+    - set: fab
+      id: 47
+      dreamborn: "009-047"
+      ravensburger:
+        en: "47/204 EN 9"
+        fr: "47/204 FR 9"
+        de: "47/204 DE 9"
+        it: "47/204 IT 9"
+        zh: "47/204 ZH 9"
+        ja: "47/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: common
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 1
+  defence: 4
+  colors:
+    - amethyst
+  type: glimmer
+  classifications:
+    - "storyborn"
+    - "mentor"
+  illustrator: "Grace Tran"
+  languages:
+    en:
+      name: "Timothy Q. Mouse"
+      title: "Flight Instructor"
+      flavour: "Stick with me, kid, and we'll fly all the way to the top!"
+  abilities:
+    - type: static-triggered
+      title:
+        en: "Let's show'em, Dumbo!"
+      text:
+        en: "While you have a character with **Evasive** in play, this character gets +1 {L}."
+  franchise_id: "unknown"
+- variants:
+    - set: fab
+      id: 94
+      dreamborn: "009-094"
+      ravensburger:
+        en: "94/204 EN 9"
+        fr: "94/204 FR 9"
+        de: "94/204 DE 9"
+        it: "94/204 IT 9"
+        zh: "94/204 ZH 9"
+        ja: "94/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: uncommon
+    - set: fab
+      id: 213
+      dreamborn: "009-213"
+      ravensburger:
+        en: "213/204 EN 9"
+        fr: "213/204 FR 9"
+        de: "213/204 DE 9"
+        it: "213/204 IT 9"
+        zh: "213/204 ZH 9"
+        ja: "213/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: epic
+  cost: 3
+  inkwell: true
+  colors:
+    - emerald
+  type: action
+  classifications:
+    - "song"
+  illustrator: "Raquel Villanueva"
+  languages:
+    en:
+      name: "Stand Out"
+  abilities:
+    - type: resolution
+      title:
+        en: "Stand Out"
+      text:
+        en: "_(A character with cost 3 or more can Exert.png to sing this song for free.)\nChosen character gets +3 {S} and gains Evasive until the start of your next turn. _(Only characters with Evasive can challenge them.)_"
+  franchise_id: "unknown"
+- variants:
+    - set: fab
+      id: 110
+      dreamborn: "009-110"
+      ravensburger:
+        en: "110/204 EN 9"
+        fr: "110/204 FR 9"
+        de: "110/204 DE 9"
+        it: "110/204 IT 9"
+        zh: "110/204 ZH 9"
+        ja: "110/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: super_rare
+    - set: fab
+      id: 233
+      dreamborn: "009-233"
+      ravensburger:
+        en: "233/204 EN 9"
+        fr: "233/204 FR 9"
+        de: "233/204 DE 9"
+        it: "233/204 IT 9"
+        zh: "233/204 ZH 9"
+        ja: "233/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: enchanted
+      illustrator: "Max Ulichney"
+  lore: 2
+  cost: 3
+  attack: 6
+  defence: 4
+  inkwell: true
+  colors:
+    - ruby
+  type: glimmer
+  classifications:
+    - "floodborn"
+  illustrator: "Nicholas Kole"
+  languages:
+    en:
+      name: "Powerline"
+      title: "World's Greated Rock Star"
+  abilities:
+    - type: static
+      title:
+        en: "Shift 4"
+      text:
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Powerline.)_"
+      ability: "shift"
+    - type: static-triggered
+      title:
+        en: "MASH-UP"
+      text:
+        en: "Once during your turn, whenever this character sings a song, look at the top 4 cards of your deck. You may reveal a song card with cost 9 or less and play it for free. Put the rest on the bottom of your deck in any order."
+  franchise_id: "unknown"
+- variants:
+    - set: fab
+      id: 111
+      dreamborn: "009-111"
+      ravensburger:
+        en: "111/204 EN 9"
+        fr: "111/204 FR 9"
+        de: "111/204 DE 9"
+        it: "111/204 IT 9"
+        zh: "111/204 ZH 9"
+        ja: "111/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: legendary
+    - set: fab
+      id: 242
+      dreamborn: "009-242"
+      ravensburger:
+        en: "242/204 EN 9"
+        fr: "242/204 FR 9"
+        de: "242/204 DE 9"
+        it: "242/204 IT 9"
+        zh: "242/204 ZH 9"
+        ja: "242/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: iconic
+  lore: 1
+  cost: 3
+  attack: 2
+  defence: 2
+  inkwell: true
+  colors:
+    - ruby
+  type: glimmer
+  classifications:
+    - "floodborn"
+    - "hero"
+    - "prince"
+  illustrator: "Cristian Romero"
+  languages:
+    en:
+      name: "Mickey Mouse"
+      title: "Brave Little Prince"
+  abilities:
+    - type: static
+      title:
+        en: "Shift 5"
+      text:
+        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Mickey Mouse.)_"
+      ability: "shift"
+    - type: static
+      title:
+        en: "evasive"
+      text:
+        en: "_(Only characters with Evasive can challenge this character.)_"
+      ability: "evasive"
+    - type: static-triggered
+      title:
+        en: "CROWNING ACHIEVEMENT"
+      text:
+        en: "While this character has a card under him, he gets +3 {S}, +3 {W}, +3 {L}."
+  franchise_id: "unknown"
+- variants:
+    - set: fab
+      id: 130
+      dreamborn: "009-130"
+      ravensburger:
+        en: "130/204 EN 9"
+        fr: "130/204 FR 9"
+        de: "130/204 DE 9"
+        it: "130/204 IT 9"
+        zh: "130/204 ZH 9"
+        ja: "130/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: rare
+    - set: fab
+      id: 234
+      dreamborn: "009-234"
+      ravensburger:
+        en: "234/204 EN 9"
+        fr: "234/204 FR 9"
+        de: "234/204 DE 9"
+        it: "234/204 IT 9"
+        zh: "234/204 ZH 9"
+        ja: "234/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: enchanted
+      illustrator: "Jochem van Gool"
+  cost: 9
+  inkwell: true
+  colors:
+    - ruby
+  type: action
+  classifications:
+    - "song"
+  illustrator: "Eri Welli"
+  languages:
+    en:
+      name: "I2I"
+  abilities:
+    - type: static
+      title:
+        en: "sing-together"
+      text:
+        en: "**Sing Together** 9 _(Any number of your of your teammates' characters with total cost 9 or more may {E} to sing this song for free.)_"
+      ability: "sing-together"
+    - type: resolution
+      title:
+        en: "I2I"
+      text:
+        en: "Each player draws 2 cards and gains 2 lore. If 2 or more characters sang this song, ready them. They can't quest for the rest of this turn."
+  franchise_id: "unknown"
+- variants:
+    - set: p3
+      id: 2
+      dreamborn: "009-P3-002"
+      ravensburger:
+        en: "2/P3 EN 9"
+        fr: "2/P3 FR 9"
+        de: "2/P3 DE 9"
+        it: "2/P3 IT 9"
+        zh: "2/P3 ZH 9"
+        ja: "2/P3 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: special
+  lore: 2
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 3
+  colors:
+    - sapphire
+  type: glimmer
+  classifications:
+    - "storyborn"
+    - "hero"
+  illustrator: "Ellie Horie"
+  languages:
+    en:
+      name: "Alice"
+      title: "Accidentally Adrift"
+      flavour: ""
+  abilities:
+    - type: static
+      title:
+        en: "WASHED AWAY"
+      text:
+        en: "When you play this character, you may put chosen item into its player's inkwell facedown and exerted."
+    - type: static
+      title:
+        en: "MAKING WAVES "
+      text:
+        en: "Whenever this character quests, chosen opposing character gets -2 {S} this turn."
+  franchise_id: "unknown"
+- variants:
+    - set: fab
+      id: 178
+      dreamborn: "009-178"
+      ravensburger:
+        en: "178/204 EN 9"
+        fr: "178/204 FR 9"
+        de: "178/204 DE 9"
+        it: "178/204 IT 9"
+        zh: "178/204 ZH 9"
+        ja: "178/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: rare
+  lore: 2
+  cost: 5
+  attack: 3
+  defence: 7
+  inkwell: true
+  colors:
+    - steel
+  type: glimmer
+  classifications:
+    - "storyborn"
+    - "hero"
+    - "princess"
+  illustrator: "Ian Macdonald"
+  languages:
+    en:
+      name: "Jasmine"
+      title: "Fearless Princess"
+  abilities:
+    - type: static
+      title:
+        en: "TAKE THE LEAP"
+      text:
+        en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
+    - type: static-triggered
+      title:
+        en: "NOW'S MY CHANCE"
+      text:
+        en: "Choose and discard a card - This character gains Challenger +3 this turn. (They get +3 {S} while challenging.)"
+  franchise_id: "unknown"

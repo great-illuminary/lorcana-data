@@ -1,0 +1,159 @@
+- variants: 
+    - set: p3
+      id: 25
+      dreamborn: "010-P3-025"
+      ravensburger: 
+        en: "25/P3 EN 10"
+        fr: "25/P3 FR 10"
+        de: "25/P3 DE 10"
+        it: "25/P3 IT 10"
+        zh: "25/P3 ZH 10"
+        ja: "25/P3 JA 10"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: special
+  lore: 2
+  cost: 5
+  inkwell: false
+  attack: 3
+  defence: 5
+  colors: 
+    - emerald
+  type: glimmer
+  classifications: 
+    - "dreamborn"
+    - "hero"
+  illustrator: "Lisa Parfenova"
+  languages: 
+    en: 
+      name: "Goofy"
+      title: "Emerald Champion"
+      flavour: ""
+  abilities:
+    - type: static
+      title:
+        en: "EVEN THE SCORE"
+      text:
+        en: "Whenever one of your other Emerald character is challenged and banished, banish the challenging character."
+    - type: static
+      title: 
+        en: "PROVIDE COVER"
+      text: 
+        en: "Your other Emerald characters gain **Ward**. _(Opponents can't choose them except to challenge.)_"
+  franchise_id: "unknown"
+- variants:
+    - set: whi
+      id: 156
+      dreamborn: "010-156"
+      ravensburger:
+        en: "156/204 EN 10"
+        fr: "156/204 FR 10"
+        de: "156/204 DE 10"
+        it: "156/204 IT 10"
+        zh: "156/204 ZH 10"
+        ja: "156/204 JA 10"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: super_rare
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 3
+  colors:
+    - sapphire
+  type: glimmer
+  classifications:
+    - "storyborn"
+    - "hero"
+    - "detective"
+  illustrator: "Jennifer Park"
+  languages:
+    en:
+      name: "Judy Hopps"
+      title: "Uncovering Clues"
+      flavour: ""
+  abilities:
+    - type: static
+      title:
+        en: "THOROUGH INVESTIGATION"
+      text:
+        en: "When you play this character and whenever she quests, look at the top 3 cards of your deck. You may reveal a Detective character card and put it into your hand. Put the rest on the bottom of your deck in any order."
+  franchise_id: "unknown"
+- variants:
+    - set: whi
+      id: 187
+      dreamborn: "010-187"
+      ravensburger:
+        en: "187/204 EN 10"
+        fr: "187/204 FR 10"
+        de: "187/204 DE 10"
+        it: "187/204 IT 10"
+        zh: "187/204 ZH 10"
+        ja: "187/204 JA 10"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: rare
+  lore: 2
+  cost: 5
+  inkwell: false
+  attack: 5
+  defence: 4
+  colors:
+    - steel
+  type: glimmer
+  classifications:
+    - "floodborn"
+    - "ally"
+    - "detective"
+  illustrator: "César Vergara / Alex Accorsi"
+  languages:
+    en:
+      name: "Nick Wilde"
+      title: "Persistent Investigator"
+      flavour: ""
+  abilities:
+    - type: static
+      title:
+        en: "Shift 3"
+      text:
+        en: "**Shift** 3 _(You may pay 4 {I} to play this on top of one of your characters named Nick Wilde.)_"
+      ability: "shift"
+    - type: static
+      title:
+        en: "CASE CLOSED"
+      text:
+        en: "During your turn, whenever one of your Detective characters banishes another character in a challenge, draw a card."
+  franchise_id: "unknown"
+- variants:
+    - set: whi
+      id: 196
+      dreamborn: "010-196"
+      ravensburger:
+        en: "196/204 EN 10"
+        fr: "196/204 FR 10"
+        de: "196/204 DE 10"
+        it: "196/204 IT 10"
+        zh: "196/204 ZH 10"
+        ja: "196/204 JA 10"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: common
+  cost: 2
+  inkwell: true
+  colors:
+    - steel
+  type: action
+  illustrator: "Kevin Sidharta"
+  languages:
+    en:
+      name: "Putting It All Together"
+      title: ""
+      flavour: "”Okay, so the ghostly glimmers were first seen here, and the trail of torn lorebook pages started in this part of the Illuminary...” - Judy Hopps"
+  abilities:
+    - type: resolution
+      title:
+        en: "Putting It All Together"
+      text:
+        en: "Chosen opposing character can't challenge during their next turn. Draw a card."
+  franchise_id: "unknown"

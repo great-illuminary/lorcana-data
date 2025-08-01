@@ -98,7 +98,7 @@ private suspend fun load() {
 
     if (rbCards == null) throw IllegalStateException("rbCards can't be null at this point")
 
-    listOf("tfc", "iti", "urr", "ssk", "rotf", "azu", "arc", "roj").forEach { set ->
+    listOf("tfc", "iti", "urr", "ssk", "rotf", "azu", "arc", "roj", "fab", "whi").forEach { set ->
         val file = VirtualFile(rootProject.absolutePath, "data/$set.yml")
         val content = file.readString()
         val list = yml.decodeFromString(serializer, content)
