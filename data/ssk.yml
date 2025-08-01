@@ -1104,7 +1104,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: "I’VE GOT THE COOLEST FRIEND"
+        en: "I'VE GOT THE COOLEST FRIEND"
       text: 
         en: "When you play this character, return a character card from your discard to your hand. If that card is a Princess character card, gain 2 lore."
   franchise_id: "unknown"
@@ -1341,7 +1341,7 @@
       title: 
         en: "Healing Touch"
       text: 
-        en: "Remove up to 3 damage from chosen character and ready them. They can’t quest or challenge for the rest of this turn."
+        en: "Remove up to 4 damage from chosen character. Draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -6445,6 +6445,11 @@
         en: "DANCE-OFF"
       text: 
         en: "Whenever this character or one of your characters named Mickey Mouse challenges another character, gain 1 lore."
+    - type: static-triggered
+      title: 
+        en: "DANCE-OFF"
+      text: 
+        en: "or one of your characters named Mickey Mouse challenges another character, gain 1 lore."
   franchise_id: "unknown"
 - variants: 
     - set: ssk
@@ -9458,6 +9463,12 @@
   abilities: 
     - type: static
       title: 
+        en: "Boon of Resilience"
+      text: 
+        en: "While one of your Knight characters is at a location, that character gains Resist +2."
+      ability: "gain-ability"
+    - type: static
+      title: 
         en: "BURST OF SPEED"
       text: 
         en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
@@ -9805,7 +9816,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: "**DRASTIC MEASURES**"
+        en: "Drastic Measures"
       text: 
         en: "When you play this character, you may discard your hand to draw 2 cards."
   franchise_id: "unknown"

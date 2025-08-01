@@ -2798,7 +2798,7 @@
       title: 
         en: "Gruesome and Grim"
       text: 
-        en: "{E} − Play a character with cost 4 or less for free. They gain **Rush**. At the end of the turn, banish them. _They can challenge the turn they're played._'"
+        en: "{E} − Play a character with cost 4 or less for free. They gain **Rush**. At the end of the turn, banish them. _They can challenge the turn they're played._"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -2912,12 +2912,12 @@
   abilities: 
     - type: resolution
       title: 
-        en: "Ready or Not!"
+        en: "READY OR NOT!"
       text: 
         en: "When you play this character and when he leaves play, chosen character gains **Challenger** +3 this turn. _(They get +3 {S} while challenging.)_"
     - type: static-triggered
       title: 
-        en: "Ready or Not!"
+        en: "READY OR NOT!"
       text: 
         en: "When you play this character and when he leaves play, chosen character gains **Challenger** +3 this turn. _(They get +3 {S} while challenging.)_"
   franchise_id: "unknown"
@@ -3734,7 +3734,7 @@
       title: 
         en: "Legend of the Sword in the Stone"
       text: 
-        en: "_(A character with cost 2 or more can {E} to sing this song for free.)_nnChosen character gains **Challenger** +3 this turn. _(They get +3 {S} while challenging.)_"
+        en: "Chosen character gains **Challenger** +3 this turn. _(They get +3 {S} while challenging.)_"
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -4168,7 +4168,7 @@
       title: 
         en: "Thorny Arrows"
       text: 
-        en: "Whenever this character is challenged, the challenging character’s player discards all cards in their hand."
+        en: "Whenever this character is challenged, the challenging character's player discards all cards in their hand."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -9874,12 +9874,12 @@
       ability: "shift"
     - type: static-triggered
       title: 
-        en: "It’s Better this way"
+        en: "It's Better this way"
       text: 
         en: "At the start of your turn, if this character has no damage, draw a card."
     - type: static-triggered
       title: 
-        en: "It’s Better this way"
+        en: "It's Better this way"
       text: 
         en: "At the start of your turn, if this character has damage, he gets +4 {S} this turn."
   franchise_id: "unknown"
@@ -10634,7 +10634,7 @@
       title: 
         en: "Scout Leader"
       text: 
-        en: "During your turn, whenever this character banishes another character in a challenge, you may deal 2 damage to chosen character"
+        en: "During your turn, whenever this character banishes another character in a challenge, you may deal 2 damage to chosen character."
   franchise_id: "unknown"
 - variants: 
     - set: rotf
@@ -11278,8 +11278,8 @@
       title: 
         en: "What You Give Is What You Get"
       text: 
-        en: "While this character is exerted and you have no cards in your hand, opponents can’t play actions."
-      ability: "player-restriction"
+        en: "While this character is exerted and you have no cards in your hand, opponents can't play actions."
+      ability: "effects"
     - type: static
       title: 
         en: "resist"

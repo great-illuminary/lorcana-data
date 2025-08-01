@@ -5976,7 +5976,7 @@
       title: 
         en: "I Got to be Going"
       text: 
-        en: "{E} − If you’ve played 2 or more actions this turn, draw a card."
+        en: "{E} − If you've played 2 or more actions this turn, draw a card."
   franchise_id: "unknown"
 - variants: 
     - set: iti
@@ -6027,7 +6027,7 @@
   abilities: 
     - type: activated
       title: 
-        en: "FOREST’S GIFT"
+        en: "FOREST'S GIFT"
       text: 
         en: "{E} – Deal 1 damage to chosen damaged character or location."
     - type: static-triggered
@@ -7405,7 +7405,7 @@
       ability: "evasive"
     - type: static
       title: 
-        en: "You’re Next!"
+        en: "You're Next!"
       text: 
         en: "Whenever he challenges a Pirate character, this character takes no damage from the challenge."
       ability: "effects"
@@ -7886,6 +7886,12 @@
       name: "急降下爆撃"
       title: ""
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Banish one of your characters with **Reckless** to banish chosen character with less {S} than that character."
+      text: 
+        en: "Banish one of your characters with **Reckless** to banish chosen character with less {S} than that character."
   franchise_id: "unknown"
 - variants: 
     - set: iti

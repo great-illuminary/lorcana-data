@@ -123,20 +123,26 @@ private suspend fun load() {
                     val folder = VirtualFile(rootProject, folderName)
                     folder.mkdirs()
 
-                    val fileName = "${variant.id}.$extension"
+                    val fileName = "${variant.id}${variant.suffix ?: ""}.$extension"
                     val file = VirtualFile(folder, fileName)
 
+                    var url: String? = null
                     try {
                         if (!file.exists()) {
                             val nativeFile = File(file.absolutePath)
-                            rbHighRes[holder]?.let { rbUrl ->
+                            rbHighRes[holder]?.replace(
+                                "yantootech.com",
+                                "ravensburgerbackend.cn"
+                            )?.let { rbUrl ->
+                                url = rbUrl
                                 client.get(rbUrl).bodyAsChannel()
                                     .copyAndClose(nativeFile.writeChannel())
                             }
                             println("finished downloading $fileName")
                         }
                     } catch (err: Throwable) {
-                        println("couldn't download $folderName/$fileName from $holder")
+                        println("couldn't download $folderName/$fileName from $holder -> $url")
+                        err.printStackTrace()
                     }
                 }
             }
