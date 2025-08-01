@@ -107,6 +107,7 @@ object LoadLorcanito {
         }
     }
 
+    @Suppress("ComplexMethod")
     fun card(set: SetDescription, number: Int): LorcanitoCard? {
         val set = when (set) {
             SetDescription.TFC -> "TFC"
