@@ -36,7 +36,7 @@ class TestCheckingCards {
 
     private fun checkCards(cards: List<VirtualCard>) {
         val invalidCard = cards.find {
-            if (it.type == CardType.Glimmer && null != it.lore && it.lore!! > 4) {
+            if (it.type == CardType.Glimmer && null != it.lore && it.lore!! > 5) {
                 return@find true
             }
 

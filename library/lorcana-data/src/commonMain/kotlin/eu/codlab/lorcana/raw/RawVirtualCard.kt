@@ -48,6 +48,7 @@ data class RawVirtualCard(
         colors = colors,
         // made so that the deprecated value is ok for now...
         color = colors.firstOrNull() ?: InkColor.Amber,
+        lore = lore,
         type = type,
         classifications = classifications.map { slug ->
             try {
