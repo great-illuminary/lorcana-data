@@ -105,6 +105,20 @@
   franchise_id: "unknown"
 - variants:
     - set: fab
+      id: 45
+      dreamborn: "009-045"
+      ravensburger:
+        en: "45/204 EN 9"
+        fr: "45/204 FR 9"
+        de: "45/204 DE 9"
+        it: "45/204 IT 9"
+        zh: "45/204 ZH 9"
+        ja: "45/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: legendary
+      illustrator: "Mariana Moreno"
+    - set: fab
       id: 228
       dreamborn: "009-228"
       ravensburger:
@@ -250,6 +264,119 @@
   franchise_id: "unknown"
 - variants:
     - set: fab
+      id: 64
+      dreamborn: "009-064"
+      ravensburger:
+        en: "64/204 EN 9"
+        fr: "64/204 FR 9"
+        de: "64/204 DE 9"
+        it: "64/204 IT 9"
+        zh: "64/204 ZH 9"
+        ja: "64/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: rare
+  cost: 2
+  inkwell: true
+  colors:
+    - amethyst
+  type: item
+  illustrator: "Mariana Moreno"
+  languages:
+    en:
+      name: "The Magic Feather"
+      title: ""
+      flavour: ""
+  abilities:
+    - type: static
+      title:
+        en: "Now You Can Fly!"
+      text:
+        en: "When you play this item, choose a character of yours. While this item is in play, that character gains **Evasive**. _(Only characters with Evasive can challenge them.)_"
+    - type: static-triggered
+      title:
+        en: "Grounded"
+      text:
+        en: "3 {I} - Return this item to your hand."
+  franchise_id: "unknown"
+- variants:
+    - set: fab
+      id: 75
+      dreamborn: "009-075"
+      ravensburger:
+        en: "75/204 EN 9"
+        fr: "75/204 FR 9"
+        de: "75/204 DE 9"
+        it: "75/204 IT 9"
+        zh: "75/204 ZH 9"
+        ja: "75/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: rare
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 2
+  colors:
+    - emerald
+  type: glimmer
+  classifications:
+    - "storyborn"
+    - "hero"
+  illustrator: "Carlos Ruiz"
+  languages:
+    en:
+      name: "Goofy"
+      title: "Set for Adventure"
+      flavour: ""
+  abilities:
+    - type: static
+      title:
+        en: "Family Vacation"
+      text:
+        en: "Once during your turn, whenever this character moves to a location, you may move one of your other characters to that location for free. If you do, draw a card."
+  franchise_id: "unknown"
+- variants:
+    - set: fab
+      id: 75
+      dreamborn: "009-075"
+      ravensburger:
+        en: "75/204 EN 9"
+        fr: "75/204 FR 9"
+        de: "75/204 DE 9"
+        it: "75/204 IT 9"
+        zh: "75/204 ZH 9"
+        ja: "75/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: rare
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 2
+  colors:
+    - emerald
+  type: glimmer
+  classifications:
+    - "storyborn"
+    - "hero"
+  illustrator: "Rodrigo (couldn't read)"
+  languages:
+    en:
+      name: "Max Goof"
+      title: "Rebellious Teen"
+      flavour: "”Fast board, cool tunes - what more could you want?”"
+  abilities:
+    - type: static
+      title:
+        en: "Personal Soundtrack"
+      text:
+        en: "When you play this character, you may pay 1 {I} to return a song card with cost 3 or less from your discard to your hand."
+  franchise_id: "unknown"
+- variants:
+    - set: fab
       id: 94
       dreamborn: "009-094"
       ravensburger:
@@ -292,6 +419,43 @@
         en: "Stand Out"
       text:
         en: "_(A character with cost 3 or more can Exert.png to sing this song for free.)\nChosen character gets +3 {S} and gains Evasive until the start of your next turn. _(Only characters with Evasive can challenge them.)_"
+  franchise_id: "unknown"
+- variants:
+    - set: fab
+      id: 109
+      dreamborn: "009-109"
+      ravensburger:
+        en: "109/204 EN 9"
+        fr: "109/204 FR 9"
+        de: "109/204 DE 9"
+        it: "109/204 IT 9"
+        zh: "109/204 ZH 9"
+        ja: "109/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: common
+  lore: 1
+  cost: 2
+  attack: 3
+  defence: 2
+  inkwell: true
+  colors:
+    - ruby
+  type: glimmer
+  classifications:
+    - "storyborn"
+  illustrator: "Stefano Spagnuolo"
+  languages:
+    en:
+      name: "Powerline"
+      title: "Taking the Stage"
+  abilities:
+    - type: static
+      title:
+        en: "Singer 4"
+      text:
+        en: "**Singer** 4 _(This character counts as cost 4 to sing songs.)_"
+      ability: "singer"
   franchise_id: "unknown"
 - variants:
     - set: fab
@@ -465,6 +629,19 @@
         en: "Each player draws 2 cards and gains 2 lore. If 2 or more characters sang this song, ready them. They can't quest for the rest of this turn."
   franchise_id: "unknown"
 - variants:
+    - set: fab
+      id: 217
+      dreamborn: "009-217"
+      ravensburger:
+        en: "217/204 EN 9"
+        fr: "217/204 FR 9"
+        de: "217/204 DE 9"
+        it: "217/204 IT 9"
+        zh: "217/204 ZH 9"
+        ja: "217/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: epic
     - set: p3
       id: 2
       dreamborn: "009-P3-002"
@@ -506,6 +683,48 @@
         en: "MAKING WAVES "
       text:
         en: "Whenever this character quests, chosen opposing character gets -2 {S} this turn."
+  franchise_id: "unknown"
+- variants:
+    - set: fab
+      id: 174
+      dreamborn: "009-174"
+      ravensburger:
+        en: "174/204 EN 9"
+        fr: "174/204 FR 9"
+        de: "174/204 DE 9"
+        it: "174/204 IT 9"
+        zh: "174/204 ZH 9"
+        ja: "174/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: super_rare
+  lore: 1
+  cost: 3
+  attack: 2
+  defence: 2
+  inkwell: true
+  colors:
+    - steel
+  type: glimmer
+  classifications:
+    - "storyborn"
+    - "hero"
+  illustrator: "Mariana Moreno"
+  languages:
+    en:
+      name: "Lilo"
+      title: "Best Explorer Ever"
+  abilities:
+    - type: static
+      title:
+        en: "COME ON, PEOPLE, LET'S MOVE"
+      text:
+        en: "When you play this character, your other characters gain Challenger +2 this turn. (They get +2 {S} while challenging.)"
+    - type: static
+      title:
+        en: "GO GET'EM"
+      text:
+        en: "Whenever this character quests, chosen Alien character gains Challenger +2 and ”This character can challenge ready characters” this turn."
   franchise_id: "unknown"
 - variants:
     - set: fab

@@ -2013,6 +2013,20 @@
         sort_number: 734
       rarity: common
       illustrator: "Alex Shin"
+    - set: fab
+      id: 34
+      dreamborn: "009-034"
+      ravensburger:
+        en: "34/204 EN 9"
+        fr: "34/204 FR 9"
+        de: "34/204 DE 9"
+        it: "34/204 IT 9"
+        zh: "34/204 ZH 9"
+        ja: "34/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: common
+      illustrator: "Alex Shin"
   lore: 0
   cost: 1
   inkwell: true
@@ -2180,6 +2194,20 @@
         culture_invariant_id: 727
         sort_number: 737
       rarity: super_rare
+      illustrator: "Malia Ewart"
+    - set: p3
+      id: 4
+      dreamborn: "009-P3-004"
+      ravensburger:
+        en: "4/P3 EN 9"
+        fr: "4/P3 FR 9"
+        de: "4/P3 DE 9"
+        it: "4/P3 IT 9"
+        zh: "4/P3 ZH 9"
+        ja: "4/P3 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: enchanted_places
       illustrator: "Malia Ewart"
   lore: 2
   cost: 5
@@ -4039,6 +4067,20 @@
         ja: "65/204 JA 4"
         culture_invariant_id: 756
         sort_number: 766
+      rarity: common
+      illustrator: "Gabriel Angelo"
+    - set: fab
+      id: 67
+      dreamborn: "009-067"
+      ravensburger:
+        en: "67/204 EN 9"
+        fr: "67/204 FR 9"
+        de: "67/204 DE 9"
+        it: "67/204 IT 9"
+        zh: "67/204 ZH 9"
+        ja: "67/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
       rarity: common
       illustrator: "Gabriel Angelo"
   cost: 2
@@ -11086,6 +11128,15 @@
         sort_number: 880
       rarity: legendary
       illustrator: "Federico M. Cugliari"
+    - set: p3
+      id: 15
+      dreamborn: "004-P3-015"
+      ravensburger:
+        en: "15/P3 EN 4"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: enchanted_cruise
+      illustrator: "Alice Pisoni"
   lore: 1
   cost: 4
   inkwell: true
