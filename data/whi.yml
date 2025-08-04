@@ -29,11 +29,11 @@
       name: "Goofy"
       title: "Emerald Champion"
       flavour: ""
-  abilities:
+  abilities: 
     - type: static
-      title:
+      title: 
         en: "EVEN THE SCORE"
-      text:
+      text: 
         en: "Whenever one of your other Emerald character is challenged and banished, banish the challenging character."
     - type: static
       title: 
@@ -41,11 +41,11 @@
       text: 
         en: "Your other Emerald characters gain **Ward**. _(Opponents can't choose them except to challenge.)_"
   franchise_id: "unknown"
-- variants:
+- variants: 
     - set: whi
       id: 156
       dreamborn: "010-156"
-      ravensburger:
+      ravensburger: 
         en: "156/204 EN 10"
         fr: "156/204 FR 10"
         de: "156/204 DE 10"
@@ -60,31 +60,31 @@
   inkwell: true
   attack: 3
   defence: 3
-  colors:
+  colors: 
     - sapphire
   type: glimmer
-  classifications:
+  classifications: 
     - "storyborn"
     - "hero"
     - "detective"
   illustrator: "Jennifer Park"
-  languages:
-    en:
+  languages: 
+    en: 
       name: "Judy Hopps"
       title: "Uncovering Clues"
       flavour: ""
-  abilities:
+  abilities: 
     - type: static
-      title:
+      title: 
         en: "THOROUGH INVESTIGATION"
-      text:
+      text: 
         en: "When you play this character and whenever she quests, look at the top 3 cards of your deck. You may reveal a Detective character card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
-- variants:
+- variants: 
     - set: whi
       id: 187
       dreamborn: "010-187"
-      ravensburger:
+      ravensburger: 
         en: "187/204 EN 10"
         fr: "187/204 FR 10"
         de: "187/204 DE 10"
@@ -99,37 +99,37 @@
   inkwell: false
   attack: 5
   defence: 4
-  colors:
+  colors: 
     - steel
   type: glimmer
-  classifications:
+  classifications: 
     - "floodborn"
     - "ally"
     - "detective"
   illustrator: "César Vergara / Alex Accorsi"
-  languages:
-    en:
+  languages: 
+    en: 
       name: "Nick Wilde"
       title: "Persistent Investigator"
       flavour: ""
-  abilities:
+  abilities: 
     - type: static
-      title:
+      title: 
         en: "Shift 3"
-      text:
+      text: 
         en: "**Shift** 3 _(You may pay 4 {I} to play this on top of one of your characters named Nick Wilde.)_"
       ability: "shift"
     - type: static
-      title:
+      title: 
         en: "CASE CLOSED"
-      text:
+      text: 
         en: "During your turn, whenever one of your Detective characters banishes another character in a challenge, draw a card."
   franchise_id: "unknown"
-- variants:
+- variants: 
     - set: whi
       id: 196
       dreamborn: "010-196"
-      ravensburger:
+      ravensburger: 
         en: "196/204 EN 10"
         fr: "196/204 FR 10"
         de: "196/204 DE 10"
@@ -141,19 +141,19 @@
       rarity: common
   cost: 2
   inkwell: true
-  colors:
+  colors: 
     - steel
   type: action
   illustrator: "Kevin Sidharta"
-  languages:
-    en:
+  languages: 
+    en: 
       name: "Putting It All Together"
       title: ""
       flavour: "”Okay, so the ghostly glimmers were first seen here, and the trail of torn lorebook pages started in this part of the Illuminary...” - Judy Hopps"
-  abilities:
+  abilities: 
     - type: resolution
-      title:
+      title: 
         en: "Putting It All Together"
-      text:
+      text: 
         en: "Chosen opposing character can't challenge during their next turn. Draw a card."
   franchise_id: "unknown"
