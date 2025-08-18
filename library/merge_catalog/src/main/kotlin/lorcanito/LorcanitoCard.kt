@@ -41,6 +41,7 @@ data class LorcanitoCard(
      */
     val movementDiscounts: List<JsonElement> = emptyList()
 ) {
+    @Suppress("ThrowsCount")
     fun actualColors(): List<String> {
         if (colors is JsonPrimitive) {
             val obtained = LoadLorcanito.unmapLink(colors.content)
@@ -56,6 +57,7 @@ data class LorcanitoCard(
         throw IllegalStateException("Couldn't decode $colors")
     }
 
+    @Suppress("ThrowsCount")
     fun actualCharacteristics(): List<String> {
         if (characteristics is JsonPrimitive) {
             val obtained = LoadLorcanito.unmapLink(characteristics.content)
@@ -68,9 +70,11 @@ data class LorcanitoCard(
         if (characteristics is JsonArray) {
             return characteristics.jsonArray.map { it.jsonPrimitive.content }
         }
+
         throw IllegalStateException("Couldn't decode $characteristics")
     }
 
+    @Suppress("ComplexMethod", "ReturnCount", "ThrowsCount")
     fun actualAbilities(): List<LorcanitoAbility> {
         if (null == abilities) return emptyList()
 
