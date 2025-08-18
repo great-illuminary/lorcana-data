@@ -2345,9 +2345,10 @@
         it: "4/P3 IT 9"
         zh: "4/P3 ZH 9"
         ja: "4/P3 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: enchanted_places
+        culture_invariant_id: 2182
+        sort_number: 248
+      rarity: special
+      illustrator: "Cristian Romero"
     - set: fab
       id: 226
       dreamborn: "009-226"
@@ -8102,9 +8103,10 @@
         it: "9/P3 IT 9"
         zh: "9/P3 ZH 9"
         ja: "9/P3 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2187
+        sort_number: 252
       rarity: special
+      illustrator: "Otto Paredes"
   lore: 1
   cost: 3
   inkwell: false
@@ -9065,6 +9067,20 @@
         culture_invariant_id: 2082
         sort_number: 147
       rarity: common
+      illustrator: "Maria Dresden"
+    - set: fab
+      id: 218
+      dreamborn: "009-218"
+      ravensburger: 
+        en: "218/204 EN 9"
+        fr: "218/204 FR 9"
+        de: "218/204 DE 9"
+        it: "218/204 IT 9"
+        zh: "218/204 ZH 9"
+        ja: "218/204 JA 9"
+        culture_invariant_id: 2172
+        sort_number: 219
+      rarity: epic
       illustrator: "Maria Dresden"
   lore: 1
   cost: 2
@@ -12346,6 +12362,20 @@
         sort_number: 186
       rarity: common
       illustrator: "Mariana Moreno"
+    - set: fab
+      id: 221
+      dreamborn: "009-221"
+      ravensburger: 
+        en: "221/204 EN 9"
+        fr: "221/204 FR 9"
+        de: "221/204 DE 9"
+        it: "221/204 IT 9"
+        zh: "221/204 ZH 9"
+        ja: "221/204 JA 9"
+        culture_invariant_id: 2175
+        sort_number: 222
+      rarity: epic
+      illustrator: "Mariana Moreno"
   lore: 1
   cost: 2
   inkwell: true
@@ -12950,6 +12980,20 @@
         culture_invariant_id: 2133
         sort_number: 198
       rarity: rare
+      illustrator: "Alice Pisoni"
+    - set: fab
+      id: 222
+      dreamborn: "009-222"
+      ravensburger: 
+        en: "222/204 EN 9"
+        fr: "222/204 FR 9"
+        de: "222/204 DE 9"
+        it: "222/204 IT 9"
+        zh: "222/204 ZH 9"
+        ja: "222/204 JA 9"
+        culture_invariant_id: 2176
+        sort_number: 223
+      rarity: epic
       illustrator: "Alice Pisoni"
   cost: 3
   inkwell: false

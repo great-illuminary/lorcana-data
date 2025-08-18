@@ -7606,6 +7606,52 @@
         "set_rotation_state": "CoreConstructed"
       },
       {
+        "name": "Ursula",
+        "subtitle": "Strega del Mare",
+        "strength": 3,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "EPIC",
+        "ink_cost": 3,
+        "author": "John Loren",
+        "deck_building_id": "4521d899a2717c3b4cb0b936f066e13e266d14cb",
+        "culture_invariant_id": 2162,
+        "sort_number": 209,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [
+          "Immaginato",
+          "Cattivo",
+          "Incantatore"
+        ],
+        "flavor_text": "Il contratto segreto è già stato scritto.",
+        "rules_text": "ORMAI È TROPPO TARDI Ogni volta che questo personaggio va all'avventura, un personaggio avversario a tua scelta non si può preparare all'inizio del suo prossimo turno.",
+        "card_identifier": "208/204 IT 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/it/set9/208_1e14112aa2c121c8b06f8e02c9da80f2266a0c3b.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/it/set9/208_d4dc0db53915b90b55e8f051ffc177e1e0bf9469.jpg",
+            "foil_type": "Satin",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/it/set9/208_b4eda360f00fc8cd711398cd07d9385aaad44809.jpg",
+            "foil_top_layer": "HighGloss",
+            "foil_top_layer_mask_url": "https://api.lorcana.ravensburger.com/images/it/set9/208_a821ab312b4658326351758529ea3e3d3e60bbf7.jpg"
+          }
+        ],
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Little Mermaid",
+          "La Sirenetta"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
         "name": "Kuzco",
         "subtitle": "Lama Ricercato",
         "strength": 1,
@@ -7925,6 +7971,52 @@
         "set_rotation_state": "CoreConstructed"
       },
       {
+        "name": "Anna",
+        "subtitle": "Che Affronta la Tempesta",
+        "strength": 1,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "EPIC",
+        "ink_cost": 2,
+        "author": "Maria Dresden",
+        "deck_building_id": "511e7eed599c91d73d5cc4ea8991964dc1efe12a",
+        "culture_invariant_id": 2172,
+        "sort_number": 219,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Classico",
+          "Eroe",
+          "Regina"
+        ],
+        "flavor_text": "Dopo aver parlato con Olaf, Anna si addentrò nella tempesta inaspettata per salvare Kristoff.",
+        "rules_text": "SONO NATA PRONTA Mentre hai in gioco un altro personaggio Eroe, questo personaggio riceve +1.",
+        "card_identifier": "218/204 IT 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/it/set9/218_2da5059313a987ec94c077ba5e7dff2b018db1e9.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/it/set9/218_d7694998951430732e7310072db4988d0a16d80c.jpg",
+            "foil_type": "Satin",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/it/set9/218_7d9c58e9f38a9567e8687baeba70dfeab354b05f.jpg",
+            "foil_top_layer": "HighGloss",
+            "foil_top_layer_mask_url": "https://api.lorcana.ravensburger.com/images/it/set9/218_80b9fc0dd69523074798de928a4dd4f5c1cabecf.jpg"
+          }
+        ],
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "SAPPHIRE"
+        ],
+        "searchable_keywords": [
+          "Frozen - Il regno di ghiaccio",
+          "Frozen"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
         "name": "Regina",
         "subtitle": "Consultatrice di Specchi",
         "strength": 2,
@@ -8012,6 +8104,47 @@
         ],
         "searchable_keywords": [
           "Robin Hood"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Topolino",
+        "subtitle": "Standard-iere",
+        "strength": 1,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "EPIC",
+        "ink_cost": 2,
+        "author": "Mariana Moreno",
+        "deck_building_id": "48839e24171f940246ad8c892880d562b4dcffc4",
+        "culture_invariant_id": 2175,
+        "sort_number": 222,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Classico",
+          "Eroe"
+        ],
+        "flavor_text": "Tiene alti gli standard per tutti gli intrepidi avventurieri lì fuori.",
+        "rules_text": "RIMANERE SALDO Quando giochi questo personaggio, un personaggio a tua scelta ottiene Sfidante +2 per questo turno. (Riceve +2 mentre sta sfidando.)",
+        "card_identifier": "221/204 IT 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/it/set9/221_a20a3c1f5aee40865bc4ee4c916836421de42c57.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/it/set9/221_be762626da4c11441e5dc8c8fc27326d4d63fcc0.jpg",
+            "foil_type": "Satin",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/it/set9/221_a0f766e3c37201cd0a568532785bb11a14316f92.jpg",
+            "foil_top_layer": "HighGloss",
+            "foil_top_layer_mask_url": "https://api.lorcana.ravensburger.com/images/it/set9/221_b792d86e700e2b682404feff6e9d809fc2a4e25b.jpg"
+          }
+        ],
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "STEEL"
         ],
         "set_rotation_state": "CoreConstructed"
       },
@@ -8855,6 +8988,254 @@
             "hot_foil_color": "#FF474B"
           }
         ],
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "RUBY"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Alice",
+        "subtitle": "Naufraga per Caso",
+        "strength": 2,
+        "willpower": 3,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 4,
+        "author": "Ellie Horie",
+        "deck_building_id": "42d28673c7cc3a36053276edd16cc2814ee60ebc",
+        "culture_invariant_id": 2180,
+        "sort_number": 245,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Classico",
+          "Eroe"
+        ],
+        "flavor_text": "",
+        "rules_text": "PORTATA VIA Quando giochi questo personaggio, puoi aggiungere un oggetto a tua scelta al calamaio del suo giocatore, a faccia in giù e impegnato. SMUOVERE LE ACQUE Ogni volta che questo personaggio va all'avventura, un personaggio avversario a tua scelta riceve -2 per questo turno.",
+        "card_identifier": "2/P3 IT 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/it/promo3/2_b797a98a97954f42a07886b277c11957bc3b1cd8.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/it/promo3/2_4eb68a5923f917b03c999cca412feb1de698fdd8.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/it/promo3/2_5935c864be44e29c5b9f4314bfdd675af0ed6660.jpg"
+          }
+        ],
+        "special_rarity_id": "PROMO",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "SAPPHIRE"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Regina",
+        "subtitle": "Monarca Presuntuosa",
+        "strength": 2,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Eri Welli",
+        "deck_building_id": "0cede355df598a9f697223c219d919e3acdeee38",
+        "culture_invariant_id": 2181,
+        "sort_number": 247,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Aiutante"
+        ],
+        "subtypes": [
+          "Classico",
+          "Cattivo",
+          "Regina",
+          "Incantatore"
+        ],
+        "flavor_text": "",
+        "rules_text": "Aiutante (Ogni volta che questo personaggio va all’avventura, puoi aggiungere la sua alla di un altro personaggio a tua scelta per questo turno.) CONVOCAZIONE REALE All'inizio del tuo turno, puoi scegliere e scartare una carta personaggio Principessa o Regina per riprendere in mano una carta personaggio dai tuoi scarti.",
+        "card_identifier": "3/P3 IT 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/it/promo3/3_8f9949269582dc5626af335f4867f934e30acdca.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/it/promo3/3_ba5a0d2b01de7bda9cd4442767dfa84f9744c1c6.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/it/promo3/3_cefcdee806d4a643a462dc9b82bcbf0ff552f40d.jpg"
+          }
+        ],
+        "special_rarity_id": "CHALLENGE",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Malefica",
+        "subtitle": "Drago Mostruoso",
+        "strength": 7,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 9,
+        "author": "Cristian Romero",
+        "deck_building_id": "a3c5b9ffeb759ea92fe07213aadc27902cf0ddbf",
+        "culture_invariant_id": 2182,
+        "sort_number": 248,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Classico",
+          "Cattivo",
+          "Drago"
+        ],
+        "flavor_text": "Nona Regola del Cattivo: quando tutto il resto non funziona, trasformati in un drago.",
+        "rules_text": "FUOCO DI DRAGO Quando giochi questo personaggio, puoi esiliare un personaggio a tua scelta.",
+        "card_identifier": "4/P3 IT 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/it/promo3/4_003db3ea7ceb7da3f88b17bbca68c3e5df05ffe6.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/it/promo3/4_7130f6dd8db7e0fa45d6369f0bfe004d3edb1d75.jpg",
+            "foil_type": "None"
+          }
+        ],
+        "special_rarity_id": "CHALLENGE",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "RUBY"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Malefica",
+        "subtitle": "Drago Mostruoso",
+        "strength": 7,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 9,
+        "author": "Cristian Romero",
+        "deck_building_id": "a3c5b9ffeb759ea92fe07213aadc27902cf0ddbf",
+        "culture_invariant_id": 2183,
+        "sort_number": 249,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Classico",
+          "Cattivo",
+          "Drago"
+        ],
+        "flavor_text": "",
+        "rules_text": "FUOCO DI DRAGO Quando giochi questo personaggio, puoi esiliare un personaggio a tua scelta.",
+        "card_identifier": "5/P3 IT 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/it/promo3/5_173a71e4f5db5a84179790f2f8c1248f3313b0db.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/it/promo3/5_5d0fa0fcb82c884696480fd92283d23c53810a22.jpg",
+            "foil_type": "Magma",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/it/promo3/5_b0e49eeecb6a9923cca6ad49787d4c79e7aee8b8.jpg"
+          }
+        ],
+        "special_rarity_id": "CHALLENGE",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "RUBY"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Sventurata Gente del Mare",
+        "subtitle": "Opera di Ursula",
+        "strength": 0,
+        "willpower": 1,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 1,
+        "author": "Massimiliano Narciso / Marieke Ferrari",
+        "deck_building_id": "ddbb33e43b310ecb59a6a51a6478e65366db0275",
+        "culture_invariant_id": 2185,
+        "sort_number": 250,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [
+          "Classico"
+        ],
+        "flavor_text": "Ma non sempre va così, se qualcuno si è scordato di pagarmi, l'ho punito…%—Ursula",
+        "rules_text": "POVERE ANIME Ogni volta che questo personaggio viene sfidato, ogni avversario sceglie e scarta una carta.",
+        "card_identifier": "7/P3 IT 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/it/promo3/7_acbf49bc72528c4066ac851ff28498ba25fe4235.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/it/promo3/7_b121ffbe6717e0a82301a103da8e02ad69c96dfd.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/it/promo3/7_ecd4ab5a257565a9e2f08bff04d998c83f931a80.jpg"
+          }
+        ],
+        "special_rarity_id": "CHALLENGE",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "EMERALD"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Sisu",
+        "subtitle": "Visitatrice Audace",
+        "strength": 1,
+        "willpower": 1,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Otto Paredes",
+        "deck_building_id": "fc67550a3eb2e05ff941e3dd9ba390ad5570186e",
+        "culture_invariant_id": 2187,
+        "sort_number": 252,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [
+          "Sfuggente"
+        ],
+        "subtypes": [
+          "Classico",
+          "Eroe",
+          "Divinità",
+          "Drago"
+        ],
+        "flavor_text": "Andiamo — cosa mai potrebbe accadere?",
+        "rules_text": "Sfuggente (Solo altri personaggi con Sfuggente possono sfidare questo personaggio.) SUPER PICCANTE! Quando giochi questo personaggio, esilia un personaggio avversario a tua scelta con 1 o inferiore.",
+        "card_identifier": "9/P3 IT 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/it/promo3/9_26d5dac0fdef5aac9368646faa1e2180e79c83d7.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/it/promo3/9_25d00a0c746050e1008cfdd255610012ead38136.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/it/promo3/9_4b0a820b33a1e46af719093736c8c4ec68dfa801.jpg"
+          }
+        ],
+        "special_rarity_id": "CHALLENGE",
         "card_sets": [
           "set9"
         ],
@@ -89124,6 +89505,45 @@
         "set_rotation_state": "CoreConstructed"
       },
       {
+        "name": "L'Ultima Speranza",
+        "rarity": "EPIC",
+        "ink_cost": 3,
+        "author": "Alice Pisoni",
+        "deck_building_id": "8f6416c63cac0fad17fdf749cf9ede58f5fd446b",
+        "culture_invariant_id": 2176,
+        "sort_number": 223,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [
+          "Canzone"
+        ],
+        "flavor_text": "",
+        "rules_text": "(Un personaggio con costo 3 o superiore può per cantare questa canzone gratis.) Un personaggio a tua scelta ottiene Resistere +2 fino all'inizio del tuo prossimo turno. Se viene scelto un personaggio Eroe, può anche sfidare i personaggi preparati per questo turno. (Il danno che gli viene inflitto è ridotto di 2.)",
+        "card_identifier": "222/204 IT 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/it/set9/222_270779620b655a5696e76a64843eebc3aef7a9aa.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/it/set9/222_d7500a98771ea35a6d61945a8ba5f62312b14763.jpg",
+            "foil_type": "Satin",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/it/set9/222_1f68c9162e1eca8f624a01db8a2c4e3eeb836c5a.jpg",
+            "foil_top_layer": "HighGloss",
+            "foil_top_layer_mask_url": "https://api.lorcana.ravensburger.com/images/it/set9/222_763202336ae6468ee9c7b7b6b2d4aa732834467d.jpg"
+          }
+        ],
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Hercules"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
         "name": "Il Cerchio della Vita",
         "rarity": "ENCHANTED",
         "ink_cost": 8,
@@ -89206,6 +89626,41 @@
         "searchable_keywords": [
           "Goofy Movie",
           "In viaggio con Pippo"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Potente Come un Vulcano Attivo",
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Jared Nickerl / Alex Accorsi",
+        "deck_building_id": "7a794400c5430b77a9bd93dc9c73e7ae38d73f5e",
+        "culture_invariant_id": 2186,
+        "sort_number": 251,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Canzone"
+        ],
+        "flavor_text": "La foresta è calma%Ma nasconde in sé%Mille e più minacce",
+        "rules_text": "(Un personaggio con costo 3 o superiore può per cantare questa canzone gratis.) Infliggi danno a un personaggio a tua scelta pari al numero di personaggi che hai in gioco.",
+        "card_identifier": "8/P3 IT 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/it/promo3/8_fb5742e6fba7f002ee558eefe4d266aa210581ba.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/it/promo3/8_82b1289462eb1848ed4356de75f28972ea3e6b2f.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/it/promo3/8_f0af25c560542b61388b44fb55ec262b97b2b36b.jpg"
+          }
+        ],
+        "special_rarity_id": "CHALLENGE",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "STEEL"
         ],
         "set_rotation_state": "CoreConstructed"
       },
@@ -99494,9 +99949,9 @@
       }
     ]
   },
-  "hero_graphic_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-phone/C9156C7989AFB183ACD99356ED77BFEE.jpg",
-  "hero_graphic_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-tablet/41A127E24273608ECFD93C6DAEA97989.jpg",
   "logo_banner_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-phone/A2558A2667BD4DB0A452E6884D9DF855.png",
+  "hero_graphic_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-tablet/41A127E24273608ECFD93C6DAEA97989.jpg",
+  "hero_graphic_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-phone/C9156C7989AFB183ACD99356ED77BFEE.jpg",
   "logo_banner_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-tablet/83434FCA9ADB48671FEE8CDD79DB9C34.png",
   "special_rarities": [
     {
@@ -99521,6 +99976,17 @@
     }
   ],
   "news": [
+    {
+      "title": "Leggende è arrivato",
+      "subtitle": "Scopri le nuove carte",
+      "target_type": "SearchResults",
+      "target_object": {
+        "expansions": [
+          "Leggende"
+        ]
+      },
+      "image_url": "https://api.lorcana.ravensburger.com/images/it/news/FE511CA21D1E13EDF4D64EE3F4EEB8E9.jpg"
+    },
     {
       "title": "Notizie",
       "subtitle": "LEGGI ARTICOLO",

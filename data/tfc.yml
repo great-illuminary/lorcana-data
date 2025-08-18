@@ -3409,16 +3409,16 @@
     - set: fab
       id: 55
       dreamborn: "009-055"
-      ravensburger:
+      ravensburger: 
         en: "55/204 EN 9"
         fr: "55/204 FR 9"
         de: "55/204 DE 9"
         it: "55/204 IT 9"
         zh: "55/204 ZH 9"
         ja: "55/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
+        culture_invariant_id: 1991
+        sort_number: 56
+      rarity: uncommon
       illustrator: "Giulia Riva"
   lore: 1
   cost: 1
@@ -7339,8 +7339,8 @@
         it: "4/P3 IT 9"
         zh: "4/P3 ZH 9"
         ja: "4/P3 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2182
+        sort_number: 248
       rarity: special
       illustrator: "Cristian Romero"
     - set: p3
@@ -7353,8 +7353,8 @@
         it: "5/P3 IT 9"
         zh: "5/P3 ZH 9"
         ja: "5/P3 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2183
+        sort_number: 249
       rarity: special
       illustrator: "Cristian Romero"
   lore: 2

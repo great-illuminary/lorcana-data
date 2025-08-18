@@ -7624,6 +7624,52 @@
         "set_rotation_state": "CoreConstructed"
       },
       {
+        "name": "Ursula",
+        "subtitle": "Seehexe",
+        "strength": 3,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "EPIC",
+        "ink_cost": 3,
+        "author": "John Loren",
+        "deck_building_id": "4521d899a2717c3b4cb0b936f066e13e266d14cb",
+        "culture_invariant_id": 2162,
+        "sort_number": 209,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [
+          "Traumgestalt",
+          "Schurke",
+          "Magier"
+        ],
+        "flavor_text": "Der geheime Vertrag ist bereits aufgesetzt worden.",
+        "rules_text": "ZU SPÄT! Jedes Mal, wenn dieser Charakter erkundet, wähle einen gegnerischen Charakter. Jener wird zu Beginn seines nächsten Zuges nicht bereit gemacht.",
+        "card_identifier": "208/204 DE 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/de/set9/208_3b8355459eb2364c28e642b37d86a2ee36bd05d4.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/de/set9/208_f18353f3f06aeee8a605440ccdd51aa0f70e250d.jpg",
+            "foil_type": "Satin",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set9/208_0e39d1808a92b46158ca2bbe77bd9777e0cb3516.jpg",
+            "foil_top_layer": "HighGloss",
+            "foil_top_layer_mask_url": "https://api.lorcana.ravensburger.com/images/de/set9/208_a821ab312b4658326351758529ea3e3d3e60bbf7.jpg"
+          }
+        ],
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
+        ],
+        "searchable_keywords": [
+          "Little Mermaid",
+          "Arielle die Meerjungfrau"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
         "name": "Kusco",
         "subtitle": "Gesuchtes Lama",
         "strength": 1,
@@ -7943,6 +7989,52 @@
         "set_rotation_state": "CoreConstructed"
       },
       {
+        "name": "Anna",
+        "subtitle": "Dem Sturm trotzend",
+        "strength": 1,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "EPIC",
+        "ink_cost": 2,
+        "author": "Maria Dresden",
+        "deck_building_id": "511e7eed599c91d73d5cc4ea8991964dc1efe12a",
+        "culture_invariant_id": 2172,
+        "sort_number": 219,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Sagengestalt",
+          "Held",
+          "Königin"
+        ],
+        "flavor_text": "Nachdem sie mit Olaf gesprochen hatte, marschierte Anna in den aufziehenden Sturm, um Kristoff zu retten.",
+        "rules_text": "ICH BIN SO WAS VON BEREIT Wenn du mindestens einen anderen Helden im Spiel hast, erhält dieser Charakter +1.",
+        "card_identifier": "218/204 DE 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/de/set9/218_9f47ecc4c5f94bf16787c36158b53717f8c7646c.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/de/set9/218_d857ec239b71f65ef3a193f15bf4268968555c72.jpg",
+            "foil_type": "Satin",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set9/218_626d9efff706153e81f36489809130bbe685e56e.jpg",
+            "foil_top_layer": "HighGloss",
+            "foil_top_layer_mask_url": "https://api.lorcana.ravensburger.com/images/de/set9/218_80b9fc0dd69523074798de928a4dd4f5c1cabecf.jpg"
+          }
+        ],
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "SAPPHIRE"
+        ],
+        "searchable_keywords": [
+          "Frozen",
+          "Die Eiskönigin"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
         "name": "Die Königin",
         "subtitle": "Spiegel-Sucherin",
         "strength": 2,
@@ -8030,6 +8122,52 @@
         ],
         "searchable_keywords": [
           "Robin Hood"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Micky Maus",
+        "subtitle": "Standartenträger",
+        "strength": 1,
+        "willpower": 3,
+        "quest_value": 1,
+        "rarity": "EPIC",
+        "ink_cost": 2,
+        "author": "Mariana Moreno",
+        "deck_building_id": "48839e24171f940246ad8c892880d562b4dcffc4",
+        "culture_invariant_id": 2175,
+        "sort_number": 222,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Sagengestalt",
+          "Held"
+        ],
+        "flavor_text": "Er setzt die Standarte für unerschrockene Abenteurer überall.",
+        "rules_text": "STARK BLEIBEN Wenn du diesen Charakter ausspielst, erhält ein Charakter deiner Wahl in diesem Zug Herausfordern +2. (Während der Charakter herausfordert, erhält er +2).",
+        "card_identifier": "221/204 DE 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/de/set9/221_553246ca69a2e51ba92570f45f2e7cbc5e4fb3d3.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/de/set9/221_b479988b2b4ee9e3382ecea95bbf5184f3d8a2c5.jpg",
+            "foil_type": "Satin",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set9/221_dc4e5ba3f4d263c971f489f6ff3db600da35d691.jpg",
+            "foil_top_layer": "HighGloss",
+            "foil_top_layer_mask_url": "https://api.lorcana.ravensburger.com/images/de/set9/221_b792d86e700e2b682404feff6e9d809fc2a4e25b.jpg"
+          }
+        ],
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Mickey Mouse",
+          "Mickey Maus",
+          "Micky Mouse"
         ],
         "set_rotation_state": "CoreConstructed"
       },
@@ -8889,6 +9027,254 @@
           "Mickey Mouse",
           "Mickey Maus",
           "Micky Mouse"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Alice",
+        "subtitle": "Versehentlich verirrt",
+        "strength": 2,
+        "willpower": 3,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 4,
+        "author": "Ellie Horie",
+        "deck_building_id": "42d28673c7cc3a36053276edd16cc2814ee60ebc",
+        "culture_invariant_id": 2180,
+        "sort_number": 245,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Sagengestalt",
+          "Held"
+        ],
+        "flavor_text": "",
+        "rules_text": "WEGGESPÜLT Wenn du diesen Charakter ausspielst, darfst du einen Gegenstand deiner Wahl verdeckt und erschöpft in den zugehörigen Tintenvorrat legen. WELLEN SCHLAGEN Jedes Mal, wenn dieser Charakter erkundet, gib einem gegnerischen Charakter deiner Wahl in diesem Zug -2.",
+        "card_identifier": "2/P3 DE 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/de/promo3/2_fc666223f95865ccca60070842a6a90faf76bc46.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/de/promo3/2_48cf83fcd8a42a2ffb5a8b799abffd4e4b5e8aa8.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/promo3/2_767f67fe41a00c02b6fe11fd5208ffe76e368e1c.jpg"
+          }
+        ],
+        "special_rarity_id": "PROMO",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "SAPPHIRE"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Die Königin",
+        "subtitle": "Eingebildete Herrscherin",
+        "strength": 2,
+        "willpower": 4,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Eri Welli",
+        "deck_building_id": "0cede355df598a9f697223c219d919e3acdeee38",
+        "culture_invariant_id": 2181,
+        "sort_number": 247,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Unterstützen"
+        ],
+        "subtypes": [
+          "Sagengestalt",
+          "Schurke",
+          "Königin",
+          "Magier"
+        ],
+        "flavor_text": "",
+        "rules_text": "Unterstützen (Jedes Mal, wenn dieser Charakter erkundet, darfst du seine in diesem Zug zur eines anderen Charakters deiner Wahl addieren.) KÖNIGLICHE VORLADUNG Zu Beginn deines Zuges darfst du eine Prinzessinnen- oder Königinnen-Charakterkarte von deiner Hand auswählen und abwerfen, um eine Charakterkarte aus deinem Ablagestapel zurück auf deine Hand zu nehmen.",
+        "card_identifier": "3/P3 DE 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/de/promo3/3_9b950265c1bdb31e77f3ecbab91a8fee0bcf5a56.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/de/promo3/3_646865931c05a7506bdcf592649eb04ed38eceec.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/promo3/3_5e146fa87b092780094676ab05bd4f46bfc0192f.jpg"
+          }
+        ],
+        "special_rarity_id": "CHALLENGE",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "AMBER"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Malefiz",
+        "subtitle": "Monströser Drache",
+        "strength": 7,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 9,
+        "author": "Cristian Romero",
+        "deck_building_id": "a3c5b9ffeb759ea92fe07213aadc27902cf0ddbf",
+        "culture_invariant_id": 2182,
+        "sort_number": 248,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Sagengestalt",
+          "Schurke",
+          "Drache"
+        ],
+        "flavor_text": "Die neunte Regel des Schurken-Daseins: Wenn alles andere misslingt, verwandle dich in einen Drachen.",
+        "rules_text": "DRACHENFEUER Wenn du diesen Charakter ausspielst, darfst du einen Charakter deiner Wahl verbannen.",
+        "card_identifier": "4/P3 DE 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/de/promo3/4_fc2f3438f00cd12d6de60f52bf68b986cc87f2a3.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/de/promo3/4_95828c6a4249f614f42b3bb6043ae3c31972ca99.jpg",
+            "foil_type": "None"
+          }
+        ],
+        "special_rarity_id": "CHALLENGE",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "RUBY"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Malefiz",
+        "subtitle": "Monströser Drache",
+        "strength": 7,
+        "willpower": 5,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 9,
+        "author": "Cristian Romero",
+        "deck_building_id": "a3c5b9ffeb759ea92fe07213aadc27902cf0ddbf",
+        "culture_invariant_id": 2183,
+        "sort_number": 249,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Sagengestalt",
+          "Schurke",
+          "Drache"
+        ],
+        "flavor_text": "",
+        "rules_text": "DRACHENFEUER Wenn du diesen Charakter ausspielst, darfst du einen Charakter deiner Wahl verbannen.",
+        "card_identifier": "5/P3 DE 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/de/promo3/5_a4af11ac657463ed448ae8a8827bf5c4a96c6234.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/de/promo3/5_1c7f407a2e86f2a268a5119b055ba919e7ca63f8.jpg",
+            "foil_type": "Magma",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/promo3/5_6e995e4833787c33abcfd1bd5570aee7d57850db.jpg"
+          }
+        ],
+        "special_rarity_id": "CHALLENGE",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "RUBY"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Verfluchte Meerleute",
+        "subtitle": "Ursulas Handwerkskunst",
+        "strength": 0,
+        "willpower": 1,
+        "quest_value": 2,
+        "rarity": "SPECIAL",
+        "ink_cost": 1,
+        "author": "Massimiliano Narciso / Marieke Ferrari",
+        "deck_building_id": "ddbb33e43b310ecb59a6a51a6478e65366db0275",
+        "culture_invariant_id": 2185,
+        "sort_number": 250,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [
+          "Sagengestalt"
+        ],
+        "flavor_text": "Doch wer pünktlich nicht bezahlt, den erwartet was viel Schlimmeres …%–Ursula",
+        "rules_text": "ARME SEELEN Jedes Mal, wenn dieser Charakter herausgefordert wird, wählen alle gegnerischen Mitspielenden je 1 Karte aus ihrer Hand und werfen sie ab.",
+        "card_identifier": "7/P3 DE 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/de/promo3/7_c82871771da1a2695d39624f62c505055655a56c.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/de/promo3/7_fb7dc290455fe35aca7369e0f871cdd433e72cd7.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/promo3/7_a8e0980d1a2eab497a7cedcaf93baaaeafac9076.jpg"
+          }
+        ],
+        "special_rarity_id": "CHALLENGE",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "EMERALD"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Sisu",
+        "subtitle": "Wagemutige Besucherin",
+        "strength": 1,
+        "willpower": 1,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Otto Paredes",
+        "deck_building_id": "fc67550a3eb2e05ff941e3dd9ba390ad5570186e",
+        "culture_invariant_id": 2187,
+        "sort_number": 252,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [
+          "Wendig"
+        ],
+        "subtypes": [
+          "Sagengestalt",
+          "Held",
+          "Gottheit",
+          "Drache"
+        ],
+        "flavor_text": "Komm schon – was ist das Schlimmste, was passieren kann?",
+        "rules_text": "Wendig (Nur Charaktere mit Wendig können diesen Charakter herausfordern.) BRENN MIR DIE ZUNGE WEG! Wenn du diesen Charakter ausspielst, verbanne einen gegnerischen Charakter deiner Wahl mit 1 oder weniger.",
+        "card_identifier": "9/P3 DE 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/de/promo3/9_b6948b346e134f1d090028c79eb9a03959892bda.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/de/promo3/9_0cb6b98326773d153da0e2baf88a4c1d9df27bfa.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/promo3/9_39947169d8590741ea0a9fdd815f03cbb82a5c0d.jpg"
+          }
+        ],
+        "special_rarity_id": "CHALLENGE",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "RUBY"
         ],
         "set_rotation_state": "CoreConstructed"
       },
@@ -89347,6 +89733,45 @@
         "set_rotation_state": "CoreConstructed"
       },
       {
+        "name": "Bleibt nur eine Hoffnung",
+        "rarity": "EPIC",
+        "ink_cost": 3,
+        "author": "Alice Pisoni",
+        "deck_building_id": "8f6416c63cac0fad17fdf749cf9ede58f5fd446b",
+        "culture_invariant_id": 2176,
+        "sort_number": 223,
+        "additional_info": [],
+        "ink_convertible": false,
+        "abilities": [],
+        "subtypes": [
+          "Lied"
+        ],
+        "flavor_text": "",
+        "rules_text": "(Du kannst einen Charakter, der 3 oder mehr kostet, , damit er dieses Lied kostenlos singt.) Ein Charakter deiner Wahl erhält bis zu Beginn deines nächsten Zuges Robust +2. Wenn du einen Helden wählst, kann dieser Charakter in diesem Zug bereite Charaktere herausfordern. (Reduziere jeglichen Schaden, der dem Charakter zugefügt wird, um 2.)",
+        "card_identifier": "222/204 DE 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/de/set9/222_21f065a37eb4d8452271cbde5e8d8f83b45037fe.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/de/set9/222_ad421021d4345e7ff5db18db7afe0b7787913f9c.jpg",
+            "foil_type": "Satin",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/set9/222_3ded5dfec473ccc1556a8228d0ebd1104737f03b.jpg",
+            "foil_top_layer": "HighGloss",
+            "foil_top_layer_mask_url": "https://api.lorcana.ravensburger.com/images/de/set9/222_763202336ae6468ee9c7b7b6b2d4aa732834467d.jpg"
+          }
+        ],
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "STEEL"
+        ],
+        "searchable_keywords": [
+          "Hercules"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
         "name": "Der ewige Kreis",
         "rarity": "ENCHANTED",
         "ink_cost": 8,
@@ -89429,6 +89854,41 @@
         "searchable_keywords": [
           "Goofy - Der Film",
           "Goofy Movie"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Herz aus Stahl",
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Jared Nickerl / Alex Accorsi",
+        "deck_building_id": "7a794400c5430b77a9bd93dc9c73e7ae38d73f5e",
+        "culture_invariant_id": 2186,
+        "sort_number": 251,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [],
+        "subtypes": [
+          "Lied"
+        ],
+        "flavor_text": "Augen wie ein Adler%und ein Herz aus Stahl",
+        "rules_text": "(Du kannst einen Charakter, der 3 oder mehr kostet, , damit er dieses Lied kostenlos singt.) Zähle deine Charaktere im Spiel. Füge einem Charakter deiner Wahl dieselbe Anzahl Schaden zu.",
+        "card_identifier": "8/P3 DE 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/de/promo3/8_06e45955024ec4bdb849bdcb62139740a6e43410.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/de/promo3/8_6d5406a3a9f04c7ed01b2c7e838ad45585507512.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/promo3/8_2ae2361704472fe41130d1781086928a5f9c4642.jpg"
+          }
+        ],
+        "special_rarity_id": "CHALLENGE",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "STEEL"
         ],
         "set_rotation_state": "CoreConstructed"
       },
@@ -99716,9 +100176,9 @@
       }
     ]
   },
-  "hero_graphic_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-phone/C9156C7989AFB183ACD99356ED77BFEE.jpg",
-  "hero_graphic_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-tablet/41A127E24273608ECFD93C6DAEA97989.jpg",
   "logo_banner_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-phone/A2558A2667BD4DB0A452E6884D9DF855.png",
+  "hero_graphic_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-tablet/41A127E24273608ECFD93C6DAEA97989.jpg",
+  "hero_graphic_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-phone/C9156C7989AFB183ACD99356ED77BFEE.jpg",
   "logo_banner_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-tablet/83434FCA9ADB48671FEE8CDD79DB9C34.png",
   "special_rarities": [
     {
@@ -99743,6 +100203,17 @@
     }
   ],
   "news": [
+    {
+      "title": "Mythen ist enthüllt! ",
+      "subtitle": "Entdecke die neuen Karten",
+      "target_type": "SearchResults",
+      "target_object": {
+        "expansions": [
+          "Mythen"
+        ]
+      },
+      "image_url": "https://api.lorcana.ravensburger.com/images/de/news/FE511CA21D1E13EDF4D64EE3F4EEB8E9.jpg"
+    },
     {
       "title": "ATEMBERAUBENDE",
       "subtitle": "NEUE SELTENHEITEN",

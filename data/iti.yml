@@ -3786,6 +3786,20 @@
         sort_number: 38
       rarity: rare
       illustrator: "John Loren"
+    - set: fab
+      id: 208
+      dreamborn: "009-208"
+      ravensburger: 
+        en: "208/204 EN 9"
+        fr: "208/204 FR 9"
+        de: "208/204 DE 9"
+        it: "208/204 IT 9"
+        zh: "208/204 ZH 9"
+        ja: "208/204 JA 9"
+        culture_invariant_id: 2162
+        sort_number: 209
+      rarity: epic
+      illustrator: "John Loren"
   lore: 1
   cost: 3
   inkwell: false
@@ -4442,9 +4456,10 @@
         it: "7/P3 IT 9"
         zh: "7/P3 ZH 9"
         ja: "7/P3 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2185
+        sort_number: 250
       rarity: special
+      illustrator: "Massimiliano Narciso / Marieke Ferrari"
   lore: 2
   cost: 1
   inkwell: false
