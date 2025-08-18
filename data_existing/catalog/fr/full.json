@@ -1,7 +1,7 @@
 {
   "application_shared_properties": {
-    "current_app_version": "2025.2.1",
-    "minimum_app_version": "2025.1.1"
+    "current_app_version": "2025.3",
+    "minimum_app_version": "2025.3"
   },
   "card_sets": [
     {
@@ -9010,6 +9010,48 @@
         ],
         "magic_ink_colors": [
           "RUBY"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Dumbo",
+        "subtitle": "L’éléphant volant",
+        "strength": 2,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Sandara Tang",
+        "deck_building_id": "252b4d93bdf671a8ad7c6c28742c3add6473ac4b",
+        "culture_invariant_id": 2179,
+        "sort_number": 244,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Insaisissable"
+        ],
+        "subtypes": [
+          "Storyborn",
+          "Héros"
+        ],
+        "flavor_text": "",
+        "rules_text": "Insaisissable (Seuls les personnages avec Insaisissable peuvent défier ce personnage.) DUO AÉRIEN Lorsque vous jouez ce personnage, choisissez un personnage qui gagne Insaisissable jusqu'au début de votre prochain tour.",
+        "card_identifier": "1/P3 FR 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/fr/promo3/1_c5d8f4d414a3aee8df5f79d8e409f9118e7ea27c.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/fr/promo3/1_436f7a523754c2775b0e7d4d4f32bd5130ec4db9.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/fr/promo3/1_b7e6ad0eac5946f9c8f67d2965e61b61e7ed3b94.jpg"
+          }
+        ],
+        "special_rarity_id": "PROMO",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
         ],
         "set_rotation_state": "CoreConstructed"
       },
@@ -99853,9 +99895,9 @@
       }
     ]
   },
-  "logo_banner_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-phone/A2558A2667BD4DB0A452E6884D9DF855.png",
-  "hero_graphic_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-tablet/41A127E24273608ECFD93C6DAEA97989.jpg",
   "hero_graphic_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-phone/C9156C7989AFB183ACD99356ED77BFEE.jpg",
+  "hero_graphic_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-tablet/41A127E24273608ECFD93C6DAEA97989.jpg",
+  "logo_banner_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-phone/A2558A2667BD4DB0A452E6884D9DF855.png",
   "logo_banner_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-tablet/83434FCA9ADB48671FEE8CDD79DB9C34.png",
   "special_rarities": [
     {
@@ -99880,6 +99922,13 @@
     }
   ],
   "news": [
+    {
+      "title": "Notes de sortie",
+      "subtitle": "Fabuleux !",
+      "target_type": "WebPage",
+      "target_object": "https://www.disneylorcana.com/fr-FR/news_/2025_/08_/2025-8-release-notes-fabled",
+      "image_url": "https://api.lorcana.ravensburger.com/images/fr/news/9F203F8C43EF5895F268B4405DB10168.jpg"
+    },
     {
       "title": "Fabuleux est là",
       "subtitle": "Découvrez les cartes",

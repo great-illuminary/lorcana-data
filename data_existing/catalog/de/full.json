@@ -1,7 +1,7 @@
 {
   "application_shared_properties": {
-    "current_app_version": "2025.2.1",
-    "minimum_app_version": "2025.1.1"
+    "current_app_version": "2025.3",
+    "minimum_app_version": "2025.3"
   },
   "card_sets": [
     {
@@ -9027,6 +9027,48 @@
           "Mickey Mouse",
           "Mickey Maus",
           "Micky Mouse"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Dumbo",
+        "subtitle": "Der fliegende Elefant",
+        "strength": 2,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Sandara Tang",
+        "deck_building_id": "252b4d93bdf671a8ad7c6c28742c3add6473ac4b",
+        "culture_invariant_id": 2179,
+        "sort_number": 244,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Wendig"
+        ],
+        "subtypes": [
+          "Sagengestalt",
+          "Held"
+        ],
+        "flavor_text": "",
+        "rules_text": "Wendig (Nur Charaktere mit Wendig können diesen Charakter herausfordern.) LUFT-DUO Wenn du diesen Charakter ausspielst, erhält ein Charakter deiner Wahl bis zu Beginn deines nächsten Zuges Wendig.",
+        "card_identifier": "1/P3 DE 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/de/promo3/1_61073686fcd68ec0f30862162be92f09f41dfbfe.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/de/promo3/1_048463449c4a8de096dafaca79ddec144752968e.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/de/promo3/1_72f54642b8412ed6b4fc3e10d5d8c10d18ac3661.jpg"
+          }
+        ],
+        "special_rarity_id": "PROMO",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
         ],
         "set_rotation_state": "CoreConstructed"
       },
@@ -100176,9 +100218,9 @@
       }
     ]
   },
-  "logo_banner_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-phone/A2558A2667BD4DB0A452E6884D9DF855.png",
-  "hero_graphic_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-tablet/41A127E24273608ECFD93C6DAEA97989.jpg",
   "hero_graphic_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-phone/C9156C7989AFB183ACD99356ED77BFEE.jpg",
+  "hero_graphic_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-tablet/41A127E24273608ECFD93C6DAEA97989.jpg",
+  "logo_banner_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-phone/A2558A2667BD4DB0A452E6884D9DF855.png",
   "logo_banner_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-tablet/83434FCA9ADB48671FEE8CDD79DB9C34.png",
   "special_rarities": [
     {
@@ -100203,6 +100245,13 @@
     }
   ],
   "news": [
+    {
+      "title": "Set-Release-Infos",
+      "subtitle": "Mythen!",
+      "target_type": "WebPage",
+      "target_object": "https://www.disneylorcana.com/de-DE/news_/2025_/08_/2025-8-release-notes-fabled",
+      "image_url": "https://api.lorcana.ravensburger.com/images/de/news/9F203F8C43EF5895F268B4405DB10168.jpg"
+    },
     {
       "title": "Mythen ist enthüllt! ",
       "subtitle": "Entdecke die neuen Karten",

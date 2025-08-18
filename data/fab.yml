@@ -517,9 +517,10 @@
         it: "1/P3 IT 9"
         zh: "1/P3 ZH 9"
         ja: "1/P3 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2179
+        sort_number: 244
       rarity: special
+      illustrator: "Sandara Tang"
   lore: 1
   cost: 3
   inkwell: true
@@ -781,6 +782,20 @@
         en: "When you play this character, you may pay 1 {I} to return a song card with cost 3 or less from your discard to your hand."
   franchise_id: "unknown"
 - variants: 
+    - set: fab
+      id: 76
+      dreamborn: "009-076"
+      ravensburger: 
+        en: "076/204 EN 9"
+        fr: "076/204 FR 9"
+        de: "076/204 DE 9"
+        it: "076/204 IT 9"
+        zh: "076/204 ZH 9"
+        ja: "076/204 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: super_rare
+      illustrator: "Jeanne Plounevez"
     - set: fab
       id: 229
       dreamborn: "009-229"

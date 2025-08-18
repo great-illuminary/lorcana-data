@@ -1,7 +1,7 @@
 {
   "application_shared_properties": {
-    "current_app_version": "2025.2.1",
-    "minimum_app_version": "2025.1.1"
+    "current_app_version": "2025.3",
+    "minimum_app_version": "2025.3"
   },
   "card_sets": [
     {
@@ -8872,6 +8872,48 @@
         ],
         "magic_ink_colors": [
           "RUBY"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Dumbo",
+        "subtitle": "The Flying Elephant",
+        "strength": 2,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Sandara Tang",
+        "deck_building_id": "252b4d93bdf671a8ad7c6c28742c3add6473ac4b",
+        "culture_invariant_id": 2179,
+        "sort_number": 244,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Evasive"
+        ],
+        "subtypes": [
+          "Storyborn",
+          "Hero"
+        ],
+        "flavor_text": "",
+        "rules_text": "Evasive (Only characters with Evasive can challenge this character.) AERIAL DUO When you play this character, chosen character gains Evasive until the start of your next turn.",
+        "card_identifier": "1/P3 EN 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/en/promo3/1_396ac35493791a90c46bb6bdba4e88ba24e5f4ee.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/en/promo3/1_07c90c996a1bc7e5f16f1d92c1cff54b3a00bc65.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/en/promo3/1_7e64322f5e26e5a9c820ed2e6e1c619cda55ccd6.jpg"
+          }
+        ],
+        "special_rarity_id": "PROMO",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
         ],
         "set_rotation_state": "CoreConstructed"
       },
@@ -98788,9 +98830,9 @@
       }
     ]
   },
-  "logo_banner_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-phone/A2558A2667BD4DB0A452E6884D9DF855.png",
-  "hero_graphic_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-tablet/41A127E24273608ECFD93C6DAEA97989.jpg",
   "hero_graphic_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-phone/C9156C7989AFB183ACD99356ED77BFEE.jpg",
+  "hero_graphic_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-tablet/41A127E24273608ECFD93C6DAEA97989.jpg",
+  "logo_banner_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-phone/A2558A2667BD4DB0A452E6884D9DF855.png",
   "logo_banner_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-tablet/83434FCA9ADB48671FEE8CDD79DB9C34.png",
   "special_rarities": [
     {
@@ -98815,6 +98857,13 @@
     }
   ],
   "news": [
+    {
+      "title": "Fabled Set Notes",
+      "subtitle": "Follow Mickey's Trumpet!",
+      "target_type": "WebPage",
+      "target_object": "https://www.disneylorcana.com/en-US/news_/2025_/08_/2025-8-release-notes-fabled",
+      "image_url": "https://api.lorcana.ravensburger.com/images/en/news/9F203F8C43EF5895F268B4405DB10168.jpg"
+    },
     {
       "title": "Fabled is revealed!",
       "subtitle": "Discover the new cards",

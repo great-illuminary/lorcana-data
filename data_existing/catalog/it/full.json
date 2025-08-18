@@ -1,7 +1,7 @@
 {
   "application_shared_properties": {
-    "current_app_version": "2025.2.1",
-    "minimum_app_version": "2025.1.1"
+    "current_app_version": "2025.3",
+    "minimum_app_version": "2025.3"
   },
   "card_sets": [
     {
@@ -8993,6 +8993,48 @@
         ],
         "magic_ink_colors": [
           "RUBY"
+        ],
+        "set_rotation_state": "CoreConstructed"
+      },
+      {
+        "name": "Dumbo",
+        "subtitle": "L'Elefante Volante",
+        "strength": 2,
+        "willpower": 2,
+        "quest_value": 1,
+        "rarity": "SPECIAL",
+        "ink_cost": 3,
+        "author": "Sandara Tang",
+        "deck_building_id": "252b4d93bdf671a8ad7c6c28742c3add6473ac4b",
+        "culture_invariant_id": 2179,
+        "sort_number": 244,
+        "additional_info": [],
+        "ink_convertible": true,
+        "abilities": [
+          "Sfuggente"
+        ],
+        "subtypes": [
+          "Classico",
+          "Eroe"
+        ],
+        "flavor_text": "",
+        "rules_text": "Sfuggente (Solo altri personaggi con Sfuggente possono sfidare questo personaggio.) COPPIA AEREA Quando giochi questo personaggio, un personaggio a tua scelta ottiene Sfuggente fino all'inizio del tuo prossimo turno.",
+        "card_identifier": "1/P3 IT 9",
+        "thumbnail_url": "https://api.lorcana.ravensburger.com/images/it/promo3/1_8c85aac9d00abebd87f471270a0a8a9303233f2c.jpg",
+        "variants": [
+          {
+            "variant_id": "Regular",
+            "detail_image_url": "https://api.lorcana.ravensburger.com/images/it/promo3/1_5c4d9350b390cf60ad1835d82928f08e04a20bcd.jpg",
+            "foil_type": "Silver",
+            "foil_mask_url": "https://api.lorcana.ravensburger.com/images/it/promo3/1_c827aff6ea38a5d1cb55956718ea913ea327370b.jpg"
+          }
+        ],
+        "special_rarity_id": "PROMO",
+        "card_sets": [
+          "set9"
+        ],
+        "magic_ink_colors": [
+          "AMETHYST"
         ],
         "set_rotation_state": "CoreConstructed"
       },
@@ -99949,9 +99991,9 @@
       }
     ]
   },
-  "logo_banner_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-phone/A2558A2667BD4DB0A452E6884D9DF855.png",
-  "hero_graphic_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-tablet/41A127E24273608ECFD93C6DAEA97989.jpg",
   "hero_graphic_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-phone/C9156C7989AFB183ACD99356ED77BFEE.jpg",
+  "hero_graphic_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/hero-graphic-tablet/41A127E24273608ECFD93C6DAEA97989.jpg",
+  "logo_banner_phone_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-phone/A2558A2667BD4DB0A452E6884D9DF855.png",
   "logo_banner_tablet_image_url": "https://api.lorcana.ravensburger.com/images/assets/logo-banner-tablet/83434FCA9ADB48671FEE8CDD79DB9C34.png",
   "special_rarities": [
     {
