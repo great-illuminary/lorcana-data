@@ -39,8 +39,10 @@ data class RBCard(
     val flavorText: String? = null,
     @SerialName("card_identifier")
     val cardIdentifier: String = "",
+    val variants: List<RBVariantImage>? = null,
+    @Deprecated("deprecated in favor of the variants field, note : for ZH & JP")
     @SerialName("image_urls")
-    val imageUrls: List<RBImageUrl>,
+    val imageUrls: List<RBImageUrl>? = null,
     @SerialName("magic_ink_colors")
     val magicInkColors: List<String>,
     @SerialName("ink_cost")
@@ -64,17 +66,23 @@ data class RBCard(
 ) {
     val subtypes: List<String>
         get() = internalSubtypes.map {
-            val known = Classification.entries.map {
-                it.slug to it
-            }.toMap()
+            val known = Classification.entries.associateBy { klass -> klass.slug }
 
             val found = known[it.replace(" ", "_").lowercase()]
             if (null != found) return@map found.slug
             throw IllegalStateException("Invalid $it")
         }
 
-    val highResImage: RBImageUrl?
-        get() = imageUrls.maxByOrNull { it.height }
+    val resImage: String
+        get() = variantImage ?: highResImage
+        ?: throw IllegalStateException("no image found for $cardIdentifier")
+
+    @Deprecated("Deprecated in favor of variantImage")
+    private val highResImage: String?
+        get() = imageUrls?.maxByOrNull { it.height }?.url
+
+    private val variantImage: String?
+        get() = variants?.first()?.detailImageUrl
 
     val actualRarity: VariantRarity?
         get() = when (rarity) {
@@ -85,6 +93,8 @@ data class RBCard(
             "LEGENDARY" -> VariantRarity.Legendary
             "ENCHANTED" -> VariantRarity.Enchanted
             "SPECIAL" -> VariantRarity.Special
+            "EPIC" -> VariantRarity.Epic
+            "ICONIC" -> VariantRarity.Iconic
             else -> throw IllegalStateException("invalid rarity $rarity")
         }
 
@@ -101,6 +111,18 @@ data class RBCard(
             }
         }
 }
+
+@Serializable
+data class RBVariantImage(
+    @SerialName("variant_id")
+    val variantId: String,
+    @SerialName("detail_image_url")
+    val detailImageUrl: String,
+    @SerialName("foil_top_layer")
+    val foilTopLayer: String? = null,
+    @SerialName("foil_top_layer_mask_url")
+    val foilTopLayerMaskUrl: String? = null
+)
 
 @Serializable
 data class RBImageUrl(

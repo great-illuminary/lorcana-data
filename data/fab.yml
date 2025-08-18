@@ -1,5 +1,164 @@
 - variants: 
     - set: fab
+      id: 1
+      dreamborn: "009-001"
+      ravensburger: 
+        en: "1/204 EN 9"
+        fr: "1/204 FR 9"
+        de: "1/204 DE 9"
+        it: "1/204 IT 9"
+        zh: "1/204 ZH 9"
+        ja: "1/204 JA 9"
+        culture_invariant_id: 1937
+        sort_number: 2
+      rarity: rare
+      illustrator: "Eri Welli"
+    - set: p3
+      id: 3
+      dreamborn: "009-P3-003"
+      ravensburger: 
+        en: "3/P3 EN 9"
+        fr: "3/P3 FR 9"
+        de: "3/P3 DE 9"
+        it: "3/P3 IT 9"
+        zh: "3/P3 ZH 9"
+        ja: "3/P3 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: special
+    - set: fab
+      id: 205
+      dreamborn: "009-205"
+      ravensburger: 
+        en: "205/204 EN 9"
+        fr: "205/204 FR 9"
+        de: "205/204 DE 9"
+        it: "205/204 IT 9"
+        zh: "205/204 ZH 9"
+        ja: "205/204 JA 9"
+        culture_invariant_id: 2159
+        sort_number: 206
+      rarity: epic
+      illustrator: "Eri Welli"
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 4
+  colors: 
+    - amber
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "villain"
+    - "queen"
+    - "sorcerer"
+  illustrator: "Eri Welli"
+  languages: 
+    en: 
+      name: "The Queen"
+      title: "Conceited Ruler"
+      flavour: ""
+    fr: 
+      name: "La Reine"
+      title: "Souveraine vaniteuse"
+      flavour: ""
+    it: 
+      name: "Regina"
+      title: "Monarca Presuntuosa"
+      flavour: ""
+    de: 
+      name: "Die Königin"
+      title: "Eingebildete Herrscherin"
+      flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "support"
+      text: 
+        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
+      ability: "support"
+    - type: static-triggered
+      title: 
+        en: "ROYAL SUMMONS"
+      text: 
+        en: "At the start of your turn, you may choose and discard a Princess or Queen character card to return a character card from your discard to your hand"
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 4
+      dreamborn: "009-004"
+      ravensburger: 
+        en: "4/204 EN 9"
+        fr: "4/204 FR 9"
+        de: "4/204 DE 9"
+        it: "4/204 IT 9"
+        zh: "4/204 ZH 9"
+        ja: "4/204 JA 9"
+        culture_invariant_id: 1940
+        sort_number: 5
+      rarity: rare
+      illustrator: "Grace Tran"
+    - set: fab
+      id: 224
+      dreamborn: "009-224"
+      ravensburger: 
+        en: "224/204 EN 9"
+        fr: "224/204 FR 9"
+        de: "224/204 DE 9"
+        it: "224/204 IT 9"
+        zh: "224/204 ZH 9"
+        ja: "224/204 JA 9"
+        culture_invariant_id: 2142
+        sort_number: 225
+      rarity: enchanted
+      illustrator: "Ian MacDonald"
+  lore: 1
+  cost: 5
+  inkwell: true
+  attack: 5
+  defence: 4
+  colors: 
+    - amber
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+    - "prince"
+  illustrator: "Grace Tran"
+  languages: 
+    en: 
+      name: "Beast"
+      title: "Gracious Prince"
+      flavour: "His heart warmed as the music began and the dancers took their places."
+    fr: 
+      name: "La Bête"
+      title: "Prince courtois"
+      flavour: "Son cœur se réchauffa lorsque la musique s’élança et que les danseurs prirent place."
+    it: 
+      name: "La Bestia"
+      title: "Principe Cortese"
+      flavour: "Si commosse sentendo iniziare la musica e vedendo i ballerini prendere posto."
+    de: 
+      name: "Biest"
+      title: "Anmutiger Prinz"
+      flavour: "Ihm wurde warm ums Herz, als die Musik einsetzte und die Tänzer ihre Plätze einnahmen."
+  abilities: 
+    - type: static
+      title: 
+        en: "FULL DANCE CARD"
+      text: 
+        en: "Your Princess characters get +1 {W}"
+      ability: "effects"
+    - type: static
+      title: 
+        en: "FULL DANCE CARD"
+      text: 
+        en: "Your Princess characters get +1 {S}"
+      ability: "effects"
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
       id: 5
       dreamborn: "009-005"
       ravensburger: 
@@ -9,9 +168,10 @@
         it: "5/204 IT 9"
         zh: "5/204 ZH 9"
         ja: "5/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1941
+        sort_number: 6
       rarity: super_rare
+      illustrator: "Ellie Horie"
     - set: fab
       id: 241
       dreamborn: "009-241"
@@ -22,8 +182,8 @@
         it: "241/204 IT 9"
         zh: "241/204 ZH 9"
         ja: "241/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2177
+        sort_number: 242
       rarity: iconic
       illustrator: "Alice Pisoni"
   lore: 2
@@ -44,64 +204,215 @@
       name: "Minnie Mouse"
       title: "Sweetheart Princess"
       flavour: ""
+    fr: 
+      name: "Minnie"
+      title: "Adorable princesse"
+      flavour: ""
+    it: 
+      name: "Minni"
+      title: "Dolce Principessa"
+      flavour: ""
+    de: 
+      name: "Minnie Maus"
+      title: "Geliebte Prinzessin"
+      flavour: ""
   abilities: 
     - type: static
       title: 
-        en: "royal favor"
+        en: "Dexterous Lunge"
       text: 
-        en: "**Royal Favor** Your characters named Mickey Mouse gain **Support**. _(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
-    - type: static
+        en: "Your characters named Jetsam gain **Rush.**"
+      ability: "gain-ability"
+    - type: static-triggered
       title: 
-        en: "Bye bye, now"
+        en: "BYE BYE, NOW"
       text: 
         en: "Whenever this character quests, you may banish chosen exerted character with 5 {S} or more."
   franchise_id: "unknown"
 - variants: 
-    - set: p3
-      id: 3
-      dreamborn: "009-P3-003"
+    - set: fab
+      id: 6
+      dreamborn: "009-006"
       ravensburger: 
-        en: "3/P3 EN 9"
-        fr: "3/P3 FR 9"
-        de: "3/P3 DE 9"
-        it: "3/P3 IT 9"
-        zh: "3/P3 ZH 9"
-        ja: "3/P3 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: special
+        en: "6/204 EN 9"
+        fr: "6/204 FR 9"
+        de: "6/204 DE 9"
+        it: "6/204 IT 9"
+        zh: "6/204 ZH 9"
+        ja: "6/204 JA 9"
+        culture_invariant_id: 1942
+        sort_number: 7
+      rarity: uncommon
+      illustrator: "Jeanne Plounevez"
+    - set: fab
+      id: 206
+      dreamborn: "009-206"
+      ravensburger: 
+        en: "206/204 EN 9"
+        fr: "206/204 FR 9"
+        de: "206/204 DE 9"
+        it: "206/204 IT 9"
+        zh: "206/204 ZH 9"
+        ja: "206/204 JA 9"
+        culture_invariant_id: 2160
+        sort_number: 207
+      rarity: epic
+      illustrator: "Jeanne Plounevez"
   lore: 1
-  cost: 3
+  cost: 1
   inkwell: true
-  attack: 2
-  defence: 4
+  attack: 1
+  defence: 2
   colors: 
     - amber
   type: glimmer
   classifications: 
     - "storyborn"
-    - "villain"
-    - "queen"
-    - "sorcerer"
+    - "hero"
+    - "princess"
+  illustrator: "Jeanne Plounevez"
+  languages: 
+    en: 
+      name: "Aurora"
+      title: "Holding Court"
+      flavour: "The other princesses were especially happy to attend her long-awaited celebration."
+    fr: 
+      name: "Aurore"
+      title: "Tient audiance"
+      flavour: "Les autres princesses étaient particulièrement heureuses d'assister à sa célébration tant attendue."
+    it: 
+      name: "Aurora"
+      title: "In Ricevimento a Corte"
+      flavour: "Le altre principesse erano particolarmente felici di partecipare alla sua tanto attesa festa."
+    de: 
+      name: "Aurora"
+      title: "Hält Hof"
+      flavour: "Die anderen Prinzessinnen freuten sich besonders, an ihrer lang erwarteten Feier teilzunehmen."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "ROYAL WELCOME"
+      text: 
+        en: "Whenever this character quests, you pay 1 {I} less for the next Princess or Queen character you play this turn."
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 26
+      dreamborn: "009-026"
+      ravensburger: 
+        en: "26/204 EN 9"
+        fr: "26/204 FR 9"
+        de: "26/204 DE 9"
+        it: "26/204 IT 9"
+        zh: "26/204 ZH 9"
+        ja: "26/204 JA 9"
+        culture_invariant_id: 1962
+        sort_number: 27
+      rarity: legendary
+      illustrator: "Eri Welli"
+    - set: fab
+      id: 225
+      dreamborn: "009-225"
+      ravensburger: 
+        en: "225/204 EN 9"
+        fr: "225/204 FR 9"
+        de: "225/204 DE 9"
+        it: "225/204 IT 9"
+        zh: "225/204 ZH 9"
+        ja: "225/204 JA 9"
+        culture_invariant_id: 2143
+        sort_number: 226
+      rarity: enchanted
+      illustrator: "Alice Pisoni"
+  cost: 8
+  inkwell: true
+  colors: 
+    - amber
+  type: action
+  classifications: 
+    - "song"
   illustrator: "Eri Welli"
   languages: 
     en: 
-      name: "The Queen"
-      title: "Conceited Ruler"
+      name: "Circle of Life"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "L'histoire de la vie"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Il Cerchio della Vita"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Der ewige Kreis"
+      title: ""
       flavour: ""
   abilities: 
     - type: static
       title: 
-        en: "support"
+        en: "sing-together"
       text: 
-        en: "**Support** _Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
-    - type: static
+        en: "**Sing Together** 8 _(Any number of your of your teammates' characters with total cost 8 or more may {E} to sing this song for free.)_"
+      ability: "sing-together"
+    - type: resolution
       title: 
-        en: "ROYAL SUMMONS"
+        en: "**CIRCLE OF LIFE**"
       text: 
-        en: "At the start of your turn, you may choose and discard a Princess or Queen character card to return a character card from your discard to your hand."
+        en: "Play a character from your discard for free."
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 44
+      dreamborn: "009-044"
+      ravensburger: 
+        en: "44/204 EN 9"
+        fr: "44/204 FR 9"
+        de: "44/204 DE 9"
+        it: "44/204 IT 9"
+        zh: "44/204 ZH 9"
+        ja: "44/204 JA 9"
+        culture_invariant_id: 1980
+        sort_number: 45
+      rarity: super_rare
+      illustrator: "Max Ulichney"
+  lore: 1
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 4
+  colors: 
+    - amethyst
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "villain"
+    - "sorcerer"
+  illustrator: "Max Ulichney"
+  languages: 
+    en: 
+      name: "Ursula"
+      title: "Voice Stealer"
+      flavour: ""
+    fr: 
+      name: "Ursula"
+      title: "Voleuse de voix"
+      flavour: ""
+    it: 
+      name: "Ursula"
+      title: "Ladra di Voci"
+      flavour: ""
+    de: 
+      name: "Ursula"
+      title: "Stimmendiebin"
+      flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "$undefined"
+      text: 
+        en: "$undefined"
   franchise_id: "unknown"
 - variants: 
     - set: fab
@@ -114,8 +425,8 @@
         it: "45/204 IT 9"
         zh: "45/204 ZH 9"
         ja: "45/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1981
+        sort_number: 46
       rarity: legendary
       illustrator: "Mariana Moreno"
     - set: fab
@@ -128,8 +439,8 @@
         it: "228/204 IT 9"
         zh: "228/204 ZH 9"
         ja: "228/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2146
+        sort_number: 229
       rarity: enchanted
       illustrator: "Anna Stosik"
   lore: 1
@@ -143,11 +454,23 @@
   classifications: 
     - "storyborn"
     - "hero"
-  illustrator: ""
+  illustrator: "Mariana Moreno"
   languages: 
     en: 
       name: "Dumbo"
       title: "Ninth Wonder of the Universe"
+      flavour: ""
+    fr: 
+      name: "Dumbo"
+      title: "Neuvième merveille du monde"
+      flavour: ""
+    it: 
+      name: "Dumbo"
+      title: "Nona Meraviglia dell'Universo"
+      flavour: ""
+    de: 
+      name: "Dumbo"
+      title: "Das neunte Weltwunder"
       flavour: ""
   abilities: 
     - type: static
@@ -156,16 +479,17 @@
       text: 
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
-    - type: static
+    - type: activated
       title: 
         en: "BREAKING RECORDS"
       text: 
-        en: "{E}, 1 {I} - Draw a card and gain 1 {L}."
+        en: "{E}, 1 {I} – If you have 2 or more characters in play, gain 1 lore."
     - type: static
       title: 
         en: "MAKING HISTORY"
       text: 
-        en: "Your other characters with **Evasive** ”gain {E}, 1 {I} - Draw a card and gain 1 {L}.”"
+        en: "Your other characters with Evasive gain ``{E}, 1 {I} – Draw a card and gain 1 lore.``"
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: fab
@@ -178,9 +502,10 @@
         it: "46/204 IT 9"
         zh: "46/204 ZH 9"
         ja: "46/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1982
+        sort_number: 47
       rarity: uncommon
+      illustrator: "Sandara Tang"
     - set: p3
       id: 1
       dreamborn: "009-P3-001"
@@ -211,6 +536,18 @@
       name: "Dumbo"
       title: "The Flying Elephant"
       flavour: ""
+    fr: 
+      name: "Dumbo"
+      title: "L’éléphant volant"
+      flavour: ""
+    it: 
+      name: "Dumbo"
+      title: "L'Elefante Volante"
+      flavour: ""
+    de: 
+      name: "Dumbo"
+      title: "Der fliegende Elefant"
+      flavour: ""
   abilities: 
     - type: static
       title: 
@@ -218,11 +555,11 @@
       text: 
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
-    - type: static
+    - type: resolution
       title: 
-        en: "Aerial duo"
+        en: "AERIAL DUO"
       text: 
-        en: "When you play this character, chosen character gains **Evasive** until the start of your next turn."
+        en: "When you play this character, chosen character gains Evasive until the start of your next turn."
   franchise_id: "unknown"
 - variants: 
     - set: fab
@@ -235,9 +572,10 @@
         it: "47/204 IT 9"
         zh: "47/204 ZH 9"
         ja: "47/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 1983
+        sort_number: 48
       rarity: common
+      illustrator: "Grace Tran"
   lore: 1
   cost: 2
   inkwell: true
@@ -254,13 +592,26 @@
     en: 
       name: "Timothy Q. Mouse"
       title: "Flight Instructor"
-      flavour: "Stick with me, kid, and we'll fly all the way to the top!"
+      flavour: "Stick with me, kid, and we’ll fly all the way to the top!"
+    fr: 
+      name: "Timothée"
+      title: "Instructeur de vol"
+      flavour: "Reste avec moi, petit, et nous volerons vers les sommets!"
+    it: 
+      name: "Timoteo"
+      title: "Istruttore di Volo"
+      flavour: "Resta con me, piccolo, e voleremo fino in capo al mondo!"
+    de: 
+      name: "Timotheus"
+      title: "Fluglehrer"
+      flavour: "Bleib bei mir, Kleiner, und wir fliegen bis ganz nach oben!"
   abilities: 
-    - type: static-triggered
+    - type: static
       title: 
-        en: "Let's show'em, Dumbo!"
+        en: "LET'S SHOW 'EM, DUMBO!"
       text: 
-        en: "While you have a character with **Evasive** in play, this character gets +1 {L}."
+        en: "While you have a character with Evasive in play, this character gets +1 {L}."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: fab
@@ -273,9 +624,10 @@
         it: "64/204 IT 9"
         zh: "64/204 ZH 9"
         ja: "64/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2000
+        sort_number: 65
       rarity: rare
+      illustrator: "Mariana Moreno"
   cost: 2
   inkwell: true
   colors: 
@@ -287,34 +639,61 @@
       name: "The Magic Feather"
       title: ""
       flavour: ""
+    fr: 
+      name: "La plume magique"
+      title: ""
+      flavour: ""
+    it: 
+      name: "La Piuma Magica"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Die magische Feder"
+      title: ""
+      flavour: ""
   abilities: 
-    - type: static
+    - type: resolution
       title: 
-        en: "Now You Can Fly!"
+        en: "NOW YOU CAN FLY!"
       text: 
-        en: "When you play this item, choose a character of yours. While this item is in play, that character gains **Evasive**. _(Only characters with Evasive can challenge them.)_"
-    - type: static-triggered
+        en: "When you play this item, choose a character of yours. While this item is in play, that character gains Evasive."
+    - type: activated
       title: 
-        en: "Grounded"
+        en: "GROUNDED"
       text: 
-        en: "3 {I} - Return this item to your hand."
+        en: "3 {I} – Return this item to your hand."
   franchise_id: "unknown"
 - variants: 
     - set: fab
-      id: 75
-      dreamborn: "009-075"
+      id: 74
+      dreamborn: "009-074"
       ravensburger: 
-        en: "75/204 EN 9"
-        fr: "75/204 FR 9"
-        de: "75/204 DE 9"
-        it: "75/204 IT 9"
-        zh: "75/204 ZH 9"
-        ja: "75/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        en: "74/204 EN 9"
+        fr: "74/204 FR 9"
+        de: "74/204 DE 9"
+        it: "74/204 IT 9"
+        zh: "74/204 ZH 9"
+        ja: "74/204 JA 9"
+        culture_invariant_id: 2010
+        sort_number: 75
       rarity: rare
+      illustrator: "Carlos Ruiz"
+    - set: fab
+      id: 211
+      dreamborn: "009-211"
+      ravensburger: 
+        en: "211/204 EN 9"
+        fr: "211/204 FR 9"
+        de: "211/204 DE 9"
+        it: "211/204 IT 9"
+        zh: "211/204 ZH 9"
+        ja: "211/204 JA 9"
+        culture_invariant_id: 2165
+        sort_number: 212
+      rarity: epic
+      illustrator: "Carlos Ruiz"
   lore: 1
-  cost: 3
+  cost: 2
   inkwell: true
   attack: 2
   defence: 2
@@ -330,10 +709,22 @@
       name: "Goofy"
       title: "Set for Adventure"
       flavour: ""
+    fr: 
+      name: "Dingo"
+      title: "Prêt pour l'aventure"
+      flavour: ""
+    it: 
+      name: "Pippo"
+      title: "Pronto per l'Avventura"
+      flavour: ""
+    de: 
+      name: "Goofy"
+      title: "Bereit für ein Abenteuer"
+      flavour: ""
   abilities: 
-    - type: static
+    - type: static-triggered
       title: 
-        en: "Family Vacation"
+        en: "FAMILY VACATION"
       text: 
         en: "Once during your turn, whenever this character moves to a location, you may move one of your other characters to that location for free. If you do, draw a card."
   franchise_id: "unknown"
@@ -348,9 +739,10 @@
         it: "75/204 IT 9"
         zh: "75/204 ZH 9"
         ja: "75/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2011
+        sort_number: 76
       rarity: rare
+      illustrator: "Rodrigo Camilo"
   lore: 1
   cost: 3
   inkwell: true
@@ -362,18 +754,197 @@
   classifications: 
     - "storyborn"
     - "hero"
-  illustrator: "Rodrigo (couldn't read)"
+  illustrator: "Rodrigo Camilo"
   languages: 
     en: 
       name: "Max Goof"
       title: "Rebellious Teen"
-      flavour: "”Fast board, cool tunes - what more could you want?”"
+      flavour: "Fast board, cool tunes—what more could you want?"
+    fr: 
+      name: "Max Dingo"
+      title: "Ado rebelle"
+      flavour: "Une planche rapide, des morceaux sympas... Que demander de plus?"
+    it: 
+      name: "Max Pippo"
+      title: "Adolescente Ribelle"
+      flavour: "Skate veloce, canzoni che spaccano. Che altro vuoi di più?"
+    de: 
+      name: "Max Goof"
+      title: "Rebellischer Teenager"
+      flavour: "Ein schnelles Board, coole Musik – was will man mehr?"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "PERSONAL SOUNDTRACK"
+      text: 
+        en: "When you play this character, you may pay 1 {I} to return a song card with cost 3 or less from your discard to your hand."
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 229
+      dreamborn: "009-229"
+      ravensburger: 
+        en: "229/204 EN 9"
+        fr: "229/204 FR 9"
+        de: "229/204 DE 9"
+        it: "229/204 IT 9"
+        zh: "229/204 ZH 9"
+        ja: "229/204 JA 9"
+        culture_invariant_id: 2147
+        sort_number: 230
+      rarity: enchanted
+      illustrator: "Grace Tran"
+  lore: 2
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 3
+  colors: 
+    - emerald
+  type: glimmer
+  classifications: 
+    - "dreamborn"
+    - "ally"
+  illustrator: "Grace Tran"
+  languages: 
+    en: 
+      name: "Genie"
+      title: "Of the Lamp"
+      flavour: ""
+    fr: 
+      name: "Génie"
+      title: "de la Lampe"
+      flavour: ""
+    it: 
+      name: "Genio"
+      title: "Della Lampada"
+      flavour: ""
+    de: 
+      name: "Dschinni"
+      title: "Aus der Wunderlampe"
+      flavour: ""
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 77
+      dreamborn: "009-077"
+      ravensburger: 
+        en: "77/204 EN 9"
+        fr: "77/204 FR 9"
+        de: "77/204 DE 9"
+        it: "77/204 IT 9"
+        zh: "77/204 ZH 9"
+        ja: "77/204 JA 9"
+        culture_invariant_id: 2013
+        sort_number: 78
+      rarity: legendary
+      illustrator: "Max Ulichney"
+    - set: fab
+      id: 230
+      dreamborn: "009-230"
+      ravensburger: 
+        en: "230/204 EN 9"
+        fr: "230/204 FR 9"
+        de: "230/204 DE 9"
+        it: "230/204 IT 9"
+        zh: "230/204 ZH 9"
+        ja: "230/204 JA 9"
+        culture_invariant_id: 2148
+        sort_number: 231
+      rarity: enchanted
+      illustrator: "Federico Maria Cugliari"
+  lore: 2
+  cost: 6
+  inkwell: true
+  attack: 4
+  defence: 5
+  colors: 
+    - emerald
+  type: glimmer
+  classifications: 
+    - "floodborn"
+    - "hero"
+  illustrator: "Max Ulichney"
+  languages: 
+    en: 
+      name: "Max Goof"
+      title: "Chart Topper"
+      flavour: ""
+    fr: 
+      name: "Max Dingo"
+      title: "En tête du hit-parade"
+      flavour: ""
+    it: 
+      name: "Max Pippo"
+      title: "In Vetta alle Classifiche"
+      flavour: ""
+    de: 
+      name: "Max Goof"
+      title: "Chartstürmer"
+      flavour: ""
   abilities: 
     - type: static
       title: 
-        en: "Personal Soundtrack"
+        en: "Shift 4"
       text: 
-        en: "When you play this character, you may pay 1 {I} to return a song card with cost 3 or less from your discard to your hand."
+        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Max Goof.)_"
+      ability: "shift"
+    - type: static-triggered
+      title: 
+        en: "NUMBER ONE HIT"
+      text: 
+        en: "Whenever this character quests, you may play a song card with cost 4 or less from your discard for free, then put it on the bottom of your deck instead of into your discard."
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 78
+      dreamborn: "009-078"
+      ravensburger: 
+        en: "78/204 EN 9"
+        fr: "78/204 FR 9"
+        de: "78/204 DE 9"
+        it: "78/204 IT 9"
+        zh: "78/204 ZH 9"
+        ja: "78/204 JA 9"
+        culture_invariant_id: 2014
+        sort_number: 79
+      rarity: uncommon
+      illustrator: "Stefano Spagnuolo"
+  lore: 1
+  cost: 1
+  inkwell: true
+  attack: 1
+  defence: 2
+  colors: 
+    - emerald
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Stefano Spagnuolo"
+  languages: 
+    en: 
+      name: "Bobby Zimuruski"
+      title: "Spray Cheese Kid"
+      flavour: "It's the Leaning Tower of Cheese-a."
+    fr: 
+      name: "Bobby Zimmeruski"
+      title: "Fan de fromage en spray"
+      flavour: "J’avale direct la tour de Pise, t’as vu ?"
+    it: 
+      name: "Bobby Zimuruski"
+      title: "Ragazzo del Gorgonzola Spray"
+      flavour: "Il Gorgonzola Pendente di Pisa."
+    de: 
+      name: "Robert Zimuruski"
+      title: "Sprühkäse-Kind"
+      flavour: "Das ist der schiefe Turm von Käsa."
+  abilities: 
+    - type: resolution
+      title: 
+        en: ""
+      text: 
+        en: ""
   franchise_id: "unknown"
 - variants: 
     - set: fab
@@ -386,9 +957,10 @@
         it: "94/204 IT 9"
         zh: "94/204 ZH 9"
         ja: "94/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2030
+        sort_number: 95
       rarity: uncommon
+      illustrator: "Raquel Villanueva"
     - set: fab
       id: 213
       dreamborn: "009-213"
@@ -399,9 +971,10 @@
         it: "213/204 IT 9"
         zh: "213/204 ZH 9"
         ja: "213/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2167
+        sort_number: 214
       rarity: epic
+      illustrator: "Raquel Villanueva"
   cost: 3
   inkwell: true
   colors: 
@@ -413,12 +986,76 @@
   languages: 
     en: 
       name: "Stand Out"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "Stand Out"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Stand Out"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Stand Out"
+      title: ""
+      flavour: ""
   abilities: 
     - type: resolution
       title: 
         en: "Stand Out"
       text: 
-        en: "_(A character with cost 3 or more can Exert.png to sing this song for free.)\nChosen character gets +3 {S} and gains Evasive until the start of your next turn. _(Only characters with Evasive can challenge them.)_"
+        en: "Chosen character gets +3 {S} and gains Evasive until the start of your next turn."
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 100
+      dreamborn: "009-100"
+      ravensburger: 
+        en: "100/204 EN 9"
+        fr: "100/204 FR 9"
+        de: "100/204 DE 9"
+        it: "100/204 IT 9"
+        zh: "100/204 ZH 9"
+        ja: "100/204 JA 9"
+        culture_invariant_id: 2036
+        sort_number: 101
+      rarity: rare
+      illustrator: "Carlos Ruiz"
+  cost: 2
+  inkwell: true
+  colors: 
+    - emerald
+  type: item
+  illustrator: "Carlos Ruiz"
+  languages: 
+    en: 
+      name: "Family Fishing Pole"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "Canne à pêche familiale"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Canna da Pesca di Famiglia"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Angelrute der Familie"
+      title: ""
+      flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "WATCH CLOSELY"
+      text: 
+        en: "This item enters play exerted."
+    - type: activated
+      title: 
+        en: "THE PERFECT CAST"
+      text: 
+        en: "{E}, 1 {I}, Banish this item – Return chosen exerted character of yours to your hand to gain 2 lore."
   franchise_id: "unknown"
 - variants: 
     - set: fab
@@ -431,9 +1068,10 @@
         it: "109/204 IT 9"
         zh: "109/204 ZH 9"
         ja: "109/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2045
+        sort_number: 110
       rarity: common
+      illustrator: "Stefano Spagnuolo"
   lore: 1
   cost: 2
   inkwell: true
@@ -449,12 +1087,25 @@
     en: 
       name: "Powerline"
       title: "Taking the Stage"
+      flavour: "Goin' to the Powerline concert. Ah! It's unbelievable, man. —P.J. Pete"
+    fr: 
+      name: "Powerline"
+      title: "Montant sur scène"
+      flavour: "Tu vas voir Powerline en concert ! Tu vas t’éclater !\n—Pat Junior"
+    it: 
+      name: "Powerline"
+      title: "Sul Palco"
+      flavour: "Andare a vedere il concerto di Powerline. Oh! È una cosa incredibile, amico.\n—P.J. Gambadilegno"
+    de: 
+      name: "Powerline"
+      title: "Auf der Bühne"
+      flavour: "Das Konzert von Powerline. Oh! Hammermäßig.\n–K.J. Karlo"
   abilities: 
     - type: static
       title: 
-        en: "Singer 4"
+        en: "singer"
       text: 
-        en: "**Singer** 4 _(This character counts as cost 4 to sing songs.)_"
+        en: "**Singer** +4 _(This character counts as cost 4 to sing songs.)_"
       ability: "singer"
   franchise_id: "unknown"
 - variants: 
@@ -468,9 +1119,10 @@
         it: "110/204 IT 9"
         zh: "110/204 ZH 9"
         ja: "110/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2046
+        sort_number: 111
       rarity: super_rare
+      illustrator: "Nicholas Kole"
     - set: fab
       id: 233
       dreamborn: "009-233"
@@ -481,12 +1133,12 @@
         it: "233/204 IT 9"
         zh: "233/204 ZH 9"
         ja: "233/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2151
+        sort_number: 234
       rarity: enchanted
       illustrator: "Max Ulichney"
   lore: 2
-  cost: 3
+  cost: 6
   inkwell: true
   attack: 6
   defence: 4
@@ -499,7 +1151,20 @@
   languages: 
     en: 
       name: "Powerline"
-      title: "World's Greated Rock Star"
+      title: "World's Greatest Rock Star"
+      flavour: ""
+    fr: 
+      name: "Powerline"
+      title: "La plus grande rockstar de la planète"
+      flavour: ""
+    it: 
+      name: "Powerline"
+      title: "La Più Grande Rock Star del Mondo"
+      flavour: ""
+    de: 
+      name: "Powerline"
+      title: "Größter Rockstar der Welt"
+      flavour: ""
   abilities: 
     - type: static
       title: 
@@ -507,6 +1172,12 @@
       text: 
         en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Powerline.)_"
       ability: "shift"
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** +9 _(This character counts as cost 9 to sing songs.)_"
+      ability: "singer"
     - type: static-triggered
       title: 
         en: "MASH-UP"
@@ -524,9 +1195,10 @@
         it: "111/204 IT 9"
         zh: "111/204 ZH 9"
         ja: "111/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2047
+        sort_number: 112
       rarity: legendary
+      illustrator: "Cristian Romero"
     - set: fab
       id: 242
       dreamborn: "009-242"
@@ -537,9 +1209,10 @@
         it: "242/204 IT 9"
         zh: "242/204 ZH 9"
         ja: "242/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2178
+        sort_number: 243
       rarity: iconic
+      illustrator: "Nicola Saviori"
   lore: 1
   cost: 3
   inkwell: true
@@ -557,6 +1230,19 @@
     en: 
       name: "Mickey Mouse"
       title: "Brave Little Prince"
+      flavour: ""
+    fr: 
+      name: "Mickey Mouse"
+      title: "Brave petit prince"
+      flavour: ""
+    it: 
+      name: "Topolino"
+      title: "Eroico Principe"
+      flavour: ""
+    de: 
+      name: "Micky Maus"
+      title: "Tapferer Kleiner Prinz"
+      flavour: ""
   abilities: 
     - type: static
       title: 
@@ -570,11 +1256,270 @@
       text: 
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
-    - type: static-triggered
+    - type: static
       title: 
         en: "CROWNING ACHIEVEMENT"
       text: 
-        en: "While this character has a card under him, he gets +3 {S}, +3 {W}, +3 {L}."
+        en: "While this character has a card under him, he gets +3 {S}, +3 {W}, and +3 {L}"
+      ability: "effects"
+    - type: static
+      title: 
+        en: "CROWNING ACHIEVEMENT"
+      text: 
+        en: "While this character has a card under him, he gets +3 {S}, +3 {W}, and +3 {L}"
+      ability: "effects"
+    - type: static
+      title: 
+        en: "CROWNING ACHIEVEMENT"
+      text: 
+        en: "While this character has a card under him, he gets +3 {S}, +3 {W}, and +3 {L}"
+      ability: "effects"
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 112
+      dreamborn: "009-112"
+      ravensburger: 
+        en: "112/204 EN 9"
+        fr: "112/204 FR 9"
+        de: "112/204 DE 9"
+        it: "112/204 IT 9"
+        zh: "112/204 ZH 9"
+        ja: "112/204 JA 9"
+        culture_invariant_id: 2048
+        sort_number: 113
+      rarity: common
+      illustrator: "Stefano Spagnuolo"
+    - set: fab
+      id: 214
+      dreamborn: "009-214"
+      ravensburger: 
+        en: "214/204 EN 9"
+        fr: "214/204 FR 9"
+        de: "214/204 DE 9"
+        it: "214/204 IT 9"
+        zh: "214/204 ZH 9"
+        ja: "214/204 JA 9"
+        culture_invariant_id: 2168
+        sort_number: 215
+      rarity: epic
+      illustrator: "Stefano Spagnuolo"
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 4
+  defence: 3
+  colors: 
+    - ruby
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+  illustrator: "Stefano Spagnuolo"
+  languages: 
+    en: 
+      name: "Max Goof"
+      title: "Rockin' Teen"
+      flavour: ""
+    fr: 
+      name: "Max Dingo"
+      title: "Ado qui rock"
+      flavour: ""
+    it: 
+      name: "Max Pippo"
+      title: "Adolescente che Spacca"
+      flavour: ""
+    de: 
+      name: "Max Goof"
+      title: "Rockiger Teenie"
+      flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "singer"
+      text: 
+        en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
+      ability: "singer"
+    - type: static
+      title: 
+        en: "I JUST WANNA STAY HOME"
+      text: 
+        en: "This character can't move to locations."
+      ability: "effects"
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 113
+      dreamborn: "009-113"
+      ravensburger: 
+        en: "113/204 EN 9"
+        fr: "113/204 FR 9"
+        de: "113/204 DE 9"
+        it: "113/204 IT 9"
+        zh: "113/204 ZH 9"
+        ja: "113/204 JA 9"
+        culture_invariant_id: 2049
+        sort_number: 114
+      rarity: uncommon
+      illustrator: "Carlos Ruiz"
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 3
+  colors: 
+    - ruby
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Carlos Ruiz"
+  languages: 
+    en: 
+      name: "Roxanne"
+      title: "Powerline Fan"
+      flavour: ""
+    fr: 
+      name: "Roxane"
+      title: "Fan de Powerline"
+      flavour: ""
+    it: 
+      name: "Roxanne"
+      title: "Fan di Powerline"
+      flavour: ""
+    de: 
+      name: "Roxanne"
+      title: "Powerline-Fan"
+      flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "CONCERT LOVER"
+      text: 
+        en: "While you have a character with Singer in play, this character gets +1 {S} and +1 {L}."
+      ability: "effects"
+    - type: static
+      title: 
+        en: "CONCERT LOVER"
+      text: 
+        en: "While you have a character with Singer in play, this character gets +1 {S} and +1 {L}."
+      ability: "effects"
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 114
+      dreamborn: "009-114"
+      ravensburger: 
+        en: "114/204 EN 9"
+        fr: "114/204 FR 9"
+        de: "114/204 DE 9"
+        it: "114/204 IT 9"
+        zh: "114/204 ZH 9"
+        ja: "114/204 JA 9"
+        culture_invariant_id: 2050
+        sort_number: 115
+      rarity: common
+      illustrator: "Kenneth Anderson"
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 3
+  defence: 5
+  colors: 
+    - ruby
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Kenneth Anderson"
+  languages: 
+    en: 
+      name: "P.J. Pete"
+      title: "Caught Up in the Music"
+      flavour: "He's a real music buff."
+    fr: 
+      name: "Pat Junior"
+      title: "Absorbé par la musique"
+      flavour: "Un vrai mordu de musique."
+    it: 
+      name: "P.J. Gambadilegno"
+      title: "Rapito dalla Musica"
+      flavour: "È un vero patito di musica."
+    de: 
+      name: "K.J. Karlo"
+      title: "In der Musik versunken"
+      flavour: "Er ist ein echter Musikliebhaber."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "SHOUT OUT LOUD!"
+      text: 
+        en: "Whenever you play a song, this character gets +2 {S} this turn."
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 117
+      dreamborn: "009-117"
+      ravensburger: 
+        en: "117/204 EN 9"
+        fr: "117/204 FR 9"
+        de: "117/204 DE 9"
+        it: "117/204 IT 9"
+        zh: "117/204 ZH 9"
+        ja: "117/204 JA 9"
+        culture_invariant_id: 2053
+        sort_number: 118
+      rarity: rare
+      illustrator: "Kenneth Anderson"
+    - set: fab
+      id: 215
+      dreamborn: "009-215"
+      ravensburger: 
+        en: "215/204 EN 9"
+        fr: "215/204 FR 9"
+        de: "215/204 DE 9"
+        it: "215/204 IT 9"
+        zh: "215/204 ZH 9"
+        ja: "215/204 JA 9"
+        culture_invariant_id: 2169
+        sort_number: 216
+      rarity: epic
+      illustrator: "Kenneth Anderson"
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 4
+  defence: 3
+  colors: 
+    - ruby
+  type: glimmer
+  classifications: 
+    - "storyborn"
+  illustrator: "Kenneth Anderson"
+  languages: 
+    en: 
+      name: "Powerline"
+      title: "Musical Superstar"
+      flavour: "For the first time ever, we’re seeing it eye to eye."
+    fr: 
+      name: "Powerline"
+      title: "Superstar de la musique"
+      flavour: "For the first time ever, we’re seeing it eye to eye."
+    it: 
+      name: "Powerline"
+      title: "Superstar Musicale"
+      flavour: "For the first time ever, we're seeing it eye to eye."
+    de: 
+      name: "Powerline"
+      title: "Musikalischer Superstar"
+      flavour: "For the first time ever, we’re seeing it eye to eye."
+  abilities: 
+    - type: static
+      title: 
+        en: "ELECTRIC MOVE"
+      text: 
+        en: "If you've played a song this turn, this character gains Rush this turn."
+      ability: "gain-ability"
   franchise_id: "unknown"
 - variants: 
     - set: fab
@@ -587,9 +1532,10 @@
         it: "130/204 IT 9"
         zh: "130/204 ZH 9"
         ja: "130/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2066
+        sort_number: 131
       rarity: rare
+      illustrator: "Eri Welli"
     - set: fab
       id: 234
       dreamborn: "009-234"
@@ -600,8 +1546,8 @@
         it: "234/204 IT 9"
         zh: "234/204 ZH 9"
         ja: "234/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2152
+        sort_number: 235
       rarity: enchanted
       illustrator: "Jochem van Gool"
   cost: 9
@@ -615,6 +1561,20 @@
   languages: 
     en: 
       name: "I2I"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "I2I"
+      title: ""
+      flavour: ""
+    it: 
+      name: "I2I"
+      title: ""
+      flavour: ""
+    de: 
+      name: "I2I"
+      title: ""
+      flavour: ""
   abilities: 
     - type: static
       title: 
@@ -626,9 +1586,23 @@
       title: 
         en: "I2I"
       text: 
-        en: "Each player draws 2 cards and gains 2 lore. If 2 or more characters sang this song, ready them. They can't quest for the rest of this turn."
+        en: "Each player draws 2 cards and gains 2 lore. If 2 or more characters sang this song, ready them. They can’t quest for the rest of this turn."
   franchise_id: "unknown"
 - variants: 
+    - set: fab
+      id: 141
+      dreamborn: "009-141"
+      ravensburger: 
+        en: "141/204 EN 9"
+        fr: "141/204 FR 9"
+        de: "141/204 DE 9"
+        it: "141/204 IT 9"
+        zh: "141/204 ZH 9"
+        ja: "141/204 JA 9"
+        culture_invariant_id: 2077
+        sort_number: 142
+      rarity: rare
+      illustrator: "Ellie Horie"
     - set: fab
       id: 217
       dreamborn: "009-217"
@@ -639,9 +1613,10 @@
         it: "217/204 IT 9"
         zh: "217/204 ZH 9"
         ja: "217/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2171
+        sort_number: 218
       rarity: epic
+      illustrator: "Ellie Horie"
     - set: p3
       id: 2
       dreamborn: "009-P3-002"
@@ -672,17 +1647,224 @@
       name: "Alice"
       title: "Accidentally Adrift"
       flavour: ""
+    fr: 
+      name: "Alice"
+      title: "Accidentellement à la dérive"
+      flavour: ""
+    it: 
+      name: "Alice"
+      title: "Naufraga per Caso"
+      flavour: ""
+    de: 
+      name: "Alice"
+      title: "Versehentlich verirrt"
+      flavour: ""
   abilities: 
-    - type: static
+    - type: resolution
       title: 
         en: "WASHED AWAY"
       text: 
         en: "When you play this character, you may put chosen item into its player's inkwell facedown and exerted."
-    - type: static
+    - type: static-triggered
       title: 
-        en: "MAKING WAVES "
+        en: "MAKING WAVES"
       text: 
         en: "Whenever this character quests, chosen opposing character gets -2 {S} this turn."
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 142
+      dreamborn: "009-142"
+      ravensburger: 
+        en: "142/204 EN 9"
+        fr: "142/204 FR 9"
+        de: "142/204 DE 9"
+        it: "142/204 IT 9"
+        zh: "142/204 ZH 9"
+        ja: "142/204 JA 9"
+        culture_invariant_id: 2078
+        sort_number: 143
+      rarity: super_rare
+      illustrator: "LadyShalirin"
+    - set: fab
+      id: 235
+      dreamborn: "009-235"
+      ravensburger: 
+        en: "235/204 EN 9"
+        fr: "235/204 FR 9"
+        de: "235/204 DE 9"
+        it: "235/204 IT 9"
+        zh: "235/204 ZH 9"
+        ja: "235/204 JA 9"
+        culture_invariant_id: 2153
+        sort_number: 236
+      rarity: enchanted
+      illustrator: "Aubrey Archer"
+  lore: 2
+  cost: 5
+  inkwell: true
+  attack: 3
+  defence: 5
+  colors: 
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+    - "princess"
+  illustrator: "LadyShalirin"
+  languages: 
+    en: 
+      name: "Mulan"
+      title: "Considerate Diplomat"
+      flavour: ""
+    fr: 
+      name: "Mulan"
+      title: "Diplomate prévenante"
+      flavour: ""
+    it: 
+      name: "Mulan"
+      title: "Diplomatica Rispettosa"
+      flavour: ""
+    de: 
+      name: "Mulan"
+      title: "Besonnene Diplomatin"
+      flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "IMPERIAL INVITATION"
+      text: 
+        en: "Whenever this character quests, look at the top 4 cards of your deck. You may reveal a Princess character card and put it into your hand. Put the rest on the bottom of your deck in any order."
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 143
+      dreamborn: "009-143"
+      ravensburger: 
+        en: "143/204 EN 9"
+        fr: "143/204 FR 9"
+        de: "143/204 DE 9"
+        it: "143/204 IT 9"
+        zh: "143/204 ZH 9"
+        ja: "143/204 JA 9"
+        culture_invariant_id: 2079
+        sort_number: 144
+      rarity: legendary
+      illustrator: "Juan Diego León"
+    - set: fab
+      id: 236
+      dreamborn: "009-236"
+      ravensburger: 
+        en: "236/204 EN 9"
+        fr: "236/204 FR 9"
+        de: "236/204 DE 9"
+        it: "236/204 IT 9"
+        zh: "236/204 ZH 9"
+        ja: "236/204 JA 9"
+        culture_invariant_id: 2154
+        sort_number: 237
+      rarity: enchanted
+      illustrator: "Alex Accorsi"
+  lore: 1
+  cost: 3
+  inkwell: false
+  attack: 2
+  defence: 3
+  colors: 
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "villain"
+  illustrator: "Juan Diego León"
+  languages: 
+    en: 
+      name: "Cruella De Vil"
+      title: "Style Icon"
+      flavour: ""
+    fr: 
+      name: "Cruella d'Enfer"
+      title: "Icône de la mode"
+      flavour: ""
+    it: 
+      name: "Crudelia De Mon"
+      title: "Icona di Stile"
+      flavour: ""
+    de: 
+      name: "Cruella De Vil"
+      title: "Stilikone"
+      flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "Out of Season"
+      text: 
+        en: "Once during your turn, whenever a character with cost 2 or less is banished, put the top card of your deck into your inkwell facedown and exerted."
+    - type: static
+      title: 
+        en: "INSULTING REMARK"
+      text: 
+        en: "During your turn, each opposing character with cost 2 or less gets -1 {S}."
+      ability: "gain-ability"
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 173
+      dreamborn: "009-173"
+      ravensburger: 
+        en: "173/204 EN 9"
+        fr: "173/204 FR 9"
+        de: "173/204 DE 9"
+        it: "173/204 IT 9"
+        zh: "173/204 ZH 9"
+        ja: "173/204 JA 9"
+        culture_invariant_id: 2109
+        sort_number: 174
+      rarity: rare
+      illustrator: "Eri Welli"
+  lore: 2
+  cost: 2
+  inkwell: false
+  attack: 0
+  defence: 2
+  colors: 
+    - steel
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Eri Welli"
+  languages: 
+    en: 
+      name: "Nala"
+      title: "Undaunted Lioness"
+      flavour: ""
+    fr: 
+      name: "Nala"
+      title: "Lionne indomptable"
+      flavour: ""
+    it: 
+      name: "Nala"
+      title: "Leonessa Indomita"
+      flavour: ""
+    de: 
+      name: "Nala"
+      title: "Unerschrockene Löwin"
+      flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "Determined Diversion"
+      text: 
+        en: "While this character has no damage, she gets +1 {L} and gains Resist +1."
+      ability: "gain-ability"
+    - type: static
+      title: 
+        en: "Determined Diversion"
+      text: 
+        en: "While this character has no damage, she gets +1 {L} and gains Resist +1."
+      ability: "effects"
   franchise_id: "unknown"
 - variants: 
     - set: fab
@@ -695,9 +1877,24 @@
         it: "174/204 IT 9"
         zh: "174/204 ZH 9"
         ja: "174/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2110
+        sort_number: 175
       rarity: super_rare
+      illustrator: "Mariana Moreno"
+    - set: fab
+      id: 238
+      dreamborn: "009-238"
+      ravensburger: 
+        en: "238/204 EN 9"
+        fr: "238/204 FR 9"
+        de: "238/204 DE 9"
+        it: "238/204 IT 9"
+        zh: "238/204 ZH 9"
+        ja: "238/204 JA 9"
+        culture_invariant_id: 2156
+        sort_number: 239
+      rarity: enchanted
+      illustrator: "Kuya Jaypi"
   lore: 1
   cost: 3
   inkwell: true
@@ -714,17 +1911,135 @@
     en: 
       name: "Lilo"
       title: "Best Explorer Ever"
+      flavour: ""
+    fr: 
+      name: "Lilo"
+      title: "La meilleure exploratrice de tous les temps"
+      flavour: ""
+    it: 
+      name: "Lilo"
+      title: "Migliore Esploratrice di Sempre"
+      flavour: ""
+    de: 
+      name: "Lilo"
+      title: "Beste Entdeckerin aller Zeiten"
+      flavour: ""
   abilities: 
-    - type: static
+    - type: resolution
       title: 
         en: "COME ON, PEOPLE, LET'S MOVE"
       text: 
-        en: "When you play this character, your other characters gain Challenger +2 this turn. (They get +2 {S} while challenging.)"
-    - type: static
+        en: "When you play this character, your other characters gain Challenger +2 this turn."
+    - type: static-triggered
       title: 
-        en: "GO GET'EM"
+        en: "$undefined"
       text: 
-        en: "Whenever this character quests, chosen Alien character gains Challenger +2 and ”This character can challenge ready characters” this turn."
+        en: "$undefined"
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 175
+      dreamborn: "009-175"
+      ravensburger: 
+        en: "175/204 EN 9"
+        fr: "175/204 FR 9"
+        de: "175/204 DE 9"
+        it: "175/204 IT 9"
+        zh: "175/204 ZH 9"
+        ja: "175/204 JA 9"
+        culture_invariant_id: 2111
+        sort_number: 176
+      rarity: legendary
+      illustrator: "Kenneth Anderson"
+    - set: fab
+      id: 239
+      dreamborn: "009-239"
+      ravensburger: 
+        en: "239/204 EN 9"
+        fr: "239/204 FR 9"
+        de: "239/204 DE 9"
+        it: "239/204 IT 9"
+        zh: "239/204 ZH 9"
+        ja: "239/204 JA 9"
+        culture_invariant_id: 2157
+        sort_number: 240
+      rarity: enchanted
+      illustrator: "Jeanne Plounevez"
+  lore: 2
+  cost: 5
+  inkwell: false
+  attack: 5
+  defence: 4
+  colors: 
+    - steel
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "villain"
+    - "king"
+  illustrator: "Kenneth Anderson"
+  languages: 
+    en: 
+      name: "Scar"
+      title: "Finally King"
+      flavour: ""
+    fr: 
+      name: "Scar"
+      title: "Enfin roi"
+      flavour: ""
+    it: 
+      name: "Scar"
+      title: "Finalmente Re"
+      flavour: ""
+    de: 
+      name: "Scar"
+      title: "Endlich König"
+      flavour: ""
+  franchise_id: "unknown"
+- variants: 
+    - set: fab
+      id: 176
+      dreamborn: "009-176"
+      ravensburger: 
+        en: "176/204 EN 9"
+        fr: "176/204 FR 9"
+        de: "176/204 DE 9"
+        it: "176/204 IT 9"
+        zh: "176/204 ZH 9"
+        ja: "176/204 JA 9"
+        culture_invariant_id: 2112
+        sort_number: 177
+      rarity: uncommon
+      illustrator: "Cristian Romero"
+  lore: 1
+  cost: 2
+  inkwell: false
+  attack: 2
+  defence: 2
+  colors: 
+    - steel
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Cristian Romero"
+  languages: 
+    en: 
+      name: "Little John"
+      title: "Sir Reginald"
+      flavour: ""
+    fr: 
+      name: "Petit Jean"
+      title: "Sir Reginald"
+      flavour: ""
+    it: 
+      name: "Little John"
+      title: "Ser Reginald"
+      flavour: ""
+    de: 
+      name: "Little John"
+      title: "Sir Reginald"
+      flavour: ""
   franchise_id: "unknown"
 - variants: 
     - set: fab
@@ -737,9 +2052,24 @@
         it: "178/204 IT 9"
         zh: "178/204 ZH 9"
         ja: "178/204 JA 9"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2114
+        sort_number: 179
       rarity: rare
+      illustrator: "Ian MacDonald"
+    - set: fab
+      id: 240
+      dreamborn: "009-240"
+      ravensburger: 
+        en: "240/204 EN 9"
+        fr: "240/204 FR 9"
+        de: "240/204 DE 9"
+        it: "240/204 IT 9"
+        zh: "240/204 ZH 9"
+        ja: "240/204 JA 9"
+        culture_invariant_id: 2158
+        sort_number: 241
+      rarity: enchanted
+      illustrator: "Juan Diego León"
   lore: 2
   cost: 5
   inkwell: true
@@ -752,20 +2082,34 @@
     - "storyborn"
     - "hero"
     - "princess"
-  illustrator: "Ian Macdonald"
+  illustrator: "Ian MacDonald"
   languages: 
     en: 
       name: "Jasmine"
       title: "Fearless Princess"
+      flavour: ""
+    fr: 
+      name: "Jasmine"
+      title: "Princesse intrépide"
+      flavour: ""
+    it: 
+      name: "Jasmine"
+      title: "Principessa Impavida"
+      flavour: ""
+    de: 
+      name: "Jasmin"
+      title: "Furchtlose Prinzessin"
+      flavour: ""
   abilities: 
     - type: static
       title: 
         en: "TAKE THE LEAP"
       text: 
-        en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
-    - type: static-triggered
+        en: "During your turn, this character gains Evasive."
+      ability: "gain-ability"
+    - type: activated
       title: 
         en: "NOW'S MY CHANCE"
       text: 
-        en: "Choose and discard a card - This character gains Challenger +3 this turn. (They get +3 {S} while challenging.)"
+        en: "Choose and discard a card — This character gains Challenger +3 this turn."
   franchise_id: "unknown"

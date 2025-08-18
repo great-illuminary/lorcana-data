@@ -92,7 +92,7 @@ private suspend fun load() {
             rbMap.putIfAbsent(card.cardIdentifier, mutableMapOf())
             val map = rbMap[card.cardIdentifier]!!
             map[lang] = card
-            card.highResImage?.let { rbHighRes[card.cardIdentifier] = it.url }
+            rbHighRes[card.cardIdentifier] = card.resImage
         }
     }
 
@@ -158,7 +158,11 @@ private suspend fun load() {
                 val toReturn = (original ?: CardTranslation()).copy(
                     name = rbcard?.name ?: "",
                     title = rbcard?.subtitle ?: "",
-                    flavour = (rbcard?.flavorText ?: "").split("%").joinToString("\n")
+                    flavour = if ((rbcard?.flavorText ?: "") == "") {
+                        original?.flavour ?: ""
+                    } else {
+                        (rbcard?.flavorText ?: "").split("%").joinToString("\n")
+                    }
                 )
 
                 val invalid = toReturn.name.isBlank() &&

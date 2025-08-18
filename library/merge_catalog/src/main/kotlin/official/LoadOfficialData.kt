@@ -43,7 +43,7 @@ class LoadOfficialData(private val rootProject: VirtualFile) {
     suspend fun loadLanguage(lang: String): String {
         val token = token()
 
-        val body = client.get("https://api.lorcana.ravensburger.com/v2/catalog/$lang") {
+        val body = client.get("https://api.lorcana.ravensburger.com/v3/catalog/$lang") {
             headers {
                 set(
                     "Authorization",
