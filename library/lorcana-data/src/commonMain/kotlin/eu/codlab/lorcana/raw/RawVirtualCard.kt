@@ -6,6 +6,7 @@ import eu.codlab.lorcana.cards.CardTranslations
 import eu.codlab.lorcana.cards.CardType
 import eu.codlab.lorcana.cards.ClassificationHolder
 import eu.codlab.lorcana.cards.InkColor
+import eu.codlab.lorcana.cards.RotationState
 import eu.codlab.lorcana.franchises.Franchise
 import eu.codlab.lorcana.franchises.RawFranchise
 import kotlinx.serialization.SerialName
@@ -30,7 +31,9 @@ data class RawVirtualCard(
     @SerialName("franchise_id")
     val franchiseId: String,
     @SerialName("third_party")
-    val thirdParty: CardThirdParty? = null
+    val thirdParty: CardThirdParty? = null,
+    @SerialName("rotation_states")
+    val rotationStates: List<RotationState> = emptyList()
 ) {
     fun variants(set: SetDescription) = variants.filter { it.set == set }
 
@@ -68,6 +71,7 @@ data class RawVirtualCard(
                 Franchise.from("unknown", franchises["unknown"]!!)
             }
         },
-        thirdParty = thirdParty
+        thirdParty = thirdParty,
+        rotationStates = rotationStates
     )
 }

@@ -1,3 +1,5 @@
+
+import compute.computeRotation
 import eu.codlab.files.VirtualFile
 import eu.codlab.http.createClient
 import eu.codlab.lorcana.Lorcana
@@ -70,7 +72,7 @@ private suspend fun load() {
     prepareEmpty(rootProject, "arc", 7, SetDescription.Arc, "007")
     prepareEmpty(rootProject, "roj", 8, SetDescription.Roj, "008")
 
-    val official = runBlocking {
+    runBlocking {
         LoadOfficialData(rootProject).also { it.loadLanguages() }
     }
 
@@ -209,7 +211,7 @@ private suspend fun load() {
                 defence = ravensBurgerCard.willpower,
                 moveCost = ravensBurgerCard.moveCost,
                 illustrator = ravensBurgerCard.author,
-                type = rbCards!!.type(ravensBurgerCard),
+                type = rbCards.type(ravensBurgerCard),
                 classifications = ravensBurgerCard.subtypes,
                 abilities = lorcanitoCard?.actualAbilities()?.map {
                     val (overrideTitle, overrideText) = FallbackValues.overrides(card, it)
@@ -281,7 +283,8 @@ private suspend fun load() {
                         ),
                         rarity = subRavensBurgerCard.actualRarity ?: variant.rarity
                     )
-                }
+                },
+                rotationStates = card.computeRotation()
             )
         }
 

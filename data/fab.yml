@@ -85,6 +85,9 @@
       text: 
         en: "At the start of your turn, you may choose and discard a Princess or Queen character card to return a character card from your discard to your hand"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 4
@@ -158,6 +161,9 @@
         en: "Your Princess characters get +1 {S}"
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 5
@@ -230,6 +236,9 @@
       text: 
         en: "Whenever this character quests, you may banish chosen exerted character with 5 {S} or more."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 6
@@ -296,6 +305,9 @@
       text: 
         en: "Whenever this character quests, you pay 1 {I} less for the next Princess or Queen character you play this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 26
@@ -363,6 +375,9 @@
       text: 
         en: "Play a character from your discard for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 44
@@ -415,6 +430,9 @@
       text: 
         en: "$undefined"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 45
@@ -492,6 +510,9 @@
         en: "Your other characters with Evasive gain ``{E}, 1 {I} – Draw a card and gain 1 lore.``"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 46
@@ -563,6 +584,9 @@
       text: 
         en: "When you play this character, chosen character gains Evasive until the start of your next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 47
@@ -615,6 +639,9 @@
         en: "While you have a character with Evasive in play, this character gets +1 {L}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 64
@@ -665,6 +692,9 @@
       text: 
         en: "3 {I} – Return this item to your hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 74
@@ -730,6 +760,9 @@
       text: 
         en: "Once during your turn, whenever this character moves to a location, you may move one of your other characters to that location for free. If you do, draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 75
@@ -781,6 +814,9 @@
       text: 
         en: "When you play this character, you may pay 1 {I} to return a song card with cost 3 or less from your discard to your hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 76
@@ -911,6 +947,9 @@
       text: 
         en: "Whenever this character quests, you may play a song card with cost 4 or less from your discard for free, then put it on the bottom of your deck instead of into your discard."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 78
@@ -962,6 +1001,9 @@
       text: 
         en: ""
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 94
@@ -1023,6 +1065,9 @@
       text: 
         en: "Chosen character gets +3 {S} and gains Evasive until the start of your next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 100
@@ -1073,6 +1118,9 @@
       text: 
         en: "{E}, 1 {I}, Banish this item – Return chosen exerted character of yours to your hand to gain 2 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 109
@@ -1124,6 +1172,9 @@
         en: "**Singer** +4 _(This character counts as cost 4 to sing songs.)_"
       ability: "singer"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 110
@@ -1200,6 +1251,9 @@
       text: 
         en: "Once during your turn, whenever this character sings a song, look at the top 4 cards of your deck. You may reveal a song card with cost 9 or less and play it for free. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 111
@@ -1291,6 +1345,9 @@
         en: "While this character has a card under him, he gets +3 {S}, +3 {W}, and +3 {L}"
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 112
@@ -1363,6 +1420,9 @@
         en: "This character can't move to locations."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 113
@@ -1421,6 +1481,9 @@
         en: "While you have a character with Singer in play, this character gets +1 {S} and +1 {L}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 114
@@ -1472,6 +1535,9 @@
       text: 
         en: "Whenever you play a song, this character gets +2 {S} this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 117
@@ -1537,6 +1603,9 @@
         en: "If you've played a song this turn, this character gains Rush this turn."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 130
@@ -1604,6 +1673,9 @@
       text: 
         en: "Each player draws 2 cards and gains 2 lore. If 2 or more characters sang this song, ready them. They can’t quest for the rest of this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 141
@@ -1688,6 +1760,9 @@
       text: 
         en: "Whenever this character quests, chosen opposing character gets -2 {S} this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 142
@@ -1754,6 +1829,9 @@
       text: 
         en: "Whenever this character quests, look at the top 4 cards of your deck. You may reveal a Princess character card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 143
@@ -1825,6 +1903,9 @@
         en: "During your turn, each opposing character with cost 2 or less gets -1 {S}."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 173
@@ -1883,6 +1964,9 @@
         en: "While this character has no damage, she gets +1 {L} and gains Resist +1."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 174
@@ -1953,6 +2037,9 @@
       text: 
         en: "$undefined"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 175
@@ -2012,7 +2099,22 @@
       name: "Scar"
       title: "Endlich König"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "BE GRATEFUL"
+      text: 
+        en: "Your Ally characters get +1 {S}."
+      ability: "effects"
+    - type: static-triggered
+      title: 
+        en: "STICK WITH ME"
+      text: 
+        en: "At the end of your turn, if this character is exerted, you may draw cards equal to the {S} of a chosen Ally character of yours. If you do, choose and discard 2 cards and banish that character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 176
@@ -2057,7 +2159,16 @@
       name: "Little John"
       title: "Sir Reginald"
       flavour: ""
+  abilities: 
+    - type: resolution
+      title: 
+        en: "$undefined"
+      text: 
+        en: "$undefined"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: fab
       id: 178
@@ -2130,3 +2241,6 @@
       text: 
         en: "Choose and discard a card — This character gains Challenger +3 this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed

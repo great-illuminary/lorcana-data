@@ -16100,7 +16100,7 @@
                 "type": "static-triggered",
                 "conditions": "$undefined",
                 "optional": true,
-                "name": "Allow Me",
+                "name": "OWNER PLAYER Allow Me",
                 "text": "At the start of your turn, each player may draw a card.",
                 "trigger": {
                     "on": "start_turn",
@@ -16112,20 +16112,13 @@
                 },
                 "layer": {
                     "type": "resolution",
-                    "name": "Allow Me",
+                    "name": "OWNER PLAYER Allow Me",
                     "text": "At the start of your turn, each player may draw a card.",
                     "optional": true,
                     "resolveEffectsIndividually": "$undefined",
                     "dependentEffects": "$undefined",
                     "effects": [
-                        {
-                            "type": "draw",
-                            "amount": 1,
-                            "target": {
-                                "type": "player",
-                                "value": "opponent"
-                            }
-                        }
+                        "$5:props:children:props:children:1:props:loading:props:cards:10:abilities:0:effects:0"
                     ],
                     "resolutionConditions": "$undefined",
                     "costs": "$undefined"
@@ -16134,8 +16127,8 @@
             {
                 "type": "static-triggered",
                 "conditions": "$undefined",
-                "optional": true,
-                "name": "Allow Me",
+                "optional": "$undefined",
+                "name": "FINDME MAIN ACTION Allow Me",
                 "text": "At the start of your turn, each player may draw a card.",
                 "trigger": {
                     "on": "start_turn",
@@ -16147,13 +16140,26 @@
                 },
                 "layer": {
                     "type": "resolution",
-                    "name": "Allow Me",
+                    "name": "FINDME MAIN ACTION Allow Me",
                     "text": "At the start of your turn, each player may draw a card.",
-                    "optional": true,
+                    "optional": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
                     "dependentEffects": "$undefined",
                     "effects": [
-                        "$5:props:children:props:children:1:props:loading:props:cards:10:abilities:0:effects:0"
+                        {
+                            "type": "create-layer-for-player",
+                            "target": "$5:props:children:props:children:1:props:loading:props:cards:98:abilities:0:effects:0:target",
+                            "layer": {
+                                "type": "resolution",
+                                "responder": "opponent",
+                                "name": "OPPONENT Allow Me",
+                                "text": "At the start of your turn, each player may draw a card.",
+                                "optional": true,
+                                "effects": [
+                                    "$5:props:children:props:children:1:props:loading:props:cards:10:abilities:0:effects:0"
+                                ]
+                            }
+                        }
                     ],
                     "resolutionConditions": "$undefined",
                     "costs": "$undefined"
@@ -21875,6 +21881,9 @@
     },
     {
         "id": "lzb",
+        "reprints": [
+            "vpb"
+        ],
         "name": "John Silver",
         "title": "Greedy Treasure Seeker",
         "characteristics": [
@@ -22057,6 +22066,9 @@
     },
     {
         "id": "hmg",
+        "reprints": [
+            "yku"
+        ],
         "name": "The Queen",
         "title": "Mirror Seeker",
         "characteristics": [
@@ -24798,6 +24810,9 @@
     },
     {
         "id": "f1t",
+        "reprints": [
+            "mfa"
+        ],
         "name": "Robin Hood",
         "title": "Champion of Sherwood",
         "characteristics": [
@@ -25066,6 +25081,9 @@
     },
     {
         "id": "zep",
+        "reprints": [
+            "ftq"
+        ],
         "missingTestCase": true,
         "name": "Mickey Mouse",
         "title": "Trumpeter",
@@ -25896,6 +25914,9 @@
     },
     {
         "id": "c31",
+        "reprints": [
+            "j6p"
+        ],
         "name": "Mama Odie",
         "title": "Mystical Maven",
         "characteristics": [
@@ -25971,6 +25992,9 @@
     },
     {
         "id": "rd4",
+        "reprints": [
+            "c8w"
+        ],
         "name": "Maid Marian",
         "title": "Delightful Dreamer",
         "characteristics": [
@@ -26868,6 +26892,9 @@
     },
     {
         "id": "f6m",
+        "reprints": [
+            "bt1"
+        ],
         "name": "Simba",
         "title": "Scrappy Cub",
         "characteristics": [
@@ -27166,6 +27193,9 @@
     },
     {
         "id": "shd",
+        "reprints": [
+            "n3t"
+        ],
         "name": "Moana",
         "title": "Undeterred Voyager",
         "characteristics": [
@@ -27342,6 +27372,9 @@
     },
     {
         "id": "v33",
+        "reprints": [
+            "daf"
+        ],
         "missingTestCase": true,
         "name": "Maui",
         "title": "Whale",
@@ -27952,6 +27985,9 @@
     },
     {
         "id": "ix1",
+        "reprints": [
+            "uny"
+        ],
         "name": "Ariel",
         "title": "Adventurous Collector",
         "characteristics": [
@@ -28219,6 +28255,9 @@
     },
     {
         "id": "o3a",
+        "reprints": [
+            "lmm"
+        ],
         "name": "Wildcat",
         "title": "Mechanic",
         "characteristics": [
@@ -28499,6 +28538,9 @@
     },
     {
         "id": "jm3",
+        "reprints": [
+            "bh1"
+        ],
         "missingTestCase": true,
         "name": "Shenzi",
         "title": "Hyena Pack Leader",
@@ -29516,6 +29558,9 @@
     },
     {
         "id": "uqt",
+        "reprints": [
+            "i2h"
+        ],
         "missingTestCase": true,
         "name": "Ursula",
         "title": "Sea Witch",
@@ -30195,6 +30240,9 @@
     },
     {
         "id": "cu2",
+        "reprints": [
+            "rv8"
+        ],
         "missingTestCase": true,
         "name": "Jafar",
         "title": "Lamp Thief",
@@ -30712,6 +30760,9 @@
     },
     {
         "id": "rnw",
+        "reprints": [
+            "grh"
+        ],
         "name": "Tinker Bell",
         "title": "Generous Fairy",
         "characteristics": [
@@ -30802,6 +30853,9 @@
     },
     {
         "id": "art",
+        "reprints": [
+            "ifp"
+        ],
         "name": "Queen of Hearts",
         "title": "Wonderland Empress",
         "characteristics": [
@@ -30885,6 +30939,9 @@
     {
         "id": "eo3",
         "name": "Pongo",
+        "reprints": [
+            "nn4"
+        ],
         "title": "Determined Father",
         "characteristics": [
             "hero",
@@ -31017,6 +31074,9 @@
         "missingTestCase": true,
         "name": "Pluto",
         "title": "Determined Defender",
+        "reprints": [
+            "gnw"
+        ],
         "characteristics": [
             "floodborn",
             "ally"
@@ -31313,6 +31373,9 @@
     },
     {
         "id": "nyd",
+        "reprints": [
+            "pws"
+        ],
         "name": "Nani",
         "title": "Protective Sister",
         "characteristics": [
@@ -43132,6 +43195,9 @@
     },
     {
         "id": "le7",
+        "reprints": [
+            "tiq"
+        ],
         "name": "Bruno Madrigal",
         "title": "Undetected Uncle",
         "characteristics": [
@@ -50308,7 +50374,7 @@
                 "type": "resolution",
                 "name": "Humble Pie",
                 "text": "When you play this character, if you used **Shift** to play him, each opponent loses 2 lore.",
-                "conditions": [
+                "resolutionConditions": [
                     {
                         "type": "resolution",
                         "value": "shift"
@@ -51857,10 +51923,73 @@
         "abilities": [
             "$5:props:children:props:children:1:props:loading:props:cards:15:abilities:1:gainedAbility",
             {
-                "type": "static",
-                "ability": "challenger",
-                "value": 2,
-                "text": "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
+                "type": "static-triggered",
+                "name": "EASY PICKINGS",
+                "text": "While challenging a damaged character, this character gets +2 {S}.",
+                "layer": {
+                    "type": "resolution",
+                    "optional": "$undefined",
+                    "responder": "$undefined",
+                    "name": "EASY PICKINGS",
+                    "text": "While challenging a damaged character, this character gets +2 {S}.",
+                    "effects": [
+                        {
+                            "type": "ability",
+                            "ability": "custom",
+                            "customAbility": {
+                                "type": "static",
+                                "ability": "challenger",
+                                "value": 2,
+                                "text": "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
+                            },
+                            "modifier": "add",
+                            "amount": 2,
+                            "duration": "challenge",
+                            "target": {
+                                "type": "card",
+                                "value": "all",
+                                "filters": [
+                                    {
+                                        "filter": "challenge",
+                                        "value": "attacker"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "trigger": {
+                    "on": "challenge",
+                    "as": "attacker",
+                    "filters": [
+                        {
+                            "filter": "source",
+                            "value": "self"
+                        }
+                    ],
+                    "secondaryFilters": [
+                        {
+                            "filter": "type",
+                            "value": "character"
+                        },
+                        {
+                            "filter": "type",
+                            "value": "character"
+                        },
+                        {
+                            "filter": "zone",
+                            "value": "play"
+                        },
+                        {
+                            "filter": "status",
+                            "value": "damage",
+                            "comparison": {
+                                "operator": "gte",
+                                "value": 1
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "inkwell": true,
@@ -52255,39 +52384,69 @@
                 "conditions": "$undefined",
                 "layer": {
                     "type": "resolution",
-                    "optional": "$undefined",
+                    "optional": true,
                     "resolveEffectsIndividually": "$undefined",
-                    "dependentEffects": "$undefined",
+                    "dependentEffects": true,
                     "responder": "$undefined",
                     "costs": "$undefined",
                     "name": "WHAT AN AWKWARD SITUATION",
                     "text": "Whenever this character quests, you may choose and discard a card to return chosen character, item, or location with cost 3 or less to their player’s hand.",
                     "effects": [
                         {
-                            "type": "move",
-                            "to": "hand",
+                            "type": "discard",
+                            "amount": 1,
                             "target": {
                                 "type": "card",
                                 "value": 1,
                                 "filters": [
                                     {
-                                        "filter": "attribute",
-                                        "value": "cost",
-                                        "comparison": {
-                                            "operator": "lte",
-                                            "value": 3
-                                        }
+                                        "filter": "owner",
+                                        "value": "self"
                                     },
                                     {
-                                        "filter": "type",
-                                        "value": [
-                                            "character",
-                                            "item",
-                                            "location"
-                                        ]
+                                        "filter": "zone",
+                                        "value": "hand"
                                     }
                                 ]
-                            }
+                            },
+                            "afterEffect": [
+                                {
+                                    "type": "create-layer-based-on-target",
+                                    "target": "$5:props:children:props:children:1:props:loading:props:cards:13:abilities:0:effects:0:target",
+                                    "effects": [
+                                        {
+                                            "type": "move",
+                                            "to": "hand",
+                                            "target": {
+                                                "type": "card",
+                                                "value": 1,
+                                                "filters": [
+                                                    {
+                                                        "filter": "attribute",
+                                                        "value": "cost",
+                                                        "comparison": {
+                                                            "operator": "lte",
+                                                            "value": 3
+                                                        }
+                                                    },
+                                                    {
+                                                        "filter": "type",
+                                                        "value": [
+                                                            "character",
+                                                            "item",
+                                                            "location"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "filter": "zone",
+                                                        "value": "play"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ],
                     "nameACard": "$undefined"
@@ -55309,7 +55468,7 @@
                         "amount": 3,
                         "modifier": "add",
                         "duration": "turn",
-                        "target": "$5:props:children:props:children:1:props:loading:props:cards:446:abilities:0:effects:0:target"
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:2:abilities:0:effects:0:target"
                     },
                     {
                         "type": "ability",
@@ -55349,7 +55508,7 @@
                                 ]
                             }
                         },
-                        "target": "$5:props:children:props:children:1:props:loading:props:cards:446:abilities:0:effects:0:target"
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:2:abilities:0:effects:0:target"
                     }
                 ]
             }
@@ -57930,7 +58089,9 @@
                     "on": "inkwell",
                     "target": "$5:props:children:props:children:1:props:loading:props:cards:1026:abilities:0:trigger:target"
                 },
-                "conditions": "$undefined",
+                "conditions": [
+                    "$5:props:children:props:children:1:props:loading:props:cards:554:abilities:1:conditions:0"
+                ],
                 "layer": {
                     "type": "resolution",
                     "oncePerTurn": "$undefined",
@@ -58145,7 +58306,9 @@
                     "on": "inkwell",
                     "target": "$5:props:children:props:children:1:props:loading:props:cards:1026:abilities:0:trigger:target"
                 },
-                "conditions": "$undefined",
+                "conditions": [
+                    "$5:props:children:props:children:1:props:loading:props:cards:554:abilities:1:conditions:0"
+                ],
                 "layer": {
                     "type": "resolution",
                     "oncePerTurn": "$undefined",
@@ -61178,7 +61341,24 @@
                     {
                         "type": "exert",
                         "exert": true,
-                        "target": "$5:props:children:props:children:1:props:loading:props:cards:2:abilities:0:effects:0:target",
+                        "target": {
+                            "type": "card",
+                            "value": 1,
+                            "filters": [
+                                {
+                                    "filter": "type",
+                                    "value": "character"
+                                },
+                                {
+                                    "filter": "zone",
+                                    "value": "play"
+                                },
+                                {
+                                    "filter": "status",
+                                    "value": "dry"
+                                }
+                            ]
+                        },
                         "afterEffect": [
                             {
                                 "type": "create-layer-based-on-target",
@@ -64576,7 +64756,7 @@
                 "effects": [
                     {
                         "type": "create-layer-for-player",
-                        "target": "$5:props:children:props:children:1:props:loading:props:cards:98:abilities:0:effects:0:target",
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target",
                         "layer": {
                             "type": "resolution",
                             "name": "Here's the Best Part",
@@ -72118,7 +72298,7 @@
                 "layer": {
                     "type": "resolution",
                     "optional": true,
-                    "resolveEffectsIndividually": true,
+                    "resolveEffectsIndividually": "$undefined",
                     "dependentEffects": true,
                     "responder": "$undefined",
                     "costs": "$undefined",
@@ -73575,10 +73755,6 @@
                     "as": "attacker",
                     "filters": [
                         {
-                            "filter": "owner",
-                            "value": "self"
-                        },
-                        {
                             "filter": "status",
                             "value": "damage",
                             "comparison": {
@@ -73587,12 +73763,7 @@
                             }
                         }
                     ],
-                    "secondaryFilters": [
-                        {
-                            "filter": "type",
-                            "value": "character"
-                        }
-                    ]
+                    "secondaryFilters": "$undefined"
                 },
                 "layer": {
                     "type": "resolution",
@@ -77505,7 +77676,9 @@
                     "on": "inkwell",
                     "target": "$5:props:children:props:children:1:props:loading:props:cards:1026:abilities:0:trigger:target"
                 },
-                "conditions": "$undefined",
+                "conditions": [
+                    "$5:props:children:props:children:1:props:loading:props:cards:554:abilities:1:conditions:0"
+                ],
                 "layer": {
                     "type": "resolution",
                     "oncePerTurn": true,
@@ -83103,19 +83276,6 @@
         "abilities": [
             {
                 "type": "resolution",
-                "text": "Chosen character of yours gains Evasive this turn.",
-                "effects": [
-                    {
-                        "type": "ability",
-                        "ability": "evasive",
-                        "duration": "turn",
-                        "modifier": "add",
-                        "target": "$5:props:children:props:children:1:props:loading:props:cards:446:abilities:0:effects:0:target"
-                    }
-                ]
-            },
-            {
-                "type": "resolution",
                 "text": "Chosen character gets -2 {S} this turn.",
                 "effects": [
                     {
@@ -83124,7 +83284,20 @@
                         "amount": 2,
                         "modifier": "subtract",
                         "duration": "turn",
-                        "target": "$5:props:children:props:children:1:props:loading:props:cards:226:abilities:0:effects:0:target"
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:2:abilities:0:effects:0:target"
+                    }
+                ]
+            },
+            {
+                "type": "resolution",
+                "text": "Chosen character of yours gains Evasive this turn.",
+                "effects": [
+                    {
+                        "type": "ability",
+                        "ability": "evasive",
+                        "duration": "turn",
+                        "modifier": "add",
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:521:abilities:1:layer:effects:0:target"
                     }
                 ]
             }
@@ -84361,7 +84534,39 @@
                                         "ability": "custom",
                                         "modifier": "add",
                                         "duration": "turn",
-                                        "customAbility": "$5:props:children:props:children:1:props:loading:props:cards:1010:abilities:0:effects:1:customAbility",
+                                        "customAbility": {
+                                            "type": "static-triggered",
+                                            "trigger": {
+                                                "on": "banish",
+                                                "in": "challenge",
+                                                "as": "both",
+                                                "filters": [
+                                                    {
+                                                        "filter": "source",
+                                                        "value": "self"
+                                                    }
+                                                ]
+                                            },
+                                            "layer": {
+                                                "type": "resolution",
+                                                "effects": [
+                                                    {
+                                                        "type": "move",
+                                                        "to": "hand",
+                                                        "target": {
+                                                            "type": "card",
+                                                            "value": "all",
+                                                            "filters": [
+                                                                {
+                                                                    "filter": "source",
+                                                                    "value": "self"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
                                         "target": {
                                             "type": "card",
                                             "value": "all",
@@ -85971,6 +86176,18 @@
         ],
         "text": "SOMEONE TO CARE FOR When you play this character, you may play a character with cost 2 or less for free.",
         "type": "character",
+        "inkwell": true,
+        "colors": [
+            "amber"
+        ],
+        "cost": 3,
+        "strength": 2,
+        "willpower": 2,
+        "illustrator": "Erika Wiseman",
+        "number": 11,
+        "set": "008",
+        "rarity": "rare",
+        "lore": 2,
         "abilities": [
             {
                 "type": "resolution",
@@ -86002,6 +86219,7 @@
                                 {
                                     "filter": "attribute",
                                     "value": "cost",
+                                    "ignoreBonuses": true,
                                     "comparison": {
                                         "operator": "lte",
                                         "value": 2
@@ -86014,19 +86232,7 @@
                 "resolveEffectsIndividually": "$undefined",
                 "dependentEffects": "$undefined"
             }
-        ],
-        "inkwell": true,
-        "colors": [
-            "amber"
-        ],
-        "cost": 3,
-        "strength": 2,
-        "willpower": 2,
-        "illustrator": "Erika Wiseman",
-        "number": 11,
-        "set": "008",
-        "rarity": "rare",
-        "lore": 2
+        ]
     },
     {
         "id": "ed3",
@@ -87523,28 +87729,12 @@
             },
             {
                 "type": "resolution",
+                "resolveEffectsIndividually": true,
                 "effects": [
                     {
                         "type": "heal",
                         "amount": 3,
-                        "target": {
-                            "type": "card",
-                            "value": "all",
-                            "filters": [
-                                {
-                                    "filter": "zone",
-                                    "value": "play"
-                                },
-                                {
-                                    "filter": "owner",
-                                    "value": "self"
-                                },
-                                {
-                                    "filter": "type",
-                                    "value": "character"
-                                }
-                            ]
-                        }
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:998:abilities:0:effects:0:target"
                     },
                     {
                         "type": "attribute",
@@ -90240,7 +90430,7 @@
                         "attribute": "strength",
                         "amount": 5,
                         "modifier": "add",
-                        "target": "$5:props:children:props:children:1:props:loading:props:cards:2:abilities:0:effects:0:target",
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:446:abilities:0:effects:0:target",
                         "duration": "turn",
                         "until": true
                     },
@@ -92793,6 +92983,9 @@
     },
     {
         "id": "vpb",
+        "reprints": [
+            "lzb"
+        ],
         "name": "John Silver",
         "title": "Greedy Treasure Seeker",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:416:characteristics",
@@ -92809,10 +93002,7 @@
         "illustrator": "Gaku Kumatori",
         "number": 192,
         "set": "009",
-        "rarity": "rare",
-        "reprints": [
-            "lzb"
-        ]
+        "rarity": "rare"
     },
     {
         "id": "s5k",
@@ -93106,35 +93296,7 @@
         "rarity": "common"
     },
     {
-        "id": "sfk",
-        "notImplemented": true,
-        "missingTestCase": true,
-        "name": "Scar",
-        "title": "Finally King",
-        "characteristics": [
-            "storyborn",
-            "villain"
-        ],
-        "text": "BE GRATEFUL Your Ally characters get +1 {S}.nSTICK WITH ME At the end of your turn, if this character is exerted, you may draw cards equal to the {S} of a chosen Ally character of yours. If you do, choose and discard 2 cards and banish that character.",
-        "type": "character",
-        "inkwell": true,
-        "colors": [
-            "steel"
-        ],
-        "cost": 5,
-        "strength": 5,
-        "willpower": 4,
-        "illustrator": "",
-        "number": 175,
-        "set": "009",
-        "rarity": "common",
-        "abilities": [],
-        "lore": 2
-    },
-    {
         "id": "a7h",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Jasmine",
         "title": "Fearless Princess",
         "characteristics": [
@@ -93208,6 +93370,9 @@
     },
     {
         "id": "mfa",
+        "reprints": [
+            "f1t"
+        ],
         "name": "Robin Hood",
         "title": "Champion of Sherwood",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:464:characteristics",
@@ -93223,15 +93388,10 @@
         "illustrator": "Rudy Hill",
         "number": 177,
         "set": "009",
-        "rarity": "legendary",
-        "reprints": [
-            "f1t"
-        ]
+        "rarity": "legendary"
     },
     {
         "id": "kkx",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Little John",
         "title": "Sir Reginald",
         "characteristics": [
@@ -93251,8 +93411,225 @@
         "number": 176,
         "set": "009",
         "rarity": "uncommon",
-        "abilities": [],
+        "abilities": [
+            {
+                "type": "resolution",
+                "resolutionConditions": "$undefined",
+                "optional": "$undefined",
+                "name": "$undefined",
+                "text": "$undefined",
+                "responder": "$undefined",
+                "effects": [
+                    {
+                        "type": "modal",
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:226:abilities:0:effects:0:target",
+                        "modes": [
+                            {
+                                "id": "1",
+                                "text": "Chosen Hero character gains Resist +2 this turn. (Damage dealt to them is reduced by 2.)",
+                                "effects": [
+                                    {
+                                        "type": "ability",
+                                        "ability": "resist",
+                                        "amount": 2,
+                                        "modifier": "add",
+                                        "until": true,
+                                        "duration": "turn",
+                                        "target": {
+                                            "type": "card",
+                                            "value": 1,
+                                            "filters": [
+                                                {
+                                                    "filter": "zone",
+                                                    "value": "play"
+                                                },
+                                                {
+                                                    "filter": "characteristics",
+                                                    "value": [
+                                                        "hero"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "2",
+                                "text": "Deal 2 damage to chosen Villain character.",
+                                "effects": [
+                                    {
+                                        "type": "damage",
+                                        "amount": 2,
+                                        "target": {
+                                            "type": "card",
+                                            "value": 1,
+                                            "filters": [
+                                                {
+                                                    "filter": "zone",
+                                                    "value": "play"
+                                                },
+                                                {
+                                                    "filter": "characteristics",
+                                                    "value": [
+                                                        "villain"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "resolveEffectsIndividually": "$undefined",
+                "dependentEffects": "$undefined"
+            }
+        ],
         "lore": 1
+    },
+    {
+        "id": "sfk",
+        "name": "Scar",
+        "title": "Finally King",
+        "characteristics": [
+            "storyborn",
+            "villain"
+        ],
+        "text": "BE GRATEFUL Your Ally characters get +1 {S}.nSTICK WITH ME At the end of your turn, if this character is exerted, you may draw cards equal to the {S} of a chosen Ally character of yours. If you do, choose and discard 2 cards and banish that character.",
+        "type": "character",
+        "inkwell": true,
+        "colors": [
+            "steel"
+        ],
+        "cost": 5,
+        "strength": 5,
+        "willpower": 4,
+        "illustrator": "",
+        "number": 175,
+        "set": "009",
+        "rarity": "common",
+        "abilities": [
+            {
+                "type": "static",
+                "ability": "effects",
+                "name": "BE GRATEFUL",
+                "text": "Your Ally characters get +1 {S}.",
+                "effects": [
+                    {
+                        "type": "attribute",
+                        "attribute": "strength",
+                        "amount": 1,
+                        "modifier": "add",
+                        "target": {
+                            "type": "card",
+                            "value": "all",
+                            "filters": [
+                                {
+                                    "filter": "type",
+                                    "value": "character"
+                                },
+                                {
+                                    "filter": "zone",
+                                    "value": "play"
+                                },
+                                {
+                                    "filter": "characteristics",
+                                    "value": [
+                                        "ally"
+                                    ]
+                                },
+                                {
+                                    "filter": "owner",
+                                    "value": "self"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "static-triggered",
+                "conditions": [
+                    "$5:props:children:props:children:1:props:loading:props:cards:467:abilities:0:secondaryConditions:0"
+                ],
+                "secondaryConditions": "$undefined",
+                "optional": true,
+                "name": "STICK WITH ME",
+                "text": "At the end of your turn, if this character is exerted, you may draw cards equal to the {S} of a chosen Ally character of yours. If you do, choose and discard 2 cards and banish that character.",
+                "trigger": {
+                    "on": "end_turn",
+                    "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
+                },
+                "layer": {
+                    "type": "resolution",
+                    "name": "STICK WITH ME",
+                    "text": "At the end of your turn, if this character is exerted, you may draw cards equal to the {S} of a chosen Ally character of yours. If you do, choose and discard 2 cards and banish that character.",
+                    "optional": true,
+                    "resolveEffectsIndividually": "$undefined",
+                    "effects": [
+                        {
+                            "type": "create-layer-based-on-target",
+                            "target": {
+                                "type": "card",
+                                "value": 1,
+                                "filters": [
+                                    {
+                                        "filter": "type",
+                                        "value": "character"
+                                    },
+                                    {
+                                        "filter": "owner",
+                                        "value": "self"
+                                    },
+                                    {
+                                        "filter": "zone",
+                                        "value": "play"
+                                    },
+                                    {
+                                        "filter": "characteristics",
+                                        "value": [
+                                            "ally"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "resolveEffectsIndividually": true,
+                            "resolveAmountBeforeCreatingLayer": true,
+                            "afterEffect": [
+                                {
+                                    "type": "create-layer-based-on-target",
+                                    "target": "$5:props:children:props:children:1:props:loading:props:cards:1673:abilities:1:layer:effects:0:target",
+                                    "replaceEffectTarget": true,
+                                    "effects": [
+                                        {
+                                            "type": "banish",
+                                            "target": "$5:props:children:props:children:1:props:loading:props:cards:1122:abilities:0:effects:0:afterEffect:0:effects:0:target"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "effects": [
+                                {
+                                    "type": "draw",
+                                    "amount": {
+                                        "dynamic": true,
+                                        "target": {
+                                            "attribute": "strength"
+                                        }
+                                    },
+                                    "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
+                                },
+                                "$5:props:children:props:children:1:props:loading:props:cards:462:abilities:0:effects:0:modes:0:effects:0"
+                            ]
+                        }
+                    ],
+                    "costs": "$undefined"
+                }
+            }
+        ],
+        "lore": 2
     },
     {
         "id": "lbe",
@@ -93440,6 +93817,9 @@
     },
     {
         "id": "ftq",
+        "reprints": [
+            "zep"
+        ],
         "missingTestCase": true,
         "name": "Mickey Mouse",
         "title": "Trumpeter",
@@ -93455,10 +93835,7 @@
         "illustrator": "Gonzalo Kenny",
         "number": 172,
         "set": "009",
-        "rarity": "legendary",
-        "reprints": [
-            "zep"
-        ]
+        "rarity": "legendary"
     },
     {
         "id": "g10",
@@ -93573,6 +93950,9 @@
     },
     {
         "id": "c8w",
+        "reprints": [
+            "rd4"
+        ],
         "name": "Maid Marian",
         "title": "Delightful Dreamer",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:485:characteristics",
@@ -93589,10 +93969,7 @@
         "illustrator": "Jenna Gray",
         "number": 158,
         "set": "009",
-        "rarity": "common",
-        "reprints": [
-            "rd4"
-        ]
+        "rarity": "common"
     },
     {
         "id": "bcu",
@@ -93711,6 +94088,9 @@
     },
     {
         "id": "j6p",
+        "reprints": [
+            "c31"
+        ],
         "name": "Mama Odie",
         "title": "Mystical Maven",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:484:characteristics",
@@ -93726,10 +94106,7 @@
         "illustrator": "Rogie Custodio / Erin Shin",
         "number": 152,
         "set": "009",
-        "rarity": "rare",
-        "reprints": [
-            "c31"
-        ]
+        "rarity": "rare"
     },
     {
         "id": "a03",
@@ -93777,6 +94154,9 @@
     },
     {
         "id": "yku",
+        "reprints": [
+            "hmg"
+        ],
         "name": "The Queen",
         "title": "Mirror Seeker",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:418:characteristics",
@@ -93793,10 +94173,7 @@
         "illustrator": "Jennifer Gheduzzi / Livio Cacciatore",
         "number": 149,
         "set": "009",
-        "rarity": "uncommon",
-        "reprints": [
-            "hmg"
-        ]
+        "rarity": "uncommon"
     },
     {
         "id": "e93",
@@ -93974,6 +94351,9 @@
                 "ability": "gain-ability",
                 "name": "INSULTING REMARK",
                 "text": "During your turn, each opposing character with cost 2 or less gets -1 {S}.",
+                "conditions": [
+                    "$5:props:children:props:children:1:props:loading:props:cards:554:abilities:1:conditions:0"
+                ],
                 "gainedAbility": {
                     "type": "static",
                     "ability": "effects",
@@ -94540,8 +94920,6 @@
     },
     {
         "id": "e1k",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Powerline",
         "title": "Musical Superstar",
         "characteristics": [
@@ -94579,6 +94957,9 @@
     },
     {
         "id": "n3t",
+        "reprints": [
+            "shd"
+        ],
         "name": "Moana",
         "title": "Undeterred Voyager",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:508:characteristics",
@@ -94595,10 +94976,7 @@
         "illustrator": "Mila Useche",
         "number": 116,
         "set": "009",
-        "rarity": "common",
-        "reprints": [
-            "shd"
-        ]
+        "rarity": "common"
     },
     {
         "id": "k2n",
@@ -94705,8 +95083,6 @@
     },
     {
         "id": "rpf",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Roxanne",
         "title": "Powerline Fan",
         "characteristics": [
@@ -95145,6 +95521,9 @@
     },
     {
         "id": "uny",
+        "reprints": [
+            "ix1"
+        ],
         "name": "Ariel",
         "title": "Adventurous Collector",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:521:characteristics",
@@ -95161,13 +95540,13 @@
         "illustrator": "Javi Salas",
         "number": 107,
         "set": "009",
-        "rarity": "super_rare",
-        "reprints": [
-            "ix1"
-        ]
+        "rarity": "super_rare"
     },
     {
         "id": "daf",
+        "reprints": [
+            "v33"
+        ],
         "missingTestCase": true,
         "name": "Maui",
         "title": "Whale",
@@ -95185,13 +95564,13 @@
         "illustrator": "Sandara Tang",
         "number": 106,
         "set": "009",
-        "rarity": "rare",
-        "reprints": [
-            "v33"
-        ]
+        "rarity": "rare"
     },
     {
         "id": "bt1",
+        "reprints": [
+            "f6m"
+        ],
         "name": "Simba",
         "title": "Scrappy Cub",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:502:characteristics",
@@ -95205,10 +95584,7 @@
         "illustrator": "Agnes Christiansson",
         "number": 105,
         "set": "009",
-        "rarity": "rare",
-        "reprints": [
-            "f6m"
-        ]
+        "rarity": "rare"
     },
     {
         "id": "nzy",
@@ -95303,6 +95679,9 @@
     },
     {
         "id": "lmm",
+        "reprints": [
+            "o3a"
+        ],
         "name": "Wildcat",
         "title": "Mechanic",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:526:characteristics",
@@ -95319,10 +95698,7 @@
         "illustrator": "Valentina Graziuso",
         "number": 91,
         "set": "009",
-        "rarity": "uncommon",
-        "reprints": [
-            "o3a"
-        ]
+        "rarity": "uncommon"
     },
     {
         "id": "r8u",
@@ -95393,6 +95769,9 @@
     },
     {
         "id": "bh1",
+        "reprints": [
+            "jm3"
+        ],
         "missingTestCase": true,
         "name": "Shenzi",
         "title": "Hyena Pack Leader",
@@ -95410,10 +95789,7 @@
         "illustrator": "Jochem Van Gool",
         "number": 87,
         "set": "009",
-        "rarity": "super_rare",
-        "reprints": [
-            "jm3"
-        ]
+        "rarity": "super_rare"
     },
     {
         "id": "yeh",
@@ -96033,6 +96409,9 @@
     },
     {
         "id": "rv8",
+        "reprints": [
+            "cu2"
+        ],
         "missingTestCase": true,
         "name": "Jafar",
         "title": "Lamp Thief",
@@ -96050,10 +96429,7 @@
         "illustrator": "Veronica Di Lorenzo / Livio Cacciatore",
         "number": 59,
         "set": "009",
-        "rarity": "uncommon",
-        "reprints": [
-            "cu2"
-        ]
+        "rarity": "uncommon"
     },
     {
         "id": "utw",
@@ -96540,7 +96916,7 @@
             {
                 "type": "resolution",
                 "resolutionConditions": "$undefined",
-                "optional": "$undefined",
+                "optional": true,
                 "name": "$undefined",
                 "text": "$undefined",
                 "responder": "$undefined",
@@ -96599,9 +96975,10 @@
                                                 {
                                                     "filter": "attribute",
                                                     "value": "cost",
+                                                    "compareWithParentsTarget": true,
                                                     "comparison": {
                                                         "operator": "lte",
-                                                        "value": 4
+                                                        "value": "target"
                                                     }
                                                 }
                                             ]
@@ -96755,6 +97132,9 @@
     },
     {
         "id": "i2h",
+        "reprints": [
+            "uqt"
+        ],
         "missingTestCase": true,
         "name": "Ursula",
         "title": "Sea Witch",
@@ -96771,10 +97151,7 @@
         "illustrator": "John Loren",
         "number": 37,
         "set": "009",
-        "rarity": "rare",
-        "reprints": [
-            "uqt"
-        ]
+        "rarity": "rare"
     },
     {
         "id": "b7e",
@@ -96847,6 +97224,9 @@
     },
     {
         "id": "ifp",
+        "reprints": [
+            "art"
+        ],
         "name": "Queen of Hearts",
         "title": "Wonderland Empress",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:574:characteristics",
@@ -96863,10 +97243,7 @@
         "illustrator": "Brianna Garcia",
         "number": 23,
         "set": "009",
-        "rarity": "uncommon",
-        "reprints": [
-            "art"
-        ]
+        "rarity": "uncommon"
     },
     {
         "id": "iye",
@@ -96984,6 +97361,9 @@
     },
     {
         "id": "pws",
+        "reprints": [
+            "nyd"
+        ],
         "name": "Nani",
         "title": "Protective Sister",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:582:characteristics",
@@ -97000,10 +97380,7 @@
         "illustrator": "Shannon Hallstein",
         "number": 17,
         "set": "009",
-        "rarity": "uncommon",
-        "reprints": [
-            "nyd"
-        ]
+        "rarity": "uncommon"
     },
     {
         "id": "baa",
@@ -97057,6 +97434,9 @@
         "missingTestCase": true,
         "name": "Pluto",
         "title": "Determined Defender",
+        "reprints": [
+            "oqn"
+        ],
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:577:characteristics",
         "text": "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Pluto.)_nnn**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_nnn**GUARD DOG** At the start of your turn, remove up to 3 damage from this character.",
         "type": "character",
@@ -97070,10 +97450,7 @@
         "illustrator": "Dave Alvarez / Alice Pisoni",
         "number": 14,
         "set": "009",
-        "rarity": "rare",
-        "reprints": [
-            "oqn"
-        ]
+        "rarity": "rare"
     },
     {
         "id": "c2m",
@@ -97098,6 +97475,9 @@
     },
     {
         "id": "grh",
+        "reprints": [
+            "rnw"
+        ],
         "name": "Tinker Bell",
         "title": "Generous Fairy",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:572:characteristics",
@@ -97113,10 +97493,7 @@
         "illustrator": "Aisha Durmagambetova",
         "number": 12,
         "set": "009",
-        "rarity": "uncommon",
-        "reprints": [
-            "rnw"
-        ]
+        "rarity": "uncommon"
     },
     {
         "id": "ex3",
@@ -97387,7 +97764,7 @@
                             "type": "banish",
                             "target": {
                                 "type": "card",
-                                "value": "all",
+                                "value": 1,
                                 "filters": [
                                     {
                                         "filter": "type",
@@ -97402,16 +97779,16 @@
                                         "value": "opponent"
                                     },
                                     {
+                                        "filter": "status",
+                                        "value": "exerted"
+                                    },
+                                    {
                                         "filter": "attribute",
                                         "value": "strength",
                                         "comparison": {
                                             "operator": "gte",
                                             "value": 5
                                         }
-                                    },
-                                    {
-                                        "filter": "status",
-                                        "value": "exerted"
                                     }
                                 ]
                             }
@@ -97552,6 +97929,9 @@
     {
         "id": "nn4",
         "name": "Pongo",
+        "reprints": [
+            "eo3"
+        ],
         "title": "Determined Father",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:575:characteristics",
         "text": "**TWILIGHT BARK** Once per turn, you may pay 2 {I} to reveal the top card of your deck. If it's a character card, put it into your hand. Otherwise, put it on the bottom of your deck.",
@@ -97567,14 +97947,10 @@
         "illustrator": "Grace Tran",
         "number": 2,
         "set": "009",
-        "rarity": "super_rare",
-        "reprints": [
-            "eo3"
-        ]
+        "rarity": "super_rare"
     },
     {
         "id": "xvm",
-        "missingTestCase": false,
         "name": "The Queen",
         "title": "Conceited Ruler",
         "characteristics": [
@@ -97596,6 +97972,7 @@
         "number": 1,
         "set": "009",
         "rarity": "rare",
+        "lore": 1,
         "abilities": [
             "$5:props:children:props:children:1:props:loading:props:cards:48:abilities:0",
             {
@@ -97621,8 +97998,8 @@
                     "dependentEffects": "$undefined",
                     "effects": [
                         {
-                            "type": "move",
-                            "to": "hand",
+                            "type": "discard",
+                            "amount": 1,
                             "target": {
                                 "type": "card",
                                 "value": 1,
@@ -97633,7 +98010,7 @@
                                     },
                                     {
                                         "filter": "zone",
-                                        "value": "discard"
+                                        "value": "hand"
                                     },
                                     {
                                         "filter": "owner",
@@ -97642,19 +98019,72 @@
                                     {
                                         "filter": "characteristics",
                                         "value": [
-                                            "princess"
-                                        ]
+                                            "princess",
+                                            "queen"
+                                        ],
+                                        "conjunction": "or"
                                     }
                                 ]
-                            }
+                            },
+                            "afterEffect": [
+                                {
+                                    "type": "create-layer-based-on-target",
+                                    "target": "$5:props:children:props:children:1:props:loading:props:cards:13:abilities:0:effects:0:target",
+                                    "effects": [
+                                        {
+                                            "type": "move",
+                                            "to": "hand",
+                                            "target": {
+                                                "type": "card",
+                                                "value": 1,
+                                                "filters": [
+                                                    {
+                                                        "filter": "owner",
+                                                        "value": "self"
+                                                    },
+                                                    {
+                                                        "filter": "type",
+                                                        "value": "character"
+                                                    },
+                                                    {
+                                                        "filter": "zone",
+                                                        "value": "discard"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ],
                     "resolutionConditions": "$undefined",
                     "costs": "$undefined"
                 }
             }
+        ]
+    },
+    {
+        "id": "tiq",
+        "reprints": [
+            "le7"
         ],
-        "lore": 1
+        "name": "Bruno Madrigal",
+        "title": "Undetected Uncle",
+        "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:789:characteristics",
+        "text": "**Evasive** _(Only characters with Evasive can challenge this character.)_n**YOU JUST HAVE TO SEE IT** {E} − Name a card, then reveal the top card of your deck. If it's the named card, put that card into your hand and gain 3 lore. Otherwise, put it on the top of your deck.",
+        "type": "character",
+        "abilities": "$5:props:children:props:children:1:props:loading:props:cards:789:abilities",
+        "inkwell": true,
+        "colors": "$5:props:children:props:children:1:props:loading:props:cards:789:colors",
+        "cost": 4,
+        "strength": 3,
+        "willpower": 3,
+        "lore": 1,
+        "illustrator": "Juan Diego Leon",
+        "number": 0,
+        "set": "009",
+        "rarity": "super_rare"
     },
     {
         "id": "fj5",
@@ -97968,7 +98398,7 @@
                         "type": "restriction",
                         "restriction": "quest",
                         "duration": "turn",
-                        "target": "$5:props:children:props:children:1:props:loading:props:cards:1818:abilities:1:effects:4:target",
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:1819:abilities:1:effects:4:target",
                         "nonAccumulative": false
                     }
                 ]
@@ -98089,8 +98519,6 @@
         "abilities": [
             {
                 "type": "resolution",
-                "resolveEffectsIndividually": true,
-                "dependentEffects": false,
                 "text": "Chosen character gets +3 {S} and gains Evasive until the start of your next turn.",
                 "effects": [
                     {
@@ -98112,7 +98540,7 @@
                                 }
                             ]
                         },
-                        "duration": "turn",
+                        "duration": "next_turn",
                         "until": true
                     },
                     {

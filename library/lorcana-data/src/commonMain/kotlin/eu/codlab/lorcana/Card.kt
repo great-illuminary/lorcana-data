@@ -6,6 +6,7 @@ import eu.codlab.lorcana.cards.CardTranslations
 import eu.codlab.lorcana.cards.CardType
 import eu.codlab.lorcana.cards.ClassificationHolder
 import eu.codlab.lorcana.cards.InkColor
+import eu.codlab.lorcana.cards.RotationState
 import eu.codlab.lorcana.cards.VariantRarity
 import eu.codlab.lorcana.franchises.Franchise
 import eu.codlab.lorcana.raw.Ravensburger
@@ -40,7 +41,9 @@ data class Card(
     val thirdParty: CardThirdParty? = null,
     @SerialName("move_cost")
     val moveCost: Int? = null,
-    val classifications: List<ClassificationHolder>
+    val classifications: List<ClassificationHolder>,
+    @SerialName("rotation_states")
+    val rotationStates: List<RotationState> = emptyList()
 ) {
     @Deprecated("use abilities only")
     val actions: List<Ability> = abilities
@@ -73,6 +76,7 @@ fun VirtualCard.toCard(set: SetDescription): List<Card>? {
             ravensburger = it.ravensburger,
             moveCost = moveCost,
             classifications = classifications,
+            rotationStates = rotationStates
         )
     }
 }

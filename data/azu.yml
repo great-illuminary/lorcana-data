@@ -48,6 +48,9 @@
       text: 
         en: "During your turn, whenever a card is put into your inkwell, chosen opposing character gets -1 {S} until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 2
@@ -109,6 +112,9 @@
       text: 
         en: "At the start of your turn, if this card is in your discard, you may play her and she enters play exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 3
@@ -165,6 +171,9 @@
       text: 
         en: "Whenever this character quests, the next Pirate character you play this turn costs 1 {I} less."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 4
@@ -209,6 +218,9 @@
       title: "Zimmermann des Schiffs"
       flavour: "Ich repariere immer wieder dasselbe verflixte Loch! Ich sollte anfangen, Überstunden abzurechnen, zehn Prozent Aufpreis."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 5
@@ -253,6 +265,9 @@
       title: "Sorgenfrei"
       flavour: "Sieh dir das Wasser an, und die Vögel! Wow. Wart's ab, wenn Timon und Pumbaa das sehen!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 6
@@ -302,6 +317,9 @@
       text: 
         en: "When you play this character, chosen character gets +1 {L} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 7
@@ -351,6 +369,9 @@
       text: 
         en: "This character enters play exerted unless you have a character named Chip in play."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 8
@@ -401,6 +422,9 @@
         en: "While you have a character named Nani in play, this character gets +2 {L}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 9
@@ -458,6 +482,9 @@
         en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
       ability: "bodyguard"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 10
@@ -502,6 +529,9 @@
       title: "Sorgloser Entdecker"
       flavour: "Tanzt, meine Freunde – erfüllt die Atmosphäre mit Licht und Freude. Achidanza! Es ist, als würde die Musik lebendig."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 11
@@ -551,6 +581,9 @@
         en: "While you have a character named Gazelle in play, this character gains Singer 6."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 12
@@ -601,6 +634,9 @@
         en: "While you have a character named Dale in play, this character gains **Support**. _(Whenever they quest, you may add their {S} to another chosen character's {S} this turn.)_"
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 13
@@ -644,6 +680,9 @@
       title: "Gutherziger Ritter des Rechts"
       flavour: "Es gibt nur eines, was ich mehr mag als Käse – nichts."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 14
@@ -711,6 +750,9 @@
       text: 
         en: "During your turn, whenever a card is put into your inkwell, you may return a character card from your discard to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 15
@@ -766,6 +808,9 @@
       text: 
         en: "At the end of your turn, you may ready another chosen character of yours."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 16
@@ -828,6 +873,9 @@
       text: 
         en: "Whenever a character of yours is challenged while this character is exerted, the challenging character gets -3 {S} this turn unless their player pays 3 {I}."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 17
@@ -877,6 +925,9 @@
       text: 
         en: "Whenever this character quests, your other Alien characters get +1 {L} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 18
@@ -926,6 +977,9 @@
       text: 
         en: "When you play this character, you may put the top 3 cards of your deck into your discard to give chosen character -3 {S} until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 19
@@ -981,6 +1035,9 @@
       text: 
         en: "Chosen character gets -1 {S} until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 20
@@ -1037,6 +1094,9 @@
       text: 
         en: "At the end of your turn, if this character is exerted, you may ready your other characters."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 21
@@ -1086,6 +1146,9 @@
       text: 
         en: "Whenever this character quests, choose a character of yours and that character can't be challenged until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 22
@@ -1136,6 +1199,9 @@
       text: 
         en: "When you play this character, you may remove up to 1 damage from chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 23
@@ -1186,6 +1252,9 @@
       text: 
         en: "When you play this character, you may give chosen character -2 {S} until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 24
@@ -1228,6 +1297,9 @@
       title: "Spielhallenbesitzer"
       flavour: "Reinspaziert. Schön, dass ihr alle da seid."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 25
@@ -1285,6 +1357,9 @@
       text: 
         en: "When you play this character, look at the top 4 cards of your deck. You may reveal any number of Pirate character cards and put them into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 26
@@ -1335,6 +1410,9 @@
       text: 
         en: "1 {I} - This character gets +1 {S} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 27
@@ -1378,6 +1456,9 @@
       text: 
         en: "Chosen character gets +1 {L} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 28
@@ -1423,6 +1504,9 @@
       text: 
         en: "Return a character card with cost 2 or less from your discard to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 29
@@ -1478,6 +1562,9 @@
       text: 
         en: "Count the number of characters you have in play. Chosen character loses {S} equal to that number until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 30
@@ -1521,6 +1608,9 @@
       text: 
         en: "Chosen character of yours can't be challenged until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 31
@@ -1564,6 +1654,9 @@
       text: 
         en: "1 {I}, Banish this item - Chosen character counts as having +3 cost to sing songs this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 32
@@ -1607,6 +1700,9 @@
       text: 
         en: "Return a Pirate character card from your discard to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 33
@@ -1650,6 +1746,9 @@
       text: 
         en: "{E} one of your characters - Chosen character gets -2 {S} until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 34
@@ -1697,6 +1796,9 @@
         en: "During an opponent's turn, whenever a character is banished here, gain 1 lore."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 35
@@ -1755,6 +1857,9 @@
       text: 
         en: "When you move a character here from another location, you may banish this location to gain 3 lore and draw 3 cards."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 36
@@ -1805,6 +1910,9 @@
       text: 
         en: "Whenever one of your other characters is banished during the opponent's turn, gain 2 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 37
@@ -1862,6 +1970,9 @@
         en: "Your other characters gain Challenger +1."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 38
@@ -1905,6 +2016,9 @@
       title: "Begeisterter Schiffsbauer"
       flavour: "Für den unentschlossenen Segler haben wir drei, zähl nach, <drei> Schiffe in einem! Es segelt, es fliegt, es spielt dabei ein Lied! Und das alles für den geringen Preis von nur einem Wunsch."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 39
@@ -1957,6 +2071,9 @@
         en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
       ability: "challenger"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 40
@@ -2005,6 +2122,9 @@
       text: 
         en: "When you play this character, gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 41
@@ -2054,6 +2174,9 @@
       text: 
         en: "When you play this character, move 1 damage counter from chosen character to chosen opposing character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 42
@@ -2098,6 +2221,9 @@
       title: "Schamane der Savanne"
       flavour: "Die Zeichen lügen nie. Die Schlange denkt, sie hat alles durchgeplant … Oh, ho, ho! Sie hat die Eule vergessen. Es gibt noch Hoffnung!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 43
@@ -2149,6 +2275,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 44
@@ -2197,6 +2326,9 @@
       text: 
         en: "When this character is banished, you may exert chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 45
@@ -2246,6 +2378,9 @@
       text: 
         en: "When this character is banished in a challenge, return this card to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 46
@@ -2288,6 +2423,9 @@
       title: "Gieriger Feinschmecker"
       flavour: "… während das Walross alles bis auf den letzten Bissen vertilgte."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 47
@@ -2345,6 +2483,9 @@
         en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
       ability: "challenger"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 48
@@ -2409,6 +2550,9 @@
       text: 
         en: "Whenever this character quests, your other Fairy characters get +1 {L} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 49
@@ -2458,6 +2602,9 @@
       text: 
         en: "When this character is banished, you may draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 50
@@ -2507,6 +2654,9 @@
         en: "_(This character can challenge the turn they're played.)_"
       ability: "rush"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 51
@@ -2550,6 +2700,9 @@
       title: "Fantastischer Flieger"
       flavour: "Teppich hat sich schon immer für uns ins Zeug gelegt! Er wird uns auch jetzt nicht hängen lassen.\n–Jasmin"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 52
@@ -2618,6 +2771,9 @@
       text: 
         en: "During your turn, whenever a card is put into your inkwell, you may draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 53
@@ -2673,6 +2829,9 @@
       text: 
         en: "When you play this character, you may draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 54
@@ -2724,6 +2883,9 @@
       text: 
         en: "Whenever this character quests, reveal the top card of your deck. If it’s a Dragon character card, put it into your hand and repeat this effect. Otherwise, put it on either the top or the bottom of your deck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 55
@@ -2774,6 +2936,9 @@
       text: 
         en: "2 {I}, Choose and discard a card - Gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 56
@@ -2836,6 +3001,9 @@
       text: 
         en: "If you have fewer than 3 cards in your hand, draw until you have 3 cards in your hand._"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 57
@@ -2886,6 +3054,9 @@
       text: 
         en: "Whenever you play a song, you may move up to 2 damage counters from chosen character to chosen opposing character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 58
@@ -2935,6 +3106,9 @@
       text: 
         en: "During your turn, whenever a card is put into your inkwell, exert chosen opposing character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 59
@@ -2983,6 +3157,9 @@
       text: 
         en: "Whenever this character quests, you may look at the top card of chosen player's deck. Put it on top of their deck or into their discard."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 60
@@ -3028,6 +3205,9 @@
       text: 
         en: "Each opponent puts the top 2 cards of their deck into their discard."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 61
@@ -3088,6 +3268,9 @@
       text: 
         en: "At the end of your turn, put all the cards in your hand on the bottom of your deck in any order."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 62
@@ -3131,6 +3314,9 @@
       text: 
         en: "Move 1 damage counter from chosen character to chosen opposing character. Draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 63
@@ -3174,6 +3360,9 @@
       text: 
         en: "Exert chosen character. Then, you may choose and discard a card. If you do, the exerted character can't ready at the start of their next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 64
@@ -3223,6 +3412,9 @@
       text: 
         en: "For each Sorcerer character you have in play, you pay 1 {I} less to play this action.nDraw 2 cards."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 65
@@ -3278,6 +3470,9 @@
       text: 
         en: "Whenever one of your opponents' characters, items, or locations is returned to their hand from play, gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 66
@@ -3321,6 +3516,9 @@
       text: 
         en: "{E}, 1 {I} – Each opponent puts the top card of their deck into their discard."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 67
@@ -3364,6 +3562,9 @@
       text: 
         en: "FAITH AND TRUST {E}, {2} {I} - Chosen character gains Challenger +2 and Evasive until the start of your next turn. (While challenging, they get +2 {1}. Only characters with Evasive can challenge them.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 68
@@ -3404,6 +3605,9 @@
       title: "Königliches Schiff"
       flavour: "Eine Legende besagt, immer wenn etwas verloren geht, wird es für den Bau der Feenschiffe im Azurblauen Meer verwendet."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 69
@@ -3450,6 +3654,9 @@
       text: 
         en: "At the start of your turn, you may move 1 damage counter from chosen character here to chosen opposing character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 70
@@ -3500,6 +3707,9 @@
       text: 
         en: "When you play this character, choose one: n* Exert chosen damaged character. n* Chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 71
@@ -3557,6 +3767,9 @@
         en: "While this character is exerted, opposing Pirate characters can't quest."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 72
@@ -3626,6 +3839,9 @@
       text: 
         en: "When you play this character, if you used Shift to play him, you may put an action card from your discard on the top of your deck._"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 73
@@ -3682,6 +3898,9 @@
       text: 
         en: "When you play this character, you may pay 2 {I} to gain lore equal to the damage on chosen opposing character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 74
@@ -3744,6 +3963,9 @@
       text: 
         en: "When you play this character, you may pay 2 {I} to have each opponent choose and discard a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 75
@@ -3793,6 +4015,9 @@
       text: 
         en: "Whenever this character is challenged, gain 2 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 76
@@ -3836,6 +4061,9 @@
       title: "Verwunschenes Kind"
       flavour: "Jedes der verwunschenen Kinder hat ein Lieblingsversteck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 77
@@ -3879,6 +4107,9 @@
       title: "Basils Assistent"
       flavour: "Bei Gott, er muss hier irgendwo sein. Basil! Basil! Ruf, wenn du – aaahhh!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 78
@@ -3929,6 +4160,9 @@
         en: "_(Opponents can't choose this character except to challenge.)_"
       ability: "ward"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 79
@@ -3980,6 +4214,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 80
@@ -4037,6 +4274,9 @@
         en: ""
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 81
@@ -4114,6 +4354,9 @@
       text: 
         en: "Whenever one of your Pirate characters quests while at a location, draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 82
@@ -4156,6 +4399,9 @@
       title: "Lilos Rivalin"
       flavour: "Verschwinde, bevor wir dich plattwalzen."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 83
@@ -4207,6 +4453,9 @@
         en: "_(Opponents can't choose this character except to challenge.)_"
       ability: "ward"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 84
@@ -4263,6 +4512,9 @@
       text: 
         en: "When you play this character, if you used Shift to play her, return all other exerted characters to their players’ hands."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 85
@@ -4318,6 +4570,9 @@
         en: "While this character is exerted, each opposing player can't gain lore unless one of their characters has challenged this turn."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 86
@@ -4374,6 +4629,9 @@
       text: 
         en: "3 {I} - Deal 1 damage to chosen damaged character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 87
@@ -4423,6 +4681,9 @@
       text: 
         en: "When you play this character, if an opponent has an item in play, gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 88
@@ -4472,6 +4733,9 @@
       text: 
         en: "When you play this character, chosen character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 89
@@ -4542,6 +4806,9 @@
       text: 
         en: "Whenever this character quests, chosen character gains Ward until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 90
@@ -4591,6 +4858,9 @@
       text: 
         en: "During your turn, whenever a card is put into your inkwell, chosen opposing character gains Reckless during their next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 91
@@ -4659,6 +4929,9 @@
       text: 
         en: "During your turn, whenever a card is put into your inkwell, you may pay 1 {I} to have chosen opponent choose and discard a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 92
@@ -4701,6 +4974,9 @@
       title: "Tochter des Spielzeugmachers"
       flavour: "Sie hatte das ganze Illuminarium nach einem Hinweis auf Basil durchsucht. Stattdessen fand sie etwas völlig Unerwartetes …"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 93
@@ -4744,6 +5020,9 @@
       text: 
         en: "Each opponent discards all cards in their hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 94
@@ -4787,6 +5066,9 @@
       text: 
         en: "Chosen character gets +2 {S} this turn. If a Pirate character is chosen, they get +3 {S} instead."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 95
@@ -4832,6 +5114,9 @@
       text: 
         en: "Chosen opposing character can't quest during their next turn. Draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 96
@@ -4875,6 +5160,9 @@
       text: 
         en: "Put 1 damage counter on chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 97
@@ -4930,6 +5218,9 @@
       text: 
         en: "Ready chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 98
@@ -4978,6 +5269,9 @@
       text: 
         en: "Choose one:n* Banish chosen item.n* Banish chosen damaged character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 99
@@ -5021,6 +5315,9 @@
       text: 
         en: "RESOURCE ALLOCATION 1 {I}, Banish this item - Return chosen character with 2 {S} or less to their player's hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 100
@@ -5064,6 +5361,9 @@
       text: 
         en: "At the start of your turn, you may move a character of yours to a location for free."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 101
@@ -5111,6 +5411,9 @@
         en: "Whenever a character is challenged while here, each opponent chooses and discards a card."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 102
@@ -5163,6 +5466,9 @@
       text: 
         en: "Whenever you play a second action in a turn, gain 3 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 103
@@ -5232,6 +5538,9 @@
       text: 
         en: "Whenever this character quests, chosen Pirate character gets +2 {S} and gains ``This character takes no damage from challenges`` this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 104
@@ -5282,6 +5591,9 @@
         en: "_(This character can challenge the turn they're played.)_"
       ability: "rush"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 105
@@ -5331,6 +5643,9 @@
       text: 
         en: "When you play this character, chosen Pirate character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 106
@@ -5381,6 +5696,9 @@
       text: 
         en: "Whenever this character quests, each opponent loses 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 107
@@ -5443,6 +5761,9 @@
       text: 
         en: "Once during your turn, whenever a card is put into your inkwell, you may ready another chosen character of yours. They can't quest for the rest of this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 108
@@ -5501,6 +5822,9 @@
         en: "While you have another Pirate character in play, this character gets +1 {S} and +1 {L}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 109
@@ -5553,6 +5877,9 @@
       text: 
         en: "Whenever this character quests, you may deal 1 damage to one of your other characters. If you do, ready that character. They cannot quest this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 110
@@ -5604,6 +5931,9 @@
       text: 
         en: "At the start of your turn, if this character is at a location, draw a card and gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 111
@@ -5648,6 +5978,9 @@
       title: "Verspielter Schwertkämpfer"
       flavour: "Hisst die Flaggen! Macht euch bereit zum Kampf! Teddybär steht bereit!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 112
@@ -5692,6 +6025,9 @@
       title: "Furchtloser Navigator"
       flavour: "Um den Weg durch das Azurblaue Meer zu finden, braucht man ein starkes Herz, viel Mut und mehr als nur ein bisschen Glück."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 113
@@ -5742,6 +6078,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 114
@@ -5792,6 +6131,9 @@
         en: "_(This character can challenge the turn they're played.)_"
       ability: "rush"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 115
@@ -5842,6 +6184,9 @@
         en: "While this character is at a location, he gets +2 {S}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 116
@@ -5893,6 +6238,9 @@
         en: "While this character has damage, she gets +1 {L}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 117
@@ -5945,6 +6293,9 @@
         en: "This character can't challenge unless you have a Captain character in play."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 118
@@ -5989,6 +6340,9 @@
       title: "Anspruchsvoller Schwertkämpfer"
       flavour: "Mach dich bereit, Michael! Da kommen sie!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 119
@@ -6057,6 +6411,9 @@
       text: 
         en: "When you play this character, your characters get +2 {S} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 120
@@ -6133,6 +6490,9 @@
       text: 
         en: "Once during your turn, whenever a card is put into your inkwell, you may return a location card from your discard to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 121
@@ -6191,6 +6551,9 @@
       text: 
         en: "When you play this character, you may move any number of your characters to the same location for free. Gain 1 lore for each character you moved."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 122
@@ -6235,6 +6598,9 @@
       title: "Freibeuter"
       flavour: "Karlo war immer auf der Suche nach Ärger. Jetzt wurde er endlich dafür bezahlt."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 123
@@ -6291,6 +6657,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 124
@@ -6352,6 +6721,9 @@
       text: 
         en: "Whenever this character challenges another character, you may return an action card from your discard to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 125
@@ -6402,6 +6774,9 @@
       text: 
         en: "Banish chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 126
@@ -6471,6 +6846,9 @@
       text: 
         en: "Whenever you play an action, this character gets +1 {S} and +1 {L} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 127
@@ -6532,6 +6910,9 @@
       text: 
         en: "When you play this character, deal 2 damage to chosen character of yours to deal 2 damage to chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 128
@@ -6575,6 +6956,9 @@
       text: 
         en: "Chosen opponent loses 1 lore. Gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 129
@@ -6618,6 +7002,9 @@
       text: 
         en: "Your characters get +2 {S} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 130
@@ -6675,6 +7062,9 @@
       text: 
         en: "(A character with cost 3 or more can {E} to sing this song for free.)nSearch your deck for a location card, reveal that card to all players, and put it into your hand. Then, shuffle your deck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 131
@@ -6718,6 +7108,9 @@
       text: 
         en: "Banish chosen character. Draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 132
@@ -6761,6 +7154,9 @@
       text: 
         en: "2 {I} – Chosen character of yours gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 133
@@ -6804,6 +7200,9 @@
       text: 
         en: "GLITTERING ACCESS {E}, 1 {I}, Banish this item – Ready chosen character of yours. They can't quest for the rest of this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 134
@@ -6848,6 +7247,9 @@
         en: "Your damaged characters get +1 {S}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 135
@@ -6894,6 +7296,9 @@
       text: 
         en: "At the start of your turn, if you have a character here, all opponents lose 1 lore and you gain lore equal to the lore lost this way."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 136
@@ -6946,6 +7351,9 @@
       text: 
         en: "At the start of your turn, if you have a Pirate character here, gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 137
@@ -6998,6 +7406,9 @@
         en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
       ability: "support"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 138
@@ -7047,6 +7458,9 @@
       text: 
         en: "Whenever this character quests, chosen Inventor character gets +1 {L} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 139
@@ -7097,6 +7511,9 @@
       text: 
         en: "Whenever you play an item, this character gets +1 {L} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 140
@@ -7166,6 +7583,9 @@
         en: "While you have 3 or more items in play, you pay 1 {I} less to play Inventor characters."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 141
@@ -7221,6 +7641,9 @@
       text: 
         en: "During your turn, whenever a card is put into your inkwell, another chosen character gains Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 142
@@ -7282,6 +7705,9 @@
       text: 
         en: "During your turn, whenever a card is put into your inkwell, you may reveal the top card of your deck. If it's an item card, you may play that item for free and they enter play exerted. Otherwise put it on the bottom of your deck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 143
@@ -7332,6 +7758,9 @@
       text: 
         en: "Whenever this character quests, you may return one of your items to your hand to pay 2 {S} less for the next item you play this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 144
@@ -7382,6 +7811,9 @@
       text: 
         en: "When you play this character, put chosen character of yours into your inkwell facedown and exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 145
@@ -7432,6 +7864,9 @@
       text: 
         en: " {E}, 2 {I} − Search your deck for an item card or a Robot character card and reveal it to all players. Shuffle your deck and put that card on top of it."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 146
@@ -7487,6 +7922,9 @@
         en: "During your turn, this character gains **Evasive**. (_They can challenge characters with Evasive._)"
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 147
@@ -7536,6 +7974,9 @@
       text: 
         en: "When you play this character, chosen opposing character gets -2 {S} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 148
@@ -7586,6 +8027,9 @@
         en: "While you have another character with Support in play, this character gets +2 {S}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 149
@@ -7654,6 +8098,9 @@
       text: 
         en: "When you play this character, you may banish chosen item. Its player gains 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 150
@@ -7710,6 +8157,9 @@
         en: "While you have an item in play, this character can't be challenged."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 151
@@ -7754,6 +8204,9 @@
       title: "Scharfsinnige Maus"
       flavour: "Alle Hinweise deuteten auf eine Insel hin, aber ich hätte nie gedacht, sie auf einer Karte zu finden. Donnerwetter, das ist unfassbar! Ich meine, die Insel existiert, also ist es schon irgendwie fassbar – dennoch! Das ist erstaunlich!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 152
@@ -7798,6 +8251,9 @@
       title: "Aufgeregter Astronom"
       flavour: "Natürlich! Jetzt ergibt alles Sinn. Deshalb sind meine alten Sternkarten nutzlos. Kein Stern in diesem Himmel gleicht den unseren!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 153
@@ -7855,6 +8311,9 @@
         en: "This character gets +1 {S} and +1 {W} for each item you have in play."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 154
@@ -7911,6 +8370,9 @@
       text: 
         en: "Look at the top card of your deck. Put it on either the top or the bottom of your deck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 155
@@ -7961,6 +8423,9 @@
       text: 
         en: "During an opponent’s turn, when this character is banished, you may put the top card of your deck into your inkwell facedown. Then, put this card into your inkwell facedown."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 156
@@ -8029,6 +8494,9 @@
       text: 
         en: "2 {I} - Remove up to 1 damage from another chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 157
@@ -8096,6 +8564,9 @@
       text: 
         en: "When you play this character and whenever he quests, you may remove up to 2 damage from another chosen character of yours. Gain 1 lore for each 1 damage removed this way."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 158
@@ -8140,6 +8611,9 @@
       title: "Professor Callaghan"
       flavour: "Ihr seid alle brillante Wissenschaftler und Erfinder. Stellt euch vor, was ihr mit diesem kleinen Gerät alles machen könntet. Wie könnt ihr die Grenzen des Möglichen überwinden?"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 159
@@ -8184,6 +8658,9 @@
       title: "Neugieriger Erfinder"
       flavour: "Er wird einen Weg finden, alles in Mäusegröße herzustellen."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 160
@@ -8246,6 +8723,9 @@
       text: 
         en: "Whenever this character quests, draw a card for each opposing character with 0 {S}."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 161
@@ -8301,6 +8781,9 @@
       text: 
         en: "Whenever this character quests, another chosen character of yours gets +1 {L} and gains Ward until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 162
@@ -8358,6 +8841,9 @@
       text: 
         en: "Your Inventor characters gain **Resist** +6 this turn. Then, put this card into your inkwell facedown and exerted. _(Damage dealt to them is reduced by 6.)_"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 163
@@ -8401,6 +8887,9 @@
       text: 
         en: "This turn, you may put an additional card from your hand into your inkwell facedown. Draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 164
@@ -8444,6 +8933,9 @@
       text: 
         en: "Chosen character gains Support this turn. Draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 165
@@ -8487,6 +8979,9 @@
       text: 
         en: "Choose one:n* Ready chosen item.n* Ready chosen Robot character. They can't quest for the rest of this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 166
@@ -8530,6 +9025,9 @@
       text: 
         en: "10,000 MEDICAL PROCEDURES {E} - Choose one:n* Remove up to 1 damage from chosen character. n* If you have a Robot character in play, remove up to 3 damage from chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 167
@@ -8573,6 +9071,9 @@
       text: 
         en: "When you play this item, chosen character gets -1 {S} this turn for each item named Microbots you have in play."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 168
@@ -8616,6 +9117,9 @@
       text: 
         en: "HERE YOU GO Banish this item – Remove up to 2 damage from each of your characters. Draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 169
@@ -8662,6 +9166,9 @@
       text: 
         en: "At the start of your turn, if you have a character here, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 170
@@ -8714,6 +9221,9 @@
         en: "Characters get +1 {W} while here."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 171
@@ -8763,6 +9273,9 @@
       text: 
         en: "When you play this character, if you have another Pirate character in play, you may deal 1 damage to chosen character or location."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 172
@@ -8813,6 +9326,9 @@
       text: 
         en: "Whenever this character quests, you may draw a card. Then, choose and discard a card to deal 1 damage to chosen character or location. If a Pirate character card was discarded, deal 3 damage to that character or location instead."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 173
@@ -8862,6 +9378,9 @@
       text: 
         en: "During your turn, whenever a card is put into your inkwell, this character gets Challenger +2 this turn. (While challenging, this character gets +2 {S}.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 174
@@ -8911,6 +9430,9 @@
         en: "This character can't be challenged by characters with 2 {S} or more."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 175
@@ -8962,6 +9484,9 @@
         en: "During your turn, this character gains **Evasive**."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 176
@@ -9019,6 +9544,9 @@
       text: 
         en: "When you play this character, you may deal damage to chosen character equal to the number of your other Pirate characters in play."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 177
@@ -9070,6 +9598,9 @@
         en: "While you have a character named Mr. Smee in play, this character gains Resist +1. (Damage dealt to them is reduced by 1.)"
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 178
@@ -9113,6 +9644,9 @@
       title: "Vertrauter Marinesoldat"
       flavour: "Ma'am! Ich bin ein hochqualifiziertes Instrument der taktischen Überlegenheit! Vielleicht können wir jemand anderen für die Routinearbeit finden! Ma'am!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 179
@@ -9157,6 +9691,9 @@
       title: "Phillips Vater"
       flavour: "Ich sagte doch, dass wir irgendwann eine Insel finden würden! Hervorragend navigiert. Ja, ja, ich bin ziemlich stolz. Nun denn, ein Prosit auf unseren Erfolg!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 180
@@ -9208,6 +9745,9 @@
         en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
       ability: "challenger"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 181
@@ -9260,6 +9800,9 @@
       text: 
         en: "When you play this character, chosen character can't challenge during their next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 182
@@ -9311,6 +9854,9 @@
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
       ability: "resist"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 183
@@ -9366,6 +9912,9 @@
       text: 
         en: "When you play this character, you may deal 1 damage to chosen character or location."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 184
@@ -9409,6 +9958,9 @@
       title: "Großer Kumpel"
       flavour: "Raya: Nichts kommt an Tuktuk vorbei. <Nichts>.\nSisu: Außer Schmetterlinge! Oh, und Vögel!\nRaya: Gut. Die <meisten> Dinge kommen nicht an Tuktuk vorbei."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 185
@@ -9459,6 +10011,9 @@
       text: 
         en: "When this character is banished, you may banish chosen item or location."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 186
@@ -9515,6 +10070,9 @@
         en: "While this character has no damage, he gets +4 {S}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 187
@@ -9565,6 +10123,9 @@
         en: "Your Pluto characters get Resist +1. (Damage dealt to them is reduced by 1.)"
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 188
@@ -9620,6 +10181,9 @@
       text: 
         en: "Draw a card, then choose and discard a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 189
@@ -9664,6 +10228,9 @@
       title: "Kapitän Dummkopf"
       flavour: "Zahlenmäßige Überlegenheit ist überbewertet. Ich bevorzuge meine eigene Überlegenheit."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 190
@@ -9725,6 +10292,9 @@
       text: 
         en: "Whenever this character quests, you may banish chosen item or location to gain 2 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 191
@@ -9780,6 +10350,9 @@
       text: 
         en: "During your turn, whenever this character banishes another character in a challenge, gain 2 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 192
@@ -9850,6 +10423,9 @@
         en: "While being challenged, your other characters gain Resist +1."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 193
@@ -9900,6 +10476,9 @@
       text: 
         en: "During your turn, whenever a card is put into your inkwell, deal 1 damage to chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 194
@@ -9964,6 +10543,9 @@
       text: 
         en: "At the start of your turn, deal 1 damage to each opposing ready character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 195
@@ -10007,6 +10589,9 @@
       text: 
         en: "Choose one:nn· Deal 2 damage to chosen character.nn· Banish chosen item."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 196
@@ -10052,6 +10637,9 @@
       text: 
         en: "(A character with cost 3 or more can {E} to sing this song for free.)nChosen character gains Resist +2 until the start of your next turn. Draw a card. (Damage dealt to them is reduced by 2.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 197
@@ -10100,6 +10688,9 @@
       text: 
         en: "Deal 2 damage to chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 198
@@ -10143,6 +10734,9 @@
       text: 
         en: "{E} one of your characters to deal damage equal to their {S} to chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 199
@@ -10186,6 +10780,9 @@
       text: 
         en: "Each opponent chooses one of their characters and deals 4 damage to them."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 200
@@ -10235,6 +10832,9 @@
       text: 
         en: "{E}, 2 {I} – Reveal the top card of your deck. If it’s a Prince or King character card, you may put it into your hand. Otherwise, put it on the top of your deck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 201
@@ -10278,6 +10878,9 @@
       text: 
         en: "HANDLE WITH CARE {E}, 2 {I} – Chosen character gains Bodyguard until the start of your next turn. (An opposing character who challenges one of your characters must choose one with Bodyguard if able.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 202
@@ -10321,6 +10924,9 @@
       text: 
         en: "SPYCRAFT {E} - Draw a card, then choose and discard a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 203
@@ -10379,6 +10985,9 @@
       text: 
         en: "At the start of your turn, deal damage to chosen character or location equal to the number of characters here."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: azu
       id: 204
@@ -10426,3 +11035,6 @@
         en: "While you have an Alien or Robot character here, this location can’t be challenged."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed

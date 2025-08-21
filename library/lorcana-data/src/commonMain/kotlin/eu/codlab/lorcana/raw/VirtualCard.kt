@@ -6,6 +6,7 @@ import eu.codlab.lorcana.cards.CardTranslations
 import eu.codlab.lorcana.cards.CardType
 import eu.codlab.lorcana.cards.ClassificationHolder
 import eu.codlab.lorcana.cards.InkColor
+import eu.codlab.lorcana.cards.RotationState
 import eu.codlab.lorcana.franchises.Franchise
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -30,7 +31,9 @@ data class VirtualCard(
     val abilities: List<Ability> = emptyList(),
     val franchise: Franchise,
     @SerialName("third_party")
-    val thirdParty: CardThirdParty? = null
+    val thirdParty: CardThirdParty? = null,
+    @SerialName("rotation_states")
+    val rotationStates: List<RotationState> = emptyList()
 ) {
     @Deprecated("use abilities only")
     val actions: List<Ability> = abilities

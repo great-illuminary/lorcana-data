@@ -63,6 +63,8 @@
       text: 
         en: "When this character is banished, gain 2 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 2
@@ -125,6 +127,8 @@
   third_party: 
     card_market: ""
     tcg_player: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 3
@@ -204,6 +208,8 @@
       text: 
         en: "When you play this character, shuffle all character cards from your discard into your deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 4
@@ -318,6 +324,8 @@
       title: "しっぽフリフリちゃん"
       flavour: "この子たちはまずあなたのハートを奪う。\nそしてあなたのシートを奪う。"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 5
@@ -378,6 +386,8 @@
         en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
       ability: "bodyguard"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 6
@@ -432,6 +442,8 @@
       title: "アトランティス人"
       flavour: "インクランドへようこそ！"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 7
@@ -512,6 +524,8 @@
       text: 
         en: "When you play this character, all characters get -3 {S} until the start of your next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 8
@@ -576,6 +590,8 @@
       text: 
         en: "Whenever this character quests, if you have 4 or more other characters in play, your other characters get +1 {L} this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 9
@@ -641,6 +657,8 @@
       text: 
         en: "Whenever you play a character with **Bodyguard**, you may remove up to 2 damage from chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 10
@@ -701,6 +719,8 @@
         en: "**Singer** +4 _(This character counts as cost 4 to sing songs.)_"
       ability: "singer"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 11
@@ -754,6 +774,8 @@
       title: "役立たずなビジネスマン"
       flavour: "「簡単なことじゃないか、スヌープス！欲しいのはあのロアさ！ダイヤみたいに輝くアレが！」\n― マダム・メデューサ"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 12
@@ -828,6 +850,9 @@
         en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
       ability: "bodyguard"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 13
@@ -881,6 +906,8 @@
       title: "エースパイロット"
       flavour: "「おい、空を見ろ！アレは何てんだ？”インクランナー”？俺もあんな風に飛んでみたいもんだぜ」"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 14
@@ -940,6 +967,8 @@
       text: 
         en: "{E} – Chosen character gets -2 {S} until the start of your next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 15
@@ -1004,6 +1033,8 @@
       text: 
         en: "When you play this character and whenever she quests, you may play a character with cost 2 or less from your discard for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 16
@@ -1080,6 +1111,8 @@
         en: "While you have 2 or more other characters in play, this characters gets +2 {L}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 17
@@ -1165,6 +1198,9 @@
       text: 
         en: "At the start of your turn, remove up to 3 damage from this character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 18
@@ -1238,6 +1274,9 @@
       text: 
         en: " {E} – You pay 1 {I} less for the next character you play this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 19
@@ -1325,6 +1364,9 @@
       text: 
         en: "Once per turn, you may pay 2 {I} to reveal the top card of your deck. If it's a character card, put it into your hand. Otherwise, put it on the bottom of your deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 20
@@ -1399,6 +1441,9 @@
       text: 
         en: "Whenever this character quests, your other Villain characters get +1 {L} this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 21
@@ -1459,6 +1504,8 @@
         en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
       ability: "support"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 22
@@ -1533,6 +1580,9 @@
       text: 
         en: "When you play this character, look at the top 4 cards of your deck. You may reveal a character card and put it into your hand. Place the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 23
@@ -1586,6 +1636,8 @@
       title: "才能ある船員"
       flavour: "ティンクが船をアップグレードさせ、ウェンディは行方不明の人魚を探しに大空へと発進しました。"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 24
@@ -1639,6 +1691,8 @@
       text: 
         en: "Whenever one of your characters quests this turn, gain 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 25
@@ -1692,6 +1746,8 @@
       text: 
         en: "Chosen character gains **Support** this turn"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 26
@@ -1761,6 +1817,9 @@
       text: 
         en: "Remove up to 3 damage from chosen character. Draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 27
@@ -1814,6 +1873,8 @@
       text: 
         en: "Remove up to 3 damage from chosen location."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 28
@@ -1869,6 +1930,8 @@
       text: 
         en: "_(A character with cost 2 or more can Exert.png to sing this song for free.)_nnnChosen opponent reveals their hand and discards a non-character card of your choice."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 29
@@ -1922,6 +1985,8 @@
       text: 
         en: "Banish this item – Remove up to 2 damage from each of your characters."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 30
@@ -1975,6 +2040,8 @@
       text: 
         en: " {E} – You pay 2 {I} less for the next character you play this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 31
@@ -2028,6 +2095,8 @@
       text: 
         en: "{E} – Remove up to 2 damage from chosen location."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 32
@@ -2078,6 +2147,8 @@
       title: "人魚の入り江"
       flavour: "人魚たちはピーターに、数日前にいくつかの品々が浮かんでいたのを見たことを伝えましたが、それよりも、姉妹の一人が姿を消していることを心配していました。"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 33
@@ -2155,6 +2226,8 @@
         en: "Characters get +2 {W} while here."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 34
@@ -2212,6 +2285,8 @@
         en: "Characters can't be challenged while here."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 35
@@ -2272,6 +2347,8 @@
       text: 
         en: "{E} – Exert chosen opposing character and all other opposing characters with the same name."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 36
@@ -2331,6 +2408,8 @@
       text: 
         en: "Whenever this character quests, you may banish this character to draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 37
@@ -2390,6 +2469,8 @@
       text: 
         en: "Whenever you play a character named Maleficent, you may look at the top card of your deck. Put it on either the top or the bottom of your deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 38
@@ -2463,6 +2544,9 @@
       text: 
         en: "Whenever this character quests, you may shuffle this card into your deck to draw 3 cards."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 39
@@ -2522,6 +2606,8 @@
       text: 
         en: "{E} − Exert chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 40
@@ -2582,6 +2668,8 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 41
@@ -2656,6 +2744,9 @@
       text: 
         en: "When you play this character, look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 42
@@ -2742,6 +2833,8 @@
       text: 
         en: "During your turn, while this character is exerted, whenever you draw a card, gain 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 43
@@ -2803,6 +2896,8 @@
         en: "_(This character can challenge the turn they're played.)_"
       ability: "rush"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 44
@@ -2862,6 +2957,8 @@
       text: 
         en: "When you play this character, if you have a Sorcerer character in play, exert an opposing character. The chosen character doesn't ready at the start of their next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 45
@@ -2927,6 +3024,8 @@
       text: 
         en: "When you play this character, you may shuffle all Broom characters from your discard to your deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 46
@@ -2987,6 +3086,8 @@
         en: "While this character is at a location, it gets +2 {S}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 47
@@ -3052,6 +3153,8 @@
       text: 
         en: "{E} – Move a character of yours to a location for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 48
@@ -3106,6 +3209,8 @@
       title: "野心家の魔女"
       flavour: "「力をおくれ、闇の月食。絶望の淵からこの身を救い、魔力を再び呼び覚ませ。影の女王、ここに復ッ活ァーツ！」"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 49
@@ -3172,6 +3277,8 @@
       text: 
         en: "Whenever this character quests, gain lore equal to the cost of one of your items in play."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 50
@@ -3232,6 +3339,8 @@
       text: 
         en: "{E} – Return chosen item with cost equal to or less than this character's {S} to its player's hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 51
@@ -3311,6 +3420,8 @@
       text: 
         en: "During your turn, whenever you draw a card, you may move 1 damage counter from a chosen character to a chosen opposing character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 52
@@ -3385,6 +3496,9 @@
       text: 
         en: "Whenever this character quests, you may move up to 2 damage counters from chosen character to chosen opposing character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 53
@@ -3444,6 +3558,8 @@
       text: 
         en: "When this character is banished, you may shuffle this card into your deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 54
@@ -3525,6 +3641,9 @@
         en: "Whenever he challenges a Hyena character, this character takes no damage from the challenge."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 55
@@ -3590,6 +3709,8 @@
       text: 
         en: "{E} – Gain lore equal to the number of Titan characters you have in play."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 56
@@ -3643,6 +3764,8 @@
       title: "破壊の力"
       flavour: "豊かな森を燃やして焦がす\n翼を拡げ 怒る火の鳥\n春が歌うは古代のコーラス\n再び芽吹け よみがえる緑"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 57
@@ -3698,6 +3821,8 @@
       title: "憎悪に燃えた宿敵"
       flavour: "「クモの糸で足を捕らえる\n鷲の目で姿を捉える\n時の砂で過去を囚える\n我は魔法の呪文を唱える！」"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 58
@@ -3757,6 +3882,8 @@
         en: "This character can't challenge or quest unless it is at a location."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 59
@@ -3845,6 +3972,9 @@
       text: 
         en: "Whenever this character quests, chosen opposing character can't ready at the start of their next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 60
@@ -3898,6 +4028,8 @@
       text: 
         en: "Move 1 damage counter from chosen character to chosen opposing character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 61
@@ -3953,6 +4085,8 @@
       text: 
         en: "Draw a card. Shuffle up to 3 cards from your opponent's discard into your opponent's deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 62
@@ -4020,6 +4154,9 @@
       text: 
         en: "Exert chosen opposing character. Then chosen character of yours gains **Challenger** +2 this turn. (They get +2 {S} while challenging.)"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 63
@@ -4075,6 +4212,8 @@
       text: 
         en: "_(A character with cost 3 or more can {E} to sing this song for free.)_nnnLook at the top 5 cards of your deck. Put any number of them on the top or the bottom of your deck in any order. Gain 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 64
@@ -4128,6 +4267,8 @@
       text: 
         en: "Banish this item – If you have a character named Jafar in play, draw 2 cards. If you have a character named Genie in play, return chosen character with cost 4 or less to their player's hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 65
@@ -4195,6 +4336,8 @@
       text: 
         en: "{E}, 1 {I} − Name a card, then reveal the top card of your deck. If it's the named card, put that card into your hand. Otherwise, put it on the top of your deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 66
@@ -4245,6 +4388,8 @@
       title: "マレフィセントの城"
       flavour: "不気味な静けさが城を包む…だがそこに潜む危険な住民にこそ気をつけよ。"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 67
@@ -4301,6 +4446,8 @@
       text: 
         en: "At the start of your turn, for each character you have here, you may draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 68
@@ -4358,6 +4505,8 @@
         en: "Characters get +1 {L} while here."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 69
@@ -4417,6 +4566,8 @@
       text: 
         en: "Whenever this character moves to a location, he gets +3 {S} this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 70
@@ -4503,6 +4654,9 @@
       text: 
         en: "Whenever this character is challenged, each opponent chooses and discards a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 71
@@ -4565,6 +4719,8 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 72
@@ -4625,6 +4781,8 @@
         en: "**EERIE PAIR** Your characters named Jetsam get +3 {S}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 73
@@ -4689,6 +4847,8 @@
       text: 
         en: "When you play this character, the player or players with the most cards in their hand chooses and discards a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 74
@@ -4754,6 +4914,8 @@
       text: 
         en: "Whenever this character quests, you may deal 3 damage to chosen damaged character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 75
@@ -4813,6 +4975,8 @@
       text: 
         en: "When this character is challenged and banished, banish the challenging character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 76
@@ -4879,6 +5043,8 @@
         en: "Your characters named Flotsam gain **Ward**."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 77
@@ -4952,6 +5118,8 @@
       text: 
         en: "When you play this character, you may return chosen opposing character with 2 {S} or less to their player's hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 78
@@ -5016,6 +5184,8 @@
       text: 
         en: "Whenever one of your other characters is banished, each opponent loses 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 79
@@ -5069,6 +5239,8 @@
       title: "知的な地図製作者"
       flavour: "「本当さ、”チンプンカンプン”を研究すればいろんなとこに行けるようになるんだ！」"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 80
@@ -5135,6 +5307,8 @@
       text: 
         en: "When this character is banished, return all opposing characters to their players’ hands."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 81
@@ -5203,6 +5377,8 @@
       title: "宇宙スライム"
       flavour: "「このプルプル頭のいたずら小僧め」\n― ジョン・シルバー"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 82
@@ -5262,6 +5438,8 @@
       text: 
         en: "Once per turn, when this character moves to a location, gain lore equal to that location's {L}."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 83
@@ -5322,6 +5500,8 @@
       text: 
         en: "Each opponent with more Lore than you loses 2 Lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 84
@@ -5389,6 +5569,9 @@
       title: "明日の義賊"
       flavour: "「たまには川の流れに身を任せるのもいいもんさ」"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 85
@@ -5470,6 +5653,9 @@
         en: "When this character is at a location, she gets +3 {S}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 86
@@ -5530,6 +5716,8 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 87
@@ -5590,6 +5778,8 @@
         en: "_(Opponents can't choose this character except to challenge.)_"
       ability: "ward"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 88
@@ -5644,6 +5834,8 @@
       title: "よこしまな海賊"
       flavour: "エモノのある場所さえ指してやれば、あとはこいつが全部やる。"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 89
@@ -5711,6 +5903,8 @@
         en: "While this character is at a location, he gains **Ward**. _(Opponents can't choose them except to challenge.)_"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 90
@@ -5799,6 +5993,9 @@
       text: 
         en: "When you play this character, chosen opponent reveals their hand and discards a song card of your choice."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 91
@@ -5915,6 +6112,8 @@
       text: 
         en: "Whenever this character sings a song, you may play that song again from your discard for free, then put it on the bottom of your deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 92
@@ -5994,6 +6193,9 @@
       text: 
         en: " {E} – Banish chosen item."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 93
@@ -6054,6 +6256,8 @@
         en: "While this character is at a location, he gets +1 {L}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 94
@@ -6109,6 +6313,8 @@
       text: 
         en: "_(A character with cost 2 or more can {E} to sing this song for free.)_nnnBanish chosen item."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 95
@@ -6164,6 +6370,8 @@
       text: 
         en: "_(A character with cost 1 or more can {E} to sing this song for free.)_nnnChosen character of yours gets +2 {S} this turn. They may move to a location for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 96
@@ -6219,6 +6427,8 @@
       text: 
         en: "Draw 2 cards, then choose and discard a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 97
@@ -6272,6 +6482,8 @@
       text: 
         en: "{E} − If you've played 2 or more actions this turn, draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 98
@@ -6330,6 +6542,8 @@
       text: 
         en: "Whenever a character of yours named Robin Hood quests, you may ready this item."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 99
@@ -6388,6 +6602,8 @@
       text: 
         en: "{E} – You pay 2 {I} less for the next action you play this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 100
@@ -6438,6 +6654,8 @@
       title: "クルエラの屋敷"
       flavour: "「この古屋敷にはオバケが出るという噂を聞いたことがあるんだが、どうなんだ？」\n― 大佐"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 101
@@ -6501,6 +6719,8 @@
         en: "Characters gain **Ward** and **Evasive** while here. _(Opponents can't choose them except to challenge. Only characters with Evasive can challenge them.)_"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 102
@@ -6572,6 +6792,8 @@
         en: "Whenever a character is challenged and banished while here, banish the challenging character."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 103
@@ -6666,6 +6888,9 @@
       text: 
         en: "Whenever you play a song, chosen character of yours gains **Evasive** until the start of your next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 104
@@ -6720,6 +6945,8 @@
       title: "地図の所持者"
       flavour: "「俺の宝箱を狙ってる、悪魔みたいなサイボーグと血なまぐさい手下たち…」"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 105
@@ -6795,6 +7022,8 @@
       text: 
         en: "During your turn, whenever this character banishes another character in a challenge, ready this character. He can't quest for the rest of this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 106
@@ -6855,6 +7084,8 @@
         en: "_(This character can't quest and must challenge each turn if able.)_"
       ability: "reckless"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 107
@@ -6914,6 +7145,8 @@
       text: 
         en: "Once per turn, when this character moves to a location, each opponent loses 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 108
@@ -6972,6 +7205,8 @@
       text: 
         en: "When this character is damaged, deal the same amount of damage to a chosen opposing character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 109
@@ -7036,6 +7271,8 @@
       text: 
         en: "Whenever you play a location, this character may move there for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 110
@@ -7089,6 +7326,8 @@
       title: "スリルの追求者"
       flavour: "ビッグな報酬が欲しいなら、ビッグなことにチャレンジしなきゃ。"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 111
@@ -7148,6 +7387,8 @@
       text: 
         en: "When you play this character each opponent loses 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 112
@@ -7207,6 +7448,8 @@
       text: 
         en: "When you play this character, banish chosen opposing character with 3 {S} or less."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 113
@@ -7273,6 +7516,8 @@
       text: 
         en: "Whenever one of your characters named Heihei quests, this character gets +1 {L} and loses **Reckless** for this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 114
@@ -7352,6 +7597,9 @@
         en: "This character doesn’t ready at the start of the turn."
       ability: "restriction"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 115
@@ -7412,6 +7660,8 @@
         en: "While this character is at a location, he gets +2 {S}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 116
@@ -7479,6 +7729,8 @@
       text: 
         en: "Whenever this character quests while at a location, ready all other characters here. They can't quest for the rest of this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 117
@@ -7554,6 +7806,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 118
@@ -7607,6 +7862,8 @@
       title: "手下のハゲタカ"
       flavour: "「とんま、しゃべるでねえったら」\n― 早撃ち"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 119
@@ -7673,6 +7930,8 @@
         en: "While you have a character named Tinker Bell in play, this character gets +2 {S}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 120
@@ -7759,6 +8018,8 @@
         en: "Whenever he challenges a Pirate character, this character takes no damage from the challenge."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 121
@@ -7819,6 +8080,8 @@
       text: 
         en: " When this character is banished, you may banish chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 122
@@ -7881,6 +8144,8 @@
         en: "While this character has damage, he gets +3 {S}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 123
@@ -7949,6 +8214,9 @@
       title: "やんちゃな仔ライオン"
       flavour: "彼もロア狩りに加わるんだ、おやつの後でね。"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 124
@@ -8015,6 +8283,8 @@
         en: "If you have a character named Peter Pan in play, you pay 1 {I} less to play this character."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 125
@@ -8090,6 +8360,8 @@
         en: "_(This character can challenge the turn they're played.)_"
       ability: "rush"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 126
@@ -8150,6 +8422,8 @@
         en: "Your characters named Nutsy gain +1 {L}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 127
@@ -8203,6 +8477,8 @@
       title: "勝ち気なアヒルっ娘"
       flavour: "「グラップリングフックがあれば、ロア探しはずっと簡単よ！」"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 128
@@ -8256,6 +8532,8 @@
       text: 
         en: "Banish one of your characters with **Reckless** to banish chosen character with less {S} than that character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 129
@@ -8311,6 +8589,8 @@
       text: 
         en: "_(A character with cost 2 or more can {E} to sing this song for free.)_nnReady chosen character of yours at a location. They can't quest for the rest of this turn. Gain lore equal to that location {L}."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 130
@@ -8364,6 +8644,8 @@
       text: 
         en: "Ready all your characters and deal 1 damage to each of them. They can't quest for the rest of this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 131
@@ -8417,6 +8699,8 @@
       text: 
         en: "Move up to 2 characters of yours to the same location for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 132
@@ -8470,6 +8754,8 @@
       text: 
         en: "{E}, 2 {I} – Choose one: Chosen character gains **Evasive** until the start of your next turn. Chosen character gets +3 {S} this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 133
@@ -8523,6 +8809,8 @@
       text: 
         en: "During your turn, whenever one of your characters is banished in a challenge, you may draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 134
@@ -8587,6 +8875,9 @@
       title: "市場"
       flavour: "「ようこそアグラバーへ、神秘に満ちた都ですぞ。お楽しみがいっぱい、寄ってらっしゃい見てらっしゃい。さ～あ商売だ！」\n― 商人"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 135
@@ -8664,6 +8955,8 @@
         en: "Your Pirate characters may move here for free."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 136
@@ -8741,6 +9034,8 @@
         en: "Characters gain **Evasive** while here. _(Only characters with Evasive can challenge them.)_"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 137
@@ -8806,6 +9101,8 @@
       text: 
         en: "Whenever this character quests, ready one of your items."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 138
@@ -8867,6 +9164,8 @@
         en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 139
@@ -8941,6 +9240,9 @@
         en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
       ability: "support"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 140
@@ -9001,6 +9303,8 @@
         en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 141
@@ -9054,6 +9358,8 @@
       title: "狭いランプからコンニチワ"
       flavour: "「1万年間もじーっとしてたから首がガッチガッチだわさ！」"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 142
@@ -9113,6 +9419,8 @@
       text: 
         en: "When you play this character, look at the top 2 cards of your deck. You may add one into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 143
@@ -9192,6 +9500,8 @@
       text: 
         en: "Whenever a card is put into your inkwell, gain 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 144
@@ -9252,6 +9562,8 @@
       text: 
         en: "{E} - Put an item card from your discard to the top of your deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 145
@@ -9331,6 +9643,9 @@
       text: 
         en: "Whenever this character quests, if you have characters named Dewey and Louie in play, you may draw 3 cards."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 146
@@ -9385,6 +9700,8 @@
       title: "バンドリーダー"
       flavour: "「待ちなよ、兄弟。腰を下ろしてスイートなビートを楽しんでかないか？」"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 147
@@ -9451,6 +9768,8 @@
         en: "_(Opponents can't choose this character except to challenge.)_"
       ability: "ward"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 148
@@ -9511,6 +9830,8 @@
         en: "_(Opponents can't choose this character except to challenge.)_"
       ability: "ward"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 149
@@ -9585,6 +9906,9 @@
         en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
       ability: "support"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 150
@@ -9658,6 +9982,9 @@
       text: 
         en: "When you play this character, chosen character gets -2 {S} for this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 151
@@ -9731,6 +10058,9 @@
       text: 
         en: "Whenever you play a song, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 152
@@ -9784,6 +10114,8 @@
       title: "ミッキーのかしこい友だち"
       flavour: "プルートの役目は、ミニーが洞窟に行けるようグスタフの注意を引きつけておくことだった。"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 153
@@ -9843,6 +10175,8 @@
       text: 
         en: "When this character is banished, you may put this card into your inkwell facedown and exerted."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 154
@@ -9922,6 +10256,8 @@
         en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 155
@@ -9995,6 +10331,8 @@
       text: 
         en: "You pay 1 {I} less for the next item you play this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 156
@@ -10084,6 +10422,9 @@
       text: 
         en: "Whenever this character quests, you may look at the top 3 cards of your deck and put them back in any order."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 157
@@ -10145,6 +10486,8 @@
         en: "Whenever one of your items is banished, you may put that card into your inkwell facedown and exerted."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 158
@@ -10211,6 +10554,8 @@
         en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
       ability: "support"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 159
@@ -10264,6 +10609,8 @@
       text: 
         en: "Chosen character gets -2 {S} this turn. Draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 160
@@ -10319,6 +10666,8 @@
       text: 
         en: "Each player puts the top 3 cards of their deck into their inkwell facedown and exerted."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 161
@@ -10388,6 +10737,8 @@
       text: 
         en: "Look at the top 2 cards of your deck. Put one into your hand and the other into your inkwell facedown and exerted."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 162
@@ -10441,6 +10792,8 @@
       text: 
         en: "Remove up to 3 damage from one of your locations or characters."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 163
@@ -10508,6 +10861,9 @@
       text: 
         en: "Whenever one of your characters quests, you may look at the top card of your deck. Put it on either the top or the bottom of your deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 164
@@ -10575,6 +10931,9 @@
       text: 
         en: "{E}, 2 {I} – Put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 165
@@ -10628,6 +10987,8 @@
       text: 
         en: "{E}, 2 {I} − Choose a character of yours and gain lore equal to their {L}."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 166
@@ -10681,6 +11042,8 @@
       text: 
         en: "{E} – Choose one: You pay 1 {I} less to play your next action this turn. You pay 1 {I} less to play your next item this turn. You pay 1 {I} less to play your next location this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 167
@@ -10741,6 +11104,8 @@
         en: "Your locations and character at locations gain **Resist** +1"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 168
@@ -10812,6 +11177,8 @@
         en: " If you have a character here, you pay 1 {I} less to play items."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 169
@@ -10862,6 +11229,8 @@
       title: "スクルージの屋敷"
       flavour: "「これこそが、ロルカナで一番クールな家よ！」\n― ウェビー・ヴァンダークワック"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 170
@@ -10933,6 +11302,9 @@
         en: "Whenever a character is banished while here, you may put that card into your inkwell facedown and exerted."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 171
@@ -10987,6 +11359,8 @@
       title: "モトゥヌイの誇り"
       flavour: "「この島をみろ！ここより素晴らしい場所などない」"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 172
@@ -11061,6 +11435,9 @@
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
       ability: "resist"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 173
@@ -11131,6 +11508,8 @@
       text: 
         en: "During your turn, whenever one of your other characters banishes another character in a challenge, you may ready this character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 174
@@ -11191,6 +11570,8 @@
       text: 
         en: "{E} – Ready your Titan characters."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 175
@@ -11251,6 +11632,8 @@
         en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
       ability: "challenger"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 176
@@ -11348,6 +11731,9 @@
         en: "**Resist** +[object Object] _(Damage dealt to this character is reduced by [object Object].)_"
       ability: "resist"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 177
@@ -11409,6 +11795,8 @@
         en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
       ability: "bodyguard"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 178
@@ -11481,6 +11869,8 @@
         en: "While this character is exerted, your characters with **Bodyguard** gain **Resist** +1 and get +1 {L}. _(Damage dealt to them is reduced by 1.)_"
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 179
@@ -11547,6 +11937,8 @@
         en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 180
@@ -11612,6 +12004,8 @@
       text: 
         en: "{E} − Chosen character gains **Resist** +2 this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 181
@@ -11672,6 +12066,8 @@
         en: "This character gets +1 {S} for each location you have in play."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 182
@@ -11759,6 +12155,9 @@
       text: 
         en: "{E}, 2 {I} - Play a character for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 183
@@ -11819,6 +12218,8 @@
         en: "While this character is at a location, she gets +2 {S}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 184
@@ -11879,6 +12280,8 @@
       text: 
         en: "At the end of your turn, if this character is exerted and you do not have a Captain character in play, deal 1 damage to this character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 185
@@ -11933,6 +12336,8 @@
       title: "プライドランドの英雄"
       flavour: "その英雄の名を聞くだけで、ハイエナどもが震え上がる。"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 186
@@ -11986,6 +12391,8 @@
       title: "獰猛な幼なじみ"
       flavour: "「またあたしの勝ち。」"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 187
@@ -12045,6 +12452,8 @@
       text: 
         en: "During your turn, whenever this character banishes another character in a challenge, you may ready chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 188
@@ -12106,6 +12515,8 @@
         en: "While this character has no damage, he gets +2 {S}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 189
@@ -12159,6 +12570,8 @@
       title: "人気の無法者"
       flavour: "「これが待ち伏せだって？チッ、チッ。マジボケの間違いだろ？」"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 190
@@ -12257,6 +12670,9 @@
       text: 
         en: "When this character is banished in a challenge, you may draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 191
@@ -12316,6 +12732,8 @@
       text: 
         en: "Whenever you discard a card, you may deal 1 damage to chosen opposing character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 192
@@ -12381,6 +12799,8 @@
       text: 
         en: "Whenever this character banishes another character in a challenge during your turn, choose one:nn· You may draw 2 cards, then choose and discard 2 cards.nn· You may deal 2 damage to chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 193
@@ -12441,6 +12861,8 @@
       text: 
         en: "During your turn, whenever this character banishes another character in a challenge, chosen opposing character can't challenge during their next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 194
@@ -12500,6 +12922,8 @@
       text: 
         en: "Whenever this character quests while at a location, you may deal 1 damage to chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 195
@@ -12569,6 +12993,8 @@
       text: 
         en: "Deal 5 damage to chosen character or location."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 196
@@ -12622,6 +13048,8 @@
       text: 
         en: "Deal 2 damage to chosen character or location."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 197
@@ -12675,6 +13103,8 @@
       text: 
         en: "Your characters get +3 {S} this turn while challenging a location."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 198
@@ -12728,6 +13158,8 @@
       text: 
         en: "Banish chosen location or item."
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 199
@@ -12787,6 +13219,8 @@
         en: "Your characters named Jetsam gain **Rush.**"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 200
@@ -12840,6 +13274,8 @@
       text: 
         en: "Banish this item – Chosen character gains **Resist** +2 until the start of your next turn. (Damage dealt to them is reduced by 2.)"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 201
@@ -12899,6 +13335,8 @@
         en: "You pay 1 {I} less to move your characters to a location."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 202
@@ -12970,6 +13408,9 @@
         en: "Characters gain **Resist** +1 while here."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 203
@@ -13020,6 +13461,8 @@
       title: "プリンス・ジョンの城"
       flavour: "サー・ヒス「殿下、母上のお城は私たちの計略を練るのに最適な場所ですぞ！」\nプリンス・ジョン「ママー！」"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: iti
       id: 204
@@ -13077,3 +13520,5 @@
         en: "Whenever a character quests while here, you may draw a card, then choose and discard a card."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - infinity_constructed

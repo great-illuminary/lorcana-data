@@ -41,6 +41,9 @@
       title: "Redseliges Jungtier"
       flavour: "Ich meine, ich will ja nicht angeben oder so, aber ich hab gute Tricks drauf."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 2
@@ -96,6 +99,9 @@
       title: "Freches Jungtier"
       flavour: "Die Lorcana-Versteckspielmeisterschaft war ihr sicher."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 3
@@ -164,6 +170,9 @@
       text: 
         en: "When you play this character, you may play a song with cost 6 or less for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 4
@@ -214,6 +223,9 @@
         en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
       ability: "support"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 5
@@ -264,6 +276,9 @@
         en: "While this character is exerted, your characters named Koda can't be challenged."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 6
@@ -309,6 +324,9 @@
       title: "Sugar Rush Champion"
       flavour: "Der Code mag ja behaupten, ich wäre eine Prinzessin, aber ich weiß wer ich wirklich bin..."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 7
@@ -352,6 +370,9 @@
       title: "Elch aus dem Norden"
       flavour: "Ich würde liebend gern etwas knabbern, aber ich bin gerade ziemlich beschäftigt."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 8
@@ -402,6 +423,9 @@
         en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
       ability: "support"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 9
@@ -453,6 +477,9 @@
       text: 
         en: "Whenever this character quests, chosen opposing character gets -1 {S} until the start of your next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 10
@@ -503,6 +530,9 @@
         en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
       ability: "bodyguard"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 11
@@ -553,6 +583,9 @@
         en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
       ability: "singer"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 12
@@ -609,6 +642,9 @@
         en: "Your locations get +2 {W}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 13
@@ -677,6 +713,9 @@
         en: "For each song card in your discard, you pay 1 {I} less to play this character."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 14
@@ -739,6 +778,9 @@
       text: 
         en: "You can’t play this character unless you have 5 or more characters in play."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 15
@@ -794,6 +836,9 @@
       text: 
         en: "When you play this character, if you used **Shift** to play her, you may search your deck for a character card and reveal that card to all players. Shuffle your deck and put that card on top of it."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 16
@@ -843,6 +888,9 @@
       text: 
         en: "Whenever this character quests, each opponent reveals the top card of their deck. If it’s a character card, they may put it into their hand. Otherwise, they put it on the bottom of their deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 17
@@ -892,6 +940,9 @@
       text: 
         en: "When you play this character, if you have a location in play, draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 18
@@ -936,6 +987,9 @@
       title: "Entschlossene Entdeckerin"
       flavour: "Untersuche jede Ecke des Illuminariums, finde die Chromikons, stelle das Illuminarium wieder her, wie schwer kann das—Warte, was war das für ein Geräusch?"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 19
@@ -1017,6 +1071,9 @@
       text: 
         en: "Whenever you play another Princess character, all opposing characters get -1 {S} until the start of your next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 20
@@ -1066,6 +1123,9 @@
       text: 
         en: "whenever you play a song, gain 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 21
@@ -1115,6 +1175,9 @@
       text: 
         en: "When you play this character, return a character card from your discard to your hand. If that card is a Princess character card, gain 2 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 22
@@ -1164,6 +1227,9 @@
       text: 
         en: "When you play this character, opposing character of your choice gets -5 {S} until the start of your next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 23
@@ -1213,6 +1279,9 @@
       text: 
         en: "When you play this character, you may ready chosen character. They can’t quest or challenge for the rest of this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 24
@@ -1262,6 +1331,9 @@
       text: 
         en: "Whenever this character quests, you may remove up to 2 damage from chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 25
@@ -1307,6 +1379,9 @@
       text: 
         en: "Remove up to 3 damage from chosen character and ready them. They can’t quest or challenge for the rest of this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 26
@@ -1350,6 +1425,9 @@
       text: 
         en: "Remove up to 4 damage from chosen character. Draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 27
@@ -1405,6 +1483,9 @@
       text: 
         en: "Play a character card with cost 5 or less from your discard for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 28
@@ -1450,6 +1531,9 @@
       text: 
         en: "_(A character with cost 6 or more can {E} to sing this song for free.)_nName a card. Return all character cards with that name from your discard to your hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 29
@@ -1505,6 +1589,9 @@
       text: 
         en: "Reveal the top 2 cards of your deck. Put revealed character cards into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 30
@@ -1548,6 +1635,9 @@
       text: 
         en: "{E} – Remove up to 2 damage from chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 31
@@ -1596,6 +1686,9 @@
       text: 
         en: "{E}, 2 {I} – Reveal the top card of your deck. If it’s a Princess or Queen character card, you may put it into your hand. Otherwise, put it on the top of your deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 32
@@ -1639,6 +1732,9 @@
       text: 
         en: "{E} – Remove up to 1 damage from each of your characters."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 33
@@ -1686,6 +1782,9 @@
         en: "Characters get +3 {W} while here."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 34
@@ -1732,6 +1831,9 @@
       text: 
         en: "While you have 3 or more characters here, you may banish this location to play a character from your discard for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 35
@@ -1789,6 +1891,9 @@
       text: 
         en: "When you play this character, for each character named Maleficent you have in play, return chosen opposing character, item, or location of cost 3 or less to their player's hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 36
@@ -1838,6 +1943,9 @@
       text: 
         en: "When you play this character, you may move up to 2 damage counters from chosen character to chosen opposing character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 37
@@ -1887,6 +1995,9 @@
       text: 
         en: "When you play this character, chosen character gains **Rush** this turn. _(They can challenge the turn they’re played.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 38
@@ -1942,6 +2053,9 @@
       text: 
         en: "When you play this character and when he leaves play, look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 39
@@ -1992,6 +2106,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 40
@@ -2047,6 +2164,9 @@
       text: 
         en: "When this character is banished, you may draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 41
@@ -2096,6 +2216,9 @@
       text: 
         en: "When you play this character, each opponent draws a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 42
@@ -2145,6 +2268,9 @@
       text: 
         en: "When this character is banished, return this card to your hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 43
@@ -2188,6 +2314,9 @@
       title: "Königlicher Herold"
       flavour: "Ojemine! Ist da gerade etwa ein Stück des Illuminariums abgefallen?! Ich muss jemandem davon erzählen bevor es zu spät ist, zu spät, zu spät!"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 44
@@ -2243,6 +2372,9 @@
       text: 
         en: "At the start of your turn, you may move up to 2 damage counters from this character to chosen opposing character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 45
@@ -2287,6 +2419,9 @@
       title: "Entertainerin mit Muskeln"
       flavour: "Das ist nur die Aufwärmphase, Leute! Wartet bis ihr das große Finale gesehen habt!"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 46
@@ -2344,6 +2479,9 @@
       text: 
         en: "When you play this character, exert all opposing characters."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 47
@@ -2418,6 +2556,9 @@
         en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
       ability: "challenger"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 48
@@ -2495,6 +2636,9 @@
       text: 
         en: "When you play this character, exert chosen opposing character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 49
@@ -2538,6 +2682,9 @@
       title: "Hauptattraktion"
       flavour: "Passt genau auf! Es ist Zeit für ein bisschen Täuschung!"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 50
@@ -2606,6 +2753,9 @@
         en: "For each exerted character opponents have in play, you pay 1 {I} less to play this character."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 51
@@ -2656,6 +2806,9 @@
       text: 
         en: "Whenever this character quests, you may choose and discard a card to return chosen character, item, or location with cost 3 or less to their player’s hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 52
@@ -2698,6 +2851,9 @@
       title: "Wal aller Wale"
       flavour: "Das große Biest durchbrach die Oberfläche des Azuriten-Meers und der Schrei erklang, Monstro! Monstro!"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 53
@@ -2749,6 +2905,9 @@
         en: "During opponents’ turns, if an effect would cause you to discard one or more cards from your hand, you don’t discard."
       ability: "meta"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 54
@@ -2793,6 +2952,9 @@
       title: "Rachsüchtige Hexe"
       flavour: "Offensichtlich ist meine Einladung verloren gegangen. Wie furchtbar. Lasst mich mit der Dekoration helfen..."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 55
@@ -2849,6 +3011,9 @@
       text: 
         en: "When you play this character, he gains **Challenger** +4 this turn. _(They get +4 while challenging.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 56
@@ -2899,6 +3064,9 @@
       text: 
         en: "When you play this character, each opponent choses and exerts on of their ready characters."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 57
@@ -2949,6 +3117,9 @@
       text: 
         en: "{E} – Chosen exerted character can’t ready at the start of their next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 58
@@ -2999,6 +3170,9 @@
       text: 
         en: "Whenever this character quests, you may gain lore equal to the {L} of chosen other character of yours. Return that character to your hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 59
@@ -3047,6 +3221,9 @@
       text: 
         en: "Chosen character gains **Challenger** +2 this turn. _(They get +2 {S} while challenging.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 60
@@ -3114,6 +3291,9 @@
       text: 
         en: "Draw 3 cards."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 61
@@ -3159,6 +3339,9 @@
       text: 
         en: "Shuffle chosen card from your discard into your deck. Reveal the top card of your deck. If it has the same name as the chosen card, you may play the revealed card for free. Otherwise, put it into your hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 62
@@ -3202,6 +3385,9 @@
       text: 
         en: "Gain 2 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 63
@@ -3245,6 +3431,9 @@
       text: 
         en: "Chosen character gains **Challenger** +3 and When this character is banished in a challenge, return this card to your hand this turn. _(They get +3 {S} while challenging.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 64
@@ -3288,6 +3477,9 @@
       text: 
         en: "2 {I}, Banish this item – Return chosen character, item, or location with cost 3 or less to their player’s hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 65
@@ -3348,6 +3540,9 @@
       text: 
         en: "{E}, 2 {I}, Discard a card – Exert chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 66
@@ -3391,6 +3586,9 @@
       text: 
         en: "{E} − Each player may draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 67
@@ -3449,6 +3647,9 @@
       text: 
         en: "When you play this location, choose an exerted character. While this location is in play, that character can't ready at the start of their turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 68
@@ -3496,6 +3697,9 @@
         en: "Whenever a character is banished while here, you may draw a card."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 69
@@ -3552,6 +3756,9 @@
         en: "_(Opponents can't choose this character except to challenge.)_"
       ability: "ward"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 70
@@ -3602,13 +3809,15 @@
       text: 
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
-    - type: static
+    - type: static-triggered
       title: 
-        en: "challenger"
+        en: "EASY PICKINGS"
       text: 
-        en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
-      ability: "challenger"
+        en: "While challenging a damaged character, this character gets +2 {S}."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 71
@@ -3652,6 +3861,9 @@
       title: "Koch im Lager"
       flavour: "Du kannst dich auf einen echten Leckerbissen freuen, Robin. Heute Abend gibt es als Hausspezialität meinen berühmten Gesetzlosen-Eintopf. Hergestellt vom Feinsten, was auch immer wir finden konnten!"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 72
@@ -3702,6 +3914,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 73
@@ -3752,6 +3967,9 @@
         en: "This character can't {E} to sing songs."
       ability: "voiceless"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 74
@@ -3802,6 +4020,9 @@
       text: 
         en: "When you play this character, you may deal 2 damage to chosen damaged character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 75
@@ -3853,6 +4074,9 @@
         en: "While being challenged, this character gets +2 {S}."
       ability: "reverse-challenger"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 76
@@ -3903,6 +4127,9 @@
       text: 
         en: "When you play this character, you may pay 1 {I} to give chosen character +2 {S} this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 77
@@ -3952,6 +4179,9 @@
       text: 
         en: "When you play this character, if an opponent has a damaged character in play, gain 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 78
@@ -3996,6 +4226,9 @@
       title: "Gute Fee"
       flavour: "Das Geheimnis eines guten Kuchens besteht darin, alles genau richtig zu kombinieren. Jede einzelne Zutat ist wichtig, aber die Magie steckt in der richtigen Kombination."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 79
@@ -4051,6 +4284,9 @@
       text: 
         en: "Whenever this character quests, you pay 2 {I} less for the next action you play this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 80
@@ -4095,6 +4331,9 @@
       title: "Gefräßiges Raubtier"
       flavour: "Er wird einen schnellen Bissen vor dem Abendessen niemals ablehnen."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 81
@@ -4146,6 +4385,9 @@
         en: "Damaged characters can’t challenge this character."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 82
@@ -4203,6 +4445,9 @@
       text: 
         en: "When you play this character, you may pay 3 {I} to banish chosen damaged character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 83
@@ -4258,6 +4503,9 @@
       text: 
         en: "When he challenges a damaged character, ready this character after the challenge."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 84
@@ -4325,6 +4573,9 @@
       text: 
         en: "At the end of your turn, if chosen opponent has more cards in their hand than you, you may draw cards until you have the same number."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 85
@@ -4375,6 +4626,9 @@
       text: 
         en: "When you play this character you may pay 2 {I} to chose one:n* Each opponent choses and discards a card.n* Chosen character gets +2 {S} this turn. n* Banish chosen damaged character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 86
@@ -4424,6 +4678,9 @@
       text: 
         en: "When you play this character, you may pay to 2 {I} to banish chosen item."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 87
@@ -4474,6 +4731,9 @@
       text: 
         en: "When you play this character, you may exert chosen damaged character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 88
@@ -4530,6 +4790,9 @@
         en: "This character gets +1 {L} for each opposing damaged character in play."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 89
@@ -4579,6 +4842,9 @@
       text: 
         en: "When you play this character, you may pay 3 {I} to return chosen character to their player’s hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 90
@@ -4628,6 +4894,9 @@
       text: 
         en: "When you play this character, if an opponent has more cards in their hand than you, you may draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 91
@@ -4684,6 +4953,9 @@
       text: 
         en: "Whenever one of your Hyena characters challenges a damaged character, gain 2 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 92
@@ -4739,6 +5011,9 @@
       text: 
         en: "When you play this character, each opponent chooses one of their characters and returns that card to their hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 93
@@ -4806,6 +5081,9 @@
       text: 
         en: "Whenever one of your characters challenges a damaged character, you may draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 94
@@ -4849,6 +5127,9 @@
       text: 
         en: "Draw 3 cards, then put 2 cards from your hand on the top of your deck in any order."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 95
@@ -4892,6 +5173,9 @@
       text: 
         en: "Draw a card. Chosen character gains **Reckless** during their next turn._(They can’t quest and must challenge if able.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 96
@@ -4949,6 +5233,9 @@
       text: 
         en: "_(A character with cost 4 or more can {E} to sing this song for free.)_u003cbru003enShuffle chosen character, item, or location into their player's deck. That player draws 2 cards."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 97
@@ -4992,6 +5279,9 @@
       text: 
         en: "If chosen opponent has more cards in their hand than you, draw cards until you have the same number."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 98
@@ -5041,6 +5331,9 @@
       text: 
         en: "At the end of each opponent’s turn, if they have more than 3 cards in their hand, they discard until they have 3 cards in their hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 99
@@ -5084,6 +5377,9 @@
       text: 
         en: "2 {I}, Banish this item – Your characters gain **Ward** until the start of your next turn. _(Opponents can't choose them except to challenge.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 100
@@ -5127,6 +5423,9 @@
       text: 
         en: "During opponents’ turns, whenever one of your characters is banished, you may return chosen character to their player’s hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 101
@@ -5180,6 +5479,9 @@
         en: "{E} – Deal 2 damage to chosen damaged character or location."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 102
@@ -5227,6 +5529,9 @@
         en: "Opposing damaged characters gain **Reckless**. _(They can’t quest and must challenge if able.)_"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 103
@@ -5271,6 +5576,9 @@
       title: "Rücksichtslose Rivalin"
       flavour: "Kein Glimmer kann mit mir mithalten. Du kannst auch gleich aufgeben."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 104
@@ -5320,6 +5628,9 @@
       text: 
         en: "Whenever you ready this character, if you have 2 or more other characters in play, gain 2 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 105
@@ -5374,6 +5685,9 @@
       text: 
         en: "At the end of your turn, if you have a character in play with 5 {S} or more, gain 2 lore. If that character has 10 {S} or more, gain 5 lore instead."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 106
@@ -5425,6 +5739,9 @@
         en: "_(This character can challenge the turn they're played.)_"
       ability: "rush"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 107
@@ -5499,6 +5816,9 @@
         en: "While an opponent has 10 or more lore, this character gets +6 {S}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 108
@@ -5543,6 +5863,9 @@
       title: "Aufgeladen mit Schokolade"
       flavour: "Zutaten: Butter, Zucker, ungesüßte Schokolade, Vanille und Arroganz."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 109
@@ -5592,6 +5915,9 @@
       text: 
         en: "When you play this character, you may banish chosen character named Mufasa."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 110
@@ -5643,6 +5969,9 @@
         en: "_(This character can challenge the turn they're played.)_"
       ability: "rush"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 111
@@ -5693,6 +6022,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 112
@@ -5743,6 +6075,9 @@
         en: "While you have a character named Minnie Mouse in play, this character gets +2 {S}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 113
@@ -5793,6 +6128,9 @@
         en: "While this character has damage, he gets +2 {S}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 114
@@ -5843,6 +6181,9 @@
       text: 
         en: "When you play this character, if you have a location in play, each opponent loses 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 115
@@ -5885,6 +6226,9 @@
       title: "Rächender Bruder"
       flavour: "Es wird dir noch leid tun, was du getan hast! Ich verfolge dich bis zum Azuriten-Meer, wenn es sein muss!"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 116
@@ -5934,6 +6278,9 @@
       text: 
         en: "When you play this character, if you have another character named Pete in play, you may banish chosen opposing character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 117
@@ -5990,6 +6337,9 @@
       text: 
         en: "Once per turn, when this character moves to a location, gain 2 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 118
@@ -6051,6 +6401,9 @@
       text: 
         en: "Whenever this character quests, look at the top 4 cards of your deck. You may reveal an action card with cost 6 or less and play it for free. Put the rest in your discard."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 119
@@ -6107,6 +6460,9 @@
         en: "For each damaged character you have in play, you pay 2 {I} less to play this character."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 120
@@ -6150,6 +6506,9 @@
       title: "Tortenheber"
       flavour: "Sein halbgarer Plan, das Essen verschwinden zu lassen, hätte beinahe funktioniert. Aber letztendlich bekam er nur sein Fett weg."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 121
@@ -6200,6 +6559,9 @@
         en: "_(This character can't quest and must challenge each turn if able.)_"
       ability: "reckless"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 122
@@ -6249,6 +6611,9 @@
       text: 
         en: "Whenever this character challenges another character, each opponent loses 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 123
@@ -6311,6 +6676,9 @@
         en: "Your damaged characters get -2 {S}."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 124
@@ -6368,6 +6736,9 @@
       text: 
         en: "When you play this character, she gains **Evasive** until the start of your next turn. _(Only characters with Evasive can challenge them.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 125
@@ -6418,6 +6789,9 @@
       text: 
         en: "When you play this character, chosen character gets +2 {S} this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 126
@@ -6472,6 +6846,9 @@
       text: 
         en: "or one of your characters named Mickey Mouse challenges another character, gain 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 127
@@ -6515,6 +6892,9 @@
       text: 
         en: "Deal 1 damage to chosen character of yours. They gain **Rush** and get +1 {S} this turn. _(They can challenge the turn they’re played.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 128
@@ -6558,6 +6938,9 @@
       text: 
         en: "Ready chosen character of yours. They can’t quest for the rest of this turn. If a Villain character is chosen, gain 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 129
@@ -6603,6 +6986,9 @@
       text: 
         en: "Ready all your characters. They can’t quest for the rest of this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 130
@@ -6646,6 +7032,9 @@
       text: 
         en: "Banish chosen character of yours to banish chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 131
@@ -6694,6 +7083,9 @@
       text: 
         en: "Your characters get +2 {S} this turn. nWhenever one of your characters with **Reckless** challenges another character this turn, gain 2 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 132
@@ -6737,6 +7129,9 @@
       text: 
         en: "1 {I} Banish this item – Chosen character gets +3 {S} this turn. If a Villain character is chosen, they get +4 {S} instead."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 133
@@ -6780,6 +7175,9 @@
       text: 
         en: "At the start of your turn, if you have a character in play with more {S} than each opposing character in play, each opponent loses 1 lore and you gain lore equal to the lore lost."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 134
@@ -6823,6 +7221,9 @@
       text: 
         en: "Ruby Light"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 135
@@ -6869,6 +7270,9 @@
       text: 
         en: "Once per turn, you may {E} chosen character here and deal them 1 damage to move them to another location for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 136
@@ -6928,6 +7332,9 @@
         en: "While you have a damaged character here, this location gets +2 {L}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 137
@@ -6973,6 +7380,9 @@
       title: "Zuckerherrscher"
       flavour: "Meine süßen Untertanen, ich kann euch ohne jegliches Zögern versichern, dass ich noch nie so glücklich war."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 138
@@ -7016,6 +7426,9 @@
       title: "Eindrucksvolle Tochter"
       flavour: "Schau mal! Mein Zahn ist heute noch lockerer!"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 139
@@ -7068,6 +7481,9 @@
         en: "_(Opponents can't choose this character except to challenge.)_"
       ability: "ward"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 140
@@ -7111,6 +7527,9 @@
       title: "Antiquitätenhändler"
       flavour: "Der geheime Raum müsste genau hier sein! Ich kann es nicht glauben, dass ich für diese Karte einen ganzen Kreuzer gezahlt habe."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 141
@@ -7161,6 +7580,9 @@
       text: 
         en: "Whenever you play an item, this character gets +2 {S} this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 142
@@ -7212,6 +7634,9 @@
         en: "Your Arthur characters gain **Resist** +1 _(Damage dealt to this character is reduced by 1)_"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 143
@@ -7266,6 +7691,9 @@
       text: 
         en: "At the start of your turn, if you have a location in play, gain 1 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 144
@@ -7330,6 +7758,9 @@
         en: "For each other character named The Queen you have in play, this character gets +1 {L}."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 145
@@ -7386,6 +7817,9 @@
         en: "For each item you have in play, you pay 1 {I} less to play this character."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 146
@@ -7453,6 +7887,9 @@
       text: 
         en: "During your turn, when you put a card into your inkwell, if it’s the second card you’ve put into your inkwell this turn, you may draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 147
@@ -7515,6 +7952,9 @@
       text: 
         en: "{E} – Play an item from your hand or discard with cost 5 or less for free, exerted."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 148
@@ -7572,6 +8012,9 @@
       text: 
         en: "When you play this character, look at the top 3 cards of your deck. You may reveal any number of character cards named The Queen and put them into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 149
@@ -7626,6 +8069,9 @@
       text: 
         en: "4 {I} − Your other characters gain **Resist** +1 until the start of your next turn. _(Damage dealt to them is reduced by 1.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 150
@@ -7693,6 +8139,9 @@
       text: 
         en: "Whenever this character quests, ready all cards in your inkwell."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 151
@@ -7736,6 +8185,9 @@
       title: "Selbsternanntes Genie"
       flavour: "Du siehst also, es herrscht eine finstere Leere am Rande von Lorcana. Eine völlige Abwesenheit von elektromagnetischer Strahlung! Woraus diese besteht? Keine Ahnung! Die Lichter sind einfach aus. Kaputt!"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 152
@@ -7786,6 +8238,9 @@
       text: 
         en: "When you play this character, chosen character gets -2 {S} this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 153
@@ -7837,6 +8292,9 @@
         en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
       ability: "support"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 154
@@ -7906,6 +8364,9 @@
       text: 
         en: "When you play this character, you may draw 2 cards, then put a card from your hand on the bottom of your deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 155
@@ -7956,6 +8417,9 @@
       text: 
         en: "When you play this character, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 156
@@ -8005,6 +8469,9 @@
       text: 
         en: "When you play this character, you may remove up to 1 damage from chosen character or location."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 157
@@ -8054,6 +8521,9 @@
       text: 
         en: "When you play this character, you may put a card from your hand into your inkwell facedown and exerted."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 158
@@ -8110,6 +8580,9 @@
       text: 
         en: "When you play this character, your other characters gain **Ward** until the start of your next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 159
@@ -8166,6 +8639,9 @@
       text: 
         en: "When you play this character, if you used **Shift** to play him, you may search your deck for any card, put that card into your hand, then shuffle your deck."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 160
@@ -8209,6 +8685,9 @@
       text: 
         en: "Look at the top 5 cards of your deck. Put one into your hand and the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 161
@@ -8264,6 +8743,9 @@
       text: 
         en: "Banish any number of your items, then draw a card for each item banished this way."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 162
@@ -8309,6 +8791,9 @@
       text: 
         en: "_(A character with cost 2 or more can {E} to sing this song for free.)_u003cbr/u003eRemove up to 2 damage from any number of chosen characters."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 163
@@ -8352,6 +8837,9 @@
       text: 
         en: "Put chosen item or location into its player’s inkwell facedown and exerted."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 164
@@ -8395,6 +8883,9 @@
       text: 
         en: "Put chosen character of yours into your inkwell facedown and exerted."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 165
@@ -8438,6 +8929,9 @@
       text: 
         en: "{E}, 2 {I}, Banish this item − Chosen character of yours gets +2 {L} this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 166
@@ -8481,6 +8975,9 @@
       text: 
         en: "{E}, 2 {I} - Look at the top 3 cards of your deck. You may reveal an item card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 167
@@ -8524,6 +9021,9 @@
       text: 
         en: "{E}, 1 {I} – Return an item card from your discard to your hand."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 168
@@ -8572,6 +9072,9 @@
       text: 
         en: "{E}, 2 {I}, Banish one of your items – Gain 2 lore."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 169
@@ -8619,6 +9122,9 @@
         en: "Characters with **Support** get +1 {L} and +2 {W} while here."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 170
@@ -8659,6 +9165,9 @@
       title: "Das Haus des Zauberers"
       flavour: ""
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 171
@@ -8721,6 +9230,9 @@
       text: 
         en: "When you play this character, you may deal 2 damage to chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 172
@@ -8778,6 +9290,9 @@
         en: "Opposing characters with cost 4 or less can’t challenge."
       ability: "effects"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 173
@@ -8828,6 +9343,9 @@
       text: 
         en: "During your turn, whenever this character banishes another character in a challenge, you may draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 174
@@ -8870,6 +9388,9 @@
       title: "Unterbrecher des Grooves"
       flavour: "Das Illuminarium verträgt den Groove nicht; wir müssen die Lautstärke verringern, oder es bricht auseinander!"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 175
@@ -8912,6 +9433,9 @@
       title: "Schützendes Rind"
       flavour: "Hey, ich bin jetzt eine Kuh. Darf ich nach Hause?"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 176
@@ -8962,6 +9486,9 @@
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
       ability: "resist"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 177
@@ -9014,6 +9541,9 @@
         en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
       ability: "bodyguard"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 178
@@ -9064,6 +9594,9 @@
         en: "**Challenger** +1 (_When challenging, this character get +13 {S}._)"
       ability: "challenger"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 179
@@ -9114,6 +9647,9 @@
         en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
       ability: "bodyguard"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 180
@@ -9165,6 +9701,9 @@
       text: 
         en: "When you play this character, chosen Knight character gains **Challenger** +2 this turn. _(They get +2 {S} while challenging.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 181
@@ -9216,6 +9755,9 @@
       text: 
         en: "When you play this character, if you have another Knight character in play, you may deal 1 damage to chosen character or location."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 182
@@ -9267,6 +9809,9 @@
         en: "**Resist** +3 _(Damage dealt to this character is reduced by 3.)_"
       ability: "resist"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 183
@@ -9331,6 +9876,9 @@
         en: "**Resist** +[object Object] _(Damage dealt to this character is reduced by [object Object].)_"
       ability: "resist"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 184
@@ -9381,6 +9929,9 @@
       text: 
         en: "During your turn, whenever one of your characters banishes a character in a challenge, you may deal 1 damage to chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 185
@@ -9437,6 +9988,9 @@
       text: 
         en: "During your turn, whenever this character banishes another character in a challenge, you may play a character with cost 5 or less for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 186
@@ -9495,6 +10049,9 @@
         en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 187
@@ -9544,6 +10101,9 @@
       text: 
         en: "{E} - Reveal the top card of your deck. If it’s a character card named Pete, you may play it for free."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 188
@@ -9587,6 +10147,9 @@
       title: "Schlossherr"
       flavour: "Teufel nochmal. Stehen Sie nicht einfach da rum. Erheben Sie Ihr Glas auf meinen Sohn Kay... und mögen wir den Betrüger-Zauberer Erwin los sein, oder was auch immer sein verflixter Name war."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 189
@@ -9639,6 +10202,9 @@
         en: "While you have a character named Snow White in play, this character gains **Bodyguard**."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 190
@@ -9682,6 +10248,9 @@
       title: "Flo"
       flavour: "Er ist Feuer und Flamme. Hat gute Anlagen, der Knabe. Wenn er etwas macht ist er mit Leib und Seele bei der Sache.\n—Merlin"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 191
@@ -9734,6 +10303,9 @@
         en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 192
@@ -9790,6 +10362,9 @@
       text: 
         en: "When you play this character, you may banish chosen item or location."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 193
@@ -9841,6 +10416,9 @@
       text: 
         en: "When you play this character, you may discard your hand to draw 2 cards."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 194
@@ -9909,6 +10487,9 @@
       text: 
         en: "When you play this character, chosen character gains **Challenger** +2 and **Resist** +2 and can challenge ready characters this turn. _(They get +2 {S} while challenging. Damage dealt to them is reduced by 2.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 195
@@ -9958,6 +10539,9 @@
       text: 
         en: "When you play this character, opponents can’t play actions until the start of your next turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 196
@@ -10001,6 +10585,9 @@
       text: 
         en: "Choose one:u003cbru003e• Deal 1 damage to each opposing character without **Evasive**.u003cbru003e• Deal 3 damage to each opposing character with **Evasive**."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 197
@@ -10046,6 +10633,9 @@
       text: 
         en: "Chosen character can’t challenge during their next turn. Draw a card."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 198
@@ -10089,6 +10679,9 @@
       text: 
         en: "Chosen character gains **Resist** +1 and **Evasive** this turn. _(Damage dealt to them is reduced by 1. They can challenge characters with Evasive.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 199
@@ -10132,6 +10725,9 @@
       text: 
         en: "Your characters gain {E}, 1 {I} – Deal 1 damage to chosen character this turn."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 200
@@ -10175,6 +10771,9 @@
       text: 
         en: "Banish this item – Chosen character gains **Resist** +1 until the start of your next turn. _(Damage dealt to them is reduced by 1.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 201
@@ -10218,6 +10817,9 @@
       text: 
         en: " {E} – Chosen character gains **Resist** +2 until the start of your next turn. _(Damage dealt to them is reduced by 2.)_"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 202
@@ -10261,6 +10863,9 @@
       text: 
         en: "{E} – Deal 1 damage to chosen character."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 203
@@ -10320,6 +10925,9 @@
         en: "Villain characters gain ``{E}, 3 {I} - Play a character with the same name as this character for free`` while here."
       ability: "gain-ability"
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: ssk
       id: 204
@@ -10371,3 +10979,6 @@
       text: 
         en: "During your turn, the first time you move a character here, you may deal 1 damage to chosen character. If the moved character is a Knight, deal 2 damage instead."
   franchise_id: "unknown"
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed

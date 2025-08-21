@@ -47,6 +47,9 @@
       text: 
         en: "While this character is being challenged, the challenging character gets -1 {S}."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 2
@@ -90,6 +93,9 @@
       title: "Liebenswerter Angeber"
       flavour: "Schlangen? Die Laser schießen? In einem geheimen unterirdischen Versteck? Kein Problem!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 3
@@ -139,6 +145,9 @@
       text: 
         en: "Whenever this character quests, you pay 1 {I} less for the next character you play this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 4
@@ -200,6 +209,9 @@
       text: 
         en: "At the end of your turn, you may remove up to 1 damage from each of your other characters. Ready each character you removed damage from this way."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 5
@@ -251,6 +263,9 @@
       text: 
         en: "Once during your turn, whenever one of your characters sings a song, you may search your deck for a character card with cost 3 or less and reveal that card to all players. Put that card into your hand and shuffle your deck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 6
@@ -320,6 +335,9 @@
         en: ""
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 7
@@ -375,6 +393,9 @@
       text: 
         en: ""
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 8
@@ -419,6 +440,9 @@
       title: "Prinzessin des Karnevals"
       flavour: "Mir kommt es vor, als wäre es erst gestern gewesen, dass wir als kleine Mädchen unsere Märchenträume geträumt haben. Und heute Abend gehen sie endlich in Erfüllung."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 9
@@ -475,6 +499,9 @@
       text: 
         en: "Whenever you play a song, each opposing character gets -1 {S} until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 10
@@ -525,6 +552,9 @@
       text: 
         en: "When you play this character, you may reveal a song card in your hand to gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 11
@@ -574,6 +604,9 @@
       text: 
         en: "When you play this character, you may play a character with cost 2 or less for free."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 12
@@ -624,6 +657,9 @@
         en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
       ability: "bodyguard"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 13
@@ -672,6 +708,9 @@
       text: 
         en: "Whenever this character quests, you may remove up to 2 damage from chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 14
@@ -722,6 +761,9 @@
         en: "While you have a Puppy character in play, this character gets +1 {W}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 15
@@ -771,6 +813,9 @@
       text: 
         en: "When you play this character, chosen opposing character gets -1 {S} until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 16
@@ -820,6 +865,9 @@
       text: 
         en: "When you play this character, chosen character gets +2 {L} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 17
@@ -870,6 +918,9 @@
         en: "While you have 3 or more Puppy characters in play, this character gets +2 {S} and +2 {L}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 18
@@ -918,6 +969,9 @@
       text: 
         en: "During an opponent's turn, whenever one of your characters with Bodyguard is banished, you may reveal the top card of your deck. If it's a character card with cost 5 or less, you may play that character for free. Otherwise, put it on the top of your deck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 19
@@ -974,6 +1028,9 @@
       text: 
         en: ""
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 20
@@ -1031,6 +1088,9 @@
       text: 
         en: "Whenever this character sings a song, you may draw a card for each character you have in play."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 21
@@ -1081,6 +1141,9 @@
       text: 
         en: "Whenever this character quests, chosen opposing character gets -2 {S} and gains Reckless until the start of your next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 22
@@ -1137,6 +1200,9 @@
       text: 
         en: "During an opponent's turn, whenever one of your characters is banished, you may draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 23
@@ -1189,6 +1255,9 @@
       text: 
         en: "When this character is banished, you may return another Racer character card from your discard to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 24
@@ -1263,6 +1332,9 @@
       text: 
         en: "When you play this character and whenever he quests, you may return a Racer character card with cost 6 or less from your discard to your hand. If you do, gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 25
@@ -1332,6 +1404,9 @@
         en: "While you have another Puppy character in play, this character gets +1 {L}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 26
@@ -1388,6 +1463,9 @@
       text: 
         en: "When you play this character, you may put a character card from your discard in your inkwell facedown and exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 27
@@ -1456,6 +1534,9 @@
       text: 
         en: "When you play this character, you may put all Puppy character cards from your discard into your inkwell facedown and exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 28
@@ -1525,6 +1606,9 @@
         en: "While this character has no damage, he gets +2 {S} and gains Support. (Whenever they quest, you may add their {S} to another chosen character's {S} this turn.)"
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 29
@@ -1575,6 +1659,9 @@
       text: 
         en: "This card enters play exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 30
@@ -1632,6 +1719,9 @@
         en: "While this character has no damage, he gains Resist +2. (Damage dealt to them is reduced by 2.)"
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 31
@@ -1681,6 +1771,9 @@
       text: 
         en: "When you play this character, if you have a character in play named Antonio Madrigal, gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 32
@@ -1736,6 +1829,9 @@
       text: 
         en: "When this character is banished, gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 33
@@ -1816,6 +1912,9 @@
         en: "While this character has 3 {S} or more, she gets +2 {L}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 34
@@ -1867,6 +1966,9 @@
       text: 
         en: "Once during your turn, whenever one or more of your characters sings a song, you may ready those characters."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 35
@@ -1924,6 +2026,9 @@
         en: "**Singer** +4 _(This character counts as cost 4 to sing songs.)_"
       ability: "singer"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 36
@@ -1972,6 +2077,9 @@
       text: 
         en: "Whenever this character quests, you may remove up to 1 damage from each of your characters with Bodyguard."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 37
@@ -2027,6 +2135,9 @@
       text: 
         en: "When you play this character, your other characters gain ``{E} – Draw a card`` this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 38
@@ -2070,6 +2181,9 @@
       title: "Schwanzwedler"
       flavour: "Oh Junge! Ein neuer Freund zum Spielen!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 39
@@ -2119,6 +2233,9 @@
       text: 
         en: "Draw a card. Chosen character of yours gets +5 {S} this turn. At the end of your turn, banish them."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 40
@@ -2163,6 +2280,9 @@
       text: 
         en: "Choose one:n• Remove up to 3 damage from chosen character.n• Remove up to 3 damage from each of your characters with Bodyguard."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 41
@@ -2207,6 +2327,9 @@
       text: 
         en: "Return chosen character with 2 {S} or less to their player's hand. Return a character card from your discard to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 42
@@ -2275,6 +2398,9 @@
       text: 
         en: "Sing Together 9 (Any number of your or your teammates' characters with total cost 9 or more may {E} to sing this song for free.)nReturn up to 3 character cards from your discard to your hand. You pay 2 {I} less for the next character you play this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 43
@@ -2320,6 +2446,9 @@
       text: 
         en: "Chosen character gets -4 {S} until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 44
@@ -2369,6 +2498,9 @@
       text: 
         en: "{e} – Chosen character gets -1 {S} until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 45
@@ -2420,6 +2552,9 @@
         en: "_(When an opponent chooses this character for an action, banish them.)_"
       ability: "vanish"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 46
@@ -2470,6 +2605,9 @@
         en: "**Challenger** +4 (_When challenging, this character get +43 {S}._)"
       ability: "challenger"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 47
@@ -2520,6 +2658,9 @@
       text: 
         en: "When you play this character, you may deal 2 damage to another chosen character of yours to return chosen character with cost 2 or less to their player's hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 48
@@ -2576,6 +2717,9 @@
       text: 
         en: "When you play this character and whenever he quests, you may deal 2 damage to another chosen character of yours to draw 2 cards."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 49
@@ -2633,6 +2777,9 @@
       text: 
         en: "{E} – Deal 1 damage to chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 50
@@ -2690,6 +2837,9 @@
       text: 
         en: "Whenever this character quests, gain lore equal to the {L} of chosen opposing character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 51
@@ -2740,6 +2890,9 @@
       text: 
         en: "When you play this character, chosen opposing character can't ready at the start of their next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 52
@@ -2788,6 +2941,9 @@
       text: 
         en: "Every time you draw a card, this character gains Challenger +1 for this turn. (Gains +1 {S} while challenging.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 53
@@ -2837,6 +2993,9 @@
       text: 
         en: "When you play this character, you may return chosen character, item, or location with cost 2 or less to their player's hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 54
@@ -2887,6 +3046,9 @@
         en: "While you have a character named Hades in play, this character gains Challenger +2."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 55
@@ -2936,6 +3098,9 @@
       text: 
         en: "When you play this character, chosen character gains Challenger +2 this turn. (They get +2 {S} while challenging.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 56
@@ -2986,6 +3151,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 57
@@ -3030,6 +3198,9 @@
       title: "Prinz des Waldes"
       flavour: "Als er älter wurde, begann er, seine Verantwortung gegenüber allen Kreaturen des Waldes zu verstehen."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 58
@@ -3074,6 +3245,9 @@
       title: "Gundels Bruder"
       flavour: "Schwester, meine Liebe, wenn wir alle Bürger in Frösche verwandeln, wer gibt uns denn dann sein Gold und seine Rüben?"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 59
@@ -3118,6 +3292,9 @@
       title: "Böses im Sinn"
       flavour: "Sie denken, sie kennen meine Tricks … Oh, der hier wird wunderbar bösartig!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 60
@@ -3169,6 +3346,9 @@
       text: 
         en: "1 {I}, Choose and discard a card – Exert chosen opposing character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 61
@@ -3236,6 +3416,9 @@
       text: 
         en: "Whenever you ready this character, if you have 2 or more other characters in play, gain 2 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 62
@@ -3292,6 +3475,9 @@
         en: "While this character is exerted, opposing characters with Rush enter play exerted."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 63
@@ -3359,6 +3545,9 @@
       text: 
         en: "When an opponent plays a character, return this character to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 64
@@ -3413,6 +3602,9 @@
       text: 
         en: "Choose and discard a card - Ready this character. He can't quest for the rest of this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 65
@@ -3462,6 +3654,9 @@
       text: 
         en: "{E} – Move 1 damage counter from this character to chosen opposing character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 66
@@ -3519,6 +3714,9 @@
       text: 
         en: "When you play this character, you may return one of your other characters to your hand to draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 67
@@ -3587,6 +3785,9 @@
       text: 
         en: "When you play this character, each opponent chooses one of their characters and puts that card on the bottom of their deck. Then, each opponent may draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 68
@@ -3638,6 +3839,9 @@
       text: 
         en: "When you play this character, if you have a card named Pull the Lever! in your discard, you may search your deck for a card named Wrong Lever! and reveal that card to all players. Put that card into your hand and shuffle your deck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 69
@@ -3695,6 +3899,9 @@
       text: 
         en: "When you play this character, banish her or return another chosen character of yours to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 70
@@ -3758,6 +3965,9 @@
       text: 
         en: "When you play this character, you may deal 2 damage to another chosen character of yours to give that character Challenger +1 and “When this character is banished in a challenge, return this card to your hand” this turn. (They get +1 {S} while challenging.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 71
@@ -3816,6 +4026,9 @@
         en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
       ability: "support"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 72
@@ -3880,6 +4093,9 @@
       text: 
         en: "Whenever this character quests, if you have a character named Elsa in play, you may draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 73
@@ -3938,6 +4154,9 @@
       text: 
         en: "Whenever one of your Illusion characters quests, exert chosen opposing character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 74
@@ -4014,6 +4233,9 @@
       text: 
         en: "Whenever this character quests, you may draw a card, then choose and discard a card. If an Illusion character card is discarded this way, you may play that character for free."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 75
@@ -4064,6 +4286,9 @@
       text: 
         en: "When this character is banished in a challenge, return this card to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 76
@@ -4113,6 +4338,9 @@
       text: 
         en: "Whenever you play another character, look at the top card of your deck. Put it on either the top or the bottom of your deck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 77
@@ -4156,6 +4384,9 @@
       text: 
         en: "Your characters gain Challenger +2 and 'When this character is banished in a challenge, return this card to your hand' this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 78
@@ -4199,6 +4430,9 @@
       text: 
         en: "Up to 2 chosen characters can't ready at the start of their next turn. Draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 79
@@ -4262,6 +4496,9 @@
       text: 
         en: "Sing Together 9nFor each character that sang this song, draw a card and gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 80
@@ -4318,6 +4555,9 @@
       text: 
         en: "Choose one:n- Draw 2 cards.n- Each opponent chooses and discards a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 81
@@ -4376,6 +4616,9 @@
       text: 
         en: "Put chosen exerted character into their player's inkwell facedown and exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 82
@@ -4419,6 +4662,9 @@
       text: 
         en: "Move 1 damage counter from each damaged character you have in play to chosen opposing character. Draw a card for each damage counter moved this way."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 83
@@ -4462,6 +4708,9 @@
       text: 
         en: "{E} 2 {I} – Return an Illusion character card from your discard to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 84
@@ -4511,6 +4760,9 @@
       text: 
         en: "{E}, 1 {I} – Exert chosen opposing item. It can't ready at the start of its next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 85
@@ -4554,6 +4806,9 @@
       title: "Die Funksprecherin"
       flavour: "Helga: Es klingt metallisch. Könnte ein Echo von den Felsen sein.\nWilhelmina:Wenn se meene Arbeit machen wollen, von mir aus jerne."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 86
@@ -4609,6 +4864,9 @@
       text: 
         en: "Whenever this character quests, chosen opponent discards a card at random."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 87
@@ -4658,6 +4916,9 @@
       text: 
         en: "When you play this character, chosen character gains Ward until the start of your next turn. (Opponents can't choose them except to challenge.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 88
@@ -4707,6 +4968,9 @@
       text: 
         en: "When you play this character, if you have a character named Tipo in play, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 89
@@ -4757,6 +5021,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 90
@@ -4806,6 +5073,9 @@
         en: "While another character in play has damage, this character gains Evasive."
       ability: "evasive"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 91
@@ -4854,6 +5124,9 @@
       text: 
         en: "When you play this character, you may deal 2 damage to chosen damaged character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 92
@@ -4903,6 +5176,9 @@
       text: 
         en: "When you play this character, you may banish chosen item."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 93
@@ -4954,6 +5230,9 @@
         en: "If you have a character named Don Karnage in play, you pay 1 {I} less to play this character."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 94
@@ -4997,6 +5276,9 @@
       title: "Tollpatsch"
       flavour: "Weil du der furchtlose Co-Pilot bist, der zu allem fähig ist … Habe ich furchtlos gesagt? Ich habe hirnlos gemeint!\n–Chip"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 95
@@ -5051,6 +5333,9 @@
       text: 
         en: "When you play this character, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 96
@@ -5093,6 +5378,9 @@
       title: "Schlauer Bluthund"
       flavour: "Jeder weiß, dass eine Operation ohne Verpflegung zum Scheitern verurteilt ist. Und deshalb bin ich ranghöher als du, Lafayette. Weil ich das Gesamtbild sehe."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 97
@@ -5142,6 +5430,9 @@
       text: 
         en: "When you play this character, choose an opponent to discard a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 98
@@ -5197,6 +5488,9 @@
       text: 
         en: "Whenever this character quests, reveal cards from the top of your deck until you reveal a Floodborn character card. Put that card into your hand and shuffle the rest into your deck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 99
@@ -5247,6 +5541,9 @@
       text: 
         en: "When you play this character, if an opponent has more cards in their hand than you, you may draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 100
@@ -5297,6 +5594,9 @@
       text: 
         en: "Whenever this character quests, you may pay 2 {I} to ready another chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 101
@@ -5365,6 +5665,9 @@
       text: 
         en: "Whenever this character quests, chosen opposing character can't quest during their next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 102
@@ -5415,6 +5718,9 @@
       text: 
         en: "Whenever this character is challenged, the challenging player may choose and discard a card. If they don't, you gain 2 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 103
@@ -5464,6 +5770,9 @@
       text: 
         en: "When you play this character, you may put 1 damage counter on chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 104
@@ -5520,6 +5829,9 @@
       text: 
         en: "Whenever this character quests, put 1 damage counter on each other character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 105
@@ -5572,6 +5884,9 @@
         en: "While there are 5 or more characters with damage in play, this character gets +3 {L}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 106
@@ -5623,6 +5938,9 @@
       text: 
         en: "{E} - Ready chosen Floodborn character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 107
@@ -5686,6 +6004,9 @@
       text: 
         en: "When you play this character, if you used Shift to play her, you may put chosen character into their player's inkwell facedown and exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 108
@@ -5744,6 +6065,9 @@
       text: 
         en: "Whenever you play an action that isn't a song, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 109
@@ -5815,6 +6139,9 @@
       text: 
         en: "Once during your turn, whenever an opposing character is damaged, your Pirate characters get +2 {S} and gain Resist +2 this turn. (Damage dealt to them is reduced by 2.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 110
@@ -5866,6 +6193,9 @@
       text: 
         en: "When this character is banished, choose one:n- Put 2 damage counters on all opposing characters.n- Banish all opposing items.n- Banish all opposing locations."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 111
@@ -5917,6 +6247,9 @@
       text: 
         en: "Whenever you play a Floodborn character, if you used Shift to play them, you may return chosen character to their player's hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 112
@@ -5966,6 +6299,9 @@
       text: 
         en: "When you play this character, if you have 3 or more other characters in play, gain 2 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 113
@@ -6032,6 +6368,9 @@
       text: 
         en: "During your turn, whenever an item is banished, you may draw a card, then choose and discard a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 114
@@ -6075,6 +6414,9 @@
       text: 
         en: "Banish chosen item. Draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 115
@@ -6126,6 +6468,9 @@
       text: 
         en: "Sing Together 8nReturn up to 2 chosen characters with 3 {S} or less each to their player's hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 116
@@ -6181,6 +6526,9 @@
       text: 
         en: "Choose one:n- Return chosen character to their player's hand.n- Put a Pull the Lever! card from your discard pile on the bottom of your deck to put chosen character on the bottom of their owner's deck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 117
@@ -6230,6 +6578,9 @@
       text: 
         en: "Chosen opponent chooses and discards a card. Chosen character gets +2 {S} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 118
@@ -6274,6 +6625,9 @@
       text: 
         en: "Your Pirate characters gain ``{E} – Banish chosen damaged character`` this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 119
@@ -6317,6 +6671,9 @@
       text: 
         en: "Whenever you play a character, if you used Shift to play them, they get +4 {S} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 120
@@ -6362,6 +6719,9 @@
         en: "Whenever one of your characters is challenged, you may put the top card of your deck into your inkwell facedown and exerted."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 121
@@ -6412,6 +6772,9 @@
       text: 
         en: "When you play this character, each opponent loses 1 lore and you gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 122
@@ -6455,6 +6818,9 @@
       title: "Schamloser Betrüger"
       flavour: "Sag mal, Juwelen, die einfach so in so einem schicken Haus herumliegen? Es wäre eine Schande, wenn ein paar davon verschwinden würden …"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 123
@@ -6512,6 +6878,9 @@
       text: 
         en: "When you play this character, chosen opposing character gets -3 {S} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 124
@@ -6564,6 +6933,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 125
@@ -6613,6 +6985,9 @@
       text: 
         en: "During your turn, when this character is banished, if one of your characters was damaged this turn, gain 2 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 126
@@ -6662,6 +7037,9 @@
         en: ""
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 127
@@ -6711,6 +7089,9 @@
       text: 
         en: "When you play this character, you may ready chosen damaged character of yours. They can't quest for the rest of this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 128
@@ -6761,6 +7142,9 @@
         en: "While you have an item card in your discard, this character gains Evasive. (Only characters with Evasive can challenge them.)"
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 129
@@ -6810,6 +7194,9 @@
       text: 
         en: "When you play this character, you may banish one of your items to give chosen character +2 {S} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 130
@@ -6860,6 +7247,9 @@
       text: 
         en: "{E} – Chosen character gains Rush this turn. (They can challenge the turn they're played.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 131
@@ -6910,6 +7300,9 @@
         en: "While you have 2 or more other exerted characters in play, this character gets +2 {L}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 132
@@ -6952,6 +7345,9 @@
       title: "Schläfriger Basset-Hund"
       flavour: "Warum bewachen wir die Küche, Napoleon? Hier gibt es keine Skarabäen. Ruf mich, wenn es etwas Ernstes zu tun gibt."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 133
@@ -7002,6 +7398,9 @@
         en: "Opposing items enter play exerted."
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 134
@@ -7051,6 +7450,9 @@
       text: 
         en: "{E} – Chosen character gets +3 {S} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 135
@@ -7101,6 +7503,9 @@
       text: 
         en: "When you play this character, chosen Racer character gets +4 {S} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 136
@@ -7157,6 +7562,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 137
@@ -7224,6 +7632,9 @@
       text: 
         en: "When you play this character, ready chosen character. They can't quest for the rest of this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 138
@@ -7274,6 +7685,9 @@
       text: 
         en: "{E}, banish one of your items – Chosen opponent loses 1 lore and you gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 139
@@ -7336,6 +7750,9 @@
       text: 
         en: "Whenever one of your items is banished, this character gets +1 {L} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 140
@@ -7393,6 +7810,9 @@
         en: "_(Only characters with Evasive can challenge this character.)_"
       ability: "evasive"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 141
@@ -7457,6 +7877,9 @@
         en: "This character can challenge ready characters."
       ability: "challenge-ready-chars"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 142
@@ -7526,6 +7949,9 @@
       text: 
         en: "Whenever you play another character, they gain Rush, Reckless, and Evasive this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 143
@@ -7575,6 +8001,9 @@
       text: 
         en: "During your turn, when this character is banished, you may draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 144
@@ -7618,6 +8047,9 @@
       title: "Mürrischer Nachbar"
       flavour: "Sand? Im Wald? Ich wette, irgendein magischer Schurke treibt hier sein Unwesen. Nun, das geht mich nichts an. Ich gehe wieder ins Bett."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 145
@@ -7674,6 +8106,9 @@
         en: "While you have a character in play with more {S} than each opposing character, this character gets +2 {L}."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 146
@@ -7724,6 +8159,9 @@
       text: 
         en: "Whenever an opponent plays a character, deal 1 damage to this character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 147
@@ -7775,6 +8213,9 @@
       text: 
         en: "Sing Together 8nReady all your characters. For the rest of this turn, they take no damage from challenges and can't quest."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 148
@@ -7819,6 +8260,9 @@
       text: 
         en: "Banish chosen character, then return an item card from your discard to your hand."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 149
@@ -7863,6 +8307,9 @@
       text: 
         en: "Deal 1 damage to chosen character for each exerted character you have in play."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 150
@@ -7906,6 +8353,9 @@
       text: 
         en: "Chosen character gains Evasive until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 151
@@ -7949,6 +8399,9 @@
       text: 
         en: "Gain lore equal to the damage on chosen character, then banish them."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 152
@@ -8004,6 +8457,9 @@
       text: 
         en: "{E}, {E} one of your characters – Ready chosen character. They can't quest for the rest of this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 153
@@ -8048,6 +8504,9 @@
       title: "Herrscherin des Mäusereichs"
       flavour: "Nach der schrecklichen Sache mit Rattenzahn weiß ich, was Schurken sind. Dieser Dschafar ist sicherlich ein Schurke ersten Ranges."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 154
@@ -8097,6 +8556,9 @@
       text: 
         en: "Whenever this character quests, your other characters gain Support this turn. (Whenever they quest, you may add their {S} to another chosen character's {S} this turn.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 155
@@ -8146,6 +8608,9 @@
       text: 
         en: "When you play this character, you may give chosen Puppy character Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 156
@@ -8195,6 +8660,9 @@
       text: 
         en: "When you play this character, chosen opposing character gets -1 {S} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 157
@@ -8245,6 +8713,9 @@
       text: 
         en: "When you play this character, if you have a character named Elsa in play, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 158
@@ -8296,6 +8767,9 @@
         en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
       ability: "support"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 159
@@ -8346,6 +8820,9 @@
       text: 
         en: "When you play a Floodborn character on this card, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 160
@@ -8395,6 +8872,9 @@
       text: 
         en: "{E}, Choose and discard an item card - Draw 2 cards"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 161
@@ -8444,6 +8924,9 @@
       text: 
         en: "{E}, Banish one of your items – Draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 162
@@ -8494,6 +8977,9 @@
       text: 
         en: "When you play this character, you may give another chosen character Resist +1 until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 163
@@ -8543,6 +9029,9 @@
       text: 
         en: "When you play this character, you may remove up to 1 damage from chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 164
@@ -8586,6 +9075,9 @@
       title: "Förderin der Kunst"
       flavour: "Schöne Musik kann den Geist beflügeln, egal wie schlimm die Dinge zu sein scheinen."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 165
@@ -8641,6 +9133,9 @@
         en: "Your characters named Jetsam gain **Rush.**"
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 166
@@ -8708,6 +9203,9 @@
       text: 
         en: "At the start of your turn, if this card is in your discard, you may choose and discard a card with {IW} to play him for free and he enters play exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 167
@@ -8763,6 +9261,9 @@
       text: 
         en: "At the end of your turn, if you didn't put any cards into your inkwell this turn, banish this character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 168
@@ -8807,6 +9308,9 @@
       title: "Entschlossener Knappe"
       flavour: "Willst du auch nur Muskeln und keinen Verstand?\n–Merlin"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 169
@@ -8857,6 +9361,9 @@
       text: 
         en: "When you play this character, if you have an Ally character in play, you may draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 170
@@ -8926,6 +9433,9 @@
       text: 
         en: "Whenever one of your Ally characters quests, you may remove up to 2 damage from this character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 171
@@ -8995,6 +9505,9 @@
       text: 
         en: "Whenever this character quests, look at the top 3 cards of your deck. You may reveal an Ally character card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 172
@@ -9044,6 +9557,9 @@
       text: 
         en: "Whenever this character quests, you may put chosen item into its player's inkwell facedown and exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 173
@@ -9088,6 +9604,9 @@
       title: "Kritischer Wissenschaftler"
       flavour: "Dieses kleine Ding hat ein viel simpleres Design, als wenn ich es erstellt hätte. Aber wenn du es mit der Entwicklung eilig hattest, dann ergibt das Sinn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 174
@@ -9138,6 +9657,9 @@
       text: 
         en: "Whenever this character quests, you may choose and discard any number of item cards to gain 1 lore for each item card discarded this way."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 175
@@ -9189,6 +9711,9 @@
       text: 
         en: "Sing Together 6nRemove up to 3 damage from any number of chosen characters. All opposing characters get -3 {S} this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 176
@@ -9230,13 +9755,16 @@
       title: 
         en: "Pouncing Practice"
       text: 
-        en: "Chosen character of yours gains Evasive this turn."
+        en: "Chosen character gets -2 {S} this turn."
     - type: resolution
       title: 
         en: "Pouncing Practice"
       text: 
-        en: "Chosen character gets -2 {S} this turn."
+        en: "Chosen character of yours gains Evasive this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 177
@@ -9282,6 +9810,9 @@
       text: 
         en: "Look at the top 3 cards of your deck. You may reveal a character, item, or location card with cost 6 or less and play it for free. Put the rest on the bottom of your deck in any order."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 178
@@ -9325,6 +9856,9 @@
       text: 
         en: "{E}, 1 {I} – Look at the top card of your deck. If it's a Puppy character card, you may reveal it and put it into your hand. Otherwise, put it on the bottom of your deck."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 179
@@ -9368,6 +9902,9 @@
       text: 
         en: "{E}, Banish one of your other items – Put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 180
@@ -9411,6 +9948,9 @@
       text: 
         en: "{E}, 2 {I} – Chosen character gains Resist +2 and Support until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 181
@@ -9454,6 +9994,9 @@
       title: "Generalin aus Zahn"
       flavour: "Speere aus Zahn, steht aufrecht und wach. Wir sind die letzte Bastion und wir geben nicht nach!"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 182
@@ -9503,6 +10046,9 @@
         en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
       ability: "bodyguard"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 183
@@ -9560,6 +10106,9 @@
         en: "Your other Illusion characters gain Challenger +1. (They get +1 {S} while challenging.)"
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 184
@@ -9609,6 +10158,9 @@
       text: 
         en: "When you play this character, you may exert chosen Princess character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 185
@@ -9659,6 +10211,9 @@
       text: 
         en: "When you play this character, you may deal 1 damage to chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 187
@@ -9709,6 +10264,9 @@
         en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
       ability: "resist"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 188
@@ -9759,6 +10317,9 @@
         en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
       ability: "bodyguard"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 189
@@ -9810,6 +10371,9 @@
         en: "During your turn, this character gains Evasive. (They can challenge characters with Evasive.)"
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 190
@@ -9860,6 +10424,9 @@
         en: "While this character is exerted, he gains Resist +1. (Damage dealt to them is reduced by 1.)"
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 191
@@ -9903,6 +10470,9 @@
       title: "Königin von Corona"
       flavour: "In dunklen Zeiten ist eine Krone eine schwere Ehre, die wir mit Anmut und Tapferkeit tragen müssen."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 192
@@ -9959,6 +10529,9 @@
         en: "During your turn, this character gains Evasive. (They can challenge characters with Evasive.)"
       ability: "gain-ability"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 193
@@ -10002,6 +10575,9 @@
       title: "Kriegspferd"
       flavour: "Wenn sich die ganze Welt um dich herum verändert, denk daran, dass Khan immer derselbe sein wird – beständig und wahrhaftig. \n–Fa Zhou"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 194
@@ -10050,6 +10626,9 @@
       text: 
         en: "During an opponent's turn, whenever one of your other characters is banished, gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 195
@@ -10112,6 +10691,9 @@
         en: "While you have another exerted character in play, this character can't be challenged."
       ability: "effects"
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 196
@@ -10164,6 +10746,9 @@
       text: 
         en: "You can't play this character unless an opposing character was damaged this turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 197
@@ -10213,6 +10798,9 @@
       text: 
         en: "When you play this character, you may deal 3 damage to chosen character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 198
@@ -10274,6 +10862,9 @@
       text: 
         en: "When you play this character and at the start of your turn, you may draw a card, then choose and discard a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 199
@@ -10329,6 +10920,9 @@
       text: 
         en: "When this character is banished, deal 5 damage to each opposing character."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 200
@@ -10379,6 +10973,9 @@
       text: 
         en: "During your turn, whenever this character banishes another character in a challenge, you may draw a card and gain 1 lore."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 201
@@ -10434,6 +11031,9 @@
       text: 
         en: "If you have no cards in your hand, draw until you have 3 cards in your hand. Otherwise, choose and discard any number of cards, then draw that many cards."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 202
@@ -10485,6 +11085,9 @@
       text: 
         en: "Sing Together 7nChoose any number of players. They discard their hands and draw 3 cards each."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 203
@@ -10528,6 +11131,9 @@
       text: 
         en: "Deal 1 damage to chosen character. Draw a card."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
 - variants: 
     - set: roj
       id: 204
@@ -10571,3 +11177,6 @@
       text: 
         en: "{E}, 1 {I} – Chosen character with no damage gains Resist +2 until the start of your next turn."
   franchise_id: ""
+  rotation_states: 
+    - core_constructed
+    - infinity_constructed
