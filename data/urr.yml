@@ -2666,6 +2666,20 @@
         sort_number: 1724
       rarity: special
       illustrator: "Juan Diego Leon"
+    - set: fab
+      id: 0
+      dreamborn: "010-000"
+      ravensburger: 
+        en: "0/204 EN 10"
+        fr: "0/204 FR 10"
+        de: "0/204 DE 10"
+        it: "0/204 IT 10"
+        zh: "0/204 ZH 10"
+        ja: "0/204 JA 10"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: special
+      illustrator: "Juan Diego Leon"
   lore: 1
   cost: 4
   inkwell: true
@@ -2718,6 +2732,7 @@
         en: "Name a card, then reveal the top card of your deck. If it's the named card, put that card into your hand and gain 3 lore. Otherwise, put it on the top of your deck."
   franchise_id: "encanto"
   rotation_states: 
+    - core_constructed
     - infinity_constructed
 - variants: 
     - set: urr

@@ -87,7 +87,7 @@ object LoadLorcanito {
         // println(split)
         val cardId = split[0].toInt()
         // val elementKey = split[1] - unused here, always abilities
-        val subItem = split[2].toIntOrNull() ?: -1
+        val subItem = split.getOrNull(2)?.toIntOrNull() ?: -1
         val reference = split.getOrNull(3)
 
         return Triple(cardId, subItem, reference)
