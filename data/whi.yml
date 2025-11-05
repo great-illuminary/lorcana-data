@@ -439,7 +439,7 @@
       title: 
         en: "FABULOUS WEALTH"
       text: 
-        en: "When you play this character, chosen character with a card under them gets +1 this turn."
+        en: "When you play this character, chosen character with a card under them gets +1 {L} this turn."
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -2822,6 +2822,13 @@
       name: "Der gehörnte König"
       title: "Siegreicher Ghul"
       flavour: "Nur noch wenige Augenblicke bis zum Sieg."
+  abilities: 
+    - type: static
+      title: 
+        en: "GRAND MACHINATIONS"
+      text: 
+        en: "During your turn, if 1 or more cards have left a player's discard this turn, this character gets +2 {L}."
+      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -3683,6 +3690,12 @@
       name: "Leistungsbewertung"
       title: ""
       flavour: "Hört zu, Leute, dies ist ein echtes ‚Was habt ihr in letzter Zeit für mich getan?‘-Geschäft. Also gebt mir etwas, womit ich arbeiten kann!"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "Performance Review"
+      text: 
+        en: "chosen ready character of yours to draw cards equal to that character's {L}."
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -3825,6 +3838,18 @@
       name: "Grimorum Arcanorum"
       title: ""
       flavour: ""
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "DOCTRINA ADDUCERE"
+      text: 
+        en: "During your turn, whenever an opposing character becomes exerted, gain 1 lore."
+    - type: static
+      title: 
+        en: "CELERITAS"
+      text: 
+        en: "Your characters named Demona gain Rush."
+      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -5168,9 +5193,10 @@
         it: "25/P3 IT 10"
         zh: "25/P3 ZH 10"
         ja: "25/P3 JA 10"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2446
+        sort_number: 243
       rarity: special
+      illustrator: "Lisa Parfenova"
   lore: 2
   cost: 5
   inkwell: false
@@ -5697,7 +5723,7 @@
       title: ""
       flavour: "Wer auch immer in diesem Zimmer wohnte, ich glaube, wir haben gerade dessen Tintenformer gefunden.\n-Shanzay, eine Luminari"
   abilities: 
-    - type: resolution
+    - type: activated
       title: 
         en: "ITS OWN REWARD"
       text: 
@@ -5746,9 +5772,15 @@
   abilities: 
     - type: resolution
       title: 
-        en: "Blessed Bagpipes"
+        en: "MCDUCK HEIRLOOM"
       text: 
-        en: "Gain 1 Lore."
+        en: "When you play this item, you may put the top card of your deck facedown under one of your characters or locations with Boost."
+    - type: static
+      title: 
+        en: "BATTLE ANTHEM"
+      text: 
+        en: "Whenever one of your characters or locations with a card under them is challenged, gain 1 lore."
+      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -5901,6 +5933,11 @@
       text: 
         en: "_(This character can't quest and must challenge each turn if able.)_"
       ability: "reckless"
+    - type: static-triggered
+      title: 
+        en: "CALL TO BATTLE"
+      text: 
+        en: "Once during your turn, whenever you put a card under one of your characters or locations, you may ready chosen character. If you do, that character can't quest for the rest of this turn."
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -6674,6 +6711,19 @@
       name: "Hercules"
       title: "Mächtiger Anführer"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "EVER VIGILANT"
+      text: 
+        en: "This character can't be dealt damage unless he's being challenged."
+      ability: "effects"
+    - type: static
+      title: 
+        en: "EVER VALIANT"
+      text: 
+        en: "While this character is exerted, your other Hero characters can't be dealt damage unless they're being challenged."
+      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -9352,11 +9402,11 @@
       title: ""
       flavour: "Es ist nicht nur eine Marke. Es ist das, was wir sind. Es gibt keine größere Ehre.\n–Detektivin Judy Hopps"
   abilities: 
-    - type: resolution
+    - type: activated
       title: 
-        en: "Detective's Badge"
+        en: "PROTECT AND SERVE"
       text: 
-        en: "1 - chosen character gains Resist +1"
+        en: "{E}, 1 {I} — Chosen character gains Resist +1 and the Detective classification until the start of your next turn."
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -9748,22 +9798,12 @@
       title: 
         en: "DUSK TO DAWN"
       text: 
-        en: "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. "
+        en: "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. If they have fewer than 2 cards in their hand, they draw until they have 2."
     - type: static-triggered
       title: 
         en: "DUSK TO DAWN"
       text: 
-        en: "If they have fewer than 2 cards in their hand, they draw until they have 2."
-    - type: static-triggered
-      title: 
-        en: "DUSK TO DAWN"
-      text: 
-        en: "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. "
-    - type: static-triggered
-      title: 
-        en: "DUSK TO DAWN"
-      text: 
-        en: "If they have fewer than 2 cards in their hand, they draw until they have 2."
+        en: "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. If they have fewer than 2 cards in their hand, they draw until they have 2."
     - type: static
       title: 
         en: "STONE BY DAY"
@@ -10437,6 +10477,12 @@
         en: "MY JURISDICTION"
       text: 
         en: "During your turn, this character can't be dealt damage."
+      ability: "gain-ability"
+    - type: static
+      title: 
+        en: "DEPUTIZE"
+      text: 
+        en: "Your other characters gain the Detective classification."
       ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
@@ -11192,6 +11238,12 @@
       name: "Das Spiel ist im Gang!"
       title: ""
       flavour: "Wir haben keine Zeit zu verlieren!\n–Basil"
+  abilities: 
+    - type: resolution
+      title: 
+        en: "The Game's Afoot!"
+      text: 
+        en: "Move up to 2 of your characters to the same location for free. That location gains Resist +2 until the start of your next turn."
   franchise_id: ""
   rotation_states: 
     - infinity_constructed

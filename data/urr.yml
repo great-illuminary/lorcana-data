@@ -2415,20 +2415,6 @@
         sort_number: 293
       rarity: super_rare
       illustrator: "Malia Ewart"
-    - set: p3
-      id: 4
-      dreamborn: "009-P3-004"
-      ravensburger: 
-        en: "4/P3 EN 9"
-        fr: "4/P3 FR 9"
-        de: "4/P3 DE 9"
-        it: "4/P3 IT 9"
-        zh: "4/P3 ZH 9"
-        ja: "4/P3 JA 9"
-        culture_invariant_id: 2182
-        sort_number: 503
-      rarity: special
-      illustrator: "Cristian Romero"
     - set: fab
       id: 226
       dreamborn: "009-226"
@@ -2442,6 +2428,20 @@
         culture_invariant_id: 2144
         sort_number: 479
       rarity: enchanted
+      illustrator: "Giulia Riva"
+    - set: p3
+      id: 41
+      dreamborn: "009-P3-041"
+      ravensburger: 
+        en: "41/P3 EN 9"
+        fr: "41/P3 FR 9"
+        de: "41/P3 DE 9"
+        it: "41/P3 IT 9"
+        zh: "41/P3 ZH 9"
+        ja: "41/P3 JA 9"
+        culture_invariant_id: -1
+        sort_number: -1
+      rarity: special
       illustrator: "Giulia Riva"
   lore: 2
   cost: 5
@@ -7983,7 +7983,7 @@
   abilities: 
     - type: resolution
       title: 
-        en: "Blessure au Combat"
+        en: "BATTLE WOUND"
       text: 
         en: "This character enters play with 2 damage."
   franchise_id: "unknown"

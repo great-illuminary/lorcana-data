@@ -22737,7 +22737,8 @@
                         "type": "protection",
                         "from": "damage",
                         "as": "attacker",
-                        "target": {
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:13:abilities:0:effects:0:target",
+                        "defenderTarget": {
                             "type": "card",
                             "value": "all",
                             "filters": [
@@ -38035,16 +38036,16 @@
             "storyborn",
             "princess"
         ],
-        "text": "**BLESSURE AU COMBAT** This character enters play with 2 damage.",
+        "text": "**BATTLE WOUND** This character enters play with 2 damage.",
         "type": "character",
         "abilities": [
             {
                 "type": "resolution",
-                "name": "Blessure au Combat",
+                "name": "BATTLE WOUND",
                 "text": "This character enters play with 2 damage.",
                 "effects": [
                     {
-                        "type": "damage",
+                        "type": "put-damage",
                         "amount": 2,
                         "target": "$5:props:children:props:children:1:props:loading:props:cards:13:abilities:0:effects:0:target"
                     }
@@ -46333,7 +46334,7 @@
                     "effects": [
                         {
                             "type": "discard",
-                            "resolveAmountBeforeCreatingLayer": true,
+                            "resolveAmountBeforeCreatingLayer": false,
                             "amount": {
                                 "dynamic": true,
                                 "difference": 3,
@@ -50440,7 +50441,7 @@
             "floodborn",
             "knight"
         ],
-        "text": "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Donald Duck.)_ **HUMBLE PIE** When you play this character, if you used **Shift** to play him, each opponent loses 2 lore. **RAGING DUCK** While an opponent has 10 or more lore, this character gets +6 {S}.",
+        "text": "**Shift** 4nn**HUMBLE PIE** When you play this character, if you used **Shift** to play him, each opponent loses 2 lore. **RAGING DUCK** While an opponent has 10 or more lore, this character gets +6 {S}.",
         "type": "character",
         "abilities": [
             {
@@ -54581,7 +54582,6 @@
         "rarity": "uncommon"
     },
     {
-        "notImplemented": true,
         "id": "ftx",
         "missingTestCase": true,
         "name": "Koda",
@@ -65121,7 +65121,7 @@
                             ],
                             "difference": 3
                         },
-                        "resolveAmountBeforeCreatingLayer": true,
+                        "resolveAmountBeforeCreatingLayer": false,
                         "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
                     }
                 ]
@@ -74420,7 +74420,6 @@
         "lore": 1
     },
     {
-        "notImplemented": true,
         "id": "wof",
         "name": "Kuzco",
         "title": "Temporary Whale",
@@ -79681,7 +79680,6 @@
         "lore": 2
     },
     {
-        "notImplemented": true,
         "id": "vig",
         "name": "Archimedes",
         "title": "Exceptional Owl",
@@ -94952,7 +94950,7 @@
         "name": "Mulan",
         "title": "Injured Soldier",
         "characteristics": "$5:props:children:props:children:1:props:loading:props:cards:696:characteristics",
-        "text": "**BLESSURE AU COMBAT** This character enters play with 2 damage.",
+        "text": "**BATTLE WOUND** This character enters play with 2 damage.",
         "type": "character",
         "abilities": "$5:props:children:props:children:1:props:loading:props:cards:696:abilities",
         "flavour": "She'll never give up.",
@@ -99377,12 +99375,19 @@
                         "text": "Whenever a character quests while here, you may banish this location to gain 2 lore and give them Evasive until the start of your next turn.",
                         "effects": [
                             {
+                                "type": "ability",
+                                "ability": "evasive",
+                                "duration": "next_turn",
+                                "until": true,
+                                "modifier": "add",
+                                "target": "$5:props:children:props:children:1:props:loading:props:cards:1497:abilities:1:layer:effects:0:target"
+                            },
+                            {
                                 "type": "lore",
                                 "modifier": "add",
                                 "amount": 2,
                                 "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
                             },
-                            "$5:props:children:props:children:1:props:loading:props:cards:1497:abilities:1:layer:effects:0",
                             {
                                 "type": "banish",
                                 "target": {
@@ -99675,7 +99680,7 @@
         "colors": [
             "steel"
         ],
-        "cost": 2,
+        "cost": 3,
         "illustrator": "Giulia Bernardelli",
         "number": 201,
         "set": "010",
@@ -100127,13 +100132,11 @@
     },
     {
         "id": "ha0",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Detective's Badge",
         "characteristics": [
             "item"
         ],
-        "text": "PROTECT AND SERVE , 1 — Chosen character gains Resist +1 and the Detective classification until the start of your next turn. (Damage dealt to them is reduced by 1.)",
+        "text": "PROTECT AND SERVE {E}, 1 {I} — Chosen character gains Resist +1 and the Detective classification until the start of your next turn.",
         "type": "item",
         "inkwell": true,
         "colors": [
@@ -100146,24 +100149,39 @@
         "rarity": "common",
         "abilities": [
             {
-                "type": "resolution",
+                "type": "activated",
+                "name": "PROTECT AND SERVE",
+                "text": "{E}, 1 {I} — Chosen character gains Resist +1 and the Detective classification until the start of your next turn.",
+                "costs": [
+                    {
+                        "type": "exert"
+                    },
+                    {
+                        "type": "ink",
+                        "amount": 1
+                    }
+                ],
                 "effects": [
                     {
                         "type": "ability",
                         "ability": "resist",
+                        "amount": 1,
                         "modifier": "add",
-                        "target": {
-                            "type": "card",
-                            "value": 1,
-                            "filters": [],
-                            "identifier": "chosenCharacter"
-                        },
-                        "amount": 1
+                        "duration": "next_turn",
+                        "until": true,
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:2:abilities:0:effects:0:target"
+                    },
+                    {
+                        "type": "characteristic",
+                        "characteristics": [
+                            "detective"
+                        ],
+                        "modifier": "add",
+                        "duration": "next_turn",
+                        "until": true,
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:2:abilities:0:effects:0:target"
                     }
-                ],
-                "resolveEffectsIndividually": false,
-                "dependentEffects": false,
-                "text": "1 - chosen character gains Resist +1"
+                ]
             }
         ]
     },
@@ -100220,8 +100238,6 @@
     },
     {
         "id": "hic",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Blessed Bagpipes",
         "characteristics": [
             "item"
@@ -100240,20 +100256,109 @@
         "abilities": [
             {
                 "type": "resolution",
+                "resolutionConditions": "$undefined",
+                "optional": true,
+                "name": "MCDUCK HEIRLOOM",
+                "text": "When you play this item, you may put the top card of your deck facedown under one of your characters or locations with Boost.",
+                "responder": "$undefined",
                 "effects": [
                     {
-                        "type": "lore",
-                        "modifier": "add",
+                        "type": "boost",
+                        "faceUp": "$undefined",
                         "amount": 1,
                         "target": {
-                            "type": "player",
-                            "value": "self"
-                        }
+                            "type": "card",
+                            "value": 1,
+                            "filters": [
+                                {
+                                    "filter": "type",
+                                    "value": [
+                                        "location",
+                                        "character"
+                                    ]
+                                },
+                                {
+                                    "filter": "zone",
+                                    "value": "play"
+                                },
+                                {
+                                    "filter": "ability",
+                                    "value": "booster"
+                                },
+                                {
+                                    "filter": "owner",
+                                    "value": "self"
+                                }
+                            ]
+                        },
+                        "isTargetUnderCard": false,
+                        "putTopCardOfDeck": true
                     }
                 ],
-                "resolveEffectsIndividually": false,
-                "dependentEffects": false,
-                "text": "Gain 1 Lore."
+                "resolveEffectsIndividually": "$undefined",
+                "dependentEffects": "$undefined",
+                "costs": "$undefined"
+            },
+            {
+                "type": "static",
+                "ability": "gain-ability",
+                "gainedAbility": {
+                    "type": "static-triggered",
+                    "name": "BATTLE ANTHEM",
+                    "text": "Whenever this card is challenged, gain 1 lore.",
+                    "conditions": "$undefined",
+                    "trigger": {
+                        "on": "challenge",
+                        "as": "defender"
+                    },
+                    "layer": {
+                        "type": "resolution",
+                        "optional": "$undefined",
+                        "responder": "$undefined",
+                        "name": "BATTLE ANTHEM",
+                        "text": "Whenever this card is challenged, gain 1 lore.",
+                        "effects": [
+                            {
+                                "type": "lore",
+                                "modifier": "add",
+                                "amount": 1,
+                                "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
+                            }
+                        ],
+                        "conditions": "$undefined"
+                    }
+                },
+                "conditions": "$undefined",
+                "name": "BATTLE ANTHEM",
+                "text": "Whenever one of your characters or locations with a card under them is challenged, gain 1 lore.",
+                "target": {
+                    "type": "card",
+                    "value": "all",
+                    "filters": [
+                        {
+                            "filter": "type",
+                            "value": [
+                                "character",
+                                "location"
+                            ]
+                        },
+                        {
+                            "filter": "zone",
+                            "value": "play"
+                        },
+                        {
+                            "filter": "owner",
+                            "value": "self"
+                        },
+                        {
+                            "filter": "has_card_under_them",
+                            "comparison": {
+                                "operator": "gte",
+                                "value": 1
+                            }
+                        }
+                    ]
+                }
             }
         ]
     },
@@ -100276,15 +100381,31 @@
         "rarity": "rare",
         "abilities": [
             {
-                "type": "resolution",
+                "type": "activated",
                 "name": "ITS OWN REWARD",
                 "text": "If you've played 2 or more cards this turn, gain 1 lore.",
-                "resolutionConditions": [
+                "costs": [
                     {
-                        "type": "play",
+                        "type": "exert"
+                    }
+                ],
+                "conditions": [
+                    {
+                        "type": "played-card",
+                        "filters": [
+                            {
+                                "filter": "type",
+                                "value": [
+                                    "character",
+                                    "item",
+                                    "action",
+                                    "location"
+                                ]
+                            }
+                        ],
                         "comparison": {
                             "operator": "gte",
-                            "value": 1
+                            "value": 2
                         }
                     }
                 ],
@@ -100338,7 +100459,7 @@
                 "effects": [
                     {
                         "type": "attribute",
-                        "attribute": "strength",
+                        "attribute": "lore",
                         "amount": 1,
                         "duration": "next_turn",
                         "until": true,
@@ -100382,7 +100503,7 @@
                 ],
                 "effects": [
                     {
-                        "type": "damage",
+                        "type": "put-damage",
                         "amount": 1,
                         "target": {
                             "type": "card",
@@ -100397,7 +100518,8 @@
                                     "value": "character"
                                 }
                             ]
-                        }
+                        },
+                        "upTo": "$undefined"
                     }
                 ]
             },
@@ -100449,13 +100571,11 @@
     },
     {
         "id": "fvu",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Grimorum Arcanorum",
         "characteristics": [
             "item"
         ],
-        "text": "DOCTRINA ADDUCERE During your turn, whenever an opposing character becomes exerted, gain 1 lore.nCELERITAS Your characters named Demona gain Rush. (They can challenge the turn they're played.)",
+        "text": "DOCTRINA ADDUCERE During your turn, whenever an opposing character becomes exerted, gain 1 lore.nnCELERITAS Your characters named Demona gain Rush.",
         "type": "item",
         "inkwell": true,
         "colors": [
@@ -100466,7 +100586,82 @@
         "number": 67,
         "set": "010",
         "rarity": "rare",
-        "abilities": []
+        "abilities": [
+            {
+                "type": "static-triggered",
+                "trigger": {
+                    "on": "exert",
+                    "target": {
+                        "type": "card",
+                        "value": "all",
+                        "filters": [
+                            {
+                                "filter": "owner",
+                                "value": "opponent"
+                            },
+                            {
+                                "filter": "type",
+                                "value": "character"
+                            }
+                        ]
+                    }
+                },
+                "conditions": [
+                    "$5:props:children:props:children:1:props:loading:props:cards:554:abilities:1:conditions:0"
+                ],
+                "name": "DOCTRINA ADDUCERE",
+                "text": "During your turn, whenever an opposing character becomes exerted, gain 1 lore.",
+                "layer": {
+                    "type": "resolution",
+                    "name": "DOCTRINA ADDUCERE",
+                    "text": "During your turn, whenever an opposing character becomes exerted, gain 1 lore.",
+                    "conditions": [
+                        "$5:props:children:props:children:1:props:loading:props:cards:554:abilities:1:conditions:0"
+                    ],
+                    "effects": [
+                        {
+                            "type": "lore",
+                            "modifier": "add",
+                            "amount": 1,
+                            "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "static",
+                "ability": "gain-ability",
+                "name": "CELERITAS",
+                "text": "Your characters named Demona gain Rush.",
+                "gainedAbility": "$5:props:children:props:children:1:props:loading:props:cards:84:abilities:0",
+                "target": {
+                    "type": "card",
+                    "value": "all",
+                    "filters": [
+                        {
+                            "filter": "owner",
+                            "value": "self"
+                        },
+                        {
+                            "filter": "zone",
+                            "value": "play"
+                        },
+                        {
+                            "filter": "type",
+                            "value": "character"
+                        },
+                        {
+                            "filter": "attribute",
+                            "value": "name",
+                            "comparison": {
+                                "operator": "eq",
+                                "value": "Demona"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
     },
     {
         "id": "qu0",
@@ -100830,38 +101025,7 @@
                     }
                 ],
                 "effects": [
-                    {
-                        "type": "boost",
-                        "faceUp": "$undefined",
-                        "amount": 1,
-                        "target": {
-                            "type": "card",
-                            "value": 1,
-                            "filters": [
-                                {
-                                    "filter": "type",
-                                    "value": [
-                                        "location",
-                                        "character"
-                                    ]
-                                },
-                                {
-                                    "filter": "zone",
-                                    "value": "play"
-                                },
-                                {
-                                    "filter": "ability",
-                                    "value": "booster"
-                                },
-                                {
-                                    "filter": "owner",
-                                    "value": "self"
-                                }
-                            ]
-                        },
-                        "isTargetUnderCard": false,
-                        "putTopCardOfDeck": true
-                    }
+                    "$5:props:children:props:children:1:props:loading:props:cards:1854:abilities:0:effects:0"
                 ]
             }
         ]
@@ -101058,7 +101222,7 @@
                                             {
                                                 "type": "reveal-and-play",
                                                 "putInto": "deck",
-                                                "exerted": true,
+                                                "exerted": false,
                                                 "target": {
                                                     "type": "card",
                                                     "value": 1,
@@ -101094,8 +101258,6 @@
     },
     {
         "id": "yw7",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Pluto",
         "title": "Steel Champion",
         "characteristics": [
@@ -101399,7 +101561,7 @@
                 "trigger": {
                     "on": "banish",
                     "in": "challenge",
-                    "exclude": "source",
+                    "exclude": "$undefined",
                     "conditions": [
                         {
                             "type": "during-turn",
@@ -101534,7 +101696,6 @@
     },
     {
         "id": "bi7",
-        "notImplemented": true,
         "name": "Chief Bogo",
         "title": "Calling the Shots",
         "characteristics": [
@@ -101580,6 +101741,27 @@
                                     }
                                 ]
                             }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "static",
+                "ability": "gain-ability",
+                "name": "DEPUTIZE",
+                "text": "Your other characters gain the Detective classification.",
+                "target": "$5:props:children:props:children:1:props:loading:props:cards:268:abilities:0:target",
+                "gainedAbility": {
+                    "type": "static",
+                    "ability": "effects",
+                    "effects": [
+                        {
+                            "type": "characteristic",
+                            "characteristics": [
+                                "detective"
+                            ],
+                            "modifier": "add",
+                            "target": "$5:props:children:props:children:1:props:loading:props:cards:13:abilities:0:effects:0:target"
                         }
                     ]
                 }
@@ -101914,7 +102096,7 @@
     {
         "id": "fdj",
         "name": "Nick Wilde",
-        "title": "Determined Detective",
+        "title": "Sly Fox Sleuth",
         "characteristics": [
             "dreamborn",
             "ally",
@@ -101995,7 +102177,7 @@
                 "text": "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
             }
         ],
-        "lore": 2
+        "lore": 1
     },
     {
         "id": "kvl",
@@ -102031,14 +102213,13 @@
     },
     {
         "id": "od7",
-        "notImplemented": true,
         "name": "The Headless Horseman",
         "title": "Cursed Rider",
         "characteristics": [
             "floodborn",
             "villain"
         ],
-        "text": "Shift 5 (You may pay 5 to play this on top of one of your characters named The Headless Horseman.) WITCHING HOUR When you play this character, each player draws 3 cards, then discards 3 cards at random. Choose an opposing character and deal 2 damage to them for each action card discarded this way.",
+        "text": "Shift 5nnWITCHING HOUR When you play this character, each player draws 3 cards, then discards 3 cards at random. Choose an opposing character and deal 2 damage to them for each action card discarded this way.",
         "type": "character",
         "inkwell": true,
         "colors": [
@@ -102051,6 +102232,7 @@
         "number": 174,
         "set": "010",
         "rarity": "super_rare",
+        "lore": 2,
         "abilities": [
             {
                 "type": "static",
@@ -102074,81 +102256,36 @@
                 "responder": "$undefined",
                 "effects": [
                     {
-                        "type": "draw",
-                        "amount": 3,
-                        "target": {
-                            "type": "player",
-                            "value": "all"
-                        }
-                    },
-                    {
-                        "type": "create-layer-for-player",
-                        "target": {
-                            "type": "player",
-                            "value": "all"
-                        },
-                        "layer": {
-                            "type": "resolution",
-                            "name": "Discard 3 cards at random",
-                            "text": "Discard 3 cards at random from your hand.",
-                            "effects": [
+                        "type": "draw-discard-count-actions",
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:1869:abilities:1:effect:target",
+                        "drawAmount": 3,
+                        "discardAmount": 3,
+                        "damagePerAction": 2,
+                        "damageTarget": {
+                            "type": "card",
+                            "value": 1,
+                            "filters": [
                                 {
-                                    "type": "discard",
-                                    "amount": 3,
-                                    "target": {
-                                        "type": "card",
-                                        "value": 3,
-                                        "random": true,
-                                        "filters": [
-                                            {
-                                                "filter": "zone",
-                                                "value": "hand"
-                                            },
-                                            {
-                                                "filter": "owner",
-                                                "value": "self"
-                                            }
-                                        ]
-                                    }
+                                    "filter": "zone",
+                                    "value": "play"
+                                },
+                                {
+                                    "filter": "owner",
+                                    "value": "opponent"
+                                },
+                                {
+                                    "filter": "type",
+                                    "value": "character"
                                 }
                             ]
                         }
-                    },
-                    {
-                        "type": "damage",
-                        "amount": 2,
-                        "target": "$5:props:children:props:children:1:props:loading:props:cards:11:abilities:1:layer:effects:0:target",
-                        "conditions": [
-                            {
-                                "type": "filter",
-                                "comparison": {
-                                    "operator": "gt",
-                                    "value": 0
-                                },
-                                "filters": [
-                                    {
-                                        "filter": "type",
-                                        "value": "action"
-                                    },
-                                    {
-                                        "filter": "zone",
-                                        "value": "discard"
-                                    },
-                                    {
-                                        "filter": "owner",
-                                        "value": "any"
-                                    }
-                                ]
-                            }
-                        ]
                     }
                 ],
                 "resolveEffectsIndividually": "$undefined",
                 "dependentEffects": "$undefined",
                 "costs": "$undefined"
             }
-        ],
-        "lore": 2
+        ]
     },
     {
         "id": "hkv",
@@ -102190,15 +102327,16 @@
                             }
                         ],
                         "comparison": {
-                            "operator": "gt",
+                            "operator": "eq",
                             "value": 2
-                        }
+                        },
+                        "negate": true
                     }
                 ],
                 "secondaryConditions": "$undefined",
                 "optional": "$undefined",
                 "name": "DUSK TO DAWN",
-                "text": "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. ",
+                "text": "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. If they have fewer than 2 cards in their hand, they draw until they have 2.",
                 "responder": "$undefined",
                 "trigger": {
                     "on": "end_turn",
@@ -102207,104 +102345,113 @@
                 "layer": {
                     "type": "resolution",
                     "name": "DUSK TO DAWN",
-                    "text": "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. ",
+                    "text": "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. If they have fewer than 2 cards in their hand, they draw until they have 2.",
                     "optional": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
-                    "resolveAmountBeforeCreatingLayer": true,
+                    "resolveAmountBeforeCreatingLayer": "$undefined",
                     "effects": [
                         {
-                            "type": "discard",
-                            "resolveAmountBeforeCreatingLayer": true,
-                            "amount": {
-                                "dynamic": true,
-                                "difference": 2,
-                                "filters": [
-                                    {
-                                        "filter": "owner",
-                                        "value": "self"
-                                    },
-                                    {
-                                        "filter": "zone",
-                                        "value": "hand"
-                                    }
-                                ]
-                            },
-                            "target": {
-                                "type": "card",
-                                "value": "$5:props:children:props:children:1:props:loading:props:cards:1885:abilities:0:layer:effects:0:amount",
-                                "filters": [
-                                    {
-                                        "filter": "owner",
-                                        "value": "self"
-                                    },
-                                    {
-                                        "filter": "zone",
-                                        "value": "hand"
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "responder": "$undefined",
-                    "costs": "$undefined"
-                }
-            },
-            {
-                "type": "static-triggered",
-                "conditions": [
-                    {
-                        "type": "filter",
-                        "filters": [
-                            {
-                                "filter": "zone",
-                                "value": "hand"
-                            },
-                            {
-                                "filter": "owner",
-                                "value": "self"
-                            }
-                        ],
-                        "comparison": {
-                            "operator": "lt",
-                            "value": 2
-                        }
-                    }
-                ],
-                "secondaryConditions": "$undefined",
-                "optional": "$undefined",
-                "name": "DUSK TO DAWN",
-                "text": "If they have fewer than 2 cards in their hand, they draw until they have 2.",
-                "responder": "$undefined",
-                "trigger": {
-                    "on": "end_turn",
-                    "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
-                },
-                "layer": {
-                    "type": "resolution",
-                    "name": "DUSK TO DAWN",
-                    "text": "If they have fewer than 2 cards in their hand, they draw until they have 2.",
-                    "optional": "$undefined",
-                    "resolveEffectsIndividually": "$undefined",
-                    "resolveAmountBeforeCreatingLayer": true,
-                    "effects": [
-                        {
-                            "type": "draw",
-                            "amount": {
-                                "dynamic": true,
-                                "filters": [
-                                    {
-                                        "filter": "owner",
-                                        "value": "self"
-                                    },
-                                    {
-                                        "filter": "zone",
-                                        "value": "hand"
-                                    }
-                                ],
-                                "difference": 2
-                            },
-                            "resolveAmountBeforeCreatingLayer": true,
-                            "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
+                            "type": "create-layer-based-on-condition",
+                            "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target",
+                            "conditionalEffects": [
+                                {
+                                    "conditions": [
+                                        {
+                                            "type": "filter",
+                                            "filters": [
+                                                {
+                                                    "filter": "zone",
+                                                    "value": "hand"
+                                                },
+                                                {
+                                                    "filter": "owner",
+                                                    "value": "self"
+                                                }
+                                            ],
+                                            "comparison": {
+                                                "operator": "gt",
+                                                "value": 2
+                                            }
+                                        }
+                                    ],
+                                    "effects": [
+                                        {
+                                            "type": "discard",
+                                            "resolveAmountBeforeCreatingLayer": false,
+                                            "amount": {
+                                                "dynamic": true,
+                                                "difference": 2,
+                                                "filters": [
+                                                    {
+                                                        "filter": "owner",
+                                                        "value": "self"
+                                                    },
+                                                    {
+                                                        "filter": "zone",
+                                                        "value": "hand"
+                                                    }
+                                                ]
+                                            },
+                                            "target": {
+                                                "type": "card",
+                                                "value": "$5:props:children:props:children:1:props:loading:props:cards:1885:abilities:0:layer:effects:0:conditionalEffects:0:effects:0:amount",
+                                                "filters": [
+                                                    {
+                                                        "filter": "owner",
+                                                        "value": "self"
+                                                    },
+                                                    {
+                                                        "filter": "zone",
+                                                        "value": "hand"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "conditions": [
+                                        {
+                                            "type": "filter",
+                                            "filters": [
+                                                {
+                                                    "filter": "zone",
+                                                    "value": "hand"
+                                                },
+                                                {
+                                                    "filter": "owner",
+                                                    "value": "self"
+                                                }
+                                            ],
+                                            "comparison": {
+                                                "operator": "lt",
+                                                "value": 2
+                                            }
+                                        }
+                                    ],
+                                    "effects": [
+                                        {
+                                            "type": "draw",
+                                            "amount": {
+                                                "dynamic": true,
+                                                "filters": [
+                                                    {
+                                                        "filter": "owner",
+                                                        "value": "self"
+                                                    },
+                                                    {
+                                                        "filter": "zone",
+                                                        "value": "hand"
+                                                    }
+                                                ],
+                                                "difference": 2
+                                            },
+                                            "resolveAmountBeforeCreatingLayer": false,
+                                            "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ],
                     "responder": "$undefined",
@@ -102327,15 +102474,16 @@
                             }
                         ],
                         "comparison": {
-                            "operator": "gt",
+                            "operator": "eq",
                             "value": 2
-                        }
+                        },
+                        "negate": true
                     }
                 ],
                 "secondaryConditions": "$undefined",
                 "optional": "$undefined",
                 "name": "DUSK TO DAWN",
-                "text": "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. ",
+                "text": "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. If they have fewer than 2 cards in their hand, they draw until they have 2.",
                 "responder": "$undefined",
                 "trigger": {
                     "on": "end_turn",
@@ -102344,107 +102492,116 @@
                 "layer": {
                     "type": "resolution",
                     "name": "DUSK TO DAWN",
-                    "text": "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. ",
+                    "text": "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. If they have fewer than 2 cards in their hand, they draw until they have 2.",
                     "optional": "$undefined",
                     "resolveEffectsIndividually": "$undefined",
-                    "resolveAmountBeforeCreatingLayer": true,
+                    "resolveAmountBeforeCreatingLayer": "$undefined",
                     "effects": [
                         {
-                            "type": "discard",
-                            "resolveAmountBeforeCreatingLayer": true,
-                            "amount": {
-                                "dynamic": true,
-                                "difference": 2,
-                                "filters": [
-                                    {
-                                        "filter": "owner",
-                                        "value": "self"
-                                    },
-                                    {
-                                        "filter": "zone",
-                                        "value": "hand"
-                                    }
-                                ]
-                            },
-                            "target": {
-                                "type": "card",
-                                "value": "$5:props:children:props:children:1:props:loading:props:cards:1885:abilities:2:layer:effects:0:amount",
-                                "filters": [
-                                    {
-                                        "filter": "owner",
-                                        "value": "self"
-                                    },
-                                    {
-                                        "filter": "zone",
-                                        "value": "hand"
-                                    }
-                                ]
-                            }
+                            "type": "create-layer-based-on-condition",
+                            "target": "$5:props:children:props:children:1:props:loading:props:cards:98:abilities:0:effects:0:target",
+                            "conditionalEffects": [
+                                {
+                                    "conditions": [
+                                        {
+                                            "type": "filter",
+                                            "filters": [
+                                                {
+                                                    "filter": "zone",
+                                                    "value": "hand"
+                                                },
+                                                {
+                                                    "filter": "owner",
+                                                    "value": "opponent"
+                                                }
+                                            ],
+                                            "comparison": {
+                                                "operator": "gt",
+                                                "value": 2
+                                            }
+                                        }
+                                    ],
+                                    "effects": [
+                                        {
+                                            "type": "discard",
+                                            "resolveAmountBeforeCreatingLayer": false,
+                                            "amount": {
+                                                "dynamic": true,
+                                                "difference": 2,
+                                                "filters": [
+                                                    {
+                                                        "filter": "owner",
+                                                        "value": "self"
+                                                    },
+                                                    {
+                                                        "filter": "zone",
+                                                        "value": "hand"
+                                                    }
+                                                ]
+                                            },
+                                            "target": {
+                                                "type": "card",
+                                                "value": "$5:props:children:props:children:1:props:loading:props:cards:1885:abilities:1:layer:effects:0:conditionalEffects:0:effects:0:amount",
+                                                "filters": [
+                                                    {
+                                                        "filter": "owner",
+                                                        "value": "self"
+                                                    },
+                                                    {
+                                                        "filter": "zone",
+                                                        "value": "hand"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "conditions": [
+                                        {
+                                            "type": "filter",
+                                            "filters": [
+                                                {
+                                                    "filter": "zone",
+                                                    "value": "hand"
+                                                },
+                                                {
+                                                    "filter": "owner",
+                                                    "value": "opponent"
+                                                }
+                                            ],
+                                            "comparison": {
+                                                "operator": "lt",
+                                                "value": 2
+                                            }
+                                        }
+                                    ],
+                                    "effects": [
+                                        {
+                                            "type": "draw",
+                                            "amount": {
+                                                "dynamic": true,
+                                                "filters": [
+                                                    {
+                                                        "filter": "owner",
+                                                        "value": "self"
+                                                    },
+                                                    {
+                                                        "filter": "zone",
+                                                        "value": "hand"
+                                                    }
+                                                ],
+                                                "difference": 2
+                                            },
+                                            "resolveAmountBeforeCreatingLayer": false,
+                                            "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ],
-                    "responder": "opponent",
-                    "costs": "$undefined"
-                }
-            },
-            {
-                "type": "static-triggered",
-                "conditions": [
-                    {
-                        "type": "filter",
-                        "filters": [
-                            {
-                                "filter": "zone",
-                                "value": "hand"
-                            },
-                            {
-                                "filter": "owner",
-                                "value": "opponent"
-                            }
-                        ],
-                        "comparison": {
-                            "operator": "lt",
-                            "value": 2
-                        }
-                    }
-                ],
-                "secondaryConditions": "$undefined",
-                "optional": "$undefined",
-                "name": "DUSK TO DAWN",
-                "text": "If they have fewer than 2 cards in their hand, they draw until they have 2.",
-                "responder": "$undefined",
-                "trigger": {
-                    "on": "end_turn",
-                    "target": "$5:props:children:props:children:1:props:loading:props:cards:98:abilities:0:effects:0:target"
-                },
-                "layer": {
-                    "type": "resolution",
-                    "name": "DUSK TO DAWN",
-                    "text": "If they have fewer than 2 cards in their hand, they draw until they have 2.",
-                    "optional": "$undefined",
-                    "resolveEffectsIndividually": "$undefined",
-                    "resolveAmountBeforeCreatingLayer": true,
-                    "effects": [
-                        {
-                            "type": "draw",
-                            "amount": {
-                                "dynamic": true,
-                                "filters": [
-                                    {
-                                        "filter": "owner",
-                                        "value": "self"
-                                    },
-                                    {
-                                        "filter": "zone",
-                                        "value": "hand"
-                                    }
-                                ],
-                                "difference": 2
-                            },
-                            "resolveAmountBeforeCreatingLayer": true,
-                            "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
-                        }
-                    ],
-                    "responder": "opponent",
+                    "responder": "$undefined",
                     "costs": "$undefined"
                 }
             },
@@ -102523,8 +102680,6 @@
     },
     {
         "id": "ohf",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Robin Hood",
         "title": "Ephemeral Archer",
         "characteristics": [
@@ -102681,7 +102836,7 @@
             "storyborn",
             "ally"
         ],
-        "text": "Boost 1 {I} (Once during your turn, you may pay 1 {I} to put the top card of your deck under this card, facedown.)nA TREASURE THAT MUST BE EARNED Whenever this character quests, if there is a card under it, put the top card of your deck into your inkwell, facedown and exerted.",
+        "text": "Boost 1 {I}nnA TREASURE THAT MUST BE EARNED Whenever this character quests, if there is a card under it, put the top card of your deck into your inkwell, facedown and exerted.",
         "type": "character",
         "inkwell": true,
         "colors": [
@@ -103005,8 +103160,6 @@
     },
     {
         "id": "kmd",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Judy Hopps",
         "title": "Uncovering Clues",
         "characteristics": [
@@ -103182,7 +103335,13 @@
                     "optional": true,
                     "resolveEffectsIndividually": "$undefined",
                     "effects": [
-                        "$5:props:children:props:children:1:props:loading:props:cards:874:abilities:0:effects:0",
+                        {
+                            "type": "move",
+                            "to": "inkwell",
+                            "exerted": false,
+                            "target": "$5:props:children:props:children:1:props:loading:props:cards:874:abilities:0:effects:0:target",
+                            "isPrivate": true
+                        },
                         {
                             "type": "draw",
                             "amount": 1,
@@ -103196,8 +103355,6 @@
     },
     {
         "id": "ckd",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Daisy Duck",
         "title": "Paranormal Investigator",
         "characteristics": [
@@ -104888,8 +105045,6 @@
     },
     {
         "id": "n74",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Hercules",
         "title": "Mighty Leader",
         "characteristics": [
@@ -104912,7 +105067,65 @@
         "set": "010",
         "rarity": "legendary",
         "lore": 2,
-        "abilities": []
+        "abilities": [
+            {
+                "type": "static",
+                "ability": "effects",
+                "name": "EVER VIGILANT",
+                "text": "This character can't be dealt damage unless he's being challenged.",
+                "effects": [
+                    {
+                        "type": "protection",
+                        "from": "damage",
+                        "exceptAs": "defender",
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:13:abilities:0:effects:0:target"
+                    }
+                ]
+            },
+            {
+                "type": "static",
+                "ability": "gain-ability",
+                "name": "EVER VALIANT",
+                "text": "While this character is exerted, your other Hero characters can't be dealt damage unless they're being challenged.",
+                "conditions": [
+                    {
+                        "type": "exerted"
+                    }
+                ],
+                "target": {
+                    "type": "card",
+                    "value": "all",
+                    "excludeSelf": true,
+                    "filters": [
+                        {
+                            "filter": "type",
+                            "value": "character"
+                        },
+                        {
+                            "filter": "characteristics",
+                            "value": [
+                                "hero"
+                            ]
+                        },
+                        {
+                            "filter": "owner",
+                            "value": "self"
+                        },
+                        {
+                            "filter": "zone",
+                            "value": "play"
+                        }
+                    ]
+                },
+                "gainedAbility": {
+                    "type": "static",
+                    "ability": "effects",
+                    "name": "EVER VALIANT",
+                    "text": "Can't be dealt damage unless they're being challenged.",
+                    "effects": "$5:props:children:props:children:1:props:loading:props:cards:1922:abilities:0:effects"
+                }
+            }
+        ]
     },
     {
         "id": "pen",
@@ -105036,8 +105249,6 @@
     },
     {
         "id": "fbk",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "David Xanatos",
         "title": "Charismatic Leader",
         "characteristics": [
@@ -105076,7 +105287,9 @@
                         }
                     ]
                 },
-                "conditions": "$undefined",
+                "conditions": [
+                    "$5:props:children:props:children:1:props:loading:props:cards:554:abilities:1:conditions:0"
+                ],
                 "layer": {
                     "type": "resolution",
                     "optional": "$undefined",
@@ -105467,7 +105680,7 @@
                     "conditions": "$undefined",
                     "target": {
                         "type": "card",
-                        "excludeSelf": "$undefined",
+                        "excludeSelf": true,
                         "value": "all",
                         "filters": [
                             {
@@ -105639,15 +105852,13 @@
     },
     {
         "id": "l58",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Ares",
         "title": "God of War",
         "characteristics": [
             "storyborn",
             "deity"
         ],
-        "text": "Reckless (This character can't quest and must challenge each turn if able.) CALL TO BATTLE Once during your turn, whenever you put a card under one of your characters or locations, you may ready chosen character. If you do, that character can't quest for the rest of this turn.",
+        "text": "RecklessnnCALL TO BATTLE Once during your turn, whenever you put a card under one of your characters or locations, you may ready chosen character. If you do, that character can't quest for the rest of this turn.",
         "type": "character",
         "inkwell": true,
         "colors": [
@@ -105662,7 +105873,60 @@
         "rarity": "uncommon",
         "lore": 0,
         "abilities": [
-            "$5:props:children:props:children:1:props:loading:props:cards:78:abilities:0"
+            "$5:props:children:props:children:1:props:loading:props:cards:78:abilities:0",
+            {
+                "type": "static-triggered",
+                "trigger": {
+                    "on": "put-a-card-under",
+                    "target": {
+                        "type": "card",
+                        "value": "all",
+                        "filters": [
+                            {
+                                "filter": "owner",
+                                "value": "self"
+                            },
+                            {
+                                "filter": "type",
+                                "value": [
+                                    "character",
+                                    "location"
+                                ]
+                            },
+                            {
+                                "filter": "zone",
+                                "value": "play"
+                            }
+                        ]
+                    }
+                },
+                "name": "CALL TO BATTLE",
+                "text": "Once during your turn, whenever you put a card under one of your characters or locations, you may ready chosen character. If you do, that character can't quest for the rest of this turn.",
+                "conditions": "$undefined",
+                "oncePerTurn": true,
+                "layer": {
+                    "type": "resolution",
+                    "optional": true,
+                    "unless": "$undefined",
+                    "name": "CALL TO BATTLE",
+                    "text": "Once during your turn, whenever you put a card under one of your characters or locations, you may ready chosen character. If you do, that character can't quest for the rest of this turn.",
+                    "effects": [
+                        {
+                            "type": "restriction",
+                            "restriction": "quest",
+                            "duration": "turn",
+                            "target": "$5:props:children:props:children:1:props:loading:props:cards:226:abilities:0:effects:0:target",
+                            "nonAccumulative": false
+                        },
+                        {
+                            "type": "exert",
+                            "exert": false,
+                            "target": "$5:props:children:props:children:1:props:loading:props:cards:226:abilities:0:effects:0:target"
+                        }
+                    ],
+                    "oncePerTurn": true
+                }
+            }
         ]
     },
     {
@@ -106706,7 +106970,7 @@
                 "text": "When you play this character, you may put the top card of your deck facedown under one of your characters or locations with Boost.",
                 "responder": "$undefined",
                 "effects": [
-                    "$5:props:children:props:children:1:props:loading:props:cards:1863:abilities:1:effects:0"
+                    "$5:props:children:props:children:1:props:loading:props:cards:1854:abilities:0:effects:0"
                 ],
                 "resolveEffectsIndividually": "$undefined",
                 "dependentEffects": "$undefined",
@@ -107528,7 +107792,7 @@
                                 "modes": [
                                     {
                                         "id": "1",
-                                        "text": "Put that character on the bottom of their deck",
+                                        "text": "Put %s that character on the bottom of their deck",
                                         "effects": [
                                             {
                                                 "type": "move",
@@ -107623,7 +107887,7 @@
                             ],
                             "difference": 3
                         },
-                        "resolveAmountBeforeCreatingLayer": true,
+                        "resolveAmountBeforeCreatingLayer": false,
                         "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
                     },
                     {
@@ -107642,7 +107906,7 @@
                             ],
                             "difference": 3
                         },
-                        "resolveAmountBeforeCreatingLayer": true,
+                        "resolveAmountBeforeCreatingLayer": false,
                         "target": "$5:props:children:props:children:1:props:loading:props:cards:98:abilities:0:effects:0:target"
                     }
                 ],
@@ -107955,7 +108219,6 @@
     },
     {
         "id": "y29",
-        "notImplemented": true,
         "missingTestCase": false,
         "name": "The Horned King",
         "title": "Triumphant Ghoul",
@@ -107978,8 +108241,36 @@
         "number": 49,
         "set": "010",
         "rarity": "rare",
-        "abilities": [],
-        "lore": 1
+        "lore": 1,
+        "abilities": [
+            {
+                "type": "static",
+                "ability": "effects",
+                "name": "GRAND MACHINATIONS",
+                "text": "During your turn, if 1 or more cards have left a player's discard this turn, this character gets +2 {L}.",
+                "conditions": [
+                    {
+                        "type": "during-turn",
+                        "value": "self"
+                    },
+                    {
+                        "type": "this-turn",
+                        "value": "left-discard",
+                        "target": "self"
+                    }
+                ],
+                "effects": [
+                    {
+                        "type": "attribute",
+                        "attribute": "lore",
+                        "modifier": "add",
+                        "amount": 2,
+                        "duration": "turn",
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:13:abilities:0:effects:0:target"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "qfp",
@@ -108095,7 +108386,7 @@
                     "name": "FINAL ACT",
                     "text": "During your turn, when this character is banished, you may put the top card of your deck facedown under one of your characters or locations with Boost.",
                     "effects": [
-                        "$5:props:children:props:children:1:props:loading:props:cards:1863:abilities:1:effects:0"
+                        "$5:props:children:props:children:1:props:loading:props:cards:1854:abilities:0:effects:0"
                     ]
                 }
             }
@@ -108196,12 +108487,12 @@
     {
         "id": "snp",
         "name": "Iago",
-        "title": "Furious",
+        "title": "Stompin' Mad",
         "characteristics": [
             "storyborn",
             "ally"
         ],
-        "text": "Challenger +5 (While this character is challenging, it gets +5 {S}.)",
+        "text": "Challenger +5",
         "type": "character",
         "inkwell": true,
         "colors": [
@@ -108553,12 +108844,18 @@
                 "text": "Whenever one of your other characters is banished in a challenge, you may return that card to your hand, then choose and discard a card.",
                 "trigger": {
                     "on": "banish",
-                    "exclude": "source",
                     "in": "challenge",
+                    "exclude": "source",
+                    "conditions": "$undefined",
+                    "attackerFilters": "$undefined",
                     "filters": [
                         {
                             "filter": "type",
                             "value": "character"
+                        },
+                        {
+                            "filter": "owner",
+                            "value": "self"
                         }
                     ]
                 },
@@ -108593,7 +108890,7 @@
                             ]
                         }
                     ],
-                    "resolveEffectsIndividually": "$undefined"
+                    "costs": "$undefined"
                 }
             }
         ]
@@ -109117,23 +109414,35 @@
                     "text": "Whenever you put a card under this character, you may reveal the top card of your deck. If it's a character card, you may play that character for free and they enter play exerted. Otherwise, put it on the bottom of your deck.",
                     "effects": [
                         {
-                            "type": "reveal-and-play",
-                            "putInto": "deck",
-                            "exerted": true,
-                            "target": {
-                                "type": "card",
-                                "value": 1,
-                                "filters": [
-                                    {
-                                        "filter": "type",
-                                        "value": "character"
-                                    },
-                                    {
-                                        "filter": "owner",
-                                        "value": "self"
-                                    }
-                                ]
-                            }
+                            "type": "scry",
+                            "amount": 1,
+                            "mode": "bottom",
+                            "tutorFilters": [
+                                {
+                                    "filter": "zone",
+                                    "value": "deck"
+                                },
+                                {
+                                    "filter": "owner",
+                                    "value": "self"
+                                },
+                                {
+                                    "filter": "type",
+                                    "value": "character"
+                                }
+                            ],
+                            "playFilters": [
+                                {
+                                    "filter": "type",
+                                    "value": "character"
+                                }
+                            ],
+                            "shouldRevealTutored": true,
+                            "limits": {
+                                "bottom": 1,
+                                "play": 1
+                            },
+                            "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
                         }
                     ],
                     "oncePerTurn": "$undefined"
@@ -109809,7 +110118,7 @@
             "storyborn",
             "hero"
         ],
-        "text": "FABULOUS WEALTH When you play this character, chosen character with a card under them gets +1 this turn.",
+        "text": "FABULOUS WEALTH When you play this character, chosen character with a card under them gets +1 {L} this turn.",
         "type": "character",
         "inkwell": true,
         "colors": [
@@ -109829,12 +110138,12 @@
                 "resolutionConditions": "$undefined",
                 "optional": true,
                 "name": "FABULOUS WEALTH",
-                "text": "When you play this character, chosen character with a card under them gets +1 this turn.",
+                "text": "When you play this character, chosen character with a card under them gets +1 {L} this turn.",
                 "responder": "$undefined",
                 "effects": [
                     {
                         "type": "attribute",
-                        "attribute": "strength",
+                        "attribute": "lore",
                         "amount": 1,
                         "modifier": "add",
                         "target": {
@@ -109972,8 +110281,6 @@
     },
     {
         "id": "vvy",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Rapunzel",
         "title": "Ready for Adventure",
         "characteristics": [
@@ -109994,10 +110301,10 @@
         "number": 3,
         "set": "010",
         "rarity": "legendary",
+        "lore": 1,
         "abilities": [
             "$5:props:children:props:children:1:props:loading:props:cards:48:abilities:0"
-        ],
-        "lore": 1
+        ]
     },
     {
         "id": "log",
@@ -110115,13 +110422,11 @@
     },
     {
         "id": "iga",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "The Game's Afoot!",
         "characteristics": [
             "action"
         ],
-        "text": "Move up to 2 of your characters to the same location for free. That location gains Resist +2 until the start of your next turn. (Damage dealt to it is reduced by 2.)",
+        "text": "Move up to 2 of your characters to the same location for free. That location gains Resist +2 until the start of your next turn.",
         "type": "action",
         "inkwell": true,
         "colors": [
@@ -110132,7 +110437,46 @@
         "number": 198,
         "set": "010",
         "rarity": "uncommon",
-        "abilities": []
+        "abilities": [
+            {
+                "type": "resolution",
+                "resolveEffectsIndividually": true,
+                "effects": [
+                    {
+                        "type": "move-to-location",
+                        "target": {
+                            "type": "card",
+                            "value": 2,
+                            "upTo": true,
+                            "filters": [
+                                {
+                                    "filter": "type",
+                                    "value": "character"
+                                },
+                                {
+                                    "filter": "zone",
+                                    "value": "play"
+                                },
+                                {
+                                    "filter": "owner",
+                                    "value": "self"
+                                }
+                            ]
+                        },
+                        "to": "$5:props:children:props:children:1:props:loading:props:cards:597:abilities:0:effects:0:to"
+                    },
+                    {
+                        "type": "ability",
+                        "ability": "resist",
+                        "amount": 2,
+                        "modifier": "add",
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:597:abilities:0:effects:0:to",
+                        "duration": "next_turn",
+                        "until": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "mgc",
@@ -110650,8 +110994,6 @@
     },
     {
         "id": "or3",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Time to Go!",
         "characteristics": [
             "action"
@@ -110672,43 +111014,44 @@
                 "type": "resolution",
                 "effects": [
                     {
-                        "type": "banish",
-                        "target": "$5:props:children:props:children:1:props:loading:props:cards:446:abilities:0:effects:0:target",
-                        "afterEffect": [
+                        "type": "target-conditional",
+                        "target": "$5:props:children:props:children:1:props:loading:props:cards:521:abilities:1:layer:effects:0:target",
+                        "effects": [
                             {
-                                "type": "create-layer-based-on-target",
-                                "target": "$5:props:children:props:children:1:props:loading:props:cards:13:abilities:0:effects:0:target",
-                                "filters": [
-                                    {
-                                        "filter": "has_card_under_them"
-                                    },
-                                    {
-                                        "filter": "owner",
-                                        "value": "self"
-                                    },
-                                    {
-                                        "filter": "type",
-                                        "value": "character"
-                                    }
-                                ],
-                                "numberOfMatchingTargets": {
-                                    "operator": "eq",
-                                    "value": 1
-                                },
-                                "effects": [
-                                    {
-                                        "type": "draw",
-                                        "amount": 3,
-                                        "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
-                                    }
-                                ],
-                                "fallback": [
-                                    {
-                                        "type": "draw",
-                                        "amount": 2,
-                                        "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
-                                    }
-                                ]
+                                "type": "banish",
+                                "target": {
+                                    "type": "card",
+                                    "value": 1,
+                                    "filters": [
+                                        {
+                                            "filter": "has_card_under_them"
+                                        },
+                                        {
+                                            "filter": "owner",
+                                            "value": "self"
+                                        },
+                                        {
+                                            "filter": "type",
+                                            "value": "character"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "draw",
+                                "amount": 3,
+                                "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
+                            }
+                        ],
+                        "fallback": [
+                            {
+                                "type": "banish",
+                                "target": "$5:props:children:props:children:1:props:loading:props:cards:521:abilities:1:layer:effects:0:target"
+                            },
+                            {
+                                "type": "draw",
+                                "amount": 2,
+                                "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
                             }
                         ]
                     }
@@ -110741,45 +111084,6 @@
                 "text": "Play a location with cost 3 or less from your discard for free. Then, if you have a location named Sleepy Hollow in play, draw a card.",
                 "effects": [
                     {
-                        "type": "draw",
-                        "amount": 1,
-                        "target": {
-                            "type": "player",
-                            "value": "self"
-                        },
-                        "conditions": [
-                            {
-                                "type": "filter",
-                                "comparison": {
-                                    "operator": "gte",
-                                    "value": 1
-                                },
-                                "filters": [
-                                    {
-                                        "filter": "owner",
-                                        "value": "self"
-                                    },
-                                    {
-                                        "filter": "zone",
-                                        "value": "play"
-                                    },
-                                    {
-                                        "filter": "type",
-                                        "value": "location"
-                                    },
-                                    {
-                                        "filter": "attribute",
-                                        "value": "name",
-                                        "comparison": {
-                                            "operator": "eq",
-                                            "value": "Sleepy Hollow"
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
                         "type": "play",
                         "forFree": true,
                         "target": {
@@ -110806,9 +111110,56 @@
                                         "value": 3
                                     }
                                 }
-                            ],
-                            "identifier": "chosenLocation"
-                        }
+                            ]
+                        },
+                        "afterEffect": [
+                            {
+                                "type": "create-layer-based-on-target",
+                                "responder": "self",
+                                "target": "$5:props:children:props:children:1:props:loading:props:cards:15:abilities:1:target",
+                                "effects": [
+                                    {
+                                        "type": "draw",
+                                        "amount": 1,
+                                        "target": {
+                                            "type": "player",
+                                            "value": "self"
+                                        },
+                                        "conditions": [
+                                            {
+                                                "type": "filter",
+                                                "comparison": {
+                                                    "operator": "gte",
+                                                    "value": 1
+                                                },
+                                                "filters": [
+                                                    {
+                                                        "filter": "owner",
+                                                        "value": "self"
+                                                    },
+                                                    {
+                                                        "filter": "zone",
+                                                        "value": "play"
+                                                    },
+                                                    {
+                                                        "filter": "type",
+                                                        "value": "location"
+                                                    },
+                                                    {
+                                                        "filter": "attribute",
+                                                        "value": "name",
+                                                        "comparison": {
+                                                            "operator": "eq",
+                                                            "value": "Sleepy Hollow"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -111192,13 +111543,11 @@
     },
     {
         "id": "rok",
-        "notImplemented": true,
-        "missingTestCase": true,
         "name": "Performance Review",
         "characteristics": [
             "action"
         ],
-        "text": "chosen ready character of yours to draw cards equal to that character's.",
+        "text": "chosen ready character of yours to draw cards equal to that character's {L}.",
         "type": "action",
         "inkwell": true,
         "colors": [
@@ -111209,7 +111558,54 @@
         "number": 64,
         "set": "010",
         "rarity": "uncommon",
-        "abilities": []
+        "abilities": [
+            {
+                "type": "resolution",
+                "name": "Performance Review",
+                "text": "chosen ready character of yours to draw cards equal to that character's {L}.",
+                "effects": [
+                    {
+                        "type": "create-layer-based-on-target",
+                        "target": {
+                            "type": "card",
+                            "value": 1,
+                            "filters": [
+                                {
+                                    "filter": "type",
+                                    "value": "character"
+                                },
+                                {
+                                    "filter": "zone",
+                                    "value": "play"
+                                },
+                                {
+                                    "filter": "owner",
+                                    "value": "self"
+                                },
+                                {
+                                    "filter": "status",
+                                    "value": "ready"
+                                }
+                            ]
+                        },
+                        "resolveAmountBeforeCreatingLayer": true,
+                        "effects": [
+                            "$5:props:children:props:children:1:props:loading:props:cards:564:abilities:0:effects:0",
+                            {
+                                "type": "draw",
+                                "amount": {
+                                    "dynamic": true,
+                                    "target": {
+                                        "attribute": "lore"
+                                    }
+                                },
+                                "target": "$5:props:children:props:children:1:props:loading:props:cards:12:abilities:0:layer:effects:0:target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "r3n",
