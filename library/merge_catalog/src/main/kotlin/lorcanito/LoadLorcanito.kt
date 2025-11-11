@@ -125,6 +125,7 @@ object LoadLorcanito {
             SetDescription.Roj -> "008"
             SetDescription.Fab -> "009"
             SetDescription.P3 -> "P3"
+            SetDescription.C2 -> "C2"
             SetDescription.Whi -> "010"
         }
 

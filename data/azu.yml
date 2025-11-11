@@ -1051,6 +1051,30 @@
         sort_number: 1037
       rarity: legendary
       illustrator: "Kendall Hale"
+    - set: c2
+      id: 4
+      dreamborn: "006-C2-004"
+      ravensburger: 
+        en: "4/C2 EN 6"
+        fr: "4/C2 FR 6"
+        de: "4/C2 DE 6"
+        it: "4/C2 IT 6"
+        culture_invariant_id: 2454
+        sort_number: 1255
+      rarity: special
+      illustrator: "Jeanne Plounevez"
+    - set: c2
+      id: 8
+      dreamborn: "006-C2-008"
+      ravensburger: 
+        en: "8/C2 EN 6"
+        fr: "8/C2 FR 6"
+        de: "8/C2 DE 6"
+        it: "8/C2 IT 6"
+        culture_invariant_id: 2458
+        sort_number: 1256
+      rarity: special
+      illustrator: "Jeanne Plounevez"
   lore: 2
   cost: 5
   inkwell: false
@@ -1296,6 +1320,12 @@
       name: "Mr. Litwak"
       title: "Spielhallenbesitzer"
       flavour: "Reinspaziert. Schön, dass ihr alle da seid."
+  abilities: 
+    - type: static-triggered
+      title: 
+        en: "THE GANG'S ALL HERE"
+      text: 
+        en: "Once during your turn, whenever you play another character, you may ready this character. He can’t quest or challenge for the rest of this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
