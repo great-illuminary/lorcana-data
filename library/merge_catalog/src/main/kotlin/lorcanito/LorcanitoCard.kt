@@ -116,7 +116,13 @@ data class LorcanitoCard(
 
                     newJson?.let { res -> JsonDecode.decode(res) }
                 } else {
-                    json?.let { res -> JsonDecode.decode(res) }
+                    try {
+                        json?.let { res -> JsonDecode.decode(res) }
+                    } catch(err: Throwable) {
+                        //TODO check this...
+                        err.printStackTrace()
+                        null
+                    }
                 }
             } else {
                 null

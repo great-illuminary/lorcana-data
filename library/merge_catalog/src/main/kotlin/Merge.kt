@@ -71,6 +71,7 @@ private suspend fun load() {
     prepareEmpty(rootProject, "azu", 6, SetDescription.Azu, "006")
     prepareEmpty(rootProject, "arc", 7, SetDescription.Arc, "007")
     prepareEmpty(rootProject, "roj", 8, SetDescription.Roj, "008")
+    prepareEmpty(rootProject, "win", 11, SetDescription.Win, "011")
 
     runBlocking {
         LoadOfficialData(rootProject).also { it.loadLanguages() }
@@ -100,7 +101,7 @@ private suspend fun load() {
 
     if (rbCards == null) throw IllegalStateException("rbCards can't be null at this point")
 
-    listOf("tfc", "iti", "urr", "ssk", "rotf", "azu", "arc", "roj", "fab", "whi").forEach { set ->
+    listOf("tfc", "iti", "urr", "ssk", "rotf", "azu", "arc", "roj", "fab", "whi", "win").forEach { set ->
         val file = VirtualFile(rootProject.absolutePath, "data/$set.yml")
         val content = file.readString()
         val list = yml.decodeFromString(serializer, content)

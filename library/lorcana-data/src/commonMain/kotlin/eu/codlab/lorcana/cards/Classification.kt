@@ -124,6 +124,12 @@ enum class Classification(private val rawSlug: String? = null) {
 
     @SerialName("ghost")
     Ghost,
+
+    @SerialName("giant")
+    Giant,
+
+    @SerialName("super")
+    Super,
     ;
 
     val slug: String
