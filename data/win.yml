@@ -119,17 +119,42 @@
         it: "6/204 IT 11"
         zh: "6/204 ZH 11"
         ja: "6/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2469
+        sort_number: 6
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+      illustrator: "Nicoletta Baldari / Patri Balanovsky"
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 4
+  defence: 6
+  colors: 
+    - amber
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Nicoletta Baldari / Patri Balanovsky"
   languages: 
     en: 
-      name: ""
+      name: "Nakoma"
+      title: "Waiting Out the Storm"
+      flavour: "Come sit by the fire. It will keep you warm until this storm blows over."
+    fr: 
+      name: "Nakoma"
+      title: "Attend que la tempête passe"
+      flavour: "Viens t'asseoir près du feu. Il te tiendra chaud jusqu'à ce que cette tempête se calme."
+    it: 
+      name: "Nakoma"
+      title: "Al Riparo dalla Bufera"
+      flavour: "Vieni, siediti accanto al fuoco. Ti terrà al caldo finché questa bufera non sarà passata."
+    de: 
+      name: "Nakoma"
+      title: "Den Sturm abwartend"
+      flavour: "Komm, setz dich ans Feuer. Es wird dich wärmen, bis sich der Sturm gelegt hat."
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 7
@@ -343,17 +368,42 @@
         it: "15/204 IT 11"
         zh: "15/204 ZH 11"
         ja: "15/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 2478
+        sort_number: 15
+      rarity: uncommon
+      illustrator: "Valerio Buonfantino"
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 3
+  colors: 
+    - amber
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+  illustrator: "Valerio Buonfantino"
   languages: 
     en: 
-      name: ""
+      name: "John Smith"
+      title: "Snow Tracker"
+      flavour: "Interesting. These animal tracks lead away from the vine. But toward what?"
+    fr: 
+      name: "John Smith"
+      title: "Pisteur des neiges"
+      flavour: "Intéressant. Ces empreintes d'animaux s'éloignent de la Plante. Mais pour aller où ?"
+    it: 
+      name: "John Smith"
+      title: "Inseguitore sulla Neve"
+      flavour: "Interessante. Queste tracce animali si allontanano dal viticcio. Ma verso dove?"
+    de: 
+      name: "John Smith"
+      title: "Fährtenleser im Schnee"
+      flavour: "Interessant. Diese Spuren führen von der Ranke weg. Aber wohin?"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 16
@@ -649,17 +699,43 @@
         it: "23/204 IT 11"
         zh: "23/204 ZH 11"
         ja: "23/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 2486
+        sort_number: 23
+      rarity: uncommon
+      illustrator: "Sandy Lee"
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 2
+  colors: 
+    - amber
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+    - "prince"
+  illustrator: "Sandy Lee"
   languages: 
     en: 
-      name: ""
+      name: "Simba"
+      title: "Playful Pouncer"
+      flavour: "Like Zazu always says, practice makes perfect!"
+    fr: 
+      name: "Simba"
+      title: "Bondisseur espiègle"
+      flavour: "Comme le dit toujours Zazu, c’est en chassant qu’on devient chasseur !"
+    it: 
+      name: "Simba"
+      title: "Predatore Giocherellone"
+      flavour: "Come dice sempre Zazu, val più la pratica della grammatica!"
+    de: 
+      name: "Simba"
+      title: "Verspielter Fänger"
+      flavour: "Wie Zazu immer sagt: Übung macht den Meister!"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 24
@@ -763,17 +839,42 @@
         it: "27/204 IT 11"
         zh: "27/204 ZH 11"
         ja: "27/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2490
+        sort_number: 27
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+      illustrator: "Josep Solé"
+  lore: 3
+  cost: 3
+  inkwell: true
+  attack: 1
+  defence: 4
+  colors: 
+    - amber
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Josep Solé"
   languages: 
     en: 
-      name: ""
+      name: "Percy"
+      title: "Pupsicle"
+      flavour: "That’s the strangest creature I’ve ever seen. —Grandmother Willow"
+    fr: 
+      name: "Percy"
+      title: "Chien givré"
+      flavour: "Jamais je n’ai vu une créature aussi étrange.\n—Grand-Mère Feuillage"
+    it: 
+      name: "Perlin"
+      title: "Canghiacciolo"
+      flavour: "È la creatura più strana che abbia mai visto.\n—Nonna Salice"
+    de: 
+      name: "Percy"
+      title: "Kalter Hund"
+      flavour: "So ein seltsames Tier habe ich noch nie gesehen.\n–Großmutter Weide"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 28
@@ -807,17 +908,38 @@
         it: "29/204 IT 11"
         zh: "29/204 ZH 11"
         ja: "29/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 2492
+        sort_number: 29
+      rarity: rare
+      illustrator: "Oggy Christiansson"
+  cost: 3
   inkwell: false
-  type: item
-  illustrator: ""
+  colors: 
+    - amber
+  type: action
+  classifications: 
+    - "song"
+  illustrator: "Oggy Christiansson"
   languages: 
     en: 
-      name: ""
+      name: "Akood et Emuti"
+      title: ""
+      flavour: "Alan ot agan, atoom on ataki Oteem-ich atooca"
+    fr: 
+      name: "Akood et Emuti"
+      title: ""
+      flavour: "Alan ot agan, atoom on ataki\nOteem-ich atooca"
+    it: 
+      name: "Akood et Emuti"
+      title: ""
+      flavour: "Alan ot agan, atoom on ataki\nOteem-ich atooca"
+    de: 
+      name: "Akood et Emuti"
+      title: ""
+      flavour: "Alan ot agan, atoom on ataki\nOteem-ich atooca"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 30
@@ -914,17 +1036,36 @@
         it: "33/204 IT 11"
         zh: "33/204 ZH 11"
         ja: "33/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
+        culture_invariant_id: 2496
+        sort_number: 33
+      rarity: rare
+      illustrator: "Leonardo Giammichele"
+  cost: 3
+  inkwell: true
+  colors: 
+    - amber
   type: item
-  illustrator: ""
+  illustrator: "Leonardo Giammichele"
   languages: 
     en: 
-      name: ""
+      name: "John Smith's Compass"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "Boussole de John Smith"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Bussola di John Smith"
+      title: ""
+      flavour: ""
+    de: 
+      name: "John Smiths Kompass"
+      title: ""
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 34
@@ -958,17 +1099,42 @@
         it: "35/204 IT 11"
         zh: "35/204 ZH 11"
         ja: "35/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2498
+        sort_number: 35
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+      illustrator: "Giulia Iacopini"
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 2
+  colors: 
+    - amethyst
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Giulia Iacopini"
   languages: 
     en: 
-      name: ""
+      name: "Nala"
+      title: "Romping in the Snow"
+      flavour: "Told ya I'd make it to the bottom first, Simba!"
+    fr: 
+      name: "Nala"
+      title: "Gambade dans la neige"
+      flavour: "Je t'avais bien dit que je serais la première en bas, Simba!"
+    it: 
+      name: "Nala"
+      title: "Che Gioca nella Neve"
+      flavour: "Te l'avevo detto che sarei arrivata in fondo per prima, Simba!"
+    de: 
+      name: "Nala"
+      title: "Tollt im Schnee"
+      flavour: "Ich habe dir doch gesagt, dass ich es zuerst nach unten schaffe, Simba!"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 36
@@ -1097,17 +1263,42 @@
         it: "39/204 IT 11"
         zh: "39/204 ZH 11"
         ja: "39/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 2502
+        sort_number: 39
+      rarity: uncommon
+      illustrator: "Eva Widermann"
+  lore: 1
+  cost: 1
+  inkwell: true
+  attack: 0
+  defence: 2
+  colors: 
+    - amethyst
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Eva Widermann"
   languages: 
     en: 
-      name: ""
+      name: "Flit"
+      title: "Reflective Hummingbird"
+      flavour: ""
+    fr: 
+      name: "Flit"
+      title: "Colibri réfléchissant"
+      flavour: ""
+    it: 
+      name: "Flit"
+      title: "Colibrì Che Si Riflette"
+      flavour: ""
+    de: 
+      name: "Flit"
+      title: "Reflektierter Kolibri"
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 40
@@ -1215,17 +1406,43 @@
         it: "42/204 IT 11"
         zh: "42/204 ZH 11"
         ja: "42/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 2505
+        sort_number: 42
+      rarity: super_rare
+      illustrator: "Malia Ewart"
+  lore: 1
+  cost: 2
   inkwell: false
-  type: item
-  illustrator: ""
+  attack: 3
+  defence: 2
+  colors: 
+    - amethyst
+  type: glimmer
+  classifications: 
+    - "dreamborn"
+    - "hero"
+    - "princess"
+  illustrator: "Malia Ewart"
   languages: 
     en: 
-      name: ""
+      name: "Pocahontas"
+      title: "Following the Wind"
+      flavour: "She has her mother’s spirit. She goes wherever the wind takes her. —Kekata"
+    fr: 
+      name: "Pocahontas"
+      title: "Suit le vent"
+      flavour: "Elle a l’esprit de sa mère. Elle va partout où le vent l’emporte.\n—Kekata"
+    it: 
+      name: "Pocahontas"
+      title: "Che Segue il Vento"
+      flavour: "Ha lo spirito di sua madre. Va dove la porta il vento.\n—Kekata"
+    de: 
+      name: "Pocahontas"
+      title: "Folgt dem Wind"
+      flavour: "In ihr lebt der Geist ihrer Mutter. Sie geht, wohin der Wind sie führt.\n–Kekata"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 43
@@ -1328,17 +1545,42 @@
         it: "46/204 IT 11"
         zh: "46/204 ZH 11"
         ja: "46/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 2509
+        sort_number: 46
+      rarity: uncommon
+      illustrator: "Heidi Neunhoffer"
+  lore: 2
+  cost: 1
   inkwell: false
-  type: item
-  illustrator: ""
+  attack: 1
+  defence: 1
+  colors: 
+    - amethyst
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Heidi Neunhoffer"
   languages: 
     en: 
-      name: ""
+      name: "Meeko"
+      title: "Skittish Scrounger"
+      flavour: ""
+    fr: 
+      name: "Meeko"
+      title: "Pique-assiette craintif"
+      flavour: ""
+    it: 
+      name: "Meeko"
+      title: "Scroccone Irrequieto"
+      flavour: ""
+    de: 
+      name: "Meeko"
+      title: "Sprunghafter Schnorrer"
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 47
@@ -1560,17 +1802,42 @@
         it: "53/204 IT 11"
         zh: "53/204 ZH 11"
         ja: "53/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 2516
+        sort_number: 53
+      rarity: rare
+      illustrator: "Ian MacDonald"
+  lore: 2
+  cost: 5
   inkwell: false
-  type: item
-  illustrator: ""
+  attack: 5
+  defence: 5
+  colors: 
+    - amethyst
+  type: glimmer
+  classifications: 
+    - "dreamborn"
+    - "ally"
+  illustrator: "Ian MacDonald"
   languages: 
     en: 
-      name: ""
+      name: "Marshmallow"
+      title: "Cranky Climber"
+      flavour: "GO AWAY!!"
+    fr: 
+      name: "Guimauve"
+      title: "Grimpeur irritable"
+      flavour: "Allez-vous en !"
+    it: 
+      name: "Marshmallow"
+      title: "Arrampicatore Irascibile"
+      flavour: "ANDATE VIA!!"
+    de: 
+      name: "Marshmallow"
+      title: "Griesgrämiger Kletterer"
+      flavour: "HAUT AB!!"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 54
@@ -1626,17 +1893,42 @@
         it: "56/204 IT 11"
         zh: "56/204 ZH 11"
         ja: "56/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2519
+        sort_number: 56
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+      illustrator: "Eri Welli"
+  lore: 2
+  cost: 6
+  inkwell: true
+  attack: 6
+  defence: 5
+  colors: 
+    - amethyst
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Eri Welli"
   languages: 
     en: 
-      name: ""
+      name: "Lumpy"
+      title: "Playful Heffalump"
+      flavour: "Wheee! This is even more fun than a game of leaplog!"
+    fr: 
+      name: "Lumpy"
+      title: "Éfélant joueur"
+      flavour: "Ouiii ! C’est encore plus amusant que de jouer à saute-mouton !"
+    it: 
+      name: "Effy"
+      title: "Efelante Giocoso"
+      flavour: "Wheee! È persino più divertente che giocare alla cavallina!"
+    de: 
+      name: "Lumpi"
+      title: "Verspielter Heffalump"
+      flavour: "Wuhuu! Das macht noch mehr Spaß als Baumpurzeln!"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 57
@@ -1801,17 +2093,36 @@
         it: "63/204 IT 11"
         zh: "63/204 ZH 11"
         ja: "63/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2526
+        sort_number: 63
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+      illustrator: "Emily Abeydeera"
+  cost: 1
+  inkwell: true
+  colors: 
+    - amethyst
+  type: action
+  illustrator: "Emily Abeydeera"
   languages: 
     en: 
-      name: ""
+      name: "Swordplay"
+      title: ""
+      flavour: "It takes a great hero to handle a sword like this! —Taran"
+    fr: 
+      name: "Manier l'épée"
+      title: ""
+      flavour: "Mais il n’y a qu’un grand guerrier qui sache s’en servir !\n—Taram"
+    it: 
+      name: "Abilità con la Spada"
+      title: ""
+      flavour: "Ci vuole un grande guerriero per maneggiare questa spada!\n—Taron"
+    de: 
+      name: "Schwertkunst"
+      title: ""
+      flavour: "Man braucht einen großen Krieger, um so ein Schwert zu handhaben!\n–Taran"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 64
@@ -1823,17 +2134,38 @@
         it: "64/204 IT 11"
         zh: "64/204 ZH 11"
         ja: "64/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 2527
+        sort_number: 64
+      rarity: super_rare
+      illustrator: "Kasia Brzezinska"
+  cost: 4
+  inkwell: true
+  colors: 
+    - amethyst
+  type: action
+  classifications: 
+    - "song"
+  illustrator: "Kasia Brzezinska"
   languages: 
     en: 
-      name: ""
+      name: "Colors of the Wind"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "L’air du vent"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Il Vento e i Suoi Color"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Das Farbenspiel des Winds"
+      title: ""
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 65
@@ -2131,17 +2463,42 @@
         it: "75/204 IT 11"
         zh: "75/204 ZH 11"
         ja: "75/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 2538
+        sort_number: 75
+      rarity: rare
+      illustrator: "Rosa la Barbera / Livio Cacciatore"
+  lore: 2
+  cost: 3
+  inkwell: true
+  attack: 2
+  defence: 3
+  colors: 
+    - emerald
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Rosa la Barbera / Livio Cacciatore"
   languages: 
     en: 
-      name: ""
+      name: "Ling"
+      title: "Snow Warrior"
+      flavour: "If I keep carrying these, I'll be as strong as Chien-Po!"
+    fr: 
+      name: "Ling"
+      title: "Guerrier des neiges"
+      flavour: "Si je continue à porter tout ça, je serai aussi fort que Chien-Po!"
+    it: 
+      name: "Ling"
+      title: "Guerriero delle Nevi"
+      flavour: "Se continuo così, diventerò forte come Chien-Po!"
+    de: 
+      name: "Ling"
+      title: "Schneekrieger"
+      flavour: "Wenn ich die weiter trage, werde ich so stark wie Chien-Po sein!"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 76
@@ -2675,17 +3032,38 @@
         it: "94/204 IT 11"
         zh: "94/204 ZH 11"
         ja: "94/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2557
+        sort_number: 94
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+      illustrator: "Kendall Hale"
+  cost: 2
+  inkwell: true
+  colors: 
+    - emerald
+  type: action
+  classifications: 
+    - "song"
+  illustrator: "Kendall Hale"
   languages: 
     en: 
-      name: ""
+      name: "Strike A Good Match"
+      title: ""
+      flavour: "Please bring honor to us Please bring honor to us all"
+    fr: 
+      name: "Crois-moi j'ai vu pire"
+      title: ""
+      flavour: "Tu nous combleras d'honneur!"
+    it: 
+      name: "Un Uomo Purché Sia"
+      title: ""
+      flavour: "Lustro e onore sempre\nLustro e onore sempre"
+    de: 
+      name: "Ein guter Ehemann"
+      title: ""
+      flavour: "Bringst du Ehre für das\nBringst du Ehre für das Haus"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 95
@@ -2801,17 +3179,36 @@
         it: "98/204 IT 11"
         zh: "98/204 ZH 11"
         ja: "98/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 2561
+        sort_number: 98
+      rarity: uncommon
+      illustrator: "Matthew Oates"
+  cost: 3
   inkwell: false
+  colors: 
+    - emerald
   type: item
-  illustrator: ""
+  illustrator: "Matthew Oates"
   languages: 
     en: 
-      name: ""
+      name: "Snow Fort"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "Fort de neige"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Fortino di Neve"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Schneefestung"
+      title: ""
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 99
@@ -2823,17 +3220,36 @@
         it: "99/204 IT 11"
         zh: "99/204 ZH 11"
         ja: "99/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 2562
+        sort_number: 99
+      rarity: uncommon
+      illustrator: "Simone Tentoni"
+  cost: 2
   inkwell: false
+  colors: 
+    - emerald
   type: item
-  illustrator: ""
+  illustrator: "Simone Tentoni"
   languages: 
     en: 
-      name: ""
+      name: "Rafiki's Bakora Staff"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "Bâton bakora de Rafiki"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Bastone Bakora di Rafiki"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Rafikis Bakora-Stab"
+      title: ""
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 100
@@ -2845,17 +3261,36 @@
         it: "100/204 IT 11"
         zh: "100/204 ZH 11"
         ja: "100/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
+        culture_invariant_id: 2563
+        sort_number: 100
+      rarity: rare
+      illustrator: "Matt Chapman"
+  cost: 3
+  inkwell: true
+  colors: 
+    - emerald
   type: item
-  illustrator: ""
+  illustrator: "Matt Chapman"
   languages: 
     en: 
-      name: ""
+      name: "Retro Evolution Device"
+      title: ""
+      flavour: "It’s great for reheating leftovers, and it turns people into dinosaurs. —Stegmutt"
+    fr: 
+      name: "Rétro-fusil à évolution"
+      title: ""
+      flavour: "Ça remet tout le monde à sa forme primitive et ça transforme les gens en dinosaure.\n—Sigmund"
+    it: 
+      name: "Apparecchio Retroevolutore"
+      title: ""
+      flavour: "È fantastico per scaldare gli avanzi, inoltre trasforma le persone in dinosauri.\n—Stego"
+    de: 
+      name: "Evolutions-Umkehr-Gerät"
+      title: ""
+      flavour: "Man kann damit ganz toll Essensreste aufwärmen und es verwandelt Leute in Dinosaurier.\n–Stegmann"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 101
@@ -2867,17 +3302,36 @@
         it: "101/204 IT 11"
         zh: "101/204 ZH 11"
         ja: "101/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
+        culture_invariant_id: 2564
+        sort_number: 101
+      rarity: rare
+      illustrator: "Tanisha Cherislin"
+  cost: 4
+  inkwell: true
+  colors: 
+    - emerald
   type: item
-  illustrator: ""
+  illustrator: "Tanisha Cherislin"
   languages: 
     en: 
-      name: ""
+      name: "Battering Ram"
+      title: ""
+      flavour: "There’s a right tool for every job."
+    fr: 
+      name: "Bélier"
+      title: ""
+      flavour: "Pour chaque tâche, il y a un outil adapté."
+    it: 
+      name: "Ariete d'Assedio"
+      title: ""
+      flavour: "C'è uno strumento giusto per ogni lavoro."
+    de: 
+      name: "Rammbock"
+      title: ""
+      flavour: "Für jede Aufgabe gibt es das richtige Werkzeug."
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 102
@@ -3621,17 +4075,38 @@
         it: "128/204 IT 11"
         zh: "128/204 ZH 11"
         ja: "128/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2591
+        sort_number: 128
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+      illustrator: "Stefano Zanchi"
+  cost: 2
+  inkwell: true
+  colors: 
+    - ruby
+  type: action
+  classifications: 
+    - "song"
+  illustrator: "Stefano Zanchi"
   languages: 
     en: 
-      name: ""
+      name: "Force of a Great Typhoon"
+      title: ""
+      flavour: "Once you find your center You are sure to win"
+    fr: 
+      name: "Plus puissant que les ouragans"
+      title: ""
+      flavour: "En trouvant l'équilibre\nVous serez vainqueurs"
+    it: 
+      name: "Un Uomo Vero Senza Timori"
+      title: ""
+      flavour: "Vi trasformerò\nFino a far di voi degli uomini"
+    de: 
+      name: "Stark wie ein Taifun"
+      title: ""
+      flavour: "Ihr müsst alles wagen,\ndoch der Kampf wird hart"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 129
@@ -3906,17 +4381,42 @@
         it: "139/204 IT 11"
         zh: "139/204 ZH 11"
         ja: "139/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2602
+        sort_number: 139
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+      illustrator: "Aurélie Lise-Anne"
+  lore: 1
+  cost: 2
+  inkwell: true
+  attack: 2
+  defence: 4
+  colors: 
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Aurélie Lise-Anne"
   languages: 
     en: 
-      name: ""
+      name: "Piglet"
+      title: "Entranced by Snow"
+      flavour: "I've always thought, said Pooh, that sometimes the smallest things are the best."
+    fr: 
+      name: "Porcinet"
+      title: "Émerveillé par la neige"
+      flavour: "J'ai toujours pensé, affirma Winnie, que, parfois, les plus petites choses sont les meilleures."
+    it: 
+      name: "Pimpi"
+      title: "Incantato dalla Neve"
+      flavour: "Ho sempre pensato, disse Pooh, che a volte le cose più piccole siano le migliori."
+    de: 
+      name: "Ferkel"
+      title: "Vom Schnee verzaubert"
+      flavour: "Ich habe immer schon gedacht, sagte Puuh, dass manchmal die kleinsten Dinge die besten sind."
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 140
@@ -4275,17 +4775,42 @@
         it: "151/204 IT 11"
         zh: "151/204 ZH 11"
         ja: "151/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2614
+        sort_number: 151
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+      illustrator: "Patri Balanovsky"
+  lore: 1
+  cost: 4
+  inkwell: true
+  attack: 2
+  defence: 4
+  colors: 
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+  illustrator: "Patri Balanovsky"
   languages: 
     en: 
-      name: ""
+      name: "Winnie the Pooh"
+      title: "Hungry Bear"
+      flavour: "Oh, bother! Empty again!"
+    fr: 
+      name: "Winnie l'ourson"
+      title: "Ours affamé"
+      flavour: "Oh, misère ! Encore presque vide."
+    it: 
+      name: "Winnie the Pooh"
+      title: "Orso Affamato"
+      flavour: "Oh, rabbia! È di nuovo vuoto!"
+    de: 
+      name: "Winnie Puuh"
+      title: "Hungriger Bär"
+      flavour: "Herrje! Schon wieder leer!"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 152
@@ -4484,17 +5009,42 @@
         it: "157/204 IT 11"
         zh: "157/204 ZH 11"
         ja: "157/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 2620
+        sort_number: 157
+      rarity: rare
+      illustrator: "Gwawi"
+  lore: 1
+  cost: 3
+  inkwell: true
+  attack: 3
+  defence: 3
+  colors: 
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "ally"
+  illustrator: "Gwawi"
   languages: 
     en: 
-      name: ""
+      name: "Morty Fieldmouse"
+      title: "Tiny Tim"
+      flavour: ""
+    fr: 
+      name: "Jojo"
+      title: "Tiny Tim"
+      flavour: ""
+    it: 
+      name: "Tip"
+      title: "Il Piccolo Tim"
+      flavour: ""
+    de: 
+      name: "Morty Maus"
+      title: "kleiner Tim"
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 158
@@ -4623,17 +5173,43 @@
         it: "161/204 IT 11"
         zh: "161/204 ZH 11"
         ja: "161/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2624
+        sort_number: 161
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+      illustrator: "Valentin Palombo"
+  lore: 2
+  cost: 5
+  inkwell: true
+  attack: 4
+  defence: 5
+  colors: 
+    - sapphire
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "mentor"
+    - "king"
+  illustrator: "Valentin Palombo"
   languages: 
     en: 
-      name: ""
+      name: "Chief Tui"
+      title: "Weaving a Tale"
+      flavour: "And still a spark of hope burned in their hearts..."
+    fr: 
+      name: "Tui"
+      title: "Brode une histoire"
+      flavour: "Et une étincelle d'espoir brillait encore dans leur cœur..."
+    it: 
+      name: "Capo Tui"
+      title: "Tessitore di Racconti"
+      flavour: "E nonostante tutto, una scintilla di speranza continuava ad ardere nei loro cuori..."
+    de: 
+      name: "Tui"
+      title: "Webt eine Geschichte"
+      flavour: "Und noch immer brannte ein Funke der Hoffnung in ihren Herzen …"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 162
@@ -4667,17 +5243,38 @@
         it: "163/204 IT 11"
         zh: "163/204 ZH 11"
         ja: "163/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 2626
+        sort_number: 163
+      rarity: rare
+      illustrator: "Hyuna Lee"
+  cost: 5
+  inkwell: true
+  colors: 
+    - sapphire
+  type: action
+  classifications: 
+    - "song"
+  illustrator: "Hyuna Lee"
   languages: 
     en: 
-      name: ""
+      name: "Let It Go"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "Libérée, Délivrée"
+      title: ""
+      flavour: ""
+    it: 
+      name: "All'Alba Sorgerò"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Lass jetzt los"
+      title: ""
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 164
@@ -4689,17 +5286,36 @@
         it: "164/204 IT 11"
         zh: "164/204 ZH 11"
         ja: "164/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2627
+        sort_number: 164
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+      illustrator: "Andrea Parisi"
+  cost: 2
+  inkwell: true
+  colors: 
+    - sapphire
+  type: action
+  illustrator: "Andrea Parisi"
   languages: 
     en: 
-      name: ""
+      name: "Distract"
+      title: ""
+      flavour: "Be off with you, spirits! Can’t a man enjoy his meal in peace?"
+    fr: 
+      name: "Distraction"
+      title: ""
+      flavour: "Allez-vous en, esprits ! Un homme ne peut-il pas savourer son repas en paix?"
+    it: 
+      name: "Distrarre"
+      title: ""
+      flavour: "Andatevene, spiriti! Non ci si può nemmeno godere il pasto in santa pace?"
+    de: 
+      name: "Ablenken"
+      title: ""
+      flavour: "Weg mit euch, ihr Geister! Kann ein Mann nicht in Ruhe sein Essen genießen?"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 165
@@ -4777,17 +5393,36 @@
         it: "168/204 IT 11"
         zh: "168/204 ZH 11"
         ja: "168/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 2631
+        sort_number: 168
+      rarity: rare
+      illustrator: "Danielle Powers"
+  cost: 3
   inkwell: false
+  colors: 
+    - sapphire
   type: item
-  illustrator: ""
+  illustrator: "Danielle Powers"
   languages: 
     en: 
-      name: ""
+      name: "Darkwing's Chair Set"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "Fauteuils de Myster Mask"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Set di Sedie di Darkwing"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Darkwings Stuhl-Set"
+      title: ""
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 169
@@ -4799,17 +5434,36 @@
         it: "169/204 IT 11"
         zh: "169/204 ZH 11"
         ja: "169/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
+        culture_invariant_id: 2632
+        sort_number: 169
+      rarity: uncommon
+      illustrator: "Phillip Kruse"
+  cost: 3
+  inkwell: true
+  colors: 
+    - sapphire
   type: item
-  illustrator: ""
+  illustrator: "Phillip Kruse"
   languages: 
     en: 
-      name: ""
+      name: "Darkwing's Gas Device"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "Appareil à gaz de Myster Mask"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Apparecchio a Gas di Darkwing"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Darkwings Gaspistole"
+      title: ""
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 170
@@ -4821,17 +5475,36 @@
         it: "170/204 IT 11"
         zh: "170/204 ZH 11"
         ja: "170/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
+        culture_invariant_id: 2633
+        sort_number: 170
+      rarity: uncommon
+      illustrator: "Eva Widermann"
+  cost: 2
+  inkwell: true
+  colors: 
+    - sapphire
   type: item
-  illustrator: ""
+  illustrator: "Eva Widermann"
   languages: 
     en: 
-      name: ""
+      name: "Hidden Trap"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "Piège caché"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Trappola Nascosta"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Versteckte Falle"
+      title: ""
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 171
@@ -4843,17 +5516,44 @@
         it: "171/204 IT 11"
         zh: "171/204 ZH 11"
         ja: "171/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 2634
+        sort_number: 171
+      rarity: rare
+      illustrator: "Grace Tran"
+  lore: 2
+  cost: 3
   inkwell: false
-  type: item
-  illustrator: ""
+  attack: 3
+  defence: 3
+  colors: 
+    - steel
+  type: glimmer
+  classifications: 
+    - "storyborn"
+    - "hero"
+    - "princess"
+    - "whisper"
+  illustrator: "Grace Tran"
   languages: 
     en: 
-      name: ""
+      name: "Rapunzel"
+      title: "Ethereal Protector"
+      flavour: ""
+    fr: 
+      name: "Raiponce"
+      title: "Protectrice éthérée"
+      flavour: ""
+    it: 
+      name: "Rapunzel"
+      title: "Protettrice Eterea"
+      flavour: ""
+    de: 
+      name: "Rapunzel"
+      title: "Geisterhafte Beschützerin"
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 172
@@ -4887,17 +5587,43 @@
         it: "173/204 IT 11"
         zh: "173/204 ZH 11"
         ja: "173/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
+        culture_invariant_id: 2636
+        sort_number: 173
       rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+      illustrator: "Luca Pinelli"
+  lore: 1
+  cost: 5
+  inkwell: true
+  attack: 7
+  defence: 6
+  colors: 
+    - steel
+  type: glimmer
+  classifications: 
+    - "dreamborn"
+    - "hero"
+    - "prince"
+  illustrator: "Luca Pinelli"
   languages: 
     en: 
-      name: ""
+      name: "Prince Naveen"
+      title: "Bundled Up"
+      flavour: "Achidanza! I've never been this cold in my life. It's so... invigorating!"
+    fr: 
+      name: "Prince Naveen"
+      title: "Emmitouflé"
+      flavour: "Archidanza ! Je n'ai jamais eu aussi froid de ma vie. C'est... revigorant!"
+    it: 
+      name: "Principe Naveen"
+      title: "Infagottato"
+      flavour: "Accidanza! Non ho mai avuto così tanto freddo in vita mia. È così... rinvigorente!"
+    de: 
+      name: "Prinz Naveen"
+      title: "Eingepackt"
+      flavour: "Achidanza! So kalt war mir noch nie im Leben. Es ist so … belebend!"
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 174
@@ -5584,17 +6310,42 @@
         it: "193/204 IT 11"
         zh: "193/204 ZH 11"
         ja: "193/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
+        culture_invariant_id: 2656
+        sort_number: 193
+      rarity: super_rare
+      illustrator: "Grace Tran"
+  lore: 2
+  cost: 5
   inkwell: false
-  type: item
-  illustrator: ""
+  attack: 3
+  defence: 6
+  colors: 
+    - steel
+  type: glimmer
+  classifications: 
+    - "dreamborn"
+    - "hero"
+  illustrator: "Grace Tran"
   languages: 
     en: 
-      name: ""
+      name: "John Smith"
+      title: "Undaunted Protector"
+      flavour: ""
+    fr: 
+      name: "John Smith"
+      title: "Protecteur impavide"
+      flavour: ""
+    it: 
+      name: "John Smith"
+      title: "Protettore Indomito"
+      flavour: ""
+    de: 
+      name: "John Smith"
+      title: "Unerschrockener Beschützer"
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 194
@@ -5715,17 +6466,38 @@
         it: "198/204 IT 11"
         zh: "198/204 ZH 11"
         ja: "198/204 JA 11"
-        culture_invariant_id: -1
-        sort_number: -1
-      rarity: common
-  cost: 0
-  inkwell: false
-  type: item
-  illustrator: ""
+        culture_invariant_id: 2661
+        sort_number: 198
+      rarity: rare
+      illustrator: "French Carlomagno"
+  cost: 4
+  inkwell: true
+  colors: 
+    - steel
+  type: action
+  classifications: 
+    - "song"
+  illustrator: "French Carlomagno"
   languages: 
     en: 
-      name: ""
+      name: "Let's Get Dangerous"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "Cette chanson craint un mask"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Dagli Addosso, Duck"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Zwo, Eins, Risiko"
+      title: ""
+      flavour: ""
   franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
 - variants: 
     - set: win
       id: 199
