@@ -10,7 +10,7 @@
         zh: "1/204 ZH 10"
         ja: "1/204 JA 10"
         culture_invariant_id: 2190
-        sort_number: 251
+        sort_number: -2462
       rarity: rare
       illustrator: "Amanda Duarte / Julio Cesar"
   lore: 2
@@ -70,7 +70,7 @@
         zh: "2/204 ZH 10"
         ja: "2/204 JA 10"
         culture_invariant_id: 2191
-        sort_number: 252
+        sort_number: -2461
       rarity: uncommon
       illustrator: "Nicholas Kole"
     - set: whi
@@ -84,7 +84,7 @@
         zh: "206/204 ZH 10"
         ja: "206/204 JA 10"
         culture_invariant_id: 2395
-        sort_number: 456
+        sort_number: -2257
       rarity: epic
       illustrator: "Nicholas Kole"
   lore: 1
@@ -143,7 +143,7 @@
         zh: "3/204 ZH 10"
         ja: "3/204 JA 10"
         culture_invariant_id: 2192
-        sort_number: 253
+        sort_number: -2460
       rarity: legendary
       illustrator: "Jackie Droujko"
   lore: 1
@@ -198,7 +198,7 @@
         zh: "4/204 ZH 10"
         ja: "4/204 JA 10"
         culture_invariant_id: 2193
-        sort_number: 254
+        sort_number: -2459
       rarity: common
       illustrator: "Gabriel Quinn / Jules Dubost"
   lore: 1
@@ -245,7 +245,7 @@
         zh: "5/204 ZH 10"
         ja: "5/204 JA 10"
         culture_invariant_id: 2194
-        sort_number: 255
+        sort_number: -2458
       rarity: common
       illustrator: "Narges Jafari"
   lore: 1
@@ -265,19 +265,19 @@
     en: 
       name: "Higgins"
       title: "Undercover Officer"
-      flavour: "The paper trail led me to this bench, in this park. I'll have to keep an eye peeled for my quarry. The Littering Loiterer won't give me the slip this time!"
+      flavour: "\"The paper trail led me to this bench, in this park. I'll have to keep an eye peeled for my quarry. The Littering Loiterer won't give me the slip this time!\""
     fr: 
       name: "Higgins"
       title: "Policier sous couverture"
-      flavour: "La piste des pages arrachées m'a guidé jusqu'à ce banc, dans ce parc. Je dois rester à l'affût de ma cible. L'éparpilleur de déchets ne m'échappera pas cette fois!"
+      flavour: "“La piste des pages arrachées m'a guidé jusqu'à ce banc, dans ce parc. Je dois rester à l'affût de ma cible. L'éparpilleur de déchets ne m'échappera pas cette fois !”"
     it: 
       name: "Higgins"
       title: "Agente Sotto Copertura"
-      flavour: "Gli indizi cartacei mi hanno condotto a questa panchina, in questo parco. Dovrò tenere gli occhi ben aperti per trovare la mia preda. Lo Strappapagine Seriale non mi sfuggirà questa volta!"
+      flavour: "“Gli indizi cartacei mi hanno condotto a questa panchina, in questo parco. Dovrò tenere gli occhi ben aperti per trovare la mia preda. Lo Strappapagine Seriale non mi sfuggirà questa volta!”"
     de: 
       name: "Higgins"
       title: "Verdeckter Ermittler"
-      flavour: "Die Spur aus Papier führte mich zu der Bank in diesem Park. Ich muss nach meiner Beute Ausschau halten. Der schmutzige Herumtreiber wird mir dieses Mal nicht entwischen!"
+      flavour: "„Die Spur aus Papier führte mich zu der Bank in diesem Park. Ich muss nach meiner Beute Ausschau halten. Der schmutzige Herumtreiber wird mir dieses Mal nicht entwischen!“"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -293,7 +293,7 @@
         zh: "6/204 ZH 10"
         ja: "6/204 JA 10"
         culture_invariant_id: 2195
-        sort_number: 256
+        sort_number: -2457
       rarity: common
       illustrator: "Andrea Femerstrand"
   lore: 1
@@ -347,7 +347,7 @@
         zh: "7/204 ZH 10"
         ja: "7/204 JA 10"
         culture_invariant_id: 2196
-        sort_number: 257
+        sort_number: -2456
       rarity: common
       illustrator: "Pix Smith"
   lore: 1
@@ -367,19 +367,19 @@
     en: 
       name: "Eilonwy"
       title: "Princess of Llyr"
-      flavour: "If you want to come with me, you may."
+      flavour: "“If you want to come with me, you may.”"
     fr: 
       name: "Eilonwy"
       title: "Princesse de Llyr"
-      flavour: "Si tu veux, tu peux venir avec moi."
+      flavour: "\"Si tu veux, tu peux venir avec moi.\""
     it: 
       name: "Ailin"
       title: "Principessa di Llyr"
-      flavour: "Se vuoi venire con me, fai pure."
+      flavour: "“Se vuoi venire con me, fai pure.”"
     de: 
       name: "Eilonwy"
       title: "Prinzessin von Llyr"
-      flavour: "Wenn du mit mir kommen willst, darfst du."
+      flavour: "„Wenn du mit mir kommen willst, darfst du.“"
   abilities: 
     - type: static
       title: 
@@ -402,7 +402,7 @@
         zh: "8/204 ZH 10"
         ja: "8/204 JA 10"
         culture_invariant_id: 2197
-        sort_number: 258
+        sort_number: -2455
       rarity: uncommon
       illustrator: "Adam Fenton"
   lore: 1
@@ -421,19 +421,19 @@
     en: 
       name: "Scrooge McDuck"
       title: "On the Right Track"
-      flavour: "Curse me kilts, have I missed trouble!"
+      flavour: "\"Curse me kilts, have I missed trouble!\""
     fr: 
       name: "Balthazar Picsou"
       title: "Sur la bonne piste"
-      flavour: "Vous ne m’avez attiré que des ennuis ! Mais le fait est que rien ne me manquait plus au monde."
+      flavour: "“Vous ne m’avez attiré que des ennuis ! Mais le fait est que rien ne me manquait plus au monde.”"
     it: 
       name: "Paperon de' Paperoni"
       title: "Sulla Strada Giusta"
-      flavour: "Per mille gonnellini scozzesi, mi sono mancati i guai!"
+      flavour: "“Per mille gonnellini scozzesi, mi sono mancati i guai!”"
     de: 
       name: "Dagobert Duck"
       title: "Auf dem richtigen Weg"
-      flavour: "Bei meiner Hutschnur, was habe ich diesen Ärger vermisst!"
+      flavour: "„Bei meiner Hutschnur, was habe ich diesen Ärger vermisst!“"
   abilities: 
     - type: resolution
       title: 
@@ -455,7 +455,7 @@
         zh: "9/204 ZH 10"
         ja: "9/204 JA 10"
         culture_invariant_id: 2198
-        sort_number: 259
+        sort_number: -2454
       rarity: uncommon
       illustrator: "Lauren Levering / Patri Balanovsky"
   lore: 1
@@ -474,19 +474,19 @@
     en: 
       name: "Webby Vanderquack"
       title: "Knowledge Seeker"
-      flavour: "If I’m correct, and I know I am, these are the plants from chapter 6 of Hana’s Herborium."
+      flavour: "“If I’m correct, and I know I am, these are the plants from chapter 6 of Hana’s Herborium.\""
     fr: 
       name: "Zaza"
       title: "À la recherche de connaissance"
-      flavour: "Si j'ai raison, et j'ai raison, ce sont les plantes décrites dans le chapitre 6 de l'Herbier de Hana."
+      flavour: "“Si j'ai raison, et j'ai raison, ce sont les plantes décrites dans le chapitre 6 de l'Herbier de Hana.”"
     it: 
       name: "Gaia Vanderquack"
       title: "Cercatrice di Conoscenza"
-      flavour: "Se non erro, e so di non errare, queste sono le piante del capitolo 6 dell'Herborium di Hana."
+      flavour: "“Se non erro, e so di non errare, queste sono le piante del capitolo 6 dell'Herborium di Hana.”"
     de: 
       name: "Nicky Vanderquack"
       title: "Wissenssucherin"
-      flavour: "Wenn ich richtig liege, und das tue ich, dann sind das die Pflanzen aus Kapitel 6 von Hanas Herbarium."
+      flavour: "„Wenn ich richtig liege, und das tue ich, dann sind das die Pflanzen aus Kapitel 6 von Hanas Herbarium.“"
   abilities: 
     - type: static
       title: 
@@ -509,7 +509,7 @@
         zh: "10/204 ZH 10"
         ja: "10/204 JA 10"
         culture_invariant_id: 2199
-        sort_number: 260
+        sort_number: -2453
       rarity: common
       illustrator: "McKay Anderson"
   lore: 1
@@ -532,7 +532,7 @@
     fr: 
       name: "Gurgi"
       title: "Mordu de pommes"
-      flavour: "Dans son reflet, il put voir l'avenir: d'ici peu de temps, il aurait moins faim."
+      flavour: "Dans son reflet, il put voir l'avenir : d'ici peu de temps, il aurait moins faim."
     it: 
       name: "Gurghi"
       title: "Amante delle Mele"
@@ -562,7 +562,7 @@
         zh: "11/204 ZH 10"
         ja: "11/204 JA 10"
         culture_invariant_id: 2200
-        sort_number: 261
+        sort_number: -2452
       rarity: common
       illustrator: "Rosa la Barbera / Livio Cacciatore"
   lore: 1
@@ -585,7 +585,7 @@
     fr: 
       name: "Mamie Baba"
       title: "Ancienne agente du C.H.U.T."
-      flavour: "Initiatrice du protocole STOP: Stratégie Terminale d'Obstruction de la Progression."
+      flavour: "Initiatrice du protocole STOP : Stratégie Terminale d'Obstruction de la Progression."
     it: 
       name: "Tata"
       title: "Ex Agente dello S.H.U.S.H."
@@ -616,7 +616,7 @@
         zh: "12/204 ZH 10"
         ja: "12/204 JA 10"
         culture_invariant_id: 2201
-        sort_number: 262
+        sort_number: -2451
       rarity: uncommon
       illustrator: "Brian Weisz"
   lore: 1
@@ -635,7 +635,7 @@
     en: 
       name: "Bagheera"
       title: "Cautious Explorer"
-      flavour: "He had seen many strange things in the Mysterious Ruins, but the glowing river was the most concerning. It looked and moved like water but somehow felt... different."
+      flavour: "He had seen many strange things in the Mysterious Ruins, but the glowing river was the most concerning. It looked and moved like water but somehow felt . . . different."
     fr: 
       name: "Bagheera"
       title: "Explorateur prudent"
@@ -663,7 +663,7 @@
         zh: "13/204 ZH 10"
         ja: "13/204 JA 10"
         culture_invariant_id: 2202
-        sort_number: 263
+        sort_number: -2450
       rarity: common
       illustrator: "Casey Robin"
   lore: 2
@@ -717,7 +717,7 @@
         zh: "14/204 ZH 10"
         ja: "14/204 JA 10"
         culture_invariant_id: 2203
-        sort_number: 264
+        sort_number: -2449
       rarity: common
       illustrator: "Sergio Mancinelli"
   lore: 2
@@ -775,7 +775,7 @@
         zh: "15/204 ZH 10"
         ja: "15/204 JA 10"
         culture_invariant_id: 2204
-        sort_number: 265
+        sort_number: -2448
       rarity: uncommon
       illustrator: "Alejandro Hernandez"
   lore: 2
@@ -834,7 +834,7 @@
         zh: "16/204 ZH 10"
         ja: "16/204 JA 10"
         culture_invariant_id: 2205
-        sort_number: 266
+        sort_number: -2447
       rarity: rare
       illustrator: "Laura De Pascale"
   lore: 3
@@ -853,19 +853,19 @@
     en: 
       name: "Sebastian"
       title: "Loyal Crab"
-      flavour: "A fine mess you've gotten yourself into this time, Sebastian. If the Sea King finds out something's wrong with Ariel before we find a way to fix it, you really <will> be in hot water!"
+      flavour: "\"A fine mess you've gotten yourself into this time, Sebastian. If the Sea King finds out something's wrong with Ariel before we find a way to fix it, you really <will> be in hot water!\""
     fr: 
       name: "Sébastien"
       title: "Crabe loyal"
-      flavour: "Cette fois, Sébastien, tu t’es mis dans de beaux draps. Si le Roi Triton apprend que quelque chose cloche avec Ariel avant qu'on ait trouvé une solution, tu vas vraiment finir au court-bouillon !"
+      flavour: "“Cette fois, Sébastien, tu t’es mis dans de beaux draps. Si le Roi Triton apprend que quelque chose cloche avec Ariel avant qu'on ait trouvé une solution, tu vas vraiment finir au court-bouillon !”"
     it: 
       name: "Sebastian"
       title: "Granchio Leale"
-      flavour: "Ti sei cacciato in un bel pasticcio questa volta, Sebastian. Se il Re del Mare dovesse scoprire che c'è qualcosa che non va con Ariel prima che tu riesca a trovare una soluzione, ti troverai <davvero> in acque bollenti!"
+      flavour: "“Ti sei cacciato in un bel pasticcio questa volta, Sebastian. Se il Re del Mare dovesse scoprire che c'è qualcosa che non va con Ariel prima che tu riesca a trovare una soluzione, ti troverai <davvero> in acque bollenti!”"
     de: 
       name: "Sebastian"
       title: "Loyale Krabbe"
-      flavour: "Diesmal hast du dir einen schönen Schlamassel eingebrockt, Sebastian. Wenn König Triton herausfindet, dass mit Arielle etwas nicht stimmt, bevor wir einen Weg gefunden haben, ihr zu helfen, wirst du <wirklich> in heißem Wasser sitzen!"
+      flavour: "„Diesmal hast du dir einen schönen Schlamassel eingebrockt, Sebastian. Wenn König Triton herausfindet, dass mit Arielle etwas nicht stimmt, bevor wir einen Weg gefunden haben, ihr zu helfen, wirst du <wirklich> in heißem Wasser sitzen!“"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -881,7 +881,7 @@
         zh: "17/204 ZH 10"
         ja: "17/204 JA 10"
         culture_invariant_id: 2206
-        sort_number: 267
+        sort_number: -2446
       rarity: rare
       illustrator: "Clio Wolfensberger"
     - set: whi
@@ -895,7 +895,7 @@
         zh: "241/204 ZH 10"
         ja: "241/204 JA 10"
         culture_invariant_id: 2430
-        sort_number: 491
+        sort_number: -2222
       rarity: iconic
       illustrator: "Aristeidis Zentelis"
   lore: 2
@@ -955,7 +955,7 @@
         zh: "18/204 ZH 10"
         ja: "18/204 JA 10"
         culture_invariant_id: 2207
-        sort_number: 268
+        sort_number: -2445
       rarity: rare
       illustrator: "Giulia Riva"
   lore: 2
@@ -1014,7 +1014,7 @@
         zh: "19/204 ZH 10"
         ja: "19/204 JA 10"
         culture_invariant_id: 2208
-        sort_number: 269
+        sort_number: -2444
       rarity: super_rare
       illustrator: "Casey Robin"
   lore: 1
@@ -1033,19 +1033,19 @@
     en: 
       name: "Mowgli"
       title: "Man Cub"
-      flavour: "This place is just a different kind of jungle."
+      flavour: "\"This place is just a different kind of jungle.\""
     fr: 
       name: "Mowgli"
       title: "Petit d'Homme"
-      flavour: "Cet endroit est juste une jungle un peu différente."
+      flavour: "“Cet endroit est juste une jungle un peu différente.”"
     it: 
       name: "Mowgli"
       title: "Cucciolo d'Uomo"
-      flavour: "Questo posto è solo un tipo diverso di giungla."
+      flavour: "“Questo posto è solo un tipo diverso di giungla.”"
     de: 
       name: "Mogli"
       title: "Menschenkind"
-      flavour: "Dieser Ort ist einfach eine andere Art von Dschungel."
+      flavour: "„Dieser Ort ist einfach eine andere Art von Dschungel.“"
   abilities: 
     - type: resolution
       title: 
@@ -1072,7 +1072,7 @@
         zh: "20/204 ZH 10"
         ja: "20/204 JA 10"
         culture_invariant_id: 2209
-        sort_number: 270
+        sort_number: -2443
       rarity: super_rare
       illustrator: "Koni"
     - set: whi
@@ -1086,7 +1086,7 @@
         zh: "224/204 ZH 10"
         ja: "224/204 JA 10"
         culture_invariant_id: 2413
-        sort_number: 474
+        sort_number: -2239
       rarity: enchanted
       illustrator: "noc4urne / Alice Pisoni"
   lore: 3
@@ -1146,7 +1146,7 @@
         zh: "21/204 ZH 10"
         ja: "21/204 JA 10"
         culture_invariant_id: 2210
-        sort_number: 271
+        sort_number: -2442
       rarity: common
       illustrator: "Janel Reh"
     - set: whi
@@ -1160,7 +1160,7 @@
         zh: "205/204 ZH 10"
         ja: "205/204 JA 10"
         culture_invariant_id: 2394
-        sort_number: 455
+        sort_number: -2258
       rarity: epic
       illustrator: "Janel Reh"
   lore: 1
@@ -1180,19 +1180,19 @@
     en: 
       name: "Goofy"
       title: "Ghost Hunter"
-      flavour: "If you wanna beat a ghost, you gotta think like a ghost."
+      flavour: "\"If you wanna beat a ghost, you gotta think like a ghost.\""
     fr: 
       name: "Dingo"
       title: "Chasseur de fantômes"
-      flavour: "Si tu veux battre un fantôme, tu dois penser comme un fantôme."
+      flavour: "“Si tu veux battre un fantôme, tu dois penser comme un fantôme.”"
     it: 
       name: "Pippo"
       title: "Cacciatore di Fantasmi"
-      flavour: "Se vuoi battere un fantasma, devi pensare come un fantasma."
+      flavour: "“Se vuoi battere un fantasma, devi pensare come un fantasma.”"
     de: 
       name: "Goofy"
       title: "Geisterjäger"
-      flavour: "Wenn du einen Geist besiegen willst, musst du wie ein Geist denken."
+      flavour: "„Wenn du einen Geist besiegen willst, musst du wie ein Geist denken.“"
   abilities: 
     - type: resolution
       title: 
@@ -1214,7 +1214,7 @@
         zh: "22/204 ZH 10"
         ja: "22/204 JA 10"
         culture_invariant_id: 2211
-        sort_number: 272
+        sort_number: -2441
       rarity: common
       illustrator: "Jiahui Eva Gao"
   lore: 2
@@ -1233,19 +1233,19 @@
     en: 
       name: "Della Duck"
       title: "Returning Mother"
-      flavour: "I promise I'm coming home, somehow. Nothing can stop Della Duck!"
+      flavour: "\"I promise I'm coming home, somehow. Nothing can stop Della Duck!\""
     fr: 
       name: "Della Duck"
       title: "Mère en chemin"
-      flavour: "Je vous promets que je rentrerai à la maison, un jour ou l’autre. Parce que rien n’arrêtera jamais Della Duck !"
+      flavour: "“Je vous promets que je rentrerai à la maison, un jour ou l’autre. Parce que rien n’arrêtera jamais Della Duck !”"
     it: 
       name: "Della Duck"
       title: "Madre Ritornata"
-      flavour: "Prometto che tornerò a casa, in qualche modo. Niente può fermare la mitica Della!"
+      flavour: "“Prometto che tornerò a casa, in qualche modo. Niente può fermare la mitica Della!”"
     de: 
       name: "Della Duck"
       title: "Zurückkehrende Mutter"
-      flavour: "Ich verspreche euch, ich komme nach Hause, ich schaff das schon. Nichts kann Della Duck aufhalten!"
+      flavour: "„Ich verspreche euch, ich komme nach Hause, ich schaff das schon. Nichts kann Della Duck aufhalten!“"
   abilities: 
     - type: resolution
       title: 
@@ -1267,7 +1267,7 @@
         zh: "23/204 ZH 10"
         ja: "23/204 JA 10"
         culture_invariant_id: 2212
-        sort_number: 273
+        sort_number: -2440
       rarity: rare
       illustrator: "Lisa Parfenova"
   lore: 1
@@ -1327,7 +1327,7 @@
         zh: "24/204 ZH 10"
         ja: "24/204 JA 10"
         culture_invariant_id: 2213
-        sort_number: 274
+        sort_number: -2439
       rarity: super_rare
       illustrator: "Giacomo Boni"
     - set: whi
@@ -1341,7 +1341,7 @@
         zh: "223/204 ZH 10"
         ja: "223/204 JA 10"
         culture_invariant_id: 2412
-        sort_number: 473
+        sort_number: -2240
       rarity: enchanted
       illustrator: "Federico Maria Cugliari"
   lore: 3
@@ -1406,7 +1406,7 @@
         zh: "25/204 ZH 10"
         ja: "25/204 JA 10"
         culture_invariant_id: 2214
-        sort_number: 275
+        sort_number: -2438
       rarity: rare
       illustrator: "Celeste Jamneck"
   lore: 1
@@ -1465,7 +1465,7 @@
         zh: "26/204 ZH 10"
         ja: "26/204 JA 10"
         culture_invariant_id: 2215
-        sort_number: 276
+        sort_number: -2437
       rarity: uncommon
       illustrator: "Rubin Chung"
   cost: 4
@@ -1478,19 +1478,19 @@
     en: 
       name: "Search for Clues"
       title: ""
-      flavour: "Judy: Wait, are these lorebook pages? Nick: Looks like it, Carrots. Maybe that’s where the whispers come from!"
+      flavour: "Judy: “Wait, are these lorebook pages?”\nNick: “Looks like it, Carrots. Maybe that’s where the whispers come from!”"
     fr: 
       name: "Rechercher des indices"
       title: ""
-      flavour: "Judy : Attendez, ce ne serait pas des pages de livres de Lore ?\nNick : On dirait bien, Carotte. C'est peut-être de là que viennent les lueurs !"
+      flavour: "Judy : “Attendez, ce ne serait pas des pages de livres de Lore ?”\nNick : “On dirait bien, Carotte. C'est peut-être de là que viennent les lueurs !”"
     it: 
       name: "Cercare Indizi"
       title: ""
-      flavour: "Judy: Aspetta, queste sono pagine di un libro di leggenda?\nNick: Sembrerebbe di sì, Carotina. Forse è da qui che provengono i sussurri!"
+      flavour: "Judy: “Aspetta, queste sono pagine di un libro di leggenda?”\nNick: “Sembrerebbe di sì, Carotina. Forse è da qui che provengono i sussurri!”"
     de: 
       name: "Spurensuche"
       title: ""
-      flavour: "Judy: Warte, sind das Seiten aus dem Legendenbuch?\nNick: Sieht so aus, Möhrchen. Vielleicht kommt das Geflüster von dort!"
+      flavour: "Judy: „Warte, sind das Seiten aus dem Legendenbuch?“\nNick: „Sieht so aus, Möhrchen. Vielleicht kommt das Geflüster von dort!“"
   abilities: 
     - type: resolution
       title: 
@@ -1522,7 +1522,7 @@
         zh: "27/204 ZH 10"
         ja: "27/204 JA 10"
         culture_invariant_id: 2216
-        sort_number: 277
+        sort_number: -2436
       rarity: uncommon
       illustrator: "Carlos Gomes Cabral"
   cost: 3
@@ -1541,7 +1541,7 @@
     fr: 
       name: "Nous entrerons dans la bande"
       title: ""
-      flavour: "À Picsou! Hou! Hou!"
+      flavour: "À Picsou ! Hou ! Hou !"
     it: 
       name: "Ma Che Bei Paperi!"
       title: ""
@@ -1571,7 +1571,7 @@
         zh: "28/204 ZH 10"
         ja: "28/204 JA 10"
         culture_invariant_id: 2217
-        sort_number: 278
+        sort_number: -2435
       rarity: common
       illustrator: "Beatrice Blue / Otto Paredes"
   cost: 2
@@ -1604,7 +1604,12 @@
       title: 
         en: "Della's Moon Lullaby"
       text: 
-        en: "Chosen opposing character gets -2 until the start of your next turn. Draw a card."
+        en: "Chosen opposing character gets -2 {S} until the start of your next turn."
+    - type: resolution
+      title: 
+        en: "Della's Moon Lullaby"
+      text: 
+        en: "Draw a card."
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -1620,7 +1625,7 @@
         zh: "29/204 ZH 10"
         ja: "29/204 JA 10"
         culture_invariant_id: 2218
-        sort_number: 279
+        sort_number: -2434
       rarity: rare
       illustrator: "Jaime Puga"
     - set: whi
@@ -1634,7 +1639,7 @@
         zh: "207/204 ZH 10"
         ja: "207/204 JA 10"
         culture_invariant_id: 2396
-        sort_number: 457
+        sort_number: -2256
       rarity: epic
       illustrator: "Jaime Puga"
     - set: p3
@@ -1648,7 +1653,7 @@
         zh: "20/P3 ZH 10"
         ja: "20/P3 JA 10"
         culture_invariant_id: 2441
-        sort_number: 499
+        sort_number: -2214
       rarity: special
       illustrator: "Jaime Puga"
   cost: 3
@@ -1661,7 +1666,7 @@
     en: 
       name: "The Horseman Strikes!"
       title: ""
-      flavour: "Just when you thought you'd escaped..."
+      flavour: "Just when you thought you'd escaped . . ."
     fr: 
       name: "Le Cavalier attaque !"
       title: ""
@@ -1700,7 +1705,7 @@
         zh: "30/204 ZH 10"
         ja: "30/204 JA 10"
         culture_invariant_id: 2219
-        sort_number: 280
+        sort_number: -2433
       rarity: uncommon
       illustrator: "Kasia Brzezinska"
   cost: 2
@@ -1752,7 +1757,7 @@
         zh: "31/204 ZH 10"
         ja: "31/204 JA 10"
         culture_invariant_id: 2220
-        sort_number: 281
+        sort_number: -2432
       rarity: uncommon
       illustrator: "Julie Vu"
   cost: 3
@@ -1765,19 +1770,19 @@
     en: 
       name: "Webby's Diary"
       title: ""
-      flavour: "A girl needs a place to put her innermost thoughts and feelings—not to mention trap designs! —Webby"
+      flavour: "\"A girl needs a place to put her innermost thoughts and feelings—not to mention trap designs!”\n—Webby"
     fr: 
       name: "Le journal de Zaza"
       title: ""
-      flavour: "Une fille a besoin d'un endroit où ranger ses pensées et ses émotions les plus intimes... sans oublier ses plans de piège !\n—Zaza"
+      flavour: "“Une fille a besoin d'un endroit où ranger ses pensées et ses émotions les plus intimes... sans oublier ses plans de piège !”\n—Zaza"
     it: 
       name: "Diario di Gaia"
       title: ""
-      flavour: "Una ragazza ha bisogno di un posto dove appuntare i suoi pensieri e sentimenti più intimi... e i progetti delle sue trappole!\n—Gaia"
+      flavour: "“Una ragazza ha bisogno di un posto dove appuntare i suoi pensieri e sentimenti più intimi... e i progetti delle sue trappole!”\n—Gaia"
     de: 
       name: "Nickys Tagebuch"
       title: ""
-      flavour: "Ein Mädchen braucht einen Ort, an dem sie ihre innersten Gedanken und Gefühle notieren kann – und natürlich ihre Fallenentwürfe!\n–Nicky"
+      flavour: "„Ein Mädchen braucht einen Ort, an dem sie ihre innersten Gedanken und Gefühle notieren kann – und natürlich ihre Fallenentwürfe!“\n–Nicky"
   abilities: 
     - type: static-triggered
       title: 
@@ -1799,7 +1804,7 @@
         zh: "32/204 ZH 10"
         ja: "32/204 JA 10"
         culture_invariant_id: 2221
-        sort_number: 282
+        sort_number: -2431
       rarity: legendary
       illustrator: "Kaitlin Cuthbertson"
     - set: whi
@@ -1813,7 +1818,7 @@
         zh: "225/204 ZH 10"
         ja: "225/204 JA 10"
         culture_invariant_id: 2414
-        sort_number: 475
+        sort_number: -2238
       rarity: enchanted
       illustrator: "Marcin Panasiuk"
   cost: 3
@@ -1870,7 +1875,7 @@
         zh: "33/204 ZH 10"
         ja: "33/204 JA 10"
         culture_invariant_id: 2222
-        sort_number: 283
+        sort_number: -2430
       rarity: common
       illustrator: "Marco Giorgianni"
   cost: 2
@@ -1923,7 +1928,7 @@
         zh: "34/204 ZH 10"
         ja: "34/204 JA 10"
         culture_invariant_id: 2223
-        sort_number: 284
+        sort_number: -2429
       rarity: rare
       illustrator: "Nevena Nikolcheva"
   lore: 0
@@ -1974,7 +1979,7 @@
         zh: "35/204 ZH 10"
         ja: "35/204 JA 10"
         culture_invariant_id: 2224
-        sort_number: 285
+        sort_number: -2428
       rarity: rare
       illustrator: "Lisa Parfenova"
   lore: 2
@@ -2027,7 +2032,7 @@
         zh: "36/204 ZH 10"
         ja: "36/204 JA 10"
         culture_invariant_id: 2225
-        sort_number: 286
+        sort_number: -2427
       rarity: super_rare
       illustrator: "Julian del Rey"
     - set: whi
@@ -2041,7 +2046,7 @@
         zh: "226/204 ZH 10"
         ja: "226/204 JA 10"
         culture_invariant_id: 2415
-        sort_number: 476
+        sort_number: -2237
       rarity: enchanted
       illustrator: "Alberto Dal Lago"
   lore: 2
@@ -2102,7 +2107,7 @@
         zh: "37/204 ZH 10"
         ja: "37/204 JA 10"
         culture_invariant_id: 2226
-        sort_number: 287
+        sort_number: -2426
       rarity: uncommon
       illustrator: "João Moura"
   lore: 2
@@ -2162,7 +2167,7 @@
         zh: "38/204 ZH 10"
         ja: "38/204 JA 10"
         culture_invariant_id: 2227
-        sort_number: 288
+        sort_number: -2425
       rarity: common
       illustrator: "Kevin Sidharta"
   lore: 1
@@ -2183,19 +2188,19 @@
     en: 
       name: "The Horned King"
       title: "Heartless Devil"
-      flavour: "Untried courage is no match for his evil. \n—Dallben"
+      flavour: "\"Untried courage is no match for his evil.\" \n—Dallben"
     fr: 
       name: "Le Seigneur des Ténèbres"
       title: "Démon sans cœur"
-      flavour: "Le courage de la jeunesse ne suffit pas contre ses maléfices. \n—Dalben"
+      flavour: "“Le courage de la jeunesse ne suffit pas contre ses maléfices.” \n—Dalben"
     it: 
       name: "Re Cornelius"
       title: "Demonio Spietato"
-      flavour: "Il coraggio senza esperienza non può nulla contro la sua malvagità.\n—Dallben"
+      flavour: "“Il coraggio senza esperienza non può nulla contro la sua malvagità.”\n—Dallben"
     de: 
       name: "Der gehörnte König"
       title: "Herzloser Dämon"
-      flavour: "Der Mut der Unerfahrenheit ist seiner Bosheit nicht gewachsen.\n–Dallben"
+      flavour: "„Der Mut der Unerfahrenheit ist seiner Bosheit nicht gewachsen.“\n–Dallben"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -2211,7 +2216,7 @@
         zh: "39/204 ZH 10"
         ja: "39/204 JA 10"
         culture_invariant_id: 2228
-        sort_number: 289
+        sort_number: -2424
       rarity: common
       illustrator: "Kendall Hale"
   lore: 1
@@ -2229,19 +2234,19 @@
     en: 
       name: "Cauldron Born"
       title: "Mindless Horde"
-      flavour: "My beloved warriors have come to life! All the dead of centuries past! Never has anyone created an army like this! —The Horned King"
+      flavour: "“My beloved warriors have come to life! All the dead of centuries past! Never has anyone created an army like this!”\n—The Horned King"
     fr: 
       name: "Soldats ressuscités"
       title: "Horde sans âme"
-      flavour: "Mes bien-aimés soldats ont ressuscité. Tous les morts des siècles passés! Jamais personne n'avait encore créé une pareille armée.\n—Le Seigneur des Ténèbres"
+      flavour: "“Mes bien-aimés soldats ont ressuscité. Tous les morts des siècles passés ! Jamais personne n'avait encore créé une pareille armée.”\n—Le Seigneur des Ténèbres"
     it: 
       name: "Nati dalla Pentola"
       title: "Orda Dissennata"
-      flavour: "I miei adorati guerrieri hanno preso vita! Tutti i morti dei secoli passati! Nessuno ha mai creato un esercito come questo!\n—Re Cornelius"
+      flavour: "“I miei adorati guerrieri hanno preso vita! Tutti i morti dei secoli passati! Nessuno ha mai creato un esercito come questo!”\n—Re Cornelius"
     de: 
       name: "Im Zauberkessel Geborener"
       title: "Willenlose Horde"
-      flavour: "Meine geliebten Krieger fangen an zu leben! All die Toten der vergangenen Jahrhunderte! Nie hat jemand eine solche Armee geschaffen!\n–Der gehörnte König"
+      flavour: "„Meine geliebten Krieger fangen an zu leben! All die Toten der vergangenen Jahrhunderte! Nie hat jemand eine solche Armee geschaffen!“\n–Der gehörnte König"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -2257,7 +2262,7 @@
         zh: "40/204 ZH 10"
         ja: "40/204 JA 10"
         culture_invariant_id: 2229
-        sort_number: 290
+        sort_number: -2423
       rarity: common
       illustrator: "Alice Pisoni"
   lore: 1
@@ -2319,7 +2324,7 @@
         zh: "41/204 ZH 10"
         ja: "41/204 JA 10"
         culture_invariant_id: 2230
-        sort_number: 291
+        sort_number: -2422
       rarity: common
       illustrator: "Brian Kesinger"
   lore: 1
@@ -2339,19 +2344,19 @@
     en: 
       name: "Magica De Spell"
       title: "Shadowy and Sinister"
-      flavour: "My power is still not enough. I need something more. Something... shadowy."
+      flavour: "“My power is still not enough. I need something more. Something . . .  shadowy.”"
     fr: 
       name: "Miss Tick"
       title: "Ombre sinistre"
-      flavour: "Ma puissance ne suffit toujours pas. Il me faut quelque chose de plus. Quelque chose de plus... sombre."
+      flavour: "“Ma puissance ne suffit toujours pas. Il me faut quelque chose de plus. Quelque chose de plus... sombre.”"
     it: 
       name: "Amelia"
       title: "Tenebrosa e Sinistra"
-      flavour: "I miei poteri non sono ancora forti abbastanza. Ho bisogno di qualcos'altro. Qualcosa di... tenebroso."
+      flavour: "“I miei poteri non sono ancora forti abbastanza. Ho bisogno di qualcos'altro. Qualcosa di... tenebroso.”"
     de: 
       name: "Gundel Gaukeley"
       title: "Schattenhaft und unheimlich"
-      flavour: "Meine Kraft reicht noch nicht aus. Ich brauche etwas mehr. Etwas... Schattenhaftes."
+      flavour: "„Meine Kraft reicht noch nicht aus. Ich brauche etwas mehr. Etwas ... Schattenhaftes.“"
   abilities: 
     - type: resolution
       title: 
@@ -2373,7 +2378,7 @@
         zh: "42/204 ZH 10"
         ja: "42/204 JA 10"
         culture_invariant_id: 2231
-        sort_number: 292
+        sort_number: -2421
       rarity: common
       illustrator: "Mara Tango"
   lore: 2
@@ -2393,19 +2398,19 @@
     en: 
       name: "Lena Sabrewing"
       title: "Mysterious Duck"
-      flavour: "This is a strange kind of magic. These ‘whispers’ seem independent, but they're still incomplete."
+      flavour: "\"This is a strange kind of magic. These ‘whispers’ seem independent, but they're still incomplete.\""
     fr: 
       name: "Lena de Sortilège"
       title: "Canette mystérieuse"
-      flavour: "Cette magie est vraiment étrange. Ces ‘lueurs’ semblent autonomes, mais elles sont encore incomplètes."
+      flavour: "“Cette magie est vraiment étrange. Ces ‘lueurs’ semblent autonomes, mais elles sont encore incomplètes.”"
     it: 
       name: "Lena Sabrewing"
       title: "Papera Misteriosa"
-      flavour: "Questo è uno strano tipo di magia. Questi 'sussurri' sembrano indipendenti, ma sono ancora incompleti."
+      flavour: "“Questo è uno strano tipo di magia. Questi 'sussurri' sembrano indipendenti, ma sono ancora incompleti.”"
     de: 
       name: "Lena Degenflügel"
       title: "Geheimnisvolle Ente"
-      flavour: "Das ist eine seltsame Art von Magie. Diese ‚Geflüster‘ scheinen eigenständig zu sein, obwohl sie noch unvollkommen sind."
+      flavour: "„Das ist eine seltsame Art von Magie. Diese ‚Geflüster‘ scheinen eigenständig zu sein, obwohl sie noch unvollkommen sind.“"
   abilities: 
     - type: resolution
       title: 
@@ -2427,7 +2432,7 @@
         zh: "43/204 ZH 10"
         ja: "43/204 JA 10"
         culture_invariant_id: 2232
-        sort_number: 293
+        sort_number: -2420
       rarity: uncommon
       illustrator: "Renée Chio"
   lore: 1
@@ -2446,19 +2451,19 @@
     en: 
       name: "Iago"
       title: "Stompin' Mad"
-      flavour: "That does it—now I’m really ticked off!"
+      flavour: "“That does it—now I’m really ticked off!\""
     fr: 
       name: "Iago"
       title: "Piétine de rage"
-      flavour: "Eh ben voilà, maintenant, j'suis vraiment énervé!"
+      flavour: "“Eh ben voilà, maintenant, j'suis vraiment énervé !”"
     it: 
       name: "Iago"
       title: "Furioso"
-      flavour: "Ne ho abbastanza! Ora sono davvero stressato!"
+      flavour: "“Ne ho abbastanza! Ora sono davvero stressato!”"
     de: 
       name: "Jago"
       title: "Rasend vor Wut"
-      flavour: "Das war's – jetzt bin ich richtig sauer!"
+      flavour: "„Das war's – jetzt bin ich richtig sauer!“"
   abilities: 
     - type: static
       title: 
@@ -2481,7 +2486,7 @@
         zh: "44/204 ZH 10"
         ja: "44/204 JA 10"
         culture_invariant_id: 2233
-        sort_number: 294
+        sort_number: -2419
       rarity: common
       illustrator: "Lauren Levering"
   lore: 1
@@ -2500,19 +2505,19 @@
     en: 
       name: "Violet Sabrewing"
       title: "Senior Junior Woodchuck"
-      flavour: "At last, an opportunity to earn my Mysterious Ruins Exploration badge!"
+      flavour: "\"At last, an opportunity to earn my Mysterious Ruins Exploration badge!\""
     fr: 
       name: "Violette Campyloptère"
       title: "Castor junior senior"
-      flavour: "Enfin une occasion de gagner mon badge d'Exploration des Ruines Mystérieuses !"
+      flavour: "“Enfin une occasion de gagner mon badge d'Exploration des Ruines Mystérieuses !”"
     it: 
       name: "Violet Sabrewing"
       title: "Giovane Marmotta Senior"
-      flavour: "Finalmente, un'opportunità per guadagnare la mia medaglia di Esplorazione di Rovine Misteriose!"
+      flavour: "“Finalmente, un'opportunità per guadagnare la mia medaglia di Esplorazione di Rovine Misteriose!”"
     de: 
       name: "Violetta Degenflügel"
       title: "Senior-Junior-Fieselschweifling"
-      flavour: "Endlich habe ich die Gelegenheit, mir das Abzeichen für die Erforschung geheimnisvoller Ruinen zu verdienen!"
+      flavour: "„Endlich habe ich die Gelegenheit, mir das Abzeichen für die Erforschung geheimnisvoller Ruinen zu verdienen!“"
   abilities: 
     - type: static
       title: 
@@ -2535,7 +2540,7 @@
         zh: "45/204 ZH 10"
         ja: "45/204 JA 10"
         culture_invariant_id: 2234
-        sort_number: 295
+        sort_number: -2418
       rarity: common
       illustrator: "Clio Wolfensberger"
     - set: whi
@@ -2549,7 +2554,7 @@
         zh: "208/204 ZH 10"
         ja: "208/204 JA 10"
         culture_invariant_id: 2397
-        sort_number: 458
+        sort_number: -2255
       rarity: epic
       illustrator: "Clio Wolfensberger"
     - set: p3
@@ -2563,7 +2568,7 @@
         zh: "22/P3 ZH 10"
         ja: "22/P3 JA 10"
         culture_invariant_id: 2443
-        sort_number: 501
+        sort_number: -2212
       rarity: special
       illustrator: "Clio Wolfensberger"
   lore: 1
@@ -2584,19 +2589,19 @@
     en: 
       name: "Elsa"
       title: "Exploring the Unknown"
-      flavour: "This world still has secrets to uncover."
+      flavour: "“This world still has secrets to uncover.”"
     fr: 
       name: "Elsa"
       title: "Explorant un autre monde"
-      flavour: "Ce monde a encore bien des secrets à révéler."
+      flavour: "“Ce monde a encore bien des secrets à révéler.”"
     it: 
       name: "Elsa"
       title: "Che Esplora l'Ignoto"
-      flavour: "Questo mondo ha ancora dei segreti da svelare."
+      flavour: "“Questo mondo ha ancora dei segreti da svelare.”"
     de: 
       name: "Elsa"
       title: "Erforscht das Unbekannte"
-      flavour: "Diese Welt hat noch viele Geheimnisse, die es zu lüften gilt."
+      flavour: "„Diese Welt hat noch viele Geheimnisse, die es zu lüften gilt.“"
   abilities: 
     - type: resolution
       title: 
@@ -2618,7 +2623,7 @@
         zh: "46/204 ZH 10"
         ja: "46/204 JA 10"
         culture_invariant_id: 2235
-        sort_number: 296
+        sort_number: -2417
       rarity: common
       illustrator: "Giorgio Di Santo"
   lore: 2
@@ -2638,19 +2643,19 @@
     en: 
       name: "Mushu"
       title: "Braggin' Dragon"
-      flavour: "I'm the scariest thing <in> this forest. That pumpkin head should be scared of <me>!"
+      flavour: "\"I'm the scariest thing <in> this forest. That pumpkin head should be scared of <me>!\""
     fr: 
       name: "Mushu"
       title: "Dragon frimeur"
-      flavour: "Je suis ce qu'il y a de plus terrifiant dans cette forêt. C'est de moi dont cette tête de citrouille devrait avoir peur!"
+      flavour: "“Je suis ce qu'il y a de plus terrifiant dans cette forêt. C'est de moi dont cette tête de citrouille devrait avoir peur !”"
     it: 
       name: "Mushu"
       title: "Drago Spaccone"
-      flavour: "Sono <io> la cosa più spaventosa in questa foresta. Quella testa di zucca dovrebbe avere paura di <me>!"
+      flavour: "“Sono <io> la cosa più spaventosa in questa foresta. Quella testa di zucca dovrebbe avere paura di <me>!”"
     de: 
       name: "Mushu"
       title: "Angeberischer Drache"
-      flavour: "Ich bin das Furchterregendste <in> diesem Wald. Dieser Kürbiskopf sollte sich vor <mir> fürchten!"
+      flavour: "„Ich bin das Furchterregendste <in> diesem Wald. Dieser Kürbiskopf sollte sich vor <mir> fürchten!“"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -2666,7 +2671,7 @@
         zh: "47/204 ZH 10"
         ja: "47/204 JA 10"
         culture_invariant_id: 2236
-        sort_number: 297
+        sort_number: -2416
       rarity: uncommon
       illustrator: "Brian Kesinger"
   lore: 2
@@ -2726,7 +2731,7 @@
         zh: "48/204 ZH 10"
         ja: "48/204 JA 10"
         culture_invariant_id: 2237
-        sort_number: 298
+        sort_number: -2415
       rarity: uncommon
       illustrator: "Isabella Ceravolo"
   lore: 2
@@ -2745,19 +2750,19 @@
     en: 
       name: "Nibs"
       title: "Lost Boy"
-      flavour: "That was fun! Let's do it again!"
+      flavour: "\"That was fun! Let's do it again!\""
     fr: 
       name: "Bon Zigue"
       title: "Enfant perdu"
-      flavour: "C’était trop marrant ! Refaisons-le!"
+      flavour: "“C’était trop marrant ! Refaisons-le !”"
     it: 
       name: "Nibs"
       title: "Bimbo Sperduto"
-      flavour: "È stato uno spasso! Rifacciamolo!"
+      flavour: "“È stato uno spasso! Rifacciamolo!”"
     de: 
       name: "Nibs"
       title: "Verwunschenes Kind"
-      flavour: "Das hat Spaß gemacht! Lass es uns noch mal machen!"
+      flavour: "„Das hat Spaß gemacht! Lass es uns noch mal machen!“"
   abilities: 
     - type: static-triggered
       title: 
@@ -2779,7 +2784,7 @@
         zh: "49/204 ZH 10"
         ja: "49/204 JA 10"
         culture_invariant_id: 2238
-        sort_number: 299
+        sort_number: -2414
       rarity: rare
       illustrator: "Dev Madan"
     - set: whi
@@ -2793,7 +2798,7 @@
         zh: "210/204 ZH 10"
         ja: "210/204 JA 10"
         culture_invariant_id: 2399
-        sort_number: 460
+        sort_number: -2253
       rarity: epic
       illustrator: "Dev Madan"
   lore: 1
@@ -2814,19 +2819,19 @@
     en: 
       name: "The Horned King"
       title: "Triumphant Ghoul"
-      flavour: "Only moments away from victory."
+      flavour: "\"Only moments away from victory.\""
     fr: 
       name: "Le Seigneur des Ténèbres"
       title: "Goule triomphante"
-      flavour: "Aujourd’hui, nous touchons du doigt la victoire."
+      flavour: "“Aujourd’hui, nous touchons du doigt la victoire.”"
     it: 
       name: "Re Cornelius"
       title: "Ghoul Trionfante"
-      flavour: "Mancano soltanto pochi secondi alla vittoria."
+      flavour: "“Mancano soltanto pochi secondi alla vittoria.”"
     de: 
       name: "Der gehörnte König"
       title: "Siegreicher Ghul"
-      flavour: "Nur noch wenige Augenblicke bis zum Sieg."
+      flavour: "„Nur noch wenige Augenblicke bis zum Sieg.“"
   abilities: 
     - type: static
       title: 
@@ -2849,7 +2854,7 @@
         zh: "50/204 ZH 10"
         ja: "50/204 JA 10"
         culture_invariant_id: 2239
-        sort_number: 300
+        sort_number: -2413
       rarity: rare
       illustrator: "Alejandro Hernandez"
   lore: 4
@@ -2868,19 +2873,19 @@
     en: 
       name: "Creeper"
       title: "Loyal Lackey"
-      flavour: "Yes! Things are going exactly as sire planned. Soon the cauldron will be ours—I mean his."
+      flavour: "“Yes! Things are going exactly as sire planned. Soon the cauldron will be ours—I mean his.”"
     fr: 
       name: "Crapaud"
       title: "Fidèle laquais"
-      flavour: "Oui! Les choses se déroulent exactement comme Sire l'avait prévu. Bientôt le Chaudron sera à nous... enfin, à lui."
+      flavour: "“Oui ! Les choses se déroulent exactement comme Sire l'avait prévu. Bientôt le Chaudron sera à nous... enfin, à lui.”"
     it: 
       name: "Rospus"
       title: "Scagnozzo Leale"
-      flavour: "Sì! Le cose stanno andando esattamente come Sire voleva. Presto la Pentola sarà nostra... ehm, intendevo sua."
+      flavour: "“Sì! Le cose stanno andando esattamente come Sire voleva. Presto la Pentola sarà nostra... ehm, intendevo sua.”"
     de: 
       name: "Kribbel"
       title: "Loyaler Lakai"
-      flavour: "Ja! Die Dinge laufen genau so, wie Majestät es geplant hat. Bald wird der Zauberkessel uns gehören – ich meine, ihm."
+      flavour: "„Ja! Die Dinge laufen genau so, wie Majestät es geplant hat. Bald wird der Zauberkessel uns gehören – ich meine, ihm.“"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -2896,7 +2901,7 @@
         zh: "51/204 ZH 10"
         ja: "51/204 JA 10"
         culture_invariant_id: 2240
-        sort_number: 301
+        sort_number: -2412
       rarity: rare
       illustrator: "Cam Kendell / Alejandro Hernandez"
   lore: 2
@@ -2916,19 +2921,19 @@
     en: 
       name: "Coldstone"
       title: "Reincarnated Cyborg"
-      flavour: "It’s alive! Alive! I’ve always wanted to say that. —Xanatos"
+      flavour: "“It’s alive! Alive! I’ve always wanted to say that.”\n—Xanatos"
     fr: 
       name: "Coldstone"
       title: "Réincarné en cyborg"
-      flavour: "Il est vivant ! Vivant ! Ah, j’ai toujours rêvé de prononcer cette phrase.\n—David Xanatos"
+      flavour: "“Il est vivant ! Vivant ! Ah, j’ai toujours rêvé de prononcer cette phrase.”\n—David Xanatos"
     it: 
       name: "Pietrafredda"
       title: "Cyborg Reincarnato"
-      flavour: "È vivo! È vivo! Frankenstein è il mio film preferito.\n—David Xanatos"
+      flavour: "“È vivo! È vivo! Frankenstein è il mio film preferito.”\n—David Xanatos"
     de: 
       name: "Coldstone"
       title: "Wiedergeborener Cyborg"
-      flavour: "Es lebt! Es lebt! Genial, das wollte ich immer schon mal sagen.\n–David Xanatos"
+      flavour: "„Es lebt! Es lebt! Genial, das wollte ich immer schon mal sagen.“\n–David Xanatos"
   abilities: 
     - type: resolution
       title: 
@@ -2950,7 +2955,7 @@
         zh: "52/204 ZH 10"
         ja: "52/204 JA 10"
         culture_invariant_id: 2241
-        sort_number: 302
+        sort_number: -2411
       rarity: rare
       illustrator: "Matteo Marzocco"
   lore: 2
@@ -2970,19 +2975,19 @@
     en: 
       name: "Magica De Spell"
       title: "Spiteful Sorceress"
-      flavour: "I am the stuff of nightmares lurking in the hidden recesses of your mind!"
+      flavour: "“I am the stuff of nightmares lurking in the hidden recesses of your mind!”"
     fr: 
       name: "Miss Tick"
       title: "Sorcière rancunière"
-      flavour: "Je suis l'essence des cauchemars cachés au fond des placards!"
+      flavour: "“Je suis l'essence des cauchemars cachés au fond des placards !”"
     it: 
       name: "Amelia"
       title: "Strega Maligna"
-      flavour: "Sono l'incubo che si annida negli oscuri recessi della tua mente!"
+      flavour: "“Sono l'incubo che si annida negli oscuri recessi della tua mente!”"
     de: 
       name: "Gundel Gaukeley"
       title: "Boshafte Zauberin"
-      flavour: "Ich bin der Stoff, aus dem Albträume sind, die in den verborgenen Tiefen deines Verstandes lauern!"
+      flavour: "„Ich bin der Stoff, aus dem Albträume sind, die in den verborgenen Tiefen deines Verstandes lauern!“"
   abilities: 
     - type: static-triggered
       title: 
@@ -3004,7 +3009,7 @@
         zh: "53/204 ZH 10"
         ja: "53/204 JA 10"
         culture_invariant_id: 2242
-        sort_number: 303
+        sort_number: -2410
       rarity: uncommon
       illustrator: "Rosa la Barbera / Livio Cacciatore"
   lore: 1
@@ -3057,7 +3062,7 @@
         zh: "54/204 ZH 10"
         ja: "54/204 JA 10"
         culture_invariant_id: 2243
-        sort_number: 304
+        sort_number: -2409
       rarity: super_rare
       illustrator: "Rebecka Helmersson"
   lore: 1
@@ -3117,7 +3122,7 @@
         zh: "55/204 ZH 10"
         ja: "55/204 JA 10"
         culture_invariant_id: 2244
-        sort_number: 305
+        sort_number: -2408
       rarity: legendary
       illustrator: "Leonardo Giammichele"
     - set: whi
@@ -3131,7 +3136,7 @@
         zh: "227/204 ZH 10"
         ja: "227/204 JA 10"
         culture_invariant_id: 2416
-        sort_number: 477
+        sort_number: -2236
       rarity: enchanted
       illustrator: "Sara Leal (Loyal)"
   lore: 2
@@ -3192,7 +3197,7 @@
         zh: "56/204 ZH 10"
         ja: "56/204 JA 10"
         culture_invariant_id: 2245
-        sort_number: 306
+        sort_number: -2407
       rarity: legendary
       illustrator: "Javi Salas"
     - set: whi
@@ -3206,7 +3211,7 @@
         zh: "242/204 ZH 10"
         ja: "242/204 JA 10"
         culture_invariant_id: 2431
-        sort_number: 492
+        sort_number: -2221
       rarity: iconic
       illustrator: "Marcel Berg"
   lore: 1
@@ -3226,19 +3231,19 @@
     en: 
       name: "Hades"
       title: "Looking for a Deal"
-      flavour: "I'm kind of on a schedule here—I got plans for August."
+      flavour: "\"I'm kind of on a schedule here—I got plans for August.\""
     fr: 
       name: "Hadès"
       title: "Cherchant un accord"
-      flavour: "Je suis très occupé, je n’peux pas attendre jusqu’aux calendes grecques."
+      flavour: "\"Je suis très occupé, je n’peux pas attendre jusqu’aux calendes grecques.\""
     it: 
       name: "Ade"
       title: "In Cerca di un Affare"
-      flavour: "Sono impegnato, ho dei programmi per il Duemila."
+      flavour: "“Sono impegnato, ho dei programmi per il Duemila.”"
     de: 
       name: "Hades"
       title: "Möchte ein Geschäft abschließen"
-      flavour: "Es geht mir voll auf den Keks, ewig auf deinen Zug zu warten – ich hab Weihnachten noch was vor."
+      flavour: "„Es geht mir voll auf den Keks, ewig auf deinen Zug zu warten – ich hab Weihnachten noch was vor.“"
   abilities: 
     - type: resolution
       title: 
@@ -3260,7 +3265,7 @@
         zh: "57/204 ZH 10"
         ja: "57/204 JA 10"
         culture_invariant_id: 2246
-        sort_number: 307
+        sort_number: -2406
       rarity: uncommon
       illustrator: "Matteo Marzocco"
   lore: 1
@@ -3279,19 +3284,19 @@
     en: 
       name: "Olaf"
       title: "Helping Hand"
-      flavour: "Here, hold this while l get help. Try not to go anywhere."
+      flavour: "\"Here, hold this while l get help. Try not to go anywhere.\""
     fr: 
       name: "Olaf"
       title: "Tend la main"
-      flavour: "Tiens, prends ça le temps que j’aille chercher de l’aide. Et essaie de ne pas t'en aller."
+      flavour: "“Tiens, prends ça le temps que j’aille chercher de l’aide. Et essaie de ne pas t'en aller.”"
     it: 
       name: "Olaf"
       title: "Mano Amica"
-      flavour: "Tieni, aggrappati a questa intanto che cerco aiuto. Non andare da nessuna parte."
+      flavour: "“Tieni, aggrappati a questa intanto che cerco aiuto. Non andare da nessuna parte.”"
     de: 
       name: "Olaf"
       title: "Helfende Hand"
-      flavour: "Hier, halte das, während ich Hilfe hole. Geh nicht weg!"
+      flavour: "„Hier, halte das, während ich Hilfe hole. Geh nicht weg!“"
   abilities: 
     - type: static-triggered
       title: 
@@ -3313,7 +3318,7 @@
         zh: "58/204 ZH 10"
         ja: "58/204 JA 10"
         culture_invariant_id: 2247
-        sort_number: 308
+        sort_number: -2405
       rarity: uncommon
       illustrator: "Gaku Kumatori"
     - set: whi
@@ -3327,7 +3332,7 @@
         zh: "209/204 ZH 10"
         ja: "209/204 JA 10"
         culture_invariant_id: 2398
-        sort_number: 459
+        sort_number: -2254
       rarity: epic
       illustrator: "Gaku Kumatori"
   lore: 2
@@ -3387,7 +3392,7 @@
         zh: "59/204 ZH 10"
         ja: "59/204 JA 10"
         culture_invariant_id: 2248
-        sort_number: 309
+        sort_number: -2404
       rarity: rare
       illustrator: "Angelina \"Spikie\" Ricardo"
   lore: 2
@@ -3454,7 +3459,7 @@
         zh: "60/204 ZH 10"
         ja: "60/204 JA 10"
         culture_invariant_id: 2249
-        sort_number: 310
+        sort_number: -2403
       rarity: super_rare
       illustrator: "Alice Pisoni"
   lore: 1
@@ -3512,7 +3517,7 @@
         zh: "61/204 ZH 10"
         ja: "61/204 JA 10"
         culture_invariant_id: 2250
-        sort_number: 311
+        sort_number: -2402
       rarity: common
       illustrator: "Agathe Molin"
   cost: 3
@@ -3525,19 +3530,19 @@
     en: 
       name: "Begone!"
       title: ""
-      flavour: "Alakazam, alakazook, send this page back to its book!"
+      flavour: "\"Alakazam, alakazook, send this page back to its book!\""
     fr: 
       name: "Ouste !"
       title: ""
-      flavour: "Alakazam, alakazage, renvoie cette page dans son ouvrage !"
+      flavour: "“Alakazam, alakazage, renvoie cette page dans son ouvrage !”"
     it: 
       name: "Sparisci!"
       title: ""
-      flavour: "Alakazam, alakalume, rimanda questa pagina al suo volume!"
+      flavour: "“Alakazam, alakalume, rimanda questa pagina al suo volume!”"
     de: 
       name: "Hinfort!"
       title: ""
-      flavour: "Alakazam, Magie, die ich such, schick diese Seite zurück in ihr Buch!"
+      flavour: "„Alakazam, Magie, die ich such, schick diese Seite zurück in ihr Buch!“"
   abilities: 
     - type: resolution
       title: 
@@ -3559,7 +3564,7 @@
         zh: "62/204 ZH 10"
         ja: "62/204 JA 10"
         culture_invariant_id: 2251
-        sort_number: 312
+        sort_number: -2401
       rarity: rare
       illustrator: "E. Melaranci / Mario O. Gabriele"
     - set: whi
@@ -3573,7 +3578,7 @@
         zh: "228/204 ZH 10"
         ja: "228/204 JA 10"
         culture_invariant_id: 2417
-        sort_number: 478
+        sort_number: -2235
       rarity: enchanted
       illustrator: "Monika Pałosz"
   cost: 4
@@ -3622,7 +3627,7 @@
         zh: "63/204 ZH 10"
         ja: "63/204 JA 10"
         culture_invariant_id: 2252
-        sort_number: 313
+        sort_number: -2400
       rarity: common
       illustrator: "Gabriel Nascimento"
   cost: 1
@@ -3635,7 +3640,7 @@
     en: 
       name: "Swooping Strike"
       title: ""
-      flavour: "You could <try> to run..."
+      flavour: "You could <try> to run . . ."
     fr: 
       name: "Attaque en piqué"
       title: ""
@@ -3669,7 +3674,7 @@
         zh: "64/204 ZH 10"
         ja: "64/204 JA 10"
         culture_invariant_id: 2253
-        sort_number: 314
+        sort_number: -2399
       rarity: uncommon
       illustrator: "Patri Balanovsky"
   cost: 2
@@ -3682,19 +3687,19 @@
     en: 
       name: "Performance Review"
       title: ""
-      flavour: "Listen, fellas, it's a real ‘what have you done for me lately’ business. So give me something to work with here!"
+      flavour: "\"Listen, fellas, it's a real ‘what have you done for me lately’ business. So give me something to work with here!\""
     fr: 
       name: "Bilan de performance"
       title: ""
-      flavour: "Écoutez, les gars, c'est vraiment un truc du genre 'qu'est-ce que vous avez fait pour moi dernièrement'. Alors donnez-moi quelque chose sur quoi je puisse m'appuyer!"
+      flavour: "“Écoutez, les gars, c'est vraiment un truc du genre 'qu'est-ce que vous avez fait pour moi dernièrement'. Alors donnez-moi quelque chose sur quoi je puisse m'appuyer !”"
     it: 
       name: "Valutazione delle Prestazioni"
       title: ""
-      flavour: "Aprite le orecchie, signori. È una faccenda del tipo 'cosa avete fatto per me ultimamente'. Quindi datemi qualcosa da esaminare!"
+      flavour: "“Aprite le orecchie, signori. È una faccenda del tipo 'cosa avete fatto per me ultimamente'. Quindi datemi qualcosa da esaminare!”"
     de: 
       name: "Leistungsbewertung"
       title: ""
-      flavour: "Hört zu, Leute, dies ist ein echtes ‚Was habt ihr in letzter Zeit für mich getan?‘-Geschäft. Also gebt mir etwas, womit ich arbeiten kann!"
+      flavour: "„Hört zu, Leute, dies ist ein echtes ‚Was habt ihr in letzter Zeit für mich getan?‘-Geschäft. Also gebt mir etwas, womit ich arbeiten kann!“"
   abilities: 
     - type: resolution
       title: 
@@ -3716,7 +3721,7 @@
         zh: "65/204 ZH 10"
         ja: "65/204 JA 10"
         culture_invariant_id: 2254
-        sort_number: 315
+        sort_number: -2398
       rarity: common
       illustrator: "Janel Reh"
   cost: 3
@@ -3770,7 +3775,7 @@
         zh: "66/204 ZH 10"
         ja: "66/204 JA 10"
         culture_invariant_id: 2255
-        sort_number: 316
+        sort_number: -2397
       rarity: common
       illustrator: "Francesca Risoldi"
   cost: 2
@@ -3783,19 +3788,19 @@
     en: 
       name: "Junior Woodchuck Guidebook"
       title: ""
-      flavour: "How come ghosts get a whole section, but not were-ducks?! —Huey"
+      flavour: "“How come ghosts get a whole section, but not were-ducks?!”\n—Huey"
     fr: 
       name: "Le Manuel des Castors Juniors"
       title: ""
-      flavour: "Pourquoi il y a toute une section sur les fantômes mais rien sur les canards-garous ?!\n—Riri"
+      flavour: "“Pourquoi il y a toute une section sur les fantômes mais rien sur les canards-garous ?!”\n—Riri"
     it: 
       name: "Manuale delle Giovani Marmotte"
       title: ""
-      flavour: "Come mai i fantasmi hanno un'intera sezione e i paperi mannari no?!\n—Qui"
+      flavour: "“Come mai i fantasmi hanno un'intera sezione e i paperi mannari no?!”\n—Qui"
     de: 
       name: "Das schlaue Buch"
       title: ""
-      flavour: "Warum bekommen Geister ein ganzes Kapitel, aber über Wer-Enten steht hier nichts?\n–Tick Duck"
+      flavour: "„Warum bekommen Geister ein ganzes Kapitel, aber über Wer-Enten steht hier nichts?\"\n–Tick Duck"
   abilities: 
     - type: activated
       title: 
@@ -3817,7 +3822,7 @@
         zh: "67/204 ZH 10"
         ja: "67/204 JA 10"
         culture_invariant_id: 2256
-        sort_number: 317
+        sort_number: -2396
       rarity: rare
       illustrator: "Irish Chua"
   cost: 3
@@ -3870,7 +3875,7 @@
         zh: "68/204 ZH 10"
         ja: "68/204 JA 10"
         culture_invariant_id: 2257
-        sort_number: 318
+        sort_number: -2395
       rarity: uncommon
       illustrator: "Priya Kakati"
     - set: p3
@@ -3884,7 +3889,7 @@
         zh: "19/P3 ZH 10"
         ja: "19/P3 JA 10"
         culture_invariant_id: 2440
-        sort_number: 498
+        sort_number: -2215
       rarity: special
       illustrator: "Priya Kakati"
   lore: 1
@@ -3900,19 +3905,19 @@
     en: 
       name: "The Great Illuminary"
       title: "Abandoned Laboratory"
-      flavour: "Remember, we’re looking for clues to who tore up the lorebook pages. —Elisa Maza"
+      flavour: "“Remember, we’re looking for clues to who tore up the lorebook pages.”\n—Elisa Maza"
     fr: 
       name: "Le grand Illuminarium"
       title: "Laboratoire abandonné"
-      flavour: "N’oubliez pas, nous cherchons des indices pour retrouver la personne qui a arraché les pages de livres de Lore.\n—Elisa Maza"
+      flavour: "“N’oubliez pas, nous cherchons des indices pour retrouver la personne qui a arraché les pages de livres de Lore.”\n—Elisa Maza"
     it: 
       name: "Il Grande Illuminarium"
       title: "Laboratorio Abbandonato"
-      flavour: "Ricordate, stiamo cercando indizi su chi possa aver strappato le pagine del libro di leggenda.\n—Elisa Maza"
+      flavour: "“Ricordate, stiamo cercando indizi su chi possa aver strappato le pagine del libro di leggenda.”\n—Elisa Maza"
     de: 
       name: "Das Große Illuminarium"
       title: "Verlassenes Labor"
-      flavour: "Denkt daran, wir suchen nach Hinweisen darauf, wer die Seiten des Legendenbuchs zerrissen hat.\n–Elisa Maza"
+      flavour: "„Denkt daran, wir suchen nach Hinweisen darauf, wer die Seiten des Legendenbuchs zerrissen hat.“\n–Elisa Maza"
   abilities: 
     - type: static
       title: 
@@ -3935,7 +3940,7 @@
         zh: "69/204 ZH 10"
         ja: "69/204 JA 10"
         culture_invariant_id: 2258
-        sort_number: 319
+        sort_number: -2394
       rarity: common
       illustrator: "Laura Pauselli"
   lore: 1
@@ -3954,19 +3959,19 @@
     en: 
       name: "Baloo"
       title: "Laid-Back Bear"
-      flavour: "I tell ya, for a spooky forest, this place is all right. Plenty of berries, lots of trees for back-scratching... A bear could do a lot worse."
+      flavour: "\"I tell ya, for a spooky forest, this place is all right. Plenty of berries, lots of trees for back-scratching . . .  A bear could do a lot worse.\""
     fr: 
       name: "Baloo"
       title: "Ours nonchalant"
-      flavour: "Je te le dis, pour une forêt lugubre, cet endroit n'est pas si mal. Il y a plein de baies, des arbres pour se gratter le dos… Un ours pourrait trouver bien pire."
+      flavour: "“Je te le dis, pour une forêt lugubre, cet endroit n'est pas si mal. Il y a plein de baies, des arbres pour se gratter le dos… Un ours pourrait trouver bien pire.”"
     it: 
       name: "Baloo"
       title: "Orso Rilassato"
-      flavour: "Fidati di me, per essere una foresta inquietante, questo posto non è male. Un sacco di bacche, tanti alberi per grattarsi la schiena... Per un orso, c'è decisamente di peggio."
+      flavour: "“Fidati di me, per essere una foresta inquietante, questo posto non è male. Un sacco di bacche, tanti alberi per grattarsi la schiena... Per un orso, c'è decisamente di peggio.”"
     de: 
       name: "Balu"
       title: "Lässiger Bär"
-      flavour: "Für einen gruseligen Wald ist dieser Ort ganz in Ordnung. Jede Menge Beeren, viele Bäume zum Kratzen … Einem Bären könnte es viel schlechter gehen."
+      flavour: "„Für einen gruseligen Wald ist dieser Ort ganz in Ordnung. Jede Menge Beeren, viele Bäume zum Kratzen … Einem Bären könnte es viel schlechter gehen.“"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -3982,7 +3987,7 @@
         zh: "70/204 ZH 10"
         ja: "70/204 JA 10"
         culture_invariant_id: 2259
-        sort_number: 320
+        sort_number: -2393
       rarity: common
       illustrator: "Jochem van Gool"
   lore: 1
@@ -4001,19 +4006,19 @@
     en: 
       name: "Big Nose"
       title: "Lovesick Poet"
-      flavour: "Thou art pretty as a brawl Thy hair's as dark as a moonless night Thy cheeks the red of leaves in fall— I love to sit and watch you fight"
+      flavour: "\"Thou art pretty as a brawl\nThy hair's as dark as a moonless night\nThy cheeks the red of leaves in fall—\nI love to sit and watch you fight\""
     fr: 
       name: "L’amoureux"
       title: "Poète éperdu d'amour"
-      flavour: "Tu as la beauté d'une intense lutte\nTes cheveux ont le noir d'une nuit sans clarté\nTes joues ont le rouge des feuilles qui chutent\nJ'aime m'asseoir et te voir batailler."
+      flavour: "“Tu as la beauté d'une intense lutte\nTes cheveux ont le noir d'une nuit sans clarté\nTes joues ont le rouge des feuilles qui chutent\nJ'aime m'asseoir et te voir batailler.”"
     it: 
       name: "Nasone"
       title: "Poeta Innamorato"
-      flavour: "Sei bella come una rissa\nLa tua chioma è scura come una notte senza luna\nLa tua guancia è una foglia d'autunno rossa\nAdoro guardarti combattere dalla tribuna"
+      flavour: "“Sei bella come una rissa\nLa tua chioma è scura come una notte senza luna\nLa tua guancia è una foglia d'autunno rossa\nAdoro guardarti combattere dalla tribuna”"
     de: 
       name: "Zinken"
       title: "Liebeskranker Dichter"
-      flavour: "Bist schön wie eine Schlägerei\nMit Haar so schwarz, das hast nur du\nWangen rot wie Kirschen im Mai\nIch seh dir gern beim Kämpfen zu"
+      flavour: "„Bist schön wie eine Schlägerei\nMit Haar so schwarz, das hast nur du\nWangen rot wie Kirschen im Mai\nIch seh dir gern beim Kämpfen zu“"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -4029,7 +4034,7 @@
         zh: "71/204 ZH 10"
         ja: "71/204 JA 10"
         culture_invariant_id: 2260
-        sort_number: 321
+        sort_number: -2392
       rarity: common
       illustrator: "Ricardo Caria"
   lore: 1
@@ -4048,19 +4053,19 @@
     en: 
       name: "Flotsam"
       title: "Slippery as an Eel"
-      flavour: "You're in our world now."
+      flavour: "\"You're in our world now.\""
     fr: 
       name: "Flotsam"
       title: "Se faufile comme une anguille"
-      flavour: "Vous êtes dans notre monde maintenant."
+      flavour: "“Vous êtes dans notre monde maintenant.”"
     it: 
       name: "Flotsam"
       title: "Viscido Come un'Anguilla"
-      flavour: "Sei nel nostro mondo, ora."
+      flavour: "“Sei nel nostro mondo, ora.”"
     de: 
       name: "Abschaum"
       title: "Glitschig wie ein Aal"
-      flavour: "Du bist jetzt in unserer Welt."
+      flavour: "„Du bist jetzt in unserer Welt.“"
   abilities: 
     - type: static
       title: 
@@ -4083,7 +4088,7 @@
         zh: "72/204 ZH 10"
         ja: "72/204 JA 10"
         culture_invariant_id: 2261
-        sort_number: 322
+        sort_number: -2391
       rarity: common
       illustrator: "Sergio Mancinelli"
   lore: 2
@@ -4102,19 +4107,19 @@
     en: 
       name: "Kaa"
       title: "Suspicious Serpent"
-      flavour: "It's bessst to play it s-ssafe."
+      flavour: "\"It's bessst to play it s-ssafe.\""
     fr: 
       name: "Kaa"
       title: "Serpent suspicieux"
-      flavour: "Mieux vaut s-ssavoir faire preuve de s-ssûreté."
+      flavour: "“Mieux vaut s-ssavoir faire preuve de s-ssûreté.”"
     it: 
       name: "Kaa"
       title: "Serpente Sospettoso"
-      flavour: "La cosssa migliore è andare sssul sssicuro."
+      flavour: "“La cosssa migliore è andare sssul sssicuro.”"
     de: 
       name: "Kaa"
       title: "Suspekte Schlange"
-      flavour: "Es issst am besten, die Sssache vorsichtig anzugehen."
+      flavour: "„Es issst am besten, die Sssache vorsichtig anzugehen.“"
   abilities: 
     - type: static
       title: 
@@ -4137,7 +4142,7 @@
         zh: "73/204 ZH 10"
         ja: "73/204 JA 10"
         culture_invariant_id: 2262
-        sort_number: 323
+        sort_number: -2390
       rarity: common
       illustrator: "Rosa la Barbera / Livio Cacciatore"
     - set: whi
@@ -4151,7 +4156,7 @@
         zh: "211/204 ZH 10"
         ja: "211/204 JA 10"
         culture_invariant_id: 2400
-        sort_number: 461
+        sort_number: -2252
       rarity: epic
       illustrator: "Rosa la Barbera / Livio Cacciatore"
   lore: 1
@@ -4170,19 +4175,19 @@
     en: 
       name: "Webby Vanderquack"
       title: "Mystery Enthusiast"
-      flavour: "It’s happening! IT’S HAPPENING! There's a whisper nearby, and I get to see it!"
+      flavour: "“It’s happening! IT’S HAPPENING! There's a whisper nearby, and I get to see it!\""
     fr: 
       name: "Zaza"
       title: "Amatrice de mystères"
-      flavour: "Ça y est! ÇA ARRIVE! Il y a une lueur toute proche, et je vais pouvoir la voir!"
+      flavour: "“Ça y est ! ÇA ARRIVE ! Il y a une lueur toute proche, et je vais pouvoir la voir !”"
     it: 
       name: "Gaia Vanderquack"
       title: "Patita dei Misteri"
-      flavour: "Sta succedendo! STA SUCCEDENDO! C'è un sussurro qui vicino, e riuscirò a vederlo!"
+      flavour: "“Sta succedendo! STA SUCCEDENDO! C'è un sussurro qui vicino, e riuscirò a vederlo!”"
     de: 
       name: "Nicky Vanderquack"
       title: "Liebhaberin von Mysterien"
-      flavour: "Es ist so weit! ES IST SO WEIT! Da ist ein Geflüster in der Nähe und ich werde es sehen!"
+      flavour: "„Es ist so weit! ES IST SO WEIT! Da ist ein Geflüster in der Nähe und ich werde es sehen!“"
   abilities: 
     - type: resolution
       title: 
@@ -4204,7 +4209,7 @@
         zh: "74/204 ZH 10"
         ja: "74/204 JA 10"
         culture_invariant_id: 2263
-        sort_number: 324
+        sort_number: -2389
       rarity: common
       illustrator: "Mario Oscar Gabriele"
   lore: 1
@@ -4257,7 +4262,7 @@
         zh: "75/204 ZH 10"
         ja: "75/204 JA 10"
         culture_invariant_id: 2264
-        sort_number: 325
+        sort_number: -2388
       rarity: common
       illustrator: "Jochem van Gool"
   lore: 2
@@ -4310,7 +4315,7 @@
         zh: "76/204 ZH 10"
         ja: "76/204 JA 10"
         culture_invariant_id: 2265
-        sort_number: 326
+        sort_number: -2387
       rarity: uncommon
       illustrator: "Mike Parker"
   lore: 3
@@ -4329,19 +4334,19 @@
     en: 
       name: "Flintheart Glomgold"
       title: "Scheming Billionaire"
-      flavour: "Long live Glomgold! Glomgold! Glomgold!"
+      flavour: "“Long live Glomgold! Glomgold! Glomgold!”"
     fr: 
       name: "Archibald Gripsou"
       title: "Milliardaire comploteur"
-      flavour: "Longue vie à Gripsou ! Gripsou ! Gripsou !"
+      flavour: "“Longue vie à Gripsou ! Gripsou ! Gripsou !”"
     it: 
       name: "Cuordipietra Famedoro"
       title: "Subdolo Miliardario"
-      flavour: "Lunga vita a Famedoro! Famedoro! Famedoro!"
+      flavour: "“Lunga vita a Famedoro! Famedoro! Famedoro!”"
     de: 
       name: "Mac Moneysac"
       title: "Verlogener Milliardär"
-      flavour: "Lang lebe Moneysac! Moneysac! Moneysac!"
+      flavour: "„Lang lebe Moneysac! Moneysac! Moneysac!“"
   abilities: 
     - type: static
       title: 
@@ -4364,7 +4369,7 @@
         zh: "77/204 ZH 10"
         ja: "77/204 JA 10"
         culture_invariant_id: 2266
-        sort_number: 327
+        sort_number: -2386
       rarity: common
       illustrator: "Ricardo Caria"
   lore: 2
@@ -4383,19 +4388,19 @@
     en: 
       name: "Jetsam"
       title: "Opportunistic Eel"
-      flavour: "You're coming with us."
+      flavour: "\"You're coming with us.\""
     fr: 
       name: "Jetsam"
       title: "Anguille opportuniste"
-      flavour: "Vous venez avec nous."
+      flavour: "“Vous venez avec nous.”"
     it: 
       name: "Jetsam"
       title: "Murena Opportunista"
-      flavour: "Tu vieni con noi."
+      flavour: "“Tu vieni con noi.”"
     de: 
       name: "Meerschaum"
       title: "Opportunistischer Aal"
-      flavour: "Du kommst mit uns."
+      flavour: "„Du kommst mit uns.“"
   abilities: 
     - type: resolution
       title: 
@@ -4417,7 +4422,7 @@
         zh: "78/204 ZH 10"
         ja: "78/204 JA 10"
         culture_invariant_id: 2267
-        sort_number: 328
+        sort_number: -2385
       rarity: uncommon
       illustrator: "Jochem van Gool"
   lore: 2
@@ -4436,19 +4441,19 @@
     en: 
       name: "Hook Hand"
       title: "Unexpectedly Friendly"
-      flavour: "You're a strange lookin' glimmer, ain'tcha? he said to the whisper lingering uncertainly in the doorway. Welcome to the Snuggly Duckling!"
+      flavour: "\"You're a strange lookin' glimmer, ain'tcha?\" he said to the whisper lingering uncertainly in the doorway. \"Welcome to the Snuggly Duckling!\""
     fr: 
       name: "La Main Froide"
       title: "Étonnement amical"
-      flavour: "T'as vraiment une drôle de tête pour un Glimmer, toi, dit-il à la lueur qui s'attardait sur le seuil, hésitante. Bienvenue au Canard Boiteux !"
+      flavour: "“T'as vraiment une drôle de tête pour un Glimmer, toi, dit-il à la lueur qui s'attardait sur le seuil, hésitante. Bienvenue au Canard Boiteux !”"
     it: 
       name: "Uncino"
       title: "Inaspettatamente Amichevole"
-      flavour: "Sei un glimmer bello strano, non è vero? disse al sussurro che indugiava incerto sull'uscio. Benvenuto al Bell'Anatroccolo!"
+      flavour: "“Sei un glimmer bello strano, non è vero?” disse al sussurro che indugiava incerto sull'uscio. “Benvenuto al Bell'Anatroccolo!”"
     de: 
       name: "Hakenhand"
       title: "Unerwartet freundlich"
-      flavour: "Du bist ein sonderbarer Glimmer, nicht wahr?, sagte er zu dem Geflüster, das unsicher in der Türöffnung verweilte. Willkommen in der Schenke Zum Quietscheentchen!"
+      flavour: "„Du bist ein sonderbarer Glimmer, nicht wahr?“, sagte er zu dem Geflüster, das unsicher in der Türöffnung verweilte. „Willkommen in der Schenke Zum Quietscheentchen!“"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -4464,7 +4469,7 @@
         zh: "79/204 ZH 10"
         ja: "79/204 JA 10"
         culture_invariant_id: 2268
-        sort_number: 329
+        sort_number: -2384
       rarity: uncommon
       illustrator: "Mariana Moreno"
     - set: whi
@@ -4478,7 +4483,7 @@
         zh: "212/204 ZH 10"
         ja: "212/204 JA 10"
         culture_invariant_id: 2401
-        sort_number: 462
+        sort_number: -2251
       rarity: epic
       illustrator: "Mariana Moreno"
   lore: 3
@@ -4532,7 +4537,7 @@
         zh: "80/204 ZH 10"
         ja: "80/204 JA 10"
         culture_invariant_id: 2269
-        sort_number: 330
+        sort_number: -2383
       rarity: uncommon
       illustrator: "Mario Oscar Gabriele"
   lore: 1
@@ -4551,19 +4556,19 @@
     en: 
       name: "Emily Quackfaster"
       title: "Level-Headed Librarian"
-      flavour: "Hana's Herborium? The book that Illumineer wrote? Our only copy has been checked out, sadly."
+      flavour: "\"Hana's Herborium? The book that Illumineer wrote? Our only copy has been checked out, sadly.\""
     fr: 
       name: "Émilie Frappe"
       title: "Bibliothécaire raisonnée"
-      flavour: "L’Herbier de Hana ? Le livre écrit par cette illumineuse ? Notre seul exemplaire a été emprunté, malheureusement."
+      flavour: "“L’Herbier de Hana ? Le livre écrit par cette illumineuse ? Notre seul exemplaire a été emprunté, malheureusement.”"
     it: 
       name: "Emily Paperett"
       title: "Bibliotecaria Scrupolosa"
-      flavour: "L'Herborium di Hana? Il libro scritto da quell'Illuminatrice? La nostra unica copia è già stata presa in prestito, temo."
+      flavour: "“L'Herborium di Hana? Il libro scritto da quell'Illuminatrice? La nostra unica copia è già stata presa in prestito, temo.”"
     de: 
       name: "Rita Rührig"
       title: "Besonnene Bibliothekarin"
-      flavour: "Hanas Herbarium? Das Buch, das diese Luminari geschrieben hat? Unser einziges Exemplar ist leider ausgeliehen worden."
+      flavour: "„Hanas Herbarium? Das Buch, das diese Luminari geschrieben hat? Unser einziges Exemplar ist leider ausgeliehen worden.“"
   abilities: 
     - type: resolution
       title: 
@@ -4585,7 +4590,7 @@
         zh: "81/204 ZH 10"
         ja: "81/204 JA 10"
         culture_invariant_id: 2270
-        sort_number: 331
+        sort_number: -2382
       rarity: uncommon
       illustrator: "Gaku Kumatori"
   lore: 1
@@ -4652,7 +4657,7 @@
         zh: "82/204 ZH 10"
         ja: "82/204 JA 10"
         culture_invariant_id: 2271
-        sort_number: 332
+        sort_number: -2381
       rarity: uncommon
       illustrator: "Kenneth Anderson"
   lore: 2
@@ -4671,19 +4676,19 @@
     en: 
       name: "Bellwether"
       title: "Master Manipulator"
-      flavour: "I will have sweet revenge!"
+      flavour: "\"I will have sweet revenge!\""
     fr: 
       name: "Bellwether"
       title: "Maîtresse en manipulation"
-      flavour: "J'aurai une douce vengeance!"
+      flavour: "“J'aurai une douce vengeance !”"
     it: 
       name: "Bellwether"
       title: "Magistrale Manipolatrice"
-      flavour: "La mia vendetta sarà dolcissima!"
+      flavour: "“La mia vendetta sarà dolcissima!”"
     de: 
       name: "Bellwether"
       title: "Meisterhafte Manipulatorin"
-      flavour: "Rache ist süß!"
+      flavour: "„Rache ist süß!“"
   abilities: 
     - type: static-triggered
       title: 
@@ -4705,7 +4710,7 @@
         zh: "83/204 ZH 10"
         ja: "83/204 JA 10"
         culture_invariant_id: 2272
-        sort_number: 333
+        sort_number: -2380
       rarity: common
       illustrator: "Aristeidis Zentelis"
   lore: 1
@@ -4724,19 +4729,19 @@
     en: 
       name: "Launchpad"
       title: "Exceptional Pilot"
-      flavour: "You can’t spell ‘crash-landed’ without ‘landed’!"
+      flavour: "“You can’t spell ‘crash-landed’ without ‘landed’!”"
     fr: 
       name: "Flagada Jones"
       title: "Pilote d'exception"
-      flavour: "On ne peut pas parler d’atterrissage en catastrophe s’il n'y a pas d’atterrissage !"
+      flavour: "“On ne peut pas parler d’atterrissage en catastrophe s’il n'y a pas d’atterrissage !”"
     it: 
       name: "Jet"
       title: "Pilota Eccezionale"
-      flavour: "Non puoi scrivere 'atterraggio d'emergenza' senza scrivere 'a terra'!"
+      flavour: "“Non puoi scrivere 'atterraggio d'emergenza' senza scrivere 'a terra'!”"
     de: 
       name: "Quack, der Bruchpilot"
       title: "Außergewöhnlicher Pilot"
-      flavour: "Man kann ‚Bruchlandung‘ nicht ohne ‚Landung‘ buchstabieren!"
+      flavour: "„Man kann ‚Bruchlandung‘ nicht ohne ‚Landung‘ buchstabieren!“"
   abilities: 
     - type: resolution
       title: 
@@ -4758,7 +4763,7 @@
         zh: "84/204 ZH 10"
         ja: "84/204 JA 10"
         culture_invariant_id: 2273
-        sort_number: 334
+        sort_number: -2379
       rarity: rare
       illustrator: "Mike Parker"
   lore: 2
@@ -4777,19 +4782,19 @@
     en: 
       name: "Penumbra"
       title: "Moon Alien"
-      flavour: "You will treat the vastly superior Moon with respect, or you will suffer the ultimate consequence."
+      flavour: "“You will treat the vastly superior Moon with respect, or you will suffer the ultimate consequence.”"
     fr: 
       name: "Pénombre"
       title: "Extraterrestre lunaire"
-      flavour: "Vous allez traiter l’éminente Lune avec le plus grand respect, ou vous allez devoir subir la conséquence ultime."
+      flavour: "“Vous allez traiter l’éminente Lune avec le plus grand respect, ou vous allez devoir subir la conséquence ultime.”"
     it: 
       name: "Penumbra"
       title: "Aliena Lunare"
-      flavour: "Devi trattare l'ampiamente superiore Luna con immenso rispetto, o ne subirai l'estrema conseguenza!"
+      flavour: "“Devi trattare l'ampiamente superiore Luna con immenso rispetto, o ne subirai l'estrema conseguenza!”"
     de: 
       name: "Penumbra"
       title: "Alien vom Mond"
-      flavour: "Du wirst den weit überlegenen Mond mit Respekt behandeln, oder du wirst ultimative Konsequenzen erleiden."
+      flavour: "„Du wirst den weit überlegenen Mond mit Respekt behandeln, oder du wirst ultimative Konsequenzen erleiden.“"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -4805,7 +4810,7 @@
         zh: "85/204 ZH 10"
         ja: "85/204 JA 10"
         culture_invariant_id: 2274
-        sort_number: 335
+        sort_number: -2378
       rarity: rare
       illustrator: "Luis Huerta"
     - set: whi
@@ -4819,7 +4824,7 @@
         zh: "230/204 ZH 10"
         ja: "230/204 JA 10"
         culture_invariant_id: 2419
-        sort_number: 480
+        sort_number: -2233
       rarity: enchanted
       illustrator: "Lisanne Koeteeuw"
   lore: 2
@@ -4878,7 +4883,7 @@
         zh: "86/204 ZH 10"
         ja: "86/204 JA 10"
         culture_invariant_id: 2275
-        sort_number: 336
+        sort_number: -2377
       rarity: rare
       illustrator: "Pauline Voss"
     - set: whi
@@ -4892,7 +4897,7 @@
         zh: "213/204 ZH 10"
         ja: "213/204 JA 10"
         culture_invariant_id: 2402
-        sort_number: 463
+        sort_number: -2250
       rarity: epic
       illustrator: "Pauline Voss"
   lore: 1
@@ -4958,7 +4963,7 @@
         zh: "87/204 ZH 10"
         ja: "87/204 JA 10"
         culture_invariant_id: 2276
-        sort_number: 337
+        sort_number: -2376
       rarity: rare
       illustrator: "Jiahui Eva Gao"
   lore: 1
@@ -5015,7 +5020,7 @@
         zh: "88/204 ZH 10"
         ja: "88/204 JA 10"
         culture_invariant_id: 2277
-        sort_number: 338
+        sort_number: -2375
       rarity: legendary
       illustrator: "Luis Huerta"
   lore: 2
@@ -5074,7 +5079,7 @@
         zh: "89/204 ZH 10"
         ja: "89/204 JA 10"
         culture_invariant_id: 2278
-        sort_number: 339
+        sort_number: -2374
       rarity: super_rare
       illustrator: "Federico Maria Cugliari"
   lore: 2
@@ -5132,7 +5137,7 @@
         zh: "90/204 ZH 10"
         ja: "90/204 JA 10"
         culture_invariant_id: 2279
-        sort_number: 340
+        sort_number: -2373
       rarity: common
       illustrator: "Shavrin Ivan"
   lore: 1
@@ -5151,19 +5156,19 @@
     en: 
       name: "Akela"
       title: "Forest Runner"
-      flavour: "Follow me, if you can, Akela said, bounding into the Bitterwood. The hunt is on!"
+      flavour: "\"Follow me, if you can,\" Akela said, bounding into the Bitterwood. \"The hunt is on!\""
     fr: 
       name: "Akela"
       title: "Court dans la forêt"
-      flavour: "Suivez-moi, si vous le pouvez, déclara Akela en bondissant dans le Bois-Amer. La chasse est ouverte !"
+      flavour: "“Suivez-moi, si vous le pouvez, déclara Akela en bondissant dans le Bois-Amer. La chasse est ouverte !”"
     it: 
       name: "Akela"
       title: "Corridore Silvano"
-      flavour: "Seguitemi, se ci riuscite, disse Akela, dirigendosi verso il Bosco Amaro. La caccia ha inizio!"
+      flavour: "“Seguitemi, se ci riuscite”, disse Akela, dirigendosi verso il Bosco Amaro. “La caccia ha inizio!”"
     de: 
       name: "Akela"
       title: "Waldläufer"
-      flavour: "Folgt mir, wenn ihr könnt, sagte Akela und sprang in den Bitterwald. Die Jagd beginnt!"
+      flavour: "„Folgt mir, wenn ihr könnt“, sagte Akela und sprang in den Bitterwald. „Die Jagd beginnt!“"
   abilities: 
     - type: activated
       title: 
@@ -5185,7 +5190,7 @@
         zh: "91/204 ZH 10"
         ja: "91/204 JA 10"
         culture_invariant_id: 2280
-        sort_number: 341
+        sort_number: -2372
       rarity: rare
       illustrator: "Lisa Parfenova"
     - set: p3
@@ -5199,7 +5204,7 @@
         zh: "25/P3 ZH 10"
         ja: "25/P3 JA 10"
         culture_invariant_id: 2446
-        sort_number: 493
+        sort_number: -2220
       rarity: special
       illustrator: "Lisa Parfenova"
   lore: 2
@@ -5258,7 +5263,7 @@
         zh: "92/204 ZH 10"
         ja: "92/204 JA 10"
         culture_invariant_id: 2281
-        sort_number: 342
+        sort_number: -2371
       rarity: super_rare
       illustrator: "Nicholas Kole"
   lore: 3
@@ -5317,7 +5322,7 @@
         zh: "93/204 ZH 10"
         ja: "93/204 JA 10"
         culture_invariant_id: 2282
-        sort_number: 343
+        sort_number: -2370
       rarity: legendary
       illustrator: "Jon Densk / Hayley Evans"
     - set: whi
@@ -5331,7 +5336,7 @@
         zh: "229/204 ZH 10"
         ja: "229/204 JA 10"
         culture_invariant_id: 2418
-        sort_number: 479
+        sort_number: -2234
       rarity: enchanted
       illustrator: "Iwo Widuliński"
   lore: 2
@@ -5396,7 +5401,7 @@
         zh: "94/204 ZH 10"
         ja: "94/204 JA 10"
         culture_invariant_id: 2283
-        sort_number: 344
+        sort_number: -2369
       rarity: common
       illustrator: "Valentina Graziuso"
   cost: 2
@@ -5443,7 +5448,7 @@
         zh: "95/204 ZH 10"
         ja: "95/204 JA 10"
         culture_invariant_id: 2284
-        sort_number: 345
+        sort_number: -2368
       rarity: rare
       illustrator: "Hadjie Joos"
   cost: 6
@@ -5492,7 +5497,7 @@
         zh: "96/204 ZH 10"
         ja: "96/204 JA 10"
         culture_invariant_id: 2285
-        sort_number: 346
+        sort_number: -2367
       rarity: common
       illustrator: "Grace Tran"
   cost: 1
@@ -5505,19 +5510,19 @@
     en: 
       name: "Chomp!"
       title: ""
-      flavour: "Mickey: What IS that thing?! Goofy: It's hungry, that's what!"
+      flavour: "Mickey: \"What IS that thing?!\"\nGoofy: \"It's hungry, that's what!\""
     fr: 
       name: "Croque !"
       title: ""
-      flavour: "Mickey : Quelle est cette chose?\nDingo : Une chose affamée, ça c’est certain !"
+      flavour: "Mickey : “Quelle est cette chose ?”\nDingo : “Une chose affamée, ça c’est certain !”"
     it: 
       name: "Gnam!"
       title: ""
-      flavour: "Topolino: Che cos'è QUELLA cosa?!\nPippo: È affamata, ecco che cos'è!"
+      flavour: "Topolino: “Che cos'è QUELLA cosa?!”\nPippo: “È affamata, ecco che cos'è!”"
     de: 
       name: "Mampfen!"
       title: ""
-      flavour: "Micky: Was IST das für ein Ding?!\nGoofy: Es ist auf jeden Fall hungrig!"
+      flavour: "Micky: „Was IST das für ein Ding?!“\nGoofy: „Es ist auf jeden Fall hungrig!“"
   abilities: 
     - type: resolution
       title: 
@@ -5539,7 +5544,7 @@
         zh: "97/204 ZH 10"
         ja: "97/204 JA 10"
         culture_invariant_id: 2286
-        sort_number: 347
+        sort_number: -2366
       rarity: uncommon
       illustrator: "Marcelo Vignali"
     - set: whi
@@ -5553,7 +5558,7 @@
         zh: "231/204 ZH 10"
         ja: "231/204 JA 10"
         culture_invariant_id: 2420
-        sort_number: 481
+        sort_number: -2232
       rarity: enchanted
       illustrator: "Marco Wulfr"
   cost: 3
@@ -5602,7 +5607,7 @@
         zh: "98/204 ZH 10"
         ja: "98/204 JA 10"
         culture_invariant_id: 2287
-        sort_number: 348
+        sort_number: -2365
       rarity: super_rare
       illustrator: "Nicolas Ky"
   cost: 3
@@ -5654,7 +5659,7 @@
         zh: "99/204 ZH 10"
         ja: "99/204 JA 10"
         culture_invariant_id: 2288
-        sort_number: 349
+        sort_number: -2364
       rarity: uncommon
       illustrator: "Jessen Cao"
   cost: 3
@@ -5667,19 +5672,19 @@
     en: 
       name: "Inscrutable Map"
       title: ""
-      flavour: "Nick: What kind of nonsense is this? Judy: These symbols must mean something..."
+      flavour: "Nick: \"What kind of nonsense is this?\"\nJudy: \"These symbols must mean something . . .\""
     fr: 
       name: "Carte indéchiffrable"
       title: ""
-      flavour: "Nick : Qu'est-ce que c'est que ce charabia ? \nJudy : Ces symboles doivent bien avoir un sens..."
+      flavour: "Nick : “Qu'est-ce que c'est que ce charabia ?” \nJudy : “Ces symboles doivent bien avoir un sens...”"
     it: 
       name: "Mappa Imperscrutabile"
       title: ""
-      flavour: "Nick: Che assurdità è questa?\nJudy: Questi simboli devono avere un significato..."
+      flavour: "Nick: “Che assurdità è questa?”\nJudy: “Questi simboli devono avere un significato...”"
     de: 
       name: "Unergründliche Karte"
       title: ""
-      flavour: "Nick: Was ist denn das für ein Unsinn?\nJudy: Diese Symbole müssen irgendwas bedeuten …"
+      flavour: "Nick: „Was ist denn das für ein Unsinn?“\nJudy: „Diese Symbole müssen irgendwas bedeuten …“"
   abilities: 
     - type: activated
       title: 
@@ -5701,7 +5706,7 @@
         zh: "100/204 ZH 10"
         ja: "100/204 JA 10"
         culture_invariant_id: 2289
-        sort_number: 350
+        sort_number: -2363
       rarity: rare
       illustrator: "Rizal Badar"
   cost: 2
@@ -5714,19 +5719,19 @@
     en: 
       name: "Enigmatic Inkcaster"
       title: ""
-      flavour: "Whoever's room this was, I think we just found their inkcaster. —Shanzay, an Illumineer"
+      flavour: "\"Whoever's room this was, I think we just found their inkcaster.\"\n—Shanzay, an Illumineer"
     fr: 
       name: "Invocateur d’encre mystérieux"
       title: ""
-      flavour: "Qui que soit l'occupant de cette pièce, je pense que nous venons de trouver son invocateur d’encre.\n—Shanzay, une Illumineuse"
+      flavour: "“Qui que soit l'occupant de cette pièce, je pense que nous venons de trouver son invocateur d’encre.”\n—Shanzay, une Illumineuse"
     it: 
       name: "Inchiostratore Enigmatico"
       title: ""
-      flavour: "Non so di chi fosse questa stanza, ma credo che abbiamo appena trovato il suo inchiostratore.\n—Shanzay, un'Illuminatrice"
+      flavour: "“Non so di chi fosse questa stanza, ma credo che abbiamo appena trovato il suo inchiostratore.”\n—Shanzay, un'Illuminatrice"
     de: 
       name: "Rätselhafter Tintenformer"
       title: ""
-      flavour: "Wer auch immer in diesem Zimmer wohnte, ich glaube, wir haben gerade dessen Tintenformer gefunden.\n-Shanzay, eine Luminari"
+      flavour: "„Wer auch immer in diesem Zimmer wohnte, ich glaube, wir haben gerade dessen Tintenformer gefunden.“\n-Shanzay, eine Luminari"
   abilities: 
     - type: activated
       title: 
@@ -5748,7 +5753,7 @@
         zh: "101/204 ZH 10"
         ja: "101/204 JA 10"
         culture_invariant_id: 2290
-        sort_number: 351
+        sort_number: -2362
       rarity: uncommon
       illustrator: "Simone Buonfantino"
   cost: 2
@@ -5801,7 +5806,7 @@
         zh: "102/204 ZH 10"
         ja: "102/204 JA 10"
         culture_invariant_id: 2291
-        sort_number: 352
+        sort_number: -2361
       rarity: rare
       illustrator: "Maximilien Borie"
   lore: 0
@@ -5852,7 +5857,7 @@
         zh: "103/204 ZH 10"
         ja: "103/204 JA 10"
         culture_invariant_id: 2292
-        sort_number: 353
+        sort_number: -2360
       rarity: rare
       illustrator: "Giulia Iacopini / Livio Cacciatore"
   lore: 2
@@ -5871,19 +5876,19 @@
     en: 
       name: "Diablo"
       title: "Watchful Raven"
-      flavour: "Be careful when gathering herbs in the Inkwell Caverns. You never know who's watching. —Hana's Herborium"
+      flavour: "\"Be careful when gathering herbs in the Inkwell Caverns. You never know who's watching.\"\n—Hana's Herborium"
     fr: 
       name: "Diablo"
       title: "Corbeau attentif"
-      flavour: "Soyez prudent lorsque vous cueillez des herbes dans les Cavernes d’Encresort. Vous ne savez jamais qui vous observe.\n—L'Herbier de Hana"
+      flavour: "“Soyez prudent lorsque vous cueillez des herbes dans les Cavernes d’Encresort. Vous ne savez jamais qui vous observe.”\n—L'Herbier de Hana"
     it: 
       name: "Diablo"
       title: "Corvo Vigile"
-      flavour: "Fai attenzione quando raccogli le erbe nelle Caverne del Pozzo. Non sai mai chi ti sta osservando.\n—Herborium di Hana"
+      flavour: "“Fai attenzione quando raccogli le erbe nelle Caverne del Pozzo. Non sai mai chi ti sta osservando.”\n—Herborium di Hana"
     de: 
       name: "Diablo"
       title: "Wachsamer Rabe"
-      flavour: "Sei achtsam, wenn du in den Tintentiefen Kräuter sammelst. Man weiß nie, wer einen beobachtet.\n–Hanas Herbarium"
+      flavour: "„Sei achtsam, wenn du in den Tintentiefen Kräuter sammelst. Man weiß nie, wer einen beobachtet.“\n–Hanas Herbarium"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -5899,7 +5904,7 @@
         zh: "104/204 ZH 10"
         ja: "104/204 JA 10"
         culture_invariant_id: 2293
-        sort_number: 354
+        sort_number: -2359
       rarity: uncommon
       illustrator: "Kiersten Hale"
   lore: 0
@@ -5958,7 +5963,7 @@
         zh: "105/204 ZH 10"
         ja: "105/204 JA 10"
         culture_invariant_id: 2294
-        sort_number: 355
+        sort_number: -2358
       rarity: common
       illustrator: "Marcel Berg"
   lore: 2
@@ -5977,19 +5982,19 @@
     en: 
       name: "Peter Pan"
       title: "High Flyer"
-      flavour: "Wanna race? Last one through the Inkwell Caverns is a codfish!"
+      flavour: "“Wanna race? Last one through the Inkwell Caverns is a codfish!”"
     fr: 
       name: "Peter Pan"
       title: "De haute volée"
-      flavour: "Tu veux faire la course ? Le dernier à traverser les Cavernes d'Encresort est un poisson pourri !"
+      flavour: "\"Tu veux faire la course ? Le dernier à traverser les Cavernes d'Encresort est un poisson pourri !\""
     it: 
       name: "Peter Pan"
       title: "Che Vola Alto"
-      flavour: "Facciamo una gara? L'ultimo che esce dalle Caverne del Pozzo è un baccalà!"
+      flavour: "“Facciamo una gara? L'ultimo che esce dalle Caverne del Pozzo è un baccalà!”"
     de: 
       name: "Peter Pan"
       title: "Überflieger"
-      flavour: "Lust auf ein Rennen? Wer es als Letzter durch die Tintentiefen schafft, ist ein Stockfisch!"
+      flavour: "„Lust auf ein Rennen? Wer es als Letzter durch die Tintentiefen schafft, ist ein Stockfisch!“"
   abilities: 
     - type: static
       title: 
@@ -6012,7 +6017,7 @@
         zh: "106/204 ZH 10"
         ja: "106/204 JA 10"
         culture_invariant_id: 2295
-        sort_number: 356
+        sort_number: -2357
       rarity: common
       illustrator: "Devin Elle Kurtz"
     - set: whi
@@ -6026,7 +6031,7 @@
         zh: "214/204 ZH 10"
         ja: "214/204 JA 10"
         culture_invariant_id: 2403
-        sort_number: 464
+        sort_number: -2249
       rarity: epic
       illustrator: "Devin Elle Kurtz"
   lore: 1
@@ -6046,19 +6051,19 @@
     en: 
       name: "Tinker Bell"
       title: "Fancy Footwork"
-      flavour: "Okay, now we know pixie dust doesn’t affect the torn lorebook pages. Thanks, Tink. —Venturo, an Illumineer"
+      flavour: "“Okay, now we know pixie dust doesn’t affect the torn lorebook pages. Thanks, Tink.” \n—Venturo, an Illumineer"
     fr: 
       name: "La Fée Clochette"
       title: "Au pas distingué"
-      flavour: "Bon, on sait maintenant que la poussière de fée n'a aucun effet sur les pages de livres de Lore déchirées. Merci, Clochette.\n—Venturo, un Illumineur"
+      flavour: "\"Bon, on sait maintenant que la poussière de fée n'a aucun effet sur les pages de livres de Lore déchirées. Merci, Clochette.\"\n—Venturo, un Illumineur"
     it: 
       name: "Trilli"
       title: "Ballerina Raffinata"
-      flavour: "Ok, ora sappiamo che la polvere di fata non ha effetto sulle pagine strappate del libro di leggenda. Grazie Trilli.\n—Venturo, un Illuminatore"
+      flavour: "“Ok, ora sappiamo che la polvere di fata non ha effetto sulle pagine strappate del libro di leggenda. Grazie Trilli.”\n—Venturo, un Illuminatore"
     de: 
       name: "Naseweis"
       title: "Außergewöhnliche Beinarbeit"
-      flavour: "Okay, jetzt wissen wir, dass Feenstaub die losen Seiten des Legendenbuchs nicht beeinträchtigt. Danke, Naseweis.\n–Venturo, ein Luminari"
+      flavour: "„Okay, jetzt wissen wir, dass Feenstaub die losen Seiten des Legendenbuchs nicht beeinträchtigt. Danke, Naseweis.“\n–Venturo, ein Luminari"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -6074,7 +6079,7 @@
         zh: "107/204 ZH 10"
         ja: "107/204 JA 10"
         culture_invariant_id: 2296
-        sort_number: 357
+        sort_number: -2356
       rarity: common
       illustrator: "Shavrin Ivan / Jaime Puga"
   lore: 1
@@ -6093,19 +6098,19 @@
     en: 
       name: "Raksha"
       title: "Fearless Mother"
-      flavour: "Her name means protection, and she'll do anything to defend the cubs under her care."
+      flavour: "Her name means \"protection,\" and she'll do anything to defend the cubs under her care."
     fr: 
       name: "Raksha"
       title: "Mère sans peur"
-      flavour: "Son nom signifie protection, et elle fera tout pour défendre les petits sous sa responsabilité."
+      flavour: "Son nom signifie \"protection\", et elle fera tout pour défendre les petits sous sa responsabilité."
     it: 
       name: "Raksha"
       title: "Madre Impavida"
-      flavour: "Il suo nome significa protezione, ed è disposta a tutto per difendere i cuccioli che sta accudendo."
+      flavour: "Il suo nome significa “protezione”, ed è disposta a tutto per difendere i cuccioli che sta accudendo."
     de: 
       name: "Raksha"
       title: "Furchtlose Mutter"
-      flavour: "Ihr Name bedeutet Schützen, und sie wird alles tun, um die Jungen in ihrer Obhut zu schützen."
+      flavour: "Ihr Name bedeutet „Schützen“, und sie wird alles tun, um die Jungen in ihrer Obhut zu schützen."
   abilities: 
     - type: static
       title: 
@@ -6128,7 +6133,7 @@
         zh: "108/204 ZH 10"
         ja: "108/204 JA 10"
         culture_invariant_id: 2297
-        sort_number: 358
+        sort_number: -2355
       rarity: common
       illustrator: "Mariana Moreno"
   lore: 1
@@ -6147,19 +6152,19 @@
     en: 
       name: "Shere Khan"
       title: "Keen-Eyed Hunter"
-      flavour: "Jungle or forest, it doesn’t matter. I’d recognize the scent of man anywhere."
+      flavour: "“Jungle or forest, it doesn’t matter. I’d recognize the scent of man anywhere.”"
     fr: 
       name: "Shere Khan"
       title: "Chasseur aux aguets"
-      flavour: "Jungle ou forêt, cela n'a pas d'importance. Je reconnaîtrais l'odeur de l'Homme n'importe où."
+      flavour: "\"Jungle ou forêt, cela n'a pas d'importance. Je reconnaîtrais l'odeur de l'Homme n'importe où.\""
     it: 
       name: "Shere Khan"
       title: "Cacciatore dallo Sguardo Acuto"
-      flavour: "Giungla o foresta, non ha importanza. Riconoscerei ovunque l'odore dell'uomo."
+      flavour: "“Giungla o foresta, non ha importanza. Riconoscerei ovunque l'odore dell'uomo.”"
     de: 
       name: "Shir Khan"
       title: "Scharfäugiger Jäger"
-      flavour: "Dschungel oder Wald, das spielt keine Rolle. Ich erkenne den Geruch von Menschen überall."
+      flavour: "„Dschungel oder Wald, das spielt keine Rolle. Ich erkenne den Geruch von Menschen überall.“"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -6175,7 +6180,7 @@
         zh: "109/204 ZH 10"
         ja: "109/204 JA 10"
         culture_invariant_id: 2298
-        sort_number: 359
+        sort_number: -2354
       rarity: common
       illustrator: "Shavrin Ivan"
   lore: 2
@@ -6228,7 +6233,7 @@
         zh: "110/204 ZH 10"
         ja: "110/204 JA 10"
         culture_invariant_id: 2299
-        sort_number: 360
+        sort_number: -2353
       rarity: common
       illustrator: "Malia Ewart"
   lore: 1
@@ -6248,19 +6253,19 @@
     en: 
       name: "Mother Gothel"
       title: "Underhanded Schemer"
-      flavour: "The world is a cruel place, and sometimes you've got to be a little cruel to get by."
+      flavour: "\"The world is a cruel place, and sometimes you've got to be a little cruel to get by.\""
     fr: 
       name: "Mère Gothel"
       title: "Fourbe conspiratrice"
-      flavour: "Le monde est un endroit cruel, et il faut parfois savoir se montrer un peu cruelle pour s'en sortir."
+      flavour: "\"Le monde est un endroit cruel, et il faut parfois savoir se montrer un peu cruelle pour s'en sortir.\""
     it: 
       name: "Madre Gothel"
       title: "Subdola Cospiratrice"
-      flavour: "Il mondo è un luogo crudele e a volte devi essere un po' crudele per sopravvivere."
+      flavour: "“Il mondo è un luogo crudele e a volte devi essere un po' crudele per sopravvivere.”"
     de: 
       name: "Mutter Gothel"
       title: "Hinterhältige Intrigantin"
-      flavour: "Die Welt ist ein grausamer Ort, und manchmal muss man eben selbst ein wenig grausam sein, um zu überleben."
+      flavour: "„Die Welt ist ein grausamer Ort, und manchmal muss man eben selbst ein wenig grausam sein, um zu überleben.“"
   abilities: 
     - type: static
       title: 
@@ -6283,7 +6288,7 @@
         zh: "111/204 ZH 10"
         ja: "111/204 JA 10"
         culture_invariant_id: 2300
-        sort_number: 361
+        sort_number: -2352
       rarity: uncommon
       illustrator: "Celeste Jamneck"
   lore: 1
@@ -6329,7 +6334,7 @@
         zh: "112/204 ZH 10"
         ja: "112/204 JA 10"
         culture_invariant_id: 2301
-        sort_number: 362
+        sort_number: -2351
       rarity: common
       illustrator: "Rodrigo Camilo"
   lore: 1
@@ -6348,19 +6353,19 @@
     en: 
       name: "Hermes"
       title: "Harried Messenger"
-      flavour: "What do you mean, 'late'? Kid, I was ahead of my time before time was invented."
+      flavour: "\"What do you mean, 'late'? Kid, I was ahead of my time before time was invented.\""
     fr: 
       name: "Hermès"
       title: "Messager pressé"
-      flavour: "Comment ça, 'en retard' ? Écoute petit, j'étais en avance sur mon temps avant même l'invention du temps."
+      flavour: "\"Comment ça, 'en retard' ? Écoute petit, j'étais en avance sur mon temps avant même l'invention du temps.\""
     it: 
       name: "Hermes"
       title: "Messaggero Stressato"
-      flavour: "In che senso, 'tardi'? Ragazzino, ero avanti con i tempi ben prima che li inventassero, i tempi."
+      flavour: "“In che senso, 'tardi'? Ragazzino, ero avanti con i tempi ben prima che li inventassero, i tempi.”"
     de: 
       name: "Hermes"
       title: "Gestresster Bote"
-      flavour: "Was meinst du mit ,spät‘? Junge, ich war meiner Zeit voraus, bevor die Zeit erfunden wurde."
+      flavour: "„Was meinst du mit ,spät‘? Junge, ich war meiner Zeit voraus, bevor die Zeit erfunden wurde.“"
   abilities: 
     - type: static
       title: 
@@ -6383,7 +6388,7 @@
         zh: "113/204 ZH 10"
         ja: "113/204 JA 10"
         culture_invariant_id: 2302
-        sort_number: 363
+        sort_number: -2350
       rarity: uncommon
       illustrator: "Juan Diego León"
   lore: 1
@@ -6443,7 +6448,7 @@
         zh: "114/204 ZH 10"
         ja: "114/204 JA 10"
         culture_invariant_id: 2303
-        sort_number: 364
+        sort_number: -2349
       rarity: common
       illustrator: "Michaela Martin / Livio Cacciatore"
   lore: 0
@@ -6504,7 +6509,7 @@
         zh: "115/204 ZH 10"
         ja: "115/204 JA 10"
         culture_invariant_id: 2304
-        sort_number: 365
+        sort_number: -2348
       rarity: uncommon
       illustrator: "Malia Ewart"
   lore: 1
@@ -6564,7 +6569,7 @@
         zh: "116/204 ZH 10"
         ja: "116/204 JA 10"
         culture_invariant_id: 2305
-        sort_number: 366
+        sort_number: -2347
       rarity: super_rare
       illustrator: "Randy Bishop"
   lore: 2
@@ -6622,7 +6627,7 @@
         zh: "117/204 ZH 10"
         ja: "117/204 JA 10"
         culture_invariant_id: 2306
-        sort_number: 367
+        sort_number: -2346
       rarity: super_rare
       illustrator: "Josh Black / Alejandro Hernandez"
   lore: 2
@@ -6682,7 +6687,7 @@
         zh: "118/204 ZH 10"
         ja: "118/204 JA 10"
         culture_invariant_id: 2307
-        sort_number: 368
+        sort_number: -2345
       rarity: legendary
       illustrator: "Amanda MacFarlane"
   lore: 2
@@ -6744,7 +6749,7 @@
         zh: "119/204 ZH 10"
         ja: "119/204 JA 10"
         culture_invariant_id: 2308
-        sort_number: 369
+        sort_number: -2344
       rarity: uncommon
       illustrator: "Max Grecke"
   lore: 1
@@ -6804,7 +6809,7 @@
         zh: "120/204 ZH 10"
         ja: "120/204 JA 10"
         culture_invariant_id: 2309
-        sort_number: 370
+        sort_number: -2343
       rarity: common
       illustrator: "Cam Kendell"
   lore: 1
@@ -6824,19 +6829,19 @@
     en: 
       name: "Brooklyn"
       title: "Second in Command"
-      flavour: "If they think we're beasts and monsters..."
+      flavour: "\"If they think we're beasts and monsters . . .\""
     fr: 
       name: "Brooklyn"
       title: "Bras droit"
-      flavour: "Si pour eux on est des sales bêtes et des monstres..."
+      flavour: "“Si pour eux on est des sales bêtes et des monstres...”"
     it: 
       name: "Brooklyn"
       title: "Secondo in Comando"
-      flavour: "Se pensano che siamo delle bestie e dei mostri..."
+      flavour: "“Se pensano che siamo delle bestie e dei mostri...”"
     de: 
       name: "Brooklyn"
       title: "Zweiter Befehlshaber"
-      flavour: "Wenn die uns für Bestien und Monster halten …"
+      flavour: "„Wenn die uns für Bestien und Monster halten …“"
   abilities: 
     - type: static
       title: 
@@ -6865,7 +6870,7 @@
         zh: "121/204 ZH 10"
         ja: "121/204 JA 10"
         culture_invariant_id: 2310
-        sort_number: 371
+        sort_number: -2342
       rarity: rare
       illustrator: "Lisa Parfenova"
   lore: 1
@@ -6925,7 +6930,7 @@
         zh: "122/204 ZH 10"
         ja: "122/204 JA 10"
         culture_invariant_id: 2311
-        sort_number: 372
+        sort_number: -2341
       rarity: rare
       illustrator: "Paloma Sauvage"
   lore: 1
@@ -6945,19 +6950,19 @@
     en: 
       name: "Elisa Maza"
       title: "Intrepid Investigator"
-      flavour: "Now, you can let me look the place over, or I can come back with a warrant and a lot more cops. Your call."
+      flavour: "\"Now, you can let me look the place over, or I can come back with a warrant and a lot more cops. Your call.\""
     fr: 
       name: "Elisa Maza"
       title: "Investigatrice intrépide"
-      flavour: "Alors, vous me laissez inspecter les lieux ou je reviens avec un mandat de perquisition et un renfort de police. À vous de choisir..."
+      flavour: "\"Alors, vous me laissez inspecter les lieux ou je reviens avec un mandat de perquisition et un renfort de police. À vous de choisir...\""
     it: 
       name: "Elisa Maza"
       title: "Investigatrice Intrepida"
-      flavour: "Ora, o mi lascia dare un'occhiata, oppure tornerò qui con un mandato e molti poliziotti. Decida lei."
+      flavour: "“Ora, o mi lascia dare un'occhiata, oppure tornerò qui con un mandato e molti poliziotti. Decida lei.”"
     de: 
       name: "Elisa Maza"
       title: "Unerschrockene Ermittlerin"
-      flavour: "Also, entweder Sie lassen mich jetzt dort hoch, oder ich hole mir Verstärkung und einen Durchsuchungsbefehl. Sie haben die Wahl."
+      flavour: "„Also, entweder Sie lassen mich jetzt dort hoch, oder ich hole mir Verstärkung und einen Durchsuchungsbefehl. Sie haben die Wahl.“"
   abilities: 
     - type: static
       title: 
@@ -6980,7 +6985,7 @@
         zh: "123/204 ZH 10"
         ja: "123/204 JA 10"
         culture_invariant_id: 2312
-        sort_number: 373
+        sort_number: -2340
       rarity: rare
       illustrator: "E. Melaranci / Mario O. Gabriele"
     - set: whi
@@ -6994,7 +6999,7 @@
         zh: "216/204 ZH 10"
         ja: "216/204 JA 10"
         culture_invariant_id: 2405
-        sort_number: 466
+        sort_number: -2247
       rarity: epic
       illustrator: "E. Melaranci / Mario O. Gabriele"
   lore: 0
@@ -7060,7 +7065,7 @@
         zh: "124/204 ZH 10"
         ja: "124/204 JA 10"
         culture_invariant_id: 2313
-        sort_number: 374
+        sort_number: -2339
       rarity: super_rare
       illustrator: "Mariana Moreno"
     - set: whi
@@ -7074,7 +7079,7 @@
         zh: "233/204 ZH 10"
         ja: "233/204 JA 10"
         culture_invariant_id: 2422
-        sort_number: 483
+        sort_number: -2230
       rarity: enchanted
       illustrator: "Javi Salas"
   lore: 2
@@ -7133,7 +7138,7 @@
         zh: "125/204 ZH 10"
         ja: "125/204 JA 10"
         culture_invariant_id: 2314
-        sort_number: 375
+        sort_number: -2338
       rarity: legendary
       illustrator: "Andrew Chesworth"
     - set: whi
@@ -7147,7 +7152,7 @@
         zh: "232/204 ZH 10"
         ja: "232/204 JA 10"
         culture_invariant_id: 2421
-        sort_number: 482
+        sort_number: -2231
       rarity: enchanted
       illustrator: "Rubin Chung"
   lore: 2
@@ -7205,7 +7210,7 @@
         zh: "126/204 ZH 10"
         ja: "126/204 JA 10"
         culture_invariant_id: 2315
-        sort_number: 376
+        sort_number: -2337
       rarity: uncommon
       illustrator: "Nicoletta Baldari / Raquel Villanueva"
     - set: whi
@@ -7219,7 +7224,7 @@
         zh: "215/204 ZH 10"
         ja: "215/204 JA 10"
         culture_invariant_id: 2404
-        sort_number: 465
+        sort_number: -2248
       rarity: epic
       illustrator: "Nicoletta Baldari / Raquel Villanueva"
   lore: 1
@@ -7252,6 +7257,13 @@
       name: "Mulan"
       title: "Steht ihre Frau"
       flavour: ""
+  abilities: 
+    - type: static
+      title: 
+        en: "FLOWING BLADE"
+      text: 
+        en: "During your turn, if you've put a card under one of your characters or locations this turn, this character takes no damage from challenges."
+      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -7267,7 +7279,7 @@
         zh: "127/204 ZH 10"
         ja: "127/204 JA 10"
         culture_invariant_id: 2316
-        sort_number: 377
+        sort_number: -2336
       rarity: common
       illustrator: "Aisha Durmagambetova"
   lore: 1
@@ -7285,19 +7297,19 @@
     en: 
       name: "Brom Bones"
       title: "Burly Bully"
-      flavour: "Hold on, schoolmaster! That’s a mighty big book. Let me take that for you!"
+      flavour: "“Hold on, schoolmaster! That’s a mighty big book. Let me take that for you!”"
     fr: 
       name: "Brom Bones"
       title: "Solide gaillard"
-      flavour: "Minute, le maître d'école! C'est un bien gros livre, ça! Je vais m'en charger pour toi!"
+      flavour: "\"Minute, le maître d'école ! C'est un bien gros livre, ça ! Je vais m'en charger pour toi !\""
     it: 
       name: "Brom Bones"
       title: "Robusto Bullo"
-      flavour: "Fermo lì, maestro! Quello è un bel librone pesante. Lascia che lo prenda io!"
+      flavour: "“Fermo lì, maestro! Quello è un bel librone pesante. Lascia che lo prenda io!”"
     de: 
       name: "Brom Bones"
       title: "Stämmiger Raufbold"
-      flavour: "Moment mal, Schulmeister! Das ist ein sehr dickes Buch. Lass mich das für dich nehmen!"
+      flavour: "„Moment mal, Schulmeister! Das ist ein sehr dickes Buch. Lass mich das für dich nehmen!“"
   abilities: 
     - type: static-triggered
       title: 
@@ -7319,7 +7331,7 @@
         zh: "128/204 ZH 10"
         ja: "128/204 JA 10"
         culture_invariant_id: 2317
-        sort_number: 378
+        sort_number: -2335
       rarity: rare
       illustrator: "Roger Pérez"
   lore: 2
@@ -7378,7 +7390,7 @@
         zh: "129/204 ZH 10"
         ja: "129/204 JA 10"
         culture_invariant_id: 2318
-        sort_number: 379
+        sort_number: -2334
       rarity: rare
       illustrator: "Simone Buonfantino"
     - set: whi
@@ -7392,7 +7404,7 @@
         zh: "234/204 ZH 10"
         ja: "234/204 JA 10"
         culture_invariant_id: 2423
-        sort_number: 484
+        sort_number: -2229
       rarity: enchanted
       illustrator: "Tomek Pietrzyk"
   cost: 2
@@ -7445,7 +7457,7 @@
         zh: "130/204 ZH 10"
         ja: "130/204 JA 10"
         culture_invariant_id: 2319
-        sort_number: 380
+        sort_number: -2333
       rarity: rare
       illustrator: "Sebastian Lozano"
   cost: 1
@@ -7462,7 +7474,7 @@
     fr: 
       name: "Vite, à l'abri !"
       title: ""
-      flavour: "Fuyez, en panique si vous voulez, mais dans tous les cas, FUYEZ!"
+      flavour: "Fuyez, en panique si vous voulez, mais dans tous les cas, FUYEZ !"
     it: 
       name: "Mettiti in Salvo!"
       title: ""
@@ -7492,7 +7504,7 @@
         zh: "131/204 ZH 10"
         ja: "131/204 JA 10"
         culture_invariant_id: 2320
-        sort_number: 381
+        sort_number: -2332
       rarity: uncommon
       illustrator: "Matthew Robert Davies"
   cost: 3
@@ -7505,19 +7517,19 @@
     en: 
       name: "Time to Go!"
       title: ""
-      flavour: "What are you doing here when there's a rogue horseman out there? Have you lost your head? —Gaston"
+      flavour: "\"What are you doing here when there's a rogue horseman out there? Have you lost your head?\"\n—Gaston"
     fr: 
       name: "Il est temps de partir !"
       title: ""
-      flavour: "Que fais-tu ici alors qu'un cavalier fou rôde dans les parages ? As-tu perdu la tête ?\n—Gaston"
+      flavour: "\"Que fais-tu ici alors qu'un cavalier fou rôde dans les parages ? As-tu perdu la tête ?\"\n—Gaston"
     it: 
       name: "È ora di Andare!"
       title: ""
-      flavour: "Cosa fai qui mentre là fuori c'è un cavaliere ribelle in libertà? Hai perso la testa?\n—Gaston"
+      flavour: "“Cosa fai qui mentre là fuori c'è un cavaliere ribelle in libertà? Hai perso la testa?”\n—Gaston"
     de: 
       name: "Zeit, zu gehen!"
       title: ""
-      flavour: "Was machst du hier, wenn da draußen ein berüchtigter Reiter sein Unwesen treibt? Bist du jetzt auch kopflos?\n–Gaston"
+      flavour: "„Was machst du hier, wenn da draußen ein berüchtigter Reiter sein Unwesen treibt? Bist du jetzt auch kopflos?“\n–Gaston"
   abilities: 
     - type: resolution
       title: 
@@ -7539,7 +7551,7 @@
         zh: "132/204 ZH 10"
         ja: "132/204 JA 10"
         culture_invariant_id: 2321
-        sort_number: 382
+        sort_number: -2331
       rarity: common
       illustrator: "Sara Storino"
   cost: 4
@@ -7586,7 +7598,7 @@
         zh: "134/204 ZH 10"
         ja: "134/204 JA 10"
         culture_invariant_id: 2323
-        sort_number: 384
+        sort_number: -2329
       rarity: uncommon
       illustrator: "Brookes Eggleston"
   cost: 1
@@ -7638,7 +7650,7 @@
         zh: "135/204 ZH 10"
         ja: "135/204 JA 10"
         culture_invariant_id: 2324
-        sort_number: 385
+        sort_number: -2328
       rarity: rare
       illustrator: "Maximilien Borie"
   lore: 1
@@ -7688,7 +7700,7 @@
         zh: "136/204 ZH 10"
         ja: "136/204 JA 10"
         culture_invariant_id: 2325
-        sort_number: 386
+        sort_number: -2327
       rarity: uncommon
       illustrator: "Jimmy Lo"
   lore: 0
@@ -7739,7 +7751,7 @@
         zh: "137/204 ZH 10"
         ja: "137/204 JA 10"
         culture_invariant_id: 2326
-        sort_number: 387
+        sort_number: -2326
       rarity: uncommon
       illustrator: "Andrew Chesworth"
   lore: 1
@@ -7759,19 +7771,19 @@
     en: 
       name: "Judy Hopps"
       title: "On the Case"
-      flavour: "More torn lorebook pages! Who could have done this?"
+      flavour: "\"More torn lorebook pages! Who could have done this?\""
     fr: 
       name: "Judy Hopps"
       title: "Sur l'affaire"
-      flavour: "Encore des pages de livres de Lore déchirées ! Qui a bien pu faire ça ?"
+      flavour: "\"Encore des pages de livres de Lore déchirées ! Qui a bien pu faire ça ?\""
     it: 
       name: "Judy Hopps"
       title: "Impegnata sul Caso"
-      flavour: "Altre pagine strappate di un libro di leggenda! Chi può essere stato?"
+      flavour: "“Altre pagine strappate di un libro di leggenda! Chi può essere stato?”"
     de: 
       name: "Judy Hopps"
       title: "Am Fall dran"
-      flavour: "Noch mehr lose Seiten aus dem Legendenbuch! Wer könnte das getan haben?"
+      flavour: "„Noch mehr lose Seiten aus dem Legendenbuch! Wer könnte das getan haben?“"
   abilities: 
     - type: resolution
       title: 
@@ -7793,7 +7805,7 @@
         zh: "138/204 ZH 10"
         ja: "138/204 JA 10"
         culture_invariant_id: 2327
-        sort_number: 388
+        sort_number: -2325
       rarity: common
       illustrator: "Kapik"
   lore: 1
@@ -7812,19 +7824,19 @@
     en: 
       name: "Hen Wen"
       title: "Prophetic Pig"
-      flavour: "She’s a <special> pig, Taran. —Dallben"
+      flavour: "“She’s a <special> pig, Taran.”\n—Dallben"
     fr: 
       name: "Tirelire"
       title: "Cochon oracle"
-      flavour: "Ce cochon là n'est pas comme les autres.\n—Dalben"
+      flavour: "\"Ce cochon là n'est pas comme les autres.\"\n—Dalben"
     it: 
       name: "Ewy"
       title: "Maialina Profetica"
-      flavour: "Questo è un maiale <speciale>, Taron.\n—Dallben"
+      flavour: "“Questo è un maiale <speciale>, Taron.”\n—Dallben"
     de: 
       name: "Hen Wen"
       title: "Hellseherisches Schwein"
-      flavour: "Das ist ein ganz <besonderes> Schwein, Taran.\n–Dallben"
+      flavour: "„Das ist ein ganz <besonderes> Schwein, Taran.“\n–Dallben"
   abilities: 
     - type: static-triggered
       title: 
@@ -7846,7 +7858,7 @@
         zh: "139/204 ZH 10"
         ja: "139/204 JA 10"
         culture_invariant_id: 2328
-        sort_number: 389
+        sort_number: -2324
       rarity: common
       illustrator: "Pauline Voss"
   lore: 2
@@ -7866,19 +7878,19 @@
     en: 
       name: "Anna"
       title: "Making Snow Plans"
-      flavour: "Come on—there’s tons to do! Skating and snow forts and sledding and hot chocolate!"
+      flavour: "“Come on—there’s tons to do! Skating and snow forts and sledding and hot chocolate!”"
     fr: 
       name: "Anna"
       title: "Planifie son hiver"
-      flavour: "Allez, il y a plein de choses à faire ! On peut faire du patin à glace, des igloos, du traîneau et du chocolat chaud!"
+      flavour: "\"Allez, il y a plein de choses à faire ! On peut faire du patin à glace, des igloos, du traîneau et du chocolat chaud !\""
     it: 
       name: "Anna"
       title: "Organizzatrice di Attività Nevose"
-      flavour: "Andiamo! Ci sono un sacco di cose da fare! Pattinare, costruire fortini di neve, andare sullo slittino e bere cioccolata calda!"
+      flavour: "“Andiamo! Ci sono un sacco di cose da fare! Pattinare, costruire fortini di neve, andare sullo slittino e bere cioccolata calda!”"
     de: 
       name: "Anna"
       title: "Macht Pläne für den Schnee"
-      flavour: "Komm schon, es gibt jede Menge zu tun! Schlittschuhlaufen, Schneeburgen bauen, Schlittenfahren und heißen Kakao trinken!"
+      flavour: "„Komm schon, es gibt jede Menge zu tun! Schlittschuhlaufen, Schneeburgen bauen, Schlittenfahren und heißen Kakao trinken!“"
   abilities: 
     - type: static
       title: 
@@ -7901,7 +7913,7 @@
         zh: "140/204 ZH 10"
         ja: "140/204 JA 10"
         culture_invariant_id: 2329
-        sort_number: 390
+        sort_number: -2323
       rarity: uncommon
       illustrator: "Alibeth Zermeno"
   lore: 3
@@ -7919,19 +7931,19 @@
     en: 
       name: "Chef Louis"
       title: "In Over His Head"
-      flavour: "When added to a clear soup, the pale, triple-pointed leaves of Trispiritus can have a restorative effect. CAUTION: DO NOT confuse it with Three Thorns, which causes itchy rashes. —Hana’s Herborium"
+      flavour: "“When added to a clear soup, the pale, triple-pointed leaves of Trispiritus can have a restorative effect. CAUTION: DO NOT confuse it with Three Thorns, which causes itchy rashes.”\n—Hana’s Herborium"
     fr: 
       name: "Chef Louis"
       title: "Dépassé par la situation"
-      flavour: "Les feuilles pointues et pâles de Trispiritus peuvent avoir un effet revitalisant lorsqu'on les ajoute à un bouillon clair. ATTENTION : NE PAS confondre cette plante avec la Trois-Épines, qui cause des démangeaisons.\n—L'herbier de Hana"
+      flavour: "\"Les feuilles pointues et pâles de Trispiritus peuvent avoir un effet revitalisant lorsqu'on les ajoute à un bouillon clair. ATTENTION : NE PAS confondre cette plante avec la Trois-Épines, qui cause des démangeaisons.\"\n—L'herbier de Hana"
     it: 
       name: "Chef Louis"
       title: "Con l'Acqua alla Gola"
-      flavour: "Se aggiunte a una zuppa limpida, le foglie pallide e a tre punte del Trispiritus possono avere effetti ricostituenti. ATTENZIONE: da NON confondere con il Tre Spine, che causa irritazioni e prurito.\n—Herborium di Hana"
+      flavour: "“Se aggiunte a una zuppa limpida, le foglie pallide e a tre punte del Trispiritus possono avere effetti ricostituenti. ATTENZIONE: da NON confondere con il Tre Spine, che causa irritazioni e prurito.”\n—Herborium di Hana"
     de: 
       name: "Chef Louis"
       title: "Überfordert"
-      flavour: "Die blassen, dreizackigen Blätter von Trispiritus können, in eine klare Suppe gegeben, eine heilende Wirkung haben. ACHTUNG: NICHT mit den Dreidornblättern verwechseln, diese verursachen juckende Hautausschläge.\n–Hanas Herbarium"
+      flavour: "„Die blassen, dreizackigen Blätter von Trispiritus können, in eine klare Suppe gegeben, eine heilende Wirkung haben. ACHTUNG: NICHT mit den Dreidornblättern verwechseln, diese verursachen juckende Hautausschläge.“\n–Hanas Herbarium"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -7947,7 +7959,7 @@
         zh: "141/204 ZH 10"
         ja: "141/204 JA 10"
         culture_invariant_id: 2330
-        sort_number: 391
+        sort_number: -2322
       rarity: common
       illustrator: "Alan Batson"
     - set: whi
@@ -7961,7 +7973,7 @@
         zh: "217/204 ZH 10"
         ja: "217/204 JA 10"
         culture_invariant_id: 2406
-        sort_number: 467
+        sort_number: -2246
       rarity: epic
       illustrator: "Alan Batson"
   lore: 1
@@ -7981,19 +7993,19 @@
     en: 
       name: "Daisy Duck"
       title: "Ghost Finder"
-      flavour: "If I'm reading this right, these aren't actually ghosts at all! Boy, you're lucky I came along on this one."
+      flavour: "\"If I'm reading this right, these aren't actually ghosts at all! Boy, you're lucky I came along on this one.\""
     fr: 
       name: "Daisy"
       title: "Traqueuse de fantômes"
-      flavour: "Si j'en crois le signal, ce ne sont absolument pas des fantômes! Vous avez de la chance que je sois venue sur ce coup-là."
+      flavour: "\"Si j'en crois le signal, ce ne sont absolument pas des fantômes ! Vous avez de la chance que je sois venue sur ce coup-là.\""
     it: 
       name: "Paperina"
       title: "Cercatrice di Fantasmi"
-      flavour: "Se ho capito bene, questi non sono davvero dei fantasmi! Diamine, siete davvero fortunati che mi sia unita a voi in quest'avventura."
+      flavour: "“Se ho capito bene, questi non sono davvero dei fantasmi! Diamine, siete davvero fortunati che mi sia unita a voi in quest'avventura.”"
     de: 
       name: "Daisy Duck"
       title: "Geistersucherin"
-      flavour: "Wenn ich das richtig sehe, sind das gar keine Geister! Junge, hast du ein Glück, dass ich dabei war."
+      flavour: "„Wenn ich das richtig sehe, sind das gar keine Geister! Junge, hast du ein Glück, dass ich dabei war.“"
   abilities: 
     - type: static
       title: 
@@ -8016,7 +8028,7 @@
         zh: "142/204 ZH 10"
         ja: "142/204 JA 10"
         culture_invariant_id: 2331
-        sort_number: 392
+        sort_number: -2321
       rarity: common
       illustrator: "Kapik"
   lore: 1
@@ -8035,19 +8047,19 @@
     en: 
       name: "Cri-Kee"
       title: "Good Luck Charm"
-      flavour: "Small glimmers may feel safe in the jungle around the Mysterious Ruins, where they can easily go unnoticed. —Hana’s Herborium"
+      flavour: "“Small glimmers may feel safe in the jungle around the Mysterious Ruins, where they can easily go unnoticed.” \n—Hana’s Herborium"
     fr: 
       name: "Cri-Kee"
       title: "Charme de chance"
-      flavour: "Les petits Glimmers peuvent se sentir en sécurité dans la jungle bordant les Ruines Mystérieuses ; ils peuvent facilement y passer inaperçus.\n—L'herbier de Hana"
+      flavour: "\"Les petits Glimmers peuvent se sentir en sécurité dans la jungle bordant les Ruines Mystérieuses ; ils peuvent facilement y passer inaperçus.\"\n—L'herbier de Hana"
     it: 
       name: "Cri-Cri"
       title: "Portafortuna"
-      flavour: "I glimmers più piccoli possono sentirsi al sicuro nella giungla attorno alle Rovine Misteriose, dove riescono facilmente a passare inosservati.\n—Herborium di Hana"
+      flavour: "“I glimmers più piccoli possono sentirsi al sicuro nella giungla attorno alle Rovine Misteriose, dove riescono facilmente a passare inosservati.”\n—Herborium di Hana"
     de: 
       name: "Kriki"
       title: "Glücksbringer"
-      flavour: "Kleine Glimmer fühlen sich im Dschungel um die mysteriösen Ruinen vermutlich sicherer, da sie dort leichter unentdeckt bleiben können.\n–Hanas Herbarium"
+      flavour: "„Kleine Glimmer fühlen sich im Dschungel um die mysteriösen Ruinen vermutlich sicherer, da sie dort leichter unentdeckt bleiben können.“\n–Hanas Herbarium"
   abilities: 
     - type: static
       title: 
@@ -8070,7 +8082,7 @@
         zh: "143/204 ZH 10"
         ja: "143/204 JA 10"
         culture_invariant_id: 2332
-        sort_number: 393
+        sort_number: -2320
       rarity: common
       illustrator: "Mariana Moreno"
   lore: 2
@@ -8090,19 +8102,19 @@
     en: 
       name: "Rapunzel"
       title: "Creative Captor"
-      flavour: "Well, <that> should slow you down for a minute."
+      flavour: "\"Well, <that> should slow you down for a minute.\""
     fr: 
       name: "Raiponce"
       title: "Capture créative"
-      flavour: "Eh bien, voilà qui devrait te ralentir un moment."
+      flavour: "\"Eh bien, voilà qui devrait te ralentir un moment.\""
     it: 
       name: "Rapunzel"
       title: "Carceriera Creativa"
-      flavour: "Beh, <questo> dovrebbe rallentarti per un po'."
+      flavour: "“Beh, <questo> dovrebbe rallentarti per un po'.”"
     de: 
       name: "Rapunzel"
       title: "Kreative Fängerin"
-      flavour: "Nun, <das> sollte dich für eine Weile aufhalten."
+      flavour: "„Nun, <das> sollte dich für eine Weile aufhalten.“"
   abilities: 
     - type: resolution
       title: 
@@ -8124,7 +8136,7 @@
         zh: "144/204 ZH 10"
         ja: "144/204 JA 10"
         culture_invariant_id: 2333
-        sort_number: 394
+        sort_number: -2319
       rarity: common
       illustrator: "Kenneth Anderson"
   lore: 2
@@ -8143,19 +8155,19 @@
     en: 
       name: "Fergus McDuck"
       title: "Scrooge's Father"
-      flavour: "Ach, close the secret entrance! You're letting all the mysterious air out!"
+      flavour: "“Ach, close the secret entrance! You're letting all the mysterious air out!\""
     fr: 
       name: "Fergus Mac Picsou"
       title: "Père de Balthazar"
-      flavour: "Pff, ferme l'entrée secrète ! Tu laisses sortir tout cet air empli de mystère !"
+      flavour: "\"Pff, ferme l'entrée secrète ! Tu laisses sortir tout cet air empli de mystère !\""
     it: 
       name: "Fergus de' Paperoni"
       title: "Padre di Paperone"
-      flavour: "Diamine! Chiudete l'ingresso segreto! State facendo uscire tutta l'aria misteriosa!"
+      flavour: "“Diamine! Chiudete l'ingresso segreto! State facendo uscire tutta l'aria misteriosa!”"
     de: 
       name: "Dietbert Duck"
       title: "Dagoberts Vater"
-      flavour: "Aaah, mach den geheimen Eingang zu! Ihr lasst die ganze geheimnisvolle Luft raus!"
+      flavour: "„Aaah, mach den geheimen Eingang zu! Ihr lasst die ganze geheimnisvolle Luft raus!“"
   abilities: 
     - type: resolution
       title: 
@@ -8177,7 +8189,7 @@
         zh: "145/204 ZH 10"
         ja: "145/204 JA 10"
         culture_invariant_id: 2334
-        sort_number: 395
+        sort_number: -2318
       rarity: common
       illustrator: "Kasia Brzezinska"
   lore: 2
@@ -8225,7 +8237,7 @@
         zh: "146/204 ZH 10"
         ja: "146/204 JA 10"
         culture_invariant_id: 2335
-        sort_number: 396
+        sort_number: -2317
       rarity: common
       illustrator: "Veronica Di Lorenzo / Livio Cacciatore"
   lore: 2
@@ -8245,19 +8257,19 @@
     en: 
       name: "Genie"
       title: "Investigative Mind"
-      flavour: "You know, most books are a lot more compelling when you read the pages in order..."
+      flavour: "\"You know, most books are a lot more compelling when you read the pages in order . . .\""
     fr: 
       name: "Génie"
       title: "Esprit d'investigation"
-      flavour: "Vous savez, la plupart des livres sont bien plus intéressants quand on lit les pages dans l'ordre..."
+      flavour: "\"Vous savez, la plupart des livres sont bien plus intéressants quand on lit les pages dans l'ordre...\""
     it: 
       name: "Genio"
       title: "Mente Indagatrice"
-      flavour: "Sai, di solito i libri sono molto più avvincenti quando leggi le pagine nel giusto ordine..."
+      flavour: "“Sai, di solito i libri sono molto più avvincenti quando leggi le pagine nel giusto ordine...”"
     de: 
       name: "Dschinni"
       title: "Forschergeist"
-      flavour: "Weißt du, die meisten Bücher sind viel fesselnder, wenn man die Seiten in der richtigen Reihenfolge liest …"
+      flavour: "„Weißt du, die meisten Bücher sind viel fesselnder, wenn man die Seiten in der richtigen Reihenfolge liest …“"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -8273,7 +8285,7 @@
         zh: "147/204 ZH 10"
         ja: "147/204 JA 10"
         culture_invariant_id: 2336
-        sort_number: 397
+        sort_number: -2316
       rarity: uncommon
       illustrator: "Kendall Hale"
   lore: 2
@@ -8292,19 +8304,19 @@
     en: 
       name: "Scuttle"
       title: "Birdbrained"
-      flavour: "Whoa! The wind's all of a sudden on the move here."
+      flavour: "“Whoa! The wind's all of a sudden on the move here.”"
     fr: 
       name: "Eurêka"
       title: "Tête de linotte"
-      flavour: "Ouah ! Le vent se lève. J'aurais dû prendre un chandail !"
+      flavour: "\"Ouah ! Le vent se lève. J'aurais dû prendre un chandail !\""
     it: 
       name: "Scuttle"
       title: "Cervello di Gallina"
-      flavour: "Wow! Il vento ha deciso di rovinarci la crociera."
+      flavour: "“Wow! Il vento ha deciso di rovinarci la crociera.”"
     de: 
       name: "Scuttle"
       title: "Spatzenhirn"
-      flavour: "Ooh! Da braut sich aber ’ne ziemlich steife Brise zusammen."
+      flavour: "„Ooh! Da braut sich aber ’ne ziemlich steife Brise zusammen.“"
   abilities: 
     - type: static
       title: 
@@ -8327,7 +8339,7 @@
         zh: "148/204 ZH 10"
         ja: "148/204 JA 10"
         culture_invariant_id: 2337
-        sort_number: 398
+        sort_number: -2315
       rarity: rare
       illustrator: "Ismael González-Granero / Casey Jo Ocean"
   lore: 2
@@ -8380,7 +8392,7 @@
         zh: "149/204 ZH 10"
         ja: "149/204 JA 10"
         culture_invariant_id: 2338
-        sort_number: 399
+        sort_number: -2314
       rarity: uncommon
       illustrator: "Shannon Hallstein"
     - set: p3
@@ -8394,7 +8406,7 @@
         zh: "26/P3 ZH 10"
         ja: "26/P3 JA 10"
         culture_invariant_id: 2447
-        sort_number: 494
+        sort_number: -2219
       rarity: special
       illustrator: "Shannon Hallstein"
   lore: 2
@@ -8454,7 +8466,7 @@
         zh: "150/204 ZH 10"
         ja: "150/204 JA 10"
         culture_invariant_id: 2339
-        sort_number: 400
+        sort_number: -2313
       rarity: rare
       illustrator: "Kurokuma"
     - set: whi
@@ -8468,7 +8480,7 @@
         zh: "235/204 ZH 10"
         ja: "235/204 JA 10"
         culture_invariant_id: 2424
-        sort_number: 485
+        sort_number: -2228
       rarity: enchanted
       illustrator: "Slawomir Maniak"
   lore: 2
@@ -8535,7 +8547,7 @@
         zh: "151/204 ZH 10"
         ja: "151/204 JA 10"
         culture_invariant_id: 2340
-        sort_number: 401
+        sort_number: -2312
       rarity: rare
       illustrator: "Victor \"Yano\" Covarrubias"
   lore: 2
@@ -8583,7 +8595,7 @@
         zh: "152/204 ZH 10"
         ja: "152/204 JA 10"
         culture_invariant_id: 2341
-        sort_number: 402
+        sort_number: -2311
       rarity: uncommon
       illustrator: "Laura Galiano"
   lore: 2
@@ -8602,19 +8614,19 @@
     en: 
       name: "Ichabod Crane"
       title: "Scared Out of His Mind"
-      flavour: "Every small detail in Brom’s awful story returned to haunt his recollection. —Narrator"
+      flavour: "“Every small detail in Brom’s awful story returned to haunt his recollection.” \n—Narrator"
     fr: 
       name: "Ichabod Crane"
       title: "Saisi d'une peur bleue"
-      flavour: "Et chaque petit détail des horribles histoires de Brom revenait hanter sa mémoire.\n—Narrateur"
+      flavour: "\"Et chaque petit détail des horribles histoires de Brom revenait hanter sa mémoire.\"\n—Narrateur"
     it: 
       name: "Ichabod Crane"
       title: "Spaventato a Morte"
-      flavour: "Ogni più piccolo particolare della spaventosa storia di Brom lo ossessionava senza tregua.\n—Narratore"
+      flavour: "“Ogni più piccolo particolare della spaventosa storia di Brom lo ossessionava senza tregua.”\n—Narratore"
     de: 
       name: "Ichabod Crane"
       title: "Zu tiefst verängstigt"
-      flavour: "Jede kleine Einzelheit von Broms schrecklicher Geschichte spukte durch seinen armen Kopf.\n–Erzähler"
+      flavour: "„Jede kleine Einzelheit von Broms schrecklicher Geschichte spukte durch seinen armen Kopf.“\n–Erzähler"
   abilities: 
     - type: static-triggered
       title: 
@@ -8636,7 +8648,7 @@
         zh: "153/204 ZH 10"
         ja: "153/204 JA 10"
         culture_invariant_id: 2342
-        sort_number: 403
+        sort_number: -2310
       rarity: super_rare
       illustrator: "Lisanne Koeteeuw"
     - set: p3
@@ -8650,7 +8662,7 @@
         zh: "21/P3 ZH 10"
         ja: "21/P3 JA 10"
         culture_invariant_id: 2442
-        sort_number: 500
+        sort_number: -2213
       rarity: special
       illustrator: "Lisanne Koeteeuw"
   lore: 2
@@ -8709,7 +8721,7 @@
         zh: "154/204 ZH 10"
         ja: "154/204 JA 10"
         culture_invariant_id: 2343
-        sort_number: 404
+        sort_number: -2309
       rarity: legendary
       illustrator: "Grace Tran"
     - set: p3
@@ -8723,7 +8735,7 @@
         zh: "23/P3 ZH 10"
         ja: "23/P3 JA 10"
         culture_invariant_id: 2444
-        sort_number: 502
+        sort_number: -2211
       rarity: special
       illustrator: "Grace Tran"
     - set: p3
@@ -8737,7 +8749,7 @@
         zh: "24/P3 ZH 10"
         ja: "24/P3 JA 10"
         culture_invariant_id: 2445
-        sort_number: 503
+        sort_number: -2210
       rarity: enchanted
       illustrator: "Grace Tran"
   lore: 2
@@ -8803,7 +8815,7 @@
         zh: "155/204 ZH 10"
         ja: "155/204 JA 10"
         culture_invariant_id: 2344
-        sort_number: 405
+        sort_number: -2308
       rarity: legendary
       illustrator: "Brittney Hackett"
     - set: whi
@@ -8817,7 +8829,7 @@
         zh: "236/204 ZH 10"
         ja: "236/204 JA 10"
         culture_invariant_id: 2425
-        sort_number: 486
+        sort_number: -2227
       rarity: enchanted
       illustrator: "LadyShalirin"
   lore: 1
@@ -8871,7 +8883,7 @@
         zh: "156/204 ZH 10"
         ja: "156/204 JA 10"
         culture_invariant_id: 2345
-        sort_number: 406
+        sort_number: -2307
       rarity: super_rare
       illustrator: "Jennifer Park"
   lore: 1
@@ -8930,7 +8942,7 @@
         zh: "157/204 ZH 10"
         ja: "157/204 JA 10"
         culture_invariant_id: 2346
-        sort_number: 407
+        sort_number: -2306
       rarity: uncommon
       illustrator: "Liz Richards"
   lore: 1
@@ -8983,7 +8995,7 @@
         zh: "158/204 ZH 10"
         ja: "158/204 JA 10"
         culture_invariant_id: 2347
-        sort_number: 408
+        sort_number: -2305
       rarity: rare
       illustrator: "Lisa Parfenova"
   lore: 1
@@ -9042,7 +9054,7 @@
         zh: "159/204 ZH 10"
         ja: "159/204 JA 10"
         culture_invariant_id: 2348
-        sort_number: 409
+        sort_number: -2304
       rarity: rare
       illustrator: "Alejandro Hernandez"
     - set: whi
@@ -9056,7 +9068,7 @@
         zh: "218/204 ZH 10"
         ja: "218/204 JA 10"
         culture_invariant_id: 2407
-        sort_number: 468
+        sort_number: -2245
       rarity: epic
       illustrator: "Alejandro Hernandez"
   lore: 2
@@ -9115,7 +9127,7 @@
         zh: "161/204 ZH 10"
         ja: "161/204 JA 10"
         culture_invariant_id: 2350
-        sort_number: 411
+        sort_number: -2302
       rarity: common
       illustrator: "Victor \"Yano\" Covarrubias"
   cost: 1
@@ -9128,19 +9140,19 @@
     en: 
       name: "Hen Wen's Visions"
       title: ""
-      flavour: "Hen Wen, from you I do beseech Knowledge that lies beyond my reach... —Taran"
+      flavour: "“Hen Wen, from you I do beseech\nKnowledge that lies beyond my reach . . .\"\n—Taran"
     fr: 
       name: "Visions de Tirelire"
       title: ""
-      flavour: "Tirelire, je t'implore de bien vouloir\nM'accorder un savoir au-delà de mes pouvoirs\n—Taram"
+      flavour: "\"Tirelire, je t'implore de bien vouloir\nM'accorder un savoir au-delà de mes pouvoirs\"\n—Taram"
     it: 
       name: "Visioni di Ewy"
       title: ""
-      flavour: "Ewy, adesso devo chiederti una verità\nche va oltre qualsiasi mia capacità...\n—Taron"
+      flavour: "“Ewy, adesso devo chiederti una verità\nche va oltre qualsiasi mia capacità...”\n—Taron"
     de: 
       name: "Hen Wens Visionen"
       title: ""
-      flavour: "Hen Wen, ich flehe dich inständig an.\nSage mir, was ich nicht wissen kann …\n–Taran"
+      flavour: "„Hen Wen, ich flehe dich inständig an.\nSage mir, was ich nicht wissen kann …“\n–Taran"
   abilities: 
     - type: resolution
       title: 
@@ -9162,7 +9174,7 @@
         zh: "162/204 ZH 10"
         ja: "162/204 JA 10"
         culture_invariant_id: 2351
-        sort_number: 412
+        sort_number: -2301
       rarity: common
       illustrator: "Greez"
   cost: 2
@@ -9175,19 +9187,19 @@
     en: 
       name: "Promising Lead"
       title: ""
-      flavour: "The books on these pages match up with those shelves. And the ley lines... The answer's right here! —Judy Hopps"
+      flavour: "“The books on these pages match up with those shelves. And the ley lines . . . The answer's right here!\"\n—Judy Hopps"
     fr: 
       name: "Piste prometteuse"
       title: ""
-      flavour: "Les livres sur ces pages correspondent à ces étagères. Et les lignes ley... La réponse se trouve ici!\n—Judy Hopps"
+      flavour: "\"Les livres sur ces pages correspondent à ces étagères. Et les lignes ley... La réponse se trouve ici !\"\n—Judy Hopps"
     it: 
       name: "Pista Promettente"
       title: ""
-      flavour: "I libri su queste pagine corrispondono a quegli scaffali. E le linee di potere... La risposta è proprio qui!\n—Judy Hopps"
+      flavour: "“I libri su queste pagine corrispondono a quegli scaffali. E le linee di potere... La risposta è proprio qui!”\n—Judy Hopps"
     de: 
       name: "Vielversprechender Hinweis"
       title: ""
-      flavour: "Die Bücher auf diesen Seiten stimmen mit den Regalen überein. Und die Ley-Linien … Die Antwort ist genau hier!\n–Judy Hopps"
+      flavour: "„Die Bücher auf diesen Seiten stimmen mit den Regalen überein. Und die Ley-Linien … Die Antwort ist genau hier!“\n–Judy Hopps"
   abilities: 
     - type: resolution
       title: 
@@ -9209,7 +9221,7 @@
         zh: "163/204 ZH 10"
         ja: "163/204 JA 10"
         culture_invariant_id: 2352
-        sort_number: 413
+        sort_number: -2300
       rarity: uncommon
       illustrator: "Rachel Elese"
   cost: 4
@@ -9258,7 +9270,7 @@
         zh: "164/204 ZH 10"
         ja: "164/204 JA 10"
         culture_invariant_id: 2353
-        sort_number: 414
+        sort_number: -2299
       rarity: uncommon
       illustrator: "Federico Maria Cugliari"
     - set: whi
@@ -9272,7 +9284,7 @@
         zh: "219/204 ZH 10"
         ja: "219/204 JA 10"
         culture_invariant_id: 2408
-        sort_number: 469
+        sort_number: -2244
       rarity: epic
       illustrator: "Federico Maria Cugliari"
   cost: 4
@@ -9319,7 +9331,7 @@
         zh: "165/204 ZH 10"
         ja: "165/204 JA 10"
         culture_invariant_id: 2354
-        sort_number: 415
+        sort_number: -2298
       rarity: rare
       illustrator: "Mariana Moreno"
     - set: whi
@@ -9333,7 +9345,7 @@
         zh: "237/204 ZH 10"
         ja: "237/204 JA 10"
         culture_invariant_id: 2426
-        sort_number: 487
+        sort_number: -2226
       rarity: enchanted
       illustrator: "Grzegorz Krysiński"
   cost: 6
@@ -9346,19 +9358,19 @@
     en: 
       name: "Spooky Sight"
       title: ""
-      flavour: "We've got to get out of here! —Mickey Mouse"
+      flavour: "\"We've got to get out of here!\" \n—Mickey Mouse"
     fr: 
       name: "Apparition effrayante"
       title: ""
-      flavour: "Il faut qu'on parte d'ici!\n—Mickey Mouse"
+      flavour: "\"Il faut qu'on parte d'ici !\"\n—Mickey Mouse"
     it: 
       name: "Visione Inquietante"
       title: ""
-      flavour: "Dobbiamo andarcene da qui!\n—Topolino"
+      flavour: "“Dobbiamo andarcene da qui!”\n—Topolino"
     de: 
       name: "Schauriger Anblick"
       title: ""
-      flavour: "Wir müssen hier raus!\n–Micky Maus"
+      flavour: "„Wir müssen hier raus!“\n–Micky Maus"
   abilities: 
     - type: resolution
       title: 
@@ -9380,7 +9392,7 @@
         zh: "166/204 ZH 10"
         ja: "166/204 JA 10"
         culture_invariant_id: 2355
-        sort_number: 416
+        sort_number: -2297
       rarity: common
       illustrator: "Svetlozara Nikolova"
   cost: 1
@@ -9393,19 +9405,19 @@
     en: 
       name: "Detective's Badge"
       title: ""
-      flavour: "It's not just a badge. It's who we are. There's no greater honor. —Detective Judy Hopps"
+      flavour: "\"It's not just a badge. It's who we are. There's no greater honor.\"\n—Detective Judy Hopps"
     fr: 
       name: "Badge de police"
       title: ""
-      flavour: "Ce n'est pas juste un badge. Il représente qui on est. Il n'y a pas plus grand honneur.\n—Détective Judy Hopps"
+      flavour: "\"Ce n'est pas juste un badge. Il représente qui on est. Il n'y a pas plus grand honneur.\"\n—Détective Judy Hopps"
     it: 
       name: "Distintivo da Detective"
       title: ""
-      flavour: "Non è un semplice distintivo. È ciò che siamo. Non esiste onore più grande.\n—Detective Judy Hopps"
+      flavour: "“Non è un semplice distintivo. È ciò che siamo. Non esiste onore più grande.”\n—Detective Judy Hopps"
     de: 
       name: "Dienstmarke"
       title: ""
-      flavour: "Es ist nicht nur eine Marke. Es ist das, was wir sind. Es gibt keine größere Ehre.\n–Detektivin Judy Hopps"
+      flavour: "„Es ist nicht nur eine Marke. Es ist das, was wir sind. Es gibt keine größere Ehre.“\n–Detektivin Judy Hopps"
   abilities: 
     - type: activated
       title: 
@@ -9427,7 +9439,7 @@
         zh: "167/204 ZH 10"
         ja: "167/204 JA 10"
         culture_invariant_id: 2356
-        sort_number: 417
+        sort_number: -2296
       rarity: rare
       illustrator: "Pany Bubble"
   cost: 3
@@ -9474,7 +9486,7 @@
         zh: "168/204 ZH 10"
         ja: "168/204 JA 10"
         culture_invariant_id: 2357
-        sort_number: 418
+        sort_number: -2295
       rarity: super_rare
       illustrator: "Aurélie Lise-Anne"
   cost: 2
@@ -9521,7 +9533,7 @@
         zh: "169/204 ZH 10"
         ja: "169/204 JA 10"
         culture_invariant_id: 2358
-        sort_number: 419
+        sort_number: -2294
       rarity: uncommon
       illustrator: "Jeremy Adams"
   cost: 2
@@ -9573,7 +9585,7 @@
         zh: "170/204 ZH 10"
         ja: "170/204 JA 10"
         culture_invariant_id: 2359
-        sort_number: 420
+        sort_number: -2293
       rarity: rare
       illustrator: "Alyssa Lee"
   lore: 0
@@ -9624,7 +9636,7 @@
         zh: "171/204 ZH 10"
         ja: "171/204 JA 10"
         culture_invariant_id: 2360
-        sort_number: 421
+        sort_number: -2292
       rarity: rare
       illustrator: "Stefano Spagnuolo"
     - set: whi
@@ -9638,7 +9650,7 @@
         zh: "221/204 ZH 10"
         ja: "221/204 JA 10"
         culture_invariant_id: 2410
-        sort_number: 471
+        sort_number: -2242
       rarity: epic
       illustrator: "Stefano Spagnuolo"
   lore: 2
@@ -9697,7 +9709,7 @@
         zh: "172/204 ZH 10"
         ja: "172/204 JA 10"
         culture_invariant_id: 2361
-        sort_number: 422
+        sort_number: -2291
       rarity: common
       illustrator: "Carmine Cassese"
   lore: 1
@@ -9717,19 +9729,19 @@
     en: 
       name: "Donald Duck"
       title: "Ghost Hunter"
-      flavour: "Let's show those rotten ghosts who's in charge! You go first."
+      flavour: "\"Let's show those rotten ghosts who's in charge! You go first.\""
     fr: 
       name: "Donald"
       title: "Chasseur de fantômes"
-      flavour: "Montrons à ces maudits fantômes qui commande! Toi, vas-y en premier."
+      flavour: "\"Montrons à ces maudits fantômes qui commande ! Toi, vas-y en premier.\""
     it: 
       name: "Paperino"
       title: "Cacciatore di Fantasmi"
-      flavour: "Facciamo vedere a quei maledetti fantasmi chi è che comanda! Inizia tu."
+      flavour: "“Facciamo vedere a quei maledetti fantasmi chi è che comanda! Inizia tu.”"
     de: 
       name: "Donald Duck"
       title: "Geisterjäger"
-      flavour: "Zeigen wir diesen miesen Geistern, wer hier das Sagen hat! Du gehst vor."
+      flavour: "„Zeigen wir diesen miesen Geistern, wer hier das Sagen hat! Du gehst vor.“"
   abilities: 
     - type: resolution
       title: 
@@ -9751,7 +9763,7 @@
         zh: "173/204 ZH 10"
         ja: "173/204 JA 10"
         culture_invariant_id: 2362
-        sort_number: 423
+        sort_number: -2290
       rarity: legendary
       illustrator: "Valerio Buonfantino"
     - set: whi
@@ -9765,7 +9777,7 @@
         zh: "238/204 ZH 10"
         ja: "238/204 JA 10"
         culture_invariant_id: 2427
-        sort_number: 488
+        sort_number: -2225
       rarity: enchanted
       illustrator: "Mariana \"mu\" Galiano"
   lore: 2
@@ -9830,7 +9842,7 @@
         zh: "174/204 ZH 10"
         ja: "174/204 JA 10"
         culture_invariant_id: 2363
-        sort_number: 424
+        sort_number: -2289
       rarity: super_rare
       illustrator: "Marcel Berg"
   lore: 2
@@ -9889,7 +9901,7 @@
         zh: "175/204 ZH 10"
         ja: "175/204 JA 10"
         culture_invariant_id: 2364
-        sort_number: 425
+        sort_number: -2288
       rarity: common
       illustrator: "SGeer"
   lore: 2
@@ -9944,7 +9956,7 @@
         zh: "176/204 ZH 10"
         ja: "176/204 JA 10"
         culture_invariant_id: 2365
-        sort_number: 426
+        sort_number: -2287
       rarity: common
       illustrator: "Sandra Rios"
   lore: 1
@@ -9999,7 +10011,7 @@
         zh: "177/204 ZH 10"
         ja: "177/204 JA 10"
         culture_invariant_id: 2366
-        sort_number: 427
+        sort_number: -2286
       rarity: common
       illustrator: "SOWSOW"
   lore: 1
@@ -10019,19 +10031,19 @@
     en: 
       name: "Inspector Tezuka"
       title: "Resolute Officer"
-      flavour: "Stand back. I'll handle this. —Inspector Tezuka"
+      flavour: "\"Stand back. I'll handle this.\"\n—Inspector Tezuka"
     fr: 
       name: "Inspectrice Tezuka"
       title: "Officière résolue"
-      flavour: "Reste derrière moi. Je m'en occupe.\n—Inspectrice Tezuka"
+      flavour: "\"Reste derrière moi. Je m'en occupe.\"\n—Inspectrice Tezuka"
     it: 
       name: "Ispettrice Tezuka"
       title: "Agente Risoluta"
-      flavour: "Indietro. Ci penso io.\n—Ispettrice Tezuka"
+      flavour: "“Indietro. Ci penso io.”\n—Ispettrice Tezuka"
     de: 
       name: "Inspektorin Tezuka"
       title: "Beharrliche Polizistin"
-      flavour: "Bleib zurück. Ich kümmere mich darum.\n–Inspektorin Tezuka"
+      flavour: "„Bleib zurück. Ich kümmere mich darum.“\n–Inspektorin Tezuka"
   abilities: 
     - type: static
       title: 
@@ -10054,7 +10066,7 @@
         zh: "178/204 ZH 10"
         ja: "178/204 JA 10"
         culture_invariant_id: 2367
-        sort_number: 428
+        sort_number: -2285
       rarity: common
       illustrator: "Marta Andreeva"
   lore: 1
@@ -10074,19 +10086,19 @@
     en: 
       name: "Nick Wilde"
       title: "Sly Fox Sleuth"
-      flavour: "Okay, Nick, it's time to use those superior sleuthing skills to find a way out of this. Wait, why am I talking to myself?"
+      flavour: "\"Okay, Nick, it's time to use those superior sleuthing skills to find a way out of this. Wait, why am I talking to myself?\""
     fr: 
       name: "Nick Wilde"
       title: "Détective déterminé"
-      flavour: "Bon, Nick, il est temps de mettre à profit ces super compétences de détective pour se tirer de ce guêpier. Minute, pourquoi est-ce que je me parle à moi-même ?"
+      flavour: "\"Bon, Nick, il est temps de mettre à profit ces super compétences de détective pour se tirer de ce guêpier. Minute, pourquoi est-ce que je me parle à moi-même ?\""
     it: 
       name: "Nick Wilde"
       title: "Astuto Investigatore Volpe"
-      flavour: "Ok Nick, è il momento di usare le tue superiori abilità investigative per trovare una via d'uscita. Aspetta, perché sto parlando da solo?"
+      flavour: "“Ok Nick, è il momento di usare le tue superiori abilità investigative per trovare una via d'uscita. Aspetta, perché sto parlando da solo?”"
     de: 
       name: "Nick Wilde"
       title: "Schlauer Fuchs-Detektiv"
-      flavour: "Okay, Nick, es wird Zeit, deine überragenden Detektivfähigkeiten einzusetzen, um einen Ausweg aus dieser Situation zu finden. Warte, warum rede ich mit mir selbst?"
+      flavour: "„Okay, Nick, es wird Zeit, deine überragenden Detektivfähigkeiten einzusetzen, um einen Ausweg aus dieser Situation zu finden. Warte, warum rede ich mit mir selbst?“"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -10102,7 +10114,7 @@
         zh: "179/204 ZH 10"
         ja: "179/204 JA 10"
         culture_invariant_id: 2368
-        sort_number: 429
+        sort_number: -2284
       rarity: common
       illustrator: "Federico Maria Cugliari"
   lore: 2
@@ -10122,19 +10134,19 @@
     en: 
       name: "Basil"
       title: "Tenacious Mouse"
-      flavour: "It's time to make a stand!"
+      flavour: "\"It's time to make a stand!\""
     fr: 
       name: "Basil"
       title: "Souris tenace"
-      flavour: "Il est temps de faire front!"
+      flavour: "“Il est temps de faire front !”"
     it: 
       name: "Basil"
       title: "Topo Tenace"
-      flavour: "È ora di resistere!"
+      flavour: "“È ora di resistere!”"
     de: 
       name: "Basil"
       title: "Hartnäckige Maus"
-      flavour: "Es ist an der Zeit, sich zu wehren!"
+      flavour: "„Es ist an der Zeit, sich zu wehren!“"
   abilities: 
     - type: static-triggered
       title: 
@@ -10156,7 +10168,7 @@
         zh: "180/204 ZH 10"
         ja: "180/204 JA 10"
         culture_invariant_id: 2369
-        sort_number: 430
+        sort_number: -2283
       rarity: common
       illustrator: "Leonardo Giammichele"
   lore: 1
@@ -10216,7 +10228,7 @@
         zh: "181/204 ZH 10"
         ja: "181/204 JA 10"
         culture_invariant_id: 2370
-        sort_number: 431
+        sort_number: -2282
       rarity: common
       illustrator: "Brianna Garcia"
     - set: whi
@@ -10230,7 +10242,7 @@
         zh: "220/204 ZH 10"
         ja: "220/204 JA 10"
         culture_invariant_id: 2409
-        sort_number: 470
+        sort_number: -2243
       rarity: epic
       illustrator: "Brianna Garcia"
   lore: 1
@@ -10284,7 +10296,7 @@
         zh: "182/204 ZH 10"
         ja: "182/204 JA 10"
         culture_invariant_id: 2371
-        sort_number: 432
+        sort_number: -2281
       rarity: uncommon
       illustrator: "Mara Tango"
   lore: 1
@@ -10303,19 +10315,19 @@
     en: 
       name: "Black Heron"
       title: "Real Bad Egg"
-      flavour: "You may have bested me before, McDuck, but not this time!"
+      flavour: "\"You may have bested me before, McDuck, but not this time!\""
     fr: 
       name: "Le Héron noir"
       title: "Mauvaise graine"
-      flavour: "Tu m'as peut-être battue par le passé, Picsou, mais cette fois, je vais gagner !"
+      flavour: "\"Tu m'as peut-être battue par le passé, Picsou, mais cette fois, je vais gagner !\""
     it: 
       name: "Airone Nero"
       title: "Vera Mela Marcia"
-      flavour: "In passato mi hai anche battuto, de' Paperoni, ma stavolta no!"
+      flavour: "“In passato mi hai anche battuto, de' Paperoni, ma stavolta no!”"
     de: 
       name: "Spitzschnabel"
       title: "Faules Ei"
-      flavour: "Sie haben mich vielleicht zuvor besiegt, Duck, aber nicht dieses Mal!"
+      flavour: "„Sie haben mich vielleicht zuvor besiegt, Duck, aber nicht dieses Mal!“"
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
@@ -10331,7 +10343,7 @@
         zh: "183/204 ZH 10"
         ja: "183/204 JA 10"
         culture_invariant_id: 2372
-        sort_number: 433
+        sort_number: -2280
       rarity: uncommon
       illustrator: "Leonardo Giammichele"
   lore: 1
@@ -10392,7 +10404,7 @@
         zh: "184/204 ZH 10"
         ja: "184/204 JA 10"
         culture_invariant_id: 2373
-        sort_number: 434
+        sort_number: -2279
       rarity: uncommon
       illustrator: "Renato Roldan / Amanda Duarte"
   lore: 1
@@ -10411,19 +10423,19 @@
     en: 
       name: "David Xanatos"
       title: "Steel Clan Leader"
-      flavour: "A plan only fails when you don’t learn from it. And my plans never fail. —David Xanatos"
+      flavour: "“A plan only fails when you don’t learn from it. And my plans never fail.”\n—David Xanatos"
     fr: 
       name: "David Xanatos"
       title: "Leader du Clan d'Acier"
-      flavour: "Un plan n'échoue que si vous n'en tirez aucune leçon. Et mes plans n'échouent jamais.\n—David Xanatos"
+      flavour: "\"Un plan n'échoue que si vous n'en tirez aucune leçon. Et mes plans n'échouent jamais.\"\n—David Xanatos"
     it: 
       name: "David Xanatos"
       title: "Leader del Clan d'Acciaio"
-      flavour: "Un piano fallisce solo quando non impari niente da esso. E i miei piani non falliscono mai.\n—David Xanatos"
+      flavour: "“Un piano fallisce solo quando non impari niente da esso. E i miei piani non falliscono mai.”\n—David Xanatos"
     de: 
       name: "David Xanatos"
       title: "Stahl-Clan-Anführer"
-      flavour: "Ein Plan scheitert nur, wenn man nichts aus ihm lernt. Und meine Pläne scheitern nie.\n–David Xanatos"
+      flavour: "„Ein Plan scheitert nur, wenn man nichts aus ihm lernt. Und meine Pläne scheitern nie.“\n–David Xanatos"
   abilities: 
     - type: resolution
       title: 
@@ -10445,7 +10457,7 @@
         zh: "185/204 ZH 10"
         ja: "185/204 JA 10"
         culture_invariant_id: 2374
-        sort_number: 435
+        sort_number: -2278
       rarity: rare
       illustrator: "Marco Guadalupi"
   lore: 1
@@ -10504,7 +10516,7 @@
         zh: "186/204 ZH 10"
         ja: "186/204 JA 10"
         culture_invariant_id: 2375
-        sort_number: 436
+        sort_number: -2277
       rarity: common
       illustrator: "Hana Augustine"
   lore: 2
@@ -10523,19 +10535,19 @@
     en: 
       name: "The Twins"
       title: "Lost Boys"
-      flavour: "Hooray! A whole new forest to be lost in! Yeah, lost in!"
+      flavour: "\"Hooray! A whole new forest to be lost in!\"\n\"Yeah, lost in!\""
     fr: 
       name: "Les jumeaux"
       title: "Enfants perdus"
-      flavour: "Hourra ! Une nouvelle forêt dans laquelle se perdre !\n—Dans laquelle se perdre, youpi !"
+      flavour: "\"Hourra ! Une nouvelle forêt dans laquelle se perdre !\n—Dans laquelle se perdre, youpi !\""
     it: 
       name: "I Gemelli"
       title: "Bimbi Sperduti"
-      flavour: "Urrà! Un'intera nuova foresta in cui perdersi!\nSì! Perdersi!"
+      flavour: "“Urrà! Un'intera nuova foresta in cui perdersi!”\n“Sì! Perdersi!”"
     de: 
       name: "Die Zwillinge"
       title: "Verwunschene Kinder"
-      flavour: "Hurra! Ein ganz neuer Wald zum Verirren!\nJa, zum Verirren!"
+      flavour: "„Hurra! Ein ganz neuer Wald zum Verirren!“\n„Ja, zum Verirren!“"
   abilities: 
     - type: resolution
       title: 
@@ -10557,7 +10569,7 @@
         zh: "187/204 ZH 10"
         ja: "187/204 JA 10"
         culture_invariant_id: 2376
-        sort_number: 437
+        sort_number: -2276
       rarity: rare
       illustrator: "César Vergara / Alex Accorsi"
     - set: whi
@@ -10571,7 +10583,7 @@
         zh: "239/204 ZH 10"
         ja: "239/204 JA 10"
         culture_invariant_id: 2428
-        sort_number: 489
+        sort_number: -2224
       rarity: enchanted
       illustrator: "Slawomir Maniak"
   lore: 2
@@ -10631,7 +10643,7 @@
         zh: "188/204 ZH 10"
         ja: "188/204 JA 10"
         culture_invariant_id: 2377
-        sort_number: 438
+        sort_number: -2275
       rarity: rare
       illustrator: "Simone Giovanardi"
   lore: 1
@@ -10677,7 +10689,7 @@
         zh: "189/204 ZH 10"
         ja: "189/204 JA 10"
         culture_invariant_id: 2378
-        sort_number: 439
+        sort_number: -2274
       rarity: legendary
       illustrator: "Sara Storino"
   lore: 2
@@ -10738,7 +10750,7 @@
         zh: "190/204 ZH 10"
         ja: "190/204 JA 10"
         culture_invariant_id: 2379
-        sort_number: 440
+        sort_number: -2273
       rarity: uncommon
       illustrator: "Kuya Jaypi"
   lore: 2
@@ -10799,7 +10811,7 @@
         zh: "191/204 ZH 10"
         ja: "191/204 JA 10"
         culture_invariant_id: 2380
-        sort_number: 441
+        sort_number: -2272
       rarity: rare
       illustrator: "Lisa Parfenova"
   lore: 2
@@ -10857,7 +10869,7 @@
         zh: "192/204 ZH 10"
         ja: "192/204 JA 10"
         culture_invariant_id: 2381
-        sort_number: 442
+        sort_number: -2271
       rarity: super_rare
       illustrator: "Tania Soler"
   lore: 1
@@ -10918,7 +10930,7 @@
         zh: "193/204 ZH 10"
         ja: "193/204 JA 10"
         culture_invariant_id: 2382
-        sort_number: 443
+        sort_number: -2270
       rarity: uncommon
       illustrator: "Otto Paredes"
     - set: p3
@@ -10932,7 +10944,7 @@
         zh: "18/P3 ZH 10"
         ja: "18/P3 JA 10"
         culture_invariant_id: 2439
-        sort_number: 497
+        sort_number: -2216
       rarity: special
       illustrator: "Otto Paredes"
   lore: 2
@@ -10999,7 +11011,7 @@
         zh: "194/204 ZH 10"
         ja: "194/204 JA 10"
         culture_invariant_id: 2383
-        sort_number: 444
+        sort_number: -2269
       rarity: common
       illustrator: "Cristian Romero"
   lore: 1
@@ -11053,7 +11065,7 @@
         zh: "195/204 ZH 10"
         ja: "195/204 JA 10"
         culture_invariant_id: 2384
-        sort_number: 445
+        sort_number: -2268
       rarity: common
       illustrator: "Carlos Luzzi"
   cost: 1
@@ -11102,7 +11114,7 @@
         zh: "196/204 ZH 10"
         ja: "196/204 JA 10"
         culture_invariant_id: 2385
-        sort_number: 446
+        sort_number: -2267
       rarity: common
       illustrator: "Kevin Sidharta"
   cost: 2
@@ -11115,19 +11127,19 @@
     en: 
       name: "Putting It All Together"
       title: ""
-      flavour: "Okay, so the ghostly glimmers were first seen <here>, and the trail of torn lorebook pages started in <this> part of the Illuminary... —Judy Hopps"
+      flavour: "\"Okay, so the ghostly glimmers were first seen <here>, and the trail of torn lorebook pages started in <this> part of the Illuminary . . .\"\n—Judy Hopps"
     fr: 
       name: "Rassembler les indices"
       title: ""
-      flavour: "Bon, les Glimmers fantomatiques ont d'abord été vus ici... Et la piste des pages de livres de Lore déchirées a commencé dans cet endroit de l'Illuminarium...\n—Judy Hopps"
+      flavour: "\"Bon, les Glimmers fantomatiques ont d'abord été vus ici... Et la piste des pages de livres de Lore déchirées a commencé dans cet endroit de l'Illuminarium...\"\n—Judy Hopps"
     it: 
       name: "Unire gli Indizi"
       title: ""
-      flavour: "Ok, quindi i glimmers spettrali sono stati avvistati per la prima volta <qui>, mentre le prime tracce di pagine strappate sono iniziate in <questa> parte dell'Illuminarium...\n—Judy Hopps"
+      flavour: "“Ok, quindi i glimmers spettrali sono stati avvistati per la prima volta <qui>, mentre le prime tracce di pagine strappate sono iniziate in <questa> parte dell'Illuminarium...”\n—Judy Hopps"
     de: 
       name: "Alles zusammenfügen"
       title: ""
-      flavour: "Okay, die geisterhaften Glimmer wurden also <hier> zum ersten Mal gesehen, und die Spur der losen Buchseiten begann in <diesem> Teil des Illuminariums …\n–Judy Hopps"
+      flavour: "„Okay, die geisterhaften Glimmer wurden also <hier> zum ersten Mal gesehen, und die Spur der losen Buchseiten begann in <diesem> Teil des Illuminariums …“\n–Judy Hopps"
   abilities: 
     - type: resolution
       title: 
@@ -11149,7 +11161,7 @@
         zh: "197/204 ZH 10"
         ja: "197/204 JA 10"
         culture_invariant_id: 2386
-        sort_number: 447
+        sort_number: -2266
       rarity: uncommon
       illustrator: "Carlos Luzzi"
     - set: whi
@@ -11163,7 +11175,7 @@
         zh: "222/204 ZH 10"
         ja: "222/204 JA 10"
         culture_invariant_id: 2411
-        sort_number: 472
+        sort_number: -2241
       rarity: epic
       illustrator: "Carlos Luzzi"
   cost: 4
@@ -11217,7 +11229,7 @@
         zh: "198/204 ZH 10"
         ja: "198/204 JA 10"
         culture_invariant_id: 2387
-        sort_number: 448
+        sort_number: -2265
       rarity: uncommon
       illustrator: "Kevin Slawinski"
   cost: 2
@@ -11230,19 +11242,19 @@
     en: 
       name: "The Game's Afoot!"
       title: ""
-      flavour: "We've not a moment to lose! —Basil"
+      flavour: "\"We've not a moment to lose!\"\n—Basil"
     fr: 
       name: "Un complot se prépare"
       title: ""
-      flavour: "Il n’y a pas une seconde à perdre!\n—Basil"
+      flavour: "“Il n’y a pas une seconde à perdre !”\n—Basil"
     it: 
       name: "È il Momento di Agire!"
       title: ""
-      flavour: "Non abbiamo un momento da perdere!\n—Basil"
+      flavour: "“Non abbiamo un momento da perdere!”\n—Basil"
     de: 
       name: "Das Spiel ist im Gang!"
       title: ""
-      flavour: "Wir haben keine Zeit zu verlieren!\n–Basil"
+      flavour: "„Wir haben keine Zeit zu verlieren!“\n–Basil"
   abilities: 
     - type: resolution
       title: 
@@ -11264,7 +11276,7 @@
         zh: "199/204 ZH 10"
         ja: "199/204 JA 10"
         culture_invariant_id: 2388
-        sort_number: 449
+        sort_number: -2264
       rarity: uncommon
       illustrator: "Anne Neyens"
   cost: 1
@@ -11277,19 +11289,19 @@
     en: 
       name: "The Robot Queen"
       title: ""
-      flavour: "To our beloved Queen this gift we send, As her 60-year reign comes to an end. —Note delivered with the robot queen"
+      flavour: "\"To our beloved Queen this gift we send, \nAs her 60-year reign comes to an end.\"\n—Note delivered with the robot queen"
     fr: 
       name: "La Reine robot"
       title: ""
-      flavour: "À Sa Majesté tant aimée, dans l’espoir qu’elle daigne accepter ce cadeau qui couronne la fin de soixante ans de règne.\n—Note accompagnant la Reine Robot"
+      flavour: "“À Sa Majesté tant aimée, dans l’espoir qu’elle daigne accepter ce cadeau qui couronne la fin de soixante ans de règne.”\n—Note accompagnant la Reine Robot"
     it: 
       name: "La Regina Robot"
       title: ""
-      flavour: "Alla nostra adorata Regina: questo è il dono che le inviamo,\naugurandole per il suo sessantesimo anniversario un ossequioso addio.\n—Nota consegnata con la regina robot"
+      flavour: "“Alla nostra adorata Regina: questo è il dono che le inviamo,\naugurandole per il suo sessantesimo anniversario un ossequioso addio.”\n—Nota consegnata con la regina robot"
     de: 
       name: "Die Robo-Königin"
       title: ""
-      flavour: "Für unsere geliebte Königin, dieses Geschenk wir senden,\nda ihre 60 Jahre Herrschaft nunmehr enden.\n–Notiz an der Robo-Königin"
+      flavour: "„Für unsere geliebte Königin, dieses Geschenk wir senden,\nda ihre 60 Jahre Herrschaft nunmehr enden.“\n–Notiz an der Robo-Königin"
   abilities: 
     - type: static-triggered
       title: 
@@ -11311,7 +11323,7 @@
         zh: "200/204 ZH 10"
         ja: "200/204 JA 10"
         culture_invariant_id: 2389
-        sort_number: 450
+        sort_number: -2263
       rarity: rare
       illustrator: "Kamil Murzyn"
     - set: whi
@@ -11325,7 +11337,7 @@
         zh: "240/204 ZH 10"
         ja: "240/204 JA 10"
         culture_invariant_id: 2429
-        sort_number: 490
+        sort_number: -2223
       rarity: enchanted
       illustrator: "Alberto Dal Lago"
   cost: 2
@@ -11377,7 +11389,7 @@
         zh: "201/204 ZH 10"
         ja: "201/204 JA 10"
         culture_invariant_id: 2390
-        sort_number: 451
+        sort_number: -2262
       rarity: rare
       illustrator: "Kaitlin Cuthbertson"
   cost: 3
@@ -11429,7 +11441,7 @@
         zh: "202/204 ZH 10"
         ja: "202/204 JA 10"
         culture_invariant_id: 2391
-        sort_number: 452
+        sort_number: -2261
       rarity: super_rare
       illustrator: "Dave Mitcheson / Paul Hogg"
   lore: 1
@@ -11486,7 +11498,7 @@
         zh: "203/204 ZH 10"
         ja: "203/204 JA 10"
         culture_invariant_id: 2392
-        sort_number: 453
+        sort_number: -2260
       rarity: uncommon
       illustrator: "Kaitlin Cuthbertson"
   lore: 1
@@ -11536,7 +11548,7 @@
         zh: "204/204 ZH 10"
         ja: "204/204 JA 10"
         culture_invariant_id: 2393
-        sort_number: 454
+        sort_number: -2259
       rarity: rare
       illustrator: "Etienne Savoie"
   lore: 1

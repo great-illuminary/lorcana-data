@@ -21,7 +21,8 @@ enum class RawSet(
     ROJ("roj"),
     FAB("fab"),
     WHI("whi"),
-    WIN("win");
+    WIN("win"),
+    WUN("wun");
 
     @OptIn(ExperimentalResourceApi::class)
     private val loader = AbstractLoader(

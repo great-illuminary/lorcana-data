@@ -128,6 +128,8 @@ object LoadLorcanito {
             SetDescription.C2 -> "C2"
             SetDescription.Whi -> "010"
             SetDescription.Win -> "011"
+            SetDescription.Wun -> "012"
+            SetDescription.Dis -> "DIS"
         }
 
         return cardMap["${set}_$number"]

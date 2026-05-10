@@ -56,4 +56,10 @@ enum class SetDescription {
 
     @SerialName("win")
     Win,
+
+    @SerialName("wun")
+    Wun,
+
+    @SerialName("dis")
+    Dis,
 }
