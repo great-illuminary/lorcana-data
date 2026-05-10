@@ -119,7 +119,7 @@ data class LorcanitoCard(
                     try {
                         json?.let { res -> JsonDecode.decode(res) }
                     } catch(err: Throwable) {
-                        //TODO check this...
+                        // TODO check this...
                         err.printStackTrace()
                         null
                     }
