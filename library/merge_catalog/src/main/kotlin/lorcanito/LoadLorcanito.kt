@@ -40,38 +40,42 @@ object LoadLorcanito {
     }
 
     suspend fun load(): LoadLorcanito {
-        val cards = loadFromRemote()
+        try {
+            val cards = loadFromRemote()
 
-        val temp = VirtualFile(VirtualFile.Root, "lorcanito.json")
-        val actualCards = findCards(cards)?.jsonArray
-        if (true) {
-            temp.write(json.encodeToString(actualCards).toByteArray())
-        } else {
-            temp.write(json.encodeToString(cards.jsonArray).toByteArray())
-        }
-        println(temp.absolutePath)
-
-        val result = json.encodeToString(actualCards)
-
-        val mapped = json.parseToJsonElement(result)
-        val finalCards = mutableListOf<LorcanitoCard>()
-        mapped.jsonArray.forEach { card ->
-            if (card is JsonObject) {
-                finalCards.add(json.decodeFromJsonElement(card))
+            val temp = VirtualFile(VirtualFile.Root, "lorcanito.json")
+            val actualCards = findCards(cards)?.jsonArray
+            if (true) {
+                temp.write(json.encodeToString(actualCards).toByteArray())
             } else {
-                // something like $5:props:children:props:children:1:props:loading:props:cards:228
-                val id = card.jsonPrimitive.content.split(":").last().toInt()
-                val actualCard = finalCards[id]
-                println(actualCard)
-                finalCards.add(actualCard)
+                temp.write(json.encodeToString(cards.jsonArray).toByteArray())
             }
+            println(temp.absolutePath)
+
+            val result = json.encodeToString(actualCards)
+
+            val mapped = json.parseToJsonElement(result)
+            val finalCards = mutableListOf<LorcanitoCard>()
+            mapped.jsonArray.forEach { card ->
+                if (card is JsonObject) {
+                    finalCards.add(json.decodeFromJsonElement(card))
+                } else {
+                    // something like $5:props:children:props:children:1:props:loading:props:cards:228
+                    val id = card.jsonPrimitive.content.split(":").last().toInt()
+                    val actualCard = finalCards[id]
+                    println(actualCard)
+                    finalCards.add(actualCard)
+                }
+            }
+
+            // val finalCards: List<LorcanitoCard> = json.decodeFromString(result)
+
+            finalCards.forEach { cardMap["${it.set}_${it.number}"] = it }
+
+            internalCards = finalCards
+        } catch(err: Throwable) {
+            err.printStackTrace()
         }
-
-        // val finalCards: List<LorcanitoCard> = json.decodeFromString(result)
-
-        finalCards.forEach { cardMap["${it.set}_${it.number}"] = it }
-
-        internalCards = finalCards
         return this
     }
 
@@ -130,6 +134,7 @@ object LoadLorcanito {
             SetDescription.Win -> "011"
             SetDescription.Wun -> "012"
             SetDescription.Dis -> "DIS"
+            SetDescription.Atv -> "013"
         }
 
         return cardMap["${set}_$number"]
