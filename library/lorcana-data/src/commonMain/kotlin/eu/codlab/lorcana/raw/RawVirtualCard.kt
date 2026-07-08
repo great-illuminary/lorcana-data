@@ -54,12 +54,8 @@ data class RawVirtualCard(
         lore = lore,
         type = type,
         classifications = classifications.map { slug ->
-            try {
-                mapOfClassifications[slug]!!
-            } catch (err: Throwable) {
-                println("Exception thrown because $slug couldn't be mapped")
-                throw err
-            }
+            mapOfClassifications[slug]
+                ?: throw IllegalStateException("Exception thrown because $slug couldn't be mapped")
         },
         illustrator = illustrator,
         languages = languages,
