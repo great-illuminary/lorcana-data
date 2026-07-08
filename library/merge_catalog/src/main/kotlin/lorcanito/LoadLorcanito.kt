@@ -39,6 +39,7 @@ object LoadLorcanito {
         it.parseToJsonElement(left)
     }
 
+    @Suppress("TooGenericExceptionCaught")
     suspend fun load(): LoadLorcanito {
         try {
             val cards = loadFromRemote()
@@ -73,8 +74,8 @@ object LoadLorcanito {
             finalCards.forEach { cardMap["${it.set}_${it.number}"] = it }
 
             internalCards = finalCards
-        } catch(err: Throwable) {
-            err.printStackTrace()
+        } catch (_: Throwable) {
+            // nothing
         }
         return this
     }

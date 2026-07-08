@@ -74,7 +74,7 @@ data class LorcanitoCard(
         throw IllegalStateException("Couldn't decode $characteristics")
     }
 
-    @Suppress("ComplexMethod", "ReturnCount", "ThrowsCount")
+    @Suppress("ComplexMethod", "ReturnCount", "ThrowsCount", "TooGenericExceptionCaught")
     fun actualAbilities(): List<LorcanitoAbility> {
         if (null == abilities) return emptyList()
 
@@ -118,7 +118,7 @@ data class LorcanitoCard(
                 } else {
                     try {
                         json?.let { res -> JsonDecode.decode(res) }
-                    } catch(err: Throwable) {
+                    } catch (err: Throwable) {
                         // TODO check this...
                         err.printStackTrace()
                         null
