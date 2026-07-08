@@ -362,7 +362,7 @@ suspend fun prepareEmpty(
 
     val list = mutableListOf<RawVirtualCard>()
     @Suppress("ForEachOnRange", "MagicNumber")
-    (1..204).forEach { index ->
+    (1..count).forEach { index ->
         list.add(
             RawVirtualCard(
                 variants = listOf(

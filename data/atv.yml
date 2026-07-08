@@ -10149,3 +10149,129 @@
   franchise_id: ""
   rotation_states: 
     - infinity_constructed
+- variants: 
+    - set: atv
+      id: 205
+      dreamborn: "013-205"
+      ravensburger: 
+        en: "205/207 EN 13"
+        fr: "205/207 FR 13"
+        de: "205/207 DE 13"
+        it: "205/207 IT 13"
+        zh: "205/207 ZH 13"
+        ja: "205/207 JA 13"
+        culture_invariant_id: 3176
+        sort_number: -3033
+      rarity: uncommon
+      illustrator: "Lissette Carrera"
+  cost: 3
+  inkwell: true
+  colors: 
+    - steel
+  type: item
+  illustrator: "Lissette Carrera"
+  languages: 
+    en: 
+      name: "The Weedwhacker"
+      title: ""
+      flavour: ""
+    fr: 
+      name: "La débroussailleuse"
+      title: ""
+      flavour: ""
+    it: 
+      name: "Il Diserbatore"
+      title: ""
+      flavour: ""
+    de: 
+      name: "Der Unkrautvernichter"
+      title: ""
+      flavour: ""
+  franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
+- variants: 
+    - set: atv
+      id: 206
+      dreamborn: "013-206"
+      ravensburger: 
+        en: "206/207 EN 13"
+        fr: "206/207 FR 13"
+        de: "206/207 DE 13"
+        it: "206/207 IT 13"
+        zh: "206/207 ZH 13"
+        ja: "206/207 JA 13"
+        culture_invariant_id: 3177
+        sort_number: -3032
+      rarity: uncommon
+      illustrator: "Andrew Peña / Sergio Mancinelli"
+  cost: 2
+  inkwell: false
+  colors: 
+    - steel
+  type: item
+  illustrator: "Andrew Peña / Sergio Mancinelli"
+  languages: 
+    en: 
+      name: "Absorbing Bloom"
+      title: ""
+      flavour: "\"Oh, this is fascinating! How does it do that?\"\n—Hana, an Illumineer"
+    fr: 
+      name: "Fleur absorbante"
+      title: ""
+      flavour: "“Oh, c'est fascinant ! Comment fait-elle ça ?”\n—Hana, une Illumineuse"
+    it: 
+      name: "Infiorescenza Assorbente"
+      title: ""
+      flavour: "“Oh, affascinante! Come ci riesce?”\n—Hana, un'Illuminatrice"
+    de: 
+      name: "Absorbierende Blume"
+      title: ""
+      flavour: "„Oh, das ist faszinierend! Wie funktioniert das?“\n—Hana, eine Luminari"
+  franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
+- variants: 
+    - set: atv
+      id: 207
+      dreamborn: "013-207"
+      ravensburger: 
+        en: "207/207 EN 13"
+        fr: "207/207 FR 13"
+        de: "207/207 DE 13"
+        it: "207/207 IT 13"
+        zh: "207/207 ZH 13"
+        ja: "207/207 JA 13"
+        culture_invariant_id: 3178
+        sort_number: -3031
+      rarity: rare
+      illustrator: "Douglas De La Hoz"
+  lore: 1
+  cost: 3
+  inkwell: true
+  move_cost: 1
+  defence: 7
+  colors: 
+    - steel
+  type: location
+  illustrator: "Douglas De La Hoz"
+  languages: 
+    en: 
+      name: "Vine Entrance"
+      title: "Ominous Passageway"
+      flavour: ""
+    fr: 
+      name: "Entrée de la Plante"
+      title: "Passage inquiétant"
+      flavour: ""
+    it: 
+      name: "Ingresso del Viticcio"
+      title: "Passaggio Nefasto"
+      flavour: ""
+    de: 
+      name: "Rankeneingang"
+      title: "Unheilvoller Durchgang"
+      flavour: ""
+  franchise_id: ""
+  rotation_states: 
+    - infinity_constructed
