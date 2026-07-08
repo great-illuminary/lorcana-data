@@ -139,6 +139,15 @@ enum class Classification(private val rawSlug: String? = null) {
 
     @SerialName("monster")
     Monster,
+
+    @SerialName("red_panda")
+    RedPanda("red_panda"),
+
+    @SerialName("vineling")
+    Vineling,
+
+    @SerialName("team")
+    Team,
     ;
 
     val slug: String

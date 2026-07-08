@@ -64,5 +64,11 @@ enum class SetDescription {
     Dis,
 
     @SerialName("atv")
-    Atv,
+    AtV,
+
+    @SerialName("pd1")
+    Pd1,
+
+    @SerialName("p4")
+    P4,
 }

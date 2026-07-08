@@ -73,7 +73,7 @@ private suspend fun load() {
     prepareEmpty(rootProject, "roj", 8, SetDescription.Roj, "008")
     prepareEmpty(rootProject, "win", 11, SetDescription.Win, "011")
     prepareEmpty(rootProject, "wun", 12, SetDescription.Wun, "012")
-    prepareEmpty(rootProject, "atv", 12, SetDescription.Atv, "013")
+    prepareEmpty(rootProject, "atv", 13, SetDescription.AtV, "013", 207)
 
     runBlocking {
         LoadOfficialData(rootProject).also { it.loadLanguages() }
@@ -350,7 +350,8 @@ suspend fun prepareEmpty(
     set: String,
     setId: Int,
     setDescription: SetDescription,
-    dreamborn: String
+    dreamborn: String,
+    count: Int = 204
 ) {
     val file = VirtualFile(rootProject.absolutePath, "data/$set.yml")
     println("having file -> ${file.absolutePath}")
@@ -370,12 +371,12 @@ suspend fun prepareEmpty(
                         id = index,
                         dreamborn = "$dreamborn-${index.toString().padStart(3, '0')}",
                         ravensburger = Ravensburger(
-                            en = "$index/204 EN $setId",
-                            fr = "$index/204 FR $setId",
-                            it = "$index/204 IT $setId",
-                            de = "$index/204 DE $setId",
-                            zh = "$index/204 ZH $setId",
-                            ja = "$index/204 JA $setId",
+                            en = "$index/$count EN $setId",
+                            fr = "$index/$count FR $setId",
+                            it = "$index/$count IT $setId",
+                            de = "$index/$count DE $setId",
+                            zh = "$index/$count ZH $setId",
+                            ja = "$index/$count JA $setId",
                             cultureInvariantId = -1,
                             sortNumber = -1
                         ),
