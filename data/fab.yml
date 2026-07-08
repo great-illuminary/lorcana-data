@@ -10,7 +10,7 @@
         zh: "1/204 ZH 9"
         ja: "1/204 JA 9"
         culture_invariant_id: 1937
-        sort_number: -2208
+        sort_number: -2214
       rarity: rare
       illustrator: "Eri Welli"
     - set: p3
@@ -24,7 +24,7 @@
         zh: "3/P3 ZH 9"
         ja: "3/P3 JA 9"
         culture_invariant_id: 2181
-        sort_number: -1960
+        sort_number: -1964
       rarity: special
       illustrator: "Eri Welli"
     - set: fab
@@ -38,7 +38,7 @@
         zh: "205/204 ZH 9"
         ja: "205/204 JA 9"
         culture_invariant_id: 2159
-        sort_number: -2004
+        sort_number: -2010
       rarity: epic
       illustrator: "Eri Welli"
   lore: 1
@@ -72,18 +72,6 @@
       name: "Die Königin"
       title: "Eingebildete Herrscherin"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
-    - type: static-triggered
-      title: 
-        en: "ROYAL SUMMONS"
-      text: 
-        en: "At the start of your turn, you may choose and discard a Princess or Queen character card to return a character card from your discard to your hand"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -100,7 +88,7 @@
         zh: "4/204 ZH 9"
         ja: "4/204 JA 9"
         culture_invariant_id: 1940
-        sort_number: -2205
+        sort_number: -2211
       rarity: rare
       illustrator: "Grace Tran"
     - set: fab
@@ -114,7 +102,7 @@
         zh: "224/204 ZH 9"
         ja: "224/204 JA 9"
         culture_invariant_id: 2142
-        sort_number: -1985
+        sort_number: -1991
       rarity: enchanted
       illustrator: "Ian MacDonald"
     - set: p3
@@ -128,7 +116,7 @@
         zh: "40/P3 ZH 9"
         ja: "40/P3 JA 9"
         culture_invariant_id: 2461
-        sort_number: -1961
+        sort_number: -1967
       rarity: special
       illustrator: "Grace Tran"
   lore: 1
@@ -161,19 +149,6 @@
       name: "Biest"
       title: "Anmutiger Prinz"
       flavour: "Ihm wurde warm ums Herz, als die Musik einsetzte und die Tänzer ihre Plätze einnahmen."
-  abilities: 
-    - type: static
-      title: 
-        en: "FULL DANCE CARD"
-      text: 
-        en: "Your Princess characters get +1 {W}"
-      ability: "effects"
-    - type: static
-      title: 
-        en: "FULL DANCE CARD"
-      text: 
-        en: "Your Princess characters get +1 {S}"
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -190,7 +165,7 @@
         zh: "5/204 ZH 9"
         ja: "5/204 JA 9"
         culture_invariant_id: 1941
-        sort_number: -2204
+        sort_number: -2210
       rarity: super_rare
       illustrator: "Ellie Horie"
     - set: fab
@@ -204,7 +179,7 @@
         zh: "241/204 ZH 9"
         ja: "241/204 JA 9"
         culture_invariant_id: 2177
-        sort_number: -1968
+        sort_number: -1974
       rarity: iconic
       illustrator: "Alice Pisoni"
   lore: 2
@@ -237,18 +212,6 @@
       name: "Minnie Maus"
       title: "Geliebte Prinzessin"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Dexterous Lunge"
-      text: 
-        en: "Your characters named Jetsam gain **Rush.**"
-      ability: "gain-ability"
-    - type: static-triggered
-      title: 
-        en: "BYE BYE, NOW"
-      text: 
-        en: "Whenever this character quests, you may banish chosen exerted character with 5 {S} or more."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -265,7 +228,7 @@
         zh: "6/204 ZH 9"
         ja: "6/204 JA 9"
         culture_invariant_id: 1942
-        sort_number: -2203
+        sort_number: -2209
       rarity: uncommon
       illustrator: "Jeanne Plounevez"
     - set: fab
@@ -279,7 +242,7 @@
         zh: "206/204 ZH 9"
         ja: "206/204 JA 9"
         culture_invariant_id: 2160
-        sort_number: -2003
+        sort_number: -2009
       rarity: epic
       illustrator: "Jeanne Plounevez"
   lore: 1
@@ -312,12 +275,6 @@
       name: "Aurora"
       title: "Hält Hof"
       flavour: "Die anderen Prinzessinnen freuten sich besonders, an ihrer lang erwarteten Feier teilzunehmen."
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "ROYAL WELCOME"
-      text: 
-        en: "Whenever this character quests, you pay 1 {I} less for the next Princess or Queen character you play this turn."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -334,7 +291,7 @@
         zh: "26/204 ZH 9"
         ja: "26/204 JA 9"
         culture_invariant_id: 1962
-        sort_number: -2183
+        sort_number: -2189
       rarity: legendary
       illustrator: "Eri Welli"
     - set: fab
@@ -348,7 +305,7 @@
         zh: "225/204 ZH 9"
         ja: "225/204 JA 9"
         culture_invariant_id: 2143
-        sort_number: -1984
+        sort_number: -1990
       rarity: enchanted
       illustrator: "Alice Pisoni"
   cost: 8
@@ -376,18 +333,6 @@
       name: "Der ewige Kreis"
       title: ""
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "sing-together"
-      text: 
-        en: "**Sing Together** 8 _(Any number of your of your teammates' characters with total cost 8 or more may {E} to sing this song for free.)_"
-      ability: "sing-together"
-    - type: resolution
-      title: 
-        en: "**CIRCLE OF LIFE**"
-      text: 
-        en: "Play a character from your discard for free."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -404,7 +349,7 @@
         zh: "44/204 ZH 9"
         ja: "44/204 JA 9"
         culture_invariant_id: 1980
-        sort_number: -2165
+        sort_number: -2171
       rarity: super_rare
       illustrator: "Max Ulichney"
   lore: 1
@@ -437,12 +382,6 @@
       name: "Ursula"
       title: "Stimmendiebin"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "$undefined"
-      text: 
-        en: "$undefined"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -459,7 +398,7 @@
         zh: "45/204 ZH 9"
         ja: "45/204 JA 9"
         culture_invariant_id: 1981
-        sort_number: -2164
+        sort_number: -2170
       rarity: legendary
       illustrator: "Mariana Moreno"
     - set: fab
@@ -473,7 +412,7 @@
         zh: "228/204 ZH 9"
         ja: "228/204 JA 9"
         culture_invariant_id: 2146
-        sort_number: -1981
+        sort_number: -1987
       rarity: enchanted
       illustrator: "Anna Stosik"
   lore: 1
@@ -505,24 +444,6 @@
       name: "Dumbo"
       title: "Das neunte Weltwunder"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: activated
-      title: 
-        en: "BREAKING RECORDS"
-      text: 
-        en: "{E}, 1 {I} – If you have 2 or more characters in play, gain 1 lore."
-    - type: static
-      title: 
-        en: "MAKING HISTORY"
-      text: 
-        en: "Your other characters with Evasive gain ``{E}, 1 {I} – Draw a card and gain 1 lore.``"
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -539,7 +460,7 @@
         zh: "46/204 ZH 9"
         ja: "46/204 JA 9"
         culture_invariant_id: 1982
-        sort_number: -2163
+        sort_number: -2169
       rarity: uncommon
       illustrator: "Sandara Tang"
     - set: p3
@@ -553,7 +474,7 @@
         zh: "1/P3 ZH 9"
         ja: "1/P3 JA 9"
         culture_invariant_id: 2179
-        sort_number: -1966
+        sort_number: -1972
       rarity: special
       illustrator: "Sandara Tang"
   lore: 1
@@ -585,18 +506,6 @@
       name: "Dumbo"
       title: "Der fliegende Elefant"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: resolution
-      title: 
-        en: "AERIAL DUO"
-      text: 
-        en: "When you play this character, chosen character gains Evasive until the start of your next turn."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -613,7 +522,7 @@
         zh: "47/204 ZH 9"
         ja: "47/204 JA 9"
         culture_invariant_id: 1983
-        sort_number: -2162
+        sort_number: -2168
       rarity: common
       illustrator: "Grace Tran"
   lore: 1
@@ -645,13 +554,6 @@
       name: "Timotheus"
       title: "Fluglehrer"
       flavour: "„Bleib bei mir, Kleiner, und wir fliegen bis ganz nach oben!“"
-  abilities: 
-    - type: static
-      title: 
-        en: "LET'S SHOW 'EM, DUMBO!"
-      text: 
-        en: "While you have a character with Evasive in play, this character gets +1 {L}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -668,7 +570,7 @@
         zh: "64/204 ZH 9"
         ja: "64/204 JA 9"
         culture_invariant_id: 2000
-        sort_number: -2145
+        sort_number: -2151
       rarity: rare
       illustrator: "Mariana Moreno"
   cost: 2
@@ -694,17 +596,6 @@
       name: "Die magische Feder"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "NOW YOU CAN FLY!"
-      text: 
-        en: "When you play this item, choose a character of yours. While this item is in play, that character gains Evasive."
-    - type: activated
-      title: 
-        en: "GROUNDED"
-      text: 
-        en: "3 {I} – Return this item to your hand."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -721,7 +612,7 @@
         zh: "74/204 ZH 9"
         ja: "74/204 JA 9"
         culture_invariant_id: 2010
-        sort_number: -2135
+        sort_number: -2141
       rarity: rare
       illustrator: "Carlos Ruiz"
     - set: fab
@@ -735,7 +626,7 @@
         zh: "211/204 ZH 9"
         ja: "211/204 JA 9"
         culture_invariant_id: 2165
-        sort_number: -1998
+        sort_number: -2004
       rarity: epic
       illustrator: "Carlos Ruiz"
   lore: 1
@@ -767,12 +658,6 @@
       name: "Goofy"
       title: "Bereit für ein Abenteuer"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "FAMILY VACATION"
-      text: 
-        en: "Once during your turn, whenever this character moves to a location, you may move one of your other characters to that location for free. If you do, draw a card."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -789,7 +674,7 @@
         zh: "75/204 ZH 9"
         ja: "75/204 JA 9"
         culture_invariant_id: 2011
-        sort_number: -2134
+        sort_number: -2140
       rarity: rare
       illustrator: "Rodrigo Camilo"
   lore: 1
@@ -821,12 +706,6 @@
       name: "Max Goof"
       title: "Rebellischer Teenager"
       flavour: "„Ein schnelles Board, coole Musik – was will man mehr?“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "PERSONAL SOUNDTRACK"
-      text: 
-        en: "When you play this character, you may pay 1 {I} to return a song card with cost 3 or less from your discard to your hand."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -902,7 +781,7 @@
         zh: "77/204 ZH 9"
         ja: "77/204 JA 9"
         culture_invariant_id: 2013
-        sort_number: -2132
+        sort_number: -2138
       rarity: legendary
       illustrator: "Max Ulichney"
     - set: fab
@@ -916,7 +795,7 @@
         zh: "230/204 ZH 9"
         ja: "230/204 JA 9"
         culture_invariant_id: 2148
-        sort_number: -1979
+        sort_number: -1985
       rarity: enchanted
       illustrator: "Federico Maria Cugliari"
   lore: 2
@@ -948,18 +827,6 @@
       name: "Max Goof"
       title: "Chartstürmer"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Max Goof.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "NUMBER ONE HIT"
-      text: 
-        en: "Whenever this character quests, you may play a song card with cost 4 or less from your discard for free, then put it on the bottom of your deck instead of into your discard."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -976,7 +843,7 @@
         zh: "78/204 ZH 9"
         ja: "78/204 JA 9"
         culture_invariant_id: 2014
-        sort_number: -2131
+        sort_number: -2137
       rarity: uncommon
       illustrator: "Stefano Spagnuolo"
   lore: 1
@@ -1008,12 +875,6 @@
       name: "Robert Zimuruski"
       title: "Sprühkäse-Kind"
       flavour: "„Das ist der schiefe Turm von Käsa.“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: ""
-      text: 
-        en: ""
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1030,7 +891,7 @@
         zh: "94/204 ZH 9"
         ja: "94/204 JA 9"
         culture_invariant_id: 2030
-        sort_number: -2115
+        sort_number: -2121
       rarity: uncommon
       illustrator: "Raquel Villanueva"
     - set: fab
@@ -1044,7 +905,7 @@
         zh: "213/204 ZH 9"
         ja: "213/204 JA 9"
         culture_invariant_id: 2167
-        sort_number: -1996
+        sort_number: -2002
       rarity: epic
       illustrator: "Raquel Villanueva"
   cost: 3
@@ -1072,12 +933,6 @@
       name: "Stand Out"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Stand Out"
-      text: 
-        en: "Chosen character gets +3 {S} and gains Evasive until the start of your next turn."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1094,7 +949,7 @@
         zh: "100/204 ZH 9"
         ja: "100/204 JA 9"
         culture_invariant_id: 2036
-        sort_number: -2109
+        sort_number: -2115
       rarity: rare
       illustrator: "Carlos Ruiz"
   cost: 2
@@ -1120,17 +975,6 @@
       name: "Angelrute der Familie"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "WATCH CLOSELY"
-      text: 
-        en: "This item enters play exerted."
-    - type: activated
-      title: 
-        en: "THE PERFECT CAST"
-      text: 
-        en: "{E}, 1 {I}, Banish this item – Return chosen exerted character of yours to your hand to gain 2 lore."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1147,7 +991,7 @@
         zh: "109/204 ZH 9"
         ja: "109/204 JA 9"
         culture_invariant_id: 2045
-        sort_number: -2100
+        sort_number: -2106
       rarity: common
       illustrator: "Stefano Spagnuolo"
   lore: 1
@@ -1178,13 +1022,6 @@
       name: "Powerline"
       title: "Auf der Bühne"
       flavour: "„Das Konzert von Powerline. Oh! Hammermäßig.“\n–K.J. Karlo"
-  abilities: 
-    - type: static
-      title: 
-        en: "singer"
-      text: 
-        en: "**Singer** +4 _(This character counts as cost 4 to sing songs.)_"
-      ability: "singer"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1201,7 +1038,7 @@
         zh: "110/204 ZH 9"
         ja: "110/204 JA 9"
         culture_invariant_id: 2046
-        sort_number: -2099
+        sort_number: -2105
       rarity: super_rare
       illustrator: "Nicholas Kole"
     - set: fab
@@ -1215,7 +1052,7 @@
         zh: "233/204 ZH 9"
         ja: "233/204 JA 9"
         culture_invariant_id: 2151
-        sort_number: -1976
+        sort_number: -1982
       rarity: enchanted
       illustrator: "Max Ulichney"
   lore: 2
@@ -1246,24 +1083,6 @@
       name: "Powerline"
       title: "Größter Rockstar der Welt"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Powerline.)_"
-      ability: "shift"
-    - type: static
-      title: 
-        en: "singer"
-      text: 
-        en: "**Singer** +9 _(This character counts as cost 9 to sing songs.)_"
-      ability: "singer"
-    - type: static-triggered
-      title: 
-        en: "MASH-UP"
-      text: 
-        en: "Once during your turn, whenever this character sings a song, look at the top 4 cards of your deck. You may reveal a song card with cost 9 or less and play it for free. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1280,7 +1099,7 @@
         zh: "111/204 ZH 9"
         ja: "111/204 JA 9"
         culture_invariant_id: 2047
-        sort_number: -2098
+        sort_number: -2104
       rarity: legendary
       illustrator: "Cristian Romero"
     - set: fab
@@ -1294,7 +1113,7 @@
         zh: "242/204 ZH 9"
         ja: "242/204 JA 9"
         culture_invariant_id: 2178
-        sort_number: -1967
+        sort_number: -1973
       rarity: iconic
       illustrator: "Nicola Saviori"
   lore: 1
@@ -1327,37 +1146,6 @@
       name: "Micky Maus"
       title: "Tapferer Kleiner Prinz"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 5"
-      text: 
-        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Mickey Mouse.)_"
-      ability: "shift"
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static
-      title: 
-        en: "CROWNING ACHIEVEMENT"
-      text: 
-        en: "While this character has a card under him, he gets +3 {S}, +3 {W}, and +3 {L}"
-      ability: "effects"
-    - type: static
-      title: 
-        en: "CROWNING ACHIEVEMENT"
-      text: 
-        en: "While this character has a card under him, he gets +3 {S}, +3 {W}, and +3 {L}"
-      ability: "effects"
-    - type: static
-      title: 
-        en: "CROWNING ACHIEVEMENT"
-      text: 
-        en: "While this character has a card under him, he gets +3 {S}, +3 {W}, and +3 {L}"
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1374,7 +1162,7 @@
         zh: "112/204 ZH 9"
         ja: "112/204 JA 9"
         culture_invariant_id: 2048
-        sort_number: -2097
+        sort_number: -2103
       rarity: common
       illustrator: "Stefano Spagnuolo"
     - set: fab
@@ -1388,7 +1176,7 @@
         zh: "214/204 ZH 9"
         ja: "214/204 JA 9"
         culture_invariant_id: 2168
-        sort_number: -1995
+        sort_number: -2001
       rarity: epic
       illustrator: "Stefano Spagnuolo"
   lore: 1
@@ -1420,19 +1208,6 @@
       name: "Max Goof"
       title: "Rockiger Teenie"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "singer"
-      text: 
-        en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
-      ability: "singer"
-    - type: static
-      title: 
-        en: "I JUST WANNA STAY HOME"
-      text: 
-        en: "This character can't move to locations."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1449,7 +1224,7 @@
         zh: "113/204 ZH 9"
         ja: "113/204 JA 9"
         culture_invariant_id: 2049
-        sort_number: -2096
+        sort_number: -2102
       rarity: uncommon
       illustrator: "Carlos Ruiz"
   lore: 1
@@ -1481,19 +1256,6 @@
       name: "Roxanne"
       title: "Powerline-Fan"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "CONCERT LOVER"
-      text: 
-        en: "While you have a character with Singer in play, this character gets +1 {S} and +1 {L}."
-      ability: "effects"
-    - type: static
-      title: 
-        en: "CONCERT LOVER"
-      text: 
-        en: "While you have a character with Singer in play, this character gets +1 {S} and +1 {L}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1510,7 +1272,7 @@
         zh: "114/204 ZH 9"
         ja: "114/204 JA 9"
         culture_invariant_id: 2050
-        sort_number: -2095
+        sort_number: -2101
       rarity: common
       illustrator: "Kenneth Anderson"
   lore: 1
@@ -1542,12 +1304,6 @@
       name: "K.J. Karlo"
       title: "In der Musik versunken"
       flavour: "Er ist ein echter Musikliebhaber."
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "SHOUT OUT LOUD!"
-      text: 
-        en: "Whenever you play a song, this character gets +2 {S} this turn."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1564,7 +1320,7 @@
         zh: "117/204 ZH 9"
         ja: "117/204 JA 9"
         culture_invariant_id: 2053
-        sort_number: -2092
+        sort_number: -2098
       rarity: rare
       illustrator: "Kenneth Anderson"
     - set: fab
@@ -1578,7 +1334,7 @@
         zh: "215/204 ZH 9"
         ja: "215/204 JA 9"
         culture_invariant_id: 2169
-        sort_number: -1994
+        sort_number: -2000
       rarity: epic
       illustrator: "Kenneth Anderson"
   lore: 1
@@ -1609,13 +1365,6 @@
       name: "Powerline"
       title: "Musikalischer Superstar"
       flavour: "„For the first time ever, we’re seeing it eye to eye.“"
-  abilities: 
-    - type: static
-      title: 
-        en: "ELECTRIC MOVE"
-      text: 
-        en: "If you've played a song this turn, this character gains Rush this turn."
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1632,7 +1381,7 @@
         zh: "130/204 ZH 9"
         ja: "130/204 JA 9"
         culture_invariant_id: 2066
-        sort_number: -2079
+        sort_number: -2085
       rarity: rare
       illustrator: "Eri Welli"
     - set: fab
@@ -1646,7 +1395,7 @@
         zh: "234/204 ZH 9"
         ja: "234/204 JA 9"
         culture_invariant_id: 2152
-        sort_number: -1975
+        sort_number: -1981
       rarity: enchanted
       illustrator: "Jochem van Gool"
   cost: 9
@@ -1674,18 +1423,6 @@
       name: "I2I"
       title: ""
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "sing-together"
-      text: 
-        en: "**Sing Together** 9 _(Any number of your of your teammates' characters with total cost 9 or more may {E} to sing this song for free.)_"
-      ability: "sing-together"
-    - type: resolution
-      title: 
-        en: "I2I"
-      text: 
-        en: "Each player draws 2 cards and gains 2 lore. If 2 or more characters sang this song, ready them. They can’t quest for the rest of this turn."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1702,7 +1439,7 @@
         zh: "141/204 ZH 9"
         ja: "141/204 JA 9"
         culture_invariant_id: 2077
-        sort_number: -2068
+        sort_number: -2074
       rarity: rare
       illustrator: "Ellie Horie"
     - set: fab
@@ -1716,7 +1453,7 @@
         zh: "217/204 ZH 9"
         ja: "217/204 JA 9"
         culture_invariant_id: 2171
-        sort_number: -1992
+        sort_number: -1998
       rarity: epic
       illustrator: "Ellie Horie"
     - set: p3
@@ -1730,7 +1467,7 @@
         zh: "2/P3 ZH 9"
         ja: "2/P3 JA 9"
         culture_invariant_id: 2180
-        sort_number: -1965
+        sort_number: -1971
       rarity: special
       illustrator: "Ellie Horie"
   lore: 2
@@ -1762,17 +1499,6 @@
       name: "Alice"
       title: "Versehentlich verirrt"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "WASHED AWAY"
-      text: 
-        en: "When you play this character, you may put chosen item into its player's inkwell facedown and exerted."
-    - type: static-triggered
-      title: 
-        en: "MAKING WAVES"
-      text: 
-        en: "Whenever this character quests, chosen opposing character gets -2 {S} this turn."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1789,7 +1515,7 @@
         zh: "142/204 ZH 9"
         ja: "142/204 JA 9"
         culture_invariant_id: 2078
-        sort_number: -2067
+        sort_number: -2073
       rarity: super_rare
       illustrator: "LadyShalirin"
     - set: fab
@@ -1803,7 +1529,7 @@
         zh: "235/204 ZH 9"
         ja: "235/204 JA 9"
         culture_invariant_id: 2153
-        sort_number: -1974
+        sort_number: -1980
       rarity: enchanted
       illustrator: "Aubrey Archer"
   lore: 2
@@ -1836,12 +1562,6 @@
       name: "Mulan"
       title: "Besonnene Diplomatin"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "IMPERIAL INVITATION"
-      text: 
-        en: "Whenever this character quests, look at the top 4 cards of your deck. You may reveal a Princess character card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1858,7 +1578,7 @@
         zh: "143/204 ZH 9"
         ja: "143/204 JA 9"
         culture_invariant_id: 2079
-        sort_number: -2066
+        sort_number: -2072
       rarity: legendary
       illustrator: "Juan Diego León"
     - set: fab
@@ -1872,7 +1592,7 @@
         zh: "236/204 ZH 9"
         ja: "236/204 JA 9"
         culture_invariant_id: 2154
-        sort_number: -1973
+        sort_number: -1979
       rarity: enchanted
       illustrator: "Alex Accorsi"
   lore: 1
@@ -1904,18 +1624,6 @@
       name: "Cruella De Vil"
       title: "Stilikone"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Out of Season"
-      text: 
-        en: "Once during your turn, whenever a character with cost 2 or less is banished, put the top card of your deck into your inkwell facedown and exerted."
-    - type: static
-      title: 
-        en: "INSULTING REMARK"
-      text: 
-        en: "During your turn, each opposing character with cost 2 or less gets -1 {S}."
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1932,7 +1640,7 @@
         zh: "173/204 ZH 9"
         ja: "173/204 JA 9"
         culture_invariant_id: 2109
-        sort_number: -2036
+        sort_number: -2042
       rarity: rare
       illustrator: "Eri Welli"
   lore: 2
@@ -1964,19 +1672,6 @@
       name: "Nala"
       title: "Unerschrockene Löwin"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Determined Diversion"
-      text: 
-        en: "While this character has no damage, she gets +1 {L} and gains Resist +1."
-      ability: "gain-ability"
-    - type: static
-      title: 
-        en: "Determined Diversion"
-      text: 
-        en: "While this character has no damage, she gets +1 {L} and gains Resist +1."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1993,7 +1688,7 @@
         zh: "174/204 ZH 9"
         ja: "174/204 JA 9"
         culture_invariant_id: 2110
-        sort_number: -2035
+        sort_number: -2041
       rarity: super_rare
       illustrator: "Mariana Moreno"
     - set: fab
@@ -2007,7 +1702,7 @@
         zh: "238/204 ZH 9"
         ja: "238/204 JA 9"
         culture_invariant_id: 2156
-        sort_number: -1971
+        sort_number: -1977
       rarity: enchanted
       illustrator: "Kuya Jaypi"
   lore: 1
@@ -2039,17 +1734,6 @@
       name: "Lilo"
       title: "Beste Entdeckerin aller Zeiten"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "COME ON, PEOPLE, LET'S MOVE"
-      text: 
-        en: "When you play this character, your other characters gain Challenger +2 this turn."
-    - type: static-triggered
-      title: 
-        en: "$undefined"
-      text: 
-        en: "$undefined"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -2066,7 +1750,7 @@
         zh: "175/204 ZH 9"
         ja: "175/204 JA 9"
         culture_invariant_id: 2111
-        sort_number: -2034
+        sort_number: -2040
       rarity: legendary
       illustrator: "Kenneth Anderson"
     - set: fab
@@ -2080,7 +1764,7 @@
         zh: "239/204 ZH 9"
         ja: "239/204 JA 9"
         culture_invariant_id: 2157
-        sort_number: -1970
+        sort_number: -1976
       rarity: enchanted
       illustrator: "Jeanne Plounevez"
   lore: 2
@@ -2113,18 +1797,6 @@
       name: "Scar"
       title: "Endlich König"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "BE GRATEFUL"
-      text: 
-        en: "Your Ally characters get +1 {S}."
-      ability: "effects"
-    - type: static-triggered
-      title: 
-        en: "STICK WITH ME"
-      text: 
-        en: "At the end of your turn, if this character is exerted, you may draw cards equal to the {S} of a chosen Ally character of yours. If you do, choose and discard 2 cards and banish that character."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -2141,7 +1813,7 @@
         zh: "176/204 ZH 9"
         ja: "176/204 JA 9"
         culture_invariant_id: 2112
-        sort_number: -2033
+        sort_number: -2039
       rarity: uncommon
       illustrator: "Cristian Romero"
   lore: 1
@@ -2173,12 +1845,6 @@
       name: "Little John"
       title: "Sir Reginald"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "$undefined"
-      text: 
-        en: "$undefined"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -2195,7 +1861,7 @@
         zh: "178/204 ZH 9"
         ja: "178/204 JA 9"
         culture_invariant_id: 2114
-        sort_number: -2031
+        sort_number: -2037
       rarity: rare
       illustrator: "Ian MacDonald"
     - set: fab
@@ -2209,7 +1875,7 @@
         zh: "240/204 ZH 9"
         ja: "240/204 JA 9"
         culture_invariant_id: 2158
-        sort_number: -1969
+        sort_number: -1975
       rarity: enchanted
       illustrator: "Juan Diego León"
   lore: 2
@@ -2242,18 +1908,6 @@
       name: "Jasmin"
       title: "Furchtlose Prinzessin"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "TAKE THE LEAP"
-      text: 
-        en: "During your turn, this character gains Evasive."
-      ability: "gain-ability"
-    - type: activated
-      title: 
-        en: "NOW'S MY CHANCE"
-      text: 
-        en: "Choose and discard a card — This character gains Challenger +3 this turn."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed

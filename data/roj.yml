@@ -8,7 +8,7 @@
         de: "1/204 DE 8"
         it: "1/204 IT 8"
         culture_invariant_id: 1665
-        sort_number: -1952
+        sort_number: -1956
       rarity: uncommon
       illustrator: "Federico Maria Cugliari"
   lore: 2
@@ -40,12 +40,6 @@
       name: "Track Duck"
       title: "Eine coole Ente"
       flavour: "„Die Schlangen sind cool, finde ich. Allerdings eine ziemlich gewöhnliche Falle.“"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "SPRING THE TRAP"
-      text: 
-        en: "While this character is being challenged, the challenging character gets -1 {S}."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -60,7 +54,7 @@
         de: "2/204 DE 8"
         it: "2/204 IT 8"
         culture_invariant_id: 1666
-        sort_number: -1951
+        sort_number: -1955
       rarity: common
       illustrator: "Federico Maria Cugliari"
   lore: 1
@@ -106,7 +100,7 @@
         de: "3/204 DE 8"
         it: "3/204 IT 8"
         culture_invariant_id: 1667
-        sort_number: -1950
+        sort_number: -1954
       rarity: uncommon
       illustrator: "Federico Maria Cugliari"
   lore: 1
@@ -138,12 +132,6 @@
       name: "Tick Duck"
       title: "Verlässlicher Anführer"
       flavour: "„Vergesst die magischen Schlangen. Da ist der Weg aus der Falle!“"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "I KNOW THE WAY"
-      text: 
-        en: "Whenever this character quests, you pay 1 {I} less for the next character you play this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -158,7 +146,7 @@
         de: "4/204 DE 8"
         it: "4/204 IT 8"
         culture_invariant_id: 1668
-        sort_number: -1949
+        sort_number: -1953
       rarity: legendary
       illustrator: "Carlos Luzzi"
     - set: roj
@@ -170,7 +158,7 @@
         de: "223/204 DE 8"
         it: "223/204 IT 8"
         culture_invariant_id: 1933
-        sort_number: -1730
+        sort_number: -1734
       rarity: legendary
       illustrator: "Carlos Luzzi"
   lore: 2
@@ -202,12 +190,6 @@
       name: "Goofy"
       title: "Bahnbrechender Koch"
       flavour: "„Du kommst gerade rechtzeitig für eine Spezialität à la Goof!“"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "PLENTY TO GO AROUND"
-      text: 
-        en: "At the end of your turn, you may remove up to 1 damage from each of your other characters. Ready each character you removed damage from this way."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -222,7 +204,7 @@
         de: "5/204 DE 8"
         it: "5/204 IT 8"
         culture_invariant_id: 1669
-        sort_number: -1948
+        sort_number: -1952
       rarity: rare
       illustrator: "Valerio Buonfantino"
   lore: 2
@@ -256,12 +238,6 @@
       name: "Antonio Madrigal"
       title: "Freund von allen"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "OF COURSE THEY CAN COME"
-      text: 
-        en: "Once during your turn, whenever one of your characters sings a song, you may search your deck for a character card with cost 3 or less and reveal that card to all players. Put that card into your hand and shuffle your deck."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -276,7 +252,7 @@
         de: "6/204 DE 8"
         it: "6/204 IT 8"
         culture_invariant_id: 1670
-        sort_number: -1947
+        sort_number: -1951
       rarity: rare
       illustrator: "Aubrey Archer"
     - set: p2
@@ -288,7 +264,7 @@
         de: "35/P2 DE 8"
         it: "35/P2 IT 8"
         culture_invariant_id: 1894
-        sort_number: -1726
+        sort_number: -1730
       rarity: special
       illustrator: "Aubrey Archer"
   lore: 1
@@ -321,19 +297,6 @@
       name: "Minnie Maus"
       title: "Wagemutige Beschützerin"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
-    - type: static
-      title: 
-        en: "effects"
-      text: 
-        en: ""
-      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -348,7 +311,7 @@
         de: "7/204 DE 8"
         it: "7/204 IT 8"
         culture_invariant_id: 1671
-        sort_number: -1946
+        sort_number: -1950
       rarity: rare
       illustrator: "Pietro B. Zemelo"
   lore: 1
@@ -381,17 +344,6 @@
       name: "Primus von Quack"
       title: "Vielseitiger Experte"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "SUPERIOR MIND"
-      text: 
-        en: "When you play this character, chosen opponent reveals their hand and discards a non-character card of your choice."
-    - type: static-triggered
-      title: 
-        en: ""
-      text: 
-        en: ""
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -406,7 +358,7 @@
         de: "8/204 DE 8"
         it: "8/204 IT 8"
         culture_invariant_id: 1672
-        sort_number: -1945
+        sort_number: -1949
       rarity: common
       illustrator: "Emily Abeydeera"
   lore: 1
@@ -453,7 +405,7 @@
         de: "9/204 DE 8"
         it: "9/204 IT 8"
         culture_invariant_id: 1673
-        sort_number: -1944
+        sort_number: -1948
       rarity: rare
       illustrator: "Milica Celikovic"
   lore: 1
@@ -486,18 +438,6 @@
       name: "Tiana"
       title: "Naturtalent"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "singer"
-      text: 
-        en: "**Singer** +6 _(This character counts as cost 6 to sing songs.)_"
-      ability: "singer"
-    - type: static-triggered
-      title: 
-        en: "CAPTIVATING MELODY"
-      text: 
-        en: "Whenever you play a song, each opposing character gets -1 {S} until the start of your next turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -512,7 +452,7 @@
         de: "10/204 DE 8"
         it: "10/204 IT 8"
         culture_invariant_id: 1674
-        sort_number: -1943
+        sort_number: -1947
       rarity: common
       illustrator: "Arianna Rea"
   lore: 1
@@ -545,12 +485,6 @@
       name: "Mirabel Madrigal"
       title: "Neugieriges Kind"
       flavour: "„Was für eine Gabe auch immer dich erwartet, sie wird genauso besonders sein wie du.“\n–Alma Madrigal"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "YOU ARE A JEWEL"
-      text: 
-        en: "When you play this character, you may reveal a song card in your hand to gain 1 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -565,7 +499,7 @@
         de: "11/204 DE 8"
         it: "11/204 IT 8"
         culture_invariant_id: 1675
-        sort_number: -1942
+        sort_number: -1946
       rarity: rare
       illustrator: "Erika Wiseman"
   lore: 2
@@ -597,12 +531,6 @@
       name: "Susi"
       title: "Familien-Hundedame"
       flavour: "Am glücklichsten ist sie in der Gesellschaft derer, die sie liebt."
-  abilities: 
-    - type: resolution
-      title: 
-        en: "SOMEONE TO CARE FOR"
-      text: 
-        en: "When you play this character, you may play a character with cost 2 or less for free."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -617,7 +545,7 @@
         de: "12/204 DE 8"
         it: "12/204 IT 8"
         culture_invariant_id: 1676
-        sort_number: -1941
+        sort_number: -1945
       rarity: common
       illustrator: "Kendall Hale"
   lore: 1
@@ -649,13 +577,6 @@
       name: "Jim"
       title: "Geliebter Ehemann"
       flavour: "Familie ist Familie, egal was passiert."
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -670,7 +591,7 @@
         de: "13/204 DE 8"
         it: "13/204 IT 8"
         culture_invariant_id: 1677
-        sort_number: -1940
+        sort_number: -1944
       rarity: common
       illustrator: "Rianti Hidayat"
   lore: 1
@@ -701,12 +622,6 @@
       name: "Gene"
       title: "Bewohner von Niceland"
       flavour: "„Eine Medaille zu bekommen, ist ein tolles Gefühl. Gene zu ärgern, fühlt sich aber noch besser an.“\n–Randale Ralph"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "I GUESS YOU EARNED THIS"
-      text: 
-        en: "Whenever this character quests, you may remove up to 2 damage from chosen character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -721,7 +636,7 @@
         de: "14/204 DE 8"
         it: "14/204 IT 8"
         culture_invariant_id: 1678
-        sort_number: -1939
+        sort_number: -1943
       rarity: common
       illustrator: "Carmine Pucci"
   lore: 1
@@ -753,13 +668,6 @@
       name: "Perdi"
       title: "Auf der Lauer"
       flavour: "„Wo ist der Wald hin? Bleibt in der Nähe, meine Lieblinge. Irgendetwas ist hier faul.“\n–Perdi"
-  abilities: 
-    - type: static
-      title: 
-        en: "KEEPING WATCH"
-      text: 
-        en: "While you have a Puppy character in play, this character gets +1 {W}."
-      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -774,7 +682,7 @@
         de: "15/204 DE 8"
         it: "15/204 IT 8"
         culture_invariant_id: 1679
-        sort_number: -1938
+        sort_number: -1942
       rarity: common
       illustrator: "Ellie Horie"
   lore: 1
@@ -806,12 +714,6 @@
       name: "Dino"
       title: "Ein Sechzehntel Wolf"
       flavour: "„Gefahr ist meine Leibspeise.“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "TINY HOWL"
-      text: 
-        en: "When you play this character, chosen opposing character gets -1 {S} until the start of your next turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -826,7 +728,7 @@
         de: "16/204 DE 8"
         it: "16/204 IT 8"
         culture_invariant_id: 1680
-        sort_number: -1937
+        sort_number: -1941
       rarity: common
       illustrator: "Jake Murphy"
   lore: 1
@@ -858,12 +760,6 @@
       name: "Darling"
       title: "Geliebte Ehefrau"
       flavour: "„Ich könnte mir gar nicht vorstellen, dass jemand ihren Platz in unseren Herzen einnehmen könnte.“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "HOW SWEET"
-      text: 
-        en: "When you play this character, chosen character gets +2 {L} this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -878,7 +774,7 @@
         de: "17/204 DE 8"
         it: "17/204 IT 8"
         culture_invariant_id: 1681
-        sort_number: -1936
+        sort_number: -1940
       rarity: rare
       illustrator: "Mariana Moreno"
   lore: 1
@@ -910,13 +806,6 @@
       name: "Colonel"
       title: "Alter Hütehund"
       flavour: "Seine Ausbildung war bei der Infiltration des Palastes von unschätzbarem Wert."
-  abilities: 
-    - type: static
-      title: 
-        en: "WE'VE GOT 'EM OUTNUMBERED"
-      text: 
-        en: "While you have 3 or more Puppy characters in play, this character gets +2 {S} and +2 {L}."
-      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -931,7 +820,7 @@
         de: "18/204 DE 8"
         it: "18/204 IT 8"
         culture_invariant_id: 1682
-        sort_number: -1935
+        sort_number: -1939
       rarity: legendary
       illustrator: "Nicola Saviori"
   lore: 1
@@ -962,12 +851,6 @@
       name: "Chief Bogo"
       title: "Befehlshaber"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "SENDING BACKUP"
-      text: 
-        en: "During an opponent's turn, whenever one of your characters with Bodyguard is banished, you may reveal the top card of your deck. If it's a character card with cost 5 or less, you may play that character for free. Otherwise, put it on the top of your deck."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -982,7 +865,7 @@
         de: "19/204 DE 8"
         it: "19/204 IT 8"
         culture_invariant_id: 1683
-        sort_number: -1934
+        sort_number: -1938
       rarity: uncommon
       illustrator: "Alexandria Neonakis"
   lore: 1
@@ -1015,18 +898,6 @@
       name: "Pua"
       title: "Beschützendes Schwein"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
-    - type: static-triggered
-      title: 
-        en: ""
-      text: 
-        en: ""
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1041,7 +912,7 @@
         de: "20/204 DE 8"
         it: "20/204 IT 8"
         culture_invariant_id: 1684
-        sort_number: -1933
+        sort_number: -1937
       rarity: super_rare
       illustrator: "Milica Celikovic"
   lore: 2
@@ -1075,18 +946,6 @@
       name: "Bruno Madrigal"
       title: "Singender Seher"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 5"
-      text: 
-        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Bruno Madrigal.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "BRIGHT FUTURE"
-      text: 
-        en: "Whenever this character sings a song, you may draw a card for each character you have in play."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1101,7 +960,7 @@
         de: "21/204 DE 8"
         it: "21/204 IT 8"
         culture_invariant_id: 1685
-        sort_number: -1932
+        sort_number: -1936
       rarity: uncommon
       illustrator: "Francesco D'ippolito / Malia Ewart"
   lore: 2
@@ -1134,12 +993,6 @@
       name: "Kaa"
       title: "Hypnotisierende Python"
       flavour: "„Du hassst jetzt einen großßßen Fehler gemacht, mein Freund.“"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "LOOK ME IN THE EYE"
-      text: 
-        en: "Whenever this character quests, chosen opposing character gets -2 {S} and gains Reckless until the start of your next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1154,7 +1007,7 @@
         de: "22/204 DE 8"
         it: "22/204 IT 8"
         culture_invariant_id: 1686
-        sort_number: -1931
+        sort_number: -1935
       rarity: super_rare
       illustrator: "Erika Wiseman"
   lore: 2
@@ -1187,18 +1040,6 @@
       name: "Strolch"
       title: "Eleganter Rabauke"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Tramp.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "PLAY IT COOL"
-      text: 
-        en: "During an opponent's turn, whenever one of your characters is banished, you may draw a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1213,7 +1054,7 @@
         de: "23/204 DE 8"
         it: "23/204 IT 8"
         culture_invariant_id: 1687
-        sort_number: -1930
+        sort_number: -1934
       rarity: uncommon
       illustrator: "Joseph Buenning"
   lore: 1
@@ -1248,12 +1089,6 @@
       name: "King Candy"
       title: "Sugar-Rush-Albtraum"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "A NEW ROSTER"
-      text: 
-        en: "When this character is banished, you may return another Racer character card from your discard to your hand."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1268,7 +1103,7 @@
         de: "24/204 DE 8"
         it: "24/204 IT 8"
         culture_invariant_id: 1688
-        sort_number: -1929
+        sort_number: -1933
       rarity: super_rare
       illustrator: "Javi Salas"
     - set: roj
@@ -1280,7 +1115,7 @@
         de: "206/204 DE 8"
         it: "206/204 IT 8"
         culture_invariant_id: 1870
-        sort_number: -1747
+        sort_number: -1751
       rarity: enchanted
       illustrator: "Sam Nielson"
   lore: 1
@@ -1314,23 +1149,6 @@
       name: "Randale Ralph"
       title: "Großer Gauner"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 5"
-      text: 
-        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Wreck-It Ralph.)_"
-      ability: "shift"
-    - type: resolution
-      title: 
-        en: "BACK ON TRACK"
-      text: 
-        en: "When you play this character and whenever he quests, you may return a Racer character card with cost 6 or less from your discard to your hand. If you do, gain 1 lore."
-    - type: static-triggered
-      title: 
-        en: "BACK ON TRACK"
-      text: 
-        en: "When you play this character and whenever he quests, you may return a Racer character card with cost 6 or less from your discard to your hand. If you do, gain 1 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1345,7 +1163,7 @@
         de: "25/204 DE 8"
         it: "25/204 IT 8"
         culture_invariant_id: 1689
-        sort_number: -1928
+        sort_number: -1932
       rarity: uncommon
       illustrator: "Oggy Christiansson"
     - set: p2
@@ -1357,7 +1175,7 @@
         de: "30/P2 DE 8"
         it: "30/P2 IT 8"
         culture_invariant_id: 1890
-        sort_number: -1722
+        sort_number: -1725
       rarity: special
       illustrator: "Oggy Christiansson"
   lore: 1
@@ -1390,19 +1208,6 @@
       name: "Patch"
       title: "Verspielter Welpe"
       flavour: "Im Sand machte es mehr Spaß, als er dachte!"
-  abilities: 
-    - type: static
-      title: 
-        en: "ward"
-      text: 
-        en: "_(Opponents can't choose this character except to challenge.)_"
-      ability: "ward"
-    - type: static
-      title: 
-        en: "PUPPY BARKING"
-      text: 
-        en: "While you have another Puppy character in play, this character gets +1 {L}."
-      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1417,7 +1222,7 @@
         de: "26/204 DE 8"
         it: "26/204 IT 8"
         culture_invariant_id: 1690
-        sort_number: -1927
+        sort_number: -1931
       rarity: uncommon
       illustrator: "Oggy Christiansson"
   lore: 1
@@ -1450,18 +1255,6 @@
       name: "Rolly"
       title: "Pummeliger Welpe"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
-    - type: resolution
-      title: 
-        en: "ADORABLE ANTICS"
-      text: 
-        en: "When you play this character, you may put a character card from your discard in your inkwell facedown and exerted."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1476,7 +1269,7 @@
         de: "27/204 DE 8"
         it: "27/204 IT 8"
         culture_invariant_id: 1691
-        sort_number: -1926
+        sort_number: -1930
       rarity: super_rare
       illustrator: "Brian Weisz"
     - set: roj
@@ -1488,7 +1281,7 @@
         de: "207/204 DE 8"
         it: "207/204 IT 8"
         culture_invariant_id: 1871
-        sort_number: -1746
+        sort_number: -1750
       rarity: enchanted
       illustrator: "Natalie Dombois"
   lore: 2
@@ -1521,18 +1314,6 @@
       name: "Perdi"
       title: "Entschlossene Mutter"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Perdita.)_"
-      ability: "shift"
-    - type: resolution
-      title: 
-        en: "QUICK, EVERYONE HIDE"
-      text: 
-        en: "When you play this character, you may put all Puppy character cards from your discard into your inkwell facedown and exerted."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1547,7 +1328,7 @@
         de: "28/204 DE 8"
         it: "28/204 IT 8"
         culture_invariant_id: 1692
-        sort_number: -1925
+        sort_number: -1929
       rarity: uncommon
       illustrator: "Raquel Villanueva"
     - set: p2
@@ -1559,7 +1340,7 @@
         de: "27/P2 DE 8"
         it: "27/P2 IT 8"
         culture_invariant_id: 1887
-        sort_number: -1728
+        sort_number: -1732
       rarity: special
       illustrator: "Raquel Villanueva"
   lore: 2
@@ -1592,19 +1373,6 @@
       name: "Pluto"
       title: "Bewährt und treu"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "HAPPY HELPER"
-      text: 
-        en: "While this character has no damage, he gets +2 {S} and gains Support. (Whenever they quest, you may add their {S} to another chosen character's {S} this turn.)"
-      ability: "effects"
-    - type: static
-      title: 
-        en: "HAPPY HELPER"
-      text: 
-        en: "While this character has no damage, he gets +2 {S} and gains Support. (Whenever they quest, you may add their {S} to another chosen character's {S} this turn.)"
-      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1619,7 +1387,7 @@
         de: "29/204 DE 8"
         it: "29/204 IT 8"
         culture_invariant_id: 1693
-        sort_number: -1924
+        sort_number: -1928
       rarity: rare
       illustrator: "Joy Ang / Jaime Puga"
   lore: 4
@@ -1652,12 +1420,6 @@
       name: "Bolt"
       title: "Am Boden, aber nicht am Ende"
       flavour: "„Die einzige Kraft, die du brauchst, ist die Kraft, FANTASTISCH zu sein!“\n–Dino"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "NONE OF YOUR POWERS ARE WORKING"
-      text: 
-        en: "This card enters play exerted."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1672,7 +1434,7 @@
         de: "30/204 DE 8"
         it: "30/204 IT 8"
         culture_invariant_id: 1694
-        sort_number: -1923
+        sort_number: -1927
       rarity: super_rare
       illustrator: "Leonardo Giammichele"
   lore: 2
@@ -1705,19 +1467,6 @@
       name: "Dino"
       title: "Energiegeladener Hamster"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 2"
-      text: 
-        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named Rhino.)_"
-      ability: "shift"
-    - type: static
-      title: 
-        en: "EPIC BALL OF AWESOME"
-      text: 
-        en: "While this character has no damage, he gains Resist +2. (Damage dealt to them is reduced by 2.)"
-      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1732,7 +1481,7 @@
         de: "31/204 DE 8"
         it: "31/204 IT 8"
         culture_invariant_id: 1695
-        sort_number: -1922
+        sort_number: -1926
       rarity: common
       illustrator: "Denny Minonne"
   lore: 1
@@ -1764,12 +1513,6 @@
       name: "Antonios Jaguar"
       title: "Treuer Gefährte"
       flavour: "„Er kennt den Weg. Versuch einfach mitzuhalten!“\n–Antonio Madrigal"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "YOU WANT TO GO WHERE?"
-      text: 
-        en: "When you play this character, if you have a character in play named Antonio Madrigal, gain 1 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1784,7 +1527,7 @@
         de: "32/204 DE 8"
         it: "32/204 IT 8"
         culture_invariant_id: 1696
-        sort_number: -1921
+        sort_number: -1925
       rarity: common
       illustrator: "Edu Francisco / Amanda Duarte"
   lore: 2
@@ -1816,18 +1559,6 @@
       name: "Sergeant Calhoun"
       title: "Knallharte Anführerin"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
-    - type: static-triggered
-      title: 
-        en: "LOOT DROP"
-      text: 
-        en: "When this character is banished, gain 1 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1842,7 +1573,7 @@
         de: "33/204 DE 8"
         it: "33/204 IT 8"
         culture_invariant_id: 1697
-        sort_number: -1920
+        sort_number: -1924
       rarity: rare
       illustrator: "Therese Vildefall"
     - set: roj
@@ -1854,7 +1585,7 @@
         de: "205/204 DE 8"
         it: "205/204 IT 8"
         culture_invariant_id: 1869
-        sort_number: -1748
+        sort_number: -1752
       rarity: enchanted
       illustrator: "Juan Diego León"
     - set: p2
@@ -1866,7 +1597,7 @@
         de: "28/P2 DE 8"
         it: "28/P2 IT 8"
         culture_invariant_id: 1888
-        sort_number: -1724
+        sort_number: -1727
       rarity: special
       illustrator: "Therese Vildefall"
   lore: 1
@@ -1899,18 +1630,6 @@
       name: "Susi"
       title: "Entschlossene Hundedame"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "PACK OF HER OWN"
-      text: 
-        en: "Whenever you play a character, this character gets +1 {S} this turn."
-    - type: static
-      title: 
-        en: "TAKE THE LEAD"
-      text: 
-        en: "While this character has 3 {S} or more, she gets +2 {L}."
-      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1925,7 +1644,7 @@
         de: "34/204 DE 8"
         it: "34/204 IT 8"
         culture_invariant_id: 1698
-        sort_number: -1919
+        sort_number: -1923
       rarity: uncommon
       illustrator: "Simone Buonfantino"
   lore: 2
@@ -1959,12 +1678,6 @@
       name: "Alma Madrigal"
       title: "Akzeptierende Großmutter"
       flavour: "„Ich war so streng, das tut mir leid.“"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "THE MIRACLE IS YOU"
-      text: 
-        en: "Once during your turn, whenever one or more of your characters sings a song, you may ready those characters."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -1979,7 +1692,7 @@
         de: "35/204 DE 8"
         it: "35/204 IT 8"
         culture_invariant_id: 1699
-        sort_number: -1918
+        sort_number: -1922
       rarity: rare
       illustrator: "Denny Minonne"
   lore: 2
@@ -2012,19 +1725,6 @@
       name: "Clawhauser"
       title: "Empfangsoffizier"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
-    - type: static
-      title: 
-        en: "singer"
-      text: 
-        en: "**Singer** +4 _(This character counts as cost 4 to sing songs.)_"
-      ability: "singer"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2039,7 +1739,7 @@
         de: "36/204 DE 8"
         it: "36/204 IT 8"
         culture_invariant_id: 1700
-        sort_number: -1917
+        sort_number: -1921
       rarity: common
       illustrator: "French Carlomagno"
   lore: 1
@@ -2070,12 +1770,6 @@
       name: "Joey"
       title: "Blaue Taube"
       flavour: "„Wenn du Hilfe brauchst, ist der alte Joey zur Stelle.“"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "I'VE GOT JUST THE THING"
-      text: 
-        en: "Whenever this character quests, you may remove up to 1 damage from each of your characters with Bodyguard."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2090,7 +1784,7 @@
         de: "37/204 DE 8"
         it: "37/204 IT 8"
         culture_invariant_id: 1701
-        sort_number: -1916
+        sort_number: -1920
       rarity: super_rare
       illustrator: "Rianti Hidayat"
   lore: 2
@@ -2122,18 +1816,6 @@
       name: "Donald Duck"
       title: "Münzsammler"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "HERE, PIGGY, PIGGY"
-      text: 
-        en: "For each item named The Nephews' Piggy Bank you have in play, you pay 2 {I} less to play this character."
-      ability: "effects"
-    - type: resolution
-      title: 
-        en: "MONEY EVERYWHERE"
-      text: 
-        en: "When you play this character, your other characters gain ``{E} – Draw a card`` this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2148,7 +1830,7 @@
         de: "38/204 DE 8"
         it: "38/204 IT 8"
         culture_invariant_id: 1702
-        sort_number: -1915
+        sort_number: -1919
       rarity: common
       illustrator: "Gwawi"
   lore: 1
@@ -2194,7 +1876,7 @@
         de: "39/204 DE 8"
         it: "39/204 IT 8"
         culture_invariant_id: 1703
-        sort_number: -1914
+        sort_number: -1918
       rarity: uncommon
       illustrator: "Stefano Spagnuolo"
   cost: 2
@@ -2221,17 +1903,6 @@
       name: "Zucker-Drift"
       title: ""
       flavour: "„Das wird deinen Motor überhitzen wie eine Tüte Zimtbonbons, also gewinn lieber schnell!“\n–Vanellope von Schweetz"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Candy Drift"
-      text: 
-        en: "Draw a card. Chosen character of yours gets +5 {S} this turn. At the end of your turn, banish them."
-    - type: resolution
-      title: 
-        en: "Candy Drift"
-      text: 
-        en: "Draw a card. Chosen character of yours gets +5 {S} this turn. At the end of your turn, banish them."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2246,7 +1917,7 @@
         de: "40/204 DE 8"
         it: "40/204 IT 8"
         culture_invariant_id: 1704
-        sort_number: -1913
+        sort_number: -1917
       rarity: uncommon
       illustrator: "Samanta Erdini"
   cost: 1
@@ -2273,12 +1944,6 @@
       name: "Sie ist dein Mensch"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "She's Your Person"
-      text: 
-        en: "Choose one:n• Remove up to 3 damage from chosen character.n• Remove up to 3 damage from each of your characters with Bodyguard."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2293,7 +1958,7 @@
         de: "41/204 DE 8"
         it: "41/204 IT 8"
         culture_invariant_id: 1705
-        sort_number: -1912
+        sort_number: -1916
       rarity: uncommon
       illustrator: "Therese Vildefall"
   cost: 4
@@ -2320,12 +1985,6 @@
       name: "Nicht viel Platz"
       title: ""
       flavour: "„Mit einem Wort, es ist grässlich.“\n–Strolch"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Only So Much Room"
-      text: 
-        en: "Return chosen character with 2 {S} or less to their player's hand. Return a character card from your discard to your hand."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2340,7 +1999,7 @@
         de: "42/204 DE 8"
         it: "42/204 IT 8"
         culture_invariant_id: 1706
-        sort_number: -1911
+        sort_number: -1915
       rarity: rare
       illustrator: "Gianluca Barone"
     - set: roj
@@ -2352,7 +2011,7 @@
         de: "208/204 DE 8"
         it: "208/204 IT 8"
         culture_invariant_id: 1872
-        sort_number: -1745
+        sort_number: -1749
       rarity: enchanted
       illustrator: "Ian MacDonald"
   cost: 9
@@ -2380,23 +2039,6 @@
       name: "Die Sorgen bleiben dir immer fern"
       title: ""
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "sing-together"
-      text: 
-        en: "**Sing Together** 9 _(Any number of your of your teammates' characters with total cost 9 or more may {E} to sing this song for free.)_"
-      ability: "sing-together"
-    - type: resolution
-      title: 
-        en: "It Means No Worries"
-      text: 
-        en: "Sing Together 9 (Any number of your or your teammates' characters with total cost 9 or more may {E} to sing this song for free.)nReturn up to 3 character cards from your discard to your hand. You pay 2 {I} less for the next character you play this turn."
-    - type: resolution
-      title: 
-        en: "It Means No Worries"
-      text: 
-        en: "Sing Together 9 (Any number of your or your teammates' characters with total cost 9 or more may {E} to sing this song for free.)nReturn up to 3 character cards from your discard to your hand. You pay 2 {I} less for the next character you play this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2411,7 +2053,7 @@
         de: "43/204 DE 8"
         it: "43/204 IT 8"
         culture_invariant_id: 1707
-        sort_number: -1910
+        sort_number: -1914
       rarity: uncommon
       illustrator: "Pauline Voss"
   cost: 2
@@ -2439,12 +2081,6 @@
       name: "Oft war ich verzweifelt"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Trials And Tribulations"
-      text: 
-        en: "Chosen character gets -4 {S} until the start of your next turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2459,7 +2095,7 @@
         de: "44/204 DE 8"
         it: "44/204 IT 8"
         culture_invariant_id: 1708
-        sort_number: -1909
+        sort_number: -1913
       rarity: uncommon
       illustrator: "Jeremy Adams"
   cost: 2
@@ -2485,18 +2121,6 @@
       name: "Das Sparschwein der Neffen"
       title: ""
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "INSIDE JOB"
-      text: 
-        en: "If you have a character named Donald Duck in play, you pay 1 {I} less to play this item."
-      ability: "effects"
-    - type: activated
-      title: 
-        en: "PAYOFF"
-      text: 
-        en: "{e} – Chosen character gets -1 {S} until the start of your next turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2511,7 +2135,7 @@
         de: "45/204 DE 8"
         it: "45/204 IT 8"
         culture_invariant_id: 1709
-        sort_number: -1908
+        sort_number: -1912
       rarity: common
       illustrator: "Eva Widermann"
   lore: 1
@@ -2544,13 +2168,6 @@
       name: "Palastwache"
       title: "Spektraler Wächter"
       flavour: "„Die gesamte Macht der normalen Wächter, aber ohne deren Anmaßungen.“\n–Dschafar"
-  abilities: 
-    - type: static
-      title: 
-        en: "vanish"
-      text: 
-        en: "_(When an opponent chooses this character for an action, banish them.)_"
-      ability: "vanish"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2565,7 +2182,7 @@
         de: "46/204 DE 8"
         it: "46/204 IT 8"
         culture_invariant_id: 1710
-        sort_number: -1907
+        sort_number: -1911
       rarity: uncommon
       illustrator: "Alex Accorsi"
   lore: 1
@@ -2597,13 +2214,6 @@
       name: "Druun"
       title: "Gefräßige Plage"
       flavour: "„Sie waren schon immer hier und warteten auf einen Moment der Schwäche, um anzugreifen.“\n–Sisu"
-  abilities: 
-    - type: static
-      title: 
-        en: "challenger"
-      text: 
-        en: "**Challenger** +4 (_When challenging, this character get +43 {S}._)"
-      ability: "challenger"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2618,7 +2228,7 @@
         de: "47/204 DE 8"
         it: "47/204 IT 8"
         culture_invariant_id: 1711
-        sort_number: -1906
+        sort_number: -1910
       rarity: uncommon
       illustrator: "Heidi Neunhoffer"
   lore: 1
@@ -2651,12 +2261,6 @@
       name: "Madam Medusa"
       title: "Betrügerische Partnerin"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "DOUBLE-CROSS"
-      text: 
-        en: "When you play this character, you may deal 2 damage to another chosen character of yours to return chosen character with cost 2 or less to their player's hand."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2671,7 +2275,7 @@
         de: "48/204 DE 8"
         it: "48/204 IT 8"
         culture_invariant_id: 1712
-        sort_number: -1905
+        sort_number: -1909
       rarity: super_rare
       illustrator: "Marcel Berg"
   lore: 2
@@ -2705,17 +2309,6 @@
       name: "Hades"
       title: "Gnadenloser Tyrann"
       flavour: "„Vergesst nicht, ich bin derjenige, der hier das Sagen hat.“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "SHORT ON PATIENCE"
-      text: 
-        en: "When you play this character and whenever he quests, you may deal 2 damage to another chosen character of yours to draw 2 cards."
-    - type: static-triggered
-      title: 
-        en: "SHORT ON PATIENCE"
-      text: 
-        en: "When you play this character and whenever he quests, you may deal 2 damage to another chosen character of yours to draw 2 cards."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2730,7 +2323,7 @@
         de: "49/204 DE 8"
         it: "49/204 IT 8"
         culture_invariant_id: 1713
-        sort_number: -1904
+        sort_number: -1908
       rarity: uncommon
       illustrator: "Federico Maria Cugliari"
   lore: 1
@@ -2764,18 +2357,6 @@
       name: "Lena Degenflügel"
       title: "Reine Energie"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: activated
-      title: 
-        en: "SUPERNATURAL VENGEANCE"
-      text: 
-        en: "{E} – Deal 1 damage to chosen character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2790,7 +2371,7 @@
         de: "50/204 DE 8"
         it: "50/204 IT 8"
         culture_invariant_id: 1714
-        sort_number: -1903
+        sort_number: -1907
       rarity: uncommon
       illustrator: "Grace Tran"
   lore: 1
@@ -2824,18 +2405,6 @@
       name: "Abu"
       title: "Illusionärer Dickhäuter"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "vanish"
-      text: 
-        en: "_(When an opponent chooses this character for an action, banish them.)_"
-      ability: "vanish"
-    - type: static-triggered
-      title: 
-        en: "GRASPING TRUNK"
-      text: 
-        en: "Whenever this character quests, gain lore equal to the {L} of chosen opposing character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2850,7 +2419,7 @@
         de: "51/204 DE 8"
         it: "51/204 IT 8"
         culture_invariant_id: 1715
-        sort_number: -1902
+        sort_number: -1906
       rarity: common
       illustrator: "Natalia Trykowska"
   lore: 1
@@ -2883,12 +2452,6 @@
       name: "Bruno Madrigal"
       title: "Zielstrebig"
       flavour: "„Ich bin aktuell nicht im Visionen-Geschäft. Ich bin gerade im Dich-aufhalten-Geschäft.“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "STANDING TALL"
-      text: 
-        en: "When you play this character, chosen opposing character can't ready at the start of their next turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2903,7 +2466,7 @@
         de: "52/204 DE 8"
         it: "52/204 IT 8"
         culture_invariant_id: 1716
-        sort_number: -1901
+        sort_number: -1905
       rarity: common
       illustrator: "Rachel Elese"
   lore: 1
@@ -2934,12 +2497,6 @@
       name: "Königsgarde"
       title: "Oktopus-Soldat"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "HEAVILY ARMED"
-      text: 
-        en: "Every time you draw a card, this character gains Challenger +1 for this turn. (Gains +1 {S} while challenging.)"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -2954,7 +2511,7 @@
         de: "53/204 DE 8"
         it: "53/204 IT 8"
         culture_invariant_id: 1717
-        sort_number: -1900
+        sort_number: -1904
       rarity: common
       illustrator: "Rachel Elese"
   lore: 1
@@ -2986,12 +2543,6 @@
       name: "Kusco"
       title: "Gelangweilter König"
       flavour: "„Warte nur, bis sie das hier riechen …“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "LLAMA BREATH"
-      text: 
-        en: "When you play this character, you may return chosen character, item, or location with cost 2 or less to their player's hand."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3006,7 +2557,7 @@
         de: "54/204 DE 8"
         it: "54/204 IT 8"
         culture_invariant_id: 1718
-        sort_number: -1899
+        sort_number: -1903
       rarity: common
       illustrator: "Samanta Erdini"
   lore: 1
@@ -3038,13 +2589,6 @@
       name: "Meg"
       title: "Teil des Plans"
       flavour: "„Je schneller wir das erledigen, desto schneller bin ich frei … von dir.“"
-  abilities: 
-    - type: static
-      title: 
-        en: "CONTENTIOUS ALLIANCE"
-      text: 
-        en: "While you have a character named Hades in play, this character gains Challenger +2."
-      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3059,7 +2603,7 @@
         de: "55/204 DE 8"
         it: "55/204 IT 8"
         culture_invariant_id: 1719
-        sort_number: -1898
+        sort_number: -1902
       rarity: common
       illustrator: "Aisha Durmagambetova"
   lore: 2
@@ -3091,12 +2635,6 @@
       name: "Yelena"
       title: "Anführerin der Northuldra"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "WE ONLY TRUST NATURE"
-      text: 
-        en: "When you play this character, chosen character gains Challenger +2 this turn. (They get +2 {S} while challenging.)"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3111,7 +2649,7 @@
         de: "56/204 DE 8"
         it: "56/204 IT 8"
         culture_invariant_id: 1720
-        sort_number: -1897
+        sort_number: -1901
       rarity: common
       illustrator: "Lisanne Koeteeuw"
   lore: 1
@@ -3143,13 +2681,6 @@
       name: "Ryder"
       title: "Flottfüßiger Eindringling"
       flavour: "„Meine Güte, was ist nur mit diesem hohen Sultan los? Kann er keine Treppen einbauen wie ein normaler Mensch?“"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3164,7 +2695,7 @@
         de: "57/204 DE 8"
         it: "57/204 IT 8"
         culture_invariant_id: 1721
-        sort_number: -1896
+        sort_number: -1900
       rarity: common
       illustrator: "Heidi Neunhoffer"
   lore: 1
@@ -3211,7 +2742,7 @@
         de: "58/204 DE 8"
         it: "58/204 IT 8"
         culture_invariant_id: 1722
-        sort_number: -1895
+        sort_number: -1899
       rarity: common
       illustrator: "Kamil Murzyn"
   lore: 1
@@ -3258,7 +2789,7 @@
         de: "59/204 DE 8"
         it: "59/204 IT 8"
         culture_invariant_id: 1723
-        sort_number: -1894
+        sort_number: -1898
       rarity: uncommon
       illustrator: "Wouter Bruneel"
   lore: 1
@@ -3305,7 +2836,7 @@
         de: "60/204 DE 8"
         it: "60/204 IT 8"
         culture_invariant_id: 1724
-        sort_number: -1893
+        sort_number: -1897
       rarity: rare
       illustrator: "Hedvig H-S"
   lore: 1
@@ -3339,12 +2870,6 @@
       name: "Elsa"
       title: "Stürmische Beschützerin"
       flavour: "„Ich muss meine Schwester beschützen. Du gehst nirgendwo hin!“"
-  abilities: 
-    - type: activated
-      title: 
-        en: "ICE OVER"
-      text: 
-        en: "1 {I}, Choose and discard a card – Exert chosen opposing character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3359,7 +2884,7 @@
         de: "61/204 DE 8"
         it: "61/204 IT 8"
         culture_invariant_id: 1725
-        sort_number: -1892
+        sort_number: -1896
       rarity: legendary
       illustrator: "Hedvig H-S"
     - set: roj
@@ -3371,7 +2896,7 @@
         de: "224/204 DE 8"
         it: "224/204 IT 8"
         culture_invariant_id: 1934
-        sort_number: -1729
+        sort_number: -1733
       rarity: legendary
       illustrator: "Hedvig H-S"
   lore: 2
@@ -3403,18 +2928,6 @@
       name: "Pinocchio"
       title: "An Fäden geknüpft"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static-triggered
-      title: 
-        en: "We'll Always Be Together"
-      text: 
-        en: "Whenever you ready this character, if you have 2 or more other characters in play, gain 2 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3429,7 +2942,7 @@
         de: "62/204 DE 8"
         it: "62/204 IT 8"
         culture_invariant_id: 1726
-        sort_number: -1891
+        sort_number: -1895
       rarity: rare
       illustrator: "Rosa la Barbera / Livio Cacciatore"
   lore: 1
@@ -3461,19 +2974,6 @@
       name: "Jiminy Grille"
       title: "Besonnen und weise"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static
-      title: 
-        en: "ENOUGH'S ENOUGH"
-      text: 
-        en: "While this character is exerted, opposing characters with Rush enter play exerted."
-      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3488,7 +2988,7 @@
         de: "63/204 DE 8"
         it: "63/204 IT 8"
         culture_invariant_id: 1727
-        sort_number: -1890
+        sort_number: -1894
       rarity: legendary
       illustrator: "Brian Weisz"
     - set: roj
@@ -3500,7 +3000,7 @@
         de: "209/204 DE 8"
         it: "209/204 IT 8"
         culture_invariant_id: 1873
-        sort_number: -1744
+        sort_number: -1748
       rarity: enchanted
       illustrator: "Aubrey Archer"
   lore: 3
@@ -3533,17 +3033,6 @@
       name: "Bambi"
       title: "Kleiner Prinz"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "$undefined"
-      text: 
-        en: "$undefined"
-    - type: static-triggered
-      title: 
-        en: "KIND OF BASHFUL"
-      text: 
-        en: "When an opponent plays a character, return this character to your hand."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3558,7 +3047,7 @@
         de: "64/204 DE 8"
         it: "64/204 IT 8"
         culture_invariant_id: 1728
-        sort_number: -1889
+        sort_number: -1893
       rarity: rare
       illustrator: "Alexandria Neonakis"
   lore: 2
@@ -3589,18 +3078,6 @@
       name: "Monstro"
       title: "Berüchtigter Wal"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "rush"
-      text: 
-        en: "_(This character can challenge the turn they're played.)_"
-      ability: "rush"
-    - type: activated
-      title: 
-        en: "FULL BREACH"
-      text: 
-        en: "Choose and discard a card - Ready this character. He can't quest for the rest of this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3615,7 +3092,7 @@
         de: "65/204 DE 8"
         it: "65/204 IT 8"
         culture_invariant_id: 1729
-        sort_number: -1888
+        sort_number: -1892
       rarity: common
       illustrator: "Teresita Q. / SCG"
   lore: 1
@@ -3647,12 +3124,6 @@
       name: "Nero, das Krokodil"
       title: "Furchteinflößendes Krokodil"
       flavour: "Er steht Brutus in Sachen Temperament und Zahnigkeit in nichts nach."
-  abilities: 
-    - type: activated
-      title: 
-        en: "AND MEAN"
-      text: 
-        en: "{E} – Move 1 damage counter from this character to chosen opposing character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3667,7 +3138,7 @@
         de: "66/204 DE 8"
         it: "66/204 IT 8"
         culture_invariant_id: 1730
-        sort_number: -1887
+        sort_number: -1891
       rarity: uncommon
       illustrator: "Sandara Tang"
   lore: 2
@@ -3701,18 +3172,6 @@
       name: "Gundel Gaukeley"
       title: "Schattenform"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: resolution
-      title: 
-        en: "DANCE OF DARKNESS"
-      text: 
-        en: "When you play this character, you may return one of your other characters to your hand to draw a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3727,7 +3186,7 @@
         de: "67/204 DE 8"
         it: "67/204 IT 8"
         culture_invariant_id: 1731
-        sort_number: -1886
+        sort_number: -1890
       rarity: rare
       illustrator: "Kendall Hale"
     - set: roj
@@ -3739,7 +3198,7 @@
         de: "210/204 DE 8"
         it: "210/204 IT 8"
         culture_invariant_id: 1874
-        sort_number: -1743
+        sort_number: -1747
       rarity: enchanted
       illustrator: "Alan Batson"
   lore: 2
@@ -3772,18 +3231,6 @@
       name: "Kusco"
       title: "Impulsives Lama"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Kuzco.)_"
-      ability: "shift"
-    - type: resolution
-      title: 
-        en: "WHAT DOES THIS DO?"
-      text: 
-        en: "When you play this character, each opponent chooses one of their characters and puts that card on the bottom of their deck. Then, each opponent may draw a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3798,7 +3245,7 @@
         de: "68/204 DE 8"
         it: "68/204 IT 8"
         culture_invariant_id: 1732
-        sort_number: -1885
+        sort_number: -1889
       rarity: super_rare
       illustrator: "Julien Vandois"
   lore: 2
@@ -3832,12 +3279,6 @@
       name: "Isma"
       title: "Am Rande"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "WHY DO WE EVEN HAVE THAT LEVER?"
-      text: 
-        en: "When you play this character, if you have a card named Pull the Lever! in your discard, you may search your deck for a card named Wrong Lever! and reveal that card to all players. Put that card into your hand and shuffle your deck."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3852,7 +3293,7 @@
         de: "69/204 DE 8"
         it: "69/204 IT 8"
         culture_invariant_id: 1733
-        sort_number: -1884
+        sort_number: -1888
       rarity: uncommon
       illustrator: "Alibeth Zermeno"
   lore: 1
@@ -3886,18 +3327,6 @@
       name: "Madame Mim"
       title: "Nashorn"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 2"
-      text: 
-        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named Madam Mim.)_"
-      ability: "shift"
-    - type: resolution
-      title: 
-        en: "MAKE WAY, I'M COMING!"
-      text: 
-        en: "When you play this character, banish her or return another chosen character of yours to your hand."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3912,7 +3341,7 @@
         de: "70/204 DE 8"
         it: "70/204 IT 8"
         culture_invariant_id: 1734
-        sort_number: -1883
+        sort_number: -1887
       rarity: rare
       illustrator: "Joel DuQue"
     - set: roj
@@ -3924,7 +3353,7 @@
         de: "211/204 DE 8"
         it: "211/204 IT 8"
         culture_invariant_id: 1875
-        sort_number: -1742
+        sort_number: -1746
       rarity: enchanted
       illustrator: "Andrew Theophilopoulos"
   lore: 1
@@ -3958,12 +3387,6 @@
       name: "Mutter Gothel"
       title: "Weiß, was das Beste ist"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "LOOK WHAT YOU'VE DONE"
-      text: 
-        en: "When you play this character, you may deal 2 damage to another chosen character of yours to give that character Challenger +1 and “When this character is banished in a challenge, return this card to your hand” this turn. (They get +1 {S} while challenging.)"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -3978,7 +3401,7 @@
         de: "71/204 DE 8"
         it: "71/204 IT 8"
         culture_invariant_id: 1735
-        sort_number: -1882
+        sort_number: -1886
       rarity: uncommon
       illustrator: "Mané Kandalyan Manderson"
   lore: 1
@@ -4012,19 +3435,6 @@
       name: "Die Blaue Fee"
       title: "Leitendes Licht"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4039,7 +3449,7 @@
         de: "72/204 DE 8"
         it: "72/204 IT 8"
         culture_invariant_id: 1736
-        sort_number: -1881
+        sort_number: -1885
       rarity: rare
       illustrator: "Luigi Aimè"
   lore: 2
@@ -4074,24 +3484,6 @@
       name: "Anna"
       title: "Magische Mission"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Anna.)_"
-      ability: "shift"
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
-    - type: static-triggered
-      title: 
-        en: "COORDINATED PLAN"
-      text: 
-        en: "Whenever this character quests, if you have a character named Elsa in play, you may draw a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4106,7 +3498,7 @@
         de: "73/204 DE 8"
         it: "73/204 IT 8"
         culture_invariant_id: 1737
-        sort_number: -1880
+        sort_number: -1884
       rarity: rare
       illustrator: "Max Ulichney"
   lore: 2
@@ -4141,18 +3533,6 @@
       name: "Der Sultan"
       title: "Königliche Erscheinung"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "vanish"
-      text: 
-        en: "_(When an opponent chooses this character for an action, banish them.)_"
-      ability: "vanish"
-    - type: static-triggered
-      title: 
-        en: "COMMANDING PRESENCE"
-      text: 
-        en: "Whenever one of your Illusion characters quests, exert chosen opposing character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4167,7 +3547,7 @@
         de: "74/204 DE 8"
         it: "74/204 IT 8"
         culture_invariant_id: 1738
-        sort_number: -1879
+        sort_number: -1883
       rarity: super_rare
       illustrator: "Cristian Romero"
     - set: p2
@@ -4179,7 +3559,7 @@
         de: "32/P2 DE 8"
         it: "32/P2 IT 8"
         culture_invariant_id: 1892
-        sort_number: -1720
+        sort_number: -1723
       rarity: special
       illustrator: "John Loren / Cristian Romero"
     - set: p2
@@ -4191,8 +3571,8 @@
         de: "33/P2 DE 8"
         it: "33/P2 IT 8"
         culture_invariant_id: 1893
-        sort_number: -1719
-      rarity: enchanted
+        sort_number: -1722
+      rarity: special
       illustrator: "John Loren / Cristian Romero"
   lore: 3
   cost: 5
@@ -4226,12 +3606,6 @@
       name: "Dschafar"
       title: "Hoher Sultan von Lorcana"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "DARK POWER"
-      text: 
-        en: "Whenever this character quests, you may draw a card, then choose and discard a card. If an Illusion character card is discarded this way, you may play that character for free."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4246,7 +3620,7 @@
         de: "75/204 DE 8"
         it: "75/204 IT 8"
         culture_invariant_id: 1739
-        sort_number: -1878
+        sort_number: -1882
       rarity: common
       illustrator: "Carlos Gomes Cabral"
   lore: 2
@@ -4279,12 +3653,6 @@
       name: "Camilo Madrigal"
       title: "Bühnen-Mittelpunkt"
       flavour: "„Mein Primo Camilo, der bringt dich zum Lachen zu jeder Zeit.“\n–Mirabel Madrigal"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "ENCORE! ENCORE!"
-      text: 
-        en: "When this character is banished in a challenge, return this card to your hand."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4299,7 +3667,7 @@
         de: "76/204 DE 8"
         it: "76/204 IT 8"
         culture_invariant_id: 1740
-        sort_number: -1877
+        sort_number: -1881
       rarity: rare
       illustrator: "Sandra Rios"
   lore: 1
@@ -4331,12 +3699,6 @@
       name: "Blume"
       title: "Schüchternes Stinktier"
       flavour: "Sein liebes Wesen übertrifft alle Blumen auf der Wiese."
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "LOOKING FOR FRIENDS"
-      text: 
-        en: "Whenever you play another character, look at the top card of your deck. Put it on either the top or the bottom of your deck."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4351,7 +3713,7 @@
         de: "77/204 DE 8"
         it: "77/204 IT 8"
         culture_invariant_id: 1741
-        sort_number: -1876
+        sort_number: -1880
       rarity: uncommon
       illustrator: "Viv Tanner"
   cost: 5
@@ -4377,12 +3739,6 @@
       name: "Duell im Wald"
       title: ""
       flavour: "Kämpfe mit Ehre, gewinne mit Würde."
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Forest Duel"
-      text: 
-        en: "Your characters gain Challenger +2 and 'When this character is banished in a challenge, return this card to your hand' this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4397,7 +3753,7 @@
         de: "78/204 DE 8"
         it: "78/204 IT 8"
         culture_invariant_id: 1742
-        sort_number: -1875
+        sort_number: -1879
       rarity: uncommon
       illustrator: "Saulo Nate"
   cost: 3
@@ -4423,12 +3779,6 @@
       name: "Die kommen nie zurück"
       title: ""
       flavour: "„Ihr Jungs habt euer Vergnügen gehabt! Jetzt zahlt ihr dafür.“\n–Der Kutscher"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "They Never Come Back"
-      text: 
-        en: "Up to 2 chosen characters can't ready at the start of their next turn. Draw a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4443,7 +3793,7 @@
         de: "79/204 DE 8"
         it: "79/204 IT 8"
         culture_invariant_id: 1743
-        sort_number: -1874
+        sort_number: -1878
       rarity: rare
       illustrator: "Natalia Trykowska"
     - set: roj
@@ -4455,7 +3805,7 @@
         de: "212/204 DE 8"
         it: "212/204 IT 8"
         culture_invariant_id: 1876
-        sort_number: -1741
+        sort_number: -1745
       rarity: enchanted
       illustrator: "Samanta Erdini"
   cost: 9
@@ -4483,18 +3833,6 @@
       name: "Fantastisch und auch magisch"
       title: ""
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "sing-together"
-      text: 
-        en: "**Sing Together** 9 _(Any number of your of your teammates' characters with total cost 9 or more may {E} to sing this song for free.)_"
-      ability: "sing-together"
-    - type: resolution
-      title: 
-        en: "Fantastical And Magical"
-      text: 
-        en: "Sing Together 9nFor each character that sang this song, draw a card and gain 1 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4509,7 +3847,7 @@
         de: "80/204 DE 8"
         it: "80/204 IT 8"
         culture_invariant_id: 1744
-        sort_number: -1873
+        sort_number: -1877
       rarity: uncommon
       illustrator: "Mario Manzanares"
     - set: p2
@@ -4521,7 +3859,7 @@
         de: "31/P2 DE 8"
         it: "31/P2 IT 8"
         culture_invariant_id: 1891
-        sort_number: -1721
+        sort_number: -1724
       rarity: special
       illustrator: "Mario Manzanares"
   cost: 3
@@ -4548,12 +3886,6 @@
       name: "Zieh den Hebel!"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Pull The Lever!"
-      text: 
-        en: "Choose one:n- Draw 2 cards.n- Each opponent chooses and discards a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4568,7 +3900,7 @@
         de: "81/204 DE 8"
         it: "81/204 IT 8"
         culture_invariant_id: 1745
-        sort_number: -1872
+        sort_number: -1876
       rarity: super_rare
       illustrator: "Maria Dresden"
     - set: roj
@@ -4580,7 +3912,7 @@
         de: "213/204 DE 8"
         it: "213/204 IT 8"
         culture_invariant_id: 1877
-        sort_number: -1740
+        sort_number: -1744
       rarity: enchanted
       illustrator: "Yrgane Ramon"
   cost: 3
@@ -4609,12 +3941,6 @@
       name: "Wo noch niemand war"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Into The Unknown"
-      text: 
-        en: "Put chosen exerted character into their player's inkwell facedown and exerted."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4629,7 +3955,7 @@
         de: "82/204 DE 8"
         it: "82/204 IT 8"
         culture_invariant_id: 1746
-        sort_number: -1871
+        sort_number: -1875
       rarity: rare
       illustrator: "Linh Dang"
   cost: 4
@@ -4655,12 +3981,6 @@
       name: "Jeder hat eine Schwäche"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Everybody's Got A Weakness"
-      text: 
-        en: "Move 1 damage counter from each damaged character you have in play to chosen opposing character. Draw a card for each damage counter moved this way."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4675,7 +3995,7 @@
         de: "83/204 DE 8"
         it: "83/204 IT 8"
         culture_invariant_id: 1747
-        sort_number: -1870
+        sort_number: -1874
       rarity: common
       illustrator: "Carlos Ruiz"
   cost: 2
@@ -4701,12 +4021,6 @@
       name: "Skarabäus"
       title: ""
       flavour: "„Wenn wir einen fangen können, können wir ihn vielleicht neu kalibrieren, damit er uns hilft, Dschafars Illusionen loszuwerden!“\n–Venturo, ein Luminari"
-  abilities: 
-    - type: activated
-      title: 
-        en: "SEARCH THE SANDS"
-      text: 
-        en: "{E} 2 {I} – Return an Illusion character card from your discard to your hand."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4721,7 +4035,7 @@
         de: "84/204 DE 8"
         it: "84/204 IT 8"
         culture_invariant_id: 1748
-        sort_number: -1869
+        sort_number: -1873
       rarity: uncommon
       illustrator: "Priya Kakati"
   cost: 2
@@ -4748,17 +4062,6 @@
       name: "Eisstacheln"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "HOLD STILL"
-      text: 
-        en: "When you play this item, exert chosen opposing character."
-    - type: activated
-      title: 
-        en: "IT'S STUCK"
-      text: 
-        en: "{E}, 1 {I} – Exert chosen opposing item. It can't ready at the start of its next turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4773,7 +4076,7 @@
         de: "85/204 DE 8"
         it: "85/204 IT 8"
         culture_invariant_id: 1749
-        sort_number: -1868
+        sort_number: -1872
       rarity: common
       illustrator: "Aurélie Lise-Anne"
   lore: 1
@@ -4819,7 +4122,7 @@
         de: "86/204 DE 8"
         it: "86/204 IT 8"
         culture_invariant_id: 1750
-        sort_number: -1867
+        sort_number: -1871
       rarity: rare
       illustrator: "Stefano Spagnuolo"
   lore: 2
@@ -4852,17 +4155,6 @@
       name: "Basil"
       title: "Verdeckter Ermittler"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "INCAPACITATE"
-      text: 
-        en: "When you play this character, you may return chosen character to their player's hand"
-    - type: static-triggered
-      title: 
-        en: "INTERFERE"
-      text: 
-        en: "Whenever this character quests, chosen opponent discards a card at random."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4877,7 +4169,7 @@
         de: "87/204 DE 8"
         it: "87/204 IT 8"
         culture_invariant_id: 1751
-        sort_number: -1866
+        sort_number: -1870
       rarity: common
       illustrator: "Edu Francisco"
   lore: 1
@@ -4909,12 +4201,6 @@
       name: "Strolch"
       title: "Aufmerksamer Wächter"
       flavour: "Ein Blick auf die winzigen Spuren und sein Beschützerinstinkt setzte ein."
-  abilities: 
-    - type: resolution
-      title: 
-        en: "HOW DO I GET IN?"
-      text: 
-        en: "When you play this character, chosen character gains Ward until the start of your next turn. (Opponents can't choose them except to challenge.)"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4929,7 +4215,7 @@
         de: "88/204 DE 8"
         it: "88/204 IT 8"
         culture_invariant_id: 1752
-        sort_number: -1865
+        sort_number: -1869
       rarity: common
       illustrator: "Florencia Vazquez"
   lore: 1
@@ -4961,12 +4247,6 @@
       name: "Chaca"
       title: "Junior Chipmunk"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "IN CAHOOTS"
-      text: 
-        en: "When you play this character, if you have a character named Tipo in play, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -4981,7 +4261,7 @@
         de: "89/204 DE 8"
         it: "89/204 IT 8"
         culture_invariant_id: 1753
-        sort_number: -1864
+        sort_number: -1868
       rarity: common
       illustrator: "Florencia Vazquez"
   lore: 1
@@ -5013,13 +4293,6 @@
       name: "Tipo"
       title: "Junior Chipmunk"
       flavour: "„Das macht so viel Spaß, Chaca! Ich will noch höher!“"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5034,7 +4307,7 @@
         de: "90/204 DE 8"
         it: "90/204 IT 8"
         culture_invariant_id: 1754
-        sort_number: -1863
+        sort_number: -1867
       rarity: common
       illustrator: "Kendall Hale"
   lore: 1
@@ -5065,13 +4338,6 @@
       name: "Bill, die Eidechse"
       title: "Schornsteinfeger"
       flavour: "„Eine Eidechse mit einer Leiter ist genau das, was wir suchen!“\n–Weißes Kaninchen"
-  abilities: 
-    - type: static
-      title: 
-        en: "NOTHING TO IT"
-      text: 
-        en: "While another character in play has damage, this character gains Evasive."
-      ability: "evasive"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5086,7 +4352,7 @@
         de: "91/204 DE 8"
         it: "91/204 IT 8"
         culture_invariant_id: 1755
-        sort_number: -1862
+        sort_number: -1866
       rarity: common
       illustrator: "Dustin Panzino"
   lore: 1
@@ -5117,12 +4383,6 @@
       name: "Der Märzhase"
       title: "Exzentriker mit Hasenhirn"
       flavour: "Er weiß wirklich, wie man einen Raum zum Leuchten bringt."
-  abilities: 
-    - type: resolution
-      title: 
-        en: "LIGHT THE CANDLES"
-      text: 
-        en: "When you play this character, you may deal 2 damage to chosen damaged character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5137,7 +4397,7 @@
         de: "92/204 DE 8"
         it: "92/204 IT 8"
         culture_invariant_id: 1756
-        sort_number: -1861
+        sort_number: -1865
       rarity: common
       illustrator: "Jared Nickerl / Patri Balanovsky"
   lore: 2
@@ -5169,12 +4429,6 @@
       name: "Fred"
       title: "Wissenschaftsenthusiast"
       flavour: "„Nicht erschrecken. Das ist nur ein Kostüm. Das ist nicht mein echtes Gesicht und so.“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "SPITTING FIRE!"
-      text: 
-        en: "When you play this character, you may banish chosen item."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5189,7 +4443,7 @@
         de: "93/204 DE 8"
         it: "93/204 IT 8"
         culture_invariant_id: 1757
-        sort_number: -1860
+        sort_number: -1864
       rarity: common
       illustrator: "Luis Huerta"
   lore: 1
@@ -5222,13 +4476,6 @@
       name: "Brutus"
       title: "Kanailles Erster Offizier"
       flavour: "Er ist sicherlich nicht der klügste Kopf der Operation."
-  abilities: 
-    - type: static
-      title: 
-        en: "ARE YOU SURE THIS IS SAFE, CAPTAIN?"
-      text: 
-        en: "If you have a character named Don Karnage in play, you pay 1 {I} less to play this character."
-      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5243,7 +4490,7 @@
         de: "94/204 DE 8"
         it: "94/204 IT 8"
         culture_invariant_id: 1758
-        sort_number: -1859
+        sort_number: -1863
       rarity: common
       illustrator: "Wouter Bruneel"
   lore: 1
@@ -5289,7 +4536,7 @@
         de: "95/204 DE 8"
         it: "95/204 IT 8"
         culture_invariant_id: 1759
-        sort_number: -1858
+        sort_number: -1862
       rarity: uncommon
       illustrator: "Grace Tran"
   lore: 1
@@ -5321,17 +4568,6 @@
       name: "Louis"
       title: "Liebenswerter Alligator"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "SENSITIVE SOUL"
-      text: 
-        en: "This card enters play exerted."
-    - type: resolution
-      title: 
-        en: "FRIENDLIER THAN HE LOOKS"
-      text: 
-        en: "When you play this character, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5346,7 +4582,7 @@
         de: "96/204 DE 8"
         it: "96/204 IT 8"
         culture_invariant_id: 1760
-        sort_number: -1857
+        sort_number: -1861
       rarity: uncommon
       illustrator: "Mariana Moreno"
   lore: 1
@@ -5391,7 +4627,7 @@
         de: "97/204 DE 8"
         it: "97/204 IT 8"
         culture_invariant_id: 1761
-        sort_number: -1856
+        sort_number: -1860
       rarity: uncommon
       illustrator: "Brian Weisz"
   lore: 1
@@ -5423,12 +4659,6 @@
       name: "Chip"
       title: "Schnelldenker"
       flavour: "„Keine Sorge, Chap! Ich hab dich!“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "I'LL HANDLE IT"
-      text: 
-        en: "When you play this character, choose an opponent to discard a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5443,7 +4673,7 @@
         de: "98/204 DE 8"
         it: "98/204 IT 8"
         culture_invariant_id: 1762
-        sort_number: -1855
+        sort_number: -1859
       rarity: rare
       illustrator: "Jules Dubost"
   lore: 3
@@ -5475,18 +4705,6 @@
       name: "Fred"
       title: "Riesengroß"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 5"
-      text: 
-        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Fred.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "I LIKE WHERE THIS IS HEADING"
-      text: 
-        en: "Whenever this character quests, reveal cards from the top of your deck until you reveal a Floodborn character card. Put that card into your hand and shuffle the rest into your deck."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5501,7 +4719,7 @@
         de: "99/204 DE 8"
         it: "99/204 IT 8"
         culture_invariant_id: 1763
-        sort_number: -1854
+        sort_number: -1858
       rarity: rare
       illustrator: "Lisanne Koeteeuw"
   lore: 2
@@ -5534,12 +4752,6 @@
       name: "Trixi"
       title: "Eigenwillige Wissenschaftlerin"
       flavour: "„Die Energiequelle der Skarabäen! Ich wusste, dass ich sie finden würde, wenn ich herumgrabe!“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "GOLLY!"
-      text: 
-        en: "When you play this character, if an opponent has more cards in their hand than you, you may draw a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5554,7 +4766,7 @@
         de: "100/204 DE 8"
         it: "100/204 IT 8"
         culture_invariant_id: 1764
-        sort_number: -1853
+        sort_number: -1857
       rarity: legendary
       illustrator: "Dustin Panzino"
   lore: 2
@@ -5587,12 +4799,6 @@
       name: "Raya"
       title: "Expertin für Infiltrationen"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "UNCONVENTIONAL TACTICS"
-      text: 
-        en: "Whenever this character quests, you may pay 2 {I} to ready another chosen character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5607,7 +4813,7 @@
         de: "101/204 DE 8"
         it: "101/204 IT 8"
         culture_invariant_id: 1765
-        sort_number: -1852
+        sort_number: -1856
       rarity: legendary
       illustrator: "Alice Pisoni"
     - set: roj
@@ -5619,7 +4825,7 @@
         de: "214/204 DE 8"
         it: "214/204 IT 8"
         culture_invariant_id: 1878
-        sort_number: -1739
+        sort_number: -1743
       rarity: enchanted
       illustrator: "Viv Tanner / Ellie Horie"
   lore: 2
@@ -5652,18 +4858,6 @@
       name: "Rapunzel"
       title: "Kletterin"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static-triggered
-      title: 
-        en: "WRAPPED UP"
-      text: 
-        en: "Whenever this character quests, chosen opposing character can't quest during their next turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5678,7 +4872,7 @@
         de: "102/204 DE 8"
         it: "102/204 IT 8"
         culture_invariant_id: 1766
-        sort_number: -1851
+        sort_number: -1855
       rarity: super_rare
       illustrator: "Koni"
   lore: 3
@@ -5711,12 +4905,6 @@
       name: "Flynn Rider"
       title: "Einbrecher"
       flavour: "„So oder so, ich bekomme, was ich will.“"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "THIS IS A VERY BIG DAY"
-      text: 
-        en: "Whenever this character is challenged, the challenging player may choose and discard a card. If they don't, you gain 2 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5731,7 +4919,7 @@
         de: "103/204 DE 8"
         it: "103/204 IT 8"
         culture_invariant_id: 1767
-        sort_number: -1850
+        sort_number: -1854
       rarity: uncommon
       illustrator: "Joel DuQue"
   lore: 1
@@ -5763,12 +4951,6 @@
       name: "Haselmaus"
       title: "Leicht reizbar"
       flavour: "Der Tee ist stark, auch wenn er es nicht ist."
-  abilities: 
-    - type: resolution
-      title: 
-        en: "VERY RUDE INDEED"
-      text: 
-        en: "When you play this character, you may put 1 damage counter on chosen character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5783,7 +4965,7 @@
         de: "104/204 DE 8"
         it: "104/204 IT 8"
         culture_invariant_id: 1768
-        sort_number: -1849
+        sort_number: -1853
       rarity: rare
       illustrator: "Arianna Rea"
   lore: 2
@@ -5816,18 +4998,6 @@
       name: "Alice"
       title: "Ungeschickt wie immer"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 3"
-      text: 
-        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Alice.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "ACCIDENT PRONE"
-      text: 
-        en: "Whenever this character quests, put 1 damage counter on each other character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5842,7 +5012,7 @@
         de: "105/204 DE 8"
         it: "105/204 IT 8"
         culture_invariant_id: 1769
-        sort_number: -1848
+        sort_number: -1852
       rarity: super_rare
       illustrator: "Gonzalo Kenny"
   lore: 3
@@ -5876,13 +5046,6 @@
       name: "Die Herzkönigin"
       title: "Hochmütige Monarchin"
       flavour: "Sie geht dorthin, wo es ihr gefällt, egal, auf wen sie treten muss, um dorthin zu gelangen."
-  abilities: 
-    - type: static
-      title: 
-        en: "COUNT OFF!"
-      text: 
-        en: "While there are 5 or more characters with damage in play, this character gets +3 {L}."
-      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5897,7 +5060,7 @@
         de: "106/204 DE 8"
         it: "106/204 IT 8"
         culture_invariant_id: 1770
-        sort_number: -1847
+        sort_number: -1851
       rarity: uncommon
       illustrator: "Kendall Hale"
   lore: 1
@@ -5931,12 +5094,6 @@
       name: "Hiro Hamada"
       title: "Intuitiver Denker"
       flavour: ""
-  abilities: 
-    - type: activated
-      title: 
-        en: "LOOK FOR A NEW ANGLE"
-      text: 
-        en: "{E} - Ready chosen Floodborn character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -5951,7 +5108,7 @@
         de: "107/204 DE 8"
         it: "107/204 IT 8"
         culture_invariant_id: 1771
-        sort_number: -1846
+        sort_number: -1850
       rarity: super_rare
       illustrator: "Beno Meli"
   lore: 2
@@ -5985,24 +5142,6 @@
       name: "Go Go Tomago"
       title: "Messerscharf"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Go Go Tomago.)_"
-      ability: "shift"
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: resolution
-      title: 
-        en: "ZERO RESISTANCE"
-      text: 
-        en: "When you play this character, if you used Shift to play her, you may put chosen character into their player's inkwell facedown and exerted."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6017,7 +5156,7 @@
         de: "108/204 DE 8"
         it: "108/204 IT 8"
         culture_invariant_id: 1772
-        sort_number: -1845
+        sort_number: -1849
       rarity: uncommon
       illustrator: "Leonardo Giammichele"
   lore: 1
@@ -6052,18 +5191,6 @@
       name: "Don Kanaille"
       title: "Anführer der Luftpiraten"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static-triggered
-      title: 
-        en: "SCORNFUL TAUNT"
-      text: 
-        en: "Whenever you play an action that isn't a song, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6078,7 +5205,7 @@
         de: "109/204 DE 8"
         it: "109/204 IT 8"
         culture_invariant_id: 1773
-        sort_number: -1844
+        sort_number: -1848
       rarity: rare
       illustrator: "Kenneth Anderson"
     - set: roj
@@ -6090,7 +5217,7 @@
         de: "215/204 DE 8"
         it: "215/204 IT 8"
         culture_invariant_id: 1879
-        sort_number: -1738
+        sort_number: -1742
       rarity: enchanted
       illustrator: "Nicola Saviori"
   lore: 2
@@ -6126,18 +5253,6 @@
       name: "Käpt'n Hook"
       title: "König der Piraten"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 3"
-      text: 
-        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Captain Hook.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "GIVE 'EM ALL YOU GOT!"
-      text: 
-        en: "Once during your turn, whenever an opposing character is damaged, your Pirate characters get +2 {S} and gain Resist +2 this turn. (Damage dealt to them is reduced by 2.)"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6152,7 +5267,7 @@
         de: "110/204 DE 8"
         it: "110/204 IT 8"
         culture_invariant_id: 1774
-        sort_number: -1843
+        sort_number: -1847
       rarity: super_rare
       illustrator: "Natalie Dombois"
   lore: 3
@@ -6186,12 +5301,6 @@
       name: "Maui"
       title: "Sturköpfiger Schwindler"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "I'M NOT FINISHED YET"
-      text: 
-        en: "When this character is banished, choose one:n- Put 2 damage counters on all opposing characters.n- Banish all opposing items.n- Banish all opposing locations."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6206,7 +5315,7 @@
         de: "111/204 DE 8"
         it: "111/204 IT 8"
         culture_invariant_id: 1775
-        sort_number: -1842
+        sort_number: -1846
       rarity: rare
       illustrator: "Adam Ford"
   lore: 2
@@ -6240,12 +5349,6 @@
       name: "Honey Lemon"
       title: "Kostümierter Katalysator"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "LET'S DO THIS!"
-      text: 
-        en: "Whenever you play a Floodborn character, if you used Shift to play them, you may return chosen character to their player's hand."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6260,7 +5363,7 @@
         de: "112/204 DE 8"
         it: "112/204 IT 8"
         culture_invariant_id: 1776
-        sort_number: -1841
+        sort_number: -1845
       rarity: common
       illustrator: "Raquel Villanueva"
   lore: 1
@@ -6292,12 +5395,6 @@
       name: "Jock"
       title: "Aufmerksamer Onkel"
       flavour: "„Macht es euch gemütlich, ihr kleinen Welpen, und lasst euch von Onkel Jock eine Geschichte über ein paar Luminari und ein verrücktes Abenteuer erzählen …“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "VOICE OF EXPERIENCE"
-      text: 
-        en: "When you play this character, if you have 3 or more other characters in play, gain 2 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6312,7 +5409,7 @@
         de: "113/204 DE 8"
         it: "113/204 IT 8"
         culture_invariant_id: 1777
-        sort_number: -1840
+        sort_number: -1844
       rarity: rare
       illustrator: "Gwawi"
     - set: p2
@@ -6324,7 +5421,7 @@
         de: "34/P2 DE 8"
         it: "34/P2 IT 8"
         culture_invariant_id: 1935
-        sort_number: -1727
+        sort_number: -1731
       rarity: special
       illustrator: "Gwawi"
   lore: 2
@@ -6356,17 +5453,6 @@
       name: "Archimedes"
       title: "Raffinierte Eule"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "YOU DON'T NEED THAT"
-      text: 
-        en: "When you play this character, you may banish chosen item."
-    - type: static-triggered
-      title: 
-        en: "NOW, THAT'S NOT BAD"
-      text: 
-        en: "During your turn, whenever an item is banished, you may draw a card, then choose and discard a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6381,7 +5467,7 @@
         de: "114/204 DE 8"
         it: "114/204 IT 8"
         culture_invariant_id: 1778
-        sort_number: -1839
+        sort_number: -1843
       rarity: common
       illustrator: "Luis Huerta"
   cost: 3
@@ -6407,12 +5493,6 @@
       name: "Der, der stiehlt und nichts gewinnt"
       title: ""
       flavour: "Stiehlt ein anderes Mal bestimmt!"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "He Who Steals And Runs Away"
-      text: 
-        en: "Banish chosen item. Draw a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6427,7 +5507,7 @@
         de: "115/204 DE 8"
         it: "115/204 IT 8"
         culture_invariant_id: 1779
-        sort_number: -1838
+        sort_number: -1842
       rarity: uncommon
       illustrator: "Edu Francisco"
   cost: 8
@@ -6455,18 +5535,6 @@
       name: "Alles Böse biss dabei ins Gras"
       title: ""
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "sing-together"
-      text: 
-        en: "**Sing Together** 8 _(Any number of your of your teammates' characters with total cost 8 or more may {E} to sing this song for free.)_"
-      ability: "sing-together"
-    - type: resolution
-      title: 
-        en: "Stopped Chaos In Its Tracks"
-      text: 
-        en: "Sing Together 8nReturn up to 2 chosen characters with 3 {S} or less each to their player's hand."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6481,7 +5549,7 @@
         de: "116/204 DE 8"
         it: "116/204 IT 8"
         culture_invariant_id: 1780
-        sort_number: -1837
+        sort_number: -1841
       rarity: rare
       illustrator: "Cristian Romero"
     - set: roj
@@ -6493,7 +5561,7 @@
         de: "216/204 DE 8"
         it: "216/204 IT 8"
         culture_invariant_id: 1880
-        sort_number: -1737
+        sort_number: -1741
       rarity: enchanted
       illustrator: "Koni"
   cost: 3
@@ -6519,12 +5587,6 @@
       name: "Das war der Falsche!"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Wrong Lever!"
-      text: 
-        en: "Choose one:n- Return chosen character to their player's hand.n- Put a Pull the Lever! card from your discard pile on the bottom of your deck to put chosen character on the bottom of their owner's deck."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6539,7 +5601,7 @@
         de: "117/204 DE 8"
         it: "117/204 IT 8"
         culture_invariant_id: 1781
-        sort_number: -1836
+        sort_number: -1840
       rarity: uncommon
       illustrator: "Luigi Aimè"
   cost: 2
@@ -6566,17 +5628,6 @@
       name: "Sabotieren"
       title: ""
       flavour: "„Es ist wirklich eine Schande, dass ich nicht einmal die Chance hatte, es zu studieren.“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Undermine"
-      text: 
-        en: "Chosen opponent chooses and discards a card. Chosen character gets +2 {S} this turn."
-    - type: resolution
-      title: 
-        en: "Undermine"
-      text: 
-        en: "Chosen opponent chooses and discards a card. Chosen character gets +2 {S} this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6591,7 +5642,7 @@
         de: "118/204 DE 8"
         it: "118/204 IT 8"
         culture_invariant_id: 1782
-        sort_number: -1835
+        sort_number: -1839
       rarity: uncommon
       illustrator: "Alibeth Zermeno"
   cost: 3
@@ -6618,12 +5669,6 @@
       name: "Über die Planke!"
       title: ""
       flavour: "An diesem Punkt beschloss Klaus, dass er genug von Abenteuern hatte."
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Walk The Plank!"
-      text: 
-        en: "Your Pirate characters gain ``{E} – Banish chosen damaged character`` this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6638,7 +5683,7 @@
         de: "119/204 DE 8"
         it: "119/204 IT 8"
         culture_invariant_id: 1783
-        sort_number: -1834
+        sort_number: -1838
       rarity: common
       illustrator: "Jared Nickerl"
   cost: 2
@@ -6664,12 +5709,6 @@
       name: "Chemie-Tasche"
       title: ""
       flavour: "„Süß, aber auch potenziell gefährlich. Perfekt.“\n–Honey Lemon"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "HERE'S THE BEST PART"
-      text: 
-        en: "Whenever you play a character, if you used Shift to play them, they get +4 {S} this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6684,7 +5723,7 @@
         de: "120/204 DE 8"
         it: "120/204 IT 8"
         culture_invariant_id: 1784
-        sort_number: -1833
+        sort_number: -1837
       rarity: uncommon
       illustrator: "Filipe Laurentino"
   cost: 2
@@ -6711,13 +5750,6 @@
       name: "Juwelenhalsband"
       title: ""
       flavour: "Archazia hat viele wundersame Dinge erschaffen, aber noch keines so schön wie dieses."
-  abilities: 
-    - type: static
-      title: 
-        en: "WELCOME EXTRAVAGANCE"
-      text: 
-        en: "Whenever one of your characters is challenged, you may put the top card of your deck into your inkwell facedown and exerted."
-      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6732,7 +5764,7 @@
         de: "121/204 DE 8"
         it: "121/204 IT 8"
         culture_invariant_id: 1785
-        sort_number: -1832
+        sort_number: -1836
       rarity: common
       illustrator: "Rudy Hill / Denny Minonne"
   lore: 1
@@ -6765,12 +5797,6 @@
       name: "Gloyd Orangeboar"
       title: "Hartnäckiger Konkurrent"
       flavour: "„Ich habe Saures für meine Gegner <und> Süßes für meine Fans!“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "PUMPKIN SPICE"
-      text: 
-        en: "When you play this character, each opponent loses 1 lore and you gain 1 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6785,7 +5811,7 @@
         de: "122/204 DE 8"
         it: "122/204 IT 8"
         culture_invariant_id: 1786
-        sort_number: -1831
+        sort_number: -1835
       rarity: uncommon
       illustrator: "Valentina Graziuso"
   lore: 2
@@ -6831,7 +5857,7 @@
         de: "123/204 DE 8"
         it: "123/204 IT 8"
         culture_invariant_id: 1787
-        sort_number: -1830
+        sort_number: -1834
       rarity: rare
       illustrator: "Pietro B. Zemelo"
   lore: 1
@@ -6865,18 +5891,6 @@
       name: "Daniel Düsentrieb"
       title: "Exzentrischer Erfinder"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: resolution
-      title: 
-        en: "I'LL SHOW YOU!"
-      text: 
-        en: "When you play this character, chosen opposing character gets -3 {S} this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6891,7 +5905,7 @@
         de: "124/204 DE 8"
         it: "124/204 IT 8"
         culture_invariant_id: 1788
-        sort_number: -1829
+        sort_number: -1833
       rarity: common
       illustrator: "French Carlomagno"
   lore: 1
@@ -6925,13 +5939,6 @@
       name: "Vanellope von Schweetz"
       title: "Flotter Flitzer"
       flavour: "„Ich kann mit allem umgehen, was ihr mir entgegenwerft … Warte, sind das <Laserschlangen>? Das ist die beste Strecke aller Zeiten!“"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6946,7 +5953,7 @@
         de: "125/204 DE 8"
         it: "125/204 IT 8"
         culture_invariant_id: 1789
-        sort_number: -1828
+        sort_number: -1832
       rarity: common
       illustrator: "Teresita Q. / SCG"
   lore: 1
@@ -6978,12 +5985,6 @@
       name: "Brutus, das Krokodil"
       title: "Furchterregendes Krokodil"
       flavour: "Er steht Nero in Sachen Grausamkeit und Klasse in nichts nach."
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "SPITEFUL"
-      text: 
-        en: "During your turn, when this character is banished, if one of your characters was damaged this turn, gain 2 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -6998,7 +5999,7 @@
         de: "126/204 DE 8"
         it: "126/204 IT 8"
         culture_invariant_id: 1790
-        sort_number: -1827
+        sort_number: -1831
       rarity: common
       illustrator: "Filipe Laurentino"
   lore: 1
@@ -7029,13 +6030,6 @@
       name: "Der Dodo"
       title: "Schräger Geschichtenerzähler"
       flavour: "„Und da war ich in der Höhle unterhalb des Palastes, als plötzlich Sand herabrieselte. Hielt ich an? Nein! Was ist schon ein bisschen Sand?“"
-  abilities: 
-    - type: static
-      title: 
-        en: "effects"
-      text: 
-        en: ""
-      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7050,7 +6044,7 @@
         de: "127/204 DE 8"
         it: "127/204 IT 8"
         culture_invariant_id: 1791
-        sort_number: -1826
+        sort_number: -1830
       rarity: common
       illustrator: "Filipe Laurentino"
   lore: 2
@@ -7082,12 +6076,6 @@
       name: "Alice"
       title: "Mutige Schlüsselträgerin"
       flavour: "„Meine Güte, diese Skarabäen sind ganz schön nah! Wir müssen einen Ausweg finden!“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "THIS WAY OUT"
-      text: 
-        en: "When you play this character, you may ready chosen damaged character of yours. They can't quest for the rest of this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7102,7 +6090,7 @@
         de: "128/204 DE 8"
         it: "128/204 IT 8"
         culture_invariant_id: 1792
-        sort_number: -1825
+        sort_number: -1829
       rarity: common
       illustrator: "Heidi Neunhoffer"
   lore: 2
@@ -7134,13 +6122,6 @@
       name: "Lumière"
       title: "Flinker Kerzenleuchter"
       flavour: "„Sacre bleu! So behandelt man keinen Gast in seinem Palast!“"
-  abilities: 
-    - type: static
-      title: 
-        en: "QUICK-STEP"
-      text: 
-        en: "While you have an item card in your discard, this character gains Evasive. (Only characters with Evasive can challenge them.)"
-      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7155,7 +6136,7 @@
         de: "129/204 DE 8"
         it: "129/204 IT 8"
         culture_invariant_id: 1793
-        sort_number: -1824
+        sort_number: -1828
       rarity: common
       illustrator: "Samoldstoree"
   lore: 1
@@ -7187,12 +6168,6 @@
       name: "Gaston"
       title: "Arroganter Angeber"
       flavour: "„Nimm diesen magischen Stein. Du wirst ihn brauchen, um mit mir Schritt zu halten!“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "BREAK APART"
-      text: 
-        en: "When you play this character, you may banish one of your items to give chosen character +2 {S} this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7207,7 +6182,7 @@
         de: "130/204 DE 8"
         it: "130/204 IT 8"
         culture_invariant_id: 1794
-        sort_number: -1823
+        sort_number: -1827
       rarity: common
       illustrator: "Kuya Jaypi"
   lore: 1
@@ -7240,12 +6215,6 @@
       name: "Mushu"
       title: "Schnellsprechender Drache"
       flavour: "„Los, los, los! Wir haben keine Zeit für Erklärungen. Nun, vielleicht ein bisschen Zeit, also hör zu …“"
-  abilities: 
-    - type: activated
-      title: 
-        en: "LET'S GET THIS SHOW ON THE ROAD"
-      text: 
-        en: "{E} – Chosen character gains Rush this turn. (They can challenge the turn they're played.)"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7260,7 +6229,7 @@
         de: "131/204 DE 8"
         it: "131/204 IT 8"
         culture_invariant_id: 1795
-        sort_number: -1822
+        sort_number: -1826
       rarity: common
       illustrator: "Yu Nguyen"
   lore: 1
@@ -7292,13 +6261,6 @@
       name: "Kriki"
       title: "Teil des Teams"
       flavour: "„Du warst so auf mich und Mulan konzentriert, dass du meinen Kumpel Kriki hier vergessen hast. Und das war ein <Fehler>!“\n–Mushu"
-  abilities: 
-    - type: static
-      title: 
-        en: "AT HER SIDE"
-      text: 
-        en: "While you have 2 or more other exerted characters in play, this character gets +2 {L}."
-      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7313,7 +6275,7 @@
         de: "132/204 DE 8"
         it: "132/204 IT 8"
         culture_invariant_id: 1796
-        sort_number: -1821
+        sort_number: -1825
       rarity: common
       illustrator: "Sara Leal (Loyal)"
   lore: 1
@@ -7358,7 +6320,7 @@
         de: "133/204 DE 8"
         it: "133/204 IT 8"
         culture_invariant_id: 1797
-        sort_number: -1820
+        sort_number: -1824
       rarity: uncommon
       illustrator: "Saulo Nate"
   lore: 1
@@ -7390,13 +6352,6 @@
       name: "Figaro"
       title: "Tuxedo-Katze"
       flavour: "„Und nun sage Figaro auch guten Tag. Hupps! Und gleich zu Streichen aufgelegt!“\n–Geppetto"
-  abilities: 
-    - type: static
-      title: 
-        en: "PLAYFULNESS"
-      text: 
-        en: "Opposing items enter play exerted."
-      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7411,7 +6366,7 @@
         de: "134/204 DE 8"
         it: "134/204 IT 8"
         culture_invariant_id: 1798
-        sort_number: -1819
+        sort_number: -1823
       rarity: uncommon
       illustrator: "Oggy Christiansson"
   lore: 1
@@ -7443,12 +6398,6 @@
       name: "Klopfer"
       title: "Junges Häschen"
       flavour: "„Komm schon! Zeigen wir dem bösen, alten Sultan, wo der Hase lang läuft.“"
-  abilities: 
-    - type: activated
-      title: 
-        en: "YOU CAN DO IT!"
-      text: 
-        en: "{E} – Chosen character gets +3 {S} this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7463,7 +6412,7 @@
         de: "135/204 DE 8"
         it: "135/204 IT 8"
         culture_invariant_id: 1799
-        sort_number: -1818
+        sort_number: -1822
       rarity: rare
       illustrator: "Joseph Buenning"
   lore: 1
@@ -7496,12 +6445,6 @@
       name: "Randale Ralph"
       title: "Rücksitzfahrer"
       flavour: "„Lass uns Gummi verbrennen, Kleine!“\n–Randale Ralph"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "CHARGED UP"
-      text: 
-        en: "When you play this character, chosen Racer character gets +4 {S} this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7516,7 +6459,7 @@
         de: "136/204 DE 8"
         it: "136/204 IT 8"
         culture_invariant_id: 1800
-        sort_number: -1817
+        sort_number: -1821
       rarity: legendary
       illustrator: "Amber Kommavongsa"
   lore: 1
@@ -7549,18 +6492,6 @@
       name: "Naseweis"
       title: "Hartnäckige Fee"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "PAY ATTENTION"
-      text: 
-        en: "Whenever you play a character with 5 {S} or more, you may exert them to gain 2 lore."
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7575,7 +6506,7 @@
         de: "137/204 DE 8"
         it: "137/204 IT 8"
         culture_invariant_id: 1801
-        sort_number: -1816
+        sort_number: -1820
       rarity: legendary
       illustrator: "Julien Vandois"
     - set: roj
@@ -7587,7 +6518,7 @@
         de: "217/204 DE 8"
         it: "217/204 IT 8"
         culture_invariant_id: 1881
-        sort_number: -1736
+        sort_number: -1740
       rarity: enchanted
       illustrator: "Grace Tran"
   lore: 2
@@ -7619,18 +6550,6 @@
       name: "Lilo"
       title: "Aufruhr-Auslöserin"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "STOMPIN' TIME!"
-      text: 
-        en: "During your turn, if you've played 3 or more actions this turn, you may play this character for free."
-      ability: "effects"
-    - type: resolution
-      title: 
-        en: "RAAAWR!"
-      text: 
-        en: "When you play this character, ready chosen character. They can't quest for the rest of this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7645,7 +6564,7 @@
         de: "138/204 DE 8"
         it: "138/204 IT 8"
         culture_invariant_id: 1802
-        sort_number: -1815
+        sort_number: -1819
       rarity: uncommon
       illustrator: "Simone Buonfantino"
   lore: 1
@@ -7678,12 +6597,6 @@
       name: "Le Fou"
       title: "Kuchendieb"
       flavour: "„Le Fou, manchmal kriegst auch du ein Stück vom Kuchen ab.“\n–Gaston"
-  abilities: 
-    - type: activated
-      title: 
-        en: "ALL FOR ME"
-      text: 
-        en: "{E}, banish one of your items – Chosen opponent loses 1 lore and you gain 1 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7698,7 +6611,7 @@
         de: "139/204 DE 8"
         it: "139/204 IT 8"
         culture_invariant_id: 1803
-        sort_number: -1814
+        sort_number: -1818
       rarity: super_rare
       illustrator: "Justin Runfola"
   lore: 2
@@ -7731,24 +6644,6 @@
       name: "Lumière"
       title: "Angefeuert"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 3"
-      text: 
-        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Lumiere.)_"
-      ability: "shift"
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static-triggered
-      title: 
-        en: "SACREBLEU!"
-      text: 
-        en: "Whenever one of your items is banished, this character gets +1 {L} this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7763,7 +6658,7 @@
         de: "140/204 DE 8"
         it: "140/204 IT 8"
         culture_invariant_id: 1804
-        sort_number: -1813
+        sort_number: -1817
       rarity: uncommon
       illustrator: "Filipe Laurentino"
   lore: 1
@@ -7796,19 +6691,6 @@
       name: "Der Kutscher"
       title: "Gieriger Betrüger"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "RECKLESS RUN"
-      text: 
-        en: "While you have 2 or more characters exerted, this character gets +2 {S} and Evasive."
-      ability: "effects"
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7823,7 +6705,7 @@
         de: "141/204 DE 8"
         it: "141/204 IT 8"
         culture_invariant_id: 1805
-        sort_number: -1812
+        sort_number: -1816
       rarity: super_rare
       illustrator: "Gonzalo Kenny"
     - set: c2
@@ -7835,7 +6717,7 @@
         de: "3/C2 DE 8"
         it: "3/C2 IT 8"
         culture_invariant_id: 2453
-        sort_number: -1718
+        sort_number: -1721
       rarity: special
       illustrator: "LadyShalirin"
     - set: c2
@@ -7847,7 +6729,7 @@
         de: "7/C2 DE 8"
         it: "7/C2 IT 8"
         culture_invariant_id: 2457
-        sort_number: -1717
+        sort_number: -1720
       rarity: special
       illustrator: "LadyShalirin"
   lore: 0
@@ -7881,25 +6763,6 @@
       name: "Mulan"
       title: "Stürmt voran"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "reckless"
-      text: 
-        en: "_(This character can't quest and must challenge each turn if able.)_"
-      ability: "reckless"
-    - type: static
-      title: 
-        en: "Burst of Speed"
-      text: 
-        en: "During your turn, this character gains **Evasive**."
-      ability: "gain-ability"
-    - type: static
-      title: 
-        en: "Long Range"
-      text: 
-        en: "This character can challenge ready characters."
-      ability: "challenge-ready-chars"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7914,7 +6777,7 @@
         de: "142/204 DE 8"
         it: "142/204 IT 8"
         culture_invariant_id: 1806
-        sort_number: -1811
+        sort_number: -1815
       rarity: rare
       illustrator: "Jared Mathews"
     - set: roj
@@ -7926,7 +6789,7 @@
         de: "218/204 DE 8"
         it: "218/204 IT 8"
         culture_invariant_id: 1882
-        sort_number: -1735
+        sort_number: -1739
       rarity: enchanted
       illustrator: "Nicola Saviori"
   lore: 2
@@ -7960,18 +6823,6 @@
       name: "Mushu"
       title: "Dein schlimmster Albtraum"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Mushu.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "ALL FIRED UP"
-      text: 
-        en: "Whenever you play another character, they gain Rush, Reckless, and Evasive this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -7986,7 +6837,7 @@
         de: "143/204 DE 8"
         it: "143/204 IT 8"
         culture_invariant_id: 1807
-        sort_number: -1810
+        sort_number: -1814
       rarity: common
       illustrator: "noc4urne"
   lore: 1
@@ -8018,12 +6869,6 @@
       name: "Mr. Snoops"
       title: "Betrogener Partner"
       flavour: "„Du kannst mir so was nicht antun, du Schwindlerin! Wir hatten eine Absprache!“"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "DOUBLE-CROSSING CROOK!"
-      text: 
-        en: "During your turn, when this character is banished, you may draw a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8038,7 +6883,7 @@
         de: "144/204 DE 8"
         it: "144/204 IT 8"
         culture_invariant_id: 1808
-        sort_number: -1809
+        sort_number: -1813
       rarity: common
       illustrator: "James Rey Sanchez"
   lore: 2
@@ -8084,7 +6929,7 @@
         de: "145/204 DE 8"
         it: "145/204 IT 8"
         culture_invariant_id: 1809
-        sort_number: -1808
+        sort_number: -1812
       rarity: rare
       illustrator: "Raquel Villanueva"
   lore: 1
@@ -8116,19 +6961,6 @@
       name: "Feline"
       title: "Verspieltes Rehkitz"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static
-      title: 
-        en: "PRECOCIOUS FRIEND"
-      text: 
-        en: "While you have a character in play with more {S} than each opposing character, this character gets +2 {L}."
-      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8143,7 +6975,7 @@
         de: "146/204 DE 8"
         it: "146/204 IT 8"
         culture_invariant_id: 1810
-        sort_number: -1807
+        sort_number: -1811
       rarity: rare
       illustrator: "Denny Minonne"
   lore: 1
@@ -8176,12 +7008,6 @@
       name: "Prinz John"
       title: "Angstkatze"
       flavour: "Auch ein verängstigter Löwe hat noch Krallen."
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "HELP! HELP!"
-      text: 
-        en: "Whenever an opponent plays a character, deal 1 damage to this character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8196,7 +7022,7 @@
         de: "147/204 DE 8"
         it: "147/204 IT 8"
         culture_invariant_id: 1811
-        sort_number: -1806
+        sort_number: -1810
       rarity: rare
       illustrator: "Jeanne Plounevez"
   cost: 8
@@ -8224,18 +7050,6 @@
       name: "Für immer und immer"
       title: ""
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "sing-together"
-      text: 
-        en: "**Sing Together** 8 _(Any number of your of your teammates' characters with total cost 8 or more may {E} to sing this song for free.)_"
-      ability: "sing-together"
-    - type: resolution
-      title: 
-        en: "Nothing We Won't Do"
-      text: 
-        en: "Sing Together 8nReady all your characters. For the rest of this turn, they take no damage from challenges and can't quest."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8250,7 +7064,7 @@
         de: "148/204 DE 8"
         it: "148/204 IT 8"
         culture_invariant_id: 1812
-        sort_number: -1805
+        sort_number: -1809
       rarity: uncommon
       illustrator: "Diogo Saito"
   cost: 6
@@ -8277,12 +7091,6 @@
       name: "Verschwinde hier!"
       title: ""
       flavour: "„Gehe jetzt. Bevor ich meine Meinung ändere.“\n–Das Biest"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Get Out!"
-      text: 
-        en: "Banish chosen character, then return an item card from your discard to your hand."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8297,7 +7105,7 @@
         de: "149/204 DE 8"
         it: "149/204 IT 8"
         culture_invariant_id: 1813
-        sort_number: -1804
+        sort_number: -1808
       rarity: uncommon
       illustrator: "Kenneth Anderson"
   cost: 1
@@ -8324,12 +7132,6 @@
       name: "Entzünde die Lunte"
       title: ""
       flavour: "Eine mutige Tat kann den Verlauf einer Schlacht verändern."
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Light The Fuse"
-      text: 
-        en: "Deal 1 damage to chosen character for each exerted character you have in play."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8344,7 +7146,7 @@
         de: "150/204 DE 8"
         it: "150/204 IT 8"
         culture_invariant_id: 1814
-        sort_number: -1803
+        sort_number: -1807
       rarity: uncommon
       illustrator: "Omar Lozano"
   cost: 1
@@ -8370,12 +7172,6 @@
       name: "Schwer verknallt"
       title: ""
       flavour: "Ein mysteriöses Phänomen, bei dem man sich gleichzeitig unbesiegbar und verletzlich fühlt."
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Twitterpated"
-      text: 
-        en: "Chosen character gains Evasive until the start of your next turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8390,7 +7186,7 @@
         de: "151/204 DE 8"
         it: "151/204 IT 8"
         culture_invariant_id: 1815
-        sort_number: -1802
+        sort_number: -1806
       rarity: rare
       illustrator: "Leonardo Giammichele"
   cost: 7
@@ -8416,12 +7212,6 @@
       name: "Die meisten von uns hier sind verrückt"
       title: ""
       flavour: "„Nun, manche Leute gehen da lang. Andere gehen da lang. Ich persönlich dagegen ziehe die Abkürzung vor.“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Most Everyone's Mad Here"
-      text: 
-        en: "Gain lore equal to the damage on chosen character, then banish them."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8436,7 +7226,7 @@
         de: "152/204 DE 8"
         it: "152/204 IT 8"
         culture_invariant_id: 1816
-        sort_number: -1801
+        sort_number: -1805
       rarity: rare
       illustrator: "Domenico Russo"
     - set: roj
@@ -8448,7 +7238,7 @@
         de: "219/204 DE 8"
         it: "219/204 IT 8"
         culture_invariant_id: 1883
-        sort_number: -1734
+        sort_number: -1738
       rarity: enchanted
       illustrator: "Jonathan Livslyst / Renée Chio"
   cost: 1
@@ -8474,12 +7264,6 @@
       name: "Das Schwert des Shan-Yu"
       title: ""
       flavour: "„Es bedeutet euch sehr viel.“ \n–Der Kaiser"
-  abilities: 
-    - type: activated
-      title: 
-        en: "WORTHY WEAPON"
-      text: 
-        en: "{E}, {E} one of your characters – Ready chosen character. They can't quest for the rest of this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8494,7 +7278,7 @@
         de: "153/204 DE 8"
         it: "153/204 IT 8"
         culture_invariant_id: 1817
-        sort_number: -1800
+        sort_number: -1804
       rarity: common
       illustrator: "Jon Densk / Hayley Evans"
   lore: 1
@@ -8541,7 +7325,7 @@
         de: "154/204 DE 8"
         it: "154/204 IT 8"
         culture_invariant_id: 1818
-        sort_number: -1799
+        sort_number: -1803
       rarity: uncommon
       illustrator: "Rudy Hill"
   lore: 1
@@ -8573,12 +7357,6 @@
       name: "Sir Pelinore"
       title: "Erfahrener Ritter"
       flavour: "„Gemeinsam, Freunde, werden wir siegen!“"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "CODE OF HONOR"
-      text: 
-        en: "Whenever this character quests, your other characters gain Support this turn. (Whenever they quest, you may add their {S} to another chosen character's {S} this turn.)"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8593,7 +7371,7 @@
         de: "155/204 DE 8"
         it: "155/204 IT 8"
         culture_invariant_id: 1819
-        sort_number: -1798
+        sort_number: -1802
       rarity: common
       illustrator: "Carmine Pucci"
   lore: 1
@@ -8625,12 +7403,6 @@
       name: "Anita Radcliffe"
       title: "Hundeliebhaberin"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "I'LL TAKE CARE OF YOU"
-      text: 
-        en: "When you play this character, you may give chosen Puppy character Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8645,7 +7417,7 @@
         de: "156/204 DE 8"
         it: "156/204 IT 8"
         culture_invariant_id: 1820
-        sort_number: -1797
+        sort_number: -1801
       rarity: common
       illustrator: "Matt Chapman"
   lore: 1
@@ -8677,12 +7449,6 @@
       name: "Olaf"
       title: "Fasst die Geschichte zusammen"
       flavour: "„Alles begann mit zwei Schwestern. Die eine geboren mit Zauberkräften, die andere ist pupsnormal. Ihre Liebe zu Schneemännern, gigantisch.“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "ENDLESS TALE"
-      text: 
-        en: "When you play this character, chosen opposing character gets -1 {S} this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8697,7 +7463,7 @@
         de: "157/204 DE 8"
         it: "157/204 IT 8"
         culture_invariant_id: 1821
-        sort_number: -1796
+        sort_number: -1800
       rarity: common
       illustrator: "Samanta Erdini"
   lore: 2
@@ -8730,12 +7496,6 @@
       name: "Anna"
       title: "Vertrauensvolle Schwester"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "WE CAN DO THIS TOGETHER"
-      text: 
-        en: "When you play this character, if you have a character named Elsa in play, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8750,7 +7510,7 @@
         de: "158/204 DE 8"
         it: "158/204 IT 8"
         culture_invariant_id: 1822
-        sort_number: -1795
+        sort_number: -1799
       rarity: common
       illustrator: "Jules Dubost"
   lore: 2
@@ -8783,13 +7543,6 @@
       name: "Wasabi"
       title: "Auf alles vorbereitet"
       flavour: "„Okay, der Plan lautet also: ‚Lass Wasabi uns den Rücken freihalten, während wir die Krone stehlen.‘ Gut zu wissen.“"
-  abilities: 
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8804,7 +7557,7 @@
         de: "159/204 DE 8"
         it: "159/204 IT 8"
         culture_invariant_id: 1823
-        sort_number: -1794
+        sort_number: -1798
       rarity: common
       illustrator: "Jennifer Wu"
   lore: 1
@@ -8837,12 +7590,6 @@
       name: "Go Go Tomago"
       title: "Maschineningenieurin"
       flavour: "„Sieh dir das an! Diese ‚Tinte‘ bietet so viele Möglichkeiten.“"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "NEED THIS!"
-      text: 
-        en: "When you play a Floodborn character on this card, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8857,7 +7604,7 @@
         de: "160/204 DE 8"
         it: "160/204 IT 8"
         culture_invariant_id: 1824
-        sort_number: -1793
+        sort_number: -1797
       rarity: common
       illustrator: "Giulia Riva"
   lore: 1
@@ -8889,12 +7636,6 @@
       name: "Mme. Kommode"
       title: "Aufmerksame Freundin"
       flavour: "„Es ist Zeit, etwas Neues auszuprobieren, meine Liebe.“"
-  abilities: 
-    - type: activated
-      title: 
-        en: "I HAVE JUST THE THING"
-      text: 
-        en: "{E}, Choose and discard an item card - Draw 2 cards"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8909,7 +7650,7 @@
         de: "161/204 DE 8"
         it: "161/204 IT 8"
         culture_invariant_id: 1825
-        sort_number: -1792
+        sort_number: -1796
       rarity: common
       illustrator: "Julie Vu"
   lore: 1
@@ -8941,12 +7682,6 @@
       name: "Mme. Pottine"
       title: "Hausdame"
       flavour: "„Mach dir keine Mühe wegen der Unordnung, Liebes. Wir bringen alles im Handumdrehen wieder in Ordnung.“"
-  abilities: 
-    - type: activated
-      title: 
-        en: "CLEAN UP"
-      text: 
-        en: "{E}, Banish one of your items – Draw a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -8961,7 +7696,7 @@
         de: "162/204 DE 8"
         it: "162/204 IT 8"
         culture_invariant_id: 1826
-        sort_number: -1791
+        sort_number: -1795
       rarity: common
       illustrator: "Joseph Buenning"
   lore: 1
@@ -8994,12 +7729,6 @@
       name: "Jasmin"
       title: "Einfallsreiche Infiltratorin"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "JUST WHAT YOU NEED"
-      text: 
-        en: "When you play this character, you may give another chosen character Resist +1 until the start of your next turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9014,7 +7743,7 @@
         de: "163/204 DE 8"
         it: "163/204 IT 8"
         culture_invariant_id: 1827
-        sort_number: -1790
+        sort_number: -1794
       rarity: common
       illustrator: "Andrea Parisi"
   lore: 1
@@ -9046,12 +7775,6 @@
       name: "Kleine Schwester"
       title: "Verantwortungsvolles Kaninchen"
       flavour: "Als Skippys ältere Schwester hat sie schon viel Erfahrung darin, Dinge wieder zusammenzusetzen."
-  abilities: 
-    - type: resolution
-      title: 
-        en: "LET ME HELP"
-      text: 
-        en: "When you play this character, you may remove up to 1 damage from chosen character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9066,7 +7789,7 @@
         de: "164/204 DE 8"
         it: "164/204 IT 8"
         culture_invariant_id: 1828
-        sort_number: -1789
+        sort_number: -1793
       rarity: common
       illustrator: "Lisanne Koeteeuw"
   lore: 1
@@ -9112,7 +7835,7 @@
         de: "165/204 DE 8"
         it: "165/204 IT 8"
         culture_invariant_id: 1829
-        sort_number: -1788
+        sort_number: -1792
       rarity: rare
       illustrator: "Alex Accorsi"
   lore: 1
@@ -9144,18 +7867,6 @@
       name: "Nani"
       title: "Diebisches Superhirn"
       flavour: ""
-  abilities: 
-    - type: activated
-      title: 
-        en: "STICK TO THE PLAN"
-      text: 
-        en: "Another chosen character gains Resist +2 this turn. (Damage dealt to them is reduced by 2.)"
-    - type: static
-      title: 
-        en: "Dexterous Lunge"
-      text: 
-        en: "Your characters named Jetsam gain **Rush.**"
-      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9170,7 +7881,7 @@
         de: "166/204 DE 8"
         it: "166/204 IT 8"
         culture_invariant_id: 1830
-        sort_number: -1787
+        sort_number: -1791
       rarity: legendary
       illustrator: "Matteo Marzocco"
     - set: roj
@@ -9182,7 +7893,7 @@
         de: "220/204 DE 8"
         it: "220/204 IT 8"
         culture_invariant_id: 1884
-        sort_number: -1733
+        sort_number: -1737
       rarity: enchanted
       illustrator: "Natalie Dombois"
   lore: 2
@@ -9215,17 +7926,6 @@
       name: "Stitch"
       title: "Experiment 626"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "SO NAUGHTY"
-      text: 
-        en: "When you play this character, each opponent puts the top card of their deck into their inkwell."
-    - type: static-triggered
-      title: 
-        en: "STEALTH MODE"
-      text: 
-        en: "At the start of your turn, if this card is in your discard, you may choose and discard a card with {IW} to play him for free and he enters play exerted."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9240,7 +7940,7 @@
         de: "167/204 DE 8"
         it: "167/204 IT 8"
         culture_invariant_id: 1831
-        sort_number: -1786
+        sort_number: -1790
       rarity: legendary
       illustrator: "Matthew Robert Davies"
   lore: 4
@@ -9272,18 +7972,6 @@
       name: "Rattenzahn"
       title: "Gieriges Genie"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "ward"
-      text: 
-        en: "_(Opponents can't choose this character except to challenge.)_"
-      ability: "ward"
-    - type: static-triggered
-      title: 
-        en: "TIME RUNS OUT"
-      text: 
-        en: "At the end of your turn, if you didn't put any cards into your inkwell this turn, banish this character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9298,7 +7986,7 @@
         de: "168/204 DE 8"
         it: "168/204 IT 8"
         culture_invariant_id: 1832
-        sort_number: -1785
+        sort_number: -1789
       rarity: uncommon
       illustrator: "Edu Francisco"
   lore: 3
@@ -9345,7 +8033,7 @@
         de: "169/204 DE 8"
         it: "169/204 IT 8"
         culture_invariant_id: 1833
-        sort_number: -1784
+        sort_number: -1788
       rarity: uncommon
       illustrator: "McKay Anderson"
   lore: 1
@@ -9378,12 +8066,6 @@
       name: "Bernard"
       title: "Übervorbereitet"
       flavour: "„Miss Bianca, ich habe was gefunden!“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "GO DOWN THERE AND INVESTIGATE"
-      text: 
-        en: "When you play this character, if you have an Ally character in play, you may draw a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9398,7 +8080,7 @@
         de: "170/204 DE 8"
         it: "170/204 IT 8"
         culture_invariant_id: 1834
-        sort_number: -1783
+        sort_number: -1787
       rarity: rare
       illustrator: "Marcel Berg"
     - set: p2
@@ -9410,7 +8092,7 @@
         de: "29/P2 DE 8"
         it: "29/P2 IT 8"
         culture_invariant_id: 1889
-        sort_number: -1723
+        sort_number: -1726
       rarity: special
       illustrator: "Marcel Berg"
   lore: 1
@@ -9444,18 +8126,6 @@
       name: "Aladdin"
       title: "Wachsamer Gardist"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
-    - type: static-triggered
-      title: 
-        en: "SAFE PASSAGE"
-      text: 
-        en: "Whenever one of your Ally characters quests, you may remove up to 2 damage from this character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9470,7 +8140,7 @@
         de: "171/204 DE 8"
         it: "171/204 IT 8"
         culture_invariant_id: 1835
-        sort_number: -1782
+        sort_number: -1786
       rarity: super_rare
       illustrator: "Hedvig H-S"
     - set: roj
@@ -9482,7 +8152,7 @@
         de: "221/204 DE 8"
         it: "221/204 IT 8"
         culture_invariant_id: 1885
-        sort_number: -1732
+        sort_number: -1736
       rarity: enchanted
       illustrator: "Viv Tanner"
   lore: 1
@@ -9516,18 +8186,6 @@
       name: "Jasmin"
       title: "Unermüdliche Strategin"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 2"
-      text: 
-        en: "**Shift** 2 _(You may pay 2 {I} to play this on top of one of your characters named Jasmine.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "ALWAYS PLANNING"
-      text: 
-        en: "Whenever this character quests, look at the top 3 cards of your deck. You may reveal an Ally character card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9542,7 +8200,7 @@
         de: "172/204 DE 8"
         it: "172/204 IT 8"
         culture_invariant_id: 1836
-        sort_number: -1781
+        sort_number: -1785
       rarity: uncommon
       illustrator: "Anderson Mahanski"
   lore: 1
@@ -9574,12 +8232,6 @@
       name: "Roquefort"
       title: "Experte für Schlösser"
       flavour: "„Dschafar wird niemals erwarten, dass wir in seinem eigenen Safe Legenden vor ihm verstecken! Wie aufregend!“"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "SAFEKEEPING"
-      text: 
-        en: "Whenever this character quests, you may put chosen item into its player's inkwell facedown and exerted."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9594,7 +8246,7 @@
         de: "173/204 DE 8"
         it: "173/204 IT 8"
         culture_invariant_id: 1837
-        sort_number: -1780
+        sort_number: -1784
       rarity: uncommon
       illustrator: "Malia Ewart"
   lore: 2
@@ -9641,7 +8293,7 @@
         de: "174/204 DE 8"
         it: "174/204 IT 8"
         culture_invariant_id: 1838
-        sort_number: -1779
+        sort_number: -1783
       rarity: rare
       illustrator: "Malia Ewart"
   lore: 2
@@ -9674,12 +8326,6 @@
       name: "Geppetto"
       title: "Geschickter Handwerker"
       flavour: "Alles, was er schnitzt, ist ein kleines Kunstwerk."
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "SEEKING INSPIRATION"
-      text: 
-        en: "Whenever this character quests, you may choose and discard any number of item cards to gain 1 lore for each item card discarded this way."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9694,7 +8340,7 @@
         de: "175/204 DE 8"
         it: "175/204 IT 8"
         culture_invariant_id: 1839
-        sort_number: -1778
+        sort_number: -1782
       rarity: rare
       illustrator: "Lorenza Pigliamosche / Livio Cacciatore"
   cost: 6
@@ -9722,18 +8368,6 @@
       name: "Himmelwärts jauchzt das Herz"
       title: ""
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "sing-together"
-      text: 
-        en: "**Sing Together** 6 _(Any number of your of your teammates' characters with total cost 6 or more may {E} to sing this song for free.)_"
-      ability: "sing-together"
-    - type: resolution
-      title: 
-        en: "Heads Held High"
-      text: 
-        en: "Sing Together 6nRemove up to 3 damage from any number of chosen characters. All opposing characters get -3 {S} this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9748,7 +8382,7 @@
         de: "176/204 DE 8"
         it: "176/204 IT 8"
         culture_invariant_id: 1840
-        sort_number: -1777
+        sort_number: -1781
       rarity: uncommon
       illustrator: "Moniek Schilder"
   cost: 2
@@ -9774,17 +8408,6 @@
       name: "Springen üben"
       title: ""
       flavour: "„Sieh dir diesen coolen Trick an, den mir mein Papa beigebracht hat!“\n–Simba"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Pouncing Practice"
-      text: 
-        en: "Chosen character of yours gains Evasive this turn."
-    - type: resolution
-      title: 
-        en: "Pouncing Practice"
-      text: 
-        en: "Chosen character gets -2 {S} this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9799,7 +8422,7 @@
         de: "177/204 DE 8"
         it: "177/204 IT 8"
         culture_invariant_id: 1841
-        sort_number: -1776
+        sort_number: -1780
       rarity: super_rare
       illustrator: "Rubin Chung"
   cost: 6
@@ -9827,12 +8450,6 @@
       name: "In New Orleans"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Down In New Orleans"
-      text: 
-        en: "Look at the top 3 cards of your deck. You may reveal a character, item, or location card with cost 6 or less and play it for free. Put the rest on the bottom of your deck in any order."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9847,7 +8464,7 @@
         de: "178/204 DE 8"
         it: "178/204 IT 8"
         culture_invariant_id: 1842
-        sort_number: -1775
+        sort_number: -1779
       rarity: common
       illustrator: "Mariana Moreno"
   cost: 3
@@ -9873,12 +8490,6 @@
       name: "Fernseher"
       title: ""
       flavour: "Die Serie von Thunderbolt war eine Sache, auf die sich alle Welpen einigen konnten."
-  abilities: 
-    - type: activated
-      title: 
-        en: "IS IT ON YET?"
-      text: 
-        en: "{E}, 1 {I} – Look at the top card of your deck. If it's a Puppy character card, you may reveal it and put it into your hand. Otherwise, put it on the bottom of your deck."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9893,7 +8504,7 @@
         de: "179/204 DE 8"
         it: "179/204 IT 8"
         culture_invariant_id: 1843
-        sort_number: -1774
+        sort_number: -1778
       rarity: rare
       illustrator: "Edgar Pasten"
   cost: 3
@@ -9919,12 +8530,6 @@
       name: "Belles Lieblingsbuch"
       title: ""
       flavour: "Manche Geschichten bleiben einem für immer im Gedächtnis."
-  abilities: 
-    - type: activated
-      title: 
-        en: "CHAPTER THREE"
-      text: 
-        en: "{E}, Banish one of your other items – Put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9939,7 +8544,7 @@
         de: "180/204 DE 8"
         it: "180/204 IT 8"
         culture_invariant_id: 1844
-        sort_number: -1773
+        sort_number: -1777
       rarity: rare
       illustrator: "Greez"
   cost: 2
@@ -9965,12 +8570,6 @@
       name: "Atlantischer Kristall"
       title: ""
       flavour: ""
-  abilities: 
-    - type: activated
-      title: 
-        en: "SHIELDING LIGHT"
-      text: 
-        en: "{E}, 2 {I} – Chosen character gains Resist +2 and Support until the start of your next turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -9985,7 +8584,7 @@
         de: "181/204 DE 8"
         it: "181/204 IT 8"
         culture_invariant_id: 1845
-        sort_number: -1772
+        sort_number: -1776
       rarity: uncommon
       illustrator: "French Carlomagno"
   lore: 3
@@ -10031,7 +8630,7 @@
         de: "182/204 DE 8"
         it: "182/204 IT 8"
         culture_invariant_id: 1846
-        sort_number: -1771
+        sort_number: -1775
       rarity: common
       illustrator: "Adam Fenton"
   lore: 1
@@ -10062,13 +8661,6 @@
       name: "Bobby"
       title: "Lila Taube"
       flavour: "„Wenn du mir zu nahe kommst, kriegst du den Schnabel ab, capisce?“"
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10083,7 +8675,7 @@
         de: "183/204 DE 8"
         it: "183/204 IT 8"
         culture_invariant_id: 1847
-        sort_number: -1770
+        sort_number: -1774
       rarity: common
       illustrator: "Andrea Parisi"
   lore: 2
@@ -10116,19 +8708,6 @@
       name: "Fliegender Teppich"
       title: "Phantomteppich"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "vanish"
-      text: 
-        en: "_(When an opponent chooses this character for an action, banish them.)_"
-      ability: "vanish"
-    - type: static
-      title: 
-        en: "SPECTRAL FORCE"
-      text: 
-        en: "Your other Illusion characters gain Challenger +1. (They get +1 {S} while challenging.)"
-      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10143,7 +8722,7 @@
         de: "184/204 DE 8"
         it: "184/204 IT 8"
         culture_invariant_id: 1848
-        sort_number: -1769
+        sort_number: -1773
       rarity: common
       illustrator: "Jake Murphy"
   lore: 1
@@ -10175,12 +8754,6 @@
       name: "Prinz Achmed"
       title: "Rivalisierender Verehrer"
       flavour: "„Das nenne ich mal eingebildet und aufgeblasen!“\n–Jasmin"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "UNWELCOME PROPOSAL"
-      text: 
-        en: "When you play this character, you may exert chosen Princess character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10195,7 +8768,7 @@
         de: "185/204 DE 8"
         it: "185/204 IT 8"
         culture_invariant_id: 1849
-        sort_number: -1768
+        sort_number: -1772
       rarity: common
       illustrator: "Adam Fenton"
   lore: 1
@@ -10228,12 +8801,6 @@
       name: "Schrotthaufen"
       title: "Kanailles Zweiter Offizier"
       flavour: "„Hey, lass mich das mal machen, Brutus. Ja, ich bin diesmal dran.“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "LET ME AT 'EM"
-      text: 
-        en: "When you play this character, you may deal 1 damage to chosen character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10248,7 +8815,7 @@
         de: "187/204 DE 8"
         it: "187/204 IT 8"
         culture_invariant_id: 1851
-        sort_number: -1766
+        sort_number: -1770
       rarity: common
       illustrator: "Kendall Hale"
   lore: 1
@@ -10280,13 +8847,6 @@
       name: "General Li"
       title: "Oberhaupt der kaiserlichen Armee"
       flavour: "„Schon ein Reiskorn kann die Waage kippen. Sieg oder Niederlage, alles kann von einem einzigen Mann abhängen.“\n–Der Kaiser"
-  abilities: 
-    - type: static
-      title: 
-        en: "resist"
-      text: 
-        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
-      ability: "resist"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10301,7 +8861,7 @@
         de: "188/204 DE 8"
         it: "188/204 IT 8"
         culture_invariant_id: 1852
-        sort_number: -1765
+        sort_number: -1769
       rarity: common
       illustrator: "Ricardo Caria"
   lore: 2
@@ -10333,13 +8893,6 @@
       name: "Samson"
       title: "Unbeugsamer Beschützer"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10354,7 +8907,7 @@
         de: "189/204 DE 8"
         it: "189/204 IT 8"
         culture_invariant_id: 1853
-        sort_number: -1764
+        sort_number: -1768
       rarity: common
       illustrator: "Rosa la Barbera / Livio Cacciatore"
   lore: 1
@@ -10387,13 +8940,6 @@
       name: "Dschinni"
       title: "Zufriedener Drache"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "BUG CATCHER"
-      text: 
-        en: "During your turn, this character gains Evasive. (They can challenge characters with Evasive.)"
-      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10408,7 +8954,7 @@
         de: "190/204 DE 8"
         it: "190/204 IT 8"
         culture_invariant_id: 1854
-        sort_number: -1763
+        sort_number: -1767
       rarity: common
       illustrator: "Irish Chua"
   lore: 1
@@ -10440,13 +8986,6 @@
       name: "Toby Schildkröte"
       title: "Vorsichtiger Freund"
       flavour: "„Dieser Ort ist gruseliger als Prinz John.“"
-  abilities: 
-    - type: static
-      title: 
-        en: "HARD SHELL"
-      text: 
-        en: "While this character is exerted, he gains Resist +1. (Damage dealt to them is reduced by 1.)"
-      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10461,7 +9000,7 @@
         de: "191/204 DE 8"
         it: "191/204 IT 8"
         culture_invariant_id: 1855
-        sort_number: -1762
+        sort_number: -1766
       rarity: common
       illustrator: "Carmine Pucci"
   lore: 2
@@ -10507,7 +9046,7 @@
         de: "192/204 DE 8"
         it: "192/204 IT 8"
         culture_invariant_id: 1856
-        sort_number: -1761
+        sort_number: -1765
       rarity: uncommon
       illustrator: "Ian MacDonald"
   lore: 1
@@ -10539,19 +9078,6 @@
       name: "Summi"
       title: "Fliegender Ritter des Rechts"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "BEST MATES"
-      text: 
-        en: "If you have a character named Monterey Jack in play, you pay 1 {I} less to play this character."
-      ability: "effects"
-    - type: static
-      title: 
-        en: "BURST OF SPEED"
-      text: 
-        en: "During your turn, this character gains Evasive. (They can challenge characters with Evasive.)"
-      ability: "gain-ability"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10566,7 +9092,7 @@
         de: "193/204 DE 8"
         it: "193/204 IT 8"
         culture_invariant_id: 1857
-        sort_number: -1760
+        sort_number: -1764
       rarity: common
       illustrator: "Defne Tözüm"
   lore: 1
@@ -10612,7 +9138,7 @@
         de: "194/204 DE 8"
         it: "194/204 IT 8"
         culture_invariant_id: 1858
-        sort_number: -1759
+        sort_number: -1763
       rarity: rare
       illustrator: "Cam Kendell"
   lore: 1
@@ -10643,12 +9169,6 @@
       name: "Vinnie"
       title: "Grüne Taube"
       flavour: "„Das ist eine ziemliche Zwickmühle, in der du steckst. Gut, dass ich nicht du bin.“"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "LEARNING EXPERIENCE"
-      text: 
-        en: "During an opponent's turn, whenever one of your other characters is banished, gain 1 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10663,7 +9183,7 @@
         de: "195/204 DE 8"
         it: "195/204 IT 8"
         culture_invariant_id: 1859
-        sort_number: -1758
+        sort_number: -1762
       rarity: rare
       illustrator: "Carlos Luzzi"
     - set: roj
@@ -10675,7 +9195,7 @@
         de: "8/D23 DE 8"
         it: "8/D23 IT 8"
         culture_invariant_id: 1895
-        sort_number: -1725
+        sort_number: -1728
       rarity: special
       illustrator: "Carlos Luzzi"
   lore: 2
@@ -10707,13 +9227,6 @@
       name: "Jago"
       title: "Außer Reichweite"
       flavour: "„Netter Versuch, ihr Nieten! Schade, dass ich so weit oben bin!“"
-  abilities: 
-    - type: static
-      title: 
-        en: "Self-Preservation"
-      text: 
-        en: "While you have another exerted character in play, this character can't be challenged."
-      ability: "effects"
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10728,7 +9241,7 @@
         de: "196/204 DE 8"
         it: "196/204 IT 8"
         culture_invariant_id: 1860
-        sort_number: -1757
+        sort_number: -1761
       rarity: rare
       illustrator: "Edu Francisco"
   lore: 2
@@ -10763,12 +9276,6 @@
       name: "Käpt'n Flint"
       title: "Berüchtigter Pirat"
       flavour: "„Flints Schatz wurde nie gefunden, aber es halten sich hartnäckig Geschichten darüber, dass er ihn irgendwo versteckt haben soll …“\n–Erzähler"
-  abilities: 
-    - type: play-condition
-      title: 
-        en: "PREDATORY INSTINCT"
-      text: 
-        en: "You can't play this character unless an opposing character was damaged this turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10783,7 +9290,7 @@
         de: "197/204 DE 8"
         it: "197/204 IT 8"
         culture_invariant_id: 1861
-        sort_number: -1756
+        sort_number: -1760
       rarity: rare
       illustrator: "Ha Jung Song"
   lore: 3
@@ -10815,12 +9322,6 @@
       name: "Vincenzo Santorini"
       title: "Der Sprengstoffexperte"
       flavour: "„Habt keine Angst vor einem spektakulären Auftritt.“"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "I JUST LIKE TO BLOW THINGS UP"
-      text: 
-        en: "When you play this character, you may deal 3 damage to chosen character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10835,7 +9336,7 @@
         de: "198/204 DE 8"
         it: "198/204 IT 8"
         culture_invariant_id: 1862
-        sort_number: -1755
+        sort_number: -1759
       rarity: legendary
       illustrator: "Max Ulichney"
   lore: 2
@@ -10868,23 +9369,6 @@
       name: "Namaari"
       title: "Zielstrebige Rivalin"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "EXTREME FOCUS"
-      text: 
-        en: "This character gets +1 {S} for each card in your discard."
-      ability: "effects"
-    - type: resolution
-      title: 
-        en: "STRATEGIC EDGE"
-      text: 
-        en: "When you play this character and at the start of your turn, you may draw a card, then choose and discard a card."
-    - type: static-triggered
-      title: 
-        en: "STRATEGIC EDGE"
-      text: 
-        en: "When you play this character and at the start of your turn, you may draw a card, then choose and discard a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10899,7 +9383,7 @@
         de: "199/204 DE 8"
         it: "199/204 IT 8"
         culture_invariant_id: 1863
-        sort_number: -1754
+        sort_number: -1758
       rarity: legendary
       illustrator: "Joy Ang / Giulia Riva"
   lore: 5
@@ -10931,18 +9415,6 @@
       name: "Micky Maus"
       title: "Riesige Maus"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
-    - type: static-triggered
-      title: 
-        en: "THE BIGGEST STAR EVER"
-      text: 
-        en: "When this character is banished, deal 5 damage to each opposing character."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -10957,7 +9429,7 @@
         de: "200/204 DE 8"
         it: "200/204 IT 8"
         culture_invariant_id: 1864
-        sort_number: -1753
+        sort_number: -1757
       rarity: rare
       illustrator: "Jeanne Plounevez / Andrew Theophilopoulos"
   lore: 1
@@ -10990,12 +9462,6 @@
       name: "Stitch"
       title: "Alien-Unruhestifter"
       flavour: "„Ah! Endlich ein guter Nutzen für seinen Zerstörungsdrang.“\n–Jamba Jookiba"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "I WIN!"
-      text: 
-        en: "During your turn, whenever this character banishes another character in a challenge, you may draw a card and gain 1 lore."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -11010,7 +9476,7 @@
         de: "201/204 DE 8"
         it: "201/204 IT 8"
         culture_invariant_id: 1865
-        sort_number: -1752
+        sort_number: -1756
       rarity: rare
       illustrator: "Gianluca Barone"
     - set: roj
@@ -11022,7 +9488,7 @@
         de: "222/204 DE 8"
         it: "222/204 IT 8"
         culture_invariant_id: 1886
-        sort_number: -1731
+        sort_number: -1735
       rarity: enchanted
       illustrator: "LadyShalirin"
   cost: 3
@@ -11048,12 +9514,6 @@
       name: "Verzweifelter Plan"
       title: ""
       flavour: "„Das ist meine Entscheidung. Meine Wahl. Und du wirst mich nicht aufhalten.“\n–Namaari"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Desperate Plan"
-      text: 
-        en: "If you have no cards in your hand, draw until you have 3 cards in your hand. Otherwise, choose and discard any number of cards, then draw that many cards."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -11068,7 +9528,7 @@
         de: "202/204 DE 8"
         it: "202/204 IT 8"
         culture_invariant_id: 1866
-        sort_number: -1751
+        sort_number: -1755
       rarity: uncommon
       illustrator: "Taraneh"
   cost: 7
@@ -11096,18 +9556,6 @@
       name: "Beyond the Horizon"
       title: ""
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "sing-together"
-      text: 
-        en: "**Sing Together** 7 _(Any number of your of your teammates' characters with total cost 7 or more may {E} to sing this song for free.)_"
-      ability: "sing-together"
-    - type: resolution
-      title: 
-        en: "Beyond The Horizon"
-      text: 
-        en: "Sing Together 7nChoose any number of players. They discard their hands and draw 3 cards each."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -11122,7 +9570,7 @@
         de: "203/204 DE 8"
         it: "203/204 IT 8"
         culture_invariant_id: 1867
-        sort_number: -1750
+        sort_number: -1754
       rarity: uncommon
       illustrator: "Diego Machuca"
   cost: 2
@@ -11148,12 +9596,6 @@
       name: "Schneller Schuss"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Quick Shot"
-      text: 
-        en: "Deal 1 damage to chosen character. Draw a card."
   franchise_id: ""
   rotation_states: 
     - core_constructed
@@ -11168,7 +9610,7 @@
         de: "204/204 DE 8"
         it: "204/204 IT 8"
         culture_invariant_id: 1868
-        sort_number: -1749
+        sort_number: -1753
       rarity: common
       illustrator: "Alex Accorsi"
   cost: 3
@@ -11194,12 +9636,6 @@
       name: "Hamsterball"
       title: ""
       flavour: ""
-  abilities: 
-    - type: activated
-      title: 
-        en: "ROLL WITH THE PUNCHES"
-      text: 
-        en: "{E}, 1 {I} – Chosen character with no damage gains Resist +2 until the start of your next turn."
   franchise_id: ""
   rotation_states: 
     - core_constructed

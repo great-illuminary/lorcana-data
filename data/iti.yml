@@ -10,7 +10,7 @@
         zh: "1/204 ZH 3"
         ja: "1/204 JA 3"
         culture_invariant_id: 433
-        sort_number: -704
+        sort_number: -705
       rarity: rare
       illustrator: "Cam Kendell"
   lore: 1
@@ -50,18 +50,6 @@
       name: "バルー"
       title: "フォン・ブルーインヴァルト13世"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
-    - type: static-triggered
-      title: 
-        en: "Let's make like a tree"
-      text: 
-        en: "When this character is banished, gain 2 lore."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -77,7 +65,7 @@
         zh: "2/204 ZH 3"
         ja: "2/204 JA 3"
         culture_invariant_id: 434
-        sort_number: -703
+        sort_number: -704
       rarity: rare
       illustrator: "Jacob McAlister"
   lore: 2
@@ -117,12 +105,6 @@
       name: "バーナード"
       title: "新参エージェント"
       flavour: "「ここにいて、ね。散らばったロアがあるかどうか、見て来るから」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "I'll Check it Out"
-      text: 
-        en: "At the end of your turn, if this character is exerted, you may ready another chosen character of yours."
   franchise_id: "unknown"
   third_party: 
     card_market: ""
@@ -141,7 +123,7 @@
         zh: "3/204 ZH 3"
         ja: "3/204 JA 3"
         culture_invariant_id: 435
-        sort_number: -702
+        sort_number: -703
       rarity: super_rare
       illustrator: "Evana Kisa / Jochem van Gool"
     - set: iti
@@ -155,7 +137,7 @@
         zh: "205/204 ZH 3"
         ja: "205/204 JA 3"
         culture_invariant_id: 641
-        sort_number: -496
+        sort_number: -497
       rarity: enchanted
       illustrator: "Thomas Brissot"
   lore: 3
@@ -195,18 +177,6 @@
       name: "チェルナボーグ"
       title: "邪悪の化身"
       flavour: "闇がいたるところで手先に呼びかける。"
-  abilities: 
-    - type: static
-      title: 
-        en: "The Power of Evil"
-      text: 
-        en: "When you play this character, pay 1 {I} less for every character card in your discard."
-      ability: "effects"
-    - type: resolution
-      title: 
-        en: "Summon the Spirits"
-      text: 
-        en: "When you play this character, shuffle all character cards from your discard into your deck."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -223,7 +193,7 @@
         zh: "4a/204 ZH 3"
         ja: "4a/204 JA 3"
         culture_invariant_id: 436
-        sort_number: -701
+        sort_number: -702
       rarity: common
       illustrator: "Kapik"
     - set: iti
@@ -238,7 +208,7 @@
         zh: "4b/204 ZH 3"
         ja: "4b/204 JA 3"
         culture_invariant_id: 437
-        sort_number: -700
+        sort_number: -701
       rarity: common
       illustrator: "Kapik"
     - set: iti
@@ -253,7 +223,7 @@
         zh: "4c/204 ZH 3"
         ja: "4c/204 JA 3"
         culture_invariant_id: 438
-        sort_number: -699
+        sort_number: -700
       rarity: common
       illustrator: "Kapik"
     - set: iti
@@ -268,7 +238,7 @@
         zh: "4d/204 ZH 3"
         ja: "4d/204 JA 3"
         culture_invariant_id: 439
-        sort_number: -698
+        sort_number: -699
       rarity: common
       illustrator: "Kapik"
     - set: iti
@@ -283,7 +253,7 @@
         zh: "4e/204 ZH 3"
         ja: "4e/204 JA 3"
         culture_invariant_id: 440
-        sort_number: -697
+        sort_number: -698
       rarity: common
       illustrator: "Kapik"
   lore: 1
@@ -338,7 +308,7 @@
         zh: "5/204 ZH 3"
         ja: "5/204 JA 3"
         culture_invariant_id: 441
-        sort_number: -696
+        sort_number: -697
       rarity: common
       illustrator: "Jeanne Plounevez"
   lore: 2
@@ -378,13 +348,6 @@
       name: "ジョシュア・スウィート"
       title: "ドクター"
       flavour: "「インクランドへ向かうのか？首が痛くなったらいつでも戻ってきな」"
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -400,7 +363,7 @@
         zh: "6/204 ZH 3"
         ja: "6/204 JA 3"
         culture_invariant_id: 442
-        sort_number: -695
+        sort_number: -696
       rarity: common
       illustrator: "Nicoletta Baldari"
   lore: 1
@@ -456,7 +419,7 @@
         zh: "7/204 ZH 3"
         ja: "7/204 JA 3"
         culture_invariant_id: 443
-        sort_number: -694
+        sort_number: -695
       rarity: legendary
       illustrator: "Adam Fenton"
     - set: iti
@@ -470,7 +433,7 @@
         zh: "206/204 ZH 3"
         ja: "206/204 JA 3"
         culture_invariant_id: 642
-        sort_number: -495
+        sort_number: -496
       rarity: enchanted
       illustrator: "Grzegorz Krysiński"
   lore: 2
@@ -511,18 +474,6 @@
       name: "キーダ"
       title: "アトランティスの守護者"
       flavour: "「選ばれた。母親と同じように」\n― カシュキム・ネダク王"
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 3"
-      text: 
-        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Kida.)_"
-      ability: "shift"
-    - type: resolution
-      title: 
-        en: "PERHAPS WE CAN SAVE OUR FUTURE"
-      text: 
-        en: "When you play this character, all characters get -3 {S} until the start of your next turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -538,7 +489,7 @@
         zh: "8/204 ZH 3"
         ja: "8/204 JA 3"
         culture_invariant_id: 444
-        sort_number: -693
+        sort_number: -694
       rarity: rare
       illustrator: "Brian Weisz"
   lore: 1
@@ -578,17 +529,6 @@
       name: "ラッキー"
       title: "15番目の子犬"
       flavour: ""
-  abilities: 
-    - type: activated
-      title: 
-        en: "Good as New"
-      text: 
-        en: "{E} – Reveal the top 3 cards of your deck. You may put each character card with cost 2 or less into your hand. Put the rest on the bottom of your deck in any order."
-    - type: static-triggered
-      title: 
-        en: "Puppy Love"
-      text: 
-        en: "Whenever this character quests, if you have 4 or more other characters in play, your other characters get +1 {L} this turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -604,7 +544,7 @@
         zh: "9/204 ZH 3"
         ja: "9/204 JA 3"
         culture_invariant_id: 445
-        sort_number: -692
+        sort_number: -693
       rarity: rare
       illustrator: "Erika Wiseman"
   lore: 1
@@ -644,18 +584,6 @@
       name: "ミニーマウス"
       title: "ミュージックアーティスト"
       flavour: "ミニーのメロディーにみんなメロメロ！"
-  abilities: 
-    - type: static
-      title: 
-        en: "singer"
-      text: 
-        en: "**Singer** +3 _(This character counts as cost 3 to sing songs.)_"
-      ability: "singer"
-    - type: static-triggered
-      title: 
-        en: "**ENTOURAGE**"
-      text: 
-        en: "Whenever you play a character with **Bodyguard**, you may remove up to 2 damage from chosen character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -671,7 +599,7 @@
         zh: "10/204 ZH 3"
         ja: "10/204 JA 3"
         culture_invariant_id: 446
-        sort_number: -691
+        sort_number: -692
       rarity: common
       illustrator: "Jeff Merghart"
   lore: 1
@@ -711,13 +639,6 @@
       name: "ミス・ビアンカ"
       title: "救助救援協会エージェント"
       flavour: "「当協会は、助けを求める声には必ず応じるのです」\n― 議長"
-  abilities: 
-    - type: static
-      title: 
-        en: "singer"
-      text: 
-        en: "**Singer** +4 _(This character counts as cost 4 to sing songs.)_"
-      ability: "singer"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -733,7 +654,7 @@
         zh: "11/204 ZH 3"
         ja: "11/204 JA 3"
         culture_invariant_id: 447
-        sort_number: -690
+        sort_number: -691
       rarity: common
       illustrator: "Alexandria Neonakis"
   lore: 2
@@ -788,7 +709,7 @@
         zh: "12/204 ZH 3"
         ja: "12/204 JA 3"
         culture_invariant_id: 448
-        sort_number: -689
+        sort_number: -690
       rarity: uncommon
       illustrator: "Shannon Hallstein"
     - set: fab
@@ -802,7 +723,7 @@
         zh: "17/204 ZH 9"
         ja: "17/204 JA 9"
         culture_invariant_id: 1953
-        sort_number: -2192
+        sort_number: -2198
       rarity: uncommon
       illustrator: "Shannon Hallstein"
   lore: 2
@@ -842,13 +763,6 @@
       name: "ナニ"
       title: "世話焼きお姉ちゃん"
       flavour: "「私に任せて、リロ」"
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -865,7 +779,7 @@
         zh: "13/204 ZH 3"
         ja: "13/204 JA 3"
         culture_invariant_id: 449
-        sort_number: -688
+        sort_number: -689
       rarity: common
       illustrator: "Isaiah Mesq"
   lore: 1
@@ -920,7 +834,7 @@
         zh: "14/204 ZH 3"
         ja: "14/204 JA 3"
         culture_invariant_id: 450
-        sort_number: -687
+        sort_number: -688
       rarity: common
       illustrator: "Ellie Horie"
   lore: 1
@@ -960,12 +874,6 @@
       name: "パッチ"
       title: "威嚇する子犬"
       flavour: "どんな悪者にも立ち向かう。サンダーのように。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "**BARK**"
-      text: 
-        en: "{E} – Chosen character gets -2 {S} until the start of your next turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -981,7 +889,7 @@
         zh: "15/204 ZH 3"
         ja: "15/204 JA 3"
         culture_invariant_id: 451
-        sort_number: -686
+        sort_number: -687
       rarity: legendary
       illustrator: "Defne Tözüm / Livio Cacciatore"
   lore: 2
@@ -1021,17 +929,6 @@
       name: "パディータ"
       title: "献身の母犬"
       flavour: "子犬たちはどこまでも母についていく。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Come Along, Children"
-      text: 
-        en: "When you play this character and whenever she quests, you may play a character with cost 2 or less from your discard for free."
-    - type: static-triggered
-      title: 
-        en: "Come Along, Children"
-      text: 
-        en: "When you play this character and whenever she quests, you may play a character with cost 2 or less from your discard for free."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -1047,7 +944,7 @@
         zh: "16/204 ZH 3"
         ja: "16/204 JA 3"
         culture_invariant_id: 452
-        sort_number: -685
+        sort_number: -686
       rarity: super_rare
       illustrator: "Grace Tran"
     - set: iti
@@ -1061,7 +958,7 @@
         zh: "223/204 ZH 3"
         ja: "223/204 JA 3"
         culture_invariant_id: 945
-        sort_number: -478
+        sort_number: -479
       rarity: super_rare
       illustrator: "Grace Tran"
   lore: 1
@@ -1103,13 +1000,6 @@
       name: "ピグレット"
       title: "プー海賊団の船長"
       flavour: "「ヨーホー！この先にロアがある。それを、ぼ、ぼくが見つけるんだ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "And I'm the Captain!"
-      text: 
-        en: "While you have 2 or more other characters in play, this characters gets +2 {L}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -1125,7 +1015,7 @@
         zh: "17/204 ZH 3"
         ja: "17/204 JA 3"
         culture_invariant_id: 453
-        sort_number: -684
+        sort_number: -685
       rarity: rare
       illustrator: "Dave Alvarez / Alice Pisoni"
     - set: fab
@@ -1139,7 +1029,7 @@
         zh: "14/204 ZH 9"
         ja: "14/204 JA 9"
         culture_invariant_id: 1950
-        sort_number: -2195
+        sort_number: -2201
       rarity: rare
       illustrator: "Dave Alvarez / Alice Pisoni"
   lore: 2
@@ -1179,24 +1069,6 @@
       name: "プルート"
       title: "万全の番犬"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 5"
-      text: 
-        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named pluto.)_"
-      ability: "shift"
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
-    - type: static-triggered
-      title: 
-        en: "**GUARD DOG**"
-      text: 
-        en: "At the start of your turn, remove up to 3 damage from this character."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1213,7 +1085,7 @@
         zh: "18/204 ZH 3"
         ja: "18/204 JA 3"
         culture_invariant_id: 454
-        sort_number: -683
+        sort_number: -684
       rarity: uncommon
       illustrator: "Jiahui Eva Gao"
     - set: fab
@@ -1227,7 +1099,7 @@
         zh: "21/204 ZH 9"
         ja: "21/204 JA 9"
         culture_invariant_id: 1957
-        sort_number: -2188
+        sort_number: -2194
       rarity: common
       illustrator: "Jiahui Eva Gao"
   lore: 1
@@ -1267,12 +1139,6 @@
       name: "プルート"
       title: "人なつっこいわんこ"
       flavour: "新しい友だちが来てくれるのが待ちきれないんだ！"
-  abilities: 
-    - type: activated
-      title: 
-        en: "**GOOD DOG**"
-      text: 
-        en: " {E} – You pay 1 {I} less for the next character you play this turn."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1289,7 +1155,7 @@
         zh: "19/204 ZH 3"
         ja: "19/204 JA 3"
         culture_invariant_id: 455
-        sort_number: -682
+        sort_number: -683
       rarity: super_rare
       illustrator: "Grace Tran"
     - set: fab
@@ -1303,7 +1169,7 @@
         zh: "2/204 ZH 9"
         ja: "2/204 JA 9"
         culture_invariant_id: 1938
-        sort_number: -2207
+        sort_number: -2213
       rarity: super_rare
       illustrator: "Grace Tran"
     - set: fab
@@ -1317,7 +1183,7 @@
         zh: "223/204 ZH 9"
         ja: "223/204 JA 9"
         culture_invariant_id: 2141
-        sort_number: -1986
+        sort_number: -1992
       rarity: enchanted
       illustrator: "Kenneth Anderson"
   lore: 1
@@ -1357,12 +1223,6 @@
       name: "ポンゴ"
       title: "決意の父犬"
       flavour: "「どうにか道を見つけよう。必ずだ！」"
-  abilities: 
-    - type: activated
-      title: 
-        en: "TWILIGHT BARK"
-      text: 
-        en: "Once per turn, you may pay 2 {I} to reveal the top card of your deck. If it's a character card, put it into your hand. Otherwise, put it on the bottom of your deck."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1379,7 +1239,7 @@
         zh: "20/204 ZH 3"
         ja: "20/204 JA 3"
         culture_invariant_id: 456
-        sort_number: -681
+        sort_number: -682
       rarity: uncommon
       illustrator: "Brianna Garcia"
     - set: fab
@@ -1393,7 +1253,7 @@
         zh: "23/204 ZH 9"
         ja: "23/204 JA 9"
         culture_invariant_id: 1959
-        sort_number: -2186
+        sort_number: -2192
       rarity: uncommon
       illustrator: "Brianna Garcia"
   lore: 1
@@ -1434,12 +1294,6 @@
       name: "ハートの女王"
       title: "ふしぎの国の女帝"
       flavour: "インクランドを占領すればするほど、女王はさらに多くを求める。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "All Ways Here Are My Ways"
-      text: 
-        en: "Whenever this character quests, your other Villain characters get +1 {L} this turn."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1456,7 +1310,7 @@
         zh: "21/204 ZH 3"
         ja: "21/204 JA 3"
         culture_invariant_id: 457
-        sort_number: -680
+        sort_number: -681
       rarity: uncommon
       illustrator: "Defne Tözüm / Denny Minonne"
   lore: 1
@@ -1496,13 +1350,6 @@
       name: "ローリー"
       title: "腹ペコの子犬"
       flavour: "「おなかがへったなあ。ねえママ、本当だよ？」"
-  abilities: 
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -1518,7 +1365,7 @@
         zh: "22/204 ZH 3"
         ja: "22/204 JA 3"
         culture_invariant_id: 458
-        sort_number: -679
+        sort_number: -680
       rarity: uncommon
       illustrator: "Aisha Durmagambetova"
     - set: fab
@@ -1532,7 +1379,7 @@
         zh: "12/204 ZH 9"
         ja: "12/204 JA 9"
         culture_invariant_id: 1948
-        sort_number: -2197
+        sort_number: -2203
       rarity: uncommon
       illustrator: "Aisha Durmagambetova"
   lore: 1
@@ -1573,12 +1420,6 @@
       name: "ティンカー・ベル"
       title: "気前よい妖精"
       flavour: "たっぷりのベリーを分かち合う、たくさんの友だち。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "MAKE A NEW FRIEND"
-      text: 
-        en: "When you play this character, look at the top 4 cards of your deck. You may reveal a character card and put it into your hand. Place the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1595,7 +1436,7 @@
         zh: "23/204 ZH 3"
         ja: "23/204 JA 3"
         culture_invariant_id: 459
-        sort_number: -678
+        sort_number: -679
       rarity: uncommon
       illustrator: "Aubrey Archer"
   lore: 2
@@ -1650,7 +1491,7 @@
         zh: "24/204 ZH 3"
         ja: "24/204 JA 3"
         culture_invariant_id: 460
-        sort_number: -677
+        sort_number: -678
       rarity: uncommon
       illustrator: "Agnes Christianson"
   cost: 5
@@ -1684,12 +1525,6 @@
       name: "99匹わんちゃん大行進"
       title: ""
       flavour: "「2、3、4…6匹に3匹で9匹、それに2匹…!」\n― ロジャー"
-  abilities: 
-    - type: floating-triggered
-      title: 
-        en: "99 Puppies"
-      text: 
-        en: "Whenever one of your characters quests this turn, gain 1 lore."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -1705,7 +1540,7 @@
         zh: "25/204 ZH 3"
         ja: "25/204 JA 3"
         culture_invariant_id: 461
-        sort_number: -676
+        sort_number: -677
       rarity: common
       illustrator: "Zuzana Sokolova / Livio Cacciatore"
   cost: 1
@@ -1739,12 +1574,6 @@
       name: "ボスの命令"
       title: ""
       flavour: "「スヌープス！もっとしっかりお探しよ！あのロアを見つけるんだ！」 \n― マダム・メデューサ"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Boss's Orders"
-      text: 
-        en: "Chosen character gains **Support** this turn"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -1760,7 +1589,7 @@
         zh: "26/204 ZH 3"
         ja: "26/204 JA 3"
         culture_invariant_id: 462
-        sort_number: -675
+        sort_number: -676
       rarity: common
       illustrator: "Monica Catalano"
     - set: fab
@@ -1774,7 +1603,7 @@
         zh: "27/204 ZH 9"
         ja: "27/204 JA 9"
         culture_invariant_id: 1963
-        sort_number: -2182
+        sort_number: -2188
       rarity: common
       illustrator: "Monica Catalano"
   cost: 3
@@ -1810,12 +1639,6 @@
       name: "傷をいやせ"
       title: ""
       flavour: "時を戻せ 過去に戻せ 運命の川 さかのぼれ…"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Heal What Has Been Hurt"
-      text: 
-        en: "Remove up to 3 damage from chosen character. Draw a card."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -1832,7 +1655,7 @@
         zh: "27/204 ZH 3"
         ja: "27/204 JA 3"
         culture_invariant_id: 463
-        sort_number: -674
+        sort_number: -675
       rarity: common
       illustrator: "Wouter Bruneel"
   cost: 1
@@ -1866,12 +1689,6 @@
       name: "応急修理"
       title: ""
       flavour: "「新品同様だ！あぁ、ほとんどな」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Quick Patch"
-      text: 
-        en: "Remove up to 3 damage from chosen location."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -1887,7 +1704,7 @@
         zh: "28/204 ZH 3"
         ja: "28/204 JA 3"
         culture_invariant_id: 464
-        sort_number: -673
+        sort_number: -674
       rarity: rare
       illustrator: "Maxine Vee / David Navarro Arenas"
   cost: 2
@@ -1923,12 +1740,6 @@
       name: "THE BARE NECESSITIES"
       title: ""
       flavour: "な や み な ど な に も な い"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "The Bare Necessities"
-      text: 
-        en: "Chosen opponent reveals their hand and discards a non-character card of your choice."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -1944,7 +1755,7 @@
         zh: "29/204 ZH 3"
         ja: "29/204 JA 3"
         culture_invariant_id: 465
-        sort_number: -672
+        sort_number: -673
       rarity: common
       illustrator: "Michael \"Cookie\" Niewiadomy"
   cost: 2
@@ -1978,12 +1789,6 @@
       name: "浄化の雨水"
       title: ""
       flavour: "雨が降り注ぐと、石にされた者たちは蘇り、龍たちは再び空を舞った。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "ANCIENT POWER"
-      text: 
-        en: "Banish this item – Remove up to 2 damage from each of your characters."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -1999,7 +1804,7 @@
         zh: "30/204 ZH 3"
         ja: "30/204 JA 3"
         culture_invariant_id: 466
-        sort_number: -671
+        sort_number: -672
       rarity: rare
       illustrator: "Elliot Baum / Viv Tanner"
   cost: 4
@@ -2033,12 +1838,6 @@
       name: "アトランティスの心臓"
       title: ""
       flavour: "「これが全ての源だ…アトランティスに命を与えてるんだ！」\n― マイロ・サッチ"
-  abilities: 
-    - type: activated
-      title: 
-        en: "LIFE GIVER"
-      text: 
-        en: " {E} – You pay 2 {I} less for the next character you play this turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -2054,7 +1853,7 @@
         zh: "31/204 ZH 3"
         ja: "31/204 JA 3"
         culture_invariant_id: 467
-        sort_number: -670
+        sort_number: -671
       rarity: uncommon
       illustrator: "Ellie Horie"
   cost: 2
@@ -2088,12 +1887,6 @@
       name: "ワイルドキャットのレンチ"
       title: ""
       flavour: "ちゃんと道具を選べば仕上りは大違い。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Rebuild"
-      text: 
-        en: "{E} – Remove up to 2 damage from chosen location."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -2109,7 +1902,7 @@
         zh: "32/204 ZH 3"
         ja: "32/204 JA 3"
         culture_invariant_id: 468
-        sort_number: -669
+        sort_number: -670
       rarity: common
       illustrator: "Cécile Carre"
   lore: 1
@@ -2161,7 +1954,7 @@
         zh: "33/204 ZH 3"
         ja: "33/204 JA 3"
         culture_invariant_id: 469
-        sort_number: -668
+        sort_number: -669
       rarity: rare
       illustrator: "Beverly Arce / Jonathan Livslyst"
     - set: iti
@@ -2175,7 +1968,7 @@
         zh: "207/204 ZH 3"
         ja: "207/204 JA 3"
         culture_invariant_id: 643
-        sort_number: -494
+        sort_number: -495
       rarity: enchanted
       illustrator: "Jonathan Livslyst"
   lore: 1
@@ -2212,19 +2005,6 @@
       name: "プライドランド"
       title: "プライドロック"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Lion Home"
-      text: 
-        en: "If you have a Prince or King character here, you pay 1 {I} less to play characters."
-      ability: "effects"
-    - type: static
-      title: 
-        en: "WE ARE ALL CONNECTED"
-      text: 
-        en: "Characters get +2 {W} while here."
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -2240,7 +2020,7 @@
         zh: "34/204 ZH 3"
         ja: "34/204 JA 3"
         culture_invariant_id: 470
-        sort_number: -667
+        sort_number: -668
       rarity: uncommon
       illustrator: "Valerio Buonfantino"
   lore: 1
@@ -2277,13 +2057,6 @@
       name: "ティアナズ・パレス"
       title: "ジャズレストラン"
       flavour: "ニューオーリンズでは、努力をすれば夢は叶うこともある。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Night Out"
-      text: 
-        en: "Characters can't be challenged while here."
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -2299,7 +2072,7 @@
         zh: "35/204 ZH 3"
         ja: "35/204 JA 3"
         culture_invariant_id: 471
-        sort_number: -666
+        sort_number: -667
       rarity: super_rare
       illustrator: "Nicola Saviori / Raquel Villanueva"
   lore: 2
@@ -2340,12 +2113,6 @@
       name: "アリス"
       title: "お茶会の錬金術師"
       flavour: "厳選茶葉とひとさじの魔法で、彼女は最高の一杯を淹れる。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Curiouser And Curiouser"
-      text: 
-        en: "{E} – Exert chosen opposing character and all other opposing characters with the same name."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -2361,7 +2128,7 @@
         zh: "36/204 ZH 3"
         ja: "36/204 JA 3"
         culture_invariant_id: 472
-        sort_number: -665
+        sort_number: -666
       rarity: uncommon
       illustrator: "Monica Catalano"
   lore: 1
@@ -2401,12 +2168,6 @@
       name: "チェルナボーグの従僕ども"
       title: "邪悪の眷属"
       flavour: "渾沌の支配を。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "RESTLESS SOULS"
-      text: 
-        en: "Whenever this character quests, you may banish this character to draw a card."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -2422,7 +2183,7 @@
         zh: "37/204 ZH 3"
         ja: "37/204 JA 3"
         culture_invariant_id: 473
-        sort_number: -664
+        sort_number: -665
       rarity: common
       illustrator: "Agnes Christianson"
   lore: 1
@@ -2462,12 +2223,6 @@
       name: "ディアブロ"
       title: "忠実なペット"
       flavour: "インクの魔法がかけられた彼の目からは何者も逃れられない。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "In Search Of Aurora"
-      text: 
-        en: "Whenever you play a character named Maleficent, you may look at the top card of your deck. Put it on either the top or the bottom of your deck."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -2483,7 +2238,7 @@
         zh: "38/204 ZH 3"
         ja: "38/204 JA 3"
         culture_invariant_id: 474
-        sort_number: -663
+        sort_number: -664
       rarity: super_rare
       illustrator: "Koni"
     - set: fab
@@ -2497,7 +2252,7 @@
         zh: "54/204 ZH 9"
         ja: "54/204 JA 9"
         culture_invariant_id: 1990
-        sort_number: -2155
+        sort_number: -2161
       rarity: rare
       illustrator: "Koni"
   lore: 1
@@ -2537,12 +2292,6 @@
       name: "ジーニー"
       title: "頼れる友だち"
       flavour: "「今日ご来場の皆様にはなんと願いを叶えて差し上げよう！ではどうぞ！」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Three Wishes"
-      text: 
-        en: "Whenever this character quests, you may shuffle this card into your deck to draw 3 cards."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -2559,7 +2308,7 @@
         zh: "39/204 ZH 3"
         ja: "39/204 JA 3"
         culture_invariant_id: 475
-        sort_number: -662
+        sort_number: -663
       rarity: uncommon
       illustrator: "Alice Pisoni"
   lore: 2
@@ -2599,12 +2348,6 @@
       name: "ハイドロス"
       title: "アイスタイタン"
       flavour: "「ゼウスをこおらせろ！」"
-  abilities: 
-    - type: activated
-      title: 
-        en: "**BLIZZARD**"
-      text: 
-        en: "{E} − Exert chosen character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -2620,7 +2363,7 @@
         zh: "40/204 ZH 3"
         ja: "40/204 JA 3"
         culture_invariant_id: 476
-        sort_number: -661
+        sort_number: -662
       rarity: common
       illustrator: "Giulia Riva"
   lore: 1
@@ -2660,13 +2403,6 @@
       name: "イアーゴ"
       title: "オウムちゃん"
       flavour: "「動物の扱い方がお上手ですな、さすが陛下」\n― ジャファー"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -2682,7 +2418,7 @@
         zh: "41/204 ZH 3"
         ja: "41/204 JA 3"
         culture_invariant_id: 477
-        sort_number: -660
+        sort_number: -661
       rarity: uncommon
       illustrator: "Veronica Di Lorenzo / Livio Cacciatore"
     - set: fab
@@ -2696,7 +2432,7 @@
         zh: "59/204 ZH 9"
         ja: "59/204 JA 9"
         culture_invariant_id: 1995
-        sort_number: -2150
+        sort_number: -2156
       rarity: uncommon
       illustrator: "Veronica Di Lorenzo / Livio Cacciatore"
   lore: 2
@@ -2737,12 +2473,6 @@
       name: "ジャファー"
       title: "ランプ泥棒"
       flavour: "「この目で見渡す限りをわしが支配するのだ」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "I AM YOUR MASTER NOW"
-      text: 
-        en: "When you play this character, look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -2759,7 +2489,7 @@
         zh: "42/204 ZH 3"
         ja: "42/204 JA 3"
         culture_invariant_id: 478
-        sort_number: -659
+        sort_number: -660
       rarity: legendary
       illustrator: "Nicola Saviori"
     - set: iti
@@ -2773,7 +2503,7 @@
         zh: "208/204 ZH 3"
         ja: "208/204 JA 3"
         culture_invariant_id: 644
-        sort_number: -493
+        sort_number: -494
       rarity: enchanted
       illustrator: "Ivan Shavrin"
   lore: 1
@@ -2814,24 +2544,6 @@
       name: "ジャファー"
       title: "ド派手な幻術使い"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 5"
-      text: 
-        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named jafar.)_"
-      ability: "shift"
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static-triggered
-      title: 
-        en: "Power Beyond Measure"
-      text: 
-        en: "During your turn, while this character is exerted, whenever you draw a card, gain 1 lore."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -2847,7 +2559,7 @@
         zh: "43/204 ZH 3"
         ja: "43/204 JA 3"
         culture_invariant_id: 479
-        sort_number: -658
+        sort_number: -659
       rarity: common
       illustrator: "Heidi Neunhoffer"
   lore: 1
@@ -2888,13 +2600,6 @@
       name: "リナ・セイブルウィング"
       title: "反抗的ティーンエイジャー"
       flavour: "影から生まれ、友情に救われた。"
-  abilities: 
-    - type: static
-      title: 
-        en: "rush"
-      text: 
-        en: "_(This character can challenge the turn they're played.)_"
-      ability: "rush"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -2910,7 +2615,7 @@
         zh: "44/204 ZH 3"
         ja: "44/204 JA 3"
         culture_invariant_id: 480
-        sort_number: -657
+        sort_number: -658
       rarity: uncommon
       illustrator: "Giulia Riva"
   lore: 1
@@ -2950,12 +2655,6 @@
       name: "魔法のほうき"
       title: "踊る掃除用具"
       flavour: "超スムーズにおかたづけ。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Energetic Cleaning"
-      text: 
-        en: "When you play this character, if you have a Sorcerer character in play, exert an opposing character. The chosen character doesn't ready at the start of their next turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -2971,7 +2670,7 @@
         zh: "45/204 ZH 3"
         ja: "45/204 JA 3"
         culture_invariant_id: 481
-        sort_number: -656
+        sort_number: -657
       rarity: common
       illustrator: "Cristian Romero"
   lore: 2
@@ -3011,18 +2710,6 @@
       name: "魔法のほうき"
       title: "すばやい清掃係"
       flavour: "超スピードでおかたづけ。"
-  abilities: 
-    - type: static
-      title: 
-        en: "rush"
-      text: 
-        en: "_(This character can challenge the turn they're played.)_"
-      ability: "rush"
-    - type: resolution
-      title: 
-        en: "CLEAN THIS, CLEAN THAT"
-      text: 
-        en: "When you play this character, you may shuffle all Broom characters from your discard to your deck."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -3038,7 +2725,7 @@
         zh: "46/204 ZH 3"
         ja: "46/204 JA 3"
         culture_invariant_id: 482
-        sort_number: -655
+        sort_number: -656
       rarity: common
       illustrator: "Eri Welli"
   lore: 1
@@ -3078,13 +2765,6 @@
       name: "魔法のほうき"
       title: "でっかい掃除屋"
       flavour: "超サイズがおかたづけ。"
-  abilities: 
-    - type: static
-      title: 
-        en: "CLEAN SWEEP"
-      text: 
-        en: "While this character is at a location, it gets +2 {S}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -3100,7 +2780,7 @@
         zh: "47/204 ZH 3"
         ja: "47/204 JA 3"
         culture_invariant_id: 483
-        sort_number: -654
+        sort_number: -655
       rarity: common
       illustrator: "Cory Godbey"
   lore: 1
@@ -3140,18 +2820,6 @@
       name: "魔法のじゅうたん"
       title: "空飛ぶ敷物"
       flavour: "「コイツとなら、誰にも気付かれずにロアを取ってこれるさ！」\n― アラジン"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: activated
-      title: 
-        en: "FIND THE WAY"
-      text: 
-        en: "{E} – Move a character of yours to a location for free."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -3167,7 +2835,7 @@
         zh: "48/204 ZH 3"
         ja: "48/204 JA 3"
         culture_invariant_id: 484
-        sort_number: -653
+        sort_number: -654
       rarity: common
       illustrator: "Lissette Carrera"
   lore: 1
@@ -3223,7 +2891,7 @@
         zh: "49/204 ZH 3"
         ja: "49/204 JA 3"
         culture_invariant_id: 485
-        sort_number: -652
+        sort_number: -653
       rarity: super_rare
       illustrator: "Lauren Levering"
   lore: 0
@@ -3264,18 +2932,6 @@
       name: "マジカ・デ・スペル"
       title: "ミダス王の手"
       flavour: "「スクルージの10セントコインに近づいて、私の力は高まってる！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 5"
-      text: 
-        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named magica de spell.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "All Mine"
-      text: 
-        en: "Whenever this character quests, gain lore equal to the cost of one of your items in play."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -3291,7 +2947,7 @@
         zh: "50/204 ZH 3"
         ja: "50/204 JA 3"
         culture_invariant_id: 486
-        sort_number: -651
+        sort_number: -652
       rarity: uncommon
       illustrator: "Giulia Riva"
   lore: 2
@@ -3332,12 +2988,6 @@
       name: "マジカ・デ・スペル"
       title: "泥棒魔女"
       flavour: "「私がこれを何て呼ぶと思う？\"ほんの手始め\"よ！」"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Telekinesis"
-      text: 
-        en: "{E} – Return chosen item with cost equal to or less than this character's {S} to its player's hand."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -3353,7 +3003,7 @@
         zh: "51/204 ZH 3"
         ja: "51/204 JA 3"
         culture_invariant_id: 487
-        sort_number: -650
+        sort_number: -651
       rarity: legendary
       illustrator: "Grace Tran"
     - set: iti
@@ -3367,7 +3017,7 @@
         zh: "209/204 ZH 3"
         ja: "209/204 JA 3"
         culture_invariant_id: 645
-        sort_number: -492
+        sort_number: -493
       rarity: enchanted
       illustrator: "Javi Salas"
   lore: 2
@@ -3408,17 +3058,6 @@
       name: "マレフィセント"
       title: "すべての悪の支配者"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Dark Knowledge"
-      text: 
-        en: "Whenever this character quests, you may draw a card."
-    - type: static-triggered
-      title: 
-        en: "Divination"
-      text: 
-        en: "During your turn, whenever you draw a card, you may move 1 damage counter from a chosen character to a chosen opposing character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -3434,7 +3073,7 @@
         zh: "52/204 ZH 3"
         ja: "52/204 JA 3"
         culture_invariant_id: 488
-        sort_number: -649
+        sort_number: -650
       rarity: uncommon
       illustrator: "Cristian Romero"
     - set: fab
@@ -3448,7 +3087,7 @@
         zh: "57/204 ZH 9"
         ja: "57/204 JA 9"
         culture_invariant_id: 1993
-        sort_number: -2152
+        sort_number: -2158
       rarity: uncommon
       illustrator: "Cristian Romero"
   lore: 2
@@ -3489,12 +3128,6 @@
       name: "ママ・オーディ"
       title: "知恵を授ける声"
       flavour: "ビリッと決まったよ、ジュジュ！これが必要だったのさ！"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "LISTEN TO YOUR MAMA NOW"
-      text: 
-        en: "Whenever this character quests, you may move up to 2 damage counters from chosen character to chosen opposing character."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -3511,7 +3144,7 @@
         zh: "53/204 ZH 3"
         ja: "53/204 JA 3"
         culture_invariant_id: 489
-        sort_number: -648
+        sort_number: -649
       rarity: common
       illustrator: "Denny Minonne"
   lore: 2
@@ -3551,12 +3184,6 @@
       name: "プア"
       title: "まんまるおなかの相棒"
       flavour: "いつでも喜んで手を…いや、鼻を貸してくれるよ。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Always There"
-      text: 
-        en: "When this character is banished, you may shuffle this card into your deck."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -3572,7 +3199,7 @@
         zh: "54/204 ZH 3"
         ja: "54/204 JA 3"
         culture_invariant_id: 490
-        sort_number: -647
+        sort_number: -648
       rarity: rare
       illustrator: "Otto Paredes"
     - set: fab
@@ -3586,7 +3213,7 @@
         zh: "36/204 ZH 9"
         ja: "36/204 JA 9"
         culture_invariant_id: 1972
-        sort_number: -2173
+        sort_number: -2179
       rarity: rare
       illustrator: "Otto Paredes"
   lore: 1
@@ -3627,19 +3254,6 @@
       name: "ラフィキ"
       title: "謎めいた闘士"
       flavour: "\"ハイエナも歩けば杖に当たる\"じゃ！"
-  abilities: 
-    - type: static
-      title: 
-        en: "challenger"
-      text: 
-        en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
-      ability: "challenger"
-    - type: static
-      title: 
-        en: "Ancient Skills"
-      text: 
-        en: "Whenever he challenges a Hyena character, this character takes no damage from the challenge."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -3656,7 +3270,7 @@
         zh: "55/204 ZH 3"
         ja: "55/204 JA 3"
         culture_invariant_id: 491
-        sort_number: -646
+        sort_number: -647
       rarity: rare
       illustrator: "Jared Nickerl / Alice Pisoni"
   lore: 0
@@ -3696,18 +3310,6 @@
       name: "ストラトス"
       title: "トルネードタイタン"
       flavour: "「ゼウスをとばせ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: activated
-      title: 
-        en: "CYCLONE"
-      text: 
-        en: "{E} – Gain lore equal to the number of Titan characters you have in play."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -3723,7 +3325,7 @@
         zh: "56/204 ZH 3"
         ja: "56/204 JA 3"
         culture_invariant_id: 492
-        sort_number: -645
+        sort_number: -646
       rarity: common
       illustrator: "Hedvig Häggman-Sund"
   lore: 1
@@ -3778,7 +3380,7 @@
         zh: "57/204 ZH 3"
         ja: "57/204 JA 3"
         culture_invariant_id: 493
-        sort_number: -644
+        sort_number: -645
       rarity: common
       illustrator: "Anna Rud / Livio Cacciatore"
   lore: 1
@@ -3835,7 +3437,7 @@
         zh: "58/204 ZH 3"
         ja: "58/204 JA 3"
         culture_invariant_id: 494
-        sort_number: -643
+        sort_number: -644
       rarity: rare
       illustrator: "Hedvig Häggman-Sund"
   lore: 2
@@ -3874,13 +3476,6 @@
       name: "財宝の守護者"
       title: "洞窟の番人"
       flavour: "「この中に入れるのはただ一人」"
-  abilities: 
-    - type: static
-      title: 
-        en: "Who Disturbs My Slumber?"
-      text: 
-        en: "This character can't challenge or quest unless it is at a location."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -3896,7 +3491,7 @@
         zh: "59/204 ZH 3"
         ja: "59/204 JA 3"
         culture_invariant_id: 495
-        sort_number: -642
+        sort_number: -643
       rarity: rare
       illustrator: "John Loren"
     - set: fab
@@ -3910,7 +3505,7 @@
         zh: "37/204 ZH 9"
         ja: "37/204 JA 9"
         culture_invariant_id: 1973
-        sort_number: -2172
+        sort_number: -2178
       rarity: rare
       illustrator: "John Loren"
     - set: fab
@@ -3924,7 +3519,7 @@
         zh: "208/204 ZH 9"
         ja: "208/204 JA 9"
         culture_invariant_id: 2162
-        sort_number: -2001
+        sort_number: -2007
       rarity: epic
       illustrator: "John Loren"
   lore: 1
@@ -3965,12 +3560,6 @@
       name: "アースラ"
       title: "海の魔女"
       flavour: "秘密の契約はすでに結ばれていた。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "You're too late"
-      text: 
-        en: "Whenever this character quests, chosen opposing character can't ready at the start of their next turn."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -3987,7 +3576,7 @@
         zh: "60/204 ZH 3"
         ja: "60/204 JA 3"
         culture_invariant_id: 496
-        sort_number: -641
+        sort_number: -642
       rarity: common
       illustrator: "Dylan Bonner"
   cost: 1
@@ -4021,12 +3610,6 @@
       name: "贈り物を授けよう"
       title: ""
       flavour: "「汝に授ける、インクの魔法 我の手先よ、天空を舞おう！」\n― マレフィセント"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Bestow a Gift"
-      text: 
-        en: "Move 1 damage counter from chosen character to chosen opposing character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4042,7 +3625,7 @@
         zh: "61/204 ZH 3"
         ja: "61/204 JA 3"
         culture_invariant_id: 497
-        sort_number: -640
+        sort_number: -641
       rarity: uncommon
       illustrator: "Luis Huerta"
   cost: 1
@@ -4078,12 +3661,6 @@
       name: "私を呼んでる"
       title: ""
       flavour: "私を呼ぶ声が聞こえる 心の声が呼んでいるの"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Draw a card. Shuffle up to 3 cards from your opponent's discard into your opponent's deck."
-      text: 
-        en: "Draw a card. Shuffle up to 3 cards from your opponent's discard into your opponent's deck."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4099,7 +3676,7 @@
         zh: "62/204 ZH 3"
         ja: "62/204 JA 3"
         culture_invariant_id: 498
-        sort_number: -639
+        sort_number: -640
       rarity: uncommon
       illustrator: "Ian MacDonald"
     - set: fab
@@ -4113,7 +3690,7 @@
         zh: "62/204 ZH 9"
         ja: "62/204 JA 9"
         culture_invariant_id: 1998
-        sort_number: -2147
+        sort_number: -2153
       rarity: uncommon
       illustrator: "Ian MacDonald"
   cost: 3
@@ -4147,12 +3724,6 @@
       name: "土壇場の奮闘"
       title: ""
       flavour: "「俺がついてるからな」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Last-Ditch Effort"
-      text: 
-        en: "Exert chosen opposing character. Then chosen character of yours gains **Challenger** +2 this turn. (They get +2 {S} while challenging.)"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -4169,7 +3740,7 @@
         zh: "63/204 ZH 3"
         ja: "63/204 JA 3"
         culture_invariant_id: 499
-        sort_number: -638
+        sort_number: -639
       rarity: rare
       illustrator: "Koni"
   cost: 3
@@ -4205,12 +3776,6 @@
       name: "やっと運が向いて来たわ"
       title: ""
       flavour: "さあさあ悩める人！ さあさあどうするの！"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Look at the top 5 cards of your deck. Put any number of them on the top or the bottom of your deck in any order. Gain 1 lore."
-      text: 
-        en: "_(A character with cost 3 or more can {E} to sing this song for free.)_nnnLook at the top 5 cards of your deck. Put any number of them on the top or the bottom of your deck in any order. Gain 1 lore."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4226,7 +3791,7 @@
         zh: "64/204 ZH 3"
         ja: "64/204 JA 3"
         culture_invariant_id: 500
-        sort_number: -637
+        sort_number: -638
       rarity: rare
       illustrator: "Ever Galvez / Anna Stosik"
   cost: 2
@@ -4260,12 +3825,6 @@
       name: "魔法のランプ"
       title: ""
       flavour: ""
-  abilities: 
-    - type: activated
-      title: 
-        en: "GOOD OR EVIL"
-      text: 
-        en: "Banish this item – If you have a character named Jafar in play, draw 2 cards. If you have a character named Genie in play, return chosen character with cost 4 or less to their player's hand."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4281,7 +3840,7 @@
         zh: "65/204 ZH 3"
         ja: "65/204 JA 3"
         culture_invariant_id: 501
-        sort_number: -636
+        sort_number: -637
       rarity: rare
       illustrator: "Jiahui Eva Gao"
     - set: iti
@@ -4295,7 +3854,7 @@
         zh: "210/204 ZH 3"
         ja: "210/204 JA 3"
         culture_invariant_id: 646
-        sort_number: -491
+        sort_number: -492
       rarity: enchanted
       illustrator: "Luis Huerta"
   cost: 2
@@ -4329,12 +3888,6 @@
       name: "魔法使いの帽子"
       title: ""
       flavour: "ミニーは気を付けて近付きました。ここに帽子を置いた何者かが、罠を仕掛けているかもしれないからです。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Incredible Energy"
-      text: 
-        en: "{E}, 1 {I} − Name a card, then reveal the top card of your deck. If it's the named card, put that card into your hand. Otherwise, put it on the top of your deck."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4350,7 +3903,7 @@
         zh: "66/204 ZH 3"
         ja: "66/204 JA 3"
         culture_invariant_id: 502
-        sort_number: -635
+        sort_number: -636
       rarity: common
       illustrator: "Jimmy Lo"
   lore: 1
@@ -4402,7 +3955,7 @@
         zh: "67/204 ZH 3"
         ja: "67/204 JA 3"
         culture_invariant_id: 503
-        sort_number: -634
+        sort_number: -635
       rarity: rare
       illustrator: "Matthew Oates"
   lore: 2
@@ -4439,12 +3992,6 @@
       name: "女王の城"
       title: "鏡の間"
       flavour: "鏡をたずねる者は、質問を自由に選ぶことができる…だが答えは選べない。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Using the Mirror"
-      text: 
-        en: "At the start of your turn, for each character you have here, you may draw a card."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4460,7 +4007,7 @@
         zh: "68/204 ZH 3"
         ja: "68/204 JA 3"
         culture_invariant_id: 504
-        sort_number: -633
+        sort_number: -634
       rarity: uncommon
       illustrator: "Wietse Treurniet"
   lore: 0
@@ -4497,13 +4044,6 @@
       name: "魔法使いの塔"
       title: "驚異的研究所"
       flavour: "ここには魔法使いに必要な何もかもが揃ってるんだ。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Magical Power"
-      text: 
-        en: "Characters get +1 {L} while here."
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4519,7 +4059,7 @@
         zh: "69/204 ZH 3"
         ja: "69/204 JA 3"
         culture_invariant_id: 505
-        sort_number: -632
+        sort_number: -633
       rarity: common
       illustrator: "Wouter Bruneel"
   lore: 1
@@ -4559,12 +4099,6 @@
       name: "カビー"
       title: "ロスト・ボーイズの力持ち"
       flavour: "ピーターがフック船長を食い止めている間、カビーは一番は得意なことをした…物を壊すことを。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "The Bear"
-      text: 
-        en: "Whenever this character moves to a location, he gets +3 {S} this turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4580,7 +4114,7 @@
         zh: "70/204 ZH 3"
         ja: "70/204 JA 3"
         culture_invariant_id: 506
-        sort_number: -631
+        sort_number: -632
       rarity: rare
       illustrator: "Massimiliano Narciso / Marieke Ferrari"
     - set: fab
@@ -4594,7 +4128,7 @@
         zh: "71/204 ZH 9"
         ja: "71/204 JA 9"
         culture_invariant_id: 2007
-        sort_number: -2138
+        sort_number: -2144
       rarity: rare
       illustrator: "Massimiliano Narciso / Marieke Ferrari"
     - set: p3
@@ -4608,7 +4142,7 @@
         zh: "7/P3 ZH 9"
         ja: "7/P3 JA 9"
         culture_invariant_id: 2185
-        sort_number: -1957
+        sort_number: -1961
       rarity: special
       illustrator: "Massimiliano Narciso / Marieke Ferrari"
   lore: 2
@@ -4647,12 +4181,6 @@
       name: "呪われた人魚"
       title: "アースラの被害者"
       flavour: "「でもたまにあるのよ。お代もらえず、お仕置きするの。泣きながら…」\n― アースラ"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Poor Souls"
-      text: 
-        en: "Whenever this character is challenged, each opponent chooses and discards a card."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -4669,7 +4197,7 @@
         zh: "71/204 ZH 3"
         ja: "71/204 JA 3"
         culture_invariant_id: 507
-        sort_number: -630
+        sort_number: -631
       rarity: common
       illustrator: "Luis Huerta"
   lore: 2
@@ -4711,13 +4239,6 @@
       name: "ドン・カルナージ"
       title: "空の盗賊プリンス"
       flavour: "「ここで<吾輩>が登場するのは予想外だっただろう？ああ、吾輩もだ」"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4733,7 +4254,7 @@
         zh: "72/204 ZH 3"
         ja: "72/204 JA 3"
         culture_invariant_id: 508
-        sort_number: -629
+        sort_number: -630
       rarity: common
       illustrator: "Brian Kesinger"
   lore: 1
@@ -4773,13 +4294,6 @@
       name: "フロットサム"
       title: "ごろつき"
       flavour: "「あのお方の計画にはロアが必要だ…」"
-  abilities: 
-    - type: static
-      title: 
-        en: "Eerie Pair"
-      text: 
-        en: "**EERIE PAIR** Your characters named Jetsam get +3 {S}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4795,7 +4309,7 @@
         zh: "73/204 ZH 3"
         ja: "73/204 JA 3"
         culture_invariant_id: 509
-        sort_number: -628
+        sort_number: -629
       rarity: uncommon
       illustrator: "Denny Minonne"
   lore: 2
@@ -4835,17 +4349,6 @@
       name: "タック神父"
       title: "ノッティンガムの司祭"
       flavour: "「出て行け！私の教会だぞ！\n出ろ！出ろ！出ろ！…出ろー！！」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "You Thieving Scoundrel"
-      text: 
-        en: "When you play this character, the player or players with the most cards in their hand chooses and discards a card."
-    - type: resolution
-      title: 
-        en: "You Thieving Scoundrel"
-      text: 
-        en: "When you play this character, the player or players with the most cards in their hand chooses and discards a card."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4861,7 +4364,7 @@
         zh: "74/204 ZH 3"
         ja: "74/204 JA 3"
         culture_invariant_id: 510
-        sort_number: -627
+        sort_number: -628
       rarity: super_rare
       illustrator: "Alice Pisoni"
   lore: 2
@@ -4901,18 +4404,6 @@
       name: "ヘルガ・シンクレア"
       title: "ファム・ファタール"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 3"
-      text: 
-        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named helga sinclair.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "THIS CHANGES EVERYTHING"
-      text: 
-        en: "Whenever this character quests, you may deal 3 damage to chosen damaged character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4928,7 +4419,7 @@
         zh: "75/204 ZH 3"
         ja: "75/204 JA 3"
         culture_invariant_id: 511
-        sort_number: -626
+        sort_number: -627
       rarity: rare
       illustrator: "Kasia Brzezinska"
   lore: 1
@@ -4968,12 +4459,6 @@
       name: "ヘルガ・シンクレア"
       title: "殴り返す右腕"
       flavour: "「立場は対等っていう約束よ！」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "NOTHING PERSONAL"
-      text: 
-        en: "When this character is challenged and banished, banish the challenging character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -4989,7 +4474,7 @@
         zh: "76/204 ZH 3"
         ja: "76/204 JA 3"
         culture_invariant_id: 512
-        sort_number: -625
+        sort_number: -626
       rarity: common
       illustrator: "Brian Kesinger"
   lore: 2
@@ -5029,19 +4514,6 @@
       name: "ジェットサム"
       title: "ごろつき"
       flavour: "「ここにロアがあるはずだ、とてもパワフルなロアが」"
-  abilities: 
-    - type: static
-      title: 
-        en: "ward"
-      text: 
-        en: "_(Opponents can't choose this character except to challenge.)_"
-      ability: "ward"
-    - type: static
-      title: 
-        en: "Eerie Pair"
-      text: 
-        en: "Your characters named Flotsam gain **Ward**."
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -5057,7 +4529,7 @@
         zh: "77/204 ZH 3"
         ja: "77/204 JA 3"
         culture_invariant_id: 513
-        sort_number: -624
+        sort_number: -625
       rarity: uncommon
       illustrator: "Jake Parker"
     - set: p1
@@ -5071,7 +4543,7 @@
         zh: "26/P1 ZH 3"
         ja: "26/P1 JA 3"
         culture_invariant_id: 684
-        sort_number: -477
+        sort_number: -478
       rarity: special
       illustrator: "Jake Parker"
   lore: 1
@@ -5111,12 +4583,6 @@
       name: "キット・クラウドキッカー"
       title: "タフガイ"
       flavour: "「楽しかったけど、もう行かなきゃ。ヤッホー！」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "SKYSURFING"
-      text: 
-        en: "When you play this character, you may return chosen opposing character with 2 {S} or less to their player's hand."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -5132,7 +4598,7 @@
         zh: "78/204 ZH 3"
         ja: "78/204 JA 3"
         culture_invariant_id: 514
-        sort_number: -623
+        sort_number: -624
       rarity: super_rare
       illustrator: "Mike Parker"
   lore: 1
@@ -5172,17 +4638,6 @@
       name: "ライル・ティベリウス・ローク"
       title: "狡猾な雇われ兵"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "WELL, NOW YOU KNOW"
-      text: 
-        en: "When you play this character, chosen opposing character gains **Reckless** during their next turn. _(They can’t quest and must challenge if able.)"
-    - type: static-triggered
-      title: 
-        en: "THANKS FOR VOLUNTEERING"
-      text: 
-        en: "Whenever one of your other characters is banished, each opponent loses 1 lore."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -5198,7 +4653,7 @@
         zh: "79/204 ZH 3"
         ja: "79/204 JA 3"
         culture_invariant_id: 515
-        sort_number: -622
+        sort_number: -623
       rarity: common
       illustrator: "Giuseppe di Maio"
   lore: 1
@@ -5253,7 +4708,7 @@
         zh: "80/204 ZH 3"
         ja: "80/204 JA 3"
         culture_invariant_id: 516
-        sort_number: -621
+        sort_number: -622
       rarity: legendary
       illustrator: "Valerio Buonfantino"
   lore: 3
@@ -5294,18 +4749,6 @@
       name: "マイロ・サッチ"
       title: "アトランティスの王"
       flavour: "「宝がどういうものかわかってない。あんたは」"
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named milo thatch.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "Take them by surprise"
-      text: 
-        en: "When this character is banished, return all opposing characters to their players’ hands."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -5321,7 +4764,7 @@
         zh: "81/204 ZH 3"
         ja: "81/204 JA 3"
         culture_invariant_id: 517
-        sort_number: -620
+        sort_number: -621
       rarity: rare
       illustrator: "Alan Batson"
     - set: iti
@@ -5335,7 +4778,7 @@
         zh: "211/204 ZH 3"
         ja: "211/204 JA 3"
         culture_invariant_id: 647
-        sort_number: -490
+        sort_number: -491
       rarity: enchanted
       illustrator: "Diogo Saito"
   lore: 1
@@ -5391,7 +4834,7 @@
         zh: "82/204 ZH 3"
         ja: "82/204 JA 3"
         culture_invariant_id: 518
-        sort_number: -619
+        sort_number: -620
       rarity: rare
       illustrator: "Grace Tran"
   lore: 1
@@ -5431,12 +4874,6 @@
       name: "ピーター・パン"
       title: "ロスト・ボーイズのリーダー"
       flavour: "イルミニアは失われた呪文書を探してくれる誰かを必要としており、ピーターは真っ先に手を挙げました。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "I Came to Listen to the Stories"
-      text: 
-        en: "Once per turn, when this character moves to a location, gain lore equal to that location's {L}."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -5452,7 +4889,7 @@
         zh: "83/204 ZH 3"
         ja: "83/204 JA 3"
         culture_invariant_id: 519
-        sort_number: -618
+        sort_number: -619
       rarity: uncommon
       illustrator: "Koni"
   lore: 2
@@ -5493,12 +4930,6 @@
       name: "プリンス・ジョン"
       title: "バカな王様"
       flavour: "「若殿様というよりは バカ殿様でたくさんだぁ！」\n― ノッティンガムのシェリフ"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Collect Taxes"
-      text: 
-        en: "Each opponent with more Lore than you loses 2 Lore."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -5514,7 +4945,7 @@
         zh: "84/204 ZH 3"
         ja: "84/204 JA 3"
         culture_invariant_id: 520
-        sort_number: -617
+        sort_number: -618
       rarity: rare
       illustrator: "John Loren"
     - set: fab
@@ -5528,7 +4959,7 @@
         zh: "70/204 ZH 9"
         ja: "70/204 JA 9"
         culture_invariant_id: 2006
-        sort_number: -2139
+        sort_number: -2145
       rarity: rare
       illustrator: "John Loren"
   lore: 4
@@ -5584,7 +5015,7 @@
         zh: "85/204 ZH 3"
         ja: "85/204 JA 3"
         culture_invariant_id: 521
-        sort_number: -616
+        sort_number: -617
       rarity: super_rare
       illustrator: "Jochem van Gool"
     - set: fab
@@ -5598,7 +5029,7 @@
         zh: "87/204 ZH 9"
         ja: "87/204 JA 9"
         culture_invariant_id: 2023
-        sort_number: -2122
+        sort_number: -2128
       rarity: super_rare
       illustrator: "Jochem van Gool"
   lore: 1
@@ -5639,19 +5070,6 @@
       name: "シェンジ"
       title: "ハイエナの頭目"
       flavour: "「夕食の時間までいてもらうよ」"
-  abilities: 
-    - type: static
-      title: 
-        en: "What's the hurry?"
-      text: 
-        en: "When this character is at a location, when she challenges another character, you may draw a card."
-      ability: "gain-ability"
-    - type: static
-      title: 
-        en: "I will do it"
-      text: 
-        en: "When this character is at a location, she gets +3 {S}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -5668,7 +5086,7 @@
         zh: "86/204 ZH 3"
         ja: "86/204 JA 3"
         culture_invariant_id: 522
-        sort_number: -615
+        sort_number: -616
       rarity: common
       illustrator: "Alan Batson"
   lore: 1
@@ -5708,13 +5126,6 @@
       name: "サー・ヒス"
       title: "いまいましいマムシ"
       flavour: "税金を徴収してるのはプリンス・ジョンだけじゃない！"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -5730,7 +5141,7 @@
         zh: "87/204 ZH 3"
         ja: "87/204 JA 3"
         culture_invariant_id: 523
-        sort_number: -614
+        sort_number: -615
       rarity: common
       illustrator: "Jeanne Plounevez"
   lore: 1
@@ -5770,13 +5181,6 @@
       name: "スキッピー"
       title: "元気な子ウサギ"
       flavour: "どんなに勇敢な無法者にも、身を潜めるべき時はある。"
-  abilities: 
-    - type: static
-      title: 
-        en: "ward"
-      text: 
-        en: "_(Opponents can't choose this character except to challenge.)_"
-      ability: "ward"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -5792,7 +5196,7 @@
         zh: "88/204 ZH 3"
         ja: "88/204 JA 3"
         culture_invariant_id: 524
-        sort_number: -613
+        sort_number: -614
       rarity: uncommon
       illustrator: "Adam Ford"
   lore: 3
@@ -5848,7 +5252,7 @@
         zh: "89/204 ZH 3"
         ja: "89/204 JA 3"
         culture_invariant_id: 525
-        sort_number: -612
+        sort_number: -613
       rarity: rare
       illustrator: "Grace Tran"
   lore: 2
@@ -5889,19 +5293,6 @@
       name: "スティッチ"
       title: "秘密捜査官"
       flavour: "こんなに派手な服装の割に、彼は確かに見つけにくい。"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static
-      title: 
-        en: "Hide"
-      text: 
-        en: "While this character is at a location, he gains **Ward**. _(Opponents can't choose them except to challenge.)_"
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -5917,7 +5308,7 @@
         zh: "90/204 ZH 3"
         ja: "90/204 JA 3"
         culture_invariant_id: 526
-        sort_number: -611
+        sort_number: -612
       rarity: uncommon
       illustrator: "Lisanne Koeteeuw"
     - set: d23
@@ -5931,7 +5322,7 @@
         zh: "3/D23 ZH 3"
         ja: "3/D23 JA 3"
         culture_invariant_id: 1193
-        sort_number: -471
+        sort_number: -473
       rarity: special
       illustrator: "Lisanne Koeteeuw"
     - set: fab
@@ -5945,7 +5336,7 @@
         zh: "90/204 ZH 9"
         ja: "90/204 JA 9"
         culture_invariant_id: 2026
-        sort_number: -2119
+        sort_number: -2125
       rarity: uncommon
       illustrator: "Lisanne Koeteeuw"
   lore: 1
@@ -5986,12 +5377,6 @@
       name: "アースラ"
       title: "騙し屋"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "YOU'LL NEVER EVEN MISS IT"
-      text: 
-        en: "When you play this character, chosen opponent reveals their hand and discards a song card of your choice."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -6008,7 +5393,7 @@
         zh: "91/204 ZH 3"
         ja: "91/204 JA 3"
         culture_invariant_id: 527
-        sort_number: -610
+        sort_number: -611
       rarity: legendary
       illustrator: "Matthew Robert Davies"
       erratas: 
@@ -6043,7 +5428,7 @@
         zh: "212/204 ZH 3"
         ja: "212/204 JA 3"
         culture_invariant_id: 648
-        sort_number: -489
+        sort_number: -490
       rarity: enchanted
       illustrator: "John Loren / Nicholas Kole"
       erratas: 
@@ -6105,12 +5490,6 @@
       name: "アースラ"
       title: "七つの海の騙し屋"
       flavour: "「そんなにたくさんはいらないの…一番パワフルなロアだけでいいわ！」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "What a deal"
-      text: 
-        en: "Whenever this character sings a song, you may play that song again from your discard for free, then put it on the bottom of your deck."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -6126,7 +5505,7 @@
         zh: "92/204 ZH 3"
         ja: "92/204 JA 3"
         culture_invariant_id: 528
-        sort_number: -609
+        sort_number: -610
       rarity: uncommon
       illustrator: "Valentina Graziuso"
     - set: fab
@@ -6140,7 +5519,7 @@
         zh: "91/204 ZH 9"
         ja: "91/204 JA 9"
         culture_invariant_id: 2027
-        sort_number: -2118
+        sort_number: -2124
       rarity: uncommon
       illustrator: "Valentina Graziuso"
   lore: 1
@@ -6180,18 +5559,6 @@
       name: "ワイルドキャット"
       title: "メカニック"
       flavour: "「<何でも>５分以内にバラバラにできるよ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: activated
-      title: 
-        en: "DISASSEMBLE"
-      text: 
-        en: " {E} – Banish chosen item."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -6208,7 +5575,7 @@
         zh: "93/204 ZH 3"
         ja: "93/204 JA 3"
         culture_invariant_id: 529
-        sort_number: -608
+        sort_number: -609
       rarity: common
       illustrator: "Ron Baird"
   lore: 1
@@ -6248,13 +5615,6 @@
       name: "ザズー"
       title: "プライドランドの執事"
       flavour: "「わたくしがこの地を治めているというわけではございませんが、プライドランドへようこそ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "IT’S TIME TO LEAVE!"
-      text: 
-        en: "While this character is at a location, he gets +1 {L}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -6270,7 +5630,7 @@
         zh: "94/204 ZH 3"
         ja: "94/204 JA 3"
         culture_invariant_id: 530
-        sort_number: -607
+        sort_number: -608
       rarity: uncommon
       illustrator: "Hyuna Lee"
   cost: 2
@@ -6306,12 +5666,6 @@
       name: "恋しちゃぁぁぁったわ！"
       title: ""
       flavour: "不・思・議ね、彼の言葉にときめいちゃったわ。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Banish chosen item."
-      text: 
-        en: "_(A character with cost 2 or more can {E} to sing this song for free.)_nnnBanish chosen item."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -6327,7 +5681,7 @@
         zh: "95/204 ZH 3"
         ja: "95/204 JA 3"
         culture_invariant_id: 531
-        sort_number: -606
+        sort_number: -607
       rarity: common
       illustrator: "Carmine Pucci"
   cost: 1
@@ -6363,12 +5717,6 @@
       name: "行けるはず"
       title: ""
       flavour: "夢にみるその場所は 皆が僕を迎えてくれて 微笑むんだ"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "I Will Find My Way"
-      text: 
-        en: "_(A character with cost 1 or more can {E} to sing this song for free.)_nnnChosen character of yours gets +2 {S} this turn. They may move to a location for free."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -6384,7 +5732,7 @@
         zh: "96/204 ZH 3"
         ja: "96/204 JA 3"
         culture_invariant_id: 532
-        sort_number: -605
+        sort_number: -606
       rarity: common
       illustrator: "Maxine Vee"
     - set: win
@@ -6398,7 +5746,7 @@
         zh: "94/204 ZH 11"
         ja: "94/204 JA 11"
         culture_invariant_id: 2557
-        sort_number: -2620
+        sort_number: -2628
       rarity: common
       illustrator: "Kendall Hale"
   cost: 2
@@ -6434,12 +5782,6 @@
       name: "縁組次第"
       title: ""
       flavour: "親に名誉を 家族に名誉を 家に名誉を みんなに名誉を"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Strike a Good Match"
-      text: 
-        en: "Draw 2 cards, then choose and discard a card."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -6455,7 +5797,7 @@
         zh: "97/204 ZH 3"
         ja: "97/204 JA 3"
         culture_invariant_id: 533
-        sort_number: -604
+        sort_number: -605
       rarity: common
       illustrator: "Jenna Gray"
   cost: 2
@@ -6489,12 +5831,6 @@
       name: "スカイボード"
       title: ""
       flavour: "失われたシーダック号の中で発見されたそれは、まるで新品同様だった。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "I Got to be Going"
-      text: 
-        en: "{E} − If you've played 2 or more actions this turn, draw a card."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -6510,7 +5846,7 @@
         zh: "98/204 ZH 3"
         ja: "98/204 JA 3"
         culture_invariant_id: 534
-        sort_number: -603
+        sort_number: -604
       rarity: uncommon
       illustrator: "McKay Anderson"
   cost: 3
@@ -6544,17 +5880,6 @@
       name: "ロビンの弓"
       title: ""
       flavour: "「森はいつだって必要なものを与えてくれるのさ」\n― ロビン・フッド"
-  abilities: 
-    - type: activated
-      title: 
-        en: "FOREST'S GIFT"
-      text: 
-        en: "{E} – Deal 1 damage to chosen damaged character or location."
-    - type: static-triggered
-      title: 
-        en: "A bit of a Lark"
-      text: 
-        en: "Whenever a character of yours named Robin Hood quests, you may ready this item."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -6570,7 +5895,7 @@
         zh: "99/204 ZH 3"
         ja: "99/204 JA 3"
         culture_invariant_id: 535
-        sort_number: -602
+        sort_number: -603
       rarity: rare
       illustrator: "Billy Wimblett"
   cost: 4
@@ -6604,17 +5929,6 @@
       name: "スターライトの小瓶"
       title: ""
       flavour: "この魔法の小瓶は、悪の手に渡れば大変なことになりかねない。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Trap"
-      text: 
-        en: "2 {I}, Banish this item – Draw 2 cards, then choose and discard a card."
-    - type: activated
-      title: 
-        en: "**EFFICIENT ENERGY**"
-      text: 
-        en: "{E} – You pay 2 {I} less for the next action you play this turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -6630,7 +5944,7 @@
         zh: "100/204 ZH 3"
         ja: "100/204 JA 3"
         culture_invariant_id: 536
-        sort_number: -601
+        sort_number: -602
       rarity: common
       illustrator: "Ryan Moeck"
   lore: 1
@@ -6682,7 +5996,7 @@
         zh: "101/204 ZH 3"
         ja: "101/204 JA 3"
         culture_invariant_id: 537
-        sort_number: -600
+        sort_number: -601
       rarity: rare
       illustrator: "Michael Guimont"
   lore: 2
@@ -6719,19 +6033,6 @@
       name: "ファング"
       title: "川の都市"
       flavour: "凶暴な悪党たちと、怒りん坊でもっと凶暴な猫たちに守られた国。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Surrounded by Water"
-      text: 
-        en: "Characters gain **Ward** and **Evasive** while here. _(Opponents can't choose them except to challenge. Only characters with Evasive can challenge them.)_"
-      ability: "gain-ability"
-    - type: static
-      title: 
-        en: "Surrounded by Water"
-      text: 
-        en: "Characters gain **Ward** and **Evasive** while here. _(Opponents can't choose them except to challenge. Only characters with Evasive can challenge them.)_"
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -6747,7 +6048,7 @@
         zh: "102/204 ZH 3"
         ja: "102/204 JA 3"
         culture_invariant_id: 538
-        sort_number: -599
+        sort_number: -600
       rarity: uncommon
       illustrator: "Andreas Rocha"
     - set: iti
@@ -6761,7 +6062,7 @@
         zh: "213/204 ZH 3"
         ja: "213/204 JA 3"
         culture_invariant_id: 649
-        sort_number: -488
+        sort_number: -489
       rarity: enchanted
       illustrator: "Roberto Gatto"
   lore: 1
@@ -6798,13 +6099,6 @@
       name: "クスコの宮殿"
       title: "王様の家"
       flavour: "「ちょっと狭いし、それどころかプールもないんだ！」\n― クスコ"
-  abilities: 
-    - type: static
-      title: 
-        en: "City Walls"
-      text: 
-        en: "Whenever a character is challenged and banished while here, banish the challenging character."
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -6820,7 +6114,7 @@
         zh: "103/204 ZH 3"
         ja: "103/204 JA 3"
         culture_invariant_id: 539
-        sort_number: -598
+        sort_number: -599
       rarity: super_rare
       illustrator: "Javi Salas"
     - set: fab
@@ -6834,7 +6128,7 @@
         zh: "107/204 ZH 9"
         ja: "107/204 JA 9"
         culture_invariant_id: 2043
-        sort_number: -2102
+        sort_number: -2108
       rarity: super_rare
       illustrator: "Javi Salas"
     - set: fab
@@ -6848,7 +6142,7 @@
         zh: "232/204 ZH 9"
         ja: "232/204 JA 9"
         culture_invariant_id: 2150
-        sort_number: -1977
+        sort_number: -1983
       rarity: enchanted
       illustrator: "João Moura"
   lore: 1
@@ -6889,18 +6183,6 @@
       name: "アリエル"
       title: "冒険好きな収集家"
       flavour: "沈没船はロアを見つけるのにいい場所よ…サメから隠れるのにも！"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static-triggered
-      title: 
-        en: "INSPIRING VOICE"
-      text: 
-        en: "Whenever you play a song, chosen character of yours gains **Evasive** until the start of your next turn."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -6917,7 +6199,7 @@
         zh: "104/204 ZH 3"
         ja: "104/204 JA 3"
         culture_invariant_id: 540
-        sort_number: -597
+        sort_number: -598
       rarity: common
       illustrator: "Roger Pérez"
   lore: 1
@@ -6973,7 +6255,7 @@
         zh: "105/204 ZH 3"
         ja: "105/204 JA 3"
         culture_invariant_id: 541
-        sort_number: -596
+        sort_number: -597
       rarity: rare
       illustrator: "Simone Buonfantino"
     - set: iti
@@ -6987,7 +6269,7 @@
         zh: "214/204 ZH 3"
         ja: "214/204 JA 3"
         culture_invariant_id: 650
-        sort_number: -487
+        sort_number: -488
       rarity: enchanted
       illustrator: "Kuya Jaypi"
   lore: 1
@@ -7029,12 +6311,6 @@
       name: "フック船長"
       title: "剣の達人"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "NEMESIS"
-      text: 
-        en: "During your turn, whenever this character banishes another character in a challenge, ready this character. He can't quest for the rest of this turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -7050,7 +6326,7 @@
         zh: "106/204 ZH 3"
         ja: "106/204 JA 3"
         culture_invariant_id: 542
-        sort_number: -595
+        sort_number: -596
       rarity: common
       illustrator: "Rudy Hill"
   lore: 0
@@ -7090,13 +6366,6 @@
       name: "デラ・ダック"
       title: "無敵のママ"
       flavour: "「私は月で10年ひっどい味のガム嚙んでたのよ。\nフラッドまみれがなんだってのよ？」"
-  abilities: 
-    - type: static
-      title: 
-        en: "reckless"
-      text: 
-        en: "_(This character can't quest and must challenge each turn if able.)_"
-      ability: "reckless"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -7112,7 +6381,7 @@
         zh: "107/204 ZH 3"
         ja: "107/204 JA 3"
         culture_invariant_id: 543
-        sort_number: -594
+        sort_number: -595
       rarity: uncommon
       illustrator: "Jiahui Eva Gao"
   lore: 1
@@ -7152,12 +6421,6 @@
       name: "ヘイヘイ"
       title: "いつのまにか探検家"
       flavour: "ここにニワトリ、コケナッツ。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Mindless Wandering"
-      text: 
-        en: "Once per turn, when this character moves to a location, each opponent loses 1 lore."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -7173,7 +6436,7 @@
         zh: "108/204 ZH 3"
         ja: "108/204 JA 3"
         culture_invariant_id: 544
-        sort_number: -593
+        sort_number: -594
       rarity: legendary
       illustrator: "Jochem van Gool"
   lore: 2
@@ -7212,12 +6475,6 @@
       name: "ヒュドラ"
       title: "大蛇の怪物"
       flavour: "頭数は多ければ多いほどいい。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Watch the Teeth"
-      text: 
-        en: "When this character is damaged, deal the same amount of damage to a chosen opposing character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -7233,7 +6490,7 @@
         zh: "109/204 ZH 3"
         ja: "109/204 JA 3"
         culture_invariant_id: 545
-        sort_number: -592
+        sort_number: -593
       rarity: legendary
       illustrator: "Veronica Di Lorenzo / Livio Cacciatore"
   lore: 2
@@ -7273,17 +6530,6 @@
       name: "ジム・ホーキンス"
       title: "宇宙の旅人"
       flavour: "「おめえは全宇宙の星を揺り動かすぞ」\n― ジョン・シルバー"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "THIS IS IT"
-      text: 
-        en: "When you play this character, you may play a location with cost 4 or less for free."
-    - type: static-triggered
-      title: 
-        en: "TAKE THE HELM"
-      text: 
-        en: "Whenever you play a location, this character may move there for free."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -7299,7 +6545,7 @@
         zh: "110/204 ZH 3"
         ja: "110/204 JA 3"
         culture_invariant_id: 546
-        sort_number: -591
+        sort_number: -592
       rarity: common
       illustrator: "Marcel Berg"
   lore: 1
@@ -7354,7 +6600,7 @@
         zh: "111/204 ZH 3"
         ja: "111/204 JA 3"
         culture_invariant_id: 547
-        sort_number: -590
+        sort_number: -591
       rarity: common
       illustrator: "Brian Kesinger"
   lore: 1
@@ -7394,12 +6640,6 @@
       name: "カカモラ"
       title: "脅威の船員"
       flavour: "コイツが来たところにはもっとウジャウジャいる。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Plunder"
-      text: 
-        en: "When you play this character each opponent loses 1 lore."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -7415,7 +6655,7 @@
         zh: "112/204 ZH 3"
         ja: "112/204 JA 3"
         culture_invariant_id: 548
-        sort_number: -589
+        sort_number: -590
       rarity: super_rare
       illustrator: "Jackie Droujko"
   lore: 1
@@ -7455,12 +6695,6 @@
       name: "マダム・メデューサ"
       title: "ザ・ボス"
       flavour: "「ロアを見つけるくらい、子供からお菓子を取り上げるくらい簡単だろうさ」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "THAT TERRIBLE WOMAN"
-      text: 
-        en: "When you play this character, banish chosen opposing character with 3 {S} or less."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -7476,7 +6710,7 @@
         zh: "113/204 ZH 3"
         ja: "113/204 JA 3"
         culture_invariant_id: 549
-        sort_number: -588
+        sort_number: -589
       rarity: uncommon
       illustrator: "Rob Di Salvo"
   lore: 0
@@ -7517,18 +6751,6 @@
       name: "マウイ"
       title: "空翔ける半神"
       flavour: "「ニワトリもっとその辺うろうろしてない？」"
-  abilities: 
-    - type: static
-      title: 
-        en: "reckless"
-      text: 
-        en: "_(This character can't quest and must challenge each turn if able.)_"
-      ability: "reckless"
-    - type: static-triggered
-      title: 
-        en: "In My Stomach"
-      text: 
-        en: "Whenever one of your characters named Heihei quests, this character gets +1 {L} and loses **Reckless** for this turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -7544,7 +6766,7 @@
         zh: "114/204 ZH 3"
         ja: "114/204 JA 3"
         culture_invariant_id: 550
-        sort_number: -587
+        sort_number: -588
       rarity: rare
       illustrator: "Sandara Tang"
     - set: fab
@@ -7598,18 +6820,6 @@
       name: "マウイ"
       title: "クジラ"
       flavour: "ドッバァーン！と登場準備ヨシ。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "DON’T WORRY, I’M HERE"
-      text: 
-        en: "2 {I} - Ready this character, this character can’t quest for the rest of this turn."
-    - type: static
-      title: 
-        en: "This Mission Is Cursed"
-      text: 
-        en: "This character doesn’t ready at the start of the turn."
-      ability: "restriction"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -7626,7 +6836,7 @@
         zh: "115/204 ZH 3"
         ja: "115/204 JA 3"
         culture_invariant_id: 551
-        sort_number: -586
+        sort_number: -587
       rarity: common
       illustrator: "Massimiliano Narciso"
   lore: 1
@@ -7666,13 +6876,6 @@
       name: "マイロ・サッチ"
       title: "気鋭の学者"
       flavour: "「おじいちゃんからは<こんな>場所のことは聞いてなかったよ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "I’M YOUR MAN!"
-      text: 
-        en: "While this character is at a location, he gets +2 {S}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -7688,7 +6891,7 @@
         zh: "116/204 ZH 3"
         ja: "116/204 JA 3"
         culture_invariant_id: 552
-        sort_number: -585
+        sort_number: -586
       rarity: rare
       illustrator: "Grace Tran"
   lore: 2
@@ -7730,18 +6933,6 @@
       name: "モアナ"
       title: "生まれついてのリーダー"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 3"
-      text: 
-        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named moana.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "Welcome To My Boat"
-      text: 
-        en: "Whenever this character quests while at a location, ready all other characters here. They can't quest for the rest of this turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -7757,7 +6948,7 @@
         zh: "117/204 ZH 3"
         ja: "117/204 JA 3"
         culture_invariant_id: 553
-        sort_number: -584
+        sort_number: -585
       rarity: common
       illustrator: "Mila Useche"
     - set: fab
@@ -7771,7 +6962,7 @@
         zh: "116/204 ZH 9"
         ja: "116/204 JA 9"
         culture_invariant_id: 2052
-        sort_number: -2093
+        sort_number: -2099
       rarity: common
       illustrator: "Mila Useche"
   lore: 1
@@ -7812,13 +7003,6 @@
       name: "モアナ"
       title: "くじけない旅人"
       flavour: "火が降ろうと嵐が襲おうと、彼女は一心に目的地を目指す。"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -7835,7 +7019,7 @@
         zh: "118/204 ZH 3"
         ja: "118/204 JA 3"
         culture_invariant_id: 554
-        sort_number: -583
+        sort_number: -584
       rarity: common
       illustrator: "Denny Minonne"
   lore: 1
@@ -7890,7 +7074,7 @@
         zh: "119/204 ZH 3"
         ja: "119/204 JA 3"
         culture_invariant_id: 555
-        sort_number: -582
+        sort_number: -583
       rarity: common
       illustrator: "Aubrey Archer"
   lore: 2
@@ -7930,19 +7114,6 @@
       name: "ピーター・パン"
       title: "ネバーランドのヒーロー"
       flavour: "ピーターと一緒の時は、「計画」は「危険に飛び込む」という意味になりがちだ。"
-  abilities: 
-    - type: static
-      title: 
-        en: "rush"
-      text: 
-        en: "_(This character can challenge the turn they're played.)_"
-      ability: "rush"
-    - type: static
-      title: 
-        en: "Over Here, Tink"
-      text: 
-        en: "While you have a character named Tinker Bell in play, this character gets +2 {S}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -7958,7 +7129,7 @@
         zh: "120/204 ZH 3"
         ja: "120/204 JA 3"
         culture_invariant_id: 556
-        sort_number: -581
+        sort_number: -582
       rarity: rare
       illustrator: "Simone Buonfantino"
     - set: iti
@@ -7972,7 +7143,7 @@
         zh: "215/204 ZH 3"
         ja: "215/204 JA 3"
         culture_invariant_id: 651
-        sort_number: -486
+        sort_number: -487
       rarity: enchanted
       illustrator: "Kuya Jaypi"
   lore: 2
@@ -8012,25 +7183,6 @@
       name: "ピーター・パン"
       title: "海賊たちの天敵"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named peter pan.)_"
-      ability: "shift"
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static
-      title: 
-        en: "You're Next!"
-      text: 
-        en: "Whenever he challenges a Pirate character, this character takes no damage from the challenge."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8046,7 +7198,7 @@
         zh: "121/204 ZH 3"
         ja: "121/204 JA 3"
         culture_invariant_id: 557
-        sort_number: -580
+        sort_number: -581
       rarity: super_rare
       illustrator: "Randy Bishop"
   lore: 2
@@ -8087,12 +7239,6 @@
       name: "エリック王子"
       title: "腕利きの舵取り"
       flavour: "どこからともなく嵐が巻き起こり、エリックはロルカナの果てにある謎めいた建造物にたどり着く前に引き返さざるを得なくなった。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Surprise Maneuver"
-      text: 
-        en: " When this character is banished, you may banish chosen character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8108,7 +7254,7 @@
         zh: "122/204 ZH 3"
         ja: "122/204 JA 3"
         culture_invariant_id: 558
-        sort_number: -579
+        sort_number: -580
       rarity: uncommon
       illustrator: "Carmine Pucci"
   lore: 2
@@ -8150,13 +7296,6 @@
       name: "スクループ"
       title: "卑怯者"
       flavour: "決して背中を見せてはならない。\nできれば風上にも置かない方がいい。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Brute"
-      text: 
-        en: "While this character has damage, he gets +3 {S}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8172,7 +7311,7 @@
         zh: "123/204 ZH 3"
         ja: "123/204 JA 3"
         culture_invariant_id: 559
-        sort_number: -578
+        sort_number: -579
       rarity: rare
       illustrator: "Agnes Christianson"
     - set: fab
@@ -8186,7 +7325,7 @@
         zh: "105/204 ZH 9"
         ja: "105/204 JA 9"
         culture_invariant_id: 2041
-        sort_number: -2104
+        sort_number: -2110
       rarity: rare
       illustrator: "Oggy Christiansson"
   lore: 3
@@ -8243,7 +7382,7 @@
         zh: "124/204 ZH 3"
         ja: "124/204 JA 3"
         culture_invariant_id: 560
-        sort_number: -577
+        sort_number: -578
       rarity: uncommon
       illustrator: "Luca Pinelli"
   lore: 1
@@ -8283,19 +7422,6 @@
       name: "スライトリー"
       title: "ロスト・ボーイズ"
       flavour: "「海賊をだますなんて簡単さ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static
-      title: 
-        en: "The Fox"
-      text: 
-        en: "If you have a character named Peter Pan in play, you pay 1 {I} less to play this character."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8311,7 +7437,7 @@
         zh: "125/204 ZH 3"
         ja: "125/204 JA 3"
         culture_invariant_id: 561
-        sort_number: -576
+        sort_number: -577
       rarity: common
       illustrator: "Nicola Saviori"
     - set: iti
@@ -8366,13 +7492,6 @@
       name: "スティッチ"
       title: "小型ロケット"
       flavour: "「スティッチにパワードスーツをあげようなんて考えたのは誰なの？！」\n― ナニ"
-  abilities: 
-    - type: static
-      title: 
-        en: "rush"
-      text: 
-        en: "_(This character can challenge the turn they're played.)_"
-      ability: "rush"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8388,7 +7507,7 @@
         zh: "126/204 ZH 3"
         ja: "126/204 JA 3"
         culture_invariant_id: 562
-        sort_number: -575
+        sort_number: -576
       rarity: uncommon
       illustrator: "Denny Minonne"
   lore: 1
@@ -8428,13 +7547,6 @@
       name: "早撃ち"
       title: "的外れな狙撃手"
       flavour: "「いいかげんにしろ早撃ち！弓こっちさ向けるでねえっつぅに！」\n― ノッティンガムのシェリフ"
-  abilities: 
-    - type: static
-      title: 
-        en: "My Ol' Betsy"
-      text: 
-        en: "Your characters named Nutsy gain +1 {L}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8450,7 +7562,7 @@
         zh: "127/204 ZH 3"
         ja: "127/204 JA 3"
         culture_invariant_id: 563
-        sort_number: -574
+        sort_number: -575
       rarity: common
       illustrator: "Louis Jones"
   lore: 1
@@ -8505,7 +7617,7 @@
         zh: "128/204 ZH 3"
         ja: "128/204 JA 3"
         culture_invariant_id: 564
-        sort_number: -573
+        sort_number: -574
       rarity: uncommon
       illustrator: "Lisanne Koeteeuw"
   cost: 3
@@ -8539,12 +7651,6 @@
       name: "急降下爆撃"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Banish one of your characters with **Reckless** to banish chosen character with less {S} than that character."
-      text: 
-        en: "Banish one of your characters with **Reckless** to banish chosen character with less {S} than that character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8560,7 +7666,7 @@
         zh: "129/204 ZH 3"
         ja: "129/204 JA 3"
         culture_invariant_id: 565
-        sort_number: -572
+        sort_number: -573
       rarity: uncommon
       illustrator: "Michela Cacciatore"
   cost: 2
@@ -8596,12 +7702,6 @@
       name: "I've Got a Dream"
       title: ""
       flavour: "トールの夢はお花屋さん グンターはインテリアデザイナー"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "I've Got a Dream"
-      text: 
-        en: "Ready chosen character of yours at a location. They can't quest for the rest of this turn. Gain lore equal to that location {L}."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8617,7 +7717,7 @@
         zh: "130/204 ZH 3"
         ja: "130/204 JA 3"
         culture_invariant_id: 566
-        sort_number: -571
+        sort_number: -572
       rarity: rare
       illustrator: "Lisanne Koeteeuw"
   cost: 4
@@ -8651,12 +7751,6 @@
       name: "起き上がれ！今すぐ！"
       title: ""
       flavour: "「奴らを捕らえろ！逃げられる前に！」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "On Your Feet! Now!"
-      text: 
-        en: "Ready all your characters and deal 1 damage to each of them. They can't quest for the rest of this turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8672,7 +7766,7 @@
         zh: "131/204 ZH 3"
         ja: "131/204 JA 3"
         culture_invariant_id: 567
-        sort_number: -570
+        sort_number: -571
       rarity: common
       illustrator: "Alex Shin"
   cost: 1
@@ -8706,12 +7800,6 @@
       name: "海渡り"
       title: ""
       flavour: "「海を渡ってた！…なんでやめたの？」\n― モアナ"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Voyage"
-      text: 
-        en: "Move up to 2 characters of yours to the same location for free."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8727,7 +7815,7 @@
         zh: "132/204 ZH 3"
         ja: "132/204 JA 3"
         culture_invariant_id: 568
-        sort_number: -569
+        sort_number: -570
       rarity: rare
       illustrator: "Peter Brockhammer"
   cost: 3
@@ -8761,12 +7849,6 @@
       name: "マウイの釣り針"
       title: ""
       flavour: ""
-  abilities: 
-    - type: activated
-      title: 
-        en: "Shapeshift"
-      text: 
-        en: "{E}, 2 {I} – Choose one: Chosen character gains **Evasive** until the start of your next turn. Chosen character gets +3 {S} this turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8782,7 +7864,7 @@
         zh: "133/204 ZH 3"
         ja: "133/204 JA 3"
         culture_invariant_id: 569
-        sort_number: -568
+        sort_number: -569
       rarity: uncommon
       illustrator: "Adam Bunch"
   cost: 3
@@ -8816,12 +7898,6 @@
       name: "シュメールのタリスマン"
       title: ""
       flavour: "「闇より呼び出されし霊魂よ、この半円の前に現れたまえ」\n― リナ・セイブルウィング"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Source of Magic"
-      text: 
-        en: "During your turn, whenever one of your characters is banished in a challenge, you may draw a card."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8837,7 +7913,7 @@
         zh: "134/204 ZH 3"
         ja: "134/204 JA 3"
         culture_invariant_id: 570
-        sort_number: -567
+        sort_number: -568
       rarity: common
       illustrator: "Kaitlin Cuthbertson"
     - set: fab
@@ -8851,7 +7927,7 @@
         zh: "136/204 ZH 9"
         ja: "136/204 JA 9"
         culture_invariant_id: 2072
-        sort_number: -2073
+        sort_number: -2079
       rarity: common
       illustrator: "Kaitlin Cuthbertson"
   lore: 2
@@ -8904,7 +7980,7 @@
         zh: "135/204 ZH 3"
         ja: "135/204 JA 3"
         culture_invariant_id: 571
-        sort_number: -566
+        sort_number: -567
       rarity: uncommon
       illustrator: "Nicolas Ky"
     - set: p1
@@ -8918,7 +7994,7 @@
         zh: "27/P1 ZH 3"
         ja: "27/P1 JA 3"
         culture_invariant_id: 685
-        sort_number: -476
+        sort_number: -477
       rarity: special
       illustrator: "Nicolas Ky"
   lore: 0
@@ -8955,19 +8031,6 @@
       name: "ジョリーロジャー号"
       title: "フック船長の船"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "LOOK ALIVE, YOU SWABS!"
-      text: 
-        en: "Characters gain **Rush** while here. _(They can challenge the turn they're played.)_"
-      ability: "gain-ability"
-    - type: static
-      title: 
-        en: "ALL HANDS ON DECK!"
-      text: 
-        en: "Your Pirate characters may move here for free."
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -8983,7 +8046,7 @@
         zh: "136/204 ZH 3"
         ja: "136/204 JA 3"
         culture_invariant_id: 572
-        sort_number: -565
+        sort_number: -566
       rarity: rare
       illustrator: "Wietse Treurniet"
     - set: iti
@@ -8997,7 +8060,7 @@
         zh: "216/204 ZH 3"
         ja: "216/204 JA 3"
         culture_invariant_id: 652
-        sort_number: -485
+        sort_number: -486
       rarity: enchanted
       illustrator: "Matt Gaser"
   lore: 2
@@ -9034,19 +8097,6 @@
       name: "RLSレガシー号"
       title: "ソーラーガレオン"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "HEAVE TOGETHER NOW"
-      text: 
-        en: "If you have a character here, you pay 2 {I} less to move a character of yours here."
-      ability: "effects"
-    - type: static
-      title: 
-        en: "This is Our Ship"
-      text: 
-        en: "Characters gain **Evasive** while here. _(Only characters with Evasive can challenge them.)_"
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -9062,7 +8112,7 @@
         zh: "137/204 ZH 3"
         ja: "137/204 JA 3"
         culture_invariant_id: 573
-        sort_number: -564
+        sort_number: -565
       rarity: rare
       illustrator: "Richelle Canto"
   lore: 2
@@ -9102,18 +8152,6 @@
       name: "オードリー・ラミレズ"
       title: "機関士"
       flavour: "「そもそもコレ、どうやって壊すのさ？」"
-  abilities: 
-    - type: static
-      title: 
-        en: "ward"
-      text: 
-        en: "_(Opponents can't choose this character except to challenge.)_"
-      ability: "ward"
-    - type: static-triggered
-      title: 
-        en: "SPARE PARTS"
-      text: 
-        en: "Whenever this character quests, ready one of your items."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -9129,7 +8167,7 @@
         zh: "138/204 ZH 3"
         ja: "138/204 JA 3"
         culture_invariant_id: 574
-        sort_number: -563
+        sort_number: -564
       rarity: common
       illustrator: "Amber Kommavongsa"
   lore: 1
@@ -9170,13 +8208,6 @@
       name: "アメリア船長"
       title: "総指揮官"
       flavour: "「水平線上に奇妙な構造物を目視。操舵手、取舵一杯！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "Discipline"
-      text: 
-        en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -9192,7 +8223,7 @@
         zh: "139/204 ZH 3"
         ja: "139/204 JA 3"
         culture_invariant_id: 575
-        sort_number: -562
+        sort_number: -563
       rarity: uncommon
       illustrator: "Federico M. Cugliari"
     - set: fab
@@ -9206,7 +8237,7 @@
         zh: "139/204 ZH 9"
         ja: "139/204 JA 9"
         culture_invariant_id: 2075
-        sort_number: -2070
+        sort_number: -2076
       rarity: uncommon
       illustrator: "Federico Maria Cugliari"
   lore: 2
@@ -9246,13 +8277,6 @@
       name: "デューイ"
       title: "出たがり甥っ子"
       flavour: "「やった！見つけたぞ！僕はデューイ活躍だ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -9269,7 +8293,7 @@
         zh: "140/204 ZH 3"
         ja: "140/204 JA 3"
         culture_invariant_id: 576
-        sort_number: -561
+        sort_number: -562
       rarity: uncommon
       illustrator: "Federico M. Cugliari"
   lore: 2
@@ -9309,13 +8333,6 @@
       name: "フリントハート・グロムゴールド"
       title: "不正な独り者"
       flavour: "「このフリントハート・グロムゴールドに指図はさせん！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "THEY'LL NEVER SEE IT COMING!"
-      text: 
-        en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -9331,7 +8348,7 @@
         zh: "141/204 ZH 3"
         ja: "141/204 JA 3"
         culture_invariant_id: 577
-        sort_number: -560
+        sort_number: -561
       rarity: uncommon
       illustrator: "Ally Zermeno"
   lore: 2
@@ -9386,7 +8403,7 @@
         zh: "142/204 ZH 3"
         ja: "142/204 JA 3"
         culture_invariant_id: 578
-        sort_number: -559
+        sort_number: -560
       rarity: common
       illustrator: "Cécile Carre / Anna Stosik"
   lore: 1
@@ -9426,12 +8443,6 @@
       name: "タラおばあちゃん"
       title: "昔話の守り手"
       flavour: "心して耳を傾ければ、ご先祖様たちが導いてくれるのさ。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "THERE WAS ONLY OCEAN"
-      text: 
-        en: "When you play this character, look at the top 2 cards of your deck. You may add one into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -9447,7 +8458,7 @@
         zh: "143/204 ZH 3"
         ja: "143/204 JA 3"
         culture_invariant_id: 579
-        sort_number: -558
+        sort_number: -559
       rarity: legendary
       illustrator: "Jennifer Park / Ellie Horie"
     - set: iti
@@ -9461,7 +8472,7 @@
         zh: "217/204 ZH 3"
         ja: "217/204 JA 3"
         culture_invariant_id: 653
-        sort_number: -484
+        sort_number: -485
       rarity: enchanted
       illustrator: "Alan Batson"
   lore: 2
@@ -9501,18 +8512,6 @@
       name: "タラおばあちゃん"
       title: "海の精霊"
       flavour: "彼女はいつもきみのそばにいるんだ、どんなに遠くへ旅しようとも。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 5"
-      text: 
-        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named gramma tala.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "DO YOU KNOW WHO YOU ARE?"
-      text: 
-        en: "Whenever a card is put into your inkwell, gain 1 lore."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -9528,7 +8527,7 @@
         zh: "144/204 ZH 3"
         ja: "144/204 JA 3"
         culture_invariant_id: 580
-        sort_number: -557
+        sort_number: -558
       rarity: rare
       illustrator: "Mario Oscar Gabriele"
   lore: 1
@@ -9569,12 +8568,6 @@
       name: "ジャイロ・ギアルーズ"
       title: "ガジェット作りの天才"
       flavour: "「今回は電球ロボットもあんまり暴走しないですむかも…」"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Follow the Twists of my Genius Brain"
-      text: 
-        en: "{E} - Put an item card from your discard to the top of your deck."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -9590,7 +8583,7 @@
         zh: "145/204 ZH 3"
         ja: "145/204 JA 3"
         culture_invariant_id: 581
-        sort_number: -556
+        sort_number: -557
       rarity: rare
       illustrator: "Federico M. Cugliari"
     - set: fab
@@ -9604,7 +8597,7 @@
         zh: "138/204 ZH 9"
         ja: "138/204 JA 9"
         culture_invariant_id: 2074
-        sort_number: -2071
+        sort_number: -2077
       rarity: rare
       illustrator: "Federico Maria Cugliari"
   lore: 1
@@ -9644,18 +8637,6 @@
       name: "ヒューイ"
       title: "しっかり甥っ子"
       flavour: "「おっきなクリスタルの欠片みたい！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
-    - type: static-triggered
-      title: 
-        en: "Three Nephews"
-      text: 
-        en: "Whenever this character quests, if you have characters named Dewey and Louie in play, you may draw 3 cards."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -9672,7 +8653,7 @@
         zh: "146/204 ZH 3"
         ja: "146/204 JA 3"
         culture_invariant_id: 582
-        sort_number: -555
+        sort_number: -556
       rarity: common
       illustrator: "Kenneth Anderson"
   lore: 3
@@ -9728,7 +8709,7 @@
         zh: "147/204 ZH 3"
         ja: "147/204 JA 3"
         culture_invariant_id: 583
-        sort_number: -554
+        sort_number: -555
       rarity: uncommon
       illustrator: "Roger Pérez"
   lore: 3
@@ -9768,19 +8749,6 @@
       name: "キット・クラウドキッカー"
       title: "航空士"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 3"
-      text: 
-        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named kit cloudkicker.)_"
-      ability: "shift"
-    - type: static
-      title: 
-        en: "ward"
-      text: 
-        en: "_(Opponents can't choose this character except to challenge.)_"
-      ability: "ward"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -9796,7 +8764,7 @@
         zh: "148/204 ZH 3"
         ja: "148/204 JA 3"
         culture_invariant_id: 584
-        sort_number: -553
+        sort_number: -554
       rarity: common
       illustrator: "Valentin Palombo"
   lore: 1
@@ -9836,13 +8804,6 @@
       name: "キット・クラウドキッカー"
       title: "活発なクマの子"
       flavour: "愛用のスカイボードを取り戻したことに興奮して、彼はインクランドに飛び立った。"
-  abilities: 
-    - type: static
-      title: 
-        en: "ward"
-      text: 
-        en: "_(Opponents can't choose this character except to challenge.)_"
-      ability: "ward"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -9858,7 +8819,7 @@
         zh: "149/204 ZH 3"
         ja: "149/204 JA 3"
         culture_invariant_id: 585
-        sort_number: -552
+        sort_number: -553
       rarity: common
       illustrator: "Federico M. Cugliari"
     - set: fab
@@ -9872,7 +8833,7 @@
         zh: "140/204 ZH 9"
         ja: "140/204 JA 9"
         culture_invariant_id: 2076
-        sort_number: -2069
+        sort_number: -2075
       rarity: common
       illustrator: "Federico Maria Cugliari"
   lore: 2
@@ -9912,13 +8873,6 @@
       name: "ルーイ"
       title: "ちゃっかり甥っ子"
       flavour: "「最後の一つ、みつけた！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -9935,7 +8889,7 @@
         zh: "150/204 ZH 3"
         ja: "150/204 JA 3"
         culture_invariant_id: 586
-        sort_number: -551
+        sort_number: -552
       rarity: common
       illustrator: "Jenna Gray"
     - set: fab
@@ -9949,7 +8903,7 @@
         zh: "158/204 ZH 9"
         ja: "158/204 JA 9"
         culture_invariant_id: 2094
-        sort_number: -2051
+        sort_number: -2057
       rarity: common
       illustrator: "Jenna Gray"
   lore: 2
@@ -9989,12 +8943,6 @@
       name: "マリアン姫"
       title: "夢見るお年頃"
       flavour: "彼女はあらゆる場面をより美しくしてくれる。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Elegant and Noble lady"
-      text: 
-        en: "When you play this character, chosen character gets -2 {S} for this turn."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -10011,7 +8959,7 @@
         zh: "151/204 ZH 3"
         ja: "151/204 JA 3"
         culture_invariant_id: 587
-        sort_number: -550
+        sort_number: -551
       rarity: rare
       illustrator: "Rogie Custodio / Erin Shin"
     - set: fab
@@ -10025,7 +8973,7 @@
         zh: "152/204 ZH 9"
         ja: "152/204 JA 9"
         culture_invariant_id: 2088
-        sort_number: -2057
+        sort_number: -2063
       rarity: rare
       illustrator: "Rogie Custodio / Erin Shin"
   lore: 1
@@ -10065,12 +9013,6 @@
       name: "ママ・オーディ"
       title: "神秘の専門家"
       flavour: "「もう一度考えて、ホントの願いを見つけたら…」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "THIS GOING TO BE GOOD"
-      text: 
-        en: "Whenever you play a song, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -10087,7 +9029,7 @@
         zh: "152/204 ZH 3"
         ja: "152/204 JA 3"
         culture_invariant_id: 588
-        sort_number: -549
+        sort_number: -550
       rarity: common
       illustrator: "Rianti Hidayat"
   lore: 1
@@ -10142,7 +9084,7 @@
         zh: "153/204 ZH 3"
         ja: "153/204 JA 3"
         culture_invariant_id: 589
-        sort_number: -548
+        sort_number: -549
       rarity: common
       illustrator: "Hadjie Joos"
   lore: 1
@@ -10182,12 +9124,6 @@
       name: "ルーファス"
       title: "”子供の家”のネコ"
       flavour: "「希望とは、遠くに見える青い鳥のようなものだ」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "A little too old to hunt mice"
-      text: 
-        en: "When this character is banished, you may put this card into your inkwell facedown and exerted."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -10203,7 +9139,7 @@
         zh: "154/204 ZH 3"
         ja: "154/204 JA 3"
         culture_invariant_id: 590
-        sort_number: -547
+        sort_number: -548
       rarity: super_rare
       illustrator: "Grace Tran"
     - set: iti
@@ -10217,7 +9153,7 @@
         zh: "218/204 ZH 3"
         ja: "218/204 JA 3"
         culture_invariant_id: 654
-        sort_number: -483
+        sort_number: -484
       rarity: enchanted
       illustrator: "Gonzalo Kenny"
   lore: 1
@@ -10257,18 +9193,6 @@
       name: "スクルージ・マクダック"
       title: "世界一の金持ちアヒル"
       flavour: "彼はどこでだろうと金を稼げるんだ。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "I Didn't Get Rich By Being Stupid"
-      text: 
-        en: "During your turn, whenever this character banishes another character in a challenge, you may play an item for free."
-    - type: static
-      title: 
-        en: "I'M GOING HOME!"
-      text: 
-        en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -10284,7 +9208,7 @@
         zh: "155/204 ZH 3"
         ja: "155/204 JA 3"
         culture_invariant_id: 591
-        sort_number: -546
+        sort_number: -547
       rarity: uncommon
       illustrator: "Stefano Zanchi"
     - set: p1
@@ -10298,7 +9222,7 @@
         zh: "39/P1 ZH 3"
         ja: "39/P1 JA 3"
         culture_invariant_id: 955
-        sort_number: -472
+        sort_number: -474
       rarity: special
       illustrator: "Stefano Zanchi"
   lore: 1
@@ -10338,12 +9262,6 @@
       name: "スクルージ・マクダック"
       title: "金持ち伯父さん"
       flavour: "「見知らぬ新世界は、見知らぬ新財産を築くのに最適な場所じゃ！」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Treasure Finder"
-      text: 
-        en: "You pay 1 {I} less for the next item you play this turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -10359,7 +9277,7 @@
         zh: "156/204 ZH 3"
         ja: "156/204 JA 3"
         culture_invariant_id: 592
-        sort_number: -545
+        sort_number: -546
       rarity: uncommon
       illustrator: "Jennifer Gheduzzi / Livio Cacciatore"
     - set: fab
@@ -10373,7 +9291,7 @@
         zh: "149/204 ZH 9"
         ja: "149/204 JA 9"
         culture_invariant_id: 2085
-        sort_number: -2060
+        sort_number: -2066
       rarity: uncommon
       illustrator: "Jennifer Gheduzzi / Livio Cacciatore"
     - set: fab
@@ -10387,7 +9305,7 @@
         zh: "219/204 ZH 9"
         ja: "219/204 JA 9"
         culture_invariant_id: 2173
-        sort_number: -1990
+        sort_number: -1996
       rarity: epic
       illustrator: "Jennifer Gheduzzi"
   lore: 1
@@ -10429,12 +9347,6 @@
       name: "女王"
       title: "鏡の追求者"
       flavour: "女王の質問は常にひとつ、だが答えはいつも満足できるとは限らない。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Calculating and Vain"
-      text: 
-        en: "Whenever this character quests, you may look at the top 3 cards of your deck and put them back in any order."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -10451,7 +9363,7 @@
         zh: "157/204 ZH 3"
         ja: "157/204 JA 3"
         culture_invariant_id: 593
-        sort_number: -544
+        sort_number: -545
       rarity: super_rare
       illustrator: "Grace Tran"
   lore: 2
@@ -10492,13 +9404,6 @@
       name: "ティンカー・ベル"
       title: "とっても賢い妖精"
       flavour: "彼女は可能性の世界に生きている。"
-  abilities: 
-    - type: static
-      title: 
-        en: "I can use that"
-      text: 
-        en: "Whenever one of your items is banished, you may put that card into your inkwell facedown and exerted."
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -10514,7 +9419,7 @@
         zh: "158/204 ZH 3"
         ja: "158/204 JA 3"
         culture_invariant_id: 594
-        sort_number: -543
+        sort_number: -544
       rarity: super_rare
       illustrator: "Julie Vu"
   lore: 2
@@ -10554,19 +9459,6 @@
       name: "ウェンディ・ダーリング"
       title: "ピーター・パン博士"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "ward"
-      text: 
-        en: "_(Opponents can't choose this character except to challenge.)_"
-      ability: "ward"
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -10582,7 +9474,7 @@
         zh: "159/204 ZH 3"
         ja: "159/204 JA 3"
         culture_invariant_id: 595
-        sort_number: -542
+        sort_number: -543
       rarity: common
       illustrator: "Giuseppe di Maio"
     - set: win
@@ -10596,7 +9488,7 @@
         zh: "164/204 ZH 11"
         ja: "164/204 JA 11"
         culture_invariant_id: 2627
-        sort_number: -2550
+        sort_number: -2558
       rarity: common
       illustrator: "Andrea Parisi"
   cost: 2
@@ -10630,12 +9522,6 @@
       name: "注意そらし"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Distract"
-      text: 
-        en: "Chosen character gets -2 {S} this turn. Draw a card."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -10651,7 +9537,7 @@
         zh: "160/204 ZH 3"
         ja: "160/204 JA 3"
         culture_invariant_id: 596
-        sort_number: -541
+        sort_number: -542
       rarity: rare
       illustrator: "Emily Abeydeera"
   cost: 5
@@ -10687,12 +9573,6 @@
       name: "Friend Like Me"
       title: ""
       flavour: "すごいパワー 赤のコーナー そうさパンチはバクダーン！"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Friend Like Me"
-      text: 
-        en: "Each player puts the top 3 cards of their deck into their inkwell facedown and exerted."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -10708,7 +9588,7 @@
         zh: "161/204 ZH 3"
         ja: "161/204 JA 3"
         culture_invariant_id: 597
-        sort_number: -540
+        sort_number: -541
       rarity: uncommon
       illustrator: "Anna Rud / Anna Stosik"
     - set: p1
@@ -10722,7 +9602,7 @@
         zh: "28/P1 ZH 3"
         ja: "28/P1 JA 3"
         culture_invariant_id: 686
-        sort_number: -475
+        sort_number: -476
       rarity: special
       illustrator: "Anna Rud / Anna Stosik"
   cost: 4
@@ -10758,12 +9638,6 @@
       name: "How Far I'll Go"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "How Far I'll Go"
-      text: 
-        en: "Look at the top 2 cards of your deck. Put one into your hand and the other into your inkwell facedown and exerted."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -10779,7 +9653,7 @@
         zh: "162/204 ZH 3"
         ja: "162/204 JA 3"
         culture_invariant_id: 598
-        sort_number: -539
+        sort_number: -540
       rarity: common
       illustrator: "Denny Minonne"
   cost: 2
@@ -10813,12 +9687,6 @@
       name: "修理"
       title: ""
       flavour: "「ここに工場開こうかって考えてんだ。あんたどう思う？」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Repair"
-      text: 
-        en: "Remove up to 3 damage from one of your locations or characters."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -10834,7 +9702,7 @@
         zh: "163/204 ZH 3"
         ja: "163/204 JA 3"
         culture_invariant_id: 599
-        sort_number: -538
+        sort_number: -539
       rarity: rare
       illustrator: "Mario Oscar Gabriele"
     - set: fab
@@ -10848,7 +9716,7 @@
         zh: "167/204 ZH 9"
         ja: "167/204 JA 9"
         culture_invariant_id: 2103
-        sort_number: -2042
+        sort_number: -2048
       rarity: uncommon
       illustrator: "Mario Oscar Gabriele"
   cost: 2
@@ -10882,12 +9750,6 @@
       name: "オーレリアン・ジャイロセンサー"
       title: ""
       flavour: "「こいつは失われたロアの在処を指し示してくれる。ただし足下は自分で注意しろ」\n― イルミニアのヴェンチュロ"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Seeking Knowledge"
-      text: 
-        en: "Whenever one of your characters quests, you may look at the top card of your deck. Put it on either the top or the bottom of your deck."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -10904,7 +9766,7 @@
         zh: "164/204 ZH 3"
         ja: "164/204 JA 3"
         culture_invariant_id: 600
-        sort_number: -537
+        sort_number: -538
       rarity: rare
       illustrator: "Kamil Murzyn"
     - set: fab
@@ -10918,7 +9780,7 @@
         zh: "168/204 ZH 9"
         ja: "168/204 JA 9"
         culture_invariant_id: 2104
-        sort_number: -2041
+        sort_number: -2047
       rarity: rare
       illustrator: "Kamil Murzyn"
   cost: 3
@@ -10952,12 +9814,6 @@
       name: "テ・フィティの心"
       title: ""
       flavour: "荒れ狂う内なる嵐をなだめるには、純粋な心が必要だ。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Create Life"
-      text: 
-        en: "{E}, 2 {I} – Put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -10974,7 +9830,7 @@
         zh: "165/204 ZH 3"
         ja: "165/204 JA 3"
         culture_invariant_id: 601
-        sort_number: -536
+        sort_number: -537
       rarity: legendary
       illustrator: "Leonardo Giammichele"
   cost: 7
@@ -11008,12 +9864,6 @@
       name: "ラッキーダイム"
       title: ""
       flavour: "このたった1枚のありふれたコインが、スクルージの人生を大きく変えた。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Number one"
-      text: 
-        en: "{E}, 2 {I} − Choose a character of yours and gain lore equal to their {L}."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -11029,7 +9879,7 @@
         zh: "166/204 ZH 3"
         ja: "166/204 JA 3"
         culture_invariant_id: 602
-        sort_number: -535
+        sort_number: -536
       rarity: uncommon
       illustrator: "Gabriel Angelo"
   cost: 2
@@ -11063,12 +9913,6 @@
       name: "スクルージのシルクハット"
       title: ""
       flavour: "彼の苦労を知る、愛用の知る苦ハット。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "PENNY PINCHER"
-      text: 
-        en: "{E} – Choose one: You pay 1 {I} less to play your next action this turn. You pay 1 {I} less to play your next item this turn. You pay 1 {I} less to play your next location this turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -11084,7 +9928,7 @@
         zh: "167/204 ZH 3"
         ja: "167/204 JA 3"
         culture_invariant_id: 603
-        sort_number: -534
+        sort_number: -535
       rarity: common
       illustrator: "Nicolas Ky"
   cost: 4
@@ -11118,19 +9962,6 @@
       name: "金庫の扉"
       title: ""
       flavour: "<この金庫>を知るのはスクルージだけ。これからもずっと。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Sealed Away"
-      text: 
-        en: "Your locations and character at locations gain **Resist** +1"
-      ability: "gain-ability"
-    - type: static
-      title: 
-        en: "Sealed Away"
-      text: 
-        en: "Your locations and character at locations gain **Resist** +1"
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -11146,7 +9977,7 @@
         zh: "168/204 ZH 3"
         ja: "168/204 JA 3"
         culture_invariant_id: 604
-        sort_number: -533
+        sort_number: -534
       rarity: rare
       illustrator: "Alex Shin"
     - set: iti
@@ -11160,7 +9991,7 @@
         zh: "219/204 ZH 3"
         ja: "219/204 JA 3"
         culture_invariant_id: 655
-        sort_number: -482
+        sort_number: -483
       rarity: enchanted
       illustrator: "Pablo J. Rivera"
   lore: 0
@@ -11197,13 +10028,6 @@
       name: "ベルの家"
       title: "モーリスの工房"
       flavour: "ロルカナの最も重要な道具の一部が、ここで造られている。"
-  abilities: 
-    - type: static
-      title: 
-        en: "LABORATORY"
-      text: 
-        en: " If you have a character here, you pay 1 {I} less to play items."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -11219,7 +10043,7 @@
         zh: "169/204 ZH 3"
         ja: "169/204 JA 3"
         culture_invariant_id: 605
-        sort_number: -532
+        sort_number: -533
       rarity: common
       illustrator: "Alex Accorsi"
   lore: 2
@@ -11271,7 +10095,7 @@
         zh: "170/204 ZH 3"
         ja: "170/204 JA 3"
         culture_invariant_id: 606
-        sort_number: -531
+        sort_number: -532
       rarity: uncommon
       illustrator: "Etienne Savoie"
     - set: fab
@@ -11285,7 +10109,7 @@
         zh: "170/204 ZH 9"
         ja: "170/204 JA 9"
         culture_invariant_id: 2106
-        sort_number: -2039
+        sort_number: -2045
       rarity: uncommon
       illustrator: "Etienne Savoie"
   lore: 1
@@ -11322,13 +10146,6 @@
       name: "モトゥヌイ"
       title: "楽園の島"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Reincarnation"
-      text: 
-        en: "Whenever a character is banished while here, you may put that card into your inkwell facedown and exerted."
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -11345,7 +10162,7 @@
         zh: "171/204 ZH 3"
         ja: "171/204 JA 3"
         culture_invariant_id: 607
-        sort_number: -530
+        sort_number: -531
       rarity: common
       illustrator: "Eri Welli"
   lore: 2
@@ -11401,7 +10218,7 @@
         zh: "172/204 ZH 3"
         ja: "172/204 JA 3"
         culture_invariant_id: 608
-        sort_number: -529
+        sort_number: -530
       rarity: common
       illustrator: "Mariana Moreno"
     - set: fab
@@ -11415,7 +10232,7 @@
         zh: "183/204 ZH 9"
         ja: "183/204 JA 9"
         culture_invariant_id: 2119
-        sort_number: -2026
+        sort_number: -2032
       rarity: common
       illustrator: "Mariana Moreno"
   lore: 1
@@ -11455,13 +10272,6 @@
       name: "イーヨー"
       title: "ぎゅうぎゅう詰めのロバ"
       flavour: "「ぼくの通せんぼじゃあまり役に立たないだろうけど、やってみる」"
-  abilities: 
-    - type: static
-      title: 
-        en: "resist"
-      text: 
-        en: "**Resist** +1 _(Damage dealt to this character is reduced by 1.)_"
-      ability: "resist"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -11478,7 +10288,7 @@
         zh: "173/204 ZH 3"
         ja: "173/204 JA 3"
         culture_invariant_id: 609
-        sort_number: -528
+        sort_number: -529
       rarity: rare
       illustrator: "Giuseppe di Maio"
   lore: 1
@@ -11518,23 +10328,6 @@
       name: "巨人のグスタフ"
       title: "王国への脅威"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "All Tied Up"
-      text: 
-        en: "This character enters play exerted and can't ready at the start of your turn."
-      ability: "effects"
-    - type: resolution
-      title: 
-        en: "All Tied Up"
-      text: 
-        en: "This card enters play exerted."
-    - type: static-triggered
-      title: 
-        en: "Break Free"
-      text: 
-        en: "During your turn, whenever one of your other characters banishes another character in a challenge, you may ready this character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -11550,7 +10343,7 @@
         zh: "174/204 ZH 3"
         ja: "174/204 JA 3"
         culture_invariant_id: 610
-        sort_number: -527
+        sort_number: -528
       rarity: rare
       illustrator: "Brian Kesinger"
   lore: 2
@@ -11591,12 +10384,6 @@
       name: "ハデス"
       title: "怒髪天の支配者"
       flavour: "「友よ！タイタン族よ！牢獄に押し込められて気の毒にな。一体誰の仕業だ？」"
-  abilities: 
-    - type: activated
-      title: 
-        en: "CALLING THE TITANS"
-      text: 
-        en: "{E} – Ready your Titan characters."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -11612,7 +10399,7 @@
         zh: "175/204 ZH 3"
         ja: "175/204 JA 3"
         culture_invariant_id: 611
-        sort_number: -526
+        sort_number: -527
       rarity: common
       illustrator: "Kasia Brzezinska"
   lore: 1
@@ -11652,13 +10439,6 @@
       name: "ヘルガ・シンクレア"
       title: "司令官の右腕"
       flavour: "「今のは命令よ。早くして。さあ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "challenger"
-      text: 
-        en: "**Challenger** +2 (_When challenging, this character get +23 {S}._)"
-      ability: "challenger"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -11674,7 +10454,7 @@
         zh: "176/204 ZH 3"
         ja: "176/204 JA 3"
         culture_invariant_id: 612
-        sort_number: -525
+        sort_number: -526
       rarity: rare
       illustrator: "Kumatori Gaku"
     - set: p1
@@ -11688,7 +10468,7 @@
         zh: "29/P1 ZH 3"
         ja: "29/P1 JA 3"
         culture_invariant_id: 687
-        sort_number: -474
+        sort_number: -475
       rarity: special
       illustrator: "Kumatori Gaku"
     - set: fab
@@ -11702,7 +10482,7 @@
         zh: "192/204 ZH 9"
         ja: "192/204 JA 9"
         culture_invariant_id: 2128
-        sort_number: -2017
+        sort_number: -2023
       rarity: rare
       illustrator: "Gaku Kumatori"
   lore: 1
@@ -11745,19 +10525,6 @@
       name: "ジョン・シルバー"
       title: "強欲な宝探し屋"
       flavour: "「俺はな、ゲームって奴が得意じゃなかった。だが負けるのは嫌れえだ」"
-  abilities: 
-    - type: static
-      title: 
-        en: "CHART YOUR OWN COURSE"
-      text: 
-        en: "**CHART YOUR OWN COURSE** For each location you have in play, this character gets +1 {L}."
-      ability: "effects"
-    - type: static
-      title: 
-        en: "resist"
-      text: 
-        en: "**Resist** +[object Object] _(Damage dealt to this character is reduced by [object Object].)_"
-      ability: "resist"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -11774,7 +10541,7 @@
         zh: "177/204 ZH 3"
         ja: "177/204 JA 3"
         culture_invariant_id: 613
-        sort_number: -524
+        sort_number: -525
       rarity: common
       illustrator: "Carlos Ruiz"
   lore: 1
@@ -11815,13 +10582,6 @@
       name: "キーダ"
       title: "王族の戦士"
       flavour: "奇妙なものを多く見てきた彼女だが、こんなものは初めてだった。"
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -11837,7 +10597,7 @@
         zh: "178/204 ZH 3"
         ja: "178/204 JA 3"
         culture_invariant_id: 614
-        sort_number: -523
+        sort_number: -524
       rarity: super_rare
       illustrator: "Filipe Laurentino"
   lore: 2
@@ -11877,25 +10637,6 @@
       name: "リトル・ジョン"
       title: "とんちに長けた無法者"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named little john.)_"
-      ability: "shift"
-    - type: static
-      title: 
-        en: "OKAY, BIG SHOT"
-      text: 
-        en: "While this character is exerted, your characters with **Bodyguard** gain **Resist** +1 and get +1 {L}. _(Damage dealt to them is reduced by 1.)_"
-      ability: "gain-ability"
-    - type: static
-      title: 
-        en: "OKAY, BIG SHOT"
-      text: 
-        en: "While this character is exerted, your characters with **Bodyguard** gain **Resist** +1 and get +1 {L}. _(Damage dealt to them is reduced by 1.)_"
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -11911,7 +10652,7 @@
         zh: "179/204 ZH 3"
         ja: "179/204 JA 3"
         culture_invariant_id: 615
-        sort_number: -522
+        sort_number: -523
       rarity: uncommon
       illustrator: "Jacob McAlister"
   lore: 1
@@ -11951,19 +10692,6 @@
       name: "リトル・ジョン"
       title: "ロビンの相棒"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
-    - type: static
-      title: 
-        en: "Disguised"
-      text: 
-        en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -11979,7 +10707,7 @@
         zh: "180/204 ZH 3"
         ja: "180/204 JA 3"
         culture_invariant_id: 616
-        sort_number: -521
+        sort_number: -522
       rarity: uncommon
       illustrator: "Alice Pisoni"
   lore: 1
@@ -12019,18 +10747,6 @@
       name: "リトス"
       title: "ロックタイタン"
       flavour: "「ゼウスをつぶせ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "resist"
-      text: 
-        en: "**Resist** +2 _(Damage dealt to this character is reduced by 2.)_"
-      ability: "resist"
-    - type: activated
-      title: 
-        en: "STONE SKIN"
-      text: 
-        en: "{E} − Chosen character gains **Resist** +2 this turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -12046,7 +10762,7 @@
         zh: "181/204 ZH 3"
         ja: "181/204 JA 3"
         culture_invariant_id: 617
-        sort_number: -520
+        sort_number: -521
       rarity: common
       illustrator: "Louis Jones"
   lore: 1
@@ -12086,13 +10802,6 @@
       name: "ミッキーマウス"
       title: "勇敢な探検家"
       flavour: "ミッキーには魔法使いの帽子のありかについての心当たりはあったが、それが守られていることは予想していなかった。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Let's Take a Look"
-      text: 
-        en: "This character gets +1 {S} for each location you have in play."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -12108,7 +10817,7 @@
         zh: "182/204 ZH 3"
         ja: "182/204 JA 3"
         culture_invariant_id: 618
-        sort_number: -519
+        sort_number: -520
       rarity: legendary
       illustrator: "Gonzalo Kenny"
     - set: iti
@@ -12122,7 +10831,7 @@
         zh: "220/204 ZH 3"
         ja: "220/204 JA 3"
         culture_invariant_id: 656
-        sort_number: -481
+        sort_number: -482
       rarity: enchanted
       illustrator: "Luigi Aimé"
     - set: fab
@@ -12136,7 +10845,7 @@
         zh: "172/204 ZH 9"
         ja: "172/204 JA 9"
         culture_invariant_id: 2108
-        sort_number: -2037
+        sort_number: -2043
       rarity: super_rare
       illustrator: "Gonzalo Kenny"
   lore: 1
@@ -12176,12 +10885,6 @@
       name: "ミッキーマウス"
       title: "ラッパ吹き"
       flavour: ""
-  abilities: 
-    - type: activated
-      title: 
-        en: "Bugle Call"
-      text: 
-        en: "{E}, 2 {I} - Play a character for free."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -12198,7 +10901,7 @@
         zh: "183/204 ZH 3"
         ja: "183/204 JA 3"
         culture_invariant_id: 619
-        sort_number: -518
+        sort_number: -519
       rarity: common
       illustrator: "Grace Tran"
   lore: 1
@@ -12238,13 +10941,6 @@
       name: "ミニーマウス"
       title: "ファンキーな洞窟探検家"
       flavour: "洞いう状況になっても窟しない"
-  abilities: 
-    - type: static
-      title: 
-        en: "Journey"
-      text: 
-        en: "While this character is at a location, she gets +2 {S}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -12260,7 +10956,7 @@
         zh: "184/204 ZH 3"
         ja: "184/204 JA 3"
         culture_invariant_id: 620
-        sort_number: -517
+        sort_number: -518
       rarity: uncommon
       illustrator: "Ally Zermeno"
   lore: 2
@@ -12301,12 +10997,6 @@
       name: "ミスター・スミー"
       title: "マヌケなお仲間"
       flavour: "「あいつらを捕まえ…あイタ！」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "**OH DEAR, DEAR, DEAR"
-      text: 
-        en: "At the end of your turn, if this character is exerted and you do not have a Captain character in play, deal 1 damage to this character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -12322,7 +11012,7 @@
         zh: "185/204 ZH 3"
         ja: "185/204 JA 3"
         culture_invariant_id: 621
-        sort_number: -516
+        sort_number: -517
       rarity: rare
       illustrator: "Evana Kisa / Livio Cacciatore"
   lore: 3
@@ -12378,7 +11068,7 @@
         zh: "186/204 ZH 3"
         ja: "186/204 JA 3"
         culture_invariant_id: 622
-        sort_number: -515
+        sort_number: -516
       rarity: uncommon
       illustrator: "Brian Weisz"
   lore: 2
@@ -12433,7 +11123,7 @@
         zh: "187/204 ZH 3"
         ja: "187/204 JA 3"
         culture_invariant_id: 623
-        sort_number: -514
+        sort_number: -515
       rarity: rare
       illustrator: "Eva Widermann"
   lore: 1
@@ -12473,12 +11163,6 @@
       name: "パイロス"
       title: "ラーバタイタン"
       flavour: "「ゼウスをとかせ！」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Eruption"
-      text: 
-        en: "During your turn, whenever this character banishes another character in a challenge, you may ready chosen character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -12494,7 +11178,7 @@
         zh: "188/204 ZH 3"
         ja: "188/204 JA 3"
         culture_invariant_id: 624
-        sort_number: -513
+        sort_number: -514
       rarity: common
       illustrator: "Kuya Jaypi"
   lore: 1
@@ -12535,13 +11219,6 @@
       name: "ラズール"
       title: "宮殿の衛兵"
       flavour: "「今回は助けてくれるお姫様はいないぞ？ドブネズミ」"
-  abilities: 
-    - type: static
-      title: 
-        en: "LOOKY HERE"
-      text: 
-        en: "While this character has no damage, he gets +2 {S}."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -12557,7 +11234,7 @@
         zh: "189/204 ZH 3"
         ja: "189/204 JA 3"
         culture_invariant_id: 625
-        sort_number: -512
+        sort_number: -513
       rarity: common
       illustrator: "Valerio Buonfantino"
   lore: 1
@@ -12612,7 +11289,7 @@
         zh: "190/204 ZH 3"
         ja: "190/204 JA 3"
         culture_invariant_id: 626
-        sort_number: -511
+        sort_number: -512
       rarity: legendary
       illustrator: "Rudy Hill"
     - set: iti
@@ -12626,7 +11303,7 @@
         zh: "221/204 ZH 3"
         ja: "221/204 JA 3"
         culture_invariant_id: 657
-        sort_number: -480
+        sort_number: -481
       rarity: enchanted
       illustrator: "Noukah"
     - set: fab
@@ -12640,7 +11317,7 @@
         zh: "177/204 ZH 9"
         ja: "177/204 JA 9"
         culture_invariant_id: 2113
-        sort_number: -2032
+        sort_number: -2038
       rarity: legendary
       illustrator: "Rudy Hill"
   lore: 2
@@ -12680,23 +11357,6 @@
       name: "ロビン・フッド"
       title: "シャーウッドの英雄"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 3"
-      text: 
-        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Robin Hood.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "SKILLED COMBATANT"
-      text: 
-        en: "During your turn, whenever this character banishes another character in a challenge, gain 2 lore."
-    - type: static-triggered
-      title: 
-        en: "THE GOOD OF OTHERS"
-      text: 
-        en: "When this character is banished in a challenge, you may draw a card."
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -12713,7 +11373,7 @@
         zh: "191/204 ZH 3"
         ja: "191/204 JA 3"
         culture_invariant_id: 627
-        sort_number: -510
+        sort_number: -511
       rarity: super_rare
       illustrator: "Alice Pisoni"
   lore: 1
@@ -12753,12 +11413,6 @@
       name: "ノッティンガムのシェリフ"
       title: "汚職代官"
       flavour: "悪役のルールその13: 最後の一滴まで搾り取れ、当然笑いながら。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Taxes Should Hurt"
-      text: 
-        en: "Whenever you discard a card, you may deal 1 damage to chosen opposing character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -12774,7 +11428,7 @@
         zh: "192/204 ZH 3"
         ja: "192/204 JA 3"
         culture_invariant_id: 628
-        sort_number: -509
+        sort_number: -510
       rarity: super_rare
       illustrator: "Noukah"
   lore: 2
@@ -12815,17 +11469,6 @@
       name: "シンバ"
       title: "戦う王子"
       flavour: "プライドランドの栄光を取り戻す覚悟が彼にはある。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Submit Or Fight"
-      text: 
-        en: "When you play this character and whenever this character banishes another character in a challenge during your turn, choose one:nn· You may draw 2 cards, then choose and discard 2 cards.nn· You may deal 2 damage to chosen character."
-    - type: static-triggered
-      title: 
-        en: "Submit Or Fight"
-      text: 
-        en: "Whenever this character banishes another character in a challenge during your turn, choose one:nn· You may draw 2 cards, then choose and discard 2 cards.nn· You may deal 2 damage to chosen character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -12841,7 +11484,7 @@
         zh: "193/204 ZH 3"
         ja: "193/204 JA 3"
         culture_invariant_id: 629
-        sort_number: -508
+        sort_number: -509
       rarity: uncommon
       illustrator: "Mariana Moreno"
   lore: 1
@@ -12882,12 +11525,6 @@
       name: "シンバ"
       title: "唯一の王"
       flavour: "危険が増え続ける今、群れには守護者が必要だ。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Triumphant Stance"
-      text: 
-        en: "During your turn, whenever this character banishes another character in a challenge, chosen opposing character can't challenge during their next turn."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -12903,7 +11540,7 @@
         zh: "194/204 ZH 3"
         ja: "194/204 JA 3"
         culture_invariant_id: 630
-        sort_number: -507
+        sort_number: -508
       rarity: uncommon
       illustrator: "Juan Diego Leon"
   lore: 2
@@ -12943,12 +11580,6 @@
       name: "サディアス・E・クラング"
       title: "鋼の頭目"
       flavour: "「我が鐘がまもなくお前の破滅を鳴り響かせるであろう！」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "SHARP JAW"
-      text: 
-        en: "Whenever this character quests while at a location, you may deal 1 damage to chosen character."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -12964,7 +11595,7 @@
         zh: "195/204 ZH 3"
         ja: "195/204 JA 3"
         culture_invariant_id: 631
-        sort_number: -506
+        sort_number: -507
       rarity: rare
       illustrator: "Isabella Ceravolo"
     - set: iti
@@ -12978,7 +11609,7 @@
         zh: "222/204 ZH 3"
         ja: "222/204 JA 3"
         culture_invariant_id: 658
-        sort_number: -479
+        sort_number: -480
       rarity: enchanted
       illustrator: "Leonardo Giammichele"
   cost: 4
@@ -13014,12 +11645,6 @@
       name: "そこに登場、ゼウス！"
       title: ""
       flavour: "光るサンダー・ボルト（ドカン！）\n奴ら閉じ込め（いま！）\nカオス終わりを告げた！（告げたぁ！）"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "And Then Along Came Zeus"
-      text: 
-        en: "Deal 5 damage to chosen character or location."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -13035,7 +11660,7 @@
         zh: "196/204 ZH 3"
         ja: "196/204 JA 3"
         culture_invariant_id: 632
-        sort_number: -505
+        sort_number: -506
       rarity: common
       illustrator: "Heidi Neunhoffer"
   cost: 2
@@ -13069,12 +11694,6 @@
       name: "ドッカーン！"
       title: ""
       flavour: "平均的ドカーン！よりもビッグだぜ！"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Ba-Boom!"
-      text: 
-        en: "Deal 2 damage to chosen character or location."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -13090,7 +11709,7 @@
         zh: "197/204 ZH 3"
         ja: "197/204 JA 3"
         culture_invariant_id: 633
-        sort_number: -504
+        sort_number: -505
       rarity: common
       illustrator: "Michaela Martin"
   cost: 1
@@ -13124,12 +11743,6 @@
       name: "オリンポスはあっち"
       title: ""
       flavour: "「さあ今自由にしてやるぞ！まず最初に！何する？」\n― ハデス"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Olympus Would Be That Way"
-      text: 
-        en: "Your characters get +3 {S} this turn while challenging a location."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -13145,7 +11758,7 @@
         zh: "198/204 ZH 3"
         ja: "198/204 JA 3"
         culture_invariant_id: 634
-        sort_number: -503
+        sort_number: -504
       rarity: uncommon
       illustrator: "Nicola Saviori"
   cost: 3
@@ -13179,12 +11792,6 @@
       name: "タイタンの戦い"
       title: ""
       flavour: "「うわあ大変！うわあ一大事！」\n― ヘルメス"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Rise of the Titans"
-      text: 
-        en: "Banish chosen location or item."
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -13200,7 +11807,7 @@
         zh: "199/204 ZH 3"
         ja: "199/204 JA 3"
         culture_invariant_id: 635
-        sort_number: -502
+        sort_number: -503
       rarity: uncommon
       illustrator: "Jeremy Adams"
   cost: 3
@@ -13234,18 +11841,6 @@
       name: "フック船長のレイピア"
       title: ""
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Get Those Scurvy Brats!"
-      text: 
-        en: "During your turn, whenever one of your characters banishes another character in a challenge, you may pay 1 {I} to draw a card."
-    - type: static
-      title: 
-        en: "Dexterous Lunge"
-      text: 
-        en: "Your characters named Jetsam gain **Rush.**"
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -13261,7 +11856,7 @@
         zh: "200/204 ZH 3"
         ja: "200/204 JA 3"
         culture_invariant_id: 636
-        sort_number: -501
+        sort_number: -502
       rarity: common
       illustrator: "Dustin Panzino"
   cost: 3
@@ -13295,12 +11890,6 @@
       name: "ギズモスーツ"
       title: ""
       flavour: "ロルカナの殿堂で静かに立つそれは、誰かの秘密の合言葉を待っている。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Gizmosuit"
-      text: 
-        en: "Banish this item – Chosen character gains **Resist** +2 until the start of your next turn. (Damage dealt to them is reduced by 2.)"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -13316,7 +11905,7 @@
         zh: "201/204 ZH 3"
         ja: "201/204 JA 3"
         culture_invariant_id: 637
-        sort_number: -500
+        sort_number: -501
       rarity: rare
       illustrator: "Gabriel Angelo"
   cost: 3
@@ -13350,18 +11939,6 @@
       name: "トレジャー・プラネットへの地図"
       title: ""
       flavour: "「地図は使ってない時は、鍵をかけて保管します」\n― アメリア船長"
-  abilities: 
-    - type: activated
-      title: 
-        en: "**KEY TO THE PORTAL**"
-      text: 
-        en: "{E} – You pay 1 {I} less for the next location you play this turn."
-    - type: static
-      title: 
-        en: "Show the Way"
-      text: 
-        en: "You pay 1 {I} less to move your characters to a location."
-      ability: "effects"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed
@@ -13377,7 +11954,7 @@
         zh: "202/204 ZH 3"
         ja: "202/204 JA 3"
         culture_invariant_id: 638
-        sort_number: -499
+        sort_number: -500
       rarity: rare
       illustrator: "Jeremy Adams"
     - set: fab
@@ -13391,7 +11968,7 @@
         zh: "204/204 ZH 9"
         ja: "204/204 JA 9"
         culture_invariant_id: 2140
-        sort_number: -2005
+        sort_number: -2011
       rarity: uncommon
       illustrator: "Jeremy Adams"
   lore: 0
@@ -13428,13 +12005,6 @@
       name: "マウイの流刑島"
       title: "隠された島"
       flavour: "岩と砂しかない…無視されやすい。"
-  abilities: 
-    - type: static
-      title: 
-        en: "ISOLATED"
-      text: 
-        en: "Characters gain **Resist** +1 while here."
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - core_constructed
@@ -13451,7 +12021,7 @@
         zh: "203/204 ZH 3"
         ja: "203/204 JA 3"
         culture_invariant_id: 639
-        sort_number: -498
+        sort_number: -499
       rarity: common
       illustrator: "Bryn Jones"
   lore: 1
@@ -13503,7 +12073,7 @@
         zh: "204/204 ZH 3"
         ja: "204/204 JA 3"
         culture_invariant_id: 640
-        sort_number: -497
+        sort_number: -498
       rarity: uncommon
       illustrator: "Ryan Moeck"
   lore: 1
@@ -13540,13 +12110,6 @@
       name: "バイユー"
       title: "謎めいた沼"
       flavour: "欲しいものではなく、必要なものを見つける場所。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Show me the way"
-      text: 
-        en: "Whenever a character quests while here, you may draw a card, then choose and discard a card."
-      ability: "gain-ability"
   franchise_id: "unknown"
   rotation_states: 
     - infinity_constructed

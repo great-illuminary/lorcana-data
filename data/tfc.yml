@@ -10,7 +10,7 @@
         zh: "1/204 ZH 1"
         ja: "1/204 JA 1"
         culture_invariant_id: 1
-        sort_number: -243
+        sort_number: -244
       rarity: uncommon
       illustrator: "Matthew Robert Davies"
   lore: 2
@@ -65,7 +65,7 @@
         zh: "2/204 ZH 1"
         ja: "2/204 JA 1"
         culture_invariant_id: 2
-        sort_number: -242
+        sort_number: -243
       rarity: super_rare
       illustrator: "Alice Pisoni"
   lore: 1
@@ -102,18 +102,6 @@
       name: "アリエル"
       title: "麗しい歌姫"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "singer"
-      text: 
-        en: "**Singer** +5 _(This character counts as cost 5 to sing songs.)_"
-      ability: "singer"
-    - type: resolution
-      title: 
-        en: "MUSICAL DEBUT"
-      text: 
-        en: "When you play this character, look at the top 4 cards of your deck. You may reveal a song card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ariel-Spectacular-Singer"
@@ -132,7 +120,7 @@
         zh: "3/204 ZH 1"
         ja: "3/204 JA 1"
         culture_invariant_id: 3
-        sort_number: -241
+        sort_number: -242
       rarity: uncommon
       illustrator: "Javier Salas"
     - set: fab
@@ -146,7 +134,7 @@
         zh: "19/204 ZH 9"
         ja: "19/204 JA 9"
         culture_invariant_id: 1955
-        sort_number: -2190
+        sort_number: -2196
       rarity: uncommon
       illustrator: "Javi Salas"
   lore: 2
@@ -187,18 +175,6 @@
       name: "シンデレラ"
       title: "忘れない優しさ"
       flavour: ""
-  abilities: 
-    - type: activated
-      title: 
-        en: "A WONDERFUL DREAM"
-      text: 
-        en: "{E}− Remove up to 3 damage from chosen Princess character."
-    - type: static
-      title: 
-        en: "singer"
-      text: 
-        en: "**Singer** 5 _(This character counts as cost 4 to sing songs.)_"
-      ability: "singer"
   franchise_id: "cinderella"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cinderella-Gentle-and-Kind"
@@ -218,7 +194,7 @@
         zh: "4/204 ZH 1"
         ja: "4/204 JA 1"
         culture_invariant_id: 4
-        sort_number: -240
+        sort_number: -241
       rarity: uncommon
       illustrator: "Jochem Van Gool"
     - set: p1
@@ -232,7 +208,7 @@
         zh: "12/P1 ZH 1"
         ja: "12/P1 JA 1"
         culture_invariant_id: 670
-        sort_number: -23
+        sort_number: -24
       rarity: special
       illustrator: "Jochem Van Gool"
   lore: 1
@@ -269,18 +245,6 @@
       name: "グーフィー"
       title: "銃士"
       flavour: "「構ッヒョ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
-    - type: resolution
-      title: 
-        en: "AND TWO FOR TEA"
-      text: 
-        en: "When you play this character, you may remove up to 2 damage from each of your Musketeer characters."
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Goofy-Musketeer"
@@ -299,7 +263,7 @@
         zh: "5/204 ZH 1"
         ja: "5/204 JA 1"
         culture_invariant_id: 5
-        sort_number: -239
+        sort_number: -240
       rarity: rare
       illustrator: "Alex Accorsi"
     - set: tfc
@@ -313,7 +277,7 @@
         zh: "205/204 ZH 1"
         ja: "205/204 JA 1"
         culture_invariant_id: 205
-        sort_number: -39
+        sort_number: -40
       rarity: enchanted
       illustrator: "Juan Diego Leon"
   lore: 1
@@ -351,19 +315,6 @@
       name: "ハデス"
       title: "オリンポスの王"
       flavour: "「おおっと、新しい名刺が必要になるな」"
-  abilities: 
-    - type: static
-      title: 
-        en: "Sinister plot"
-      text: 
-        en: "This character gets +1 {L} for every other Villain character you have in play."
-      ability: "effects"
-    - type: static
-      title: 
-        en: "Shift 6"
-      text: 
-        en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Hades.)_"
-      ability: "shift"
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hades-King-of-Olympus-V1"
@@ -382,7 +333,7 @@
         zh: "6/204 ZH 1"
         ja: "6/204 JA 1"
         culture_invariant_id: 6
-        sort_number: -238
+        sort_number: -239
       rarity: rare
       illustrator: "Randy Bishop"
   lore: 1
@@ -423,12 +374,6 @@
       name: "ハデス"
       title: "冥界の主"
       flavour: "「生産量は上がり、コストは下がり、川は満水なんだ。\n拡大の話をするべき時だ」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "WELL OF SOULS"
-      text: 
-        en: "When you play this character, return a character card from your discard to your hand."
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hades-Lord-of-the-Underworld"
@@ -447,7 +392,7 @@
         zh: "7/204 ZH 1"
         ja: "7/204 JA 1"
         culture_invariant_id: 7
-        sort_number: -237
+        sort_number: -238
       rarity: common
       illustrator: "Jenna Gray"
     - set: p1
@@ -461,7 +406,7 @@
         zh: "9/P1 ZH 1"
         ja: "9/P1 JA 1"
         culture_invariant_id: 667
-        sort_number: -26
+        sort_number: -27
       rarity: special
       illustrator: "Jenna Gray"
   lore: 1
@@ -501,13 +446,6 @@
       name: "ヘイヘイ"
       title: "おやつ見っけ！"
       flavour: "「能ある鷹は爪隠す、って言うでしょ。能ある…ニワトリだけどね」\n― モアナ"
-  abilities: 
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Heihei-Boat-Snack"
@@ -526,7 +464,7 @@
         zh: "8/204 ZH 1"
         ja: "8/204 JA 1"
         culture_invariant_id: 8
-        sort_number: -236
+        sort_number: -237
       rarity: uncommon
       illustrator: "Andrey Chumak"
   lore: 2
@@ -562,13 +500,6 @@
       name: "ル・フウ"
       title: "すっとこどっこい"
       flavour: "悪党たるもの、比較対象になるとんまな子分を連れ歩くべし。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Loyal"
-      text: 
-        en: "If you have a character named Gaston in play, you pay 1 {I} less to play this character."
-      ability: "effects"
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lefou-Bumbler"
@@ -587,7 +518,7 @@
         zh: "9/204 ZH 1"
         ja: "9/204 JA 1"
         culture_invariant_id: 9
-        sort_number: -235
+        sort_number: -236
       rarity: rare
       illustrator: "Dave Beauchene"
   lore: 2
@@ -641,7 +572,7 @@
         zh: "10/204 ZH 1"
         ja: "10/204 JA 1"
         culture_invariant_id: 10
-        sort_number: -234
+        sort_number: -235
       rarity: super_rare
       illustrator: "Brian Weisz"
   lore: 1
@@ -677,19 +608,6 @@
       name: "マキシマス"
       title: "宮殿の騎馬"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maximus-Palace-Horse"
@@ -708,7 +626,7 @@
         zh: "11/204 ZH 1"
         ja: "11/204 JA 1"
         culture_invariant_id: 11
-        sort_number: -233
+        sort_number: -234
       rarity: uncommon
       illustrator: "Kendall Hale"
   lore: 1
@@ -744,12 +662,6 @@
       name: "マキシマス"
       title: "しつこい追跡者"
       flavour: "彼は勇気と規律、そして一つまみの気品をもって獲物を追いかける。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "HORSE KICK"
-      text: 
-        en: "When you play this character, chosen character gets -2 {S} this turn."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maximus-Relentless-Pursuer"
@@ -768,7 +680,7 @@
         zh: "12/204 ZH 1"
         ja: "12/204 JA 1"
         culture_invariant_id: 12
-        sort_number: -232
+        sort_number: -233
       rarity: uncommon
       illustrator: "Dave Beauchene"
     - set: fab
@@ -782,7 +694,7 @@
         zh: "13/204 ZH 9"
         ja: "13/204 JA 9"
         culture_invariant_id: 1949
-        sort_number: -2196
+        sort_number: -2202
       rarity: uncommon
       illustrator: "Dave Beauchene"
     - set: p3
@@ -855,7 +767,7 @@
         zh: "13/204 ZH 1"
         ja: "13/204 JA 1"
         culture_invariant_id: 13
-        sort_number: -231
+        sort_number: -232
       rarity: common
       illustrator: "Kendall Hale"
   lore: 1
@@ -913,7 +825,7 @@
         zh: "14/204 ZH 1"
         ja: "14/204 JA 1"
         culture_invariant_id: 14
-        sort_number: -230
+        sort_number: -231
       rarity: rare
       illustrator: "Nicholas Kole"
     - set: fab
@@ -927,7 +839,7 @@
         zh: "20/204 ZH 9"
         ja: "20/204 JA 9"
         culture_invariant_id: 1956
-        sort_number: -2189
+        sort_number: -2195
       rarity: rare
       illustrator: "Nicholas Kole"
   lore: 3
@@ -968,12 +880,6 @@
       name: "モアナ"
       title: "モトゥヌイ生まれ"
       flavour: "「私はモトゥヌイのモアナ。あなたは私の船に乗り、\nこの海を渡って、テ・フィティの心を返しに行くの」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "We Can Fix It"
-      text: 
-        en: "Whenever this character quests, you may ready your other exerted Princess characters. If you do, they can't quest for the rest of this turn."
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Moana-Of-Motunui"
@@ -993,7 +899,7 @@
         zh: "15/204 ZH 1"
         ja: "15/204 JA 1"
         culture_invariant_id: 15
-        sort_number: -229
+        sort_number: -230
       rarity: common
       illustrator: "Kamil Murzyn / Eri Welli"
   lore: 1
@@ -1048,7 +954,7 @@
         zh: "16/204 ZH 1"
         ja: "16/204 JA 1"
         culture_invariant_id: 16
-        sort_number: -228
+        sort_number: -229
       rarity: uncommon
       illustrator: "Philipp Kruse"
   lore: 2
@@ -1085,12 +991,6 @@
       name: "フィリップ王子"
       title: "ドラゴンに挑む者"
       flavour: "「真の愛への道のりにはたくさんの危険が待っていますが、\n一人で立ち向かうのです」\n― フローラ"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "HEROISM"
-      text: 
-        en: "When this character challenges and is banished, you may banish the challenged character."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Prince-Phillip-Dragonslayer"
@@ -1109,7 +1009,7 @@
         zh: "17/204 ZH 1"
         ja: "17/204 JA 1"
         culture_invariant_id: 17
-        sort_number: -227
+        sort_number: -228
       rarity: common
       illustrator: "Jenna Gray"
   lore: 1
@@ -1163,7 +1063,7 @@
         zh: "18/204 ZH 1"
         ja: "18/204 JA 1"
         culture_invariant_id: 18
-        sort_number: -226
+        sort_number: -227
       rarity: legendary
       illustrator: "Jochem Van Gool"
     - set: p1
@@ -1228,12 +1128,6 @@
       name: "ラプンツェル"
       title: "いやしの賜物"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "GLEAM AND GLOW"
-      text: 
-        en: "When you play this character, remove up to 3 damage from one of your characters. Draw a card for each 1 damage removed this way."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Rapunzel-Gifted-with-Healing"
@@ -1252,7 +1146,7 @@
         zh: "19/204 ZH 1"
         ja: "19/204 JA 1"
         culture_invariant_id: 19
-        sort_number: -225
+        sort_number: -226
       rarity: common
       illustrator: "Isaiah Mesq"
   lore: 1
@@ -1292,13 +1186,6 @@
       name: "セバスチャン"
       title: "宮廷作曲家"
       flavour: "「どうしてこんなハメになったんだ。作曲が仕事だというのに、わがまま娘のお守りとは情けないよ」"
-  abilities: 
-    - type: static
-      title: 
-        en: "singer"
-      text: 
-        en: "**Singer** 4 _(This character counts as cost 4 to sing songs.)_"
-      ability: "singer"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sebastian-Court-Composer"
@@ -1317,7 +1204,7 @@
         zh: "20/204 ZH 1"
         ja: "20/204 JA 1"
         culture_invariant_id: 20
-        sort_number: -224
+        sort_number: -225
       rarity: common
       illustrator: "Filipe Laurentino"
   lore: 1
@@ -1354,13 +1241,6 @@
       name: "シンバ"
       title: "守護者の片鱗"
       flavour: "勇気に体の大小は関係ないんだ。"
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Protective-Cub"
@@ -1379,7 +1259,7 @@
         zh: "21/204 ZH 1"
         ja: "21/204 JA 1"
         culture_invariant_id: 21
-        sort_number: -223
+        sort_number: -224
       rarity: legendary
       illustrator: "Marcel Berg"
     - set: tfc
@@ -1393,7 +1273,7 @@
         zh: "206/204 ZH 1"
         ja: "206/204 JA 1"
         culture_invariant_id: 206
-        sort_number: -38
+        sort_number: -39
       rarity: enchanted
       illustrator: "Milica Celikovic"
     - set: fab
@@ -1407,7 +1287,7 @@
         zh: "24/204 ZH 9"
         ja: "24/204 JA 9"
         culture_invariant_id: 1960
-        sort_number: -2185
+        sort_number: -2191
       rarity: legendary
       illustrator: "Marcel Berg"
   lore: 2
@@ -1448,12 +1328,6 @@
       name: "スティッチ"
       title: "お気楽サーファー"
       flavour: "「お前宇宙人だったのか。あっちの波はどうだい？」\n― デイヴィッド"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Ohana"
-      text: 
-        en: "When you play this character, if you have 2 or more other characters in play, you may draw 2 cards."
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stitch-Carefree-Surfer-V1"
@@ -1473,7 +1347,7 @@
         zh: "22/204 ZH 1"
         ja: "22/204 JA 1"
         culture_invariant_id: 22
-        sort_number: -222
+        sort_number: -223
       rarity: common
       illustrator: "Alex Accorsi"
   lore: 1
@@ -1532,7 +1406,7 @@
         zh: "23/204 ZH 1"
         ja: "23/204 JA 1"
         culture_invariant_id: 23
-        sort_number: -221
+        sort_number: -222
       rarity: super_rare
       illustrator: "Simangaliso Sibaya"
     - set: p1
@@ -1560,8 +1434,8 @@
         zh: "30/P1 ZH 1"
         ja: "30/P1 JA 3"
         culture_invariant_id: 688
-        sort_number: -473
-      rarity: enchanted
+        sort_number: -472
+      rarity: special
       illustrator: "Nicholas Kole"
     - set: fab
       id: 3
@@ -1574,7 +1448,7 @@
         zh: "3/204 ZH 9"
         ja: "3/204 JA 9"
         culture_invariant_id: 1939
-        sort_number: -2206
+        sort_number: -2212
       rarity: super_rare
       illustrator: "Simangaliso Sibaya"
     - set: dis
@@ -1629,18 +1503,6 @@
       name: "スティッチ"
       title: "ロックスター"
       flavour: "ビーチサイドのコンサートで一番いいとこは、いつでも飛び入り参加できることだ。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "ADORING FANS"
-      text: 
-        en: "Whenever you play a character with cost 2 or less, you may exert them to draw a card."
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Stitch.)_"
-      ability: "shift"
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stitch-Rock-Star"
@@ -1660,7 +1522,7 @@
         zh: "24/204 ZH 1"
         ja: "24/204 JA 1"
         culture_invariant_id: 24
-        sort_number: -220
+        sort_number: -221
       rarity: common
       illustrator: "Juan Diego Leon"
   lore: 1
@@ -1696,12 +1558,6 @@
       name: "ティモン"
       title: "メシ掘り名人"
       flavour: "「ここじゃとびきり美味いもんが山ほどあるんだ、\nどこを探せばいいか知ってりゃあな」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "TASTES LIKE CHICKEN"
-      text: 
-        en: "When you play this character, you may remove up to 1 damage from chosen character."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Timon-Grub-Rustler"
@@ -1720,7 +1576,7 @@
         zh: "25/204 ZH 1"
         ja: "25/204 JA 1"
         culture_invariant_id: 25
-        sort_number: -219
+        sort_number: -220
       rarity: uncommon
       illustrator: "R. La Barbera / L. Giammichele"
     - set: fab
@@ -1734,7 +1590,7 @@
         zh: "31/204 ZH 9"
         ja: "31/204 JA 9"
         culture_invariant_id: 1967
-        sort_number: -2178
+        sort_number: -2184
       rarity: common
       illustrator: "Rosa la Barbera / Leonardo Giammichele"
   cost: 2
@@ -1770,12 +1626,6 @@
       name: "BE OUR GUEST"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Be Our Guest"
-      text: 
-        en: "Look at the top 4 cards of your deck. You may reveal a character card and put it into your hand. Put the rest on the bottom of your deck in any order."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Be-Our-Guest"
@@ -1795,7 +1645,7 @@
         zh: "26/204 ZH 1"
         ja: "26/204 JA 1"
         culture_invariant_id: 26
-        sort_number: -218
+        sort_number: -219
       rarity: common
       illustrator: "Amber Kommavongsa"
   cost: 1
@@ -1825,12 +1675,6 @@
       name: "怒ってばかりね！"
       title: ""
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Control Your Temper!"
-      text: 
-        en: "Chosen character gets -2 {S} this turn."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Control-Your-Temper"
@@ -1849,7 +1693,7 @@
         zh: "27/204 ZH 1"
         ja: "27/204 JA 1"
         culture_invariant_id: 27
-        sort_number: -217
+        sort_number: -218
       rarity: common
       illustrator: "Juan Diego Leon"
   cost: 4
@@ -1885,12 +1729,6 @@
       name: "HAKUNA MATATA"
       title: ""
       flavour: "なんていい響きなんだ！"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Hakuna Matata"
-      text: 
-        en: "Remove up to 3 damage from each of your characters."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hakuna-Matata"
@@ -1909,7 +1747,7 @@
         zh: "28/204 ZH 1"
         ja: "28/204 JA 1"
         culture_invariant_id: 28
-        sort_number: -216
+        sort_number: -217
       rarity: common
       illustrator: "Philipp Kruse"
   cost: 1
@@ -1943,12 +1781,6 @@
       name: "癒しのきらめき"
       title: ""
       flavour: "「怖がらないで！」\n― ラプンツェル"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Healing Glow"
-      text: 
-        en: "Remove up to 2 damage from chosen character."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Healing-Glow"
@@ -1967,7 +1799,7 @@
         zh: "29/204 ZH 1"
         ja: "29/204 JA 1"
         culture_invariant_id: 29
-        sort_number: -215
+        sort_number: -216
       rarity: rare
       illustrator: "Leonardo Giammichele"
   cost: 3
@@ -1997,12 +1829,6 @@
       name: "まさにその時"
       title: ""
       flavour: "最高のヒーローはいつもカンペキなタイミングで登場する― そういう風にできてるんだ。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Just in Time"
-      text: 
-        en: "You may play a character with cost 5 or less for free."
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Just-in-Time"
@@ -2021,7 +1847,7 @@
         zh: "30/204 ZH 1"
         ja: "30/204 JA 1"
         culture_invariant_id: 30
-        sort_number: -214
+        sort_number: -215
       rarity: rare
       illustrator: "Samanta Erdini"
   cost: 3
@@ -2057,12 +1883,6 @@
       name: "PART OF YOUR WORLD"
       title: ""
       flavour: "なんでもあげるわ ここを出て 暖かい 砂の上で 眠れたら"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Part of Your World"
-      text: 
-        en: "Return a character card from your discard to your hand."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Part-of-Your-World"
@@ -2081,7 +1901,7 @@
         zh: "31/204 ZH 1"
         ja: "31/204 JA 1"
         culture_invariant_id: 31
-        sort_number: -213
+        sort_number: -214
       rarity: uncommon
       illustrator: "Alice Pisoni"
   cost: 4
@@ -2111,12 +1931,6 @@
       name: "私を忘れたのか"
       title: ""
       flavour: "「今のお前は本当のお前ではない」\n― ムファサ"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "You Have Forgotten Me"
-      text: 
-        en: "Each opponent chooses and discards two cards."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/You-Have-Forgotten-Me"
@@ -2135,7 +1949,7 @@
         zh: "32/204 ZH 1"
         ja: "32/204 JA 1"
         culture_invariant_id: 32
-        sort_number: -212
+        sort_number: -213
       rarity: common
       illustrator: "Eri Welli"
   cost: 1
@@ -2169,12 +1983,6 @@
       name: "カミスキー"
       title: ""
       flavour: "「素晴らしいヘアスタイルが一丁上がりさ！」\n― カモメのスカットル"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Straighten Hair"
-      text: 
-        en: "{E} - Remove up to 1 damage from chosen character."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dinglehopper"
@@ -2193,7 +2001,7 @@
         zh: "33/204 ZH 1"
         ja: "33/204 JA 1"
         culture_invariant_id: 33
-        sort_number: -211
+        sort_number: -212
       rarity: rare
       illustrator: "Eri Welli"
     - set: fab
@@ -2207,7 +2015,7 @@
         zh: "32/204 ZH 9"
         ja: "32/204 JA 9"
         culture_invariant_id: 1968
-        sort_number: -2177
+        sort_number: -2183
       rarity: rare
       illustrator: "Eri Welli"
   cost: 2
@@ -2241,12 +2049,6 @@
       name: "ランタン"
       title: ""
       flavour: "「この光は…毎年私の誕生日に現れるのよ。私の誕生日だけに。\n胸の奥でハッキリと感じるの！」\n― ラプンツェル"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Birthday Lights"
-      text: 
-        en: "{E} - You pay 1 {I} less for the next character you play this turn."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lantern"
@@ -2266,7 +2068,7 @@
         zh: "34/204 ZH 1"
         ja: "34/204 JA 1"
         culture_invariant_id: 34
-        sort_number: -210
+        sort_number: -211
       rarity: rare
       illustrator: "Jenna Gray"
     - set: fab
@@ -2280,7 +2082,7 @@
         zh: "33/204 ZH 9"
         ja: "33/204 JA 9"
         culture_invariant_id: 1969
-        sort_number: -2176
+        sort_number: -2182
       rarity: rare
       illustrator: "Jenna Gray"
   cost: 3
@@ -2314,12 +2116,6 @@
       name: "アースラの貝殻ネックレス"
       title: ""
       flavour: "「歌は素敵な趣味よ…歌うための声さえ持っていればね」\n― アースラ"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "$undefined"
-      text: 
-        en: "$undefined"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ursulas-Shell-Necklace"
@@ -2339,7 +2135,7 @@
         zh: "35/204 ZH 1"
         ja: "35/204 JA 1"
         culture_invariant_id: 35
-        sort_number: -209
+        sort_number: -210
       rarity: uncommon
       illustrator: "Valerio Buonfantino"
   lore: 2
@@ -2376,12 +2172,6 @@
       name: "アナ"
       title: "アレンデールの継承者"
       flavour: "「姉妹の心はひとつなんだから」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Loving Heart"
-      text: 
-        en: "When you play this character, if you have a character named Elsa in play, choose an opposing character. The chosen character doesn't ready at the start of their next turn."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Anna-Heir-to-Arendelle"
@@ -2400,7 +2190,7 @@
         zh: "36/204 ZH 1"
         ja: "36/204 JA 1"
         culture_invariant_id: 36
-        sort_number: -208
+        sort_number: -209
       rarity: common
       illustrator: "Kendall Hale"
   lore: 1
@@ -2454,7 +2244,7 @@
         zh: "37/204 ZH 1"
         ja: "37/204 JA 1"
         culture_invariant_id: 37
-        sort_number: -207
+        sort_number: -208
       rarity: rare
       illustrator: "Isaiah Mesq"
   lore: 3
@@ -2491,18 +2281,6 @@
       name: "ファシリエ"
       title: "悪事の協力者"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Into the Shadows"
-      text: 
-        en: "Whenever one of your other characters is banished in a challenge, you may return that card to your hand."
-    - type: static
-      title: 
-        en: "Shift 5"
-      text: 
-        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Dr. Facilier.)_"
-      ability: "shift"
   franchise_id: "the-princess-and-the-frog"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Facilier-Agent-Provocateur"
@@ -2521,7 +2299,7 @@
         zh: "38/204 ZH 1"
         ja: "38/204 JA 1"
         culture_invariant_id: 38
-        sort_number: -206
+        sort_number: -207
       rarity: common
       illustrator: "Grace Tran"
   lore: 1
@@ -2558,13 +2336,6 @@
       name: "ファシリエ"
       title: "イカサマ師"
       flavour: "はじめまして、ご機嫌いかが…？\nこのファシリエから少々のご挨拶を…"
-  abilities: 
-    - type: static
-      title: 
-        en: "challenger"
-      text: 
-        en: "**Challenger** +2 (_When challenging, this character get +2 {S}._)"
-      ability: "challenger"
   franchise_id: "the-princess-and-the-frog"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Facilier-Charlatan"
@@ -2583,7 +2354,7 @@
         zh: "39/204 ZH 1"
         ja: "39/204 JA 1"
         culture_invariant_id: 39
-        sort_number: -205
+        sort_number: -206
       rarity: rare
       illustrator: "Cam Kendell"
   lore: 1
@@ -2620,12 +2391,6 @@
       name: "ファシリエ"
       title: "素晴らしい紳士"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "$undefined"
-      text: 
-        en: "$undefined"
   franchise_id: "the-princess-and-the-frog"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Facilier-Remarkable-Gentleman"
@@ -2644,7 +2409,7 @@
         zh: "40/204 ZH 1"
         ja: "40/204 JA 1"
         culture_invariant_id: 40
-        sort_number: -204
+        sort_number: -205
       rarity: common
       illustrator: "Duyen Nguyen / Aubrey Archer"
     - set: p2
@@ -2718,7 +2483,7 @@
         zh: "41/204 ZH 1"
         ja: "41/204 JA 1"
         culture_invariant_id: 41
-        sort_number: -203
+        sort_number: -204
       rarity: uncommon
       illustrator: "Nicholas Kole"
     - set: p1
@@ -2746,7 +2511,7 @@
         zh: "53/204 EN 9"
         ja: "53/204 EN 9"
         culture_invariant_id: 1989
-        sort_number: -2156
+        sort_number: -2162
       rarity: uncommon
       illustrator: "Nicholas Kole"
     - set: fab
@@ -2760,7 +2525,7 @@
         zh: "210/204 EN 9"
         ja: "210/204 EN 9"
         culture_invariant_id: 2164
-        sort_number: -1999
+        sort_number: -2005
       rarity: epic
       illustrator: "Nicholas Kole"
   lore: 1
@@ -2802,12 +2567,6 @@
       name: "エルサ"
       title: "雪の女王"
       flavour: "魔法のインクで描かれたエルサは、自分がまったく新しい世界にいることに気づいた。幸運なことに、どこに行こうと氷は氷だった。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Freeze"
-      text: 
-        en: "Exert chosen opposing character."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Elsa-Snow-Queen"
@@ -2827,7 +2586,7 @@
         zh: "42/204 ZH 1"
         ja: "42/204 JA 1"
         culture_invariant_id: 42
-        sort_number: -202
+        sort_number: -203
       rarity: legendary
       illustrator: "Matthew Robert Davies"
     - set: tfc
@@ -2841,7 +2600,7 @@
         zh: "207/204 ZH 1"
         ja: "207/204 JA 1"
         culture_invariant_id: 207
-        sort_number: -37
+        sort_number: -38
       rarity: enchanted
       illustrator: "Matthew Robert Davies"
     - set: fab
@@ -2855,7 +2614,7 @@
         zh: "43/204 ZH 9"
         ja: "43/204 JA 9"
         culture_invariant_id: 1979
-        sort_number: -2166
+        sort_number: -2172
       rarity: legendary
       illustrator: "Matthew Robert Davies"
   lore: 3
@@ -2897,18 +2656,6 @@
       name: "エルサ"
       title: "冬の精霊"
       flavour: "氷はあなたが思ってる以上に強いのよ。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 6"
-      text: 
-        en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Elsa.)_"
-      ability: "shift"
-    - type: resolution
-      title: 
-        en: "DEEP FREEZE"
-      text: 
-        en: "When you play this character, exert up to 2 chosen characters. They can't ready at the start of their next turn."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Elsa-Spirit-of-Winter-V1"
@@ -2928,7 +2675,7 @@
         zh: "43/204 ZH 1"
         ja: "43/204 JA 1"
         culture_invariant_id: 43
-        sort_number: -201
+        sort_number: -202
       rarity: rare
       illustrator: "Luis Huerta"
   lore: 2
@@ -2964,19 +2711,6 @@
       name: "フロットサム"
       title: "アースラのスパイ"
       flavour: "「あのお方ならあんたを助けられるよ…お代はかかるけどな」"
-  abilities: 
-    - type: static
-      title: 
-        en: "rush"
-      text: 
-        en: "_(This character can challenge the turn they're played.)_"
-      ability: "rush"
-    - type: static
-      title: 
-        en: "Dexterous Lunge"
-      text: 
-        en: "Your characters named Jetsam gain **Rush.**"
-      ability: "gain-ability"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Flotsam-Ursulas-Spy"
@@ -2995,7 +2729,7 @@
         zh: "44/204 ZH 1"
         ja: "44/204 JA 1"
         culture_invariant_id: 44
-        sort_number: -200
+        sort_number: -201
       rarity: rare
       illustrator: "Marcel Berg"
     - set: fab
@@ -3009,7 +2743,7 @@
         zh: "38/204 ZH 9"
         ja: "38/204 JA 9"
         culture_invariant_id: 1974
-        sort_number: -2171
+        sort_number: -2177
       rarity: rare
       illustrator: "Marcel Berg"
   lore: 2
@@ -3050,13 +2784,6 @@
       name: "ジャファー"
       title: "秘密の管理者"
       flavour: "秘密を覆い隠す方法は一つだけじゃあないのだよ。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Hidden Wonders"
-      text: 
-        en: "This character gets +1 {S} for each card in your hand."
-      ability: "effects"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jafar-Keeper-of-Secrets"
@@ -3076,7 +2803,7 @@
         zh: "45/204 ZH 1"
         ja: "45/204 JA 1"
         culture_invariant_id: 45
-        sort_number: -199
+        sort_number: -200
       rarity: common
       illustrator: "Jake Parker"
   lore: 1
@@ -3117,13 +2844,6 @@
       name: "ジャファー"
       title: "邪悪な魔法使い"
       flavour: "「コソコソするのはもうたくさんだ。あの鼻持ちならないサルタンに魔法使いの力を見せてやる時だ」"
-  abilities: 
-    - type: static
-      title: 
-        en: "challenger"
-      text: 
-        en: "**Challenger** +3 (_When challenging, this character get +3 {S}._)"
-      ability: "challenger"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jafar-Wicked-Sorcerer"
@@ -3142,7 +2862,7 @@
         zh: "46/204 ZH 1"
         ja: "46/204 JA 1"
         culture_invariant_id: 46
-        sort_number: -198
+        sort_number: -199
       rarity: common
       illustrator: "Brian Weisz"
   lore: 1
@@ -3178,19 +2898,6 @@
       name: "ジェットサム"
       title: "アースラのスパイ"
       flavour: "「あんたが願いを叶えるのを助けてあげられるよ…」"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static
-      title: 
-        en: "Sinister Slither"
-      text: 
-        en: "Your characters named Flotsam gain **Evasive.**"
-      ability: "gain-ability"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jetsam-Ursulas-Spy"
@@ -3209,7 +2916,7 @@
         zh: "47/204 ZH 1"
         ja: "47/204 JA 1"
         culture_invariant_id: 47
-        sort_number: -197
+        sort_number: -198
       rarity: common
       illustrator: "Dav Augereau / Giulia Riva"
   lore: 1
@@ -3249,12 +2956,6 @@
       name: "魔法のほうき"
       title: "バケツリレー"
       flavour: "大イルミナの名で知られる巨大な物語の鍛冶場には、やるべき仕事が溢れかえっている。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "SWEEP"
-      text: 
-        en: "When you play this character, you may shuffle a card from any discard into its player's deck."
   franchise_id: "fantasia"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Magic-Broom-Bucket-Brigade"
@@ -3273,7 +2974,7 @@
         zh: "48/204 ZH 1"
         ja: "48/204 JA 1"
         culture_invariant_id: 48
-        sort_number: -196
+        sort_number: -197
       rarity: rare
       illustrator: "Grace Tran"
   lore: 2
@@ -3328,7 +3029,7 @@
         zh: "49/204 ZH 1"
         ja: "49/204 JA 1"
         culture_invariant_id: 49
-        sort_number: -195
+        sort_number: -196
       rarity: common
       illustrator: "Valerio Buonfantino"
   lore: 1
@@ -3369,12 +3070,6 @@
       name: "マレフィセント"
       title: "魔女"
       flavour: "「この私に挑戦しようというのか？<愚か者めが。>\n私の魔法は！お前が想像できる以上に強力なのだ！」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Cast My Spell"
-      text: 
-        en: "When you play this character, you may draw a card."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maleficent-Sorceress"
@@ -3393,7 +3088,7 @@
         zh: "50/204 ZH 1"
         ja: "50/204 JA 1"
         culture_invariant_id: 50
-        sort_number: -194
+        sort_number: -195
       rarity: super_rare
       illustrator: "Kendall Hale / Anh Dang"
   lore: 1
@@ -3429,12 +3124,6 @@
       name: "マシュマロウ"
       title: "しぶとい守護者"
       flavour: "「やあ！今キミのこと話してたんだ。悪口じゃないよ？\nいい話」\n― オラフ"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Durable"
-      text: 
-        en: "When this character is banished in a challenge, you may return this card to your hand."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Marshmallow-Persistent-Guardian"
@@ -3453,7 +3142,7 @@
         zh: "51/204 ZH 1"
         ja: "51/204 JA 1"
         culture_invariant_id: 51
-        sort_number: -193
+        sort_number: -194
       rarity: super_rare
       illustrator: "Nicholas Kole"
     - set: tfc
@@ -3467,7 +3156,7 @@
         zh: "208/204 ZH 1"
         ja: "208/204 JA 1"
         culture_invariant_id: 208
-        sort_number: -36
+        sort_number: -37
       rarity: enchanted
       illustrator: "Cam Kendell"
   lore: 2
@@ -3507,18 +3196,6 @@
       name: "ミッキーマウス"
       title: "きまぐれな魔法使い"
       flavour: "どんな失敗も、水に流しちゃおうよ。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Animate Broom"
-      text: 
-        en: "You pay 1 {I} less to play Broom characters."
-      ability: "effects"
-    - type: static-triggered
-      title: 
-        en: "Ceaseless Worker"
-      text: 
-        en: "Whenever one of your Broom characters is banished in a challenge, you may return that card to your hand."
   franchise_id: "fantasia"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Wayward-Sorcerer-V1"
@@ -3537,7 +3214,7 @@
         zh: "52/204 ZH 1"
         ja: "52/204 JA 1"
         culture_invariant_id: 52
-        sort_number: -192
+        sort_number: -193
       rarity: uncommon
       illustrator: "Giulia Riva"
     - set: fab
@@ -3551,7 +3228,7 @@
         zh: "55/204 ZH 9"
         ja: "55/204 JA 9"
         culture_invariant_id: 1991
-        sort_number: -2154
+        sort_number: -2160
       rarity: uncommon
       illustrator: "Giulia Riva"
   lore: 1
@@ -3610,7 +3287,7 @@
         zh: "53/204 ZH 1"
         ja: "53/204 JA 1"
         culture_invariant_id: 53
-        sort_number: -191
+        sort_number: -192
       rarity: uncommon
       illustrator: "Brian Weisz"
   lore: 1
@@ -3646,13 +3323,6 @@
       name: "パスカル"
       title: "ラプンツェルの親友"
       flavour: "本当の友だちはいつもきみのそばにいるよ、見えないかもしれないけど。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Camouflage"
-      text: 
-        en: "While you have another character in play, this character gains **Evasive**. _(Only charactersrwith Evasive can challenge them.)_"
-      ability: "gain-ability"
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Pascal-Rapunzels-Companion"
@@ -3671,7 +3341,7 @@
         zh: "54/204 ZH 1"
         ja: "54/204 JA 1"
         culture_invariant_id: 54
-        sort_number: -190
+        sort_number: -191
       rarity: uncommon
       illustrator: "Giulia Riva"
   lore: 1
@@ -3708,13 +3378,6 @@
       name: "ラフィキ"
       title: "謎めいた賢者"
       flavour: "「過去は痛むもんじゃ。だがお前はそこから逃げ出すことができる！それに…学ぶことも」"
-  abilities: 
-    - type: static
-      title: 
-        en: "rush"
-      text: 
-        en: "_(This character can challenge the turn they're played.)_"
-      ability: "rush"
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Rafiki-Mysterious-Sage"
@@ -3733,7 +3396,7 @@
         zh: "55/204 ZH 1"
         ja: "55/204 JA 1"
         culture_invariant_id: 55
-        sort_number: -189
+        sort_number: -190
       rarity: uncommon
       illustrator: "Jared Nickerl"
     - set: fab
@@ -3747,7 +3410,7 @@
         zh: "56/204 ZH 9"
         ja: "56/204 JA 9"
         culture_invariant_id: 1992
-        sort_number: -2153
+        sort_number: -2159
       rarity: uncommon
       illustrator: "Jared Nickerl"
   lore: 1
@@ -3806,7 +3469,7 @@
         zh: "56/204 ZH 1"
         ja: "56/204 JA 1"
         culture_invariant_id: 56
-        sort_number: -188
+        sort_number: -189
       rarity: super_rare
       illustrator: "Matthew Robert Davies"
     - set: fab
@@ -3820,7 +3483,7 @@
         zh: "35/204 ZH 9"
         ja: "35/204 JA 9"
         culture_invariant_id: 1971
-        sort_number: -2174
+        sort_number: -2180
       rarity: rare
       illustrator: "Matthew Robert Davies"
   lore: 1
@@ -3861,12 +3524,6 @@
       name: "女王"
       title: "性悪なうぬぼれ屋"
       flavour: "比類なき狡猾さに相応しい、至高の美しさ。この世で最高に美しい女が誰か、疑問の余地などあろうか？"
-  abilities: 
-    - type: activated
-      title: 
-        en: "I Summon Thee"
-      text: 
-        en: "Draw a card."
   franchise_id: "snow-white-and-the-seven-dwarfs"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/The-Queen-Wicked-and-Vain"
@@ -3886,7 +3543,7 @@
         zh: "57/204 ZH 1"
         ja: "57/204 JA 1"
         culture_invariant_id: 57
-        sort_number: -187
+        sort_number: -188
       rarity: common
       illustrator: "Giulia Riva"
   lore: 1
@@ -3944,7 +3601,7 @@
         zh: "58/204 ZH 1"
         ja: "58/204 JA 1"
         culture_invariant_id: 58
-        sort_number: -186
+        sort_number: -187
       rarity: common
       illustrator: "Adrianne Gumaya"
   lore: 2
@@ -3981,19 +3638,6 @@
       name: "ティンカー・ベル"
       title: "ピーター・パンの仲間"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Loyal and Devoted"
-      text: 
-        en: "Your characters named Peter Pan gain **Challenger +1.** _(They get +1 {S} while challenging.)_"
-      ability: "gain-ability"
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Peter-Pans-Ally"
@@ -4012,7 +3656,7 @@
         zh: "59/204 ZH 1"
         ja: "59/204 JA 1"
         culture_invariant_id: 59
-        sort_number: -185
+        sort_number: -186
       rarity: legendary
       illustrator: "Simangaliso Sibaya"
   lore: 3
@@ -4049,12 +3693,6 @@
       name: "アースラ"
       title: "パワーをちょうだい！"
       flavour: "<悪役のルールその1>：悪に生きるのであれば、格調高くあるべし。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "It's Too Easy"
-      text: 
-        en: "Each opponent loses 1 lore. You may draw a card for each 1 lore lost this way."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ursula-Power-Hungry"
@@ -4073,7 +3711,7 @@
         zh: "60/204 ZH 1"
         ja: "60/204 JA 1"
         culture_invariant_id: 60
-        sort_number: -184
+        sort_number: -185
       rarity: common
       illustrator: "Hadjie Joos"
     - set: p1
@@ -4087,7 +3725,7 @@
         zh: "10/P1 ZH 1"
         ja: "10/P1 JA 1"
         culture_invariant_id: 668
-        sort_number: -25
+        sort_number: -26
       rarity: special
       illustrator: "Hadjie Joos"
   lore: 1
@@ -4124,12 +3762,6 @@
       name: "イズマ"
       title: "錬金術師"
       flavour: "「お前の意見が必要な時は、そう言うわよ！」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "$undefined"
-      text: 
-        en: "$undefined"
   franchise_id: "the-emperors-new-groove"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Yzma-Alchemist"
@@ -4148,7 +3780,7 @@
         zh: "61/204 ZH 1"
         ja: "61/204 JA 1"
         culture_invariant_id: 61
-        sort_number: -183
+        sort_number: -184
       rarity: rare
       illustrator: "Koni"
   lore: 2
@@ -4184,19 +3816,6 @@
       name: "ゼウス"
       title: "稲妻の神"
       flavour: "「小さな稲妻一振りで実に多くの問題を解決できるぞ」"
-  abilities: 
-    - type: static
-      title: 
-        en: "challenger"
-      text: 
-        en: "**Challenger** +4 (_When challenging, this character get +43 {S}._)"
-      ability: "challenger"
-    - type: static
-      title: 
-        en: "rush"
-      text: 
-        en: "_(This character can challenge the turn they're played.)_"
-      ability: "rush"
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Zeus-God-of-Lightning"
@@ -4215,7 +3834,7 @@
         zh: "62/204 ZH 1"
         ja: "62/204 JA 1"
         culture_invariant_id: 62
-        sort_number: -182
+        sort_number: -183
       rarity: uncommon
       illustrator: "Kendall Hale"
   cost: 1
@@ -4245,12 +3864,6 @@
       name: "うろたえるのじゃ！"
       title: ""
       flavour: "「時にはビックリ仰天するのもいいもんじゃよ！」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Befuddle"
-      text: 
-        en: "Return a character or item with cost 2 or less to their player's hand."
   franchise_id: "the-sword-in-the-stone"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Befuddle"
@@ -4269,7 +3882,7 @@
         zh: "63/204 ZH 1"
         ja: "63/204 JA 1"
         culture_invariant_id: 63
-        sort_number: -181
+        sort_number: -182
       rarity: common
       illustrator: "Cristian Romero"
   cost: 2
@@ -4299,12 +3912,6 @@
       name: "凍りなさい"
       title: ""
       flavour: "頭を冷やした方がいいわね。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Freeze"
-      text: 
-        en: "Exert chosen opposing character."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Freeze"
@@ -4323,7 +3930,7 @@
         zh: "64/204 ZH 1"
         ja: "64/204 JA 1"
         culture_invariant_id: 64
-        sort_number: -180
+        sort_number: -181
       rarity: common
       illustrator: "Amber Kommavongsa"
   cost: 3
@@ -4359,12 +3966,6 @@
       name: "FRIENDS ON THE OTHER SIDE"
       title: ""
       flavour: "カードだ カードだ カードは語る…"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Friends On The Other Side"
-      text: 
-        en: "Draw 2 cards."
   franchise_id: "the-princess-and-the-frog"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Friends-on-the-Other-Side"
@@ -4383,7 +3984,7 @@
         zh: "65/204 ZH 1"
         ja: "65/204 JA 1"
         culture_invariant_id: 65
-        sort_number: -179
+        sort_number: -180
       rarity: uncommon
       illustrator: "Kevin Hong"
   cost: 1
@@ -4419,12 +4020,6 @@
       name: "REFLECTION"
       title: ""
       flavour: "本当の私 いつの日か 必ず映る いつの日か"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Reflection"
-      text: 
-        en: "Look at the top 3 cards of your deck. Put them back on the top of your deck in any order."
   franchise_id: "mulan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Reflection"
@@ -4443,7 +4038,7 @@
         zh: "66/204 ZH 1"
         ja: "66/204 JA 1"
         culture_invariant_id: 66
-        sort_number: -178
+        sort_number: -179
       rarity: rare
       illustrator: "Andrew Trabbold"
     - set: fab
@@ -4457,7 +4052,7 @@
         zh: "65/204 ZH 9"
         ja: "65/204 JA 9"
         culture_invariant_id: 2001
-        sort_number: -2144
+        sort_number: -2150
       rarity: uncommon
       illustrator: "Andrew Trabbold"
   cost: 2
@@ -4491,12 +4086,6 @@
       name: "魔法の鏡"
       title: ""
       flavour: "「何をお聞きになりたいのですか…？」"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Speak"
-      text: 
-        en: "{E}, 4 {I} - Draw a card."
   franchise_id: "snow-white-and-the-seven-dwarfs"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Magic-Mirror"
@@ -4516,7 +4105,7 @@
         zh: "67/204 ZH 1"
         ja: "67/204 JA 1"
         culture_invariant_id: 67
-        sort_number: -177
+        sort_number: -178
       rarity: uncommon
       illustrator: "Oleg Yurkov"
   cost: 2
@@ -4550,12 +4139,6 @@
       name: "アースラの大釜"
       title: ""
       flavour: "魔法薬を煎じたり、声を奪ったりするのにバッチリ。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Peer Into The Depths"
-      text: 
-        en: "{E} − Look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ursulas-Cauldron"
@@ -4574,7 +4157,7 @@
         zh: "68/204 ZH 1"
         ja: "68/204 JA 1"
         culture_invariant_id: 68
-        sort_number: -176
+        sort_number: -177
       rarity: rare
       illustrator: "Kamil Murzyn"
     - set: fab
@@ -4588,7 +4171,7 @@
         zh: "66/204 ZH 9"
         ja: "66/204 JA 9"
         culture_invariant_id: 2002
-        sort_number: -2143
+        sort_number: -2149
       rarity: rare
       illustrator: "Kamil Murzyn"
   cost: 3
@@ -4622,12 +4205,6 @@
       name: "白うさぎの懐中時計"
       title: ""
       flavour: "「遅れるのが当り前さ。だって、この時計はちょうど二日遅れてるんだ」\n― マッドハッター"
-  abilities: 
-    - type: activated
-      title: 
-        en: "I'm late!"
-      text: 
-        en: "Chosen character gains **Rush** this turn. _(They can challenge the turn they're played.)_"
   franchise_id: "alice-in-wonderland"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/White-Rabbits-Pocket-Watch"
@@ -4647,7 +4224,7 @@
         zh: "69/204 ZH 1"
         ja: "69/204 JA 1"
         culture_invariant_id: 69
-        sort_number: -175
+        sort_number: -176
       rarity: common
       illustrator: "Lauren Walsh"
     - set: fab
@@ -4661,7 +4238,7 @@
         zh: "92/204 ZH 9"
         ja: "92/204 JA 9"
         culture_invariant_id: 2028
-        sort_number: -2117
+        sort_number: -2123
       rarity: common
       illustrator: "Lauren Walsh"
   lore: 1
@@ -4702,13 +4279,6 @@
       name: "アラジン"
       title: "アリ王子"
       flavour: "驚天動地の億万長者。\n治外法権の特権階級。\n正真正銘のニセモノ。"
-  abilities: 
-    - type: static
-      title: 
-        en: "ward"
-      text: 
-        en: "_(Opponents can't choose this character except to challenge.)_"
-      ability: "ward"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Prince-Ali"
@@ -4728,7 +4298,7 @@
         zh: "70/204 ZH 1"
         ja: "70/204 JA 1"
         culture_invariant_id: 70
-        sort_number: -174
+        sort_number: -175
       rarity: legendary
       illustrator: "Jeff Murchie"
   lore: 2
@@ -4765,18 +4335,6 @@
       name: "野獣"
       title: "狼の天敵"
       flavour: "「一匹残らず引き裂いてやろうか！」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "ROAR"
-      text: 
-        en: "When you play this character, exert all opposing damaged characters."
-    - type: static
-      title: 
-        en: "rush"
-      text: 
-        en: "_(This character can challenge the turn they're played.)_"
-      ability: "rush"
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Beast-Wolfsbane"
@@ -4795,7 +4353,7 @@
         zh: "71/204 ZH 1"
         ja: "71/204 JA 1"
         culture_invariant_id: 71
-        sort_number: -173
+        sort_number: -174
       rarity: uncommon
       illustrator: "Caner Soylu"
   lore: 2
@@ -4830,12 +4388,6 @@
       name: "チェシャ猫"
       title: "ヘンテコ"
       flavour: "「もう気付いてるだろう？もちろんこの私だって…」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Lose Something?"
-      text: 
-        en: "When this character is challenged and banished, banish the challenging character."
   franchise_id: "alice-in-wonderland"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cheshire-Cat-Not-All-There"
@@ -4854,7 +4406,7 @@
         zh: "72/204 ZH 1"
         ja: "72/204 JA 1"
         culture_invariant_id: 72
-        sort_number: -172
+        sort_number: -173
       rarity: rare
       illustrator: "Nicholas Kole"
     - set: p1
@@ -4904,12 +4456,6 @@
       name: "クルエラ"
       title: "いつだって腐りどおしよ"
       flavour: "彼女が立ち寄れば、ひどい気分になる。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "YOU'LL BE SORRY"
-      text: 
-        en: "When this character is challenged and banished, you may return chosen character to their player's hand."
   franchise_id: "101-dalmatians"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cruella-De-Vil-Miserable-As-Usual"
@@ -4928,7 +4474,7 @@
         zh: "73/204 ZH 1"
         ja: "73/204 JA 1"
         culture_invariant_id: 73
-        sort_number: -171
+        sort_number: -172
       rarity: common
       illustrator: "R. La Barbera / L. Giammichele"
   lore: 1
@@ -4982,7 +4528,7 @@
         zh: "74/204 ZH 1"
         ja: "74/204 JA 1"
         culture_invariant_id: 74
-        sort_number: -170
+        sort_number: -171
       rarity: uncommon
       illustrator: "Leonardo Giammichele"
   lore: 2
@@ -5019,12 +4565,6 @@
       name: "フリン・ライダー"
       title: "イケてるお尋ね者"
       flavour: "「こんなことしたくないんだけど、他に選択肢がなさそうだ…\n僕の気持ちを理解ってくれ」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Here Comes The Smolder"
-      text: 
-        en: "Whenever this character is challenged, the challenging player chooses and discards a card."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Flynn-Rider-Charming-Rogue"
@@ -5043,7 +4583,7 @@
         zh: "75/204 ZH 1"
         ja: "75/204 JA 1"
         culture_invariant_id: 75
-        sort_number: -169
+        sort_number: -170
       rarity: super_rare
       illustrator: "Giulia Riva"
     - set: tfc
@@ -5057,7 +4597,7 @@
         zh: "209/204 ZH 1"
         ja: "209/204 JA 1"
         culture_invariant_id: 209
-        sort_number: -35
+        sort_number: -36
       rarity: enchanted
       illustrator: "Cristian Romero"
   lore: 2
@@ -5093,18 +4633,6 @@
       name: "ジーニー"
       title: "私はあなたの子分"
       flavour: "「だから アブラカタブラ アカンベー！ちょっといきすぎゃダ・メよー！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: resolution
-      title: 
-        en: "Disappear"
-      text: 
-        en: "When you play this character, you may return chosen character to their player's hand."
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Genie-On-the-Job-V1"
@@ -5123,7 +4651,7 @@
         zh: "76/204 ZH 1"
         ja: "76/204 JA 1"
         culture_invariant_id: 76
-        sort_number: -168
+        sort_number: -169
       rarity: rare
       illustrator: "Javier Salas"
     - set: p1
@@ -5173,24 +4701,6 @@
       name: "ジーニー"
       title: "パワー全開"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Phenomenal Cosmic Power"
-      text: 
-        en: "Whenever this character quests, you may play an action with cost 5 or less for free."
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
-    - type: static
-      title: 
-        en: "Shift 6"
-      text: 
-        en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Genie.)_"
-      ability: "shift"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Genie-Powers-Unleashed"
@@ -5209,7 +4719,7 @@
         zh: "77/204 ZH 1"
         ja: "77/204 JA 1"
         culture_invariant_id: 77
-        sort_number: -167
+        sort_number: -168
       rarity: common
       illustrator: "Matt Chapman"
   lore: 1
@@ -5263,7 +4773,7 @@
         zh: "78/204 ZH 1"
         ja: "78/204 JA 1"
         culture_invariant_id: 78
-        sort_number: -166
+        sort_number: -167
       rarity: rare
       illustrator: "Massimiliano Narciso"
   lore: 3
@@ -5318,7 +4828,7 @@
         zh: "79/204 ZH 1"
         ja: "79/204 JA 1"
         culture_invariant_id: 79
-        sort_number: -165
+        sort_number: -166
       rarity: common
       illustrator: "Isaiah Mesq"
   lore: 1
@@ -5376,7 +4886,7 @@
         zh: "80/204 ZH 1"
         ja: "80/204 JA 1"
         culture_invariant_id: 80
-        sort_number: -164
+        sort_number: -165
       rarity: rare
       illustrator: "Brian Weisz"
   lore: 1
@@ -5412,12 +4922,6 @@
       name: "イアーゴ"
       title: "やかましいオウム"
       flavour: ""
-  abilities: 
-    - type: activated
-      title: 
-        en: "YOU GOT A PROBLEM?"
-      text: 
-        en: "{E} − Chosen character gains **Reckless** during their next turn. _(They can't quest and must challenge if able.)_"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Iago-Loud-Mouthed-Parrot"
@@ -5436,7 +4940,7 @@
         zh: "81/204 ZH 1"
         ja: "81/204 JA 1"
         culture_invariant_id: 81
-        sort_number: -163
+        sort_number: -164
       rarity: uncommon
       illustrator: "Jochem Van Gool"
   lore: 1
@@ -5476,12 +4980,6 @@
       name: "ジャスパー"
       title: "ちんけなチンピラ"
       flavour: "「弱気を起こすんじゃねえホーレス、やるって決めたらバッチリやるで」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Puppynapping"
-      text: 
-        en: "Whenever this character quests, chosen opposing character can't quest during their next turn."
   franchise_id: "101-dalmatians"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jasper-Common-Crook"
@@ -5500,7 +4998,7 @@
         zh: "82/204 ZH 1"
         ja: "82/204 JA 1"
         culture_invariant_id: 82
-        sort_number: -162
+        sort_number: -163
       rarity: legendary
       illustrator: "Jared Nickerl"
     - set: fab
@@ -5514,7 +5012,7 @@
         zh: "89/204 ZH 9"
         ja: "89/204 JA 9"
         culture_invariant_id: 2025
-        sort_number: -2120
+        sort_number: -2126
       rarity: legendary
       illustrator: "Duyen Nguyen / Jared Nickerl"
   lore: 2
@@ -5557,17 +5055,6 @@
       name: "ジョン・シルバー"
       title: "宇宙海賊"
       flavour: "「そんなに気味悪がることはねぇぞ…この腕がそんなに珍しいか？」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Pick Your Fights"
-      text: 
-        en: "When you play this character and whenever he quests, chosen opposing character gains **Reckless** during their next turn. _(They can't quest and must challenge if able.)_"
-    - type: static-triggered
-      title: 
-        en: "Pick Your Fights"
-      text: 
-        en: "When you play this character and whenever he quests, chosen opposing character gains **Reckless** during their next turn. _(They can't quest and must challenge if able.)_"
   franchise_id: "treasure-planet"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/John-Silver-Alien-Pirate"
@@ -5587,7 +5074,7 @@
         zh: "83/204 ZH 1"
         ja: "83/204 JA 1"
         culture_invariant_id: 83
-        sort_number: -161
+        sort_number: -162
       rarity: uncommon
       illustrator: "Milica Celikovic"
   lore: 2
@@ -5642,7 +5129,7 @@
         zh: "84/204 ZH 1"
         ja: "84/204 JA 1"
         culture_invariant_id: 84
-        sort_number: -160
+        sort_number: -161
       rarity: rare
       illustrator: "Grace Tran"
     - set: c1
@@ -5670,7 +5157,7 @@
         zh: "69/204 ZH 9"
         ja: "69/204 JA 9"
         culture_invariant_id: 2005
-        sort_number: -2140
+        sort_number: -2146
       rarity: rare
       illustrator: "Grace Tran"
   lore: 3
@@ -5710,18 +5197,6 @@
       name: "クスコ"
       title: "気分屋の王様"
       flavour: "「僕はエメラルドが欲しいって言ったのに、これはどう見ても翡翠だ！君たちいったいどうしちゃったのさ？」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "No Touchy!"
-      text: 
-        en: "When this character is challenged and banished, you may banish the challenging character."
-    - type: static
-      title: 
-        en: "ward"
-      text: 
-        en: "_(Opponents can't choose this character except to challenge.)_"
-      ability: "ward"
   franchise_id: "the-emperors-new-groove"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Kuzco-Temperamental-Emperor"
@@ -5741,7 +5216,7 @@
         zh: "85/204 ZH 1"
         ja: "85/204 JA 1"
         culture_invariant_id: 85
-        sort_number: -159
+        sort_number: -160
       rarity: rare
       illustrator: "Leonardo Giammichele"
   lore: 1
@@ -5777,12 +5252,6 @@
       name: "トレメイン夫人"
       title: "意地悪なまま母"
       flavour: "「仕事が終わったということは、明らかに仕事が足りてないということね」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "DO IT AGAIN!"
-      text: 
-        en: "When you play this character, you may return an action card from your discard to your hand."
   franchise_id: "cinderella"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lady-Tremaine-Wicked-Stepmother"
@@ -5801,7 +5270,7 @@
         zh: "86/204 ZH 1"
         ja: "86/204 JA 1"
         culture_invariant_id: 86
-        sort_number: -158
+        sort_number: -159
       rarity: uncommon
       illustrator: "Rosa la Barbera"
   lore: 3
@@ -5836,12 +5305,6 @@
       name: "マッドハッター"
       title: "親切な主催者"
       flavour: "マッドハッター 「もう少しお茶を飲まんかね？」\nアリス 「私まだ飲んでないわ、だからもう少しというのは変よ」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Tea Party"
-      text: 
-        en: "Whenever this character is challenged, you may draw a card."
   franchise_id: "alice-in-wonderland"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mad-Hatter-Gracious-Host"
@@ -5860,7 +5323,7 @@
         zh: "87/204 ZH 1"
         ja: "87/204 JA 1"
         culture_invariant_id: 87
-        sort_number: -157
+        sort_number: -158
       rarity: common
       illustrator: "Aubrey Archer"
     - set: fab
@@ -5874,7 +5337,7 @@
         zh: "79/204 ZH 9"
         ja: "79/204 JA 9"
         culture_invariant_id: 2015
-        sort_number: -2130
+        sort_number: -2136
       rarity: common
       illustrator: "Aubrey Archer"
   lore: 1
@@ -5914,12 +5377,6 @@
       name: "メグ"
       title: "操りの糸"
       flavour: "「契約は契約よ。でも恋に落ちるなんてどこにも書いてなかったはずだわ」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Wonder Boy"
-      text: 
-        en: "When you play this character, chosen character gets +2 {S} this turn."
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Megara-Pulling-the-Strings"
@@ -5939,7 +5396,7 @@
         zh: "88/204 ZH 1"
         ja: "88/204 JA 1"
         culture_invariant_id: 88
-        sort_number: -156
+        sort_number: -157
       rarity: super_rare
       illustrator: "Alex Accorsi / Kendall Hale"
     - set: tfc
@@ -5953,7 +5410,7 @@
         zh: "210/204 ZH 1"
         ja: "210/204 JA 1"
         culture_invariant_id: 210
-        sort_number: -34
+        sort_number: -35
       rarity: enchanted
       illustrator: "Kendall Hale"
   lore: 2
@@ -5989,18 +5446,6 @@
       name: "ミッキーマウス"
       title: "腕利きの盗賊"
       flavour: "静かなること…何とやら。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 5"
-      text: 
-        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Mickey Mouse.)_"
-      ability: "shift"
-    - type: static-triggered
-      title: 
-        en: "Misdirection"
-      text: 
-        en: "Whenever you play an action, chosen opposing character can't quest during their next turn."
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Artful-Rogue-V1"
@@ -6019,7 +5464,7 @@
         zh: "89/204 ZH 1"
         ja: "89/204 JA 1"
         culture_invariant_id: 89
-        sort_number: -155
+        sort_number: -156
       rarity: common
       illustrator: "Juan Diego Leon"
     - set: fab
@@ -6033,7 +5478,7 @@
         zh: "80/204 ZH 9"
         ja: "80/204 JA 9"
         culture_invariant_id: 2016
-        sort_number: -2129
+        sort_number: -2135
       rarity: common
       illustrator: "Juan Diego León"
     - set: fab
@@ -6047,7 +5492,7 @@
         zh: "231/204 ZH 9"
         ja: "231/204 JA 9"
         culture_invariant_id: 2149
-        sort_number: -1978
+        sort_number: -1984
       rarity: enchanted
       illustrator: "Mariana Moreno"
   lore: 1
@@ -6107,7 +5552,7 @@
         zh: "90/204 ZH 1"
         ja: "90/204 JA 1"
         culture_invariant_id: 90
-        sort_number: -154
+        sort_number: -155
       rarity: super_rare
       illustrator: "Javier Salas"
   lore: 2
@@ -6143,13 +5588,6 @@
       name: "マザー・ゴーテル"
       title: "利己的で支配的"
       flavour: "「もうやだ、<アタシが悪者>って訳ね」"
-  abilities: 
-    - type: static
-      title: 
-        en: "Skip the Drama, Stay with Mama"
-      text: 
-        en: "While this character is exerted, opposing character can't quest."
-      ability: "gain-ability"
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mother-Gothel-Selfish-Manipulator"
@@ -6168,7 +5606,7 @@
         zh: "91/204 ZH 1"
         ja: "91/204 JA 1"
         culture_invariant_id: 91
-        sort_number: -153
+        sort_number: -154
       rarity: common
       illustrator: "Koni"
   lore: 1
@@ -6204,13 +5642,6 @@
       name: "ピーター・パン"
       title: "飛び続けネバーランド"
       flavour: "「どうしたんだよ、フック？飛べないのかい？」"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Peter-Pan-Never-Landing"
@@ -6229,7 +5660,7 @@
         zh: "92/204 ZH 1"
         ja: "92/204 JA 1"
         culture_invariant_id: 92
-        sort_number: -152
+        sort_number: -153
       rarity: uncommon
       illustrator: "Jeff Murchie"
   lore: 1
@@ -6282,7 +5713,7 @@
         zh: "93/204 ZH 1"
         ja: "93/204 JA 1"
         culture_invariant_id: 93
-        sort_number: -151
+        sort_number: -152
       rarity: common
       illustrator: "Caner Soylu"
     - set: fab
@@ -6296,7 +5727,7 @@
         zh: "88/204 ZH 9"
         ja: "88/204 JA 9"
         culture_invariant_id: 2024
-        sort_number: -2121
+        sort_number: -2127
       rarity: common
       illustrator: "Caner Soylu"
   lore: 2
@@ -6337,18 +5768,6 @@
       name: "ティンカー・ベル"
       title: "頼りになるよ"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Pixie Dust"
-      text: 
-        en: "When you play this character, chosen character gains **Evasive** this turn."
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Most-Helpful"
@@ -6368,7 +5787,7 @@
         zh: "94/204 ZH 1"
         ja: "94/204 JA 1"
         culture_invariant_id: 94
-        sort_number: -150
+        sort_number: -151
       rarity: rare
       illustrator: "Ellie Horie"
   cost: 3
@@ -6398,12 +5817,6 @@
       name: "またやるのよ！"
       title: ""
       flavour: "「…次にテラスを洗い階段を掃除し煙突のすすを落とす。もちろん縫い物繕い物洗濯もするんだよ…」\n― トレメイン夫人"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Do It Again!"
-      text: 
-        en: "Return an action card from your discard to your hand."
   franchise_id: "cinderella"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Do-It-Again"
@@ -6422,7 +5835,7 @@
         zh: "95/204 ZH 1"
         ja: "95/204 JA 1"
         culture_invariant_id: 95
-        sort_number: -149
+        sort_number: -150
       rarity: uncommon
       illustrator: "R. La Barbera / L. Giammichele"
     - set: fab
@@ -6436,7 +5849,7 @@
         zh: "99/204 ZH 9"
         ja: "99/204 JA 9"
         culture_invariant_id: 2035
-        sort_number: -2110
+        sort_number: -2116
       rarity: uncommon
       illustrator: "Rosa la Barbera / Leonardo Giammichele"
   cost: 3
@@ -6472,12 +5885,6 @@
       name: "MOTHER KNOWS BEST"
       title: ""
       flavour: "信じなさい お母さまを 外はあぶない"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Mother Knows Best"
-      text: 
-        en: "Return chosen character to their player's hand."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mother-Knows-Best"
@@ -6497,7 +5904,7 @@
         zh: "96/204 ZH 1"
         ja: "96/204 JA 1"
         culture_invariant_id: 96
-        sort_number: -148
+        sort_number: -149
       rarity: common
       illustrator: "Matt Chapman"
   cost: 1
@@ -6527,12 +5934,6 @@
       name: "暴走"
       title: ""
       flavour: "暴走するヌーの大群は荒れ狂う川のようなもの...遠くから眺めるのが一番だ。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Stampede"
-      text: 
-        en: "Deal 2 damage to chosen damaged character."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stampede"
@@ -6551,7 +5952,7 @@
         zh: "97/204 ZH 1"
         ja: "97/204 JA 1"
         culture_invariant_id: 97
-        sort_number: -147
+        sort_number: -148
       rarity: rare
       illustrator: "Hedvig Häggman-Sund"
   cost: 5
@@ -6581,12 +5982,6 @@
       name: "派手に借りるぜ"
       title: ""
       flavour: "「いんちき国王め、こんな上等な錠前にいくら払ったんだか」\n― リトル・ジョン"
-  abilities: 
-    - type: floating-triggered
-      title: 
-        en: "Steal from the Rich"
-      text: 
-        en: "Whenever one of your characters quests this turn, each opponent loses 1 lore."
   franchise_id: "robin-hood"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Steal-From-the-Rich"
@@ -6605,7 +6000,7 @@
         zh: "98/204 ZH 1"
         ja: "98/204 JA 1"
         culture_invariant_id: 98
-        sort_number: -146
+        sort_number: -147
       rarity: common
       illustrator: "Giulia Riva"
     - set: fab
@@ -6619,7 +6014,7 @@
         zh: "95/204 ZH 9"
         ja: "95/204 JA 9"
         culture_invariant_id: 2031
-        sort_number: -2114
+        sort_number: -2120
       rarity: common
       illustrator: "Giulia Riva"
   cost: 2
@@ -6655,12 +6050,6 @@
       name: "背すじがゾクッ！"
       title: ""
       flavour: "クルエラ・デビル  クルエラ・デビル  最高に・怖い女"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Sudden Chill"
-      text: 
-        en: "Each opponent chooses and discards a card."
   franchise_id: "101-dalmatians"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sudden-Chill"
@@ -6680,7 +6069,7 @@
         zh: "99/204 ZH 1"
         ja: "99/204 JA 1"
         culture_invariant_id: 99
-        sort_number: -145
+        sort_number: -146
       rarity: uncommon
       illustrator: "Matthew Robert Davies"
   cost: 3
@@ -6710,12 +6099,6 @@
       name: "野獣は俺がやる！"
       title: ""
       flavour: "「史上最高のハンターこそ、史上最悪の野獣を討ち取るにふさわしい！」\n― ガストン"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "The Beast is Mine!"
-      text: 
-        en: "Chosen character gains **Reckless** during their next turn. _(They can't quest and must challenge if able.)_"
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/The-Beast-Is-Mine"
@@ -6734,7 +6117,7 @@
         zh: "100/204 ZH 1"
         ja: "100/204 JA 1"
         culture_invariant_id: 100
-        sort_number: -144
+        sort_number: -145
       rarity: common
       illustrator: "Michaela Martin"
   cost: 1
@@ -6764,12 +6147,6 @@
       name: "凶悪な裏切り"
       title: ""
       flavour: "「真の王は自らの爪で問題を解決するものだ」\n― スカー"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Vicious Betrayal"
-      text: 
-        en: "Chosen character gets +2 {S} this turn. If a Villain character is chosen, they get +3 {S} instead."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Vicious-Betrayal"
@@ -6788,7 +6165,7 @@
         zh: "101/204 ZH 1"
         ja: "101/204 JA 1"
         culture_invariant_id: 101
-        sort_number: -143
+        sort_number: -144
       rarity: uncommon
       illustrator: "Koni"
   cost: 2
@@ -6818,12 +6195,6 @@
       name: "ファシリエのカード"
       title: ""
       flavour: "「カードだ、カードだ、3枚選べ。見てやろう、お前の未来を！」\n― ファシリエ"
-  abilities: 
-    - type: activated
-      title: 
-        en: "The Cards Will Tell"
-      text: 
-        en: "You pay 1 {I} less for the next action you play this turn."
   franchise_id: "the-princess-and-the-frog"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dr-Faciliers-Cards"
@@ -6842,7 +6213,7 @@
         zh: "102/204 ZH 1"
         ja: "102/204 JA 1"
         culture_invariant_id: 102
-        sort_number: -142
+        sort_number: -143
       rarity: common
       illustrator: "Kendall Hale"
   cost: 2
@@ -6872,12 +6243,6 @@
       name: "失敬したシミター"
       title: ""
       flavour: "時には手に入れられるもので何とかしなくちゃならないこともある。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Slash"
-      text: 
-        en: "Chosen character get +1 {S} this turn. If a character named Aladdin is chosen, he gets +2 {S} instead."
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Stolen-Scimitar"
@@ -6896,7 +6261,7 @@
         zh: "103/204 ZH 1"
         ja: "103/204 JA 1"
         culture_invariant_id: 103
-        sort_number: -141
+        sort_number: -142
       rarity: common
       illustrator: "Oleg Yurkov"
   lore: 2
@@ -6950,7 +6315,7 @@
         zh: "104/204 ZH 1"
         ja: "104/204 JA 1"
         culture_invariant_id: 104
-        sort_number: -140
+        sort_number: -141
       rarity: super_rare
       illustrator: "Nicholas Kole"
     - set: tfc
@@ -6964,7 +6329,7 @@
         zh: "211/204 ZH 1"
         ja: "211/204 JA 1"
         culture_invariant_id: 211
-        sort_number: -33
+        sort_number: -34
       rarity: enchanted
       illustrator: "Massimiliano Narciso"
   lore: 2
@@ -7000,18 +6365,6 @@
       name: "アラジン"
       title: "無法の英雄"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Daring Exploit"
-      text: 
-        en: "During your turn, whenever this character banishes another character in a challenge, you gain 2 lore and each opponent loses 2 lore."
-    - type: static
-      title: 
-        en: "Shift 5"
-      text: 
-        en: "**Shift** 5 _(You may pay 5 {I} to play this on top of one of your characters named Aladdin.)_"
-      ability: "shift"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Heroic-Outlaw-V1"
@@ -7030,7 +6383,7 @@
         zh: "105/204 ZH 1"
         ja: "105/204 JA 1"
         culture_invariant_id: 105
-        sort_number: -139
+        sort_number: -140
       rarity: common
       illustrator: "Peter Brockhammer"
   lore: 1
@@ -7066,12 +6419,6 @@
       name: "アラジン"
       title: "ドブネズミ"
       flavour: "ある人が実はダイヤの原石なのか、それともただのその辺の石ころなのかを見分けるのは難しいものさ。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "IMPROVISE"
-      text: 
-        en: "When you play this character each opponent loses 1 lore."
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aladdin-Street-Rat"
@@ -7090,7 +6437,7 @@
         zh: "106/204 ZH 1"
         ja: "106/204 JA 1"
         culture_invariant_id: 106
-        sort_number: -138
+        sort_number: -139
       rarity: uncommon
       illustrator: "Brian Weisz"
   lore: 1
@@ -7145,7 +6492,7 @@
         zh: "107/204 ZH 1"
         ja: "107/204 JA 1"
         culture_invariant_id: 107
-        sort_number: -137
+        sort_number: -138
       rarity: rare
       illustrator: "Cam Kendell"
   lore: 2
@@ -7183,19 +6530,6 @@
       name: "フック船長"
       title: "冷酷な海賊"
       flavour: "「このフックと戦うのがこわいのか、一対一では！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "rush"
-      text: 
-        en: "_(This character can challenge the turn they're played.)_"
-      ability: "rush"
-    - type: static
-      title: 
-        en: "You Coward!"
-      text: 
-        en: "While this character is exerted, opposing characters with **Evasive** gain **Reckless**. _(They can't quest and must challenge if able.)_"
-      ability: "gain-ability"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Ruthless-Pirate"
@@ -7214,7 +6548,7 @@
         zh: "108/204 ZH 1"
         ja: "108/204 JA 1"
         culture_invariant_id: 108
-        sort_number: -136
+        sort_number: -137
       rarity: uncommon
       illustrator: "Kenneth Anderson"
   lore: 1
@@ -7271,7 +6605,7 @@
         zh: "109/204 ZH 1"
         ja: "109/204 JA 1"
         culture_invariant_id: 109
-        sort_number: -135
+        sort_number: -136
       rarity: common
       illustrator: "Alice Pisoni / Whitney Pollett"
   lore: 1
@@ -7313,12 +6647,6 @@
       name: "エルサ"
       title: "アイスサーファー"
       flavour: "「あの子はいつも私のそばにいてくれた。私もあの子のそばにいなきゃ」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "THAT'S NO BLIZZARD"
-      text: 
-        en: "Whenever you play a character named Anna, ready this character. This character can't quest for the rest of this turn."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Elsa-Ice-Surfer"
@@ -7337,7 +6665,7 @@
         zh: "110/204 ZH 1"
         ja: "110/204 JA 1"
         culture_invariant_id: 110
-        sort_number: -134
+        sort_number: -135
       rarity: common
       illustrator: "Matthew Robert Davies"
     - set: p1
@@ -7351,7 +6679,7 @@
         zh: "24/P1 ZH 1"
         ja: "24/P1 JA 1"
         culture_invariant_id: 682
-        sort_number: -21
+        sort_number: -22
       rarity: special
       illustrator: "Matthew Robert Davies"
     - set: fab
@@ -7365,7 +6693,7 @@
         zh: "115/204 ZH 9"
         ja: "115/204 JA 9"
         culture_invariant_id: 2051
-        sort_number: -2094
+        sort_number: -2100
       rarity: common
       illustrator: "Matthew Robert Davies"
   lore: 0
@@ -7405,13 +6733,6 @@
       name: "ガストン"
       title: "尊大なハンター"
       flavour: "尊大じゃあないさ、<実際に世界一>なんだからな。"
-  abilities: 
-    - type: static
-      title: 
-        en: "reckless"
-      text: 
-        en: "_(This character can't quest and must challenge each turn if able.)_"
-      ability: "reckless"
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Gaston-Arrogant-Hunter"
@@ -7431,7 +6752,7 @@
         zh: "111/204 ZH 1"
         ja: "111/204 JA 1"
         culture_invariant_id: 111
-        sort_number: -133
+        sort_number: -134
       rarity: common
       illustrator: "Kenneth Anderson"
   lore: 2
@@ -7467,13 +6788,6 @@
       name: "グーフィー"
       title: "向こう見ず"
       flavour: "時にはジャンプ＆アッヒョもしなくちゃなんない。"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Goofy-Daredevil"
@@ -7492,7 +6806,7 @@
         zh: "112/204 ZH 1"
         ja: "112/204 JA 1"
         culture_invariant_id: 112
-        sort_number: -132
+        sort_number: -133
       rarity: rare
       illustrator: "Gaku Kumatori"
     - set: fab
@@ -7506,7 +6820,7 @@
         zh: "103/204 ZH 9"
         ja: "103/204 JA 9"
         culture_invariant_id: 2039
-        sort_number: -2106
+        sort_number: -2112
       rarity: uncommon
       illustrator: "Gaku Kumatori"
   lore: 1
@@ -7546,12 +6860,6 @@
       name: "ル・フウ"
       title: "あおり屋"
       flavour: "鼠一匹で大山鳴動す。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Fan the Flames"
-      text: 
-        en: "When you play this character, ready chosen character. They can't quest for the rest of this turn."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Lefou-Instigator"
@@ -7571,7 +6879,7 @@
         zh: "113/204 ZH 1"
         ja: "113/204 JA 1"
         culture_invariant_id: 113
-        sort_number: -131
+        sort_number: -132
       rarity: legendary
       illustrator: "Luis Huerta"
     - set: p1
@@ -7597,7 +6905,7 @@
         zh: "108/204 ZH 9"
         ja: "108/204 JA 9"
         culture_invariant_id: 2044
-        sort_number: -2101
+        sort_number: -2107
       rarity: legendary
       illustrator: "Luis Huerta"
     - set: p3
@@ -7611,7 +6919,7 @@
         zh: "4/P3 ZH 9"
         ja: "4/P3 JA 9"
         culture_invariant_id: 2182
-        sort_number: -1959
+        sort_number: -1963
       rarity: special
       illustrator: "Cristian Romero"
     - set: p3
@@ -7625,8 +6933,8 @@
         zh: "5/P3 ZH 9"
         ja: "5/P3 JA 9"
         culture_invariant_id: 2183
-        sort_number: -1958
-      rarity: enchanted
+        sort_number: -1962
+      rarity: special
       illustrator: "Cristian Romero"
     - set: fab
       id: 108
@@ -7639,7 +6947,7 @@
         zh: "108/204 ZH 9"
         ja: "108/204 JA 9"
         culture_invariant_id: 2044
-        sort_number: -2101
+        sort_number: -2107
       rarity: legendary
       illustrator: "Luis Huerta"
   lore: 2
@@ -7680,12 +6988,6 @@
       name: "マレフィセント"
       title: "怪物ドラゴン"
       flavour: "<悪役のルールその９>：他の何もかもが失敗したら、ドラゴンに変身するべし。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Dragon Fire"
-      text: 
-        en: "When you play this character, you may banish chosen character."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maleficent-Monstrous-Dragon"
@@ -7705,7 +7007,7 @@
         zh: "114/204 ZH 1"
         ja: "114/204 JA 1"
         culture_invariant_id: 114
-        sort_number: -130
+        sort_number: -131
       rarity: rare
       illustrator: "Pirel / Marco Giorgianni"
     - set: tfc
@@ -7719,7 +7021,7 @@
         zh: "212/204 ZH 1"
         ja: "212/204 JA 1"
         culture_invariant_id: 212
-        sort_number: -32
+        sort_number: -33
       rarity: enchanted
       illustrator: "Pirel / Stefano Zanchi"
   lore: 0
@@ -7756,19 +7058,6 @@
       name: "マウイ"
       title: "みんなの英雄"
       flavour: "「お前が言おうとしてたのは『ありがとう』だろ。ユーアーウェルカム！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "rush"
-      text: 
-        en: "_(This character can challenge the turn they're played.)_"
-      ability: "rush"
-    - type: static
-      title: 
-        en: "reckless"
-      text: 
-        en: "_(This character can't quest and must challenge each turn if able.)_"
-      ability: "reckless"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maui-Hero-to-All-V1"
@@ -7787,7 +7076,7 @@
         zh: "115/204 ZH 1"
         ja: "115/204 JA 1"
         culture_invariant_id: 115
-        sort_number: -129
+        sort_number: -130
       rarity: legendary
       illustrator: "Nicholas Kole"
     - set: p1
@@ -7877,13 +7166,6 @@
       name: "ミッキーマウス"
       title: "ブレイブ・リトル・テイラー"
       flavour: "たとえハタ色が悪くても、堂々と胸をはり、骨をおるのもいとわず、切ったはったに打って出て、勝利の糸口を手繰り寄せるサイホーのヒーロー。"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Brave-Little-Tailor"
@@ -7902,7 +7184,7 @@
         zh: "116/204 ZH 1"
         ja: "116/204 JA 1"
         culture_invariant_id: 116
-        sort_number: -128
+        sort_number: -129
       rarity: common
       illustrator: "Kenneth Anderson"
   lore: 1
@@ -7960,7 +7242,7 @@
         zh: "117/204 ZH 1"
         ja: "117/204 JA 1"
         culture_invariant_id: 117
-        sort_number: -127
+        sort_number: -128
       rarity: uncommon
       illustrator: "Tanisha Cherislin"
   lore: 2
@@ -7997,12 +7279,6 @@
       name: "モアナ"
       title: "海に選ばれし者"
       flavour: "「本当の自分を決められるのはあなただけよ」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "THIS IS NOT WHO YOU ARE"
-      text: 
-        en: "When you play this character, you may banish chosen character named Te Ka."
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Moana-Chosen-by-the-Ocean"
@@ -8021,7 +7297,7 @@
         zh: "118/204 ZH 1"
         ja: "118/204 JA 1"
         culture_invariant_id: 118
-        sort_number: -126
+        sort_number: -127
       rarity: super_rare
       illustrator: "Mel Milton"
   lore: 1
@@ -8058,12 +7334,6 @@
       name: "ムーラン"
       title: "帝国の兵士"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Lead by example"
-      text: 
-        en: "During your turn, whenever this character banishes another character in a challenge, your other characters get +1 {L} this turn."
   franchise_id: "mulan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mulan-Imperial-Soldier-V1"
@@ -8082,7 +7352,7 @@
         zh: "119/204 ZH 1"
         ja: "119/204 JA 1"
         culture_invariant_id: 119
-        sort_number: -125
+        sort_number: -126
       rarity: common
       illustrator: "Anh Dang"
   lore: 1
@@ -8118,13 +7388,6 @@
       name: "ピーター・パン"
       title: "恐れ知らずの戦士"
       flavour: "「ぼくを臆病と言った以上生かしてはおけない！一対一で戦ってやる、しかも左手を使わずに！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "rush"
-      text: 
-        en: "_(This character can challenge the turn they're played.)_"
-      ability: "rush"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Peter-Pan-Fearless-Fighter"
@@ -8143,7 +7406,7 @@
         zh: "120/204 ZH 1"
         ja: "120/204 JA 1"
         culture_invariant_id: 120
-        sort_number: -124
+        sort_number: -125
       rarity: common
       illustrator: "Brian Weisz"
   lore: 2
@@ -8179,13 +7442,6 @@
       name: "ポンゴ"
       title: "いたずら者"
       flavour: "「最初のきっかけを作るのはそうカンタンなことじゃない。まあ、こんなところかな」"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: "101-dalmatians"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Pongo-Ol-Rascal"
@@ -8204,7 +7460,7 @@
         zh: "121/204 ZH 1"
         ja: "121/204 JA 1"
         culture_invariant_id: 121
-        sort_number: -123
+        sort_number: -124
       rarity: uncommon
       illustrator: "Clio Wolfensberger"
     - set: fab
@@ -8218,7 +7474,7 @@
         zh: "124/204 ZH 9"
         ja: "124/204 JA 9"
         culture_invariant_id: 2060
-        sort_number: -2085
+        sort_number: -2091
       rarity: common
       illustrator: "Clio Wolfensberger"
   lore: 2
@@ -8259,12 +7515,6 @@
       name: "ラプンツェル"
       title: "髪の毛をおろして"
       flavour: "「あなたはだれ？それにどうやって私を見つけたの？」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Tangle"
-      text: 
-        en: "When you play this character, each opponent loses 1 lore."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Rapunzel-Letting-Down-Her-Hair"
@@ -8284,7 +7534,7 @@
         zh: "122/204 ZH 1"
         ja: "122/204 JA 1"
         culture_invariant_id: 122
-        sort_number: -122
+        sort_number: -123
       rarity: common
       illustrator: "Amber Kommavongsa"
   lore: 1
@@ -8342,7 +7592,7 @@
         zh: "123/204 ZH 1"
         ja: "123/204 JA 1"
         culture_invariant_id: 123
-        sort_number: -121
+        sort_number: -122
       rarity: rare
       illustrator: "Jenna Gray"
   lore: 1
@@ -8379,18 +7629,6 @@
       name: "スカー"
       title: "恥知らずな煽り屋"
       flavour: "「今こそ俺たちの望むものを手に入れるのだ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "Shift 6"
-      text: 
-        en: "**Shift** 6 _(You may pay 6 {I} to play this on top of one of your characters named Scar.)_"
-      ability: "shift"
-    - type: resolution
-      title: 
-        en: "ROUSING SPEECH"
-      text: 
-        en: "When you play this character, ready your characters with cost 3 or less. They can't quest for the rest of this turn"
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Scar-Shameless-Firebrand"
@@ -8409,7 +7647,7 @@
         zh: "124/204 ZH 1"
         ja: "124/204 JA 1"
         culture_invariant_id: 124
-        sort_number: -120
+        sort_number: -121
       rarity: common
       illustrator: "Cory Godbey"
     - set: fab
@@ -8423,7 +7661,7 @@
         zh: "128/204 ZH 9"
         ja: "128/204 JA 9"
         culture_invariant_id: 2064
-        sort_number: -2081
+        sort_number: -2087
       rarity: common
       illustrator: "Cory Godbey"
   lore: 1
@@ -8482,7 +7720,7 @@
         zh: "125/204 ZH 1"
         ja: "125/204 JA 1"
         culture_invariant_id: 125
-        sort_number: -119
+        sort_number: -120
       rarity: rare
       illustrator: "Bill Robinson"
     - set: p1
@@ -8555,7 +7793,7 @@
         zh: "126/204 ZH 1"
         ja: "126/204 JA 1"
         culture_invariant_id: 126
-        sort_number: -118
+        sort_number: -119
       rarity: super_rare
       illustrator: "Kamil Murzyn"
   lore: 0
@@ -8596,13 +7834,6 @@
       name: "テ・カァ"
       title: "焦熱のもの"
       flavour: "彼女はかつて盗まれたものに焦がれている。"
-  abilities: 
-    - type: static
-      title: 
-        en: "reckless"
-      text: 
-        en: "_(This character can't quest and must challenge each turn if able.)_"
-      ability: "reckless"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Te-K-The-Burning-One"
@@ -8621,7 +7852,7 @@
         zh: "127/204 ZH 1"
         ja: "127/204 JA 1"
         culture_invariant_id: 127
-        sort_number: -117
+        sort_number: -118
       rarity: uncommon
       illustrator: "Kenneth Anderson"
   lore: 2
@@ -8661,13 +7892,6 @@
       name: "ティガー"
       title: "世界一のオレ様"
       flavour: "「オレ様のピョンピョントントンは世界一！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "evasive"
-      text: 
-        en: "_(Only characters with Evasive can challenge this character.)_"
-      ability: "evasive"
   franchise_id: "winnie-the-pooh"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tigger-Wonderful-Thing"
@@ -8686,7 +7910,7 @@
         zh: "128/204 ZH 1"
         ja: "128/204 JA 1"
         culture_invariant_id: 128
-        sort_number: -116
+        sort_number: -117
       rarity: rare
       illustrator: "Jared Nickerl"
   cost: 7
@@ -8718,12 +7942,6 @@
       name: "BE PREPARED"
       title: ""
       flavour: "世紀のどんでん返し 裏切者にご用心！"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Be Prepared"
-      text: 
-        en: "Banish all characters."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Be-Prepared"
@@ -8742,7 +7960,7 @@
         zh: "129/204 ZH 1"
         ja: "129/204 JA 1"
         culture_invariant_id: 129
-        sort_number: -115
+        sort_number: -116
       rarity: uncommon
       illustrator: "Ellie Horie"
   cost: 2
@@ -8772,12 +7990,6 @@
       name: "単刀直入"
       title: ""
       flavour: "「サプラーイズ！」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Cut to the Chase"
-      text: 
-        en: "Chosen character gains **Rush** this turn. _(They can challenge the turn they're played.)_"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Cut-to-the-Chase"
@@ -8796,7 +8008,7 @@
         zh: "130/204 ZH 1"
         ja: "130/204 JA 1"
         culture_invariant_id: 130
-        sort_number: -114
+        sort_number: -115
       rarity: uncommon
       illustrator: "Luis Huerta"
     - set: p1
@@ -8834,10 +8046,10 @@
         fr: ""
         de: ""
         it: ""
-        zh: ""
-        ja: ""
-        culture_invariant_id: -1
-        sort_number: -1
+        zh: "9/C2 ZH 1"
+        ja: "9/C2 JA 1"
+        culture_invariant_id: 2459
+        sort_number: -2
       rarity: special
       illustrator: "Luis Huerta"
     - set: whi
@@ -8851,7 +8063,7 @@
         zh: "133/204 ZH 10"
         ja: "133/204 JA 10"
         culture_invariant_id: 2322
-        sort_number: -2330
+        sort_number: -2336
       rarity: common
       illustrator: "David Otalora / Xavi Planas"
   cost: 5
@@ -8885,12 +8097,6 @@
       name: "ドラゴンの炎"
       title: ""
       flavour: "ドラゴンの怒りに耐えられる英雄などほとんどいない。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Dragon Fire"
-      text: 
-        en: "Banish chosen character."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Dragon-Fire"
@@ -8909,7 +8115,7 @@
         zh: "131/204 ZH 1"
         ja: "131/204 JA 1"
         culture_invariant_id: 131
-        sort_number: -113
+        sort_number: -114
       rarity: uncommon
       illustrator: "Jenna Gray"
   cost: 1
@@ -8939,12 +8145,6 @@
       name: "そそっかしいそそのかし"
       title: ""
       flavour: "言葉には魂が宿る。悪党の言葉には「騙し」が宿る。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Fan The Flames"
-      text: 
-        en: "Ready chosen character. They can't quest for the rest of this turn."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Fan-the-Flames"
@@ -8963,7 +8163,7 @@
         zh: "132/204 ZH 1"
         ja: "132/204 JA 1"
         culture_invariant_id: 132
-        sort_number: -112
+        sort_number: -113
       rarity: common
       illustrator: "Koni"
   cost: 1
@@ -8997,12 +8197,6 @@
       name: "刀を持ってるぞ！"
       title: ""
       flavour: "「わしらも<持ってる>だろうが！」\n― ラズール"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "He's Got a Sword!"
-      text: 
-        en: "Chosen character gets +2 {S} this turn."
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hes-Got-a-Sword"
@@ -9021,7 +8215,7 @@
         zh: "133/204 ZH 1"
         ja: "133/204 JA 1"
         culture_invariant_id: 133
-        sort_number: -111
+        sort_number: -112
       rarity: common
       illustrator: "Eri Welli"
   cost: 2
@@ -9051,12 +8245,6 @@
       name: "からみつき"
       title: ""
       flavour: "「そこを動かないで！ええと、あなたには選択の余地はなさそうだけど。それでも！動かないで！」\n― ラプンツェル"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Tangle"
-      text: 
-        en: "Each opponent loses 1 lore."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tangle"
@@ -9075,7 +8263,7 @@
         zh: "134/204 ZH 1"
         ja: "134/204 JA 1"
         culture_invariant_id: 134
-        sort_number: -110
+        sort_number: -111
       rarity: rare
       illustrator: "Andrew Trabbold"
   cost: 3
@@ -9105,12 +8293,6 @@
       name: "毒リンゴ"
       title: ""
       flavour: "「毒のリンゴをひとくち噛めば、そのまま目を閉じ永遠に眠り…」\n― 女王"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Poisoned Apple"
-      text: 
-        en: "Banish this item − Exert chosen character. If a Princess character is chosen, banish her instead."
   franchise_id: "snow-white-and-the-seven-dwarfs"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Poisoned-Apple"
@@ -9129,7 +8311,7 @@
         zh: "135/204 ZH 1"
         ja: "135/204 JA 1"
         culture_invariant_id: 135
-        sort_number: -109
+        sort_number: -110
       rarity: uncommon
       illustrator: "Eri Welli"
   cost: 1
@@ -9163,12 +8345,6 @@
       name: "美徳の盾"
       title: ""
       flavour: "「あなたに武器を差し上げましょう。美徳の盾と、真実の剣です。この正義の武器で必ずや悪に打ち勝つでしょう」\n― フローラ"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Fireproof"
-      text: 
-        en: "Ready chosen character. They can't quest for the rest of this turn."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Shield-of-Virtue"
@@ -9187,7 +8363,7 @@
         zh: "136/204 ZH 1"
         ja: "136/204 JA 1"
         culture_invariant_id: 136
-        sort_number: -108
+        sort_number: -109
       rarity: rare
       illustrator: "Andrew Trabbold"
   cost: 4
@@ -9217,12 +8393,6 @@
       name: "真実の剣"
       title: ""
       flavour: "「真実の愛の口づけ」に匹敵する威力。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Final Enchantment"
-      text: 
-        en: "Banish this item − Banish chosen Villain character."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Sword-of-Truth"
@@ -9241,7 +8411,7 @@
         zh: "137/204 ZH 1"
         ja: "137/204 JA 1"
         culture_invariant_id: 137
-        sort_number: -107
+        sort_number: -108
       rarity: rare
       illustrator: "Hedvig Häggman-Sund"
   lore: 1
@@ -9278,12 +8448,6 @@
       name: "アリエル"
       title: "沈品収集家"
       flavour: "「ねえ、これ欲しい？20個もあるの」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Look at This Stuff"
-      text: 
-        en: "Whenever you play an item, you may ready this character."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ariel-Whoseit-Collector"
@@ -9302,7 +8466,7 @@
         zh: "138/204 ZH 1"
         ja: "138/204 JA 1"
         culture_invariant_id: 138
-        sort_number: -106
+        sort_number: -107
       rarity: common
       illustrator: "Rosalia Radosti"
   lore: 1
@@ -9339,12 +8503,6 @@
       name: "オーロラ"
       title: "ブライア・ローズ"
       flavour: "「あの声には何だか…不思議な魅力がある。人間にしては美しすぎる…」\n― フィリップ王子"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "DISTURBING BEAUTY"
-      text: 
-        en: "When you play this character, chosen character gets -2 {S} this turn."
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aurora-Briar-Rose"
@@ -9363,7 +8521,7 @@
         zh: "139/204 ZH 1"
         ja: "139/204 JA 1"
         culture_invariant_id: 139
-        sort_number: -105
+        sort_number: -106
       rarity: super_rare
       illustrator: "Nicholas Kole"
     - set: tfc
@@ -9377,7 +8535,7 @@
         zh: "213/204 ZH 1"
         ja: "213/204 JA 1"
         culture_invariant_id: 213
-        sort_number: -31
+        sort_number: -32
       rarity: enchanted
       illustrator: "Clio Wolfensberger"
     - set: fab
@@ -9391,7 +8549,7 @@
         zh: "153/204 ZH 9"
         ja: "153/204 JA 9"
         culture_invariant_id: 2089
-        sort_number: -2056
+        sort_number: -2062
       rarity: super_rare
       illustrator: "Nicholas Kole"
   lore: 2
@@ -9432,19 +8590,6 @@
       name: "オーロラ"
       title: "夢見る守護者"
       flavour: "眠りの中で、その力は目覚めた。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Protective Embrace"
-      text: 
-        en: "Your other characters gain **Ward**. _(Opponents can't choose them except to challenge.)_"
-      ability: "gain-ability"
-    - type: static
-      title: 
-        en: "Shift 3"
-      text: 
-        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Aurora.)_"
-      ability: "shift"
   franchise_id: "sleeping-beauty"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Aurora-Dreaming-Guardian-V1"
@@ -9464,7 +8609,7 @@
         zh: "140/204 ZH 1"
         ja: "140/204 JA 1"
         culture_invariant_id: 140
-        sort_number: -104
+        sort_number: -105
       rarity: uncommon
       illustrator: "Samanta Erdini"
     - set: fab
@@ -9478,7 +8623,7 @@
         zh: "161/204 ZH 9"
         ja: "161/204 JA 9"
         culture_invariant_id: 2097
-        sort_number: -2048
+        sort_number: -2054
       rarity: uncommon
       illustrator: "Samanta Erdini"
   lore: 2
@@ -9538,7 +8683,7 @@
         zh: "141/204 ZH 1"
         ja: "141/204 JA 1"
         culture_invariant_id: 141
-        sort_number: -103
+        sort_number: -104
       rarity: uncommon
       illustrator: "Gabriel Romero"
     - set: fab
@@ -9552,7 +8697,7 @@
         zh: "156/204 ZH 9"
         ja: "156/204 JA 9"
         culture_invariant_id: 2092
-        sort_number: -2053
+        sort_number: -2059
       rarity: uncommon
       illustrator: "Gabriel Romero / Pix Smith"
   lore: 2
@@ -9594,12 +8739,6 @@
       name: "ベル"
       title: "発明エンジニア"
       flavour: "一握りの創意工夫と溢れる情熱があれば、世界の果てまでも飛んで行けるわ。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Tinker"
-      text: 
-        en: "Whenever this character quests, you pay 1 {I} less for the next item you play this turn."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Belle-Inventive-Engineer"
@@ -9619,7 +8758,7 @@
         zh: "142/204 ZH 1"
         ja: "142/204 JA 1"
         culture_invariant_id: 142
-        sort_number: -102
+        sort_number: -103
       rarity: legendary
       illustrator: "Alice Pisoni"
     - set: tfc
@@ -9633,7 +8772,7 @@
         zh: "214/204 ZH 1"
         ja: "214/204 JA 1"
         culture_invariant_id: 214
-        sort_number: -30
+        sort_number: -31
       rarity: enchanted
       illustrator: "Valerio Buonfantino"
   lore: 1
@@ -9670,13 +8809,6 @@
       name: "ベル"
       title: "美しいけど変わり者"
       flavour: "「遠い国で、決闘や、魔法や、変身した王子様…」"
-  abilities: 
-    - type: static
-      title: 
-        en: "My Favourite Part!"
-      text: 
-        en: "While you have 10 or more cards in your inkwell, this character gets +4 {L}."
-      ability: "effects"
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Belle-Strange-but-Special-V1"
@@ -9695,7 +8827,7 @@
         zh: "143/204 ZH 1"
         ja: "143/204 JA 1"
         culture_invariant_id: 143
-        sort_number: -101
+        sort_number: -102
       rarity: uncommon
       illustrator: "Pirel"
   lore: 3
@@ -9736,13 +8868,6 @@
       name: "村長トゥイ"
       title: "尊敬される指導者"
       flavour: "「お前を愛する人々の力をいつでも頼りにすることだ」"
-  abilities: 
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Chief-Tui-Respected-Leader"
@@ -9761,7 +8886,7 @@
         zh: "144/204 ZH 1"
         ja: "144/204 JA 1"
         culture_invariant_id: 144
-        sort_number: -100
+        sort_number: -101
       rarity: common
       illustrator: "Cam Kendell"
   lore: 2
@@ -9798,13 +8923,6 @@
       name: "ドナルドダック"
       title: "発明自慢"
       flavour: "懸命にじゃなくて、賢明に歩こう。"
-  abilities: 
-    - type: static
-      title: 
-        en: "ward"
-      text: 
-        en: "_(Opponents can't choose this character except to challenge.)_"
-      ability: "ward"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Donald-Duck-Strutting-His-Stuff"
@@ -9823,7 +8941,7 @@
         zh: "145/204 ZH 1"
         ja: "145/204 JA 1"
         culture_invariant_id: 145
-        sort_number: -99
+        sort_number: -100
       rarity: common
       illustrator: "Brian Weisz"
     - set: fab
@@ -9837,7 +8955,7 @@
         zh: "147/204 ZH 9"
         ja: "147/204 JA 9"
         culture_invariant_id: 2083
-        sort_number: -2062
+        sort_number: -2068
       rarity: common
       illustrator: "Brian Weisz"
   lore: 1
@@ -9896,7 +9014,7 @@
         zh: "146/204 ZH 1"
         ja: "146/204 JA 1"
         culture_invariant_id: 146
-        sort_number: -98
+        sort_number: -99
       rarity: uncommon
       illustrator: "Filipe Laurentino"
   lore: 1
@@ -9932,12 +9050,6 @@
       name: "タラおばあちゃん"
       title: "語り部"
       flavour: "モアナ 「私に言いたいことがあるんでしょう？」\nタラおばあちゃん 「何か聞きたいことがあるのかい？」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "I Will Be With You"
-      text: 
-        en: "When this character is banished, you may put this card into your inkwell facedown and exerted."
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Gramma-Tala-Storyteller"
@@ -9956,7 +9068,7 @@
         zh: "147/204 ZH 1"
         ja: "147/204 JA 1"
         culture_invariant_id: 147
-        sort_number: -97
+        sort_number: -98
       rarity: legendary
       illustrator: "Matthew Robert Davies"
     - set: fab
@@ -9970,7 +9082,7 @@
         zh: "151/204 ZH 9"
         ja: "151/204 JA 9"
         culture_invariant_id: 2087
-        sort_number: -2058
+        sort_number: -2064
       rarity: legendary
       illustrator: "Matthew Robert Davies"
     - set: fab
@@ -9984,7 +9096,7 @@
         zh: "237/204 ZH 9"
         ja: "237/204 JA 9"
         culture_invariant_id: 2155
-        sort_number: -1972
+        sort_number: -1978
       rarity: enchanted
       illustrator: "LadyShalirin"
   lore: 2
@@ -10025,12 +9137,6 @@
       name: "ハデス"
       title: "冥府の策謀家"
       flavour: "「きっと、あいつにも弱みはある。誰にだって一つや二つあるだろ？」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Is There a Downside to This?"
-      text: 
-        en: "When you play this character, you may put chosen opposing character into their player's inkwell facedown."
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hades-Infernal-Schemer"
@@ -10050,7 +9156,7 @@
         zh: "148/204 ZH 1"
         ja: "148/204 JA 1"
         culture_invariant_id: 148
-        sort_number: -96
+        sort_number: -97
       rarity: common
       illustrator: "R. La Barbera / L. Giammichele"
   lore: 2
@@ -10104,7 +9210,7 @@
         zh: "149/204 ZH 1"
         ja: "149/204 JA 1"
         culture_invariant_id: 149
-        sort_number: -95
+        sort_number: -96
       rarity: rare
       illustrator: "Filipe Laurentino"
   lore: 2
@@ -10146,23 +9252,6 @@
       name: "ジャスミン"
       title: "アグラバーの女王"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Caretaker"
-      text: 
-        en: "When you play this character and whenever she quests, you may remove up to 2 damage from each of your characters."
-    - type: static-triggered
-      title: 
-        en: "Caretaker"
-      text: 
-        en: "When you play this character and whenever she quests, you may remove up to 2 damage from each of your characters."
-    - type: static
-      title: 
-        en: "Shift 3"
-      text: 
-        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Jasmine.)_"
-      ability: "shift"
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Jasmine-Queen-of-Agrabah"
@@ -10181,7 +9270,7 @@
         zh: "150/204 ZH 1"
         ja: "150/204 JA 1"
         culture_invariant_id: 150
-        sort_number: -94
+        sort_number: -95
       rarity: common
       illustrator: "Nicholas Kole"
   lore: 2
@@ -10236,7 +9325,7 @@
         zh: "151/204 ZH 1"
         ja: "151/204 JA 1"
         culture_invariant_id: 151
-        sort_number: -93
+        sort_number: -94
       rarity: rare
       illustrator: "Gaku Kumatori"
     - set: p1
@@ -10309,7 +9398,7 @@
         zh: "152/204 ZH 1"
         ja: "152/204 JA 1"
         culture_invariant_id: 152
-        sort_number: -92
+        sort_number: -93
       rarity: rare
       illustrator: "Alex Accorsi"
   lore: 2
@@ -10346,17 +9435,6 @@
       name: "モーリス"
       title: "世界的な発明家"
       flavour: ""
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Give it a try"
-      text: 
-        en: "Whenever this character quests, you pay 2 {I} less for the next item you play this turn."
-    - type: static-triggered
-      title: 
-        en: "$undefined"
-      text: 
-        en: "$undefined"
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Maurice-World-Famous-Inventor"
@@ -10375,7 +9453,7 @@
         zh: "153/204 ZH 1"
         ja: "153/204 JA 1"
         culture_invariant_id: 153
-        sort_number: -91
+        sort_number: -92
       rarity: common
       illustrator: "Dave Beauchene"
   lore: 1
@@ -10412,13 +9490,6 @@
       name: "マーリン"
       title: "自薦の先生"
       flavour: "「よくもまあこんなに。あいやいや、呆れとる場合ではないぞ。遅れた中世を近代化せにゃ」"
-  abilities: 
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
   franchise_id: "the-sword-in-the-stone"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Merlin-Self-Appointed-Mentor"
@@ -10437,7 +9508,7 @@
         zh: "154/204 ZH 1"
         ja: "154/204 JA 1"
         culture_invariant_id: 154
-        sort_number: -90
+        sort_number: -91
       rarity: common
       illustrator: "Jared Nickerl"
     - set: p1
@@ -10451,7 +9522,7 @@
         zh: "8/P1 ZH 1"
         ja: "8/P1 JA 1"
         culture_invariant_id: 666
-        sort_number: -27
+        sort_number: -28
       rarity: special
       illustrator: "Jared Nickerl"
     - set: whi
@@ -10465,7 +9536,7 @@
         zh: "160/204 ZH 10"
         ja: "160/204 JA 10"
         culture_invariant_id: 2349
-        sort_number: -2303
+        sort_number: -2309
       rarity: common
       illustrator: "Victor \"Yano\" Covarrubias"
   lore: 1
@@ -10506,12 +9577,6 @@
       name: "ミッキーマウス"
       title: "名探偵"
       flavour: "その海藻がどこから来たかはともかく、彼には確信があった...何か魚ッとするような事件が起きていると。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Get a Clue"
-      text: 
-        en: "When you play this character, you may put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Detective"
@@ -10530,7 +9595,7 @@
         zh: "155/204 ZH 1"
         ja: "155/204 JA 1"
         culture_invariant_id: 155
-        sort_number: -89
+        sort_number: -90
       rarity: common
       illustrator: "Luis Huerta"
     - set: fab
@@ -10544,7 +9609,7 @@
         zh: "144/204 ZH 9"
         ja: "144/204 JA 9"
         culture_invariant_id: 2080
-        sort_number: -2065
+        sort_number: -2071
       rarity: common
       illustrator: "Luis Huerta"
   lore: 3
@@ -10604,7 +9669,7 @@
         zh: "156/204 ZH 1"
         ja: "156/204 JA 1"
         culture_invariant_id: 156
-        sort_number: -88
+        sort_number: -89
       rarity: common
       illustrator: "Leonardo Giammichele"
   lore: 1
@@ -10640,13 +9705,6 @@
       name: "ピロクテテス"
       title: "ヒーロー育成名人"
       flavour: "「一流を鍛えられるのは一流だけ！そして俺は一流のコーチだ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "support"
-      text: 
-        en: "_(Whenever this character quests, you may add their {S} to another chosen character's {S} this turn.)_"
-      ability: "support"
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Philoctetes-Trainer-of-Heroes"
@@ -10665,7 +9723,7 @@
         zh: "157/204 ZH 1"
         ja: "157/204 JA 1"
         culture_invariant_id: 157
-        sort_number: -87
+        sort_number: -88
       rarity: super_rare
       illustrator: "John Loren"
     - set: p1
@@ -10691,7 +9749,7 @@
         zh: "162/204 ZH 9"
         ja: "162/204 JA 9"
         culture_invariant_id: 2098
-        sort_number: -2047
+        sort_number: -2053
       rarity: rare
       illustrator: "John Loren"
   lore: 2
@@ -10731,18 +9789,6 @@
       name: "ロビン・フッド"
       title: "比類なき弓の名手"
       flavour: "「盗むんじゃない。みんなのために、ちょっと借りるだけさ」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Feed The Poor"
-      text: 
-        en: "When you play this character, if an opponent has more cards in their hand than you, draw a card."
-    - type: static
-      title: 
-        en: "Good Shot"
-      text: 
-        en: "During your turn, this character gains **Evasive**. (_They can challenge characters with Evasive._)"
-      ability: "gain-ability"
   franchise_id: "robin-hood"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Robin-Hood-Unrivaled-Archer"
@@ -10762,7 +9808,7 @@
         zh: "158/204 ZH 1"
         ja: "158/204 JA 1"
         culture_invariant_id: 158
-        sort_number: -86
+        sort_number: -87
       rarity: rare
       illustrator: "Bill Robinson"
   lore: 2
@@ -10798,12 +9844,6 @@
       name: "スカー"
       title: "黒幕"
       flavour: "「最高の計画には多少の危険が伴うものだ。ただし俺へのじゃあない」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Insidious plot"
-      text: 
-        en: "When you play this character, chosen opposing character gets -5 {S} this turn."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Scar-Mastermind"
@@ -10822,7 +9862,7 @@
         zh: "159/204 ZH 1"
         ja: "159/204 JA 1"
         culture_invariant_id: 159
-        sort_number: -85
+        sort_number: -86
       rarity: super_rare
       illustrator: "Leonardo Giammichele"
   lore: 1
@@ -10858,23 +9898,6 @@
       name: "タマトア"
       title: "シャイニー！"
       flavour: "「ダイヤのようにきらめき 注目されちゃうのさ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "Glam"
-      text: 
-        en: "This character gets +1 {L} for each item you have in play."
-      ability: "effects"
-    - type: resolution
-      title: 
-        en: "What have we here?"
-      text: 
-        en: "When you play this character and whenever he quests, you may return an item card from your discard to your hand."
-    - type: static-triggered
-      title: 
-        en: "What have we here?"
-      text: 
-        en: "When you play this character and whenever he quests, you may return an item card from your discard to your hand."
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tamatoa-So-Shiny"
@@ -10893,7 +9916,7 @@
         zh: "160/204 ZH 1"
         ja: "160/204 JA 1"
         culture_invariant_id: 160
-        sort_number: -84
+        sort_number: -85
       rarity: uncommon
       illustrator: "Cristian Romero"
   lore: 2
@@ -10951,7 +9974,7 @@
         zh: "161/204 ZH 1"
         ja: "161/204 JA 1"
         culture_invariant_id: 161
-        sort_number: -83
+        sort_number: -84
       rarity: common
       illustrator: "Pao Yong"
     - set: fab
@@ -10965,7 +9988,7 @@
         zh: "163/204 ZH 9"
         ja: "163/204 JA 9"
         culture_invariant_id: 2099
-        sort_number: -2046
+        sort_number: -2052
       rarity: common
       illustrator: "Pao Yong"
   cost: 1
@@ -10999,12 +10022,6 @@
       name: "本を読みたまえ"
       title: ""
       flavour: "「知識や知恵こそ<本当の力>だ！」\n― マーリン"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Develop Your Brain"
-      text: 
-        en: "Look at the top 2 cards of your deck. Put one into your hand and the other on the bottom of the deck."
   franchise_id: "the-sword-in-the-stone"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Develop-Your-Brain"
@@ -11024,7 +10041,7 @@
         zh: "162/204 ZH 1"
         ja: "162/204 JA 1"
         culture_invariant_id: 162
-        sort_number: -82
+        sort_number: -83
       rarity: rare
       illustrator: "Kenneth Anderson"
   cost: 3
@@ -11054,12 +10071,6 @@
       name: "バロック時代のものでして"
       title: ""
       flavour: "「ここにはなんと言ってもバロックしか似合いません」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "If It's Not Baroque"
-      text: 
-        en: "Return an item card from your discard to your hand."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/If-Its-Not-Baroque"
@@ -11078,7 +10089,7 @@
         zh: "163/204 ZH 1"
         ja: "163/204 JA 1"
         culture_invariant_id: 163
-        sort_number: -81
+        sort_number: -82
       rarity: rare
       illustrator: "Milica Celikovic"
     - set: p1
@@ -11119,7 +10130,7 @@
         zh: "163/204 ZH 11"
         ja: "163/204 JA 11"
         culture_invariant_id: 2626
-        sort_number: -2551
+        sort_number: -2559
       rarity: rare
       illustrator: "Hyuna Lee"
     - set: c2
@@ -11132,8 +10143,8 @@
         it: "10/C2 IT 1"
         zh: "10/C2 ZH 1"
         ja: "10/C2 JA 1"
-        culture_invariant_id: 1188
-        sort_number: 2707
+        culture_invariant_id: 2460
+        sort_number: -1
       rarity: special
       illustrator: "Milica Celikovic"
   cost: 5
@@ -11169,12 +10180,6 @@
       name: "LET IT GO"
       title: ""
       flavour: "どこまでやれるか 自分を試したいの そうよ変わるのよ 私！"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Let It Go"
-      text: 
-        en: "Put chosen character into their player's inkwell facedown and exerted."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Let-It-Go"
@@ -11193,7 +10198,7 @@
         zh: "164/204 ZH 1"
         ja: "164/204 JA 1"
         culture_invariant_id: 164
-        sort_number: -80
+        sort_number: -81
       rarity: uncommon
       illustrator: "Bill Robinson"
     - set: fab
@@ -11207,7 +10212,7 @@
         zh: "165/204 ZH 9"
         ja: "165/204 JA 9"
         culture_invariant_id: 2101
-        sort_number: -2044
+        sort_number: -2050
       rarity: common
       illustrator: "Bill Robinson"
   cost: 2
@@ -11243,12 +10248,6 @@
       name: "ONE JUMP AHEAD"
       title: ""
       flavour: "生きるため 食うためさ 仕方ないだろベイビー"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "One Jump Ahead"
-      text: 
-        en: "Put the top card of your deck into your inkwell facedown and exerted."
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/One-Jump-Ahead"
@@ -11268,7 +10267,7 @@
         zh: "165/204 ZH 1"
         ja: "165/204 JA 1"
         culture_invariant_id: 165
-        sort_number: -79
+        sort_number: -80
       rarity: common
       illustrator: "Bill Robinson"
   cost: 1
@@ -11298,12 +10297,6 @@
       name: "力を合わせて"
       title: ""
       flavour: "パチャ 「もっと全身で突っ張って！」\nクスコ 「体なら全力で張ってるよ！」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Work Together"
-      text: 
-        en: "Chosen character gains **Support** this turn."
   franchise_id: "the-emperors-new-groove"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Work-Together"
@@ -11322,7 +10315,7 @@
         zh: "166/204 ZH 1"
         ja: "166/204 JA 1"
         culture_invariant_id: 166
-        sort_number: -78
+        sort_number: -79
       rarity: uncommon
       illustrator: "Milica Celikovic"
     - set: fab
@@ -11336,7 +10329,7 @@
         zh: "169/204 ZH 9"
         ja: "169/204 JA 9"
         culture_invariant_id: 2105
-        sort_number: -2040
+        sort_number: -2046
       rarity: common
       illustrator: "Milica Celikovic"
   cost: 2
@@ -11370,12 +10363,6 @@
       name: "ココナッツのかご"
       title: ""
       flavour: "ココナッツは神々からの万能の贈り物で、ほとんどあらゆるものの材料になる―もっと多くのココナッツを運ぶためのかごだって作れるんだ。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Consider the Coconut"
-      text: 
-        en: "Whenever you play a character, you may remove up to 2 damage from chosen character."
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Coconut-Basket"
@@ -11395,7 +10382,7 @@
         zh: "167/204 ZH 1"
         ja: "167/204 JA 1"
         culture_invariant_id: 167
-        sort_number: -77
+        sort_number: -78
       rarity: uncommon
       illustrator: "Ron Baird"
   cost: 4
@@ -11425,12 +10412,6 @@
       name: "運命の目"
       title: ""
       flavour: "未来は変えることができる、自分が何を見ているのかさえわかれば。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "See the Future"
-      text: 
-        en: "Chosen character gets +1 {L} this turn."
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Eye-of-the-Fates"
@@ -11449,7 +10430,7 @@
         zh: "168/204 ZH 1"
         ja: "168/204 JA 1"
         culture_invariant_id: 168
-        sort_number: -76
+        sort_number: -77
       rarity: rare
       illustrator: "Tanisha Cherislin"
   cost: 3
@@ -11479,12 +10460,6 @@
       name: "魚の骨ペン"
       title: ""
       flavour: "「もし橋を渡りたきゃ通行料、さあさあ思い切って！」\n― アースラ"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Go Ahead And Sign"
-      text: 
-        en: "Put any card from your hand into your inkwell facedown."
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Fishbone-Quill"
@@ -11503,7 +10478,7 @@
         zh: "169/204 ZH 1"
         ja: "169/204 JA 1"
         culture_invariant_id: 169
-        sort_number: -75
+        sort_number: -76
       rarity: common
       illustrator: "Cory Godbey"
   cost: 1
@@ -11533,12 +10508,6 @@
       name: "魔法の黄金花"
       title: ""
       flavour: "むかしむかし、太陽のしずくが大空から落ちてきた。\n― フリン・ライダー"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Healing Pollen"
-      text: 
-        en: "Banish this item - Remove up to 3 damage from chosen character."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Magic-Golden-Flower"
@@ -11557,7 +10526,7 @@
         zh: "170/204 ZH 1"
         ja: "170/204 JA 1"
         culture_invariant_id: 170
-        sort_number: -74
+        sort_number: -75
       rarity: uncommon
       illustrator: "Grace Tran"
   cost: 1
@@ -11591,12 +10560,6 @@
       name: "アレンデールの王笏"
       title: ""
       flavour: ""
-  abilities: 
-    - type: activated
-      title: 
-        en: "Command"
-      text: 
-        en: "Chosen character gains **Support** this turn."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Scepter-of-Arendelle"
@@ -11615,7 +10578,7 @@
         zh: "171/204 ZH 1"
         ja: "171/204 JA 1"
         culture_invariant_id: 171
-        sort_number: -73
+        sort_number: -74
       rarity: common
       illustrator: "Randy Bishop"
   lore: 2
@@ -11669,7 +10632,7 @@
         zh: "172/204 ZH 1"
         ja: "172/204 JA 1"
         culture_invariant_id: 172
-        sort_number: -72
+        sort_number: -73
       rarity: uncommon
       illustrator: "Cookie"
   lore: 2
@@ -11710,12 +10673,6 @@
       name: "野獣"
       title: "傷心の頑固者"
       flavour: "「こんな姿じゃ無理だ。彼女の目から見れば…怪物だ」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Break"
-      text: 
-        en: "When you play this character, you may banish chosen item card."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Beast-Hardheaded"
@@ -11734,7 +10691,7 @@
         zh: "173/204 ZH 1"
         ja: "173/204 JA 1"
         culture_invariant_id: 173
-        sort_number: -71
+        sort_number: -72
       rarity: rare
       illustrator: "Adrianne Gumaya"
     - set: fab
@@ -11748,7 +10705,7 @@
         zh: "190/204 ZH 9"
         ja: "190/204 JA 9"
         culture_invariant_id: 2126
-        sort_number: -2019
+        sort_number: -2025
       rarity: rare
       illustrator: "Adrianne Gumaya"
   lore: 1
@@ -11790,12 +10747,6 @@
       name: "フック船長"
       title: "ジョリーロジャー号の船長"
       flavour: "「なんとも言えん眺めだぞスミー、これならイチコロ間違いなしだ」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "DOUBLE THE POWDER!"
-      text: 
-        en: "When you play this character, you may return an action card named Fire the Cannons! from your discard to your hand."
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Captain-of-the-Jolly-Roger"
@@ -11815,7 +10766,7 @@
         zh: "174/204 ZH 1"
         ja: "174/204 JA 1"
         culture_invariant_id: 174
-        sort_number: -70
+        sort_number: -71
       rarity: common
       illustrator: "Marcel Berg"
     - set: p1
@@ -11841,7 +10792,7 @@
         zh: "186/204 ZH 8"
         ja: "186/204 JA 8"
         culture_invariant_id: 1850
-        sort_number: -1767
+        sort_number: -1771
       rarity: common
       illustrator: "Ornella Savarese"
   lore: 1
@@ -11883,13 +10834,6 @@
       name: "フック船長"
       title: "強引な決闘者"
       flavour: "灯りを点け、剣を突きつけ、けりを付ける。"
-  abilities: 
-    - type: static
-      title: 
-        en: "challenger"
-      text: 
-        en: "**Challenger** +2 (_When challenging, this character get +2 {S}._)"
-      ability: "challenger"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Forceful-Duelist"
@@ -11909,7 +10853,7 @@
         zh: "175/204 ZH 1"
         ja: "175/204 JA 1"
         culture_invariant_id: 175
-        sort_number: -69
+        sort_number: -70
       rarity: rare
       illustrator: "Elliot Bocxtaele"
   lore: 1
@@ -11947,25 +10891,6 @@
       name: "フック船長"
       title: "あくどいことを考え中"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Stolen Dust"
-      text: 
-        en: "Characters with cost 3 or less can't challenge this character."
-      ability: "effects"
-    - type: static
-      title: 
-        en: "challenger"
-      text: 
-        en: "**Challenger** +3 (_When challenging, this character get +33 {S}._)"
-      ability: "challenger"
-    - type: static
-      title: 
-        en: "Shift 3"
-      text: 
-        en: "**Shift** 3 _(You may pay 3 {I} to play this on top of one of your characters named Captain Hook.)_"
-      ability: "shift"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Captain-Hook-Thinking-a-Happy-Thought"
@@ -11984,7 +10909,7 @@
         zh: "176/204 ZH 1"
         ja: "176/204 JA 1"
         culture_invariant_id: 176
-        sort_number: -68
+        sort_number: -69
       rarity: common
       illustrator: "Oleg Yurkov"
   lore: 1
@@ -12037,7 +10962,7 @@
         zh: "177/204 ZH 1"
         ja: "177/204 JA 1"
         culture_invariant_id: 177
-        sort_number: -67
+        sort_number: -68
       rarity: uncommon
       illustrator: "Dav Augereau"
     - set: p1
@@ -12051,7 +10976,7 @@
         zh: "13/P1 ZH 1"
         ja: "13/P1 JA 1"
         culture_invariant_id: 671
-        sort_number: -22
+        sort_number: -23
       rarity: special
       illustrator: "Dav Augereau"
   lore: 1
@@ -12088,19 +11013,6 @@
       name: "ドナルドダック"
       title: "銃士"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "Stay Alert!"
-      text: 
-        en: "During your turn, your Musketeer characters gain **Evasive.** _(They can challenge characters with Evasive.)_"
-      ability: "gain-ability"
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Donald-Duck-Musketeer"
@@ -12119,7 +11031,7 @@
         zh: "178/204 ZH 1"
         ja: "178/204 JA 1"
         culture_invariant_id: 178
-        sort_number: -66
+        sort_number: -67
       rarity: legendary
       illustrator: "Luis Huerta"
   lore: 2
@@ -12156,13 +11068,6 @@
       name: "ガントゥ"
       title: "銀河連邦大尉"
       flavour: "「のんびりと旅を楽しめ…逃げようなどと思うな！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "Under arrest"
-      text: 
-        en: "Characters with cost 2 or less can't challenge your characters."
-      ability: "effects"
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Gantu-Galactic-Federation-Captain"
@@ -12181,7 +11086,7 @@
         zh: "179/204 ZH 1"
         ja: "179/204 JA 1"
         culture_invariant_id: 179
-        sort_number: -65
+        sort_number: -66
       rarity: common
       illustrator: "Cam Kendell"
   lore: 1
@@ -12235,7 +11140,7 @@
         zh: "180/204 ZH 1"
         ja: "180/204 JA 1"
         culture_invariant_id: 180
-        sort_number: -64
+        sort_number: -65
       rarity: super_rare
       illustrator: "Kendall Hale"
   lore: 2
@@ -12272,12 +11177,6 @@
       name: "ハンス"
       title: "王位継承権第13位"
       flavour: "一番下にぶら下がっていることに飽きた彼は、新しいロープを手に入れることにした。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "STAGE LITTLE ACCIDENT"
-      text: 
-        en: "Whenever this character quests, you may deal 1 damage to chosen character."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hans-Thirteenth-in-Line"
@@ -12296,7 +11195,7 @@
         zh: "181/204 ZH 1"
         ja: "181/204 JA 1"
         culture_invariant_id: 181
-        sort_number: -63
+        sort_number: -64
       rarity: common
       illustrator: "Marcel Berg"
     - set: fab
@@ -12310,7 +11209,7 @@
         zh: "191/204 ZH 9"
         ja: "191/204 JA 9"
         culture_invariant_id: 2127
-        sort_number: -2018
+        sort_number: -2024
       rarity: common
       illustrator: "Marcel Berg"
   lore: 1
@@ -12351,13 +11250,6 @@
       name: "ヘラクレス"
       title: "真のヒーロー"
       flavour: "「フィル、認めたよね。今のは、ヒーローっぽかったろ？」"
-  abilities: 
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
   franchise_id: "hercules"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Hercules-True-Hero"
@@ -12377,7 +11269,7 @@
         zh: "182/204 ZH 1"
         ja: "182/204 JA 1"
         culture_invariant_id: 182
-        sort_number: -62
+        sort_number: -63
       rarity: common
       illustrator: "Ron Baird"
   lore: 2
@@ -12431,7 +11323,7 @@
         zh: "183/204 ZH 1"
         ja: "183/204 JA 1"
         culture_invariant_id: 183
-        sort_number: -61
+        sort_number: -62
       rarity: uncommon
       illustrator: "Jake Parker"
   lore: 2
@@ -12485,7 +11377,7 @@
         zh: "184/204 ZH 1"
         ja: "184/204 JA 1"
         culture_invariant_id: 184
-        sort_number: -60
+        sort_number: -61
       rarity: uncommon
       illustrator: "Jared Nickerl"
   lore: 2
@@ -12539,7 +11431,7 @@
         zh: "185/204 ZH 1"
         ja: "185/204 JA 1"
         culture_invariant_id: 185
-        sort_number: -59
+        sort_number: -60
       rarity: rare
       illustrator: "Isaiah Mesq"
     - set: p1
@@ -12608,7 +11500,7 @@
         zh: "186/204 ZH 1"
         ja: "186/204 JA 1"
         culture_invariant_id: 186
-        sort_number: -58
+        sort_number: -59
       rarity: rare
       illustrator: "Jochem Van Gool"
     - set: p1
@@ -12622,7 +11514,7 @@
         zh: "11/P1 ZH 1"
         ja: "11/P1 JA 1"
         culture_invariant_id: 669
-        sort_number: -24
+        sort_number: -25
       rarity: special
       illustrator: "Jochem Van Gool"
   lore: 2
@@ -12659,19 +11551,6 @@
       name: "ミッキーマウス"
       title: "銃士"
       flavour: ""
-  abilities: 
-    - type: static
-      title: 
-        en: "All For One"
-      text: 
-        en: "Your other Musketeer characters get +1 {S}."
-      ability: "effects"
-    - type: static
-      title: 
-        en: "bodyguard"
-      text: 
-        en: "**Bodyguard** _(This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)_"
-      ability: "bodyguard"
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Mickey-Mouse-Musketeer"
@@ -12690,7 +11569,7 @@
         zh: "187/204 ZH 1"
         ja: "187/204 JA 1"
         culture_invariant_id: 187
-        sort_number: -57
+        sort_number: -58
       rarity: common
       illustrator: "Cristian Romero"
     - set: fab
@@ -12704,7 +11583,7 @@
         zh: "194/204 ZH 9"
         ja: "194/204 JA 9"
         culture_invariant_id: 2130
-        sort_number: -2015
+        sort_number: -2021
       rarity: common
       illustrator: "Cristian Romero"
   lore: 1
@@ -12745,13 +11624,6 @@
       name: "エリック王子"
       title: "勇猛果敢"
       flavour: "「今度こそ彼女を！失いたくないんだ！」"
-  abilities: 
-    - type: static
-      title: 
-        en: "challenger"
-      text: 
-        en: "**Challenger** +2 (_When challenging, this character get +2 {S}._)"
-      ability: "challenger"
   franchise_id: "the-little-mermaid"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Prince-Eric-Dashing-and-Brave"
@@ -12771,7 +11643,7 @@
         zh: "188/204 ZH 1"
         ja: "188/204 JA 1"
         culture_invariant_id: 188
-        sort_number: -56
+        sort_number: -57
       rarity: common
       illustrator: "Nicholas Kole"
   lore: 1
@@ -12808,12 +11680,6 @@
       name: "シンバ"
       title: "未来の王様"
       flavour: "「ぼくはこれまででいちばんのプライドランドの王様になるんだ！」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Guess What?"
-      text: 
-        en: "When you play this character, you may draw a card, then choose and discard a card."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Future-King"
@@ -12832,7 +11698,7 @@
         zh: "189/204 ZH 1"
         ja: "189/204 JA 1"
         culture_invariant_id: 189
-        sort_number: -55
+        sort_number: -56
       rarity: rare
       illustrator: "Nicholas Kole"
     - set: tfc
@@ -12846,7 +11712,7 @@
         zh: "215/204 ZH 1"
         ja: "215/204 JA 1"
         culture_invariant_id: 215
-        sort_number: -29
+        sort_number: -30
       rarity: enchanted
       illustrator: "Hedvig Häggman-Sund"
   lore: 2
@@ -12883,19 +11749,6 @@
       name: "シンバ"
       title: "帰還した王"
       flavour: "「僕は自分の王国を救うためにどんなことでもする」"
-  abilities: 
-    - type: static
-      title: 
-        en: "challenger"
-      text: 
-        en: "**Challenger** +4 (_When challenging, this character get +43 {S}._)"
-      ability: "challenger"
-    - type: static
-      title: 
-        en: "Pounce"
-      text: 
-        en: "During your turn, this character gains **Evasive**. _(They can challenge characters with Evasive.)_"
-      ability: "gain-ability"
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Returned-King-V1"
@@ -12914,7 +11767,7 @@
         zh: "190/204 ZH 1"
         ja: "190/204 JA 1"
         culture_invariant_id: 190
-        sort_number: -54
+        sort_number: -55
       rarity: uncommon
       illustrator: "Cookie"
   lore: 2
@@ -12951,12 +11804,6 @@
       name: "シンバ"
       title: "正統後継者"
       flavour: "「もう隠れてはいられない。今こそ運命を受け入れる時だ」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "I Know What I Have To Do"
-      text: 
-        en: "During your turn, whenever this character banishes another character in a challenge, you gain 1 lore."
   franchise_id: "the-lion-king"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Simba-Rightful-Heir"
@@ -12975,7 +11822,7 @@
         zh: "191/204 ZH 1"
         ja: "191/204 JA 1"
         culture_invariant_id: 191
-        sort_number: -53
+        sort_number: -54
       rarity: uncommon
       illustrator: "Leonardo Giammichele"
   lore: 1
@@ -13012,13 +11859,6 @@
       name: "スターキー"
       title: "フックの手下"
       flavour: "海賊たるもの、タフで、忠実で、腕っぷし強くなきゃあならねえ。「賢さ」なんざどうでもいい。"
-  abilities: 
-    - type: static
-      title: 
-        en: "Ay Aye, Captain"
-      text: 
-        en: "While you have a Captain character in play, this character gets +1 {L}."
-      ability: "effects"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Starkey-Hooks-Henchman"
@@ -13037,7 +11877,7 @@
         zh: "192/204 ZH 1"
         ja: "192/204 JA 1"
         culture_invariant_id: 192
-        sort_number: -52
+        sort_number: -53
       rarity: legendary
       illustrator: "Andrew Trabbold"
   lore: 2
@@ -13074,12 +11914,6 @@
       name: "テ・カァ"
       title: "心なきもの"
       flavour: "マウイ 「溶岩の魔物を倒したことは？」\nモアナ 「ない。あなたは？」"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "$undefined"
-      text: 
-        en: "$undefined"
   franchise_id: "moana"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Te-K-Heartless"
@@ -13098,7 +11932,7 @@
         zh: "193/204 ZH 1"
         ja: "193/204 JA 1"
         culture_invariant_id: 193
-        sort_number: -51
+        sort_number: -52
       rarity: super_rare
       illustrator: "Cookie"
     - set: tfc
@@ -13112,7 +11946,7 @@
         zh: "216/204 ZH 1"
         ja: "216/204 JA 1"
         culture_invariant_id: 216
-        sort_number: -28
+        sort_number: -29
       rarity: enchanted
       illustrator: "Cookie"
     - set: fab
@@ -13126,7 +11960,7 @@
         zh: "188/204 ZH 9"
         ja: "188/204 JA 9"
         culture_invariant_id: 2124
-        sort_number: -2021
+        sort_number: -2027
       rarity: super_rare
       illustrator: "Cookie"
     - set: p3
@@ -13140,7 +11974,7 @@
         zh: "11/P3 ZH 9"
         ja: "11/P3 JA 9"
         culture_invariant_id: 2188
-        sort_number: -1964
+        sort_number: -1970
       rarity: special
       illustrator: "Cookie"
   lore: 2
@@ -13181,23 +12015,6 @@
       name: "ティンカー・ベル"
       title: "でっかい妖精"
       flavour: ""
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Rock the Boat"
-      text: 
-        en: "When you play this character, deal 1 damage to each opposing character."
-    - type: static-triggered
-      title: 
-        en: "Puny Pirate!"
-      text: 
-        en: "During your turn, whenever this character banishes another character in a challenge, you may deal 2 damage to chosen opposing character."
-    - type: static
-      title: 
-        en: "Shift 4"
-      text: 
-        en: "**Shift** 4 _(You may pay 4 {I} to play this on top of one of your characters named Tinker Bell.)_"
-      ability: "shift"
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Giant-Fairy-V1"
@@ -13217,7 +12034,7 @@
         zh: "194/204 ZH 1"
         ja: "194/204 JA 1"
         culture_invariant_id: 194
-        sort_number: -50
+        sort_number: -51
       rarity: common
       illustrator: "Grace Tran"
     - set: fab
@@ -13231,7 +12048,7 @@
         zh: "189/204 ZH 9"
         ja: "189/204 JA 9"
         culture_invariant_id: 2125
-        sort_number: -2020
+        sort_number: -2026
       rarity: common
       illustrator: "Grace Tran"
   lore: 1
@@ -13272,12 +12089,6 @@
       name: "ティンカー・ベル"
       title: "小さな戦術家"
       flavour: "小さな天才戦術家さえいれば万事大丈夫、って時もあるかな。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Battle plans"
-      text: 
-        en: "Draw a card, then choose and discard a card."
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Tinker-Bell-Tiny-Tactician"
@@ -13297,7 +12108,7 @@
         zh: "195/204 ZH 1"
         ja: "195/204 JA 1"
         culture_invariant_id: 195
-        sort_number: -49
+        sort_number: -50
       rarity: super_rare
       illustrator: "Koni"
     - set: c1
@@ -13343,12 +12154,6 @@
       name: "A WHOLE NEW WORLD"
       title: ""
       flavour: "見せてあげよう 輝く世界…"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "A Whole New World"
-      text: 
-        en: "Each player discards their hand and draws 7 cards."
   franchise_id: "aladdin"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/A-Whole-New-World"
@@ -13367,7 +12172,7 @@
         zh: "196/204 ZH 1"
         ja: "196/204 JA 1"
         culture_invariant_id: 196
-        sort_number: -48
+        sort_number: -49
       rarity: common
       illustrator: "Grace Tran"
   cost: 2
@@ -13397,12 +12202,6 @@
       name: "かんしゃく"
       title: ""
       flavour: "野獣のかんしゃくは、まさに野獣並み、としか言いようがない。"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Break"
-      text: 
-        en: "Banish chosen item."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Break"
@@ -13421,7 +12220,7 @@
         zh: "197/204 ZH 1"
         ja: "197/204 JA 1"
         culture_invariant_id: 197
-        sort_number: -47
+        sort_number: -48
       rarity: common
       illustrator: "Matt Chapman"
     - set: fab
@@ -13435,7 +12234,7 @@
         zh: "200/204 ZH 9"
         ja: "200/204 JA 9"
         culture_invariant_id: 2136
-        sort_number: -2009
+        sort_number: -2015
       rarity: common
       illustrator: "Matt Chapman"
   cost: 1
@@ -13469,12 +12268,6 @@
       name: "大砲発射！"
       title: ""
       flavour: "フック船長 「火薬を倍にして火縄を半分に！」\nミスター・スミー 「火薬は半分に火縄を倍！」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Fire the Cannons!"
-      text: 
-        en: "Deal 2 damage to chosen character."
   franchise_id: "peter-pan"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Fire-the-Cannons"
@@ -13494,7 +12287,7 @@
         zh: "198/204 ZH 1"
         ja: "198/204 JA 1"
         culture_invariant_id: 198
-        sort_number: -46
+        sort_number: -47
       rarity: rare
       illustrator: "Peter Brockhammer"
   cost: 5
@@ -13526,12 +12319,6 @@
       name: "剣をふるえ！"
       title: ""
       flavour: "得体 知れぬ ものはたとえ誰でも 怖くてたまらない"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Grab Your Sword"
-      text: 
-        en: "Deal 2 damage to each opposing character."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Grab-Your-Sword"
@@ -13550,7 +12337,7 @@
         zh: "199/204 ZH 1"
         ja: "199/204 JA 1"
         culture_invariant_id: 199
-        sort_number: -45
+        sort_number: -46
       rarity: uncommon
       illustrator: "Amber Kommavongsa"
   cost: 2
@@ -13580,12 +12367,6 @@
       name: "引っかき回し"
       title: ""
       flavour: "ラベル読んでるヒマなんてある？"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Ransack"
-      text: 
-        en: "Draw 2 cards, then choose and discard 2 cards."
   franchise_id: "the-emperors-new-groove"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Ransack"
@@ -13604,7 +12385,7 @@
         zh: "200/204 ZH 1"
         ja: "200/204 JA 1"
         culture_invariant_id: 200
-        sort_number: -44
+        sort_number: -45
       rarity: uncommon
       illustrator: "Simangaliso Sibaya"
     - set: fab
@@ -13618,7 +12399,7 @@
         zh: "198/204 ZH 9"
         ja: "198/204 JA 9"
         culture_invariant_id: 2134
-        sort_number: -2011
+        sort_number: -2017
       rarity: uncommon
       illustrator: "Simangaliso Sibaya"
   cost: 3
@@ -13652,12 +12433,6 @@
       name: "スマッシュ"
       title: ""
       flavour: "「出テイケ！」"
-  abilities: 
-    - type: resolution
-      title: 
-        en: "Smash"
-      text: 
-        en: "Deal 3 damage to chosen character."
   franchise_id: "frozen"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Smash"
@@ -13677,7 +12452,7 @@
         zh: "201/204 ZH 1"
         ja: "201/204 JA 1"
         culture_invariant_id: 201
-        sort_number: -43
+        sort_number: -44
       rarity: common
       illustrator: "Samanta Erdini"
     - set: fab
@@ -13691,7 +12466,7 @@
         zh: "203/204 ZH 9"
         ja: "203/204 JA 9"
         culture_invariant_id: 2139
-        sort_number: -2006
+        sort_number: -2012
       rarity: common
       illustrator: "Samanta Erdini"
   cost: 2
@@ -13725,12 +12500,6 @@
       name: "野獣の鏡"
       title: ""
       flavour: "野獣は自分の恐ろしい姿を恥じて、お城の中に閉じこもりました。魔法の鏡だけが、外の世界を見る唯一の窓でした。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Show Me"
-      text: 
-        en: "If you have no cards in your hand, draw a card."
   franchise_id: "beauty-and-the-beast"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Beasts-Mirror"
@@ -13750,7 +12519,7 @@
         zh: "202/204 ZH 1"
         ja: "202/204 JA 1"
         culture_invariant_id: 202
-        sort_number: -42
+        sort_number: -43
       rarity: uncommon
       illustrator: "Kamil Murzyn"
   cost: 2
@@ -13780,12 +12549,6 @@
       name: "フライパン"
       title: ""
       flavour: "上等な調理器具だけど、武器として使うと気が遠くなるくらいステキなのよ。"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Frying Pan"
-      text: 
-        en: "**CLANG!** Banish this item - Chosen character can't challenge during their next turn."
   franchise_id: "tangled"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Frying-Pan"
@@ -13804,7 +12567,7 @@
         zh: "203/204 ZH 1"
         ja: "203/204 JA 1"
         culture_invariant_id: 203
-        sort_number: -41
+        sort_number: -42
       rarity: rare
       illustrator: "Dav Augereau"
   cost: 4
@@ -13834,12 +12597,6 @@
       name: "銃士のタバード"
       title: ""
       flavour: "一匹狼の銃士なんてあり得ないよね。"
-  abilities: 
-    - type: static-triggered
-      title: 
-        en: "Musketeer Tabard"
-      text: 
-        en: "**ALL FOR ONE AND ONE FOR ALL** Whenever one of your characters with **Bodyguard** is banished, you may draw a card."
   franchise_id: "mickey-mouse-and-friends"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Musketeer-Tabard"
@@ -13858,7 +12615,7 @@
         zh: "204/204 ZH 1"
         ja: "204/204 JA 1"
         culture_invariant_id: 204
-        sort_number: -40
+        sort_number: -41
       rarity: rare
       illustrator: "Oleg Yurkov"
   cost: 3
@@ -13888,12 +12645,6 @@
       name: "プラズマブラスター"
       title: ""
       flavour: "「これを使うとき『ビーッ、ビビーッ』って言う必要はないけど、言っても損はないしね！」\n― 銀河のヒーロー・リロ"
-  abilities: 
-    - type: activated
-      title: 
-        en: "Quick Shot"
-      text: 
-        en: "Deal 1 damage to chosen character."
   franchise_id: "lilo-and-stitch"
   third_party: 
     card_market: "https://www.cardmarket.com/Lorcana/Products/Singles/The-First-Chapter/Plasma-Blaster"
